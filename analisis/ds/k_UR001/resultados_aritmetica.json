@@ -1,0 +1,15 @@
+{
+ "test1_directas": [
+  8,
+  63
+ ],
+ "test1_todas": null,
+ "test2_grupos_coinciden": 4,
+ "test3_repetidos": 228,
+ "test5_color_runs": {
+  "obs": 178,
+  "null": 334.204,
+  "p": 0.000999000999000999
+ },
+ "test7_p": 0.977022977022977
+}

@@ -1,0 +1,62 @@
+UR278: 61790 unidades, 28 registros, 9 columnas
+por columna (total del ledger): 5211-8466 u. (media 6866)
+
+=== 1. Si las 9 columnas son 9 cuadrillas de mit'a ===
+            unidad  kg_unidad  total_t  t_por_grupo      cultivo  trab_p5  trab_mediana  trab_p95
+racion_persona_dia        0.7     43.3          4.8 maiz (grano)      0.3           0.6       1.4
+racion_persona_dia        0.7     43.3          4.8       frijol      0.7           1.2       2.5
+racion_persona_dia        0.7     43.3          4.8 mani (vaina)      1.2           2.3       4.9
+racion_persona_dia        0.7     43.3          4.8   aji (seco)      4.0           7.9      17.6
+racion_persona_dia        0.7     43.3          4.8   papa/chuno      0.2           0.3       0.5
+         costal_25       25.0   1544.8        171.6 maiz (grano)     11.9          23.1      50.3
+         costal_25       25.0   1544.8        171.6       frijol     23.6          43.9      90.3
+         costal_25       25.0   1544.8        171.6 mani (vaina)     44.3          83.9     174.7
+         costal_25       25.0   1544.8        171.6   aji (seco)    143.8         280.8     620.9
+         costal_25       25.0   1544.8        171.6   papa/chuno      5.8          10.0      19.2
+            fanega       43.0   2657.0        295.2 maiz (grano)     20.7          39.8      87.4
+            fanega       43.0   2657.0        295.2       frijol     40.9          75.0     152.7
+            fanega       43.0   2657.0        295.2 mani (vaina)     77.0         144.8     302.5
+            fanega       43.0   2657.0        295.2   aji (seco)    247.1         480.2    1064.0
+            fanega       43.0   2657.0        295.2   papa/chuno     10.0          17.1      33.4
+
+Lectura: trabajadores por cuadrilla (mediana, p5-p95) para costal de 25 kg:
+   maiz (grano)    :     23 (   12-   50)
+   frijol          :     44 (   24-   90)
+   mani (vaina)    :     84 (   44-  175)
+   aji (seco)      :    281 (  144-  621)
+   papa/chuno      :     10 (    6-   19)
+
+La misma cuenta con racion de 0,7 kg da cuadrillas de:
+   maiz (grano)    :    0.6 (  0.3-  1.4) trabajadores
+   frijol          :    1.2 (  0.7-  2.5) trabajadores
+   mani (vaina)    :    2.3 (  1.2-  4.9) trabajadores
+   aji (seco)      :    7.9 (  4.0- 17.6) trabajadores
+   papa/chuno      :    0.3 (  0.2-  0.5) trabajadores
+
+=== 2. Si las 9 columnas son 9 depositos ===
+volumen util estimado 5440 m3; si las 9 columnas son las camaras grandes, 151 m3 por camara
+   arroba       (15.5 L): columna menor =  5211 u. =   80.8 m3 =  0.5 camaras
+   arroba       (15.5 L): columna mayor =  8466 u. =  131.2 m3 =  0.9 camaras
+   carga_llama  (35.0 L): columna menor =  5211 u. =  182.4 m3 =  1.2 camaras
+   carga_llama  (35.0 L): columna mayor =  8466 u. =  296.3 m3 =  2.0 camaras
+   costal_25    (34.5 L): columna menor =  5211 u. =  179.8 m3 =  1.2 camaras
+   costal_25    (34.5 L): columna mayor =  8466 u. =  292.1 m3 =  1.9 camaras
+   fanega       (55.5 L): columna menor =  5211 u. =  289.2 m3 =  1.9 camaras
+   fanega       (55.5 L): columna mayor =  8466 u. =  469.9 m3 =  3.1 camaras
+
+=== 3. Ritmo diario implicado (temporada de 30-60 dias) ===
+   racion_persona_dia  :   0.16 t por grupo y dia en una temporada de 30 dias
+   racion_persona_dia  :   0.08 t por grupo y dia en una temporada de 60 dias
+   costal_25           :   5.72 t por grupo y dia en una temporada de 30 dias
+   costal_25           :   2.86 t por grupo y dia en una temporada de 60 dias
+   fanega              :   9.84 t por grupo y dia en una temporada de 30 dias
+   fanega              :   4.92 t por grupo y dia en una temporada de 60 dias
+
+=== 4. Coherencia con la rotacion del deposito ===
+   arroba      : ledger del flujo =     711 t = 0.16-0.28 del deposito; si el ledger es 1 anio, rotacion 0.2-0.3/anio
+   carga_llama : ledger del flujo =    1637 t = 0.37-0.64 del deposito; si el ledger es 1 anio, rotacion 0.4-0.6/anio
+   costal_25   : ledger del flujo =    1545 t = 0.34-0.60 del deposito; si el ledger es 1 anio, rotacion 0.3-0.6/anio
+   fanega      : ledger del flujo =    2657 t = 0.59-1.04 del deposito; si el ledger es 1 anio, rotacion 0.6-1.0/anio
+   costal_50   : ledger del flujo =    3090 t = 0.69-1.21 del deposito; si el ledger es 1 anio, rotacion 0.7-1.2/anio
+
+OK -> mita_escenarios.csv

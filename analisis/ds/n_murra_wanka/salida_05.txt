@@ -1,0 +1,24 @@
+Quipus compatibles con la forma wanka predicha: 0 de 651 (0.0 %)
+Empty DataFrame
+Columns: [ncord, n_grupos, med_grupo, max_grupo, frac_num, hom_color, n_colores, procedencia]
+Index: []
+
+Base rates:
+  n_grupos   en [10,14]: 12.6 %
+  ncord      en [180,500]: 10.9 %
+  med_grupo  en [12,26]: 8.4 %
+  frac_num   en [0.55,1.0]: 84.8 %
+Esperado por independencia: 0.6 quipus; observado 0; razón 0.00
+
+Quipus con 11-13 grupos y >=150 cuerdas (candidatos a arquitectura de 12 categorías):
+        ncord  n_grupos  med_grupo  max_grupo  frac_num  hom_color  n_colores procedencia
+kfg                                                                                      
+UR093    1227        12       18.0         39  0.275469   0.702942         42     Unknown
+QU012     281        13        7.0         46  0.765125   0.443808          8     Unknown
+AS026B    260        13       10.0         10  0.880769   0.628460          4     Unknown
+UR058B    256        12        1.5         10  0.601562   0.589401         15     Unknown
+UR203     167        12        7.5         23  0.928144   0.687796         11     Unknown
+UR207     164        11       10.0         22  0.725610   0.492769         16     Unknown
+
+Procedencias que mencionan Mantaro/Jauja/Xauxa/Huanca: []
+Quipus con procedencia desconocida: 235

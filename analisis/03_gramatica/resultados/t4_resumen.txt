@@ -1,0 +1,41 @@
+dirLE: quipus con >=10 cuerdas etiquetadas=375; uniformes=40.0%; minoría >=10%=42.4%; S global=45.9%
+dirS: quipus con >=10 cuerdas etiquetadas=285; uniformes=74.7%; minoría >=10%=9.5%; S global=26.2%
+tor: quipus con >=10 cuerdas etiquetadas=439; uniformes=93.8%; minoría >=10%=1.8%; S global=92.3%
+misma cuerda, P(S) del largo/ocho menos P(S) de los simples, por quipu (n=314): media=0.122; LE más S en 118, menos en 62; Wilcoxon p=2.51e-08; cuerdas con LE y S en direcciones distintas=24.7%
+torsión x dirección del largo/ocho (todas las cuerdas; descriptivo):
+dirLE     S     Z
+tor              
+S      8233  9950
+Z       934   904
+
+etiqueta       hipotesis  quipus   Z_suma  p_corpus  quipus_q<0.05  frac_p<0.05  p_holm
+   dirLE    mitad|grupos     157  99.8378    0.0005              3       0.0892  0.0150
+   dirLE          inicio      94  -2.6000    0.6072              0       0.0106  1.0000
+   dirLE         bloques     100 152.3154    0.0005             20       0.3300  0.0150
+   dirLE           grupo      98 174.6415    0.0005             26       0.3367  0.0150
+   dirLE           mitad     101 180.5017    0.0005             12       0.2079  0.0150
+   dirLE       tok_color      99  57.2702    0.0005              6       0.1212  0.0150
+   dirLE tok_color|grupo      65  16.6402    0.0235              0       0.0462  0.1644
+   dirLE         union_n      50  70.4653    0.0005              4       0.1600  0.0150
+   dirLE            magn      90  77.4006    0.0005              3       0.0778  0.0150
+   dirLE      magn|grupo      56  11.5211    0.0650              0       0.0179  0.3898
+    dirS          inicio      28   0.8064    0.4363              0       0.1071  1.0000
+    dirS         bloques      31 119.4673    0.0005             19       0.6129  0.0150
+    dirS           grupo      29 140.1166    0.0005             15       0.5517  0.0150
+    dirS    mitad|grupos      29  54.2448    0.0005              2       0.1379  0.0150
+    dirS           mitad      31 398.6806    0.0005             12       0.4194  0.0150
+    dirS       tok_color      30  39.6036    0.0005              7       0.3000  0.0150
+    dirS         union_n      21  99.3498    0.0005              4       0.2857  0.0150
+    dirS            magn      27  40.4729    0.0005              2       0.2222  0.0150
+    dirS      magn|grupo      20  12.3977    0.0065              0       0.1000  0.0520
+    dirS tok_color|grupo      24  21.2078    0.0005              2       0.1250  0.0150
+     tor          inicio       8   1.0111    0.3503              0       0.0000  1.0000
+     tor         bloques       9  41.7952    0.0005              6       0.6667  0.0150
+     tor           grupo       8  53.1445    0.0005              5       0.6250  0.0150
+     tor    mitad|grupos       8   0.6077    0.4043              0       0.0000  1.0000
+     tor           mitad       9  43.9572    0.0005              5       0.5556  0.0150
+     tor       tok_color       9  83.5629    0.0005              5       0.5556  0.0150
+     tor tok_color|grupo       4  11.4737    0.0005              1       0.2500  0.0150
+     tor            magn       9  27.9863    0.0005              2       0.2222  0.0150
+     tor      magn|grupo       7  -1.0746    0.6362              0       0.0000  1.0000
+     tor         union_n       4  14.8081    0.0010              1       0.2500  0.0150

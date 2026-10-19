@@ -1,0 +1,6 @@
+id,variante,estadistico,n,aciertos,esperado,p,p_holm_m16,sig_holm_0.05
+H06,UR275,"cabecera == suma(resto), exacto",12,8.0,0.66,0.00012498437695288088,0.001999750031246094,True
+H06,UR269,"cabecera == suma(resto), exacto",30,10.0,0.47,0.00012498437695288088,0.001999750031246094,True
+H16,UR275,frac. error relativo < 5 %,12,1.0,0.094,0.00012498437695288088,0.001999750031246094,True
+H16,UR269,frac. error relativo < 5 %,30,0.667,0.066,0.00012498437695288088,0.001999750031246094,True
+H07,UR278,MAE por celda (predice perfil),9,40.4,"58.3 (nulo), 50.1 (novenos)",0.00012498437695288088,0.001999750031246094,True

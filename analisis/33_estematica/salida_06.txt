@@ -1,0 +1,8 @@
+(a) totales de grupo de UR004 en UR091 (exactos): 3 aparecen, 2 en orden; p(k)=0.4054  p(L)=0.6650  nulo medio k=2.29 L=1.80
+(a) totales de grupo de UR004 en UR091 (±1 nudo): 10 aparecen, 5 en orden; p(k)=0.5110  p(L)=0.4540  nulo medio k=9.57 L=4.46
+(a) totales de grupo de UR1034 en UR1145 (exactos): 5 aparecen, 5 en orden; p(k)=0.0131  p(L)=0.0004  nulo medio k=1.60 L=1.38
+(a) totales de grupo de UR1034 en UR1145 (±1 nudo): 9 aparecen, 5 en orden; p(k)=0.0990  p(L)=0.1000  nulo medio k=6.00 L=3.45
+(b) UR1034~UR1145: 5 valores >=10 compartidos, 3 en orden; p(L | mismos valores)=1.0000 (nulo medio L=3.29)
+(b) UR004~UR091: 10 valores >=10 compartidos, 5 en orden; p(L | mismos valores)=0.7396 (nulo medio L=4.96)
+barrido multibloque UR004~UR091: score 12.6 (máx. nulo 15.3), p=0.7, q=1
+barrido multibloque UR1034~UR1145: score 12.9 (máx. nulo 15.0), p=0.2, q=1

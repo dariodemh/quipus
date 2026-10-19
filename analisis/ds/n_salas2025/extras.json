@@ -1,0 +1,81 @@
+{
+ "n_quipus_n10": 538,
+ "z_media": 0.16975361503011335,
+ "z_sd": 2.575537976549529,
+ "z_chi2": {
+  "chi2": 3577.636745385324,
+  "gl": 538,
+  "p": 0.0
+ },
+ "quipus_todos_pares": 11,
+ "esperado_todos_pares": 0.04642573490896546,
+ "quipus_frac_even_gt_0.8": 47,
+ "esperado_frac_gt_0.8": 2.32542107454173,
+ "quipus_frac_even_lt_0.2": 8,
+ "esperado_frac_lt_0.2": 0.7790779415694372,
+ "total_par": {
+  "obs": 326,
+  "n_quipus": 641,
+  "tasa": 0.5085803432137286,
+  "p_exceso": 1.0
+ },
+ "cord_dia": {
+  "n_quipus_ge100": 126,
+  "fraccion_unos_media": 0.14598002768464538,
+  "fraccion_unos_mediana": 0.08812939340577532,
+  "quipus_frac_unos_gt_0.8": 0,
+  "quipus_frac_unos_lt_0.2": 92,
+  "top": [
+   {
+    "kfg": "AS071",
+    "n": 161,
+    "frac_unos": 0.7515527950310559
+   },
+   {
+    "kfg": "UR1032",
+    "n": 238,
+    "frac_unos": 0.7142857142857143
+   },
+   {
+    "kfg": "UR1057",
+    "n": 184,
+    "frac_unos": 0.6630434782608695
+   },
+   {
+    "kfg": "UR021",
+    "n": 137,
+    "frac_unos": 0.6204379562043796
+   },
+   {
+    "kfg": "UR003",
+    "n": 469,
+    "frac_unos": 0.5884861407249466
+   },
+   {
+    "kfg": "UR093",
+    "n": 338,
+    "frac_unos": 0.5414201183431953
+   },
+   {
+    "kfg": "UR087",
+    "n": 321,
+    "frac_unos": 0.5389408099688473
+   },
+   {
+    "kfg": "UR097",
+    "n": 153,
+    "frac_unos": 0.49019607843137253
+   },
+   {
+    "kfg": "AS026B",
+    "n": 229,
+    "frac_unos": 0.4497816593886463
+   },
+   {
+    "kfg": "QU007",
+    "n": 124,
+    "frac_unos": 0.4032258064516129
+   }
+  ]
+ }
+}

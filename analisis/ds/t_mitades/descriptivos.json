@@ -1,0 +1,58 @@
+{
+ "union": {
+  "con_datos": 448,
+  "mixtos": 159,
+  "pct_mixtos": 35.5
+ },
+ "direccion": {
+  "con_datos": 507,
+  "mixtos": 237,
+  "pct_mixtos": 46.7
+ },
+ "torsion": {
+  "con_datos": 515,
+  "mixtos": 28,
+  "pct_mixtos": 5.4
+ },
+ "uni_rachas": {
+  "n": 153,
+  "rachas_2": 24,
+  "frac_2": 0.157
+ },
+ "uni_2bloques": {
+  "n": 24,
+  "split_mediana": 0.46,
+  "IQR": [
+   0.065,
+   0.836
+  ],
+  "frac_split_0.4_0.6": 0.167
+ },
+ "kd_rachas": {
+  "n": 226,
+  "rachas_2": 16,
+  "frac_2": 0.071
+ },
+ "kd_2bloques": {
+  "n": 16,
+  "split_mediana": 0.577,
+  "IQR": [
+   0.27,
+   0.882
+  ],
+  "frac_split_0.4_0.6": 0.062
+ },
+ "sumas": {
+  "n": 567,
+  "mediana_ratio": 1.224,
+  "IQR_ratio": [
+   0.783,
+   2.162
+  ],
+  "pct_s1_mayor": 61.0,
+  "pct_exactamente_igual": 1.23
+ },
+ "n_quipus": 651,
+ "n_pendientes": 41714,
+ "quipus_n6": 604
+}

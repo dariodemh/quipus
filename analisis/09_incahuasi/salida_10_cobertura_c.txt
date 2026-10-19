@@ -1,0 +1,7 @@
+UR255 grupos con >=2 cuerdas 24 con una cuerda = 15 : 23 | total cuerdas con ese valor en el quipu 24 de 65 | 2 valores L0 mas repetidos [(15, 24), (100, 2), (160, 2)]
+UR267A grupos con >=2 cuerdas 26 con una cuerda = 15 : 25 | total cuerdas con ese valor en el quipu 25 de 75 | 2 valores L0 mas repetidos [(15, 25), (112, 2), (141, 2)]
+UR256 grupos con >=2 cuerdas 22 con una cuerda = 10 : 20 | total cuerdas con ese valor en el quipu 23 de 99 | 2 valores L0 mas repetidos [(10, 23), (63, 2), (100, 2)]
+UR267B grupos con >=2 cuerdas 25 con una cuerda = 10 : 25 | total cuerdas con ese valor en el quipu 26 de 93 | 2 valores L0 mas repetidos [(10, 26), (660, 2), (543, 2)]
+UR266 grupos con >=2 cuerdas 27 con una cuerda = 47 : 22 | total cuerdas con ese valor en el quipu 24 de 90 | 2 valores L0 mas repetidos [(47, 24), (1000, 3), (44, 2)]
+UR275 grupos con >=2 cuerdas 25 con una cuerda = 47 : 24 | total cuerdas con ese valor en el quipu 24 de 107 | 2 valores L0 mas repetidos [(47, 24), (1780, 2), (3317, 1)]
+UR269 grupos con >=2 cuerdas 60 con una cuerda = 47 : 8 | total cuerdas con ese valor en el quipu 8 de 189 | 2 valores L0 mas repetidos [(46, 14), (44, 10), (47, 8)]

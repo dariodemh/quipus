@@ -1,0 +1,10 @@
+Calibración por secuencia (cifras 'item' >= 10):
+  m4_chupaychos_inca           n= 9  >=10:  9  múltiplos de 10:  9  (1.00)  rango 10-400  repetidos adyacentes: 2
+  m5_chupaychos_gomez_arias    n= 3  >=10:  3  múltiplos de 10:  2  (0.67)  rango 29-100  repetidos adyacentes: 0
+  m16_sacaca_aves              n= 3  >=10:  2  múltiplos de 10:  1  (0.50)  rango 4-540  repetidos adyacentes: 0
+  m17_sacaca_montemayor        n= 3  >=10:  3  múltiplos de 10:  2  (0.67)  rango 20-605  repetidos adyacentes: 0
+  m22_hinojosa_pilco           n= 2  >=10:  2  múltiplos de 10:  1  (0.50)  rango 10-13  repetidos adyacentes: 0
+  m40_aldana_aullagas          n=11  >=10:  9  múltiplos de 10:  0  (0.00)  rango 3-53  repetidos adyacentes: 0
+  santa_padron_1670            n= 6  >=10:  4  múltiplos de 10:  0  (0.00)  rango 7-41  repetidos adyacentes: 0
+  chachapoyas_tributarios      n= 8  >=10:  8  múltiplos de 10:  3  (0.38)  rango 2200-17550  repetidos adyacentes: 0
+m40: 38+18+53+9+29+17+37+21+3+21+14 = 260 = subtotal declarado ANTES de la lista (total al inicio).

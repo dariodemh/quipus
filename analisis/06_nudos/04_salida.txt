@@ -1,0 +1,45 @@
+Cuerdas con >=1 racimo S/Z conocido: 34547; con >=2: 14884; mixtas S+Z: 3406 (22.9% de las de >=2) en 262 quipus
+  de las mixtas, 3275 (96.2%) son uniformes dentro de cada tipo: la mezcla = diferencia de direccion entre tipos distintos
+  mixtas DENTRO de un mismo tipo: 131 cuerdas en 60 quipus
+racimos que difieren de la direccion modal de su quipu x tipo: 4.31%  (quipus con >=20 racimos: mediana 0.51%)
+direccion por tipo y prefijo (Z%):
+p         AS              HP                       JC                     KH                        MM             QU                        UR                                           
+tipo       L       S       E       L        S       E      L       S       E        L        S       L      S       E        L       S        E         L         S      SP     TF       U
+mean    0.34    0.49    0.58     0.7     0.83    0.78    0.9    0.99    0.52     0.31     0.29    0.31    0.7    0.77     0.17    0.35     0.74      0.47      0.76    0.99    0.0    0.63
+size  327.00  194.00  291.00  1234.0  1667.00  271.00  468.0  314.00  244.00  1221.00  1392.00  701.00  716.0  356.00  1247.00  999.00  6245.00  19266.00  18073.00  165.00  108.0  153.00
+
+2. cuerdas mixtas dentro del mismo tipo (direccion vs posicion arriba/abajo y vs nivel decimal)
+  tipo  cuerdas  quipus  efecto_Z_arriba       p  cuerdas_niv  corr_dir_nivel  p_nivel
+0    S       62      34          -0.0922  0.2144         55.0         -0.2527   0.0477
+1    L       42      19          -0.0340  0.7522          NaN             NaN      NaN
+2    E       22       9          -0.2360  0.0812          NaN             NaN      NaN
+
+3. direccion de cuerda (modal) vs union R/V y color; nulo: permutar etiquetas dentro de quipu x conjunto de tipos
+   variable  n_quipus  n_cuerdas  efecto_medio_PZ       p  p_holm
+0         R        51       4944           0.0090  0.0330  0.2639
+1         W       164      16887           0.0183  0.0143  0.1290
+2       mix       152      18349          -0.0044  0.7681  1.0000
+3      R_UR        31       3411          -0.0314  0.8194  1.0000
+4      W_UR       131      14115           0.0156  0.0110  0.1210
+5      R_HP         3         79           0.0391  0.0646  0.4525
+6      W_HP        10        564           0.0421  0.6794  1.0000
+7      R_KH         2         63          -0.1197  0.7924  1.0000
+8      W_KH         5        621           0.1382  0.3309  1.0000
+9      R_QU        11       1224           0.0995  0.1853  1.0000
+10     W_QU         2        327           0.3031  0.0123  0.1233
+
+4. bloques de direccion a lo largo del quipu (cuerdas del mismo conjunto de tipos; cambios entre vecinas)
+strata evaluadas 77 en 55 quipus; con q<0.05: 33 en 23 quipus; p<0.05 sin corregir: 36 (esperado ~4)
+        kfg tipos    n      pZ  cambios  esperados       p   q_bh
+1     AS199   L+S   55  0.8545        4    13.6930  0.0005  0.002
+3     HP037     S   17  0.4706        1     8.4515  0.0005  0.002
+4   HP046_B     L   25  0.8400        1     6.7135  0.0005  0.002
+22    QU011     L   28  0.3571        1    12.8700  0.0005  0.002
+24    QU011     S   14  0.5714        1     6.8710  0.0005  0.002
+29    QU019   L+S   72  0.1806        2    21.2330  0.0005  0.002
+23    QU011   L+S   72  0.3611        1    33.1665  0.0005  0.002
+57   UR1084   L+S  107  0.1776        1    31.2145  0.0005  0.002
+49    UR085   L+S  121  0.1405       14    29.1330  0.0005  0.002
+55    UR103     S   34  0.7353        3    13.2730  0.0005  0.002
+58   UR1084     S   51  0.5098        1    25.4225  0.0005  0.002
+61   UR1113   L+S   73  0.1507        1    18.6580  0.0005  0.002

@@ -1,0 +1,49 @@
+grupos de 9: 237
+
+Grupos de 9 constantes:
+   kfg  grupo     forma  valor  en_productos  en_totales_x9                     vector
+ AS018      0 constante     70             0              0 70 70 70 70 70 70 70 70 70
+AS207A      7 constante     10             1              0 10 10 10 10 10 10 10 10 10
+ MM019      5 constante      2             1              0          2 2 2 2 2 2 2 2 2
+ MM019      6 constante      2             1              0          2 2 2 2 2 2 2 2 2
+ MM019      8 constante      2             1              0          2 2 2 2 2 2 2 2 2
+Coincidencias exactas con las listas de la Visita: 0
+ventanas de 9 dentro de un mismo quipu: 23752
+
+Ventanas de 9 mas parecidas al vector de productos (error relativo L2):
+   kfg   pos  escala  error_rel                    vector
+ UR203 23255   1.360   0.164280       3 36 3 4 7 30 8 2 3
+UR1088 16261   0.419   0.198402       2 10 2 1 2 10 3 1 2
+ JC001  5554   2.978   0.201696  10 80 18 10 20 50 40 4 5
+ UR004  9833   0.204   0.209931         2 5 1 1 1 4 2 1 1
+ UR004  9517   4.610   0.211549 1 123 22 20 23 101 29 2 2
+AS207A  3663   0.378   0.215178         1 9 2 1 2 9 3 1 2
+UR1088 16253   0.411   0.234827       2 10 2 1 2 10 2 1 2
+UR1088 16277   0.411   0.234827       2 10 2 1 2 10 2 1 2
+UR1088 16257   0.411   0.234827       2 10 2 1 2 10 2 1 2
+UR1088 16269   0.411   0.234827       2 10 2 1 2 10 2 1 2
+UR1088 16249   0.411   0.234827       2 10 2 1 2 10 2 1 2
+UR1088 16273   0.411   0.234827       2 10 2 1 2 10 2 1 2
+
+Ventanas mas parecidas a los totales x9 (mejor escala global):
+   kfg   pos  escala  error_rel                    vector
+ UR203 23255    0.15   0.164280       3 36 3 4 7 30 8 2 3
+UR1088 16261    0.05   0.198402       2 10 2 1 2 10 3 1 2
+ JC001  5554    0.33   0.201696  10 80 18 10 20 50 40 4 5
+ UR004  9833    0.02   0.209931         2 5 1 1 1 4 2 1 1
+ UR004  9517    0.51   0.211549 1 123 22 20 23 101 29 2 2
+AS207A  3663    0.04   0.215178         1 9 2 1 2 9 3 1 2
+
+Minimo error relativo observado vs nulo (barajar dentro de cada quipu):
+  productos : obs 0.1643; nulo medio 0.1464 (min 0.0568); p = 0.7552
+  totales_x9: obs 0.1643; nulo medio 0.1464 (min 0.0568); p = 0.7552
+
+Quipus con >=9 grupos de 9:
+  UR278: 24 grupos, 0 constantes
+  UR1140: 20 grupos, 0 constantes
+  UR1136: 18 grupos, 0 constantes
+  UR1131: 11 grupos, 0 constantes
+
+Grupos de 9 con el mismo vector (repetido en el mismo quipu):
+  MM019: g5 = g6 = (np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2))
+  MM019: g6 = g8 = (np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2))

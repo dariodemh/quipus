@@ -1,0 +1,5 @@
+=== Nulo de produccion independiente (permutar cada columna por separado, 5000) ===
+W: observado 0.4837; nulo 0.1761 (p05 0.1496, p95 0.2038); p_sup 0.00020, p_inf 1.00000
+PC1: observado 0.4277; nulo 0.3561 (p05 0.3115, p95 0.4092); p_sup 0.01540, p_inf 0.98480
+corr: observado -0.1143; nulo -0.1119 (p05 -0.1171, p95 -0.1056); p_sup 0.74665, p_inf 0.25355
+Lectura: W observado (0,484) es muy superior al nulo (0,176): las filas se parecen mucho mas que si cada columna fuera independiente. PC1 tambien es algo mayor. La correlacion media es negativa y no difiere del nulo: la suma constante domina esa medida, que NO sirve para detectar un perfil comun.

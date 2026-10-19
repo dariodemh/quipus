@@ -1,0 +1,35 @@
+         A       B          tipo prefijos  n_alineadas  solo_A  solo_B  pct_exacta  n_pm1_nudo  n_misma_cifra_otra_posicion  n_transposicion  n_un_digito_otro  n_varias_cifras
+0    HP055  UR1084         copia    HP/UR          142      18       9        0.85           8                            2                0                 5                6
+1   UR1175   UR233         copia    UR/UR           93      43       0        0.83          11                            1                0                 1                3
+2   KH0049   UR122         copia    KH/UR           80      11       8        0.75           2                            0                0                 5               13
+3   UR053B  UR053C         copia    UR/UR           48       0       0        0.73           3                            0                0                 8                2
+4    UR006   UR009         copia    UR/UR           61       3       5        0.90           4                            0                0                 2                0
+5    UR064   UR068         copia    UR/UR           47       2       3        0.87           4                            0                0                 2                0
+6   UR1175   UR232         copia    UR/UR           50      18       0        0.76           6                            1                0                 2                3
+7   KH0033   UR044  mismo_objeto    KH/UR           23       0       0        1.00           0                            0                0                 0                0
+8   UR1107   UR237  mismo_objeto    UR/UR           26       0       0        0.88           0                            2                0                 1                0
+9    AS128   QU013         debil    AS/QU           28       0       0        1.00           0                            0                0                 0                0
+10   MM015   UR212         copia    MM/UR           13       0       0        1.00           0                            0                0                 0                0
+11  UR1114  UR1123         copia    UR/UR           10       0       0        1.00           0                            0                0                 0                0
+12   UR009   UR021         copia    UR/UR           21       0       0        0.86           1                            0                0                 2                0
+13   UR066   UR067         copia    UR/UR           21       1       1        0.95           0                            0                0                 1                0
+14   MM016   UR212         copia    MM/UR           13       0       1        0.85           1                            0                1                 0                0
+15   UR006   UR021         copia    UR/UR           19       1       1        0.95           1                            0                0                 0                0
+16   AS125   UR247  mismo_objeto    AS/UR           15       0       0        0.93           0                            0                0                 0                1
+17   UR113   UR271         debil    UR/UR           10       1       0        0.90           0                            1                0                 0                0
+18  UR1118   UR218         copia    UR/UR            8       0       0        0.88           0                            0                0                 1                0
+19   QU002   UR137         copia    QU/UR           11       1       0        0.91           1                            0                0                 0                0
+20   AS159   AS173         copia    AS/AS            8       0       0        1.00           0                            0                0                 0                0
+21   MM008   UR212         copia    MM/UR            8       0       1        1.00           0                            0                0                 0                0
+22   UR255  UR267A         copia    UR/UR           28       2      12        0.96           1                            0                0                 0                0
+23   MM016  UR1131         copia    MM/UR            5       0       0        1.00           0                            0                0                 0                0
+24   MM019  UR131C         debil    MM/UR            8       0       0        0.88           0                            0                0                 0                1
+        A       B lado  n_solitarias  de_span  valor_mas_concentrado  solitarias_de_ese_valor  total_ese_valor_en_span  p_hiper  p_holm_valores
+0   HP055  UR1084    A            18      160                    222                        8                       14   0.0000          0.0000
+1   HP055  UR1084    B             9      151                     32                        3                       20   0.0993          0.3974
+2  UR1175   UR233    A            43      136                     10                        6                       12   0.1346          1.0000
+3  KH0049   UR122    A            11       91                      1                        6                       25   0.0419          0.0838
+4  KH0049   UR122    B             8       88                      4                        1                        3   0.2513          1.0000
+5   UR006   UR009    B             5       66                      1                        2                       25   0.6329          1.0000
+6  UR1175   UR232    A            18       68                     12                        2                        5   0.3991          1.0000
+7   UR255  UR267A    B            12       40                     15                        2                       12   0.9484          0.9484

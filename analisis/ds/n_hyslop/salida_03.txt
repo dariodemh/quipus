@@ -1,0 +1,18 @@
+MIT'A (costal 25 kg; trabajadores totales = 9 grupos)
+  maiz (grano)   p5=  107  mediana=  208  p95=  453
+  frijol         p5=  212  mediana=  395  p95=  813
+  mani (vaina)   p5=  399  mediana=  755  p95= 1572
+  aji (seco)     p5= 1294  mediana= 2527  p95= 5588
+  papa/chuno     p5=   52  mediana=   90  p95=  173
+
+PERSONAS-DIA DEL DEPOSITO (0,4-0,7 t/m3; 0,7-1,5 kg/dia)
+  S1: 1.71-6.40 millones de personas-dia; 10.000 hombres 171-640 dias; 20.000 85-320 dias
+  S4: 4.32-16.20 millones de personas-dia; 10.000 hombres 432-1620 dias; 20.000 216-810 dias
+
+ALMACENAJE POR 1000 HABITANTES
+   6400 m3 / 1000 hab =   6400 m3/1000; 8.2-10.6 x la sierra
+   6400 m3 / 2000 hab =   3200 m3/1000; 4.1-5.3 x la sierra
+  10876 m3 / 1000 hab =  10876 m3/1000; 13.9-18.0 x la sierra
+  10876 m3 / 2000 hab =   5438 m3/1000; 7.0-9.0 x la sierra
+  16200 m3 / 1000 hab =  16200 m3/1000; 20.8-26.8 x la sierra
+  16200 m3 / 2000 hab =   8100 m3/1000; 10.4-13.4 x la sierra

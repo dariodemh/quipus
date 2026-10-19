@@ -1,0 +1,11 @@
+kfg,n_cuerdas,n_niveles,prof,n_grupos,n_colores,color_top,color_top_n,vmin,vmax,n_ceros_reales,n_sin_nudos,n_nudos_clusters,torsion,union_set,n_top_t,n_RV,n_R,n_V,kn_types_top,dirs
+AS069,1831,3,2,432,245,W|W:FB|BS,1409|38|34,1.0,585.0,0,0,618,U,U|Unknown,0,0,0,0,L|S|E|LL,U
+KH0083,585,6,5,60,167,W|W-DB|AB,128|63|38,1.0,748.0,0,0,556,S|U,R|U|Unknown,0,87,87,0,S|L|E|EE,S|U|Z
+KH0267,22,3,2,6,6,W:LK|PR|MG,7|7|4,1.0,800.0,0,0,22,S,U|V,0,7,0,7,S|L|E,S|Z
+UR058A,275,4,3,9,27,W:KB|W-KB|AB,61|33|31,1.0,80.0,0,0,231,S|U,?|R|U,0,58,58,0,S|E|L,S|Z
+UR084,23,3,2,6,11,W:KB|MB-KB|MB:KB,5|4|3,1.0,500.0,0,0,17,S,U,0,0,0,0,S|E|L,S|Z
+UR130,126,3,2,7,23,W|AB|KB,74|16|6,1.0,108.0,0,0,107,S|U,R|U|Unknown|V,0,53,52,1,S|L|E|EE,S|Z
+UR131A,89,3,2,9,6,AB|W|W:AB,82|1|1,2.0,748.0,0,0,117,S,?|R|U|V,0,63,22,41,S|L|E,S
+UR131B,105,3,2,12,5,AB|AB:MB|MB,90|6|4,1.0,1152.0,0,0,125,S,?|R|U|V,0,66,30,36,S|L|E,S|Z
+UR131C,100,3,2,10,4,AB|W:KB|MB,90|4|4,1.0,766.0,0,0,116,S,R|U|V,0,63,26,37,S|L|E,S
+UR132,57,2,1,1,16,LK|PR|W-KB,8|7|6,1.0,400.0,1,0,47,S,U,0,0,0,0,S|E|L|U,S|U|Z

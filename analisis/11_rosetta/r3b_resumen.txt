@@ -1,0 +1,2 @@
+m40 sin totales (11 pueblos): info máx 15.1; p mediana 2.5e-08; detectada a p <= 4.9e-06 en 95%; p<0,001 en 100%
+m4 (9 servicios): info máx 15.1; p mediana 7.6e-09; detectada a p <= 4.9e-06 en 89%; p<0,001 en 100%

@@ -1,0 +1,20 @@
+== colgante+s1: grupos UR270 con >=9 colgantes = 12; UR278 grupos = 30
+   mejor (matches, grupo UR278) por grupo UR270: {'0': (9, '21'), '4': (9, '25'), '5': (7, '26'), '6': (1, '30'), '8': (8, '27'), '9': (6, '28'), '10': (5, '29'), '12': (2, '30'), '19': (1, '29'), '22': (2, '34'), '23': (1, '5'), '24': (1, '5')}
+   grupos con >=6/9: 5
+   g0: obs=9/9 -> 21  nulo media=1.47  p=0.0001
+   g4: obs=9/9 -> 25  nulo media=1.42  p=0.0001
+   g5: obs=7/9 -> 26  nulo media=1.19  p=0.0001
+   g6: obs=1/9 -> 30  nulo media=0.86  p=0.8376
+   g8: obs=8/9 -> 27  nulo media=1.37  p=0.0001
+   g9: obs=6/9 -> 28  nulo media=1.23  p=0.0001
+   g10: obs=5/9 -> 29  nulo media=1.15  p=0.0002
+   g12: obs=2/9 -> 30  nulo media=1.14  p=0.1410
+   g19: obs=1/9 -> 29  nulo media=0.93  p=0.9344
+   g22: obs=2/9 -> 34  nulo media=2.00  p=1.0000
+   g23: obs=1/9 -> 5  nulo media=0.95  p=0.8959
+   g24: obs=1/9 -> 5  nulo media=0.94  p=0.8804
+   nulo: numero de grupos >=6/9 medio=0.00, P(>= 5)=0.0001
+   vector g0: [237, 295, 138, 198, 201, 153, 106, 138, 187]
+== control solo colgantes: grupos UR270 con >=9 colgantes = 12; UR278 grupos = 30
+   mejor (matches, grupo UR278) por grupo UR270: {'0': (1, '1'), '4': (1, '1'), '5': (2, '1'), '6': (0, '0'), '8': (1, '21'), '9': (0, '0'), '10': (2, '34'), '12': (2, '33'), '19': (1, '26'), '22': (2, '34'), '23': (1, '5'), '24': (1, '5')}
+   grupos con >=6/9: 0

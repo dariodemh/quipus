@@ -1,0 +1,42 @@
+(a) Exceso de valores 'típicos' frente a la vecindad x±2 (binomial p0=1/5, Holm sobre 20 pruebas)
+                            variable  valor  n_x  n_ventana  esperado      p   holm
+                    R tablas (n=177)      4   25         75      15.0 0.0047 0.0933
+                    R tablas (n=177)      5   12         85      17.0 0.9373 1.0000
+                    R tablas (n=177)      6   17         74      14.8 0.3030 1.0000
+                    R tablas (n=177)     10    8         44       8.8 0.6771 1.0000
+                    R tablas (n=177)     12    9         33       6.6 0.2000 1.0000
+                    K tablas (n=177)      4   31        113      22.6 0.0352 0.5979
+                    K tablas (n=177)      5   17        116      23.2 0.9446 1.0000
+                    K tablas (n=177)      6   29        104      20.8 0.0332 0.5979
+                    K tablas (n=177)     10    3         41       8.2 0.9934 1.0000
+                    K tablas (n=177)     12    4         14       2.8 0.3018 1.0000
+            nº grupos corpus (n=580)      4   59        262      52.4 0.1726 1.0000
+            nº grupos corpus (n=580)      5   29        211      42.2 0.9929 1.0000
+            nº grupos corpus (n=580)      6   45        194      38.8 0.1532 1.0000
+            nº grupos corpus (n=580)     10   35        122      24.4 0.0136 0.2592
+            nº grupos corpus (n=580)     12   18         81      16.2 0.3501 1.0000
+tamaño modal de grupo corpus (n=624)      4   77        368      73.6 0.3486 1.0000
+tamaño modal de grupo corpus (n=624)      5   62        319      63.8 0.6214 1.0000
+tamaño modal de grupo corpus (n=624)      6   70        288      57.6 0.0422 0.6752
+tamaño modal de grupo corpus (n=624)     10   37        147      29.4 0.0744 1.0000
+tamaño modal de grupo corpus (n=624)     12   24         88      17.6 0.0618 0.9268
+distribución R (tablas): {3: 21, 4: 25, 5: 12, 6: 17, 7: 10, 8: 10, 9: 10, 10: 8, 11: 7, 12: 9, 13: 5, 14: 4, 15: 5, 16: 4, 17: 3, 18: 2, 19: 2, 20: 6, 22: 3, 23: 2, 25: 2, 28: 1, 30: 1, 34: 2, 40: 1}
+distribución K (tablas): {2: 10, 3: 26, 4: 31, 5: 17, 6: 29, 7: 13, 8: 14, 9: 15, 10: 3, 11: 5, 12: 4, 14: 2, 16: 1, 17: 1, 18: 3, 20: 2, 22: 1}
+distribución nº de grupos (corpus, 1-30): {1: 71, 2: 82, 3: 47, 4: 59, 5: 29, 6: 45, 7: 31, 8: 30, 9: 27, 10: 35, 11: 12, 12: 18, 13: 10, 14: 6, 15: 6, 16: 12, 17: 10, 18: 9, 19: 4, 20: 5, 21: 11, 22: 4, 23: 4, 24: 7, 25: 7, 26: 5, 27: 2, 28: 5, 29: 2, 30: 3}
+distribución tamaño modal de grupo (corpus): {2: 89, 3: 70, 4: 77, 5: 62, 6: 70, 7: 40, 8: 39, 9: 31, 10: 37, 11: 16, 12: 24, 13: 3, 14: 8, 15: 6, 16: 11, 17: 3, 18: 8, 19: 1, 20: 4, 21: 3}
+R múltiplo de 10: 18 de 177; múltiplo de 5: 37
+
+(b-d) prueba | quipus con estadístico>0 | suma obs | suma esperada nulo | q<0,05 (BH) | quipus
+fuera_col | 44 | 376 | 283.1 | 6 | HP017(6), UR119(1), UR198(6), UR202(13), UR231(6), UR256(2)
+fuera_fila | 56 | 319 | 279.6 | 6 | AS006(4), AS044(6), UR1096(6), UR118(7), UR119(5), UR166(4)
+fuera_tramo | 124 | 2643 | 2696.7 | 0 | 
+fres_resto | 26 | 47 | nan | 1 | UR1120(7)
+fres_acum | 45 | 62 | nan | 1 | AS008(3)
+fila_suma | 16 | 34 | 24.5 | 0 | 
+dup | 24 | 198 | 108.5 | 11 | AS156(65), AS207A(2), HP051_B(6), JC001(1), UR087(5), UR1033C(6), UR1057(15), UR1088(37), UR1109(8), UR1121(10), UR1149(6)
+dup_contig | 17 | 40 | 16.1 | 7 | AS200(3), UR087(2), UR1057(2), UR1109(3), UR1121(3), UR1149(3), UR199(1)
+Cuerdas fuera de tabla con valor: 5874 en 153 quipus; cuerdas superiores T: 37 en 7 quipus
+Coincidencias con el gran total de la tabla: 0 en quipus 
+
+(e) MI normalizada color~fila vs color~columna: mediana fila 0.236, columna 0.645; quipus donde fila > columna: 45 de 176
+(MI con fila está inflada por tener R categorías con K celdas cada una; comparar solo como orden de magnitud)

@@ -1,0 +1,36 @@
+== pares alineados (≥ 6 colgantes de nivel 0 con color en ambos) ==
+         A       B invA invB  sentido  n_alineadas  n_colores_A  n_colores_B  etiqueta_exacta    ARI  ARI_nulo  p_ARI  kappa_cambio  kappa_nulo  p_kappa  R1_nA  R1_nB  R1_comparte  R1_concuerda  R1_dmin  R2_comparte  R2_concuerda  R2_dmin
+0    HP055  UR1084   HP   AS  directo          142           12           12            0.141  0.239     0.025  0.014        -0.064       0.000    0.950     30     23         True          True    0.251         True         False    5.436
+1   UR1175   UR233   AS   UR  directo           88            5           14            0.102  0.474     0.046  0.011        -0.016       0.000    1.000      6      4         True         False    1.700        False         False      NaN
+2   KH0049   UR122   KH   UR  directo           20            3            2            0.350  0.016    -0.002  0.500         0.073      -0.004    0.579     51      0        False         False      NaN        False         False      NaN
+3   UR053B  UR053C   UR   UR  directo           32            2            3            0.750  0.739     0.739  1.000           NaN         NaN    0.032      6     31         True         False    1.575        False         False      NaN
+4    UR006   UR009   UR   UR  inverso           35            6           10            0.486  0.157    -0.005  0.114         0.285      -0.009    0.147     59      2         True         False    0.451        False         False      NaN
+5    UR064   UR068   UR   UR  directo           47            8            5            0.596  0.747     0.025  0.021         1.000      -0.022    0.022      6      3         True         False    2.760        False         False      NaN
+6   UR1175   UR232   AS   UR  directo           45            5           10            0.244  0.483     0.045  0.022        -0.023       0.001    1.000      6      7         True          True    0.428        False         False      NaN
+7   KH0033   UR044   KH   UR  directo           16            1            1            1.000    NaN       NaN  0.062           NaN         NaN    0.067      0      0        False         False      NaN        False         False      NaN
+8   UR1107   UR237   AS   UR  inverso           23            4            8            0.000  0.255    -0.018  0.043         0.172      -0.008    0.409      0      0        False         False      NaN        False         False      NaN
+9    AS128   QU013   AS   QU  inverso           28            3            3            0.000  1.000     0.434  0.036         1.000      -0.038    0.037     11      3         True         False    0.488        False         False      NaN
+10   MM015   UR212   MM   UR  inverso           13            2            4            0.000  0.176    -0.015  0.154         0.125      -0.011    0.667      0      9        False         False      NaN        False         False      NaN
+11  UR1114  UR1123   AS   AS  directo           10            1            1            0.000    NaN       NaN  0.100           NaN         NaN    0.111      6      0        False         False      NaN        False         False      NaN
+12   UR009   UR021   UR   UR  inverso           19            9            6            0.211  0.026     0.001  0.579        -0.080       0.005    1.000      3      2         True          True    0.391        False         False      NaN
+13   UR066   UR067   UR   UR  directo           18            7            7            0.444  0.579    -0.003  0.056         0.638      -0.040    0.118      1      1         True          True    0.111        False         False      NaN
+14   MM016   UR212   MM   UR  inverso           13            3            4            0.000  0.106    -0.002  0.308         0.000       0.000    0.833      0      9        False         False      NaN        False         False      NaN
+15   UR006   UR021   UR   UR  directo            9            2            3            0.667  0.372    -0.047  0.111         0.158      -0.023    0.625     59      2         True          True    0.070        False         False      NaN
+16   AS125   UR247   AS   UR  directo           15            1            1            1.000    NaN       NaN  0.067           NaN         NaN    0.071      0      0        False         False      NaN        False         False      NaN
+17  UR1118   UR218   AS   UR  directo            8            1            1            1.000    NaN       NaN  0.125           NaN         NaN    0.143      0      6        False         False      NaN        False         False      NaN
+18   QU002   UR137   QU   UR  directo            8            1            1            1.000    NaN       NaN  0.125           NaN         NaN    0.143      7      0        False         False      NaN        False         False      NaN
+19   AS159   AS173   AS   AS  directo            7            3            2            0.286  0.533    -0.089  0.286         0.333      -0.067    0.500      0      0        False         False      NaN        False         False      NaN
+20   MM008   UR212   MM   UR  directo            8            1            2            0.875  0.000     0.000  1.000         0.000       0.000    1.000      0      9        False         False      NaN        False         False      NaN
+21   UR255  UR267A   UR   UR  directo           28            2            2            0.143  0.235    -0.009  0.179         0.239      -0.009    0.259      0      1        False         False      NaN         True         False    0.951
+
+== pares con investigadores distintos: 13 ==
+  etiqueta_exacta: mediana 0.244
+  ARI: mediana 0.239 (nulo 0.000); > nulo en 8/9; Wilcoxon p = 0.00391; pares con p<.05: 5
+  kappa_cambio: mediana 0.000 (nulo 0.000); > nulo en 4/9; Wilcoxon p = 0.156; pares con p<.05: 1
+  R1: concuerdan 2/4 pares de validación frente a 0.142 en pares al azar de los mismos investigadores; binomial p = 0.0988
+  R2: concuerdan 0/3 pares de validación frente a 0.002 en pares al azar de los mismos investigadores; binomial p = 1
+  R3 bandas: |dif| mediana validación 0.070 (n=9) frente a pares al azar 0.182; Mann-Whitney p = 0.0724
+  R3 cabecera: |dif| mediana validación 0.281 (n=8) frente a pares al azar 0.333; Mann-Whitney p = 0.199
+
+== referencia: copias del mismo investigador ==
+  etiqueta exacta mediana 0.444; ARI mediana 0.453 (nulo -0.004); kappa mediana 0.285

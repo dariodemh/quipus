@@ -1,0 +1,8 @@
+cuerda,nudos,valor,color,largo,notas
+1,"1E(20.5,Z)",1,RO,38.0,"subsidiarias declaradas (2: 7.0 y 7.0 cm); largo '38.0k'"
+1s1,"",0,MB,8.5,"SIN NUDOS (guion); largo '8.5b'"
+1s2,"7L(13.0,Z)d?",7,RO,28.5,"largo '28.5k'"
+2,"1E(19.5,Z),1E(24.5,Z)",2,RO,34.0,"dos nudos en ocho = 2; subsidiaria declarada (1: 7.6 cm); largo '34.0k'"
+2s1,"7L(11.5,Z)d?",7,RO,20.0,"largo '20.0k'"
+3,"1S(10.0,Z),7L(20.0,Z)",17,RO,37.5,"misma estructura que la cuerda 4; largo escrito '37.5●' con mancha (¿37.5?)"
+4,"1S(10.0,Z),7L(20.0,Z)",17,RO,37.0,"duplica exacta de la cuerda 3; largo '37.0k'"

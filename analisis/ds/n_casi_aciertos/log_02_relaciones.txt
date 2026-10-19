@@ -1,0 +1,60 @@
+                 n  exacto
+familia                   
+R1_ur278_fila    7       0
+R2_ur278_celda   8       0
+R3_ur273ab      10       0
+R4_ur274a_273b  10       0
+R5_cuota         9       0
+
+R1_ur278_fila | residuales: +24 +6 +100 +1 -1 +1 -1
+R2_ur278_celda | residuales: +1 +1 -1 -1 -44 -94 -29 -2
+R3_ur273ab | residuales: +10 +1000 -10 -1 -1 -10 +1000
+R4_ur274a_273b | residuales: -1000 +1 +1 -100
+R5_cuota | residuales: +7 +7 +7 +7 +7 +2 +5 +70 -94
+
+total casi-aciertos: 44
+           familia   quipu       relacion  objetivo  observado  residual
+4    R1_ur278_fila   UR278             g4    3317.0     3293.0      24.0
+8    R1_ur278_fila   UR278             g8    3249.0     3243.0       6.0
+11   R1_ur278_fila   UR278            g12    2633.0     2533.0     100.0
+12   R1_ur278_fila   UR278            g13    3096.0     3095.0       1.0
+15   R1_ur278_fila   UR278            g17    2114.0     2115.0      -1.0
+16   R1_ur278_fila   UR278            g19    2106.0     2105.0       1.0
+17   R1_ur278_fila   UR278            g21    1653.0     1654.0      -1.0
+18  R2_ur278_celda   UR278  g21c1~UR270g0     238.0      237.0       1.0
+19  R2_ur278_celda   UR278  g25c1~UR270g4     302.0      301.0       1.0
+20  R2_ur278_celda   UR278  g27c1~UR270g8     298.0      299.0      -1.0
+21  R2_ur278_celda   UR278  g27c2~UR270g8     342.0      343.0      -1.0
+22  R2_ur278_celda   UR278  g27c4~UR270g8     246.0      290.0     -44.0
+23  R2_ur278_celda   UR278  g28c6~UR270g9     300.0      394.0     -94.0
+24  R2_ur278_celda   UR278  g28c7~UR270g9      69.0       98.0     -29.0
+25  R2_ur278_celda   UR278  g28c9~UR270g9     131.0      133.0      -2.0
+26      R3_ur273ab  UR273A           reg0    4273.0     4263.0      10.0
+27      R3_ur273ab  UR273A           reg1       NaN     2597.0       NaN
+29      R3_ur273ab  UR273A           reg4    2375.0     1375.0    1000.0
+30      R3_ur273ab  UR273A           reg6       NaN     1159.0       NaN
+35      R3_ur273ab  UR273A          reg13    1939.0     1949.0     -10.0
+39      R3_ur273ab  UR273A          reg17       NaN     1696.0       NaN
+40      R3_ur273ab  UR273A          reg18    1886.0     1887.0      -1.0
+41      R3_ur273ab  UR273A          reg19    1886.0     1887.0      -1.0
+42      R3_ur273ab  UR273A          reg20    2020.0     2030.0     -10.0
+43      R3_ur273ab  UR273A          reg21    2359.0     1359.0    1000.0
+44  R4_ur274a_273b  UR274A           reg0       NaN     4271.0       NaN
+46  R4_ur274a_273b  UR274A           reg2       NaN     3084.0       NaN
+47  R4_ur274a_273b  UR274A           reg3    1842.0     2842.0   -1000.0
+48  R4_ur274a_273b  UR274A           reg4    2270.0     2269.0       1.0
+54  R4_ur274a_273b  UR274A          reg11       NaN     1932.0       NaN
+56  R4_ur274a_273b  UR274A          reg13       NaN     1961.0       NaN
+57  R4_ur274a_273b  UR274A          reg14    2247.0     2246.0       1.0
+58  R4_ur274a_273b  UR274A          reg19    1300.0     1400.0    -100.0
+59  R4_ur274a_273b  UR274A          reg20       NaN     1926.0       NaN
+60  R4_ur274a_273b  UR274A          reg21       NaN     1239.0       NaN
+61        R5_cuota   UR275            p51      47.0       40.0       7.0
+62        R5_cuota  UR274B             p9      17.0       10.0       7.0
+63        R5_cuota  UR274B            p13      17.0       10.0       7.0
+64        R5_cuota  UR274B            p19      17.0       10.0       7.0
+65        R5_cuota  UR274B            p64      17.0       10.0       7.0
+66        R5_cuota   UR275            p88    1827.0     1825.0       2.0
+67        R5_cuota   UR275           p100    1765.0     1760.0       5.0
+68        R5_cuota   UR275            p94    1961.0     1891.0      70.0
+69        R5_cuota   UR266            p86    2020.0     2114.0     -94.0

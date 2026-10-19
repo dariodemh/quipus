@@ -1,0 +1,105 @@
+khipus >=10 cuerdas: 543 | V-dominantes: 143 | R-dominantes: 168
+
+=== 1. Pares A/B (mitades de catalogo) ===
+  base       A       B  pV_A  pV_B  nA  nB                          site  jac  ratio   opp
+ AS026  AS026A  AS026B  0.00  0.00  54 105                       Unknown 0.67   0.14 False
+ AS207  AS207A  AS207B  0.00  0.00 211  17                       Unknown 0.29   0.10 False
+ HP046 HP046_A HP046_B  0.93  0.00  54  61                       Unknown 0.75   0.66  True
+ HP051 HP051_A HP051_B  0.59  0.85  32  34                       Unknown 0.75   0.75 False
+ UR053  UR053A  UR053B  0.00  0.00  49  36                       Unknown 0.40   0.03 False
+ UR056  UR056A  UR056B  0.04  0.95  28  38                       Unknown 0.44   0.65  True
+ UR058  UR058A  UR058B  0.00  0.00  58  48 Playa Miller #6, Arica, Chile 0.67   0.95 False
+UR1033 UR1033A UR1033B  0.00  0.17  12  18                       Unknown 0.25   0.51 False
+ UR116  UR116A  UR116B  0.39  0.00  80  22                       Unknown 0.50   0.28 False
+ UR117  UR117A  UR117B  0.00  0.91  13  11                       Paracas 0.60   0.63  True
+ UR131  UR131A  UR131B  0.57  0.53  56  66                  Lluta Valley 0.50   0.99 False
+ UR267  UR267A  UR267B  1.00  0.00  82 103                     Incahuasi 0.50   0.27  True
+ UR273  UR273A  UR273B  1.00  0.01  83 114                     Incahuasi 0.50   0.28  True
+ UR274  UR274A  UR274B  0.99  0.00  93 101                     Incahuasi 0.62   0.25  True
+Pares con union opuesta (>=70% V vs <=30% V): 6/14
+nulo mismo sitio/tamano: 0.281 (DE 0.111); p=0.1616
+Jaccard colores A/B=0.531 vs nulo=0.268 p=0.0007
+Razon de totales A/B=0.463 vs nulo=0.244 p=0.0033
+
+=== 2. Todos los pares mismo sitio, tamano comparable ===
+pares mismo sitio con >=10 cuerdas: 1690 | opuestos: 592 (0.350)
+                                           n  opp  tasa
+site                                                   
+Armatambo, Huaca San Pedro                 7    5  0.71
+Atarco                                     5    3  0.60
+Between Ica and Pisco                      4    0  0.00
+Cajamarquilla                              3    0  0.00
+Chancay, Central Coast                     1    1  1.00
+Chuquitanta                                1    0  0.00
+Costa Sur                                  1    1  1.00
+Eduard Gaffron                             3    0  0.00
+Eduard Gaffron Estate                      1    0  0.00
+Hacienda Ullujalla y Callengo              8    2  0.25
+Huacho                                     7    5  0.71
+Huaquerones                               54   25  0.46
+Ica                                      211   40  0.19
+Ica Valley, near Callango                  1    0  0.00
+Ica/Pisco                                  1    0  0.00
+Incahuasi                                241  113  0.47
+La puntilla, between Paracas and Pisco     1    0  0.00
+Leymebamba                                44    2  0.05
+Lluta Valley                               3    0  0.00
+Marquez                                    8    0  0.00
+Nazca                                     18    7  0.39
+Ocucaje                                    2    0  0.00
+Pachacamac                              1036  380  0.37
+Paracas                                    2    1  0.50
+Peru                                       3    0  0.00
+Pisco                                      1    0  0.00
+Playa Miller #6, Arica, Chile              1    0  0.00
+Pueblo Libre, Lima, Peru                   3    0  0.00
+Rancho San Juan, Ica Valley                1    0  0.00
+Santa                                      5    3  0.60
+Valle de Ica Hacienda Callango Ocucaje    12    4  0.33
+near Lima                                  1    0  0.00
+
+Incahuasi: 42 quipus, 14 V-dominantes, 27 R-dominantes
+          n    pV    pR       tot
+kfg                              
+JC001    36  0.00  1.00     732.0
+JC005   149  0.00  0.99    3150.0
+JC006    12  0.00  1.00     198.0
+JC010   160  0.00  1.00     887.0
+JC012    30  0.00  1.00      36.0
+JC011    87  0.00  1.00     310.0
+JC014    10  0.00  1.00      20.0
+JC013    59  0.00  1.00     513.0
+UR255    89  0.00  0.97    4947.0
+JC023    33  0.00  1.00     188.0
+JC015    10  0.00  1.00      22.0
+JC022    12  0.00  1.00      17.0
+UR261    12  0.00  1.00     338.0
+UR264   211  0.00  1.00    4677.0
+UR259    13  0.00  1.00      31.0
+UR260    24  0.00  1.00     694.0
+UR267B  103  0.00  1.00   23969.0
+UR265    14  0.00  1.00      30.0
+UR278   298  0.00  1.00   68403.0
+UR277   150  0.00  1.00    5533.0
+UR279    12  0.00  1.00     893.0
+UR274B  101  0.00  1.00   49698.0
+UR262   138  0.01  0.99   25282.0
+UR273B  114  0.01  0.99   33828.0
+JC009    76  0.09  0.91     827.0
+UR275   112  0.11  0.89  110776.0
+UR268   131  0.11  0.89  556242.0
+UR263   236  0.46  0.54     448.0
+JC018    10  0.70  0.30    1289.0
+UR274A   93  0.99  0.01   12408.0
+UR270   162  0.99  0.01   23656.0
+UR256   118  1.00  0.00   24438.0
+UR271    32  1.00  0.00    8736.0
+UR269   289  1.00  0.00  219464.0
+UR266   132  1.00  0.00   93841.0
+UR267A   82  1.00  0.00    6412.0
+UR257    10  1.00  0.00  263246.0
+UR258    41  1.00  0.00    1993.0
+JC004    18  1.00  0.00      63.0
+UR272   173  1.00  0.00     790.0
+UR273A   83  1.00  0.00    9377.0
+UR280    37  1.00  0.00    2230.0

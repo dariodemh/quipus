@@ -1,0 +1,20 @@
+prueba,n,obs,nulo_media,nulo_max,p,familia,nota,p_holm
+UR273A+UR273B -> UR266+UR275,18,7,0.9458,5,9.999e-05,principal,,0.0006999
+UR273A+UR273B -> UR266+UR275+UR269,18,8,1.264,6,9.999e-05,secundaria,,
+UR274A+UR273B -> UR266+UR275,17,6,1.003,6,0.0002,secundaria,,
+UR274A+UR274B -> UR266+UR275,19,3,1.472,7,0.1721,secundaria,,
+UR270 P+S1 -> UR278: grupos con >=6 columnas,12,5,0.0012,1,0.0002,principal,,0.0007998
+UR270 P+S1 -> UR278: total de aciertos,12,51,12.86,21,0.0002,secundaria,,
+UR270 P+S1 -> UR278: nulo 2 (barajar S entre colgantes),12,5,0.003,1,0.0002,secundaria,,
+UR270 solo P -> UR278 (control),12,0,0,0,1,control,"control negativo: 0 grupos con >=6; sin nulo, el maximo posible bajo P sola no se simula",
+UR278 totales de grupo -> UR266,33,12,0.7283,6,9.999e-05,principal,,0.0006999
+UR278 totales de grupo -> UR275,33,7,0.8457,6,9.999e-05,principal,,0.0006999
+UR267A+B -> UR269 (todas las cuerdas),26,6,1.367,7,0.0013,principal,,0.0021
+UR267A+B -> cabeceras de UR269,26,5,0.7144,5,0.0008999,principal,,0.0021
+UR269 cuota 25: cabecera = UR267A+B,6,3,0.1895,3,0.0006999,principal,,0.0021
+UR273B: registros con neto x-17,6,0,0,0,1,cuota17,,
+UR273B: registros con 17 explicito tras la cabecera,6,3,2.107,3,0.2775,cuota17,,
+UR274B: registros con neto x-17,20,3,0.1704,3,0.0003999,cuota17,,
+UR274B: registros con 17 explicito tras la cabecera,20,10,5.921,11,0.003999,cuota17,,
+UR274A: registros con neto x-17,15,0,0,0,1,cuota17,,
+UR274A: registros con 17 explicito tras la cabecera,15,0,0,0,1,cuota17,,

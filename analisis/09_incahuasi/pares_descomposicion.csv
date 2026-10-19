@@ -1,0 +1,4 @@
+par,registros_con_mismo_x,resueltos_solo_A,resueltos_solo_B,resueltos_A_union_B,nulo_union_media,nulo_union_max,p_union
+UR255-UR267A,22,0,0,0,0.04,1,1.0
+UR256-UR267B,20,1,0,2,1.555,4,0.4577114427860697
+UR266-UR275,25,0,2,2,0.205,2,0.01990049751243781

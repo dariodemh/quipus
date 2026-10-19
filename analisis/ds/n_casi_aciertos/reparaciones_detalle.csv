@@ -1,0 +1,238 @@
+relacion_id,cuerda,nudos_actual,n_edit,tipo_error,delta,prob_catalogo
+R1_ur278_fila:UR278:g8,p74,"4S(4.0,Z),400;4S(10.0,Z),40;6L(18.5,S),6",se duplica el racimo L6=6,racimo_duplicado,6.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g8,p78,"4S(4.0,Z),400;4S(11.0,Z),40;6L(18.5,S),6",se duplica el racimo L6=6,racimo_duplicado,6.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g8,p81,"2S(5.5,Z),200;3S(13.0,Z),30;5L(20.0,S),5;1E(23.5,Z),1",E1 se lee como largo de 7 vueltas,ocho_vs_largo,6.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g12,p109,"2S(5.0,Z),200;5L(19.5,S),5",S2 pasa a 3 nudos simples (+1 x 10^2),conteo_simple,100.0,0.00020156065536
+R1_ur278_fila:UR278:g12,p109,"2S(5.0,Z),200;5L(19.5,S),5",falta un nudo simple en 10^2,insercion,100.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g12,p110,"2S(5.5,Z),200;5L(19.5,S),5",S2 pasa a 3 nudos simples (+1 x 10^2),conteo_simple,100.0,0.00020156065536
+R1_ur278_fila:UR278:g12,p110,"2S(5.5,Z),200;5L(19.5,S),5",falta un nudo simple en 10^2,insercion,100.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g12,p111,"2S(5.0,Z),200;2S(13.0,Z),20;8L(19.0,S),8",S2 pasa a 3 nudos simples (+1 x 10^2),conteo_simple,100.0,0.00010078032768
+R1_ur278_fila:UR278:g12,p111,"2S(5.0,Z),200;2S(13.0,Z),20;8L(19.0,S),8",falta un nudo simple en 10^2,insercion,100.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g12,p112,"2S(5.0,Z),200;2S(13.0,Z),20;7L(20.0,S),7",S2 pasa a 3 nudos simples (+1 x 10^2),conteo_simple,100.0,0.00010078032768
+R1_ur278_fila:UR278:g12,p112,"2S(5.0,Z),200;2S(13.0,Z),20;7L(20.0,S),7",falta un nudo simple en 10^2,insercion,100.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g12,p113,"3S(5.0,Z),300",S3 pasa a 4 nudos simples (+1 x 10^2),conteo_simple,100.0,0.00020156065536
+R1_ur278_fila:UR278:g12,p113,"3S(5.0,Z),300",falta un nudo simple en 10^2,insercion,100.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g12,p114,"4S(5.0,Z),400;8S(12.5,Z),80;1E(20.0,Z),1",S4 pasa a 5 nudos simples (+1 x 10^2),conteo_simple,100.0,0.00010078032768
+R1_ur278_fila:UR278:g12,p114,"4S(5.0,Z),400;8S(12.5,Z),80;1E(20.0,Z),1",falta un nudo simple en 10^2,insercion,100.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g12,p115,"4S(5.5,Z),400;8S(13.0,Z),80;1E(21.0,Z),1",S4 pasa a 5 nudos simples (+1 x 10^2),conteo_simple,100.0,0.00010078032768
+R1_ur278_fila:UR278:g12,p115,"4S(5.5,Z),400;8S(13.0,Z),80;1E(21.0,Z),1",falta un nudo simple en 10^2,insercion,100.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g12,p116,"1S(5.5,Z),100;8S(13.0,Z),80;1E(22.5,Z),1",se duplica el racimo S1=100,racimo_duplicado,100.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g12,p116,"1S(5.5,Z),100;8S(13.0,Z),80;1E(22.5,Z),1",S1 pasa a 2 nudos simples (+1 x 10^2),conteo_simple,100.0,0.00010078032768
+R1_ur278_fila:UR278:g12,p116,"1S(5.5,Z),100;8S(13.0,Z),80;1E(22.5,Z),1",falta un nudo simple en 10^2,insercion,100.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g12,p117,"2S(6.0,Z),200;2S(13.0,Z),20;5L(20.5,S),5",S2 pasa a 3 nudos simples (+1 x 10^2),conteo_simple,100.0,0.00010078032768
+R1_ur278_fila:UR278:g12,p117,"2S(6.0,Z),200;2S(13.0,Z),20;5L(20.5,S),5",falta un nudo simple en 10^2,insercion,100.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p118,"3S(5.5,Z),300;9S(11.5,Z),90;3L(19.5,S),3",L3 pasa a 4 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R1_ur278_fila:UR278:g13,p118,"3S(5.5,Z),300;9S(11.5,Z),90;3L(19.5,S),3",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p118,"3S(5.5,Z),300;9S(11.5,Z),90;3L(19.5,S),3",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p119,"3S(5.5,Z),300;9S(11.5,Z),90;2L(20.0,S),2",L2 pasa a 3 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R1_ur278_fila:UR278:g13,p119,"3S(5.5,Z),300;9S(11.5,Z),90;2L(20.0,S),2",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p119,"3S(5.5,Z),300;9S(11.5,Z),90;2L(20.0,S),2",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p120,"1S(4.5,Z),100;1S(12.0,Z),10;6L(18.5,S),6",L6 pasa a 7 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R1_ur278_fila:UR278:g13,p120,"1S(4.5,Z),100;1S(12.0,Z),10;6L(18.5,S),6",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p120,"1S(4.5,Z),100;1S(12.0,Z),10;6L(18.5,S),6",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p121,"4S(5.0,Z),400;5S(10.5,Z),50;6L(19.5,S),6",L6 pasa a 7 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R1_ur278_fila:UR278:g13,p121,"4S(5.0,Z),400;5S(10.5,Z),50;6L(19.5,S),6",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p121,"4S(5.0,Z),400;5S(10.5,Z),50;6L(19.5,S),6",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p122,"5S(5.0,Z),500;3S(10.5,Z),30;2L(18.5,S),2",L2 pasa a 3 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R1_ur278_fila:UR278:g13,p122,"5S(5.0,Z),500;3S(10.5,Z),30;2L(18.5,S),2",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p122,"5S(5.0,Z),500;3S(10.5,Z),30;2L(18.5,S),2",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p123,"3S(5.0,Z),300;9S(11.0,Z),90;3L(20.0,S),3",L3 pasa a 4 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R1_ur278_fila:UR278:g13,p123,"3S(5.0,Z),300;9S(11.0,Z),90;3L(20.0,S),3",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p123,"3S(5.0,Z),300;9S(11.0,Z),90;3L(20.0,S),3",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p124,"4S(5.0,Z),400;2S(11.0,Z),20;4L(19.5,S),4",L4 pasa a 5 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R1_ur278_fila:UR278:g13,p124,"4S(5.0,Z),400;2S(11.0,Z),20;4L(19.5,S),4",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p124,"4S(5.0,Z),400;2S(11.0,Z),20;4L(19.5,S),4",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p125,"1S(4.5,Z),100;5S(10.0,Z),50;7L(19.0,S),7",L7 pasa a 8 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R1_ur278_fila:UR278:g13,p125,"1S(4.5,Z),100;5S(10.0,Z),50;7L(19.0,S),7",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p125,"1S(4.5,Z),100;5S(10.0,Z),50;7L(19.0,S),7",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p126,"2S(4.5,Z),200;3S(10.0,Z),30;2L(19.0,S),2",L2 pasa a 3 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R1_ur278_fila:UR278:g13,p126,"2S(4.5,Z),200;3S(10.0,Z),30;2L(19.0,S),2",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g13,p126,"2S(4.5,Z),200;3S(10.0,Z),30;2L(19.0,S),2",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g17,p151,"2S(4.5,Z),200;9S(10.5,Z),90;8L(18.0,S),8",L8 pasa a 7 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g17,p151,"2S(4.5,Z),200;9S(10.5,Z),90;8L(18.0,S),8",L8 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g17,p152,"3S(4.5,Z),300;4S(11.0,Z),40;1E(25.5,Z),1",se omite el racimo E1=1,racimo_omitido,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g17,p153,"1S(4.0,Z),100;6S(10.5,Z),60;2L(19.0,S),2",L2 pasa a 1 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g17,p153,"1S(4.0,Z),100;6S(10.5,Z),60;2L(19.0,S),2",L2 se lee como simple en 10^0,S_vs_L,-1.0,2.8794379337153387e-05
+R1_ur278_fila:UR278:g17,p153,"1S(4.0,Z),100;6S(10.5,Z),60;2L(19.0,S),2",L2 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g17,p154,"2S(4.5,Z),200;1S(11.5,Z),10;9L(19.5,S),9",L9 pasa a 8 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g17,p154,"2S(4.5,Z),200;1S(11.5,Z),10;9L(19.5,S),9",L9 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g17,p155,"3S(4.0,Z),300;5S(10.5,Z),50;7L(18.5,S),7",L7 pasa a 6 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g17,p155,"3S(4.0,Z),300;5S(10.5,Z),50;7L(18.5,S),7",L7 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g17,p156,"2S(4.5,Z),200;6L(18.0,S),6",L6 pasa a 5 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g17,p156,"2S(4.5,Z),200;6L(18.0,S),6",L6 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g17,p157,"1S(4.5,Z),100;8S(10.5,Z),80;2L(19.0,S),2",L2 pasa a 1 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g17,p157,"1S(4.5,Z),100;8S(10.5,Z),80;2L(19.0,S),2",L2 se lee como simple en 10^0,S_vs_L,-1.0,2.8794379337153387e-05
+R1_ur278_fila:UR278:g17,p157,"1S(4.5,Z),100;8S(10.5,Z),80;2L(19.0,S),2",L2 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g17,p158,"1S(4.5,Z),100;1S(10.5,Z),10;4L(18.0,S),4",L4 pasa a 3 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g17,p158,"1S(4.5,Z),100;1S(10.5,Z),10;4L(18.0,S),4",L4 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g17,p159,"2S(4.0,Z),200;3S(10.5,Z),30;5L(19.0,S),5;1E(25.5,Z),1",L5 pasa a 4 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g17,p159,"2S(4.0,Z),200;3S(10.5,Z),30;5L(19.0,S),5;1E(25.5,Z),1",L5 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g17,p159,"2S(4.0,Z),200;3S(10.5,Z),30;5L(19.0,S),5;1E(25.5,Z),1",se omite el racimo E1=1,racimo_omitido,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g19,p170,"2S(4.5,Z),200;9S(10.5,Z),90;1E(19.5,Z),1",se duplica el racimo E1=1,racimo_duplicado,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p170,"2S(4.5,Z),200;9S(10.5,Z),90;1E(19.5,Z),1",E1 se lee como largo de 2 vueltas,ocho_vs_largo,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p170,"2S(4.5,Z),200;9S(10.5,Z),90;1E(19.5,Z),1",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p170,"2S(4.5,Z),200;9S(10.5,Z),90;1E(19.5,Z),1",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p171,"2S(4.0,Z),200;8S(9.0,Z),80;9L(18.0,S),9",L9 pasa a 10 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R1_ur278_fila:UR278:g19,p171,"2S(4.0,Z),200;8S(9.0,Z),80;9L(18.0,S),9",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p171,"2S(4.0,Z),200;8S(9.0,Z),80;9L(18.0,S),9",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p172,"2S(4.0,Z),200;4S(10.0,Z),40;3L(19.0,S),3",L3 pasa a 4 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R1_ur278_fila:UR278:g19,p172,"2S(4.0,Z),200;4S(10.0,Z),40;3L(19.0,S),3",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p172,"2S(4.0,Z),200;4S(10.0,Z),40;3L(19.0,S),3",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p173,"2S(4.0,Z),200;2S(11.0,Z),20;5L(18.5,S),5",L5 pasa a 6 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R1_ur278_fila:UR278:g19,p173,"2S(4.0,Z),200;2S(11.0,Z),20;5L(18.5,S),5",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p173,"2S(4.0,Z),200;2S(11.0,Z),20;5L(18.5,S),5",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p174,"2S(4.0,Z),200;1S(11.0,Z),10;3L(17.5,S),3",L3 pasa a 4 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R1_ur278_fila:UR278:g19,p174,"2S(4.0,Z),200;1S(11.0,Z),10;3L(17.5,S),3",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p174,"2S(4.0,Z),200;1S(11.0,Z),10;3L(17.5,S),3",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p175,"2S(4.0,Z),200;4S(11.0,Z),40;6L(18.5,S),6",L6 pasa a 7 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R1_ur278_fila:UR278:g19,p175,"2S(4.0,Z),200;4S(11.0,Z),40;6L(18.5,S),6",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p175,"2S(4.0,Z),200;4S(11.0,Z),40;6L(18.5,S),6",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p176,"1S(4.0,Z),100;9S(10.0,Z),90;7L(17.0,S),7;1E(22.0,Z),1",L7 pasa a 8 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R1_ur278_fila:UR278:g19,p176,"1S(4.0,Z),100;9S(10.0,Z),90;7L(17.0,S),7;1E(22.0,Z),1",se duplica el racimo E1=1,racimo_duplicado,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p176,"1S(4.0,Z),100;9S(10.0,Z),90;7L(17.0,S),7;1E(22.0,Z),1",E1 se lee como largo de 2 vueltas,ocho_vs_largo,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p176,"1S(4.0,Z),100;9S(10.0,Z),90;7L(17.0,S),7;1E(22.0,Z),1",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p176,"1S(4.0,Z),100;9S(10.0,Z),90;7L(17.0,S),7;1E(22.0,Z),1",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p177,"1S(4.5,Z),100;6S(11.0,Z),60;8L(17.5,S),8;1E(23.0,Z),1",L8 pasa a 9 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R1_ur278_fila:UR278:g19,p177,"1S(4.5,Z),100;6S(11.0,Z),60;8L(17.5,S),8;1E(23.0,Z),1",se duplica el racimo E1=1,racimo_duplicado,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p177,"1S(4.5,Z),100;6S(11.0,Z),60;8L(17.5,S),8;1E(23.0,Z),1",E1 se lee como largo de 2 vueltas,ocho_vs_largo,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p177,"1S(4.5,Z),100;6S(11.0,Z),60;8L(17.5,S),8;1E(23.0,Z),1",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p177,"1S(4.5,Z),100;6S(11.0,Z),60;8L(17.5,S),8;1E(23.0,Z),1",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p178,"2S(4.0,Z),200;3S(10.0,Z),30;1E(17.5,Z),1",se duplica el racimo E1=1,racimo_duplicado,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p178,"2S(4.0,Z),200;3S(10.0,Z),30;1E(17.5,Z),1",E1 se lee como largo de 2 vueltas,ocho_vs_largo,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p178,"2S(4.0,Z),200;3S(10.0,Z),30;1E(17.5,Z),1",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g19,p178,"2S(4.0,Z),200;3S(10.0,Z),30;1E(17.5,Z),1",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g21,p180,"2S(4.0,Z),200;3S(10.0,Z),30;7L(19.0,S),7;1E(24.0,Z),1",L7 pasa a 6 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g21,p180,"2S(4.0,Z),200;3S(10.0,Z),30;7L(19.0,S),7;1E(24.0,Z),1",L7 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g21,p180,"2S(4.0,Z),200;3S(10.0,Z),30;7L(19.0,S),7;1E(24.0,Z),1",se omite el racimo E1=1,racimo_omitido,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g21,p181,"2S(4.5,Z),200;9S(10.0,Z),90;5L(18.5,S),5",L5 pasa a 4 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g21,p181,"2S(4.5,Z),200;9S(10.0,Z),90;5L(18.5,S),5",L5 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g21,p182,"1S(4.0,Z),100;3S(10.5,Z),30;8L(19.0,S),8",L8 pasa a 7 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g21,p182,"1S(4.0,Z),100;3S(10.5,Z),30;8L(19.0,S),8",L8 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g21,p183,"1S(4.5,Z),100;9S(11.0,Z),90;8L(19.0,S),8",L8 pasa a 7 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g21,p183,"1S(4.5,Z),100;9S(11.0,Z),90;8L(19.0,S),8",L8 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g21,p184,"2S(4.5,Z),200;1E(26.0,Z),1",se omite el racimo E1=1,racimo_omitido,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g21,p185,"1S(5.0,Z),100;5S(11.5,Z),50;3L(19.5,S),3",L3 pasa a 2 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g21,p185,"1S(5.0,Z),100;5S(11.5,Z),50;3L(19.5,S),3",L3 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g21,p186,"1S(4.0,Z),100;6L(19.5,S),6",L6 pasa a 5 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g21,p186,"1S(4.0,Z),100;6L(19.5,S),6",L6 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g21,p187,"1S(4.6,Z),100;3S(12.0,Z),30;8L(19.0,S),8",L8 pasa a 7 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g21,p187,"1S(4.6,Z),100;3S(12.0,Z),30;8L(19.0,S),8",L8 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R1_ur278_fila:UR278:g21,p188,"1S(5.0,Z),100;8S(12.5,Z),80;7L(20.5,S),7",L7 pasa a 6 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R1_ur278_fila:UR278:g21,p188,"1S(5.0,Z),100;8S(12.5,Z),80;7L(20.5,S),7",L7 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p1,"4S(4.5,Z),400;1S(11.0,Z),10;5L(18.0,S),5",L5 pasa a 6 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g21~UR270g0,p1,"4S(4.5,Z),400;1S(11.0,Z),10;5L(18.0,S),5",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p1,"4S(4.5,Z),400;1S(11.0,Z),10;5L(18.0,S),5",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p1s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p1s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p2,"4S(5.0,Z),400;1S(11.5,Z),10;5L(18.0,S),5",L5 pasa a 6 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g21~UR270g0,p2,"4S(5.0,Z),400;1S(11.5,Z),10;5L(18.0,S),5",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p2,"4S(5.0,Z),400;1S(11.5,Z),10;5L(18.0,S),5",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p2s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p2s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p3,"3S(5.0,Z),300;5S(11.0,Z),50;3L(18.0,S),3",L3 pasa a 4 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g21~UR270g0,p3,"3S(5.0,Z),300;5S(11.0,Z),50;3L(18.0,S),3",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p3,"3S(5.0,Z),300;5S(11.0,Z),50;3L(18.0,S),3",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p3s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p3s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p4,"4S(5.5,Z),400;1S(12.5,Z),10;5L(19.0,S),5",L5 pasa a 6 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g21~UR270g0,p4,"4S(5.5,Z),400;1S(12.5,Z),10;5L(19.0,S),5",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p4,"4S(5.5,Z),400;1S(12.5,Z),10;5L(19.0,S),5",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p4s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p4s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p5,"4S(5.0,Z),400;1S(12.5,Z),10;5L(19.5,S),5",L5 pasa a 6 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g21~UR270g0,p5,"4S(5.0,Z),400;1S(12.5,Z),10;5L(19.5,S),5",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p5,"4S(5.0,Z),400;1S(12.5,Z),10;5L(19.5,S),5",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p5s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p5s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p6,"4S(5.5,Z),400;1S(12.0,Z),10;5L(19.0,S),5",L5 pasa a 6 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g21~UR270g0,p6,"4S(5.5,Z),400;1S(12.0,Z),10;5L(19.0,S),5",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p6,"4S(5.5,Z),400;1S(12.0,Z),10;5L(19.0,S),5",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p6s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p6s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p7,"4S(5.5,Z),400;1S(12.0,Z),10;4L(19.0,S),4",L4 pasa a 5 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g21~UR270g0,p7,"4S(5.5,Z),400;1S(12.0,Z),10;4L(19.0,S),4",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p7,"4S(5.5,Z),400;1S(12.0,Z),10;4L(19.0,S),4",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p7s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p7s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p8,"4S(5.5,Z),400;1S(12.5,Z),10;3L(19.0,S),3",L3 pasa a 4 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g21~UR270g0,p8,"4S(5.5,Z),400;1S(12.5,Z),10;3L(19.0,S),3",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p8,"4S(5.5,Z),400;1S(12.5,Z),10;3L(19.0,S),3",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p8s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p8s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p9,"3S(5.5,Z),300;6S(12.0,Z),60;3L(19.0,S),3",L3 pasa a 4 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g21~UR270g0,p9,"3S(5.5,Z),300;6S(12.0,Z),60;3L(19.0,S),3",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p9,"3S(5.5,Z),300;6S(12.0,Z),60;3L(19.0,S),3",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p9s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g21~UR270g0,p9s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p18,"1S(5.5,Z),100;5S(11.0,Z),50;4L(18.0,S),4",L4 pasa a 5 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g25~UR270g4,p18,"1S(5.5,Z),100;5S(11.0,Z),50;4L(18.0,S),4",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p18,"1S(5.5,Z),100;5S(11.0,Z),50;4L(18.0,S),4",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p18s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p18s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p19,"2S(5.5,Z),200;1S(11.0,Z),10;2L(19.5,S),2",L2 pasa a 3 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g25~UR270g4,p19,"2S(5.5,Z),200;1S(11.0,Z),10;2L(19.5,S),2",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p19,"2S(5.5,Z),200;1S(11.0,Z),10;2L(19.5,S),2",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p19s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p19s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p20,"2S(5.5,Z),200;1S(11.0,Z),10;3L(17.5,S),3",L3 pasa a 4 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g25~UR270g4,p20,"2S(5.5,Z),200;1S(11.0,Z),10;3L(17.5,S),3",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p20,"2S(5.5,Z),200;1S(11.0,Z),10;3L(17.5,S),3",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p20s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p20s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p21,"1S(5.0,Z),100;4S(11.0,Z),40;4L(18.0,S),4",L4 pasa a 5 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g25~UR270g4,p21,"1S(5.0,Z),100;4S(11.0,Z),40;4L(18.0,S),4",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p21,"1S(5.0,Z),100;4S(11.0,Z),40;4L(18.0,S),4",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p21s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p21s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p22,"1S(5.0,Z),100;5S(11.0,Z),50;4L(17.0,S),4",L4 pasa a 5 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g25~UR270g4,p22,"1S(5.0,Z),100;5S(11.0,Z),50;4L(17.0,S),4",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p22,"1S(5.0,Z),100;5S(11.0,Z),50;4L(17.0,S),4",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p22s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p22s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p23,"1S(5.0,Z),100;4S(11.5,Z),40;4L(18.5,S),4",L4 pasa a 5 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g25~UR270g4,p23,"1S(5.0,Z),100;4S(11.5,Z),40;4L(18.5,S),4",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p23,"1S(5.0,Z),100;4S(11.5,Z),40;4L(18.5,S),4",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p23s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p23s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p24,"1S(5.0,Z),100;4S(11.5,Z),40;5L(18.5,S),5",L5 pasa a 6 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g25~UR270g4,p24,"1S(5.0,Z),100;4S(11.5,Z),40;5L(18.5,S),5",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p24,"1S(5.0,Z),100;4S(11.5,Z),40;5L(18.5,S),5",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p24s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p24s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p25,"1S(5.0,Z),100;2S(11.0,Z),20;4L(18.0,S),4",L4 pasa a 5 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g25~UR270g4,p25,"1S(5.0,Z),100;2S(11.0,Z),20;4L(18.0,S),4",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p25,"1S(5.0,Z),100;2S(11.0,Z),20;4L(18.0,S),4",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p25s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p25s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p26,"1S(5.0,Z),100;2S(11.5,Z),20;4L(18.0,S),4",L4 pasa a 5 vueltas (+1 x 10^0),vueltas,1.0,0.0002591494140343
+R2_ur278_celda:UR278:g25~UR270g4,p26,"1S(5.0,Z),100;2S(11.5,Z),20;4L(18.0,S),4",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p26,"1S(5.0,Z),100;2S(11.5,Z),20;4L(18.0,S),4",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p26s1,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R2_ur278_celda:UR278:g25~UR270g4,p26s1,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R3_ur273ab:UR273A:reg0,p2,"2S(8.0,Z),200;7S(15.0,Z),70;2L(20.5,S),2",S7 pasa a 8 nudos simples (+1 x 10^1),conteo_simple,10.0,0.00010078032768
+R3_ur273ab:UR273A:reg0,p2,"2S(8.0,Z),200;7S(15.0,Z),70;2L(20.5,S),2",falta un nudo simple en 10^1,insercion,10.0,5.758875867430677e-05
+R3_ur273ab:UR273A:reg0,p2,"2S(8.0,Z),200;7S(15.0,Z),70;2L(20.5,S),2",S7 pasa a 8 nudos simples (+1 x 10^1),conteo_simple,10.0,0.00010078032768
+R3_ur273ab:UR273A:reg0,p2,"2S(8.0,Z),200;7S(15.0,Z),70;2L(20.5,S),2",falta un nudo simple en 10^1,insercion,10.0,5.758875867430677e-05
+R3_ur273ab:UR273A:reg4,p14,"1S(3.0,Z),100;2S(13.0,Z),20;6L(19.0,S),6",falta un nudo simple en 10^3,insercion,1000.0,5.758875867430677e-05
+R3_ur273ab:UR273A:reg4,p26,,falta un nudo simple en 10^3,insercion,1000.0,5.758875867430677e-05
+R3_ur273ab:UR273A:reg13,p44,"5S(9.0,Z),500;7S(15.0,Z),70;9L(21.0,S),9",S7 pasa a 6 nudos simples (-1 x 10^1),conteo_simple,-10.0,0.00010078032768
+R3_ur273ab:UR273A:reg13,p77,"4S(6.0,Z),400;3S(11.5,Z),30;1E(17.0,Z),1",S3 pasa a 2 nudos simples (-1 x 10^1),conteo_simple,-10.0,0.00010078032768
+R3_ur273ab:UR273A:reg18,p60,"5S(9.0,Z),500;2S(16.0,Z),20;5L(19.0,S),5;1E(24.0,Z),1",L5 pasa a 4 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R3_ur273ab:UR273A:reg18,p60,"5S(9.0,Z),500;2S(16.0,Z),20;5L(19.0,S),5;1E(24.0,Z),1",L5 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R3_ur273ab:UR273A:reg18,p60,"5S(9.0,Z),500;2S(16.0,Z),20;5L(19.0,S),5;1E(24.0,Z),1",se omite el racimo E1=1,racimo_omitido,-1.0,0.0002591494140343
+R3_ur273ab:UR273A:reg19,p63,"5S(9.0,Z),500;1S(15.5,Z),10;6L(22.0,S),6;1E(26.5,Z),1",L6 pasa a 5 vueltas (-1 x 10^0),vueltas,-1.0,0.0002591494140343
+R3_ur273ab:UR273A:reg19,p63,"5S(9.0,Z),500;1S(15.5,Z),10;6L(22.0,S),6;1E(26.5,Z),1",L6 se lee como figura de ocho,ocho_vs_largo,-1.0,5.758875867430677e-05
+R3_ur273ab:UR273A:reg19,p63,"5S(9.0,Z),500;1S(15.5,Z),10;6L(22.0,S),6;1E(26.5,Z),1",se omite el racimo E1=1,racimo_omitido,-1.0,0.0002591494140343
+R3_ur273ab:UR273A:reg20,p67,"3S(8.5,Z),300;6S(15.0,Z),60;8L(20.5,S),8",S6 pasa a 5 nudos simples (-1 x 10^1),conteo_simple,-10.0,0.00010078032768
+R3_ur273ab:UR273A:reg21,p69,"2S(7.5,Z),200;6S(14.0,Z),60;2L(20.0,S),2;1E(25.0,Z),1",falta un nudo simple en 10^3,insercion,1000.0,5.758875867430677e-05
+R3_ur273ab:UR273A:reg21,p103,,falta un nudo simple en 10^3,insercion,1000.0,5.758875867430677e-05
+R4_ur274a_273b:UR274A:reg4,p15,"1S(4.5,Z),1000;2S(17.0,Z),20",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R4_ur274a_273b:UR274A:reg4,p15,"1S(4.5,Z),1000;2S(17.0,Z),20",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R4_ur274a_273b:UR274A:reg4,p26,"4S(10.0,Z),400;9S(17.0,Z),90",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R4_ur274a_273b:UR274A:reg4,p26,"4S(10.0,Z),400;9S(17.0,Z),90",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R4_ur274a_273b:UR274A:reg14,p49,"6S(11.0,Z),600;7S(18.0,Z),70;1E(25.5,Z),1",se duplica el racimo E1=1,racimo_duplicado,1.0,5.758875867430677e-05
+R4_ur274a_273b:UR274A:reg14,p49,"6S(11.0,Z),600;7S(18.0,Z),70;1E(25.5,Z),1",E1 se lee como largo de 2 vueltas,ocho_vs_largo,1.0,5.758875867430677e-05
+R4_ur274a_273b:UR274A:reg14,p49,"6S(11.0,Z),600;7S(18.0,Z),70;1E(25.5,Z),1",falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R4_ur274a_273b:UR274A:reg14,p49,"6S(11.0,Z),600;7S(18.0,Z),70;1E(25.5,Z),1",falta una figura de ocho,insercion,1.0,5.758875867430677e-05
+R4_ur274a_273b:UR274A:reg14,p82,,falta un nudo simple en 10^0,insercion,1.0,5.758875867430677e-05
+R4_ur274a_273b:UR274A:reg14,p82,,falta una figura de ocho,insercion,1.0,5.758875867430677e-05

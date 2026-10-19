@@ -1,0 +1,6 @@
+﻿test,descripcion,obs,null_mean,null_sd,efecto_z,p,n_quipus,lado
+C1,Jaccard de bigramas de color intra-procedencia,0.4112018082342613,0.41425580005971785,0.0046998167319661855,-0.649810832980911,0.7412587412587412,275,greater
+C2,concordancia de orden entre pares de colores,0.7551621161307701,0.744895904673331,0.02442840760772835,0.42025708848051224,0.3436563436563437,275,greater
+C3b,bigramas de RUNS de color repetidos >=3 (seriacion),494.0,604.827,7.390513560686476,-14.995845564716845,1.0,275,greater
+C3,bigramas de color repetidos >=3 (seriacion),494.0,604.827,7.390513560686476,-14.995845564716845,1.0,275,greater
+C3c,trigramas de RUNS repetidos (seriacion vs orden aleatorio de bandas),4438.0,3223.382,16.543450721108997,73.41986992170303,0.000999000999000999,275,greater

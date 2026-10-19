@@ -1,0 +1,37 @@
+=== Biparticiones de las 9 columnas: ?hay un grupo con cuota fija? ===
+Mejor biparticion (menor rho): A = c3, c7, c8, c9 | B = c1, c2, c4, c5, c6
+rho del grupo A = -0.05601; cuota media = 0.379
+15 biparticiones mas estables:
+     subset       rho  cuota
+c3,c7,c8,c9  -0.05601 0.3786
+c1,c5,c8,c9  -0.01171 0.4224
+c1,c3,c6,c7  -0.01115 0.4649
+c1,c2,c3,c8 -0.008896 0.4485
+c1,c2,c5,c8 -0.007369 0.4702
+c2,c4,c5,c7 -0.006625 0.4737
+c2,c5,c6,c7 -0.006384   0.49
+c3,c6,c8,c9 -0.005461 0.3925
+c3,c4,c5,c8 -0.005186 0.4021
+c1,c6,c7,c9 -0.005132 0.4606
+c1,c2,c4,c7 -0.004987 0.4921
+c1,c4,c5,c7 -0.004928 0.4702
+c3,c4,c6,c7 -0.004904 0.4402
+c2,c3,c7,c8 -0.003959 0.4264
+c2,c6,c8,c9 -0.003267  0.436
+
+=== Particiones contiguas (orden fisico) ===
+ corte grupo_A grupo_B  cuota_A       rho   p_M2   p_M1  q_M2_BH
+     1   c1-c1   c2-c9   0.1338 0.0009844 0.8581 0.8961   0.8931
+     2   c1-c2   c3-c9   0.2712  0.001364 0.8701 0.9251   0.8931
+     3   c1-c3   c4-c9    0.365 0.0006451 0.8102 0.8601   0.8931
+     4   c1-c4   c5-c9   0.4742 0.0005731 0.8032 0.8462   0.8931
+     5   c1-c5   c6-c9   0.5897  0.001024 0.8601 0.8891   0.8931
+     6   c1-c6   c7-c9   0.7152 0.0001333 0.6763 0.7163   0.8931
+     7   c1-c7   c8-c9   0.8269  0.001215 0.8931 0.9281   0.8931
+     8   c1-c8   c9-c9   0.9105 0.0001869 0.7093 0.7353   0.8931
+
+=== Nulo del minimo sobre las 126 biparticiones ===
+M1: media -0.08335, p05 -0.21675, min -9.57878
+M2: media -0.16227, p05 -0.47817, min -16.80318
+Observado: -0.05601
+p (cola inferior) frente a M1 = 0.2408; frente a M2 = 0.3616

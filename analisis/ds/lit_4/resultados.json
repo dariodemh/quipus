@@ -1,0 +1,274 @@
+{
+ "V1_nether": {
+  "dos_ultimos": {
+   "cuerdas": 2384,
+   "quipus": 242,
+   "n_quipus": 651,
+   "pct": 37.2,
+   "nulo_media": 217.2,
+   "nulo_pct": 33.4,
+   "p_empirico": 0.0004997501249375312
+  },
+  "ultimo_tras_unidad": {
+   "cuerdas": 2488,
+   "quipus": 243,
+   "n_quipus": 651,
+   "pct": 37.3,
+   "nulo_media": 229.8,
+   "nulo_pct": 35.3,
+   "p_empirico": 0.0004997501249375312
+  }
+ },
+ "V2_ascher": {
+  "n_quipus": 638,
+  "obs": {
+   "B": 5.6,
+   "B2": 12.7,
+   "C": 4.7,
+   "cualquiera": 16.3
+  },
+  "nulo": {
+   "B": 3.48,
+   "B2": 10.05,
+   "C": 0.96,
+   "cualquiera": 10.63
+  },
+  "p_empirico": {
+   "B": 0.0014992503748125937,
+   "B2": 0.0014992503748125937,
+   "C": 0.0004997501249375312,
+   "cualquiera": 0.0004997501249375312
+  },
+  "detalle": {
+   "B": 36,
+   "B2": 81,
+   "C": 30,
+   "cualquiera": 104
+  }
+ },
+ "V3_santa": {
+  "filas": [
+   {
+    "kfg": "UR087",
+    "cuerdas": 370,
+    "R": 310,
+    "V": 0,
+    "U": 60,
+    "pct_R": 100.0
+   },
+   {
+    "kfg": "UR088",
+    "cuerdas": 102,
+    "R": 0,
+    "V": 54,
+    "U": 48,
+    "pct_R": 0.0
+   },
+   {
+    "kfg": "UR089",
+    "cuerdas": 288,
+    "R": 0,
+    "V": 207,
+    "U": 81,
+    "pct_R": 0.0
+   },
+   {
+    "kfg": "UR090",
+    "cuerdas": 131,
+    "R": 40,
+    "V": 69,
+    "U": 22,
+    "pct_R": 36.7
+   },
+   {
+    "kfg": "UR091",
+    "cuerdas": 125,
+    "R": 0,
+    "V": 93,
+    "U": 32,
+    "pct_R": 0.0
+   },
+   {
+    "kfg": "UR092",
+    "cuerdas": 61,
+    "R": 56,
+    "V": 0,
+    "U": 5,
+    "pct_R": 100.0
+   }
+  ],
+  "agregado": {
+   "n": 829,
+   "R": 406,
+   "V": 423,
+   "pct_R": 49.0
+  },
+  "puros": 5,
+  "mixto": [
+   {
+    "kfg": "UR090",
+    "cuerdas": 131,
+    "R": 40,
+    "V": 69,
+    "U": 22,
+    "pct_R": 36.7
+   }
+  ]
+ },
+ "V4_thompson": {
+  "AS128": {
+   "p170": 70.0,
+   "p170s1": 5.0,
+   "suma_170": 75.0,
+   "n_p177_198": 22,
+   "suma_p177_198": 72.0
+  },
+  "AS115": {
+   "tripleta1": [
+    188,
+    205,
+    213
+   ],
+   "suma1": 606,
+   "tiene1": true,
+   "tripleta2": [
+    266,
+    225,
+    245
+   ],
+   "suma2": 736,
+   "tiene2": true
+  },
+  "AS044": {
+   "suma_grupo10": 248.0,
+   "grupos": {
+    "0": 296.0,
+    "1": 30.0,
+    "2": 40.0,
+    "3": 40.0,
+    "4": 43.0,
+    "5": 46.0,
+    "6": 31.0,
+    "7": 34.0,
+    "8": 33.0,
+    "9": 33.0,
+    "10": 248.0,
+    "11": 0.0,
+    "12": 38.0,
+    "13": 3.0,
+    "14": 15.0,
+    "15": 13.0,
+    "16": 43.0,
+    "17": 48.0,
+    "18": 49.0,
+    "19": 49.0,
+    "20": 40.0,
+    "21": 40.0,
+    "22": 32.0,
+    "23": 32.0,
+    "24": 76.0,
+    "25": 76.0,
+    "26": 63.0,
+    "27": 66.0
+   }
+  },
+  "AS010": {
+   "p1": 33.0,
+   "p1s1": 18.0,
+   "primeros7_por_orden": 87.0,
+   "primeros7_por_pn": 87.0
+  },
+  "AS014_p20": [
+   {
+    "cuerda": "p1",
+    "nudos": "2S(5.0,U),20;2L(12.0,U),2;6L(21.0,U),6;3L(36.0,U),3"
+   },
+   {
+    "cuerda": "p1s1",
+    "nudos": "2S(5.0,U),20;4S(13.0,U),40;3S(18.0,U),30;6L(29.0,U),6"
+   },
+   {
+    "cuerda": "p2s1",
+    "nudos": "2S(7.0,U),20;2S(14.0,U),20;2S(26.0,U),20;1S(32.0,U),10"
+   }
+  ],
+  "AS021_p3": [
+   {
+    "cuerda": "p1",
+    "nudos": "2S(8.0,U),20;2L(16.0,U),2"
+   },
+   {
+    "cuerda": "p1s1",
+    "nudos": "5L(14.0,U),5"
+   },
+   {
+    "cuerda": "p1s2",
+    "nudos": NaN
+   }
+  ]
+ },
+ "V5_blanco": {
+  "n_quipus": 596,
+  "n_frontera": 10932,
+  "n_interior": 27993,
+  "pct_blanco_frontera": 29.4,
+  "pct_blanco_interior": 22.4,
+  "dif_media_pp": 2.8,
+  "media_nulo_pp": -0.02,
+  "p_empirico": 0.0004997501249375312,
+  "amp_frontera": 44.2,
+  "amp_interior": 37.9
+ },
+ "V6_grande": {
+  "top": {
+   "AS069": 1831,
+   "UR093": 1227,
+   "UR231": 954,
+   "UR006": 874,
+   "UR113": 866
+  },
+  "info": {
+   "AS069": {
+    "okr": "KH0082",
+    "procedencia": "Lluta Valley",
+    "region": "Unknown",
+    "museo": "owner Percy Dauelsberg, Arica, Chile"
+   },
+   "UR093": {
+    "okr": "KH0329",
+    "procedencia": "Unknown",
+    "region": "Unknown",
+    "museo": "Museo Temple Radicati"
+   },
+   "UR231": {
+    "okr": "KH0468",
+    "procedencia": "Ica/Pisco",
+    "region": "South Coast, Peru",
+    "museo": "Ethnologisches Museum, Berlin, Germany"
+   },
+   "UR006": {
+    "okr": "KH0242",
+    "procedencia": "Leymebamba",
+    "region": "Chachapoyas",
+    "museo": "Centro Mallqui, Leymebamba, Amazonas"
+   },
+   "UR113": {
+    "okr": "KH0349",
+    "procedencia": "Nazca",
+    "region": "Unknown",
+    "museo": "Museum of Worldculture, Goteborg, Sweden"
+   }
+  },
+  "total_AS069": 13057.0,
+  "totales_candidatos": {
+   "UR131A": 6713.0,
+   "UR131B": 6691.0,
+   "UR131C": 6345.0,
+   "KH0083": 15725.0,
+   "KH0267": 2729.0,
+   "UR084": 1773.0,
+   "UR130": 1555.0,
+   "UR132": 1588.0
+  }
+ }
+}

@@ -1,0 +1,8 @@
+tol0 N1: testables 483 p<.05 47 (esp 24.2) q<.05 12
+    {'Incahuasi': 9, 'Huacho?': 1, 'Nazca': 1, 'Pachacamac': 1} ['JC010', 'MM001', 'UR113', 'UR230', 'UR255', 'UR256', 'UR260', 'UR267A', 'UR267B', 'UR269', 'UR270', 'UR275']
+tol0 N2: testables 48 p<.05 8 (esp 2.4) q<.05 6
+    {'Incahuasi': 6} ['UR255', 'UR256', 'UR267A', 'UR267B', 'UR269', 'UR275']
+tol1 N1: testables 505 p<.05 78 (esp 25.2) q<.05 37
+    {'Pachacamac': 3, 'Ullujaya, Ocucaje, Ica': 1, 'Incahuasi': 11, 'Unknown': 8, 'Huacho?': 1, 'Leymebamba': 3, 'Huaquerones': 2, 'Ica': 2, 'Between Ica and Pisco': 1, 'Nazca': 1, 'Ica or Cajamarquilla': 1, 'Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)': 1, 'Ica/Pisco': 1, 'Huaca San Pedro, Armatambo': 1} ['HP029', 'HP034', 'JC011', 'KH0197', 'MM001', 'MM021', 'QU003', 'QU009', 'UR004', 'UR017', 'UR021', 'UR060', 'UR069', 'UR093', 'UR1034', 'UR1049', 'UR1057', 'UR1100', 'UR1114', 'UR113', 'UR167', 'UR170', 'UR190', 'UR212', 'UR231', 'UR250', 'UR255', 'UR256', 'UR260', 'UR267A', 'UR267B', 'UR269', 'UR270', 'UR271', 'UR274B', 'UR275', 'UR283']
+tol1 N2: testables 54 p<.05 12 (esp 2.7) q<.05 6
+    {'Incahuasi': 6} ['UR255', 'UR256', 'UR267A', 'UR267B', 'UR269', 'UR275']

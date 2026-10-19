@@ -1,0 +1,69 @@
+252 tipo                  confianza
+discrepancia          alta         18
+                      baja         78
+                      media        53
+discrepancia de fila  baja          7
+reconstruccion        alta         25
+                      baja         45
+                      media        26
+      quipu cuerda          tipo valor_registrado  valor_predicho                                 via  confianza_num
+266   UR275    p51  discrepancia               40              47                               UR275           0.96
+81   UR267A    p27  discrepancia               16              15                              UR267A           0.92
+83   UR267A    p65  discrepancia               82              92              UR255->UR267A + UR267A           0.82
+86   UR267A    p68  discrepancia               63              66                       UR255->UR267A           0.82
+51    UR266    p86  discrepancia             2114            2020  UR274A+UR273B:UR266 + UR275->UR266           0.77
+290   UR275    p88  discrepancia             1825            1827         UR273A+UR273B:UR275 + UR275           0.77
+297   UR275    p94  discrepancia             1891            1961         UR274A+UR273B:UR275 + UR275           0.77
+72   UR267A     p7  discrepancia              161             155                              UR267A           0.75
+73   UR267A     p8  discrepancia               15              21                              UR267A           0.75
+75   UR267A     p9  discrepancia              140             146                              UR267A           0.75
+79   UR267A    p26  discrepancia              141             136                              UR267A           0.75
+80   UR267A    p27  discrepancia               16              21                              UR267A           0.75
+82   UR267A    p28  discrepancia              120             125                              UR267A           0.75
+84   UR267A    p66  discrepancia               15               5                              UR267A           0.75
+85   UR267A    p67  discrepancia               77              67                              UR267A           0.75
+87   UR267A    p68  discrepancia               63              55                              UR267A           0.75
+88   UR267A    p69  discrepancia               15              23                              UR267A           0.75
+89   UR267A    p70  discrepancia               40              48                              UR267A           0.75
+168   UR270     p1  discrepancia              178             179                        UR278->UR270           0.74
+169   UR270   p1s1  discrepancia               59              60                        UR278->UR270           0.74
+170   UR270    p18  discrepancia              215             216                        UR278->UR270           0.74
+171   UR270  p18s1  discrepancia               86              87                        UR278->UR270           0.74
+174   UR270    p46  discrepancia              239             238                        UR278->UR270           0.74
+175   UR270  p46s1  discrepancia               60              59                        UR278->UR270           0.74
+176   UR270    p47  discrepancia              211             210                        UR278->UR270           0.74
+177   UR270  p47s1  discrepancia              132             131                        UR278->UR270           0.74
+183   UR270    p63  discrepancia               90              88                        UR278->UR270           0.74
+184   UR270  p63s1  discrepancia               43              41                        UR278->UR270           0.74
+185   UR270    p64  discrepancia              186             185                        UR278->UR270           0.74
+186   UR270  p64s1  discrepancia               36              35                        UR278->UR270           0.74
+187   UR270    p67  discrepancia              124             121                        UR278->UR270           0.74
+188   UR270  p67s1  discrepancia               24              21                        UR278->UR270           0.74
+189   UR270    p71  discrepancia               68              67                        UR278->UR270           0.74
+190   UR270  p71s1  discrepancia               43              42                        UR278->UR270           0.74
+191   UR270    p72  discrepancia               78              77                        UR278->UR270           0.74
+192   UR270  p72s1  discrepancia               32              31                        UR278->UR270           0.74
+308   UR278   p180  discrepancia              238             237                        UR270->UR278           0.74
+309   UR278   p196  discrepancia              302             301                        UR270->UR278           0.74
+311   UR278   p214  discrepancia              298             299                        UR270->UR278           0.74
+312   UR278   p215  discrepancia              342             343                        UR270->UR278           0.74
+316   UR278   p231  discrepancia              131             133                        UR270->UR278           0.74
+317   UR278   p232  discrepancia              221             222                        UR270->UR278           0.74
+318   UR278   p235  discrepancia              145             148                        UR270->UR278           0.74
+319   UR278   p239  discrepancia              110             111                        UR270->UR278           0.74
+320   UR278   p240  discrepancia              109             110                        UR270->UR278           0.74
+5     UR255    p70  discrepancia               92              82                       UR267A->UR255           0.69
+6     UR255    p74  discrepancia               66              63                       UR267A->UR255           0.69
+109  UR267B    p67  discrepancia              601             612                              UR267B           0.68
+111  UR267B    p69  discrepancia              591             580                              UR267B           0.68
+117  UR267B    p98  discrepancia              152             153                              UR267B           0.68
+118  UR267B    p99  discrepancia               10               9                              UR267B           0.68
+119  UR267B   p100  discrepancia              143             142                              UR267B           0.68
+17    UR256    p68  discrepancia              357             388                               UR256           0.60
+18    UR256    p69  discrepancia              347             316                               UR256           0.60
+20    UR256    p72  discrepancia              663             633                               UR256           0.60
+21    UR256    p73  discrepancia              623             653                               UR256           0.60
+33    UR256   p101  discrepancia              342             339                               UR256           0.60
+34    UR256   p102  discrepancia              329             332                               UR256           0.60
+35    UR256   p103  discrepancia               10              13                               UR256           0.60
+39    UR266    p22  discrepancia               44              47                               UR266           0.52

@@ -1,0 +1,60 @@
+quipus con >=20 nudos con direccion: 398
+fracS ND 0.345 resto 0.23 p 0.208
+Hdir ND 0.236 resto 0.351 p 0.834
+fracS_t ND 1.0 resto 1.0 p 0.0
+
+Distribucion fracS (nudos):
+count    398.000
+mean       0.370
+std        0.375
+min        0.000
+10%        0.000
+25%        0.015
+50%        0.231
+75%        0.707
+90%        0.980
+max        1.000
+
+Quipus con direccion mas balanceada (0.2<fracS<0.8, >=30 nudos):
+        kfg  n_dir  fracS  Hdir    ND    NC  fracS_t                            procedencia
+     UR274B  148.0  0.209 0.740 False False    1.000                              Incahuasi
+      UR032   37.0  0.216 0.753  True False    1.000                                Unknown
+      UR268  434.0  0.219 0.758 False False    1.000                              Incahuasi
+      JC013   73.0  0.219 0.759 False False    0.000                              Incahuasi
+      UR154   35.0  0.229 0.776 False False    1.000 Valle de Ica Hacienda Callango Ocucaje
+     UR267B  234.0  0.231 0.779 False False    1.000                              Incahuasi
+      JC023   56.0  0.232 0.782 False False    0.000                              Incahuasi
+      UR073   47.0  0.234 0.785 False False    1.000                                Unknown
+      UR064   68.0  0.235 0.787 False False    1.000                            Huaquerones
+      UR068   71.0  0.239 0.794 False False    1.000                                Unknown
+     UR1118   50.0  0.240 0.795 False False    1.000                             Pachacamac
+      UR197  220.0  0.241 0.797 False False    1.000                             Pachacamac
+      UR003  485.0  0.247 0.807  True False    0.999                             Leymebamba
+      UR275  334.0  0.249 0.809 False False    1.000                              Incahuasi
+      UR248   51.0  0.255 0.819 False False    1.000                             Pachacamac
+      UR103   34.0  0.265 0.834 False False    0.000                                Unknown
+     UR273A   68.0  0.265 0.834 False False    1.000                              Incahuasi
+      UR167   33.0  0.273 0.845 False False    1.000                   Ica or Cajamarquilla
+      UR278  881.0  0.284 0.861 False False    1.000                              Incahuasi
+      UR120  137.0  0.285 0.862 False False    1.000                                 Huacho
+      UR279   42.0  0.286 0.863 False False    1.000                              Incahuasi
+      UR266  329.0  0.292 0.871 False False    1.000                              Incahuasi
+      QU016   92.0  0.304 0.887 False False    1.000                                Unknown
+     UR1108   32.0  0.312 0.896 False False    1.000                  Between Ica and Pisco
+MM006_AN001   73.0  0.315 0.899 False False    1.000                             South Peru
+     UR267A  183.0  0.322 0.907 False False    1.000                              Incahuasi
+      UR226   99.0  0.333 0.918 False False    1.000                             Pachacamac
+      UR258   88.0  0.341 0.926 False False    1.000                              Incahuasi
+      MM004   70.0  0.343 0.928 False False    1.000 Unknown (not from Gaffron collections)
+      UR233  153.0  0.346 0.931 False False    1.000                                 Huacho
+
+Clase ND con fracS>0.2: 23 de 42
+
+UR178 detalle:
+   kfg  n_dir  fracS  Hdir   n_t  fracS_t    ND
+KH0001  488.0  0.000 0.000 154.0      0.0  True
+ UR050  501.0  0.802 0.717 164.0      0.0  True
+ UR177  124.0  0.032 0.206  90.0      1.0  True
+ UR178    9.0  0.778 0.764  14.0      1.0  True
+ UR179   29.0  0.034 0.216  18.0      1.0 False
+ UR180   24.0  0.083 0.414  12.0      0.0 False

@@ -1,0 +1,13 @@
+definicion,valores,tol,nbloques,obs,nulo_media,nulo_max,p,lcs,q
+PK,cabecera,0,15,0,0.0415,2,1,0,1
+PK,cabecera,1,15,0,0.1685,2,1,0,1
+PK,neto,0,15,0,0.044,2,1,0,1
+PK,neto,1,15,0,0.1465,3,1,0,1
+cuota,cabecera,0,10,0,0.0175,2,1,0,1
+cuota,cabecera,1,10,0,0.0615,3,1,0,1
+cuota,neto,0,10,0,0.0225,1,1,0,1
+cuota,neto,1,10,0,0.059,2,1,0,1
+ventana5,cabecera,0,64,0,0.256,4,1,0,1
+ventana5,cabecera,1,64,1,0.7825,5,0.5487,1,1
+ventana5,neto,0,64,0,0.245,3,1,0,1
+ventana5,neto,1,64,0,0.7955,5,1,0,1

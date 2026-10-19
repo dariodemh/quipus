@@ -1,0 +1,65 @@
+cuerdas comparables (nudos, largo +-0.5): 35223
+  con nudo largo: 22409   con figura de ocho: 7698
+discrepancias de valor: 225  (0.64 %)
+
+                      n   pct  por_1000_cuerdas
+tipo_error                                     
+factor10            106  47.1              3.01
+vueltas              58  25.8              1.65
+compuesto            21   9.3              0.60
+bloque               21   9.3              0.60
+racimo_omitido_okr   10   4.4              0.28
+ocho_vs_largo         4   1.8              0.11
+racimo_omitido_kfg    2   0.9              0.06
+otro                  1   0.4              0.03
+S_vs_L                1   0.4              0.03
+S_otro                1   0.4              0.03
+
+detalle de los tipos grandes:
+  factor10             n=106  ejemplo: S 10->100  | KH0033 p9
+  vueltas              n= 58  ejemplo: L 5->3 (d=-2)  | KH0058 p9s1
+  compuesto            n= 21  ejemplo: 2 operaciones  | UR144 p12
+  bloque               n= 21  ejemplo: 1 vs 2 racimos  | HP023 p10s2
+  racimo_omitido_okr   n= 10  ejemplo: KFG [2.0] no en OKR  | HP038 p3
+  ocho_vs_largo        n=  4  ejemplo: L4 vs E1  | KH0058 p7s1
+  racimo_omitido_kfg   n=  2  ejemplo: OKR [80.0] no en KFG  | KH0058 p74
+  otro                 n=  1  ejemplo: L2 vs 0  | KH0080 p2s1
+
+delta por tipo (mediana, min, max):
+                    count  median    min    max
+tipo_error                                     
+S_otro                  1    10.0   10.0   10.0
+S_vs_L                  1     8.0    8.0    8.0
+bloque                 21    -3.0  -68.0   95.0
+compuesto              21    -4.0  -69.0   18.0
+factor10              106    90.0  -90.0  810.0
+ocho_vs_largo           4    -1.0   -3.0    2.0
+otro                    1    -2.0   -2.0   -2.0
+racimo_omitido_kfg      2    85.0   80.0   90.0
+racimo_omitido_okr     10    -1.5 -115.0   -1.0
+vueltas                58    -3.0   -9.0    6.0
+RESTO (sin UR090/144/235/193/190): 34 discrepancias / 34729 cuerdas = 0.098 %
+  con L: 22018  con E: 7639
+                    por_1000_cuerdas  n
+tipo_error                             
+racimo_omitido_okr            0.2591  9
+vueltas                       0.2591  9
+bloque                        0.2016  7
+factor10                      0.0864  3
+ocho_vs_largo                 0.0576  2
+racimo_omitido_kfg            0.0576  2
+otro                          0.0288  1
+S_vs_L                        0.0288  1
+
+Ventanas de exposicion (resto):
+  cuerdas: 34729; con L: 22018 (63.4 %); con E: 7639 (22.0 %)
+  racimos por cuerda (media): 1.38
+
+KFG vs Databook (311 discrepancias, 210 quipus AS):
+clase
+d_kfg_sin_nudos     128
+d_valor_dudoso       70
+c_error_databook     45
+d_convencion_x10     31
+d_otras              23
+a_ocr                14

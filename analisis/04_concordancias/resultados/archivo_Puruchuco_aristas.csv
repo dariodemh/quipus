@@ -1,0 +1,5 @@
+tipo,origen,destino,score,p,p_emp,p_bloque,q,q_archivo,p_orden,q_archivo_orden
+copia/versión,UR063,UR073,17.6,0.000999,0.000999,0.002,0.328,0.0475,,
+copia/versión,UR063,UR078,15.8,0.00061,0.000999,0.106,0.328,0.0386,,
+copia/versión,UR064,UR068,90,3.63e-25,0.000999,4.81e-10,1.22e-20,6.89e-23,,
+copia/versión,UR066,UR067,48.1,3.87e-13,0.000999,0.000323,5.58e-09,3.68e-11,,

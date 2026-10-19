@@ -1,0 +1,32 @@
+RATIOS POR TRIBUTARIO PAYANTE
+============================================================
+
+1577 (payantes = 732)
+  plata (pesos)                  3.0000
+  ropa (piezas)                  0.5000
+  maíz (fanegas)                 0.6831
+  aves                           1.0355
+  total (pesos)                  5.0000
+
+1590 (payantes = 469)
+  plata (pesos)                  2.9688
+  ropa (piezas)                  0.5000
+  trigo+maíz (fanegas)           1.3673
+  aves                           1.0309
+  total (pesos)                  4.9686
+
+COMPARACIÓN 1577 vs 1590 (mismos conceptos)
+------------------------------------------------------------
+  ropa/payante         1577= 0.5000  1590= 0.5000  dif=  0.00%
+  aves/payante         1577= 1.0355  1590= 1.0309  dif= -0.44%
+  plata/payante        1577= 3.0000  1590= 2.9688  dif= -1.04%
+  total/payante        1577= 5.0000  1590= 4.9686  dif= -0.63%
+
+CONTROL DE ARITMÉTICA DE LAS TASAS
+------------------------------------------------------------
+1577 componentes valorados: ropa 366x2,375=869.2500; maíz 500x0,5=250.0; aves 758x0,125=94.750; suma=1214.0000
+1577 documento: especies 1474; plata 2196; total 3660.
+  -> 2196+1474=3670, no 3660; componentes valorados=1214.00, no 1474.
+  -> El total 3660 sí es exactamente 732 x 5 pesos.
+1590 componentes: ropa 234,5x2,375=556.9375; trigo/maíz 641,25x0,5=320.6250; aves 483,5x0,125=60.4375; suma=938.0000
+1590 documento: total 2330,28125; suma componentes=2330.3438

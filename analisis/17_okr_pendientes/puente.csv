@@ -1,0 +1,753 @@
+kh,ur,as,otros_alias,kfg,kfg_enlace,en_khipu_db,khipu_id,museo,n_inventario,carpeta,comentario
+KH0001,UR176,,LL001,KH0001,okr_kfg,sí,1000493,American Museum of Natural History,B/8705,,sin carpeta de datos | khipu.db INVESTIGATOR_NUM=LL01/UR176
+KH0002,,AS001,,AS001,alias,no,,National Museum of the American Indian,17/8826,KH0002_0010,sin fila en khipu.db
+KH0003,,AS002,,AS002,alias,no,,National Museum of the American Indian,17/8832,KH0002_0010,sin fila en khipu.db
+KH0004,,AS003,,AS003,alias,no,,National Museum of the American Indian,17/8827,KH0002_0010,sin fila en khipu.db
+KH0005,,AS004,,AS004,alias,no,,National Museum of the American Indian,17/8821,KH0002_0010,sin fila en khipu.db
+KH0006,,AS005,,AS005,alias,no,,National Museum of the American Indian,17/8831,KH0002_0010,sin fila en khipu.db
+KH0007,,AS006,,AS006,alias,no,,National Museum of the American Indian,17/8838,KH0002_0010,sin fila en khipu.db
+KH0008,,AS007,,AS007,alias,no,,National Museum of the American Indian,17/8825,KH0002_0010,sin fila en khipu.db
+KH0009,,AS008,,AS008,alias,no,,"Pitt Rivers Museum, University of Oxford","1931.32.1, VIII. 502",KH0002_0010,sin fila en khipu.db
+KH0010,,AS009,,AS009,alias,no,,"Pitt Rivers Museum, University of Oxford","1925.55.2, L. I. 39",KH0002_0010,sin fila en khipu.db
+KH0011,,AS010,,AS010,khipu_id,sí,1000166,Niedersächsisches Landesmuseum,6271,,sin carpeta de datos
+KH0012,,AS011,,AS011,khipu_id,sí,1000167,Niedersächsisches Landesmuseum,10087,,sin carpeta de datos
+KH0013,,AS012,,AS012,khipu_id,sí,1000180,Niedersächsisches Landesmuseum,10217,,sin carpeta de datos
+KH0014,,AS013,,AS013,khipu_id,sí,1000184,Niedersächsisches Landesmuseum,10086,,sin carpeta de datos
+KH0015,,AS014,,AS014,khipu_id,sí,1000185,British Museum,"Am1907,0319.286",,sin carpeta de datos
+KH0016,,AS015,,AS015,khipu_id,sí,1000186,Penn Museum,SA4035,,sin carpeta de datos
+KH0017,,AS016,,AS016,khipu_id,sí,1000187,Penn Museum,SA4032,,sin carpeta de datos
+KH0018,,AS017,,AS017,khipu_id,sí,1000188,Penn Museum,SA4029,,sin carpeta de datos
+KH0019,,AS018,,AS018,khipu_id,sí,1000189,Penn Museum,CG852611-6382,,sin carpeta de datos
+KH0020,,AS019,,AS019,khipu_id,sí,1000190,Penn Museum,SA4033,,sin carpeta de datos
+KH0021,,AS020,,AS020,khipu_id,sí,1000191,Penn Museum,SA4034,,sin carpeta de datos
+KH0022,,AS021,,AS021,khipu_id,sí,1000192,Penn Museum,SA4040,,sin carpeta de datos
+KH0023,,AS022,,,,no,,Penn Museum,SA4037,,OKR: This khipu was not initially entered into the OKR. It is re-introduced here. | sin fila en khipu.db | sin carpeta de datos
+KH0024,,AS023,,AS023,khipu_id,sí,1000194,Penn Museum,SA4038,,sin carpeta de datos
+KH0025,,AS024,,AS024,khipu_id,sí,1000195,Penn Museum,SA4036,,sin carpeta de datos
+KH0026,,AS025,,AS025,khipu_id,sí,1000196,Penn Museum,SA4041,,sin carpeta de datos
+KH0027,,AS026A,,AS026A,khipu_id,sí,1000197,Penn Museum,SA4030,,sin carpeta de datos | inventario compartido con KH0028
+KH0028,,AS026B,,AS026B,khipu_id,sí,1000198,Penn Museum,SA4030,,sin carpeta de datos | inventario compartido con KH0027
+KH0029,,AS027,,AS027,khipu_id,sí,1000199,Penn Museum,SA4039,,sin carpeta de datos
+KH0030,,AS028,,AS028,khipu_id,sí,1000200,Penn Museum,SA4031,,sin carpeta de datos
+KH0031,,AS029,,AS029,khipu_id,sí,1000201,Wereldmuseum,WM-40148,,sin carpeta de datos
+KH0032,UR043,AS030,,KH0032,okr_kfg,sí,1000101,Peabody Museum of Archaeology and Ethnology,41-70.30/3110,,sin carpeta de datos | khipu.db INVESTIGATOR_NUM=AS030/UR043
+KH0033,UR1031;UR044,AS031,,KH0033;UR044,alias;okr_kfg,sí,1000097,Peabody Museum of Archaeology and Ethnology,32-70-30/F851,,"OKR: UR044 (KHIPU_ID 10001012) is an unfinished duplicate of AS031. The more complete UR1031 (KHIPU_ID 1000097) is retained as the canonical version. | sin carpeta de datos | varios KFG: KH0033, UR044 | khipu.db INVESTIGATOR_NUM=AS031/UR1031/UR044"
+KH0034,UR1032,AS032,,UR1032,khipu_id,sí,1000103,Peabody Museum of Archaeology and Ethnology,42.28.30/4532,,sin carpeta de datos
+KH0035,UR1033A,AS033A,,UR1033A,khipu_id,sí,1000105,Peabody Museum of Archaeology and Ethnology,41.52.30/293B,,"sin carpeta de datos | inventario compartido con KH0036, KH0037, KH0038, KH0039, KH0040, KH0041"
+KH0036,UR1033B,AS033B,,UR1033B,khipu_id,sí,1000106,Peabody Museum of Archaeology and Ethnology,41.52.30/293B,,"sin carpeta de datos | inventario compartido con KH0035, KH0037, KH0038, KH0039, KH0040, KH0041"
+KH0037,UR1033C,AS033C,,UR1033C,khipu_id,sí,1000107,Peabody Museum of Archaeology and Ethnology,41.52.30/293B,,"sin carpeta de datos | inventario compartido con KH0035, KH0036, KH0038, KH0039, KH0040, KH0041"
+KH0038,UR1033D,AS033D,,UR1033D,khipu_id,sí,1000108,Peabody Museum of Archaeology and Ethnology,41.52.30/293B,,"sin carpeta de datos | inventario compartido con KH0035, KH0036, KH0037, KH0039, KH0040, KH0041"
+KH0039,UR1033E,AS033E,,UR1033E,khipu_id,sí,1000109,Peabody Museum of Archaeology and Ethnology,41.52.30/293B,,"sin carpeta de datos | inventario compartido con KH0035, KH0036, KH0037, KH0038, KH0040, KH0041"
+KH0040,UR1033F,AS033F,,UR1033F,khipu_id,sí,1000110,Peabody Museum of Archaeology and Ethnology,41.52.30/293B,,"sin carpeta de datos | inventario compartido con KH0035, KH0036, KH0037, KH0038, KH0039, KH0041"
+KH0041,UR1033G,AS033G,,UR1033G,khipu_id,sí,1000111,Peabody Museum of Archaeology and Ethnology,41.52.30/293B,,"sin carpeta de datos | inventario compartido con KH0035, KH0036, KH0037, KH0038, KH0039, KH0040"
+KH0042,UR1034,AS034,,UR1034,khipu_id,sí,1000333,Smithsonian National Museum of Natural History,365240,,sin carpeta de datos
+KH0043,,AS035A,,AS35A,khipu_id,sí,1000204,Brooklyn Museum,"70.177.69, X591a",,"sin carpeta de datos | inventario compartido con KH0044, KH0045, KH0046"
+KH0044,,AS035B,,AS35B,khipu_id,sí,1000205,Brooklyn Museum,"70.177.69, X591a",,"sin carpeta de datos | inventario compartido con KH0043, KH0045, KH0046"
+KH0045,,AS035C,,AS035C,khipu_id,sí,1000206,Brooklyn Museum,"70.177.69, X591a",,"sin carpeta de datos | inventario compartido con KH0043, KH0044, KH0046"
+KH0046,,AS035D,,AS035D,khipu_id,sí,1000207,Brooklyn Museum,"70.177.69, X591a",,"sin carpeta de datos | inventario compartido con KH0043, KH0044, KH0045"
+KH0047,,AS036,,AS036,khipu_id,sí,1000235,Museo Jacinto Jijón y Caamaño,P501A,,sin carpeta de datos
+KH0048,,AS037,,AS037,khipu_id,sí,1000236,Museo Jacinto Jijón y Caamaño,P501B,,sin carpeta de datos
+KH0049,,AS038,HP036,KH0049,okr_kfg,sí,1000565,"Museo Nacional de Arqueología, Antropología e Historia del Perú","MNAAHP3550, 3884-147",,sin carpeta de datos | khipu.db INVESTIGATOR_NUM=AS038/HP036
+KH0050,,AS039,,AS039,khipu_id,sí,1000213,"Museo Nacional de Arqueología, Antropología e Historia del Perú",17/543,,sin carpeta de datos
+KH0051,UR1040,AS040,,UR1040,khipu_id,sí,1000208,"Museo Nacional de Arqueología, Antropología e Historia del Perú",n/a,,sin carpeta de datos
+KH0052,,AS041,,AS041,khipu_id,sí,1000209,"Museo Nacional de Arqueología, Antropología e Historia del Perú",V17/559,,sin carpeta de datos
+KH0053,,AS042,,AS042,khipu_id,sí,1000210,"Museo Nacional de Arqueología, Antropología e Historia del Perú",17/569,,sin carpeta de datos
+KH0054,,AS043,,AS043,khipu_id,sí,1000211,"Museo Nacional de Arqueología, Antropología e Historia del Perú",0908-a,,sin carpeta de datos
+KH0055,,AS044,,AS044,khipu_id,sí,1000345,"Museo Nacional de Arqueología, Antropología e Historia del Perú",17/579,,sin carpeta de datos
+KH0056,,AS045,,AS045,khipu_id,sí,1000212,"Museo Nacional de Arqueología, Antropología e Historia del Perú",17/560,,sin carpeta de datos
+KH0057,,AS046,HP041,KH0057,okr_kfg,sí,1000570,"Museo Nacional de Arqueología, Antropología e Historia del Perú","MNAAHP5693, 17/565",,sin carpeta de datos | khipu.db INVESTIGATOR_NUM=AS046/HP041
+KH0058,,AS047,HP035,KH0058,okr_kfg,sí,1000564,"Museo Nacional de Arqueología, Antropología e Historia del Perú","MNAAHP1748, 3882",,sin carpeta de datos | khipu.db INVESTIGATOR_NUM=AS047/HP035
+KH0059,,AS048,,AS048,khipu_id,sí,1000229,Museo Amano,R2700,,sin carpeta de datos
+KH0060,UR1049,AS049,,UR1049,khipu_id,sí,1000230,Museo Amano,R2699,,sin carpeta de datos
+KH0061,,AS050,,AS050,khipu_id,sí,1000361,Ana Maria Soldi,1,,sin carpeta de datos
+KH0062,UR1051,AS051,,UR1051,khipu_id,sí,1000214,"Museo Nacional de Arqueología, Antropología e Historia del Perú",5,,sin carpeta de datos
+KH0063,UR1052,AS052,,UR1052,khipu_id,sí,1000170,Museo Regional de Ica Adolfo Bermúdez Jenkins,6,,sin carpeta de datos
+KH0064,UR1053,AS053,,UR1053,khipu_id,sí,1000169,Museo Regional de Ica Adolfo Bermúdez Jenkins,2,,sin carpeta de datos
+KH0065,,AS054,,AS054,khipu_id,sí,1000179,Museo Regional de Ica Adolfo Bermúdez Jenkins,3,,sin carpeta de datos
+KH0066,,AS055,,AS055,khipu_id,sí,1000182,Museo Regional de Ica Adolfo Bermúdez Jenkins,4A,,sin carpeta de datos
+KH0067,UR163,AS056,,KH0067,okr_kfg,sí,1000392,Museo Regional de Ica Adolfo Bermúdez Jenkins,4B,,sin carpeta de datos | khipu.db INVESTIGATOR_NUM=AS056/UR163
+KH0068,UR1057,AS057,,UR1057,khipu_id,sí,1000183,Museo Regional de Ica Adolfo Bermúdez Jenkins,7,,sin carpeta de datos
+KH0069,UR1058,AS058,,UR1058,khipu_id,sí,1000176,Museo Regional de Ica Adolfo Bermúdez Jenkins,1,,sin carpeta de datos
+KH0070,,AS059,,AS059,khipu_id,sí,1000173,Óscar Núñez del Prado,5B,,sin carpeta de datos
+KH0071,,AS060,,AS060,khipu_id,sí,1000171,Óscar Núñez del Prado,6B,,sin carpeta de datos
+KH0072,,AS061,MA036,AS061_MA036,khipu_id,sí,1000177,Óscar Núñez del Prado,8B,,sin carpeta de datos | khipu.db INVESTIGATOR_NUM=AS061/MA036
+KH0073,,AS062,,AS062,khipu_id,sí,1000178,Óscar Núñez del Prado,4B,,sin carpeta de datos
+KH0074,,AS063A;AS063,,AS063,khipu_id,sí,1000216,Óscar Núñez del Prado,7B,,"OKR: Two khipus tied together. Split into AS063 and AS063B in the OKR, though initially recorded by the Aschers only as AS063. | alias solo en khipu.db: AS063 | sin carpeta de datos | inventario compartido con KH0075"
+KH0075,,AS063B,,AS063B,khipu_id,sí,1000223,Óscar Núñez del Prado,7B,,sin carpeta de datos | inventario compartido con KH0074
+KH0076,,AS064,,AS064,khipu_id,sí,1000217,Óscar Núñez del Prado,3B,,sin carpeta de datos
+KH0077,,AS065A;AS065,,AS065,khipu_id,sí,1000218,Óscar Núñez del Prado,11B,,"OKR: Two khipu fragments associated with each other by the Aschers. Split into AS065 and AS065B in the OKR, though initially recorded by the Aschers only as AS065. | alias solo en khipu.db: AS065 | sin carpeta de datos"
+KH0078,,AS065B,,AS065B,khipu_id,sí,1000224,Óscar Núñez del Prado,10B,,sin carpeta de datos
+KH0079,,AS066,,AS066,khipu_id,sí,1000369,Óscar Núñez del Prado,2a,,sin carpeta de datos
+KH0080,,AS067,MA029,KH0080,okr_kfg,sí,1000371,Óscar Núñez del Prado,1,,"OKR: This khipu is duplicated in the OKR as “AS067/MA029” (KHIPU_ID 1000371) and “AS067/MA29” (KHIPU_ID 1000364). The former, which is the most recent, complete version of the record, is retained. | sin carpeta de datos | khipu.db INVESTIGATOR_NUM=AS067/MA029"
+KH0081,UR281,AS068,,KH0081,okr_kfg,sí,1000648,"Museo Nacional de Arqueología, Antropología e Historia del Perú","1745, 3882",,sin carpeta de datos | khipu.db INVESTIGATOR_NUM=AS068/UR281
+KH0082,,AS069,,AS069,khipu_id,sí,1000096,Percy Dauelsberg,4,,sin carpeta de datos
+KH0083,UR035,AS070,,KH0083,okr_kfg,sí,1000279,Percy Dauelsberg,1; 780 at Museo Chileno de Arte Precolombino,,sin carpeta de datos | khipu.db INVESTIGATOR_NUM=AS070/UR035
+KH0084,,AS071,,AS071,khipu_id,sí,1000368,Percy Dauelsberg,3,,sin carpeta de datos
+KH0085,,AS072,,AS072,okr_kfg,sí,1000367,Rancho San Juan,n/a,,"OKR: The Aschers did not note any museum or collection info in the khipu-specific databook entries for AS072 and AS073, though the introductory pages to the databooks list the provenance for these specimens as Rancho San Juan, Ica Valley. | sin carpeta de datos"
+KH0086,,AS073,,AS073,khipu_id,sí,1000174,Rancho San Juan,n/a,,sin carpeta de datos
+KH0087,,AS074,,AS074,khipu_id,sí,1000366,Musée du quai Branly - Jacques Chirac,71.1964.19.1.7,,sin carpeta de datos
+KH0088,,AS075,,AS075,khipu_id,sí,1000342,Musée du quai Branly - Jacques Chirac,71.1964.19.1.5,,sin carpeta de datos
+KH0089,,AS076,,AS076,khipu_id,sí,1000220,Musée du quai Branly - Jacques Chirac,64.19.1.4,,sin carpeta de datos
+KH0090,,AS077,,AS077,khipu_id,sí,1000221,Musée du quai Branly - Jacques Chirac,64.19.1.3,,sin carpeta de datos
+KH0091,,AS078,,AS078,khipu_id,sí,1000172,Musée du quai Branly - Jacques Chirac,64.19.1.2,,sin carpeta de datos
+KH0092,,AS079,,AS079,khipu_id,sí,1000346,Musée du quai Branly - Jacques Chirac,64.19.1.6,,sin carpeta de datos
+KH0093,,AS080,,AS080,khipu_id,sí,1000222,Musée du quai Branly - Jacques Chirac,64.19.1.8,,sin carpeta de datos
+KH0094,,AS081,,AS081,khipu_id,sí,1000225,Musée du quai Branly - Jacques Chirac,64.19.2,,sin carpeta de datos
+KH0095,,AS082,,AS082,khipu_id,sí,1000226,Musée du quai Branly - Jacques Chirac,64.19.3,,sin carpeta de datos
+KH0096,,AS083,,AS083,khipu_id,sí,1000168,Musée du quai Branly - Jacques Chirac,64.19.7,,sin carpeta de datos
+KH0097,UR1084,AS084,,UR1084,khipu_id,sí,1000344,Musée du quai Branly - Jacques Chirac,71.1930.19.470,,sin carpeta de datos
+KH0098,,AS085,,AS085,khipu_id,sí,1000231,Musée d’ethnographie de Genève,9570,,sin carpeta de datos
+KH0099,,AS086,MM1086,MM1086,alias,sí,1000228,Museum der Kulturen,IVc.2821.b,,sin carpeta de datos
+KH0100,UR1087,AS087,N03,UR1087,khipu_id,sí,1000310,Museum Fünf Kontinente,G3304,,sin carpeta de datos
+KH0101,UR1088,AS088,N06,UR1088,khipu_id,sí,1000313,Museum Fünf Kontinente,G3297,,sin carpeta de datos
+KH0102,,AS089,,AS089,khipu_id,sí,1000232,Museum Fünf Kontinente,G3301,,sin carpeta de datos
+KH0103,,AS090,N02;N2,AS090_N2,khipu_id,sí,1000233,Museum Fünf Kontinente,G3319,,alias solo en khipu.db: N2 | sin carpeta de datos | khipu.db INVESTIGATOR_NUM=AS090/N2
+KH0104,UR1091,AS091,,UR1091,khipu_id,sí,1000312,Museum Fünf Kontinente,26T580,,sin carpeta de datos
+KH0105,,AS092,,AS092,khipu_id,sí,1000234,Museum Fünf Kontinente,G3306,,sin carpeta de datos
+KH0106,,AS093,,AS093,khipu_id,sí,1000365,Museum Fünf Kontinente,G3305A,,sin carpeta de datos
+KH0107,,AS094,,AS094,khipu_id,sí,1000227,Museum Fünf Kontinente,G3305B,,sin carpeta de datos
+KH0108,UR1095,AS095,N04,UR1095,khipu_id,sí,1000314,Museum Fünf Kontinente,G3299,,sin carpeta de datos
+KH0109,UR1096,AS096,,UR1096,khipu_id,sí,1000315,Museum Fünf Kontinente,G3300,,sin carpeta de datos
+KH0110,UR1097,AS097,,UR1097,khipu_id,sí,1000039,Ethnologisches Museum,VA42553,,sin carpeta de datos
+KH0111,UR1098,AS098,,UR1098,khipu_id,sí,1000040,Ethnologisches Museum,VA16136,,sin carpeta de datos
+KH0112,UR1099,AS099,,UR1099,khipu_id,sí,1000041,Ethnologisches Museum,VA42526,,sin carpeta de datos
+KH0113,UR1100,AS100,,UR1100,khipu_id,sí,1000042,Ethnologisches Museum,VA47070,,sin carpeta de datos
+KH0114,,AS101,,AS101_Part_1,khipu_id,sí,1000043,Ethnologisches Museum,VA42528,,sin carpeta de datos | inventario compartido con KH0115 | alias compartido con KH0115
+KH0115,,AS101,,AS101_Part_2,khipu_id,sí,1000044,Ethnologisches Museum,VA42528,,sin carpeta de datos | inventario compartido con KH0114 | alias compartido con KH0114
+KH0116,UR1102,AS102,,UR1102,khipu_id,sí,1000046,Ethnologisches Museum,VA42613,,sin carpeta de datos
+KH0117,UR1103,AS103,N12,UR1103,khipu_id,sí,1000047,Ethnologisches Museum,VA47078,,sin carpeta de datos
+KH0118,UR1104;UR224,AS104,N11,UR1104,khipu_id,sí,1000048,Ethnologisches Museum,VA42527,,sin carpeta de datos
+KH0119,UR1105,AS105,N16,UR1105,khipu_id,sí,1000049,Ethnologisches Museum,VA47097,,sin carpeta de datos
+KH0120,UR1106,AS106,,UR1106,khipu_id,sí,1000050,Ethnologisches Museum,VA24370,,"OKR: Added parentheses to (A) and (B) in accession number, since these are not used in the Ethnologisches Museum catalog; they were subsequently imposed by khipu researchers. | sin carpeta de datos | inventario compartido con KH0121"
+KH0121,UR1107,AS107,,UR1107,khipu_id,sí,1000051,Ethnologisches Museum,VA24370,,sin carpeta de datos | inventario compartido con KH0120
+KH0122,UR1108,AS108,,UR1108,khipu_id,sí,1000052,Ethnologisches Museum,VA16143,,sin carpeta de datos
+KH0123,UR1109,AS109,,UR1109,khipu_id,sí,1000053,Ethnologisches Museum,VA47069,,sin carpeta de datos
+KH0124,,AS110,,AS110,khipu_id,sí,1000054,Ethnologisches Museum,VA42605A,,sin carpeta de datos
+KH0125,,AS111,,AS111,khipu_id,sí,1000055,Ethnologisches Museum,VA42605B,,sin carpeta de datos
+KH0126,,AS112,,AS112,khipu_id,sí,1000056,Ethnologisches Museum,VA39385,,sin carpeta de datos
+KH0127,UR1113,AS113,,UR1113,khipu_id,sí,1000057,Ethnologisches Museum,VA16140,,sin carpeta de datos
+KH0128,UR1114,AS114,,UR1114,khipu_id,sí,1000063,Ethnologisches Museum,VA16148,,sin carpeta de datos
+KH0129,,AS115,,AS115,khipu_id,sí,1000071,Ethnologisches Museum,VA47089,,sin carpeta de datos
+KH0130,UR1116,AS116,,UR1116,khipu_id,sí,1000072,Ethnologisches Museum,VA47125,,sin carpeta de datos
+KH0131,UR1117,AS117,,UR1117,khipu_id,sí,1000073,Ethnologisches Museum,VA47118,,sin carpeta de datos
+KH0132,UR1118,AS118,,UR1118,khipu_id,sí,1000074,Ethnologisches Museum,VA42601,,sin carpeta de datos
+KH0133,UR1119,AS119,,UR1119,khipu_id,sí,1000075,Ethnologisches Museum,VA42545,,sin carpeta de datos
+KH0134,UR1120,AS120,,UR1120,khipu_id,sí,1000076,Ethnologisches Museum,VA47083,,sin carpeta de datos
+KH0135,UR1121,AS121,,UR1121,khipu_id,sí,1000077,Ethnologisches Museum,VA42538,,sin carpeta de datos
+KH0136,,AS122,,AS122,khipu_id,sí,1000078,Ethnologisches Museum,VA11639,,sin carpeta de datos
+KH0137,UR1123,AS123,,UR1123,khipu_id,sí,1000079,Ethnologisches Museum,VA47085,,sin carpeta de datos
+KH0138,UR1124,AS124,,UR1124,khipu_id,sí,1000080,Ethnologisches Museum,VA24371,,sin carpeta de datos | inventario compartido con KH0139 | alias compartido con KH0139
+KH0139,UR1124,AS124,,UR1124_Detail_1,khipu_id,sí,1000081,Ethnologisches Museum,VA24371,,sin carpeta de datos | inventario compartido con KH0138 | alias compartido con KH0138
+KH0140,,AS125,,AS125,khipu_id,sí,1000082,Ethnologisches Museum,VA42670,,OKR: This khipus is a duplicate of KH0483. | sin carpeta de datos
+KH0141,UR1126,AS126,,UR1126,khipu_id,sí,1000083,Ethnologisches Museum,VA47095,,sin carpeta de datos
+KH0142,UR1127,AS127,,UR1127,khipu_id,sí,1000084,Ethnologisches Museum,VA63042,,"OKR: Added parentheses to (A) and (B) in accession number, since these are not used in the Ethnologisches Museum catalog; they were subsequently imposed by khipu researchers. | sin carpeta de datos | inventario compartido con KH0143"
+KH0143,,AS128,,AS128,khipu_id,sí,1000085,Ethnologisches Museum,VA63042,,sin carpeta de datos | inventario compartido con KH0142
+KH0144,,AS129,,AS129,khipu_id,sí,1000086,Ethnologisches Museum,VA77098,,sin carpeta de datos
+KH0145,UR1130,AS130,,UR1130,khipu_id,sí,1000087,Ethnologisches Museum,VA37865,,sin carpeta de datos
+KH0146,,AS130B,,,,sí,1000088,Ethnologisches Museum,VA37857,,OKR: This record pertains to an additional khipu described by the Aschers in their notes on AS130. It was originally entered into the OKR as AS130B. | sin carpeta de datos
+KH0147,UR1131,AS131,,UR1131,khipu_id,sí,1000089,Ethnologisches Museum,VA42510,,sin carpeta de datos
+KH0148,,AS132,,AS132,khipu_id,sí,1000090,Ethnologisches Museum,VA24369B,,sin carpeta de datos
+KH0149,,AS133,,AS133,khipu_id,sí,1000091,Ethnologisches Museum,VA24369A,,sin carpeta de datos
+KH0150,,AS134,,AS134,khipu_id,sí,1000092,Ethnologisches Museum,VA42581,,sin carpeta de datos
+KH0151,UR1135,AS135,,UR1135,khipu_id,sí,1000093,Ethnologisches Museum,VA47115,,sin carpeta de datos
+KH0152,UR1136,AS136,,UR1136,khipu_id,sí,1000094,Ethnologisches Museum,VA16635,,sin carpeta de datos
+KH0153,,AS137,,AS137,khipu_id,sí,1000112,Ethnologisches Museum,VA24939,,sin carpeta de datos
+KH0154,UR1138,AS138,,UR1138,khipu_id,sí,1000113,Ethnologisches Museum,VA47121,,sin carpeta de datos
+KH0155,,AS139,,AS139,khipu_id,sí,1000114,Ethnologisches Museum,VA42598,,sin carpeta de datos
+KH0156,UR1140,AS140,N09,UR1140,khipu_id,sí,1000115,Ethnologisches Museum,VA16636,,sin carpeta de datos
+KH0157,UR1141,AS141,,UR1141,khipu_id,sí,1000116,Ethnologisches Museum,VA47124B,,sin carpeta de datos
+KH0158,,AS142,,AS142,khipu_id,sí,1000117,Ethnologisches Museum,VA47124A,,sin carpeta de datos
+KH0159,UR1143,AS143,,UR1143,khipu_id,sí,1000118,Ethnologisches Museum,VA47096,,sin carpeta de datos
+KH0160,UR1144,AS144,,UR1144,khipu_id,sí,1000119,Ethnologisches Museum,VA42564,,sin carpeta de datos
+KH0161,UR1145,AS145,,UR1145,khipu_id,sí,1000120,Ethnologisches Museum,VA42533,,sin carpeta de datos
+KH0162,UR1146,AS146,N10,UR1146,khipu_id,sí,1000121,Ethnologisches Museum,VA47081,,sin carpeta de datos
+KH0163,UR1147,AS147,,UR1147,khipu_id,sí,1000122,Ethnologisches Museum,VA44866C,,sin carpeta de datos
+KH0164,UR1148,AS148,,UR1148,khipu_id,sí,1000123,Ethnologisches Museum,VA44866B,,sin carpeta de datos
+KH0165,UR1149,AS149,,UR1149,khipu_id,sí,1000124,Ethnologisches Museum,VA44866A,,sin carpeta de datos
+KH0166,UR1150,AS150,,UR1150,khipu_id,sí,1000125,Ethnologisches Museum,VA47109,,sin carpeta de datos
+KH0167,UR1151,AS151,,UR1151,khipu_id,sí,1000126,Ethnologisches Museum,VA42514,,sin carpeta de datos
+KH0168,UR1152,AS152,,UR1152,khipu_id,sí,1000127,Ethnologisches Museum,VA47076,,sin carpeta de datos
+KH0169,,AS153,,AS153,khipu_id,sí,1000128,Ethnologisches Museum,VA66831,,sin carpeta de datos
+KH0170,UR1154,AS154,,UR1154,khipu_id,sí,1000129,Ethnologisches Museum,VA37867A,,sin carpeta de datos
+KH0171,,AS155,,AS155,khipu_id,sí,1000130,Ethnologisches Museum,VA37867B,,sin carpeta de datos
+KH0172,,AS156,,AS156,khipu_id,sí,1000131,Ethnologisches Museum,VA42535,,sin carpeta de datos
+KH0173,,AS157,,AS157,khipu_id,sí,1000132,Ethnologisches Museum,VA42550,,sin carpeta de datos
+KH0174,,AS158,,AS158,khipu_id,sí,1000133,Ethnologisches Museum,VA42599,,sin carpeta de datos
+KH0175,,AS159,,AS159,khipu_id,sí,1000058,Ethnologisches Museum,VA16138B,,sin carpeta de datos
+KH0176,,AS160,,AS160,khipu_id,sí,1000064,Ethnologisches Museum,VA16138C,,sin carpeta de datos
+KH0177,UR1161,AS161,,UR1161,khipu_id,sí,1000134,Ethnologisches Museum,VA47106C,,sin carpeta de datos
+KH0178,UR1162A,AS162A,,UR1162A,khipu_id,sí,1000135,Ethnologisches Museum,VA47106B,,"OKR: Two primary cords looped through each other. Split into AS162A and AS162B in the OKR, though initially recorded by the Aschers only as AS162. | sin carpeta de datos"
+KH0179,UR1162B,AS162B,,UR1162B,khipu_id,sí,1000136,Ethnologisches Museum,VA47106A,,sin carpeta de datos
+KH0180,UR1163,AS163,,UR1163,khipu_id,sí,1000137,Ethnologisches Museum,VA42587,,sin carpeta de datos
+KH0181,,AS164,,AS164,khipu_id,sí,1000138,Ethnologisches Museum,VA47113,,sin carpeta de datos
+KH0182,UR1165,AS165,,UR1165,khipu_id,sí,1000139,Ethnologisches Museum,VA42563,,sin carpeta de datos
+KH0183,UR1166,AS166,,UR1166,khipu_id,sí,1000140,Ethnologisches Museum,VA47079,,sin carpeta de datos
+KH0184,UR1167,AS167,N15,UR1167,khipu_id,sí,1000141,Ethnologisches Museum,VA42584,,sin carpeta de datos
+KH0185,,AS168,,AS168,khipu_id,sí,1000142,Ethnologisches Museum,VA66813,,sin carpeta de datos
+KH0186,,AS169,,AS169,khipu_id,sí,1000143,Ethnologisches Museum,VA66814B,,sin carpeta de datos
+KH0187,,AS170,,AS170,khipu_id,sí,1000144,Ethnologisches Museum,VA42554,,sin carpeta de datos
+KH0188,,AS171,,AS171,khipu_id,sí,1000145,Ethnologisches Museum,VA47105,,sin carpeta de datos
+KH0189,,AS172,,AS172,khipu_id,sí,1000146,Ethnologisches Museum,VA42560,,sin carpeta de datos
+KH0190,,AS173,,AS173,khipu_id,sí,1000059,Ethnologisches Museum,VA16145,,"OKR: Added parentheses to (B) and (C) in accession number, since these are not used in the Ethnologisches Museum catalog; they were subsequently imposed by khipu researchers. | sin carpeta de datos | inventario compartido con KH0191"
+KH0191,,AS174,,AS174,khipu_id,sí,1000060,Ethnologisches Museum,VA16145,,sin carpeta de datos | inventario compartido con KH0190
+KH0192,UR1175,AS175,,UR1175,khipu_id,sí,1000147,Ethnologisches Museum,VA42518,,sin carpeta de datos
+KH0193,UR1176,AS176,,UR1176,khipu_id,sí,1000148,Ethnologisches Museum,VA63043,,sin carpeta de datos
+KH0194,,AS177,,AS177,khipu_id,sí,1000149,Ethnologisches Museum,VA37859,,"OKR: Added parentheses to (A) and (B) in accession number, since these are not used in the Ethnologisches Museum catalog; they were subsequently imposed by khipu researchers. | sin carpeta de datos | inventario compartido con KH0195"
+KH0195,,AS178,,AS178,khipu_id,sí,1000150,Ethnologisches Museum,VA37859,,sin carpeta de datos | inventario compartido con KH0194
+KH0196,UR1179,AS179,,UR1179,khipu_id,sí,1000151,Ethnologisches Museum,VA47123,,sin carpeta de datos
+KH0197,UR1180,AS180,,KH0197;UR1180,khipu_id;okr_kfg,sí,1000152,Ethnologisches Museum,VA47126,,"sin carpeta de datos | varios KFG: KH0197, UR1180"
+KH0198,UR236,AS181,,,,sí,1000546,Ethnologisches Museum,VA66832,,OKR: Added museum accession number (previously N/A) from duplicate (UR236) entered into OKR. | sin carpeta de datos | khipu.db INVESTIGATOR_NUM=AS181/UR236
+KH0199,,AS182A;AS182,,AS182,khipu_id,sí,1000154,Ethnologisches Museum,VA66840A,,"OKR: Split into AS182 and AS182B in OKR, though recorded by the Aschers only as AS182 (the “B” khipu is actually a cord with 22 single knots that is attached to the broader grouping of five khipus tied together, among which is AS182). | alias solo en khipu.db: AS182 | sin carpeta de datos | inventario compartido con KH0201, KH0202, KH0203, KH0204"
+KH0200,,AS182B,,AS182B,khipu_id,sí,1000155,Ethnologisches Museum,n/a,,sin carpeta de datos
+KH0201,,AS183,,AS183,khipu_id,sí,1000156,Ethnologisches Museum,VA66840A,,"sin carpeta de datos | inventario compartido con KH0199, KH0202, KH0203, KH0204"
+KH0202,,AS184,,AS184,khipu_id,sí,1000157,Ethnologisches Museum,VA66840A,,"sin carpeta de datos | inventario compartido con KH0199, KH0201, KH0203, KH0204"
+KH0203,,AS185,,AS185,khipu_id,sí,1000158,Ethnologisches Museum,VA66840A,,"sin carpeta de datos | inventario compartido con KH0199, KH0201, KH0202, KH0204"
+KH0204,,AS186,,AS186,khipu_id,sí,1000159,Ethnologisches Museum,VA66840A,,"sin carpeta de datos | inventario compartido con KH0199, KH0201, KH0202, KH0203"
+KH0205,,AS187,,AS187,khipu_id,sí,1000160,Ethnologisches Museum,VA43333C,,sin carpeta de datos
+KH0206,,AS188,,AS188,khipu_id,sí,1000161,Ethnologisches Museum,VA43333B,,sin carpeta de datos
+KH0207,,AS189,,AS189,khipu_id,sí,1000162,Ethnologisches Museum,VA43334,,sin carpeta de datos
+KH0208,,AS190,,,,sí,1000065,American Museum of Natural History,41.2/6714,,sin carpeta de datos
+KH0209,,AS191,,AS191,khipu_id,sí,1000066,American Museum of Natural History,41.2/6698,,sin carpeta de datos
+KH0210,,AS192,,AS192,khipu_id,sí,1000067,American Museum of Natural History,41.2/6701,,sin carpeta de datos
+KH0211,,AS193,,AS193,khipu_id,sí,1000068,American Museum of Natural History,41.2/6700,,sin carpeta de datos
+KH0212,,AS194,,AS194,khipu_id,sí,1000061,American Museum of Natural History,41.2/6702,,sin carpeta de datos
+KH0213,,AS195,,AS195,khipu_id,sí,1000062,American Museum of Natural History,41.2/6703,,sin carpeta de datos
+KH0214,,AS196,,AS196,khipu_id,sí,1000069,American Museum of Natural History,41.2/6697,,sin carpeta de datos
+KH0215,,AS197,,AS197,khipu_id,sí,1000070,American Museum of Natural History,41.2/6997,,sin carpeta de datos
+KH0216,,AS198,,AS198,khipu_id,sí,1000163,American Museum of Natural History,41.2/5786,,sin carpeta de datos
+KH0217,,AS199,,AS199,khipu_id,sí,1000164,American Museum of Natural History,41.0/7305A,,sin carpeta de datos
+KH0218,,AS200,,AS200,khipu_id,sí,1000165,American Museum of Natural History,41.2/5784,,sin carpeta de datos
+KH0219,,AS201,,AS201,khipu_id,sí,1000026,Phoebe A. Hearst Museum of Anthropology,TK 4/5419B,,sin carpeta de datos
+KH0220,,AS202,,AS202,khipu_id,sí,1000013,Phoebe A. Hearst Museum of Anthropology,TK 4/5419A,,sin carpeta de datos
+KH0221,,AS203,,AS203,khipu_id,sí,1000014,Phoebe A. Hearst Museum of Anthropology,TK 4/5419C,,sin carpeta de datos
+KH0222,,AS204,,AS204,khipu_id,sí,1000027,Phoebe A. Hearst Museum of Anthropology,TK 4/5418,,sin carpeta de datos
+KH0223,,AS205,,AS205,khipu_id,sí,1000028,Phoebe A. Hearst Museum of Anthropology,TM 4/5446B,,sin carpeta de datos
+KH0224,,AS206,,AS206,khipu_id,sí,1000015,"Fowler Museum, UCLA",n/a,,sin carpeta de datos
+KH0225,,AS207A,,AS207A,khipu_id,sí,1000029,Museum of Science,C14459,,"sin carpeta de datos | inventario compartido con KH0226, KH0227"
+KH0226,,AS207B,,AS207B,khipu_id,sí,1000030,Museum of Science,C14459,,"sin carpeta de datos | inventario compartido con KH0225, KH0227"
+KH0227,,AS207C,,AS207C;KH0227,khipu_id;okr_kfg,sí,1000031,Museum of Science,C14459,,"sin carpeta de datos | inventario compartido con KH0225, KH0226 | varios KFG: AS207C, KH0227"
+KH0228,UR083,AS208,,,,sí,1000396,Weltmuseum Wien,"IX/1961, 140708",,sin carpeta de datos | khipu.db INVESTIGATOR_NUM=AS208/UR083
+KH0229,,AS209,,AS209,khipu_id,sí,1000032,Royal Ontario Museum,HP519,,sin carpeta de datos
+KH0230,,AS210,,AS210,khipu_id,sí,1000017,Field Museum,111407,,sin carpeta de datos
+KH0231,,AS211,,AS211,khipu_id,sí,1000033,Náprstek Museum,45.698,,sin carpeta de datos
+KH0232,,AS212,,AS212,khipu_id,sí,1000034,Joslyn Art Museum,1958-57,,sin carpeta de datos
+KH0233,,AS213,,AS213,khipu_id,sí,1000035,Leo J. Harris,1,,sin carpeta de datos
+KH0234,,AS214,,AS214,khipu_id,sí,1000036,Hood Museum of Art,43-4-8575,,sin carpeta de datos
+KH0235,,AS215,,AS215,khipu_id,sí,1000037,Hood Museum of Art,55-32-13302,,"OKR: Split into AS215 and AS215F in OKR, though recorded by the Aschers only as AS215. The khipu is associated with two fragmentary pendant cords with subsidiaries; it is unclear if they are attached to a primary cord. The Aschers believed the fragments were associated but not from khipu AS215, originally recording them as F1 and F2. | sin carpeta de datos | inventario compartido con KH0236"
+KH0236,,AS215F,,AS215F,khipu_id,sí,1000038,Hood Museum of Art,55-32-13302,,sin carpeta de datos | inventario compartido con KH0235
+KH0237,UR001,,,UR001,okr_kfg,sí,1000023,"Centro Mallqui, Museo Leymebamba","INC/LDC 108, LC1947.TEQ",,sin carpeta de datos
+KH0238,UR002,,,UR002,khipu_id,sí,1000012,"Centro Mallqui, Museo Leymebamba","CMA-628/
+LC1 257B TEQ",,sin carpeta de datos
+KH0239,UR003,,,UR003,khipu_id,sí,1000020,"Centro Mallqui, Museo Leymebamba","CMA-419/
+LC1-048 TEQ",,sin carpeta de datos
+KH0240,UR004,,,UR004,okr_kfg,sí,1000024,"Centro Mallqui, Museo Leymebamba",CMA 847-LC1.476 TEQ,,sin carpeta de datos
+KH0241,UR005,,,UR005,khipu_id,sí,1000005,"Centro Mallqui, Museo Leymebamba","CMA 480/
+LC1-109.2",,sin carpeta de datos
+KH0242,UR006,,,UR006,khipu_id,sí,1000025,"Centro Mallqui, Museo Leymebamba","CMA.625/
+LC1-254",,sin carpeta de datos
+KH0243,UR007,,,UR007,khipu_id,sí,1000006,"Centro Mallqui, Museo Leymebamba","CMA 480/
+LC1-109.4",,sin carpeta de datos
+KH0244,UR008,,,UR008,khipu_id,sí,1000001,"Centro Mallqui, Museo Leymebamba","CMA-480/
+LC1-109.5",,sin carpeta de datos
+KH0245,UR009,,,UR009,khipu_id,sí,1000019,"Centro Mallqui, Museo Leymebamba","CMA 850/
+LC1-479",,sin carpeta de datos
+KH0246,UR010,,,UR010,khipu_id,sí,1000004,"Centro Mallqui, Museo Leymebamba","CMA-480/
+LC1-109.1",,sin carpeta de datos
+KH0247,UR011,,,UR011,khipu_id,sí,1000007,"Centro Mallqui, Museo Leymebamba","CMA-628/
+LC1-257A",,sin carpeta de datos
+KH0248,UR012,,,UR012,khipu_id,sí,1000009,"Centro Mallqui, Museo Leymebamba","CMA-628/
+LC1-257C",,sin carpeta de datos
+KH0249,UR013,,,UR013,khipu_id,sí,1000008,"Centro Mallqui, Museo Leymebamba","CMA-628/
+LC1-257D",,sin carpeta de datos
+KH0250,UR014,,,UR014,khipu_id,sí,1000011,"Centro Mallqui, Museo Leymebamba","CMA-628/
+LC1-257E",,sin carpeta de datos
+KH0251,UR015,,,UR015,khipu_id,sí,1000010,"Centro Mallqui, Museo Leymebamba","CMA-628/
+LC1-257F",,sin carpeta de datos
+KH0252,UR016,,,UR016,khipu_id,sí,1000018,"Centro Mallqui, Museo Leymebamba","CMA-373/
+LC2-002",,sin carpeta de datos
+KH0253,UR017,,,UR017,okr_kfg,sí,1000021,"Centro Mallqui, Museo Leymebamba","CMA 480/
+LC1-109A",,sin carpeta de datos
+KH0254,UR018,,,UR018,khipu_id,sí,1000003,"Centro Mallqui, Museo Leymebamba","CMA-480/
+LC1-109B",,sin carpeta de datos
+KH0255,UR019,,,UR019,khipu_id,sí,1000000,"Centro Mallqui, Museo Leymebamba","CMA-480/
+LC1-109.3",,sin carpeta de datos
+KH0256,UR020,,,UR020,khipu_id,sí,1000002,"Centro Mallqui, Museo Leymebamba","CMA-480/
+LC1-109.6",,sin carpeta de datos
+KH0257,UR021,,,UR021,khipu_id,sí,1000022,"Centro Mallqui, Museo Leymebamba",INC-498,,sin carpeta de datos
+KH0258,UR022,,,UR022,khipu_id,sí,1000045,"Centro Mallqui, Museo Leymebamba",INC-109,,sin carpeta de datos
+KH0259,UR023,,,UR023,khipu_id,sí,1000307,Museum Fünf Kontinente,n/a,,"OKR: UR023, UR024, UR027, UR028, UR029, and UR057 are six khipus tied together. N/As are used here for their accession numbers because the original OKR listing uses “s/n” followed by the letters A through G. Presumably the original researcher assigned individual identifiers to khipus that were otherwise sin números (without numbers). | sin carpeta de datos"
+KH0260,UR024,,,UR024,khipu_id,sí,1000306,Museum Fünf Kontinente,n/a,,sin carpeta de datos
+KH0261,UR026,,,UR026,khipu_id,sí,1000335,Museum Fünf Kontinente,G.3320,,sin carpeta de datos
+KH0262,UR027,,,UR027,khipu_id,sí,1000303,Museum Fünf Kontinente,n/a,,sin carpeta de datos
+KH0263,UR028,,,UR028,khipu_id,sí,1000304,Museum Fünf Kontinente,n/a,,sin carpeta de datos
+KH0264,UR029,,,UR029,khipu_id,sí,1000305,Museum Fünf Kontinente,n/a,,sin carpeta de datos
+KH0265,UR032,,,UR032,khipu_id,sí,1000330,Phoebe Hearst Museum of Anthropology,TM 4/5446,,OKR: The accession numbers for UR032 and UR033 appear to be entered incorrectly in the OKR; corrected to TM 4/5446 from TX 4/5446 following confirmation in Hearst Museum online database. | sin carpeta de datos | inventario compartido con KH0266
+KH0266,UR033,,,UR033,khipu_id,sí,1000276,Phoebe Hearst Museum of Anthropology,TM 4/5446,,sin carpeta de datos | inventario compartido con KH0265
+KH0267,UR034,,,KH0267;UR034,khipu_id;okr_kfg,sí,1000380,Museo de la Nación,T5730 / 26865,,"sin carpeta de datos | varios KFG: KH0267, UR034"
+KH0268,UR036;UR133,,,,,sí,1000318,Museo Chileno de Arte Precolombino,CMBE 901/PE-16,,sin carpeta de datos | khipu.db INVESTIGATOR_NUM=UR036/UR133
+KH0269,UR037,,,UR037,khipu_id,sí,1000331,Museo Amano,R4248,,sin carpeta de datos
+KH0270,UR038,,,UR038,khipu_id,sí,1000277,Museo Amano,n/a,,sin carpeta de datos
+KH0271,UR039,,,UR039,okr_kfg,sí,1000374,Universidad de San Martín de Porres,n/a,,sin carpeta de datos
+KH0272,UR040,,,UR040,khipu_id,sí,1000098,Peabody Museum of Archaeology and Ethnology,32.30.30/54,,sin carpeta de datos
+KH0273,UR041,,,UR041,khipu_id,sí,1000099,Peabody Museum of Archaeology and Ethnology,32.30.30/55,,sin carpeta de datos
+KH0274,UR042,,,UR042,khipu_id,sí,1000100,Peabody Museum of Archaeology and Ethnology,32.30.30/53,,"OKR: Added (A) to museum accession number, since this is not used in the Peabody Museum catalog (it was subsequently applied by a researcher). | sin carpeta de datos"
+KH0275,UR045,,,UR045,khipu_id,sí,1000332,Museo Larco,1,,sin carpeta de datos
+KH0276,UR046,,,UR046,khipu_id,sí,1000241,Museo Larco,2,,sin carpeta de datos
+KH0277,UR047,,,UR047,khipu_id,sí,1000240,Museo Larco,3,,sin carpeta de datos
+KH0278,UR048,,,UR048,khipu_id,sí,1000239,Museo Larco,4,,sin carpeta de datos
+KH0279,UR049,,,UR049,khipu_id,sí,1000238,Museo Larco,5,,sin carpeta de datos
+KH0280,UR050,,,UR050,okr_kfg,sí,1000363,Ana Maria Soldi,n/a,,sin carpeta de datos
+KH0281,UR051,,,UR051,khipu_id,sí,1000375,Banco Central de Reserva del Perú,ATE 3567,,sin carpeta de datos
+KH0282,UR052,,,UR052,okr_kfg,sí,1000385,Banco Central de Reserva del Perú,25868,,sin carpeta de datos
+KH0283,UR053A,,,UR053A,khipu_id,sí,1000265,Banco Central de Reserva del Perú,ATE 3517,,"sin carpeta de datos | inventario compartido con KH0284, KH0285, KH0286, KH0287"
+KH0284,UR053B,,,UR053B,khipu_id,sí,1000266,Banco Central de Reserva del Perú,ATE 3517,,"sin carpeta de datos | inventario compartido con KH0283, KH0285, KH0286, KH0287"
+KH0285,UR053C,,,UR053C,khipu_id,sí,1000267,Banco Central de Reserva del Perú,ATE 3517,,"sin carpeta de datos | inventario compartido con KH0283, KH0284, KH0286, KH0287"
+KH0286,UR053D,,,UR053D,khipu_id,sí,1000268,Banco Central de Reserva del Perú,ATE 3517,,"sin carpeta de datos | inventario compartido con KH0283, KH0284, KH0285, KH0287"
+KH0287,UR053E,,,UR053E,khipu_id,sí,1000269,Banco Central de Reserva del Perú,ATE 3517,,"sin carpeta de datos | inventario compartido con KH0283, KH0284, KH0285, KH0286"
+KH0288,UR054,,,UR054,okr_kfg,sí,1000383,Ana Maria Soldi,n/a,,sin carpeta de datos
+KH0289,UR055,,,UR055,okr_kfg,sí,1000376,Museo Oro del Perú y Armas del Mundo,4117-789-1014 203/INC-88,,sin carpeta de datos
+KH0290,UR056A,,,UR056A,khipu_id,sí,1000295,Rijksmuseum voor Volkenkunde,527412,,"sin carpeta de datos | inventario compartido con KH0291, KH0292"
+KH0291,UR056B,,,UR056B,khipu_id,sí,1000296,Rijksmuseum voor Volkenkunde,527412,,"sin carpeta de datos | inventario compartido con KH0290, KH0292"
+KH0292,UR056C,,,UR056C,khipu_id,sí,1000297,Rijksmuseum voor Volkenkunde,527412,,"sin carpeta de datos | inventario compartido con KH0290, KH0291"
+KH0293,UR057,,,UR057,khipu_id,sí,1000309,Museum Fünf Kontinente,n/a,,sin carpeta de datos
+KH0294,UR058A,,,UR058A,khipu_id,sí,1000298,Museo Arqueológico San Miguel de Azapa,23284,,sin carpeta de datos | inventario compartido con KH0295
+KH0295,UR058B,,,UR058B,khipu_id,sí,1000299,Museo Arqueológico San Miguel de Azapa,23284,,sin carpeta de datos | inventario compartido con KH0294
+KH0296,UR059,,,UR059,khipu_id,sí,1000390,Lowe Art Museum,91-0361,,sin carpeta de datos
+KH0297,UR060,,,UR060,khipu_id,sí,1000264,Museo de Sitio Arturo Jiménez Borja – Puruchuco,1 Tex 641 Rt 639,,sin carpeta de datos
+KH0298,UR061,,,UR061,khipu_id,sí,1000246,Museo de Sitio Arturo Jiménez Borja – Puruchuco,1c Tex 641 Rt 639,,sin carpeta de datos
+KH0299,UR062,,,UR062,khipu_id,sí,1000243,Museo de Sitio Arturo Jiménez Borja – Puruchuco,20,,sin carpeta de datos
+KH0300,UR063,,,UR063,khipu_id,sí,1000259,Museo de Sitio Arturo Jiménez Borja – Puruchuco,n/a,,sin carpeta de datos
+KH0301,UR064,,,UR064,khipu_id,sí,1000263,Museo de Sitio Arturo Jiménez Borja – Puruchuco,3 Tex 641 Rt 639,,sin carpeta de datos
+KH0302,UR065,,,UR065,khipu_id,sí,1000242,Museo de Sitio Arturo Jiménez Borja – Puruchuco,3c Tex 639 Rt 637,,sin carpeta de datos
+KH0303,UR066,,,UR066,khipu_id,sí,1000261,Museo de Sitio Arturo Jiménez Borja – Puruchuco,4a,,sin carpeta de datos
+KH0304,UR067,,,UR067,khipu_id,sí,1000260,Museo de Sitio Arturo Jiménez Borja – Puruchuco,n/a,,sin carpeta de datos
+KH0305,UR068,,,UR068,khipu_id,sí,1000262,Museo de Sitio Arturo Jiménez Borja – Puruchuco,2,,sin carpeta de datos
+KH0306,UR069,,,UR069,khipu_id,sí,1000245,Museo de Sitio Arturo Jiménez Borja – Puruchuco,n/a,,sin carpeta de datos
+KH0307,UR070,,,UR070,khipu_id,sí,1000247,Museo de Sitio Arturo Jiménez Borja – Puruchuco,6 Tex 641 Rt 639,,sin carpeta de datos
+KH0308,UR071,,,UR071,khipu_id,sí,1000248,Museo de Sitio Arturo Jiménez Borja – Puruchuco,7 Tex 641 Rt 639,,sin carpeta de datos
+KH0309,UR072,,,UR072,khipu_id,sí,1000249,Museo de Sitio Arturo Jiménez Borja – Puruchuco,18 Tex 641 Rt 639,,sin carpeta de datos
+KH0310,UR073,,,UR073,khipu_id,sí,1000250,Museo de Sitio Arturo Jiménez Borja – Puruchuco,Tex 0637 Rt 0635/28,,sin carpeta de datos
+KH0311,UR074,,,UR074,khipu_id,sí,1000251,Museo de Sitio Arturo Jiménez Borja – Puruchuco,10 Tex 641 Rt 639,,sin carpeta de datos
+KH0312,UR075,,,UR075,khipu_id,sí,1000252,Museo de Sitio Arturo Jiménez Borja – Puruchuco,19,,sin carpeta de datos
+KH0313,UR076,,,UR076,khipu_id,sí,1000253,Museo de Sitio Arturo Jiménez Borja – Puruchuco,21,,sin carpeta de datos
+KH0314,UR077,,,UR077,khipu_id,sí,1000244,Museo de Sitio Arturo Jiménez Borja – Puruchuco,4c,,sin carpeta de datos
+KH0315,UR078,,,UR078,khipu_id,sí,1000254,Museo de Sitio Arturo Jiménez Borja – Puruchuco,25,,sin carpeta de datos
+KH0316,UR079,,,UR079,khipu_id,sí,1000255,Museo de Sitio Arturo Jiménez Borja – Puruchuco,22,,sin carpeta de datos
+KH0317,UR080,,,UR080,khipu_id,sí,1000256,Museo de Sitio Arturo Jiménez Borja – Puruchuco,23,,sin carpeta de datos
+KH0318,UR081,,,UR081,khipu_id,sí,1000257,Museo de Sitio Arturo Jiménez Borja – Puruchuco,26,,sin carpeta de datos
+KH0319,UR082,,,UR082,khipu_id,sí,1000258,Museo de Sitio Arturo Jiménez Borja – Puruchuco,17,,sin carpeta de datos
+KH0320,UR084,,,UR084,khipu_id,sí,1000319,Museo Chileno de Arte Precolombino,CMBE 0904,,sin carpeta de datos
+KH0321,UR085,,,UR085,khipu_id,sí,1000280,Biblioteca Museo Temple Radicati,n/a,,sin carpeta de datos
+KH0322,UR086,,,UR086,khipu_id,sí,1000336,Biblioteca Museo Temple Radicati,12,,sin carpeta de datos
+KH0323,UR087,,,UR087,khipu_id,sí,1000273,Biblioteca Museo Temple Radicati,6,,sin carpeta de datos
+KH0324,UR088,,,UR088,khipu_id,sí,1000270,Biblioteca Museo Temple Radicati,1,,sin carpeta de datos
+KH0325,UR089,,,UR089,khipu_id,sí,1000275,Biblioteca Museo Temple Radicati,5,,sin carpeta de datos
+KH0326,UR090,,,UR090,khipu_id,sí,1000274,Biblioteca Museo Temple Radicati,3,,sin carpeta de datos
+KH0327,UR091,,,UR091,khipu_id,sí,1000271,Biblioteca Museo Temple Radicati,2,,sin carpeta de datos
+KH0328,UR092,,,UR092,khipu_id,sí,1000272,Biblioteca Museo Temple Radicati,4,,sin carpeta de datos
+KH0329,UR093,,,UR093,khipu_id,sí,1000321,Biblioteca Museo Temple Radicati,n/a,,sin carpeta de datos
+KH0330,UR094,,,UR094,khipu_id,sí,1000337,Biblioteca Museo Temple Radicati,13,,sin carpeta de datos
+KH0331,UR095,,,UR095,khipu_id,sí,1000338,Biblioteca Museo Temple Radicati,21,,sin carpeta de datos
+KH0332,UR096,,,UR096,khipu_id,sí,1000339,Biblioteca Museo Temple Radicati,11,,sin carpeta de datos
+KH0333,UR097,,,UR097,khipu_id,sí,1000340,Biblioteca Museo Temple Radicati,9,,sin carpeta de datos
+KH0334,UR098,,,UR098,khipu_id,sí,1000347,Biblioteca Museo Temple Radicati,16,,sin carpeta de datos
+KH0335,UR099,,,UR099,khipu_id,sí,1000348,Biblioteca Museo Temple Radicati,17,,sin carpeta de datos
+KH0336,UR100,,,UR100,khipu_id,sí,1000349,Biblioteca Museo Temple Radicati,18,,sin carpeta de datos
+KH0337,UR101,,,UR101,khipu_id,sí,1000350,Biblioteca Museo Temple Radicati,19,,sin carpeta de datos
+KH0338,UR102,,,UR102,khipu_id,sí,1000351,Biblioteca Museo Temple Radicati,7,,sin carpeta de datos
+KH0339,UR103,,,UR103,khipu_id,sí,1000352,Biblioteca Museo Temple Radicati,8,,sin carpeta de datos
+KH0340,UR104,,,UR104,khipu_id,sí,1000353,Biblioteca Museo Temple Radicati,9a,,sin carpeta de datos
+KH0341,UR105,,,UR105,khipu_id,sí,1000354,Biblioteca Museo Temple Radicati,22,,sin carpeta de datos
+KH0342,UR106,,,UR106,khipu_id,sí,1000355,Biblioteca Museo Temple Radicati,20,,sin carpeta de datos
+KH0343,UR107,,,UR107,khipu_id,sí,1000356,Biblioteca Museo Temple Radicati,15,,sin carpeta de datos
+KH0344,UR108,,,UR108,khipu_id,sí,1000357,Biblioteca Museo Temple Radicati,23,,sin carpeta de datos
+KH0345,UR109,,,UR109,khipu_id,sí,1000358,Biblioteca Museo Temple Radicati,14,,sin carpeta de datos
+KH0346,UR110,,,UR110,okr_kfg,sí,1000381,Biblioteca Museo Temple Radicati,n/a,,sin carpeta de datos
+KH0347,UR111,,,UR111,khipu_id,sí,1000359,Biblioteca Museo Temple Radicati,10,,sin carpeta de datos
+KH0348,UR112,,,UR112,okr_kfg,sí,1000382,Biblioteca Museo Temple Radicati,n/a,,sin carpeta de datos
+KH0349,UR113,,,UR113,khipu_id,sí,1000292,Världskulturmuseet,1924.18.0001,,OKR: Incorrect accession number in OKR; corrected to 1924.18.0001. | sin carpeta de datos
+KH0350,UR114,,,KH0350;UR114,khipu_id;okr_kfg,sí,1000287,Världskulturmuseet,1931.37.0001,,"OKR: Incorrect accession number in OKR; corrected to 1931.37.0001. | sin carpeta de datos | varios KFG: KH0350, UR114"
+KH0351,UR115;UR126,,,,,sí,1000327,Världskulturmuseet,16.9.57,,sin carpeta de datos | khipu.db INVESTIGATOR_NUM=UR115/UR126
+KH0352,UR116A,,,UR116A,khipu_id,sí,1000285,Världskulturmuseet,1929.26.0157a-b,,sin carpeta de datos | inventario compartido con KH0353
+KH0353,UR116B,,,UR116B,khipu_id,sí,1000283,Världskulturmuseet,1929.26.0157a-b,,sin carpeta de datos | inventario compartido con KH0352
+KH0354,UR117A,,,UR117A,khipu_id,sí,1000288,Världskulturmuseet,32.7.3,,"sin carpeta de datos | inventario compartido con KH0355, KH0356, KH0357"
+KH0355,UR117B,,,UR117B,khipu_id,sí,1000289,Världskulturmuseet,32.7.3,,"sin carpeta de datos | inventario compartido con KH0354, KH0356, KH0357"
+KH0356,UR117C,,,UR117C,khipu_id,sí,1000290,Världskulturmuseet,32.7.3,,"sin carpeta de datos | inventario compartido con KH0354, KH0355, KH0357"
+KH0357,UR117D,,,UR117D,khipu_id,sí,1000291,Världskulturmuseet,32.7.3,,"sin carpeta de datos | inventario compartido con KH0354, KH0355, KH0356"
+KH0358,UR118,,,UR118,khipu_id,sí,1000293,Världskulturmuseet,31.37.2.b,,sin carpeta de datos
+KH0359,UR119,,,UR119,khipu_id,sí,1000329,Världskulturmuseet,31.37.2.a,,sin carpeta de datos
+KH0360,UR120,,,UR120,khipu_id,sí,1000320,Världskulturmuseet,1938.45.0229,,sin carpeta de datos
+KH0361,UR121,,,UR121,khipu_id,sí,1000322,Världskulturmuseet,1938.45.231,,sin carpeta de datos
+KH0362,UR122,,,UR122,khipu_id,sí,1000323,Världskulturmuseet,1938.45.0228,,sin carpeta de datos
+KH0363,UR123,,,UR123,khipu_id,sí,1000324,Världskulturmuseet,16.9.56,,sin carpeta de datos
+KH0364,UR124,,,UR124,khipu_id,sí,1000325,Världskulturmuseet,16.9.58,,sin carpeta de datos
+KH0365,UR125,,,UR125,khipu_id,sí,1000326,Världskulturmuseet,31.37.2.c,,sin carpeta de datos
+KH0366,UR127,,,UR127,khipu_id,sí,1000328,Världskulturmuseet,30.2.16.a,,sin carpeta de datos
+KH0367,UR128,,,UR128,khipu_id,sí,1000377,Världskulturmuseet,30.2.16.c,,sin carpeta de datos
+KH0368,UR129,,,UR129,khipu_id,sí,1000378,Världskulturmuseet,30.2.16.e,,sin carpeta de datos
+KH0369,UR130,,,UR130,khipu_id,sí,1000316,Museo Chileno de Arte Precolombino,916,,sin carpeta de datos
+KH0370,UR131A,,,UR131A,khipu_id,sí,1000300,Museo Chileno de Arte Precolombino,21163,,"sin carpeta de datos | inventario compartido con KH0371, KH0372"
+KH0371,UR131B,,,UR131B,khipu_id,sí,1000301,Museo Chileno de Arte Precolombino,21163,,"sin carpeta de datos | inventario compartido con KH0370, KH0372"
+KH0372,UR131C,,,UR131C,khipu_id,sí,1000302,Museo Chileno de Arte Precolombino,21163,,"sin carpeta de datos | inventario compartido con KH0370, KH0371"
+KH0373,UR132,,,UR132,khipu_id,sí,1000317,Museo Chileno de Arte Precolombino,CMBE 0910,,sin carpeta de datos
+KH0374,UR134,,,UR134,khipu_id,sí,1000452,Lowe Art Museum,94.0064.04,,sin carpeta de datos
+KH0375,UR135,,,UR135,khipu_id,sí,1000389,Lowe Art Museum,94.0064.36,,sin carpeta de datos
+KH0376,UR136,,,UR136,khipu_id,sí,1000388,Lowe Art Museum,94.0064.173,,sin carpeta de datos
+KH0377,UR137,,,UR137,khipu_id,sí,1000387,Lowe Art Museum,57.172.002,,sin carpeta de datos
+KH0378,UR138,,,UR138,khipu_id,sí,1000386,Lowe Art Museum,61.071.000,,sin carpeta de datos
+KH0379,UR139,,,UR139,khipu_id,sí,1000407,Museo Regional de Ica Adolfo Bermúdez Jenkins,00250-02,,sin carpeta de datos
+KH0380,UR140,,,UR140,khipu_id,sí,1000408,Museo Regional de Ica Adolfo Bermúdez Jenkins,00270-02,,sin carpeta de datos
+KH0381,UR141,,,UR141,khipu_id,sí,1000409,Museo Regional de Ica Adolfo Bermúdez Jenkins,00254-02,,sin carpeta de datos
+KH0382,UR142,,,UR142,khipu_id,sí,1000406,Museo Regional de Ica Adolfo Bermúdez Jenkins,0249-02,,sin carpeta de datos
+KH0383,UR143,,,UR143,khipu_id,sí,1000401,Museo Regional de Ica Adolfo Bermúdez Jenkins,00252-02,,sin carpeta de datos
+KH0384,UR144,,,UR144,okr_kfg,sí,1000419,Museo Regional de Ica Adolfo Bermúdez Jenkins,820,,sin carpeta de datos
+KH0385,UR145,,,UR145,khipu_id,sí,1000415,Museo Regional de Ica Adolfo Bermúdez Jenkins,04591-02,,sin carpeta de datos
+KH0386,UR146,,,UR146,khipu_id,sí,1000418,Museo Regional de Ica Adolfo Bermúdez Jenkins,04393-02,,sin carpeta de datos
+KH0387,UR147,,,UR147,khipu_id,sí,1000400,Museo Regional de Ica Adolfo Bermúdez Jenkins,04395-02,,sin carpeta de datos
+KH0388,UR148,,,UR148,khipu_id,sí,1000414,Museo Regional de Ica Adolfo Bermúdez Jenkins,03996-02,,sin carpeta de datos
+KH0389,UR149,,,UR149,khipu_id,sí,1000413,Museo Regional de Ica Adolfo Bermúdez Jenkins,00253-02,,sin carpeta de datos
+KH0390,UR150,,,UR150,khipu_id,sí,1000405,Museo Regional de Ica Adolfo Bermúdez Jenkins,04392-02,,sin carpeta de datos
+KH0391,UR151,,,UR151,khipu_id,sí,1000404,Museo Regional de Ica Adolfo Bermúdez Jenkins,01530-02,,sin carpeta de datos
+KH0392,UR152,,,UR152,khipu_id,sí,1000402,Museo Regional de Ica Adolfo Bermúdez Jenkins,04075-02,,sin carpeta de datos
+KH0393,UR153,,,UR153,khipu_id,sí,1000403,Museo Regional de Ica Adolfo Bermúdez Jenkins,04396-02,,sin carpeta de datos
+KH0394,UR154,,,UR154,khipu_id,sí,1000399,Museo Regional de Ica Adolfo Bermúdez Jenkins,03987-02,,sin carpeta de datos
+KH0395,UR155,,,UR155,okr_kfg,sí,1000398,Museo Regional de Ica Adolfo Bermúdez Jenkins,03989-02,,sin carpeta de datos
+KH0396,UR156,,,UR156,khipu_id,sí,1000410,Museo Regional de Ica Adolfo Bermúdez Jenkins,TC-0142-02,,sin carpeta de datos
+KH0397,UR157,,,UR157,khipu_id,sí,1000416,Museo Regional de Ica Adolfo Bermúdez Jenkins,TC-0143-02,,sin carpeta de datos
+KH0398,UR158,,,UR158,khipu_id,sí,1000417,Museo Regional de Ica Adolfo Bermúdez Jenkins,TC-0141-02,,sin carpeta de datos
+KH0399,UR159,,,UR159,khipu_id,sí,1000411,Museo Regional de Ica Adolfo Bermúdez Jenkins,TC-0024-02,,sin carpeta de datos
+KH0400,UR160,,,UR160,khipu_id,sí,1000397,Museo Regional de Ica Adolfo Bermúdez Jenkins,04394-02,,sin carpeta de datos
+KH0401,UR161,,,UR161,khipu_id,sí,1000395,Museo Regional de Ica Adolfo Bermúdez Jenkins,03991-02,,sin carpeta de datos
+KH0402,UR162,,,UR162,khipu_id,sí,1000393,Museo Regional de Ica Adolfo Bermúdez Jenkins,03992-02,,sin carpeta de datos
+KH0403,UR164,,,UR164,khipu_id,sí,1000412,Museo Regional de Ica Adolfo Bermúdez Jenkins,03994-02,,sin carpeta de datos
+KH0404,UR165,,,UR165,okr_kfg,sí,1000472,Museo de Sitio Arturo Jiménez Borja – Puruchuco,0638/SP642 Tex 0640 (R.M.RT0638),,sin carpeta de datos
+KH0405,UR166,,,UR166,khipu_id,sí,1000496,American Museum of Natural History,B/8713,,sin carpeta de datos
+KH0406,UR167,,,UR167,okr_kfg,sí,1000474,American Museum of Natural History,"41.0/1550, B/3453A",,"OKR: UR167 is entered twice in KHIPU_MAIN (KHIPU_ID 1000474 and KHIPU_ID 1000484). However, only KHIPU_ID 1000474 has cord and knot data associated with it, so it is retained as the canonical record. | sin carpeta de datos"
+KH0407,UR168,,,UR168,khipu_id,sí,1000475,American Museum of Natural History,41.0/1551,,sin carpeta de datos
+KH0408,UR169,,,UR169,khipu_id,sí,1000477,American Museum of Natural History,41.2/6995,,sin carpeta de datos
+KH0409,UR170,,,UR170,khipu_id,sí,1000492,American Museum of Natural History,41.2/6715,,sin carpeta de datos
+KH0410,UR171,,,UR171,khipu_id,sí,1000478,American Museum of Natural History,41.2/6712,,sin carpeta de datos
+KH0411,UR172,,,UR172,khipu_id,sí,1000479,American Museum of Natural History,41.2/6711,,sin carpeta de datos
+KH0412,UR173,,,UR173,khipu_id,sí,1000481,American Museum of Natural History,41.2/6699,,sin carpeta de datos
+KH0413,UR174,,,UR174,khipu_id,sí,1000480,American Museum of Natural History,41.2/6709,,sin carpeta de datos
+KH0414,UR175,,,UR175,khipu_id,sí,1000483,American Museum of Natural History,41.2/6710,,sin carpeta de datos
+KH0415,UR177,,,UR177,khipu_id,sí,1000494,American Museum of Natural History,B/8704,,sin carpeta de datos
+KH0416,UR178,,,UR178,khipu_id,sí,1000485,American Museum of Natural History,B/3453A,,sin carpeta de datos
+KH0417,UR179,,,UR179,khipu_id,sí,1000489,American Museum of Natural History,B/3453B,,sin carpeta de datos
+KH0418,UR180,,,UR180,khipu_id,sí,1000486,American Museum of Natural History,B/3453C,,sin carpeta de datos
+KH0419,UR181,,,,,sí,1000491,American Museum of Natural History,B/3453D,,sin carpeta de datos
+KH0420,UR182,,,UR182,khipu_id,sí,1000482,American Museum of Natural History,B/8714A,,sin carpeta de datos
+KH0421,UR183,,,UR183,khipu_id,sí,1000487,American Museum of Natural History,B/8709,,sin carpeta de datos
+KH0422,UR184,,,UR184,khipu_id,sí,1000488,American Museum of Natural History,41.2/5785,,sin carpeta de datos
+KH0423,UR185,,,UR185,khipu_id,sí,1000490,American Museum of Natural History,B/8711K,,sin carpeta de datos
+KH0424,UR186,,,UR186,khipu_id,sí,1000497,American Museum of Natural History,B/8707,,sin carpeta de datos
+KH0425,UR187,,,UR187,khipu_id,sí,1000495,American Museum of Natural History,41.2/6996A,,sin carpeta de datos
+KH0426,UR188,,,UR188,khipu_id,sí,1000499,Musée du quai Branly - Jacques Chirac,71.1930.19.483,,sin carpeta de datos
+KH0427,UR189,,,UR189,khipu_id,sí,1000500,Musée du quai Branly - Jacques Chirac,71.1878.3.61,,sin carpeta de datos
+KH0428,UR190,,,UR190,okr_kfg,sí,1000501,Musée du quai Branly - Jacques Chirac,71.1887.9.14,,sin carpeta de datos
+KH0429,UR191,,,UR191,khipu_id,sí,1000502,Musée du quai Branly - Jacques Chirac,71.1887.9.16,,sin carpeta de datos
+KH0430,UR192,,,UR192,khipu_id,sí,1000503,Musée du quai Branly - Jacques Chirac,71.1887.9.15,,sin carpeta de datos
+KH0431,UR193,,,UR193,okr_kfg,sí,1000504,Ethnologisches Museum,VA42593,,sin carpeta de datos
+KH0432,UR194,,,UR194,khipu_id,sí,1000505,Ethnologisches Museum,VA47082,,sin carpeta de datos
+KH0433,UR195,,,UR195,khipu_id,sí,1000506,Ethnologisches Museum,VA63040,,sin carpeta de datos
+KH0434,UR196,,,UR196,khipu_id,sí,1000507,Ethnologisches Museum,VA42521,,sin carpeta de datos
+KH0435,UR197,,,UR197,khipu_id,sí,1000508,Ethnologisches Museum,VA42523,,sin carpeta de datos
+KH0436,UR198,,,UR198,khipu_id,sí,1000509,Ethnologisches Museum,VA63039,,sin carpeta de datos
+KH0437,UR199,,,UR199,khipu_id,sí,1000510,Ethnologisches Museum,VA42532,,sin carpeta de datos
+KH0438,UR200,,,UR200,khipu_id,sí,1000511,Ethnologisches Museum,VA42597,,"OKR: Added parentheses to accession numbers for UR200 and UR201, since the A and B were assigned by Urton. The actual objects have the same accession number. | sin carpeta de datos | inventario compartido con KH0439"
+KH0439,UR201,,,UR201,khipu_id,sí,1000512,Ethnologisches Museum,VA42597,,sin carpeta de datos | inventario compartido con KH0438
+KH0440,UR202,,,UR202,khipu_id,sí,1000513,Ethnologisches Museum,VA42543,,sin carpeta de datos
+KH0441,UR203,,,UR203,khipu_id,sí,1000514,Ethnologisches Museum,VA42583,,sin carpeta de datos
+KH0442,UR204,,,UR204,khipu_id,sí,1000515,Ethnologisches Museum,VA47114c,,"OKR: Added parentheses to accession numbers for UR204, UR205, and UR206, since the A, B, and C were assigned by Urton. The actual objects have the same accession number. | sin carpeta de datos | inventario compartido con KH0443, KH0444"
+KH0443,UR205,,,UR205,khipu_id,sí,1000516,Ethnologisches Museum,VA47114c,,"sin carpeta de datos | inventario compartido con KH0442, KH0444"
+KH0444,UR206,,,UR206,khipu_id,sí,1000517,Ethnologisches Museum,VA47114c,,"sin carpeta de datos | inventario compartido con KH0442, KH0443"
+KH0445,UR207,,,UR207,khipu_id,sí,1000518,Ethnologisches Museum,VA12179,,sin carpeta de datos
+KH0446,UR208,,,UR208,khipu_id,sí,1000519,Ethnologisches Museum,VA42549,,sin carpeta de datos
+KH0447,UR209,,,UR209,khipu_id,sí,1000520,Ethnologisches Museum,VA16144,,sin carpeta de datos
+KH0448,UR210,,,UR210,khipu_id,sí,1000521,Ethnologisches Museum,VA16141,,"OKR: Added parentheses to accession numbers for UR210 and UR211, since the A and B were assigned by Urton. The actual objects have the same accession number. | sin carpeta de datos | inventario compartido con KH0449"
+KH0449,UR211,,,UR211,khipu_id,sí,1000522,Ethnologisches Museum,VA16141,,sin carpeta de datos | inventario compartido con KH0448
+KH0450,UR212,,,UR212,khipu_id,sí,1000523,Ethnologisches Museum,VA42513,,sin carpeta de datos
+KH0451,UR213,,,UR213,khipu_id,sí,1000524,Ethnologisches Museum,VA42508,,"OKR: Added parentheses to accession numbers for UR213 and UR214, since the A and B were assigned by Urton. The actual objects have the same accession number. | sin carpeta de datos | inventario compartido con KH0452"
+KH0452,UR214,,,UR214,khipu_id,sí,1000525,Ethnologisches Museum,VA42508,,sin carpeta de datos | inventario compartido con KH0451
+KH0453,UR215,,,UR215,khipu_id,sí,1000526,Ethnologisches Museum,VA22574,,sin carpeta de datos
+KH0454,UR216,,,UR216,khipu_id,sí,1000527,Ethnologisches Museum,VA42586,,sin carpeta de datos
+KH0455,UR217,,,UR217,khipu_id,sí,1000528,Ethnologisches Museum,VA44864a,,sin carpeta de datos
+KH0456,UR218,,,UR218,khipu_id,sí,1000529,Ethnologisches Museum,VA42559,,sin carpeta de datos
+KH0457,UR219,,,UR219,khipu_id,sí,1000530,Ethnologisches Museum,VA47084,,sin carpeta de datos
+KH0458,UR220,,,UR220,khipu_id,sí,1000531,Ethnologisches Museum,VA47114a,,sin carpeta de datos
+KH0459,UR221,,,UR221,okr_kfg,sí,1000532,Ethnologisches Museum,VA47114b,,OKR: Incorrect accession number in OKR; corrected to VA47114b. | sin carpeta de datos
+KH0460,UR222,,,UR222,khipu_id,sí,1000533,Ethnologisches Museum,VA47114d,,sin carpeta de datos
+KH0461,UR223,,,UR223,khipu_id,sí,1000534,Ethnologisches Museum,VA47077,,sin carpeta de datos
+KH0462,UR225,,,UR225,khipu_id,sí,1000535,Ethnologisches Museum,VA67259,,sin carpeta de datos
+KH0463,UR226,,,UR226,khipu_id,sí,1000536,Ethnologisches Museum,VA42551,,sin carpeta de datos
+KH0464,UR227,,,UR227,khipu_id,sí,1000537,Ethnologisches Museum,VA44677a,,"OKR: Added parentheses to accession numbers for UR227 and UR228, since the A and B were assigned by Urton. The actual objects have the same accession number. | sin carpeta de datos | inventario compartido con KH0465"
+KH0465,UR228,,,UR228,khipu_id,sí,1000538,Ethnologisches Museum,VA44677a,,sin carpeta de datos | inventario compartido con KH0464
+KH0466,UR229,,,UR229,khipu_id,sí,1000539,Ethnologisches Museum,VA47092,,sin carpeta de datos
+KH0467,UR230,,,UR230,khipu_id,sí,1000540,Ethnologisches Museum,VA42576,,sin carpeta de datos
+KH0468,UR231,,,UR231,khipu_id,sí,1000541,Ethnologisches Museum,VA16135a & VA16135b,,sin carpeta de datos
+KH0469,UR232,,,UR232,khipu_id,sí,1000542,Ethnologisches Museum,VA63038,,"OKR: Added parentheses to accession numbers for UR232 and UR233, since the A and B were assigned by Urton. The actual objects have the same accession number. | sin carpeta de datos | inventario compartido con KH0470"
+KH0470,UR233,,,UR233,khipu_id,sí,1000543,Ethnologisches Museum,VA63038,,sin carpeta de datos | inventario compartido con KH0469
+KH0471,UR234,,,UR234,khipu_id,sí,1000544,Ethnologisches Museum,VA66837,,sin carpeta de datos
+KH0472,UR235,,,UR235,khipu_id,sí,1000545,Ethnologisches Museum,VA66830,,sin carpeta de datos
+KH0473,UR237,,,UR237,khipu_id,sí,1000551,Ethnologisches Museum,VA66834,,sin carpeta de datos
+KH0474,UR238,,,UR238,khipu_id,sí,1000552,Ethnologisches Museum,VA47093,,sin carpeta de datos
+KH0475,UR239,,,UR239,khipu_id,sí,1000553,Ethnologisches Museum,VA66841,,sin carpeta de datos
+KH0476,UR240,,,UR240,khipu_id,sí,1000554,Ethnologisches Museum,VA66839,,sin carpeta de datos
+KH0477,UR241,,,UR241,khipu_id,sí,1000549,Ethnologisches Museum,VA42594,,sin carpeta de datos
+KH0478,UR242,,,UR242,khipu_id,sí,1000547,Ethnologisches Museum,VA47094,,sin carpeta de datos
+KH0479,UR243,,,UR243,khipu_id,sí,1000548,Ethnologisches Museum,VA42607,,"OKR: Added parentheses to accession numbers for UR243, UR244, UR245, and UR246, since the A, B, C, and D were assigned by Urton. The actual objects have the same accession number. | sin carpeta de datos | inventario compartido con KH0480, KH0481, KH0482"
+KH0480,UR244,,,UR244,khipu_id,sí,1000555,Ethnologisches Museum,VA42607,,"sin carpeta de datos | inventario compartido con KH0479, KH0481, KH0482"
+KH0481,UR245,,,UR245,khipu_id,sí,1000550,Ethnologisches Museum,VA42607,,"sin carpeta de datos | inventario compartido con KH0479, KH0480, KH0482"
+KH0482,UR246,,,UR246,khipu_id,sí,1000556,Ethnologisches Museum,VA42607,,"sin carpeta de datos | inventario compartido con KH0479, KH0480, KH0481"
+KH0483,UR247,,,UR247,khipu_id,sí,1000558,Ethnologisches Museum,VA42610,,OKR: This khipu is a duplicate of KH0140. | sin carpeta de datos
+KH0484,UR248,,,UR248,khipu_id,sí,1000559,Ethnologisches Museum,VA42608,,sin carpeta de datos
+KH0485,UR249,,,UR249,khipu_id,sí,1000560,Ethnologisches Museum,VA42578i,,OKR: Appended an “i” to correct accession number following confirmation with Ethnologisches Museum online database. | sin carpeta de datos
+KH0486,UR250,,,UR250,khipu_id,sí,1000561,Ethnologisches Museum,VA47112,,sin carpeta de datos
+KH0487,UR251,,,UR251,khipu_id,sí,1000589,GRASSI Museum für Völkerkunde,SAM 5555,,sin carpeta de datos
+KH0488,UR252,,,UR252,khipu_id,sí,1000590,GRASSI Museum für Völkerkunde,SAM 12402,,sin carpeta de datos
+KH0489,UR253,,,UR253,okr_kfg,sí,1000591,GRASSI Museum für Völkerkunde,SAM 12405,,sin carpeta de datos
+KH0490,UR254,,,UR254,khipu_id,sí,1000592,GRASSI Museum für Völkerkunde,SAM 12408,,sin carpeta de datos
+KH0491,UR255,,,UR255,khipu_id,sí,1000597,Complejo arqueológico Inkawasi,9228-13,,"sin carpeta de datos | inventario compartido con KH0492, KH0493, KH0494"
+KH0492,UR256,,,UR256,khipu_id,sí,1000598,Complejo arqueológico Inkawasi,9228-13,,"sin carpeta de datos | inventario compartido con KH0491, KH0493, KH0494"
+KH0493,UR257,,,UR257,khipu_id,sí,1000595,Complejo arqueológico Inkawasi,9228-13,,"sin carpeta de datos | inventario compartido con KH0491, KH0492, KH0494"
+KH0494,UR258,,,UR258,khipu_id,sí,1000599,Complejo arqueológico Inkawasi,9228-13,,"sin carpeta de datos | inventario compartido con KH0491, KH0492, KH0493"
+KH0495,UR259,,,UR259,khipu_id,sí,1000600,Complejo arqueológico Inkawasi,9228-13A,,sin carpeta de datos
+KH0496,UR260,,,UR260,khipu_id,sí,1000601,Complejo arqueológico Inkawasi,9228-13B,,sin carpeta de datos
+KH0497,UR261,,,UR261,khipu_id,sí,1000602,Complejo arqueológico Inkawasi,9228-13C,,sin carpeta de datos
+KH0498,UR262,,,UR262,khipu_id,sí,1000603,Complejo arqueológico Inkawasi,12009-13,,sin carpeta de datos
+KH0499,UR263,,,UR263,khipu_id,sí,1000604,Complejo arqueológico Inkawasi,12704-2014,,sin carpeta de datos
+KH0500,UR264,,,UR264,khipu_id,sí,1000605,Complejo arqueológico Inkawasi,12703-2014,,sin carpeta de datos | inventario compartido con KH0501
+KH0501,UR265,,,UR265,khipu_id,sí,1000606,Complejo arqueológico Inkawasi,12703-2014,,sin carpeta de datos | inventario compartido con KH0500
+KH0502,UR266,,,UR266,khipu_id,sí,1000607,Complejo arqueológico Inkawasi,13829,,sin carpeta de datos
+KH0503,UR267A,,,UR267A,khipu_id,sí,1000608,Complejo arqueológico Inkawasi,13092,,sin carpeta de datos | inventario compartido con KH0504
+KH0504,UR267B,,,UR267B,khipu_id,sí,1000609,Complejo arqueológico Inkawasi,13092,,sin carpeta de datos | inventario compartido con KH0503
+KH0505,UR268,,,UR268,khipu_id,sí,1000610,Complejo arqueológico Inkawasi,13835,,sin carpeta de datos
+KH0506,UR269,,,UR269,khipu_id,sí,1000611,Complejo arqueológico Inkawasi,13828,,sin carpeta de datos
+KH0507,UR270,,,UR270,khipu_id,sí,1000612,Complejo arqueológico Inkawasi,13830,,sin carpeta de datos
+KH0508,UR271,,,UR271,khipu_id,sí,1000613,Complejo arqueológico Inkawasi,13842,,sin carpeta de datos
+KH0509,UR272,,,UR272,khipu_id,sí,1000614,Complejo arqueológico Inkawasi,13839,,sin carpeta de datos
+KH0510,UR273A,,,UR273A,khipu_id,sí,1000615,Complejo arqueológico Inkawasi,13831-2014,,sin carpeta de datos | inventario compartido con KH0511
+KH0511,UR273B,,,UR273B,khipu_id,sí,1000616,Complejo arqueológico Inkawasi,13831-2014,,sin carpeta de datos | inventario compartido con KH0510
+KH0512,UR274A,,,UR274A,khipu_id,sí,1000617,Complejo arqueológico Inkawasi,13832-2014,,sin carpeta de datos | inventario compartido con KH0513
+KH0513,UR274B,,,UR274B,khipu_id,sí,1000618,Complejo arqueológico Inkawasi,13832-2014,,sin carpeta de datos | inventario compartido con KH0512
+KH0514,UR275,,,UR275,khipu_id,sí,1000619,Complejo arqueológico Inkawasi,13836-2014,,sin carpeta de datos
+KH0515,UR276,,,UR276,khipu_id,sí,1000620,Complejo arqueológico Inkawasi,13837-2014,,sin carpeta de datos
+KH0516,UR277,,,UR277,khipu_id,sí,1000622,Complejo arqueológico Inkawasi,13834-2014,,sin carpeta de datos
+KH0517,UR278,,,UR278,khipu_id,sí,1000623,Complejo arqueológico Inkawasi,13833-2014,,sin carpeta de datos
+KH0518,UR279,,,UR279,khipu_id,sí,1000621,Complejo arqueológico Inkawasi,13838-2014,,sin carpeta de datos
+KH0519,UR280,,,UR280,okr_kfg,sí,1000624,Complejo arqueológico Inkawasi,16474-2014,,sin carpeta de datos
+KH0520,UR282,,,UR282,khipu_id,sí,1000649,"Museo Nacional de Arqueología, Antropología e Historia del Perú",35268A,,sin carpeta de datos
+KH0521,UR283,,,UR283,khipu_id,sí,1000650,"Museo Nacional de Arqueología, Antropología e Historia del Perú",35268B,,sin carpeta de datos
+KH0522,UR284,,,UR284,khipu_id,sí,1000651,"Museo Nacional de Arqueología, Antropología e Historia del Perú",35269,,sin carpeta de datos
+KH0523,UR285,,,UR285,khipu_id,sí,1000652,"Museo Nacional de Arqueología, Antropología e Historia del Perú",36212,,sin carpeta de datos
+KH0524,UR286,,,UR286,khipu_id,sí,1000653,"Museo Nacional de Arqueología, Antropología e Historia del Perú",36213,,sin carpeta de datos
+KH0525,UR287,,,UR287,khipu_id,sí,1000654,"Museo Nacional de Arqueología, Antropología e Historia del Perú",36223A,,sin carpeta de datos
+KH0526,UR288,,,UR288,khipu_id,sí,1000655,"Museo Nacional de Arqueología, Antropología e Historia del Perú",36223B,,sin carpeta de datos
+KH0527,UR289,,,UR289,khipu_id,sí,1000656,"Museo Nacional de Arqueología, Antropología e Historia del Perú",36225,,sin carpeta de datos
+KH0528,UR290,,,UR290,khipu_id,sí,1000657,"Museo Nacional de Arqueología, Antropología e Historia del Perú",36224,,sin carpeta de datos
+KH0529,UR291A,,,UR291A,khipu_id,sí,1000658,"Museo Nacional de Arqueología, Antropología e Historia del Perú",36268,,sin carpeta de datos
+KH0530,UR292A,,,UR292A,okr_kfg,sí,1000659,"Museo Nacional de Arqueología, Antropología e Historia del Perú",36226,,sin carpeta de datos
+KH0531,UR293,,,UR293,khipu_id,sí,1000660,"Museo Nacional de Arqueología, Antropología e Historia del Perú",36216,,sin carpeta de datos
+KH0532,UR294,,,UR294,khipu_id,sí,1000661,"Museo Nacional de Arqueología, Antropología e Historia del Perú",36217,,sin carpeta de datos
+KH0533,,,HP001,HP001,khipu_id,sí,1000420,Museo de Sitio de Pachacamac,"MSP 1385A/
+RN 43366",,sin carpeta de datos
+KH0534,,,HP002,HP002,khipu_id,sí,1000421,Museo de Sitio de Pachacamac,"MSP 1385B/
+RN 43366",,sin carpeta de datos
+KH0535,,,HP003,HP003,khipu_id,sí,1000422,Museo de Sitio de Pachacamac,"MSP 1386/
+RN 43367",,sin carpeta de datos
+KH0536,,,HP004,HP004,khipu_id,sí,1000423,Museo de Sitio de Pachacamac,"MSP 1389/
+RN 43370",,OKR: Corrected accession number to MSP 1389/RN 43370 from MSP 1389/RN 43367 | sin carpeta de datos
+KH0537,,,HP005,HP005,khipu_id,sí,1000424,Museo de Sitio de Pachacamac,"MSP 1391/
+RN 43372",,sin carpeta de datos
+KH0538,,,HP006,HP006,khipu_id,sí,1000425,Museo de Sitio de Pachacamac,"MSP 1392/
+RN 43373",,sin carpeta de datos
+KH0539,,,HP007,HP007,khipu_id,sí,1000426,Museo de Sitio de Pachacamac,"MSP 1393/
+RN 43374",,sin carpeta de datos
+KH0540,,,HP008,HP008,khipu_id,sí,1000427,Museo de Sitio de Pachacamac,"MSP 1394/
+RN 43375",,sin carpeta de datos
+KH0541,,,HP009,HP009,khipu_id,sí,1000428,Museo de Sitio de Pachacamac,"MSP 1395/
+RN 43376",,sin carpeta de datos
+KH0542,,,HP010,HP010,khipu_id,sí,1000429,Museo de Sitio de Pachacamac,"MSP 1396/
+RN 43377",,sin carpeta de datos
+KH0543,,,HP011,HP011,khipu_id,sí,1000430,Museo de Sitio de Pachacamac,"MSP 1397/
+RN 43378",,sin carpeta de datos
+KH0544,,,HP012,HP012,khipu_id,sí,1000431,Museo de Sitio de Pachacamac,"MSP 1400/
+RN 43381",,sin carpeta de datos
+KH0545,,,HP013,HP013,khipu_id,sí,1000432,Museo de Sitio de Pachacamac,"MSP 1403/
+RN 43384",,sin carpeta de datos
+KH0546,,,HP014,HP014,khipu_id,sí,1000433,Museo de Sitio de Pachacamac,"MSP 1404/
+RN 43385",,sin carpeta de datos
+KH0547,,,HP015,HP015,khipu_id,sí,1000434,Museo de Sitio de Pachacamac,"MSP 1405/
+RN 43386",,sin carpeta de datos
+KH0548,,,HP016,HP016,khipu_id,sí,1000435,Museo de Sitio de Pachacamac,"MSP 1406/
+RN 43387",,sin carpeta de datos
+KH0549,,,HP017,HP017,khipu_id,sí,1000436,Museo de Sitio de Pachacamac,"MSP 1409/
+RN 43390",,sin carpeta de datos
+KH0550,,,HP018,HP018,khipu_id,sí,1000437,Museo de Sitio de Pachacamac,"MSP 1410/
+RN 43391",,sin carpeta de datos
+KH0551,,,HP019,HP019,khipu_id,sí,1000438,Museo de Sitio de Pachacamac,"MSP 1412/
+RN 43393",,sin carpeta de datos
+KH0552,,,HP020,HP020,khipu_id,sí,1000439,Museo de Sitio de Pachacamac,"MSP 1413/
+RN 43394",,sin carpeta de datos
+KH0553,,,HP021,HP021,khipu_id,sí,1000440,Museo de Sitio de Pachacamac,"MSP 1414/
+RN 43395",,sin carpeta de datos
+KH0554,,,HP022,HP022,khipu_id,sí,1000441,Museo de Sitio de Pachacamac,"MSP 1417/
+RN 43398",,sin carpeta de datos
+KH0555,,,HP023,HP023,khipu_id,sí,1000442,Museo de Sitio de Pachacamac,"MSP 1418/
+RN 43399",,sin carpeta de datos
+KH0556,,,HP024,HP024,khipu_id,sí,1000443,Museo de Sitio de Pachacamac,"MSP 1419/
+RN 43400",,sin carpeta de datos
+KH0557,,,HP025,HP025,khipu_id,sí,1000444,Museo de Sitio de Pachacamac,"MSP 1420/
+RN 43401",,sin carpeta de datos
+KH0558,,,HP026,HP026,khipu_id,sí,1000445,Museo de Sitio de Pachacamac,"MSP 1421/
+RN 43402",,sin carpeta de datos
+KH0559,,,HP027,HP027,khipu_id,sí,1000446,Museo de Sitio de Pachacamac,"MSP 1422/
+RN 43403",,OKR: Corrected accession number to MSP 1422/RN 43403 from MSP 1422/RN 43404. | sin carpeta de datos
+KH0560,,,HP028,HP028,khipu_id,sí,1000447,Museo de Sitio de Pachacamac,"MSP 1423/
+RN 43404",,sin carpeta de datos
+KH0561,,,HP029,HP029,khipu_id,sí,1000448,Museo de Sitio de Pachacamac,"MSP 1425A/
+RN 43406",,sin carpeta de datos
+KH0562,,,HP030,HP030,khipu_id,sí,1000449,Museo de Sitio de Pachacamac,"MSP 1425B/
+RN 43406",,sin carpeta de datos
+KH0563,,,HP031,HP031,khipu_id,sí,1000450,Museo de Sitio de Pachacamac,"MSP 1426/
+RN 43407",,sin carpeta de datos
+KH0564,,,HP032,HP032,khipu_id,sí,1000451,Museo de Sitio de Pachacamac,"MSP 1429/
+RN 43405",,sin carpeta de datos
+KH0565,,,HP033,HP033,khipu_id,sí,1000562,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 543,,sin carpeta de datos
+KH0566,,,HP034,HP034,khipu_id,sí,1000563,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 1721,,sin carpeta de datos
+KH0567,,,HP037,HP037,khipu_id,sí,1000566,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 4134,,sin carpeta de datos
+KH0568,,,HP038,HP038,khipu_id,sí,1000567,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 4202,,OKR: Corrected accession number to MNAAHP 4202 from MNAAHP. | sin carpeta de datos
+KH0569,,,HP039,HP039,khipu_id,sí,1000593,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 4203,,sin carpeta de datos
+KH0570,,,HP040,HP040,khipu_id,sí,1000569,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 5691,,sin carpeta de datos
+KH0571,,,HP042,HP042,khipu_id,sí,1000571,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 5701,,sin carpeta de datos
+KH0572,,,HP043,HP043,khipu_id,sí,1000572,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 5704,,sin carpeta de datos
+KH0573,,,HP044,HP044,khipu_id,sí,1000573,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 5713,,sin carpeta de datos
+KH0574,,,HP045,HP045,okr_kfg,sí,1000574,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 5719,,sin carpeta de datos
+KH0575,,,HP046A,HP046_A,khipu_id,sí,1000575,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 5720A,,sin carpeta de datos
+KH0576,,,HP046B,HP046_B,khipu_id,sí,1000576,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 5720B,,sin carpeta de datos
+KH0577,,,HP047,HP047,okr_kfg,sí,1000577,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 5722,,sin carpeta de datos
+KH0578,,,HP048,HP048,okr_kfg,sí,1000578,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 5723,,sin carpeta de datos
+KH0579,,,HP049,HP049,khipu_id,sí,1000579,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 5724,,sin carpeta de datos
+KH0580,,,HP050,HP050,khipu_id,sí,1000580,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 5725,,sin carpeta de datos
+KH0581,,,HP051A,HP051_A,khipu_id,sí,1000581,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 5726A,,sin carpeta de datos
+KH0582,,,HP051B,HP051_B,khipu_id,sí,1000582,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 5726B,,sin carpeta de datos
+KH0583,,,HP052,HP052,khipu_id,sí,1000583,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 6345,,sin carpeta de datos
+KH0584,,,HP053,HP053,khipu_id,sí,1000584,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 25086,,sin carpeta de datos
+KH0585,,,HP054,HP054,khipu_id,sí,1000585,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 25577,,sin carpeta de datos
+KH0586,,,HP055,HP055,okr_kfg,sí,1000588,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 29934,,sin carpeta de datos
+KH0587,,,HP056,HP056,khipu_id,sí,1000586,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 29935,,sin carpeta de datos
+KH0588,,,HP057,HP057,khipu_id,sí,1000587,"Museo Nacional de Arqueología, Antropología e Historia del Perú",MNAAHP 30564,,OKR: Corrected accession number to MNAAHP 30564 from MNAAHP. | sin carpeta de datos
+KH0589,,,QU001,QU001,alias,sí,1000453,Dallas Museum of Art,B397/T41299.22,,OKR: The “B###” component of the Dallas Museum of Art khipu accession numbers is missing from all QU khipus in the OKR. This has been rectified. | sin carpeta de datos
+KH0590,,,QU002,QU002,alias,sí,1000455,Dallas Museum of Art,B376/T41299.23,,sin carpeta de datos
+KH0591,,,QU003,QU003,alias,sí,1000454,Dallas Museum of Art,B388/T41299.24,,sin carpeta de datos
+KH0592,,,QU004,QU004,alias,sí,1000456,Dallas Museum of Art,B378/T41299.25,,sin carpeta de datos
+KH0593,,,QU005,QU005,alias,sí,1000457,Dallas Museum of Art,B377/T41299.26,,sin carpeta de datos
+KH0594,,,QU006,QU006,alias,sí,1000458,Dallas Museum of Art,B384/T41299.27,,sin carpeta de datos
+KH0595,,,QU007,QU007,alias,sí,1000459,Dallas Museum of Art,B372/T41299.28,,sin carpeta de datos
+KH0596,,,QU008,QU008,alias,sí,1000460,Dallas Museum of Art,B367/T41299.29,,sin carpeta de datos
+KH0597,,,QU009,QU009,alias,sí,1000461,Dallas Museum of Art,B366/T41299.30,,sin carpeta de datos
+KH0598,,,QU010,QU010,alias,sí,1000462,Dallas Museum of Art,B374/T41299.31,,sin carpeta de datos
+KH0599,,,QU011,QU011,alias,sí,1000463,Dallas Museum of Art,B375/T41299.32,,sin carpeta de datos
+KH0600,,,QU012,QU012,alias,no,,Dallas Museum of Art,B391/T41299.20,,OKR: QU012 was not originally entered into the OKR. It is re-introduced here. | sin fila en khipu.db | sin carpeta de datos
+KH0601,,,QU013,QU013,alias,sí,1000464,Dallas Museum of Art,B369 / T41299.33.A-B,,sin carpeta de datos
+KH0602,,,QU014,QU014,alias,sí,1000465,Dallas Museum of Art,B399/T41299.34,,sin carpeta de datos
+KH0603,,,QU015,QU015,alias,sí,1000466,Dallas Museum of Art,B373/T41299.18,,sin carpeta de datos
+KH0604,,,QU016,QU016,alias,sí,1000467,Dallas Museum of Art,B383 & B383A / T41299.35.A-B,,sin carpeta de datos
+KH0605,,,QU017,QU017,alias,sí,1000468,Dallas Museum of Art,B395/T41299.36,,sin carpeta de datos
+KH0606,,,QU018,QU018,alias,sí,1000469,Dallas Museum of Art,B382/T41299.37,,sin carpeta de datos
+KH0607,,,QU019,QU019,alias,sí,1000470,Dallas Museum of Art,B371/T41299.38,,sin carpeta de datos
+KH0608,,,JC001,JC001,khipu_id,sí,1000625,Complejo arqueológico Inkawasi,PAI-001-2016,,sin carpeta de datos
+KH0609,,,JC002,JC002,khipu_id,sí,1000626,Complejo arqueológico Inkawasi,PAI-003-2016,,sin carpeta de datos | inventario compartido con KH0610
+KH0610,,,JC003,JC003,khipu_id,sí,1000627,Complejo arqueológico Inkawasi,PAI-003-2016,,sin carpeta de datos | inventario compartido con KH0609
+KH0611,,,JC004,JC004,khipu_id,sí,1000628,Complejo arqueológico Inkawasi,PAI-005-2016,,sin carpeta de datos | inventario compartido con KH0612
+KH0612,,,JC005,JC005,khipu_id,sí,1000629,Complejo arqueológico Inkawasi,PAI-005-2016,,sin carpeta de datos | inventario compartido con KH0611
+KH0613,,,JC006,JC006,khipu_id,sí,1000630,Complejo arqueológico Inkawasi,PAI-002-2016,,sin carpeta de datos
+KH0614,,,JC007,JC007,khipu_id,sí,1000631,Complejo arqueológico Inkawasi,PAI-004-2016,,sin carpeta de datos
+KH0615,,,JC008,JC008,khipu_id,sí,1000632,Complejo arqueológico Inkawasi,PAI-1156-2016,,sin carpeta de datos
+KH0616,,,JC009,JC009,khipu_id,sí,1000633,Complejo arqueológico Inkawasi,PAI-007-2016,,sin carpeta de datos
+KH0617,,,JC010,JC010,khipu_id,sí,1000634,Complejo arqueológico Inkawasi,PAI-009-2016,,sin carpeta de datos
+KH0618,,,JC011,JC011,khipu_id,sí,1000635,Complejo arqueológico Inkawasi,PAI-008-2016,,"sin carpeta de datos | inventario compartido con KH0619, KH0620"
+KH0619,,,JC012,JC012,khipu_id,sí,1000636,Complejo arqueológico Inkawasi,PAI-008-2016,,"sin carpeta de datos | inventario compartido con KH0618, KH0620"
+KH0620,,,JC013,JC013,khipu_id,sí,1000637,Complejo arqueológico Inkawasi,PAI-008-2016,,"sin carpeta de datos | inventario compartido con KH0618, KH0619"
+KH0621,,,JC014,JC014,khipu_id,sí,1000638,Complejo arqueológico Inkawasi,PAI-1444-2016,,sin carpeta de datos
+KH0622,,,JC015,JC015,khipu_id,sí,1000639,Complejo arqueológico Inkawasi,PAI-1441-2016,,sin carpeta de datos
+KH0623,,,JC016,JC016,khipu_id,sí,1000640,Complejo arqueológico Inkawasi,PAI-1459-2016,,sin carpeta de datos
+KH0624,,,JC017,JC017,khipu_id,sí,1000641,Complejo arqueológico Inkawasi,PAI-1456-2016,,sin carpeta de datos
+KH0625,,,JC018,JC018,khipu_id,sí,1000642,Complejo arqueológico Inkawasi,PAI-1453-2016,,sin carpeta de datos
+KH0626,,,JC019,JC019,khipu_id,sí,1000643,Complejo arqueológico Inkawasi,PAI-1455-2016,,sin carpeta de datos
+KH0627,,,JC020,JC020,khipu_id,sí,1000644,Complejo arqueológico Inkawasi,PAI-1454-2016,,sin carpeta de datos
+KH0628,,,JC021,JC021,khipu_id,sí,1000645,Complejo arqueológico Inkawasi,PAI-1440-2016,,sin carpeta de datos
+KH0629,,,JC022,JC022,khipu_id,sí,1000646,Complejo arqueológico Inkawasi,PAI-1443-2016,,sin carpeta de datos
+KH0630,,,JC023,JC023,khipu_id,sí,1000647,Complejo arqueológico Inkawasi,PAI-1436-2016,,sin carpeta de datos
+KH0631,,,SH001,,,no,,University of St Andrews,SA004,KH0631_0632,sin fila en khipu.db
+KH0632,,,SH002,,,no,,University of St Andrews,SA005,KH0631_0632,sin fila en khipu.db
+KH0633,,,,,,no,,The British Museum,"Am1937,0213.84",KH0633_0635,"sin fila en khipu.db | inventario compartido con KH0634, KH0635"
+KH0634,,,,,,no,,The British Museum,"Am1937,0213.84",KH0633_0635,"sin fila en khipu.db | inventario compartido con KH0633, KH0635"
+KH0635,,,,,,no,,The British Museum,"Am1937,0213.84",KH0633_0635,"sin fila en khipu.db | inventario compartido con KH0633, KH0634"
+KH0636,,,,,,no,,University of St Andrews,SA001,,sin fila en khipu.db | sin carpeta de datos
+KH0637,,,,,,no,,University of St Andrews,SA002,,sin fila en khipu.db | sin carpeta de datos
+KH0638,,,,,,no,,"Museo Nacional de Arqueología, Antropología e Historia del Perú",RT-16905,KH0638_0652,"sin fila en khipu.db | inventario compartido con KH0639, KH0640, KH0641, KH0642, KH0643, KH0644, KH0645, KH0646, KH0647, KH0648, KH0649, KH0650, KH0651, KH0652"
+KH0639,,,,,,no,,"Museo Nacional de Arqueología, Antropología e Historia del Perú",RT-16905,KH0638_0652,"sin fila en khipu.db | inventario compartido con KH0638, KH0640, KH0641, KH0642, KH0643, KH0644, KH0645, KH0646, KH0647, KH0648, KH0649, KH0650, KH0651, KH0652"
+KH0640,,,,,,no,,"Museo Nacional de Arqueología, Antropología e Historia del Perú",RT-16905,KH0638_0652,"sin fila en khipu.db | inventario compartido con KH0638, KH0639, KH0641, KH0642, KH0643, KH0644, KH0645, KH0646, KH0647, KH0648, KH0649, KH0650, KH0651, KH0652"
+KH0641,,,,,,no,,"Museo Nacional de Arqueología, Antropología e Historia del Perú",RT-16905,KH0638_0652,"sin fila en khipu.db | inventario compartido con KH0638, KH0639, KH0640, KH0642, KH0643, KH0644, KH0645, KH0646, KH0647, KH0648, KH0649, KH0650, KH0651, KH0652"
+KH0642,,,,,,no,,"Museo Nacional de Arqueología, Antropología e Historia del Perú",RT-16905,KH0638_0652,"sin fila en khipu.db | inventario compartido con KH0638, KH0639, KH0640, KH0641, KH0643, KH0644, KH0645, KH0646, KH0647, KH0648, KH0649, KH0650, KH0651, KH0652"
+KH0643,,,,,,no,,"Museo Nacional de Arqueología, Antropología e Historia del Perú",RT-16905,KH0638_0652,"sin fila en khipu.db | inventario compartido con KH0638, KH0639, KH0640, KH0641, KH0642, KH0644, KH0645, KH0646, KH0647, KH0648, KH0649, KH0650, KH0651, KH0652"
+KH0644,,,,,,no,,"Museo Nacional de Arqueología, Antropología e Historia del Perú",RT-16905,KH0638_0652,"sin fila en khipu.db | inventario compartido con KH0638, KH0639, KH0640, KH0641, KH0642, KH0643, KH0645, KH0646, KH0647, KH0648, KH0649, KH0650, KH0651, KH0652"
+KH0645,,,,,,no,,"Museo Nacional de Arqueología, Antropología e Historia del Perú",RT-16905,KH0638_0652,"sin fila en khipu.db | inventario compartido con KH0638, KH0639, KH0640, KH0641, KH0642, KH0643, KH0644, KH0646, KH0647, KH0648, KH0649, KH0650, KH0651, KH0652"
+KH0646,,,,,,no,,"Museo Nacional de Arqueología, Antropología e Historia del Perú",RT-16905,KH0638_0652,"sin fila en khipu.db | inventario compartido con KH0638, KH0639, KH0640, KH0641, KH0642, KH0643, KH0644, KH0645, KH0647, KH0648, KH0649, KH0650, KH0651, KH0652"
+KH0647,,,,,,no,,"Museo Nacional de Arqueología, Antropología e Historia del Perú",RT-16905,KH0638_0652,"sin fila en khipu.db | inventario compartido con KH0638, KH0639, KH0640, KH0641, KH0642, KH0643, KH0644, KH0645, KH0646, KH0648, KH0649, KH0650, KH0651, KH0652"
+KH0648,,,,,,no,,"Museo Nacional de Arqueología, Antropología e Historia del Perú",RT-16905,KH0638_0652,"sin fila en khipu.db | inventario compartido con KH0638, KH0639, KH0640, KH0641, KH0642, KH0643, KH0644, KH0645, KH0646, KH0647, KH0649, KH0650, KH0651, KH0652"
+KH0649,,,,,,no,,"Museo Nacional de Arqueología, Antropología e Historia del Perú",RT-16905,KH0638_0652,"sin fila en khipu.db | inventario compartido con KH0638, KH0639, KH0640, KH0641, KH0642, KH0643, KH0644, KH0645, KH0646, KH0647, KH0648, KH0650, KH0651, KH0652"
+KH0650,,,,,,no,,"Museo Nacional de Arqueología, Antropología e Historia del Perú",RT-16905,KH0638_0652,"sin fila en khipu.db | inventario compartido con KH0638, KH0639, KH0640, KH0641, KH0642, KH0643, KH0644, KH0645, KH0646, KH0647, KH0648, KH0649, KH0651, KH0652"
+KH0651,,,,,,no,,"Museo Nacional de Arqueología, Antropología e Historia del Perú",RT-16905,KH0638_0652,"sin fila en khipu.db | inventario compartido con KH0638, KH0639, KH0640, KH0641, KH0642, KH0643, KH0644, KH0645, KH0646, KH0647, KH0648, KH0649, KH0650, KH0652"
+KH0652,,,,,,no,,"Museo Nacional de Arqueología, Antropología e Historia del Perú",RT-16905,KH0638_0652,"sin fila en khipu.db | inventario compartido con KH0638, KH0639, KH0640, KH0641, KH0642, KH0643, KH0644, KH0645, KH0646, KH0647, KH0648, KH0649, KH0650, KH0651"
+KH0653,,,JC024,,,no,,Sitio arqueológico Huacones-Vilcahuasi,789,KH0653_0663,sin fila en khipu.db
+KH0654,,,JC025,,,no,,Sitio arqueológico Huacones-Vilcahuasi,788,KH0653_0663,sin fila en khipu.db
+KH0655,,,JC026,,,no,,Sitio arqueológico Huacones-Vilcahuasi,792,KH0653_0663,sin fila en khipu.db
+KH0656,,,JC027,,,no,,Sitio arqueológico Huacones-Vilcahuasi,785,KH0653_0663,sin fila en khipu.db
+KH0657,,,JC028,,,no,,Sitio arqueológico Huacones-Vilcahuasi,787,KH0653_0663,sin fila en khipu.db
+KH0658,,,JC029,,,no,,Sitio arqueológico Huacones-Vilcahuasi,791,KH0653_0663,sin fila en khipu.db
+KH0659,,,JC030,,,no,,Sitio arqueológico Huacones-Vilcahuasi,783,KH0653_0663,sin fila en khipu.db
+KH0660,,,JC031,,,no,,Sitio arqueológico Huacones-Vilcahuasi,790,KH0653_0663,sin fila en khipu.db
+KH0661,,,JC032,,,no,,Sitio arqueológico Huacones-Vilcahuasi,786,KH0653_0663,sin fila en khipu.db
+KH0662,,,JC033,,,no,,Sitio arqueológico Huacones-Vilcahuasi,784,KH0653_0663,sin fila en khipu.db
+KH0663,,,JC034,,,no,,Sitio arqueológico Huacones-Vilcahuasi,782,KH0653_0663,sin fila en khipu.db
+KH0664,,,MM018,MM018,alias,no,,Museo de América,14809,,sin fila en khipu.db | sin carpeta de datos
+KH0665,,,BA001,,,no,,Maiman Collection (Deaccessioned),936,,sin fila en khipu.db | sin carpeta de datos
+KH0666,,,QU020,QU020,alias,no,,Beloit College,8896,,sin fila en khipu.db | sin carpeta de datos
+KH0667,,,QU021,QU021,alias,no,,Beloit College,7260,,sin fila en khipu.db | sin carpeta de datos
+KH0668,,,QU022,QU022,alias,no,,Beloit College,1194.04,,sin fila en khipu.db | sin carpeta de datos
+KH0669,,,QU023,,,no,,"Michael C. Carlos Museum, Emory University",2002.1.130,,sin fila en khipu.db | sin carpeta de datos
+KH0670,,,QU024,,,no,,"Michael C. Carlos Museum, Emory University",2002.1.118,,sin fila en khipu.db | sin carpeta de datos
+KH0671,,,QU025,,,no,,"Michael C. Carlos Museum, Emory University",2002.1.40,,sin fila en khipu.db | sin carpeta de datos
+KH0672,,,AN001;MM006,MM006_AN001,alias_compuesto,no,,Museum für Völkerkunde,61.54:2 dop 1,,sin fila en khipu.db | sin carpeta de datos
+KH0673,,,AN002;MM007,MM007_AN002,alias_compuesto,no,,Museum für Völkerkunde,61.54:2 dop 2,,sin fila en khipu.db | sin carpeta de datos
+KH0674,UR297,,,,,no,,Dumbarton Oaks,PC.WBC.2016.072,KH0674_0675,sin fila en khipu.db
+KH0675,UR298,,,,,no,,Dumbarton Oaks,PC.WBC.2016.071,KH0674_0675,sin fila en khipu.db
+KH0676,,,JS001,,,no,,Brooklyn Museum,80.1012 aka 2708,KH0676,sin fila en khipu.db | mismo n_inventario en otro museo: KH0700
+KH0677,,,MM001,MM001,alias,no,,Landesmuseum Hannover,Grü-209,,sin fila en khipu.db | sin carpeta de datos
+KH0678,,,MM002,MM002,alias,no,,Lippisches Landesmuseum,Unknown,,sin fila en khipu.db | sin carpeta de datos
+KH0679,,,MM003,MM003,alias,no,,Lippisches Landesmuseum,Unknown,,sin fila en khipu.db | sin carpeta de datos
+KH0680,,,MM004,MM004,alias,no,,Lippisches Landesmuseum,Unknown,,sin fila en khipu.db | sin carpeta de datos
+KH0681,,,MM005,MM005,alias,no,,"Museum am Rothenbaum, Kulturen und Kunste der Welt (MARKK)",xx am 80 (provisional number),,sin fila en khipu.db | sin carpeta de datos
+KH0682,,,MM008,MM008,alias,no,,Museum der Kulturen,IVc.366.03,,"sin fila en khipu.db | sin carpeta de datos | inventario compartido con KH0683, KH0684, KH0685, KH0686, KH0687, KH0688, KH0689, KH0690, KH0691"
+KH0683,,,MM009,MM009,alias,no,,Museum der Kulturen,IVc.366.03,,"sin fila en khipu.db | sin carpeta de datos | inventario compartido con KH0682, KH0684, KH0685, KH0686, KH0687, KH0688, KH0689, KH0690, KH0691"
+KH0684,,,MM010,MM010,alias,no,,Museum der Kulturen,IVc.366.03,,"sin fila en khipu.db | sin carpeta de datos | inventario compartido con KH0682, KH0683, KH0685, KH0686, KH0687, KH0688, KH0689, KH0690, KH0691"
+KH0685,,,MM011,MM011,alias,no,,Museum der Kulturen,IVc.366.03,,"sin fila en khipu.db | sin carpeta de datos | inventario compartido con KH0682, KH0683, KH0684, KH0686, KH0687, KH0688, KH0689, KH0690, KH0691"
+KH0686,,,MM012,MM012,alias,no,,Museum der Kulturen,IVc.366.03,,"sin fila en khipu.db | sin carpeta de datos | inventario compartido con KH0682, KH0683, KH0684, KH0685, KH0687, KH0688, KH0689, KH0690, KH0691"
+KH0687,,,MM013,MM013,alias,no,,Museum der Kulturen,IVc.366.03,,"sin fila en khipu.db | sin carpeta de datos | inventario compartido con KH0682, KH0683, KH0684, KH0685, KH0686, KH0688, KH0689, KH0690, KH0691"
+KH0688,,,MM014,MM014,alias,no,,Museum der Kulturen,IVc.366.03,,"sin fila en khipu.db | sin carpeta de datos | inventario compartido con KH0682, KH0683, KH0684, KH0685, KH0686, KH0687, KH0689, KH0690, KH0691"
+KH0689,,,MM015,MM015,alias,no,,Museum der Kulturen,IVc.366.03,,"sin fila en khipu.db | sin carpeta de datos | inventario compartido con KH0682, KH0683, KH0684, KH0685, KH0686, KH0687, KH0688, KH0690, KH0691"
+KH0690,,,MM016,MM016,alias,no,,Museum der Kulturen,IVc.366.03,,"sin fila en khipu.db | sin carpeta de datos | inventario compartido con KH0682, KH0683, KH0684, KH0685, KH0686, KH0687, KH0688, KH0689, KH0691"
+KH0691,,,MM017,MM017,alias,no,,Museum der Kulturen,IVc.366.03,,"sin fila en khipu.db | sin carpeta de datos | inventario compartido con KH0682, KH0683, KH0684, KH0685, KH0686, KH0687, KH0688, KH0689, KH0690"
+KH0692,,,MM019,MM019,alias,no,,Linden Museum,M32902,,sin fila en khipu.db | sin carpeta de datos
+KH0693,,,MM020,MM020,alias,no,,Linden Museum,69195,,sin fila en khipu.db | sin carpeta de datos
+KH0694,,,MM021,MM021,alias,no,,Weltkulturenmuseum,NS 35318,,sin fila en khipu.db | sin carpeta de datos
+KH0695,,,MM022,,,no,,McGill University Library,002.49b,,sin fila en khipu.db | sin carpeta de datos
+KH0696,,,AK001,,,no,,Maiman Collection (Deaccessioned),52290,,sin fila en khipu.db | sin carpeta de datos
+KH0697,,,AK002,,,no,,Maiman Collection (Deaccessioned),9--26/52290,,sin fila en khipu.db | sin carpeta de datos
+KH0698,,,AK003,,,no,,Maiman Collection (Deaccessioned),MC935,,sin fila en khipu.db | sin carpeta de datos
+KH0699,,,KT001,,,no,,College of Southern Idaho,P.85.6,,sin fila en khipu.db | sin carpeta de datos
+KH0700,,,SB001,,,no,,Stanford University Archaeology Collections,80.1012 aka 2708,,sin fila en khipu.db | sin carpeta de datos | mismo n_inventario en otro museo: KH0676
+KH0701,,,AB001,,,no,,"Art, Design and Architecture Museum, UC Santa Barbara",1966.79,,sin fila en khipu.db | sin carpeta de datos
+KH0702,,,,,,no,,Museo Amano,R4303,KH0702,sin fila en khipu.db

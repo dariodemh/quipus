@@ -1,0 +1,25 @@
+Perfil UR278 (cuota por columna): [0.1348 0.1398 0.0968 0.1073 0.1164 0.1294 0.107  0.0798 0.0888]
+  CV entre columnas: 0.1765; max/min: 1.752
+
+Perfiles:
+                      perfil     media       cv   max_min                                   nota
+tasa por pachaca (9 iguales)  1.000000 0.000000  1.000000 la Visita: misma lista en cada pachaca
+        productos (9 rubros)  8.222222 1.018815 26.000000                   5,26,2,3,4,20,10,3,1
+                productos x9 74.000000 1.018815 26.000000            45,234,18,27,36,180,90,27,9
+          supervivencia 1571 22.222222 1.870829       inf                   2 vivas / 7 extintas
+             chacras de maiz  1.000000 1.414214       inf                  3 chacras x 3 fanegas
+            UR278 (columnas)  0.111111 0.176500  1.752335                        firma observada
+
+productos: r con el orden documentado = 0.712; p (permutar columnas) = 0.0147
+
+supervivencia: r con el orden documentado = 0.713; p (permutar columnas) = 0.0146
+
+chacras: r con el orden documentado = 0.457; p (permutar columnas) = 0.1098
+
+Mejor asignacion post hoc de los 9 productos a las columnas: r = 0.867 (vector [20, 26, 3, 4, 5, 10, 3, 1, 2])
+  (el null de 200000 permutaciones da una idea de lo facil que es encontrar r alto)
+
+Bloque de curacas 2+1+2+2+2 (Mongoy 2, Cancay 1, Chuquitanga 2, Chumbillan 2, Antachumbi 2):
+  r intra-par = 0.007; rank 223/945; p = 0.2360
+  igualdades exactas = 11; rank 1/945; p = 0.0011; nulo dentro de fila p = 0.0004
+  media esperada dentro de fila = 4.00

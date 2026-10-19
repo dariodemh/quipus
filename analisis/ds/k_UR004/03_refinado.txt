@@ -1,0 +1,89 @@
+=== SUMA POR GRUPO ===
+g 0 n=18 suma=  364.0
+g 1 n= 1 suma=    0.0
+g 2 n=29 suma=  482.0
+g 3 n= 1 suma=   90.0
+g 4 n=30 suma=  410.0
+g 5 n= 1 suma=  190.0
+g 6 n= 1 suma=    1.0
+g 7 n= 8 suma=  474.0
+g 8 n= 1 suma=    0.0
+g 9 n= 9 suma=   67.0
+g10 n= 2 suma=   28.0
+g11 n=22 suma=  356.0
+g12 n= 1 suma=   17.0
+g13 n= 9 suma=  407.0
+g14 n= 1 suma=    0.0
+g15 n=15 suma= 2032.0
+g16 n= 1 suma=    0.0
+g17 n=12 suma=  111.0
+g18 n= 1 suma=    0.0
+g19 n= 1 suma=    0.0
+g20 n=23 suma=   67.0
+g21 n= 1 suma=    1.0
+g22 n= 9 suma=   67.0
+g23 n= 2 suma=   20.0
+g24 n=20 suma=  344.0
+g25 n= 1 suma=    8.0
+g26 n= 1 suma=    1.0
+g27 n= 2 suma=   91.0
+g28 n= 8 suma=  117.0
+g29 n= 1 suma=   12.0
+g30 n= 7 suma=   61.0
+g31 n= 1 suma=    7.0
+g32 n=23 suma=  775.0
+g33 n= 1 suma=    3.0
+g34 n=15 suma=   48.0
+g35 n= 1 suma=    2.0
+g36 n=22 suma=   46.0
+g37 n= 1 suma=    3.0
+g38 n=10 suma=   12.0
+g39 n= 1 suma=    0.0
+g40 n= 8 suma=   45.0
+g41 n= 1 suma=   17.0
+g42 n= 7 suma=  197.0
+g43 n= 1 suma=   10.0
+g44 n=13 suma=  686.0
+g45 n= 1 suma=   71.0
+g46 n= 6 suma=  364.0
+g47 n= 1 suma=  682.0
+g48 n= 8 suma=  386.0
+g49 n= 1 suma=   17.0
+g50 n= 5 suma=  101.0
+g51 n= 1 suma=    0.0
+g52 n= 9 suma=   27.0
+g53 n= 1 suma=    0.0
+g54 n= 5 suma=    3.0
+g55 n= 1 suma=    2.0
+g56 n= 4 suma=    6.0
+g57 n=13 suma=    4.0
+g58 n= 2 suma=    1.0
+g59 n= 5 suma=    4.0
+g60 n= 7 suma=    4.0
+g61 n= 1 suma=    1.0
+g62 n=12 suma=  130.0
+g63 n= 8 suma=   18.0
+g64 n= 6 suma=   21.0
+g65 n= 3 suma=    4.0
+g66 n= 4 suma=   23.0
+g67 n= 5 suma=   32.0
+g68 n= 5 suma=   15.0
+g69 n= 5 suma=    7.0
+g70 n= 5 suma=    6.0
+g71 n= 5 suma=    8.0
+g72 n= 9 suma=   31.0
+=== A: sumas de grupo repetidas ===
+valores de suma con >1 grupo: {np.float64(364.0): 2, np.float64(1.0): 5, np.float64(67.0): 3, np.float64(17.0): 3, np.float64(8.0): 2, np.float64(12.0): 2, np.float64(7.0): 2, np.float64(3.0): 3, np.float64(2.0): 2, np.float64(6.0): 2, np.float64(4.0): 4}
+obs pares-duplicados 19 | nulo media 13.28 | p=0.012
+=== B: grupo de 1 cuerda adyacente = suma del grupo vecino multi ===
+obs 0 | nulo media 0.10 | p=1.000
+=== C: tramo maximo de color igual ===
+obs 22 | nulo media 11.48 | p=0.006
+=== D: subsidiaria mismo color que madre ===
+67/91 = 0.74
+=== E: digitos de los valores con nudo ===
+unidades  : {0: 20, 1: 133, 2: 66, 3: 47, 4: 32, 5: 34, 6: 24, 7: 31, 8: 14, 9: 23}
+decenas   : {0: 265, 1: 60, 2: 30, 3: 22, 4: 13, 5: 6, 6: 6, 7: 6, 8: 8, 9: 8}
+centenas  : {0: 402, 1: 15, 2: 3, 3: 2, 6: 1, 8: 1}
+=== F: valores mas frecuentes entre las 424 con nudo ===
+{1.0: 114, 2.0: 45, 3.0: 32, 4.0: 19, 5.0: 16, 7.0: 11, 8.0: 10, 9.0: 9, 17.0: 9, 6.0: 8, 11.0: 8, 13.0: 7}

@@ -1,0 +1,3 @@
+fin t_okr_vs_kfg ok intento=1 01:26:04
+fin t_alt ok intento=1 01:28:43
+TODAS_TERMINADAS

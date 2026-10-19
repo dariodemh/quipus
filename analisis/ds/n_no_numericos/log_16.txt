@@ -1,0 +1,21 @@
+clase 61 limpia 56
+  kfg subtipo  tasa_valor  disc_valor  n_valor
+AS014 dup+inv    0.000000         0.0     75.0
+AS081      NU    0.000000         0.0      8.0
+HP054 seq+dup    0.166667         3.0     18.0
+UR144 seq+dup    0.583333        56.0     96.0
+UR193 dup+inv    1.000000        18.0     18.0
+
+subtipos clase limpia:
+subtipo
+seq+dup       32
+dup            8
+dup+inv        5
+NC             4
+inv            3
+NU             2
+seq+dup+NC     1
+dup+NC         1
+
+lista limpia:
+AS026B, AS062, AS075, AS076, AS077, AS174, AS186, AS207B, AS207C, AS211, HP019, HP020, HP032, HP051_A, HP053, JC006, JC012, KH0001, KH0032, MM019, MM020, UR003, UR007, UR037, UR039, UR050, UR051, UR052, UR054, UR055, UR058A, UR096, UR106, UR1087, UR1091, UR1095, UR110, UR1109, UR112, UR120, UR139, UR171, UR177, UR178, UR179, UR180, UR196, UR203, UR215, UR223, UR234, UR241, UR272, UR282, UR284, UR289

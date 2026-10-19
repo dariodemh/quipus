@@ -1,0 +1,17 @@
+A) UR278 filas monocromas: 23/28; nulo 0.01/28; p=0.0002
+   colores por fila: {1: 23, 2: 5}
+   color modal por fila: {'AB': 12, 'W': 10, 'NB': 5, 'MB': 1}
+
+B) UR270 pares con colores distintos: 62; el colgante (P) es W en 61/62 (98%); binomial p=1.37e-17
+   P W: 61 S W: 0
+
+C) MI(columna, color) en UR278 = 0.015 bits; nulo 0.020; p=0.77
+   (si el color marcara la columna, la MI observada superaria al nulo)
+
+D) copia UR255-UR267A: color identico 4/28; nulo 4.82; p=1.000
+   UR255: {'AB': 84, 'AB:MB': 2, 'MB': 1} | UR267A: {'W': 51, 'AB': 22, 'AB:MB': 12}
+   union identica 0/28 (UR255 R vs UR267A V)
+   torsion identica 28/28
+
+E) UR278 color de fila: AB mediana 2229 vs W 1816, p(tamano)=0.036
+   proporciones c1..c9: p minimo=0.066 (ninguna significativa tras BH)

@@ -1,0 +1,24 @@
+(1) orden en hits S1 exactos con partes distintas: c (parte menor) en pos 2 vs pos 3
+UR255 pos2<pos3 (c segunda): 2 | c tercera: 8
+UR256 pos2<pos3 (c segunda): 0 | c tercera: 7
+UR267A pos2<pos3 (c segunda): 14 | c tercera: 1
+UR267B pos2<pos3 (c segunda): 12 | c tercera: 1
+UR269 pos2<pos3 (c segunda): 1 | c tercera: 14
+UR275 pos2<pos3 (c segunda): 7 | c tercera: 0
+
+(2) quipus con union uniforme (>=85% R o V) entre 651 quipus (>=10 cuerdas L0 con R/V): 270 ; R=0.53 V=0.47 ; P(dos al azar difieren)=0.50
+        a       b ua   fa ub    fb  opuestas  uniformes
+0   AS125   UR247  ?  0.0  R  1.00     False      False
+1  KH0049   UR122  V  1.0  V  1.00     False       True
+2  UR1118   UR218  ?  0.0  R  1.00     False      False
+3  UR1104   UR234  V  1.0  V  1.00     False       True
+4   UR256  UR267B  V  1.0  R  1.00      True       True
+5   UR255  UR267A  R  1.0  V  1.00      True       True
+6   UR266   UR275  V  1.0  R  0.90      True       True
+7   HP055  UR1084  R  1.0  V  0.81     False      False
+
+(3) x = c + subconjunto (<=3 cuerdas) del resto del registro
+             par  registros_con_mismo_x  resueltos_solo_A  resueltos_solo_B  resueltos_A_union_B  nulo_union_media  nulo_union_max  p_union
+0  UR255-UR267A                     22                 0                 0                    0              0.04               1     1.00
+1  UR256-UR267B                     20                 1                 0                    2              1.56               4     0.46
+2   UR266-UR275                     25                 0                 2                    2              0.20               2     0.02

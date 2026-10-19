@@ -1,0 +1,16 @@
+prueba,p,familia,p_holm_global
+k-mer valor k=3 (tipos) [todos],0.002,sec-val,0.03
+k-mer valor k=3 (pares) [todos],0.002,sec-val,0.03
+k-mer valor k=4 (tipos) [todos],0.002,sec-val,0.03
+k-mer valor k=4 (pares) [todos],0.028,sec-val,0.196
+k-mer valor k=5 (tipos) [todos],0.002,sec-val,0.03
+k-mer valor k=3 (tipos) [sin dup],0.002,sec-val,0.03
+k-mer valor k=4 (tipos) [sin dup],0.136,sec-val,0.8160000000000001
+k-mer valor k=5 (tipos) [sin dup],1.0,sec-val,1.0
+total(A)=bloque contiguo en B,0.373,otros,1.0
+total(A)=valor en B (nulo cross-quipu),1.0,otros,1.0
+estructuras de grupo identicas,1.0,otros,1.0
+k-mer color k=4 (pares) [todos],0.002,color,0.03
+k-mer color k=4 (pares) [sin dup],0.002,color,0.03
+k-mer color k=3 (tipos) [todos],1.0,color,1.0
+direccion de nudo Z>S (sign test),0.00686,direccion,0.05488

@@ -1,0 +1,4 @@
+prueba,n_celdas_misma_decada,dif_obs,disc_P,disc_S1,p_mcnemar
+redondez10,170,0.0,21,21,1.0
+redondez50,170,0.011764705882352948,7,5,0.7744140625
+redondez100,170,0.029411764705882353,6,1,0.125

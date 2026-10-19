@@ -1,0 +1,31 @@
+== Benford por quipu (n>=50)
+testables 240 p<.05 160 q<.05 (rechaza Benford) 148 MAD mediano 0.0422
+conforme (MAD<.015 Nigrini): 4  MAD>=.015: 236
+== primer dígito pooled por magnitud (n dígitos), IC95% bootstrap de quipus; Benford = [0.301 0.176 0.125 0.097 0.079 0.067 0.058 0.051 0.046]
+1 dig: [0.314 0.194 0.124 0.111 0.08  0.06  0.045 0.041 0.03 ]  MAD vs Benford: 0.0101
+2 dig: [0.419 0.199 0.119 0.082 0.061 0.046 0.032 0.024 0.017]  MAD vs Benford: 0.0312
+3 dig: [0.439 0.208 0.112 0.076 0.057 0.041 0.026 0.026 0.015]  MAD vs Benford: 0.0377
+4 dig: [0.535 0.221 0.087 0.051 0.027 0.025 0.013 0.025 0.017]  MAD vs Benford: 0.062
+== Redondeo (unidades, valores >=20, n>=40)
+quipus 118 mediana r0 2.65 mediana r5 1.09
+digito 0 en exceso: p<.05 84 q<.05 79 esperados por azar 5.9
+digito 5 en exceso: p<.05 14 q<.05 8
+IC95 mediana r0 (quipus): [2.   3.28]
+mult. de 100 en >=1000: quipus 22 obs 98 esperado indep. 55.1 razon 1.78  p<.05 4 q<.05 2
+== Repetición (lognormal discretizada) n>=20
+quipus 434 p<.05 238 q<.05 179 esperados 21.7
+Simpson obs vs E mediano: 0.089 0.063
+mediana
+(0.0, 5.0]              43
+(5.0, 10.0]             29
+(10.0, 20.0]            30
+(20.0, 50.0]            37
+(50.0, 1000000000.0]    40
+dtype: int64
+valor mas repetido (quipus con q<.05): {1.0: 41, 10.0: 41, 20.0: 13, 4.0: 11, 2.0: 11, 100.0: 8, 3.0: 5, 15.0: 4}
+distribución de la mediana de valores: {'count': 640.0, 'mean': 136.5, 'std': 658.3, 'min': 1.0, '25%': 4.0, '50%': 10.0, '75%': 33.0, 'max': 11400.0}
+quipus con mediana<=9: 301  frac_le9>0.5: 295
+nulo dígitos por posición: quipus 434 p<.05 118 q<.05 71 esperados 21.7
+Simpson mediano obs / E(lognormal) / E(dígitos): 0.089 0.063 0.085
+quipus con q<.05 en ambos nulos: 48
+u0 (frac. unidades=0 en valores>=20) cuantiles: {0.1: 0.08, 0.25: 0.15, 0.5: 0.25, 0.75: 0.4, 0.9: 0.7}  u0>0.5: 22 de 118

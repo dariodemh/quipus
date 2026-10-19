@@ -1,0 +1,28 @@
+# Lydia Fossa (2013). Los khipu sagrados
+- **Referencia:** Revista Histórica (Lima), tomo XLVI (2013), pp. 185–214; sin DOI
+- **Tipo / acceso:** artículo / ensayo de discusión bibliográfica (reseña crítica de Brokaw 2010); texto completo
+- **Pregunta u objetivo:** Discutir la afirmación de Galen Brokaw (*A History of the Khipu*, 2010) de que solo se destruyeron los khipu "idolatrticos/perniciosos" y que los khipu seculares sobrevivieron. Fossa postula, en cambio, que **todos** los khipu eran directa o indirectamente religiosos y que la orden del Tercer Concilio Limense (1583) los afectó a casi todos.
+- **Corpus y datos:** No analiza khipus físicos. Trabaja con **fuentes coloniales escritas**: Polo de Ondegardo (1561), José de Acosta (*Historia natural y moral de las Indias*, 1590), Cristóbal de Albornoz (*Instrucción*, ca. 1581–1585), Cristóbal de Molina (*Relación de las fábulas y ritos de los Incas*, ca. 1573) y las actas del Tercer Concilio Limense ([1584] 1982/1984). Cita el dato demográfico de Cook (2010: 116): la población nativa había disminuido **58,5%** para 1606.
+- **Métodos:** Lectura crítica e interpretación de crónicas y documentos conciliares, con glosas etimológicas (p. ej. *tarpuntaq* de *tarpuy* "sembrar", *quipocamayo*) y comentario del vocabulario religioso. Sin análisis de artefactos, sin cuantificación, sin controles.
+- **Hallazgos principales:** Sostiene que la institución religiosa es la más antigua de los Andes y que el **culto era el gran organizador** de la sociedad, la economía y la producción. De ahí:
+  - el khipu se desarrolló en función de las necesidades del culto (calendáricas, astronómicas, agrarias, sacrificiales, domésticas) que exigían registros precisos y actualizaciones periódicas;
+  - los khipu registraban el calendario ritual, la información astronómica (solsticios, equinoccios, Vía Láctea), el sistema de wakas/ceques, las leyes y castigos ligados al ritual, la demografía animal (hatos *capacllama* para sacrificios), y la distribución de toda la producción y las ofrendas;
+  - el tributo/ofrenda era en realidad producción destinada al ceremonial; "no había khipu que no estuviera relacionado con algún aspecto del culto";
+  - propone que **lo que se memorizaba era el código, no el contenido** del khipu (significado de cada color, posición, valor de nudo, secuencia), transmitido de generación en generación "como cosa sagrada";
+  - tras el Tercer Concilio solo se conservaron los khipu de mita (tasas) y de confesión, reformulados al servicio de la administración española.
+- **Afirmaciones sobre el significado o desciframiento y nivel de evidencia:**
+  - **Propuesto / especulativo:** la tesis central se presenta explícitamente como hipótesis de trabajo ("postulo, a manera de hipótesis de trabajo, que el desarrollo del khipu se da en función a las necesidades del culto"). La afirmación de que "la gran mayoría de khipu prehispánicos registraba aspectos rituales" es una conjetura interpretativa.
+  - **Apoyado en fuentes (documental, no artefactual):** las citas de Acosta, Molina, Ondegardo y Albornoz sobre el uso religioso, calendárico y administrativo del khipu, y sobre la distinción tributo/ofrenda.
+  - Nivel de evidencia: no hay prueba empírica ni verificación sobre khipus reales; es un argumento historiográfico-discursivo.
+- **Limitaciones y críticas:**
+  - Autor (implícito): la conclusión depende de redefinir la "religión" de forma tan amplia que abarca toda la actividad social ("lo sagrado en sentido ampliado"), lo que hace la tesis difícil de falsar.
+  - Mías: **no hay datos primarios ni khipus analizados**; la generalización "todos los khipu eran religiosos" no es contrastable con el corpus arqueológico; se apoya en crónicas que son posteriores a la conquista y con agendas propias (los cronistas describen lo que quieren erradicar); el salto de "Acosta dice que el khipu servía al culto" a "todo khipu era religioso" es un argumento por autoridad e interpretación, sin control; no aborda los khipu numéricos/administrativos de colecciones como KDB ni su contenido real.
+- **Relación con otros trabajos:** Es una **réplica/discusión directa de Brokaw (2010)** (a quien cita y con quien discrepa, aunque coincide en la disminución demográfica); usa el corpus de crónicas editado por Urbano y Duviols; se apoya en Cerrón Palomino (2013) para la confluencia cultural, en Merluzzi (2003) y Cook (2010). Se inscribe en la discusión sobre si el khipu era contable o mnemotécnico/sagrado.
+- **Relevancia para este proyecto:**
+  - Marco interpretativo: advierte que una parte sustancial del corpus puede ser de contenido ritual/calendárico, lo que afecta cualquier supuesto de "registro contable" al interpretar datos.
+  - Idea metodológica útil: la distinción **código vs contenido** (se memoriza el sistema, no la información) es relevante para no confundir convención de codificación con referencia semántica.
+  - Ante la falta de datos primarios, esta ficha sirve sobre todo como fuente de hipótesis a contrastar con corpus físicos (p. ej. ¿cuántos khipu muestran patrones calendáricos como UR6?), no como evidencia empírica.
+- **Citas clave:**
+  - "postulo que todos [los khipu] eran directa o indirectamente, religiosos, pues eran sobre los que giraba la vida nativa" (p. 186).
+  - "se ha asociado la memorización al contenido del registro del khipu, pero postulo que lo que se memorizaba era el código y no el contenido" (p. 201).
+  - "la gran mayoría de khipu prehispánicos registraba aspectos rituales de manera directa o indirecta" (p. 213).

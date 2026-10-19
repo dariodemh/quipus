@@ -1,0 +1,5 @@
+kfg,prueba,estadistico,p,N,detalle,seg,control
+UR1107,I1_copia,12.994645824103081,0.525,199,companero=UR1140;posiciones_F_cubiertas=5,26.1,I2 UR1107~UR237
+UR1107,I2_invertida,42.68523944642173,0.0005,1999,companero=UR237;posiciones_F_cubiertas=15,26.1,I2 UR1107~UR237
+UR1084,I1_copia,378.25554852173866,0.0005,1999,companero=HP055;posiciones_F_cubiertas=125,112.7,I1 UR1084~HP055
+UR278,I8_total_grupo_F_en_sitio,12.0,1e-05,99999,companeros=UR266,15.1,I8 UR278->Incahuasi

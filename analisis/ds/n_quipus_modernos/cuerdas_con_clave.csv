@@ -1,0 +1,12 @@
+﻿fuente,lugar,siglo,quipu,cuerda,nivel,valor,torsion_ply,color_fibra,posicion,significado,cita
+Uhle 1897; Hyland 2014,"Cutusuma, Bolivia",XIX,Cutusuma 36392,A1,0 (lado izquierdo del asa),387,"S (dos cordones separados, S)","lana de oveja, blanco/monocromo",izquierda del asa,ovejas hembras adultas ('ovejas'),Hyland 2014: 644-645
+Uhle 1897; Hyland 2014,"Cutusuma, Bolivia",XIX,Cutusuma 36392,A2,0 (lado derecho del asa),285,Z (dos cordones unidos con torsion final Z),lana de oveja,"derecha del asa, en medio entre hembras y corderos",machos ovinos castrados ('machos capados'),Hyland 2014: 645
+Uhle 1897; Hyland 2014,"Cutusuma, Bolivia",XIX,Cutusuma 36392,B1,1 (atada con hilo marron a A2),121,S,lana de oveja,colgando de la cuerda de machos,"corderos destetados, corral 1",Hyland 2014: 646
+Uhle 1897; Hyland 2014,"Cutusuma, Bolivia",XIX,Cutusuma 36392,B2,1 (atada con hilo marron a A2),99,S,lana de oveja,colgando de la cuerda de machos,"corderos destetados, corral 2",Hyland 2014: 646
+Uhle 1897; Hyland 2014,"Cutusuma, Bolivia",XIX,Cutusuma 36392,C1,1 (atada con hilo blanco al asa),85,S,lana de oveja,grupo de vacas lecheras,vacas ordeñadas a diario,Hyland 2014: 646-647
+Uhle 1897; Hyland 2014,"Cutusuma, Bolivia",XIX,Cutusuma 36392,C2,1 (atada con hilo blanco al asa),60,Z,lana de oveja,grupo de vacas lecheras,vacas secas (no ordeñadas),Hyland 2014: 646-647
+Uhle 1897; Hyland 2014,"Cutusuma, Bolivia",XIX,Cutusuma 36392,C3,1 (atada con hilo blanco al asa),170,Z,lana de oveja,grupo de vacas lecheras,vacas no ordeñadas todos los dias,Hyland 2014: 646-647
+Soto Flores 1950-51; Hyland 2020,"Laramarca, Peru",XX,Laramarca (tipo A),p_negro,0,,,negro,colgante,ovejas machos,"Hyland 2020: 137-158, comentario a Soto Flores"
+Soto Flores 1950-51; Hyland 2020,"Laramarca, Peru",XX,Laramarca (tipo A),p_negro_s1,1,,,negro,subsidiaria del colgante negro,corderos machos,Hyland 2020
+Soto Flores 1950-51; Hyland 2020,"Laramarca, Peru",XX,Laramarca (tipo A),p_blanco,0,,,blanco,colgante,ovejas hembras,Hyland 2020
+Soto Flores 1950-51; Hyland 2020,"Laramarca, Peru",XX,Laramarca (tipo A),p_blanco_s1,1,,,blanco,subsidiaria del colgante blanco,corderas hembras,Hyland 2020

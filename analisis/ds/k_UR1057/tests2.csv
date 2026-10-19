@@ -1,0 +1,8 @@
+test,obs,p,nota
+E4 suma sg1-4 = suma sg5 (no trivial),6,0.984015984015984,nulo intra-grupo
+F filas de grupo duplicadas,2,0.004995004995004995,"nulo intra-(sg,pos)"
+G autocorr max |rho| lags1-20 (nulo intra-grupo),0.585,0.000999000999000999,nulo intra-grupo
+H tendencia suma~indice (solo P2),-0.076,0.7682317682317682,nulo permuta
+I peso (n>0) por grupo P2,4.5 +- 1.6,,"dist={np.int64(0): 1, np.int64(2): 1, np.int64(3): 1, np.int64(4): 5, np.int64(5): 4, np.int64(6): 4, np.int64(7): 1}"
+K numeros calendario (total/P1/P2),866/776/90,,"365,584,354,260,145 ausentes"
+"L top cords T1,T2 vs sumas de grupo","T1=5,T2=20",,"g19=5, g20=10, g23=5, g24=9"

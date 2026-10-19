@@ -1,0 +1,7 @@
+regimen,n_blanco,rango,chance,nota
+Incahuasi (observado),89.0,100-4273,0.444,8/18 exactas
+Incahuasi (nulo de emparejamiento),89.0,100-4273,0.053,barajar B
+"quipus reales, valores <=300",,5-2000,0.059,n=131 quipus
+"redondo: 20 valores, multiplos de 10 (1-1000)",20.0,10-1000,0.19,"simulacion, 20 blancos"
+"sexagesimal: 20 valores, multiplos de 60 (60-3600)",20.0,60-3600,0.346,"simulacion, 20 blancos"
+enteros: 20 valores (1-1000),20.0,1-1000,0.01,"simulacion, 20 blancos"

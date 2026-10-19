@@ -1,0 +1,10 @@
+kfg,estructura,nivel,sitio,museo,texto
+UR040,T2_periodo_color,demostrado,Nazca,"peabody museum, harvard university","colores alternos W/AB en 26 de 33 posiciones; media W=1.0, AB=1.9; pares vecinos con algun valor: 12, AB>W en 3"
+UR167,T2_periodo_color,demostrado,Ica or Cajamarquilla,"american museum of natural history, ny","colores alternos AB/MB en 30 de 37 posiciones; media AB=4.9, MB=0.4; pares vecinos con algun valor: 28, MB>AB en 4"
+UR1033F,T2_periodo_color,apoyado,Unknown,"peabody museum, harvard university","colores alternos W/AB en 17 de 21 posiciones; media W=8.0, AB=9.9; pares vecinos con algun valor: 17, AB>W en 14"
+UR122,T6_suma_salteada,propuesto,Nazca,"museum of worldculture, goteborg, sweden",p2=457+951+875; p9=447+855+972; p72=790+0+210
+UR016,T5_subsidiaria,propuesto,Leymebamba,"centro mallqui, leymebamba, amazonas","140 pares; subsidiaria < colgante en 90%; razon mediana 0.200; spearman;obs=[12.0, 13.0, 0.382]"
+UR1107,T4_tendencia,propuesto,Marquez,BERLIN,"grupos >=4: [34, 6, 101, 105, 215, 210] | [207, 131, 100, 30, 65, 18, 10, 10, 10]"
+QU017,I3_diferencia,propuesto,Unknown,dallas museum of art,"mejores companeros: UR016 36.8, AS093 29.1, QU002 28.2, UR056A 27.5"
+UR1118,I1_copia,propuesto,Pachacamac,BERLIN,"mejores companeros: UR218 16.8, UR288 0.0, UR287 0.0, UR285 0.0"
+JC011,T4_tendencia,propuesto,Incahuasi,INCAHUASI,"grupos >=4: [5, 13, 2, 1, 10, 7, 4, 4, 13, 23] | [1, 4, 1, 2, 6, 4, 2, 3, 2, 20, 1] | [1, 1, 1, 1, 2, 2, 8, 10, 1, 1, 2, 2, 2, 4, 2, 4, 4, 3, 20, 10, 15] | [1, 1, 1, 3, 5, 10, 1, 1, 1, 3, 2, 2, 3, 1, 3, 5, 2, 2, 10, 8, 2, 19]"

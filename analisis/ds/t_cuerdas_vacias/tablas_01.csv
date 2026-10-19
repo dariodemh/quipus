@@ -1,0 +1,51 @@
+﻿seccion,clave,valor
+global,cuerdas,57818
+global,quipus,651
+global,sin_nudos,17656
+global,pct_sin_nudos,30.54
+global,rotas_cortadas,5180
+global,completas_sin_nudos,12042
+global,terminacion_desconocida,434
+terminacion,B broken (rota),n=9353; sin=5174; pct_sin=55.3; pct_del_total=29.3
+terminacion,C cut (cortada),n=7; sin=6; pct_sin=85.7; pct_del_total=0.0
+terminacion,D doubled (doblada),n=55; sin=7; pct_sin=12.7; pct_del_total=0.0
+terminacion,"K knotted (completa, nudo terminal)",n=37378; sin=9422; pct_sin=25.2; pct_del_total=53.4
+terminacion,R ravelled (deshilachada),n=2206; sin=512; pct_sin=23.2; pct_del_total=2.9
+terminacion,U unfinished (sin nudo terminal),n=8132; sin=2101; pct_sin=25.8; pct_del_total=11.9
+terminacion,código 0,n=54; sin=29; pct_sin=53.7; pct_del_total=0.2
+terminacion,sin dato,n=633; sin=405; pct_sin=64.0; pct_del_total=2.3
+nivel,0,n=41714; sin=13192; pct_sin=31.6
+nivel,1,n=14043; sin=3983; pct_sin=28.4
+nivel,2,n=1664; sin=361; pct_sin=21.7
+nivel,3,n=296; sin=66; pct_sin=22.3
+nivel,4,n=40; sin=7; pct_sin=17.5
+nivel,5,n=15; sin=6; pct_sin=40.0
+nivel,6,n=1; sin=1; pct_sin=100.0
+nivel,7,n=8; sin=6; pct_sin=75.0
+nivel,8,n=1; sin=1; pct_sin=100.0
+nivel,9,n=9; sin=7; pct_sin=77.8
+nivel,10,n=1; sin=1; pct_sin=100.0
+nivel,11,n=8; sin=7; pct_sin=87.5
+nivel,12,n=1; sin=1; pct_sin=100.0
+nivel,13,n=8; sin=8; pct_sin=100.0
+nivel,14,n=1; sin=1; pct_sin=100.0
+nivel,15,n=8; sin=8; pct_sin=100.0
+quipu,con_al_menos_1_sin,544
+quipu,todos_sin,10
+quipu,p_sin_mediana,0.179
+quipu,p_sin_p25_p75,0.067-0.333
+quipu,p_sin_max,1.0
+quipu,spearman_p_vs_n,0.287
+quipu,top5_quipus_por_n_sin,"AS069, UR093, UR231, UR1057, UR006"
+largo,todas_sin,n=17616; media=25.5; mediana=27.5; p25=8.0; p75=39.0
+largo,rotas,n=5180; media=9.4; mediana=6.0; p25=1.5; p75=13.5
+largo,completas,n=12039; media=33.0; mediana=35.0; p25=25.5; p75=41.5
+largo,K,n=9422; media=35.3; mediana=36.5; p25=28.0; p75=42.0
+largo,U,n=2098; media=22.3; mediana=23.0; p25=7.0; p75=35.0
+largo,con_nudos,n=40161; media=33.3; mediana=32.5; p25=24.5; p75=40.5
+okr_cruce,quipus_emparejados,596
+okr_cruce,spearman_n_sin_kfg_vs_okr,0.991
+okr_cruce,pearson_n_sin_kfg_vs_okr,0.998
+okr_cruce,mediana_dif_abs_n,0.0
+okr_cruce,mediana_dif_rel,0.0
+okr_cruce,pct_quipus_dif_rel_menor_0.05,98.7

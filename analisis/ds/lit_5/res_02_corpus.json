@@ -1,0 +1,29 @@
+{
+  "okr": {
+    "khipus": 619,
+    "cuerdas": 54403,
+    "nudos": 110677,
+    "primary_cord": 633,
+    "colores": 56306,
+    "kh_asignados": 702,
+    "kh_sin_db": 83
+  },
+  "kfg": {
+    "khipus": 651,
+    "cuerdas": 57818,
+    "mediana_cuerdas": 43.0,
+    "khipus_sin_nudos": 10
+  },
+  "kcat_desc": {
+    "pct_val_pos": 69.35,
+    "pct_khipus_val": 98.31,
+    "L_S": 1.049,
+    "pct_pendant_sin_sub": 80.7
+  },
+  "zenil": {
+    "cuerdas_elegibles": 15853,
+    "khipus_elegibles": 534,
+    "enlaces": 15302,
+    "enlaces_con_nudos": 9021
+  }
+}

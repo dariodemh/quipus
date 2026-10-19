@@ -1,0 +1,78 @@
+{
+  "proc": {
+    "Unknown": {
+      "quipus": 235,
+      "con_profundo": 16,
+      "pct": 6.808510638297872
+    },
+    "Incahuasi": {
+      "quipus": 52,
+      "con_profundo": 12,
+      "pct": 23.076923076923077
+    },
+    "Pachacamac": {
+      "quipus": 90,
+      "con_profundo": 6,
+      "pct": 6.666666666666667
+    },
+    "Maranga, Huaca 1": {
+      "quipus": 1,
+      "con_profundo": 1,
+      "pct": 100.0
+    },
+    "Mollepampa": {
+      "quipus": 1,
+      "con_profundo": 1,
+      "pct": 100.0
+    },
+    "Aankoop": {
+      "quipus": 1,
+      "con_profundo": 1,
+      "pct": 100.0
+    },
+    "Chuquitanta": {
+      "quipus": 4,
+      "con_profundo": 1,
+      "pct": 25.0
+    },
+    "La Molina": {
+      "quipus": 1,
+      "con_profundo": 1,
+      "pct": 100.0
+    },
+    "Nazca": {
+      "quipus": 13,
+      "con_profundo": 1,
+      "pct": 7.6923076923076925
+    },
+    "Huacho": {
+      "quipus": 5,
+      "con_profundo": 1,
+      "pct": 20.0
+    },
+    "Donation from the collection Belli": {
+      "quipus": 1,
+      "con_profundo": 1,
+      "pct": 100.0
+    },
+    "Leymebamba": {
+      "quipus": 22,
+      "con_profundo": 1,
+      "pct": 4.545454545454546
+    }
+  },
+  "incahuasi": {
+    "a": 12,
+    "b": 40,
+    "c": 34,
+    "e": 565,
+    "OR": 4.985294117647059,
+    "p": 9.369160734214842e-05
+  },
+  "tamano": {
+    "med_prof": 171.5,
+    "med_resto": 39.0,
+    "p": 2.4883369911026877e-14
+  },
+  "hp038_color_match": 5
+}

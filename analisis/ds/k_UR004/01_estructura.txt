@@ -1,0 +1,69 @@
+=== UR004 METADATOS ===
+{'kfg': 'UR004', 'okr': 'KH0240', 'museo': 'Centro Mallqui, Leymebamba, Amazonas', 'procedencia': 'Leymebamba', 'region': 'Chachapoyas', 'pc_largo': 0.0, 'pc_color': 'MB', 'pc_estructura': 'P'}
+
+=== CUERDAS ===
+total 573 | nivel: {0: 482, 1: 87, 2: 4}
+union: {'V': 246, 'R': 213, 'U': 114}
+torsion: {'S': 540, 'U': 33}
+terminacion: {'K': 445, 'U': 121, 'B': 7}
+sin nudos 149 con nudos 424
+largo: min 0.0 max 63.0 mediana 31.0
+
+=== GRUPOS ===
+n grupos 73
+grupos de 1 cuerda: 28 | de >1: 45
+tamano grupo: min 1 max 30 mediana 5.0
+suma cuerdas en grupos: 482
+grupos de 1 cuerda por color: {'MB': 18, 'PK': 3, 'KB': 2, 'LK': 1, 'GG': 1, 'GG:MB': 1, 'AB:CB': 1, 'AB': 1}
+grupos de 1 cuerda por union: {'V': 12, 'R': 12, 'U': 4}
+
+cuerdas color PK: 31
+PK con valor!=0: 0
+
+=== SUBSIDIARIAS ===
+n subsidiarias 91 | por nivel {1: 87, 2: 4}
+madres con subsidiarias: 84 | max subs de una madre 6
+subs nivel2: ['p164s1s1', 'p164s2s1', 'p164s3s1', 'p164s4s1']
+
+=== COLORES (todos) ===
+{'MB': 346, 'KB': 47, 'GG': 32, 'GG:MB': 31, 'PK': 31, 'AB': 19, 'MB:KB': 15, 'LK': 9, 'AB:MB': 7, 'G': 7, 'AB:G': 7, 'AB:GG': 6, 'AB:KB': 6, 'MB:G': 4, 'W:GG': 1, 'W:AB': 1, 'GG-MB': 1, 'AB:CB': 1, 'RB': 1, 'GA': 1}
+
+=== VALORES (con nudos) ===
+n 424 min 1.0 max 2230.0 media 29.0 mediana 5.0
+cuantiles {0.25: 1.0, 0.5: 5.0, 0.75: 18.25, 0.9: 60.39999999999998, 0.99: 342.2299999999982}
+valores repetidos top: {1.0: 114, 2.0: 45, 3.0: 32, 4.0: 19, 5.0: 16, 7.0: 11, 8.0: 10, 9.0: 9, 17.0: 9, 6.0: 8, 11.0: 8, 13.0: 7, 10.0: 7, 14.0: 6, 12.0: 6}
+valor 0 sin nudos: 149
+
+=== DIRECCIONES DE NUDO (de cadena nudos) ===
+direcciones: {'Z': 524, 'S': 61, 'U': 1}
+nudos por cuerda: max 3
+
+=== union x nivel ===
+union    R   U    V
+nivel              
+0      206  31  245
+1        7  79    1
+2        0   4    0
+=== color x union ===
+union    R   U    V
+color              
+AB       9   2    8
+AB:CB    1   0    0
+AB:G     5   0    2
+AB:GG    2   1    3
+AB:KB    4   0    2
+AB:MB    6   0    1
+G        5   2    0
+GA       0   1    0
+GG      20   4    8
+GG-MB    1   0    0
+GG:MB   11   3   17
+KB      15   6   26
+LK       4   0    5
+MB     122  65  159
+MB:G     3   0    1
+MB:KB    4   1   10
+PK       1  29    1
+RB       0   0    1
+W:AB     0   0    1
+W:GG     0   0    1

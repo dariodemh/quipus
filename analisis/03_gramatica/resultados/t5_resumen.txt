@@ -1,0 +1,40 @@
+quipus puntuados: 298
+Spearman(textualidad, frac_rota) = 0.136 (p=0.019)
+Spearman(textualidad, frac_torU) = 0.036 (p=0.54)
+Spearman(textualidad, frac_unionU) = -0.076 (p=0.19)
+Spearman(textualidad, frac_dirU) = -0.038 (p=0.51)
+Spearman(textualidad, n) = 0.008 (p=0.89)
+P75 de cuerdas rotas en el corpus puntuado: 0.287
+              n        sitio  textualidad  frac_anom  lag1_no_periodico  auto_rep_color  tabular_efecto  sumas_por_cuerda  riqueza_patron  frac_rota  frac_dirU alerta_dano
+kfg                                                                                                                                                                        
+AS090_N2   56.0         None        0.351      0.724              0.559           1.000           0.006             0.000           0.250      0.054      1.000    dirU>50%
+UR050     164.0         None        0.277      0.994              0.587           1.000           0.000             0.073           0.024      0.482      0.000   rotas>P75
+UR268     131.0    Incahuasi        0.227      0.222              0.141           0.592           0.299             0.008           0.229      0.252      0.000            
+UR1087     89.0         None        0.225      0.500              0.499           1.189           0.061             0.315           0.236      0.011      0.042            
+UR203     113.0         None        0.216      0.787              0.569           1.699           0.036             0.903           0.407      0.000      0.041            
+AS028      49.0         None        0.198      0.200              0.617           1.559           0.054             0.306           0.245      0.082      1.000    dirU>50%
+UR153      51.0         None        0.196      0.054              0.764           1.163           0.074             0.157           0.176      0.902      0.000   rotas>P75
+UR240      67.0         None        0.196      0.132              0.586           1.187           0.046             0.507           0.269      0.403      0.007   rotas>P75
+HP051_A    32.0         None        0.192      0.370              0.567           1.507           0.143             0.000           0.250      0.000      0.000            
+UR038      39.0         None        0.189      0.065              0.070           0.000           0.052             0.077           0.231      0.231      0.013            
+AS014      42.0         None        0.189      0.987              0.458           1.173           0.150             0.119           0.571      0.000      1.000    dirU>50%
+UR1106     49.0         None        0.179      0.023              0.538           0.726           0.095             0.143           0.204      0.245      0.000            
+UR278     298.0    Incahuasi        0.179      0.226              0.523           2.460           0.048             0.295           0.074      0.215      0.000            
+UR015      65.0   Leymebamba        0.178      0.145              0.542           3.408           0.061             0.138           0.231      0.185      0.000            
+UR007      45.0   Leymebamba        0.172      0.158              0.153           0.738           0.072             0.000           0.156      0.022      0.000            
+UR005      49.0   Leymebamba        0.172      0.325              0.587           0.936           0.121             0.551           0.265      0.163      0.000            
+UR270     162.0    Incahuasi        0.171      0.178              0.489           1.019           0.240             0.265           0.142      0.136      0.002            
+UR255      89.0    Incahuasi        0.171      0.200              0.600           0.996           0.297             0.360           0.202      0.135      0.000            
+UR274A     93.0    Incahuasi        0.170      0.140              0.425           0.936           0.300             0.032           0.151      0.505      0.000   rotas>P75
+UR060     112.0  Huaquerones        0.170      0.012              0.645           1.126           0.034             0.054           0.054      0.188      0.000            
+correlaciones de Spearman entre componentes:
+          r_anom  r_seq  r_noband  r_notab  r_nosum  r_riq
+r_anom      1.00   0.10     -0.06     0.32    -0.04   0.28
+r_seq       0.10   1.00     -0.09     0.17    -0.13  -0.18
+r_noband   -0.06  -0.09      1.00    -0.43     0.10   0.12
+r_notab     0.32   0.17     -0.43     1.00    -0.06   0.08
+r_nosum    -0.04  -0.13      0.10    -0.06     1.00   0.29
+r_riq       0.28  -0.18      0.12     0.08     0.29   1.00
+canal silábico, cuerdas con >=2 largos/ocho: {'palabras': 2700, 'tokens': 6519, 'V': 50, 'MI_pos': np.float64(0.11602765122166314), 'MI_pos_nulo': np.float64(0.045942225138293505), 'exceso_rel': np.float64(0.02077780157669383), 'p': np.float64(0.0004997501249375312)}
+referencia quechua (palabras >=2 sílabas): {'palabras': 978, 'tokens': 3311, 'V': 257, 'MI_pos': np.float64(0.8012153702111613), 'MI_pos_nulo': np.float64(0.18930532370909317), 'exceso_rel': np.float64(0.09299849032466478), 'p': np.float64(0.0004997501249375312)}
+léxico: {'quipu_tipos/ocurr': 0.23814814814814814, 'quechua_tipos/ocurr': 0.5633946830265849, 'quipu_zipf': 0.9503728722137312, 'quechua_zipf': 0.5463449016868074, 'quipu_monotona_desc': 0.69, 'quipus_con_string': 258, 'quipu_monotona_desc_nulo': 0.5080370370370371}

@@ -1,0 +1,2 @@
+fin n_quipus_modernos ok intento=1 06:21:54
+TODAS_TERMINADAS

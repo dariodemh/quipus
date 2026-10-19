@@ -1,0 +1,25 @@
+familias:
+                            nA  kA  binomA   minqA  promovida    nB    kB  binomB  minqconf  binomB_holm  replica
+familia                                                                                                         
+T1_periodo_valor           78   3  0.7543  0.1294      False   NaN   NaN     NaN       NaN          NaN    False
+T2_periodo_color           68   6  0.1242  0.0061       True  73.0   8.0  0.0292    0.0016       0.1168     True
+T3_repeticion              84  12  0.0010  0.0430       True  86.0  16.0  0.0000    0.0016       0.0001     True
+T4_tendencia               77  14  0.0000  0.0074       True  77.0   9.0  0.0146    0.1273       0.0810    False
+T5_subsidiaria             33  10  0.0000  0.0061       True  48.0  13.0  0.0000    0.0016       0.0000     True
+T6_suma_salteada           73   1  0.9764  0.0061       True  77.0   2.0  0.9027    0.3402       1.0000    False
+T7_pares_suma              82   4  0.5912  0.0302       True  85.0   4.0  0.6197    0.2271       1.0000    False
+I1_copia                   88   9  0.0319  0.0077       True  89.0  13.0  0.0005    0.0175       0.0039     True
+I2_invertida               88  15  0.0000  0.0362       True  89.0  16.0  0.0000    0.0312       0.0001     True
+I3_diferencia              88  13  0.0004  0.0077       True  89.0  17.0  0.0000    0.0200       0.0000     True
+I4_razon                   88  11  0.0045  0.0362       True  89.0  13.0  0.0005    0.0154       0.0039     True
+I5_grupos_permutados       71   1  0.9738  0.0709       True  70.0   0.0  1.0000    0.6598       1.0000    False
+I6_suma_bloque_F_en_otro   89   8  0.0773  0.0848       True  89.0  10.0  0.0135    0.0096       0.0810     True
+I7_suma_bloque_otro_en_F   76   0  1.0000  0.9616      False   NaN   NaN     NaN       NaN          NaN    False
+I8_total_grupo_F_en_sitio  79   2  0.9103  0.2560      False   NaN   NaN     NaN       NaN          NaN    False
+I9_total_grupo_sitio_en_F  67   0  1.0000  0.5947      False   NaN   NaN     NaN       NaN          NaN    False
+
+niveles: {'ninguno': 2766, 'especulativo': 67, 'apoyado': 25, 'propuesto': 15, 'demostrado': 7}
+filas que sacan de la frontera por familia: {'T5_subsidiaria': 8, 'T3_repeticion': 4, 'T2_periodo_color': 4, 'I1_copia': 4, 'I2_invertida': 4, 'I4_razon': 4, 'I3_diferencia': 3, 'I6_suma_bloque_F_en_otro': 1}
+quipus que dejan la frontera: 22 | solo por relacion nueva (no 04): 21
+propuestos (quipus): 15
+suma de q en filas que sacan: 0.702

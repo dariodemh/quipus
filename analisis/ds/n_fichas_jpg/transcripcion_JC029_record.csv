@@ -1,0 +1,11 @@
+cuerda,nudos,valor,color,largo,notas
+1,"4S(1.5,Z),6L(9.5,Z)d?",46,YB,16.5,"subsidiaria (1: 2.2 cm); largo '16.5k'; LECTURA GUIADA POR EL VALOR: 6L se lee asi porque 40+6=46"
+1s1,"3S(3.0,Z)",30,YB,17.0,"posicion tapada por tinta, se lee '(●3.0,Z)'; un solo racimo: decenas inferidas del valor"
+2,"5S(3.5,Z)",50,YB,21.5,"subsidiaria (1: 2.0 cm); un solo racimo"
+2s1,"3S(2.5,Z)",30,YB,16.0,"largo '16.0k'"
+3,"4S(4.0,Z),1E(9.5,Z)",41,YB,23.0,"subsidiaria (1: 2.0 cm); nudo en ocho = 1"
+3s1,"2S(2.0,Z)",20,YB,17.5,"posicion casi tapada por tinta (¿20.0? imposible en 17.5 cm de largo: se lee 2.0)"
+4,"3S(4.0,Z),4L(9.5,Z)d?",34,YB,23.5,"subsidiaria (1: 2.0 cm); largo '23.5k'"
+4s1,"4S(2.5,Z)",40,YB,10.0,"largo '10.0k'"
+5,"",0,YB,34.0,"SIN NUDOS; etiqueta '5(+)' (¿cuerda con anadido?); largo '34.0r'"
+6,"",0,YB,7.5,"SIN NUDOS; largo '7.5k'"

@@ -1,0 +1,22 @@
+categorias (KFG tiene nudos x OKR valor>0):
+tiene_okr  False  True 
+tiene_kfg              
+False      15923    134
+True         152  35732
+
+total cuerdas KFG emparejadas: 51941
+KFG con nudos: 35884 | OKR con valor>0: 35866
+ambos con datos: 35732
+discrepancias de valor entre ambos: 655 tasa: 0.0183
+KFG nudos pero OKR 0: 152
+OKR nudos pero KFG vacio: 134
+ambos vacios: 15923
+
+prefijos:
+         quipus  cuerdas  con_nudos  disc
+prefijo                                  
+AS          133     7987       4779     9
+HP           56     2615       1806    56
+JC           23     1189        828     0
+KH           10     1881       1411    42
+UR          368    38269      27060   548

@@ -1,0 +1,22 @@
+causa
+mismo_n_racimos_otro    391
+KFG_mas_racimos         137
+factor10                128
+OKR_mas_racimos          63
+sin_datos                 1
+
+delta                 negativo  positivo
+causa                                   
+KFG_mas_racimos            132         5
+OKR_mas_racimos              6        57
+factor10                    12       116
+mismo_n_racimos_otro       223       168
+sin_datos                    1         0
+
+factor10 por prefijo:
+causa    KFG_mas_racimos  OKR_mas_racimos  factor10  mismo_n_racimos_otro  sin_datos
+prefijo                                                                             
+AS                     3                2         0                     4          0
+HP                    34                9         0                    13          0
+KH                    27               30         4                    46          0
+UR                    73               22       124                   328          1

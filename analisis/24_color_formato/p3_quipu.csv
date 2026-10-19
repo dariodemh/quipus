@@ -1,0 +1,650 @@
+kfg,reg,n,alfabeto,bases,frac_comp,frac_W,alf_rare,bases_rare,region,procedencia,captura
+AS001,AS,31,4,4,0.0,0.129,,,Unknown,Unknown,
+AS002,AS,15,3,2,0.067,0.0,,,Unknown,Unknown,
+AS003,AS,9,1,1,1.0,1.0,,,Unknown,Unknown,
+AS004,AS,22,2,2,0.364,0.364,,,Unknown,Unknown,
+AS005,AS,59,8,5,0.356,0.458,7.44,4.91,Unknown,Unknown,
+AS006,AS,92,5,4,0.163,0.446,4.37,3.415,Unknown,Unknown,
+AS007,AS,171,13,7,0.538,0.579,10.245,5.36,Unknown,Unknown,
+AS008,AS,248,14,7,0.738,0.73,8.63,4.575,Unknown,Unknown,
+AS009,AS,33,2,1,1.0,1.0,,,Unknown,Unknown,
+AS010,AS,28,4,2,0.429,0.643,,,Unknown,Unknown,katie
+AS011,AS,24,2,2,0.0,0.0,,,Unknown,Unknown,katie
+AS012,AS,105,7,4,0.238,0.39,5.63,3.62,Unknown,Unknown,leah
+AS013,AS,90,11,5,0.2,0.633,7.155,4.145,Unknown,Unknown,leah
+AS014,AS,75,3,3,0.0,0.787,2.995,2.985,Unknown,Unknown,leah
+AS015,AS,12,5,3,0.167,0.5,,,Unknown,Unknown,leah
+AS016,AS,11,4,3,0.364,0.455,,,Unknown,Unknown,leah
+AS017,AS,39,1,1,0.0,0.0,,,Unknown,Unknown,leah
+AS018,AS,10,2,1,0.9,1.0,,,Unknown,Unknown,leah
+AS019,AS,9,1,1,0.0,0.0,,,Unknown,Unknown,leah
+AS020,AS,10,3,2,0.2,0.4,,,Unknown,Unknown,leah
+AS021,AS,72,9,6,0.25,0.639,7.785,5.285,Unknown,Unknown,leah
+AS023,AS,8,3,3,0.375,0.25,,,Unknown,Unknown,leah
+AS024,AS,3,3,2,0.333,0.667,,,Unknown,Unknown,leah
+AS025,AS,2,1,1,0.0,1.0,,,Unknown,Unknown,leah
+AS026A,AS,77,10,5,0.247,0.597,8.795,4.025,Unknown,Unknown,leah
+AS026B,AS,260,9,4,0.385,0.569,6.8,2.475,Unknown,Unknown,leah
+AS027,AS,28,4,3,0.036,0.464,,,Unknown,Unknown,leah
+AS028,AS,56,4,2,0.143,0.625,3.99,2.0,Unknown,Unknown,leah
+AS029,AS,143,25,5,0.49,0.51,14.445,4.89,Unknown,Aankoop,leah
+AS035C,AS,12,5,3,0.25,0.0,,,Unknown,Unknown,leah
+AS035D,AS,38,10,5,0.395,0.0,,,Unknown,Unknown,leah
+AS036,AS,81,15,7,0.198,0.346,11.675,6.405,Unknown,"Maranga, Huaca 1",leah
+AS037,AS,81,13,8,0.123,0.58,10.36,7.03,Unknown,Unknown,leah
+AS039,AS,36,5,4,0.028,0.0,,,Unknown,Unknown,leah
+AS041,AS,56,6,4,0.268,0.357,6.0,4.0,Unknown,Unknown,leah
+AS042,AS,14,6,5,0.071,0.357,,,Unknown,Unknown,leah
+AS043,AS,29,10,7,0.172,0.448,,,Unknown,Unknown,leah
+AS044,AS,160,10,4,0.619,0.631,8.77,3.945,Unknown,Unknown,tania
+AS045,AS,53,12,4,0.509,0.264,10.825,3.985,Unknown,Unknown,leah
+AS048,AS,80,11,6,0.112,0.612,7.955,5.15,Unknown,Unknown,leah
+AS050,AS,369,14,7,0.263,0.295,11.12,5.695,Unknown,Unknown,tania
+AS054,AS,26,8,5,0.154,0.0,,,Unknown,Hacienda Ullujalla y Callengo,leah
+AS055,AS,3,2,2,0.0,0.0,,,Unknown,Hacienda Ullujalla y Callengo,leah
+AS059,AS,8,2,2,0.0,0.75,,,Unknown,Unknown,leah
+AS060,AS,15,3,2,0.133,0.8,,,Unknown,Unknown,leah
+AS061_MA036,AS,18,2,2,0.5,0.5,,,Unknown,Unknown,
+AS062,AS,32,2,2,0.0,0.531,,,Unknown,Unknown,leah
+AS063,AS,10,2,2,0.1,0.9,,,Unknown,Unknown,leah
+AS063B,AS,31,3,2,0.032,0.774,,,Unknown,Unknown,leah
+AS064,AS,7,4,2,0.286,0.429,,,Unknown,Unknown,leah
+AS065,AS,5,3,2,0.4,0.8,,,Unknown,Unknown,leah
+AS065B,AS,5,2,2,0.6,0.4,,,Unknown,Unknown,leah
+AS066,AS,168,3,3,0.0,0.381,2.995,2.995,Unknown,Unknown,eric
+AS069,AS,1831,63,9,0.196,0.932,9.095,3.035,Unknown,Lluta Valley,katie
+AS071,AS,403,42,11,0.658,0.432,20.8,8.285,Unknown,Unknown,eric
+AS072,AS,60,1,1,0.0,0.0,1.0,1.0,Unknown,"Rancho San Juan, Ica Valley",eric
+AS074,AS,95,6,5,0.042,0.442,5.28,4.39,Unknown,Unknown,eric
+AS075,AS,181,4,4,0.0,0.0,3.98,3.985,Unknown,Pachacamac,tania
+AS076,AS,16,3,3,0.0,0.625,,,Unknown,Unknown,leah
+AS077,AS,33,5,4,0.03,0.545,,,Unknown,Unknown,leah
+AS078,AS,27,4,3,0.037,0.704,,,"South Coast, Peru","Hacienda Copara, Nazca",leah
+AS079,AS,74,5,5,0.0,0.405,4.995,5.0,Unknown,Unknown,tania
+AS080,AS,39,10,6,0.282,0.205,,,Unknown,Unknown,leah
+AS081,AS,5,1,1,0.0,0.0,,,Unknown,Unknown,leah
+AS082,AS,6,3,2,0.167,0.667,,,Unknown,Unknown,leah
+AS083,AS,3,1,1,0.0,1.0,,,Unknown,Unknown,leah
+AS085,AS,44,5,2,0.273,0.636,4.995,2.0,Unknown,Unknown,leah
+AS089,AS,35,3,2,0.257,0.771,,,Unknown,Peru,leah
+AS090_N2,AS,58,1,1,0.0,1.0,1.0,1.0,Unknown,Peru,
+AS092,AS,55,3,2,0.164,0.855,3.0,2.0,Unknown,Peru,leah
+AS093,AS,70,2,2,0.014,0.014,1.605,1.545,Unknown,Unknown,eric
+AS094,AS,51,4,4,0.137,0.137,3.85,3.805,Unknown,Peru,leah
+AS101_Part_1,AS,20,7,5,0.3,0.35,,,Unknown,Pachacamac,
+AS101_Part_2,AS,28,8,6,0.393,0.321,,,Unknown,Pachacamac,
+AS110,AS,20,1,1,0.0,1.0,,,Unknown,Pachacamac,katie
+AS111,AS,11,2,1,1.0,1.0,,,Unknown,Pachacamac,katie
+AS112,AS,41,7,4,0.512,0.561,6.955,3.925,Unknown,Pachacamac,katie
+AS115,AS,55,10,6,0.182,0.291,9.495,6.0,Unknown,Ica,katie
+AS122,AS,9,1,1,0.0,0.0,,,Unknown,Lima,katie
+AS125,AS,16,2,2,0.0,0.938,,,Unknown,Pachacamac,katie
+AS128,AS,289,17,8,0.388,0.388,13.475,7.425,Unknown,Nazca,katie
+AS129,AS,14,6,4,0.286,0.571,,,Unknown,Ica,katie
+AS132,AS,15,4,4,0.0,0.067,,,Unknown,Marquez,katie
+AS133,AS,49,8,6,0.061,0.204,7.77,5.975,Unknown,Marquez,katie
+AS134,AS,13,2,2,0.0,0.538,,,Unknown,Pachacamac,katie
+AS137,AS,4,4,3,0.25,0.5,,,Unknown,Chuquitanta,katie
+AS139,AS,14,3,2,0.857,0.071,,,Unknown,Pachacamac,katie
+AS142,AS,18,2,2,0.0,0.611,,,Unknown,Ica,katie
+AS153,AS,40,6,4,0.125,0.325,6.0,4.0,Unknown,Unknown,katie
+AS155,AS,9,4,4,0.0,0.111,,,Unknown,near Lima,katie
+AS156,AS,65,4,3,0.246,0.246,3.64,2.655,Unknown,Pachacamac,katie
+AS157,AS,34,1,1,0.0,1.0,,,Unknown,Unknown,katie
+AS158,AS,18,2,2,0.0,0.556,,,Unknown,Pachacamac,katie
+AS159,AS,53,4,3,0.226,0.585,3.995,3.0,Unknown,Between Ica and Pisco,katie
+AS160,AS,23,6,4,0.478,0.348,,,Unknown,Between Ica and Pisco,katie
+AS164,AS,33,5,5,0.0,0.485,,,Unknown,Ica,katie
+AS168,AS,18,9,4,0.556,0.0,,,Unknown,Unknown,katie
+AS169,AS,30,3,3,0.0,0.0,,,Unknown,Unknown,katie
+AS170,AS,125,17,7,0.824,0.488,12.2,6.31,Unknown,Pachacamac,katie
+AS171,AS,24,8,5,0.167,0.167,,,Unknown,Ica,katie
+AS172,AS,59,10,3,0.169,0.576,8.245,2.895,Unknown,Pachacamac,katie
+AS173,AS,15,4,3,0.067,0.333,,,Unknown,Between Ica and Pisco,katie
+AS174,AS,27,5,3,0.185,0.704,,,Unknown,Between Ica and Pisco,katie
+AS177,AS,15,2,1,0.8,1.0,,,Unknown,near Lima,katie
+AS178,AS,30,4,4,0.0,0.3,,,Unknown,near Lima,katie
+AS182,AS,5,5,5,0.0,0.2,,,Unknown,Unknown,katie
+AS182B,AS,1,1,1,0.0,0.0,,,Unknown,Unknown,katie
+AS183,AS,7,2,2,0.0,0.429,,,Unknown,Unknown,katie
+AS184,AS,9,3,2,0.222,0.556,,,Unknown,Unknown,katie
+AS185,AS,30,14,6,0.367,0.533,,,Unknown,Unknown,katie
+AS186,AS,64,11,6,0.359,0.375,10.255,5.595,Unknown,Unknown,katie
+AS188,AS,12,3,2,0.25,0.5,,,Unknown,Pachacamac,katie
+AS189,AS,32,4,2,0.312,0.562,,,Unknown,Pachacamac,katie
+AS191,AS,7,1,1,0.0,1.0,,,Unknown,Ica,katie
+AS192,AS,13,4,4,0.077,0.077,,,Unknown,Ica,katie
+AS193,AS,8,1,1,0.0,1.0,,,Unknown,Ica,katie
+AS194,AS,7,4,4,0.0,0.286,,,Unknown,Ica,katie
+AS195,AS,7,4,3,0.143,0.0,,,Unknown,Ica,katie
+AS196,AS,6,3,3,0.0,0.167,,,Unknown,Ica,katie
+AS197,AS,11,3,2,0.182,0.818,,,Unknown,Ica,katie
+AS198,AS,19,1,1,0.0,1.0,,,Unknown,Unknown,katie
+AS199,AS,86,15,6,0.558,0.674,12.48,4.535,Unknown,Unknown,katie
+AS200,AS,64,3,3,0.0,0.438,2.615,2.655,Unknown,probably Central Coast Late Period,katie
+AS201,AS,18,4,3,0.056,0.0,,,Unknown,Ica,katie
+AS202,AS,24,3,2,0.333,0.0,,,Unknown,Unknown,katie
+AS203,AS,37,3,3,0.0,0.0,,,Unknown,Unknown,katie
+AS204,AS,19,3,3,0.0,0.0,,,Unknown,Ica,katie
+AS205,AS,19,4,3,0.053,0.0,,,Unknown,Unknown,katie
+AS206,AS,31,4,3,0.161,0.0,,,Unknown,Unknown,katie
+AS207A,AS,250,20,7,0.72,0.388,14.98,5.81,Unknown,Unknown,katie
+AS207B,AS,28,3,2,0.107,0.679,,,Unknown,Unknown,katie
+AS207C,AS,14,3,2,0.429,0.429,,,Unknown,Unknown,katie
+AS209,AS,143,13,7,0.098,0.238,8.5,5.815,Unknown,Unknown,katie
+AS210,AS,39,11,5,0.282,0.359,,,Unknown,Unknown,katie
+AS211,AS,68,2,2,0.0,0.515,2.0,2.0,Unknown,Unknown,katie
+AS212,AS,100,11,7,0.18,0.37,9.02,5.94,Unknown,Unknown,katie
+AS213,AS,35,4,3,0.057,0.343,,,Unknown,Unknown,katie
+AS214,AS,20,4,2,0.4,0.6,,,Unknown,Unknown,katie
+AS215,AS,36,5,3,0.556,0.778,,,Unknown,Nazca,katie
+AS215F,AS,5,2,2,0.4,0.6,,,Unknown,Nazca,katie
+AS35A,AS,16,5,3,0.125,0.0,,,Unknown,Unknown,leah
+AS35B,AS,4,1,1,0.0,0.0,,,Unknown,Unknown,leah
+HP001,HP,14,1,1,0.0,1.0,,,near Lima,Pachacamac,gurton
+HP002,HP,30,12,7,0.267,0.5,,,Unknown,Pachacamac,gurton
+HP003,HP,95,12,4,0.221,0.632,9.635,3.81,Unknown,Pachacamac,gurton
+HP004,HP,49,6,4,0.0,0.714,5.945,3.985,Unknown,Pachacamac,gurton
+HP005,HP,27,7,4,0.148,0.778,,,Unknown,Pachacamac,gurton
+HP006,HP,13,7,5,0.231,0.308,,,Unknown,Pachacamac,gurton
+HP007,HP,27,12,5,0.519,0.407,,,Unknown,Pachacamac,gurton
+HP008,HP,17,8,4,0.176,0.647,,,Unknown,Pachacamac,gurton
+HP009,HP,13,9,4,0.538,0.462,,,Unknown,Pachacamac,gurton
+HP010,HP,26,2,1,0.154,1.0,,,Unknown,Pachacamac,gurton
+HP011,HP,43,17,7,0.279,0.442,16.34,7.0,Unknown,Pachacamac,gurton
+HP012,HP,56,8,4,0.196,0.518,7.705,3.99,Unknown,Pachacamac,gurton
+HP013,HP,15,8,4,0.2,0.667,,,Unknown,Pachacamac,gurton
+HP014,HP,63,8,6,0.206,0.27,7.93,5.945,Unknown,Pachacamac,gurton
+HP015,HP,9,2,2,0.0,0.0,,,Unknown,"Cieneguilla, Valle de Lurin",gurton
+HP016,HP,12,4,2,0.083,0.417,,,Unknown,"Cieneguilla, Valle de Lurin",gurton
+HP017,HP,136,23,9,0.294,0.309,13.2,6.43,Unknown,Pachacamac,gurton
+HP018,HP,32,3,3,0.0,0.75,,,Unknown,Pachacamac,gurton
+HP019,HP,21,2,1,0.0,1.0,,,Unknown,Pachacamac,gurton
+HP020,HP,29,5,2,0.034,0.966,,,Unknown,Pachacamac,gurton
+HP021,HP,9,1,1,0.0,1.0,,,Unknown,Pachacamac,gurton
+HP022,HP,18,3,2,0.0,0.611,,,Unknown,Pachacamac,gurton
+HP023,HP,31,7,4,0.129,0.419,,,Unknown,Pachacamac,gurton
+HP024,HP,7,7,6,0.143,0.286,,,Unknown,Pachacamac,gurton
+HP025,HP,55,11,4,0.236,0.455,10.135,3.69,Unknown,Pachacamac,gurton
+HP026,HP,17,9,4,0.176,0.471,,,Unknown,Pachacamac,gurton
+HP027,HP,75,17,6,0.36,0.48,14.07,5.55,Unknown,Pachacamac,gurton
+HP028,HP,10,4,3,0.3,0.2,,,Unknown,Pachacamac,gurton
+HP029,HP,66,12,5,0.152,0.712,10.66,4.6,Unknown,Pachacamac,gurton
+HP030,HP,110,10,6,0.236,0.618,8.13,4.145,Unknown,Pachacamac,gurton
+HP031,HP,48,13,7,0.229,0.292,12.14,6.975,Unknown,Pachacamac,gurton
+HP032,HP,15,1,1,0.0,1.0,,,Unknown,Pachacamac,gurton
+HP033,HP,28,5,4,0.107,0.5,,,Unknown,"Ullujaya, Ocucaje, Ica",julia
+HP034,HP,82,14,7,0.378,0.22,13.205,6.815,Unknown,"Ullujaya, Ocucaje, Ica",julia
+HP037,HP,32,15,9,0.25,0.406,,,Unknown,"Costa Central, Huacho",julia
+HP038,HP,257,21,6,0.342,0.712,8.395,3.535,Unknown,Unknown,julia
+HP039,HP,100,8,6,0.03,0.39,6.25,5.235,Unknown,Costa Sur,julia
+HP040,HP,24,3,3,0.0,0.542,,,Unknown,Unknown,julia
+HP042,HP,55,20,6,0.436,0.527,16.925,5.925,Unknown,Unknown,julia
+HP043,HP,11,2,2,0.0,0.0,,,Unknown,Unknown,julia
+HP044,HP,39,6,4,0.308,0.282,,,Unknown,Unknown,julia
+HP045,HP,82,10,5,0.305,0.22,8.42,4.975,Unknown,"Región Sur, Quillagua, Valle de Loa",julia
+HP046_A,HP,66,6,5,0.015,0.515,5.445,4.705,Unknown,Unknown,
+HP046_B,HP,86,8,4,0.081,0.302,6.295,4.0,Unknown,Unknown,
+HP047,HP,34,9,2,0.853,0.912,,,Unknown,"Armatambo, Lima, Central Coast",julia
+HP048,HP,9,3,2,0.222,0.889,,,Unknown,"Región Sur, Quillagua, Valle de Loa",julia
+HP049,HP,7,3,1,0.286,1.0,,,Unknown,Unknown,julia
+HP050,HP,20,3,1,1.0,1.0,,,Unknown,foothills of Cerro Solar,julia
+HP051_A,HP,32,6,4,0.062,0.75,,,Unknown,Unknown,
+HP051_B,HP,34,3,3,0.0,0.353,,,Unknown,Unknown,
+HP052,HP,39,2,2,0.821,0.821,,,Unknown,Unknown,julia
+HP053,HP,54,18,6,0.37,0.093,15.44,5.765,Unknown,Unknown,julia
+HP054,HP,33,3,2,0.121,0.0,,,Unknown,Unknown,julia
+HP055,HP,189,13,6,0.614,0.799,9.375,3.905,Unknown,unknown,julia
+HP056,HP,162,15,5,0.191,0.568,8.465,3.515,Unknown,Unknown,julia
+HP057,HP,41,4,4,0.0,0.244,3.975,3.97,Unknown,Unknown,julia
+JC001,JC,36,9,7,0.083,0.0,,,Unknown,Incahuasi,jclindaniel
+JC002,JC,4,4,3,0.25,0.0,,,Unknown,Incahuasi,jclindaniel
+JC003,JC,8,2,2,0.0,0.0,,,Unknown,Incahuasi,jclindaniel
+JC004,JC,32,16,9,0.281,0.031,,,Unknown,Incahuasi,jclindaniel
+JC005,JC,193,33,12,0.269,0.057,14.895,7.68,Unknown,Incahuasi,jclindaniel
+JC006,JC,13,2,2,0.0,0.0,,,Unknown,Incahuasi,jclindaniel
+JC007,JC,6,5,4,0.167,0.0,,,Unknown,Incahuasi,jclindaniel
+JC008,JC,6,3,3,0.0,0.0,,,Unknown,Incahuasi,jclindaniel
+JC009,JC,95,40,10,0.558,0.084,23.55,7.895,Unknown,Incahuasi,jclindaniel
+JC010,JC,374,13,7,0.088,0.029,7.14,4.58,Unknown,Incahuasi,jclindaniel
+JC011,JC,126,38,13,0.294,0.0,16.825,8.885,Unknown,Incahuasi,jclindaniel
+JC012,JC,30,3,3,0.0,0.0,,,Unknown,Incahuasi,jclindaniel
+JC013,JC,78,43,8,0.795,0.0,26.9,6.185,Unknown,Incahuasi,jclindaniel
+JC014,JC,60,7,6,0.033,0.0,6.915,6.0,Unknown,Incahuasi,jclindaniel
+JC015,JC,10,1,1,0.0,0.0,,,Unknown,Incahuasi,jclindaniel
+JC016,JC,9,1,1,1.0,0.0,,,Unknown,Incahuasi,jclindaniel
+JC017,JC,5,1,1,0.0,0.0,,,Unknown,Incahuasi,jclindaniel
+JC018,JC,13,7,6,0.385,0.0,,,Unknown,Incahuasi,jclindaniel
+JC019,JC,6,2,2,0.0,0.0,,,Unknown,Incahuasi,jclindaniel
+JC020,JC,4,3,2,0.5,0.0,,,Unknown,Incahuasi,jclindaniel
+JC021,JC,11,5,5,0.0,0.0,,,Unknown,Incahuasi,jclindaniel
+JC022,JC,24,5,4,0.125,0.0,,,Unknown,Incahuasi,jclindaniel
+JC023,JC,74,17,8,0.27,0.0,13.85,7.285,Unknown,Incahuasi,jclindaniel
+KH0001,KH,154,12,5,0.26,0.909,6.41,3.33,Unknown,Chuquitanta,
+KH0032,KH,28,3,3,0.0,0.571,,,Unknown,"La puntilla, between Paracas and Pisco",
+KH0033,KH,66,7,4,0.091,0.106,5.835,3.595,Unknown,"La puntilla, between Paracas and Pisco",
+KH0049,KH,367,12,7,0.093,0.343,6.695,4.845,Unknown,Costa Sur,
+KH0057,KH,125,14,9,0.296,0.464,10.07,6.38,Unknown,Unknown,
+KH0058,KH,178,16,8,0.18,0.27,10.285,6.15,Unknown,Unknown,
+KH0067,KH,11,5,5,0.091,0.091,,,Unknown,Unknown,
+KH0080,KH,163,7,4,0.221,0.595,6.0,3.97,Unknown,Unknown,
+KH0081,KH,216,11,8,0.208,0.278,8.7,6.485,Unknown,"Monte de Cacatilla, Valle de Nazca",
+KH0083,KH,585,78,14,0.591,0.662,17.73,7.475,"Inka, Playa Miller",Mollepampa,
+KH0197,KH,149,24,10,0.477,0.523,15.57,7.125,Unknown,Unknown,
+KH0227,KH,221,21,11,0.204,0.231,12.495,7.655,Unknown,"Huaura Valley, near Lima, on Santa Rosalia Hacienda",
+KH0267,KH,22,6,4,0.455,0.455,,,Unknown,"Playa Miller #6, Arica, Chile",
+KH0350,KH,55,12,6,0.182,0.436,10.025,5.47,Unknown,Pachacamac,
+MM001,MM,306,24,9,0.193,0.284,12.505,7.07,Huacho,Huacho?,
+MM002,MM,63,19,10,0.286,0.048,14.29,7.97,Unknown,Eduard Gaffron Estate,
+MM003,MM,43,12,7,0.163,0.233,11.535,6.79,Unknown,Eduard Gaffron Estate,
+MM004,MM,75,13,5,0.2,0.107,10.51,4.965,Unknown,Unknown (not from Gaffron collections),
+MM005,MM,54,9,5,0.63,0.463,8.445,5.0,Unknown,Unknown,
+MM006_AN001,MM,40,6,2,0.325,0.75,6.0,2.0,unknown,South Peru,
+MM007_AN002,MM,83,14,5,0.843,0.289,11.76,4.645,unknown,South Peru,
+MM008,MM,59,16,8,0.305,0.356,12.57,6.6,Unknown,Eduard Gaffron,
+MM009,MM,16,3,2,0.375,0.75,,,Unknown,Eduard Gaffron,
+MM010,MM,8,3,2,0.125,0.375,,,Unknown,Eduard Gaffron,
+MM011,MM,4,1,1,0.0,0.0,,,Unknown,Eduard Gaffron,
+MM012,MM,4,2,2,0.25,0.0,,,Unknown,Eduard Gaffron,
+MM013,MM,3,1,1,0.0,0.0,,,Unknown,Eduard Gaffron,
+MM014,MM,4,2,2,0.25,0.0,,,Unknown,Eduard Gaffron,
+MM015,MM,41,14,6,0.22,0.439,13.64,5.935,Unknown,Eduard Gaffron,
+MM016,MM,23,5,5,0.043,0.217,,,Unknown,Eduard Gaffron,
+MM017,MM,18,10,7,0.222,0.556,,,Unknown,Eduard Gaffron,
+MM018,MM,46,19,5,0.522,0.674,17.565,4.675,Unknown,Unknown,
+MM019,MM,265,32,9,0.279,0.385,13.705,6.79,Unknown,Unknown,
+MM020,MM,89,6,4,0.337,0.551,5.455,3.505,Unknown,Unknown,
+MM021,MM,175,28,9,0.634,0.371,17.315,7.82,Unknown,Unknown,
+MM1086,MM,46,7,7,0.065,0.217,6.685,6.8,Unknown,"Dr Franz Xavier Weizinger, 1921",
+QU001,QU,33,7,6,0.273,0.0,,,"Inka, Late Horizon",Unknown,
+QU002,QU,91,7,7,0.0,0.0,5.665,5.715,"Inka, Late Horizon",Unknown,
+QU003,QU,44,9,3,0.5,0.0,8.61,2.92,"Inka, Late Horizon",Unknown,
+QU004,QU,65,10,6,0.4,0.0,8.99,5.93,"Inka, Late Horizon",Unknown,
+QU005,QU,82,12,6,0.11,0.0,8.895,5.62,"Inka, Late Horizon",Unknown,
+QU006,QU,41,16,6,0.415,0.0,15.78,5.945,"Inka, Late Horizon",Unknown,
+QU007,QU,157,10,5,0.739,0.0,7.095,4.095,"Inka, Late Horizon",Unknown,
+QU008,QU,56,20,8,0.482,0.0,17.165,6.82,"Inka, Late Horizon",Unknown,
+QU009,QU,205,11,5,0.273,0.0,7.845,4.22,"Inka, Late Horizon",Unknown,
+QU010,QU,49,10,6,0.102,0.0,9.225,6.0,"Inka, Late Horizon",Unknown,
+QU011,QU,146,39,11,0.418,0.034,20.17,8.625,"Inka, Late Horizon",Unknown,
+QU012,QU,281,13,8,0.096,0.178,8.68,6.42,"Inka, Late Horizon",Unknown,
+QU013,QU,358,18,8,0.221,0.0,12.055,7.035,"Inka, Late Horizon",Unknown,
+QU014,QU,248,15,6,0.266,0.0,8.435,4.105,"Inka, Late Horizon",Unknown,
+QU015,QU,152,18,8,0.243,0.0,11.88,6.23,"Inka, Late Horizon",Unknown,
+QU016,QU,90,15,6,0.189,0.0,10.81,5.73,"Inka, Late Horizon",Unknown,
+QU017,QU,52,15,8,0.327,0.0,14.08,7.72,"Inka, Late Horizon",Unknown,
+QU018,QU,38,6,5,0.053,0.0,,,"Inka, Late Horizon",Unknown,
+QU019,QU,211,21,9,0.237,0.0,12.315,7.59,"Inka, Late Horizon",Unknown,
+QU020,QU,17,1,1,0.0,0.0,,,Unknown,Unknown,
+QU021,QU,189,14,5,0.746,0.0,9.85,3.18,Unknown,Unknown,
+QU022,QU,6,3,3,0.333,0.0,,,Unknown,Rimac Valley,
+UR001,UR,572,21,14,0.1,0.306,10.375,7.895,Chachapoyas,Leymebamba,katie
+UR002,UR,112,25,11,0.214,0.446,14.71,8.3,Chachapoyas,Leymebamba,cbrezine
+UR003,UR,748,45,12,0.307,0.362,14.115,6.735,Chachapoyas,Leymebamba,katie
+UR004,UR,573,20,10,0.14,0.003,9.13,5.935,Chachapoyas,Leymebamba,katie
+UR005,UR,59,8,2,0.22,0.966,6.455,1.945,Chachapoyas,Leymebamba,cbrezine
+UR006,UR,844,14,7,0.103,0.0,8.2,5.565,Chachapoyas,Leymebamba,katie
+UR007,UR,80,7,4,0.1,0.0,5.925,4.0,Chachapoyas,Leymebamba,cbrezine
+UR008,UR,6,1,1,0.0,1.0,,,Chachapoyas,Leymebamba,cbrezine
+UR009,UR,158,14,6,0.19,0.0,8.775,5.0,Chachapoyas,Leymebamba,katie
+UR010,UR,174,20,8,0.172,0.494,10.58,5.96,Chachapoyas,Leymebamba,cbrezine
+UR011,UR,343,36,8,0.499,0.391,16.18,6.985,Chachapoyas,Leymebamba,cbrezine
+UR012,UR,123,21,7,0.366,0.252,14.02,6.085,Chachapoyas,Leymebamba,cbrezine
+UR013,UR,57,5,3,0.158,0.14,4.66,3.0,Chachapoyas,Leymebamba,cbrezine
+UR014,UR,40,5,4,0.125,0.525,5.0,4.0,Chachapoyas,Leymebamba,cbrezine
+UR015,UR,85,19,7,0.435,0.494,14.375,6.395,Chachapoyas,Leymebamba,cbrezine
+UR016,UR,440,18,6,0.198,0.189,6.015,3.12,Chachapoyas,Leymebamba,katie
+UR017,UR,122,22,8,0.23,0.287,13.1,6.505,Chachapoyas,Leymebamba,katie
+UR018,UR,34,9,5,0.176,0.353,,,Chachapoyas,Leymebamba,cbrezine
+UR019,UR,18,7,5,0.222,0.333,,,Chachapoyas,Leymebamba,cbrezine
+UR020,UR,28,13,7,0.25,0.393,,,Chachapoyas,Leymebamba,cbrezine
+UR021,UR,160,13,6,0.106,0.006,7.655,4.725,Chachapoyas,Leymebamba,katie
+UR022,UR,314,7,5,0.016,0.914,2.995,2.525,Chachapoyas,Leymebamba,katie
+UR023,UR,20,2,2,0.0,0.0,,,Nazca,Atarco,cbrezine
+UR024,UR,19,2,2,0.0,0.0,,,Nazca,Atarco,cbrezine
+UR026,UR,46,4,4,0.0,0.283,3.87,3.89,Unknown,Unknown,tania
+UR027,UR,17,2,2,0.0,0.765,,,Nazca,Atarco,cbrezine
+UR028,UR,89,3,3,0.0,0.0,3.0,3.0,Nazca,Atarco,cbrezine
+UR029,UR,75,4,2,0.053,0.0,3.44,2.0,Nazca,Atarco,cbrezine
+UR032,UR,38,10,7,0.211,0.132,,,Unknown,Unknown,tania
+UR033,UR,8,7,5,0.375,0.375,,,Unknown,Unknown,luca
+UR034,UR,186,23,7,0.247,0.473,11.32,5.77,Unknown,Unknown,eric
+UR037,UR,168,13,5,0.196,0.286,8.275,4.845,Unknown,Unknown,tania
+UR038,UR,38,22,7,0.526,0.263,,,Unknown,Unknown,luca
+UR039,UR,91,2,1,0.044,0.0,1.86,1.0,Unknown,Huari,eric
+UR040,UR,49,7,5,0.082,0.51,6.46,4.615,Unknown,Nazca,katie
+UR041,UR,43,3,3,0.0,0.535,3.0,3.0,Unknown,Unknown,katie
+UR042,UR,25,7,4,0.24,0.68,,,Unknown,Unknown,katie
+UR044,UR,66,7,5,0.091,0.03,5.86,4.73,Unknown,"La puntilla, between Paracas and Pisco",
+UR045,UR,160,20,7,0.356,0.425,10.355,4.915,Unknown,Unknown,tania
+UR046,UR,11,2,1,0.636,1.0,,,Unknown,"Pueblo Libre, Lima, Peru",leah
+UR047,UR,47,12,4,0.83,0.638,11.74,3.995,Unknown,"Pueblo Libre, Lima, Peru",leah
+UR048,UR,61,9,3,0.59,0.557,8.13,3.0,Unknown,"Pueblo Libre, Lima, Peru",leah
+UR049,UR,326,32,13,0.42,0.374,16.06,8.135,Unknown,Unknown,leah
+UR050,UR,164,2,2,0.0,0.994,1.295,1.215,Unknown,Unknown,cbrezine
+UR051,UR,89,4,4,0.034,0.0,3.87,3.85,Unknown,Unknown,eric
+UR052,UR,96,4,4,0.0,0.042,3.23,3.325,Unknown,Unknown,eric
+UR053A,UR,54,5,5,0.0,0.407,4.69,4.675,Unknown,Unknown,cbrezine
+UR053B,UR,54,4,4,0.0,0.333,3.765,3.75,Unknown,Unknown,cbrezine
+UR053C,UR,61,4,4,0.0,0.328,4.0,4.0,Unknown,Unknown,cbrezine
+UR053D,UR,72,5,5,0.0,0.333,4.555,4.54,Unknown,Unknown,cbrezine
+UR053E,UR,105,4,4,0.0,0.333,4.0,4.0,Unknown,Unknown,cbrezine
+UR054,UR,115,2,2,0.0,0.0,1.54,1.575,Unknown,Unknown,eric
+UR055,UR,180,3,3,0.022,0.022,2.43,2.425,Unknown,Unknown,cbrezine
+UR056A,UR,40,16,8,0.425,0.5,16.0,8.0,Unknown,Unknown,chandra
+UR056B,UR,37,6,6,0.0,0.459,,,Unknown,Unknown,chandra
+UR056C,UR,24,2,2,0.0,0.5,,,Unknown,Unknown,chandra
+UR057,UR,42,2,2,0.0,0.0,2.0,2.0,Nazca,Atarco,cbrezine
+UR058A,UR,274,25,9,0.555,0.558,13.73,6.45,Unknown,"Playa Miller #6, Arica, Chile",chandra
+UR058B,UR,226,25,11,0.42,0.522,14.08,7.68,Unknown,Unknown,chandra
+UR059,UR,136,12,10,0.059,0.353,8.615,7.42,Unknown,Unknown,eric
+UR060,UR,114,22,14,0.412,0.228,12.615,8.11,Puruchuco,Huaquerones,cbrezine
+UR061,UR,40,1,1,0.0,1.0,1.0,1.0,Puruchuco,Huaquerones,cbrezine
+UR062,UR,23,7,3,0.304,0.522,,,Puruchuco,Huaquerones,cbrezine
+UR063,UR,111,7,4,0.225,0.486,6.285,3.945,Puruchuco,Unknown,cbrezine
+UR064,UR,74,8,4,0.311,0.568,7.285,4.0,Puruchuco,Huaquerones,cbrezine
+UR065,UR,6,1,1,0.0,1.0,,,Puruchuco,Huaquerones,cbrezine
+UR066,UR,35,7,4,0.257,0.514,,,Puruchuco,Huaquerones,cbrezine
+UR067,UR,35,8,5,0.257,0.457,,,Puruchuco,Huaquerones,cbrezine
+UR068,UR,73,6,3,0.26,0.493,5.08,3.0,Puruchuco,Unknown,cbrezine
+UR069,UR,33,14,7,0.303,0.424,,,Puruchuco,Huaquerones,cbrezine
+UR070,UR,26,5,3,0.269,0.385,,,Puruchuco,Huaquerones,cbrezine
+UR071,UR,26,13,5,0.769,0.346,,,Puruchuco,Huaquerones,cbrezine
+UR072,UR,66,12,8,0.212,0.394,10.235,6.82,Puruchuco,Huaquerones,cbrezine
+UR073,UR,69,9,6,0.304,0.304,7.49,5.55,Puruchuco,Unknown,cbrezine
+UR074,UR,79,14,5,0.354,0.494,10.645,4.04,Puruchuco,Huaquerones,cbrezine
+UR075,UR,13,1,1,1.0,1.0,,,Puruchuco,Huaquerones,cbrezine
+UR076,UR,24,3,3,0.0,0.0,,,Puruchuco,Huaquerones,cbrezine
+UR077,UR,25,2,2,0.0,0.84,,,Puruchuco,Unknown,cbrezine
+UR078,UR,11,7,5,0.273,0.273,,,Puruchuco,Huaquerones,cbrezine
+UR079,UR,31,5,4,0.032,0.29,,,Puruchuco,Huaquerones,cbrezine
+UR080,UR,14,4,3,0.071,0.571,,,Puruchuco,Huaquerones,cbrezine
+UR081,UR,7,6,5,0.143,0.0,,,Puruchuco,Huaquerones,cbrezine
+UR082,UR,44,14,6,0.25,0.295,13.335,5.79,Puruchuco,Huaquerones,cbrezine
+UR084,UR,23,11,8,0.652,0.217,,,Unknown,"Playa Miller #6, Arica, Chile",tania
+UR085,UR,265,29,14,0.17,0.272,13.61,8.445,Unknown,Unknown,luca
+UR086,UR,107,14,5,0.299,0.542,10.455,4.885,Unknown,Unknown,tania
+UR087,UR,369,26,10,0.287,0.247,12.25,6.07,Unknown,Santa,cbrezine
+UR088,UR,102,23,9,0.598,0.392,16.685,7.475,Unknown,Santa,cbrezine
+UR089,UR,288,39,13,0.618,0.441,19.655,9.425,Unknown,Santa,cbrezine
+UR090,UR,131,26,9,0.397,0.473,15.485,7.5,Unknown,Santa,cbrezine
+UR091,UR,125,22,9,0.432,0.456,14.17,6.52,Unknown,Santa,cbrezine
+UR092,UR,61,6,5,0.197,0.393,5.61,4.66,Unknown,Santa,cbrezine
+UR093,UR,1227,130,29,0.205,0.773,12.79,7.265,Unknown,Unknown,tania
+UR094,UR,69,23,8,0.435,0.377,16.63,6.41,Unknown,Unknown,tania
+UR095,UR,26,11,7,0.423,0.462,,,Unknown,Unknown,tania
+UR096,UR,57,26,15,0.491,0.404,21.625,12.695,Unknown,Unknown,tania
+UR097,UR,229,42,8,0.502,0.459,17.395,5.875,Unknown,Unknown,tania
+UR098,UR,9,7,6,0.111,0.444,,,Unknown,Unknown,tania
+UR099,UR,4,4,2,0.5,0.5,,,Unknown,Unknown,tania
+UR100,UR,5,4,4,0.0,0.0,,,Unknown,Unknown,tania
+UR101,UR,3,3,2,0.333,0.0,,,Unknown,Unknown,tania
+UR102,UR,75,8,5,0.813,0.227,5.975,4.31,Unknown,Unknown,tania
+UR103,UR,55,16,6,0.309,0.109,13.915,5.92,Unknown,Unknown,tania
+UR1032,AS,540,14,8,0.03,0.291,4.305,3.94,Unknown,Nazca,katie
+UR1033A,AS,12,3,3,0.333,0.333,,,Unknown,Unknown,katie
+UR1033B,AS,18,5,2,0.889,0.944,,,Unknown,Unknown,katie
+UR1033C,AS,15,2,2,0.0,0.533,,,Unknown,Unknown,katie
+UR1033D,AS,25,3,3,0.0,0.52,,,Unknown,Unknown,katie
+UR1033E,AS,10,4,2,0.4,0.8,,,Unknown,Unknown,katie
+UR1033F,AS,21,3,3,0.0,0.524,,,Unknown,Unknown,katie
+UR1033G,AS,11,4,3,0.364,0.818,,,Unknown,Unknown,katie
+UR1034,AS,177,12,4,0.226,0.333,9.49,3.995,Unknown,Pachacamac,tania
+UR104,UR,31,22,11,0.581,0.323,,,Unknown,Unknown,tania
+UR1040,AS,45,2,2,0.0,0.356,2.0,2.0,Unknown,Unknown,leah
+UR1049,AS,86,4,3,0.14,0.407,3.965,2.985,Unknown,Unknown,leah
+UR105,UR,4,1,1,0.0,0.0,,,Unknown,Unknown,tania
+UR1051,AS,45,8,4,0.644,0.533,7.795,3.905,Unknown,Hacienda Ullujalla y Callengo,leah
+UR1052,AS,48,3,3,0.0,0.292,3.0,3.0,Unknown,Hacienda Ullujalla y Callengo,leah
+UR1053,AS,20,2,2,0.05,0.95,,,Unknown,Hacienda Ullujalla y Callengo,leah
+UR1057,AS,572,11,5,0.089,0.227,5.805,3.89,Unknown,Unknown,leah
+UR1058,AS,38,3,2,0.474,0.947,,,Unknown,Unknown,leah
+UR106,UR,7,5,4,0.143,0.429,,,Unknown,Unknown,tania
+UR107,UR,28,7,4,0.107,0.393,,,Unknown,Unknown,tania
+UR108,UR,7,2,2,0.143,0.0,,,Unknown,Unknown,tania
+UR1084,AS,297,16,6,0.626,0.832,9.21,3.21,Unknown,Unknown,tania
+UR1087,AS,97,6,2,0.402,0.979,5.485,1.685,Unknown,Peru,cbrezine
+UR1088,AS,95,5,4,0.263,0.547,4.395,3.45,Unknown,Huacho,tania
+UR109,UR,32,12,7,0.281,0.188,,,Unknown,Unknown,tania
+UR1091,AS,89,5,4,0.034,0.562,4.165,3.715,Unknown,Unknown,tania
+UR1095,AS,211,5,3,0.161,0.0,3.185,1.355,Unknown,Pachacamac,tania
+UR1096,AS,86,7,2,0.779,0.849,5.975,2.0,Unknown,Pachacamac,tania
+UR1097,AS,64,7,3,0.969,0.625,6.825,3.0,Unknown,Pachacamac,katie
+UR1098,AS,101,7,4,0.109,0.485,5.795,3.99,Unknown,Between Ica and Pisco,katie
+UR1099,AS,48,3,1,0.333,1.0,3.0,1.0,Unknown,Pachacamac,katie
+UR110,UR,89,7,7,0.0,0.146,6.81,6.855,Unknown,Unknown,eric
+UR1100,AS,73,5,5,0.0,0.37,4.585,4.5,Unknown,Ica,katie
+UR1102,AS,20,2,2,0.0,0.85,,,Unknown,Pachacamac,katie
+UR1103,AS,71,4,4,0.0,0.169,4.0,4.0,Unknown,Ica,katie
+UR1104,AS,21,1,1,0.0,1.0,,,"Central Coast, Peru",Pachacamac,katie
+UR1105,AS,22,3,3,0.0,0.545,,,Unknown,Ica,katie
+UR1106,AS,54,7,5,0.074,0.0,6.73,5.0,Unknown,Marquez,katie
+UR1107,AS,29,4,4,0.0,0.0,,,Unknown,Marquez,katie
+UR1108,AS,42,4,3,0.095,0.524,3.93,2.955,Unknown,Between Ica and Pisco,katie
+UR1109,AS,287,10,5,0.495,0.07,6.89,3.655,Unknown,Ica,katie
+UR111,UR,149,20,10,0.309,0.362,13.64,7.495,Unknown,Unknown,tania
+UR1113,AS,163,5,3,0.178,0.988,3.47,1.41,Unknown,Between Ica and Pisco,katie
+UR1114,AS,357,13,7,0.246,0.182,10.005,6.165,Unknown,Between Ica and Pisco,katie
+UR1116,AS,13,3,3,0.0,0.385,,,Unknown,Ica,katie
+UR1117,AS,11,3,3,0.0,0.091,,,Unknown,Ica,katie
+UR1118,AS,20,2,1,0.05,1.0,,,Unknown,Pachacamac,katie
+UR1119,AS,11,6,3,0.545,0.636,,,Unknown,Pachacamac,katie
+UR112,UR,76,7,7,0.158,0.053,6.41,6.455,Unknown,Unknown,eric
+UR1120,AS,36,10,4,0.889,0.111,,,Unknown,Ica,katie
+UR1121,AS,281,3,3,0.0,0.498,3.0,3.0,Unknown,Pachacamac,katie
+UR1123,AS,94,10,6,0.426,0.34,9.625,5.765,Unknown,Ica,katie
+UR1124,AS,34,3,3,0.0,0.735,,,Unknown,Marquez,katie
+UR1124_Detail_1,AS,28,3,3,0.0,0.429,,,Unknown,Marquez,
+UR1126,AS,155,21,6,0.755,0.587,13.955,4.95,Unknown,Ica,katie
+UR1127,AS,6,2,2,0.0,0.167,,,Unknown,Nazca,katie
+UR113,UR,864,56,20,0.219,0.374,15.92,9.785,Unknown,Nazca,chandra
+UR1130,AS,28,11,5,0.393,0.357,,,Unknown,near Lima,katie
+UR1131,AS,284,9,3,0.549,0.482,5.545,2.215,Unknown,Pachacamac,katie
+UR1135,AS,23,9,3,0.652,0.739,,,Unknown,Ica,katie
+UR1136,AS,285,6,4,0.07,0.316,5.29,3.99,Unknown,Nazca,katie
+UR1138,AS,34,6,5,0.265,0.0,,,Unknown,Ica,katie
+UR114,UR,260,52,10,0.431,0.477,18.875,7.2,Unknown,Nazca,chandra
+UR1140,AS,189,5,2,0.206,0.0,4.585,1.825,Unknown,Nazca,katie
+UR1141,AS,20,1,1,0.0,1.0,,,Unknown,Ica,katie
+UR1143,AS,30,5,3,0.6,0.0,,,Unknown,Ica,katie
+UR1144,AS,62,3,2,0.242,0.968,2.875,1.93,Unknown,Pachacamac,katie
+UR1145,AS,90,5,4,0.322,0.322,4.465,4.0,Unknown,Pachacamac,katie
+UR1146,AS,123,5,5,0.033,0.033,4.74,4.75,Unknown,Ica,katie
+UR1147,AS,18,3,1,0.5,0.0,,,Unknown,Ocucaje,katie
+UR1148,AS,20,5,2,0.25,0.0,,,Unknown,Ocucaje,katie
+UR1149,AS,112,7,3,0.348,0.0,6.355,2.995,Unknown,Ocucaje,katie
+UR1150,AS,41,5,5,0.0,0.341,5.0,5.0,Unknown,Ica,katie
+UR1151,AS,47,2,2,0.0,0.426,2.0,2.0,Unknown,Pachacamac,katie
+UR1152,AS,118,24,7,0.559,0.314,17.365,6.07,Unknown,Ica,katie
+UR1154,AS,3,2,2,0.667,0.667,,,Unknown,near Lima,katie
+UR1161,AS,8,1,1,0.0,0.0,,,Unknown,Ica,katie
+UR1162A,AS,16,10,4,0.438,0.125,,,Unknown,Ica,katie
+UR1162B,AS,5,2,2,0.0,0.2,,,Unknown,Ica,katie
+UR1163,AS,27,2,2,0.0,0.0,,,Unknown,Pachacamac,katie
+UR1165,AS,21,5,4,0.048,0.381,,,Unknown,Pachacamac,katie
+UR1166,AS,362,20,9,0.21,0.354,11.125,6.78,Unknown,Ica,katie
+UR1167,AS,9,2,2,0.0,0.889,,,Unknown,Pachacamac,katie
+UR116A,UR,157,30,10,0.503,0.21,15.34,6.185,Unknown,Unknown,chandra
+UR116B,UR,42,14,9,0.31,0.095,13.62,8.825,Unknown,Unknown,chandra
+UR1175,AS,338,9,5,0.189,0.331,6.715,4.14,Unknown,Pachacamac,katie
+UR1176,AS,303,14,5,0.083,0.356,7.55,4.92,Unknown,Nazca,katie
+UR1179,AS,28,9,5,0.393,0.357,,,Unknown,Ica,katie
+UR117A,UR,16,10,4,0.5,0.5,,,Unknown,Paracas,chandra
+UR117B,UR,12,11,5,0.583,0.333,,,Unknown,Paracas,chandra
+UR117C,UR,23,5,3,0.391,0.783,,,Unknown,Paracas,chandra
+UR117D,UR,24,3,3,0.0,0.042,,,Unknown,Paracas,chandra
+UR118,UR,319,27,10,0.574,0.643,12.98,5.95,Unknown,Paracas,chandra
+UR1180,AS,35,7,4,0.143,0.543,,,Unknown,Ica,katie
+UR119,UR,301,24,9,0.213,0.432,11.49,6.505,Unknown,Paracas,tania
+UR120,UR,76,9,6,0.053,0.408,7.01,5.245,Unknown,Huacho,tania
+UR121,UR,39,8,6,0.205,0.564,,,Unknown,Nazca,tania
+UR122,UR,217,11,8,0.051,0.005,6.905,5.485,Unknown,Nazca,tania
+UR123,UR,65,7,3,0.554,0.615,6.375,2.885,Unknown,Pachacamac,tania
+UR124,UR,44,8,4,0.25,0.591,7.76,3.995,Unknown,Pachacamac,tania
+UR125,UR,8,1,1,0.0,1.0,,,Unknown,Paracas,tania
+UR127,UR,22,9,5,0.455,0.318,,,Unknown,Unknown,tania
+UR128,UR,44,4,2,0.205,0.205,3.935,2.0,Unknown,Unknown,eric
+UR129,UR,14,7,5,0.286,0.214,,,Unknown,Unknown,eric
+UR130,UR,126,20,10,0.143,0.659,10.705,6.835,Unknown,"Playa Miller #6, Arica, Chile",tania
+UR131A,UR,87,6,3,0.034,0.023,3.385,2.25,Unknown,Lluta Valley,cbrezine
+UR131B,UR,103,5,3,0.087,0.01,3.84,2.24,Unknown,Lluta Valley,cbrezine
+UR131C,UR,100,4,3,0.06,0.06,3.335,2.83,Unknown,Lluta Valley,cbrezine
+UR132,UR,57,16,8,0.439,0.421,14.62,7.37,Unknown,"Playa Miller #6, Arica, Chile",tania
+UR134,UR,12,5,3,0.25,0.333,,,Unknown,"Chancay, Central Coast",gurton
+UR135,UR,8,3,2,0.125,0.5,,,Unknown,"Chancay, Central Coast",eric
+UR136,UR,5,2,2,0.0,0.6,,,Unknown,"Chancay, Central Coast",eric
+UR137,UR,32,5,5,0.062,0.312,,,Unknown,"Chancay, Central Coast",eric
+UR138,UR,31,12,4,0.419,0.484,,,Unknown,Cuzco,eric
+UR139,UR,104,16,7,0.337,0.346,12.665,5.95,Unknown,Valle de Ica Hacienda Callango Ocucaje,eric
+UR140,UR,47,3,3,0.0,0.851,2.87,2.86,Unknown,Valle de Ica Hacienda Callango Ocucaje,eric
+UR141,UR,33,5,3,0.576,0.576,,,Unknown,Unknown,eric
+UR142,UR,123,30,9,0.667,0.447,16.715,6.79,Unknown,Valle de Ica Hacienda Callango Ocucaje,eric
+UR143,UR,133,19,8,0.594,0.406,12.63,5.735,Unknown,Valle de Ica Hacienda Callango Ocucaje,eric
+UR144,UR,96,2,2,0.0,0.0,2.0,2.0,Unknown,Valle de Pisco,eric
+UR145,UR,58,15,6,0.379,0.552,12.74,5.625,Unknown,Acari,eric
+UR146,UR,91,5,5,0.0,0.0,3.74,3.725,Unknown,Donation from the collection Belli,eric
+UR147,UR,59,9,4,0.492,0.153,7.59,3.4,Unknown,Unknown,eric
+UR148,UR,11,2,2,0.0,0.364,,,Unknown,Unknown,eric
+UR149,UR,255,26,8,0.608,0.435,15.085,6.705,Unknown,Hacienda Ullujalla y Callengo,eric
+UR150,UR,25,7,4,0.24,0.08,,,Unknown,Unknown,eric
+UR151,UR,20,6,3,0.35,0.85,,,Unknown,Valle de Ica Hacienda Callango Ocucaje,eric
+UR152,UR,33,11,6,0.515,0.03,,,Unknown,Hacienda Ullujalla y Callengo,eric
+UR153,UR,66,14,4,0.5,0.197,12.0,3.975,Unknown,Unknown,eric
+UR154,UR,20,2,2,0.0,0.0,,,Unknown,Valle de Ica Hacienda Callango Ocucaje,eric
+UR155,UR,35,9,5,0.143,0.486,,,Unknown,Valle de Ica Hacienda Callango Ocucaje,eric
+UR156,UR,14,1,1,0.0,1.0,,,Unknown,Tambo Colorado,eric
+UR157,UR,10,3,2,0.4,0.8,,,Unknown,Tambo Colorado,eric
+UR158,UR,18,2,2,0.0,0.056,,,Unknown,Tambo Colorado,eric
+UR159,UR,5,1,1,0.0,1.0,,,Unknown,Tambo Colorado,eric
+UR160,UR,25,6,4,0.16,0.0,,,Unknown,Unknown,eric
+UR161,UR,15,5,4,0.2,0.133,,,Unknown,Unknown,eric
+UR162,UR,17,9,7,0.235,0.294,,,Unknown,Valle de Ica Hacienda Callango Ocucaje,eric
+UR164,UR,7,2,2,0.143,0.143,,,Unknown,Unknown,eric
+UR165,UR,225,11,6,0.093,0.013,6.035,4.22,Puruchuco,La Molina,cbrezine
+UR166,UR,30,9,5,0.333,0.4,,,Unknown,"Huando, Chancay, Peru (Gaffron Collection)",gurton
+UR167,UR,40,3,2,0.025,0.0,3.0,2.0,Unknown,Ica or Cajamarquilla,gurton
+UR168,UR,19,4,3,0.053,0.0,,,Unknown,Ica,gurton
+UR169,UR,151,13,7,0.185,0.132,8.52,6.61,Unknown,"Ica Valley, near Callango",gurton
+UR170,UR,67,6,5,0.045,0.0,4.4,3.725,Unknown,Unknown,gurton
+UR171,UR,39,1,1,0.0,0.0,,,Unknown,Unknown,gurton
+UR172,UR,28,4,3,0.25,0.0,,,Unknown,Unknown,gurton
+UR173,UR,7,3,3,0.143,0.286,,,Unknown,Unknown,gurton
+UR174,UR,9,6,6,0.111,0.111,,,Unknown,Unknown,gurton
+UR175,UR,12,6,3,0.583,0.667,,,Unknown,Unknown,gurton
+UR177,UR,90,30,7,0.444,0.178,17.815,5.625,Unknown,Chuquitanta,gurton
+UR178,UR,14,1,1,1.0,1.0,,,Unknown,Cajamarquilla,gurton
+UR179,UR,18,2,2,1.0,0.944,,,Unknown,Cajamarquilla,gurton
+UR180,UR,12,2,1,1.0,1.0,,,Unknown,Cajamarquilla,gurton
+UR182,UR,30,9,6,0.167,0.333,,,Unknown,Chuquitanta,gurton
+UR183,UR,33,9,7,0.121,0.242,,,Unknown,"Chancay, Central Coast",gurton
+UR184,UR,39,14,6,0.359,0.385,,,Unknown,Unknown,gurton
+UR185,UR,13,6,4,0.231,0.077,,,Unknown,Unknown,gurton
+UR186,UR,63,12,4,0.46,0.651,10.12,3.64,Unknown,"Hda. Huando, Chancay",gurton
+UR187,UR,133,33,8,0.398,0.218,19.03,7.075,Unknown,"Ica Valley, near Callango",gurton
+UR188,UR,78,10,4,0.218,0.538,8.765,3.97,Unknown,Unknown,gurton
+UR189,UR,88,13,5,0.239,0.455,9.17,4.435,Unknown,Unknown,
+UR190,UR,417,22,8,0.182,0.225,9.84,5.78,"Central Coast, Peru","Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)",gurton
+UR191,UR,28,10,3,0.464,0.393,,,"Central Coast, Peru","Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)",gurton
+UR192,UR,68,17,7,0.794,0.412,12.315,5.865,"Central Coast, Peru","Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)",gurton
+UR193,UR,226,15,5,0.637,0.942,8.91,2.555,"Central Coast, Peru","Peru, Fundort: Pachacmac",gurton
+UR194,UR,120,6,5,0.067,0.142,5.85,4.92,"South Coast, Peru",Ica,gurton
+UR195,UR,166,15,9,0.157,0.416,10.24,7.025,"Central Coast, Peru",Huacho,gurton
+UR196,UR,139,26,8,0.403,0.353,15.435,6.35,"Central Coast, Peru",Pachacamac,gurton
+UR197,UR,235,31,8,0.357,0.472,14.61,6.4,"Central Coast, Peru",Pachacamac,gurton
+UR198,UR,368,22,4,0.641,0.312,12.29,3.895,"South Coast, Peru","Santa Clara, Nazca",gurton
+UR199,UR,126,11,5,0.341,0.452,8.19,4.585,"Central Coast, Peru",Pachacamac,gurton
+UR200,UR,84,8,4,0.393,0.286,6.925,4.0,"Central Coast, Peru",Pachacamac,gurton
+UR201,UR,135,14,6,0.326,0.215,9.795,5.215,"Central Coast, Peru",Pachacamac,gurton
+UR202,UR,113,14,6,0.195,0.336,9.95,5.575,"Central Coast, Peru",Pachacamac,gurton
+UR203,UR,166,16,10,0.247,0.651,10.69,6.695,Unknown,Unknown,gurton
+UR204,UR,78,20,10,0.308,0.474,15.385,8.37,Unknown,Unknown,gurton
+UR205,UR,50,16,10,0.18,0.62,14.265,8.985,Unknown,Unknown,gurton
+UR206,UR,12,6,4,0.167,0.5,,,Unknown,Unknown,gurton
+UR207,UR,164,61,10,0.579,0.506,24.05,6.64,Unknown,Unknown,gurton
+UR208,UR,190,21,11,0.416,0.374,14.95,8.91,"Central Coast, Peru",Pachacamac,gurton
+UR209,UR,94,31,10,0.521,0.468,20.375,8.175,"South Coast, Peru",Pisco,gurton
+UR210,UR,77,7,4,0.351,0.675,6.305,3.265,"South Coast, Peru",Ica/Pisco,gurton
+UR211,UR,95,13,9,0.274,0.189,11.595,8.27,"South Coast, Peru",Ica/Pisco,gurton
+UR212,UR,196,8,4,0.434,0.005,4.73,3.14,"Central Coast, Peru",Pachacamac,gurton
+UR213,UR,161,29,13,0.193,0.466,14.015,7.875,"Central Coast, Peru",Pachacamac,gurton
+UR214,UR,16,7,4,0.312,0.5,,,"Central Coast, Peru",Pachacamac,gurton
+UR215,UR,266,62,12,0.417,0.56,18.105,6.53,Unknown,Unknown,gurton
+UR216,UR,169,13,9,0.379,0.55,8.25,6.765,"Central Coast, Peru",Pachacamac,gurton
+UR217,UR,117,17,7,0.376,0.675,10.635,5.42,"South Coast, Peru",Ocucaje,gurton
+UR218,UR,62,5,4,0.032,0.484,4.9,4.0,"Central Coast, Peru",Pachacamac,gurton
+UR219,UR,65,49,16,0.646,0.123,32.775,13.29,"South Coast, Peru",Ica,gurton
+UR220,UR,9,6,4,0.333,0.444,,,"South Coast, Peru",Ica,gurton
+UR221,UR,10,4,4,0.0,0.6,,,"South Coast, Peru",Ica,gurton
+UR222,UR,58,5,5,0.0,0.5,4.66,4.66,"South Coast, Peru",Ica,gurton
+UR223,UR,80,4,3,0.212,0.112,3.525,2.525,"South Coast, Peru",Ica,gurton
+UR225,UR,23,11,8,0.13,0.217,,,Unknown,Unknown,gurton
+UR226,UR,47,14,5,0.362,0.447,12.91,4.745,"Central Coast, Peru",Pachacamac,gurton
+UR227,UR,22,3,2,0.909,0.909,,,"South Coast, Peru",Pisco,gurton
+UR228,UR,73,13,4,0.849,0.822,10.435,3.08,"South Coast, Peru",Pisco,gurton
+UR229,UR,193,21,13,0.218,0.425,13.975,9.39,"South Coast, Peru",Ica,gurton
+UR230,UR,58,6,6,0.0,0.0,5.98,5.965,"Central Coast, Peru",Pachacamac,gurton
+UR231,UR,954,30,13,0.34,0.058,17.365,10.26,"South Coast, Peru",Ica/Pisco,gurton
+UR232,UR,134,14,9,0.284,0.216,10.815,7.72,"North-Central Coast, Peru",Huacho,gurton
+UR233,UR,144,26,14,0.257,0.062,15.15,11.305,"North-Central Coast, Peru",Huacho,gurton
+UR234,UR,98,5,3,0.184,0.796,4.375,2.41,Unknown,Unknown,gurton
+UR235,UR,193,20,13,0.161,0.005,11.755,8.525,Unknown,Unknown,gurton
+UR237,UR,26,8,6,0.192,0.038,,,Unknown,Unknown,gurton
+UR238,UR,86,19,11,0.174,0.326,13.145,8.475,"South Coast, Peru",Ica,gurton
+UR239,UR,52,28,8,0.5,0.404,23.055,7.39,Unknown,Unknown,gurton
+UR240,UR,76,8,6,0.092,0.013,5.82,4.57,Unknown,Unknown,gurton
+UR241,UR,71,14,5,0.338,0.507,10.66,4.55,Unknown,Unknown,gurton
+UR242,UR,232,18,8,0.75,0.543,12.49,4.59,"South Coast, Peru",Ica,gurton
+UR243,UR,29,2,2,0.0,0.759,,,"Central Coast, Peru",Pachacamac,gurton
+UR244,UR,72,6,2,0.75,0.972,5.365,1.825,"Central Coast, Peru",Pachacamac,gurton
+UR245,UR,7,4,3,0.429,0.429,,,"Central Coast, Peru",Pachacamac,gurton
+UR246,UR,34,6,2,0.5,0.735,,,"Central Coast, Peru",Pachacamac,gurton
+UR247,UR,15,1,1,0.0,1.0,,,"Central Coast, Peru",Pachacamac,gurton
+UR248,UR,24,14,6,0.542,0.542,,,"Central Coast, Peru",Pachacamac,gurton
+UR249,UR,15,12,6,0.667,0.467,,,"Central Coast, Peru",Pachacamac,gurton
+UR250,UR,19,3,3,0.0,0.0,,,"South Coast, Peru",Ica,gurton
+UR251,UR,49,10,5,0.122,0.347,9.22,4.97,Unknown,Unknown,julia
+UR252,UR,75,15,6,0.733,0.547,11.94,5.01,Unknown,Unknown,julia
+UR253,UR,91,25,12,0.319,0.198,16.125,8.52,Unknown,Pachacamac,julia
+UR254,UR,51,2,2,0.0,0.686,2.0,2.0,Unknown,Pachacamac,julia
+UR255,UR,89,5,3,0.034,0.022,2.885,2.165,Unknown,Incahuasi,julia
+UR256,UR,118,5,2,0.042,0.0,3.5,1.975,Unknown,Incahuasi,julia
+UR257,UR,14,2,2,0.0,0.0,,,Unknown,Incahuasi,gurton
+UR258,UR,48,3,3,0.0,0.0,3.0,3.0,Unknown,Incahuasi,julia
+UR259,UR,15,3,2,0.067,0.0,,,Unknown,Incahuasi,julia
+UR260,UR,47,5,4,0.191,0.17,4.715,3.8,Unknown,Incahuasi,julia
+UR261,UR,15,2,2,0.0,0.0,,,Unknown,Incahuasi,julia
+UR262,UR,490,27,12,0.141,0.016,7.635,4.695,Unknown,Incahuasi,julia
+UR263,UR,237,12,6,0.143,0.139,8.19,5.63,Unknown,Incahuasi,julia
+UR264,UR,210,20,8,0.286,0.305,11.885,6.19,Unknown,Incahuasi,julia
+UR265,UR,14,2,2,0.0,0.0,,,Unknown,Incahuasi,julia
+UR266,UR,174,23,12,0.167,0.178,12.43,9.055,Unknown,Incahuasi,julia
+UR267A,UR,88,4,3,0.136,0.58,3.83,2.885,Unknown,Incahuasi,julia
+UR267B,UR,131,6,4,0.122,0.55,5.1,3.52,Unknown,Incahuasi,julia
+UR268,UR,169,16,9,0.29,0.467,10.345,6.0,Unknown,Incahuasi,julia
+UR269,UR,330,17,7,0.115,0.327,8.575,5.28,Unknown,Incahuasi,julia
+UR270,UR,381,14,7,0.055,0.478,7.39,5.64,Unknown,Incahuasi,julia
+UR271,UR,92,13,6,0.696,0.315,9.79,5.075,Unknown,Incahuasi,julia
+UR272,UR,362,22,8,0.185,0.666,9.655,4.99,Unknown,Incahuasi,julia
+UR273A,UR,87,8,5,0.057,0.379,6.51,4.75,Unknown,Incahuasi,julia
+UR273B,UR,124,20,8,0.21,0.435,11.795,6.555,Unknown,Incahuasi,julia
+UR274A,UR,94,9,9,0.0,0.202,8.905,8.905,Unknown,Incahuasi,julia
+UR274B,UR,94,21,11,0.149,0.245,13.5,9.295,Unknown,Incahuasi,julia
+UR275,UR,125,14,7,0.192,0.376,8.85,5.24,Unknown,Incahuasi,julia
+UR276,UR,15,3,2,0.333,0.667,,,Unknown,Incahuasi,julia
+UR277,UR,247,13,6,0.097,0.421,8.83,5.725,Unknown,Incahuasi,julia
+UR278,UR,322,8,5,0.022,0.45,4.655,3.72,Unknown,Incahuasi,julia
+UR279,UR,21,1,1,0.0,0.0,,,Unknown,Incahuasi,julia
+UR280,UR,246,15,6,0.085,0.297,7.575,4.775,Unknown,Incahuasi,julia
+UR282,UR,32,15,9,0.406,0.312,,,Unknown,"Huaca San Pedro, Armatambo",jclindaniel
+UR283,UR,183,31,12,0.208,0.377,14.795,8.6,Unknown,"Huaca San Pedro, Armatambo",jclindaniel
+UR284,UR,22,5,4,0.182,0.591,,,Unknown,"Armatambo, Huaca San Pedro",jclindaniel
+UR285,UR,14,6,3,0.357,0.357,,,Unknown,"Armatambo, Huaca San Pedro",jclindaniel
+UR286,UR,6,5,4,0.167,0.333,,,Unknown,"Armatambo, Huaca San Pedro",jclindaniel
+UR287,UR,55,17,9,0.273,0.473,14.98,8.205,Unknown,"Armatambo, Huaca San Pedro",jclindaniel
+UR288,UR,29,16,7,0.448,0.414,,,Unknown,"Armatambo, Huaca San Pedro",jclindaniel
+UR289,UR,35,12,8,0.514,0.486,,,Unknown,"Armatambo, Huaca San Pedro",jclindaniel
+UR290,UR,8,7,4,1.0,0.25,,,Unknown,"Armatambo, Huaca San Pedro",jclindaniel
+UR291A,UR,166,25,7,0.446,0.62,12.56,5.385,Unknown,"Armatambo, Huaca San Pedro",jclindaniel
+UR292A,UR,56,16,12,0.071,0.143,13.46,10.75,Unknown,"Armatambo, Huaca San Pedro",jclindaniel
+UR293,UR,4,4,2,0.5,0.75,,,Unknown,"Armatambo, Huaca San Pedro",jclindaniel
+UR294,UR,5,5,4,0.2,0.2,,,Unknown,"Armatambo, Huaca San Pedro",jclindaniel

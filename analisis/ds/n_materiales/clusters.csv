@@ -1,0 +1,363 @@
+kfg,lab,museo,region,eje_tors,eje_ndS,eje_union,eje_term
+AS074,4,"Musee de l Homme, Paris, France",Unknown,S,S,R,K
+AS075,4,"Musee de l Homme, Paris, France",Unknown,S,S,R,K
+AS076,4,"Musee de l Homme, Paris, France",Unknown,S,Z,V,K
+AS079,4,"Musee de l Homme, Paris, France",Unknown,S,S,R,K
+AS080,4,"Musee de l Homme, Paris, France",Unknown,S,S,V,K
+AS191,2,"American Museum of Natural History, NY",Unknown,S,S,V,K
+AS192,1,"American Museum of Natural History, NY",Unknown,S,S,V,K
+AS197,4,"American Museum of Natural History, NY",Unknown,S,S,R,K
+AS199,2,"American Museum of Natural History, NY",Unknown,S,Z,R,K
+AS200,1,"American Museum of Natural History, NY",Unknown,S,S,V,K
+HP001,2,Museo de Sitio de Pachacamac,near Lima,S,Z,V,K
+HP002,4,Museo de Sitio de Pachacamac,Unknown,S,Z,R,K
+HP003,4,Museo de Sitio de Pachacamac,Unknown,S,Z,R,K
+HP004,4,Museo de Sitio de Pachacamac,Unknown,S,Z,V,K
+HP005,4,Museo de Sitio de Pachacamac,Unknown,S,Z,R,K
+HP006,0,Museo de Sitio de Pachacamac,Unknown,S,Z,V,K
+HP007,4,Museo de Sitio de Pachacamac,Unknown,S,Z,R,B
+HP008,0,Museo de Sitio de Pachacamac,Unknown,S,Z,R,B
+HP010,2,Museo de Sitio de Pachacamac,Unknown,S,Z,R,K
+HP011,4,Museo de Sitio de Pachacamac,Unknown,S,Z,R,B
+HP012,4,Museo de Sitio de Pachacamac,Unknown,S,Z,R,B
+HP013,0,Museo de Sitio de Pachacamac,Unknown,S,Z,V,K
+HP014,4,Museo de Sitio de Pachacamac,Unknown,S,Z,R,K
+HP015,3,Museo de Sitio de Pachacamac,Unknown,S,Z,V,B
+HP017,4,Museo de Sitio de Pachacamac,Unknown,S,Z,V,K
+HP018,4,Museo de Sitio de Pachacamac,Unknown,S,Z,R,K
+HP021,2,Museo de Sitio de Pachacamac,Unknown,S,Z,V,K
+HP022,3,Museo de Sitio de Pachacamac,Unknown,S,Z,R,K
+HP023,4,Museo de Sitio de Pachacamac,Unknown,S,Z,R,K
+HP027,4,Museo de Sitio de Pachacamac,Unknown,S,Z,R,K
+HP029,4,Museo de Sitio de Pachacamac,Unknown,S,Z,V,K
+HP030,4,Museo de Sitio de Pachacamac,Unknown,S,Z,R,K
+HP032,2,Museo de Sitio de Pachacamac,Unknown,S,Z,V,K
+HP033,4,"Museo Nacional de Arqueología, Antropología e Historia del Perú",Unknown,S,Z,V,K
+HP034,4,"Museo Nacional de Arqueología, Antropología e Historia del Perú",Unknown,S,Z,R,K
+HP038,2,"Museo Nacional de Arqueología, Antropología e Historia de Perú",Unknown,S,S,R,U
+HP039,4,"Museo Nacional de Arqueologia, Anthropologia e Histora del Peru",Unknown,S,S,R,K
+HP040,3,"Museo Nacional de Arqueología, Antropología e Historia del Perú",Unknown,S,Z,V,K
+HP042,4,"Museo Nacional de Arqueología, Antropología, e Historia del Perú",Unknown,S,Z,R,K
+HP043,3,"Museo Nacional de Arqueología, Antropología e Historia del Perú",Unknown,S,Z,R,K
+HP044,1,"Museo Nacional de Arqueología, Antropología e Historia del Perú",Unknown,S,S,V,U
+HP045,3,"Museo Nacional de Arqueología, Antropología e Historia del Perú",Unknown,S,S,V,B
+HP046_A,4,"Museo Nacional de Arqueologia, Antropologia e Historia del Peru",Unknown,S,Z,V,B
+HP046_B,4,"Museo Nacional de Arqueologia, Antropologia e Historia Nacional del Peru",Unknown,S,Z,R,B
+HP047,2,"Museo Nacional de Arqueologia, Antropologia e Historia del Peru",Unknown,S,S,V,B
+HP050,2,"Museo Nacional de Arqueologia, Antropologia e Historia del Peru",Unknown,S,Z,V,B
+HP051_A,2,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",Unknown,S,Z,V,K
+HP051_B,3,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",Unknown,S,Z,V,K
+HP053,3,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",Unknown,S,S,V,B
+HP054,3,"Museo Nacion de Arqueologia, Anthropologia e Historia del Peru",Unknown,S,Z,R,U
+HP055,2,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",Unknown,S,Z,R,K
+HP056,4,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",Unknown,S,S,R,K
+HP057,3,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",Unknown,S,Z,V,B
+JC001,4,Proyecto Incahuasi,Unknown,Z,Z,R,K
+JC003,0,Proyecto Incahuasi,Unknown,Z,Z,R,K
+JC005,4,Proyecto Incahuasi,Unknown,Z,Z,R,K
+JC006,4,Proyecto Incahuasi,Unknown,Z,Z,R,K
+JC009,1,Proyecto Incahuasi,Unknown,Z,Z,R,K
+JC010,3,Proyecto Incahuasi,Unknown,Z,Z,R,U
+JC011,3,Proyecto Incahuasi,Unknown,Z,Z,R,B
+JC013,1,Proyecto Incahuasi,Unknown,Z,Z,R,B
+JC018,0,Proyecto Incahuasi,Unknown,Z,Z,V,B
+JC023,4,Proyecto Incahuasi,Unknown,Z,Z,R,U
+KH0001,2,"American Museum of Natural History, NY",Unknown,Z,Z,V,K
+KH0032,3,"Peabody Museum, Harvard University",Unknown,S,Z,V,K
+KH0033,4,"Peabody Museum, Harvard University",Unknown,S,Z,R,U
+KH0049,1,"Museo Nacional de Arqueología, Antropología e Historia de Perú",Unknown,S,S,V,U
+KH0057,4,"Museo Nacional de Arqueología, Antropología, e Historia del Perú",Unknown,S,S,R,K
+KH0067,0,Valle de Ica Hacienda Callango Ocucaje,Unknown,S,Z,V,K
+KH0081,4,"Museo Nac., Pueblo Libre",Unknown,Z,S,R,K
+KH0083,2,Museo Chileno de Arte Precolombino,"Inka, Playa Miller",S,S,R,K
+KH0197,4,"Ethnologisches Museum, Berlin, Germany",Unknown,S,Z,R,K
+KH0227,4,"Museum fur Volkerkunde, Vienna",Unknown,S,S,V,K
+KH0267,4,Museo Chileno de Arte Precolombino,Unknown,S,S,V,K
+KH0350,4,"Museum of Worldculture, Goteborg, Sweden",Unknown,S,Z,V,K
+MM001,4,Landesmuseum Hannover,Huacho,S,Z,V,K
+MM002,4,Lippisches Landesmuseum Detmold,Unknown,S,S,V,K
+MM003,3,Lippisches Landesmuseum Detmold,Unknown,S,S,V,B
+MM004,3,Lippisches Landesmuseum Detmold,Unknown,S,S,R,B
+MM005,4,"Museum am Rothenbaum, Kulturen und Kunste der Welt (MARKK), Hamburg. Formerly Museum fur Volkerkunde",Unknown,S,Z,R,B
+MM006_AN001,4,"Museum Fur Volkerkunde, Hamburg, Germany",unknown,S,Z,R,K
+MM007_AN002,4,"Museum Fur Volkerkunde, Hamburg, Germany",unknown,S,Z,R,B
+MM008,4,Museum der Kulturen (Basel),Unknown,S,S,V,K
+MM009,4,Museum der Kulturen (Basel),Unknown,S,S,V,K
+MM015,4,Museum der Kulturen (Basel),Unknown,S,S,V,K
+MM016,1,Museum der Kulturen (Basel),Unknown,S,S,V,K
+MM017,0,Museum der Kulturen (Basel),Unknown,S,S,V,K
+MM018,2,"Museo de América, Madrid, Spain",Unknown,S,Z,R,K
+MM019,4,"Linden Museum, Stuttgart, Germany",Unknown,S,S,R,K
+MM020,4,"Linden Museum, Stuttgart, Germany",Unknown,S,Z,R,K
+MM021,4,"Weltkulturenmuseum, Frankfurt, Germany",Unknown,S,Z,V,K
+MM1086,1,Museum der Kulturen (Basel),Unknown,S,Z,V,K
+QU002,4,Dallas Museum of Art,"Inka, Late Horizon",S,S,R,K
+QU003,4,Dallas Museum of Art,"Inka, Late Horizon",S,S,R,K
+QU004,4,Dallas Museum of Art,"Inka, Late Horizon",S,S,V,U
+QU005,4,Dallas Museum of Art,"Inka, Late Horizon",S,S,V,U
+QU007,4,Dallas Museum of Art,"Inka, Late Horizon",S,Z,V,U
+QU008,4,Dallas Museum of Art,"Inka, Late Horizon",S,Z,R,U
+QU009,4,Dallas Museum of Art,"Inka, Late Horizon",S,S,V,U
+QU010,4,Dallas Museum of Art,"Inka, Late Horizon",S,Z,V,U
+QU011,4,Dallas Museum of Art,"Inka, Late Horizon",S,S,R,U
+QU012,4,Dallas Museum of Art,"Inka, Late Horizon",S,S,V,U
+QU014,4,Dallas Museum of Art,"Inka, Late Horizon",S,S,R,B
+QU015,4,Dallas Museum of Art,"Inka, Late Horizon",S,Z,R,U
+QU016,4,Dallas Museum of Art,"Inka, Late Horizon",S,Z,V,U
+QU017,4,Dallas Museum of Art,"Inka, Late Horizon",S,S,V,U
+QU018,4,Dallas Museum of Art,"Inka, Late Horizon",S,S,R,U
+QU019,4,Dallas Museum of Art,"Inka, Late Horizon",S,S,V,U
+QU020,2,"Logan Museum, Beloit College, Beloit, Wisconsin, USA",Unknown,S,Z,R,K
+QU021,4,"Logan Museum, Beloit College, Beloit, Wisconsin, USA",Unknown,S,S,V,K
+QU022,0,"Logan Museum, Beloit College, Beloit, Wisconsin, USA",Unknown,S,Z,R,K
+UR001,4,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,Z,R,K
+UR002,4,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,S,V,K
+UR003,4,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,S,V,K
+UR004,3,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,Z,V,K
+UR005,2,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,Z,R,K
+UR006,3,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,Z,V,K
+UR007,3,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,S,V,U
+UR008,2,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,Z,V,K
+UR009,3,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,Z,R,K
+UR010,4,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,Z,V,K
+UR011,4,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,S,R,K
+UR012,4,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,S,R,K
+UR013,1,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,S,V,K
+UR014,4,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,S,R,K
+UR015,4,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,S,V,K
+UR016,1,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,S,R,K
+UR017,4,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,Z,R,K
+UR018,1,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,Z,R,K
+UR019,0,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,Z,V,U
+UR020,4,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,Z,R,K
+UR021,3,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,Z,V,K
+UR022,2,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,S,Z,R,K
+UR026,3,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,S,Z,V,B
+UR028,3,"Museum Fur Volkerkunde, Munich, W. Germany",Nazca,S,S,R,K
+UR032,4,Phoebe Hearst Museum of Anthropology,Unknown,S,Z,R,K
+UR033,0,Phoebe Hearst Museum of Anthropology,Unknown,S,Z,R,K
+UR034,4,"Museo de la Nacion, Lima, Peru",Unknown,S,Z,R,K
+UR037,4,"Museo Amano, Lima, Peru",Unknown,S,S,R,K
+UR038,4,"Museo Amano, Lima, Peru",Unknown,S,Z,V,K
+UR039,1,Universidad de San Martin de Porres,Unknown,Z,S,V,K
+UR044,4,"Peabody Museum, Harvard University",Unknown,S,Z,R,K
+UR045,4,Museo Larco,Unknown,S,Z,R,B
+UR046,2,Museo Larco,Unknown,S,Z,V,K
+UR047,4,Museo Larco,Unknown,S,Z,R,U
+UR048,4,Museo Larco,Unknown,S,Z,R,K
+UR049,4,Museo Larco,Unknown,S,S,R,K
+UR053A,4,Banco Central de la Reserva,Unknown,S,S,R,K
+UR053B,4,Banco Central de la Reserva,Unknown,S,S,R,K
+UR053C,4,Banco Central de la Reserva,Unknown,S,Z,V,K
+UR053D,4,Banco Central de la Reserva,Unknown,S,S,R,K
+UR053E,4,Banco Central de la Reserva,Unknown,S,S,R,K
+UR056A,4,"Rijksmuseum fur Volkerkunde, Leiden, Holland",Unknown,S,Z,R,K
+UR056B,4,"Rijksmuseum fur Volkerkunde, Leiden, Holland",Unknown,S,Z,V,K
+UR056C,4,"Rijksmuseum fur Volkerkunde, Leiden, Holland",Unknown,S,Z,R,K
+UR057,3,"Museum Fur Volkerkunde, Munich, W. Germany",Nazca,S,S,R,K
+UR058A,4,"Museo Arqueologico San Miguel de Azapa (MASMA), Arica, Chile",Unknown,S,S,R,K
+UR058B,4,"Museo Arqueologico San Miguel de Azapa (MASMA), Arica, Chile",Unknown,S,S,R,K
+UR059,3,"Lowe Art Museum, University of Miami",Unknown,S,Z,V,K
+UR061,2,Puruchuco Museum,Puruchuco,S,Z,V,K
+UR062,4,Puruchuco Museum,Puruchuco,S,Z,R,K
+UR063,4,Puruchuco Museum,Puruchuco,S,Z,R,K
+UR064,4,Puruchuco Museum,Puruchuco,S,Z,R,K
+UR066,4,Puruchuco Museum,Puruchuco,S,S,V,K
+UR067,4,Unknown,Puruchuco,S,Z,V,K
+UR068,4,Puruchuco Museum,Puruchuco,S,Z,R,K
+UR069,4,Puruchuco Museum,Puruchuco,S,Z,V,K
+UR072,4,Puruchuco Museum,Puruchuco,S,Z,R,K
+UR073,4,Puruchuco Museum,Puruchuco,S,Z,R,K
+UR074,4,Puruchuco Museum,Puruchuco,S,Z,R,K
+UR077,4,Puruchuco Museum,Puruchuco,S,Z,R,K
+UR079,4,Puruchuco Museum,Puruchuco,S,Z,V,K
+UR080,4,Puruchuco Museum,Puruchuco,S,Z,R,K
+UR085,4,Museo Temple Radicati,Unknown,S,S,V,K
+UR086,4,Museo Temple Radicati,Unknown,S,Z,V,K
+UR087,4,Museo Temple Radicati,Unknown,S,Z,R,K
+UR088,4,Museo Temple Radicati,Unknown,S,Z,V,K
+UR089,4,Museo Temple Radicati,Unknown,S,Z,V,K
+UR090,4,Museo Temple Radicati,Unknown,S,Z,V,K
+UR091,4,Museo Temple Radicati,Unknown,S,Z,V,K
+UR093,2,Museo Temple Radicati,Unknown,S,S,V,K
+UR094,4,Museo Temple Radicati,Unknown,S,S,R,K
+UR095,0,Museo Temple Radicati,Unknown,S,S,V,K
+UR097,4,Museo Temple Radicati,Unknown,S,S,V,K
+UR102,1,Museo Temple Radicati,Unknown,S,S,V,B
+UR103,4,Museo Temple Radicati,Unknown,Z,Z,V,K
+UR1032,4,"Peabody Museum, Harvard University",Unknown,S,S,V,U
+UR1033B,2,"Peabody Museum, Harvard University",Unknown,S,Z,R,K
+UR1033D,4,"Peabody Museum, Harvard University",Unknown,S,Z,R,K
+UR1033F,4,"Peabody Museum, Harvard University",Unknown,S,Z,V,K
+UR1033G,2,"Peabody Museum, Harvard University",Unknown,S,Z,R,K
+UR104,0,Museo Temple Radicati,Unknown,S,S,R,K
+UR1049,4,"Museo Amano, Lima, Peru",Unknown,S,Z,R,K
+UR1051,4,"Museo Nacional, Lima, Peru",Unknown,S,Z,R,K
+UR1053,2,"Museo de Ica, Ica, Peru",Unknown,S,Z,V,K
+UR1057,4,"Museo de Ica, Ica, Peru",Unknown,S,S,R,K
+UR1058,2,"Museo de Ica, Ica, Peru",Unknown,S,Z,V,K
+UR106,0,Museo Temple Radicati,Unknown,S,Z,V,K
+UR107,1,Museo Temple Radicati,Unknown,S,Z,V,K
+UR108,1,Museo Temple Radicati,Unknown,S,S,V,K
+UR1084,2,"Musee Quai Branly, Paris, France",Unknown,S,Z,V,K
+UR1087,2,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,S,Z,R,K
+UR1088,4,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,S,S,R,K
+UR109,4,Museo Temple Radicati,Unknown,S,Z,R,K
+UR1091,4,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,S,Z,V,K
+UR1095,2,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,S,Z,V,K
+UR1096,2,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,S,Z,V,K
+UR1104,2,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,V,K
+UR111,4,Museo Temple Radicati,Unknown,S,S,R,B
+UR113,4,"Museum of Worldculture, Goteborg, Sweden",Unknown,S,Z,R,K
+UR114,4,"Museum of Worldculture, Goteborg, Sweden",Unknown,S,S,V,K
+UR116A,3,"Museum of Worldculture, Goteborg, Sweden",Unknown,S,Z,R,K
+UR116B,1,"Museum of Worldculture, Goteborg, Sweden",Unknown,S,Z,R,K
+UR117C,2,"Museum of Worldculture, Goteborg, Sweden",Unknown,S,Z,V,B
+UR117D,1,"Museum of Worldculture, Goteborg, Sweden",Unknown,S,Z,V,K
+UR118,2,"Museum of Worldculture, Goteborg, Sweden",Unknown,S,S,V,K
+UR119,4,"Museum of Worldculture, Goteborg, Sweden",Unknown,S,S,V,K
+UR120,1,"Museum of Worldculture, Goteborg, Sweden",Unknown,S,Z,V,B
+UR121,4,"Museum of Worldculture, Goteborg, Sweden",Unknown,S,S,R,K
+UR122,1,"Museum of Worldculture, Goteborg, Sweden",Unknown,S,S,V,B
+UR123,4,"Museum of Worldculture, Goteborg, Sweden",Unknown,S,S,R,B
+UR124,4,"Museum of Worldculture, Goteborg, Sweden",Unknown,S,Z,V,K
+UR125,2,"Museum of Worldculture, Goteborg, Sweden",Unknown,S,S,V,K
+UR128,3,"Museum of Worldculture, Goteborg, Sweden",Unknown,S,Z,V,B
+UR130,4,Museo Chileno de Arte Precolombino,Unknown,S,S,R,K
+UR131A,1,Museo Chileno de Arte Precolombino,Unknown,S,S,V,B
+UR131B,1,Museo Chileno de Arte Precolombino,Unknown,S,S,V,K
+UR131C,1,Museo Chileno de Arte Precolombino,Unknown,S,S,V,K
+UR137,1,"Lowe Art Museum, University of Miami",Unknown,S,S,V,K
+UR138,4,"Lowe Art Museum, University of Miami",Unknown,S,Z,V,K
+UR139,4,Museo Regional de Ica,Unknown,S,Z,V,K
+UR141,4,Museo Regional de Ica,Unknown,S,Z,V,B
+UR142,4,Museo Regional de Ica,Unknown,S,S,V,K
+UR143,4,Museo Regional de Ica,Unknown,S,S,R,K
+UR145,4,Museo Regional de Ica,Unknown,S,S,R,K
+UR146,3,Museo Regional de Ica,Unknown,S,Z,R,B
+UR147,1,Museo Regional de Ica,Unknown,S,Z,R,B
+UR148,1,Museo Regional de Ica,Unknown,S,Z,R,K
+UR149,4,Museo Regional de Ica,Unknown,S,Z,V,K
+UR150,1,Museo Regional de Ica,Unknown,S,Z,R,K
+UR151,2,Museo Regional de Ica,Unknown,S,Z,V,K
+UR152,1,Museo Regional de Ica,Unknown,S,Z,V,B
+UR153,1,Museo Regional de Ica,Unknown,S,Z,V,B
+UR154,1,Museo Regional de Ica,Unknown,S,Z,V,B
+UR155,3,Museo Regional de Ica,Unknown,S,Z,V,B
+UR160,1,Museo Regional de Ica,Unknown,S,Z,V,K
+UR161,3,Valle de Ica Hacienda Callango Ocucaje,Unknown,S,S,V,B
+UR162,0,Museo Regional de Ica,Unknown,S,Z,V,B
+UR164,1,Museo Regional de Ica,Unknown,S,Z,R,B
+UR165,3,Puruchuco Museum,Puruchuco,S,Z,R,K
+UR166,4,"American Museum of Natural History, NY",Unknown,S,S,V,K
+UR168,3,"American Museum of Natural History, NY",Unknown,S,S,R,K
+UR169,3,"American Museum of Natural History, NY",Unknown,S,S,R,K
+UR170,1,"American Museum of Natural History, NY",Unknown,S,Z,V,K
+UR172,4,"American Museum of Natural History, NY",Unknown,S,Z,R,K
+UR173,0,"American Museum of Natural History, NY",Unknown,S,Z,V,K
+UR174,0,"American Museum of Natural History, NY",Unknown,S,Z,V,K
+UR175,4,"American Museum of Natural History, NY",Unknown,S,Z,R,K
+UR177,3,"American Museum of Natural History, NY",Unknown,S,Z,R,K
+UR178,2,"American Museum of Natural History, NY",Unknown,S,S,V,K
+UR182,1,"American Museum of Natural History, NY",Unknown,S,S,R,K
+UR183,4,"American Museum of Natural History, NY",Unknown,S,Z,R,K
+UR184,4,"American Museum of Natural History, NY",Unknown,S,S,R,B
+UR186,4,"American Museum of Natural History, NY",Unknown,S,S,V,K
+UR187,4,"American Museum of Natural History, NY",Unknown,S,S,R,K
+UR188,4,Musee Quai Branly,Unknown,S,Z,R,K
+UR189,4,"Musee Quai Branly, Paris, France",Unknown,S,Z,V,K
+UR190,1,"Musee Quai Branly, Paris, France","Central Coast, Peru",S,Z,V,K
+UR191,3,"Musee Quai Branly, Paris, France","Central Coast, Peru",S,Z,V,K
+UR192,4,"Musee Quai Branly, Paris, France","Central Coast, Peru",S,Z,R,K
+UR193,2,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",Z,Z,R,K
+UR194,3,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,S,V,K
+UR195,4,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,V,K
+UR196,4,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,R,K
+UR197,4,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,R,K
+UR198,1,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,S,V,K
+UR199,4,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,R,K
+UR200,4,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,V,K
+UR201,1,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,V,K
+UR202,4,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,R,K
+UR203,2,"Ethnologisches Museum, Berlin, Germany",Unknown,S,Z,V,K
+UR204,4,"Ethnologisches Museum, Berlin, Germany",Unknown,S,Z,V,K
+UR205,4,"Ethnologisches Museum, Berlin, Germany",Unknown,S,Z,V,K
+UR206,0,"Ethnologisches Museum, Berlin, Germany",Unknown,S,Z,V,K
+UR207,4,"Ethnologisches Museum, Berlin, Germany",Unknown,S,Z,V,K
+UR208,4,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,R,B
+UR209,4,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,Z,R,K
+UR210,2,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,Z,V,K
+UR212,3,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,R,K
+UR213,4,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,R,K
+UR214,3,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,V,K
+UR216,4,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,S,R,K
+UR217,4,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,Z,R,K
+UR218,4,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,R,K
+UR219,0,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,Z,R,K
+UR220,0,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,Z,R,K
+UR221,0,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,Z,V,K
+UR222,4,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,Z,R,B
+UR223,3,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,S,V,K
+UR225,0,"Ethnologisches Museum, Berlin, Germany",Unknown,S,Z,R,K
+UR226,4,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,V,K
+UR227,2,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,Z,V,K
+UR228,2,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,Z,V,K
+UR229,4,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,Z,R,K
+UR230,3,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,S,R,K
+UR231,4,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,Z,V,K
+UR232,4,"Ethnologisches Museum, Berlin, Germany","North-Central Coast, Peru",S,Z,V,K
+UR233,4,"Ethnologisches Museum, Berlin, Germany","North-Central Coast, Peru",S,Z,R,K
+UR234,2,"Ethnologisches Museum, Berlin, Germany",Unknown,S,Z,V,K
+UR235,4,"Ethnologisches Museum, Berlin, Germany",Unknown,S,Z,V,K
+UR237,1,"Ethnologisches Museum, Berlin, Germany",Unknown,S,Z,R,K
+UR238,4,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,Z,R,K
+UR239,4,"Ethnologisches Museum, Berlin, Germany",Unknown,S,Z,V,K
+UR240,1,"Ethnologisches Museum, Berlin, Germany",Unknown,S,Z,R,K
+UR242,2,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,Z,V,K
+UR243,4,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,V,K
+UR244,2,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,V,K
+UR245,0,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,R,K
+UR246,4,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,V,K
+UR247,2,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,S,R,K
+UR248,4,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,R,K
+UR249,0,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",S,Z,R,K
+UR250,3,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",S,S,V,B
+UR251,3,"Museum fur Volkerkunde, Leipzig",Unknown,Z,Z,R,B
+UR252,4,"Museum fur Volkerkunde, Leipzig",Unknown,S,Z,V,K
+UR253,1,"Museum fur Volkerkunde, Leipzig",Unknown,S,S,V,K
+UR254,4,"Museum fur Volkerkunde, Leipzig",Unknown,S,Z,R,U
+UR255,1,Projecto Incahuasi,Unknown,S,Z,R,K
+UR256,1,Proyecto Incahuasi,Unknown,S,Z,V,K
+UR257,3,Projecto Arqueologico Incahuasi,Unknown,S,Z,V,K
+UR258,1,Proyecto Incahuasi,Unknown,S,Z,V,K
+UR260,1,Proyecto Incahuasi,Unknown,S,Z,R,U
+UR261,1,Proyecto Incahuasi,Unknown,S,Z,R,K
+UR262,1,Proyecto Incahuasi,Unknown,S,Z,R,U
+UR263,4,Proyecto Incahuasi,Unknown,S,S,R,K
+UR264,4,Proyecto Incahuasi,Unknown,S,Z,R,B
+UR266,4,Proyecto Incahuasi,Unknown,S,Z,V,K
+UR267A,4,Proyecto Incahuasi,Unknown,S,Z,V,K
+UR267B,4,Proyecto Incahuasi,Unknown,S,Z,R,K
+UR268,4,Proyecto Incahuasi,Unknown,S,Z,R,K
+UR269,4,Proyecto Incahuasi,Unknown,S,Z,V,B
+UR270,4,Proyecto Incahuasi,Unknown,S,Z,V,U
+UR271,4,Proyecto Incahuasi,Unknown,S,Z,V,U
+UR272,2,Proyecto Incahuasi,Unknown,S,Z,V,U
+UR273A,4,Proyecto Incahuasi,Unknown,S,Z,V,K
+UR273B,4,Proyecto Incahuasi,Unknown,S,Z,R,K
+UR274A,4,Proyecto Inahuasi,Unknown,S,Z,V,B
+UR274B,4,Proyecto Incahuasi,Unknown,S,Z,R,B
+UR275,4,Proyecto Incahuasi,Unknown,S,Z,R,K
+UR277,4,Proyecto Incahuasi,Unknown,S,Z,R,U
+UR278,4,Proyecto Incahuasi,Unknown,S,Z,R,K
+UR279,2,Proyecto Incahuasi,Unknown,S,Z,R,K
+UR280,1,Proyecto Incahuasi,Unknown,S,Z,V,B
+UR282,0,"Museo Nac., Pueblo Libre",Unknown,Z,Z,R,K
+UR283,4,"Museo Nac., Pueblo Libre",Unknown,Z,Z,R,K
+UR284,4,"Museo Nac., Pueblo Libre",Unknown,Z,Z,R,K
+UR286,0,"Museo Nac., Pueblo Libre",Unknown,Z,Z,R,K
+UR287,4,"Museo Nac., Pueblo Libre",Unknown,Z,Z,V,K
+UR288,0,"Museo Nac., Pueblo Libre",Unknown,Z,Z,V,K
+UR289,4,"Museo Nac., Pueblo Libre",Unknown,Z,S,V,K
+UR291A,4,"Museo Nac., Pueblo Libre",Unknown,Z,Z,V,K
+UR292A,4,"Museo Nac., Pueblo Libre",Unknown,Z,Z,R,B

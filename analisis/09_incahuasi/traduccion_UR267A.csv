@@ -1,0 +1,30 @@
+grupo,valores,colores,subsidiarias,cuerdas_ausentes,estado,en_UR255_grupo
+0,"[106, 15, 91]","['W', 'AB', 'AB:MB']",[],0,cierra exacto,[0]
+1,"[112, 15]","['W', 'W']",[],1,sin cuerda neta (cuerda de resultado ausente o rota),[17]
+2,"[161, 15, 140]","['W', 'W', 'AB:MB']",[],0,no cierra (x-c-n=6),[]
+3,[],[],[],1,separador (solo cuerda ausente PK),[]
+4,"[206, 15, 191]","['W', 'W', 'AB:MB']",[],0,cierra exacto,[4]
+5,"[238, 15, 223]","['W', 'W', 'W']",[],0,cierra exacto,[5]
+6,"[85, 15]","['W', 'W']",[],1,sin cuerda neta (cuerda de resultado ausente o rota),[6]
+7,"[160, 15, 239]","['W', 'W', 'AB:MB']",[],0,no cierra (x-c-n=-94),"[3, 7]"
+8,"[114, 15, 84]","['W', 'W', 'AB:MB']",[],0,no cierra (x-c-n=15),[8]
+9,"[141, 16, 120]","['W', 'AB', 'AB:MB']",[],0,no cierra (x-c-n=5),"[9, 16]"
+10,[],[],[],1,separador (solo cuerda ausente PK),[]
+11,"[187, 15, 80]","['W', 'W', 'AB:MB']",[],0,no cierra (x-c-n=92),"[10, 15]"
+12,"[95, 15, 17]","['W', 'W', 'AB']",[50],1,no cierra (x-c-n=63),"[12, 18]"
+13,"[215, 15, 200]","['W', 'W', 'AB']",[],0,cierra exacto,[13]
+14,"[157, 15, 142]","['W', 'AB', 'AB']",[],0,cierra exacto,[14]
+15,"[187, 15, 172]","['W', 'W', 'AB']",[],0,cierra exacto,"[10, 15]"
+16,"[141, 15, 126]","['W', 'W', 'AB']",[],0,cierra exacto,"[9, 16]"
+17,"[127, 15, 112]","['W', 'W', 'AB']",[],0,cierra exacto,[17]
+18,"[110, 15, 95]","['W', 'W', 'AB']",[],0,cierra exacto,[18]
+19,"[149, 15, 134]","['W', 'W', 'AB']",[],0,cierra exacto,[]
+20,"[201, 15, 186]","['W', 'W', 'AB']",[],0,cierra exacto,[21]
+21,[],[],[],1,separador (solo cuerda ausente PK),[]
+22,"[70, 15, 55]","['W', 'W', 'W']",[],0,cierra exacto,[22]
+23,"[82, 15, 77]","['W', 'W', 'W']",[],0,no cierra (x-c-n=-10),[]
+24,"[63, 15, 40]","['W', 'AB', 'AB']",[],0,no cierra (x-c-n=8),[]
+25,"[34, 15, 19]","['W', 'AB', 'W']",[],0,cierra exacto,[25]
+26,"[44, 15, 29]","['W', 'W', 'W']",[],0,cierra exacto,[]
+27,"[124, 109, 15]","['W', 'AB', 'AB']",[],0,cierra exacto,[27]
+28,"[31, 15]","['W', 'AB']",[],1,sin cuerda neta (cuerda de resultado ausente o rota),[]

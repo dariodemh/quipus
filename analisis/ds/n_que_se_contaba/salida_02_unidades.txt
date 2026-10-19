@@ -1,0 +1,75 @@
+
+--- grupos: n=3870 (totales >=30), mediana 208 ---
+unidad   obs   esp(KDE)   ratio   p_Poisson(una cola)
+    10     0       0.0    0.00   1.0000
+    50   197     193.4    1.02   0.4062
+   100   188     177.9    1.06   0.2337
+   500   142     137.1    1.04   0.3503
+  1000    99      90.5    1.09   0.1996
+  5000    61      54.5    1.12   0.2078
+ 10000    11      14.8    0.75   0.8693
+
+--- quipus: n=596 (totales >=30), mediana 843 ---
+unidad   obs   esp(KDE)   ratio   p_Poisson(una cola)
+    10     0       0.0    0.00   1.0000
+    50     8       9.3    0.86   0.7126
+   100    11      13.5    0.82   0.7859
+   500    18      21.9    0.82   0.8275
+  1000    17      20.0    0.85   0.7814
+  5000    12      13.5    0.89   0.6991
+ 10000    14      11.9    1.18   0.3089
+
+BH sobre las 14 pruebas:
+conjunto  unidad  obs      esp  ratio      p      q
+  grupos      10    0   0.0000 0.0000 1.0000 1.0000
+  grupos      50  197 193.3582 1.0188 0.4062 0.9478
+  grupos     100  188 177.8896 1.0568 0.2337 0.9478
+  grupos     500  142 137.1397 1.0354 0.3503 0.9478
+  grupos    1000   99  90.5305 1.0936 0.1996 0.9478
+  grupos    5000   61  54.5471 1.1183 0.2078 0.9478
+  grupos   10000   11  14.7577 0.7454 0.8693 1.0000
+  quipus      10    0   0.0000 0.0000 1.0000 1.0000
+  quipus      50    8   9.3231 0.8581 0.7126 1.0000
+  quipus     100   11  13.4621 0.8171 0.7859 1.0000
+  quipus     500   18  21.9325 0.8207 0.8275 1.0000
+  quipus    1000   17  20.0381 0.8484 0.7814 1.0000
+  quipus    5000   12  13.5386 0.8864 0.6991 1.0000
+  quipus   10000   14  11.9091 1.1756 0.3089 0.9478
+pruebas con exceso significativo (q<0.05 y ratio>1): 0
+
+=== Sensibilidad al ancho de banda (ratio obs/esp) ===
+bw=0.03 grupos [8.3454485066906e+47, 1.03, 1.04, 1.01, 1.07, 1.07, 0.89] | quipus [3.5252931752318187e+47, 0.96, 0.89, 0.82, 0.88, 0.95, 1.12]
+bw=0.05 grupos [2.337656603769096e+18, 1.02, 1.06, 1.04, 1.09, 1.12, 0.75] | quipus [9.534826916288379e+17, 0.86, 0.82, 0.82, 0.85, 0.89, 1.18]
+bw=0.08 grupos [107136942.25, 1.01, 1.07, 1.06, 1.1, 1.17, 0.62] | quipus [41843231.16, 0.79, 0.77, 0.83, 0.82, 0.86, 1.26]
+
+=== Redondeo exacto (multiplos) ===
+grupos  multiplos de   10: 0.157 (esperado continuo 0.100)
+grupos  multiplos de  100: 0.020 (esperado continuo 0.010)
+grupos  multiplos de 1000: 0.003 (esperado continuo 0.001)
+   chi2 uniformidad mod 100 (n=2622): p=1.23e-83; residuo 0 = 129 (esp 26.2)
+quipus  multiplos de   10: 0.122 (esperado continuo 0.100)
+quipus  multiplos de  100: 0.013 (esperado continuo 0.010)
+quipus  multiplos de 1000: 0.002 (esperado continuo 0.001)
+   chi2 uniformidad mod 100 (n=526): p=3.27e-02; residuo 0 = 8 (esp 5.3)
+
+=== Control: ¿los multiplos de 10 se heredan de las cuerdas? ===
+observado 0.1569 ; nulo (barajar digito de unidades entre cuerdas) 0.1259 [0.1179,0.1335]
+(si el total se redondeara ademas de las cuerdas, el observado superaria el nulo)
+
+=== log10(total) mod 1: ¿hay escala preferida? ===
+grupos  KS vs U(0,1): D=0.082 p=3.71e-23  (n=3870)
+        masa [0,0.05) = 0.058 (esp 0.05); [0.65,0.75) = 0.125 (esp 0.10)
+quipus  KS vs U(0,1): D=0.039 p=3.07e-01  (n=596)
+        masa [0,0.05) = 0.047 (esp 0.05); [0.65,0.75) = 0.104 (esp 0.10)
+
+=== Nulo estructural: barajar valores entre grupos del mismo quipu ===
+unidad  obs_frac  nulo_medio  p(obs>=nulo)
+    10  0.0390    0.0392      0.5580
+    50  0.0305    0.0290      0.2230
+   100  0.0291    0.0304      0.7400
+   500  0.0220    0.0209      0.2520
+  1000  0.0153    0.0153      0.4880
+  5000  0.0094    0.0076      0.0280
+ 10000  0.0017    0.0035      0.9950
+
+guardado unidades_decimales.csv

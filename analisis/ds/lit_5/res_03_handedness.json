@@ -1,0 +1,65 @@
+{
+  "pendant_pendant_sum": {
+    "pct_R": 54.179,
+    "L": 3706,
+    "R": 4382,
+    "n_pos": 233,
+    "n_neg": 139,
+    "p_signos": 1.2570957300175276e-06,
+    "ic": [
+      52.79,
+      55.6
+    ]
+  },
+  "pendant_pendants_color_sum": {
+    "pct_R": 56.467,
+    "L": 1316,
+    "R": 1707,
+    "n_pos": 152,
+    "n_neg": 82,
+    "p_signos": 5.551988454795922e-06,
+    "ic": [
+      52.89,
+      59.78
+    ]
+  },
+  "indexed_pendant_sum": {
+    "pct_R": 57.265,
+    "L": 1000,
+    "R": 1340,
+    "n_pos": 138,
+    "n_neg": 72,
+    "p_signos": 6.163683505950376e-06,
+    "ic": [
+      53.8,
+      60.74
+    ]
+  },
+  "indexed_subsidiary_sum": {
+    "pct_R": 60.366,
+    "L": 65,
+    "R": 99,
+    "n_pos": 20,
+    "n_neg": 18,
+    "p_signos": 0.8714146793645341,
+    "ic": [
+      46.51,
+      71.61
+    ]
+  },
+  "ambos_sentidos": {
+    "pct": 49.86,
+    "n": 724,
+    "pct_de_650": 55.54,
+    "pct_de_con_suma": 74.59
+  },
+  "pps_volumen": {
+    "sum_cords": 8088,
+    "khipus": 427
+  },
+  "nulo_PPS": {
+    "obs": 54.18,
+    "p_perm": 0.0001999600079984003,
+    "n_perm": 5000
+  }
+}

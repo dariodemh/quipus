@@ -1,0 +1,499 @@
+kfg,n_cand,hits_tol0,esp_tol0,p_tol0,hits_tol1,esp_tol1,p_tol1,hits_tol2pc,esp_tol2pc,p_tol2pc,q_tol0,q_tol1,q_tol2pc,evaluable,procedencia,museo,region,serie,registrador
+AS004,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Museum of the American Indian, Heye Foundation",Unknown,AS,AS
+AS005,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum of the American Indian, Heye Foundation",Unknown,AS,AS
+AS006,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum of the American Indian, Heye Foundation",Unknown,AS,AS
+AS007,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Museum of the American Indian, Heye Foundation",Unknown,AS,AS
+AS008,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Pitt Rivers Museum, University of Oxford",Unknown,AS,AS
+AS009,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Pitt Rivers Museum, University of Oxford",Unknown,AS,AS
+AS010,3,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Unknown,"Niedersächsische Landesmuseum, Hanover, West Germany",Unknown,AS,AS
+AS012,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Niedersächsische Landesmuseum, Hanover, West Germany",Unknown,AS,AS
+AS013,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Niedersächsische Landesmuseum, Hanover, West Germany",Unknown,AS,AS
+AS015,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"University Museum, University of Pennsylvania",Unknown,AS,AS
+AS021,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"University Museum, University of Pennsylvania",Unknown,AS,AS
+AS026A,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"University Museum, University of Pennsylvania",Unknown,AS,AS
+AS026B,4,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Unknown,"University Museum, University of Pennsylvania",Unknown,AS,AS
+AS027,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"University Museum, University of Pennsylvania",Unknown,AS,AS
+AS028,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"University Museum, University of Pennsylvania",Unknown,AS,AS
+AS029,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Aankoop,"Museum Voor Land-en Volkenkunde, Rotterdam, Holland",Unknown,AS,AS
+AS035C,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,Brooklyn Museum,Unknown,AS,AS
+AS035D,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Brooklyn Museum,Unknown,AS,AS
+AS036,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Maranga, Huaca 1","Museo Jijon y Caamano, Pontificia Universidad Catolica del Ecuador, Quito, Ecuador",Unknown,AS,AS
+AS037,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Jijon y Caamano, Pontificia Universidad Catolica del Ecuador, Quito, Ecuador",Unknown,AS,AS
+AS039,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Museo Nacional, Lima, Peru",Unknown,AS,AS
+AS041,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Nacional, Lima, Peru",Unknown,AS,AS
+AS042,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Museo Nacional, Lima, Peru",Unknown,AS,AS
+AS043,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Nacional, Lima, Peru",Unknown,AS,AS
+AS044,21,6,1.4455,0.0004997501249375312,8,2.5595,0.0009995002498750624,6,1.479,0.0004997501249375312,0.008162585373979677,0.016325170747959354,0.008162585373979677,True,Unknown,"Museo Nacional, Lima, Peru",Unknown,AS,AS
+AS045,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Museo Nacional, Lima, Peru",Unknown,AS,AS
+AS048,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Amano, Lima, Peru",Unknown,AS,AS
+AS050,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"owner Ana Maria Soldi, Lima, Peru",Unknown,AS,AS
+AS054,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Hacienda Ullujalla y Callengo,"Museo de Ica, Ica, Peru",Unknown,AS,AS
+AS060,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"O. Nunez del Prado, Cuzco",Unknown,AS,AS
+AS061_MA036,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"O. Nunez del Prado, Cuzco",Unknown,AS,AS
+AS062,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"O. Nunez del Prado, Cuzco",Unknown,AS,AS
+AS063,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"O. Nunez del Prado, Cuzco",Unknown,AS,AS
+AS063B,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"O. Nunez del Prado, Cuzco",Unknown,AS,AS
+AS066,31,6,1.315,0.0014992503748125937,6,1.791,0.008995502248875561,6,1.7075,0.005997001499250375,0.01836581709145427,0.06296851574212893,0.04197901049475262,True,Unknown,"O. Nunez del Prado, Cuzco",Unknown,AS,AS
+AS069,6,1,0.1615,0.1619190404797601,2,0.834,0.23738130934532733,1,0.4995,0.42978510744627685,0.7212757257734768,0.8378310844577711,1.0,True,Lluta Valley,"owner Percy Dauelsberg, Arica, Chile",Unknown,AS,AS
+AS071,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"owner Percy Dauelsberg, Arica, Chile",Unknown,AS,AS
+AS072,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Rancho San Juan, Ica Valley",Unknown,Unknown,AS,AS
+AS073,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Rancho San Juan, Ica Valley",Unknown,Unknown,AS,AS
+AS074,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Musee de l Homme, Paris, France",Unknown,AS,AS
+AS075,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Musee de l Homme, Paris, France",Unknown,AS,AS
+AS077,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Musee de l Homme, Paris, France",Unknown,AS,AS
+AS078,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Hacienda Copara, Nazca","Musee Quai Branly, Paris, France","South Coast, Peru",AS,AS
+AS079,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Musee de l Homme, Paris, France",Unknown,AS,AS
+AS080,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Musee de l Homme, Paris, France",Unknown,AS,AS
+AS081,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Musee de l Homme, Paris, France",Unknown,AS,AS
+AS082,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Musee de l Homme, Paris, France",Unknown,AS,AS
+AS085,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Musee d Ethnographie, Geneva, Switzerland",Unknown,AS,AS
+AS089,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Peru,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,AS,AS
+AS090_N2,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Peru,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,AS,AS
+AS092,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Peru,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,AS,AS
+AS093,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,AS,AS
+AS111,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS112,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS115,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS122,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Lima,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS125,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS128,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Nazca,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS133,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Marquez,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS134,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS139,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS153,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS156,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS157,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS159,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Between Ica and Pisco,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS160,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Between Ica and Pisco,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS164,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS168,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS169,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS170,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS171,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS172,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS173,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Between Ica and Pisco,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS174,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Between Ica and Pisco,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS177,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,near Lima,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS178,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,near Lima,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS184,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS185,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS186,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS189,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,AS,AS
+AS199,21,5,1.173,0.0034982508745627187,6,1.436,0.0009995002498750624,7,1.9035,0.0009995002498750624,0.028569048808928868,0.016325170747959354,0.012243878060969516,True,Unknown,"American Museum of Natural History, NY",Unknown,AS,AS
+AS200,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,probably Central Coast Late Period,"American Museum of Natural History, NY",Unknown,AS,AS
+AS201,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Lowie Museum, University of California, Berkeley",Unknown,AS,AS
+AS202,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Lowie Museum, University of California, Berkeley",Unknown,AS,AS
+AS203,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Lowie Museum, University of California, Berkeley",Unknown,AS,AS
+AS204,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Lowie Museum, University of California, Berkeley",Unknown,AS,AS
+AS206,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum of Culture History, University of California, Los Angeles",Unknown,AS,AS
+AS207A,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum of Science, Buffalo, New York",Unknown,AS,AS
+AS207C,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum of Science, Buffalo, New York",Unknown,AS,AS
+AS209,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Royal Ontario Museum, Toronto",Unknown,AS,AS
+AS210,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Field Museum of Natural History, Chicago, IL",Unknown,AS,AS
+AS211,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"N195161prstkovo Museum, Prague",Unknown,AS,AS
+AS212,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Joslyn Art Museum, Omaha, Nebraska",Unknown,AS,AS
+AS214,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Hood Museum of Art, Dartmouth College, Hanover, New Hampshire",Unknown,AS,AS
+AS215,3,2,0.521,0.0734632683658171,2,0.481,0.06196901549225387,2,0.5035,0.06846576711644178,0.3999666833250042,0.3373868621244933,0.3354822588705647,True,Nazca,"Hood Museum of Art, Dartmouth College, Hanover, New Hampshire",Unknown,AS,AS
+AS35A,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Brooklyn Museum,Unknown,AS,AS
+HP001,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,near Lima,HP,HP
+HP003,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP004,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP005,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP007,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP010,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP011,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP012,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP014,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP015,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Cieneguilla, Valle de Lurin",Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP017,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP018,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP019,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP020,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP023,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP025,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP026,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP027,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP029,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP030,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP031,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP032,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,Museo de Sitio de Pachacamac,Unknown,HP,HP
+HP033,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Ullujaya, Ocucaje, Ica","Museo Nacional de Arqueología, Antropología e Historia del Perú",Unknown,HP,HP
+HP034,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Ullujaya, Ocucaje, Ica","Museo Nacional de Arqueología, Antropología e Historia del Perú",Unknown,HP,HP
+HP037,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Costa Central, Huacho","Museo Nacional de Historia, Archaeología y Antropología de Perú",Unknown,HP,HP
+HP038,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Nacional de Arqueología, Antropología e Historia de Perú",Unknown,HP,HP
+HP039,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Costa Sur,"Museo Nacional de Arqueologia, Anthropologia e Histora del Peru",Unknown,HP,HP
+HP040,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Nacional de Arqueología, Antropología e Historia del Perú",Unknown,HP,HP
+HP042,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Nacional de Arqueología, Antropología, e Historia del Perú",Unknown,HP,HP
+HP043,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Museo Nacional de Arqueología, Antropología e Historia del Perú",Unknown,HP,HP
+HP044,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Nacional de Arqueología, Antropología e Historia del Perú",Unknown,HP,HP
+HP045,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,"Región Sur, Quillagua, Valle de Loa","Museo Nacional de Arqueología, Antropología e Historia del Perú",Unknown,HP,HP
+HP046_A,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Nacional de Arqueologia, Antropologia e Historia del Peru",Unknown,HP,HP
+HP046_B,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Nacional de Arqueologia, Antropologia e Historia Nacional del Peru",Unknown,HP,HP
+HP047,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Armatambo, Lima, Central Coast","Museo Nacional de Arqueologia, Antropologia e Historia del Peru",Unknown,HP,HP
+HP050,0,0,,1.0,0,,1.0,0,,1.0,,,,False,foothills of Cerro Solar,"Museo Nacional de Arqueologia, Antropologia e Historia del Peru",Unknown,HP,HP
+HP051_A,4,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Unknown,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",Unknown,HP,HP
+HP051_B,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",Unknown,HP,HP
+HP052,5,1,0.4525,0.3793103448275862,1,0.493,0.4207896051974013,1,0.469,0.40429785107446276,1.0,1.0,1.0,True,Unknown,"Museo Nacional de Arqueologia, Antropologia e Historia del Peru",Unknown,HP,HP
+HP053,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",Unknown,HP,HP
+HP054,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Museo Nacion de Arqueologia, Anthropologia e Historia del Peru",Unknown,HP,HP
+HP055,17,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,unknown,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",Unknown,HP,HP
+HP056,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",Unknown,HP,HP
+JC001,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,JC,JC
+JC005,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,JC,JC
+JC009,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,JC,JC
+JC010,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,JC,JC
+JC011,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,JC,JC
+JC012,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,JC,JC
+JC013,3,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Incahuasi,Proyecto Incahuasi,Unknown,JC,JC
+JC018,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,JC,JC
+JC021,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,JC,JC
+KH0001,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Chuquitanta,"American Museum of Natural History, NY",Unknown,KH,KH
+KH0032,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,"La puntilla, between Paracas and Pisco","Peabody Museum, Harvard University",Unknown,KH,KH
+KH0033,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,"La puntilla, between Paracas and Pisco","Peabody Museum, Harvard University",Unknown,KH,KH
+KH0049,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Costa Sur,"Museo Nacional de Arqueología, Antropología e Historia de Perú",Unknown,KH,KH
+KH0057,6,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Unknown,"Museo Nacional de Arqueología, Antropología, e Historia del Perú",Unknown,KH,KH
+KH0058,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Nacional de Arqueología, Antropología e Historia de Perú",Unknown,KH,KH
+KH0080,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"O. Nunez del Prado, Cuzco",Unknown,KH,KH
+KH0081,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,"Monte de Cacatilla, Valle de Nazca","Museo Nac., Pueblo Libre",Unknown,KH,KH
+KH0083,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Mollepampa,Museo Chileno de Arte Precolombino,"Inka, Playa Miller",KH,KH
+KH0197,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Ethnologisches Museum, Berlin, Germany",Unknown,KH,KH
+KH0227,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Huaura Valley, near Lima, on Santa Rosalia Hacienda","Museum fur Volkerkunde, Vienna",Unknown,KH,KH
+KH0267,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Playa Miller #6, Arica, Chile",Museo Chileno de Arte Precolombino,Unknown,KH,KH
+KH0350,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum of Worldculture, Goteborg, Sweden",Unknown,KH,KH
+MM001,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huacho?,Landesmuseum Hannover,Huacho,MM,MM
+MM002,3,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Eduard Gaffron Estate,Lippisches Landesmuseum Detmold,Unknown,MM,MM
+MM003,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Eduard Gaffron Estate,Lippisches Landesmuseum Detmold,Unknown,MM,MM
+MM004,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown (not from Gaffron collections),Lippisches Landesmuseum Detmold,Unknown,MM,MM
+MM005,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum am Rothenbaum, Kulturen und Kunste der Welt (MARKK), Hamburg. Formerly Museum fur Volkerkunde",Unknown,MM,MM
+MM006_AN001,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,South Peru,"Museum Fur Volkerkunde, Hamburg, Germany",unknown,MM,MM
+MM007_AN002,0,0,,1.0,0,,1.0,0,,1.0,,,,False,South Peru,"Museum Fur Volkerkunde, Hamburg, Germany",unknown,MM,MM
+MM009,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Eduard Gaffron,Museum der Kulturen (Basel),Unknown,MM,MM
+MM010,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Eduard Gaffron,Museum der Kulturen (Basel),Unknown,MM,MM
+MM011,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Eduard Gaffron,Museum der Kulturen (Basel),Unknown,MM,MM
+MM012,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Eduard Gaffron,Museum der Kulturen (Basel),Unknown,MM,MM
+MM013,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Eduard Gaffron,Museum der Kulturen (Basel),Unknown,MM,MM
+MM014,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Eduard Gaffron,Museum der Kulturen (Basel),Unknown,MM,MM
+MM015,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Eduard Gaffron,Museum der Kulturen (Basel),Unknown,MM,MM
+MM016,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Eduard Gaffron,Museum der Kulturen (Basel),Unknown,MM,MM
+MM017,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Eduard Gaffron,Museum der Kulturen (Basel),Unknown,MM,MM
+MM018,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Museo de América, Madrid, Spain",Unknown,MM,MM
+MM019,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Linden Museum, Stuttgart, Germany",Unknown,MM,MM
+MM020,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Linden Museum, Stuttgart, Germany",Unknown,MM,MM
+MM021,3,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Unknown,"Weltkulturenmuseum, Frankfurt, Germany",Unknown,MM,MM
+MM1086,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Dr Franz Xavier Weizinger, 1921",Museum der Kulturen (Basel),Unknown,MM,MM
+QU001,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Dallas Museum of Art,"Inka, Late Horizon",QU,QU
+QU002,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Dallas Museum of Art,"Inka, Late Horizon",QU,QU
+QU003,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Dallas Museum of Art,"Inka, Late Horizon",QU,QU
+QU004,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Dallas Museum of Art,"Inka, Late Horizon",QU,QU
+QU006,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Dallas Museum of Art,"Inka, Late Horizon",QU,QU
+QU007,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Dallas Museum of Art,"Inka, Late Horizon",QU,QU
+QU009,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Dallas Museum of Art,"Inka, Late Horizon",QU,QU
+QU011,14,0,0.0,1.0,0,0.0,1.0,1,0.12,0.12043978010994502,1.0,1.0,0.49179576878227554,True,Unknown,Dallas Museum of Art,"Inka, Late Horizon",QU,QU
+QU012,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,Dallas Museum of Art,"Inka, Late Horizon",QU,QU
+QU013,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Dallas Museum of Art,"Inka, Late Horizon",QU,QU
+QU014,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,Dallas Museum of Art,"Inka, Late Horizon",QU,QU
+QU015,3,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Unknown,Dallas Museum of Art,"Inka, Late Horizon",QU,QU
+QU016,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Dallas Museum of Art,"Inka, Late Horizon",QU,QU
+QU017,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,Dallas Museum of Art,"Inka, Late Horizon",QU,QU
+QU018,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,Dallas Museum of Art,"Inka, Late Horizon",QU,QU
+QU019,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Dallas Museum of Art,"Inka, Late Horizon",QU,QU
+QU020,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Logan Museum, Beloit College, Beloit, Wisconsin, USA",Unknown,QU,QU
+QU021,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Logan Museum, Beloit College, Beloit, Wisconsin, USA",Unknown,QU,QU
+QU022,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Rimac Valley,"Logan Museum, Beloit College, Beloit, Wisconsin, USA",Unknown,QU,QU
+UR001,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR002,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR003,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR004,2,0,0.0,1.0,1,0.328,0.328335832083958,0,0.0,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR005,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR006,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR007,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR009,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR010,9,1,0.496,0.40729635182408797,1,0.4945,0.4007996001999001,2,0.8325,0.1969015492253873,1.0,1.0,0.7421673778495368,True,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR011,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR012,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR013,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR014,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR015,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR016,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR017,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR018,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR019,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR020,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR021,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR022,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",Chachapoyas,UR,UR
+UR026,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,UR,UR
+UR027,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Atarco,"Museum Fur Volkerkunde, Munich, W. Germany",Nazca,UR,UR
+UR028,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Atarco,"Museum Fur Volkerkunde, Munich, W. Germany",Nazca,UR,UR
+UR029,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Atarco,"Museum Fur Volkerkunde, Munich, W. Germany",Nazca,UR,UR
+UR032,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,Phoebe Hearst Museum of Anthropology,Unknown,UR,UR
+UR034,14,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Unknown,"Museo de la Nacion, Lima, Peru",Unknown,UR,UR
+UR037,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Amano, Lima, Peru",Unknown,UR,UR
+UR038,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Amano, Lima, Peru",Unknown,UR,UR
+UR039,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huari,Universidad de San Martin de Porres,Unknown,UR,UR
+UR040,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Nazca,"Peabody Museum, Harvard University",Unknown,UR,UR
+UR041,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Peabody Museum, Harvard University",Unknown,UR,UR
+UR042,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Peabody Museum, Harvard University",Unknown,UR,UR
+UR044,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,"La puntilla, between Paracas and Pisco","Peabody Museum, Harvard University",Unknown,UR,UR
+UR045,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,Museo Larco,Unknown,UR,UR
+UR046,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Pueblo Libre, Lima, Peru",Museo Larco,Unknown,UR,UR
+UR047,8,3,1.3965,0.09245377311344327,3,1.404,0.09695152423788106,3,1.3905,0.1024487756121939,0.453023488255872,0.4750624687656172,0.45636272772704556,True,"Pueblo Libre, Lima, Peru",Museo Larco,Unknown,UR,UR
+UR048,4,0,0.0,1.0,1,0.4935,0.4142928535732134,0,0.0,1.0,1.0,1.0,1.0,True,"Pueblo Libre, Lima, Peru",Museo Larco,Unknown,UR,UR
+UR049,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,Museo Larco,Unknown,UR,UR
+UR050,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Private Collection: Anna Maria Soldi,Unknown,UR,UR
+UR051,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Banco Central de la Reserva del Peru,Unknown,UR,UR
+UR052,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Museo Central - Banco Central de Reserva,Unknown,UR,UR
+UR053A,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,Banco Central de la Reserva,Unknown,UR,UR
+UR053E,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Banco Central de la Reserva,Unknown,UR,UR
+UR054,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Private Collection: Anna Maria Soldi,Unknown,UR,UR
+UR055,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo",Unknown,UR,UR
+UR056A,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Rijksmuseum fur Volkerkunde, Leiden, Holland",Unknown,UR,UR
+UR056B,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Rijksmuseum fur Volkerkunde, Leiden, Holland",Unknown,UR,UR
+UR056C,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Rijksmuseum fur Volkerkunde, Leiden, Holland",Unknown,UR,UR
+UR057,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Atarco,"Museum Fur Volkerkunde, Munich, W. Germany",Nazca,UR,UR
+UR058A,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,"Playa Miller #6, Arica, Chile","Museo Arqueologico San Miguel de Azapa (MASMA), Arica, Chile",Unknown,UR,UR
+UR058B,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Museo Arqueologico San Miguel de Azapa (MASMA), Arica, Chile",Unknown,UR,UR
+UR059,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Lowe Art Museum, University of Miami",Unknown,UR,UR
+UR060,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huaquerones,Puruchuco Museum,Puruchuco,UR,UR
+UR061,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huaquerones,Puruchuco Museum,Puruchuco,UR,UR
+UR062,4,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Huaquerones,Puruchuco Museum,Puruchuco,UR,UR
+UR063,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Puruchuco Museum,Puruchuco,UR,UR
+UR064,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huaquerones,Puruchuco Museum,Puruchuco,UR,UR
+UR066,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huaquerones,Puruchuco Museum,Puruchuco,UR,UR
+UR067,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huaquerones,Unknown,Puruchuco,UR,UR
+UR068,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Puruchuco Museum,Puruchuco,UR,UR
+UR069,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huaquerones,Puruchuco Museum,Puruchuco,UR,UR
+UR070,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huaquerones,Puruchuco Museum,Puruchuco,UR,UR
+UR071,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huaquerones,Puruchuco Museum,Puruchuco,UR,UR
+UR072,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Huaquerones,Puruchuco Museum,Puruchuco,UR,UR
+UR073,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,Puruchuco Museum,Puruchuco,UR,UR
+UR074,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Huaquerones,Puruchuco Museum,Puruchuco,UR,UR
+UR075,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huaquerones,Puruchuco Museum,Puruchuco,UR,UR
+UR076,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huaquerones,Puruchuco Museum,Puruchuco,UR,UR
+UR077,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Puruchuco Museum,Puruchuco,UR,UR
+UR079,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Huaquerones,Puruchuco Museum,Puruchuco,UR,UR
+UR080,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huaquerones,Puruchuco Museum,Puruchuco,UR,UR
+UR081,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huaquerones,Puruchuco Museum,Puruchuco,UR,UR
+UR082,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huaquerones,Puruchuco Museum,Puruchuco,UR,UR
+UR084,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Playa Miller #6, Arica, Chile",Museo Chileno de Arte Precolombino,Unknown,UR,UR
+UR085,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Museo Temple Radicati,Unknown,UR,UR
+UR086,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,Museo Temple Radicati,Unknown,UR,UR
+UR087,18,1,0.787,0.6281859070464768,4,2.1175,0.1089455272363818,1,0.757,0.6131934032983508,1.0,0.48530280314388263,1.0,True,Santa,Museo Temple Radicati,Unknown,UR,UR
+UR089,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Santa,Museo Temple Radicati,Unknown,UR,UR
+UR090,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Santa,Museo Temple Radicati,Unknown,UR,UR
+UR091,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Santa,Museo Temple Radicati,Unknown,UR,UR
+UR093,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Museo Temple Radicati,Unknown,UR,UR
+UR094,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Museo Temple Radicati,Unknown,UR,UR
+UR095,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,Museo Temple Radicati,Unknown,UR,UR
+UR096,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,Museo Temple Radicati,Unknown,UR,UR
+UR097,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Museo Temple Radicati,Unknown,UR,UR
+UR102,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Museo Temple Radicati,Unknown,UR,UR
+UR103,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Museo Temple Radicati,Unknown,UR,UR
+UR1032,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Nazca,"Peabody Museum, Harvard University",Unknown,UR,AS
+UR1033B,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Peabody Museum, Harvard University",Unknown,UR,AS
+UR1033C,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Peabody Museum, Harvard University",Unknown,UR,AS
+UR1033D,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Peabody Museum, Harvard University",Unknown,UR,AS
+UR1033F,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Peabody Museum, Harvard University",Unknown,UR,AS
+UR1033G,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Peabody Museum, Harvard University",Unknown,UR,AS
+UR1034,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"National Museum, Smithsonian, Washington, D.C.",Unknown,UR,AS
+UR1040,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Nacional, Lima, Peru",Unknown,UR,AS
+UR1049,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo Amano, Lima, Peru",Unknown,UR,AS
+UR105,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,Museo Temple Radicati,Unknown,UR,UR
+UR1051,9,0,0.0,1.0,0,0.0,1.0,1,0.3975,0.39780109945027486,1.0,1.0,1.0,True,Hacienda Ullujalla y Callengo,"Museo Nacional, Lima, Peru",Unknown,UR,AS
+UR1052,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Hacienda Ullujalla y Callengo,"Museo de Ica, Ica, Peru",Unknown,UR,AS
+UR1057,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo de Ica, Ica, Peru",Unknown,UR,AS
+UR1058,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museo de Ica, Ica, Peru",Unknown,UR,AS
+UR107,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,Museo Temple Radicati,Unknown,UR,UR
+UR1084,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Musee Quai Branly, Paris, France",Unknown,UR,AS
+UR1088,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huacho,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,UR,AS
+UR1091,5,0,0.0,1.0,1,0.334,0.3343328335832084,1,0.335,0.3353323338330835,1.0,1.0,1.0,True,Unknown,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,UR,AS
+UR1095,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Pachacamac,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,UR,AS
+UR1096,13,6,1.3805,0.0004997501249375312,7,2.2495,0.001999000499750125,6,1.358,0.0004997501249375312,0.008162585373979677,0.019590204897551224,0.008162585373979677,True,Pachacamac,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,UR,AS
+UR1097,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1098,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Between Ica and Pisco,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1099,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR110,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Museo Temple Radicati,Unknown,UR,UR
+UR1100,1,1,1.0,1.0,1,1.0,1.0,1,1.0,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1102,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1103,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1104,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,AS
+UR1106,4,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Marquez,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1107,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Marquez,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1108,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Between Ica and Pisco,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1109,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR111,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Museo Temple Radicati,Unknown,UR,UR
+UR1113,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Between Ica and Pisco,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1114,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Between Ica and Pisco,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1117,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1118,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR112,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Museo Temple Radicati,Unknown,UR,UR
+UR1120,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1121,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1123,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1124,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Marquez,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1124_Detail_1,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Marquez,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1126,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR113,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Nazca,"Museum of Worldculture, Goteborg, Sweden",Unknown,UR,UR
+UR1131,5,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1135,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1136,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Nazca,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1138,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR114,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Nazca,"Museum of Worldculture, Goteborg, Sweden",Unknown,UR,UR
+UR1140,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Nazca,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1141,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1143,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1144,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1145,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1146,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1147,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ocucaje,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1148,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ocucaje,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1149,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ocucaje,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1150,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1151,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1152,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1162A,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1163,1,0,0.485,1.0,0,0.4765,1.0,0,0.469,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1165,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1166,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR116A,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum of Worldculture, Goteborg, Sweden",Unknown,UR,UR
+UR1175,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1176,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Nazca,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR1179,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR117A,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Paracas,"Museum of Worldculture, Goteborg, Sweden",Unknown,UR,UR
+UR117B,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Paracas,"Museum of Worldculture, Goteborg, Sweden",Unknown,UR,UR
+UR117C,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Paracas,"Museum of Worldculture, Goteborg, Sweden",Unknown,UR,UR
+UR117D,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Paracas,"Museum of Worldculture, Goteborg, Sweden",Unknown,UR,UR
+UR118,30,6,0.683,0.0004997501249375312,7,1.047,0.0004997501249375312,10,2.429,0.0004997501249375312,0.008162585373979677,0.016325170747959354,0.008162585373979677,True,Paracas,"Museum of Worldculture, Goteborg, Sweden",Unknown,UR,UR
+UR1180,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Museum für Völkerkunde, Berlin",Unknown,UR,AS
+UR119,14,4,1.0035,0.005497251374312844,4,1.0165,0.005497251374312844,6,1.6045,0.0014992503748125937,0.03848075962018991,0.04489421955688822,0.014692653673163417,True,Paracas,"Museum of Worldculture, Goteborg, Sweden",Unknown,UR,UR
+UR120,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huacho,"Museum of Worldculture, Goteborg, Sweden",Unknown,UR,UR
+UR121,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Nazca,"Museum of Worldculture, Goteborg, Sweden",Unknown,UR,UR
+UR122,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Nazca,"Museum of Worldculture, Goteborg, Sweden",Unknown,UR,UR
+UR123,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum of Worldculture, Goteborg, Sweden",Unknown,UR,UR
+UR124,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum of Worldculture, Goteborg, Sweden",Unknown,UR,UR
+UR127,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum of Worldculture, Goteborg, Sweden",Unknown,UR,UR
+UR128,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum of Worldculture, Goteborg, Sweden",Unknown,UR,UR
+UR130,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Playa Miller #6, Arica, Chile",Museo Chileno de Arte Precolombino,Unknown,UR,UR
+UR131A,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Lluta Valley,Museo Chileno de Arte Precolombino,Unknown,UR,UR
+UR131B,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Lluta Valley,Museo Chileno de Arte Precolombino,Unknown,UR,UR
+UR131C,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Lluta Valley,Museo Chileno de Arte Precolombino,Unknown,UR,UR
+UR137,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Chancay, Central Coast","Lowe Art Museum, University of Miami",Unknown,UR,UR
+UR138,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Cuzco,"Lowe Art Museum, University of Miami",Unknown,UR,UR
+UR139,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Valle de Ica Hacienda Callango Ocucaje,Museo Regional de Ica,Unknown,UR,UR
+UR140,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Valle de Ica Hacienda Callango Ocucaje,Museo Regional de Ica,Unknown,UR,UR
+UR141,5,0,0.0,1.0,0,0.0,1.0,0,0.68,1.0,1.0,1.0,1.0,True,Unknown,Museo Regional de Ica,Unknown,UR,UR
+UR144,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Valle de Pisco,On loan to Ica Museum,Unknown,UR,UR
+UR145,8,0,0.0,1.0,0,0.0835,1.0,1,0.2485,0.2303848075962019,1.0,1.0,0.8063468265867065,True,Acari,Museo Regional de Ica,Unknown,UR,UR
+UR146,4,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Donation from the collection Belli,Museo Regional de Ica,Unknown,UR,UR
+UR147,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Museo Regional de Ica,Unknown,UR,UR
+UR148,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,Museo Regional de Ica,Unknown,UR,UR
+UR149,25,0,0.0,1.0,1,0.2575,0.23938030984507747,3,0.7345,0.021989005497251374,1.0,0.8378310844577711,0.12243878060969515,True,Hacienda Ullujalla y Callengo,Museo Regional de Ica,Unknown,UR,UR
+UR152,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Hacienda Ullujalla y Callengo,Museo Regional de Ica,Unknown,UR,UR
+UR153,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Museo Regional de Ica,Unknown,UR,UR
+UR155,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Valle de Ica Hacienda Callango Ocucaje,Museo Regional de Ica,Unknown,UR,UR
+UR158,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Tambo Colorado,Museo Regional de Ica,Unknown,UR,UR
+UR162,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Valle de Ica Hacienda Callango Ocucaje,Museo Regional de Ica,Unknown,UR,UR
+UR165,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,La Molina,Puruchuco Museum,Puruchuco,UR,UR
+UR166,8,4,0.675,0.0029985007496251873,4,0.649,0.001999000499750125,4,0.6835,0.004497751124437781,0.028569048808928868,0.019590204897551224,0.03673163418290854,True,"Huando, Chancay, Peru (Gaffron Collection)","American Museum of Natural History, NY",Unknown,UR,UR
+UR167,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica or Cajamarquilla,"American Museum of Natural History, NY",Unknown,UR,UR
+UR168,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"American Museum of Natural History, NY",Unknown,UR,UR
+UR169,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Ica Valley, near Callango","American Museum of Natural History, NY",Unknown,UR,UR
+UR170,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"American Museum of Natural History, NY",Unknown,UR,UR
+UR171,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"American Museum of Natural History, NY",Unknown,UR,UR
+UR172,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"American Museum of Natural History, NY",Unknown,UR,UR
+UR173,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"American Museum of Natural History, NY",Unknown,UR,UR
+UR182,4,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Chuquitanta,"American Museum of Natural History, NY",Unknown,UR,UR
+UR183,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Chancay, Central Coast","American Museum of Natural History, NY",Unknown,UR,UR
+UR184,5,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Unknown,"American Museum of Natural History, NY",Unknown,UR,UR
+UR185,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"American Museum of Natural History, NY",Unknown,UR,UR
+UR186,13,2,0.2755,0.021989005497251374,3,0.7335,0.020989505247376312,3,0.712,0.022488755622188907,0.13468265867066467,0.12856071964017993,0.12243878060969515,True,"Hda. Huando, Chancay","American Museum of Natural History, NY",Unknown,UR,UR
+UR187,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Ica Valley, near Callango","American Museum of Natural History, NY",Unknown,UR,UR
+UR188,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,Musee Quai Branly,Unknown,UR,UR
+UR189,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Musee Quai Branly, Paris, France",Unknown,UR,UR
+UR190,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)","Musee Quai Branly, Paris, France","Central Coast, Peru",UR,UR
+UR191,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)","Musee Quai Branly, Paris, France","Central Coast, Peru",UR,UR
+UR192,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,"Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)","Musee Quai Branly, Paris, France","Central Coast, Peru",UR,UR
+UR193,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Peru, Fundort: Pachacmac","Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR194,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",UR,UR
+UR195,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Huacho,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR196,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR197,4,0,0.0,1.0,0,0.0,1.0,1,1.0,1.0,1.0,1.0,1.0,True,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR198,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Santa Clara, Nazca","Ethnologisches Museum, Berlin, Germany","South Coast, Peru",UR,UR
+UR199,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR200,7,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR201,13,0,0.0,1.0,0,0.0,1.0,1,0.417,0.3448275862068966,1.0,1.0,1.0,True,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR202,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR203,6,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Unknown,"Ethnologisches Museum, Berlin, Germany",Unknown,UR,UR
+UR204,6,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Unknown,"Ethnologisches Museum, Berlin, Germany",Unknown,UR,UR
+UR205,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Ethnologisches Museum, Berlin, Germany",Unknown,UR,UR
+UR207,4,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Unknown,"Ethnologisches Museum, Berlin, Germany",Unknown,UR,UR
+UR208,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR209,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Pisco,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",UR,UR
+UR210,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica/Pisco,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",UR,UR
+UR211,3,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Ica/Pisco,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",UR,UR
+UR212,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR213,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR214,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR215,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Ethnologisches Museum, Berlin, Germany",Unknown,UR,UR
+UR217,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ocucaje,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",UR,UR
+UR218,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR219,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",UR,UR
+UR222,1,1,1.0,1.0,1,1.0,1.0,1,1.0,1.0,,,,False,Ica,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",UR,UR
+UR223,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",UR,UR
+UR226,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR227,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pisco,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",UR,UR
+UR228,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Pisco,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",UR,UR
+UR229,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",UR,UR
+UR230,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR231,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica/Pisco,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",UR,UR
+UR232,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Huacho,"Ethnologisches Museum, Berlin, Germany","North-Central Coast, Peru",UR,UR
+UR233,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Huacho,"Ethnologisches Museum, Berlin, Germany","North-Central Coast, Peru",UR,UR
+UR234,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Ethnologisches Museum, Berlin, Germany",Unknown,UR,UR
+UR235,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Ethnologisches Museum, Berlin, Germany",Unknown,UR,UR
+UR237,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Unknown,"Ethnologisches Museum, Berlin, Germany",Unknown,UR,UR
+UR238,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",UR,UR
+UR239,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Ethnologisches Museum, Berlin, Germany",Unknown,UR,UR
+UR240,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Ethnologisches Museum, Berlin, Germany",Unknown,UR,UR
+UR241,7,0,0.408,1.0,1,0.7995,0.7996001999000499,0,0.389,1.0,1.0,1.0,1.0,True,Unknown,"Ethnologisches Museum, Berlin, Germany",Unknown,UR,UR
+UR242,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",UR,UR
+UR243,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR244,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR246,6,1,0.2425,0.24287856071964017,1,0.2315,0.2318840579710145,1,0.739,0.7391304347826086,0.9917541229385307,0.8378310844577711,1.0,True,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR247,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR248,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR249,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Ethnologisches Museum, Berlin, Germany","Central Coast, Peru",UR,UR
+UR250,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Ica,"Ethnologisches Museum, Berlin, Germany","South Coast, Peru",UR,UR
+UR251,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum fur Volkerkunde, Leipzig",Unknown,UR,UR
+UR252,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Unknown,"Museum fur Volkerkunde, Leipzig",Unknown,UR,UR
+UR253,4,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Pachacamac,"Museum fur Volkerkunde, Leipzig",Unknown,UR,UR
+UR254,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Pachacamac,"Museum fur Volkerkunde, Leipzig",Unknown,UR,UR
+UR255,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Projecto Incahuasi,Unknown,UR,UR
+UR256,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR257,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Incahuasi,Projecto Arqueologico Incahuasi,Unknown,UR,UR
+UR258,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR262,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR263,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR264,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR265,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR266,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR267A,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR267B,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR268,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR269,5,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR270,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR271,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR272,3,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,1.0,1.0,1.0,True,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR273A,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR273B,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR274A,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Inahuasi,Unknown,UR,UR
+UR274B,2,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR275,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR277,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR278,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR280,0,0,,1.0,0,,1.0,0,,1.0,,,,False,Incahuasi,Proyecto Incahuasi,Unknown,UR,UR
+UR282,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Huaca San Pedro, Armatambo","Museo Nac., Pueblo Libre",Unknown,UR,UR
+UR283,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,"Huaca San Pedro, Armatambo","Museo Nac., Pueblo Libre",Unknown,UR,UR
+UR284,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Armatambo, Huaca San Pedro","Museo Nac., Pueblo Libre",Unknown,UR,UR
+UR287,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Armatambo, Huaca San Pedro","Museo Nac., Pueblo Libre",Unknown,UR,UR
+UR289,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Armatambo, Huaca San Pedro","Museo Nac., Pueblo Libre",Unknown,UR,UR
+UR291A,0,0,,1.0,0,,1.0,0,,1.0,,,,False,"Armatambo, Huaca San Pedro","Museo Nac., Pueblo Libre",Unknown,UR,UR
+UR292A,1,0,0.0,1.0,0,0.0,1.0,0,0.0,1.0,,,,False,"Armatambo, Huaca San Pedro","Museo Nac., Pueblo Libre",Unknown,UR,UR

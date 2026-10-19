@@ -1,0 +1,15 @@
+objetivos,desfase,obs_max,nulo_medio,nulo_max,p
+A_posicion,-3,2,2.1,3,0.9677
+A_posicion,-2,2,2.167,3,0.9677
+A_posicion,-1,2,2.1,3,1
+A_posicion,0,2,2.167,3,1
+A_posicion,1,2,2.167,3,1
+A_posicion,2,2,2.1,3,1
+A_posicion,3,3,2.167,4,0.1613
+B_cuota,-3,2,2.1,3,0.9677
+B_cuota,-2,2,2.033,3,0.9355
+B_cuota,-1,2,2.233,4,1
+B_cuota,0,2,2.1,3,1
+B_cuota,1,2,2.167,3,0.9677
+B_cuota,2,2,2,3,0.9355
+B_cuota,3,3,2.167,4,0.1613

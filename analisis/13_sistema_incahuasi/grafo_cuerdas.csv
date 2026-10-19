@@ -1,0 +1,638 @@
+origen,cuerda_o,valor_o,destino,cuerda_d,valor_d,tipo,exacto,nota
+UR255,p1,106,UR267A,p1,106,copia,True,
+UR255,p9,160,UR267A,p7,161,copia,False,
+UR255,p13,206,UR267A,p11,206,copia,True,
+UR255,p17,238,UR267A,p14,238,copia,True,
+UR255,p21,85,UR267A,p17,85,copia,True,
+UR255,p24,160,UR267A,p20,160,copia,True,
+UR255,p27,114,UR267A,p23,114,copia,True,
+UR255,p30,141,UR267A,p26,141,copia,True,
+UR255,p33,187,UR267A,p30,187,copia,True,
+UR255,p37,95,UR267A,p33,95,copia,True,
+UR255,p40,215,UR267A,p37,215,copia,True,
+UR255,p43,157,UR267A,p40,157,copia,True,
+UR255,p47,187,UR267A,p43,187,copia,True,
+UR255,p50,172,UR267A,p45,172,copia,True,
+UR255,p51,141,UR267A,p46,141,copia,True,
+UR255,p52,126,UR267A,p48,126,copia,True,
+UR255,p54,127,UR267A,p49,127,copia,True,
+UR255,p55,112,UR267A,p51,112,copia,True,
+UR255,p57,110,UR267A,p52,110,copia,True,
+UR255,p58,95,UR267A,p54,95,copia,True,
+UR255,p60,148,UR267A,p55,149,copia,False,
+UR255,p61,133,UR267A,p57,134,copia,False,
+UR255,p64,201,UR267A,p58,201,copia,True,
+UR255,p65,186,UR267A,p60,186,copia,True,
+UR255,p67,70,UR267A,p62,70,copia,True,
+UR255,p68,55,UR267A,p64,55,copia,True,
+UR255,p70,92,UR267A,p65,82,copia,False,
+UR255,p77,34,UR267A,p74,44,copia,False,
+UR255,p87,124,UR267A,p77,124,copia,True,
+UR255,p88,109,UR267A,p78,109,copia,True,
+UR256,p1,1055,UR267B,p2,1054,copia,False,
+UR256,p4,63,UR267B,p4,63,copia,True,
+UR256,p5,138,UR267B,p5,138,copia,True,
+UR256,p8,160,UR267B,p25,260,copia,False,
+UR256,p18,158,UR267B,p27,148,copia,False,
+UR256,p25,63,UR267B,p28,62,copia,False,
+UR256,p39,308,UR267B,p32,308,copia,True,
+UR256,p48,47,UR267B,p40,47,copia,True,
+UR256,p51,523,UR267B,p43,523,copia,True,
+UR256,p55,128,UR267B,p50,128,copia,True,
+UR256,p65,62,UR267B,p51,72,copia,False,
+UR256,p68,357,UR267B,p53,357,copia,True,
+UR256,p73,623,UR267B,p58,613,copia,False,
+UR256,p83,601,UR267B,p69,591,copia,False,
+UR256,p88,535,UR267B,p71,535,copia,True,
+UR256,p89,525,UR267B,p73,525,copia,True,
+UR256,p91,603,UR267B,p74,603,copia,True,
+UR256,p92,593,UR267B,p76,593,copia,True,
+UR256,p95,443,UR267B,p83,543,copia,False,
+UR256,p104,394,UR267B,p86,394,copia,True,
+UR256,p105,384,UR267B,p88,384,copia,True,
+UR256,p107,329,UR267B,p89,329,copia,True,
+UR256,p108,319,UR267B,p91,319,copia,True,
+UR256,p113,518,UR267B,p95,518,copia,True,
+UR256,p114,508,UR267B,p97,508,copia,True,
+UR256,p116,153,UR267B,p98,152,copia,False,
+UR256,p117,143,UR267B,p100,143,copia,True,
+UR266,p18,47,UR275,p2,47,copia,True,
+UR266,p25,114,UR275,p3,114,copia,True,
+UR266,p26,370,UR275,p5,370,copia,True,
+UR266,p28,2089,UR275,p7,2089,copia,True,
+UR266,p29,47,UR275,p8,47,copia,True,
+UR266,p32,235,UR275,p10,236,copia,False,
+UR266,p34,1271,UR275,p12,1271,copia,True,
+UR266,p35,1842,UR275,p13,1842,copia,True,
+UR266,p36,47,UR275,p14,47,copia,True,
+UR266,p38,342,UR275,p15,342,copia,True,
+UR266,p40,1876,UR275,p17,1876,copia,True,
+UR266,p41,47,UR275,p18,47,copia,True,
+UR266,p43,250,UR275,p19,250,copia,True,
+UR266,p45,3249,UR275,p21,3249,copia,True,
+UR266,p46,47,UR275,p22,47,copia,True,
+UR266,p50,2229,UR275,p25,2229,copia,True,
+UR266,p51,47,UR275,p26,47,copia,True,
+UR266,p53,386,UR275,p27,386,copia,True,
+UR266,p54,3320,UR275,p29,3320,copia,True,
+UR266,p55,47,UR275,p30,47,copia,True,
+UR266,p60,4273,UR275,p34,4273,copia,True,
+UR266,p61,47,UR275,p35,47,copia,True,
+UR266,p64,2633,UR275,p41,2633,copia,True,
+UR266,p65,47,UR275,p42,47,copia,True,
+UR266,p69,3096,UR275,p45,3096,copia,True,
+UR266,p70,47,UR275,p48,46,copia,False,
+UR266,p73,2950,UR275,p50,2950,copia,True,
+UR266,p77,2275,UR275,p55,2275,copia,True,
+UR266,p79,47,UR275,p56,47,copia,True,
+UR266,p81,1278,UR275,p59,1278,copia,True,
+UR266,p83,47,UR275,p60,47,copia,True,
+UR266,p88,47,UR275,p67,47,copia,True,
+UR266,p93,47,UR275,p72,47,copia,True,
+UR266,p96,2106,UR275,p78,2106,copia,True,
+UR266,p98,47,UR275,p79,47,copia,True,
+UR266,p101,1653,UR275,p82,1653,copia,True,
+UR266,p103,47,UR275,p83,47,copia,True,
+UR266,p104,1737,UR275,p85,1737,copia,True,
+UR266,p105,1690,UR275,p87,1690,copia,True,
+UR266,p111,47,UR275,p92,47,copia,True,
+UR266,p113s1,70,UR275,p94s1,70,copia,True,
+UR266,p119,47,UR275,p95,47,copia,True,
+UR266,p123,47,UR275,p98,47,copia,True,
+UR266,p126,47,UR275,p101,47,copia,True,
+UR266,p127,1505,UR275,p103,1505,copia,True,
+UR266,p128,1458,UR275,p105,1458,copia,True,
+UR273A,p19,30,UR274A,p21,30,copia,True,
+UR273A,p20,891,UR274A,p22,891,copia,True,
+UR273A,p29,453,UR274A,p32,453,copia,True,
+UR273A,p33,448,UR274A,p36,448,copia,True,
+UR273A,p40,448,UR274A,p42,448,copia,True,
+UR273A,p48,672,UR274A,p49,671,copia,False,
+UR273A,p69,263,UR274A,p64,264,copia,False,
+UR273B,p8,2300,UR274B,p7,2300,copia,True,
+UR273B,p14,2222,UR274B,p11,2232,copia,False,
+UR273B,p20,2142,UR274B,p17,2142,copia,True,
+UR273B,p26,1249,UR274B,p24,1249,copia,True,
+UR273B,p57,1200,UR274B,p52,1200,copia,True,
+UR273B,p62,200,UR274B,p54,200,copia,True,
+UR273B,p64,1289,UR274B,p58,1288,copia,False,
+UR273B,p68,200,UR274B,p59,1200,copia,False,
+UR273B,p69,1325,UR274B,p63,1315,copia,False,
+UR273B,p82,1575,UR274B,p72,1575,copia,True,
+UR269,p11,47,UR275,p14,47,copia,True,
+UR269,p16,46,UR275,p18,47,copia,False,
+UR269,p18s1,260,UR275,p19,250,copia,False,
+UR269,p19s2,48,UR275,p22,47,copia,False,
+UR269,p40,47,UR275,p26,47,copia,True,
+UR269,p66,47,UR275,p30,47,copia,True,
+UR269,p69,46,UR275,p35,47,copia,False,
+UR269,p70,2700,UR275,p40,2710,copia,False,
+UR269,p85,46,UR275,p42,47,copia,False,
+UR269,p88,46,UR275,p46,47,copia,False,
+UR269,p101,46,UR275,p48,46,copia,True,
+UR269,p114,40,UR275,p51,40,copia,True,
+UR269,p133,46,UR275,p53,146,copia,False,
+UR269,p146,47,UR275,p56,47,copia,True,
+UR269,p148,46,UR275,p60,47,copia,False,
+UR269,p160,47,UR275,p67,47,copia,True,
+UR269,p165s1,35,UR275,p70,1035,copia,False,
+UR269,p166,46,UR275,p72,47,copia,False,
+UR269,p168s1,48,UR275,p79,47,copia,False,
+UR269,p176,46,UR275,p83,47,copia,False,
+UR269,p179,46,UR275,p86,47,copia,False,
+UR269,p189,47,UR275,p89,47,copia,True,
+UR269,p205,47,UR275,p92,47,copia,True,
+UR269,p208,46,UR275,p95,47,copia,False,
+UR269,p211,46,UR275,p98,47,copia,False,
+UR269,p235,2190,UR275,p99,2200,copia,False,
+UR269,p236,46,UR275,p104,47,copia,False,
+UR269,p275,47,UR275,p107,47,copia,True,
+UR269,p11,47,UR266,p18,47,copia,True,
+UR269,p12,45,UR266,p22,44,copia,False,
+UR269,p16,46,UR266,p29,47,copia,False,
+UR269,p17,40,UR266,p32s1,30,copia,False,
+UR269,p18,200,UR266,p38s1,100,copia,False,
+UR269,p18s1,260,UR266,p43,250,copia,False,
+UR269,p19s2,48,UR266,p46,47,copia,False,
+UR269,p23,420,UR266,p48,421,copia,False,
+UR269,p40,47,UR266,p51,47,copia,True,
+UR269,p69,46,UR266,p55,47,copia,False,
+UR269,p71,2600,UR266,p56s1,2500,copia,False,
+UR269,p85,46,UR266,p61,47,copia,False,
+UR269,p87,2300,UR266,p62s1,3300,copia,False,
+UR269,p89,2633,UR266,p64,2633,copia,True,
+UR269,p101,46,UR266,p65,47,copia,False,
+UR269,p133,46,UR266,p70,47,copia,False,
+UR269,p146,47,UR266,p74,47,copia,True,
+UR269,p149,2000,UR266,p75s1,1000,copia,False,
+UR269,p167,2375,UR266,p77,2275,copia,False,
+UR269,p168s1,48,UR266,p79,47,copia,False,
+UR269,p176,46,UR266,p83,47,copia,False,
+UR269,p179,46,UR266,p88,47,copia,False,
+UR269,p189,47,UR266,p93,47,copia,True,
+UR269,p205,47,UR266,p98,47,copia,True,
+UR269,p208,46,UR266,p103,47,copia,False,
+UR269,p228,1000,UR266,p108,1000,copia,True,
+UR269,p231,1938,UR266,p109,1939,copia,False,
+UR269,p236,46,UR266,p111,47,copia,False,
+UR269,p240,34,UR266,p115,44,copia,False,
+UR269,p244,2000,UR266,p117,1000,copia,False,
+UR269,p274,1665,UR266,p124,1765,copia,False,
+UR269,p275,47,UR266,p126,47,copia,True,
+UR278,g0(suma de 9),3618,UR266,p3,3618,total_grupo,True,
+UR278,g1(suma de 9),1506,UR266,p7,1506,total_grupo,True,
+UR278,g2(suma de 9),1384,UR266,p12,1384,total_grupo,True,
+UR278,g3(suma de 9),2919,UR266,p17,2919,total_grupo,True,
+UR278,g5(suma de 9),2089,UR266,p28,2089,total_grupo,True,
+UR278,g6(suma de 9),1842,UR266,p35,1842,total_grupo,True,
+UR278,g7(suma de 9),1876,UR266,p40,1876,total_grupo,True,
+UR278,g9(suma de 9),2229,UR266,p50,2229,total_grupo,True,
+UR278,g11(suma de 9),4273,UR266,p60,4273,total_grupo,True,
+UR278,g12(suma de 9),2533,UR266,p64,2633,total_grupo,False,
+UR278,g13(suma de 9),3095,UR266,p69,3096,total_grupo,False,
+UR278,g14(suma de 9),2950,UR266,p73,2950,total_grupo,True,
+UR278,g16(suma de 9),1278,UR266,p81,1278,total_grupo,True,
+UR278,g17(suma de 9),2115,UR266,p86,2114,total_grupo,False,
+UR278,g19(suma de 9),2105,UR266,p96,2106,total_grupo,False,
+UR278,g21(suma de 9),1654,UR266,p101,1653,total_grupo,False,
+UR278,g5(suma de 9),2089,UR275,p7,2089,total_grupo,True,
+UR278,g6(suma de 9),1842,UR275,p13,1842,total_grupo,True,
+UR278,g7(suma de 9),1876,UR275,p17,1876,total_grupo,True,
+UR278,g9(suma de 9),2229,UR275,p25,2229,total_grupo,True,
+UR278,g11(suma de 9),4273,UR275,p34,4273,total_grupo,True,
+UR278,g12(suma de 9),2533,UR275,p41,2633,total_grupo,False,
+UR278,g13(suma de 9),3095,UR275,p45,3096,total_grupo,False,
+UR278,g14(suma de 9),2950,UR275,p50,2950,total_grupo,True,
+UR278,g15(suma de 4),1234,UR275,p76,234,total_grupo,False,
+UR278,g19(suma de 9),2105,UR275,p78,2106,total_grupo,False,
+UR278,g21(suma de 9),1654,UR275,p82,1653,total_grupo,False,
+UR278,g1(suma de 9),1506,UR269,p144,1505,total_grupo,False,
+UR278,g7(suma de 9),1876,UR269,p171,1886,total_grupo,False,
+UR278,g12(suma de 9),2533,UR269,p181,2433,total_grupo,False,
+UR267A,p11,206,UR269,p276,1618,suma_AB(parte A),False,UR267A:p11=206 + UR267B:p16=1411 = 1617; cuota esperada 25
+UR267B,p16,1411,UR269,p276,1618,suma_AB(parte B),False,UR267A:p11=206 + UR267B:p16=1411 = 1617; cuota esperada 25
+UR267A,p17,85,UR275,p58,346,suma_AB(parte A),False,UR267A:p17=85 + UR267B:p25=260 = 345; cuota esperada 25
+UR267B,p25,260,UR275,p58,346,suma_AB(parte B),False,UR267A:p17=85 + UR267B:p25=260 = 345; cuota esperada 25
+UR267A,p30,187,UR269,p155,712,suma_AB(parte A),False,UR267A:p30=187 + UR267B:p47=526 = 713; cuota esperada 25
+UR267B,p47,526,UR269,p155,712,suma_AB(parte B),False,UR267A:p30=187 + UR267B:p47=526 = 713; cuota esperada 25
+UR267A,p33,95,UR269,p216,451,suma_AB(parte A),False,UR267A:p33=95 + UR267B:p53=357 = 452; cuota esperada 25
+UR267B,p53,357,UR269,p216,451,suma_AB(parte B),False,UR267A:p33=95 + UR267B:p53=357 = 452; cuota esperada 25
+UR267A,p37,215,UR269,p76,828,suma_AB(parte A),True,UR267A:p37=215 + UR267B:p58=613 = 828; cuota esperada 25
+UR267B,p58,613,UR269,p76,828,suma_AB(parte B),True,UR267A:p37=215 + UR267B:p58=613 = 828; cuota esperada 25
+UR267A,p40,157,UR266,p78,484,suma_AB(parte A),False,UR267A:p40=157 + UR267B:p61=328 = 485; cuota esperada 25
+UR267B,p61,328,UR266,p78,484,suma_AB(parte B),False,UR267A:p40=157 + UR267B:p61=328 = 485; cuota esperada 25
+UR267A,p40,157,UR269,p215,486,suma_AB(parte A),False,UR267A:p40=157 + UR267B:p61=328 = 485; cuota esperada 25
+UR267B,p61,328,UR269,p215,486,suma_AB(parte B),False,UR267A:p40=157 + UR267B:p61=328 = 485; cuota esperada 25
+UR267A,p46,141,UR269,p128,742,suma_AB(parte A),True,UR267A:p46=141 + UR267B:p67=601 = 742; cuota esperada 25
+UR267B,p67,601,UR269,p128,742,suma_AB(parte B),True,UR267A:p46=141 + UR267B:p67=601 = 742; cuota esperada 25
+UR267A,p49,127,UR269,p140,662,suma_AB(parte A),True,UR267A:p49=127 + UR267B:p71=535 = 662; cuota esperada 25
+UR267B,p71,535,UR269,p140,662,suma_AB(parte B),True,UR267A:p49=127 + UR267B:p71=535 = 662; cuota esperada 25
+UR267A,p52,110,UR269,p155,712,suma_AB(parte A),False,UR267A:p52=110 + UR267B:p74=603 = 713; cuota esperada 25
+UR267B,p74,603,UR269,p155,712,suma_AB(parte B),False,UR267A:p52=110 + UR267B:p74=603 = 713; cuota esperada 25
+UR267A,p58,201,UR269,p183,522,suma_AB(parte A),True,UR267A:p58=201 + UR267B:p80=321 = 522; cuota esperada 25
+UR267B,p80,321,UR269,p183,522,suma_AB(parte B),True,UR267A:p58=201 + UR267B:p80=321 = 522; cuota esperada 25
+UR267A,p68,63,UR269,p224,392,suma_AB(parte A),True,UR267A:p68=63 + UR267B:p89=329 = 392; cuota esperada 25
+UR267B,p89,329,UR269,p224,392,suma_AB(parte B),True,UR267A:p68=63 + UR267B:p89=329 = 392; cuota esperada 25
+UR267A,p68,63,UR275,p37,393,suma_AB(parte A),False,UR267A:p68=63 + UR267B:p89=329 = 392; cuota esperada 25
+UR267B,p89,329,UR275,p37,393,suma_AB(parte B),False,UR267A:p68=63 + UR267B:p89=329 = 392; cuota esperada 25
+UR267A,p68,63,UR275,p39,391,suma_AB(parte A),False,UR267A:p68=63 + UR267B:p89=329 = 392; cuota esperada 25
+UR267B,p89,329,UR275,p39,391,suma_AB(parte B),False,UR267A:p68=63 + UR267B:p89=329 = 392; cuota esperada 25
+UR267A,p74,44,UR275,p32,561,suma_AB(parte A),False,UR267A:p74=44 + UR267B:p95=518 = 562; cuota esperada 25
+UR267B,p95,518,UR275,p32,561,suma_AB(parte B),False,UR267A:p74=44 + UR267B:p95=518 = 562; cuota esperada 25
+UR267A,p77,124,UR275,p44,277,suma_AB(parte A),False,UR267A:p77=124 + UR267B:p98=152 = 276; cuota esperada 25
+UR267B,p98,152,UR275,p44,277,suma_AB(parte B),False,UR267A:p77=124 + UR267B:p98=152 = 276; cuota esperada 25
+UR273A,p10,808,UR266,p73,2950,suma_AB(parte A),True,UR273A:p10=808 + UR273B:p20=2142 = 2950; cuota esperada 47
+UR273B,p20,2142,UR266,p73,2950,suma_AB(parte B),True,UR273A:p10=808 + UR273B:p20=2142 = 2950; cuota esperada 47
+UR273A,p10,808,UR275,p50,2950,suma_AB(parte A),True,UR273A:p10=808 + UR273B:p20=2142 = 2950; cuota esperada 47
+UR273B,p20,2142,UR275,p50,2950,suma_AB(parte B),True,UR273A:p10=808 + UR273B:p20=2142 = 2950; cuota esperada 47
+UR273A,p29,453,UR266,p101,1653,suma_AB(parte A),True,UR273A:p29=453 + UR273B:p57=1200 = 1653; cuota esperada 47
+UR273B,p57,1200,UR266,p101,1653,suma_AB(parte B),True,UR273A:p29=453 + UR273B:p57=1200 = 1653; cuota esperada 47
+UR273A,p29,453,UR269,p10,1653,suma_AB(parte A),True,UR273A:p29=453 + UR273B:p57=1200 = 1653; cuota esperada 47
+UR273B,p57,1200,UR269,p10,1653,suma_AB(parte B),True,UR273A:p29=453 + UR273B:p57=1200 = 1653; cuota esperada 47
+UR273A,p29,453,UR275,p82,1653,suma_AB(parte A),True,UR273A:p29=453 + UR273B:p57=1200 = 1653; cuota esperada 47
+UR273B,p57,1200,UR275,p82,1653,suma_AB(parte B),True,UR273A:p29=453 + UR273B:p57=1200 = 1653; cuota esperada 47
+UR273A,p33,448,UR266,p104,1737,suma_AB(parte A),True,UR273A:p33=448 + UR273B:p64=1289 = 1737; cuota esperada 47
+UR273B,p64,1289,UR266,p104,1737,suma_AB(parte B),True,UR273A:p33=448 + UR273B:p64=1289 = 1737; cuota esperada 47
+UR273A,p33,448,UR269,p38,1737,suma_AB(parte A),True,UR273A:p33=448 + UR273B:p64=1289 = 1737; cuota esperada 47
+UR273B,p64,1289,UR269,p38,1737,suma_AB(parte B),True,UR273A:p33=448 + UR273B:p64=1289 = 1737; cuota esperada 47
+UR273A,p33,448,UR275,p85,1737,suma_AB(parte A),True,UR273A:p33=448 + UR273B:p64=1289 = 1737; cuota esperada 47
+UR273B,p64,1289,UR275,p85,1737,suma_AB(parte B),True,UR273A:p33=448 + UR273B:p64=1289 = 1737; cuota esperada 47
+UR273A,p37,502,UR269,p64,1827,suma_AB(parte A),True,UR273A:p37=502 + UR273B:p69=1325 = 1827; cuota esperada 47
+UR273B,p69,1325,UR269,p64,1827,suma_AB(parte B),True,UR273A:p37=502 + UR273B:p69=1325 = 1827; cuota esperada 47
+UR273A,p40,448,UR269,p65,1780,suma_AB(parte A),True,UR273A:p40=448 + UR273B:p73=1332 = 1780; cuota esperada 47
+UR273B,p73,1332,UR269,p65,1780,suma_AB(parte B),True,UR273A:p40=448 + UR273B:p73=1332 = 1780; cuota esperada 47
+UR273A,p40,448,UR269,p80,1780,suma_AB(parte A),True,UR273A:p40=448 + UR273B:p73=1332 = 1780; cuota esperada 47
+UR273B,p73,1332,UR269,p80,1780,suma_AB(parte B),True,UR273A:p40=448 + UR273B:p73=1332 = 1780; cuota esperada 47
+UR273A,p40,448,UR275,p90,1780,suma_AB(parte A),True,UR273A:p40=448 + UR273B:p73=1332 = 1780; cuota esperada 47
+UR273B,p73,1332,UR275,p90,1780,suma_AB(parte B),True,UR273A:p40=448 + UR273B:p73=1332 = 1780; cuota esperada 47
+UR273A,p40,448,UR275,p91,1780,suma_AB(parte A),True,UR273A:p40=448 + UR273B:p73=1332 = 1780; cuota esperada 47
+UR273B,p73,1332,UR275,p91,1780,suma_AB(parte B),True,UR273A:p40=448 + UR273B:p73=1332 = 1780; cuota esperada 47
+UR273A,p48,672,UR275,p97,2247,suma_AB(parte A),True,UR273A:p48=672 + UR273B:p82=1575 = 2247; cuota esperada 47
+UR273B,p82,1575,UR275,p97,2247,suma_AB(parte B),True,UR273A:p48=672 + UR273B:p82=1575 = 2247; cuota esperada 47
+UR273A,p51,509,UR266,p124,1765,suma_AB(parte A),True,UR273A:p51=509 + UR273B:p85=1256 = 1765; cuota esperada 47
+UR273B,p85,1256,UR266,p124,1765,suma_AB(parte B),True,UR273A:p51=509 + UR273B:p85=1256 = 1765; cuota esperada 47
+UR273A,p54,325,UR266,p7,1506,suma_AB(parte A),True,UR273A:p54=325 + UR273B:p88=1181 = 1506; cuota esperada 47
+UR273B,p88,1181,UR266,p7,1506,suma_AB(parte B),True,UR273A:p54=325 + UR273B:p88=1181 = 1506; cuota esperada 47
+UR273A,p54,325,UR266,p127,1505,suma_AB(parte A),False,UR273A:p54=325 + UR273B:p88=1181 = 1506; cuota esperada 47
+UR273B,p88,1181,UR266,p127,1505,suma_AB(parte B),False,UR273A:p54=325 + UR273B:p88=1181 = 1506; cuota esperada 47
+UR273A,p54,325,UR269,p144,1505,suma_AB(parte A),False,UR273A:p54=325 + UR273B:p88=1181 = 1506; cuota esperada 47
+UR273B,p88,1181,UR269,p144,1505,suma_AB(parte B),False,UR273A:p54=325 + UR273B:p88=1181 = 1506; cuota esperada 47
+UR273A,p54,325,UR275,p103,1505,suma_AB(parte A),False,UR273A:p54=325 + UR273B:p88=1181 = 1506; cuota esperada 47
+UR273B,p88,1181,UR275,p103,1505,suma_AB(parte B),False,UR273A:p54=325 + UR273B:p88=1181 = 1506; cuota esperada 47
+UR273A,p60,526,UR269,p171,1886,suma_AB(parte A),False,UR273A:p60=526 + UR273B:p94=1361 = 1887; cuota esperada 47
+UR273B,p94,1361,UR269,p171,1886,suma_AB(parte B),False,UR273A:p60=526 + UR273B:p94=1361 = 1887; cuota esperada 47
+UR273A,p63,517,UR269,p171,1886,suma_AB(parte A),False,UR273A:p63=517 + UR273B:p97=1370 = 1887; cuota esperada 47
+UR273B,p97,1370,UR269,p171,1886,suma_AB(parte B),False,UR273A:p63=517 + UR273B:p97=1370 = 1887; cuota esperada 47
+UR274A,p5,30,UR269,p168,2330,suma_AB(parte A),True,UR274A:p5=30 + UR273B:p8=2300 = 2330; cuota esperada 47
+UR273B,p8,2300,UR269,p168,2330,suma_AB(parte B),True,UR274A:p5=30 + UR273B:p8=2300 = 2330; cuota esperada 47
+UR274A,p15,1020,UR269,p237,2270,suma_AB(parte A),False,UR274A:p15=1020 + UR273B:p26=1249 = 2269; cuota esperada 47
+UR273B,p26,1249,UR269,p237,2270,suma_AB(parte B),False,UR274A:p15=1020 + UR273B:p26=1249 = 2269; cuota esperada 47
+UR274A,p19,391,UR266,p81,1278,suma_AB(parte A),True,UR274A:p19=391 + UR273B:p32=887 = 1278; cuota esperada 47
+UR273B,p32,887,UR266,p81,1278,suma_AB(parte B),True,UR274A:p19=391 + UR273B:p32=887 = 1278; cuota esperada 47
+UR274A,p19,391,UR275,p59,1278,suma_AB(parte A),True,UR274A:p19=391 + UR273B:p32=887 = 1278; cuota esperada 47
+UR273B,p32,887,UR275,p59,1278,suma_AB(parte B),True,UR274A:p19=391 + UR273B:p32=887 = 1278; cuota esperada 47
+UR274A,p22,891,UR269,p194,2020,suma_AB(parte A),True,UR274A:p22=891 + UR273B:p39=1129 = 2020; cuota esperada 47
+UR273B,p39,1129,UR269,p194,2020,suma_AB(parte B),True,UR274A:p22=891 + UR273B:p39=1129 = 2020; cuota esperada 47
+UR274A,p22,891,UR275,p66,2020,suma_AB(parte A),True,UR274A:p22=891 + UR273B:p39=1129 = 2020; cuota esperada 47
+UR273B,p39,1129,UR275,p66,2020,suma_AB(parte B),True,UR274A:p22=891 + UR273B:p39=1129 = 2020; cuota esperada 47
+UR274A,p29,772,UR266,p96,2106,suma_AB(parte A),True,UR274A:p29=772 + UR273B:p52=1334 = 2106; cuota esperada 47
+UR273B,p52,1334,UR266,p96,2106,suma_AB(parte B),True,UR274A:p29=772 + UR273B:p52=1334 = 2106; cuota esperada 47
+UR274A,p29,772,UR275,p78,2106,suma_AB(parte A),True,UR274A:p29=772 + UR273B:p52=1334 = 2106; cuota esperada 47
+UR273B,p52,1334,UR275,p78,2106,suma_AB(parte B),True,UR274A:p29=772 + UR273B:p52=1334 = 2106; cuota esperada 47
+UR274A,p32,453,UR266,p101,1653,suma_AB(parte A),True,UR274A:p32=453 + UR273B:p57=1200 = 1653; cuota esperada 47
+UR273B,p57,1200,UR266,p101,1653,suma_AB(parte B),True,UR274A:p32=453 + UR273B:p57=1200 = 1653; cuota esperada 47
+UR274A,p32,453,UR269,p10,1653,suma_AB(parte A),True,UR274A:p32=453 + UR273B:p57=1200 = 1653; cuota esperada 47
+UR273B,p57,1200,UR269,p10,1653,suma_AB(parte B),True,UR274A:p32=453 + UR273B:p57=1200 = 1653; cuota esperada 47
+UR274A,p32,453,UR275,p82,1653,suma_AB(parte A),True,UR274A:p32=453 + UR273B:p57=1200 = 1653; cuota esperada 47
+UR273B,p57,1200,UR275,p82,1653,suma_AB(parte B),True,UR274A:p32=453 + UR273B:p57=1200 = 1653; cuota esperada 47
+UR274A,p36,448,UR266,p104,1737,suma_AB(parte A),True,UR274A:p36=448 + UR273B:p64=1289 = 1737; cuota esperada 47
+UR273B,p64,1289,UR266,p104,1737,suma_AB(parte B),True,UR274A:p36=448 + UR273B:p64=1289 = 1737; cuota esperada 47
+UR274A,p36,448,UR269,p38,1737,suma_AB(parte A),True,UR274A:p36=448 + UR273B:p64=1289 = 1737; cuota esperada 47
+UR273B,p64,1289,UR269,p38,1737,suma_AB(parte B),True,UR274A:p36=448 + UR273B:p64=1289 = 1737; cuota esperada 47
+UR274A,p36,448,UR275,p85,1737,suma_AB(parte A),True,UR274A:p36=448 + UR273B:p64=1289 = 1737; cuota esperada 47
+UR273B,p64,1289,UR275,p85,1737,suma_AB(parte B),True,UR274A:p36=448 + UR273B:p64=1289 = 1737; cuota esperada 47
+UR274A,p42,448,UR269,p65,1780,suma_AB(parte A),True,UR274A:p42=448 + UR273B:p73=1332 = 1780; cuota esperada 47
+UR273B,p73,1332,UR269,p65,1780,suma_AB(parte B),True,UR274A:p42=448 + UR273B:p73=1332 = 1780; cuota esperada 47
+UR274A,p42,448,UR269,p80,1780,suma_AB(parte A),True,UR274A:p42=448 + UR273B:p73=1332 = 1780; cuota esperada 47
+UR273B,p73,1332,UR269,p80,1780,suma_AB(parte B),True,UR274A:p42=448 + UR273B:p73=1332 = 1780; cuota esperada 47
+UR274A,p42,448,UR275,p90,1780,suma_AB(parte A),True,UR274A:p42=448 + UR273B:p73=1332 = 1780; cuota esperada 47
+UR273B,p73,1332,UR275,p90,1780,suma_AB(parte B),True,UR274A:p42=448 + UR273B:p73=1332 = 1780; cuota esperada 47
+UR274A,p42,448,UR275,p91,1780,suma_AB(parte A),True,UR274A:p42=448 + UR273B:p73=1332 = 1780; cuota esperada 47
+UR273B,p73,1332,UR275,p91,1780,suma_AB(parte B),True,UR274A:p42=448 + UR273B:p73=1332 = 1780; cuota esperada 47
+UR274A,p49,671,UR275,p97,2247,suma_AB(parte A),False,UR274A:p49=671 + UR273B:p82=1575 = 2246; cuota esperada 47
+UR273B,p82,1575,UR275,p97,2247,suma_AB(parte B),False,UR274A:p49=671 + UR273B:p82=1575 = 2246; cuota esperada 47
+UR270,g0:colgantes,1200,UR273B,p57,1200,parte_P,True,
+UR270,g0:subsid_s1,453,UR273A,p29,453,parte_S,True,
+UR270,g0:colgantes+subsid,1653,UR266,p101,1653,suma_PS,True,
+UR270,g0:colgantes+subsid,1653,UR269,p10,1653,suma_PS,True,
+UR270,g0:colgantes+subsid,1653,UR275,p82,1653,suma_PS,True,
+UR270,g8:colgantes,1575,UR273B,p82,1575,parte_P,True,
+UR270,g8:subsid_s1,673,UR273A,p48,672,parte_S,False,
+UR270,g8:colgantes+subsid,2248,UR275,p97,2247,suma_PS,False,
+UR270,g9:colgantes,1256,UR273B,p85,1256,parte_P,True,
+UR270,g9:subsid_s1,510,UR273A,p51,509,parte_S,False,
+UR270,g9:colgantes+subsid,1766,UR266,p124,1765,suma_PS,False,
+UR255,p1,106,UR255,p3,15,cuota,False,
+UR255,p9,160,UR255,p11,15,cuota,False,
+UR255,p13,206,UR255,p15,15,cuota,False,
+UR255,p17,238,UR255,p19,15,cuota,False,
+UR255,p24,160,UR255,p26,15,cuota,False,
+UR255,p27,114,UR255,p29,15,cuota,False,
+UR255,p30,141,UR255,p32,15,cuota,False,
+UR255,p33,187,UR255,p35,15,cuota,False,
+UR255,p40,215,UR255,p42,15,cuota,False,
+UR255,p43,157,UR255,p45,15,cuota,False,
+UR255,p47,187,UR255,p49,15,cuota,False,
+UR255,p47,187,UR255,p50,172,neto,False,x - 15
+UR255,p51,141,UR255,p53,15,cuota,False,
+UR255,p51,141,UR255,p52,126,neto,False,x - 15
+UR255,p54,127,UR255,p56,15,cuota,False,
+UR255,p54,127,UR255,p55,112,neto,False,x - 15
+UR255,p57,110,UR255,p59,15,cuota,False,
+UR255,p57,110,UR255,p58,95,neto,False,x - 15
+UR255,p60,148,UR255,p62,15,cuota,False,
+UR255,p60,148,UR255,p61,133,neto,False,x - 15
+UR255,p64,201,UR255,p66,15,cuota,False,
+UR255,p64,201,UR255,p65,186,neto,False,x - 15
+UR267A,p1,106,UR267A,p2,15,cuota,False,
+UR267A,p1,106,UR267A,p3,91,neto,False,x - 15
+UR267A,p4,112,UR267A,p5,15,cuota,False,
+UR267A,p7,161,UR267A,p8,15,cuota,False,
+UR267A,p11,206,UR267A,p12,15,cuota,False,
+UR267A,p11,206,UR267A,p13,191,neto,False,x - 15
+UR267A,p14,238,UR267A,p15,15,cuota,False,
+UR267A,p14,238,UR267A,p16,223,neto,False,x - 15
+UR267A,p20,160,UR267A,p21,15,cuota,False,
+UR267A,p23,114,UR267A,p24,15,cuota,False,
+UR267A,p30,187,UR267A,p31,15,cuota,False,
+UR267A,p37,215,UR267A,p38,15,cuota,False,
+UR267A,p37,215,UR267A,p39,200,neto,False,x - 15
+UR267A,p40,157,UR267A,p41,15,cuota,False,
+UR267A,p40,157,UR267A,p42,142,neto,False,x - 15
+UR267A,p43,187,UR267A,p44,15,cuota,False,
+UR267A,p43,187,UR267A,p45,172,neto,False,x - 15
+UR267A,p46,141,UR267A,p47,15,cuota,False,
+UR267A,p46,141,UR267A,p48,126,neto,False,x - 15
+UR267A,p49,127,UR267A,p50,15,cuota,False,
+UR267A,p49,127,UR267A,p51,112,neto,False,x - 15
+UR267A,p52,110,UR267A,p53,15,cuota,False,
+UR267A,p52,110,UR267A,p54,95,neto,False,x - 15
+UR267A,p55,149,UR267A,p56,15,cuota,False,
+UR267A,p55,149,UR267A,p57,134,neto,False,x - 15
+UR267A,p58,201,UR267A,p59,15,cuota,False,
+UR267A,p58,201,UR267A,p60,186,neto,False,x - 15
+UR267A,p77,124,UR267A,p79,15,cuota,False,
+UR267A,p77,124,UR267A,p78,109,neto,False,x - 15
+UR256,p1,1055,UR256,p3,10,cuota,False,
+UR256,p9,672,UR256,p11,10,cuota,False,
+UR256,p21,1411,UR256,p23,10,cuota,False,
+UR256,p27,543,UR256,p29,10,cuota,False,
+UR256,p33,270,UR256,p35,10,cuota,False,
+UR256,p38,355,UR256,p41,10,cuota,False,
+UR256,p44,366,UR256,p46,10,cuota,False,
+UR256,p68,357,UR256,p70,10,cuota,False,
+UR256,p68,357,UR256,p69,347,neto,False,x - 10
+UR256,p72,663,UR256,p74,10,cuota,False,
+UR256,p76,365,UR256,p78,10,cuota,False,
+UR256,p79,620,UR256,p80,610,neto,False,x - 10
+UR256,p83,601,UR256,p85,10,cuota,False,
+UR256,p83,601,UR256,p86,11,neto,False,x = 10 + 580 + 11
+UR256,p88,535,UR256,p90,10,cuota,False,
+UR256,p88,535,UR256,p89,525,neto,False,x - 10
+UR256,p91,603,UR256,p93,10,cuota,False,
+UR256,p91,603,UR256,p92,593,neto,False,x - 10
+UR256,p94,290,UR256,p96,10,cuota,False,
+UR256,p98,321,UR256,p100,10,cuota,False,
+UR256,p101,342,UR256,p103,10,cuota,False,
+UR256,p104,394,UR256,p106,10,cuota,False,
+UR256,p104,394,UR256,p105,384,neto,False,x - 10
+UR256,p107,329,UR256,p109,10,cuota,False,
+UR256,p107,329,UR256,p108,319,neto,False,x - 10
+UR256,p113,518,UR256,p115,10,cuota,False,
+UR256,p113,518,UR256,p114,508,neto,False,x - 10
+UR256,p116,153,UR256,p118,10,cuota,False,
+UR256,p116,153,UR256,p117,143,neto,False,x - 10
+UR267B,p2,1054,UR267B,p3,10,cuota,False,
+UR267B,p8,660,UR267B,p9,10,cuota,False,
+UR267B,p12,1024,UR267B,p13,10,cuota,False,
+UR267B,p16,1411,UR267B,p17,10,cuota,False,
+UR267B,p21,543,UR267B,p22,10,cuota,False,
+UR267B,p21,543,UR267B,p24,111,neto,False,x = 10 + 522 + 111
+UR267B,p25,260,UR267B,p26,10,cuota,False,
+UR267B,p32,308,UR267B,p33,10,cuota,False,
+UR267B,p38,413,UR267B,p39,10,cuota,False,
+UR267B,p38,413,UR267B,p42,87,neto,False,x = 10 + 47 + 169 + 87
+UR267B,p43,523,UR267B,p44,10,cuota,False,
+UR267B,p47,526,UR267B,p48,10,cuota,False,
+UR267B,p53,357,UR267B,p54,10,cuota,False,
+UR267B,p58,613,UR267B,p59,10,cuota,False,
+UR267B,p58,613,UR267B,p60,603,neto,False,x - 10
+UR267B,p61,328,UR267B,p62,10,cuota,False,
+UR267B,p61,328,UR267B,p63,318,neto,False,x - 10
+UR267B,p64,660,UR267B,p65,10,cuota,False,
+UR267B,p64,660,UR267B,p66,650,neto,False,x - 10
+UR267B,p67,601,UR267B,p68,10,cuota,False,
+UR267B,p67,601,UR267B,p69,591,neto,False,x - 10
+UR267B,p71,535,UR267B,p72,10,cuota,False,
+UR267B,p71,535,UR267B,p73,525,neto,False,x - 10
+UR267B,p74,603,UR267B,p75,10,cuota,False,
+UR267B,p74,603,UR267B,p76,593,neto,False,x - 10
+UR267B,p77,284,UR267B,p78,10,cuota,False,
+UR267B,p77,284,UR267B,p79,274,neto,False,x - 10
+UR267B,p80,321,UR267B,p81,10,cuota,False,
+UR267B,p80,321,UR267B,p82,311,neto,False,x - 10
+UR267B,p83,543,UR267B,p84,10,cuota,False,
+UR267B,p83,543,UR267B,p85,533,neto,False,x - 10
+UR267B,p86,394,UR267B,p87,10,cuota,False,
+UR267B,p86,394,UR267B,p88,384,neto,False,x - 10
+UR267B,p89,329,UR267B,p90,10,cuota,False,
+UR267B,p89,329,UR267B,p91,319,neto,False,x - 10
+UR267B,p95,518,UR267B,p96,10,cuota,False,
+UR267B,p95,518,UR267B,p97,508,neto,False,x - 10
+UR267B,p98,152,UR267B,p99,10,cuota,False,
+UR267B,p101,121,UR267B,p103,10,cuota,False,
+UR267B,p101,121,UR267B,p102,111,neto,False,x - 10
+UR266,p3,3618,UR266,p4,47,cuota,False,
+UR266,p3,3618,UR266,p6,2207,neto,False,x = 47 + 1364 + 2207
+UR266,p7,1506,UR266,p8,47,cuota,False,
+UR266,p12,1384,UR266,p13,47,cuota,False,
+UR266,p17,2919,UR266,p18,47,cuota,False,
+UR266,p28,2089,UR266,p29,47,cuota,False,
+UR266,p35,1842,UR266,p36,47,cuota,False,
+UR266,p40,1876,UR266,p41,47,cuota,False,
+UR266,p43,250,UR266,p46,47,cuota,False,
+UR266,p50,2229,UR266,p51,47,cuota,False,
+UR266,p54,3320,UR266,p55,47,cuota,False,
+UR266,p60,4273,UR266,p61,47,cuota,False,
+UR266,p64,2633,UR266,p65,47,cuota,False,
+UR266,p69,3096,UR266,p70,47,cuota,False,
+UR266,p73,2950,UR266,p74,47,cuota,False,
+UR266,p77,2275,UR266,p79,47,cuota,False,
+UR266,p81,1278,UR266,p83,47,cuota,False,
+UR266,p86,2114,UR266,p88,47,cuota,False,
+UR266,p91,1594,UR266,p93,47,cuota,False,
+UR266,p96,2106,UR266,p98,47,cuota,False,
+UR266,p100,100,UR266,p103,47,cuota,False,
+UR266,p104,1737,UR266,p105,1690,neto,False,x - 47
+UR266,p124,1765,UR266,p126,47,cuota,False,
+UR266,p124,1765,UR266,p125,1718,neto,False,x - 47
+UR266,p127,1505,UR266,p128,1458,neto,False,x - 47
+UR275,p1,3317,UR275,p2,47,cuota,False,
+UR275,p1,3317,UR275,p6,2287,neto,False,x = 47 + 114 + 498 + 370 + 2287
+UR275,p7,2089,UR275,p8,47,cuota,False,
+UR275,p7,2089,UR275,p12,1271,neto,False,x = 47 + 203 + 236 + 21 + 312 + 1271
+UR275,p13,1842,UR275,p14,47,cuota,False,
+UR275,p13,1842,UR275,p16,1442,neto,False,x = 47 + 342 + 11 + 1442
+UR275,p17,1876,UR275,p18,47,cuota,False,
+UR275,p17,1876,UR275,p20,1545,neto,False,x = 47 + 250 + 34 + 1545
+UR275,p21,3249,UR275,p22,47,cuota,False,
+UR275,p21,3249,UR275,p24,3116,neto,False,x = 47 + 76 + 3116
+UR275,p25,2229,UR275,p26,47,cuota,False,
+UR275,p25,2229,UR275,p28,1786,neto,False,x = 47 + 386 + 1786
+UR275,p29,3320,UR275,p30,47,cuota,False,
+UR275,p34,4273,UR275,p35,47,cuota,False,
+UR275,p34,4273,UR275,p40,2710,neto,False,x = 47 + 260 + 393 + 472 + 391 + 2710
+UR275,p41,2633,UR275,p42,47,cuota,False,
+UR275,p45,3096,UR275,p46,47,cuota,False,
+UR275,p45,3096,UR275,p49,2896,neto,False,x = 47 + 107 + 46 + 2896
+UR275,p55,2275,UR275,p56,47,cuota,False,
+UR275,p59,1278,UR275,p60,47,cuota,False,
+UR275,p66,2020,UR275,p67,47,cuota,False,
+UR275,p71,1588,UR275,p72,47,cuota,False,
+UR275,p78,2106,UR275,p79,47,cuota,False,
+UR275,p78,2106,UR275,p81,1599,neto,False,x = 47 + 460 + 1599
+UR275,p82,1653,UR275,p83,47,cuota,False,
+UR275,p82,1653,UR275,p84,1606,neto,False,x - 47
+UR275,p85,1737,UR275,p86,47,cuota,False,
+UR275,p85,1737,UR275,p87,1690,neto,False,x - 47
+UR275,p88,1825,UR275,p89,47,cuota,False,
+UR275,p91,1780,UR275,p92,47,cuota,False,
+UR275,p91,1780,UR275,p93,1733,neto,False,x - 47
+UR275,p94,1891,UR275,p95,47,cuota,False,
+UR275,p94,1891,UR275,p96,1844,neto,False,x - 47
+UR275,p97,2247,UR275,p98,47,cuota,False,
+UR275,p97,2247,UR275,p99,2200,neto,False,x - 47
+UR275,p100,1760,UR275,p101,47,cuota,False,
+UR275,p103,1505,UR275,p104,47,cuota,False,
+UR275,p103,1505,UR275,p105,1458,neto,False,x - 47
+UR275,p106,1907,UR275,p107,47,cuota,False,
+UR275,p106,1907,UR275,p108,1860,neto,False,x - 47
+UR274A,p1,280,UR274A,p2,30,cuota,False,
+UR274A,p7,862,UR274A,p9,30,cuota,False,
+UR274A,p11,700,UR274A,p12,30,cuota,False,
+UR274A,p15,1020,UR274A,p17,30,cuota,False,
+UR274A,p19,391,UR274A,p21,30,cuota,False,
+UR274A,p22,891,UR274A,p24,30,cuota,False,
+UR274A,p26,490,UR274A,p28,30,cuota,False,
+UR274A,p29,772,UR274A,p31,30,cuota,False,
+UR274A,p32,453,UR274A,p34,30,cuota,False,
+UR274A,p36,448,UR274A,p38,30,cuota,False,
+UR274A,p39,607,UR274A,p41,30,cuota,False,
+UR274A,p42,448,UR274A,p44,30,cuota,False,
+UR274A,p45,591,UR274A,p47,30,cuota,False,
+UR274A,p64,264,UR274A,p66,30,cuota,False,
+UR274A,p67,143,UR274A,p69,30,cuota,False,
+UR274A,p67,143,UR274A,p68,113,neto,False,x - 30
+UR274B,p62,1332,UR274B,p63,1315,neto,False,x - 17
+UR274B,p24,1249,UR274B,p26,17,cuota,False,
+UR274B,p30,880,UR274B,p32,17,cuota,False,
+UR274B,p35,1043,UR274B,p37,17,cuota,False,
+UR274B,p40,1090,UR274B,p41,17,cuota,False,
+UR274B,p52,1200,UR274B,p55,17,cuota,False,
+UR274B,p58,1288,UR274B,p60,17,cuota,False,
+UR274B,p66,1402,UR274B,p68,17,cuota,False,
+UR274B,p66,1402,UR274B,p67,1385,neto,False,x - 17
+UR274B,p69,1300,UR274B,p71,17,cuota,False,
+UR274B,p69,1300,UR274B,p70,1283,neto,False,x - 17
+UR274B,p72,1575,UR274B,p74,17,cuota,False,
+UR274B,p83,1750,UR274B,p84,17,cuota,False,
+UR274B,p87,762,UR274B,p88,17,cuota,False,
+UR273B,p39,1129,UR273B,p41,17,cuota,False,
+UR273B,p52,1334,UR273B,p54,17,cuota,False,
+UR273B,p64,1289,UR273B,p66,17,cuota,False,
+UR268,p7,8149,UR268,p8,208,cuota,False,
+UR268,p13,8173,UR268,p14,208,cuota,False,
+UR268,p17,8009,UR268,p18,208,cuota,False,
+UR268,p21,15039,UR268,p22,208,cuota,False,
+UR268,p25,10000,UR268,p26,208,cuota,False,
+UR268,p29,11357,UR268,p30,208,cuota,False,
+UR268,p34,11954,UR268,p35,208,cuota,False,
+UR268,p48,13162,UR268,p49,208,cuota,False,
+UR268,p58,7135,UR268,p59,208,cuota,False,
+UR268,p66,9920,UR268,p67,208,cuota,False,
+UR268,p73,9306,UR268,p74,208,cuota,False,
+UR268,p79,11338,UR268,p80,208,cuota,False,
+UR268,p79,11338,UR268,p83s2,420,neto,False,x = 208 + 3000 + 7810 + 420
+UR268,p90,7553,UR268,p91,208,cuota,False,
+UR268,p94,10385,UR268,p95,208,cuota,False,
+UR268,p97,9790,UR268,p98,208,cuota,False,
+UR268,p97,9790,UR268,p99,9587,neto,False,x = 208 + 5 + 9587
+UR268,p101,10700,UR268,p103,10492,neto,False,x - 208
+UR268,p104,11415,UR268,p105,208,cuota,False,
+UR268,p107,9793,UR268,p108,208,cuota,False,
+UR268,p107,9793,UR268,p109,9585,neto,False,x - 208
+UR268,p110,8966,UR268,p112,8758,neto,False,x - 208
+UR268,p114,9332,UR268,p116,9124,neto,False,x - 208
+UR268,p117,8527,UR268,p118,208,cuota,False,
+UR268,p120,7215,UR268,p121,208,cuota,False,
+UR269,p10,1653,UR269,p11,47,cuota,False,
+UR269,p15,2312,UR269,p17,40,cuota,False,
+UR269,p15,2312,UR269,p16,46,cuota,False,
+UR269,p20,2300,UR269,p21,40,cuota,False,
+UR269,p31,710,UR269,p32,20,cuota,False,
+UR269,p31,710,UR269,p35s1,40,cuota,False,
+UR269,p38,1737,UR269,p40,47,cuota,False,
+UR269,p58,400,UR269,p61,20,cuota,False,
+UR269,p64,1827,UR269,p66,47,cuota,False,
+UR269,p64,1827,UR269,p65,1780,neto,False,x - 47
+UR269,p67,2214,UR269,p69,46,cuota,False,
+UR269,p67,2214,UR269,p68,2168,neto,False,x - 46
+UR269,p76,828,UR269,p77,803,neto,False,x - 25
+UR269,p80,1780,UR269,p82,40,cuota,False,
+UR269,p86,2430,UR269,p88,46,cuota,False,
+UR269,p89,2633,UR269,p91,44,cuota,False,
+UR269,p93,200,UR269,p94,25,cuota,False,
+UR269,p99,2675,UR269,p101,46,cuota,False,
+UR269,p99,2675,UR269,p100,2629,neto,False,x - 46
+UR269,p102,2740,UR269,p103,2694,neto,False,x - 46
+UR269,p106,2436,UR269,p107,44,cuota,False,
+UR269,p112,2000,UR269,p114,40,cuota,False,
+UR269,p134,2359,UR269,p135,2313,neto,False,x - 46
+UR269,p137,2518,UR269,p139,44,cuota,False,
+UR269,p137,2518,UR269,p138,2474,neto,False,x - 44
+UR269,p140,662,UR269,p142,25,cuota,False,
+UR269,p140,662,UR269,p141,637,neto,False,x - 25
+UR269,p144,1505,UR269,p146,47,cuota,False,
+UR269,p144,1505,UR269,p145,1458,neto,False,x - 47
+UR269,p147,2198,UR269,p148,46,cuota,False,
+UR269,p152,2100,UR269,p154,44,cuota,False,
+UR269,p155,712,UR269,p156,687,neto,False,x - 25
+UR269,p159,1648,UR269,p160,47,cuota,False,
+UR269,p161,2468,UR269,p162,2422,neto,False,x - 46
+UR269,p164,2362,UR269,p166,46,cuota,False,
+UR269,p164,2362,UR269,p165,2316,neto,False,x - 46
+UR269,p167,2375,UR269,p169,44,cuota,False,
+UR269,p174,2797,UR269,p176,46,cuota,False,
+UR269,p174,2797,UR269,p175,2751,neto,False,x - 46
+UR269,p177,2561,UR269,p179,46,cuota,False,
+UR269,p177,2561,UR269,p178,2515,neto,False,x - 46
+UR269,p180,2478,UR269,p182,44,cuota,False,
+UR269,p183,522,UR269,p185,25,cuota,False,
+UR269,p183,522,UR269,p184,497,neto,False,x - 25
+UR269,p187,1890,UR269,p189,47,cuota,False,
+UR269,p190,2250,UR269,p191,40,cuota,False,
+UR269,p203,1130,UR269,p205,47,cuota,False,
+UR269,p203,1130,UR269,p204,1083,neto,False,x - 47
+UR269,p206,2139,UR269,p208,46,cuota,False,
+UR269,p209,2399,UR269,p211,46,cuota,False,
+UR269,p209,2399,UR269,p210,2353,neto,False,x - 46
+UR269,p212,2399,UR269,p214,44,cuota,False,
+UR269,p215,486,UR269,p217,25,cuota,False,
+UR269,p228,1000,UR269,p230,44,cuota,False,
+UR269,p234,2236,UR269,p236,46,cuota,False,
+UR269,p234,2236,UR269,p235,2190,neto,False,x - 46
+UR269,p237,2270,UR269,p239,44,cuota,False,
+UR269,p271,270,UR269,p273,20,cuota,False,
+UR269,p271,270,UR269,p272,250,neto,False,x - 20
+UR269,p274,1665,UR269,p275,47,cuota,False,
+UR269,p274,1665,UR269,p276,1618,neto,False,x - 47

@@ -1,0 +1,11 @@
+kfg,procedencia,n_cuerdas,n_pend,n_subsid,prof,n_grupos,n_colores,color_top,base_top,vmin,vmax,vmed,n_v1,n_v10,torsion,n_R,n_V,n_T,n_U,kn_S,kn_L,kn_E,dir_kn
+AS069,Lluta Valley,1831,1650,181,2,432,245,"W,W:FB,BS,W-FB","W,W(0.0,BS",1.0,585.0,14.0,15,116,U,0,0,0,1831,251,280,74,U:618
+KH0083,Mollepampa,585,88,497,5,60,167,"W,W-DB,AB,W:MB","W,AB,MG",1.0,748.0,22.5,2,10,"S,U",87,0,0,498,251,221,79,"S:484,Z:69,U:3"
+KH0267,"Playa Miller #6, Arica, Chile",22,7,15,2,6,6,"W:LK,PR,MG,W:MG","W,PR,MG",1.0,4.0,3.0,2,7,S,0,7,0,15,14,5,3,"S:19,Z:3"
+UR058A,"Playa Miller #6, Arica, Chile",275,58,217,3,9,27,"W:KB,W-KB,AB,MG","W,AB,MG",1.0,7.0,1.0,26,41,"S,U",58,0,0,217,97,48,86,"S:148,Z:83"
+UR084,"Playa Miller #6, Arica, Chile",23,6,17,2,6,11,"W:KB,MB-KB,MB:KB,PR","MB,W,AB",1.0,5.0,1.0,3,4,S,0,0,0,23,10,3,4,"S:15,Z:2"
+UR130,"Playa Miller #6, Arica, Chile",126,59,67,2,7,23,"W,AB,KB,PK","W,AB,KB",6.0,108.0,25.0,0,11,"S,U",52,1,0,73,55,43,9,"S:98,Z:9"
+UR131A,Lluta Valley,89,56,33,2,9,6,"AB,W,W:AB,AB:MB","AB,W,nan",2.0,748.0,20.5,0,13,S,22,41,0,26,65,46,6,S:117
+UR131B,Lluta Valley,105,66,39,2,12,5,"AB,AB:MB,MB,AB-MB","AB,MB,nan",1.0,1152.0,14.0,1,14,S,30,36,0,39,71,47,7,"S:124,Z:1"
+UR131C,Lluta Valley,100,59,41,2,10,4,"AB,W:KB,MB,W:MB","AB,W,MB",1.0,766.0,26.0,3,11,S,26,37,0,37,66,38,12,S:116
+UR132,"Playa Miller #6, Arica, Chile",57,9,48,1,1,16,"LK,PR,W-KB,AB","W,AB,LK",6.0,25.0,10.0,0,5,S,0,0,0,57,16,12,16,"S:30,Z:13,U:4"

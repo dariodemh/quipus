@@ -1,0 +1,48 @@
+== T1/T2 sumas A+B
+  UR273A+B -> UR266+UR275: 7/18
+  UR273A+B -> UR266+UR275+UR269: 8/18
+  UR274A+UR273B -> UR266+UR275: 6/17
+  UR274A+UR274B -> UR266+UR275: 3/19
+
+== T3 UR270 -> UR278 (celdas)
+  P+S1: 5 grupos con >=6 columnas, 51 aciertos; nulo1 0.00/12.9; nulo2 0.00
+  solo P (control): 0 grupos, 11 aciertos
+
+== T4 UR278 totales de grupo -> UR266 / UR275
+  -> UR266: 12 exactas de 33 filas; nulo 0.7 (max 6); p=9.999e-05
+     tau de orden con cabeceras de UR266: 1.00 (10 pares)
+  -> UR275: 7 exactas de 33 filas; nulo 0.8 (max 6); p=9.999e-05
+     tau de orden con cabeceras de UR275: 1.00 (6 pares)
+
+== T5 UR267A+UR267B -> UR269
+  todas las cuerdas: 6/26; nulo 1.37; p=0.0013
+  solo cabeceras: 5/26; nulo 0.71; p=0.0008999
+  UR269 cuota 25: 3/6 cabeceras son suma A+B; nulo 0.19; p=0.0006999
+
+== T6 cuota 17
+  UR273B: 6 registros; neto x-17 0 (nulo 0.00, p=1); 17 explicito 3 (nulo 2.11, p=0.2775)
+  UR274B: 20 registros; neto x-17 3 (nulo 0.17, p=0.0003999); 17 explicito 10 (nulo 5.92, p=0.003999)
+  UR273A: solo 1 registros, sin prueba
+  UR274A: 15 registros; neto x-17 0 (nulo 0.00, p=1); 17 explicito 0 (nulo 0.00, p=1)
+
+== TABLA
+                                                 prueba  n  obs  nulo_media  nulo_max        p  p_holm
+                           UR273A+UR273B -> UR266+UR275 18    7      0.9458         5 0.000100  0.0007
+                     UR273A+UR273B -> UR266+UR275+UR269 18    8      1.2644         6 0.000100     NaN
+                           UR274A+UR273B -> UR266+UR275 17    6      1.0031         6 0.000200     NaN
+                           UR274A+UR274B -> UR266+UR275 19    3      1.4715         7 0.172083     NaN
+           UR270 P+S1 -> UR278: grupos con >=6 columnas 12    5      0.0012         1 0.000200  0.0008
+                 UR270 P+S1 -> UR278: total de aciertos 12   51     12.8602        21 0.000200     NaN
+UR270 P+S1 -> UR278: nulo 2 (barajar S entre colgantes) 12    5      0.0030         1 0.000200     NaN
+                        UR270 solo P -> UR278 (control) 12    0      0.0000         0 1.000000     NaN
+                        UR278 totales de grupo -> UR266 33   12      0.7283         6 0.000100  0.0007
+                        UR278 totales de grupo -> UR275 33    7      0.8457         6 0.000100  0.0007
+                  UR267A+B -> UR269 (todas las cuerdas) 26    6      1.3672         7 0.001300  0.0021
+                         UR267A+B -> cabeceras de UR269 26    5      0.7144         5 0.000900  0.0021
+                    UR269 cuota 25: cabecera = UR267A+B  6    3      0.1895         3 0.000700  0.0021
+                        UR273B: registros con neto x-17  6    0      0.0000         0 1.000000     NaN
+    UR273B: registros con 17 explicito tras la cabecera  6    3      2.1070         3 0.277544     NaN
+                        UR274B: registros con neto x-17 20    3      0.1704         3 0.000400     NaN
+    UR274B: registros con 17 explicito tras la cabecera 20   10      5.9208        11 0.003999     NaN
+                        UR274A: registros con neto x-17 15    0      0.0000         0 1.000000     NaN
+    UR274A: registros con 17 explicito tras la cabecera 15    0      0.0000         0 1.000000     NaN

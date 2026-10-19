@@ -1,0 +1,594 @@
+KHIPU_ID,n_dir,pZ,OKR_NUM,PROVENANCE,REGION,prov,archivo
+1000000,14.0,0.9285714285714286,KH0255,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000001,24.0,1.0,KH0244,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000002,151.0,1.0,KH0256,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000003,134.0,0.9701492537313433,KH0254,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000004,338.0,0.9497041420118343,KH0246,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000005,154.0,0.987012987012987,KH0241,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000006,44.0,0.45454545454545453,KH0243,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000007,1237.0,0.007275666936135812,KH0247,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000008,100.0,0.0,KH0249,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000009,171.0,0.011695906432748537,KH0248,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000010,496.0,0.006048387096774193,KH0251,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000011,60.0,0.016666666666666666,KH0250,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000012,549.0,0.0,KH0238,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000013,0.0,,KH0220,,,SIN,SIN
+1000014,0.0,,KH0221,,,SIN,SIN
+1000015,0.0,,KH0224,,,SIN,SIN
+1000017,0.0,,KH0230,,,SIN,SIN
+1000018,527.0,0.4686907020872865,KH0252,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000019,112.0,0.9732142857142857,KH0245,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000020,489.0,0.7505112474437627,KH0239,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000021,178.0,0.9044943820224719,KH0253,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000022,153.0,0.9869281045751634,KH0257,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000023,917.0,0.9880043620501636,KH0237,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000024,928.0,0.9234913793103449,KH0240,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000025,656.0,0.9435975609756098,KH0242,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000026,0.0,,KH0219,Ica,,Ica,Ica-Pisco-Paracas
+1000027,0.0,,KH0222,Ica,,Ica,Ica-Pisco-Paracas
+1000028,0.0,,KH0223,,,SIN,SIN
+1000029,0.0,,KH0225,,,SIN,SIN
+1000030,0.0,,KH0226,,,SIN,SIN
+1000031,0.0,,KH0227,,,SIN,SIN
+1000032,0.0,,KH0229,,,SIN,SIN
+1000033,0.0,,KH0231,,,SIN,SIN
+1000034,0.0,,KH0232,,,SIN,SIN
+1000035,0.0,,KH0233,,,SIN,SIN
+1000036,0.0,,KH0234,,,SIN,SIN
+1000037,0.0,,KH0235,Nazca,,Nazca,Nazca
+1000038,0.0,,KH0236,Nazca,,Nazca,Nazca
+1000039,47.0,0.0,KH0110,Pachacamac,,Pachacamac,Pachacamac
+1000040,113.0,0.9469026548672567,KH0111,Between Ica and Pisco,,Between Ica and Pisco,Ica-Pisco-Paracas
+1000041,274.0,0.0,KH0112,Pachacamac,,Pachacamac,Pachacamac
+1000042,145.0,1.0,KH0113,Ica,,Ica,Ica-Pisco-Paracas
+1000043,0.0,,KH0114,Pachacamac,,Pachacamac,Pachacamac
+1000044,0.0,,KH0115,Pachacamac,,Pachacamac,Pachacamac
+1000045,620.0,0.9967741935483871,KH0258,Leymebamba,Chachapoyas,Leymebamba,Leymebamba
+1000046,68.0,1.0,KH0116,Pachacamac,,Pachacamac,Pachacamac
+1000047,426.0,0.9882629107981221,KH0117,Ica,,Ica,Ica-Pisco-Paracas
+1000048,227.0,0.5110132158590308,KH0118,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000049,51.0,0.0,KH0119,Ica,,Ica,Ica-Pisco-Paracas
+1000050,199.0,1.0,KH0120,Marquez,,Marquez,Otra/vaga
+1000051,92.0,1.0,KH0121,Marquez,,Marquez,Otra/vaga
+1000052,32.0,0.6875,KH0122,Between Ica and Pisco,,Between Ica and Pisco,Ica-Pisco-Paracas
+1000053,740.0,1.0,KH0123,Ica,,Ica,Ica-Pisco-Paracas
+1000054,0.0,,KH0124,Pachacamac,,Pachacamac,Pachacamac
+1000055,0.0,,KH0125,Pachacamac,,Pachacamac,Pachacamac
+1000056,0.0,,KH0126,Pachacamac,,Pachacamac,Pachacamac
+1000057,551.0,0.19600725952813067,KH0127,Between Ica and Pisco,,Between Ica and Pisco,Ica-Pisco-Paracas
+1000058,0.0,,KH0175,Between Ica and Pisco,,Between Ica and Pisco,Ica-Pisco-Paracas
+1000059,0.0,,KH0190,Between Ica and Pisco,,Between Ica and Pisco,Ica-Pisco-Paracas
+1000060,0.0,,KH0191,Between Ica and Pisco,,Between Ica and Pisco,Ica-Pisco-Paracas
+1000061,13.0,1.0,KH0212,Ica,,Ica,Ica-Pisco-Paracas
+1000062,14.0,1.0,KH0213,Ica,,Ica,Ica-Pisco-Paracas
+1000063,466.0,0.944206008583691,KH0128,Between Ica and Pisco,,Between Ica and Pisco,Ica-Pisco-Paracas
+1000064,0.0,,KH0176,Between Ica and Pisco,,Between Ica and Pisco,Ica-Pisco-Paracas
+1000066,8.0,0.625,KH0209,Ica,,Ica,Ica-Pisco-Paracas
+1000067,32.0,0.21875,KH0210,Ica,,Ica,Ica-Pisco-Paracas
+1000068,7.0,0.2857142857142857,KH0211,Ica,,Ica,Ica-Pisco-Paracas
+1000069,26.0,1.0,KH0214,Ica,,Ica,Ica-Pisco-Paracas
+1000070,96.0,0.010416666666666666,KH0215,Ica,,Ica,Ica-Pisco-Paracas
+1000071,0.0,,KH0129,Ica,,Ica,Ica-Pisco-Paracas
+1000072,53.0,0.0,KH0130,Ica,,Ica,Ica-Pisco-Paracas
+1000073,26.0,0.0,KH0131,Ica,,Ica,Ica-Pisco-Paracas
+1000074,180.0,0.9333333333333333,KH0132,Pachacamac,,Pachacamac,Pachacamac
+1000075,103.0,0.9514563106796117,KH0133,Pachacamac,,Pachacamac,Pachacamac
+1000076,468.0,1.0,KH0134,Ica,,Ica,Ica-Pisco-Paracas
+1000077,25.0,1.0,KH0135,Pachacamac,,Pachacamac,Pachacamac
+1000078,0.0,,KH0136,Lima,,Lima,Lima
+1000079,333.0,0.9669669669669669,KH0137,Ica,,Ica,Ica-Pisco-Paracas
+1000080,87.0,1.0,KH0138,Marquez,,Marquez,Otra/vaga
+1000081,187.0,0.9946524064171123,KH0139,Marquez,,Marquez,Otra/vaga
+1000082,0.0,,KH0140,Pachacamac,,Pachacamac,Pachacamac
+1000083,339.0,1.0,KH0141,Ica,,Ica,Ica-Pisco-Paracas
+1000084,29.0,1.0,KH0142,Nazca,,Nazca,Nazca
+1000085,0.0,,KH0143,Nazca,,Nazca,Nazca
+1000086,0.0,,KH0144,Ica,,Ica,Ica-Pisco-Paracas
+1000087,30.0,1.0,KH0145,near Lima,,near Lima,Lima
+1000089,802.0,0.770573566084788,KH0147,Pachacamac,,Pachacamac,Pachacamac
+1000090,0.0,,KH0148,Marquez,,Marquez,Otra/vaga
+1000091,0.0,,KH0149,Marquez,,Marquez,Otra/vaga
+1000092,0.0,,KH0150,Pachacamac,,Pachacamac,Pachacamac
+1000093,80.0,1.0,KH0151,Ica,,Ica,Ica-Pisco-Paracas
+1000094,651.0,0.9278033794162827,KH0152,Nazca,,Nazca,Nazca
+1000096,0.0,,KH0082,Lluta Valley,,Lluta Valley,Arica
+1000097,249.0,0.5622489959839357,KH0033,,,SIN,SIN
+1000098,25.0,0.0,KH0272,Nazca,,Nazca,Nazca
+1000099,47.0,0.0,KH0273,,,SIN,SIN
+1000100,45.0,0.0,KH0274,,,SIN,SIN
+1000101,86.0,0.6395348837209303,KH0032,"""La puntilla, between Paracas and Pisco""",,"""La puntilla, between Paracas and Pisco""",Ica-Pisco-Paracas
+1000103,235.0,0.5574468085106383,KH0034,Nazca,,Nazca,Nazca
+1000105,1.0,1.0,KH0035,,,SIN,SIN
+1000106,17.0,1.0,KH0036,,,SIN,SIN
+1000107,14.0,1.0,KH0037,,,SIN,SIN
+1000108,36.0,1.0,KH0038,,,SIN,SIN
+1000109,17.0,0.17647058823529413,KH0039,,,SIN,SIN
+1000110,28.0,0.5357142857142857,KH0040,,,SIN,SIN
+1000111,14.0,1.0,KH0041,,,SIN,SIN
+1000112,0.0,,KH0153,Chuquitanta,,Chuquitanta,Lima
+1000113,206.0,1.0,KH0154,Ica,,Ica,Ica-Pisco-Paracas
+1000114,0.0,,KH0155,Pachacamac,,Pachacamac,Pachacamac
+1000115,502.0,0.9482071713147411,KH0156,Nazca,,Nazca,Nazca
+1000116,4.0,1.0,KH0157,Ica,,Ica,Ica-Pisco-Paracas
+1000117,0.0,,KH0158,Ica,,Ica,Ica-Pisco-Paracas
+1000118,325.0,1.0,KH0159,Ica,,Ica,Ica-Pisco-Paracas
+1000119,348.0,0.8793103448275862,KH0160,Pachacamac,,Pachacamac,Pachacamac
+1000120,280.0,0.7178571428571429,KH0161,Pachacamac,,Pachacamac,Pachacamac
+1000121,128.0,0.8203125,KH0162,Ica,,Ica,Ica-Pisco-Paracas
+1000122,94.0,1.0,KH0163,Ocucaje,,Ocucaje,Ica-Pisco-Paracas
+1000123,190.0,1.0,KH0164,Ocucaje,,Ocucaje,Ica-Pisco-Paracas
+1000124,920.0,1.0,KH0165,Ocucaje,,Ocucaje,Ica-Pisco-Paracas
+1000125,168.0,0.047619047619047616,KH0166,Ica,,Ica,Ica-Pisco-Paracas
+1000126,51.0,0.13725490196078433,KH0167,Pachacamac,,Pachacamac,Pachacamac
+1000127,392.0,1.0,KH0168,Ica,,Ica,Ica-Pisco-Paracas
+1000128,0.0,,KH0169,,,SIN,SIN
+1000129,6.0,1.0,KH0170,near Lima,,near Lima,Lima
+1000130,0.0,,KH0171,near Lima,,near Lima,Lima
+1000131,0.0,,KH0172,Pachacamac,,Pachacamac,Pachacamac
+1000132,0.0,,KH0173,,,SIN,SIN
+1000133,0.0,,KH0174,Pachacamac,,Pachacamac,Pachacamac
+1000134,22.0,1.0,KH0177,Ica,,Ica,Ica-Pisco-Paracas
+1000135,13.0,1.0,KH0178,Ica,,Ica,Ica-Pisco-Paracas
+1000136,25.0,1.0,KH0179,Ica,,Ica,Ica-Pisco-Paracas
+1000137,31.0,0.03225806451612903,KH0180,Pachacamac,,Pachacamac,Pachacamac
+1000138,0.0,,KH0181,Ica,,Ica,Ica-Pisco-Paracas
+1000139,47.0,0.8936170212765957,KH0182,Pachacamac,,Pachacamac,Pachacamac
+1000140,358.0,0.9636871508379888,KH0183,Ica,,Ica,Ica-Pisco-Paracas
+1000141,59.0,1.0,KH0184,Pachacamac,,Pachacamac,Pachacamac
+1000142,0.0,,KH0185,,,SIN,SIN
+1000143,0.0,,KH0186,,,SIN,SIN
+1000144,0.0,,KH0187,Pachacamac,,Pachacamac,Pachacamac
+1000145,0.0,,KH0188,Ica,,Ica,Ica-Pisco-Paracas
+1000146,0.0,,KH0189,Pachacamac,,Pachacamac,Pachacamac
+1000147,912.0,0.9703947368421053,KH0192,Pachacamac,,Pachacamac,Pachacamac
+1000148,468.0,0.07478632478632478,KH0193,Nazca,,Nazca,Nazca
+1000149,0.0,,KH0194,near Lima,,near Lima,Lima
+1000150,0.0,,KH0195,near Lima,,near Lima,Lima
+1000151,126.0,1.0,KH0196,Ica,,Ica,Ica-Pisco-Paracas
+1000152,184.0,1.0,KH0197,Ica,,Ica,Ica-Pisco-Paracas
+1000154,0.0,,KH0199,,,SIN,SIN
+1000155,0.0,,KH0200,,,SIN,SIN
+1000156,0.0,,KH0201,,,SIN,SIN
+1000157,0.0,,KH0202,,,SIN,SIN
+1000158,0.0,,KH0203,,,SIN,SIN
+1000159,0.0,,KH0204,,,SIN,SIN
+1000160,0.0,,KH0205,Pachacamac,,Pachacamac,Pachacamac
+1000161,0.0,,KH0206,Pachacamac,,Pachacamac,Pachacamac
+1000162,0.0,,KH0207,Pachacamac,,Pachacamac,Pachacamac
+1000163,19.0,0.0,KH0216,,,SIN,SIN
+1000164,418.0,0.916267942583732,KH0217,,,SIN,SIN
+1000165,170.0,0.0,KH0218,probably Central Coast Late Period,,probably Central Coast Late Period,Otra/vaga
+1000166,0.0,,KH0011,,,SIN,SIN
+1000167,0.0,,KH0012,,,SIN,SIN
+1000168,0.0,,KH0096,,,SIN,SIN
+1000169,12.0,0.8333333333333334,KH0064,Hacienda Ullujalla y Callengo,,Hacienda Ullujalla y Callengo,Ica-Pisco-Paracas
+1000170,33.0,0.45454545454545453,KH0063,Hacienda Ullujalla y Callengo,,Hacienda Ullujalla y Callengo,Ica-Pisco-Paracas
+1000171,0.0,,KH0071,,,SIN,SIN
+1000172,23.0,0.8260869565217391,KH0091,"""Hacienda Copara, Nazca""","""South Coast, Peru""","""Hacienda Copara, Nazca""",Nazca
+1000173,0.0,,KH0070,,,SIN,SIN
+1000174,0.0,,KH0086,"Rancho San Juan, Ica Valley",,"Rancho San Juan, Ica Valley",Ica-Pisco-Paracas
+1000176,21.0,0.6666666666666666,KH0069,,,SIN,SIN
+1000177,0.0,,KH0072,,,SIN,SIN
+1000178,0.0,,KH0073,,,SIN,SIN
+1000179,0.0,,KH0065,Hacienda Ullujalla y Callengo,,Hacienda Ullujalla y Callengo,Ica-Pisco-Paracas
+1000180,0.0,,KH0013,,,SIN,SIN
+1000182,0.0,,KH0066,Hacienda Ullujalla y Callengo,,Hacienda Ullujalla y Callengo,Ica-Pisco-Paracas
+1000183,225.0,0.5733333333333334,KH0068,,,SIN,SIN
+1000184,0.0,,KH0014,,,SIN,SIN
+1000185,0.0,,KH0015,,,SIN,SIN
+1000186,0.0,,KH0016,,,SIN,SIN
+1000187,0.0,,KH0017,,,SIN,SIN
+1000188,0.0,,KH0018,,,SIN,SIN
+1000189,0.0,,KH0019,,,SIN,SIN
+1000190,0.0,,KH0020,,,SIN,SIN
+1000191,0.0,,KH0021,,,SIN,SIN
+1000192,0.0,,KH0022,,,SIN,SIN
+1000194,0.0,,KH0024,,,SIN,SIN
+1000195,0.0,,KH0025,,,SIN,SIN
+1000197,0.0,,KH0027,,,SIN,SIN
+1000198,0.0,,KH0028,,,SIN,SIN
+1000199,0.0,,KH0029,,,SIN,SIN
+1000200,0.0,,KH0030,,,SIN,SIN
+1000201,0.0,,KH0031,Aankoop,,Aankoop,Otra/vaga
+1000204,0.0,,KH0043,,,SIN,SIN
+1000205,0.0,,KH0044,,,SIN,SIN
+1000206,0.0,,KH0045,,,SIN,SIN
+1000207,0.0,,KH0046,,,SIN,SIN
+1000208,2.0,0.0,KH0051,,,SIN,SIN
+1000209,0.0,,KH0052,,,SIN,SIN
+1000210,0.0,,KH0053,,,SIN,SIN
+1000211,0.0,,KH0054,,,SIN,SIN
+1000212,0.0,,KH0056,,,SIN,SIN
+1000213,0.0,,KH0050,,,SIN,SIN
+1000214,131.0,0.6717557251908397,KH0062,Hacienda Ullujalla y Callengo,,Hacienda Ullujalla y Callengo,Ica-Pisco-Paracas
+1000216,0.0,,KH0074,,,SIN,SIN
+1000217,0.0,,KH0076,,,SIN,SIN
+1000218,0.0,,KH0077,,,SIN,SIN
+1000220,34.0,1.0,KH0089,,,SIN,SIN
+1000221,0.0,,KH0090,,,SIN,SIN
+1000222,44.0,0.4318181818181818,KH0093,,,SIN,SIN
+1000223,0.0,,KH0075,,,SIN,SIN
+1000224,0.0,,KH0078,,,SIN,SIN
+1000225,0.0,,KH0094,,,SIN,SIN
+1000226,0.0,,KH0095,,,SIN,SIN
+1000227,0.0,,KH0107,Peru,,Peru,Otra/vaga
+1000228,0.0,,KH0099,Huacho,,Huacho,Huacho
+1000229,0.0,,KH0059,,,SIN,SIN
+1000230,62.0,1.0,KH0060,,,SIN,SIN
+1000231,0.0,,KH0098,,,SIN,SIN
+1000232,0.0,,KH0102,Peru,,Peru,Otra/vaga
+1000233,0.0,,KH0103,Peru,,Peru,Otra/vaga
+1000234,0.0,,KH0105,Peru,,Peru,Otra/vaga
+1000235,0.0,,KH0047,"""Maranga, Huaca 1""",,"""Maranga, Huaca 1""",Lima
+1000236,0.0,,KH0048,,,SIN,SIN
+1000238,855.0,0.3684210526315789,KH0279,,,SIN,SIN
+1000239,75.0,0.9866666666666667,KH0278,"""Pueblo Libre, Lima, Peru""",,"""Pueblo Libre, Lima, Peru""",Lima
+1000240,61.0,0.9836065573770492,KH0277,"""Pueblo Libre, Lima, Peru""",,"""Pueblo Libre, Lima, Peru""",Lima
+1000241,27.0,0.8518518518518519,KH0276,"""Pueblo Libre, Lima, Peru""",,"""Pueblo Libre, Lima, Peru""",Lima
+1000242,10.0,1.0,KH0302,Huaquerones,Puruchuco,Huaquerones,Huaquerones
+1000243,114.0,0.9824561403508771,KH0299,Huaquerones,Puruchuco,Huaquerones,Huaquerones
+1000244,13.0,1.0,KH0314,,Puruchuco,SIN,SIN
+1000245,47.0,0.8297872340425532,KH0306,Huaquerones,Puruchuco,Huaquerones,Huaquerones
+1000246,109.0,0.9541284403669725,KH0298,Huaquerones,Puruchuco,Huaquerones,Huaquerones
+1000249,84.0,0.9285714285714286,KH0309,Huaquerones,Puruchuco,Huaquerones,Huaquerones
+1000250,65.0,0.7846153846153846,KH0310,,Puruchuco,SIN,SIN
+1000251,108.0,0.48148148148148145,KH0311,Huaquerones,Puruchuco,Huaquerones,Huaquerones
+1000252,12.0,1.0,KH0312,Huaquerones,Puruchuco,Huaquerones,Huaquerones
+1000253,26.0,0.8461538461538461,KH0313,Huaquerones,Puruchuco,Huaquerones,Huaquerones
+1000254,12.0,0.3333333333333333,KH0315,Huaquerones,Puruchuco,Huaquerones,Huaquerones
+1000255,41.0,0.975609756097561,KH0316,Huaquerones,Puruchuco,Huaquerones,Huaquerones
+1000256,9.0,1.0,KH0317,Huaquerones,Puruchuco,Huaquerones,Huaquerones
+1000257,3.0,0.6666666666666666,KH0318,Huaquerones,Puruchuco,Huaquerones,Huaquerones
+1000259,95.0,0.6947368421052632,KH0300,,Puruchuco,SIN,SIN
+1000260,57.0,0.9122807017543859,KH0304,Huaquerones,Puruchuco,Huaquerones,Huaquerones
+1000261,52.0,0.3076923076923077,KH0303,Huaquerones,Puruchuco,Huaquerones,Huaquerones
+1000262,114.0,0.8421052631578947,KH0305,,Puruchuco,SIN,SIN
+1000263,111.0,0.8558558558558559,KH0301,Huaquerones,Puruchuco,Huaquerones,Huaquerones
+1000264,87.0,0.3333333333333333,KH0297,Huaquerones,Puruchuco,Huaquerones,Huaquerones
+1000265,461.0,0.015184381778741865,KH0283,,,SIN,SIN
+1000266,146.0,0.0136986301369863,KH0284,,,SIN,SIN
+1000267,173.0,0.5433526011560693,KH0285,,,SIN,SIN
+1000268,322.0,0.0,KH0286,,,SIN,SIN
+1000269,186.0,0.005376344086021506,KH0287,,,SIN,SIN
+1000270,201.0,0.9950248756218906,KH0324,Santa,,Santa,Santa
+1000271,140.0,1.0,KH0327,Santa,,Santa,Santa
+1000272,50.0,0.98,KH0328,Santa,,Santa,Santa
+1000273,376.0,0.8936170212765957,KH0323,Santa,,Santa,Santa
+1000274,262.0,0.950381679389313,KH0326,Santa,,Santa,Santa
+1000275,413.0,1.0,KH0325,Santa,,Santa,Santa
+1000276,26.0,1.0,KH0266,,,SIN,SIN
+1000277,247.0,0.9838056680161943,KH0270,,,SIN,SIN
+1000279,954.0,0.07442348008385745,KH0083,Mollepampa,"""Inka, Playa Miller""",Mollepampa,Otra/vaga
+1000280,1253.0,0.22346368715083798,KH0321,,,SIN,SIN
+1000283,40.0,1.0,KH0353,,,SIN,SIN
+1000285,138.0,1.0,KH0352,,,SIN,SIN
+1000287,131.0,0.22900763358778625,KH0350,Nazca,,Nazca,Nazca
+1000288,11.0,0.8181818181818182,KH0354,Paracas,,Paracas,Ica-Pisco-Paracas
+1000289,11.0,0.8181818181818182,KH0355,Paracas,,Paracas,Ica-Pisco-Paracas
+1000290,9.0,0.7777777777777778,KH0356,Paracas,,Paracas,Ica-Pisco-Paracas
+1000291,31.0,0.967741935483871,KH0357,Paracas,,Paracas,Ica-Pisco-Paracas
+1000292,1311.0,0.6430205949656751,KH0349,Nazca,,Nazca,Nazca
+1000293,1038.0,0.049132947976878616,KH0358,Paracas,,Paracas,Ica-Pisco-Paracas
+1000295,48.0,1.0,KH0290,,,SIN,SIN
+1000296,51.0,1.0,KH0291,,,SIN,SIN
+1000297,29.0,1.0,KH0292,,,SIN,SIN
+1000298,373.0,0.24932975871313673,KH0294,"""Playa Miller #6, Arica, Chile""",,"""Playa Miller #6, Arica, Chile""",Ica-Pisco-Paracas
+1000299,336.0,0.25892857142857145,KH0295,,,SIN,SIN
+1000300,241.0,0.0,KH0370,Lluta Valley,,Lluta Valley,Arica
+1000301,253.0,0.007905138339920948,KH0371,Lluta Valley,,Lluta Valley,Arica
+1000302,236.0,0.0,KH0372,Lluta Valley,,Lluta Valley,Arica
+1000303,16.0,0.8125,KH0262,Atarco,Nazca,Atarco,Otra/vaga
+1000304,73.0,0.3972602739726027,KH0263,Atarco,Nazca,Atarco,Otra/vaga
+1000305,58.0,0.41379310344827586,KH0264,Atarco,Nazca,Atarco,Otra/vaga
+1000306,17.0,0.0,KH0260,Atarco,Nazca,Atarco,Otra/vaga
+1000307,18.0,0.2777777777777778,KH0259,Atarco,Nazca,Atarco,Otra/vaga
+1000309,46.0,0.1956521739130435,KH0293,Atarco,Nazca,Atarco,Otra/vaga
+1000310,254.0,0.9921259842519685,KH0100,Peru,,Peru,Otra/vaga
+1000312,119.0,0.865546218487395,KH0104,,,SIN,SIN
+1000313,99.0,0.04040404040404041,KH0101,Huacho,,Huacho,Huacho
+1000314,404.0,0.8341584158415841,KH0108,Pachacamac,,Pachacamac,Pachacamac
+1000315,43.0,1.0,KH0109,Pachacamac,,Pachacamac,Pachacamac
+1000316,177.0,0.05084745762711865,KH0369,"""Playa Miller #6, Arica, Chile""",,"""Playa Miller #6, Arica, Chile""",Ica-Pisco-Paracas
+1000317,53.0,0.24528301886792453,KH0373,"""Playa Miller #6, Arica, Chile""",,"""Playa Miller #6, Arica, Chile""",Ica-Pisco-Paracas
+1000318,45.0,0.06666666666666667,KH0268,"""Playa Miller #6, Arica, Chile""",,"""Playa Miller #6, Arica, Chile""",Ica-Pisco-Paracas
+1000319,30.0,0.06666666666666667,KH0320,"""Playa Miller #6, Arica, Chile""",,"""Playa Miller #6, Arica, Chile""",Ica-Pisco-Paracas
+1000320,223.0,0.7757847533632287,KH0360,Huacho,,Huacho,Huacho
+1000321,361.0,0.4930747922437673,KH0329, , ,SIN,SIN
+1000322,65.0,0.0,KH0361,Nazca,,Nazca,Nazca
+1000323,739.0,0.04194857916102842,KH0362,Nazca,,Nazca,Nazca
+1000324,86.0,0.0,KH0363,Pachacamac,,Pachacamac,Pachacamac
+1000325,24.0,0.75,KH0364,Pachacamac,,Pachacamac,Pachacamac
+1000326,26.0,0.038461538461538464,KH0365,Paracas,,Paracas,Ica-Pisco-Paracas
+1000327,30.0,0.43333333333333335,KH0351,Pachacamac,,Pachacamac,Pachacamac
+1000328,27.0,1.0,KH0366,Unknown,,SIN,SIN
+1000329,969.0,0.04953560371517028,KH0359,Paracas,,Paracas,Ica-Pisco-Paracas
+1000330,45.0,0.6666666666666666,KH0265,,,SIN,SIN
+1000331,192.0,0.0625,KH0269,,,SIN,SIN
+1000332,122.0,0.9836065573770492,KH0275,,,SIN,SIN
+1000333,2.0,0.0,KH0042,Pachacamac,,Pachacamac,Pachacamac
+1000335,108.0,0.9814814814814815,KH0261,unknown,,SIN,SIN
+1000336,265.0,1.0,KH0322,,,SIN,SIN
+1000337,258.0,0.023255813953488372,KH0330,unknown,,SIN,SIN
+1000338,68.0,0.029411764705882353,KH0331,unknown,,SIN,SIN
+1000339,81.0,0.8765432098765432,KH0332,unknown,,SIN,SIN
+1000340,183.0,0.4262295081967213,KH0333,unknown,,SIN,SIN
+1000342,87.0,0.3448275862068966,KH0088,Pachacamac,,Pachacamac,Pachacamac
+1000344,1070.0,0.44485981308411215,KH0097,,,SIN,SIN
+1000345,0.0,,KH0055,,,SIN,SIN
+1000346,42.0,0.2619047619047619,KH0092,,,SIN,SIN
+1000347,20.0,0.0,KH0334,,,SIN,SIN
+1000348,11.0,0.0,KH0335,,,SIN,SIN
+1000349,7.0,0.0,KH0336,,,SIN,SIN
+1000350,17.0,0.0,KH0337,,,SIN,SIN
+1000351,67.0,0.208955223880597,KH0338,,,SIN,SIN
+1000352,49.0,0.8163265306122449,KH0339,,,SIN,SIN
+1000353,50.0,0.12,KH0340,,,SIN,SIN
+1000354,22.0,0.7727272727272727,KH0341,,,SIN,SIN
+1000355,19.0,0.3684210526315789,KH0342,,,SIN,SIN
+1000356,47.0,0.9787234042553191,KH0343,,,SIN,SIN
+1000357,66.0,0.0,KH0344,,,SIN,SIN
+1000358,21.0,1.0,KH0345,,,SIN,SIN
+1000359,105.0,0.05714285714285714,KH0347,,,SIN,SIN
+1000361,0.0,,KH0061,,,SIN,SIN
+1000363,501.0,0.19760479041916168,KH0280,,,SIN,SIN
+1000365,0.0,,KH0106,,,SIN,SIN
+1000366,54.0,0.1111111111111111,KH0087,,,SIN,SIN
+1000367,0.0,,KH0085,"Rancho San Juan, Ica Valley",,"Rancho San Juan, Ica Valley",Ica-Pisco-Paracas
+1000368,0.0,,KH0084,,,SIN,SIN
+1000369,0.0,,KH0079,,,SIN,SIN
+1000371,0.0,,KH0080,,,SIN,SIN
+1000374,270.0,0.0,KH0271,Huari,,Huari,Otra/vaga
+1000375,170.0,0.0,KH0281,,,SIN,SIN
+1000376,704.0,0.019886363636363636,KH0289,,,SIN,SIN
+1000377,47.0,0.6808510638297872,KH0367,unknown,,SIN,SIN
+1000378,53.0,1.0,KH0368,unknown,,SIN,SIN
+1000380,331.0,0.9365558912386707,KH0267,,,SIN,SIN
+1000381,140.0,0.3142857142857143,KH0346,,,SIN,SIN
+1000382,114.0,0.0,KH0348,,,SIN,SIN
+1000383,311.0,0.003215434083601286,KH0288,,,SIN,SIN
+1000385,319.0,0.0,KH0282,,,SIN,SIN
+1000386,67.0,0.7313432835820896,KH0378,Cuzco,,Cuzco,Otra/vaga
+1000387,66.0,0.0,KH0377,"""Chancay, Central Coast""",,"""Chancay, Central Coast""",Chancay
+1000388,26.0,0.0,KH0376,"""Chancay, Central Coast""",,"""Chancay, Central Coast""",Chancay
+1000389,7.0,1.0,KH0375,"""Chancay, Central Coast""",,"""Chancay, Central Coast""",Chancay
+1000390,171.0,1.0,KH0296,,,SIN,SIN
+1000392,91.0,0.945054945054945,KH0067,,,SIN,SIN
+1000393,114.0,1.0,KH0402,Valle de Ica Hacienda Callango Ocucaje,,Valle de Ica Hacienda Callango Ocucaje,Ica-Pisco-Paracas
+1000395,95.0,0.021052631578947368,KH0401,,,SIN,SIN
+1000396,279.0,0.0967741935483871,KH0228,"""Huaura Valley, near Lima, on Santa Rosalia Hacienda""",,"""Huaura Valley, near Lima, on Santa Rosalia Hacienda""",Huacho
+1000397,40.0,0.95,KH0400,,,SIN,SIN
+1000398,55.0,0.9272727272727272,KH0395,Valle de Ica Hacienda Callango Ocucaje,,Valle de Ica Hacienda Callango Ocucaje,Ica-Pisco-Paracas
+1000399,106.0,0.9056603773584906,KH0394,Valle de Ica Hacienda Callango Ocucaje,,Valle de Ica Hacienda Callango Ocucaje,Ica-Pisco-Paracas
+1000400,127.0,0.937007874015748,KH0387,unknown,,SIN,SIN
+1000401,392.0,0.04336734693877551,KH0383,Valle de Ica Hacienda Callango Ocucaje,,Valle de Ica Hacienda Callango Ocucaje,Ica-Pisco-Paracas
+1000402,67.0,0.9850746268656716,KH0392,Hacienda Ullujalla y Callengo,,Hacienda Ullujalla y Callengo,Ica-Pisco-Paracas
+1000403,250.0,0.956,KH0393,unknown,,SIN,SIN
+1000404,97.0,1.0,KH0391,Valle de Ica Hacienda Callango Ocucaje,,Valle de Ica Hacienda Callango Ocucaje,Ica-Pisco-Paracas
+1000405,43.0,0.9534883720930233,KH0390,unknown,,SIN,SIN
+1000406,449.0,0.04899777282850779,KH0382,Valle de Ica Hacienda Callango Ocucaje,,Valle de Ica Hacienda Callango Ocucaje,Ica-Pisco-Paracas
+1000407,51.0,0.9803921568627451,KH0379,Valle de Ica Hacienda Callango Ocucaje,,Valle de Ica Hacienda Callango Ocucaje,Ica-Pisco-Paracas
+1000408,28.0,0.25,KH0380,Valle de Ica Hacienda Callango Ocucaje,,Valle de Ica Hacienda Callango Ocucaje,Ica-Pisco-Paracas
+1000409,80.0,0.975,KH0381,,,SIN,SIN
+1000410,11.0,0.09090909090909091,KH0396,Tambo Colorado,,Tambo Colorado,Tambo Colorado
+1000411,4.0,0.75,KH0399,Tambo Colorado,,Tambo Colorado,Tambo Colorado
+1000412,68.0,1.0,KH0403,,,SIN,SIN
+1000413,434.0,0.9838709677419355,KH0389,Hacienda Ullujalla y Callengo,,Hacienda Ullujalla y Callengo,Ica-Pisco-Paracas
+1000414,12.0,0.8333333333333334,KH0388,,,SIN,SIN
+1000415,161.0,0.024844720496894408,KH0385,Acari,,Acari,Otra/vaga
+1000416,11.0,0.09090909090909091,KH0397,Tambo Colorado,,Tambo Colorado,Tambo Colorado
+1000418,170.0,0.9294117647058824,KH0386,Donation from the collection Belli,,Donation from the collection Belli,Otra/vaga
+1000419,166.0,0.006024096385542169,KH0384,Valle de Pisco,,Valle de Pisco,Ica-Pisco-Paracas
+1000420,184.0,1.0,KH0533,Pachacamac,near Lima,Pachacamac,Pachacamac
+1000421,235.0,1.0,KH0534,Pachacamac,,Pachacamac,Pachacamac
+1000422,287.0,0.975609756097561,KH0535,Pachacamac,,Pachacamac,Pachacamac
+1000423,90.0,0.9888888888888889,KH0536,Pachacamac,,Pachacamac,Pachacamac
+1000424,51.0,1.0,KH0537,Pachacamac,,Pachacamac,Pachacamac
+1000425,45.0,0.9777777777777777,KH0538,Pachacamac,,Pachacamac,Pachacamac
+1000426,108.0,1.0,KH0539,Pachacamac,,Pachacamac,Pachacamac
+1000427,57.0,1.0,KH0540,Pachacamac,,Pachacamac,Pachacamac
+1000428,44.0,1.0,KH0541,Pachacamac,,Pachacamac,Pachacamac
+1000429,275.0,1.0,KH0542,Pachacamac,,Pachacamac,Pachacamac
+1000430,190.0,1.0,KH0543,Pachacamac,,Pachacamac,Pachacamac
+1000431,115.0,1.0,KH0544,Pachacamac,,Pachacamac,Pachacamac
+1000432,45.0,1.0,KH0545,Pachacamac,,Pachacamac,Pachacamac
+1000433,97.0,0.9896907216494846,KH0546,Pachacamac,,Pachacamac,Pachacamac
+1000434,7.0,1.0,KH0547,"""Cieneguilla, Valle de Lurin""",,"""Cieneguilla, Valle de Lurin""",Lima
+1000435,9.0,1.0,KH0548,"""Cieneguilla, Valle de Lurin""",,"""Cieneguilla, Valle de Lurin""",Lima
+1000436,404.0,0.9282178217821783,KH0549,Pachacamac,,Pachacamac,Pachacamac
+1000437,57.0,1.0,KH0550,Pachacamac,,Pachacamac,Pachacamac
+1000438,19.0,1.0,KH0551,Pachacamac,,Pachacamac,Pachacamac
+1000439,43.0,0.5581395348837209,KH0552,Pachacamac,,Pachacamac,Pachacamac
+1000440,31.0,1.0,KH0553,Pachacamac,,Pachacamac,Pachacamac
+1000441,44.0,1.0,KH0554,Pachacamac,,Pachacamac,Pachacamac
+1000442,67.0,1.0,KH0555,Pachacamac,,Pachacamac,Pachacamac
+1000443,31.0,0.967741935483871,KH0556,Pachacamac,,Pachacamac,Pachacamac
+1000446,580.0,1.0,KH0559,Pachacamac,,Pachacamac,Pachacamac
+1000448,308.0,1.0,KH0561,Pachacamac,,Pachacamac,Pachacamac
+1000449,848.0,1.0,KH0562,Pachacamac,,Pachacamac,Pachacamac
+1000450,43.0,1.0,KH0563,Pachacamac,,Pachacamac,Pachacamac
+1000451,22.0,1.0,KH0564,Pachacamac,,Pachacamac,Pachacamac
+1000452,12.0,1.0,KH0374,"""Chancay, Central Coast""",,"""Chancay, Central Coast""",Chancay
+1000454,86.0,0.011627906976744186,KH0591,,"""Inka, Late Horizon""",SIN,SIN
+1000455,86.0,0.023255813953488372,KH0590,,"""Inka, Late Horizon""",SIN,SIN
+1000456,4.0,0.5,KH0592,,"""Inka, Late Horizon""",SIN,SIN
+1000472,1157.0,1.0,KH0404,La Molina,Puruchuco,La Molina,Lima
+1000474,35.0,0.7428571428571429,KH0406,Ica,,Ica,Ica-Pisco-Paracas
+1000475,26.0,0.3076923076923077,KH0407,Ica,,Ica,Ica-Pisco-Paracas
+1000477,177.0,0.23163841807909605,KH0408,"""Ica Valley, near Callango""",,"""Ica Valley, near Callango""",Ica-Pisco-Paracas
+1000478,18.0,0.7777777777777778,KH0410,unknown,,SIN,SIN
+1000479,41.0,0.6097560975609756,KH0411,,,SIN,SIN
+1000480,34.0,0.9705882352941176,KH0413,,,SIN,SIN
+1000481,16.0,1.0,KH0412,,,SIN,SIN
+1000482,61.0,0.09836065573770492,KH0420,Chuquitanta,,Chuquitanta,Lima
+1000483,15.0,0.9333333333333333,KH0414,,,SIN,SIN
+1000485,9.0,0.2222222222222222,KH0416,Cajamarquilla,,Cajamarquilla,Lima
+1000486,24.0,0.9166666666666666,KH0418,Cajamarquilla,,Cajamarquilla,Lima
+1000487,159.0,1.0,KH0421,"""Chancay, Central Coast""",,"""Chancay, Central Coast""",Chancay
+1000488,57.0,0.21052631578947367,KH0422,unknown,,SIN,SIN
+1000489,31.0,0.967741935483871,KH0417,Cajamarquilla,,Cajamarquilla,Lima
+1000490,73.0,0.9452054794520548,KH0423,,,SIN,SIN
+1000491,17.0,1.0,KH0419,Cajamarquilla,,Cajamarquilla,Lima
+1000492,70.0,0.7285714285714285,KH0409,,,SIN,SIN
+1000493,1155.0,1.0,KH0001,Chuquitanta,,Chuquitanta,Lima
+1000494,124.0,0.967741935483871,KH0415,Chuquitanta,,Chuquitanta,Lima
+1000495,706.0,0.026912181303116147,KH0425,"""Ica Valley, near Callango""",,"""Ica Valley, near Callango""",Ica-Pisco-Paracas
+1000496,177.0,0.327683615819209,KH0405,"""Huando, Chancay, Peru (Gaffron Collection)""",,"""Huando, Chancay, Peru (Gaffron Collection)""",Chancay
+1000497,168.0,0.06547619047619048,KH0424,"""Hda. Huando, Chancay""",,"""Hda. Huando, Chancay""",Chancay
+1000499,955.0,1.0,KH0426,,,SIN,SIN
+1000500,129.0,0.875968992248062,KH0427,,,SIN,SIN
+1000501,599.0,0.988313856427379,KH0428,"""Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)""","""Central Coast, Peru""","""Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)""",Lima
+1000502,24.0,0.4166666666666667,KH0429,"""Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)""","""Central Coast, Peru""","""Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)""",Lima
+1000503,98.0,0.7448979591836735,KH0430,"""Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)""","""Central Coast, Peru""","""Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)""",Lima
+1000504,1015.0,1.0,KH0431,"""Peru, Fundort: Pachacmac""","""Central Coast, Peru""","""Peru, Fundort: Pachacmac""",Pachacamac
+1000505,132.0,0.13636363636363635,KH0432,Ica,"""South Coast, Peru""",Ica,Ica-Pisco-Paracas
+1000506,185.0,0.4918918918918919,KH0433,Huacho,"""Central Coast, Peru""",Huacho,Huacho
+1000507,109.0,0.5321100917431193,KH0434,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000508,573.0,0.9075043630017452,KH0435,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000509,364.0,0.3791208791208791,KH0436,"""Santa Clara, Nazca""","""South Coast, Peru""","""Santa Clara, Nazca""",Nazca
+1000510,217.0,0.5990783410138248,KH0437,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000511,506.0,0.9980237154150198,KH0438,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000512,771.0,1.0,KH0439,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000513,206.0,0.9223300970873787,KH0440,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000514,413.0,0.8668280871670703,KH0441,unknown,unknown,SIN,SIN
+1000515,139.0,1.0,KH0442,unknown,unknown,SIN,SIN
+1000516,57.0,1.0,KH0443,unknown,unknown,SIN,SIN
+1000517,30.0,1.0,KH0444,unknown,unknown,SIN,SIN
+1000518,362.0,1.0,KH0445,unknown,unknown,SIN,SIN
+1000519,378.0,0.9285714285714286,KH0446,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000520,86.0,1.0,KH0447,Pisco,"""South Coast, Peru""",Pisco,Ica-Pisco-Paracas
+1000521,61.0,0.7213114754098361,KH0448,Ica/Pisco,"""South Coast, Peru""",Ica/Pisco,Ica-Pisco-Paracas
+1000522,127.0,0.007874015748031496,KH0449,Ica/Pisco,"""South Coast, Peru""",Ica/Pisco,Ica-Pisco-Paracas
+1000523,445.0,0.7123595505617978,KH0450,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000524,395.0,1.0,KH0451,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000525,16.0,1.0,KH0452,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000526,287.0,0.9616724738675958,KH0453,unknown,unknown,SIN,SIN
+1000527,217.0,0.0,KH0454,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000528,302.0,1.0,KH0455,Ocucaje,"""South Coast, Peru""",Ocucaje,Ica-Pisco-Paracas
+1000529,278.0,0.8381294964028777,KH0456,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000530,309.0,1.0,KH0457,Ica,"""South Coast, Peru""",Ica,Ica-Pisco-Paracas
+1000531,22.0,1.0,KH0458,Ica,"""South Coast, Peru""",Ica,Ica-Pisco-Paracas
+1000532,35.0,1.0,KH0459,Ica,"""South Coast, Peru""",Ica,Ica-Pisco-Paracas
+1000533,77.0,1.0,KH0460,Ica,"""South Coast, Peru""",Ica,Ica-Pisco-Paracas
+1000534,161.0,0.018633540372670808,KH0461,Ica,"""South Coast, Peru""",Ica,Ica-Pisco-Paracas
+1000535,50.0,1.0,KH0462,unknown,unknown,SIN,SIN
+1000536,272.0,0.8786764705882353,KH0463,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000537,69.0,1.0,KH0464,Pisco,"""South Coast, Peru""",Pisco,Ica-Pisco-Paracas
+1000538,168.0,1.0,KH0465,Pisco,"""South Coast, Peru""",Pisco,Ica-Pisco-Paracas
+1000539,305.0,0.9508196721311475,KH0466,Ica,"""South Coast, Peru""",Ica,Ica-Pisco-Paracas
+1000540,89.0,0.3146067415730337,KH0467,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000541,1056.0,1.0,KH0468,Ica/Pisco,"""South Coast, Peru""",Ica/Pisco,Ica-Pisco-Paracas
+1000542,249.0,0.8273092369477911,KH0469,Huacho,"""North-Central Coast, Peru""",Huacho,Huacho
+1000543,330.0,0.8393939393939394,KH0470,Huacho,"""North-Central Coast, Peru""",Huacho,Huacho
+1000544,579.0,1.0,KH0471,unknown,unknown,SIN,SIN
+1000545,262.0,1.0,KH0472,unknown,unknown,SIN,SIN
+1000546,365.0,1.0,KH0198,unknown,unknown,SIN,SIN
+1000547,328.0,0.47560975609756095,KH0478,Ica,"""South Coast, Peru""",Ica,Ica-Pisco-Paracas
+1000548,45.0,1.0,KH0479,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000549,71.0,0.16901408450704225,KH0477,Unknown,unknown,SIN,SIN
+1000550,10.0,1.0,KH0481,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000551,93.0,0.989247311827957,KH0473,unknown,unknown,SIN,SIN
+1000552,88.0,1.0,KH0474,Ica,"""South Coast, Peru""",Ica,Ica-Pisco-Paracas
+1000553,52.0,1.0,KH0475,unknown,unknown,SIN,SIN
+1000554,288.0,1.0,KH0476,unknown,unknown,SIN,SIN
+1000555,83.0,0.9879518072289156,KH0480,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000556,124.0,0.9919354838709677,KH0482,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000558,165.0,0.08484848484848485,KH0483,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000559,181.0,0.9281767955801105,KH0484,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000560,132.0,0.9545454545454546,KH0485,Pachacamac,"""Central Coast, Peru""",Pachacamac,Pachacamac
+1000561,18.0,0.0,KH0486,Ica,"""South Coast, Peru""",Ica,Ica-Pisco-Paracas
+1000562,31.0,1.0,KH0565,"Ullujaya, Ocucaje, Ica",,"Ullujaya, Ocucaje, Ica",Ica-Pisco-Paracas
+1000563,303.0,1.0,KH0566,"Ullujaya, Ocucaje, Ica",,"Ullujaya, Ocucaje, Ica",Ica-Pisco-Paracas
+1000564,354.0,0.16101694915254236,KH0058,unknown,,SIN,SIN
+1000565,1744.0,0.0,KH0049,Costa Sur,,Costa Sur,Otra/vaga
+1000566,206.0,0.3883495145631068,KH0567,"Costa Central, Huacho",,"Costa Central, Huacho",Huacho
+1000567,66.0,0.0,KH0568,unknown,,SIN,SIN
+1000569,22.0,0.9545454545454546,KH0570,unknown,,SIN,SIN
+1000570,161.0,0.14285714285714285,KH0057,unknown,,SIN,SIN
+1000571,20.0,0.95,KH0571,unknown,,SIN,SIN
+1000572,15.0,0.4666666666666667,KH0572,unknown,,SIN,SIN
+1000573,46.0,0.0,KH0573,unknown,,SIN,SIN
+1000574,71.0,0.323943661971831,KH0574,"Región Sur, Quillagua, Valle de Loa",,"Región Sur, Quillagua, Valle de Loa",Otra/vaga
+1000575,41.0,0.8292682926829268,KH0575,unknown,,SIN,SIN
+1000576,48.0,0.8958333333333334,KH0576,unknown,,SIN,SIN
+1000577,74.0,0.0,KH0577,"Armatambo, Lima, Central Coast",,"Armatambo, Lima, Central Coast",Armatambo
+1000579,1.0,0.0,KH0579,unknown,,SIN,SIN
+1000580,43.0,0.7209302325581395,KH0580,foothills of Cerro Solar,,foothills of Cerro Solar,Otra/vaga
+1000581,53.0,1.0,KH0581,unknown,,SIN,SIN
+1000582,42.0,0.9523809523809523,KH0582,unknown,,SIN,SIN
+1000583,3.0,0.0,KH0583,unknown,,SIN,SIN
+1000584,138.0,0.050724637681159424,KH0584,unknown,,SIN,SIN
+1000585,41.0,0.43902439024390244,KH0585,unknown,,SIN,SIN
+1000586,375.0,0.104,KH0587,unknown,,SIN,SIN
+1000587,32.0,0.40625,KH0588,unknown,,SIN,SIN
+1000588,707.0,1.0,KH0586,unknown,,SIN,SIN
+1000589,31.0,0.967741935483871,KH0487,unknown,,SIN,SIN
+1000590,57.0,1.0,KH0488,unknown,,SIN,SIN
+1000591,129.0,0.05426356589147287,KH0489,Pachacamac,,Pachacamac,Pachacamac
+1000592,56.0,0.7321428571428571,KH0490,Pachacamac,,Pachacamac,Pachacamac
+1000593,394.0,0.0,KH0569,Costa Sur,,Costa Sur,Otra/vaga
+1000595,147.0,0.9523809523809523,KH0493,Incahuasi,,Incahuasi,Incahuasi
+1000597,279.0,0.9354838709677419,KH0491,Incahuasi,,Incahuasi,Incahuasi
+1000598,709.0,0.9520451339915373,KH0492,Incahuasi,,Incahuasi,Incahuasi
+1000599,156.0,0.8076923076923077,KH0494,Incahuasi,,Incahuasi,Incahuasi
+1000600,15.0,0.4,KH0495,Incahuasi,,Incahuasi,Incahuasi
+1000601,125.0,0.776,KH0496,Incahuasi,,Incahuasi,Incahuasi
+1000602,35.0,0.9428571428571428,KH0497,Incahuasi,,Incahuasi,Incahuasi
+1000603,1808.0,0.9983407079646017,KH0498,Incahuasi,,Incahuasi,Incahuasi
+1000604,131.0,0.0,KH0499,Incahuasi,,Incahuasi,Incahuasi
+1000605,430.0,0.7581395348837209,KH0500,Incahuasi,,Incahuasi,Incahuasi
+1000606,24.0,0.0,KH0501,Incahuasi,,Incahuasi,Incahuasi
+1000607,891.0,0.8877665544332211,KH0502,Incahuasi,,Incahuasi,Incahuasi
+1000608,353.0,0.8328611898016998,KH0503,Incahuasi,,Incahuasi,Incahuasi
+1000609,535.0,0.8990654205607477,KH0504,Incahuasi,,Incahuasi,Incahuasi
+1000610,1379.0,0.9311094996374184,KH0505,Incahuasi,,Incahuasi,Incahuasi
+1000611,1578.0,0.9378960709759189,KH0506,Incahuasi,,Incahuasi,Incahuasi
+1000612,1527.0,0.9279633267845449,KH0507,Incahuasi,,Incahuasi,Incahuasi
+1000613,271.0,0.992619926199262,KH0508,Incahuasi,,Incahuasi,Incahuasi
+1000614,294.0,0.9897959183673469,KH0509,Incahuasi,,Incahuasi,Incahuasi
+1000615,192.0,0.90625,KH0510,Incahuasi,,Incahuasi,Incahuasi
+1000616,248.0,0.9274193548387096,KH0511,Incahuasi,,Incahuasi,Incahuasi
+1000617,311.0,0.9389067524115756,KH0512,Incahuasi,,Incahuasi,Incahuasi
+1000618,488.0,0.9077868852459017,KH0513,Incahuasi,,Incahuasi,Incahuasi
+1000619,997.0,0.9167502507522568,KH0514,Incahuasi,,Incahuasi,Incahuasi
+1000620,21.0,0.38095238095238093,KH0515,Incahuasi,,Incahuasi,Incahuasi
+1000621,98.0,0.8775510204081632,KH0518,Incahuasi,,Incahuasi,Incahuasi
+1000622,455.0,0.7032967032967034,KH0516,Incahuasi,,Incahuasi,Incahuasi
+1000623,1993.0,0.8740592072252885,KH0517,Incahuasi,,Incahuasi,Incahuasi
+1000624,510.0,0.7705882352941177,KH0519,Incahuasi,,Incahuasi,Incahuasi
+1000625,87.0,0.8390804597701149,KH0608,Incahuasi,,Incahuasi,Incahuasi
+1000626,4.0,0.75,KH0609,Incahuasi,,Incahuasi,Incahuasi
+1000627,9.0,0.3333333333333333,KH0610,Incahuasi,,Incahuasi,Incahuasi
+1000628,31.0,0.8387096774193549,KH0611,Incahuasi,,Incahuasi,Incahuasi
+1000629,294.0,0.8945578231292517,KH0612,Incahuasi,,Incahuasi,Incahuasi
+1000630,25.0,0.56,KH0613,Incahuasi,,Incahuasi,Incahuasi
+1000631,54.0,0.9629629629629629,KH0614,Incahuasi,,Incahuasi,Incahuasi
+1000632,6.0,1.0,KH0615,Incahuasi,,Incahuasi,Incahuasi
+1000633,145.0,0.9862068965517241,KH0616,Incahuasi,,Incahuasi,Incahuasi
+1000634,309.0,0.9805825242718447,KH0617,Incahuasi,,Incahuasi,Incahuasi
+1000635,103.0,0.9902912621359223,KH0618,Incahuasi,,Incahuasi,Incahuasi
+1000636,35.0,1.0,KH0619,Incahuasi,,Incahuasi,Incahuasi
+1000637,108.0,0.8518518518518519,KH0620,Incahuasi,,Incahuasi,Incahuasi
+1000638,60.0,1.0,KH0621,Incahuasi,,Incahuasi,Incahuasi
+1000639,7.0,1.0,KH0622,Incahuasi,,Incahuasi,Incahuasi
+1000640,8.0,0.25,KH0623,Incahuasi,,Incahuasi,Incahuasi
+1000641,32.0,1.0,KH0624,Incahuasi,,Incahuasi,Incahuasi
+1000642,30.0,0.9666666666666667,KH0625,Incahuasi,,Incahuasi,Incahuasi
+1000643,11.0,0.9090909090909091,KH0626,Incahuasi,,Incahuasi,Incahuasi
+1000644,36.0,1.0,KH0627,Incahuasi,,Incahuasi,Incahuasi
+1000645,83.0,1.0,KH0628,Incahuasi,,Incahuasi,Incahuasi
+1000646,15.0,0.8666666666666667,KH0629,Incahuasi,,Incahuasi,Incahuasi
+1000647,56.0,0.7678571428571429,KH0630,Incahuasi,,Incahuasi,Incahuasi
+1000648,1003.0,0.0,KH0081,"Monte de Cacatilla, Valle de Nazca",,"Monte de Cacatilla, Valle de Nazca",Nazca
+1000649,35.0,0.8571428571428571,KH0520,"Huaca San Pedro, Armatambo",,"Huaca San Pedro, Armatambo",Armatambo
+1000650,350.0,0.74,KH0521,"Huaca San Pedro, Armatambo",,"Huaca San Pedro, Armatambo",Armatambo
+1000651,43.0,0.9767441860465116,KH0522,"Armatambo, Huaca San Pedro",,"Armatambo, Huaca San Pedro",Armatambo
+1000652,12.0,0.6666666666666666,KH0523,"Armatambo, Huaca San Pedro",,"Armatambo, Huaca San Pedro",Armatambo
+1000653,13.0,1.0,KH0524,"Armatambo, Huaca San Pedro",,"Armatambo, Huaca San Pedro",Armatambo
+1000654,67.0,0.6716417910447762,KH0525,"Armatambo, Huaca San Pedro",,"Armatambo, Huaca San Pedro",Armatambo
+1000655,26.0,0.5,KH0526,"Armatambo, Huaca San Pedro",,"Armatambo, Huaca San Pedro",Armatambo
+1000656,33.0,0.3939393939393939,KH0527,"Armatambo, Huaca San Pedro",,"Armatambo, Huaca San Pedro",Armatambo
+1000657,6.0,0.0,KH0528,"Armatambo, Huaca San Pedro",,"Armatambo, Huaca San Pedro",Armatambo
+1000658,242.0,0.9752066115702479,KH0529,"Armatambo, Huaca San Pedro",,"Armatambo, Huaca San Pedro",Armatambo
+1000659,37.0,0.6486486486486487,KH0530,"Armatambo, Huaca San Pedro",,"Armatambo, Huaca San Pedro",Armatambo
+1000660,22.0,1.0,KH0531,"Armatambo, Huaca San Pedro",,"Armatambo, Huaca San Pedro",Armatambo
+1000661,17.0,0.8235294117647058,KH0532,"Armatambo, Huaca San Pedro",,"Armatambo, Huaca San Pedro",Armatambo

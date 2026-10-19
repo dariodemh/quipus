@@ -1,0 +1,14 @@
+# Frank Salomon (2004). The Cord Keepers: Khipus and Cultural Life in a Peruvian Village
+
+- **Referencia:** Duke University Press, Durham, 2004. DOI 10.1215/9780822386179 (DOI de libro). Edición en español OA: *Los Quipocamayos* (IFEA, 2006; ver ficha 2006-Salomon_quipocamayos).
+- **Tipo / acceso:** libro; **solo resumen** (texto autoral de muestra recogido en OpenAlex; el libro está bajo paywall, sin versión digital abierta en PDF).
+- **Pregunta u objetivo:** comprender cómo el sistema de cordeles articulaba la vida política de Tupicocha (Huarochirí), organizada por grupos de parentesco corporativos (ayllus), y qué pistas da sobre detalles específicos del código.
+- **Corpus y datos:** los *quipocamayos* (cordeles anudados) de la comunidad de **Tupicocha**, Perú, que los oficiales del pueblo usan como "regalia" ceremonial. Salomon los llama también *equipos* o *caytus* (del quechua, para "hilo/lana/cordel"). El texto de muestra no da recuentos de nudos ni un inventario KH/UR/AS.
+- **Métodos:** etnografía (encuentro etnográfico fortuito en 1994) y etnohistoria; estudio de la continuidad del sistema de cordeles en contexto político; propuesta de extender una "etnografía de la escritura" (término de Keith Basso) a sistemas distintos del alfabético.
+- **Hallazgos principales:** los cordeles de Tupicocha representan una continuidad insospechada del uso del quipu en la vida política moderna; el sistema se articulaba con la organización por ayllus; ofrece pistas sobre el código. El autor advierte que **Tupicocha no es una "piedra Rosetta"**.
+- **Afirmaciones sobre el significado o desciframiento y nivel de evidencia:** **apoyado con datos etnográficos**, pero no un desciframiento. El propio autor niega la analogía fuerte con una clave de traducción.
+- **Limitaciones y críticas:** caso único (una sola comunidad) y de tradición oral contemporánea; la continuidad con el quipu inca no puede asumirse sin más (riesgo de analogía etnográfica). No hay controles cuantitativos en el resumen.
+- **Relación con otros trabajos:** versión ampliada del capítulo de Salomon en *Narrative Threads* (2002, Tupicocha); conecta con el debate sobre "escritura" (Urton 1998, 2003) y con el argumento de Salomon (2013) de que el quipu es un "data graphic" más que un texto.
+- **Relevancia para este proyecto:** provee el marco para tratar los quipus "patrimoniales"/etnográficos como parte del corpus (grupo etnográfico del OKR). Hipótesis: estructura recurrente de cordeles asociada a organización social (ayllus) que podría compararse con los grupos de cordeles de quipus arqueológicos.
+- **Citas clave:**
+  - "Tupicocha provides no Rosetta stone. But it does open an ethnographic and ethnohistorical window on how the cord system articulated political life as organized by corporate kinship groups." (texto de muestra del autor, OpenAlex).

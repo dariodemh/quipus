@@ -1,0 +1,46 @@
+=== T1. Co-movimiento entre macro-grupos (Spearman entre perfiles de evento) ===
+magnitud (log10 total)       rho medio=+0.573  nulo 95% [-0.198,+0.233]  p=0.0000
+n.º de cuerdas con dato      rho medio=+0.320  nulo 95% [-0.104,+0.134]  p=0.0001
+
+Matriz de correlaciones (n.º de cuerdas con dato):
+          I+II  III+IV  V+VI  VII+VIII  IX+X  XI+XII
+I+II      1.00    0.03 -0.01     -0.43 -0.28    0.15
+III+IV    0.03    1.00  0.69      0.54  0.59    0.48
+V+VI     -0.01    0.69  1.00      0.69  0.63    0.47
+VII+VIII -0.43    0.54  0.69      1.00  0.79    0.20
+IX+X     -0.28    0.59  0.63      0.79  1.00    0.27
+XI+XII    0.15    0.48  0.47      0.20  0.27    1.00
+
+=== T2. Estructura de rango 1 (¿mezcla fija escalada?) ===
+varianza explicada por PC1 = 0.620; nulo 95% máx = 0.399; p=0.0000
+
+=== T3. Tendencia temporal por macro-grupo (Spearman evento vs magnitud) ===
+I+II         rho=-0.40  p=0.088
+III+IV       rho=-0.17  p=0.491
+V+VI         rho=-0.45  p=0.056
+VII+VIII     rho=-0.41  p=0.081
+IX+X         rho=-0.34  p=0.153
+XI+XII       rho=-0.40  p=0.087
+macro-grupos con rho<0: 6/6; sign test p=0.031
+
+=== T4. Desigualdad interna (CV) comparada con Incahuasi ===
+CV entre los 6 macro-grupos, dentro de cada evento: mediana=1.96 [1.37; 2.21]
+CV temporal dentro de cada macro-grupo: [2.66, 1.46, 1.65, 2.03, 1.52, 2.48]
+
+=== T5. Concentración temporal ===
+evento a: 43.2 % de la suma bruta de todos los valores
+evento f: 19.3 % de la suma bruta de todos los valores
+evento q: 3.8 % de la suma bruta de todos los valores
+seis primeros eventos (1533-34): 56.5 %
+
+=== T6. Redondeo decimal (comparación con Incahuasi 15,7 % múltiplos de 10) ===
+múltiplos de 10: 0.197 (n=361); IC95 binomial [0.157,0.241] bajo p=0,10
+múltiplos de 5: 0.335
+bootstrap por evento: IC95 [0.143,0.255]
+
+=== Corrección de Holm (5 pruebas) ===
+T1a co-movimiento magnitud         p=5.00e-05  Holm=2.00e-04  significativo
+T1b co-movimiento n.º cuerdas      p=1.00e-04  Holm=2.00e-04  significativo
+T2 rango-1 (PC1)                   p=5.00e-05  Holm=2.00e-04  significativo
+T3 tendencia (sign test)           p=3.12e-02  Holm=3.12e-02  significativo
+T6 redondeo ×10                    p=3.28e-08  Holm=1.64e-07  significativo

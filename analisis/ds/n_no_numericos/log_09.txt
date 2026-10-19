@@ -1,0 +1,38 @@
+quipus >=20 375
+mi_pat ND 0.359 resto 0.294 p 0.8218
+mi_val ND 0.548 resto 0.87 p 0.0001
+mi_pat_null ND 0.297 resto 0.274 p 0.9228
+Hcolor ND 1.524 resto 1.569 p 0.2845
+Vpat ND 7.0 resto 7.0 p 0.0638
+Hpat ND 2.017 resto 2.013 p 0.7101
+p_mi ND 0.356 resto 0.464 p 0.1276
+
+MI patron-color > nulo (p<0.05), top exceso:
+   kfg     n    ND    NC  mi_pat  mi_pat_null  mi_val  p_mi  Vpat  Vcolor                                procedencia
+ HP034  56.0 False False   1.096        0.720   1.848 0.002   7.0     5.0                     Ullujaya, Ocucaje, Ica
+UR1150  26.0 False False   1.091        0.737   1.571 0.008   7.0     4.0                                        Ica
+ JC012  22.0  True False   0.445        0.111   0.445 0.004   3.0     3.0                                  Incahuasi
+ UR282  27.0  True False   1.262        0.970   1.515 0.002   4.0     9.0                 Huaca San Pedro, Armatambo
+ UR195 105.0 False False   0.503        0.245   0.505 0.002   8.0     4.0                                     Huacho
+UR1145  73.0 False False   1.425        1.180   1.653 0.002  13.0     4.0                                 Pachacamac
+UR1143  30.0 False False   0.645        0.406   1.287 0.040   8.0     3.0                                        Ica
+ AS039  30.0 False False   0.641        0.406   0.867 0.018   5.0     4.0                                    Unknown
+UR1108  23.0 False False   0.278        0.081   0.281 0.036   3.0     2.0                      Between Ica and Pisco
+ AS128 130.0 False False   0.761        0.566   1.343 0.002  10.0     7.0                                      Nazca
+ UR123  45.0 False False   0.361        0.189   0.371 0.022   6.0     2.0                                 Pachacamac
+UR1097  47.0 False False   0.203        0.034   0.452 0.006   2.0     3.0                                 Pachacamac
+UR1088  83.0 False False   0.330        0.167   0.543 0.002   5.0     4.0                                     Huacho
+ UR166  28.0 False False   0.633        0.475   1.489 0.046   9.0     4.0 Huando, Chancay, Peru (Gaffron Collection)
+ UR113 268.0 False False   0.593        0.435   1.247 0.002  16.0    15.0                                      Nazca
+ UR280  24.0 False False   0.811        0.654   1.124 0.040  10.0     3.0                                  Incahuasi
+ UR232  76.0 False False   0.542        0.387   1.645 0.008   6.0     7.0                                     Huacho
+UR1123  58.0 False False   0.989        0.836   2.270 0.036  10.0     6.0                                        Ica
+AS026B  92.0  True False   0.370        0.218   0.437 0.002  10.0     2.0                                    Unknown
+ AS074  35.0  True False   0.444        0.297   0.704 0.032   7.0     4.0                                    Unknown
+ MM021 103.0 False False   0.570        0.427   1.146 0.010   8.0    12.0                                    Unknown
+UR1126  91.0 False False   0.317        0.174   0.602 0.014   5.0     5.0                                        Ica
+ HP003  61.0 False False   0.753        0.610   1.871 0.002   7.0     5.0                                 Pachacamac
+ UR102  44.0 False False   0.334        0.193   0.608 0.028   5.0     3.0                                    Unknown
+ UR217  60.0 False False   0.559        0.422   1.313 0.018  10.0     7.0                                    Ocucaje
+
+Clase con p_mi<0.05: 5 de 41

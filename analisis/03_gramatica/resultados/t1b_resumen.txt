@@ -1,0 +1,49 @@
+referencias: {'azar': 1585, 'tabla': 1553, 'texto': 1543, 'bandeado': 485}; exactitud CV-5 = 0.713
+[color] quipus=515: tabla=35.5%, bandeado=32.6%, texto=20.0%, azar=11.8%
+     n>=30 (346): tabla=38.2%, bandeado=32.4%, texto=20.8%, azar=8.7%
+     n>=100 (118): bandeado=38.1%, tabla=34.7%, texto=23.7%, azar=3.4%
+[patron] quipus=532: azar=33.6%, tabla=30.3%, texto=29.1%, bandeado=7.0%
+     n>=30 (347): azar=33.7%, texto=33.1%, tabla=26.5%, bandeado=6.6%
+     n>=100 (118): texto=41.5%, tabla=27.1%, azar=26.3%, bandeado=5.1%
+[tupla] quipus=538: texto=53.9%, tabla=21.0%, azar=19.9%, bandeado=5.2%
+     n>=30 (351): texto=60.1%, tabla=21.9%, azar=13.1%, bandeado=4.8%
+     n>=100 (118): texto=66.9%, tabla=22.9%, bandeado=5.1%, azar=5.1%
+[sensibilidad con auto-repetición y Heaps, color]: bandeado=38.6%, tabla=35.9%, azar=19.4%, texto=6.0%
+[sensibilidad con auto-repetición y Heaps, patron]: azar=52.4%, tabla=25.0%, bandeado=18.0%, texto=4.5%
+[sensibilidad con auto-repetición y Heaps, tupla]: azar=33.6%, bandeado=32.5%, texto=19.5%, tabla=14.3%
+medianas de rasgos por clase y nivel:
+                   D1_a   D2_a  Iexc1_rel  Iexcmax_rel  log_auto_rep  heaps_ratio  frac_z1  H0_norm   zipf  heaps_beta
+clase_ref nivel                                                                                                       
+azar      color  -0.006  0.001     -0.001        0.080        -0.012        1.004    0.000    0.820  1.354       0.422
+          patron -0.002 -0.001     -0.001        0.085        -0.001        1.003    0.002    0.769  1.493       0.462
+          tupla  -0.002  0.001     -0.001        0.051        -0.010        0.998    0.000    0.885  0.907       0.704
+bandeado  color   0.481  0.301      0.456        0.315         0.803        0.867    0.603    0.820  1.433       0.389
+quipu     color   0.227  0.118      0.188        0.214         0.246        0.971    0.522    0.820  1.354       0.458
+          patron  0.057  0.037      0.048        0.119         0.258        0.981    0.394    0.769  1.493       0.468
+          tupla   0.077 -0.017      0.063        0.080         0.539        0.963    0.523    0.885  0.907       0.726
+tabla     color   0.075  0.065      0.071        0.269        -0.207        1.013    0.304    0.786  1.620       0.324
+          patron  0.083  0.089      0.081        0.283        -0.186        1.016    0.287    0.763  1.687       0.327
+          tupla   0.152  0.040      0.154        0.278        -0.676        1.010    0.429    0.807  1.298       0.489
+texto     texto   0.025 -0.013      0.028        0.042        -2.996        1.008    0.565    0.956  0.534       0.850
+quipus con mayor P(texto):
+   doc  nivel  n  P_texto  P_tabla  P_bandeado  P_azar
+UR1117  tupla 11    0.984    0.000       0.002   0.013
+ AS015  tupla 12    0.982    0.001       0.007   0.010
+ AS080  tupla 16    0.977    0.002       0.006   0.015
+UR1117 patron 11    0.962    0.004       0.015   0.020
+ AS201  tupla 10    0.957    0.002       0.015   0.026
+ AS153  tupla 21    0.947    0.008       0.021   0.024
+ UR246  tupla 34    0.947    0.004       0.007   0.042
+ HP043 patron 11    0.947    0.002       0.001   0.051
+ AS006  tupla 42    0.943    0.008       0.013   0.036
+ AS157 patron 18    0.936    0.011       0.030   0.023
+KH0197  tupla 41    0.935    0.011       0.015   0.039
+ UR184  tupla 21    0.935    0.005       0.007   0.053
+ AS142 patron 12    0.934    0.004       0.024   0.037
+AS035D  tupla 37    0.927    0.005       0.006   0.062
+UR1118  tupla 15    0.927    0.007       0.047   0.019
+ UR241 patron 44    0.924    0.013       0.025   0.038
+ MM003  tupla 40    0.923    0.005       0.005   0.067
+ AS157  tupla 18    0.920    0.017       0.035   0.029
+ UR180 patron 12    0.920    0.013       0.014   0.053
+ UR048  tupla 46    0.920    0.005       0.005   0.070

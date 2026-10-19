@@ -1,0 +1,14 @@
+# Frank Salomon (2006). Los Quipocamayos: el antiguo arte del khipu en una comunidad campesina moderna
+
+- **Referencia:** Instituto Francés de Estudios Andinos (IFEA) / OpenEdition Books, 2006 (Estudios Andinos). DOI 10.4000/books.ifea.5355. Es la edición en español de *The Cord Keepers* (Duke, 2004).
+- **Tipo / acceso:** libro; **solo resumen** (OpenAlex ofrece el resumen/descripción editorial en español; el texto completo sólo está en HTML de acceso abierto en books.openedition.org/ifea/5355, sin PDF descargable).
+- **Pregunta u objetivo:** responder qué hechos se registraron en los cordeles, en qué código, y para qué sirvieron los quipus dentro del régimen social de los ayllus.
+- **Corpus y datos:** datos recogidos en **Tupicocha** (Huarochirí), pueblo cuyas tradiciones están recogidas en el manuscrito quechua de 1608; los cordeles patrimoniales (*quipocamayos*) de la comunidad.
+- **Métodos:** estudio etnográfico de la supervivencia del khipu, con base etnohistórica (manuscrito de Huarochirí de 1608) y trabajo de campo en Tupicocha.
+- **Hallazgos principales:** el libro demuestra que los quipus tuvieron una larga y sorprendente trayectoria en coexistencia con la "ciudad letrada" colonial y republicana; que persistieron en la vida política de los ayllus; y que el problema del quipu desafía la teoría contemporánea sobre los orígenes de la escritura y la literacidad. Sugiere que los pueblos originarios andinos exploraron vías semióticas distintas de las que produjeron las escrituras prístinas del Viejo Mundo y mayas.
+- **Afirmaciones sobre el significado o desciframiento y nivel de evidencia:** **apoyado con datos etnográficos/etnohistóricos**; no es un desciframiento del código numérico o lingüístico. La pregunta "¿en cuál código?" se responde sólo sugerentemente, según el resumen.
+- **Limitaciones y críticas:** caso único; la analogía entre los quipocamayos modernos y el quipu inca es interpretativa; el resumen es de carácter editorial, sin cifras.
+- **Relación con otros trabajos:** edición en español del mismo trabajo que Salomon (2004); continúa su capítulo de Tupicocha (2002). Dialoga con el debate escritura/literacidad (Urton 1998, 2003; Brokaw 2010) y con su propio argumento del quipu como "data graphic" (Salomon 2013).
+- **Relevancia para este proyecto:** acceso abierto en HTML (reutilizable para lectura, no para datos tabulares). Aporta la hipótesis de continuidad y de codificación no numérica ligada a organización social; su valor para el proyecto es etnográfico/contextual más que como fuente de datos cuantitativos.
+- **Citas clave:**
+  - "este libro demuestra que los khipus tuvieron una larga y sorprendente trayectoria en coexistencia con lo que ha venido llamándose la 'ciudad letrada' colonial y republicana." (resumen editorial, OpenAlex).

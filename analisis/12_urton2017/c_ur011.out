@@ -1,0 +1,14 @@
+pares KFG == Tabla 11.2 de Urton: 15 /15
+medias [15597.0, 10932.0, 10540.0, 8678.0, 7098.0, 7917.0, 6279.0, 8291.0, 8944.0, 2222.0, 1459.0, 1494.0, 2528.0, 2723.0, 3304.0]
+Spearman medias vs orden: -0.807142857142857 0.0002752442706954192
+razon ultimo/primero 0.21186766685901134  caida % 78.81323331409887
+razon entre miembros del par (b/a) mediana 1.0022522522522523  |log| mediano 0.11249058647234242
+cambio relativo consecutivo [0.7, 0.96, 0.82, 0.82, 1.12, 0.79, 1.32, 1.08, 0.25, 0.66, 1.02, 1.69, 1.08, 1.21]
+R2 lineal en log 0.6929013217020121
+R2 dos mesetas (k=9) 0.865778029505163
+quipus con >=12 grupos con valor: 158  rho<=-0.8: 6  rho>=0.8: 1  UR011: [['UR011', 24, -0.6182608695652172, 0.0012820186402465346]]
+con >=15 grupos: 127  frac rho15<=-0.87: 0.0
+periodo 1559 1608 corr Pearson log 0.8192317187073613 n 15
+periodo 1570 1625 corr Pearson log 0.7633578949585891 n 10
+corr con curva usando maximos ordenados decrecientemente de 127 quipus: mediana 0.93  (UR011 en orden natural: ver arriba)
+similitud interna de pares: mediana |log razon| obs 0.112; nulo media 0.797; P(nulo<=obs)=0.00000

@@ -1,0 +1,26 @@
+pares: 2599
+copia_quipu: 153 predicciones (2 s)
+copia_grupo: 170 predicciones (1 s)
+predicciones de copia: 323  quipus: 22
+{'copia_grupo': 170, 'copia_quipu': 153}
+suma_dos: 50 predicciones (1 s)
+acierto copia: 212/323 = 0.656
+acierto suma_dos: 12/50 = 0.240
+             size   mean
+regla                   
+copia_grupo   170  0.618
+copia_quipu   153  0.699
+nulo copia: 0.3117 ; nulo suma_dos: 0.0098
+
+por procedencia:
+                                        size   mean
+procedencia                                        
+Huaquerones                              204  0.642
+Pachacamac                                65  0.631
+Incahuasi                                 42  0.476
+Leymebamba                                23  0.000
+Cajamarquilla                             22  0.773
+La puntilla, between Paracas and Pisco    15  1.000
+Huacho                                     2  0.000
+
+OK -> inter_pred.csv

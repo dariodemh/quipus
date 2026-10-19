@@ -1,0 +1,30 @@
+======================================================================
+1. DESCRIPTIVOS
+tributarios por pachaca (padron): {'Namus': 18, 'Corongo': 23, 'Cuyuchin': 9, 'Cusca': 7, 'Guauyan': 41, 'Ucore': 32} total 130
+grupos de 6 por quipu: {'UR087': 48, 'UR088': 9, 'UR089': 34, 'UR090': 17, 'UR091': 15, 'UR092': 10} total 133
+colores distintos 1.a cuerda: 33 |singletons: 17   (publicado: 32 y 17)
+rango p1 por quipu: {'UR087': {'min': 1, 'max': 10, 'sum': 57}, 'UR088': {'min': 0, 'max': 13, 'sum': 80}, 'UR089': {'min': 0, 'max': 5, 'sum': 101}, 'UR090': {'min': 0, 'max': 6, 'sum': 84}, 'UR091': {'min': 0, 'max': 4, 'sum': 36}, 'UR092': {'min': 1, 'max': 2, 'sum': 11}}
+grupos con color homogeneo en las 6 cuerdas: 115 / 133
+union 1.a cuerda por quipu: {'UR087': {'R': 48, 'U': 0, 'V': 0}, 'UR088': {'R': 0, 'U': 0, 'V': 9}, 'UR089': {'R': 0, 'U': 0, 'V': 34}, 'UR090': {'R': 6, 'U': 0, 'V': 11}, 'UR091': {'R': 0, 'U': 0, 'V': 15}, 'UR092': {'R': 9, 'U': 1, 'V': 0}}
+
+======================================================================
+2. TEST MACRO: orden/emparejamiento pachaca <-> quipu
+pachacas (orden del documento): ['Namus', 'Corongo', 'Cuyuchin', 'Cusca', 'Guauyan', 'Ucore']
+tributarios: [18, 23, 9, 7, 41, 32]  grupos: [15, 17, 10, 9, 48, 34]
+suma |diferencia| observada = 21  Spearman = 1.0
+nulo 2a (720 permutaciones de quipus): min posible 21  P(sum|dif| <= obs) = 0.0056  n permutaciones con ese valor = 4
+nulo 2b (composiciones uniformes, emparejamiento por rango): obs 21  P(<=obs) = 0.239
+
+======================================================================
+3. TEST MICRO: orden de los nombres vs orden de los grupos
+ pachaca khipu  n_aligned  n_nombres  n_grupos     V   acc
+   Namus UR091         15         18        15 0.746 0.667
+ Corongo UR090         17         23        17 0.832 0.706
+Cuyuchin UR092          9          9        10 0.913 0.778
+   Cusca UR088          7          7         9 0.750 0.714
+ Guauyan UR087         41         41        48 0.644 0.268
+   Ucore UR089         32         32        34 0.788 0.719
+
+agregado: n = 121  V observada = 0.583  precision in-sample = 0.438  (nivel azar por color = 0.2 )
+nulo (permutar nombres dentro de pachaca, 5000): V media 0.554 p95 0.610 -> p = 0.1968
+                                              precision media 0.397 p95 0.430 -> p = 0.0206

@@ -1,0 +1,92 @@
+kfg,okr,museo,procedencia,region,pc_largo,pc_color,pc_estructura,proc_n,objeto
+AS054,KH0065,"Museo de Ica, Ica, Peru",Hacienda Ullujalla y Callengo,Unknown,21.0,YB-G0,,hacienda ullujalla y callengo,KH0065
+AS055,KH0066,"Museo de Ica, Ica, Peru",Hacienda Ullujalla y Callengo,Unknown,36.0,YB,,hacienda ullujalla y callengo,KH0066
+AS072,KH0085,Unknown,"Rancho San Juan, Ica Valley",Unknown,22.0,PK,P,"rancho san juan, ica valley",KH0085
+AS073,KH0086,Unknown,"Rancho San Juan, Ica Valley",Unknown,10.0,PK,,"rancho san juan, ica valley",KH0086
+AS115,KH0129,"Museum für Völkerkunde, Berlin",Ica,Unknown,62.5,MB:0D,,ica,KH0129
+AS129,KH0144,"Museum für Völkerkunde, Berlin",Ica,Unknown,63.0,W,,ica,KH0144
+AS142,KH0158,"Museum für Völkerkunde, Berlin",Ica,Unknown,17.0,W,,ica,KH0158
+AS159,KH0175,"Museum für Völkerkunde, Berlin",Between Ica and Pisco,Unknown,36.0,W,,between ica and pisco,KH0175
+AS160,KH0176,"Museum für Völkerkunde, Berlin",Between Ica and Pisco,Unknown,38.5,W,,between ica and pisco,KH0176
+AS164,KH0181,"Museum für Völkerkunde, Berlin",Ica,Unknown,34.0,W,,ica,KH0181
+AS171,KH0188,"Museum für Völkerkunde, Berlin",Ica,Unknown,20.0,W,,ica,KH0188
+AS173,KH0190,"Museum für Völkerkunde, Berlin",Between Ica and Pisco,Unknown,22.0,W,,between ica and pisco,KH0190
+AS174,KH0191,"Museum für Völkerkunde, Berlin",Between Ica and Pisco,Unknown,74.5,LB,,between ica and pisco,KH0191
+AS191,KH0209,"American Museum of Natural History, NY",Ica,Unknown,22.0,W,P,ica,KH0209
+AS192,KH0210,"American Museum of Natural History, NY",Ica,Unknown,33.0,W-MB,P,ica,KH0210
+AS193,KH0211,"American Museum of Natural History, NY",Ica,Unknown,21.5,W,P,ica,KH0211
+AS194,KH0212,"American Museum of Natural History, NY",Ica,Unknown,24.5,KBGGAB,P,ica,KH0212
+AS195,KH0213,"American Museum of Natural History, NY",Ica,Unknown,19.0,AB,P,ica,KH0213
+AS196,KH0214,"American Museum of Natural History, NY",Ica,Unknown,43.0,AB,P,ica,KH0214
+AS197,KH0215,"American Museum of Natural History, NY",Ica,Unknown,75.0,W-AB-AB-MB,,ica,KH0215
+AS201,KH0219,"Lowie Museum, University of California, Berkeley",Ica,Unknown,17.5,B,,ica,KH0219
+AS204,KH0222,"Lowie Museum, University of California, Berkeley",Ica,Unknown,29.5,YB,,ica,KH0222
+HP033,KH0565,"Museo Nacional de Arqueología, Antropología e Historia del Perú","Ullujaya, Ocucaje, Ica",Unknown,31.0,PK,P,"ullujaya, ocucaje, ica",KH0565
+HP034,KH0566,"Museo Nacional de Arqueología, Antropología e Historia del Perú","Ullujaya, Ocucaje, Ica",Unknown,44.0,AB-AB(0.0-0.0)/AB:MB-AB-AB-AB(0.0-0.0),P,"ullujaya, ocucaje, ica",KH0566
+KH0032,KH0032,"Peabody Museum, Harvard University","La puntilla, between Paracas and Pisco",Unknown,0.0,MB,P,"la puntilla, between paracas and pisco",KH0032
+KH0033,KH0033,"Peabody Museum, Harvard University","La puntilla, between Paracas and Pisco",Unknown,215.5,MB-W:GG:AB,P,"la puntilla, between paracas and pisco",KH0033
+UR044,,"Peabody Museum, Harvard University","La puntilla, between Paracas and Pisco",Unknown,215.5,MB-W:GG:AB,P,"la puntilla, between paracas and pisco",KH0033
+UR1051,KH0062,"Museo Nacional, Lima, Peru",Hacienda Ullujalla y Callengo,Unknown,39.0,MB,,hacienda ullujalla y callengo,KH0062
+UR1052,KH0063,"Museo de Ica, Ica, Peru",Hacienda Ullujalla y Callengo,Unknown,29.0,W,,hacienda ullujalla y callengo,KH0063
+UR1053,KH0064,"Museo de Ica, Ica, Peru",Hacienda Ullujalla y Callengo,Unknown,42.5,W,,hacienda ullujalla y callengo,KH0064
+UR1098,KH0111,"Museum für Völkerkunde, Berlin",Between Ica and Pisco,Unknown,0.0,LB,P,between ica and pisco,KH0111
+UR1100,KH0113,"Museum für Völkerkunde, Berlin",Ica,Unknown,156.0,W-BB,,ica,KH0113
+UR1103,KH0117,"Museum für Völkerkunde, Berlin",Ica,Unknown,60.5,B,,ica,KH0117
+UR1105,KH0119,"Museum für Völkerkunde, Berlin",Ica,Unknown,38.5,W-B-BB,P,ica,KH0119
+UR1108,KH0122,"Museum für Völkerkunde, Berlin",Between Ica and Pisco,Unknown,33.5,W:MB:LB,P,between ica and pisco,KH0122
+UR1109,KH0123,"Museum für Völkerkunde, Berlin",Ica,Unknown,143.5,W-DB,P,ica,KH0123
+UR1113,KH0127,"Museum für Völkerkunde, Berlin",Between Ica and Pisco,Unknown,167.0,W,P,between ica and pisco,KH0127
+UR1114,KH0128,"Museum für Völkerkunde, Berlin",Between Ica and Pisco,Unknown,133.0,B-HB,P,between ica and pisco,KH0128
+UR1116,KH0130,"Museum für Völkerkunde, Berlin",Ica,Unknown,33.5,W,,ica,KH0130
+UR1117,KH0131,"Museum für Völkerkunde, Berlin",Ica,Unknown,39.0,W:AB,P,ica,KH0131
+UR1120,KH0134,"Museum für Völkerkunde, Berlin",Ica,Unknown,107.0,W:GG:LB,P,ica,KH0134
+UR1123,KH0137,"Museum für Völkerkunde, Berlin",Ica,Unknown,72.0,EB:B,P,ica,KH0137
+UR1126,KH0141,"Museum für Völkerkunde, Berlin",Ica,Unknown,153.0,W:CB,P,ica,KH0141
+UR1135,KH0151,"Museum für Völkerkunde, Berlin",Ica,Unknown,37.5,W,P,ica,KH0151
+UR1138,KH0154,"Museum für Völkerkunde, Berlin",Ica,Unknown,38.5,G:LB,P,ica,KH0154
+UR1141,KH0157,"Museum für Völkerkunde, Berlin",Ica,Unknown,28.0,W,,ica,KH0157
+UR1143,KH0159,"Museum für Völkerkunde, Berlin",Ica,Unknown,300.5,W:BB,P,ica,KH0159
+UR1146,KH0162,"Museum für Völkerkunde, Berlin",Ica,Unknown,55.5,W:YB:B:CB,P,ica,KH0162
+UR1147,KH0163,"Museum für Völkerkunde, Berlin",Ocucaje,Unknown,73.0,B:LB,P,ocucaje,KH0163
+UR1148,KH0164,"Museum für Völkerkunde, Berlin",Ocucaje,Unknown,56.0,B,P,ocucaje,KH0164
+UR1149,KH0165,"Museum für Völkerkunde, Berlin",Ocucaje,Unknown,77.5,B,P,ocucaje,KH0165
+UR1150,KH0166,"Museum für Völkerkunde, Berlin",Ica,Unknown,110.0,W:B,P,ica,KH0166
+UR1152,KH0168,"Museum für Völkerkunde, Berlin",Ica,Unknown,69.0,W-B,P,ica,KH0168
+UR1161,KH0177,"Museum für Völkerkunde, Berlin",Ica,Unknown,17.0,B,P,ica,KH0177
+UR1162A,KH0178,"Museum für Völkerkunde, Berlin",Ica,Unknown,31.5,B,P,ica,KH0178
+UR1162B,KH0179,"Museum für Völkerkunde, Berlin",Ica,Unknown,36.5,W,P,ica,KH0179
+UR1166,KH0183,"Museum für Völkerkunde, Berlin",Ica,Unknown,59.0,W-LB-BD,P,ica,KH0183
+UR1179,KH0196,"Museum für Völkerkunde, Berlin",Ica,Unknown,22.0,W,P,ica,KH0196
+UR1180,UR1180,"Museum für Völkerkunde, Berlin",Ica,Unknown,44.0,W-YG,P,ica,KH0197
+UR139,KH0379,Museo Regional de Ica,Valle de Ica Hacienda Callango Ocucaje,Unknown,23.5,W:AB:KB,P,valle de ica hacienda callango ocucaje,KH0379
+UR140,KH0380,Museo Regional de Ica,Valle de Ica Hacienda Callango Ocucaje,Unknown,29.0,AB,P,valle de ica hacienda callango ocucaje,KH0380
+UR142,KH0382,Museo Regional de Ica,Valle de Ica Hacienda Callango Ocucaje,Unknown,6.5,AB-AB-KB,P,valle de ica hacienda callango ocucaje,KH0382
+UR143,KH0383,Museo Regional de Ica,Valle de Ica Hacienda Callango Ocucaje,Unknown,32.0,W-KB,P,valle de ica hacienda callango ocucaje,KH0383
+UR144,KH0384,On loan to Ica Museum,Valle de Pisco,Unknown,12.0,SR,P,valle de pisco,KH0384
+UR149,KH0389,Museo Regional de Ica,Hacienda Ullujalla y Callengo,Unknown,35.5,AB-MB,P,hacienda ullujalla y callengo,KH0389
+UR151,KH0391,Museo Regional de Ica,Valle de Ica Hacienda Callango Ocucaje,Unknown,20.5,W:AB,P,valle de ica hacienda callango ocucaje,KH0391
+UR152,KH0392,Museo Regional de Ica,Hacienda Ullujalla y Callengo,Unknown,31.0,AB-MB,P,hacienda ullujalla y callengo,KH0392
+UR154,KH0394,Museo Regional de Ica,Valle de Ica Hacienda Callango Ocucaje,Unknown,91.5,W-MB-MB,P,valle de ica hacienda callango ocucaje,KH0394
+UR155,KH0395,Museo Regional de Ica,Valle de Ica Hacienda Callango Ocucaje,Unknown,46.5,GG-HB-HB,P,valle de ica hacienda callango ocucaje,KH0395
+UR162,KH0402,Museo Regional de Ica,Valle de Ica Hacienda Callango Ocucaje,Unknown,16.0,AB,P,valle de ica hacienda callango ocucaje,KH0402
+UR167,KH0406,"American Museum of Natural History, NY",Ica or Cajamarquilla,Unknown,32.0,MB,P,ica or cajamarquilla,KH0406
+UR168,KH0407,"American Museum of Natural History, NY",Ica,Unknown,47.5,MB:KB,P,ica,KH0407
+UR169,KH0408,"American Museum of Natural History, NY","Ica Valley, near Callango",Unknown,18.5,KB,P,"ica valley, near callango",KH0408
+UR187,KH0425,"American Museum of Natural History, NY","Ica Valley, near Callango",Unknown,50.5,AB:KB,P,"ica valley, near callango",KH0425
+UR194,KH0432,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",78.5,PK,,ica,KH0432
+UR209,KH0447,"Ethnologisches Museum, Berlin, Germany",Pisco,"South Coast, Peru",59.0,W:LA:G0:MB,P,pisco,KH0447
+UR210,KH0448,"Ethnologisches Museum, Berlin, Germany",Ica/Pisco,"South Coast, Peru",0.0,AB,P,ica/pisco,KH0448
+UR211,KH0449,"Ethnologisches Museum, Berlin, Germany",Ica/Pisco,"South Coast, Peru",74.0,PK,P,ica/pisco,KH0449
+UR217,KH0455,"Ethnologisches Museum, Berlin, Germany",Ocucaje,"South Coast, Peru",90.0,W-MB,,ocucaje,KH0455
+UR219,KH0457,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",106.0,W-GG,,ica,KH0457
+UR220,KH0458,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",24.5,W,,ica,KH0458
+UR221,KH0459,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",17.5,G0,,ica,KH0459
+UR222,KH0460,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",40.0,W-KB,,ica,KH0460
+UR223,KH0461,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",66.0,GG-GG-MB-MB,,ica,KH0461
+UR227,KH0464,"Ethnologisches Museum, Berlin, Germany",Pisco,"South Coast, Peru",56.0,W:AB:BG,,pisco,KH0464
+UR228,KH0465,"Ethnologisches Museum, Berlin, Germany",Pisco,"South Coast, Peru",77.0,W:MB,,pisco,KH0465
+UR229,KH0466,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",59.0,W-MB-HB,,ica,KH0466
+UR231,KH0468,"Ethnologisches Museum, Berlin, Germany",Ica/Pisco,"South Coast, Peru",304.0,W:AB:KB,B,ica/pisco,KH0468
+UR238,KH0474,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",44.5,AB-AB-HB-HB,,ica,KH0474
+UR242,KH0478,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",51.0,AB:MB,,ica,KH0478
+UR250,KH0486,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",35.5,AB:PR,,ica,KH0486

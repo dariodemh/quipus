@@ -1,0 +1,70 @@
+=== CORPUS ===
+KFG cuerdas.csv: 57818 cuerdas, 651 quipus
+KFG quipus.csv: 651 quipus; con procedencia no-Unknown: 415; etiquetas distintas: 65
+OKR: 619 quipus, 54403 cuerdas, 110151 nudos
+
+=== NUDOS POR TIPO Y DIRECCION ===
+KFG (parseado de cuerdas.csv):
+dir        S      Z     U  total  n_orient  pct_S  pct_Z
+tipo2                                                   
+E       2057   5530  1123   8710      7587   27.1   72.9
+L      13234  11230  3833  28297     24464   54.1   45.9
+S      19703  52774  9648  82125     72477   27.2   72.8
+otros    189   1874   254   2317      2063    9.2   90.8
+KFG total nudos (corridas S contadas como n): 121449; orientados: 106591
+
+OKR (tabla knot):
+dir        S      Z     U  total  n_orient  pct_S  pct_Z
+tipo2                                                   
+E       1992   5325  1016   8333      7317   27.2   72.8
+L      12040  10936  3315  26291     22976   52.4   47.6
+S      17376  49214  8052  74642     66590   26.1   73.9
+otros    293    409   183    885       702   41.7   58.3
+OKR total nudos: 110151; orientados: 97585
+
+=== TORSION DE CORDEL ===
+KFG torsion: {'S': 44965, 'U': 9122, 'Z': 3398, 'NA': 333}
+OKR TWIST: {'S': 41569, 'U': 8261, 'Z': 3402, 'NA': 1171}
+
+=== PATRONES POR QUIPU (todos los nudos orientados) ===
+KFG: {'quipus_con_nudos': 641, 'quipus_orientados': 512, 'todo_Z': 133, 'todo_S': 49, 'mixtos': 330}
+KFG >=10 nudos orientados: {'quipus_con_nudos': 467, 'quipus_orientados': 467, 'todo_Z': 115, 'todo_S': 36, 'mixtos': 316}
+OKR: {'quipus_con_nudos': 593, 'quipus_orientados': 473, 'todo_Z': 129, 'todo_S': 44, 'mixtos': 300}
+OKR >=10 nudos orientados: {'quipus_con_nudos': 448, 'quipus_orientados': 448, 'todo_Z': 120, 'todo_S': 38, 'mixtos': 290}
+
+=== PROCEDENCIA ===
+Top 12 etiquetas exactas (suman 294):
+prov
+Pachacamac                                90
+Incahuasi                                 52
+Ica                                       47
+Leymebamba                                22
+Huaquerones                               19
+Nazca                                     13
+Armatambo, Huaca San Pedro                11
+Eduard Gaffron                            10
+Between Ica and Pisco                      8
+Valle de Ica Hacienda Callango Ocucaje     8
+Paracas                                    7
+Hacienda Ullujalla y Callengo              7
+
+Agrupacion amplia (archivo):
+archivo
+SIN                  236
+Ica-Pisco-Paracas    103
+Pachacamac            91
+Incahuasi             52
+Otra/vaga             45
+Lima                  24
+Leymebamba            22
+Huaquerones           19
+Nazca                 16
+Armatambo             14
+Huacho                 8
+Chancay                7
+Santa                  6
+Arica                  4
+Tambo Colorado         4
+
+=== QUIPUS CON / SIN PROCEDENCIA ===
+KFG con etiqueta != SIN: 415 de 651 (63.7%)

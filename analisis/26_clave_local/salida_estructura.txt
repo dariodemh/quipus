@@ -1,0 +1,34 @@
+
+== R1: quipus elegibles (sin UR053 ni Incahuasi) 149; por investigador {'AS': 64, 'UR': 58, 'HP': 12, 'KH': 6, 'QU': 6, 'MM': 3}
+        inv  dentro  size     sum
+0        AS   False  1824  1497.0
+1        AS    True   192   155.0
+2        HP   False    38    21.0
+3        HP    True    28    28.0
+4        KH   False    15    12.0
+5        MM   False     3     3.0
+6        QU   False    15    13.0
+7        UR   False  1526  1306.0
+8        UR    True   122   114.0
+9   cruzado   False  7115  5951.0
+10  cruzado    True   139   130.0
+  potencia R1 (p1=0.22, p0=0.05; alfa .05 nominal, 200 sim, B=199): 1.00
+  potencia R1 (p1=0.15, p0=0.05; alfa .05 nominal, 200 sim, B=199): 1.00
+  potencia R1 (p1=0.3, p0=0.1; alfa .05 nominal, 200 sim, B=199): 1.00
+
+== R2: quipus elegibles (sin UR053 ni Incahuasi) 136; por investigador {'AS': 56, 'UR': 55, 'HP': 11, 'QU': 8, 'MM': 3, 'KH': 3}
+        inv  dentro  size     sum
+0        AS   False  1427   236.0
+1        AS    True   113    16.0
+2        HP   False    34     2.0
+3        HP    True    21    11.0
+4        KH   False     3     1.0
+5        MM   False     3     1.0
+6        QU   False    28     3.0
+7        UR   False  1417   298.0
+8        UR    True    67    15.0
+9   cruzado   False  5916  1062.0
+10  cruzado    True   147    21.0
+  potencia R2 (p1=0.22, p0=0.05; alfa .05 nominal, 200 sim, B=199): 0.93
+  potencia R2 (p1=0.15, p0=0.05; alfa .05 nominal, 200 sim, B=199): 0.77
+  potencia R2 (p1=0.3, p0=0.1; alfa .05 nominal, 200 sim, B=199): 0.95

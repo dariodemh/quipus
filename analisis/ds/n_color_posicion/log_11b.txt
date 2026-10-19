@@ -1,0 +1,1 @@
+primario       C: n=186 q<.05=9 q<.10=13 p_min=0.0010 | sig: AS008, HP017, KH0081, QU013, UR195, UR208, UR1140, MM019, UR1152

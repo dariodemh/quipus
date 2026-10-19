@@ -1,0 +1,88 @@
+(a1) Notas y valores alt en KFG
+  UR266: 174 cuerdas, con notas 3, con alt 0
+     p2 g1 valor=0 alt='' notas='3'
+     p106 g26 valor=0 alt='' notas='noted as broken, but no other information on this cord'
+     p108 g28 valor=1000 alt='' notas='no color noted'
+  UR275: 125 cuerdas, con notas 1, con alt 0
+     p24 g4 valor=3116 alt='' notas='Red thread run through'
+  UR269: 330 cuerdas, con notas 0, con alt 0
+  UR273A: 87 cuerdas, con notas 1, con alt 0
+     p1 g0 valor=0 alt='' notas='Cord 1 and its subsidiaries is the same for both khipus UR273 A and B'
+  UR273B: 124 cuerdas, con notas 1, con alt 0
+     p1 g0 valor=0 alt='' notas='same as UR273A'
+  UR274A: 94 cuerdas, con notas 1, con alt 0
+     p28 g10 valor=30 alt='' notas='7'
+  UR274B: 101 cuerdas, con notas 0, con alt 0
+  UR270: 381 cuerdas, con notas 0, con alt 0
+  UR278: 322 cuerdas, con notas 3, con alt 0
+     p77 g8 valor=340 alt='' notas='untied'
+     p93 g10 valor=220 alt='' notas='untied'
+     p179 g20 valor=0 alt='' notas='threaded inside of primary cord'
+  UR267A: 88 cuerdas, con notas 1, con alt 0
+     p20 g7 valor=160 alt='' notas='1'
+  UR267B: 131 cuerdas, con notas 1, con alt 0
+     p52 g10 valor=0 alt='' notas='cord is tied around main cord (not usual attachment type'
+
+(a2) KFG frente a OKR (multiconjunto de valores anudados > 0 y nº de cuerdas); se listan los implicados y los que discrepan
+  cuerdas KFG/OKR (193, 193)   JC005 (OKR KH0612, modificado por jclindaniel 2017-01-05): KFG 139 valores, OKR 140; solo en KFG 0 []; solo en OKR 1 [5]
+  cuerdas KFG/OKR (89, 90)   UR255 (OKR KH0491, modificado por julia 2015-11-06): KFG 65 valores, OKR 66; solo en KFG 0 []; solo en OKR 1 [16]
+  cuerdas KFG/OKR (118, 176)   UR256 (OKR KH0492, modificado por None 0000-00-00): KFG 99 valores, OKR 145; solo en KFG 0 []; solo en OKR 46 [1, 5, 5, 5, 5, 5, 6, 6, 7, 7, 9, 10]
+  cuerdas KFG/OKR (211, 213)   UR264 (OKR KH0500, modificado por julia 2015-11-19): KFG 148 valores, OKR 148; solo en KFG 0 []; solo en OKR 0 []
+  cuerdas KFG/OKR (14, 25)   UR265 (OKR KH0501, modificado por julia 2015-11-19): KFG 13 valores, OKR 23; solo en KFG 0 []; solo en OKR 10 [2, 3, 3, 3, 3, 4, 4, 5, 6, 7]
+  cuerdas KFG/OKR (174, 174)   UR266 (OKR KH0502, modificado por gurton 2020-03-26): KFG 120 valores, OKR 120; solo en KFG 0 []; solo en OKR 0 []
+  cuerdas KFG/OKR (88, 88)   UR267A (OKR KH0503, modificado por None 0000-00-00): KFG 76 valores, OKR 76; solo en KFG 0 []; solo en OKR 0 []
+  cuerdas KFG/OKR (131, 131)   UR267B (OKR KH0504, modificado por julia 2015-11-23): KFG 106 valores, OKR 106; solo en KFG 0 []; solo en OKR 0 []
+  cuerdas KFG/OKR (330, 330)   UR269 (OKR KH0506, modificado por None 0000-00-00): KFG 218 valores, OKR 218; solo en KFG 0 []; solo en OKR 0 []
+  cuerdas KFG/OKR (381, 381)   UR270 (OKR KH0507, modificado por None 0000-00-00): KFG 297 valores, OKR 297; solo en KFG 0 []; solo en OKR 0 []
+  cuerdas KFG/OKR (87, 87)   UR273A (OKR KH0510, modificado por julia 2015-12-16): KFG 23 valores, OKR 23; solo en KFG 0 []; solo en OKR 0 []
+  cuerdas KFG/OKR (124, 124)   UR273B (OKR KH0511, modificado por julia 2015-12-16): KFG 33 valores, OKR 33; solo en KFG 0 []; solo en OKR 0 []
+  cuerdas KFG/OKR (94, 94)   UR274A (OKR KH0512, modificado por None 0000-00-00): KFG 50 valores, OKR 50; solo en KFG 0 []; solo en OKR 0 []
+  cuerdas KFG/OKR (101, 133)   UR274B (OKR KH0513, modificado por julia 2015-12-18): KFG 65 valores, OKR 86; solo en KFG 0 []; solo en OKR 21 [2, 3, 5, 10, 10, 10, 15, 23, 40, 46, 47, 111]
+  cuerdas KFG/OKR (125, 125)   UR275 (OKR KH0514, modificado por None 0000-00-00): KFG 114 valores, OKR 114; solo en KFG 0 []; solo en OKR 0 []
+  cuerdas KFG/OKR (322, 322)   UR278 (OKR KH0517, modificado por None 0000-00-00): KFG 292 valores, OKR 292; solo en KFG 0 []; solo en OKR 0 []
+  cuerdas KFG/OKR (246, 250)   UR280 (OKR KH0519, modificado por julia 2016-01-31): KFG 148 valores, OKR 150; solo en KFG 2 [16, 686]; solo en OKR 4 [8, 8, 20, 666]
+  quipus del archivo idénticos en ambas bases (valores y nº de cuerdas): 45 de 52
+
+   ¿Las cuerdas que cuadran llevan notas o alt?
+     UR273A: 8 cuerdas implicadas; con notas 0, con alt 0
+     UR273B: 11 cuerdas implicadas; con notas 0, con alt 0
+     UR274A: 3 cuerdas implicadas; con notas 0, con alt 0
+     UR267A: 6 cuerdas implicadas; con notas 0, con alt 0
+     UR267B: 5 cuerdas implicadas; con notas 0, con alt 0
+     UR266: 6 cuerdas implicadas; con notas 0, con alt 0
+     UR275: 9 cuerdas implicadas; con notas 0, con alt 0
+     UR269: 11 cuerdas implicadas; con notas 0, con alt 0
+     UR278 g21-29: 84 cuerdas, con notas 0, con alt 0
+     UR270 g0,4,5,8,9,10: 114 cuerdas, con notas 0, con alt 0
+
+(b) ¿Mismo objeto registrado varias veces?
+  cuerdas anudadas con huella idéntica (nudos+posiciones+largo+color) en ≥2 quipus distintos: 0
+  misma cadena de nudos con posiciones (sin largo/color) en ≥2 quipus: 4 (de 942 cadenas; las de 1 racimo son triviales: 4)
+  UR270 g0 largos ['34.5', '51.5', '54.0', '40.5', '42.5', '53.5', '54.5', '36.5', '47.5'] | UR278 g21 largos ['50.0', '57.0', '58.0', '46.5', '61.0', '49.5', '44.5', '48.0', '42.5']
+     colores UR270 ['W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W'] | UR278 ['W', 'W', 'W', 'AB', 'W', 'W', 'W', 'W', 'W']
+     nudos UR278: ['2S@4.0,200;3S@10.0,30;7L@19.0,7;1E@24.0,1', '2S@4.5,200;9S@10.0,90;5L@18.5,5', '1S@4.0,100;3S@10.5,30;8L@19.0,8', '1S@4.5,100;9S@11.0,90;8L@19.0,8']
+  UR270 g4 largos ['43.0', '37.0', '44.0', '36.5', '47.0', '47.0', '48.0', '41.0', '47.0'] | UR278 g25 largos ['40.5', '30.0', '34.0', '33.5', '30.0', '45.5', '33.0', '41.0', '28.0']
+     colores UR270 ['W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W'] | UR278 ['AB', 'AB', 'AB', 'AB', 'AB', 'AB', 'AB', 'AB', 'AB']
+     nudos UR278: ['3S@5.0,300;1E@21.0,1;1E@35.0,1', '2S@5.0,200;8S@11.5,80;5L@22.0,5', '2S@5.0,200;7L@19.0,7;1E@24.5,1', '2S@5.0,200;4S@11.5,40;7L@18.5,7']
+  UR270 g8 largos ['35.0', '40.0', '49.0', '34.5', '38.5', '26.0', '42.5', '35.0', '35.0'] | UR278 g27 largos ['36.0', '32.5', '38.5', '38.0', '40.5', '33.0', '38.5', '46.0', '38.0']
+     colores UR270 ['W', 'W', 'W', 'W', 'W', 'W', 'AB', 'W', 'W'] | UR278 ['W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W']
+     nudos UR278: ['2S@4.0,200;9S@10.5,90;4L@20.0,4;3L@21.0,3;1E@27.0,1', '3S@4.5,300;3S@10.5,30;9L@19.0,9;3L@20.5,3', '7S@1.5,70;2S@4.5,200;9L@19.5,9;2L@21.0,2', '2S@4.0,200;4S@10.5,40;4L@19.5,4;2L@21.0,2']
+
+(c) ¿Las coincidencias se concentran en valores frecuentes o redondos?
+  2950: en el archivo 2 veces, en todo KFG 2 (fuera de Incahuasi 0); múltiplo de 10: True, de 100: False
+  1278: en el archivo 3 veces, en todo KFG 3 (fuera de Incahuasi 0); múltiplo de 10: False, de 100: False
+  2020: en el archivo 2 veces, en todo KFG 2 (fuera de Incahuasi 0); múltiplo de 10: True, de 100: False
+  2106: en el archivo 2 veces, en todo KFG 2 (fuera de Incahuasi 0); múltiplo de 10: False, de 100: False
+  1653: en el archivo 3 veces, en todo KFG 3 (fuera de Incahuasi 0); múltiplo de 10: False, de 100: False
+  1737: en el archivo 3 veces, en todo KFG 4 (fuera de Incahuasi 1); múltiplo de 10: False, de 100: False
+  1827: en el archivo 1 veces, en todo KFG 1 (fuera de Incahuasi 0); múltiplo de 10: False, de 100: False
+  1780: en el archivo 4 veces, en todo KFG 5 (fuera de Incahuasi 1); múltiplo de 10: True, de 100: False
+  2247: en el archivo 1 veces, en todo KFG 4 (fuera de Incahuasi 3); múltiplo de 10: False, de 100: False
+  1765: en el archivo 1 veces, en todo KFG 1 (fuera de Incahuasi 0); múltiplo de 10: False, de 100: False
+  828: en el archivo 1 veces, en todo KFG 4 (fuera de Incahuasi 3); múltiplo de 10: False, de 100: False
+  742: en el archivo 1 veces, en todo KFG 1 (fuera de Incahuasi 0); múltiplo de 10: False, de 100: False
+  662: en el archivo 1 veces, en todo KFG 2 (fuera de Incahuasi 1); múltiplo de 10: False, de 100: False
+  522: en el archivo 2 veces, en todo KFG 5 (fuera de Incahuasi 3); múltiplo de 10: False, de 100: False
+  392: en el archivo 3 veces, en todo KFG 6 (fuera de Incahuasi 3); múltiplo de 10: False, de 100: False
+  Diana (unión 266/275/269) en 1000-3000: 129 valores distintos de 2001 posibles (densidad 0.064); múltiplos de 10 entre ellos 0.28
+  Aciertos A+B (UR273): múltiplos de 10: 3/10; frecuencia media en KFG fuera de Incahuasi 0.50; en la diana, frecuencia media de valores 1000-3000 en KFG fuera de Incahuasi 0.53

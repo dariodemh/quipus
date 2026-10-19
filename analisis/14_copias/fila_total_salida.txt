@@ -1,0 +1,138 @@
+quipus con >=3 grupos: 498; con candidatos (suelta adyacente a fila): 161; evaluables (>= 3 candidatos): 49
+candidatos totales 576; aciertos tol0 51, tol1 66; esperado por quipu (suma) tol0 14.9, tol1 22.3
+tol 0: evaluables 49; p<0,05: 8 (esperado por azar ~2.5); q<0,05 (BH): 7
+   quipus con q<0,05: AS044, AS066, AS199, UR1096, UR118, UR119, UR166
+tol 1: evaluables 49; p<0,05: 8 (esperado por azar ~2.5); q<0,05 (BH): 6
+   quipus con q<0,05: AS044, AS199, UR1096, UR118, UR119, UR166
+tol 2pc: evaluables 49; p<0,05: 9 (esperado por azar ~2.5); q<0,05 (BH): 7
+   quipus con q<0,05: AS044, AS066, AS199, UR1096, UR118, UR119, UR166
+tol 0: aciertos 51 vs nulo 14.9 (max 27), p=0.0005; sin los 7 quipus marcados: 14 vs 7.2, p=0.0015
+   quipus no marcados con aciertos (tol 0): 10
+   kfg  n_cand  hits_tol0  esp_tol0  p_tol0
+ AS069       6          1     0.162   0.162
+ AS215       3          2     0.521   0.073
+ HP052       5          1     0.452   0.379
+ UR010       9          1     0.496   0.407
+ UR047       8          3     1.396   0.092
+ UR087      18          1     0.787   0.628
+UR1100       1          1     1.000   1.000
+ UR186      13          2     0.276   0.022
+ UR222       1          1     1.000   1.000
+ UR246       6          1     0.242   0.243
+tol 1: aciertos 66 vs nulo 22.3 (max 36), p=0.0005; sin los 7 quipus marcados: 24 vs 11.6, p=0.0005
+   quipus no marcados con aciertos (tol 1): 15
+   kfg  n_cand  hits_tol1  esp_tol1  p_tol1
+ AS069       6          2     0.834   0.237
+ AS215       3          2     0.481   0.062
+ HP052       5          1     0.493   0.421
+ UR004       2          1     0.328   0.328
+ UR010       9          1     0.494   0.401
+ UR047       8          3     1.404   0.097
+ UR048       4          1     0.494   0.414
+ UR087      18          4     2.118   0.109
+UR1091       5          1     0.334   0.334
+UR1100       1          1     1.000   1.000
+ UR149      25          1     0.258   0.239
+ UR186      13          3     0.734   0.021
+ UR222       1          1     1.000   1.000
+ UR241       7          1     0.800   0.800
+ UR246       6          1     0.232   0.232
+tol 2pc: aciertos 70 vs nulo 23.9 (max 40), p=0.0005; sin los 7 quipus marcados: 25 vs 12.7, p=0.0005
+   quipus no marcados con aciertos (tol 2pc): 17
+   kfg  n_cand  hits_tol2pc  esp_tol2pc  p_tol2pc
+ AS069       6            1       0.500     0.430
+ AS215       3            2       0.503     0.068
+ HP052       5            1       0.469     0.404
+ QU011      14            1       0.120     0.120
+ UR010       9            2       0.832     0.197
+ UR047       8            3       1.390     0.102
+ UR087      18            1       0.757     0.613
+UR1051       9            1       0.398     0.398
+UR1091       5            1       0.335     0.335
+UR1100       1            1       1.000     1.000
+ UR145       8            1       0.248     0.230
+ UR149      25            3       0.734     0.022
+ UR186      13            3       0.712     0.022
+ UR197       4            1       1.000     1.000
+ UR201      13            1       0.417     0.345
+ UR222       1            1       1.000     1.000
+ UR246       6            1       0.739     0.739
+
+Aciertos por distancia de la fila (d=1 adyacente; d=2..5), sumado en el corpus (tol0 | tol1):
+     n  h0  h1   tasa0   tasa1
+d                             
+1  576  51  66  0.0885  0.1146
+2  331   5   8  0.0151  0.0242
+3  428   4   7  0.0093  0.0164
+4  322   4   7  0.0124  0.0217
+5  395   4  12  0.0101  0.0304
+
+Sin los quipus con q<0,05:
+     n  h0  h1   tasa0   tasa1
+d                             
+1  438  14  24  0.0320  0.0548
+2  280   3   6  0.0107  0.0214
+3  329   3   6  0.0091  0.0182
+4  268   4   7  0.0149  0.0261
+5  293   2   5  0.0068  0.0171
+
+lado de los aciertos por quipu significativo (tol1):
+lado    antes  despues
+kfg                   
+AS044       2        6
+AS066       0        6
+AS199       0        6
+UR1096      0        7
+UR118       6        1
+UR119       4        0
+UR166       2        2
+aciertos exactos por quipu significativo (diff):
+kfg         
+AS044    0.0    6.0
+         1.0    1.0
+        -1.0    1.0
+AS066    0.0    6.0
+         1.0    NaN
+        -1.0    NaN
+AS199    0.0    5.0
+         1.0    NaN
+        -1.0    1.0
+UR1096   0.0    6.0
+         1.0    1.0
+        -1.0    NaN
+UR118    0.0    6.0
+         1.0    NaN
+        -1.0    1.0
+UR119    0.0    4.0
+         1.0    NaN
+        -1.0    NaN
+UR166    0.0    4.0
+         1.0    NaN
+        -1.0    NaN
+
+=== Concentración (quipu = unidad; marca = q<0,05 en tol0 o tol1; universo = quipus evaluables)
+marcados 7 de 49 evaluables (0.143)
+  categoria                                      valor  evaluables  marcados  esperado  p_hiper   q_BH
+procedencia                                    Paracas           2         2    0.2857   0.0179 0.2679
+      museo   Museum of Worldculture, Goteborg, Sweden           2         2    0.2857   0.0179 0.2679
+      serie                                         AS           7         3    1.0000   0.0505 0.3849
+registrador                                         AS          12         4    1.7143   0.0513 0.3849
+      museo     American Museum of Natural History, NY           5         2    0.7143   0.1430 0.8581
+     region                                    Unknown          40         7    5.7143   0.2170 1.0000
+      museo Museum Fur Volkerkunde, Munich, W. Germany           2         1    0.2857   0.2679 1.0000
+      museo                 Museo Nacional, Lima, Peru           2         1    0.2857   0.2679 1.0000
+procedencia                                    Unknown          19         3    2.7143   0.5613 1.0000
+procedencia                                 Pachacamac           7         1    1.0000   0.6859 1.0000
+      serie                                         UR          33         4    4.7143   0.8543 1.0000
+registrador                                         UR          28         3    4.0000   0.8914 1.0000
+(BH sobre 30 categorías)
+
+Quipus marcados:
+   kfg registrador                                      museo                                procedencia  n_cand  hits_tol0  esp_tol0  q_tol0  hits_tol1  esp_tol1  q_tol1
+ AS044          AS                 Museo Nacional, Lima, Peru                                    Unknown      21          6    1.4455  0.0082          8    2.5595  0.0163
+ AS066          AS                  O. Nunez del Prado, Cuzco                                    Unknown      31          6    1.3150  0.0184          6    1.7910  0.0630
+ AS199          AS     American Museum of Natural History, NY                                    Unknown      21          5    1.1730  0.0286          6    1.4360  0.0163
+UR1096          AS Museum Fur Volkerkunde, Munich, W. Germany                                 Pachacamac      13          6    1.3805  0.0082          7    2.2495  0.0196
+ UR118          UR   Museum of Worldculture, Goteborg, Sweden                                    Paracas      30          6    0.6830  0.0082          7    1.0470  0.0163
+ UR119          UR   Museum of Worldculture, Goteborg, Sweden                                    Paracas      14          4    1.0035  0.0385          4    1.0165  0.0449
+ UR166          UR     American Museum of Natural History, NY Huando, Chancay, Peru (Gaffron Collection)       8          4    0.6750  0.0286          4    0.6490  0.0196

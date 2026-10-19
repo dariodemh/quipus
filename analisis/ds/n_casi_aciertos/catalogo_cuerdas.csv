@@ -1,0 +1,226 @@
+kfg,cuerda,valor_kfg,valor_okr,delta,tipo_error,detalle,nudos,n_racimos,tiene_L,tiene_E,prefijo
+HP023,p10s2,3.0,12.0,9.0,bloque,1 vs 2 racimos,"3L(17.0,Z),3",1,True,False,HP
+HP038,p3,2.0,0.0,-2.0,racimo_omitido_okr,KFG [2.0] no en OKR,"2L(12.0,S),2",1,True,False,HP
+HP038,p5,1.0,0.0,-1.0,racimo_omitido_okr,KFG [1.0] no en OKR,"1E(11.5,S),1",1,False,True,HP
+HP038,p7,1.0,0.0,-1.0,racimo_omitido_okr,KFG [1.0] no en OKR,"1E(11.5,S),1",1,False,True,HP
+HP038,p8,1.0,0.0,-1.0,racimo_omitido_okr,KFG [1.0] no en OKR,"1E(12.0,S),1",1,False,True,HP
+HP054,p2,110.0,63.0,-47.0,bloque,2 vs 2 racimos,"1S(3.0,Z),100;1S(7.5,U),10",2,False,False,HP
+HP054,p3,115.0,0.0,-115.0,racimo_omitido_okr,"KFG [100.0, 10.0, 5.0] no en OKR","1S(8.0,U),100;1S(15.5,U),10;5L(21.0,U),5",3,True,False,HP
+HP054,p5,14.0,0.0,-14.0,racimo_omitido_okr,"KFG [10.0, 4.0] no en OKR","1S(7.0,Z),10;4L(12.0,S),4",2,True,False,HP
+KH0033,p9,10.0,100.0,90.0,factor10,S 10->100,"1S(6.0,Z),10",1,False,False,KH
+KH0058,p7s1,4.0,1.0,-3.0,ocho_vs_largo,L4 vs E1,"4L(7.0,U),4",1,True,False,KH
+KH0058,p9,109.0,19.0,-90.0,factor10,S 100->10,"1S(6.5,U),100;9L(21.5,U),9",2,True,False,KH
+KH0058,p9s1,5.0,3.0,-2.0,vueltas,L 5->3 (d=-2),"5L(6.5,U),5",1,True,False,KH
+KH0058,p11s1,2.0,3.0,1.0,vueltas,L 2->3 (d=+1),"2L(10.0,U),2",1,True,False,KH
+KH0058,p26,11.0,23.0,12.0,bloque,2 vs 2 racimos,"1S(11.5,U),10;1E(24.5,U),1",2,False,True,KH
+KH0058,p26s1,23.0,11.0,-12.0,bloque,2 vs 2 racimos,"2S(0.5,U),20;3L(12.5,U),3",2,True,False,KH
+KH0058,p30s1,10.0,1.0,-9.0,vueltas,L 10->1 (d=-9),"10L(8.5,U),10",1,True,False,KH
+KH0058,p33s3,1.0,3.0,2.0,ocho_vs_largo,E1 vs L3,"1E(8.0,U),1",1,False,True,KH
+KH0058,p60,19.0,10.0,-9.0,vueltas,L 9->0 (d=-9),"1S(16.0,U),10;9L(20.5,U),9",2,True,False,KH
+KH0058,p70,12.0,21.0,9.0,bloque,2 vs 2 racimos,"1S(14.0,U),10;2L(18.5,U),2",2,True,False,KH
+KH0058,p70s1,12.0,17.0,5.0,vueltas,L 2->7 (d=+5),"1S(2.5,U),10;2L(7.0,U),2",2,True,False,KH
+KH0058,p74,7.0,87.0,80.0,racimo_omitido_kfg,OKR [80.0] no en KFG,"7L(17.5,U),7",1,True,False,KH
+KH0080,p2s1,2.0,0.0,-2.0,otro,L2 vs 0,"2L(16.5,U),2",1,True,False,KH
+KH0080,p8,3.0,0.0,-3.0,vueltas,L 3->0 (d=-3),"3L(16.0,U),3",1,True,False,KH
+KH0267,p4,3.0,14.0,11.0,bloque,1 vs 2 racimos,"3L(15.0,S),3",1,True,False,KH
+KH0350,p9s1,5.0,3.0,-2.0,vueltas,L 5->3 (d=-2),"5L(16.0,S),5",1,True,False,KH
+UR003,p214s3,4.0,0.0,-4.0,racimo_omitido_okr,KFG [4.0] no en OKR,"4L(7.0,Z),4",1,True,False,UR
+UR003,p241s1,5.0,3.0,-2.0,vueltas,L 5->3 (d=-2),"5L(6.5,Z),5",1,True,False,UR
+UR003,p260s3s1,1.0,0.0,-1.0,racimo_omitido_okr,KFG [1.0] no en OKR,"1E(7.0,Z),1",1,False,True,UR
+UR044,p9,10.0,100.0,90.0,racimo_omitido_kfg,OKR [100.0] no en KFG,"1S(6.0,Z)",0,False,False,UR
+UR073,p54,9.0,1.0,-8.0,vueltas,L 9->1 (d=-8),"9L(17.5,Z),9",1,True,False,UR
+UR087,p15,10.0,1.0,-9.0,factor10,S 10->1,"1S(15.0,Z),10",1,False,False,UR
+UR090,p2,15.0,105.0,90.0,factor10,S 10->100,"1S(8.0,Z),10;5L(16.0,Z),5",2,True,False,UR
+UR090,p4,12.0,102.0,90.0,factor10,S 10->100,"1S(8.5,Z),10;2L(18.0,Z),2",2,True,False,UR
+UR090,p6,16.0,106.0,90.0,factor10,S 10->100,"1S(8.5,Z),10;6L(18.0,Z),6",2,True,False,UR
+UR090,p8,22.0,202.0,180.0,factor10,S 20->200,"2S(7.5,Z),20;2L(16.5,Z),2",2,True,False,UR
+UR090,p10,16.0,106.0,90.0,factor10,S 10->100,"1S(7.0,Z),10;6L(17.5,S),6",2,True,False,UR
+UR090,p11,16.0,106.0,90.0,factor10,S 10->100,"1S(7.0,Z),10;6L(17.5,S),6",2,True,False,UR
+UR090,p14,28.0,208.0,180.0,factor10,S 20->200,"2S(8.0,Z),20;8L(20.0,Z),8",2,True,False,UR
+UR090,p16,32.0,302.0,270.0,factor10,S 30->300,"3S(8.0,Z),30;2L(18.5,Z),2",2,True,False,UR
+UR090,p18,10.0,100.0,90.0,factor10,S 10->100,"1S(8.0,Z),10",1,False,False,UR
+UR090,p20,34.0,304.0,270.0,factor10,S 30->300,"3S(6.5,Z),30;4L(20.0,Z),4",2,True,False,UR
+UR090,p21s2,10.0,1.0,-9.0,factor10,S 10->1,"1S(2.5,Z),10",1,False,False,UR
+UR090,p22,41.0,401.0,360.0,factor10,S 40->400,"4S(7.0,Z),40;1E(19.0,Z),1",2,False,True,UR
+UR090,p23,10.0,100.0,90.0,factor10,S 10->100,"1S(6.5,Z),10",1,False,False,UR
+UR090,p24,16.0,106.0,90.0,factor10,S 10->100,"1S(7.0,Z),10;6L(19.0,Z),6",2,True,False,UR
+UR090,p26,38.0,308.0,270.0,factor10,S 30->300,"3S(7.5,Z),30;8L(20.0,Z),8",2,True,False,UR
+UR090,p28,41.0,401.0,360.0,factor10,S 40->400,"4S(7.0,Z),40;1E(20.0,Z),1",2,False,True,UR
+UR090,p29,16.0,106.0,90.0,factor10,S 10->100,"1S(8.0,Z),10;6L(20.5,Z),6",2,True,False,UR
+UR090,p30,11.0,101.0,90.0,factor10,S 10->100,"1S(8.0,Z),10;1E(23.0,S),1",2,False,True,UR
+UR090,p33,46.0,406.0,360.0,factor10,S 40->400,"4S(7.0,Z),40;6L(22.0,S),6",2,True,False,UR
+UR090,p34s2,10.0,1.0,-9.0,factor10,S 10->1,"1S(4.0,Z),10",1,False,False,UR
+UR090,p35,67.0,607.0,540.0,factor10,S 60->600,"6S(7.5,Z),60;7L(24.0,Z),7",2,True,False,UR
+UR090,p36,11.0,101.0,90.0,factor10,S 10->100,"1S(7.5,Z),10;1E(22.0,S),1",2,False,True,UR
+UR090,p37,23.0,203.0,180.0,factor10,S 20->200,"2S(7.0,Z),20;3L(21.0,Z),3",2,True,False,UR
+UR090,p40,52.0,502.0,450.0,factor10,S 50->500,"5S(7.5,Z),50;2L(21.5,Z),2",2,True,False,UR
+UR090,p42,78.0,708.0,630.0,factor10,S 70->700,"7S(7.0,Z),70;8L(19.0,S),8",2,True,False,UR
+UR090,p43,13.0,103.0,90.0,factor10,S 10->100,"1S(8.0,Z),10;3L(23.0,Z),3",2,True,False,UR
+UR090,p44,10.0,100.0,90.0,factor10,S 10->100,"1S(8.5,Z),10",1,False,False,UR
+UR090,p46,59.0,509.0,450.0,factor10,S 50->500,"5S(8.0,Z),50;9L(16.0,Z),9",2,True,False,UR
+UR090,p48,85.0,805.0,720.0,factor10,S 80->800,"8S(8.0,Z),80;5L(21.5,Z),5",2,True,False,UR
+UR090,p49,10.0,100.0,90.0,factor10,S 10->100,"1S(9.0,Z),10",1,False,False,UR
+UR090,p50,10.0,100.0,90.0,factor10,S 10->100,"1S(8.0,Z),10",1,False,False,UR
+UR090,p52,28.0,208.0,180.0,factor10,S 20->200,"2S(8.0,Z),20;8L(21.0,Z),8",2,True,False,UR
+UR090,p54,19.0,109.0,90.0,factor10,S 10->100,"1S(4.5,Z),10;9L(20.5,Z),9",2,True,False,UR
+UR090,p55,11.0,101.0,90.0,factor10,S 10->100,"1S(6.5,Z),10;1E(20.0,Z),1",2,False,True,UR
+UR090,p56,14.0,104.0,90.0,factor10,S 10->100,"1S(7.5,Z),10;4L(21.5,Z),4",2,True,False,UR
+UR090,p58,63.0,603.0,540.0,factor10,S 60->600,"6S(7.0,Z),60;3L(22.5,Z),3",2,True,False,UR
+UR090,p59,10.0,100.0,90.0,factor10,S 10->100,"1S(8.0,Z),10",1,False,False,UR
+UR090,p64,73.0,703.0,630.0,factor10,S 70->700,"7S(6.5,Z),70;3L(21.5,Z),3",2,True,False,UR
+UR090,p66,10.0,100.0,90.0,factor10,S 10->100,"1S(8.5,Z),10",1,False,False,UR
+UR090,p70,82.0,802.0,720.0,factor10,S 80->800,"8S(8.5,Z),80;2L(19.0,Z),2",2,True,False,UR
+UR090,p71,10.0,100.0,90.0,factor10,S 10->100,"1S(8.0,Z),10",1,False,False,UR
+UR090,p72,10.0,100.0,90.0,factor10,S 10->100,"1S(8.5,Z),10",1,False,False,UR
+UR090,p76,90.0,900.0,810.0,factor10,S 90->900,"9S(8.0,Z),90",1,False,False,UR
+UR090,p77,10.0,100.0,90.0,factor10,S 10->100,"1S(8.5,Z),10",1,False,False,UR
+UR090,p78,12.0,102.0,90.0,factor10,S 10->100,"1S(8.0,Z),10;2L(22.5,Z),2",2,True,False,UR
+UR090,p80,14.0,104.0,90.0,factor10,S 10->100,"1S(8.5,Z),10;4L(20.0,Z),4",2,True,False,UR
+UR090,p82,10.0,100.0,90.0,factor10,S 10->100,"1S(4.5,Z),10",1,False,False,UR
+UR090,p83,12.0,102.0,90.0,factor10,S 10->100,"1S(8.5,Z),10;2L(22.5,Z),2",2,True,False,UR
+UR090,p84,17.0,107.0,90.0,factor10,S 10->100,"1S(8.0,Z),10;7L(22.0,Z),7",2,True,False,UR
+UR090,p86,22.0,202.0,180.0,factor10,S 20->200,"2S(8.5,Z),20;2L(20.0,Z),2",2,True,False,UR
+UR090,p87,12.0,102.0,90.0,factor10,S 10->100,"1S(8.5,Z),10;2L(20.5,Z),2",2,True,False,UR
+UR090,p88,13.0,103.0,90.0,factor10,S 10->100,"1S(4.0,Z),10;3L(23.5,Z),3",2,True,False,UR
+UR090,p89,12.0,102.0,90.0,factor10,S 10->100,"1S(8.0,Z),10;2L(21.0,Z),2",2,True,False,UR
+UR090,p90,17.0,107.0,90.0,factor10,S 10->100,"1S(8.0,Z),10;7L(22.5,Z),7",2,True,False,UR
+UR090,p92,34.0,304.0,270.0,factor10,S 30->300,"3S(6.0,Z),30;4L(17.5,Z),4",2,True,False,UR
+UR090,p93,15.0,105.0,90.0,factor10,S 10->100,"1S(8.0,Z),10;5L(18.5,Z),5",2,True,False,UR
+UR090,p94,15.0,105.0,90.0,factor10,S 10->100,"1S(3.0,Z),10;5L(18.5,Z),5",2,True,False,UR
+UR090,p95,14.0,104.0,90.0,factor10,S 10->100,"1S(7.5,Z),10;4L(19.5,Z),4",2,True,False,UR
+UR090,p96,15.0,105.0,90.0,factor10,S 10->100,"1S(7.5,Z),10;5L(19.0,Z),5",2,True,False,UR
+UR090,p98,13.0,103.0,90.0,factor10,S 10->100,"1S(5.5,Z),10;3L(18.0,Z),3",2,True,False,UR
+UR090,p100,116.0,206.0,90.0,factor10,S 10->100,"1S(2.5,Z),100;1S(5.5,Z),10;6L(18.0,Z),6",3,True,False,UR
+UR090,p101,15.0,105.0,90.0,factor10,S 10->100,"1S(5.5,Z),10;5L(18.5,Z),5",2,True,False,UR
+UR090,p102,19.0,109.0,90.0,factor10,S 10->100,"1S(5.5,Z),10;9L(18.0,Z),9",2,True,False,UR
+UR090,p104,32.0,302.0,270.0,factor10,S 30->300,"3S(6.0,Z),30;2L(17.5,Z),2",2,True,False,UR
+UR090,p106,119.0,209.0,90.0,factor10,S 10->100,"1S(3.0,Z),100;1S(6.5,Z),10;9L(17.5,Z),9",3,True,False,UR
+UR090,p107,17.0,107.0,90.0,factor10,S 10->100,"1S(6.5,Z),10;7L(17.0,Z),7",2,True,False,UR
+UR090,p108,19.0,109.0,90.0,factor10,S 10->100,"1S(6.5,Z),10;9L(16.5,Z),9",2,True,False,UR
+UR144,p3,10.0,7.0,-3.0,vueltas,L 7->4 (d=-3),"7L(20.5,S),7;3L(28.0,S),3",2,True,False,UR
+UR144,p4,10.0,7.0,-3.0,vueltas,L 7->4 (d=-3),"7L(20.0,S),7;3L(29.0,S),3",2,True,False,UR
+UR144,p6,9.0,7.0,-2.0,vueltas,L 7->5 (d=-2),"7L(23.0,S),7;2L(30.0,S),2",2,True,False,UR
+UR144,p9,10.0,7.0,-3.0,vueltas,L 7->4 (d=-3),"7L(16.5,S),7;3L(25.0,S),3",2,True,False,UR
+UR144,p11,14.0,11.0,-3.0,bloque,2 vs 2 racimos,"10L(14.0,S),10;1L(22.0,S),1;3L(31.5,S),3",3,True,False,UR
+UR144,p12,12.0,8.0,-4.0,compuesto,2 operaciones,"8L(16.5,S),8;4L(29.0,S),4",2,True,False,UR
+UR144,p13,13.0,9.0,-4.0,vueltas,L 9->5 (d=-4),"9L(18.5,S),9;4L(29.5,S),4",2,True,False,UR
+UR144,p14,12.0,8.0,-4.0,compuesto,2 operaciones,"8L(15.5,S),8;4L(33.0,S),4",2,True,False,UR
+UR144,p15,10.0,7.0,-3.0,vueltas,L 7->4 (d=-3),"7L(14.5,S),7;3L(29.0,S),3",2,True,False,UR
+UR144,p16,12.0,8.0,-4.0,compuesto,2 operaciones,"8L(18.0,S),8;4L(34.0,S),4",2,True,False,UR
+UR144,p17,11.0,8.0,-3.0,vueltas,L 8->5 (d=-3),"8L(19.0,S),8;3L(31.0,S),3",2,True,False,UR
+UR144,p18,11.0,8.0,-3.0,vueltas,L 8->5 (d=-3),"8L(16.5,S),8;3L(26.5,S),3",2,True,False,UR
+UR144,p19,13.0,9.0,-4.0,vueltas,L 9->5 (d=-4),"9L(20.0,S),9;4L(30.0,S),4",2,True,False,UR
+UR144,p20,10.0,7.0,-3.0,vueltas,L 7->4 (d=-3),"7L(16.5,S),7;3L(28.0,S),3",2,True,False,UR
+UR144,p21,12.0,8.0,-4.0,compuesto,2 operaciones,"8L(18.5,S),8;4L(35.5,S),4",2,True,False,UR
+UR144,p22,14.0,9.0,-5.0,vueltas,L 9->4 (d=-5),"9L(15.5,S),9;3L(26.5,S),3;2L(38.5,S),2",3,True,False,UR
+UR144,p23,16.0,10.0,-6.0,vueltas,L 10->4 (d=-6),"10L(13.5,Z),10;4L(34.0,S),4;2L(43.0,S),2",3,True,False,UR
+UR144,p24,12.0,8.0,-4.0,compuesto,2 operaciones,"8L(18.0,S),8;4L(37.5,S),4",2,True,False,UR
+UR144,p25,15.0,10.0,-5.0,vueltas,L 10->5 (d=-5),"10L(17.0,S),10;3L(32.5,S),3;2L(40.0,S),2",3,True,False,UR
+UR144,p26,8.0,6.0,-2.0,vueltas,L 6->4 (d=-2),"6L(21.0,S),6;2L(39.0,S),2",2,True,False,UR
+UR144,p27,16.0,10.0,-6.0,vueltas,L 10->4 (d=-6),"10L(16.0,S),10;4L(31.5,S),4;2L(42.0,S),2",3,True,False,UR
+UR144,p28,13.0,9.0,-4.0,vueltas,L 9->5 (d=-4),"9L(17.5,S),9;4L(38.0,S),4",2,True,False,UR
+UR144,p37,8.0,6.0,-2.0,vueltas,L 6->4 (d=-2),"6L(23.5,S),6;2L(28.5,S),2",2,True,False,UR
+UR144,p42,10.0,7.0,-3.0,vueltas,L 7->4 (d=-3),"7L(14.5,S),7;3L(26.0,S),3",2,True,False,UR
+UR144,p44,10.0,6.0,-4.0,vueltas,L 6->2 (d=-4),"6L(21.0,S),6;4L(26.0,S),4",2,True,False,UR
+UR144,p45,19.0,18.0,-1.0,compuesto,2 operaciones,"10L(18.5,S),10;8L(30.5,S),8;1S(38.0,S),1",3,True,False,UR
+UR144,p46,10.0,7.0,-3.0,vueltas,L 7->4 (d=-3),"7L(17.5,S),7;3L(39.5,S),3",2,True,False,UR
+UR144,p47,10.0,7.0,-3.0,vueltas,L 7->4 (d=-3),"7L(26.0,S),7;3L(37.5,S),3",2,True,False,UR
+UR144,p48,11.0,8.0,-3.0,vueltas,L 8->5 (d=-3),"8L(25.5,S),8;3L(35.0,S),3",2,True,False,UR
+UR144,p51,13.0,9.0,-4.0,vueltas,L 9->5 (d=-4),"9L(16.5,S),9;4L(28.0,S),4",2,True,False,UR
+UR144,p53,9.0,6.0,-3.0,compuesto,2 operaciones,"6L(16.5,S),6;3L(32.0,S),3",2,True,False,UR
+UR144,p54,10.0,7.0,-3.0,vueltas,L 7->4 (d=-3),"7L(21.0,S),7;3L(35.0,S),3",2,True,False,UR
+UR144,p55,9.0,6.0,-3.0,compuesto,2 operaciones,"6L(20.0,S),6;3L(35.0,S),3",2,True,False,UR
+UR144,p57,10.0,7.0,-3.0,vueltas,L 7->4 (d=-3),"7L(21.5,S),7;3L(35.0,S),3",2,True,False,UR
+UR144,p58,10.0,7.0,-3.0,vueltas,L 7->4 (d=-3),"7L(24.5,S),7;3L(37.5,S),3",2,True,False,UR
+UR144,p59,12.0,8.0,-4.0,compuesto,2 operaciones,"8L(22.0,S),8;4L(33.5,S),4",2,True,False,UR
+UR144,p60,7.0,5.0,-2.0,vueltas,L 5->3 (d=-2),"5L(25.0,S),5;2L(39.5,S),2",2,True,False,UR
+UR144,p63,9.0,7.0,-2.0,vueltas,L 7->5 (d=-2),"7L(27.5,S),7;2L(36.5,S),2",2,True,False,UR
+UR144,p65,8.0,6.0,-2.0,vueltas,L 6->4 (d=-2),"6L(16.5,S),6;2L(34.0,S),2",2,True,False,UR
+UR144,p68,10.0,7.0,-3.0,vueltas,L 7->4 (d=-3),"7L(28.0,S),7;3L(38.5,S),3",2,True,False,UR
+UR144,p70,11.0,8.0,-3.0,vueltas,L 8->5 (d=-3),"8L(25.5,S),8;3L(35.5,S),3",2,True,False,UR
+UR144,p71,11.0,8.0,-3.0,vueltas,L 8->5 (d=-3),"8L(21.5,S),8;3L(27.5,S),3",2,True,False,UR
+UR144,p77,11.0,7.0,-4.0,vueltas,L 7->3 (d=-4),"7L(14.0,S),7;4L(20.0,S),4",2,True,False,UR
+UR144,p79,10.0,6.0,-4.0,vueltas,L 6->2 (d=-4),"6L(15.0,S),6;4L(35.0,S),4",2,True,False,UR
+UR144,p82,9.0,6.0,-3.0,compuesto,2 operaciones,"6L(22.0,S),6;3L(36.0,S),3",2,True,False,UR
+UR144,p83,9.0,6.0,-3.0,compuesto,2 operaciones,"6L(25.0,S),6;3L(42.0,S),3",2,True,False,UR
+UR144,p84,10.0,7.0,-3.0,vueltas,L 7->4 (d=-3),"7L(17.0,S),7;3L(32.0,S),3",2,True,False,UR
+UR144,p85,12.0,8.0,-4.0,compuesto,2 operaciones,"8L(13.5,S),8;4L(34.5,S),4",2,True,False,UR
+UR144,p86,10.0,7.0,-3.0,vueltas,L 7->4 (d=-3),"7L(23.0,S),7;3L(34.5,S),3",2,True,False,UR
+UR144,p89,11.0,7.0,-4.0,vueltas,L 7->3 (d=-4),"7L(17.0,S),7;4L(30.0,S),4",2,True,False,UR
+UR144,p90,9.0,6.0,-3.0,compuesto,2 operaciones,"6L(23.0,S),6;3S(37.5,S),3",2,True,False,UR
+UR144,p91,10.0,7.0,-3.0,vueltas,L 7->4 (d=-3),"7L(24.5,S),7;3L(40.5,S),3",2,True,False,UR
+UR144,p93,7.0,5.0,-2.0,vueltas,L 5->3 (d=-2),"5L(20.5,S),5;2L(29.0,S),2",2,True,False,UR
+UR144,p94,8.0,6.0,-2.0,vueltas,L 6->4 (d=-2),"6L(23.5,S),6;2L(35.0,S),2",2,True,False,UR
+UR144,p95,7.0,5.0,-2.0,vueltas,L 5->3 (d=-2),"5L(30.0,S),5;2L(37.5,S),2",2,True,False,UR
+UR144,p96,12.0,8.0,-4.0,compuesto,2 operaciones,"8L(20.5,S),8;4L(33.0,S),4",2,True,False,UR
+UR177,p18s3,2.0,10.0,8.0,S_vs_L,L2 vs S10,"2L(3.0,Z),2",1,True,False,UR
+UR190,p96,2.0,5.0,3.0,vueltas,L 2->5 (d=+3),"2L(25.0,Z),2",1,True,False,UR
+UR190,p116,2.0,8.0,6.0,vueltas,L 2->8 (d=+6),"2L(23.5,Z),2",1,True,False,UR
+UR190,p145,1.0,0.0,-1.0,racimo_omitido_okr,KFG [1.0] no en OKR,"1E(24.5,Z),1",1,False,True,UR
+UR190,p208,15.0,23.0,8.0,bloque,2 vs 2 racimos,"1S(16.0,Z),10;5L(24.5,Z),5",2,True,False,UR
+UR190,p213,15.0,1.0,-14.0,bloque,2 vs 1 racimos,"1S(16.0,Z),10;5L(24.0,Z),5",2,True,False,UR
+UR190,p224,2.0,1.0,-1.0,ocho_vs_largo,L2 vs E1,"2L(20.5,Z),2",1,True,False,UR
+UR190,p244,44.0,43.0,-1.0,vueltas,L 4->3 (d=-1),"4S(17.5,Z),40;4L(23.5,Z),4",2,True,False,UR
+UR190,p248,2.0,1.0,-1.0,ocho_vs_largo,L2 vs E1,"2L(21.0,Z),2",1,True,False,UR
+UR190,p278,15.0,14.0,-1.0,vueltas,L 5->4 (d=-1),"1S(16.0,Z),10;5L(20.5,Z),5",2,True,False,UR
+UR190,p310,5.0,33.0,28.0,bloque,1 vs 2 racimos,"5L(23.0,Z),5",1,True,False,UR
+UR190,p348,37.0,39.0,2.0,vueltas,L 7->9 (d=+2),"3S(15.0,Z),30;7L(20.0,Z),7",2,True,False,UR
+UR190,p365,5.0,6.0,1.0,vueltas,L 5->6 (d=+1),"5L(23.5,Z),5",1,True,False,UR
+UR190,p366,6.0,5.0,-1.0,vueltas,L 6->5 (d=-1),"6L(23.5,Z),6",1,True,False,UR
+UR190,p383,10.0,20.0,10.0,S_otro,S 10->20,"1S(15.5,Z),10",1,False,False,UR
+UR193,p5s1,67.0,28.0,-39.0,compuesto,2 operaciones,"7L(4.0,Z),7;1S(16.0,Z),10;5S(28.0,Z),50",3,True,False,UR
+UR193,p25,33.0,22.0,-11.0,bloque,2 vs 2 racimos,"2S(3.5,Z),20;7L(8.5,Z),7;6L(17.5,Z),6",3,True,False,UR
+UR193,p28s1,38.0,62.0,24.0,bloque,3 vs 3 racimos,"6L(5.5,Z),6;12L(19.0,Z),12;2S(25.0,Z),20",3,True,False,UR
+UR193,p31,76.0,21.0,-55.0,bloque,3 vs 3 racimos,"6L(4.5,Z),6;4S(20.0,Z),40;3S(31.0,Z),30",3,True,False,UR
+UR193,p34s1,92.0,23.0,-69.0,compuesto,2 operaciones,"4S(5.0,Z),40;5S(21.5,Z),50;2SP(35.0,Z),2",3,False,False,UR
+UR193,p39s1,19.0,8.0,-11.0,bloque,2 vs 2 racimos,"2SP(5.5,Z),2;1S(20.0,Z),10;7L(36.0,Z),7",3,True,False,UR
+UR193,p40s1,49.0,21.0,-28.0,compuesto,2 operaciones,"3SP(9.5,Z),3;4S(19.0,Z),40;6L(35.0,Z),6",3,True,False,UR
+UR193,p41,120.0,59.0,-61.0,compuesto,2 operaciones,"5S(3.5,Z),50;4S(19.0,Z),40;3S(30.5,Z),30",3,False,False,UR
+UR193,p45s1,37.0,45.0,8.0,bloque,3 vs 3 racimos,"6L(6.5,Z),6;11L(17.0,Z),11;2S(24.0,Z),20",3,True,False,UR
+UR193,p50,20.0,14.0,-6.0,compuesto,2 operaciones,"3SP(6.0,Z),3;7L(19.5,Z),7;1S(31.5,Z),10",3,True,False,UR
+UR193,p52s1,36.0,45.0,9.0,bloque,3 vs 3 racimos,"6L(3.5,Z),6;2S(11.5,Z),20;10L(17.5,Z),10",3,True,False,UR
+UR193,p53s1,15.0,33.0,18.0,compuesto,2 operaciones,"7L(3.5,Z),7;6L(18.0,Z),6;2SP(27.0,Z),2",3,True,False,UR
+UR193,p62,12.0,16.0,4.0,vueltas,L 2->6 (d=+4),"5L(9.0,Z),5;2L(17.5,Z),2;5L(29.5,Z),5",3,True,False,UR
+UR193,p70,15.0,12.0,-3.0,bloque,3 vs 3 racimos,"3L(4.0,Z),3;4L(15.5,Z),4;8L(23.0,Z),8",3,True,False,UR
+UR193,p77,30.0,6.0,-24.0,bloque,3 vs 3 racimos,"8L(4.0,Z),8;12L(15.5,Z),12;1S(24.0,Z),10",3,True,False,UR
+UR193,p82s1,64.0,46.0,-18.0,compuesto,2 operaciones,"6L(4.5,Z),6;8L(11.0,Z),8;5S(22.0,Z),50",3,True,False,UR
+UR193,p86,84.0,16.0,-68.0,bloque,3 vs 3 racimos,"1S(5.5,Z),10;7S(15.0,Z),70;4L(31.0,Z),4",3,True,False,UR
+UR193,p95,55.0,21.0,-34.0,bloque,3 vs 3 racimos,"5L(5.0,Z),5;3S(15.0,Z),30;2S(28.0,Z),20",3,True,False,UR
+UR235,p11,55.0,505.0,450.0,factor10,S 50->500,"5S(7.5,Z),50;5L(20.5,Z),5",2,True,False,UR
+UR235,p12,10.0,100.0,90.0,factor10,S 10->100,"1S(7.5,Z),10",1,False,False,UR
+UR235,p13,10.0,100.0,90.0,factor10,S 10->100,"1S(7.5,Z),10",1,False,False,UR
+UR235,p15,19.0,109.0,90.0,factor10,S 10->100,"1S(7.5,Z),10;9L(21.5,Z),9",2,True,False,UR
+UR235,p16,23.0,203.0,180.0,factor10,S 20->200,"2S(8.0,Z),20;3L(22.0,Z),3",2,True,False,UR
+UR235,p17,27.0,207.0,180.0,factor10,S 20->200,"2S(7.5,Z),20;7L(20.5,Z),7",2,True,False,UR
+UR235,p18,10.0,100.0,90.0,factor10,S 10->100,"1S(7.5,Z),10",1,False,False,UR
+UR235,p19,29.0,209.0,180.0,factor10,S 20->200,"2S(7.0,Z),20;9L(21.0,Z),9",2,True,False,UR
+UR235,p28,25.0,205.0,180.0,factor10,S 20->200,"2S(7.5,Z),20;5L(18.5,Z),5",2,True,False,UR
+UR235,p37,31.0,301.0,270.0,factor10,S 30->300,"3S(8.0,Z),30;1E(20.0,Z),1",2,False,True,UR
+UR235,p46,42.0,402.0,360.0,factor10,S 40->400,"4S(7.0,Z),40;2L(18.5,Z),2",2,True,False,UR
+UR235,p49,10.0,100.0,90.0,factor10,S 10->100,"1S(7.0,Z),10",1,False,False,UR
+UR235,p50,10.0,100.0,90.0,factor10,S 10->100,"1S(6.5,Z),10",1,False,False,UR
+UR235,p51,10.0,100.0,90.0,factor10,S 10->100,"1S(7.0,Z),10",1,False,False,UR
+UR235,p55,37.0,307.0,270.0,factor10,S 30->300,"3S(7.0,Z),30;7L(18.5,Z),7",2,True,False,UR
+UR235,p55s1,30.0,300.0,270.0,factor10,S 30->300,"3S(2.0,Z),30",1,False,False,UR
+UR235,p60s1,10.0,100.0,90.0,factor10,S 10->100,"1S(1.5,Z),10",1,False,False,UR
+UR235,p61s1,11.0,101.0,90.0,factor10,S 10->100,"1S(1.5,Z),10;1E(14.0,Z),1",2,False,True,UR
+UR235,p64,12.0,102.0,90.0,factor10,S 10->100,"1S(6.0,Z),10;2L(16.5,Z),2",2,True,False,UR
+UR235,p69,38.0,308.0,270.0,factor10,S 30->300,"3S(6.5,Z),30;8L(19.0,Z),8",2,True,False,UR
+UR235,p70,12.0,102.0,90.0,factor10,S 10->100,"1S(6.5,Z),10;2L(19.0,Z),2",2,True,False,UR
+UR235,p72,12.0,102.0,90.0,factor10,S 10->100,"1S(7.0,Z),10;2L(19.5,Z),2",2,True,False,UR
+UR235,p73,12.0,102.0,90.0,factor10,S 10->100,"1S(6.5,Z),10;2L(19.0,Z),2",2,True,False,UR
+UR235,p74,15.0,105.0,90.0,factor10,S 10->100,"1S(7.0,Z),10;5L(19.5,Z),5",2,True,False,UR
+UR235,p75,12.0,102.0,90.0,factor10,S 10->100,"1S(6.5,Z),10;2L(19.5,Z),2",2,True,False,UR
+UR235,p76,10.0,100.0,90.0,factor10,S 10->100,"1S(6.5,Z),10",1,False,False,UR
+UR235,p77,12.0,102.0,90.0,factor10,S 10->100,"1S(7.0,Z),10;2L(20.0,Z),2",2,True,False,UR
+UR235,p79,46.0,406.0,360.0,factor10,S 40->400,"4S(7.5,Z),40;6L(20.5,Z),6",2,True,False,UR
+UR235,p79s2,10.0,100.0,90.0,factor10,S 10->100,"1S(1.0,Z),10",1,False,False,UR
+UR235,p82,13.0,103.0,90.0,factor10,S 10->100,"1S(7.5,Z),10;3L(20.5,Z),3",2,True,False,UR
+UR235,p86,12.0,102.0,90.0,factor10,S 10->100,"1S(8.0,Z),10;2L(22.5,Z),2",2,True,False,UR
+UR235,p88,20.0,200.0,180.0,factor10,S 20->200,"2S(8.0,Z),20",1,False,False,UR
+UR235,p97,13.0,103.0,90.0,factor10,S 10->100,"1S(8.5,Z),10;3L(20.5,Z),3",2,True,False,UR
+UR235,p114,10.0,100.0,90.0,factor10,S 10->100,"1S(8.5,Z),10",1,False,False,UR
+UR235,p122,21.0,201.0,180.0,factor10,S 20->200,"2S(8.0,Z),20;1E(20.0,Z),1",2,False,True,UR
+UR235,p122s1,19.0,109.0,90.0,factor10,S 10->100,"1S(4.0,Z),10;9L(14.5,Z),9",2,True,False,UR
+UR255,p85,14.0,109.0,95.0,bloque,2 vs 3 racimos,"1S(6.5,Z),10;4L(14.0,S),4",2,True,False,UR
+UR280,p18s3,686.0,666.0,-20.0,racimo_omitido_okr,KFG [20.0] no en OKR,"6S(2.5,S),600;6S(8.0,Z),60;6L(17.0,S),6;2S(9.0,Z),20",4,True,False,UR

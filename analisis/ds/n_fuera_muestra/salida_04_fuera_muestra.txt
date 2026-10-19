@@ -1,0 +1,77 @@
+==============================================================================
+(i) R1 por mitades de registros: UR273A+UR273B -> cabeceras UR266/275/269
+  n válidos=18; aciertos=8; E exacta=0.944 (con S=todas las cuerdas E=1.278)
+  n.º de grupo de los aciertos: [3, 9, 11, 12, 13, 17, 18, 19]
+  1.ª mitad: obs=5/9, E_nula=1.000, p=0.0001
+      p exacto por enumeración (9! = 362 880) = 0.00013
+  2.ª mitad: obs=3/9, E_nula=0.444, p=0.0044
+      p exacto por enumeración (9! = 362 880) = 0.00397
+  tabla 2x2 (acierto/no) = [[5, 4], [3, 6]]; Fisher bilateral p=0.637
+  prueba de conjunción (ambas mitades): p_IUT = max(p1,p2) = 0.0040
+  [sens. S=todas las cuerdas] 1.ª mitad: obs=5/9, E=1.222, p=0.0029
+  [sens. S=todas las cuerdas] 2.ª mitad: obs=3/9, E=0.889, p=0.0396
+
+==============================================================================
+(ii) Registros con UR273A sin cabecera: UR274A_i + UR273B_i
+  registros totales alineados=27; con 273B presente=21; con 273A sin cabecera=6; candidatos (273B y 274A presentes)=4
+    pos 2 (grupo 2): 274A= 862 + 273B=2222 = 3084  en S_cab=False  en S_todas=False
+    pos 5 (grupo 5): 274A= 391 + 273B= 887 = 1278  en S_cab=True  en S_todas=True
+    pos 6 (grupo 6): 274A= 891 + 273B=1129 = 2020  en S_cab=True  en S_todas=True
+    pos 8 (grupo 8): 274A= 772 + 273B=1334 = 2106  en S_cab=True  en S_todas=True
+  resultado: 3/4; E exacta=0.143; nulo exacto (21P4=143,640) p=0.00013 (18 permutaciones con ≥3); p Poisson=0.0004
+  18 §4 anunciaba 3/3; con el criterio completo son 3/4: falla el registro de grupo 2 (3084).
+  [criterio estricto: 273A totalmente en blanco] 2/3: 3084, 1278, 2106
+  control de familia: 17 quipus del archivo con ≥3 posiciones utilizables; 274A (excluido del control) da 3/4
+    mejores: UR263 1/4; JC010 0/4; UR255 0/4; UR256 0/4; UR264 0/4; UR266 0/4
+    quipus distintos de 274A con ≥3/4: 0; con ≥2/4: 0
+
+==============================================================================
+(iii) R1 por mitades: UR267A+UR267B -> cabeceras UR269
+  n válidos=26; aciertos=5; E exacta=0.692
+  n.º de grupo de los aciertos: [13, 16, 17, 20, 24]
+  1.ª mitad: obs=1/13, E_nula=0.308, p=0.2880
+  2.ª mitad: obs=4/13, E_nula=0.538, p=0.0012
+  tabla 2x2 = [[1, 12], [4, 9]]; Fisher bilateral p=0.322
+  prueba de conjunción (ambas mitades): p_IUT = max(p1,p2) = 0.2880
+
+==============================================================================
+(iv) Posición en el bloque de UR269 con nulo condicionado a la magnitud (±15 %)
+  273A+B exactos en UR269: g5 (bloque 0, fila 1/5, 1653), g11 (bloque 1, fila 1/5, 1737), g17 (bloque 2, fila 1/5, 1827), g23 (bloque 3, fila 1/6, 1780)
+  273A+B exactos, fila 1.ª: 4/4 en la fila 1.ª; elegibles=[(1,), (1, 2, 3, 4), (1,), (1,)]; P(las n en la fila)= 0.250; P_nula_uniforme=0.0013; p_MC=0.2514
+  273A+B ±1 en UR269: g5 (b0, f1/5, 1653), g11 (b1, f1/5, 1737), g17 (b2, f1/5, 1827), g23 (b3, f1/6, 1780), g49 (b6, f1/5, 1505), g61 (b8, f1/5, 1886)
+  273A+B ±1, fila 1.ª: 6/6 en la fila 1.ª; elegibles=[(1,), (1, 2, 3, 4), (1,), (1,), (1,), (1,)]; P(las n en la fila)= 0.250; P_nula_uniforme=0.0001; p_MC=0.2473
+  273A+B exactos, ±10 %: 4/4 en la fila 1.ª; elegibles=[(1,), (1, 2, 3, 4), (1,), (1,)]; P(las n en la fila)= 0.250; P_nula_uniforme=0.0013; p_MC=0.2549
+  273A+B exactos, ±20 %: 4/4 en la fila 1.ª; elegibles=[(1,), (1, 2, 3, 4), (1,), (1,)]; P(las n en la fila)= 0.250; P_nula_uniforme=0.0013; p_MC=0.2542
+  267A+B exactos en UR269: g21 (b2, f5/5, 828), g41 (b5, f4/9, 742), g47 (b5, f9/9, 662), g65 (b8, f5/5, 522), g81 (b11, f2/2, 392)
+  267A+B exactos, fila última: 4/5 en la fila última; elegibles=[(5,), (4, 9), (4, 9), (5,), (2,)]; P(las n en la fila)= 0.250; P_nula_uniforme=0.0002; p_MC=0.7537
+    (4/5: p_MC es P(≥4/5); P(5/5)=P_exacta=0,25. La 5.ª, g41, cae en la fila 4 de un bloque de 9.)
+  267 exactos, bloque 5 partido 4+5 (g41 última de la 1.ª parte): 5/5 en la fila última; elegibles=[(5,), (4,), (5,), (5,), (2,)]; P(las n en la fila)= 1.000; P_nula_uniforme=0.0010; p_MC=1.0000
+  273 exactos, bloques pares: 2/2 en la fila 1.ª; elegibles=[(1,), (1,)]; P(las n en la fila)= 1.000; P_nula_uniforme=0.0400; p_MC=1.0000
+  273 exactos, bloques impares: 2/2 en la fila 1.ª; elegibles=[(1, 2, 3, 4), (1,)]; P(las n en la fila)= 0.250; P_nula_uniforme=0.0333; p_MC=0.2501
+
+==============================================================================
+(v) Cuota por fila: bloques pares frente a impares (solo bloques canónicos de 5 filas)
+  patrón canónico de 13 (filas 1-5): [47, 46, 46, 44, 25]
+  bloques canónicos: pares=[0, 2, 4, 6, 8, 10, 12] (35 registros), impares=[1, 7, 9] (15 registros)
+  patrón modal en pares: [47, 46, 46, 44, 25]
+  patrón modal en impares: [47, 40, None, 46, 44]
+  ajuste al patrón canónico en los 10 bloques: 27/50; nulo media=10.12; p=0.0001
+  [fuera de muestra] patrón de pares -> impares: 4/15; nulo media=1.98; p=0.1009
+  [fuera de muestra] patrón de impares -> pares: 4/35; nulo media=4.38; p=0.6742
+    fila 1: pares=[44.0, 47.0, 47.0, 47.0, 47.0], impares=[47.0, 47.0, 47.0]
+    fila 2: pares=[36.0, 46.0, 46.0, 46.0, 46.0, 46.0, 46.0], impares=[40.0, 46.0]
+    fila 3: pares=[40.0, 46.0, 46.0, 46.0, 46.0], impares=[]
+    fila 4: pares=[44.0, 44.0, 44.0, 44.0, 44.0], impares=[46.0]
+    fila 5: pares=[20.0, 20.0, 25.0, 25.0, 25.0, 25.0], impares=[44.0, 50.0]
+  [sens. temporal, post hoc] bloques 0-6: patrón [47, 46, 40, 44, 25]; bloques 7-14: patrón [47, 46, 46, 44, 25]
+    patrón de 0-6 -> 7-14: 11/25; nulo media=4.12; p=0.0005
+    patrón de 7-14 -> 0-6: 13/25; nulo media=4.93; p=0.0004
+
+==============================================================================
+Corrección de Holm sobre las 5 pruebas (p primarios):
+  (i) 273 mitades                  p=0.0040  Holm=0.0159
+  (ii) 274A rellena 273A           p=0.0001  Holm=0.0007
+  (iii) 267 mitades                p=0.2880  Holm=0.5027
+  (iv) posición UR269              p=0.2514  Holm=0.5027
+  (v) cuota par/impar              p=0.1009  Holm=0.3027
+BH-FDR (por comparación): (i) 273 mitades=0.0099, (ii) 274A rellena 273A=0.0007, (iii) 267 mitades=0.2880, (iv) posición UR269=0.2880, (v) cuota par/impar=0.1681

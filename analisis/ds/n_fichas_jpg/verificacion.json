@@ -1,0 +1,149 @@
+[
+ {
+  "f": "transcripcion_JC024_record.csv",
+  "filas": 16,
+  "con_nudos": 10,
+  "verificables": 6,
+  "ok": 6,
+  "vacuas": 4,
+  "modelos": {
+   "dec": 6,
+   "t+u": 5
+  },
+  "descuadres": []
+ },
+ {
+  "f": "transcripcion_JC025_record.csv",
+  "filas": 10,
+  "con_nudos": 10,
+  "verificables": 8,
+  "ok": 8,
+  "vacuas": 2,
+  "modelos": {
+   "dec": 8,
+   "t+u": 8
+  },
+  "descuadres": []
+ },
+ {
+  "f": "transcripcion_JC026_record.csv",
+  "filas": 2,
+  "con_nudos": 0,
+  "verificables": 0,
+  "ok": 0,
+  "vacuas": 0,
+  "modelos": {},
+  "descuadres": []
+ },
+ {
+  "f": "transcripcion_JC027_record.csv",
+  "filas": 12,
+  "con_nudos": 12,
+  "verificables": 11,
+  "ok": 11,
+  "vacuas": 1,
+  "modelos": {
+   "dec": 11,
+   "t+u": 10
+  },
+  "descuadres": []
+ },
+ {
+  "f": "transcripcion_JC028_record.csv",
+  "filas": 12,
+  "con_nudos": 12,
+  "verificables": 9,
+  "ok": 8,
+  "vacuas": 3,
+  "modelos": {
+   "t+u": 8,
+   "dec": 5
+  },
+  "descuadres": [
+   [
+    "5",
+    "escrito 12 vs nudos [4, 2, 3, 5] -> dec=4235 dec_r=5324 t+u=50 u=14"
+   ]
+  ]
+ },
+ {
+  "f": "transcripcion_JC029_record.csv",
+  "filas": 10,
+  "con_nudos": 8,
+  "verificables": 3,
+  "ok": 3,
+  "vacuas": 5,
+  "modelos": {
+   "dec": 3,
+   "t+u": 3
+  },
+  "descuadres": []
+ },
+ {
+  "f": "transcripcion_JC030_record.csv",
+  "filas": 5,
+  "con_nudos": 5,
+  "verificables": 0,
+  "ok": 0,
+  "vacuas": 5,
+  "modelos": {},
+  "descuadres": []
+ },
+ {
+  "f": "transcripcion_JC031_record.csv",
+  "filas": 11,
+  "con_nudos": 7,
+  "verificables": 4,
+  "ok": 4,
+  "vacuas": 3,
+  "modelos": {
+   "u": 4
+  },
+  "descuadres": []
+ },
+ {
+  "f": "transcripcion_JC032_record.csv",
+  "filas": 8,
+  "con_nudos": 8,
+  "verificables": 8,
+  "ok": 7,
+  "vacuas": 0,
+  "modelos": {
+   "dec": 5,
+   "t+u": 7
+  },
+  "descuadres": [
+   [
+    "1",
+    "escrito 139 vs nudos [1, 3, 8] -> dec=138 dec_r=831 t+u=21 u=12"
+   ]
+  ]
+ },
+ {
+  "f": "transcripcion_JC033_record.csv",
+  "filas": 8,
+  "con_nudos": 4,
+  "verificables": 1,
+  "ok": 1,
+  "vacuas": 3,
+  "modelos": {
+   "dec": 1,
+   "t+u": 1
+  },
+  "descuadres": []
+ },
+ {
+  "f": "transcripcion_JC034_record.csv",
+  "filas": 7,
+  "con_nudos": 6,
+  "verificables": 3,
+  "ok": 3,
+  "vacuas": 3,
+  "modelos": {
+   "u": 1,
+   "dec": 2,
+   "t+u": 2
+  },
+  "descuadres": []
+ }
+]

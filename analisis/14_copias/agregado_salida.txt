@@ -1,0 +1,184 @@
+=== 1. Composición de la muestra
+pares 25: copia 19, mismo_objeto 3, debil 3; familias representativas (copias): 13
+
+=== 2. Valor conservado por nivel (filas alineadas; sesgo de selección: el alineamiento premia las coincidencias)
+copias: colgantes exactas 395/456 = 0.866; subsidiarias exactas 87/114 = 0.763
+mismo_objeto: colgantes exactas 53/57 = 0.930; subsidiarias exactas 7/7 = 1.000
+Fisher colgantes copias (395/456) vs mismo objeto (53/57): p=0.209
+Por par (representantes): colgantes exactas / n ; subsidiarias exactas / n ; solo_A ; solo_B ; subsidiarias sin pareja
+  HP055~UR1084: col 121/142  sub 0/0  soloA 18 soloB 9  gaps_sub 0 gaps_colg 27  vacía_otro 19
+  UR1175~UR233: col 73/88  sub 4/5  soloA 43 soloB 0  gaps_sub 42 gaps_colg 1  vacía_otro 35
+  KH0049~UR122: col 19/20  sub 41/60  soloA 11 soloB 8  gaps_sub 17 gaps_colg 2  vacía_otro 6
+  UR053B~UR053C: col 24/32  sub 11/16  soloA 0 soloB 0  gaps_sub 0 gaps_colg 0  vacía_otro 0
+  UR006~UR009: col 31/35  sub 24/26  soloA 3 soloB 5  gaps_sub 0 gaps_colg 8  vacía_otro 5
+  UR064~UR068: col 41/47  sub 0/0  soloA 2 soloB 3  gaps_sub 2 gaps_colg 3  vacía_otro 2
+  UR1114~UR1123: col 10/10  sub 0/0  soloA 0 soloB 0  gaps_sub 0 gaps_colg 0  vacía_otro 0
+  UR066~UR067: col 17/18  sub 3/3  soloA 1 soloB 1  gaps_sub 0 gaps_colg 2  vacía_otro 2
+  MM016~UR212: col 11/13  sub 0/0  soloA 0 soloB 1  gaps_sub 0 gaps_colg 1  vacía_otro 0
+  UR1118~UR218: col 7/8  sub 0/0  soloA 0 soloB 0  gaps_sub 0 gaps_colg 0  vacía_otro 0
+  QU002~UR137: col 7/8  sub 3/3  soloA 1 soloB 0  gaps_sub 1 gaps_colg 0  vacía_otro 0
+  AS159~AS173: col 7/7  sub 1/1  soloA 0 soloB 0  gaps_sub 0 gaps_colg 0  vacía_otro 0
+  UR255~UR267A: col 27/28  sub 0/0  soloA 2 soloB 12  gaps_sub 1 gaps_colg 13  vacía_otro 4
+
+=== 2b. Cuerdas sin pareja por nivel (cada cuerda de cada lado cuenta una vez)
+  HP055~UR1084: colgantes con/sin pareja [284, 27]  subsidiarias con/sin pareja [0, 0]
+  UR1175~UR233: colgantes con/sin pareja [177, 1]  subsidiarias con/sin pareja [9, 42]
+  KH0049~UR122: colgantes con/sin pareja [44, 2]  subsidiarias con/sin pareja [116, 17]
+  UR053B~UR053C: colgantes con/sin pareja [80, 0]  subsidiarias con/sin pareja [16, 0]
+  UR006~UR009: colgantes con/sin pareja [91, 8]  subsidiarias con/sin pareja [31, 0]
+  UR064~UR068: colgantes con/sin pareja [94, 3]  subsidiarias con/sin pareja [0, 2]
+  UR1114~UR1123: colgantes con/sin pareja [20, 0]  subsidiarias con/sin pareja [0, 0]
+  UR066~UR067: colgantes con/sin pareja [36, 2]  subsidiarias con/sin pareja [6, 0]
+  UR1118~UR218: colgantes con/sin pareja [16, 0]  subsidiarias con/sin pareja [0, 0]
+  QU002~UR137: colgantes con/sin pareja [16, 0]  subsidiarias con/sin pareja [6, 1]
+  AS159~AS173: colgantes con/sin pareja [14, 0]  subsidiarias con/sin pareja [2, 0]
+  UR255~UR267A: colgantes con/sin pareja [56, 13]  subsidiarias con/sin pareja [0, 1]
+  MM016~UR212: colgantes con/sin pareja [26, 1]  subsidiarias con/sin pareja [0, 0]
+CMH (subsidiarias sin pareja: observadas, esperadas, z, p): (63, 26.5, np.float64(10.81), np.float64(2.9404537160599664e-27))
+CMH sin UR1175~UR233: (21, 16.9, np.float64(1.77), np.float64(0.07601643354613359))
+
+=== 3. Clases de discordancia entre colgantes alineados (ambos nivel 0), pares representantes
+clase
+exacta                       395
+pm1_nudo                      33
+un_digito_otro                14
+varias_cifras                 10
+misma_cifra_otra_posicion      3
+transposicion                  1
+pm1: |Δ| = {1.0: 18, 10.0: 13, 100.0: 1, 1000.0: 1} (1=unidades, 10=decenas, 100=centenas)
+cifras no nulas en filas exactas por posición: {1: 0.473, 10: 0.413, 100: 0.114} -> esperado si el error fuese uniforme sobre cifras no nulas
+chi2 de bondad vs esperado: Power_divergenceResult(statistic=np.float64(2.463154137079346), pvalue=np.float64(0.2918319755482505))
+Signo (B>A) por par, discordantes colgante-colgante:
+  HP055~UR1084: B>A 15/21  p_binom=0.078
+  KH0049~UR122: B>A 1/1  p_binom=1.000
+  MM016~UR212: B>A 0/2  p_binom=0.500
+  QU002~UR137: B>A 0/1  p_binom=1.000
+  UR006~UR009: B>A 2/4  p_binom=1.000
+  UR053B~UR053C: B>A 5/8  p_binom=0.727
+  UR064~UR068: B>A 5/6  p_binom=0.219
+  UR066~UR067: B>A 0/1  p_binom=1.000
+  UR1118~UR218: B>A 0/1  p_binom=1.000
+  UR1175~UR233: B>A 11/15  p_binom=0.118
+  UR255~UR267A: B>A 1/1  p_binom=1.000
+
+=== 4. Daño físico: entre discordancias colgante-colgante (|valor|≠), ¿la cuerda de menor valor está rota (terminación B) más a menudo que la de mayor valor?
+copias (representantes): n_disc, solo menor rota, solo mayor rota, p_unilateral = (61, 8, 1, np.float64(0.01953125))
+mismo_objeto: (4, 0, 0, nan)
+  ('HP055', 'UR1084'): (21, 7, 0, np.float64(0.0078125))
+  ('UR1175', 'UR233'): (15, 0, 0, nan)
+  ('KH0049', 'UR122'): (1, 0, 0, nan)
+  ('UR053B', 'UR053C'): (8, 0, 0, nan)
+  ('UR006', 'UR009'): (4, 0, 0, nan)
+  ('UR064', 'UR068'): (6, 1, 1, np.float64(0.75))
+  ('UR066', 'UR067'): (1, 0, 0, nan)
+  ('UR1118', 'UR218'): (1, 0, 0, nan)
+  ('QU002', 'UR137'): (1, 0, 0, nan)
+  ('UR255', 'UR267A'): (1, 0, 0, nan)
+  ('MM016', 'UR212'): (2, 0, 0, nan)
+
+=== 5. Edición sistemática: sustitución repetida a->b y omisión concentrada por valor
+     A      B  tipo  n_discordantes  sust_rep_max  sust_rep_nulo  sust_rep_p sust_rep_top  p_holm
+UR1175  UR233 copia              16           4.0         1.5535      0.0035 (100, 110.0)   0.063
+ HP055 UR1084 copia              21           3.0         2.1420      0.2529 (22.0, 32.0)   1.000
+KH0049  UR122 copia              20           1.0         1.5950      1.0000 (1.0, 400.0)   1.000
+UR053B UR053C copia              13           1.0         1.0715      1.0000     (19, 17)   1.000
+ UR006  UR009 copia               6           1.0         1.1295      1.0000   (9.0, 8.0)   1.000
+ UR064  UR068 copia               6           1.0         1.0000      1.0000   (7.0, 8.0)   1.000 
+(Holm sobre 18 pares)
+     A      B lado  n_solitarias  de_span  valor_mas_concentrado  solitarias_de_ese_valor  total_ese_valor_en_span  p_hiper  p_holm_valores  p_holm_pares
+ HP055 UR1084    A            18      160                    222                        8                       14  0.00001         0.00004       0.00033
+KH0049  UR122    A            11       91                      1                        6                       25  0.04191         0.08381       0.67052
+ HP055 UR1084    B             9      151                     32                        3                       20  0.09935         0.39740       1.00000
+UR1175  UR233    A            43      136                     10                        6                       12  0.13461         1.00000       1.00000
+KH0049  UR122    B             8       88                      4                        1                        3  0.25129         1.00000       1.00000 
+(Holm por valores dentro de cada par, y por 8 pruebas)
+
+=== 5b. Coherencia de las discordancias colgante-colgante (pares con >=8 discordancias)
+  HP055~UR1084: n=21  delta modal +10 x5 (nulo 2.45, p=0.008); cociente modal 1.5 x3 (nulo 2.94, p=0.768)
+  UR053B~UR053C: n=8  delta modal -1 x2 (nulo 1.49, p=0.466); cociente modal 0.9 x2 (nulo 1.87, p=0.762)
+  UR1175~UR233: n=15  delta modal +10 x4 (nulo 1.70, p=0.002); cociente modal 1.0 x5 (nulo 2.36, p=0.005)
+
+=== 6. Forma: color, dirección y unión
+color, pares del mismo registrador (copias): exacto observado vs nulo (barajado simple) | exacto estratificado por valor | NMI estratificado
+  UR053B~UR053C  n=48  exacto 0.83 vs 0.28 p=0.000 | estrat. 0.86 vs 0.76 p=0.027 | NMI 0.91 vs 0.67 p=0.027
+  UR006~UR009  n=61  exacto 0.41 vs 0.35 p=0.068 | estrat. 0.42 vs 0.31 p=0.002 | NMI 0.40 vs 0.25 p=0.001
+  UR064~UR068  n=47  exacto 0.60 vs 0.18 p=0.000 | estrat. 0.63 vs 0.35 p=0.001 | NMI 0.82 vs 0.29 p=0.001
+  UR1114~UR1123  n=10  exacto 0.00 vs 0.00 p=1.000 | estrat. nan vs nan p=nan | NMI nan vs nan p=nan
+  UR009~UR021  n=21  exacto 0.24 vs 0.17 p=0.241 | estrat. 0.22 vs 0.20 p=0.506 | NMI 0.52 vs 0.49 p=0.332
+  UR066~UR067  n=21  exacto 0.52 vs 0.22 p=0.000 | estrat. 0.50 vs 0.37 p=0.040 | NMI 0.78 vs 0.58 p=0.007
+  UR006~UR021  n=19  exacto 0.58 vs 0.53 p=0.317 | estrat. 0.56 vs 0.55 p=0.709 | NMI 0.48 vs 0.40 p=0.417
+  AS159~AS173  n=8  exacto 0.38 vs 0.16 p=0.040 | estrat. 0.38 vs 0.38 p=1.000 | NMI 0.77 vs 0.77 p=1.000
+  UR255~UR267A  n=28  exacto 0.14 vs 0.17 p=1.000 | estrat. 0.11 vs 0.11 p=1.000 | NMI 0.26 vs 0.26 p=1.000
+Fisher combinado (un par por familia) color exacto simple: (np.float64(3.301626283577373e-07), 7)  estratificado: (np.float64(7.430197804172533e-05), 6)  NMI estratificado: (np.float64(1.1209750445226962e-05), 6)
+color entre registradores distintos (NMI estratificado, invariante a la convención):
+  HP055~UR1084  NMI 0.53 vs 0.29 p=0.001  (exacto 0.14, p=0.085)
+  UR1175~UR233  NMI 0.69 vs 0.46 p=0.001  (exacto 0.10, p=0.000)
+  KH0049~UR122  NMI 0.40 vs 0.19 p=0.001  (exacto 0.30, p=0.766)
+  QU002~UR137  NMI 1.00 vs 1.00 p=1.000  (exacto 1.00, p=0.006)
+Fisher combinado NMI estratificado (distintos registradores): (np.float64(1.715288912414079e-06), 4)
+
+Línea base (quipus del corpus, dominante >=80 % de las cuerdas con dato):
+  dirS: {'Z': 277, 'S': 99, 'mixto': 31}
+  dirL: {'Z': 232, 'S': 192, 'mixto': 32}
+  union: {'R': 185, 'V': 162, 'mixto': 91, 'T': 5}
+dirección nudos largos: 11 familias comparables; coinciden 8; esperado por azar entre quipus al azar de las mismas series 5.6; p(>=obs)=0.1298 ; p(<=obs)=0.9609
+    HP055~UR1084: Z vs S  esperado 0.58
+    UR1175~UR233: Z vs S  esperado 0.50
+    KH0049~UR122: S vs S  esperado 0.50
+    UR006~UR009: Z vs Z  esperado 0.50
+    UR064~UR068: Z vs Z  esperado 0.50
+    UR1114~UR1123: Z vs Z  esperado 0.54
+    UR066~UR067: Z vs Z  esperado 0.50
+    MM016~UR212: S vs S  esperado 0.50
+    UR1118~UR218: S vs S  esperado 0.50
+    QU002~UR137: S vs S  esperado 0.51
+    UR255~UR267A: Z vs S  esperado 0.50
+dirección nudos simples: 11 familias comparables; coinciden 9; esperado por azar entre quipus al azar de las mismas series 6.5; p(>=obs)=0.1047 ; p(<=obs)=0.9761
+    HP055~UR1084: Z vs Z  esperado 0.70
+    UR1175~UR233: Z vs Z  esperado 0.63
+    KH0049~UR122: S vs S  esperado 0.50
+    UR006~UR009: Z vs Z  esperado 0.60
+    UR064~UR068: Z vs Z  esperado 0.60
+    UR1114~UR1123: Z vs Z  esperado 0.65
+    UR066~UR067: S vs Z  esperado 0.60
+    MM016~UR212: S vs Z  esperado 0.54
+    UR1118~UR218: Z vs Z  esperado 0.63
+    QU002~UR137: S vs S  esperado 0.45
+    UR255~UR267A: Z vs Z  esperado 0.60
+unión R/V: 7 familias comparables; coinciden 3; esperado por azar entre quipus al azar de las mismas series 3.5; p(>=obs)=0.7753 ; p(<=obs)=0.5020
+    KH0049~UR122: V vs V  esperado 0.50
+    UR053B~UR053C: R vs V  esperado 0.50
+    UR064~UR068: R vs R  esperado 0.50
+    UR066~UR067: V vs V  esperado 0.50
+    MM016~UR212: V vs R  esperado 0.50
+    QU002~UR137: R vs V  esperado 0.50
+    UR255~UR267A: R vs V  esperado 0.50
+
+Largo de cuerda entre pares (rho Spearman por par; copias representantes):
+     A      B  largo_rho  largo_p
+ HP055 UR1084      0.314    0.001
+UR1175  UR233      0.292    0.004
+KH0049  UR122      0.303    0.005
+UR053B UR053C      0.269    0.033
+ UR006  UR009     -0.038    0.600
+ UR064  UR068      0.437    0.003
+UR1114 UR1123      0.624    0.025
+ UR066  UR067      0.612    0.002
+ MM016  UR212      0.243    0.218
+UR1118  UR218      0.240    0.286
+ QU002  UR137      0.753    0.003
+ AS159  AS173      0.634    0.052
+ UR255 UR267A      0.495    0.005
+mediana rho copias: 0.314  mismo objeto: [1.0, 0.959, 0.758]
+Subsidiarias: acuerdo en nº de subsidiarias por colgante alineado (obs vs nulo):
+     A      B  subs_n  subs_acuerdo  subs_nulo  subs_p  subs_totA  subs_totB
+UR1175  UR233    88.0         0.761      0.568   0.000       35.0       14.0
+KH0049  UR122    20.0         0.450      0.153   0.001       55.0       69.0
+UR053B UR053C    32.0         0.500      0.500   1.000       16.0        0.0
+ UR006  UR009    35.0         0.971      0.971   1.000        1.0        0.0
+ UR064  UR068    47.0         0.936      0.936   1.000        3.0        0.0
+ UR066  UR067    18.0         1.000      0.796   0.005        3.0        3.0
+ MM016  UR212    13.0         0.692      0.692   1.000        4.0        0.0
+ QU002  UR137     8.0         0.875      0.488   0.019        4.0        3.0
+ AS159  AS173     7.0         1.000      0.753   0.135        1.0        1.0
+ UR255 UR267A    28.0         0.964      0.964   1.000        0.0        1.0

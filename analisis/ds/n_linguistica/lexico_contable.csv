@@ -1,0 +1,90 @@
+﻿termino,lengua,fuente,glosa,categoria,equivalencia,nota
+huk,quechua,"González Holguín 1608, s.v.; Santo Tomás 1560, s.v.",uno,número,,"grafía colonial: huc, iscay, quimça, taua, pichca, çocta, canchis, puçac, iscon, chunca"
+iskay,quechua,"González Holguín 1608, s.v.; Santo Tomás 1560, s.v.",dos,número,,"grafía colonial: huc, iscay, quimça, taua, pichca, çocta, canchis, puçac, iscon, chunca"
+kimsa,quechua,"González Holguín 1608, s.v.; Santo Tomás 1560, s.v.",tres,número,,"grafía colonial: huc, iscay, quimça, taua, pichca, çocta, canchis, puçac, iscon, chunca"
+tawa,quechua,"González Holguín 1608, s.v.; Santo Tomás 1560, s.v.",cuatro,número,,"grafía colonial: huc, iscay, quimça, taua, pichca, çocta, canchis, puçac, iscon, chunca"
+pichqa,quechua,"González Holguín 1608, s.v.; Santo Tomás 1560, s.v.",cinco,número,,"grafía colonial: huc, iscay, quimça, taua, pichca, çocta, canchis, puçac, iscon, chunca"
+suqta,quechua,"González Holguín 1608, s.v.; Santo Tomás 1560, s.v.",seis,número,,"grafía colonial: huc, iscay, quimça, taua, pichca, çocta, canchis, puçac, iscon, chunca"
+qanchis,quechua,"González Holguín 1608, s.v.; Santo Tomás 1560, s.v.",siete,número,,"grafía colonial: huc, iscay, quimça, taua, pichca, çocta, canchis, puçac, iscon, chunca"
+pusaq,quechua,"González Holguín 1608, s.v.; Santo Tomás 1560, s.v.",ocho,número,,"grafía colonial: huc, iscay, quimça, taua, pichca, çocta, canchis, puçac, iscon, chunca"
+isqun,quechua,"González Holguín 1608, s.v.; Santo Tomás 1560, s.v.",nueve,número,,"grafía colonial: huc, iscay, quimça, taua, pichca, çocta, canchis, puçac, iscon, chunca"
+chunka,quechua,"González Holguín 1608, s.v.; Santo Tomás 1560, s.v.",diez,número,,"grafía colonial: huc, iscay, quimça, taua, pichca, çocta, canchis, puçac, iscon, chunca"
+pachak,quechua,"González Holguín 1608, s.v. pachac; Santo Tomás 1560",cien,número,100,también unidad sociopolítica de 100 tributarios (pachaca)
+waranqa,quechua,"González Holguín 1608, s.v. guaranga",mil,número,1 000,también unidad sociopolítica (guaranga)
+hunu,quechua,"González Holguín 1608, s.v. hunu; Santo Tomás 1560",diez mil,número,10 000,
+yupay,quechua,"González Holguín 1608, s.v. yupani","contar, numerar",operación,,
+yupana,quechua,"González Holguín 1608, s.v. yupana",tabla o tablero para contar; ábaco de piedras,registro,,"Barraza et al. 2022, tabla 1, la glosa como ""tabla para contar"""
+chuncachani,quechua,"González Holguín 1608, I:103, 113 (apud Barraza et al. 2022)","contar por decenas, hacer montones de diez",operación,,
+yayanchani,quechua,"González Holguín 1608, I:113; Santo Tomás 1560, I:98v","sumar, juntar y consolidar cuentas; reducir dieces y cientos a un número",operación,,"el ""yayan"" es la ficha de sustitución decimal"
+taripani,quechua,"González Holguín 1608, I:339","averiguar, verificar o tomar cuentas; ajustar cuentas",operación,,
+quipuni,quechua,"González Holguín 1608, I:308",contar por nudos,operación,,
+quipu pucuni,quechua,"González Holguín 1608, I:308",dar cuentas por nudos,operación,,
+quipucta huñuni,quechua,"González Holguín 1608, II:22",sumar o consolidar todas las cuentas,operación,,
+quipucta ttiuni,quechua,"González Holguín 1608, I:308",contar llamando por nudos (en voz alta),operación,,
+llulla quipu,quechua,"Santo Tomás 1560, II:171","cuenta falsa, quipu falseado",registro,,
+quipu,quechua,"González Holguín 1608, s.v.; Santo Tomás 1560",nudo; cuenta o registro anudado,registro,,"también ""quipo"" en las fuentes españolas"
+qillqa,quechua,"González Holguín 1608, s.v. quellca","escritura, pintura, signo gráfico",registro,,
+yupa,quechua,"González Holguín 1608, s.v. yupa","cuenta, número, cómputo",registro,,
+quipucamayoc,quechua,"González Holguín 1608, s.v. quipucamayoc",el que tiene oficio de contar por nudos; contador,oficio,,
+waskha,quechua,"González Holguín 1608, s.v. huasca","soga, cuerda",parte del quipu,,
+tupu,quechua,"González Holguín 1608, s.v. tupu; Rostworowski 1962",medida de tierra; también medida de tela y prenda,unidad de medida,"≈0,27 ha (88 × 44 varas ≈ 2 700 m²); variable por región",no confundir con el tupu alfiler; equivalencia agraria aproximada
+raki,quechua,"González Holguín 1608, s.v. raqui","partición, porción, reparto",unidad de medida,sin equivalencia métrica fija,en riego designa el turno o la porción de agua; requiere verificación local
+rakhi,aimara/quechua,"Bertonio 1612, s.v. raki; González Holguín 1608, s.v. raqui","división, parte, porción; en riego, turno o cuota de agua",unidad de medida,sin equivalencia métrica fija,variante de raki; el mismo término circula en quechua y aimara
+poqcha,quechua,vocabulario local de riego andino (uso en Huarochirí/Yauyos),porción o turno de agua de riego,unidad de medida,sin equivalencia métrica,"término local, no estándar en los diccionarios coloniales; nivel: propuesto, verificar"
+costal,español,documentos coloniales; Barraza et al. 2022,saco o costal para transportar y almacenar productos,unidad de medida,"capacidad variable, del orden de 1–2 fanegas",la marca del costal podía ser un signo de control
+carga,español,"Murra 2024:1277, 1315",carga transportada por un hombre o animal,unidad de medida,≈2 arrobas ≈ 23 kg; muy variable según producto,para maíz podía equivaler a una fanega
+fanega,español,Murra 2024:1310–1313 (nota editorial),medida castellana de capacidad para áridos,unidad de medida,"≈55,5 L en Castilla",grafía colonial: hanega
+hanega,español,Murra 2024:1310,variante de fanega,unidad de medida,"≈55,5 L",
+arroba,español,documentos coloniales,medida de peso o de capacidad,unidad de medida,"≈11,5 kg; ≈16,1 L para líquidos",
+libra,español,Murra 2024:1277,libra castellana de peso,unidad de medida,≈460 g,
+peso ensayado,español,tasas y visitas coloniales,unidad de cuenta de la plata ensayada,unidad de medida,unidad monetaria de cuenta; no equivale a un peso físico fijo,usada en las tasas de Lunahuaná y Guarco
+patacón,español,documentos coloniales,peso de plata de ocho reales,unidad de medida,8 reales,
+real,español,documentos coloniales,moneda de plata,unidad de medida,8 reales = 1 peso,
+na,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],uno,número,1,
+pac,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],dos,número,2,
+coc,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],tres,número,3,
+noc,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],cuatro,número,4,
+exllmeetzh,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],cinco,número,5,
+tzhaxlltzha,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],seis,número,6,
+ñite,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],siete,número,7,
+langæss,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],ocho,número,8,
+tap,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],nueve,número,9,
+nassop,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],diez monedas / diez reales,número,10,serie clasificatoria de monedas
+napong,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],"diez hombres, caballos, cabras, casas o cualquier cosa que no sea moneda, fruta ni día",número,10,"serie clasificatoria ""general"" (animados y cosas)"
+nacqoquixll,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],diez frutas o mazorcas,número,10,serie clasificatoria de frutas
+naceess,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],diez días,número,10,serie clasificatoria de días
+ssop,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],sufijo de las decenas cuando se cuentan monedas (pac.ssop = 20; coc.ssop = 30; noc.ssop = 40),número,,"clasificador ligado al numeral, no palabra independiente"
+pong,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],"sufijo de las decenas para personas, animales y cosas (pac.pong = 20)",número,,"clasificador ""general"""
+cqoquixll,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],sufijo de las decenas para frutas y mazorcas (pac.cqoquixll = 20),número,,clasificador de frutas
+ceess,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],sufijo de las decenas para días (pac.ceess = 20),número,,clasificador de días
+alio,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],"partícula que se intercala entre unidades, decenas, centenas y millares (p. ej. napong alio oneec = 12)",número,,
+paleec,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],"cien, en las series de monedas/animales (na.paleec = 100)",número,100,
+chieeng,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],"cien, en la serie de frutas (na.chieeng = 100)",número,100,la centena cambia según la clase contada
+cunö,mochica/yunga,Carrera 1644 [Villarreal 1921:112–113],"mil, en las dos primeras series (na.cunö = 1 000)",número,1 000,
+cala,aimara,"Bertonio 1612, II:240",piedra; piedra de contar,registro,,
+cala paachatha,aimara,"Bertonio 1612, II:240",poner dos piedras en la cuenta cuando no hay más de una,operación,,
+calana apanocatha,aimara,"Bertonio 1612, I:139",poner dos piedras en la cuenta; contar por piedrecitas,operación,,
+hanko,aimara,"Bertonio 1612, II:72",blanco; piedra blanca para contar lo ya pagado,color,,
+cchaara,aimara,"Bertonio 1612, II:83",negro; piedra negra para contar lo que se debe,color,,
+chino,aimara,"Bertonio 1612, II:83",piedrecita de contar lo que se debe de la tasa,registro,,
+chinocamana,aimara,"Bertonio 1612, I:139",el que tiene cuenta de lo que se debe; contador,oficio,,
+chinotha,aimara,"Bertonio 1612, II:174",el que tiene cuenta; contador,oficio,,
+chinoquipatha,aimara,"Bertonio 1612, I:139",la cuenta que se señala por nudos de lo que se da o recibe,registro,,
+phiscachatha,aimara,"Bertonio 1612, II:270",poner cinco en la cuenta cuando se cuenta con piedrecitas,operación,,
+yuraq,quechua,"González Holguín 1608, s.v.",blanco,color,,
+yana,quechua,"González Holguín 1608, s.v.",negro,color,,
+puka,quechua,"González Holguín 1608, s.v.",rojo,color,,
+q'illu,quechua,"González Holguín 1608, s.v.",amarillo,color,,
+anqas,quechua,"González Holguín 1608, s.v.",azul,color,,
+qumir,quechua,"González Holguín 1608, s.v.",verde,color,,
+ch'umpi,quechua,"González Holguín 1608, s.v.","marrón, pardo",color,,
+allqa,quechua,"González Holguín 1608, s.v.","mezclado, de dos colores",color,,
+cordón principal,español (técnico),Ascher & Ascher 1981; Urton 2003,cuerda horizontal de la que penden las cuerdas,parte del quipu,,
+cuerda superior,español (técnico),Urton & Brezine 2005; Medrano,"cuerda sumatoria o ""top cord""",parte del quipu,,
+colgante,español (técnico),Ascher & Ascher 1981,cuerda que pende del cordón principal,parte del quipu,,
+subsidiaria,español (técnico),Ascher & Ascher 1981,cuerda que pende de otra cuerda,parte del quipu,,
+grupo,español (técnico),KFG; Urton 2017,conjunto de colgantes separado por un espacio en el cordón,parte del quipu,,
+nudo simple,español (técnico),Ascher & Ascher 1981; Urton 2003,nudo de una o más vueltas en las unidades,nudo,,
+nudo largo,español (técnico),Ascher & Ascher 1981; Urton 2003,nudo de 2–9 vueltas,nudo,,
+figura de ocho,español (técnico),Ascher & Ascher 1981,"nudo en ocho, normalmente en las unidades",nudo,,
+vuelta,español (técnico),Ascher & Ascher 1981,cada giro de un nudo largo; su número es el valor,nudo,,

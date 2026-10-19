@@ -1,0 +1,17 @@
+familia,nA,kA,binomA,minqA,promovida,replica
+T1_periodo_valor,78,5,0.3510837919170532,1.0,False,False
+T2_periodo_color,68,4,0.44386997693360236,1.0,False,False
+T3_repeticion,84,0,1.0,1.0,False,False
+T4_tendencia,76,1,0.9797234528464163,1.0,False,False
+T5_subsidiaria,31,2,0.46340309014265585,1.0,False,False
+T6_suma_salteada,73,4,0.49887330398988877,1.0,False,False
+T7_pares_suma,82,2,0.9207674913878972,1.0,False,False
+I1_copia,88,2,0.9382968348777658,1.0,False,False
+I2_invertida,88,1,0.9890433632025939,1.0,False,False
+I3_diferencia,88,0,1.0,1.0,False,False
+I4_razon,88,1,0.9890433632025939,1.0,False,False
+I5_grupos_permutados,71,0,1.0,1.0,False,False
+I6_suma_bloque_F_en_otro,89,7,0.15751646680051704,1.0,False,False
+I7_suma_bloque_otro_en_F,76,0,1.0,1.0,False,False
+I8_total_grupo_F_en_sitio,79,0,1.0,1.0,False,False
+I9_total_grupo_sitio_en_F,67,0,1.0,1.0,False,False

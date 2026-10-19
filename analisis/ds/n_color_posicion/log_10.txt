@@ -1,0 +1,18 @@
+primario       A: validos 221/228 q<.05 31 (esp 11.1, p 2.5e-07) r2_abs_med 0.0365 suma 24.764 pglob 0.0020 | z 1.35 Stouffer 20.0 p 0
+primario       B: validos 205/228 q<.05 0 (esp 10.2, p 1) r2_abs_med 0.0120 suma 8.360 pglob 0.0020 | z 0.33 Stouffer 4.8 p 8e-07
+sin_copias     A: validos 216/222 q<.05 31 (esp 10.8, p 1.5e-07) r2_abs_med 0.0378 suma 24.290 pglob 0.0020 | z 1.33 Stouffer 19.5 p 0
+sin_copias     B: validos 200/222 q<.05 0 (esp 10.0, p 1) r2_abs_med 0.0112 suma 7.983 pglob 0.0040 | z 0.33 Stouffer 4.7 p 2e-06
+sin_copias_max A: validos 195/218 q<.05 19 (esp 9.8, p 0.0044) r2_abs_med 0.0604 suma 25.731 pglob 0.0020 | z 1.16 Stouffer 16.2 p 0
+sin_copias_max B: validos 157/218 q<.05 0 (esp 7.9, p 1) r2_abs_med 0.0111 suma 5.595 pglob 0.2140 | z -0.05 Stouffer -0.6 p 0.7
+todo           A: validos 228/234 q<.05 47 (esp 11.4, p 1.3e-16) r2_abs_med 0.0632 suma 28.455 pglob 0.0020 | z 1.87 Stouffer 28.2 p 0
+todo           B: validos 227/234 q<.05 0 (esp 11.4, p 1) r2_abs_med 0.0206 suma 12.113 pglob 0.0020 | z 0.60 Stouffer 9.1 p 0
+
+       variante modelo  n_valid  n_total  cuerdas  q05  esperado  binom_p  r2_med  r2_abs_med  r2_abs_suma  p_global  z_medio  stouffer  p_stouffer  frac_z_pos  df2_med  holm
+      primario      A      221      228    11606   31     11.05   0.0000  0.0848      0.0365      24.7644     0.002   1.3482   20.0418      0.0000      0.5701     26.0 0.016
+      primario      B      205      228    11458    0     10.25   1.0000  0.0752      0.0120       8.3596     0.002   0.3345    4.7893      0.0000      0.4732     21.0 0.016
+    sin_copias      A      216      222    11224   31     10.80   0.0000  0.0838      0.0378      24.2902     0.002   1.3262   19.4909      0.0000      0.5741     25.0 0.016
+    sin_copias      B      200      222    11076    0     10.00   1.0000  0.0716      0.0112       7.9830     0.004   0.3296    4.6619      0.0000      0.4700     20.5 0.016
+sin_copias_max      A      195      218     8494   19      9.75   0.0044  0.0985      0.0604      25.7307     0.002   1.1631   16.2412      0.0000      0.5897     20.0 0.016
+sin_copias_max      B      157      218     8128    0      7.85   1.0000  0.0606      0.0111       5.5951     0.214  -0.0452   -0.5659      0.7143      0.4204     18.0 0.214
+          todo      A      228      234    18031   47     11.40   0.0000  0.1043      0.0632      28.4547     0.002   1.8690   28.2216      0.0000      0.6491     34.5 0.016
+          todo      B      227      234    18023    0     11.35   1.0000  0.0764      0.0206      12.1133     0.002   0.6043    9.1054      0.0000      0.4934     27.0 0.016

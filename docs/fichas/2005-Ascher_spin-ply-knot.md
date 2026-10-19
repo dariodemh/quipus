@@ -1,0 +1,15 @@
+# Marcia Ascher (2005). How Can Spin, Ply, and Knot Direction Contribute to Understanding the Quipu Code?
+
+- **Referencia:** *Latin American Antiquity* 16(1): 99-111; DOI 10.2307/30042488.
+- **Tipo / acceso:** artículo; **solo resumen**. Sin versión OA (Unpaywall closed). Ficha limitada al resumen de OpenAlex.
+- **Pregunta u objetivo:** evaluar si la torsión (*spin*), el cableado (*ply*) y la dirección de los nudos aportan información para entender el código del quipu.
+- **Corpus y datos:** **59 quipus** "bien descritos" para los cuales recientemente se había hecho disponible la información de spin, ply y dirección de nudo. No se indican procedencias ni números KH/UR/AS en el resumen.
+- **Métodos:** examen detallado de colores, colocación y espaciado de cordeles, y tipos/posiciones de nudos; análisis de la uniformidad de spin, ply y dirección de nudo en el contexto de la lógica de cada quipu; discusión individual de los casos con dirección de nudo mixta.
+- **Hallazgos principales:** salvo **tres** quipus en los que el cordel principal difiere de los demás, **spin y ply son uniformes** en todos los cordeles de un quipu. Para la gran mayoría (**~81 %**), la **dirección de nudo también es uniforme** en todo el quipu; el **19 %** restante (dirección mixta) se presenta y discute caso por caso, y en ellos la dirección de nudo se conforma a la lógica global del quipu y juega un papel en ella.
+- **Afirmaciones sobre el significado o desciframiento y nivel de evidencia:** **demostrado (descriptivo)** para la uniformidad; **apoyado** para la idea de que la dirección de nudo participa en la lógica del quipu. Conclusión negativa importante: spin, ply y dirección de nudo **no** se eligen cordel por cordel y **no** sirven para distinguir datos cuantitativos de no cuantitativos.
+- **Limitaciones y críticas:** muestra de sólo 59 quipus y datos de dirección de nudo recién disponibles; los porcentajes se refieren a esa submuestra. El resumen no reporta pruebas de significación ni un modelo nulo; sin embargo, los conteos (tres quipus, 81 %/19 %) son explícitos.
+- **Relación con otros trabajos:** es la obra que Medrano y Khosla (2024) toman como punto de partida explícito para generalizar las "relaciones de Ascher" a un corpus de 650 quipus. Se relaciona con Urton (2003), que hace de la torsión/ply/dirección una base del código binario: Ascher matiza ese optimismo.
+- **Relevancia para este proyecto:** resultado directamente replicable en el OKR/KDB: comprobar la uniformidad de spin/ply y la proporción de quipus con dirección de nudo mixta. Es un **control necesario** frente a hipótesis de codificación binaria: los rasgos de torsión/dirección parecen mayormente uniformes, no variables-significativas.
+- **Citas clave:**
+  - "for these quipus, except for three in which the main cord differs from the other cords, spin and ply are uniform for all the cords on a quipu." (resumen).
+  - "It is clear that spin, ply, and knot directionality ... do not serve to distinguish between quantitative and non-quantitative data." (resumen).

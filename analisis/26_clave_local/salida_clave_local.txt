@@ -1,0 +1,155 @@
+== §5 prueba principal (mismo investigador; nulo: etiquetas de archivo permutadas dentro de investigador; sin UR053 ni Incahuasi) ==
+  R1 incondicional                                        T = +0.0153  p = 0.2428   [AS: 0.135 (192) vs 0.135 (1824); HP: 0.107 (28) vs 0.053 (38); UR: 0.148 (122) vs 0.117 (1526)]
+  R2 incondicional                                        T = +0.0074  p = 0.0202   [AS: 0.018 (113) vs 0.003 (1427); HP: 0.000 (21) vs 0.000 (34); UR: 0.000 (67) vs 0.003 (1417)]
+-- secundarias --
+  R1 condicional (pares que comparten patrón)             T = +0.0106  p = 0.3262   [AS: 0.168 (155) vs 0.165 (1497); HP: 0.107 (28) vs 0.095 (21); UR: 0.158 (114) vs 0.137 (1306)]
+  R1 incondicional, k>=3                                  T = +0.0060  p = 0.1993   [AS: 0.021 (192) vs 0.016 (1824); HP: 0.000 (28) vs 0.026 (38); UR: 0.025 (122) vs 0.009 (1526)]
+  R1 condicional, k>=3                                    T = +0.0127  p = 0.2587   [AS: 0.054 (74) vs 0.042 (718); HP: 0.000 (15) vs 0.071 (14); UR: 0.075 (40) vs 0.030 (434)]
+  R1 incondicional, estratos con investigadores cruzados  T = +0.0116  p = 0.2712   [AS: 0.135 (192) vs 0.135 (1824); AS-HP: 0.000 (3) vs 0.116 (764); AS-UR: 0.134 (134) vs 0.127 (3576); HP: 0.107 (28) vs 0.053 (38); HP-UR: 0.000 (2) vs 0.110 (694); UR: 0.148 (122) vs 0.117 (1526)]
+  R1 incondicional, partición por sitio (Ica, Pachacamac enteros) T = +0.0186  p = 0.1973   [AS: 0.144 (209) vs 0.134 (1807); HP: 0.107 (28) vs 0.053 (38); UR: 0.144 (125) vs 0.118 (1523)]
+  R1 incondicional, CON UR053 (comparación con 22)        T = +0.0252  p = 0.1447   [AS: 0.135 (192) vs 0.135 (1824); HP: 0.107 (28) vs 0.053 (38); UR: 0.191 (131) vs 0.135 (1816)]
+  R2 condicional (pares que comparten patrón)             T = +0.0364  p = 0.0493   [AS: 0.125 (16) vs 0.017 (236); HP: 0.000 (11) vs 0.000 (2); UR: 0.000 (15) vs 0.013 (298)]
+  R2 incondicional, k>=3                                  T = +0.0083  p = 0.0089   [AS: 0.018 (113) vs 0.002 (1427); HP: 0.000 (21) vs 0.000 (34); UR: 0.000 (67) vs 0.001 (1417)]
+  R2 condicional, k>=3                                    T = +0.0415  p = 0.0188   [AS: 0.133 (15) vs 0.013 (231); HP: 0.000 (11) vs 0.000 (2); UR: 0.000 (15) vs 0.007 (292)]
+  R2 incondicional, estratos con investigadores cruzados  T = +0.0030  p = 0.0901   [AS: 0.018 (113) vs 0.003 (1427); AS-HP: 0.000 (3) vs 0.000 (612); AS-UR: 0.000 (142) vs 0.003 (2936); HP: 0.000 (21) vs 0.000 (34); HP-UR: 0.000 (2) vs 0.003 (603); UR: 0.000 (67) vs 0.003 (1417)]
+  R2 incondicional, partición por sitio (Ica, Pachacamac enteros) T = +0.0062  p = 0.0305   [AS: 0.015 (134) vs 0.003 (1406); HP: 0.000 (21) vs 0.000 (34); UR: 0.000 (73) vs 0.003 (1411)]
+  R2 incondicional, CON UR053 (comparación con 22)        T = +0.0074  p = 0.0194   [AS: 0.018 (113) vs 0.003 (1427); HP: 0.000 (21) vs 0.000 (34); UR: 0.000 (67) vs 0.003 (1417)]
+  R3 bandas (s = -|dif|)                                  T = +0.0603  p = 0.0002   [AS: -0.245 (696) vs -0.258 (11368); HP: -0.112 (308) vs -0.289 (820); UR: -0.211 (957) vs -0.268 (22466)]
+  R3 cabecera (s = -|dif|)                                T = -0.0040  p = 0.5918   [AS: -0.418 (353) vs -0.396 (6430); HP: -0.443 (174) vs -0.412 (421); UR: -0.349 (644) vs -0.362 (14569)]
+
+== control positivo: UR053A-E como único archivo (resto singleton) ==
+  R1: miembros de UR053 elegibles ['UR053A', 'UR053B', 'UR053C', 'UR053D', 'UR053E']
+  R1 control UR053                                        T = +0.6421  p = 0.0008   [UR: 0.778 (9) vs 0.136 (1938)]
+  R1 control UR053, condicional                           T = +0.6219  p = 0.0042   [UR: 0.778 (9) vs 0.156 (1687)]
+  R2: miembros de UR053 elegibles []
+  R2 control UR053                                        T = +nan  p = nan   []
+  R2 control UR053, condicional                           T = +nan  p = nan   []
+
+== §7 Incahuasi como único archivo ==
+  R1: miembros elegibles 18 ({'UR': 15, 'JC': 3})
+  R1 Incahuasi, mismo investigador                        T = -0.0452  p = 0.8696   [JC: 0.000 (3) vs nan (0); UR: 0.059 (102) vs 0.104 (2518)]
+  R1 Incahuasi, con estrato UR-JC                         T = -0.0394  p = 0.8721   [JC: 0.000 (3) vs nan (0); JC-UR: 0.089 (45) vs 0.115 (174); UR: 0.059 (102) vs 0.104 (2518)]
+    pares dentro de Incahuasi UR-UR: 102, comparten 0.76, concuerdan 0.059
+    pares dentro de Incahuasi JC-JC: 3, comparten 0.33, concuerdan 0.000
+    pares dentro de Incahuasi UR-JC: 45, comparten 0.58, concuerdan 0.089
+  R2: miembros elegibles 19 ({'UR': 15, 'JC': 4})
+  R2 Incahuasi, mismo investigador                        T = +0.0076  p = 0.0207   [JC: 0.000 (6) vs nan (0); UR: 0.010 (102) vs 0.002 (2309)]
+  R2 Incahuasi, con estrato UR-JC                         T = +0.0048  p = 0.021   [JC: 0.000 (6) vs nan (0); JC-UR: 0.000 (60) vs 0.000 (220); UR: 0.010 (102) vs 0.002 (2309)]
+    pares dentro de Incahuasi UR-UR: 102, comparten 0.55, concuerdan 0.010
+    pares dentro de Incahuasi JC-JC: 6, comparten 0.00, concuerdan 0.000
+    pares dentro de Incahuasi UR-JC: 60, comparten 0.18, concuerdan 0.000
+
+== resumen de pruebas ==
+                                                             prueba     familia       T       p  holm_familia  bh_todas
+0                                                  R1 incondicional    primaria  0.0153  0.2428        0.2428    0.3616
+1                                                  R2 incondicional    primaria  0.0074  0.0202        0.0404    0.0560
+2                       R1 condicional (pares que comparten patrón)  secundaria  0.0106  0.3262        1.0000    0.4120
+3                                            R1 incondicional, k>=3  secundaria  0.0060  0.1993        1.0000    0.3189
+4                                              R1 condicional, k>=3  secundaria  0.0127  0.2587        1.0000    0.3616
+5            R1 incondicional, estratos con investigadores cruzados  secundaria  0.0116  0.2712        1.0000    0.3616
+6   R1 incondicional, partición por sitio (Ica, Pachacamac enteros)  secundaria  0.0186  0.1973        1.0000    0.3189
+7                  R1 incondicional, CON UR053 (comparación con 22)  referencia  0.0252  0.1447        0.1447    0.2671
+8                       R2 condicional (pares que comparten patrón)  secundaria  0.0364  0.0493        0.3944    0.1076
+9                                            R2 incondicional, k>=3  secundaria  0.0083  0.0089        0.0979    0.0534
+10                                             R2 condicional, k>=3  secundaria  0.0415  0.0188        0.1880    0.0560
+11           R2 incondicional, estratos con investigadores cruzados  secundaria  0.0030  0.0901        0.6307    0.1802
+12  R2 incondicional, partición por sitio (Ica, Pachacamac enteros)  secundaria  0.0062  0.0305        0.2745    0.0732
+13                 R2 incondicional, CON UR053 (comparación con 22)  referencia  0.0074  0.0194        0.0388    0.0560
+14                                           R3 bandas (s = -|dif|)  secundaria  0.0603  0.0002        0.0024    0.0048
+15                                         R3 cabecera (s = -|dif|)  secundaria -0.0040  0.5918        1.0000    0.7102
+16                                                 R1 control UR053     control  0.6421  0.0008        0.0032    0.0096
+17                                    R1 control UR053, condicional     control  0.6219  0.0042        0.0126    0.0336
+18                                                 R2 control UR053     control     NaN     NaN        0.0126    1.0000
+19                                    R2 control UR053, condicional     control     NaN     NaN        0.0126    1.0000
+20                                 R1 Incahuasi, mismo investigador   incahuasi -0.0452  0.8696        1.0000    0.9514
+21                                  R1 Incahuasi, con estrato UR-JC   incahuasi -0.0394  0.8721        1.0000    0.9514
+22                                 R2 Incahuasi, mismo investigador   incahuasi  0.0076  0.0207        0.0828    0.0560
+23                                  R2 Incahuasi, con estrato UR-JC   incahuasi  0.0048  0.0210        0.0828    0.0560
+
+== detalle por archivo (cada archivo como único etiquetado; mismo investigador; B = 1999) ==
+     R                                                      archivo  n_quipus investigadores  n_pares_dentro  concuerdan_dentro       T       p                               patrones_cerca      bh   holm
+10  R1                                                        UR053         5             UR               9                  7  0.6421  0.0015  {'AB': 5, 'ABCABC': 1, 'ABCA': 1, 'ABC': 1}  0.0240  0.024
+3   R1                                                   Leymebamba         9             UR              33                  7  0.0945  0.0895                {'AB': 6, 'ABB': 1, 'ABA': 1}  0.6480  1.000
+17  R1                                       inv_consec|UR232+UR233         2             UR               1                  1  0.8810  0.1215                                    {'AB': 1}  0.6480  1.000
+9   R1                                        Puruchuco-Huaquerones        10             UR              43                  6  0.0205  0.2885                         {'AB': 5, 'ABCD': 1}  0.8366  1.000
+0   R1                                                    Armatambo         3             UR               3                  1  0.2142  0.3115                                    {'AB': 1}  0.8366  1.000
+13  R1                  inv_consec|AS132+AS133+UR1106+UR1107+UR1124         3             AS               3                  1  0.1982  0.3455                                    {'AB': 1}  0.8366  1.000
+12  R1   inv_consec|AS074+AS076+AS077+AS079+AS080+AS081+AS082+AS083         3             AS               3                  1  0.1982  0.3660                         {'AB': 1, 'ABBC': 1}  0.8366  1.000
+8   R1                          Pachacamac|museodesitiodepachacamac         8             HP              28                  3  0.0545  0.4190                                    {'AB': 3}  0.8380  1.000
+1   R1                                                   Ica|berlin        21          AS/UR             156                 21 -0.0009  0.5020               {'AB': 18, 'ABC': 2, 'ABB': 1}  0.8924  1.000
+7   R1                                            Pachacamac|berlin        17          AS/UR              64                  6 -0.0335  0.7800                                    {'AB': 6}  1.0000  1.000
+2   R1                                                    Incahuasi        18          JC/UR             105                  6 -0.0452  0.8790                                    {'AB': 6}  1.0000  1.000
+4   R1                                                 Nazca-Berlin         6       AS/HP/UR               4                  0 -0.1316  1.0000                                           {}  1.0000  1.000
+5   R1                                                 Nazca|berlin         2             AS               1                  0 -0.1355  1.0000                                           {}  1.0000  1.000
+6   R1                              Nazca|museumofworldculturegoteb         2             UR               1                  0 -0.1196  1.0000                                           {}  1.0000  1.000
+11  R1                                      inv_consec|AS048+UR1049         2             AS               1                  0 -0.1355  1.0000                                           {}  1.0000  1.000
+15  R1  inv_consec|UR086+UR094+UR095+UR096+UR097+UR098+UR099+UR1...         2             UR               1                  0 -0.1196  1.0000                                           {}  1.0000  1.000
+14  R1  inv_consec|AS198+AS199+AS200+UR166+UR170+UR171+UR172+UR1...         2          AS/UR               0                  0     NaN     NaN                                           {}     NaN    NaN
+16  R1                    inv_consec|UR1084+UR189+UR190+UR191+UR192         2          AS/UR               0                  0     NaN     NaN                                           {}     NaN    NaN
+20  R2                                                    Incahuasi        19          JC/UR             108                  1  0.0076  0.0220                                    {'P5': 1}  0.2805  0.374
+19  R2                                                   Ica|berlin        20          AS/UR             106                  2  0.0161  0.0330                           {'P3': 1, 'P4': 1}  0.2805  0.528
+18  R2                                                    Armatambo         3             UR               3                  0 -0.0027  1.0000                                           {}  1.0000  1.000
+21  R2                                                   Leymebamba         3             UR               3                  0 -0.0027  1.0000                                           {}  1.0000  1.000
+22  R2                                                 Nazca-Berlin         6       AS/HP/UR               4                  0 -0.0036  1.0000                                           {}  1.0000  1.000
+24  R2                                            Pachacamac|berlin        14          AS/UR              43                  0 -0.0032  1.0000                                           {}  1.0000  1.000
+25  R2                          Pachacamac|museodesitiodepachacamac         7             HP              21                  0  0.0000  1.0000                                           {}  1.0000  1.000
+26  R2                                        Puruchuco-Huaquerones         4             UR               6                  0 -0.0027  1.0000                                           {}  1.0000  1.000
+27  R2                                                        Santa         2             UR               1                  0 -0.0027  1.0000                                           {}  1.0000  1.000
+28  R2  inv_consec|AS059+AS060+AS061_MA036+AS062+AS063+AS063B+AS...         3             AS               3                  0 -0.0039  1.0000                                           {}  1.0000  1.000
+29  R2   inv_consec|AS074+AS076+AS077+AS079+AS080+AS081+AS082+AS083         2             AS               1                  0 -0.0039  1.0000                                           {}  1.0000  1.000
+30  R2  inv_consec|AS198+AS199+AS200+UR166+UR170+UR171+UR172+UR1...         4          AS/UR               3                  0 -0.0027  1.0000                                           {}  1.0000  1.000
+31  R2                     inv_consec|UR045+UR046+UR047+UR048+UR049         2             UR               1                  0 -0.0027  1.0000                                           {}  1.0000  1.000
+33  R2  inv_consec|UR086+UR094+UR095+UR096+UR097+UR098+UR099+UR1...         2             UR               1                  0 -0.0027  1.0000                                           {}  1.0000  1.000
+34  R2  inv_consec|UR117A+UR117B+UR117C+UR117D+UR118+UR119+UR125...         3             UR               3                  0 -0.0027  1.0000                                           {}  1.0000  1.000
+35  R2                                       inv_consec|UR141+UR149         2             UR               1                  0 -0.0027  1.0000                                           {}  1.0000  1.000
+36  R2                                       inv_consec|UR232+UR233         2             UR               1                  0 -0.0027  1.0000                                           {}  1.0000  1.000
+23  R2                                                 Nazca|berlin         2          AS/UR               0                  0     NaN     NaN                                           {}     NaN    NaN
+32  R2                              inv_consec|UR056A+UR056B+UR056C         2             UR               0                  0     NaN     NaN                                           {}     NaN    NaN
+
+== §8 refutación con la representación invariante (cualquier investigador) ==
+  R1     dentro (sin UR053)                  : 8/216 pares de quipus concuerdan (0.037; nulo 6.7, p = 0.3558) | criterio individual 3 (nulo 2.37, p95 5, p = 0.444; pares de sitios 3)
+  R1     dentro (sin UR053 ni Incahuasi)     : 8/187 pares de quipus concuerdan (0.043; nulo 6.6, p = 0.3383) | criterio individual 3 (nulo 2.43, p95 5, p = 0.454; pares de sitios 3)
+  R1     estricto                            : 44/1418 pares de quipus concuerdan (0.031; nulo 41.9, p = 0.3718) | criterio individual 19 (nulo 18.66, p95 25, p = 0.517; pares de sitios 17)
+  R1     estricto, mismo investigador        : 12/380 pares de quipus concuerdan (0.032; nulo 10.4, p = 0.3428) | criterio individual 5 (nulo 4.21, p95 7, p = 0.412; pares de sitios 4)
+  R1     estricto, investigadores distintos  : 32/1038 pares de quipus concuerdan (0.031; nulo 31.6, p = 0.4928) | criterio individual 14 (nulo 14.28, p95 20, p = 0.582; pares de sitios 13)
+  R2     dentro (sin UR053)                  : 3/127 pares de quipus concuerdan (0.024; nulo 0.9, p = 0.04348) | criterio individual 1 (nulo 0.71, p95 2, p = 0.56; pares de sitios 1)
+  R2     dentro (sin UR053 ni Incahuasi)     : 2/60 pares de quipus concuerdan (0.033; nulo 0.4, p = 0.03998) | criterio individual 1 (nulo 0.22, p95 1, p = 0.212; pares de sitios 1)
+  R2     estricto                            : 5/764 pares de quipus concuerdan (0.007; nulo 4.5, p = 0.4713) | criterio individual 3 (nulo 1.71, p95 4, p = 0.23; pares de sitios 3)
+  R2     estricto, mismo investigador        : 0/255 pares de quipus concuerdan (0.000; nulo 2.2, p = 1) | criterio individual 0 (nulo 1.11, p95 3, p = 1; pares de sitios 0)
+  R2     estricto, investigadores distintos  : 5/509 pares de quipus concuerdan (0.010; nulo 2.3, p = 0.06347) | criterio individual 3 (nulo 0.59, p95 2, p = 0.0135; pares de sitios 3)
+  R1+R2  dentro (sin UR053)                  : 10/293 pares de quipus concuerdan (0.034; nulo 7.5, p = 0.2034) | criterio individual 3 (nulo 3.10, p95 6, p = 0.643; pares de sitios 3)
+  R1+R2  dentro (sin UR053 ni Incahuasi)     : 9/216 pares de quipus concuerdan (0.042; nulo 7.0, p = 0.2574) | criterio individual 3 (nulo 2.58, p95 5, p = 0.506; pares de sitios 3)
+  R1+R2  estricto                            : 49/1962 pares de quipus concuerdan (0.025; nulo 46.4, p = 0.3423) | criterio individual 22 (nulo 20.25, p95 27, p = 0.37; pares de sitios 19)
+  R1+R2  estricto, mismo investigador        : 12/592 pares de quipus concuerdan (0.020; nulo 12.6, p = 0.6522) | criterio individual 5 (nulo 5.43, p95 9, p = 0.66; pares de sitios 4)
+  R1+R2  estricto, investigadores distintos  : 37/1370 pares de quipus concuerdan (0.027; nulo 33.8, p = 0.2814) | criterio individual 17 (nulo 14.97, p95 20, p = 0.311; pares de sitios 16)
+
+  pares estrictos que cumplen el criterio individual:
+       R patron       A       B invA invB                                                procA                                                   procB      d  p_colA  p_colB
+31    R1    ABC   AS075   MM001   AS   MM                                           Pachacamac                                                 Huacho?  0.250   0.000   0.000
+124   R1    ABC   AS075   UR289   AS   UR                                           Pachacamac                              Armatambo, Huaca San Pedro  0.333   0.000   0.006
+310   R1    ABC   AS178   JC001   AS   JC                                            near Lima                                               Incahuasi  0.218   0.000   0.004
+326   R1    ABC   AS178  UR1088   AS   AS                                            near Lima                                                  Huacho  0.293   0.000   0.000
+635   R1    ABC   HP017   UR289   HP   UR                                           Pachacamac                              Armatambo, Huaca San Pedro  0.395   0.000   0.006
+916   R1    ABA   HP039  UR1121   HP   AS                                            Costa Sur                                              Pachacamac  0.101   0.002   0.000
+926   R1    ABA   HP039  UR1149   HP   AS                                            Costa Sur                                                 Ocucaje  0.197   0.002   0.000
+967   R1    ABC   JC001  UR1088   JC   AS                                            Incahuasi                                                  Huacho  0.392   0.004   0.000
+1083  R1    AAB  KH0049  UR1140   KH   AS                                            Costa Sur                                                   Nazca  0.402   0.000   0.000
+1100  R1   AAAB  KH0049  UR1146   KH   AS                                            Costa Sur                                                     Ica  0.405   0.006   0.005
+1160  R1    ABC  KH0081   UR006   KH   UR                   Monte de Cacatilla, Valle de Nazca                                              Leymebamba  0.370   0.000   0.005
+1162  R1    AAB  KH0081   UR006   KH   UR                   Monte de Cacatilla, Valle de Nazca                                              Leymebamba  0.326   0.006   0.004
+1325  R1    AAB  KH0227  UR1109   KH   AS  Huaura Valley, near Lima, on Santa Rosalia Hacienda                                                     Ica  0.332   0.006   0.000
+1492  R1    ABC   MM001   UR289   MM   UR                                              Huacho?                              Armatambo, Huaca San Pedro  0.096   0.000   0.006
+1733  R1    ABB   UR003  UR1136   UR   AS                                           Leymebamba                                                   Nazca  0.382   0.002   0.002
+2078  R1    ABC   UR006   UR199   UR   UR                                           Leymebamba                                              Pachacamac  0.363   0.005   0.000
+2089  R1    AAB   UR006   UR218   UR   UR                                           Leymebamba                                              Pachacamac  0.225   0.004   0.006
+2290  R1    ABC   UR064   UR264   UR   UR                                          Huaquerones                                               Incahuasi  0.361   0.001   0.001
+2691  R1    AAB  UR1131   UR190   AS   UR                                           Pachacamac  Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)  0.354   0.000   0.000
+3104  R1    ABC   UR208   UR269   UR   UR                                           Pachacamac                                               Incahuasi  0.195   0.000   0.000
+3702  R2     P4   UR048  UR1143   UR   AS                             Pueblo Libre, Lima, Peru                                                     Ica  0.266   0.000   0.000
+3704  R2     P4   UR048  UR1149   UR   AS                             Pueblo Libre, Lima, Peru                                                 Ocucaje  0.268   0.000   0.000
+3843  R2     P3  UR1099  UR267A   AS   UR                                           Pachacamac                                               Incahuasi  0.429   0.000   0.000
+
+  patrones k>=3 con d<=d* en pares estrictos (top): {'ABC': 18, 'ABB': 11, 'AAB': 8, 'ABA': 6, 'P3': 2, 'P4': 2, 'AAAB': 1, 'P5': 1, 'ABCA': 1}
+  REGLA R1: (a) False [estricto 0.031, p=0.372 vs dentro 0.037]; (b) False [19 pares, 17 sitios, p95 25] -> no refuta
+  REGLA R2: (a) False [estricto 0.007, p=0.471 vs dentro 0.024]; (b) False [3 pares, 3 sitios, p95 4] -> no refuta
+  REGLA R1+R2: (a) False [estricto 0.025, p=0.342 vs dentro 0.034]; (b) False [22 pares, 19 sitios, p95 27] -> no refuta

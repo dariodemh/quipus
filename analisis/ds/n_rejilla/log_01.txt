@@ -1,0 +1,53 @@
+aristas por tipo:
+ tipo
+celda_P         45
+celda_S         45
+copia           28
+cabecera        23
+componente_A     3
+quipus en el grafo: ['UR255', 'UR266', 'UR267A', 'UR269', 'UR270', 'UR273A', 'UR274A', 'UR275', 'UR278']
+
+componentes: 1547 | tam >=2: 95 | mayor: 3 | media tam>=2: 2.51
+
+componentes con >=2 aristas:
+      n_aristas      tipo       quipus
+comp                                  
+256           3  cabecera  UR266,UR275
+681           2   celda_P        UR278
+680           2   celda_P        UR278
+683           2   celda_P        UR278
+684           2   celda_P        UR278
+685           2   celda_P        UR278
+682           2   celda_P        UR278
+687           2   celda_P        UR278
+688           2   celda_P        UR278
+689           2   celda_P        UR278
+709           2   celda_P        UR278
+710           2   celda_P        UR278
+
+Consistencia de atributos (permutacion dentro de quipu y nivel):
+        tipo  atributo  n  aciertos  esperado  razon      p   q_BH
+    cabecera     color 23        15    4.7676 3.1462 0.0002 0.0020
+    cabecera color_fam 23        15    4.8160 3.1146 0.0002 0.0020
+componente_A     color  3         3    0.6030 4.9751 0.0054 0.0310
+componente_A color_fam  3         3    0.5778 5.1921 0.0062 0.0310
+     celda_P     color 45        33   32.0884 1.0284 0.4099 1.0000
+     celda_P color_fam 45        33   32.1396 1.0268 0.4253 1.0000
+    cabecera     union 23         5    5.6232 0.8892 0.8428 1.0000
+       copia color_fam 28         4    6.3546 0.6295 0.9446 1.0000
+       copia     color 28         4    6.4066 0.6244 0.9450 1.0000
+componente_A     union  3         3    2.9648 1.0119 0.9648 1.0000
+     celda_P   torsion 45        45   45.0000 1.0000 1.0000 1.0000
+     celda_P     union 45         0    0.2802 0.0000 1.0000 1.0000
+     celda_S   torsion 45        45   45.0000 1.0000 1.0000 1.0000
+     celda_S     union 45         0    0.0000 0.0000 1.0000 1.0000
+    cabecera   torsion 23        23   23.0000 1.0000 1.0000 1.0000
+     celda_S     color 45         0    3.8916 0.0000 1.0000 1.0000
+componente_A   torsion  3         3    3.0000 1.0000 1.0000 1.0000
+     celda_S color_fam 45         0    4.3422 0.0000 1.0000 1.0000
+       copia     union 28         0    0.0000 0.0000 1.0000 1.0000
+       copia   torsion 28        28   28.0000 1.0000 1.0000 1.0000
+
+Nivel de los pares de celda:
+celda_P nivel UR278: {0: 45} | nivel UR270: {0: 45}
+celda_S nivel UR278: {0: 45} | nivel UR270: {1: 45}

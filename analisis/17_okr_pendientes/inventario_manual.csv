@@ -1,0 +1,25 @@
+carpeta,archivo,tipo,kh,bytes,tiene_texto,que_parece_contener,requiere_transcripcion_manual,nota
+KH0002_0010,DB input for AS1 thorugh AS9.txt,txt,KH0002-KH0010,509016,sí (texto plano),Sentencias INSERT de ascher_cord_color para AS001-AS009 (carga de colores por cordon),no,Entrada SQL de la base AS1-AS9.db; no es transcripcion
+KH0631_0632,C14 date for SH001.jpg,jpg,KH0631,361557,no (imagen),Foto/registro de la datacion C14 de SH001,no,La fecha (1498 BP +/-27) figura en el docx
+KH0631_0632,SH 001 upper half with ruler & greyscale.jpeg,jpg,KH0631,708752,no (imagen),Fotografia de la mitad superior de SH001 con regla y escala de grises,no,Solo documentacion fotografica
+KH0631_0632,SH001 Description 2023.docx,docx,KH0631,17891,sí (4133 caracteres),"Descripcion de Sabine Hyland (2023): khipu del Horizonte Tardio, 22 colgantes sin subsidiarias, C14 1498 BP +/-27, procedencia desconocida",no,Texto extraido; el xlsx SH001 ya se convierte a cuerdas_extra.csv
+KH0631_0632,(sin archivos),-,KH0632,,no aplica,No hay ningun archivo de datos para SH002 en la carpeta,sí,Requiere pedir datos o transcribir de fuente externa; OKR: SH002 = SA005
+KH0638_0652,KHIPU ENLAZADO-MNAAHP.15.xlsx,xlsx,KH0652,19854,sí (hojas de datos),"Hojas primary_cord y 'wrapped threads' (hilos envueltos W1..), sin hoja pendant_cords",sí,Formato distinto: no genera cuerdas; no se convierte
+KH0638_0652,Croquis KhipusEnlazadosEnglish.jpg,jpg,KH0638-KH0652,2637485,no (imagen),Croquis del conjunto de 15 quipus enlazados (disposicion sobre el marco),sí,Los enlaces entre quipus no aparecen en los xlsx; hay que transcribir el croquis
+KH0638_0652,Description RT 16905 MNAAHP.docx,docx,KH0638-KH0652,506654,sí (4883 caracteres),"Descripcion general del conjunto RT-16905 (MNAAHP), sep. 2023, Chirinos, Ghezzi, Alvarez; diagrama y 2 tablas",no,Texto extraido; tablas no transcritas
+KH0674_0675,PC.WBC.2016.072.pdf,pdf,KH0674,10664054,no (sin capa de texto),Documento escaneado de Dumbarton Oaks (PC.WBC.2016.072 = UR297); sin capa de texto,sí,Escaneo de imagenes; requiere OCR o transcripcion manual
+KH0674_0675,PC.WBC.2016.071.pdf,pdf,KH0675,5157215,no (sin capa de texto),Documento escaneado de Dumbarton Oaks (PC.WBC.2016.071 = UR298); sin capa de texto,sí,Escaneo de imagenes; requiere OCR o transcripcion manual
+KH0676,JS01_Strauss_Harvard_Senior_Thesis.xlsx,xlsx,KH0676,20547,sí (hojas de datos),"Exportacion KDB (1/2/2019), hoja 'Pendant Detail' con 141 filas de cuerdas en notacion sin columna de valor",sí,No convertido: la regla de la hoja ('long knots = their value in parentheses') es ambigua; decidir decodificacion
+KH0676,Struass_Original_Notes.pdf,pdf,KH0676,13132363,no (sin capa de texto),Notas originales de Strauss (tesis Harvard) sobre JS01; sin capa de texto,sí,Escaneo de imagenes; requiere transcripcion manual
+KH0702,R4303.xlsx,xlsx,KH0702,34360,sí (hojas de datos),"Formato KFG (FitzPatrick), Museo Amano R4303",no,Convertido a cuerdas_extra.csv
+KH0653_0663,JC024_record.jpg,jpg,KH0653,3194690,no (imagen),Ficha de registro (segun el nombre),sí,Una ficha por quipu
+KH0653_0663,JC025_record.jpg,jpg,KH0654,3259193,no (imagen),Ficha de registro (segun el nombre),sí,Una ficha por quipu
+KH0653_0663,JC026_record.jpg,jpg,KH0655,2998239,no (imagen),Ficha de registro (segun el nombre),sí,Una ficha por quipu
+KH0653_0663,JC027_record.jpg,jpg,KH0656,3164384,no (imagen),Ficha de registro (segun el nombre),sí,Una ficha por quipu
+KH0653_0663,JC028_record.jpg,jpg,KH0657,3305253,no (imagen),Ficha de registro (segun el nombre),sí,Una ficha por quipu
+KH0653_0663,JC029_record.jpg,jpg,KH0658,3182418,no (imagen),Ficha de registro (segun el nombre),sí,Una ficha por quipu
+KH0653_0663,JC030_record.jpg,jpg,KH0659,3231712,no (imagen),Ficha de registro (segun el nombre),sí,Una ficha por quipu
+KH0653_0663,JC031_record.jpg,jpg,KH0660,3160123,no (imagen),Ficha de registro (segun el nombre),sí,Una ficha por quipu
+KH0653_0663,JC032_record.jpg,jpg,KH0661,3214790,no (imagen),Ficha de registro (segun el nombre),sí,Una ficha por quipu
+KH0653_0663,JC033_record.jpg,jpg,KH0662,3110879,no (imagen),Ficha de registro (segun el nombre),sí,Una ficha por quipu
+KH0653_0663,JC034_record.jpg,jpg,KH0663,3294390,no (imagen),Ficha de registro (segun el nombre),sí,Una ficha por quipu

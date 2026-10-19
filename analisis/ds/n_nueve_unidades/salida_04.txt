@@ -1,0 +1,17 @@
+n = 24; SD por columna (clr): [0.189, 0.254, 0.257, 0.159, 0.218, 0.2, 0.326, 0.485, 0.208]
+SD media = 0.255
+umbral calibrado (p95 de 1 000 réplicas H0 en el mismo diseño) = 0.291
+(a) 4 pares con r intra-par = 0.0: potencia = 0.037
+(a) 4 pares con r intra-par = 0.2: potencia = 0.040
+(a) 4 pares con r intra-par = 0.3: potencia = 0.048
+(a) 4 pares con r intra-par = 0.4: potencia = 0.085
+(a) 4 pares con r intra-par = 0.5: potencia = 0.140
+(a) 4 pares con r intra-par = 0.6: potencia = 0.497
+(a) 4 pares con r intra-par = 0.7: potencia = 0.868
+umbrales calibrados: R2 p95 = 0.615; extremos p05 = 3
+(b) perfil coseno amplitud 0.1 (rango 0.2 en log): potencia R2 = 0.792; potencia extremos<=3 = 0.492
+(b) perfil coseno amplitud 0.2 (rango 0.4 en log): potencia R2 = 1.000; potencia extremos<=3 = 0.820
+(b) perfil coseno amplitud 0.4 (rango 0.8 en log): potencia R2 = 1.000; potencia extremos<=3 = 0.980
+(b) perfil coseno amplitud 0.6 (rango 1.2 en log): potencia R2 = 1.000; potencia extremos<=3 = 0.998
+(b) perfil coseno amplitud 0.8 (rango 1.6 en log): potencia R2 = 1.000; potencia extremos<=3 = 1.000
+(c) r(perfil fase1, fase2) = 0.533; nulo de particiones 0.892 (sd 0.059); p = 1

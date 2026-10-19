@@ -1,0 +1,32 @@
+{'UR063': 111, 'UR064': 71, 'UR066': 32, 'UR067': 32, 'UR068': 73, 'UR073': 74}
+UR066 UR067 posiciones iguales 27 de 32  valores>=5 iguales 9 de 11  nulo media 6.651 max 13
+UR064 UR068 posiciones iguales 35 de 71  valores>=5 iguales 5 de 22  nulo media 12.195 max 23
+UR066 [1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 6, 0, 1, 0, 19, 4, 3, 0, 22, 3, 9, 2, 156, 13, 12, 5, 2904, 133, 0, 40]
+UR067 [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 19, 4, 3, 0, 22, 3, 9, 2, 156, 13, 12, 0, 2904, 133, 161, 40]
+UR064 [1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 3, 0, 0, 0, 7, 2, 1, 0, 8, 1, 0, 1, 56, 5, 0, 1, 1212, 43, 64, 16, 2, 0, 1, 8, 1, 1, 0, 8, 1, 3, 1, 57, 5, 6, 2, 1236, 46, 57, 12, 1, 0, 0, 0, 3, 1, 1, 6, 1, 3, 0, 43, 3, 2, 0, 459, 44, 38, 0]
+UR068 [1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 3, 0, 0, 0, 8, 2, 1, 0, 8, 1, 3, 1, 56, 5, 4, 1, 1213, 43, 64, 17, 2, 0, 1, 0, 8, 1, 1, 0, 8, 1, 3, 1, 57, 5, 6, 2, 1236, 46, 59, 10, 1, 0, 0, 0, 3, 1, 1, 0, 6, 1, 3, 0, 43, 3, 2, 2, 459, 44, 39, 13]
+UR064 cuerdas con valor en las 16 primeras: [1, 8, 10, 14] ['1E(14.0,', '1E(15.5,', '1E(15.5,', '3L(18.0,']
+UR066 cuerdas con valor en las 16 primeras: [1, 7, 9, 13, 15] ['1E(20.5,', '1E(20.0,', '1E(19.0,', '6L(18.5,', '1E(18.0,']
+UR067 cuerdas con valor en las 16 primeras: [1, 5, 9, 15] ['1E(20.0,', '1E(18.0,', '1E(18.5,', '1E(17.0,']
+UR068 cuerdas con valor en las 16 primeras: [1, 8, 10, 14] ['1E(20.0,', '1E(20.5,', '1E(19.5,', '3L(19.0,']
+UR063 cuerdas con valor en las 16 primeras: [3, 5, 9, 12, 13, 14, 15] ['1E(20.5,', '2L(21.0,', '1E(21.5,', '1E(19.5,', '9L(20.5,', '1E(21.5,', '1E(21.5,']
+UR073 cuerdas con valor en las 16 primeras: [1, 2, 3, 4, 5, 6, 11, 14] ['9L(17.0,', '1E(18.0,', '1E(17.0,', '1S(4.5,Z', '1S(8.0,Z', '1E(19.5,', '1E(19.0,', '2L(19.0,']
+quipus con 3 nudos(valor1) exactamente en cuerdas 1,7,9 de las 12 primeras: ['UR066']
+patron 1,+6,+2 (cualquier inicio) entre las 14 primeras: []
+UR068 S1+S2+S3 vs UR067 cuerdas 13-32
+[(6, 0, 6), (0, 0, 0), (1, 1, 1), (0, 0, 0), (19, 19, 19), (4, 4, 4), (3, 3, 3), (0, 0, 0), (22, 22, 22), (3, 3, 3), (9, 9, 9), (2, 2, 2), (156, 156, 156), (13, 13, 13), (12, 12, 12), (5, 0, 5), (2908, 2904, 2904), (133, 133, 133), (162, 161, 0), (40, 40, 40)]
+exactas UR067 16 /20  UR066 18 /20; discrepancias UR067: [(6, 0), (5, 0), (2908, 2904), (162, 161)]
+de las 12 columnas con suma>=5 coinciden con UR067: 8
+nulo (permutar cada seccion de UR068): media 0.1072 max 2
+cuerdas>=100 en UR063 (indice 1-based): [17, 36, 54, 73, 93, 109] [127, 229, 148, 367, 157, 219] suma 1247  UR068 cuerda 50= 1236
+sumas columna UR063 (alineado por cuerda grande) [173, 7, 13, 3, 8, 2, 1, 0, 6, 4, 2, 2, 45, 17, 4, 2, 1247, 46, 44, 8]
+UR068 S2 (cuerdas 34-53)            [2, 0, 1, 0, 8, 1, 1, 0, 8, 1, 3, 1, 57, 5, 6, 2, 1236, 46, 59, 10]
+exactas 5 /20; con |dif|<=1: 8  (valores>=5 exactas: 2 de 9 )
+nulo (permutar UR063, alineacion fija): media exactas(>=5) 0.1466 P(>=obs) 0.0072
+{'UR063': 1439, 'UR064': 3475, 'UR066': 3335, 'UR067': 3485, 'UR068': 3501, 'UR073': 1147} UR063+UR073 2586
+--- extra
+UR063 UR073 LCS valores>=5: 8 de 22 15  nulo media 5.816666666666666 max 8
+UR064 UR068 LCS valores>=5: 16 de 22 23  nulo media 7.256666666666667 max 10
+UR066 UR067 LCS valores>=5: 9 de 11 10  nulo media 4.14 max 7
+UR063 y UR073: valores>=100 compartidos [148, 229]
+quipus con >=20 pendientes: 441  con exactamente 3 cuerdas de valor 1 y ninguna otra en las 12 primeras: 4 ['UR064', 'UR066', 'UR067', 'UR068']

@@ -1,0 +1,50 @@
+quipu,cuerda_o_bloque,color_base,color_foto,acuerdo,nota,dimension
+AS010,pendientes LB (~10),LB,marrón oscuro violáceo (flanco y centro),si,LB en OKR = 'deep yellowish brown' (oscuro); la letra L engaña,grueso
+AS010,pendientes W y W:LB (~14),W / W:LB,beige-tostado claro (lado derecho),si,orden izq/der de la foto no fijado: asignación por bloque,grueso
+AS010,g1 W:RG (4 pendientes),W:RG,sin torsión verde-gris distinguible,no_verificable,resolución 800 px,compuesto
+AS011,g0 pendientes (9),YB,marrón claro tostado,si,,grueso
+AS011,g0 subsidiarias (9),B,no se distinguen de YB,no_verificable,B (marrón amarillento medio) vs YB (más claro): diferencia no visible,fino
+AS011,g1 pendientes (6),YB,"tostado, igual que g0",si,,grueso
+AS011,cordón principal,(no registrado),"trenza gruesa de hilos gris-verdosos, tostado, marrón y casi negro",rasgo_no_registrado,cuerdas.csv no tiene color del cordón principal,compuesto
+AS012,g0 pendientes (9),MB,marrón oscuro,si,,grueso
+AS012,g0 MB (tono),MB,marrón oscuro/rojizo; podría ser MB o DB,parcial,tono absoluto no separable de DB,fino
+AS012,g1 pendientes (12),MB(0-7)/W,"parte alta oscura, resto tostado pálido",si,frontera de color a ~7 cm coincide en lo visible,borde
+AS012,g2 pendientes (23),W,"beige-grisáceo pálido, con motas",si,"'W' es ecru/gris, no blanco",grueso
+AS012,g4 pendientes (12),MB,"marrón oscuro, conjunto de ~12 cuerdas",si,,grueso
+AS012,g1->g2 y g4->g5,MB->W,paso de oscuro a pálido nítido,si,,borde
+AS012,subsidiarias YG,YG,"negro-azulado (cordón fino, anudado)",parcial,YG = verde grisáceo oscuro; sesgo azul de la diapositiva,grueso
+AS012,p41-p42,PK,no se ve rosa,no_verificable,,grueso
+AS012,"p18s2, p33s3",W:MB:YG,"cordón fino trenzado de tres colores (gris, marrón, azul-negro)",si,compuesto tricolor sí registrado,compuesto
+AS012,hilo atado,(no registrado),hilo azul oscuro enrollado en la unión de pendiente; nudo grande gris en el cordón principal,rasgo_no_registrado,,compuesto
+AS015,"g0 B,W,B",B / W,marrón oscuro / pálido,si,,grueso
+AS015,"g1 B,B,B,W,W,W",B->W,"oscuros a un lado, pálidos al centro",si,"borde plausible, orden no fijado",borde
+AS015,"g2 W:G, G, W:B",G,cordones negro-azulados a la derecha,parcial,G = verde oliva grisáceo oscuro en OKR; lo visto es casi negro-azul,grueso
+AS017,39 cuerdas,AB,marrón medio-oscuro homogéneo,si,homogeneidad coincide,grueso
+AS017,39 cuerdas (tono),AB,más oscuro que 'light brown',parcial,AB es el más claro de la serie marrón; en la foto parece medio,fino
+AS018,pendientes (9),W,gris-blanquecino,si,,grueso
+AS018,banda a 2.5-3 cm,RM,banda roja,si,color y posición coinciden,borde
+AS018,banda a 2.5-3 cm (naturaleza),RM como tramo de la pendiente,hilo rojo enrollado alrededor de pendiente blanca,no,la base lo codifica como segmento de color de la cuerda; es un hilo atado (envoltura),compuesto
+AS020,pendientes B (6),B,marrón medio,si,"B = marrón amarillento medio en OKR, no azul",grueso
+AS020,pendientes W (2),W,pálidos (2 a un lado),si,,grueso
+AS020,pendientes W:B (2),W:B,no se distingue torsión,no_verificable,,compuesto
+AS020,B (tono),B,marrón-cobrizo medio,parcial,,fino
+AS025,2 cuerdas,W,"beige-tostado, más oscuro que W de AS18",parcial,puede ser cast; ecru vs marrón claro,grueso
+AS212,pendientes B dominantes,B,dorado-tostado a marrón,si,cast amarillo de la foto,grueso
+AS212,"W (g1-g6, ~15)",W,cordones pálidos (izq.),si,,grueso
+AS212,B / MB / CB,B/MB/CB,no separables,no_verificable,,fino
+AS212,"GY, G, PK","GY,G,PK",no se ven colores distintivos,no_verificable,,grueso
+AS213,pendientes W (9),W,crema-amarillo claro (lado derecho),si,,grueso
+AS213,pendientes LB (9),LB,naranja-marrón (lado izq. y centro),si,,grueso
+AS213,subsidiarias BB,BB,tramos más oscuros que LB,si,orden LB<BB se ve,fino
+AS213,frontera W->LB (p9/p10),W->LB,cambio crema a naranja en el abanico,si,,borde
+AS213,W(0-5)/BB(5-19),W/BB,cordones con base clara y extremo oscuro,parcial,"visto en algunos, no en todos",compuesto
+AS214,W y W:LB,W,crema,si,,grueso
+AS214,LB,LB,naranja-dorado,si,,grueso
+AS214,LB:TG (4),LB:TG,cordones gris-pardo oscuros en extremos izq. y der.,parcial,"en la base son el 1er cordón de cada grupo, no los extremos",compuesto
+AS215,g0-g3 W (4),W,4 cordones pálidos sueltos a la izq.,si,,borde
+AS215,g4-g10 W:DB (19),W:DB,"mezcla tostado-marrón medio, sin cordones oscuros",si,a nivel grueso (marrón/pálido),grueso
+AS215,DB (tono),DB,ninguna cuerda oscura; marrón medio,no,DB (marrón profundo) no aparece; el hilo oscuro torcido se lee como medio,fino
+AS069,77% W (1409/1831),W,masa gris-beige pálida con vetas oscuras,si,,grueso
+AS069,"W:FB, W:KB, W-KB",W:FB,cuerdas torcidas claro-oscuro tipo barber pole (en fotos AS70),si,la torsión bicolor existe y se codifica con ':',compuesto
+AS071,"DB, KB, BS, W (bloque)",DB/KB/BS,marrón oscuro y naranja-pardo con hilos claros,si,asociación foto AS69-71assoc-quipu incierta,grueso
+AS071,DB vs KB vs BS,DB/KB/BS,no separables,no_verificable,,fino

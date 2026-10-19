@@ -1,0 +1,2 @@
+modelo A: T_abs 24.8188 (nulo 12.1047±0.8946) p 0.0010 | z medio 1.272 Stouffer 19.21 p 0 | frac z>0 0.570 | frac z>1.5 0.259
+modelo B: T_abs 8.6911 (nulo 6.8360±0.5329) p 0.0020 | z medio 0.283 Stouffer 4.27 p 9.6e-06 | frac z>0 0.461 | frac z>1.5 0.154

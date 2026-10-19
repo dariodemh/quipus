@@ -1,0 +1,23 @@
+id,estadistico,n,observado,esperado,p,extra
+UR278,MAE ajuste perfil (exploracion),17,46.56,59.44,,"perfil P=[13.5, 13.6, 8.7, 10.7, 11.6, 12.5, 12.4, 8.7, 8.3]"
+UR278,rho perfil explorar vs confirmar,9,0.683,0.004,0.0287,
+UR273A/UR273B,transiciones exactas (B_i-A_i-c),9,0.0,0.0,1.0,
+UR274A/UR274B,transiciones exactas (B_i-A_i-c),8,0.0,0.0,1.0,
+UR275,transiciones acumuladas (H+N),12,0.0,0.0,1.0,
+UR269,transiciones acumuladas (H+N),34,0.0,0.11,1.0,
+UR275,"CV(cuota/cabecera) [2%->0, fija->alto]",13,0.338,0 si 2 %,,cuota=47 rango 0.0110-0.0368
+UR268,"CV(cuota/cabecera) [2%->0, fija->alto]",16,0.216,0 si 2 %,,cuota=208 rango 0.0138-0.0292
+UR269,"r(cabecera, cuota) [fija->0, 2%->1]",17,0.406,0 (fija),,"cuotas [np.int64(25), np.int64(40), np.int64(44), np.int64(46), np.int64(47)]"
+UR275,registros con cab=suma(resto),13,2.0,0.23,0.0175,+-1: 3
+UR266,registros con cab=suma(resto),12,0.0,0.0,1.0,+-1: 0
+UR269,registros con cab=suma(resto),32,6.0,0.23,0.0002,+-1: 6
+UR268,registros con cab=suma(resto),16,0.0,0.0,1.0,+-1: 0
+UR275,frac. |cab-(cuota+dest)|/cab < 5 %,13,0.923,0.054,0.0002,
+UR266,frac. |cab-(cuota+dest)|/cab < 5 %,12,0.0,0.015,1.0,
+UR269,frac. |cab-(cuota+dest)|/cab < 5 %,32,0.562,0.042,0.0002,
+UR277,grupos con cordon 1 = suma(resto),8,0.0,0.0,1.0,
+UR272,grupos con cordon 1 = suma(resto),11,2.0,1.19,0.3307,
+UR276,registros parent = s1+s2,5,1.0,0.1,,nulo aproximado: solo valores <=24
+UR279,colgantes hallados como total en otro quipu,12,5.0,12.0,1.0,"pool 643; 24 % de cuerdas tienen valor unico, nulo alto"
+H14,grupos UR270 con >=6/9 celdas en fila UR278,7,5.0,0.14,,control positivo; nulo ~0 por azar
+H15,rho perfil UR270 vs UR278,9,0.833,0.006,0.0045,

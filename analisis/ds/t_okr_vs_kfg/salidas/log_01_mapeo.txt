@@ -1,0 +1,26 @@
+quipus KFG: 651 mapeados: 595
+via
+KH     593
+        56
+INV      2
+              kfg             okr  KHIPU_ID via
+0           AS001           AS001       NaN    
+1           AS002           AS002       NaN    
+2           AS003           AS003       NaN    
+3           AS004           AS004       NaN    
+4           AS005           AS005       NaN    
+5           AS006           AS006       NaN    
+6           AS007           AS007       NaN    
+7           AS008           AS008       NaN    
+8           AS009           AS009       NaN    
+73   AS101_Part_1  AS101 - Part 1       NaN    
+74   AS101_Part_2  AS101 - Part 2       NaN    
+237         MM001           MM001       NaN    
+238         MM002           MM002       NaN    
+239         MM003           MM003       NaN    
+240         MM004           MM004       NaN    
+241         MM005           MM005       NaN    
+242   MM006_AN001     MM006/AN001       NaN    
+243   MM007_AN002     MM007/AN002       NaN    
+244         MM008           MM008       NaN    
+245         MM009           MM009       NaN    

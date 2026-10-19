@@ -1,0 +1,58 @@
+secuencia,memoria,genero,fuente,orden,etiqueta,valor,papel
+m4_chupaychos_inca,4.0,"pnum (pre, servicio al Inca)","Medrano 2019:23 = PK I:141 l.55-58, 63-83",0,sembrar chácaras en el Cuzco,400,item
+m4_chupaychos_inca,4.0,"pnum (pre, servicio al Inca)","Medrano 2019:23 = PK I:141 l.55-58, 63-83",1,yanaconas de Guayna Capac,150,item
+m4_chupaychos_inca,4.0,"pnum (pre, servicio al Inca)","Medrano 2019:23 = PK I:141 l.55-58, 63-83",2,guarda del cuerpo de Topa Inka,150,item
+m4_chupaychos_inca,4.0,"pnum (pre, servicio al Inca)","Medrano 2019:23 = PK I:141 l.55-58, 63-83",3,guarda de sus armas,10,item
+m4_chupaychos_inca,4.0,"pnum (pre, servicio al Inca)","Medrano 2019:23 = PK I:141 l.55-58, 63-83",4,guarda de los Chachapoyas,200,item
+m4_chupaychos_inca,4.0,"pnum (pre, servicio al Inca)","Medrano 2019:23 = PK I:141 l.55-58, 63-83",5,guarda de Quito,200,item
+m4_chupaychos_inca,4.0,"pnum (pre, servicio al Inca)","Medrano 2019:23 = PK I:141 l.55-58, 63-83",6,guarda del cuerpo de Guayna Capac,20,item
+m4_chupaychos_inca,4.0,"pnum (pre, servicio al Inca)","Medrano 2019:23 = PK I:141 l.55-58, 63-83",7,hacer plumas,120,item
+m4_chupaychos_inca,4.0,"pnum (pre, servicio al Inca)","Medrano 2019:23 = PK I:141 l.55-58, 63-83",8,sacar miel,60,item
+m5_chupaychos_gomez_arias,5.0,"pnum (post, entrega a encomendero)","Medrano 2019:42 = PK I:143-145 l.135-140, 222-224",0,piezas de ropa cada 15 días,100,item
+m5_chupaychos_gomez_arias,5.0,"pnum (post, entrega a encomendero)","Medrano 2019:42 = PK I:143-145 l.135-140, 222-224",1,piezas al mes (=2x100),200,total
+m5_chupaychos_gomez_arias,5.0,"pnum (post, entrega a encomendero)","Medrano 2019:42 = PK I:143-145 l.135-140, 222-224",2,piezas cada 15 días en adelante,80,item
+m5_chupaychos_gomez_arias,5.0,"pnum (post, entrega a encomendero)","Medrano 2019:42 = PK I:143-145 l.135-140, 222-224",3,anaconas e indias de servicio (piezas),29,item
+m11_jauja_chicha,11.0,pnum (post),Medrano 2019:48 = PK I:202 l.203-204,0,cántaros de chicha (corregido 1233->1033),1033,dudoso
+m13_chucuito_ganado,13.0,pnum (post),Medrano 2019:48 = PK I:255 l.125-127,0,alpacas y ovejas (1479 corregido a 1514),1514,dudoso
+m16_sacaca_aves,16.0,"pnum (post, con precios)",Medrano 2019:47 = PK I:294 l.1169-1173,0,gallinas,15,item
+m16_sacaca_aves,16.0,"pnum (post, con precios)",Medrano 2019:47 = PK I:294 l.1169-1173,1,precio gallina (pesos),1,precio
+m16_sacaca_aves,16.0,"pnum (post, con precios)",Medrano 2019:47 = PK I:294 l.1169-1173,2,patos,4,item
+m16_sacaca_aves,16.0,"pnum (post, con precios)",Medrano 2019:47 = PK I:294 l.1169-1173,3,precio pato (pesos),1,precio
+m16_sacaca_aves,16.0,"pnum (post, con precios)",Medrano 2019:47 = PK I:294 l.1169-1173,4,huevos,540,item
+m16_sacaca_aves,16.0,"pnum (post, con precios)",Medrano 2019:47 = PK I:294 l.1169-1173,5,precio por 100 huevos (pesos),5,precio
+m17_sacaca_montemayor,17.0,"elicit (post, con precios)",Medrano 2019:28 = PK I:304-305 l.76-149,0,cargas de chuño,500,item
+m17_sacaca_montemayor,17.0,"elicit (post, con precios)",Medrano 2019:28 = PK I:304-305 l.76-149,1,precio carga (pesos),6,precio
+m17_sacaca_montemayor,17.0,"elicit (post, con precios)",Medrano 2019:28 = PK I:304-305 l.76-149,2,carneros de la tierra,605,item
+m17_sacaca_montemayor,17.0,"elicit (post, con precios)",Medrano 2019:28 = PK I:304-305 l.76-149,3,arrobas de sebo,20,item
+m17_sacaca_montemayor,17.0,"elicit (post, con precios)",Medrano 2019:28 = PK I:304-305 l.76-149,4,precio arroba (pesos),4,precio
+m22_hinojosa_pilco,22.0,summ (encomienda),Medrano 2019:49 = PK II:417 l.193-194,0,Cacajas,13,item
+m22_hinojosa_pilco,22.0,summ (encomienda),Medrano 2019:49 = PK II:417 l.193-194,1,Ynputi,10,item
+m22_hinojosa_pilco,22.0,summ (encomienda),Medrano 2019:49 = PK II:417 l.193-194,2,Quimayo (diez/cinco),5,dudoso
+m40_aldana_aullagas,40.0,summ (encomienda 1540),Medrano 2019:31-32 = PK II:151-152 l.36-52,0,total provincia de los Aullagas,823,total
+m40_aldana_aullagas,40.0,summ (encomienda 1540),Medrano 2019:31-32 = PK II:151-152 l.36-52,1,con el cacique Acho,260,total
+m40_aldana_aullagas,40.0,summ (encomienda 1540),Medrano 2019:31-32 = PK II:151-152 l.36-52,2,Acaluo,38,item
+m40_aldana_aullagas,40.0,summ (encomienda 1540),Medrano 2019:31-32 = PK II:151-152 l.36-52,3,Berenguela,18,item
+m40_aldana_aullagas,40.0,summ (encomienda 1540),Medrano 2019:31-32 = PK II:151-152 l.36-52,4,Millme,53,item
+m40_aldana_aullagas,40.0,summ (encomienda 1540),Medrano 2019:31-32 = PK II:151-152 l.36-52,5,Pisquero,9,item
+m40_aldana_aullagas,40.0,summ (encomienda 1540),Medrano 2019:31-32 = PK II:151-152 l.36-52,6,Yana,29,item
+m40_aldana_aullagas,40.0,summ (encomienda 1540),Medrano 2019:31-32 = PK II:151-152 l.36-52,7,Callapa,17,item
+m40_aldana_aullagas,40.0,summ (encomienda 1540),Medrano 2019:31-32 = PK II:151-152 l.36-52,8,Taparo,37,item
+m40_aldana_aullagas,40.0,summ (encomienda 1540),Medrano 2019:31-32 = PK II:151-152 l.36-52,9,Yanaque,21,item
+m40_aldana_aullagas,40.0,summ (encomienda 1540),Medrano 2019:31-32 = PK II:151-152 l.36-52,10,Pucuro (chácara del cacique),3,item
+m40_aldana_aullagas,40.0,summ (encomienda 1540),Medrano 2019:31-32 = PK II:151-152 l.36-52,11,Yanaqui (chácara del cacique),21,item
+m40_aldana_aullagas,40.0,summ (encomienda 1540),Medrano 2019:31-32 = PK II:151-152 l.36-52,12,Sacina,14,item
+santa_padron_1670,,padrón (revisita 1670),"Medrano y Urton 2018, tabla 2",0,Namus,18,item
+santa_padron_1670,,padrón (revisita 1670),"Medrano y Urton 2018, tabla 2",1,Corongo,23,item
+santa_padron_1670,,padrón (revisita 1670),"Medrano y Urton 2018, tabla 2",2,Cuyuchin,9,item
+santa_padron_1670,,padrón (revisita 1670),"Medrano y Urton 2018, tabla 2",3,Cusca,7,item
+santa_padron_1670,,padrón (revisita 1670),"Medrano y Urton 2018, tabla 2",4,Guauyan,41,item
+santa_padron_1670,,padrón (revisita 1670),"Medrano y Urton 2018, tabla 2",5,Ucore,32,item
+santa_padron_1670,,padrón (revisita 1670),"Medrano y Urton 2018, tabla 2",6,total nombrados,130,total
+chachapoyas_tributarios,,serie temporal (1549-1793),"Urton 2017, tabla 11.3 (Schjellerup 1997)",0,1549,17550,item
+chachapoyas_tributarios,,serie temporal (1549-1793),"Urton 2017, tabla 11.3 (Schjellerup 1997)",1,1559,16309,item
+chachapoyas_tributarios,,serie temporal (1549-1793),"Urton 2017, tabla 11.3 (Schjellerup 1997)",2,1583,10699,item
+chachapoyas_tributarios,,serie temporal (1549-1793),"Urton 2017, tabla 11.3 (Schjellerup 1997)",3,1586,8062,item
+chachapoyas_tributarios,,serie temporal (1549-1793),"Urton 2017, tabla 11.3 (Schjellerup 1997)",4,1591,7042,item
+chachapoyas_tributarios,,serie temporal (1549-1793),"Urton 2017, tabla 11.3 (Schjellerup 1997)",5,1601,5626,item
+chachapoyas_tributarios,,serie temporal (1549-1793),"Urton 2017, tabla 11.3 (Schjellerup 1997)",6,1608,4000,item
+chachapoyas_tributarios,,serie temporal (1549-1793),"Urton 2017, tabla 11.3 (Schjellerup 1997)",7,1793,2200,item

@@ -1,0 +1,5 @@
+pruebas: 13260; con nulo: 1360; q_e<0,05: 0; q_t<0,05: 0
+Empty DataFrame
+Columns: [A, tipo, B, n_agregados, exactos, tolerantes, nulo_e, nulo_t, p_e, p_t, replicas, q_e, q_t]
+Index: []
+coincidencias exactas listadas: 317

@@ -1,0 +1,139 @@
+=== Descriptivo (cuerdas solo-L; serie = k>=2)
+quipu  cuerdas_nudo  soloL  serie  k_moda  vueltas_media  vueltas_moda  frac_4a6  dirS  palabras_distintas                                          top  total_vueltas  total_racimos
+UR039            91     53     41       2           4.52             5      0.94 1.000                  16                5-4x10, 4-4x7, 5-5x5, 5-5-4x4            475            105
+UR050           164    162    162       3           5.50             5      0.87 0.801                  57       5-5-5x19, 5-6-6x14, 5-5-6x13, 6-6-6x11           2738            498
+UR051            86     86     75       2           4.51             4      0.62 0.988                  39                  4-3x10, 5-4x9, 6-3x5, 4-5x4            775            172
+UR052            94     93     89       4           5.60             5      0.69 1.000                  76             5-4x3, 3-4x3, 4-5-5-4x2, 7-7-8x2           1729            309
+UR054           114    112    111       3           5.54             5      0.79 0.997                  59             5-5-5x9, 7-6-5x6, 7-8x5, 4-5-5x5           1701            307
+UR055           176    158    156       4           6.69             7      0.40 0.986                 135 7-7-7-7-6x4, 7-7-7-5x4, 7-7-8x3, 6-7-7-7-4x3           4249            635
+UR110            85     83     50       2           4.35             4      0.81 0.684                  15                  4-4x11, 5-4x7, 4-5x5, 5-5x5            592            136
+UR112            76     75     36       2           4.78             5      0.96 0.974                  12                 5-5x11, 5-4x10, 4-5x4, 4-4x3            545            114
+UR144            96     89     54       2           4.86             4      0.44 0.993                  14                  7-3x15, 8-4x8, 8-3x5, 9-4x4            719            148
+
+Vueltas L foco (frac): {2: 0.01, 3: 0.052, 4: 0.175, 5: 0.282, 6: 0.219, 7: 0.169, 8: 0.059, 9: 0.021, 10: 0.01}
+Vueltas L de unidades en cuerdas decimales (frac): {2: 0.173, 3: 0.152, 4: 0.144, 5: 0.145, 6: 0.12, 7: 0.103, 8: 0.092, 9: 0.07}
+Moda de vueltas L-unidades en quipus decimales (>=20 L): {2: 36, 3: 35, 4: 26, 5: 22, 6: 11, 7: 8, 8: 4, 9: 2}
+
+=== (c) Foco vs cuerdas decimales limpias (valor y percentil entre 177 quipus decimales con >=20 cuerdas k>=2)
+                  quipu         eqadj          madj          sdin           rep          dist         trend            mi           zipf
+                  UR039 0.44 (pct 97)  0.69 (pct 1)  0.40 (pct 1) 0.76 (pct 81) 0.39 (pct 11) -0.59 (pct 1)  0.09 (pct 1)  -0.99 (pct 6)
+                  UR050 0.44 (pct 96)  0.72 (pct 1)  0.52 (pct 1) 0.79 (pct 86)  0.35 (pct 9)  0.38 (pct 6)  0.12 (pct 1)  -0.91 (pct 8)
+                  UR051 0.10 (pct 25)  1.87 (pct 7)  0.97 (pct 5) 0.65 (pct 69) 0.52 (pct 26) -0.71 (pct 1) 0.47 (pct 25) -0.70 (pct 20)
+                  UR052 0.27 (pct 93)  1.05 (pct 1)  0.75 (pct 4) 0.27 (pct 20) 0.85 (pct 81)  0.58 (pct 8) 0.45 (pct 21) -0.26 (pct 81)
+                  UR054 0.36 (pct 96)  0.91 (pct 1)  0.57 (pct 2) 0.65 (pct 68) 0.53 (pct 28)  0.14 (pct 3)  0.26 (pct 6) -0.65 (pct 25)
+                  UR055 0.27 (pct 93)  1.30 (pct 3)  0.95 (pct 5) 0.23 (pct 18) 0.87 (pct 83) -0.29 (pct 2)  0.13 (pct 2) -0.24 (pct 82)
+                  UR110 0.42 (pct 96)  0.72 (pct 1)  0.38 (pct 1) 0.92 (pct 99)  0.30 (pct 5) -0.08 (pct 3) 0.41 (pct 20)  -0.93 (pct 8)
+                  UR112 0.38 (pct 96)  0.67 (pct 1)  0.33 (pct 1) 0.78 (pct 85)  0.33 (pct 7) -0.11 (pct 3)  0.17 (pct 3)  -1.17 (pct 3)
+                  UR144  0.00 (pct 0) 4.00 (pct 99) 2.12 (pct 97) 0.94 (pct 99)  0.26 (pct 4) -4.30 (pct 0) 0.68 (pct 55)  -1.00 (pct 6)
+decimal mediana (n=177)          0.14          2.76          1.50          0.50          0.68          1.73          0.65          -0.48
+
+=== Posiciones de los racimos (cm)
+quipu  sd_banda  cv_hueco  hueco_mediano  pos_rel_primero
+UR039      4.54      0.23           14.5             0.30
+UR050      5.12      0.24           19.0             0.21
+UR051      4.59      0.16           12.5             0.21
+UR052     12.05      0.33           17.5             0.15
+UR054      6.63      0.19           19.0             0.24
+UR055      9.50      0.23           13.5             0.17
+UR110      4.80       NaN           14.0             0.37
+UR112      4.85       NaN           13.0             0.42
+UR144      4.32      0.21           11.5             0.34
+Decimal (quipus con >=20 cuerdas limpias): sd por nivel decimal mediana 2.19 [p10-p90 0.99 - 4.39 ]; cv hueco mediana 0.12 [ 0.07 - 0.21 ]; hueco mediano 7.0
+  percentil de cada foco en sd_banda decimal: {'UR039': 90, 'UR050': 94, 'UR051': 90, 'UR052': 100, 'UR054': 97, 'UR055': 99, 'UR110': 90, 'UR112': 92, 'UR144': 89}
+  percentil de cada foco en cv_hueco decimal: {'UR039': 92, 'UR050': 94, 'UR051': 63, 'UR052': 98, 'UR054': 80, 'UR055': 92, 'UR144': 90}
+  rho(vueltas, posicion cm) por quipu: {'UR039': np.float64(-0.37), 'UR050': np.float64(0.18), 'UR051': np.float64(-0.19), 'UR052': np.float64(0.36), 'UR054': np.float64(0.1), 'UR055': np.float64(0.05), 'UR110': np.float64(0.01), 'UR112': np.float64(-0.15), 'UR144': np.float64(-0.81)}
+
+=== (i) Relaciones de suma (cuerdas solo-L, k>=1); nulo: barajar valores entre cuerdas del quipu
+  suma  canuto: una = suma del resto: obs 1, nulo 1.8 (sd 1.3), p(mayor) 0.836
+  suma  contigua: = suma de 2-6 vecinas: obs 19, nulo 23.9 (sd 4.4), p(mayor) 0.890
+  pos10 canuto: una = suma del resto: obs 0, nulo 0.7 (sd 0.8), p(mayor) 1.000
+  pos10 contigua: = suma de 2-6 vecinas: obs 3, nulo 3.9 (sd 2.0), p(mayor) 0.745
+  k     canuto: una = suma del resto: obs 6, nulo 5.4 (sd 2.0), p(mayor) 0.458
+  k     contigua: = suma de 2-6 vecinas: obs 62, nulo 82.8 (sd 6.1), p(mayor) 1.000
+
+=== (ii) Vueltas por posicion ordinal j (cuerdas serie); radix mixto predice techo en j>=1 y valores bajos frecuentes
+  UR039: j0: media 4.73 max 6 frac<=3 0.00 | j1: media 4.34 max 6 frac<=3 0.10 | j2: media 4.09 max 6 frac<=3 0.18
+  UR050: j0: media 5.36 max 7 frac<=3 0.00 | j1: media 5.44 max 8 frac<=3 0.01 | j2: media 5.76 max 8 frac<=3 0.00 | j3+: media 4.71 max 6 frac<=3 0.14
+  UR051: j0: media 4.84 max 10 frac<=3 0.17 | j1: media 4.24 max 23 frac<=3 0.39 | j2: media 3.55 max 5 frac<=3 0.55
+  UR052: j0: media 5.25 max 9 frac<=3 0.06 | j1: media 5.63 max 12 frac<=3 0.07 | j2: media 6.04 max 11 frac<=3 0.04 | j3+: media 5.64 max 8 frac<=3 0.00
+  UR054: j0: media 5.50 max 8 frac<=3 0.01 | j1: media 5.76 max 9 frac<=3 0.01 | j2: media 5.41 max 8 frac<=3 0.00 | j3+: media 4.60 max 6 frac<=3 0.10
+  UR055: j0: media 6.66 max 10 frac<=3 0.01 | j1: media 6.89 max 11 frac<=3 0.01 | j2: media 6.99 max 12 frac<=3 0.01 | j3+: media 6.30 max 11 frac<=3 0.01
+  UR110: j0: media 4.50 max 9 frac<=3 0.18 | j1: media 4.38 max 8 frac<=3 0.12 | j2: media 4.67 max 6 frac<=3 0.00
+  UR112: j0: media 4.81 max 6 frac<=3 0.00 | j1: media 4.69 max 7 frac<=3 0.03 | j2: media 5.00 max 6 frac<=3 0.00
+  UR144: j0: media 7.35 max 10 frac<=3 0.00 | j1: media 3.13 max 4 frac<=3 0.67 | j2: media 2.20 max 3 frac<=3 1.00
+
+=== (iii) Calendario: cuerdas con suma 29/30, canutos con suma 29/30, totales por quipu (nulo b: vueltas iid de la marginal)
+  cuerdas suma 29/30: obs 12, nulo 17.5, p(mayor) 0.949
+  canutos suma 29/30: obs 9, nulo 6.3, p(mayor) 0.146
+  totales de vueltas por quipu: {'UR039': 475, 'UR050': 2738, 'UR051': 775, 'UR052': 1729, 'UR054': 1701, 'UR055': 4249, 'UR110': 592, 'UR112': 545, 'UR144': 719} | racimos: {'UR039': 105, 'UR050': 498, 'UR051': 172, 'UR052': 309, 'UR054': 307, 'UR055': 635, 'UR110': 136, 'UR112': 114, 'UR144': 148}
+
+=== (iv)/(v) Similitud entre cuerdas: posicion homologa en canuto, color, mismo canuto, vecinas (+ = mas parecidas)
+  homologa_canuto (9 quipus): z combinado dmedia 0.09, misma palabra -0.35, mismo k -0.06
+  mismo_color (5 quipus): z combinado dmedia 3.00, misma palabra 2.36, mismo k 7.41
+  mismo_canuto (9 quipus): z combinado dmedia 2.16, misma palabra 1.88, mismo k 2.63
+  vecinas (9 quipus): z combinado dmedia 3.07, misma palabra 2.12, mismo k 2.57
+
+=== Pruebas (351; BH y Holm sobre todas). Combinados y globales:
+                nulo              estad  obs  media_nulo       z      p   p_BH  p_Holm
+                   a              eqadj  NaN         NaN  1.1099 0.0010 0.0035  0.2887
+                   a               madj  NaN         NaN -2.4276 0.0005 0.0028  0.1754
+                   a               sdin  NaN         NaN -2.6323 0.0005 0.0028  0.1754
+                   a                rep  NaN         NaN  1.7277 0.0005 0.0028  0.1754
+                   a               dist  NaN         NaN -3.0627 0.0005 0.0028  0.1754
+                   a              trend  NaN         NaN -1.2038 0.0005 0.0028  0.1754
+                   a                 mi  NaN         NaN  2.8397 0.0005 0.0028  0.1754
+                   a               zipf  NaN         NaN -3.4361 0.0005 0.0028  0.1754
+                   b              eqadj  NaN         NaN  0.9007 0.0100 0.0256  1.0000
+                   b               madj  NaN         NaN -1.5194 0.0005 0.0028  0.1754
+                   b               sdin  NaN         NaN -1.4002 0.0005 0.0028  0.1754
+                   b                rep  NaN         NaN  1.3865 0.0005 0.0028  0.1754
+                   b               dist  NaN         NaN -2.1997 0.0005 0.0028  0.1754
+                   b              trend  NaN         NaN -1.2031 0.0015 0.0051  0.3763
+                   b                 mi  NaN         NaN  2.7820 0.0005 0.0028  0.1754
+                   b               zipf  NaN         NaN -2.4119 0.0005 0.0028  0.1754
+                   d              eqadj  NaN         NaN  0.4647 0.1779 0.3002  1.0000
+                   d               madj  NaN         NaN -0.9230 0.0050 0.0141  1.0000
+                   d               sdin  NaN         NaN  0.1999 1.0000 1.0000  1.0000
+                   d                rep  NaN         NaN  1.0359 0.0020 0.0062  0.4935
+                   d               dist  NaN         NaN -2.0308 0.0005 0.0028  0.1754
+                   d              trend  NaN         NaN -0.8309 0.0170 0.0426  1.0000
+                   d                 mi  NaN         NaN -0.4662 0.1559 0.2777  1.0000
+                   d               zipf  NaN         NaN -2.2003 0.0005 0.0028  0.1754
+        perm_cuerdas   suma_suma_canuto  1.0      1.7910     NaN 0.8361 0.9346  1.0000
+        perm_cuerdas   suma_suma_contig 19.0     23.8675     NaN 0.8896 0.9684  1.0000
+        perm_cuerdas  suma_pos10_canuto  0.0      0.7105     NaN 1.0000 1.0000  1.0000
+        perm_cuerdas  suma_pos10_contig  3.0      3.8535     NaN 0.7451 0.8718  1.0000
+        perm_cuerdas      suma_k_canuto  6.0      5.3720     NaN 0.4578 0.6326  1.0000
+        perm_cuerdas      suma_k_contig 62.0     82.8255     NaN 1.0000 1.0000  1.0000
+                   b cuerdas suma 29/30 12.0     17.4800     NaN 0.9490 1.0000  1.0000
+                   b canutos suma 29/30  9.0      6.2835     NaN 0.1464 0.2643  1.0000
+perm_homologa_canuto             dmedia  NaN         NaN  0.0882 0.8052 0.9088  1.0000
+perm_homologa_canuto       mismapalabra  NaN         NaN -0.3463 0.3007 0.4629  1.0000
+perm_homologa_canuto             mismok  NaN         NaN -0.0565 0.8651 0.9519  1.0000
+    perm_mismo_color             dmedia  NaN         NaN  3.0017 0.0010 0.0035  0.2887
+    perm_mismo_color       mismapalabra  NaN         NaN  2.3634 0.0010 0.0035  0.2887
+    perm_mismo_color             mismok  NaN         NaN  7.4060 0.0010 0.0035  0.2887
+   perm_mismo_canuto             dmedia  NaN         NaN  2.1576 0.0010 0.0035  0.2887
+   perm_mismo_canuto       mismapalabra  NaN         NaN  1.8757 0.0010 0.0035  0.2887
+   perm_mismo_canuto             mismok  NaN         NaN  2.6347 0.0010 0.0035  0.2887
+        perm_vecinas             dmedia  NaN         NaN  3.0722 0.0010 0.0035  0.2887
+        perm_vecinas       mismapalabra  NaN         NaN  2.1168 0.0010 0.0035  0.2887
+        perm_vecinas             mismok  NaN         NaN  2.5743 0.0010 0.0035  0.2887
+
+Por quipu (nulo a/d), estadisticos clave:
+  eqadj nulo a: UR039 0.44 vs 0.39 (q0.627); UR050 0.44 vs 0.33 (q0.003); UR051 0.10 vs 0.19 (q0.072); UR052 0.27 vs 0.20 (q0.017); UR054 0.36 vs 0.25 (q0.004); UR055 0.27 vs 0.22 (q0.021); UR110 0.42 vs 0.31 (q0.160); UR112 0.38 vs 0.43 (q0.746); UR144 0.00 vs 0.14 (q0.010)
+  eqadj nulo d: UR039 0.44 vs 0.41 (q0.298); UR050 0.44 vs 0.43 (q0.594); UR051 0.10 vs 0.12 (q0.228); UR052 0.27 vs 0.26 (q0.985); UR054 0.36 vs 0.33 (q0.285); UR055 0.27 vs 0.25 (q0.345); UR110 0.42 vs 0.40 (q0.724); UR112 0.38 vs 0.41 (q0.725)
+  sdin nulo a: UR039 0.40 vs 0.40 (q1.000); UR050 0.52 vs 0.62 (q0.003); UR051 0.97 vs 0.94 (q0.765); UR052 0.75 vs 1.05 (q0.003); UR054 0.57 vs 0.76 (q0.003); UR055 0.95 vs 1.07 (q0.003); UR110 0.38 vs 0.54 (q0.004); UR112 0.33 vs 0.35 (q0.812); UR144 2.12 vs 1.39 (q0.003)
+  sdin nulo d: UR039 0.40 vs 0.40 (q1.000); UR051 0.97 vs 0.97 (q1.000); UR110 0.38 vs 0.38 (q1.000); UR112 0.33 vs 0.33 (q1.000); UR144 2.12 vs 2.12 (q1.000)
+  rep nulo a: UR039 0.76 vs 0.76 (q1.000); UR050 0.79 vs 0.78 (q0.836); UR051 0.65 vs 0.70 (q0.450); UR052 0.27 vs 0.17 (q0.052); UR054 0.65 vs 0.58 (q0.180); UR055 0.23 vs 0.13 (q0.006); UR110 0.92 vs 0.81 (q0.008); UR112 0.78 vs 0.83 (q0.465); UR144 0.94 vs 0.51 (q0.003)
+  rep nulo d: UR039 0.76 vs 0.76 (q1.000); UR050 0.79 vs 0.78 (q0.724); UR051 0.65 vs 0.66 (q0.894); UR052 0.27 vs 0.22 (q0.383); UR054 0.65 vs 0.63 (q0.812); UR055 0.23 vs 0.15 (q0.014); UR110 0.92 vs 0.87 (q0.108); UR112 0.78 vs 0.81 (q0.657); UR144 0.94 vs 0.81 (q0.004)
+  mi nulo a: UR039 0.09 vs 0.13 (q0.736); UR050 0.12 vs 0.05 (q0.003); UR051 0.47 vs 0.35 (q0.115); UR052 0.45 vs 0.18 (q0.003); UR054 0.26 vs 0.11 (q0.003); UR055 0.13 vs 0.10 (q0.100); UR110 0.41 vs 0.26 (q0.058); UR112 0.17 vs 0.15 (q0.882); UR144 0.68 vs 0.77 (q0.468)
+  mi nulo d: UR039 0.09 vs 0.12 (q0.700); UR050 0.12 vs 0.10 (q0.279); UR051 0.47 vs 0.42 (q0.546); UR052 0.45 vs 0.33 (q0.005); UR054 0.26 vs 0.21 (q0.063); UR055 0.13 vs 0.14 (q0.657); UR110 0.41 vs 0.38 (q0.567); UR112 0.17 vs 0.18 (q0.799); UR144 0.68 vs 1.49 (q0.003)
+  zipf nulo a: UR039 -0.99 vs -0.88 (q0.051); UR050 -0.91 vs -0.83 (q0.003); UR051 -0.70 vs -0.65 (q0.300); UR052 -0.26 vs -0.18 (q0.074); UR054 -0.65 vs -0.51 (q0.003); UR055 -0.24 vs -0.15 (q0.006); UR110 -0.93 vs -0.95 (q0.753); UR112 -1.17 vs -1.14 (q0.780); UR144 -1.00 vs -0.44 (q0.003)
+  zipf nulo d: UR039 -0.99 vs -0.87 (q0.003); UR050 -0.91 vs -0.88 (q0.021); UR051 -0.70 vs -0.69 (q0.879); UR052 -0.26 vs -0.22 (q0.383); UR054 -0.65 vs -0.58 (q0.003); UR055 -0.24 vs -0.17 (q0.004); UR110 -0.93 vs -0.97 (q0.340); UR112 -1.17 vs -1.19 (q0.481); UR144 -1.00 vs -0.79 (q0.003)
+  trend nulo a: UR039 -0.59 vs -0.00 (q0.005); UR050 0.38 vs -0.00 (q0.003); UR051 -0.71 vs 0.00 (q0.044); UR052 0.58 vs -0.00 (q0.020); UR054 0.14 vs 0.00 (q0.567); UR055 -0.29 vs 0.00 (q0.114); UR110 -0.08 vs -0.00 (q0.872); UR112 -0.11 vs 0.00 (q0.657); UR144 -4.30 vs -0.01 (q0.003)
+  trend nulo d: UR039 -0.59 vs 0.00 (q0.003); UR050 0.38 vs 0.00 (q0.003); UR051 -0.71 vs -0.00 (q0.058); UR052 0.58 vs 0.00 (q0.003); UR054 0.14 vs 0.00 (q0.436); UR055 -0.29 vs 0.00 (q0.078); UR110 -0.08 vs 0.00 (q0.741); UR112 -0.11 vs 0.00 (q0.619); UR144 -4.30 vs -0.01 (q0.003)
+  homologa_canuto dmedia: UR039 0.01 vs 0.00 (q0.657); UR050 -0.00 vs 0.00 (q0.968); UR051 -0.03 vs -0.01 (q0.950); UR052 0.01 vs 0.04 (q0.463); UR054 0.07 vs 0.05 (q0.567); UR055 -0.01 vs -0.01 (q0.886); UR110 0.04 vs 0.01 (q0.467); UR112 0.02 vs 0.00 (q0.616); UR144 -0.01 vs -0.00 (q0.660)
+  mismo_color dmedia: UR051 0.08 vs -0.00 (q0.497); UR052 0.74 vs -0.01 (q0.004); UR110 0.12 vs -0.00 (q0.048); UR112 -0.01 vs 0.00 (q0.939); UR144 0.15 vs 0.00 (q0.006)
+  mismo_canuto dmedia: UR039 0.02 vs 0.01 (q0.951); UR050 -0.00 vs 0.00 (q1.000); UR051 0.16 vs 0.00 (q0.249); UR052 0.48 vs 0.00 (q0.004); UR054 -0.09 vs -0.00 (q0.512); UR055 0.17 vs -0.00 (q0.009); UR110 0.19 vs -0.00 (q0.004); UR112 0.09 vs 0.00 (q0.135); UR144 0.21 vs -0.00 (q0.004)
+  vecinas dmedia: UR039 -0.03 vs -0.00 (q0.811); UR050 0.02 vs -0.00 (q0.392); UR051 0.09 vs -0.00 (q0.195); UR052 0.46 vs -0.00 (q0.004); UR054 0.23 vs -0.00 (q0.004); UR055 0.10 vs -0.00 (q0.014); UR110 0.18 vs -0.00 (q0.004); UR112 0.11 vs 0.00 (q0.030); UR144 0.21 vs -0.00 (q0.004)

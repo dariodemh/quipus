@@ -1,0 +1,51 @@
+{
+  "todos_n17": {
+    "n": 17,
+    "spearman": 0.994,
+    "p_perm": 5e-05,
+    "pendiente_loglog": 1.078,
+    "p_pendiente": 5e-05,
+    "ratio_mediana": 1.0,
+    "ratio_min": 0.412,
+    "ratio_max": 1.1
+  },
+  "plenos_n11": {
+    "n": 11,
+    "spearman": 0.998,
+    "p_perm": 5e-05,
+    "pendiente_loglog": 1.011,
+    "p_pendiente": 5e-05,
+    "ratio_mediana": 1.0,
+    "ratio_min": 0.852,
+    "ratio_max": 1.1
+  },
+  "sesgo_tamano": {
+    "n_peq": 10,
+    "ratio_peq": 1.0,
+    "n_gran": 7,
+    "ratio_gran": 0.957
+  },
+  "grupos": {
+    "n": 17,
+    "exactos": 13,
+    "pct_exacto": 0.765,
+    "pct_pm1": 0.882,
+    "mae": 13.76,
+    "p_exacto": 0.0002,
+    "p_mae": 0.0002,
+    "mediana_dif": 0.0,
+    "holm": [
+      0.0004,
+      0.0004
+    ]
+  },
+  "cobertura": {
+    "fotos": 88,
+    "quipus_distintos": 27,
+    "filas_sin_conteo": 40,
+    "filas_con_conteo": 48,
+    "cuadra_si": 16,
+    "cuadra_parcial": 23,
+    "no_aplica": 15
+  }
+}

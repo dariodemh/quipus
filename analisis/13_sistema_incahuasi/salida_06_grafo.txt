@@ -1,0 +1,54 @@
+aristas a nivel de cuerda: 637 (entre quipus: 333; internas: 304)
+origen destino             tipo  aristas  exactas
+ UR255  UR267A            copia       30       25
+ UR256  UR267B            copia       27       18
+ UR266   UR275            copia       46       44
+UR267A   UR266 suma_AB(parte A)        1        0
+UR267A   UR269 suma_AB(parte A)       10        5
+UR267A   UR275 suma_AB(parte A)        5        0
+UR267B   UR266 suma_AB(parte B)        1        0
+UR267B   UR269 suma_AB(parte B)       10        5
+UR267B   UR275 suma_AB(parte B)        5        0
+ UR269   UR266            copia       32        8
+ UR269   UR275            copia       28       10
+ UR270   UR266          suma_PS        2        1
+ UR270   UR269          suma_PS        1        1
+ UR270  UR273A          parte_S        3        1
+ UR270  UR273B          parte_P        3        3
+ UR270   UR275          suma_PS        2        1
+UR273A   UR266 suma_AB(parte A)        6        5
+UR273A   UR269 suma_AB(parte A)        8        5
+UR273A  UR274A            copia        7        5
+UR273A   UR275 suma_AB(parte A)        7        6
+UR273B   UR266 suma_AB(parte B)       10        9
+UR273B   UR269 suma_AB(parte B)       15       11
+UR273B  UR274B            copia       10        6
+UR273B   UR275 suma_AB(parte B)       15       13
+UR274A   UR266 suma_AB(parte A)        4        4
+UR274A   UR269 suma_AB(parte A)        7        6
+UR274A   UR275 suma_AB(parte A)        8        7
+ UR278   UR266      total_grupo       16       11
+ UR278   UR269      total_grupo        3        0
+ UR278   UR275      total_grupo       11        6
+origen  tipo  aristas
+ UR255 cuota       16
+ UR255  neto        6
+ UR256 cuota       20
+ UR256  neto        9
+ UR266 cuota       21
+ UR266  neto        4
+UR267A cuota       17
+UR267A  neto       12
+UR267B cuota       25
+UR267B  neto       15
+ UR268 cuota       19
+ UR268  neto        6
+ UR269 cuota       41
+ UR269  neto       20
+UR273B cuota        3
+UR274A cuota       15
+UR274A  neto        1
+UR274B cuota       11
+UR274B  neto        3
+ UR275 cuota       24
+ UR275  neto       16

@@ -1,0 +1,18 @@
+Registros A+B: 18 | cabeceras en UR266/275/269: 89 | rango: 100 4273
+Sumas exactas: 8 / 18 | +-1: 10
+Nulo barajando B: media 0.95 max 5 p=0.00005
+Tasa de acierto por comparacion al azar: 0.053; observada 0.444; lift 8.4x
+Chance bootstrap (A,B con reemplazo): 0.053 (DE 0.053)
+Quipus de numeros pequenos usados: 131 | chance mediana 0.059 (IQR 0.020-0.144)
+
+--- Comparacion de regimenes ---
+                                           regimen  n_blanco    rango  chance                   nota
+                             Incahuasi (observado)      89.0 100-4273   0.444           8/18 exactas
+                Incahuasi (nulo de emparejamiento)      89.0 100-4273   0.053              barajar B
+                      quipus reales, valores <=300       NaN   5-2000   0.059           n=131 quipus
+     redondo: 20 valores, multiplos de 10 (1-1000)      20.0  10-1000   0.190 simulacion, 20 blancos
+sexagesimal: 20 valores, multiplos de 60 (60-3600)      20.0  60-3600   0.346 simulacion, 20 blancos
+                      enteros: 20 valores (1-1000)      20.0   1-1000   0.010 simulacion, 20 blancos
+
+Lectura: 44% de acierto solo es informativo frente al ~5% de su propio nulo.
+En un regimen de numeros redondos o sexagesimales el azar solo puede dar 19-35%.

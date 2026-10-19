@@ -1,0 +1,57 @@
+== métricas por quipu ==
+   kfg   sistema  n_celdas  n_obs  n_grupos   medP  medS1  r10P  r10S1   dr10  r50P  r50S1   dr50  r100P  r100S1  dr100  eqP  eqS1  pares    deq   cvP  cvS1    dcv  p_r10  p_r50  p_r100  p_eq  p_cv
+ UR255 Incahuasi         0      0         0    NaN    NaN   NaN    NaN    NaN   NaN    NaN    NaN    NaN     NaN    NaN  NaN   NaN    NaN    NaN   NaN   NaN    NaN    NaN    NaN     NaN   NaN   NaN
+ UR256 Incahuasi         0      0         0    NaN    NaN   NaN    NaN    NaN   NaN    NaN    NaN    NaN     NaN    NaN  NaN   NaN    NaN    NaN   NaN   NaN    NaN    NaN    NaN     NaN   NaN   NaN
+ UR257 Incahuasi         2      2         2 6660.0 1701.5 1.000  0.500  0.500 0.500  0.500  0.000  0.500   0.500  0.000  0.0   0.0    0.0  0.000   NaN   NaN    NaN  0.517  1.000   1.000 1.000 0.000
+ UR258 Incahuasi         6      4         3   24.5    8.0 0.250  0.000  0.250 0.000  0.000  0.000  0.000   0.000  0.000  0.0   0.0    1.0  0.000   NaN   NaN    NaN  0.501  1.000   1.000 1.000 0.000
+ UR259 Incahuasi         2      1         1    3.0    1.0 0.000  0.000  0.000 0.000  0.000  0.000  0.000   0.000  0.000  0.0   0.0    0.0  0.000   NaN   NaN    NaN    NaN    NaN     NaN   NaN   NaN
+ UR260 Incahuasi        16     12         2   36.5   23.5 0.250  0.250  0.000 0.083  0.000  0.083  0.083   0.000  0.083  1.0   3.0   39.0 -0.051 0.588 0.337 -0.251  0.655  0.497   0.497 0.925 0.879
+ UR261 Incahuasi         3      1         1   30.0   41.0 1.000  0.000  1.000 0.000  0.000  0.000  0.000   0.000  0.000  0.0   0.0    0.0  0.000   NaN   NaN    NaN    NaN    NaN     NaN   NaN   NaN
+ UR262 Incahuasi       105     70         7   98.5   88.5 0.271  0.200  0.071 0.029  0.029  0.000  0.029   0.000  0.029  1.0   1.0  433.0  0.000 0.954 1.554  0.599  0.200  0.681   0.238 0.586 0.001
+ UR263 Incahuasi         1      0         0    NaN    NaN   NaN    NaN    NaN   NaN    NaN    NaN    NaN     NaN    NaN  NaN   NaN    NaN    NaN   NaN   NaN    NaN    NaN    NaN     NaN   NaN   NaN
+ UR264 Incahuasi         0      0         0    NaN    NaN   NaN    NaN    NaN   NaN    NaN    NaN    NaN     NaN    NaN  NaN   NaN    NaN    NaN   NaN   NaN    NaN    NaN    NaN     NaN   NaN   NaN
+ UR265 Incahuasi         0      0         0    NaN    NaN   NaN    NaN    NaN   NaN    NaN    NaN    NaN     NaN    NaN  NaN   NaN    NaN    NaN   NaN   NaN    NaN    NaN    NaN     NaN   NaN   NaN
+ UR266 Incahuasi        28     13        10  867.0   85.0 0.154  0.308 -0.154 0.154  0.154  0.000  0.000   0.154 -0.154  0.0   0.0    3.0  0.000   NaN   NaN    NaN  0.939  0.683   1.000 1.000 0.000
+UR267A Incahuasi         5      0         0    NaN    NaN   NaN    NaN    NaN   NaN    NaN    NaN    NaN     NaN    NaN  NaN   NaN    NaN    NaN   NaN   NaN    NaN    NaN    NaN     NaN   NaN   NaN
+UR267B Incahuasi        15      4         4  136.0    9.0 0.250  0.000  0.250 0.250  0.000  0.250  0.250   0.000  0.250  0.0   0.0    0.0  0.000   NaN   NaN    NaN  0.496  0.496   0.496 1.000 0.000
+ UR268 Incahuasi        33     16        14 1608.5  157.5 0.312  0.312  0.000 0.250  0.062  0.188  0.250   0.062  0.188  0.0   0.0    2.0  0.000   NaN   NaN    NaN  0.657  0.117   0.117 1.000 0.000
+ UR269 Incahuasi        29     20        14  294.0  175.0 0.650  0.600  0.050 0.350  0.150  0.200  0.250   0.150  0.100  1.0   0.0    6.0  0.167   NaN   NaN    NaN  0.507  0.144   0.343 0.258 0.000
+ UR270 Incahuasi       140     94        17  125.5   56.0 0.394  0.128  0.266 0.223  0.011  0.213  0.213   0.000  0.213 23.0   4.0  281.0  0.068 0.499 0.528  0.028  0.000  0.000   0.000 0.000 0.399
+ UR271 Incahuasi        32     32         4    2.0    6.0 0.312  0.219  0.094 0.125  0.094  0.031  0.094   0.062  0.031 70.0  15.0  130.0  0.423 0.247 0.367  0.120  0.121  0.511   0.511 0.000 0.127
+ UR272 Incahuasi       116     51        17    6.0    4.0 0.176  0.157  0.020 0.000  0.020 -0.020  0.000   0.000  0.000  1.0  11.0   92.0 -0.109 0.795 0.832  0.037  0.511  1.000   1.000 0.999 0.399
+UR273A Incahuasi         4      0         0    NaN    NaN   NaN    NaN    NaN   NaN    NaN    NaN    NaN     NaN    NaN  NaN   NaN    NaN    NaN   NaN   NaN    NaN    NaN    NaN     NaN   NaN   NaN
+UR273B Incahuasi         9      0         0    NaN    NaN   NaN    NaN    NaN   NaN    NaN    NaN    NaN     NaN    NaN  NaN   NaN    NaN    NaN   NaN   NaN    NaN    NaN    NaN     NaN   NaN   NaN
+UR274A Incahuasi         1      0         0    NaN    NaN   NaN    NaN    NaN   NaN    NaN    NaN    NaN     NaN    NaN  NaN   NaN    NaN    NaN   NaN   NaN    NaN    NaN    NaN     NaN   NaN   NaN
+UR274B Incahuasi         0      0         0    NaN    NaN   NaN    NaN    NaN   NaN    NaN    NaN    NaN     NaN    NaN  NaN   NaN    NaN    NaN   NaN   NaN    NaN    NaN    NaN     NaN   NaN   NaN
+ UR275 Incahuasi        12      6         6  324.5   27.5 0.167  0.333 -0.167 0.167  0.000  0.167  0.000   0.000  0.000  0.0   0.0    0.0  0.000   NaN   NaN    NaN  0.869  0.486   1.000 1.000 0.000
+ UR276 Incahuasi         5      5         1   15.0    5.0 0.000  0.000  0.000 0.000  0.000  0.000  0.000   0.000  0.000  0.0   0.0   10.0  0.000 0.546 0.548  0.002  1.000  1.000   1.000 0.692 0.504
+ UR277 Incahuasi        78     36         8   18.0    3.0 0.139  0.083  0.056 0.000  0.000  0.000  0.000   0.000  0.000  7.0  15.0  129.0 -0.062 0.551 0.726  0.175  0.360  1.000   1.000 0.994 0.320
+ UR278 Incahuasi        14     13         4  198.0    5.0 0.077  0.154 -0.077 0.077  0.000  0.077  0.077   0.000  0.077  1.0   4.0   37.0 -0.081 0.316 0.451  0.135  1.000  0.489   0.489 1.000 0.436
+ UR279 Incahuasi         7      7         1   65.0   34.0 0.000  0.429 -0.429 0.000  0.143 -0.143  0.000   0.000  0.000  1.0   1.0   21.0  0.000 0.482 0.506  0.024  1.000  1.000   1.000 0.695 0.468
+
+== pruebas globales (nulo intercambio P<->S1 en celda, 20000) ==
+     prueba  n_celdas  observado  nulo_media  nulo_sd  p_perm  p_holm
+ redondez10       387    0.08786     0.00002  0.02908 0.00185 0.00370
+ redondez50       387    0.07752     0.00002  0.01781 0.00005 0.00025
+redondez100       387    0.07494     0.00004  0.01559 0.00005 0.00025
+ igualdades       387    0.04392     0.00017  0.01375 0.00070 0.00210
+  CV(plano)       387    0.12479    -0.00005  0.07121 0.04100 0.04100
+
+== nivel quipu (dirección: P más redondo/repetido/plano) ==
+     prueba  n_quipus  n_positivos   media  p_signos  p_wilcoxon  p_signflip  p_holm_signos
+ redondez10        18           10 0.09613   0.81453     0.09901     0.10149        1.00000
+ redondez50        18            8 0.05811   0.81453     0.01421     0.01480        1.00000
+redondez100        18            8 0.04536   0.81453     0.02531     0.03120        1.00000
+ igualdades        18            3 0.01968   0.00754     0.36766     0.30593        0.03769
+  CV(plano)         9            8 0.09654   0.03906     0.04883     0.12149        0.15625
+
+== control de magnitud: celdas con P y S1 en la misma década ==
+     prueba  n_celdas_misma_decada  dif_obs  disc_P  disc_S1  p_mcnemar
+ redondez10                    170  0.00000      21       21    1.00000
+ redondez50                    170  0.01176       7        5    0.77441
+redondez100                    170  0.02941       6        1    0.12500
+
+== logit redondez10 ~ rol + log10(valor) + EF quipu, SE cluster por celda ==
+        coef      se       p
+rol   0.2826  0.2379  0.2348
+logv  0.7463  0.2573  0.0037

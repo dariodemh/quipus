@@ -1,0 +1,69 @@
+CONTROLES UR278 (9 columnas)
+==============================================================
+filas totales: 28; filas completas (9 columnas): 26
+suma de las 9 columnas (28 filas): 61790
+suma de totales de fila (28 filas): 62179
+
+T1. Equilibrio de las 9 partes (CV dentro de fila)
+  CV observado (media de 26 filas): 0.2777
+  nulo Dirichlet(1) media: 0.8646 (sd 0.0453)
+  p unilateral (nulo <= obs): 5.00e-05
+  CV por fila: mínimo 0.059, máximo 0.597
+
+T2. Identidad estable de las 9 columnas (correlación de perfiles)
+  r media observada (325 pares): 0.4096
+  nulo (permutar dentro de fila) media: 0.0001 (sd 0.0196)
+  p unilateral (nulo >= obs): 5.00e-05
+
+Corrección de Holm (2 pruebas)
+  T1 p=5.00e-05 -> p_Holm=1.00e-04
+  T2 p=5.00e-05 -> p_Holm=1.00e-04
+
+Perfil de las 9 columnas (filas completas)
+  totales: 7541, 7778, 5438, 6211, 6639, 7397, 6386, 4775, 5060
+  cuotas:  13.2%, 13.6%, 9.5%, 10.9%, 11.6%, 12.9%, 11.2%, 8.3%, 8.8%
+  mayor/menor = 1.63
+
+CUOTA 47 COMO PROPORCIÓN DEL REGISTRO (UR278, 28 filas)
+==============================================================
+  rango: 1.10% - 4.18%
+  media: 2.36%; CV: 0.33
+  filas dentro de ±10% de 2%: 3 de 28
+  totales de registro: mínimo 1125, máximo 4273, mediana 2015
+  Lectura: 47 es una cuota ABSOLUTA fija; su proporción varía 3,8x.
+
+CUOTAS EN OTROS QUIPUS (grupos de cuerdas nivel 0, KFG)
+==============================================================
+  UR275: cuota 47, 25 grupos, proporción 0.55%-1.85%, media 1.15%, CV 0.27
+  UR268: cuota 208, 30 grupos, proporción 0.69%-2.80%, media 1.28%, CV 0.44
+  UR266: cuota 47, 30 grupos, proporción 0.65%-4.70%, media 1.81%, CV 0.48
+  (KFG; no son los valores publicados por Urton & Chu 2018)
+
+ESTABILIDAD DE LAS CUOTAS POR TRIBUTARIO (1577 vs 1590)
+==============================================================
+  ropa  : 1577=0.5000  1590=0.5000  cambio=+0.00%
+  aves  : 1577=1.0355  1590=1.0309  cambio=-0.44%
+  plata : 1577=3.0000  1590=2.9688  cambio=-1.04%
+  total : 1577=5.0000  1590=4.9686  cambio=-0.63%
+  Lectura: la tasa colonial es una plantilla POR CABEZA;
+  al caer la población 36%, el total baja pero la cuota unitaria casi no cambia.
+
+EL NÚMERO 9 EN LAS UNIDADES DOCUMENTADAS (exploratorio)
+==============================================================
+  Lunahuaná guarangas          4
+  Lunahuaná curacas            8
+  Lunahuaná barrios/ayllus     16
+  Collique pachacas            10
+  Guancayos pachacas           9
+  Chincha pachacas             30
+  P(≥1 nueve) si los conteos fueran uniformes en 2..30: 0.190
+  -> con 6 conteos, un solo 9 no es estadísticamente especial;
+     el 9 de Guancayos es un ancla textual, no una prueba.
+
+DECLIVE DEMOGRÁFICO (cifras del texto)
+==============================================================
+  tributarios 1577->1590: 740 -> 474 = -35.9%
+  personas 1577->1590:   3276 -> 1915 = -41.5%
+  1590 compara además con 590 tributarios de la cuenta anterior:
+  590 -> 469 = -20.5% (faltan 121, línea 805).
+

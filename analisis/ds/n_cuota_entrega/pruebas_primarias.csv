@@ -1,0 +1,37 @@
+bloque,prueba,estadistico,p,fuente,p_holm,p_bh
+Incahuasi global (nulo intercambio),P vs S1: redondez50,0.0775,4.999750012499375e-05,pruebas_globales.csv,0.0016999150042497873,0.0008999550022498875
+Incahuasi global (nulo intercambio),P vs S1: redondez100,0.0749,4.999750012499375e-05,pruebas_globales.csv,0.0016999150042497873,0.0008999550022498875
+Otras pruebas primarias,UR270 SS_col del cociente S1/P,0.495,0.0001,salida_02.txt,0.0032,0.0012000000000000001
+Otras pruebas primarias,UR270->UR278 con P+S1,51.0,0.0002,salida_03.txt,0.006200000000000001,0.0018000000000000002
+Otras pruebas primarias,UR270 P = cabecera parte B (exactas),4.0,0.0004,salida_03.txt,0.012,0.0025714285714285717
+Otras pruebas primarias,UR270 split-half del cociente S1/P (Pearson),0.952,0.0005,salida_02.txt,0.0145,0.0025714285714285717
+Otras pruebas primarias,Control 20 quipus: redondez50,0.03605,0.0005,salida_04.txt,0.0145,0.0025714285714285717
+Incahuasi global (nulo intercambio),P vs S1: igualdades,0.0439,0.0006999650017499,pruebas_globales.csv,0.0188990550472473,0.00314984250787455
+Incahuasi global (nulo intercambio),P vs S1: redondez10,0.0879,0.0018499075046247,pruebas_globales.csv,0.0480975951202422,0.0073996300184988
+Otras pruebas primarias,UR270 g6 único grupo 100/200 entre 142 grupos (post hoc),1.0,0.007042253521126761,consulta directa,0.17605633802816903,0.024669300426136364
+Incahuasi nivel quipu (signos),P vs S1: igualdades,0.0197,0.007537841796875,pruebas_quipu.csv,0.180908203125,0.024669300426136364
+Otras pruebas primarias,JC (Sector B): CV plano,0.17546,0.0168,salida_04.txt,0.38639999999999997,0.0504
+Incahuasi nivel quipu (signos),P vs S1: CV(plano),0.0965,0.0390625,pruebas_quipu.csv,0.859375,0.10542330026355808
+Incahuasi global (nulo intercambio),P vs S1: CV(plano),0.1248,0.0409979501024948,pruebas_globales.csv,0.8609569521523909,0.10542330026355808
+Otras pruebas primarias,Incahuasi vs control: igualdades,0.08476,0.07755,salida_04.txt,1.0,0.18611999999999998
+Otras pruebas primarias,Control 20 quipus: redondez10,0.02846,0.10774,salida_04.txt,1.0,0.2284
+Otras pruebas primarias,UR270 Friedman del cociente S1/P (rangos),8.937,0.11162,salida_02.txt,1.0,0.2284
+Otras pruebas primarias,UR270 S1 = cabecera parte A (exactas),1.0,0.1142,salida_03.txt,1.0,0.2284
+Control de magnitud (misma década),P vs S1: redondez100,0.0294,0.125,control_magnitud.csv,1.0,0.23684210526315788
+Otras pruebas primarias,Incahuasi sin UR270: redondez10,0.0307,0.1842,salida_06.txt,1.0,0.32415428571428573
+Otras pruebas primarias,Control 20 quipus: redondez100,0.00569,0.18909,salida_04.txt,1.0,0.32415428571428573
+Otras pruebas primarias,Logit redondez10 rol + log10(valor) + EF quipu,0.2826,0.2348,salida_01.txt,1.0,0.38421818181818185
+Otras pruebas primarias,Control 20 quipus: CV plano,0.02077,0.38033,salida_04.txt,1.0,0.5952991304347827
+Otras pruebas primarias,Incahuasi vs control: CV plano,0.08235,0.41633,salida_04.txt,1.0,0.624495
+Otras pruebas primarias,UR270->UR278 con S1,4.0,0.652669,salida_03.txt,1.0,0.9362353846153847
+Otras pruebas primarias,Incahuasi vs control: redondez10,0.03725,0.67617,salida_04.txt,1.0,0.9362353846153847
+Control de magnitud (misma década),P vs S1: redondez50,0.0118,0.7744140625,control_magnitud.csv,1.0,0.977435302734375
+Incahuasi nivel quipu (signos),P vs S1: redondez10,0.0961,0.8145294189453125,pruebas_quipu.csv,1.0,0.977435302734375
+Incahuasi nivel quipu (signos),P vs S1: redondez50,0.0581,0.8145294189453125,pruebas_quipu.csv,1.0,0.977435302734375
+Incahuasi nivel quipu (signos),P vs S1: redondez100,0.0454,0.8145294189453125,pruebas_quipu.csv,1.0,0.977435302734375
+Otras pruebas primarias,Control 20 quipus: igualdades,-0.04231,0.999,salida_04.txt,1.0,1.0
+Control de magnitud (misma década),P vs S1: redondez10,0.0,1.0,control_magnitud.csv,1.0,1.0
+Otras pruebas primarias,UR270->UR278 con P,11.0,1.0,salida_03.txt,1.0,1.0
+Otras pruebas primarias,Mismo color P/S1: McNemar redondez10,0.0,1.0,salida_06.txt,1.0,1.0
+Otras pruebas primarias,UR270 sin columna 8: SS_col del cociente,0.16,,salida_02.txt,,1.0
+Otras pruebas primarias,UR270: P más estable por columna que S1 (CV col),0.299,,salida_06.txt,,1.0

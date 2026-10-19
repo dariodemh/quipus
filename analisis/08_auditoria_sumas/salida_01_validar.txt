@@ -1,0 +1,6 @@
+PPS: total nuestro 8076 vs KFG 8088 | quipus >=1: 428 vs 427 | quipus con conteo idéntico 0.986 | corr 1.000
+COL: total nuestro 3055 vs KFG 3023 | quipus >=1: 262 vs 261 | quipus con conteo idéntico 0.983 | corr 0.999
+IDX: total nuestro 2358 vs KFG 2340 | quipus >=1: 233 vs 228 | quipus con conteo idéntico 0.952 | corr 0.998
+SUB: total nuestro 886 vs KFG 767 | quipus >=1: 133 vs 117 | quipus con conteo idéntico 0.946 | corr 0.961
+quipus con >=1 de los 4 tipos: nuestro 449 / KFG 447 ; en la lista del 74 %: 482 (de 651)
+en la lista del 74 % solo por tipos no reimplementados (cluster-cluster, bandas, decreciente): 35

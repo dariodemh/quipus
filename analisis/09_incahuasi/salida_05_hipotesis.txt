@@ -1,0 +1,64 @@
+analisis\09_incahuasi\05_hipotesis.py:60: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  fm = U.groupby("fila").apply(lambda g: pd.Series(dict(k=g.c.mean()/g.x.mean(), sd_pred=(g.c.mean()/g.x.mean()*g.x).std(), sd_obs=g.c.std())))
+      kfg  tríos_exactos  grupos_de_3                            c_valores  x_min  x_max  c_sobre_x_min  c_sobre_x_max   cv_c   cv_x  corr_spearman_cx
+0   UR255             10           11                             {15: 10}     34    201         0.0746          0.441  0.000  0.438               NaN
+1   UR256              7           12                              {10: 7}    153    603         0.0166          0.065  0.000  0.370               NaN
+2  UR267A             15           23                             {15: 15}     34    238         0.0630          0.441  0.000  0.441               NaN
+3  UR267B             13           15                             {10: 13}    121    660         0.0152          0.083  0.000  0.364               NaN
+4   UR269             15           32  {47: 4, 46: 7, 44: 1, 25: 2, 20: 1}    270   2797         0.0072          0.174  0.229  0.457              0.15
+5   UR275              7            9                              {47: 7}   1505   2247         0.0209          0.031  0.000  0.129               NaN
+
+[H_prop] SD esperado de c si c=round(r*x) con r=media(c/x) y x observadas, frente a SD observada
+UR255 r=0.162 sd_c_pred=8.54 sd_c_obs=0.00
+UR256 r=0.029 sd_c_pred=4.73 sd_c_obs=0.00
+UR267A r=0.145 sd_c_pred=9.09 sd_c_obs=0.00
+UR267B r=0.027 sd_c_pred=4.54 sd_c_obs=0.00
+UR269 r=0.029 sd_c_pred=24.19 sd_c_obs=9.55
+UR275 r=0.026 sd_c_pred=6.32 sd_c_obs=0.00
+
+[UR269] registros con x y c: 44
+       n  c_media   c_sd  c_mod  x_media    x_sd
+fila                                            
+1     10    45.30   2.95     47  1617.00  323.00
+2     11    44.18   3.40     46  2346.36  244.68
+3      6    44.67   2.42     46  2459.00  185.18
+4      9    42.67   6.73     44  2089.11  592.41
+5      8    32.25  11.66     25  1083.25  890.52
+R2 de c explicado por la fila: 0.387 ; nulo medio 0.094 ; p=0.0015
+Spearman medio c~x dentro de fila: 0.109 ; nulo -0.002 ; p(>=)=0.240
+tributo proporcional dentro de fila: SD(c) predicha vs observada
+          k  sd_pred  sd_obs
+fila                       
+1     0.03     9.05    2.95
+2     0.02     4.61    3.40
+3     0.02     3.36    2.42
+4     0.02    12.10    6.73
+5     0.03    26.51   11.66
+
+[H_saldo] encadenamiento n_i = x_(i+1)
+UR255 adyacente obs 0 nulo 0.0 | n que aparecen como x en el quipu: 0 de 10
+UR256 adyacente obs 0 nulo 0.0 | n que aparecen como x en el quipu: 0 de 7
+UR267A adyacente obs 0 nulo 0.0 | n que aparecen como x en el quipu: 0 de 15
+UR267B adyacente obs 0 nulo 0.064 | n que aparecen como x en el quipu: 1 de 13
+UR269 adyacente obs 0 nulo 0.0 | n que aparecen como x en el quipu: 0 de 15
+UR275 adyacente obs 0 nulo 0.0 | n que aparecen como x en el quipu: 0 de 7
+
+[H_resultado] cuerda jaspeada (':' en color) en última posición del grupo vs nulo N1 (barajar colores entre cuerdas L0 presentes)
+      kfg  grupos  jaspeadas_al_final  esperadas      p  jaspeadas_total  n_cuerdas
+0   UR255      13                   2      0.424  0.040                2         65
+1   UR256      22                   0      0.434  1.000                2         99
+2   UR266      19                   0      0.000  1.000                0         90
+3  UR267A      23                   7      2.146  0.000                7         75
+4  UR267B      25                   6      1.910  0.002                7         93
+5   UR269      41                   8      2.174  0.000               10        189
+6  UR274B      14                   1      1.122  0.727                5         65
+7   UR275      25                  16      4.192  0.000               18        107
+
+unión R/V/T/U por quipu (todas las cuerdas L0 presentes)
+UR255 {'R': 62, 'U': 3} pc_color AB-MB
+UR267A {'V': 75} pc_color W
+UR256 {'V': 99} pc_color MB
+UR267B {'R': 93} pc_color W
+UR266 {'V': 90} pc_color W-AB-MB
+UR275 {'R': 96, 'V': 11} pc_color AB-KB
+UR269 {'V': 189} pc_color PK

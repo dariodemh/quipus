@@ -1,0 +1,17 @@
+{
+  "string": {
+    "cuerdas_con_nudos": 37206,
+    "string": 1963,
+    "pct": 5.28,
+    "multiL": 1721,
+    "multiE": 254
+  },
+  "L_value_type": {
+    "n": 21907,
+    "match": 21588,
+    "pct": 98.54,
+    "n_string": 4257,
+    "match_string": 4069,
+    "pct_string": 95.58
+  }
+}

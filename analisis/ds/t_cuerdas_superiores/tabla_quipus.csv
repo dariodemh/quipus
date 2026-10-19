@@ -1,0 +1,27 @@
+kfg,region,procedencia,pc_largo,pc_color,pc_estructura,n_grupos,n_T_total,n_T_nivel0,n_unidades,n_con_valor,n_blancas,n_full_prev,n_full_next,n_full_any,exactas,kfg_num_top,kfg_num_sum
+AS006,Unknown,Unknown,55.0,W,P,12,28,6,6,6,0,4,0,4,p14=120; p35=140; p7=105; p28=138,28.0,4.0
+AS007,Unknown,Unknown,94.0,W:MB,P,37,16,10,10,10,0,4,0,4,p81=147; p96=80; p20=131; p103=124,16.0,5.0
+QU009,"Inka, Late Horizon",Unknown,76.0,YB:BB:PB,,16,6,6,6,6,0,4,1,4,p77=83; p123=98; p70=83; p116=50,6.0,4.0
+AS001,Unknown,Unknown,73.0,MB(0.0-33.0)/LB:KB(33.0-73.0,P,4,3,2,2,2,0,1,0,1,p7=101,3.0,2.0
+AS002,Unknown,Unknown,17.7,KB,P,2,5,1,1,1,0,1,0,1,p7=117,5.0,1.0
+AS003,Unknown,Unknown,36.5,LB:KB,P,2,2,1,1,1,0,1,0,1,p7=76,2.0,1.0
+AS004,Unknown,Unknown,41.0,W(0.0-25.0)/GR(25.0-41.0),P,7,1,1,1,1,0,1,0,1,p7=312,1.0,1.0
+AS072,Unknown,"Rancho San Juan, Ica Valley",22.0,PK,P,14,8,8,8,5,3,1,0,1,p23=40,8.0,3.0
+AS215,Unknown,Nazca,41.0,DB,,11,3,0,1,1,0,1,0,1,p11=76,4.0,1.0
+QU014,"Inka, Late Horizon",Unknown,80.0,YB-PB-KB(0.0-49.0)/YB-BB(49.,P,46,16,16,16,6,10,1,0,1,p7=541,16.0,2.0
+QU015,"Inka, Late Horizon",Unknown,89.0,MB-AB:YB(0.0-50.0)/AB-B-B(50,P,29,10,5,5,5,0,1,0,1,p40=512,10.0,1.0
+QU016,"Inka, Late Horizon",Unknown,53.5,BB(0.0-10.0)/BB(10.0-21.5)/B,P,17,5,5,5,4,1,1,0,1,p24=129,5.0,1.0
+QU019,"Inka, Late Horizon",Unknown,155.25,YB:AB(0.0-46.25)/YB(46.25-10,P,29,11,5,5,5,0,1,0,1,p86=173,11.0,1.0
+UR186,Unknown,"Hda. Huando, Chancay",33.5,AB,P,17,2,0,1,1,0,1,0,1,p24=75,9.0,3.0
+AS010,Unknown,Unknown,73.0,W,,13,1,0,1,1,0,0,0,0,,3.0,0.0
+AS044,Unknown,Unknown,69.0,W:BL:B,,28,1,0,1,1,0,0,0,0,,13.0,9.0
+AS061_MA036,Unknown,Unknown,55.0,W:B,,3,1,0,1,1,0,0,0,0,,,
+AS212,Unknown,Unknown,0.0,W,,13,2,0,2,2,0,0,0,0,,5.0,0.0
+HP047,Unknown,"Armatambo, Lima, Central Coast",31.0,W,P,9,4,3,3,2,1,0,0,0,,4.0,1.0
+KH0080,Unknown,Unknown,151.0,W:LB,P,16,6,3,3,3,0,0,0,0,,6.0,0.0
+QU003,"Inka, Late Horizon",Unknown,18.0,PK,,10,4,4,4,2,2,0,0,0,,4.0,0.0
+QU012,"Inka, Late Horizon",Unknown,36.0,MB-BB,,13,4,4,4,3,1,0,0,0,,4.0,0.0
+UR006,Chachapoyas,Leymebamba,220.0,GG:MB(0.0-157.0)/AB(157.0-22,P,63,9,0,1,0,1,0,0,0,,10.0,0.0
+UR1051,Unknown,Hacienda Ullujalla y Callengo,39.0,MB,,10,2,0,1,1,0,0,0,0,,7.0,0.0
+UR155,Unknown,Valle de Ica Hacienda Callango Ocucaje,46.5,GG-HB-HB,P,4,2,2,2,1,1,0,0,0,,2.0,0.0
+UR201,"Central Coast, Peru",Pachacamac,62.4,W-MB,,18,2,0,2,2,0,0,0,0,,11.0,0.0

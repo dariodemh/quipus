@@ -1,0 +1,312 @@
+quipu,db_row,cord_db,cord_kfg,nivel_db,nivel_kfg,valor_db,valor_kfg,largo_db,largo_kfg,valor_knots,knots_ambiguo,knots_norm,valor_dudoso,color_db,color_kfg,color_db_n,color_kfg_n,score,cuerda,kfg_sem,kfg_amb,kfg_aporte,nudos,kfg_tiene_nudos,db_tiene_nudos,clase,detalle,dif,color_eq,largo_dif
+AS011,45,p13,p13,0,0,2.0,0.0,18.0,18.0,0,False,,False,YB,YB,YB,YB,4.2,p13,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS012,72,p21s1,p21s1,1,1,1.0,0.0,23.0,23.0,1,False,1E(10.0),False,YG,YG,YG,YG,4.1,p21s1,0,False,0.0,,False,True,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),1.0,True,0.0
+AS012,78,p26s1,p26s1,1,1,1.0,0.0,4.0,4.0,10,False,1s(1.5),False,YG,YG,YG,YG,4.1,p26s1,0,False,0.0,,False,True,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),1.0,True,0.0
+AS012,85,p30s1,p30s1,1,1,3.0,0.0,9.5,9.5,3,False,3L( 09.0),False,YG,YG,YG,YG,3.4,p30s1,0,False,0.0,,False,True,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),3.0,True,0.0
+AS012,89,p33s1,p33s1,1,1,1.0,0.0,16.0,16.0,1,False,1E(9.0),False,YG,YG,YG,YG,4.1,p33s1,0,False,0.0,,False,True,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),1.0,True,0.0
+AS012,90,p33s2,p33s2,1,1,1.0,0.0,18.0,18.0,1,False,1E(9.0),False,MB,MB,MB,MB,4.1,p33s2,0,False,0.0,,False,True,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),1.0,True,0.0
+AS012,91,p33s3,p33s3,1,1,1.0,0.0,18.0,18.0,1,False,1E(8.0),False,MB:YG:W,W:MB:YG,MB:W:YG,MB:W:YG,4.1,p33s3,0,False,0.0,,False,True,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),1.0,True,0.0
+AS012,97,p37s1,p37s1,1,1,1.0,0.0,24.0,24.0,1,False,1E(9.0),False,MB:W,W:MB,MB:W,MB:W,4.1,p37s1,0,False,0.0,,False,True,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),1.0,True,0.0
+AS013,172,p30,p30,0,0,3.0,0.0,41.0,41.0,3,False,3L( 17.0),False,W,W,W,W,4.2,p30,0,False,0.0,"0U(17.0,U),0",True,True,d_otras,cada fuente coherente con sus propios nudos,3.0,True,0.0
+AS013,182,p41,p41,0,0,12.0,120.0,24.0,24.0,102,False,1s(7.0)3;2s(20.0),True,W,W,W,W,3.9,p41,102,True,120.0,"1S(7.0,U),100;2S(20.0,U),20",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-108.0,True,0.0
+AS013,188,p49,p49,0,0,1.0,10.0,10.0,10.0,1,False,1s(8.0),True,GB:MB:W,W:GB:MB,GB:MB:W,GB:MB:W,4.2,p49,1,True,10.0,"1S(8.0,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS013,193,p54,p54,0,0,1.0,10.0,17.0,17.0,10,True,1s(8.0),True,W,W,W,W,4.2,p54,1,True,10.0,"1S(8.0,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS013,214,p76,p77,0,0,2.0,0.0,2.0,2.0,0,False,,False,MB,MB,MB,MB,3.4,p77,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS013,218,p80,p81,0,0,1.0,10.0,16.0,16.0,10,True,1s(8.0),True,MB:W,W:MB,MB:W,MB:W,3.4,p81,1,True,10.0,"1S(8.0,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS013,219,p81,p82,0,0,2.0,0.0,14.0,14.0,0,False,,False,W,W,W,W,3.4,p82,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS013,220,p82,p83,0,0,2.0,0.0,14.0,14.0,0,False,,False,MB,MB,MB,MB,3.4,p83,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS013,223,p85,p86,0,0,2.0,0.0,14.0,14.0,0,False,,False,MB,MB,MB,MB,3.4,p86,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS013,224,p86,p87,0,0,2.0,0.0,4.0,4.0,0,False,,False,MB,MB,MB,MB,3.4,p87,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS017,335,p12s1,p12s1,1,1,1.0,4.0,23.0,23.0,1,False,1E(9.0),False,AB,AB,AB,AB,3.4,p12s1,4,False,4.0,"4L(9.0,U),4",True,True,d_otras,cada fuente coherente con sus propios nudos,-3.0,True,0.0
+AS017,336,p13,p13,0,0,1.0,0.0,35.0,35.0,0,False,,False,AB,AB,AB,AB,4.9,p13,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),1.0,True,0.0
+AS020,366,p1,p1,0,0,5.0,50.0,14.0,14.0,5,False,5s(10.0),True,B,B,B,B,3.9,p1,5,True,50.0,"5S(10.0,U),50",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-45.0,True,0.0
+AS021,389,p7,p7,0,0,16.0,10.0,45.0,45.0,10,False,1s(6.0),False,W,W,W,W,4.2,p7,1,True,10.0,"1S(6.0,U),10",True,True,c_error_databook,nudos KFG dan 1; Databook imprime 16 y sus nudos dan 10,6.0,True,0.0
+AS021,416,p31,p32,0,0,4.0,3.0,16.5,16.5,3,False,3L(10.5),False,YB,YB,YB,YB,4.1,p32,3,False,3.0,"3L(10.5,U),3",True,True,c_error_databook,nudos KFG dan 3; Databook imprime 4 y sus nudos dan 3,1.0,True,0.0
+AS021,432,p45,p46,0,0,3.0,30.0,13.5,13.5,30,True,3s(8.0),True,W,W,W,W,3.1,p46,3,True,30.0,"3S(8.0,U),30",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-27.0,True,0.0
+AS021,438,p51,p52,0,0,1.0,10.0,13.5,13.5,1,False,1s(9.5),True,YB,YB,YB,YB,3.4,p52,1,True,10.0,"1S(9.5,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS026A,461,p4,p4,0,0,3.0,1.0,29.0,29.0,3,False,3L(13.0),False,W,W,W,W,4.2,p4,1,False,1.0,"1L(13.0,U),1",True,True,d_otras,cada fuente coherente con sus propios nudos,2.0,True,0.0
+AS026A,462,p4s1,p4s1,1,1,2.0,0.0,1.0,1.0,0,False,,False,FB,FB,FB,FB,3.4,p4s1,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS026A,511,p40,p40,0,0,2.0,0.0,5.0,5.0,0,False,,False,B,B,B,B,4.2,p40,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS026B,601,p34,p34,0,0,2.0,0.0,7.5,7.5,0,False,,False,B,B,B,B,4.2,p34,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS026B,603,p35,p35,0,0,2.0,0.0,7.5,7.5,0,False,,False,B,B,B,B,4.2,p35,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS026B,607,p37,p37,0,0,2.0,0.0,6.5,6.5,0,False,,False,B,B,B,B,4.2,p37,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS026B,620,p42s2,p42s2,1,1,20.0,2.0,26.0,26.0,2,False,2L(12.0),False,W,W,W,W,3.1,p42s2,2,False,2.0,"2L(12.0,U),2",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,18.0,True,0.0
+AS026B,636,p50,p50,0,0,242.0,4.0,30.0,30.0,4,False,2L(12.0);2L(13.0),False,B,B,B,B,3.9,p50,4,False,4.0,"2L(12.0,U),2;2L(13.0,U),2",True,True,a_ocr,digitos insertados/perdidos: 242 vs 4,238.0,True,0.0
+AS026B,685,p73,p73,0,0,4.0,8.0,17.5,17.5,8,False,4L(9.0);4L(10.0),False,,B,,B,3.2,p73,8,False,8.0,"4L(9.0,U),4;4L(10.0,U),4",True,True,c_error_databook,nudos KFG dan 8; Databook imprime 4 y sus nudos dan 8,-4.0,False,0.0
+AS026B,743,p103s2,p103s2,1,1,2.0,0.0,0.5,0.5,0,False,,False,W,W,W,W,3.4,p103s2,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS027,753,p7s1,p7s1,1,1,10.0,1.0,37.5,37.5,1,False,1E(3.5),False,LB:W,W:LB,LB:W,LB:W,3.4,p7s1,1,False,1.0,"1E(3.5,U),1",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,9.0,True,0.0
+AS028,780,p11,p11,0,0,20.0,12.0,34.5,34.5,2,False,2L 14.0),False,W,W,W,W,4.2,p11,12,False,12.0,"1S(6.5,U),10;2L(15.0,U),2",True,True,d_otras,cada fuente coherente con sus propios nudos,8.0,True,0.0
+AS028,785,p16,p16,0,0,4.0,40.0,36.5,36.5,4,False,4L(13.5),False,W,W,W,W,3.9,p16,40,True,40.0,"40L(13.5,U),40",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-36.0,True,0.0
+AS029,887,p41,p41,0,0,62.0,60.0,11.0,11.0,6,False,6s(8.0),True,DB:W,W:DB,DB:W,DB:W,4.2,p41,6,True,60.0,"6S(8.0,U),60",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),2.0,True,0.0
+AS035D,1861,p16,p16,0,0,2.0,0.0,4.0,4.0,0,False,,False,KB,KB,KB,KB,4.2,p16,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS035D,1864,p19,p19,0,0,2.0,0.0,1.0,1.0,0,False,,False,KB,KB,KB,KB,4.2,p19,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS035D,1866,p23,p23,0,0,2.0,0.0,0.5,0.5,0,False,,False,KB,KB,KB,KB,4.2,p23,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS035D,1871,p28,p28,0,0,2.0,0.0,0.5,0.5,0,False,,False,KB,KB,KB,KB,4.2,p28,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS042,2459,p3,p3,0,0,2.0,0.0,0.5,0.5,0,False,,False,AB,AB,AB,AB,4.2,p3,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS042,2460,p4,p4,0,0,2.0,0.0,4.0,4.0,0,False,,False,AB,AB,AB,AB,4.2,p4,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS044,2513,t1s1,p7s1,1,1,34.0,30.0,19.5,19.5,34,False,3s(8.0);4L(10.0),False,B,B,B,B,3.4,p7s1,3,True,30.0,"3S(8.0,U),30",True,True,d_otras,cada fuente coherente con sus propios nudos,4.0,True,0.0
+AS044,2566,p42,p48,0,0,2.0,0.0,0.5,0.5,0,False,,False,B:W,W:B,B:W,B:W,3.4,p48,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS044,2578,p52,p58,0,0,2.0,0.0,11.0,11.0,0,False,,False,LB:W,W:LB,LB:W,LB:W,3.4,p58,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS044,2579,p53,p59,0,0,1.0,10.0,11.5,11.5,10,False,1s(4.5),True,LB:W,W:LB,LB:W,LB:W,3.4,p59,1,True,10.0,"1S(4.5,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS044,2623,p78s1,p88s1,1,1,1.0,10.0,14.5,14.5,10,True,1s(6.5),True,B:W,W:B,B:W,B:W,3.4,p88s1,1,True,10.0,"1S(6.5,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS045,2640,p1,p1,0,0,2.0,20.0,37.0,37.0,2,True,2s8(14.5),True,LC/MB,LC(0.0-21.0)/MB(21.0-37.0),LC:MB,LC:MB,3.9,p1,2,True,20.0,"2S(14.5,U),20",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-18.0,True,0.0
+AS045,2644,p4,p4,0,0,142.0,140.0,26.5,26.5,140,True,1s(8.0);4s(15.0),False,W,W,W,W,4.2,p4,104,True,140.0,"1S(8.0,U),100;4S(15.0,U),40",True,True,d_otras,nudos ambiguos o no concluyentes (db=140 kfg=104),2.0,True,0.0
+AS045,2671,p26s3,p26s3,1,1,2.0,0.0,3.5,3.5,0,False,,False,MB,MB,MB,MB,3.4,p26s3,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS045,2673,p27,p27,0,0,6.0,60.0,18.0,18.0,330,True,3s(8.0);3s(9.5),True,W,W,W,W,3.9,p27,303,True,60.0,"3S(8.0,U),30;3S(9.5,U),30",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-54.0,True,0.0
+AS045,2684,p36s1,p36s1,1,1,1.0,10.0,16.0,16.0,10,True,1s(9.0),True,B/LC,B(0.0-15.5)/LC(15.5-16.0),B:LC,B:LC,3.4,p36s1,1,True,10.0,"1S(9.0,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS048,2947,p8,p8,0,0,3.0,11.0,27.0,27.0,11,False,8L(13.0);3L(18.0),False,,W,,W,3.2,p8,11,False,11.0,"8L(13.0,U),8;3L(18.0,U),3",True,True,c_error_databook,nudos KFG dan 11; Databook imprime 3 y sus nudos dan 11,-8.0,False,0.0
+AS050,3095,p9s1,p9s1,1,1,2.0,0.0,5.0,5.0,0,False,,False,B,B,B,B,3.4,p9s1,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3099,p11,p11,0,0,2.0,0.0,0.5,0.5,0,False,,False,W,W,W,W,4.2,p11,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3107,p16,p16,0,0,2.0,0.0,7.5,7.5,0,False,,False,BD-W,W-BD,BD:W,BD:W,4.2,p16,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3127,p31,p31,0,0,2.0,0.0,6.0,6.0,0,False,,False,W,W,W,W,4.2,p31,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3128,p32,p32,0,0,2.0,0.0,5.0,5.0,0,False,,False,W,W,W,W,4.2,p32,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3142,p40,p40,0,0,2.0,0.0,13.0,13.0,0,False,,False,,B-BD,,B:BD,3.2,p40,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,False,0.0
+AS050,3143,p41,p41,0,0,722.0,700.0,10.5,10.5,7,False,7s(8.5),False,B-W,W-B,B:W,B:W,3.9,p41,7,True,700.0,"7S(8.5,U),700",True,True,c_error_databook,nudos KFG dan 7; Databook imprime 722 y sus nudos dan 7,22.0,True,0.0
+AS050,3144,p42,p42,0,0,82.0,850.0,13.0,13.0,805,False,8s(7.0);5s(13.0),True,B:W,W:B,B:W,B:W,3.9,p42,805,True,850.0,"8S(7.0,U),800;5S(13.0,U),50",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-768.0,True,0.0
+AS050,3149,p46,p46,0,0,1.0,10.0,14.0,14.0,1,False,1s(13.0),True,B,B,B,B,4.2,p46,1,True,10.0,"1S(13.0,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS050,3150,p47,p47,0,0,4.0,40.0,12.5,12.5,4,False,4s(12.0),True,BG,BG,BG,BG,3.9,p47,4,True,40.0,"4S(12.0,U),40",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-36.0,True,0.0
+AS050,3152,p48,p48,0,0,42.0,400.0,13.0,13.0,40,True,4s(7.0),True,GY,GY,GY,GY,3.9,p48,4,True,400.0,"4S(7.0,U),400",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-358.0,True,0.0
+AS050,3155,p50,p50,0,0,4.0,40.0,13.0,13.0,4,False,4s(12.5),True,B,B,B,B,3.9,p50,4,True,40.0,"4S(12.5,U),40",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-36.0,True,0.0
+AS050,3156,p51,p51,0,0,2.0,0.0,11.0,11.0,0,False,,False,W,W,W,W,4.2,p51,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3157,p52,p52,0,0,2.0,0.0,9.0,9.0,0,False,,False,W,W,W,W,4.2,p52,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3162,p55,p55,0,0,2.0,0.0,13.0,13.0,0,False,,False,BD-W,W-BD,BD:W,BD:W,4.2,p55,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3164,p57,p57,0,0,2.0,0.0,11.5,11.5,0,False,,False,B:W,W:B,B:W,B:W,4.2,p57,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3166,p58,p58,0,0,1.0,10.0,12.5,12.5,1,False,1s(12.0),True,B,B,B,B,4.2,p58,1,True,10.0,"1S(12.0,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS050,3169,p59s1,p59s1,1,1,32.0,330.0,12.0,12.0,303,False,3s(7.5);3s(12.0),True,B,B,B,B,3.1,p59s1,303,True,330.0,"3S(7.5,U),300;3S(12.0,U),30",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-298.0,True,0.0
+AS050,3171,p61,p61,0,0,2.0,0.0,17.0,17.0,0,False,,False,B-W,W-B,B:W,B:W,4.2,p61,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3172,p62,p62,0,0,2.0,0.0,21.0,21.0,0,False,,False,B:W,W:B,B:W,B:W,4.2,p62,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3173,p63,p63,0,0,2.0,0.0,20.0,20.0,0,False,,False,BY,YB,BY,YB,3.2,p63,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,False,0.0
+AS050,3174,p64,p64,0,0,2.0,0.0,17.5,17.5,0,False,,False,B,B,B,B,4.2,p64,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3176,p66,p66,0,0,4.0,40.0,19.5,19.5,4,False,4s(13.5),True,GY,GY,GY,GY,3.9,p66,4,True,40.0,"4S(13.5,U),40",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-36.0,True,0.0
+AS050,3177,p67,p67,0,0,2.0,0.0,6.0,6.0,0,False,,False,GY,GY,GY,GY,4.2,p67,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3182,p72,p72,0,0,2.0,0.0,11.0,11.0,0,False,,False,BD,BD,BD,BD,4.2,p72,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3184,p75,p75,0,0,2.0,0.0,6.0,6.0,0,False,,False,BD:W,W:BD,BD:W,BD:W,4.2,p75,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3185,p76,p76,0,0,2.0,0.0,19.0,19.0,0,False,,False,BD,BD,BD,BD,4.2,p76,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3186,p77,p77,0,0,100.0,1000.0,20.5,20.5,10,False,1s(3.5),True,BD:W,W:BD,BD:W,BD:W,3.9,p77,1,True,1000.0,"1S(3.5,U),1000",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-900.0,True,0.0
+AS050,3187,p78,p78,0,0,2.0,0.0,19.0,19.0,0,False,,False,B-BD,B-BD,B:BD,B:BD,4.2,p78,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3188,p79,p79,0,0,10.0,100.0,17.0,17.0,10,False,1s(6.0),True,B-W,W-B,B:W,B:W,3.9,p79,1,True,100.0,"1S(6.0,U),100",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-90.0,True,0.0
+AS050,3189,p80,p80,0,0,23.0,232.0,20.5,20.5,203,False,2s(7.0);3s(13.0),True,B:W,W:B,B:W,B:W,3.9,p80,232,False,232.0,"2S(7.0,U),200;3S(13.0,U),30;2L(20.5,U),2",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-209.0,True,0.0
+AS050,3191,p82,p82,0,0,2.0,0.0,19.0,19.0,0,False,,False,B,B,B,B,4.2,p82,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3194,p85,p85,0,0,5.0,50.0,19.5,19.5,5,False,5s(13.0),True,GY,GY,GY,GY,3.9,p85,5,True,50.0,"5S(13.0,U),50",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-45.0,True,0.0
+AS050,3197,p88,p88,0,0,2.0,0.0,13.0,13.0,0,False,,False,W,W,W,W,4.2,p88,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3204,p93s1,p93s1,1,1,2.0,20.0,21.0,21.0,20,True,2s(11.5),True,B:GY,B:GY,B:GY,B:GY,3.1,p93s1,2,True,20.0,"2S(11.5,U),20",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-18.0,True,0.0
+AS050,3228,p115,p115,0,0,8.0,80.0,17.0,17.0,8,False,8s(14.0),True,B-W,W-B,B:W,B:W,3.9,p115,8,True,80.0,"8S(14.0,U),80",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-72.0,True,0.0
+AS050,3232,p119,p119,0,0,2.0,0.0,9.0,9.0,0,False,,False,B,B,B,B,4.2,p119,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3233,p120,p120,0,0,2.0,0.0,8.0,8.0,0,False,,False,BG,BG,BG,BG,4.2,p120,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3234,p121,p121,0,0,2.0,0.0,10.0,10.0,0,False,,False,GY,GY,GY,GY,4.2,p121,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3235,p122,p122,0,0,2.0,0.0,9.0,9.0,0,False,,False,B,B,B,B,4.2,p122,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3237,p124,p124,0,0,2.0,0.0,8.0,8.0,0,False,,False,W,W,W,W,4.2,p124,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3238,p125,p125,0,0,2.0,0.0,8.0,8.0,0,False,,False,W,W,W,W,4.2,p125,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3246,p131,p131,0,0,17.0,100.0,9.0,9.0,1,False,1s(7.0),True,BD:W,W:BD,BD:W,BD:W,3.9,p131,1,True,100.0,"1S(7.0,U),100",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-83.0,True,0.0
+AS050,3248,p133,p133,0,0,7.0,70.0,13.5,13.5,7,False,7s(13.0),True,B-W,W-B,B:W,B:W,3.9,p133,7,True,70.0,"7S(13.0,U),70",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-63.0,True,0.0
+AS050,3252,p137,p137,0,0,2.0,0.0,7.0,7.0,0,False,,False,B,B,B,B,4.2,p137,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3257,p143,p143,0,0,2.0,0.0,14.0,14.0,0,False,,False,W,W,W,W,4.2,p143,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3272,p156,p156,0,0,6.0,60.0,15.5,15.5,6,False,6s(13.5),True,W,W,W,W,3.9,p156,6,True,60.0,"6S(13.5,U),60",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-54.0,True,0.0
+AS050,3277,p161,p161,0,0,3.0,30.0,13.5,13.5,3,False,3s(13.0),True,W,W,W,W,3.9,p161,3,True,30.0,"3S(13.0,U),30",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-27.0,True,0.0
+AS050,3288,p171,p171,0,0,11.0,110.0,18.5,18.5,101,False,1s(7.0);1s(13.5),True,B:W,W:B,B:W,B:W,3.9,p171,101,True,110.0,"1S(7.0,U),100;1S(13.5,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-99.0,True,0.0
+AS050,3309,p191,p191,0,0,8.0,0.0,25.0,25.0,0,False,,False,B,B,B,B,4.2,p191,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),8.0,True,0.0
+AS050,3311,p193,p193,0,0,6.0,60.0,23.0,23.0,60,True,6s(14.0),True,BG,BG,BG,BG,3.9,p193,6,True,60.0,"6S(14.0,U),60",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-54.0,True,0.0
+AS050,3331,p212s1,p212s1,1,1,4.0,10.0,14.5,14.5,1,False,1s(14.5),False,B:GY,B:GY,B:GY,B:GY,3.4,p212s1,1,True,10.0,"1S(14.5,U),10",True,True,c_error_databook,nudos KFG dan 1; Databook imprime 4 y sus nudos dan 1,-6.0,True,0.0
+AS050,3335,p216,p216,0,0,2.0,0.0,10.5,10.5,0,False,,False,W,W,W,W,4.2,p216,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3339,p219,p219,0,0,2.0,0.0,11.0,11.0,0,False,,False,BD-W,W-BD,BD:W,BD:W,4.2,p219,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3340,p219s1,p219s1,1,1,2.0,0.0,11.0,11.0,0,False,,False,B,B,B,B,3.4,p219s1,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3341,p220,p220,0,0,2.0,20.0,17.5,17.5,2,False,2s(14.0),True,B,B,B,B,3.9,p220,2,True,20.0,"2S(14.0,U),20",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-18.0,True,0.0
+AS050,3345,p224,p224,0,0,1.0,10.0,11.5,11.5,1,False,1s(11.5),True,B-W,W-B,B:W,B:W,4.2,p224,1,True,10.0,"1S(11.5,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS050,3351,p230,p230,0,0,1.0,10.0,12.0,12.0,1,False,1s(11.0),True,GY,GY,GY,GY,4.2,p230,1,True,10.0,"1S(11.0,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS050,3352,p231,p231,0,0,2.0,0.0,13.0,13.0,0,False,,False,B,B,B,B,4.2,p231,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3353,p232,p232,0,0,2.0,0.0,13.0,13.0,0,False,,False,B,B,B,B,4.2,p232,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3359,p237,p237,0,0,2.0,0.0,12.0,12.0,0,False,,False,BD-W,W-BD,BD:W,BD:W,4.2,p237,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3361,p238,p238,0,0,2.0,0.0,14.0,14.0,0,False,,False,B,B,B,B,4.2,p238,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3363,p240,p240,0,0,2.0,10.0,11.0,11.0,1,False,1s(11.0),False,BD:W,W:BD,BD:W,BD:W,4.2,p240,1,True,10.0,"1S(11.0,U),10",True,True,c_error_databook,nudos KFG dan 1; Databook imprime 2 y sus nudos dan 1,-8.0,True,0.0
+AS050,3365,p242,p242,0,0,10.0,100.0,18.0,18.0,10,True,1s(10.0),True,B-W,W-B,B:W,B:W,3.9,p242,1,True,100.0,"1S(10.0,U),100",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-90.0,True,0.0
+AS050,3366,p243,p243,0,0,22.0,200.0,14.5,14.5,2,False,2s(10.5),True,B:W,W:B,B:W,B:W,3.9,p243,2,True,200.0,"2S(10.5,U),200",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-178.0,True,0.0
+AS050,3367,p244,p244,0,0,2.0,0.0,23.0,23.0,0,False,,False,BY,YB,BY,YB,3.2,p244,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,False,0.0
+AS050,3368,p245,p245,0,0,2.0,0.0,18.5,18.5,0,False,,False,B,B,B,B,4.2,p245,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3369,p246,p246,0,0,2.0,0.0,21.5,21.5,0,False,,False,B,B,B,B,4.2,p246,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3371,p248,p248,0,0,1.0,10.0,20.5,20.5,1,False,1s(16.5),True,GY,GY,GY,GY,4.2,p248,1,True,10.0,"1S(16.5,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS050,3372,p248s1,p248s1,1,1,1.0,10.0,21.0,21.0,1,False,1s(16.0),True,GY,GY,GY,GY,3.4,p248s1,1,True,10.0,"1S(16.0,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS050,3373,p249,p249,0,0,2.0,0.0,21.0,21.0,0,False,,False,B,B,B,B,4.2,p249,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3374,p250,p250,0,0,2.0,0.0,16.0,16.0,0,False,,False,B,B,B,B,4.2,p250,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3376,p252,p252,0,0,2.0,0.0,17.0,17.0,0,False,,False,W,W,W,W,4.2,p252,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3380,p255,p255,0,0,2.0,0.0,17.5,17.5,0,False,,False,,W-B,,B:W,3.2,p255,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,False,0.0
+AS050,3382,p256,p256,0,0,1.0,10.0,19.5,19.5,1,False,1s(18.5),True,B,B,B,B,4.2,p256,1,True,10.0,"1S(18.5,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS050,3387,p260,p260,0,0,8.0,80.0,24.0,24.0,8,False,8s(18.0),True,B-W,W-B,B:W,B:W,3.9,p260,8,True,80.0,"8S(18.0,U),80",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-72.0,True,0.0
+AS050,3388,p261,p261,0,0,21.0,210.0,24.0,24.0,201,False,2s(11.0);1s(18.0),True,B:W,W:B,B:W,B:W,3.9,p261,201,True,210.0,"2S(11.0,U),200;1S(18.0,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-189.0,True,0.0
+AS050,3389,p262,p262,0,0,2.0,0.0,23.0,23.0,0,False,,False,BY,YB,BY,YB,3.2,p262,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,False,0.0
+AS050,3390,p263,p263,0,0,2.0,0.0,24.0,24.0,0,False,,False,B,B,B,B,4.2,p263,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3392,p265,p265,0,0,2.0,0.0,23.0,23.0,0,False,,False,BG,BG,BG,BG,4.2,p265,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3393,p266,p266,0,0,2.0,10.0,17.0,17.0,1,False,1s(11.0),False,GY,GY,GY,GY,4.2,p266,1,True,10.0,"1S(11.0,U),10",True,True,c_error_databook,nudos KFG dan 1; Databook imprime 2 y sus nudos dan 1,-8.0,True,0.0
+AS050,3394,p267,p267,0,0,2.0,0.0,22.5,22.5,0,False,,False,B,B,B,B,4.2,p267,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3397,p270,p270,0,0,2.0,0.0,14.0,14.0,0,False,,False,W,W,W,W,4.2,p270,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3403,p274,p274,0,0,1.0,10.0,22.0,22.0,1,False,1s(16.0),True,B,B,B,B,4.2,p274,1,True,10.0,"1S(16.0,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS050,3408,p278,p278,0,0,12.0,100.0,14.0,14.0,1,False,1s(10.0),True,B-W,W-B,B:W,B:W,3.9,p278,1,True,100.0,"1S(10.0,U),100",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-88.0,True,0.0
+AS050,3409,p279,p279,0,0,1.0,10.0,23.0,23.0,1,False,1s(17.0),True,B:W,W:B,B:W,B:W,4.2,p279,1,True,10.0,"1S(17.0,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS050,3411,p281,p281,0,0,2.0,0.0,15.0,15.0,0,False,,False,B,B,B,B,4.2,p281,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3413,p283,p283,0,0,2.0,0.0,13.0,13.0,0,False,,False,W,W,W,W,4.2,p283,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3415,p285,p285,0,0,17.0,100.0,14.0,14.0,1,False,1s(10.0),True,GY,GY,GY,GY,3.9,p285,1,True,100.0,"1S(10.0,U),100",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-83.0,True,0.0
+AS050,3418,p288,p288,0,0,2.0,0.0,13.0,13.0,0,False,,False,W,W,W,W,4.2,p288,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3419,p289,p289,0,0,2.0,0.0,13.5,13.5,0,False,,False,W,W,W,W,4.2,p289,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3426,p294,p294,0,0,2.0,0.0,23.0,23.0,0,False,,False,BD,BD,BD,BD,4.2,p294,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3429,p297,p297,0,0,19.0,190.0,20.0,20.0,109,True,1s(11.0);9s8(18.0),True,B-W,W-B,B:W,B:W,3.9,p297,109,True,190.0,"1S(11.0,U),100;9S(18.0,U),90",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-171.0,True,0.0
+AS050,3435,p303,p303,0,0,6.0,60.0,19.5,19.5,6,True,6s8(16.5),True,GY,GY,GY,GY,3.9,p303,6,True,60.0,"6S(16.5,U),60",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-54.0,True,0.0
+AS050,3438,p306,p306,0,0,2.0,0.0,18.0,18.0,0,False,,False,W,W,W,W,4.2,p306,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3439,p307,p307,0,0,2.0,0.0,17.0,17.0,0,False,,False,W,W,W,W,4.2,p307,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS050,3442,p309s1,p309s1,1,1,1.0,10.0,24.5,24.5,1,False,1s(15.5),True,BD,BD,BD,BD,3.4,p309s1,1,True,10.0,"1S(15.5,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS054,3545,p1,p1,0,0,2.0,0.0,7.0,7.0,0,False,,False,MG,MG,MG,MG,4.2,p1,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS054,3553,p8,p8,0,0,2.0,0.0,8.0,8.0,0,False,,False,YB,YB,YB,YB,4.2,p8,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS066,4288,t6,p26,0,0,3.0,30.0,12.5,12.5,3,True,3s8(10.0),True,KB,KB,KB,KB,3.1,p26,3,True,30.0,"3S(10.0,U),30",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-27.0,True,0.0
+AS066,4308,p37,p47,0,0,2.0,0.0,7.0,7.0,0,False,,False,MB,MB,MB,MB,3.4,p47,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS066,4347,t1,p86,0,0,104.0,14.0,35.0,35.0,14,False,1s(3.0);4L(21.0),False,W,W,W,W,3.1,p86,14,False,14.0,"1S(3.0,U),10;4L(21.0,U),4",True,True,a_ocr,digitos insertados/perdidos: 104 vs 14,90.0,True,0.0
+AS066,4427,p147,p170,0,0,5.0,4.0,47.0,47.0,4,False,4L(17.0),False,W,W,W,W,4.1,p170,4,False,4.0,"4L(17.0,U),4",True,True,c_error_databook,nudos KFG dan 4; Databook imprime 5 y sus nudos dan 4,1.0,True,0.0
+AS069,4944,p137,p159,0,0,1.0,0.0,34.0,34.0,0,False,,False,W,W,W,W,4.1,p159,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),1.0,True,0.0
+AS069,5027,p209,p243,0,0,8.0,0.0,31.0,31.0,0,False,,False,W,W,W,W,3.4,p243,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),8.0,True,0.0
+AS069,5217,p394,p461,0,0,5.0,0.0,34.0,34.0,5,False,5L(17.5),False,W,W,W,W,3.4,p461,0,False,0.0,,False,True,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),5.0,True,0.0
+AS069,5305,p470s1,p553s1,1,1,4.0,0.0,39.0,39.0,0,False,,False,KB:W,W:KB,KB:W,KB:W,3.4,p553s1,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),4.0,True,0.0
+AS069,5392,p545,p639,0,0,9.0,0.0,38.0,38.0,0,False,,False,W,W,W,W,3.4,p639,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),9.0,True,0.0
+AS069,5487,p633,p745,0,0,1.0,0.0,32.0,32.0,0,False,,True,,W,,W,3.1,p745,0,False,0.0,,False,False,d_valor_dudoso,Databook marca el valor con ? (incierto),1.0,False,0.0
+AS069,5514,p656,p771,0,0,9.0,0.0,42.0,42.0,0,False,,False,W,W,W,W,3.4,p771,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),9.0,True,0.0
+AS069,5650,p789,p928,0,0,87.0,15.0,31.5,31.5,15,False,8L(11.5);7L(16.5),False,W,W,W,W,3.1,p928,15,False,15.0,"8L(11.5,U),8;7L(16.5,U),7",True,True,c_error_databook,nudos KFG dan 15; Databook imprime 87 y sus nudos dan 15,72.0,True,0.0
+AS069,5800,p922,p1082,0,0,7.0,0.0,39.0,39.0,0,False,,False,W,W,W,W,3.4,p1082,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),7.0,True,0.0
+AS069,5852,p968,p1137,0,0,1.0,0.0,37.5,37.5,0,False,,False,W,W,W,W,4.1,p1137,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),1.0,True,0.0
+AS069,6111,p121,p1431,0,0,1.0,0.0,37.5,37.5,0,False,,False,W,W,W,W,4.1,p1431,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),1.0,True,0.0
+AS069,6148,p125s1,p1476s1,1,1,11.0,10.0,34.0,34.0,11,False,1s(8.5);1E(15.0),False,FB-W,W-FB,FB:W,FB:W,4.1,p1476s1,1,True,10.0,"1S(8.5,U),10",True,True,d_otras,cada fuente coherente con sus propios nudos,1.0,True,0.0
+AS071,6776,p22s1,p22s1,1,1,1.0,0.0,33.0,33.0,1,False,1E(12.0),False,W:SR,W:SR,SR:W,SR:W,4.1,p22s1,0,False,0.0,"0E(12.0,U),0",True,True,d_otras,cada fuente coherente con sus propios nudos,1.0,True,0.0
+AS071,6824,p51s2,p51s2,1,1,1.0,0.0,29.0,29.0,1,False,1E(11.0),False,KB:SR,SR:KB,KB:SR,KB:SR,4.1,p51s2,0,False,0.0,"0E(11.0,U),0",True,True,d_otras,cada fuente coherente con sus propios nudos,1.0,True,0.0
+AS071,6963,p144s1,p145s1,1,1,1.0,0.0,33.0,33.0,1,False,1E(12.0),False,DB,DB,DB,DB,4.1,p145s1,0,False,0.0,"0E(12.0,U),0",True,True,d_otras,cada fuente coherente con sus propios nudos,1.0,True,0.0
+AS073,7161,p3,p3,0,0,2.0,0.0,0.5,0.5,0,False,,False,,,,,3.2,p3,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS073,7168,p10,p10,0,0,2.0,0.0,0.5,0.5,0,False,,False,,,,,3.2,p10,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS073,7172,p14,p14,0,0,4.0,0.0,1.0,1.0,0,False,,False,,,,,3.2,p14,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),4.0,True,0.0
+AS073,7178,p20,p20,0,0,2.0,0.0,1.0,1.0,0,False,,False,,,,,3.2,p20,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS073,7179,p21,p21,0,0,2.0,0.0,2.5,2.5,0,False,,False,,,,,3.2,p21,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS073,7181,p23,p23,0,0,2.0,0.0,0.5,0.5,0,False,,False,,,,,3.2,p23,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS073,7182,p24,p24,0,0,2.0,0.0,0.5,0.5,0,False,,False,,,,,3.2,p24,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS073,7183,p25,p25,0,0,2.0,0.0,0.5,0.5,0,False,,False,,,,,3.2,p25,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS074,7248,p76,p76,0,0,3.0,0.0,27.0,27.0,3,False,3L(7.5),False,,W,,W,3.2,p76,0,False,0.0,"0L(7.5,S),0",True,True,d_otras,cada fuente coherente con sus propios nudos,3.0,False,0.0
+AS075,7324,p62,p63,0,0,3.0,0.0,29.5,29.5,3,False,3L(10.0),False,B,B,B,B,3.4,p63,0,False,0.0,"0L(10.0,S),0",True,True,d_otras,cada fuente coherente con sus propios nudos,3.0,True,0.0
+AS075,7341,p79,p80,0,0,1.0,10.0,28.5,28.5,10,True,1s(16.5),True,MB,MB,MB,MB,3.4,p80,1,True,10.0,"1S(16.5,S),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS075,7349,p87,p88,0,0,2.0,0.0,12.0,12.0,0,False,,False,BS,BS,BS,BS,3.4,p88,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS075,7350,p88,p89,0,0,1.0,10.0,19.5,19.5,1,False,1s(13.5),True,YB,YB,YB,YB,3.4,p89,1,True,10.0,"1S(13.5,S),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS075,7382,p121,p123,0,0,2.0,0.0,0.5,0.5,0,False,,False,BS,BS,BS,BS,3.4,p123,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS078,7514,p25,p25,0,0,2.0,0.0,32.0,32.0,2,False,2L(7.0),False,W,W,W,W,4.2,p25,0,False,0.0,"0L(7.0,Z),0",True,True,d_otras,cada fuente coherente con sus propios nudos,2.0,True,0.0
+AS079,7559,p43,p43,0,0,2.0,0.0,12.0,12.0,0,False,,False,BS,BS,BS,BS,4.2,p43,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS085,7935,p2,p2,0,0,2.0,0.0,16.5,16.5,0,False,,False,LB,LB,LB,LB,4.2,p2,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS085,7959,p25,p25,0,0,4.0,0.0,61.5,61.5,0,False,,False,LB:W,W:LB,LB:W,LB:W,4.2,p25,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),4.0,True,0.0
+AS085,7962,p28,p28,0,0,2.0,0.0,14.5,14.5,0,False,,False,LB,LB,LB,LB,4.2,p28,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS090_N2,8247,p5s1,p5s1,1,1,12.0,100.0,11.5,11.5,1,False,1E(5.0),True,W,W,W,W,3.1,p5s1,0,False,100.0,"100U(5.0,U),100",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-88.0,True,0.0
+AS093,8447,p4,p4,0,0,2.0,0.0,0.5,0.5,0,False,,False,B,B,B,B,4.2,p4,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS093,8470,p29,p29,0,0,14.0,5.0,38.5,38.5,3,False,1E(7.0);2L(13.0)3,False,BB:W,W:BB,BB:W,BB:W,4.2,p29,5,False,5.0,"1E(7.0,U),1;2L(13.0,U),2;2L(20.5,U),2",True,True,c_error_databook,nudos KFG dan 5; Databook imprime 14 y sus nudos dan 3,9.0,True,0.0
+AS101_Part_1,9097,p1,p1,0,0,16.0,160.0,48.0,48.0,160,False,1s(9.5);6s(17.5),False,LB,LB,LB,LB,3.9,p1,106,True,160.0,"1S(9.5,U),100;6S(17.5,U),60",True,True,a_ocr,digitos insertados/perdidos: 16 vs 160,-144.0,True,0.0
+AS101_Part_1,9099,p2,p2,0,0,18.0,180.0,44.0,44.0,180,False,1s(9.0);8s(18.0),False,LB,LB,LB,LB,3.9,p2,108,True,180.0,"1S(9.0,U),100;8S(18.0,U),80",True,True,a_ocr,digitos insertados/perdidos: 18 vs 180,-162.0,True,0.0
+AS101_Part_1,9101,p3,p3,0,0,16.0,160.0,36.0,36.0,160,True,1s(9.0);6s(17.5),False,W,W,W,W,3.9,p3,106,True,160.0,"1S(9.0,U),100;6S(17.5,U),60",True,True,a_ocr,digitos insertados/perdidos: 16 vs 160,-144.0,True,0.0
+AS101_Part_1,9103,p4s1,p4s1,1,1,3.0,30.0,54.0,54.0,3,True,3s8(15.5),False,KB,KB,KB,KB,3.1,p4s1,3,True,30.0,"3S(15.5,U),30",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-27.0,True,0.0
+AS101_Part_1,9104,p5s1,p5s1,1,1,4.0,40.0,60.0,60.0,40,False,4s(16.5),False,KB,KB,KB,KB,3.1,p5s1,4,True,40.0,"4S(16.5,U),40",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-36.0,True,0.0
+AS101_Part_1,9106,p6s1,p6s1,1,1,3.0,30.0,60.5,60.5,30,False,3s(15.5),False,KB,KB,KB,KB,3.1,p6s1,3,True,30.0,"3S(15.5,U),30",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-27.0,True,0.0
+AS101_Part_1,9107,p6s2,p6s2,1,1,16.0,160.0,35.5,35.5,160,True,1s(8.5);6s(16.5),False,LB:W,W:LB,LB:W,LB:W,3.1,p6s2,106,True,160.0,"1S(8.5,U),100;6S(16.5,U),60",True,True,a_ocr,digitos insertados/perdidos: 16 vs 160,-144.0,True,0.0
+AS101_Part_1,9108,p7,p7,0,0,3.0,30.0,44.0,44.0,30,False,3s(16.0),False,DB,DB,DB,DB,3.9,p7,3,True,30.0,"3S(16.0,U),30",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-27.0,True,0.0
+AS101_Part_1,9109,p7s1,p7s1,1,1,16.0,160.0,37.5,37.5,160,True,1s(9.0);6s(16.0),False,DB:LB,LB:DB,DB:LB,DB:LB,3.1,p7s1,106,True,160.0,"1S(9.0,U),100;6S(16.0,U),60",True,True,a_ocr,digitos insertados/perdidos: 16 vs 160,-144.0,True,0.0
+AS101_Part_2,9114,p1,p1,0,0,3.0,30.0,55.0,55.0,30,False,3s(13.5),False,LB,LB,LB,LB,3.9,p1,3,True,30.0,"3S(13.5,U),30",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-27.0,True,0.0
+AS101_Part_2,9115,p2,p2,0,0,3.0,30.0,53.0,53.0,0,False,3814.5),False,LB,LB,LB,LB,3.9,p2,3,True,30.0,"3S(14.5,U),30",True,True,a_ocr,digitos insertados/perdidos: 3 vs 30,-27.0,True,0.0
+AS101_Part_2,9116,p2s1,p2s1,1,1,2.0,20.0,40.5,40.5,20,False,2s(13.5),False,GO,G0,GO,GO,3.1,p2s1,2,True,20.0,"2S(13.5,U),20",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-18.0,True,0.0
+AS101_Part_2,9117,p3,p3,0,0,7.0,70.0,20.0,20.0,7,False,7s(13.5),False,LB,LB,LB,LB,3.9,p3,7,True,70.0,"7S(13.5,U),70",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-63.0,True,0.0
+AS101_Part_2,9118,p3s1,p3s1,1,1,5.0,50.0,39.5,39.5,550,True,55s(13.0),False,GO,G0,GO,GO,3.1,p3s1,5,True,50.0,"5S(13.0,U),50",True,True,a_ocr,digitos insertados/perdidos: 5 vs 50,-45.0,True,0.0
+AS101_Part_2,9119,p4,p4,0,0,3.0,30.0,73.0,73.0,30,False,3s(13.0),False,LB,LB,LB,LB,3.9,p4,3,True,30.0,"3S(13.0,U),30",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-27.0,True,0.0
+AS101_Part_2,9120,p4s1,p4s1,1,1,2.0,20.0,34.0,34.0,20,False,2s(12.5),False,LB:W,W:LB,LB:W,LB:W,3.1,p4s1,2,True,20.0,"2S(12.5,U),20",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-18.0,True,0.0
+AS101_Part_2,9121,p5,p5,0,0,7.0,70.0,37.5,37.5,70,True,7s(18.5),False,W,W,W,W,3.9,p5,7,True,70.0,"7S(18.5,U),70",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-63.0,True,0.0
+AS101_Part_2,9122,p5s1,p5s1,1,1,3.0,30.0,35.0,35.0,30,True,3s(16.0),False,KB,KB,KB,KB,3.1,p5s1,3,True,30.0,"3S(16.0,U),30",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-27.0,True,0.0
+AS101_Part_2,9123,p6,p6,0,0,7.0,70.0,36.0,36.0,70,True,7s(17.5),False,W,W,W,W,3.9,p6,7,True,70.0,"7S(17.5,U),70",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-63.0,True,0.0
+AS101_Part_2,9124,p6s1,p6s1,1,1,3.0,30.0,35.0,35.0,3,True,3s8(16.0),False,KB,KB,KB,KB,3.1,p6s1,3,True,30.0,"3S(16.0,U),30",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-27.0,True,0.0
+AS101_Part_2,9125,p7,p7,0,0,9.0,90.0,33.5,33.5,90,True,9s(17.0),False,W,W,W,W,3.9,p7,9,True,90.0,"9S(17.0,U),90",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-81.0,True,0.0
+AS101_Part_2,9126,p7s1,p7s1,1,1,4.0,40.0,32.5,32.5,4,True,4s8(16.0),False,KB,KB,KB,KB,3.1,p7s1,4,True,40.0,"4S(16.0,U),40",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-36.0,True,0.0
+AS101_Part_2,9128,p8s1,p8s1,1,1,3.0,30.0,61.0,61.0,30,False,3s(13.5),False,KB,KB,KB,KB,3.1,p8s1,3,True,30.0,"3S(13.5,U),30",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-27.0,True,0.0
+AS101_Part_2,9129,p9,p9,0,0,3.0,30.0,42.0,42.0,30,False,3s(15.0),False,LB:W,W:LB,LB:W,LB:W,3.9,p9,3,True,30.0,"3S(15.0,U),30",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-27.0,True,0.0
+AS101_Part_2,9130,p10,p10,0,0,3.0,30.0,42.0,42.0,30,False,3s(15.5),False,LB:W,W:LB,LB:W,LB:W,3.9,p10,3,True,30.0,"3S(15.5,U),30",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-27.0,True,0.0
+AS101_Part_2,9131,p11,p11,0,0,7.0,70.0,36.0,36.0,70,True,7s(16.0),False,LB:W,W:LB,LB:W,LB:W,3.9,p11,7,True,70.0,"7S(16.0,U),70",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-63.0,True,0.0
+AS101_Part_2,9132,p12,p12,0,0,3.0,30.0,44.0,44.0,30,False,3s(15.0),False,LB:W,W:LB,LB:W,LB:W,3.9,p12,3,True,30.0,"3S(15.0,U),30",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-27.0,True,0.0
+AS101_Part_2,9133,p13,p13,0,0,6.0,60.0,52.0,52.0,60,False,6s(15.5),False,DB:LB,LB:DB,DB:LB,DB:LB,3.9,p13,6,True,60.0,"6S(15.5,U),60",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-54.0,True,0.0
+AS101_Part_2,9134,p13s1,p13s1,1,1,4.0,40.0,39.5,39.5,40,False,4s(13.5),False,DB:LB,LB:DB,DB:LB,DB:LB,3.1,p13s1,4,True,40.0,"4S(13.5,U),40",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-36.0,True,0.0
+AS101_Part_2,9135,p14,p14,0,0,6.0,60.0,37.5,37.5,60,False,6s(15.5),False,LB,LB:DB,LB,DB:LB,3.4,p14,6,True,60.0,"6S(15.5,U),60",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-54.0,False,0.0
+AS101_Part_2,9137,p15,p15,0,0,12.0,120.0,56.5,56.5,120,False,1s(9.5);2s(15.5),False,DB,DB,DB,DB,3.9,p15,102,True,120.0,"1S(9.5,U),100;2S(15.5,U),20",True,True,a_ocr,digitos insertados/perdidos: 12 vs 120,-108.0,True,0.0
+AS101_Part_2,9139,p16,p16,0,0,6.0,60.0,36.5,36.5,60,True,6s(15.5),False,DB,DB,DB,DB,3.9,p16,6,True,60.0,"6S(15.5,U),60",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-54.0,True,0.0
+AS101_Part_2,9140,p16s1,p16s1,1,1,4.0,40.0,22.0,22.0,4,False,4s(14.5),False,DB:LB,LB:DB,DB:LB,DB:LB,3.1,p16s1,4,True,40.0,"4S(14.5,U),40",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-36.0,True,0.0
+AS112,9631,p1,p1,0,0,2.0,0.0,22.0,22.0,0,False,,False,LB,LB,LB,LB,4.2,p1,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS112,9649,p20,p20,0,0,2.0,0.0,4.0,4.0,0,False,,False,W,W,W,W,4.2,p20,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS112,9652,p23,p23,0,0,2.0,0.0,20.0,20.0,0,False,,False,LB:GG:W,W:GG:LB,GG:LB:W,GG:LB:W,4.2,p23,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS112,9655,p26,p26,0,0,2.0,0.0,12.5,12.5,0,False,,False,LB:W,W:LB,LB:W,LB:W,4.2,p26,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS112,9659,p30,p32,0,0,2.0,0.0,8.5,8.5,0,False,,False,LB:GG:W,W:GG:LB,GG:LB:W,GG:LB:W,3.4,p32,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS122,10323,p3,p3,0,0,8.0,80.0,18.0,18.0,80,True,8s(9.5),True,B,B,B,B,3.9,p3,8,True,80.0,"8S(9.5,U),80",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-72.0,True,0.0
+AS125,10492,p13,p13,0,0,2.0,3130.0,48.5,48.5,410,True,3s(10.0);1s(18.0);1s(26.0)315(37.0),False,W,W,W,W,3.9,p13,601,True,3130.0,"3S(10.0,U),3000;1S(18.0,U),100;1S(26.0,U),10;1S(37.0,U),10;1S(39.0,U),10",True,True,d_otras,nudos ambiguos o no concluyentes (db=410 kfg=601),-3128.0,True,0.0
+AS125,10495,p160,p16,0,0,2.0,0.0,8.5,8.5,0,False,,False,YB,YB,YB,YB,3.4,p16,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS128,10733,p111,p111,0,0,6.0,0.0,34.0,34.0,0,False,,False,KB-W,W-KB,KB:W,KB:W,4.2,p111,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),6.0,True,0.0
+AS128,10796,p166,p166,0,0,12.0,124.0,38.0,38.0,120,False,1s(7.0);2s(14.0),False,W,W,W,W,3.9,p166,124,False,124.0,"1S(7.0,U),100;2S(14.0,U),20;4L(21.5,U),4",True,True,d_otras,cada fuente coherente con sus propios nudos,-112.0,True,0.0
+AS128,10875,p252,p252,0,0,0.0,2.0,36.5,36.5,2,False,2L(20.0),False,W,W,W,W,4.2,p252,2,False,2.0,"2L(20.0,U),2",True,True,c_error_databook,nudos KFG dan 2; Databook imprime 0 y sus nudos dan 2,-2.0,True,0.0
+AS133,11172,p5,p5,0,0,29.0,290.0,37.0,37.0,290,True,2s(6.5)3;9s(19.5),True,DB,DB,DB,DB,3.9,p5,209,True,290.0,"2S(6.5,U),200;9S(19.5,U),90",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-261.0,True,0.0
+AS133,11177,p10,p10,0,0,42.0,40.0,35.5,35.5,40,False,4s(14.5),False,YB,YB,YB,YB,4.2,p10,4,True,40.0,"4S(14.5,U),40",True,True,c_error_databook,nudos KFG dan 4; Databook imprime 42 y sus nudos dan 40,2.0,True,0.0
+AS133,11183,p17,p18,0,0,17.0,170.0,37.5,37.5,170,True,1s(8.5);7s(22.5),True,W,W,W,W,3.1,p18,107,True,170.0,"1S(8.5,U),100;7S(22.5,U),70",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-153.0,True,0.0
+AS133,11190,p2,p25,0,0,62.0,60.0,36.0,36.0,60,True,6s(19.5),False,YB,YB,YB,YB,3.4,p25,6,True,60.0,"6S(19.5,U),60",True,True,c_error_databook,nudos KFG dan 6; Databook imprime 62 y sus nudos dan 60,2.0,True,0.0
+AS133,11198,p33,p34,0,0,4.0,40.0,36.0,36.0,40,True,4s(19.0),True,W,W,W,W,3.1,p34,4,True,40.0,"4S(19.0,U),40",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-36.0,True,0.0
+AS133,11204,p4,p43,0,0,14.0,144.0,36.5,36.5,140,True,1s(6.0);4s(19.0),False,DB,DB,DB,DB,3.1,p43,144,False,144.0,"1S(6.0,U),100;4S(19.0,U),40;4L(31.5,U),4",True,True,d_otras,cada fuente coherente con sus propios nudos,-130.0,True,0.0
+AS139,11510,p5,p5,0,0,2.0,24.0,43.5,43.5,24,False,2s(19.0);4L(26.5),False,MB/W,MB(0.0-10.0)/W(10.0-43.5),MB:W,MB:W,3.9,p5,24,False,24.0,"2S(19.0,U),20;4L(26.5,U),4",True,True,a_ocr,digitos insertados/perdidos: 2 vs 24,-22.0,True,0.0
+AS156,12308,p18,p18,0,0,2.0,0.0,5.5,5.5,0,False,,False,W,W,W,W,4.2,p18,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS157,12345,p2,p2,0,0,1.0,4.0,33.5,33.5,4,False,3L(21.5);1E(22.5),False,,W,,W,3.2,p2,4,False,4.0,"3L(21.5,U),3;1E(22.5,U),1",True,True,c_error_databook,nudos KFG dan 4; Databook imprime 1 y sus nudos dan 4,-3.0,False,0.0
+AS158,12371,p1,p1,0,0,71.0,77.0,20.5,20.5,77,False,7s(15.5);7L(20.0),False,W,W,W,W,4.2,p1,77,False,77.0,"7S(15.5,U),70;7L(20.0,U),7",True,True,c_error_databook,nudos KFG dan 77; Databook imprime 71 y sus nudos dan 77,-6.0,True,0.0
+AS158,12382,p12,p12,0,0,2.0,0.0,16.5,16.5,0,False,,False,LB,LB,LB,LB,4.2,p12,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS159,12402,p1s2,p11s2,1,1,341.0,4.0,29.0,29.0,4,False,3L(11.0);1E(12.0),False,GA,GA,GA,GA,3.1,p11s2,4,False,4.0,"3L(11.0,U),3;1E(12.0,U),1",True,True,a_ocr,digitos insertados/perdidos: 341 vs 4,337.0,True,0.0
+AS159,12422,p26,p26,0,0,16.0,15.0,22.5,22.5,16,False,1s(5.0)3;6L(10.0),False,BB,B,BB,B,3.9,p26,15,False,15.0,"1S(5.0,U),10;5L(10.0,U),5",True,True,d_otras,cada fuente coherente con sus propios nudos,1.0,False,0.0
+AS160,12441,p12,p12,0,0,2.0,0.0,0.5,0.5,0,False,,False,CB,CB,CB,CB,4.2,p12,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS164,12521,p9,p9,0,0,5.0,10.0,35.5,35.5,10,False,1s(7.0),False,,W,,W,3.2,p9,1,True,10.0,"1S(7.0,U),10",True,True,c_error_databook,nudos KFG dan 1; Databook imprime 5 y sus nudos dan 10,-5.0,False,0.0
+AS169,12889,p28,p28,0,0,3.0,0.0,26.5,26.5,3,False,3L(8.0),False,B,B,B,B,4.2,p28,0,False,0.0,"0L(8.0,U),0",True,True,d_otras,cada fuente coherente con sus propios nudos,3.0,True,0.0
+AS169,12890,p30,p30,0,0,2.0,4.0,31.0,31.0,4,False,2L(7.5);2L(13.0),False,,LB,,LB,3.2,p30,4,False,4.0,"2L(7.5,U),2;2L(13.0,U),2",True,True,c_error_databook,nudos KFG dan 4; Databook imprime 2 y sus nudos dan 4,-2.0,False,0.0
+AS170,12899,p9,p9,0,0,643.0,9.0,34.5,34.5,9,False,6L(20.0);3L(24.0),False,LC,LC,LC,LC,3.9,p9,9,False,9.0,"6L(20.0,U),6;3L(24.0,U),3",True,True,c_error_databook,nudos KFG dan 9; Databook imprime 643 y sus nudos dan 9,634.0,True,0.0
+AS174,13080,p1s1s1,p1s1s1,2,2,43.0,21.0,15.5,15.5,18,False,1s(2.0);8L(6.5),False,W,W,W,W,3.1,p1s1s1,21,False,21.0,"1S(2.0,U),10;8L(6.5,U),8;2L(8.5,U),2;1E(11.0,U),1",True,True,c_error_databook,nudos KFG dan 21; Databook imprime 43 y sus nudos dan 18,22.0,True,0.0
+AS174,13081,p1s2,p1s2,1,1,50.0,28.0,26.5,26.5,23,False,2s(2.5);3L(7.5)3,False,DB,DB,DB,DB,3.1,p1s2,28,False,28.0,"2S(2.5,U),20;3L(7.5,U),3;2L(9.5,U),2;3L(11.0,U),3",True,True,c_error_databook,nudos KFG dan 28; Databook imprime 50 y sus nudos dan 23,22.0,True,0.0
+AS174,13087,p4s1,p4s1,1,1,441.0,5.0,21.5,21.5,5,False,4L(12.5);1EE(14.0),False,W,W,W,W,3.1,p4s1,5,False,5.0,"4L(12.5,U),4;1EE(14.0,U),1",True,True,c_error_databook,nudos KFG dan 5; Databook imprime 441 y sus nudos dan 5,436.0,True,0.0
+AS178,13619,p2,p2,0,0,6.0,60.0,12.5,12.5,60,True,6s(7.0),True,W,W,W,W,3.9,p2,6,True,60.0,"6S(7.0,U),60",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-54.0,True,0.0
+AS178,13621,p4,p4,0,0,1.0,10.0,6.5,6.5,1,False,1s(6.0),True,LB,LB,LB,LB,4.2,p4,1,True,10.0,"1S(6.0,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS178,13623,p6,p6,0,0,6.0,60.0,19.5,19.5,60,False,6s(7.5),False,W,W,W,W,3.9,p6,6,True,60.0,"6S(7.5,U),60",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-54.0,True,0.0
+AS178,13628,p12,p12,0,0,12.0,10.0,10.0,10.0,10,True,1s(6.0),False,LB,LB,LB,LB,4.2,p12,1,True,10.0,"1S(6.0,U),10",True,True,c_error_databook,nudos KFG dan 1; Databook imprime 12 y sus nudos dan 10,2.0,True,0.0
+AS185,13836,p16,p16,0,0,2.0,7.0,25.0,25.0,7,False,5L(17.0);2L(20.0),False,FB-W,W-FB,FB:W,FB:W,4.2,p16,7,False,7.0,"5L(17.0,U),5;2L(20.0,U),2",True,True,c_error_databook,nudos KFG dan 7; Databook imprime 2 y sus nudos dan 7,-5.0,True,0.0
+AS189,13920,p6,p6,0,0,1.0,10.0,11.0,11.0,1,False,1s(10.5),True,W,W,W,W,4.2,p6,1,True,10.0,"1S(10.5,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS189,13921,p7,p7,0,0,2.0,0.0,0.5,0.5,0,False,,True,,,,,3.2,p7,0,False,0.0,,False,False,d_valor_dudoso,Databook marca el valor con ? (incierto),2.0,True,0.0
+AS189,13928,p14,p14,0,0,9.0,6.0,64.0,64.0,9,False,9L. (20.0),False,LB,LB,LB,LB,4.2,p14,6,False,6.0,"6L(20.0,U),6",True,True,d_otras,cada fuente coherente con sus propios nudos,3.0,True,0.0
+AS192,13948,p2,p2,0,0,33.0,35.0,25.5,25.5,35,False,3s(10.0);5L(18.0),False,B,AB,B,AB,3.2,p2,35,False,35.0,"3S(10.0,S),30;5L(18.0,S),5",True,True,c_error_databook,nudos KFG dan 35; Databook imprime 33 y sus nudos dan 35,-2.0,False,0.0
+AS199,14078,p64,p74,0,0,116.0,110.0,44.5,44.5,110,False,1s(8.0);1s(14.5),False,W,W,W,W,3.4,p74,101,True,110.0,"1S(8.0,Z),100;1S(14.5,Z),10",True,True,d_otras,nudos ambiguos o no concluyentes (db=110 kfg=101),6.0,True,0.0
+AS199,14079,p65,p75,0,0,43.0,430.0,22.5,22.5,403,False,4s(7.5);3s(15.5),True,W,W,W,W,3.1,p75,403,True,430.0,"4S(7.5,Z),400;3S(15.5,Z),30",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-387.0,True,0.0
+AS202,14168,p9,p12,0,0,2.0,4.0,18.0,18.0,2,False,2L(5.0),False,YB,YB,YB,YB,3.4,p12,4,False,4.0,"4L(5.0,U),4",True,True,d_otras,cada fuente coherente con sus propios nudos,-2.0,True,0.0
+AS206,14231,p7,p7,0,0,2.0,20.0,11.0,11.0,2,False,2s(8.5),True,LB,LB,LB,LB,3.9,p7,2,True,20.0,"2S(8.5,U),20",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-18.0,True,0.0
+AS206,14235,p13,p13,0,0,2.0,20.0,13.0,13.0,20,True,2s(8.0),True,LB,LB,LB,LB,3.9,p13,2,True,20.0,"2S(8.0,U),20",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-18.0,True,0.0
+AS206,14239,p19,p19,0,0,3.0,30.0,11.5,11.5,3,False,3s(8.0),True,LB,LB,LB,LB,3.9,p19,3,True,30.0,"3S(8.0,U),30",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-27.0,True,0.0
+AS206,14240,p22,p22,0,0,9.0,90.0,13.0,13.0,9,False,9s(10.0),True,YB,YB,YB,YB,3.9,p22,9,True,90.0,"9S(10.0,U),90",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-81.0,True,0.0
+AS207A,14258,p16,p17,0,0,1.0,2.0,41.0,41.0,2,False,1E(27.0);1E(31.0),False,,YB:MB,,MB:YB,3.1,p17,2,False,2.0,"1E(27.0,U),1;1E(31.0,U),1",True,True,c_error_databook,nudos KFG dan 2; Databook imprime 1 y sus nudos dan 2,-1.0,False,0.0
+AS207A,14281,p50,p51,0,0,9.0,10.0,25.0,25.0,10,False,1E(12.0);9L(14.0),False,,MB:KB,,KB:MB,3.1,p51,10,False,10.0,"1E(12.0,U),1;9L(14.0,U),9",True,True,c_error_databook,nudos KFG dan 10; Databook imprime 9 y sus nudos dan 10,-1.0,False,0.0
+AS207A,14282,p52,p53,0,0,9.0,10.0,27.0,27.0,10,False,1E(12.0);9L(14.0),False,,W:KB,,KB:W,3.1,p53,10,False,10.0,"1E(12.0,U),1;9L(14.0,U),9",True,True,c_error_databook,nudos KFG dan 10; Databook imprime 9 y sus nudos dan 10,-1.0,False,0.0
+AS207A,14283,p53,p54,0,0,9.0,10.0,26.0,26.0,80,True,1E(12.0);79L(14.0),False,,W:KB,,KB:W,3.1,p54,10,False,10.0,"1E(12.0,U),1;9L(14.0,U),9",True,True,c_error_databook,nudos KFG dan 10; Databook imprime 9 y sus nudos dan 80,-1.0,False,0.0
+AS207A,14284,p54,p55,0,0,9.0,10.0,26.0,26.0,10,False,1E(12.0);9L(14.0),False,,W,,W,3.1,p55,10,False,10.0,"1E(12.0,U),1;9L(14.0,U),9",True,True,c_error_databook,nudos KFG dan 10; Databook imprime 9 y sus nudos dan 10,-1.0,False,0.0
+AS207A,14353,p110,p117,0,0,9.0,2.0,28.0,28.0,2,False,2L(7.0),False,MB/W,MB(0.0-6.0)/W(6.0-28.0),MB:W,MB:W,3.4,p117,2,False,2.0,"2L(7.0,U),2",True,True,c_error_databook,nudos KFG dan 2; Databook imprime 9 y sus nudos dan 2,7.0,True,0.0
+AS207A,14386,p149,p162,0,0,1.0,0.0,31.0,31.0,0,False,,False,YB:W,W:YB,W:YB,W:YB,4.1,p162,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),1.0,True,0.0
+AS207A,14388,p151,p164,0,0,1.0,0.0,31.0,31.0,1,False,1E(12.0),False,MB/W,MB(0.0-5.0)/W(5.0-31.0),MB:W,MB:W,4.1,p164,0,False,0.0,"0U(12.0,U),0",True,True,d_otras,cada fuente coherente con sus propios nudos,1.0,True,0.0
+AS207A,14420,p184,p197,0,0,961.0,10.0,35.0,35.0,10,False,9L(9.0);1E(13.0),False,BB:W,W:BB,BB:W,BB:W,3.1,p197,10,False,10.0,"9L(9.0,U),9;1E(13.0,U),1",True,True,c_error_databook,nudos KFG dan 10; Databook imprime 961 y sus nudos dan 10,951.0,True,0.0
+AS207B,14431,p1,p1,0,0,9.0,10.0,15.0,15.0,10,False,1E(4.0);9L(13.0),False,,W,,W,3.9,p1,10,False,10.0,"1E(4.0,U),1;9L(13.0,U),9",True,True,c_error_databook,nudos KFG dan 10; Databook imprime 9 y sus nudos dan 10,-1.0,False,0.0
+AS207B,14433,p7,p2,0,0,9.0,10.0,16.0,16.0,10,False,2 1E(4.0);9L(14.0),False,,W,,W,3.1,p2,10,False,10.0,"1E(4.0,U),1;9L(14.0,U),9",True,True,c_error_databook,nudos KFG dan 10; Databook imprime 9 y sus nudos dan 10,-1.0,False,0.0
+AS207B,14435,p3,p3,0,0,9.0,10.0,18.0,18.0,10,False,1E(5.0);9L(15.0),False,,W,,W,3.9,p3,10,False,10.0,"1E(5.0,U),1;9L(15.0,U),9",True,True,c_error_databook,nudos KFG dan 10; Databook imprime 9 y sus nudos dan 10,-1.0,False,0.0
+AS207B,14436,p4,p4,0,0,6.0,7.0,8.0,8.0,7,False,1E(3.0);6L(7.5),False,,W:KB,,KB:W,3.9,p4,7,False,7.0,"1E(3.0,U),1;6L(7.5,U),6",True,True,c_error_databook,nudos KFG dan 7; Databook imprime 6 y sus nudos dan 7,-1.0,False,0.0
+AS207B,14439,p6,p6,0,0,8.0,9.0,11.5,11.5,9,False,1E(4.0);8L(10.5),False,,W:KB,,KB:W,3.9,p6,9,False,9.0,"1E(4.0,U),1;8L(10.5,U),8",True,True,c_error_databook,nudos KFG dan 9; Databook imprime 8 y sus nudos dan 9,-1.0,False,0.0
+AS207B,14441,p7,p7,0,0,8.0,9.0,16.0,16.0,9,False,1E(5.0);8L(15.0),False,,YB,,YB,3.9,p7,9,False,9.0,"1E(5.0,U),1;8L(15.0,U),8",True,True,c_error_databook,nudos KFG dan 9; Databook imprime 8 y sus nudos dan 9,-1.0,False,0.0
+AS207B,14444,p9,p9,0,0,9.0,10.0,19.0,19.0,10,False,1E(5.0);9L(15.0),False,,YB,,YB,3.9,p9,10,False,10.0,"1E(5.0,U),1;9L(15.0,U),9",True,True,c_error_databook,nudos KFG dan 10; Databook imprime 9 y sus nudos dan 10,-1.0,False,0.0
+AS207C,14455,p1,p1,0,0,1.0,10.0,27.0,27.0,10,False,9L(10.0);1E(12.0),False,,W:MB,,MB:W,3.2,p1,10,False,10.0,"9L(10.0,U),9;1E(12.0,U),1",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-9.0,False,0.0
+AS207C,14456,p2,p2,0,0,961.0,10.0,38.0,38.0,10,False,9L(10.0);1E(12.0),False,MB:W,W:MB,MB:W,MB:W,3.9,p2,10,False,10.0,"9L(10.0,U),9;1E(12.0,U),1",True,True,c_error_databook,nudos KFG dan 10; Databook imprime 961 y sus nudos dan 10,951.0,True,0.0
+AS207C,14457,p4,p4,0,0,1.0,10.0,17.0,17.0,10,False,9L(10.0);1E(13.0),False,,W:KB,,KB:W,3.2,p4,10,False,10.0,"9L(10.0,U),9;1E(13.0,U),1",True,True,d_convencion_x10,ambas fuentes coherentes con sus nudos; difieren solo en la posicion decimal,-9.0,False,0.0
+AS207C,14459,p7,p7,0,0,1.0,10.0,22.0,22.0,1,False,1s(15.0),True,MB,MB,MB,MB,4.2,p7,1,True,10.0,"1S(15.0,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0
+AS207C,14460,p8,p8,0,0,10.0,0.0,18.0,18.0,0,False,,False,MB,MB,MB,MB,3.9,p8,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),10.0,True,0.0
+AS207C,14462,p10,p10,0,0,1.0,8.0,37.0,37.0,8,False,7L(23.0);1E(33.0),False,,MB,,MB,3.2,p10,8,False,8.0,"7L(23.0,U),7;1E(33.0,U),1",True,True,c_error_databook,nudos KFG dan 8; Databook imprime 1 y sus nudos dan 8,-7.0,False,0.0
+AS209,14649,p21,p21,0,0,701.0,71.0,36.5,36.5,71,False,7s(9.0);1E(19.5),False,LB,LB,LB,LB,3.9,p21,71,False,71.0,"7S(9.0,U),70;1E(19.5,U),1",True,True,a_ocr,digitos insertados/perdidos: 701 vs 71,630.0,True,0.0
+AS209,14684,p44s3,p44s3,1,1,8.0,18.0,18.5,18.5,18,False,1s(3.0);8L(8.5),False,LB,LB,LB,LB,3.1,p44s3,18,False,18.0,"1S(3.0,U),10;8L(8.5,U),8",True,True,a_ocr,digitos insertados/perdidos: 8 vs 18,-10.0,True,0.0
+AS209,14693,p54s1,p54s1,1,1,2.0,0.0,2.0,2.0,0,False,,False,KB,KB,KB,KB,3.4,p54s1,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS209,14694,p55s1,p55s1,1,1,2.0,0.0,0.5,0.5,0,False,,False,KB,KB,KB,KB,3.4,p55s1,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,True,0.0
+AS210,14708,p13,p13,0,0,2.0,4.0,49.5,49.5,4,False,2L(12.5);2L(19.5),False,,W:KB,,KB:W,3.2,p13,4,False,4.0,"2L(12.5,U),2;2L(19.5,U),2",True,True,c_error_databook,nudos KFG dan 4; Databook imprime 2 y sus nudos dan 4,-2.0,False,0.0
+AS210,14710,p14,p14,0,0,1.0,5.0,46.0,46.0,5,False,4L(12.0);1E(14.0),False,,KB,,KB,3.2,p14,5,False,5.0,"4L(12.0,U),4;1E(14.0,U),1",True,True,c_error_databook,nudos KFG dan 5; Databook imprime 1 y sus nudos dan 5,-4.0,False,0.0
+AS210,14713,p18,p18,0,0,2.0,0.0,11.5,11.5,0,False,,False,,W:KB(0.0-6.0)/W:B(6.0-9.5)/W(9.5-11.5),,B:KB:W,3.2,p18,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),2.0,False,0.0
+AS210,14714,p19,p19,0,0,464.0,8.0,29.5,29.5,8,False,4L(14.0);4L(14.5),False,RG,RG,RG,RG,3.9,p19,4,False,8.0,"4U(14.0,U),4;4L(14.5,U),4",True,True,d_otras,nudos ambiguos o no concluyentes (db=8 kfg=4),456.0,True,0.0
+AS211,14737,p8,p8,0,0,1.0,7.0,42.5,42.5,7,False,6L(20.0);1E(20.5),False,,W,,W,3.2,p8,7,False,7.0,"6L(20.0,U),6;1E(20.5,U),1",True,True,c_error_databook,nudos KFG dan 7; Databook imprime 1 y sus nudos dan 7,-6.0,False,0.0
+AS211,14741,p10s1,p10s1,1,1,10.0,0.0,12.0,12.0,0,False,,False,B,B,B,B,3.1,p10s1,0,False,0.0,,False,False,d_kfg_sin_nudos,KFG no registra nudos (valor 0 por defecto),10.0,True,0.0
+AS211,14751,p18,p18,0,0,1.0,2.0,42.5,42.5,2,False,1E(19.0);1E(20.5),False,,B,,B,3.9,p18,2,False,2.0,"1E(19.0,U),1;1E(20.5,U),1",True,True,c_error_databook,nudos KFG dan 2; Databook imprime 1 y sus nudos dan 2,-1.0,False,0.0
+AS215,14929,p6s1,p6s1,1,1,1.0,10.0,1.0,1.0,1,False,1s(1.0),True,W,W,W,W,3.4,p6s1,1,True,10.0,"1S(1.0,U),10",True,True,d_valor_dudoso,Databook marca el valor con ? (incierto),-9.0,True,0.0

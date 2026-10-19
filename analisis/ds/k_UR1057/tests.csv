@@ -1,0 +1,11 @@
+test,estadistico,observado,p,nota
+A plantilla color (acierto),proporcion,0.9078947368421053,0.000999000999000999,n=456; nulo baraja colores
+B sg x clase de valor,chi2,196.17571889996307,0.000999000999000999,nulo baraja valores (global)
+C blancura por subgrupo (sd),sd,0.3029660633981761,0.000999000999000999,nulo baraja blank
+"D sg4=(1,1,1,1) por grupo",n grupos,12.0,0.000999000999000999,nulo permuta valores dentro de grupo
+E1 madre=suma subsidiarias,aciertos no triviales,1.0,,"29 madres con subsidiarias; con subsidiaria>0: 20; pares=[('p18', 24.0, 3.0), ('p19', 54.0, 1.0), ('p41', 0.0, 1.0), ('p64', 0.0, 1.0), ('p85', 31.0, 1.0), ('p86', 9.0, 1.0), ('p109', 11.0, 1.0), ('p131', 0.0, 0.0), ('p152', 53.0, 1.0), ('p153', 22.0, 1.0), ('p161', 0.0, 0.0), ('p176', 0.0, 1.0), ('p199', 2.0, 1.0), ('p225', 4.0, 1.0), ('p246', 0.0, 1.0), ('p270', 0.0, 0.0), ('p291', 0.0, 0.0), ('p313', 0.0, 0.0), ('p338', 0.0, 0.0), ('p361', 0.0, 1.0), ('p384', 1.0, 1.0), ('p385', 1.0, 145.0), ('p408', 0.0, 1.0), ('p434', 0.0, 1.0), ('p461', 0.0, 1.0), ('p488', 0.0, 0.0), ('p511', 0.0, 0.0), ('p533', 0.0, 0.0), ('p557', 0.0, 1.0)]"
+E2 top cord vs suma grupo,valores,,,"T=[['p441', 5.0], ['p537', 2.0]]; sumas de grupo=[285.0, 8.0, 10.0, 83.0, 77.0, 6.0, 307.0, 4.0, 7.0, 12.0, 6.0, 5.0, 3.0, 4.0, 2.0, 4.0, 4.0, 4.0, 5.0, 10.0, 6.0, 0.0, 5.0, 9.0]"
+E4 suma sg vs suma sg5 (exploratoria),n coincidencias,29.0,,96 comparaciones; nulo propio en 07_stats2.py
+F filas de grupo duplicadas,n filas en duplicados,3.0,,22 filas unicas de 24
+G autocorrelacion max |rho| lags1-20,|rho|,0.5832265697346211,0.000999000999000999,lag=1
+H tendencia suma~indice grupo,rho,-0.45793430100612187,0.016983016983016984,nulo permuta sumas

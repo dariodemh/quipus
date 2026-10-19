@@ -1,0 +1,16 @@
+prueba,p,nulo,p_holm
+A1 pendiente = suma de hijos,0.0729,"nulo global, 1000 perm",0.5103000000000001
+A1 pendiente = suma de hijos,0.037,"nulo por nivel, 1000 perm",0.296
+A3 cuerda unica hija con valor identico,0.003,nulo global,0.036000000000000004
+A4 total de grupo repetido en otra cuerda,1.0,nulo global,1.0
+A5 pendiente = bloque contiguo del grupo,0.3067,nulo global,1.0
+"A6 razon suma_hijos/valor en [6.5,7.5]",0.002,nulo global (ventana post hoc),0.028
+A6b razon: maximo sobre ventanas (corrige post hoc),0.6154,nulo global,1.0
+D1 duplicados de valor,1.0,nulo de digitos,1.0
+D2 similitud entre pendientes adyacentes,0.1798,nulo global,0.8989999999999999
+D3 AB en primera posicion del grupo (6 grupos),0.007468325749577207,hipergeometrica exacta,0.06721493174619486
+D3b periodicidad del color (lags 2-15),0.0799,permutar colores,0.5103000000000001
+D5 largo vs valor (Spearman 0.45),0.001,nulo global,0.015
+D6 primer pendiente = maximo (6 grupos),0.0027,permutacion dentro de grupo,0.0351
+D7 madre-hijo duplicado exacto (7 casos),0.005,nulo global,0.05
+D7b madre-hijo duplicado <=1% (8 casos),0.004,nulo global,0.044

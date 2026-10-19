@@ -1,0 +1,25 @@
+prueba,familia,T,p,estratos,holm_familia,bh_todas
+R1 incondicional,primaria,0.015250584210405298,0.2428,AS: 0.135 (192) vs 0.135 (1824); HP: 0.107 (28) vs 0.053 (38); UR: 0.148 (122) vs 0.117 (1526),0.2428,0.3616
+R2 incondicional,primaria,0.00743343088450709,0.0202,AS: 0.018 (113) vs 0.003 (1427); HP: 0.000 (21) vs 0.000 (34); UR: 0.000 (67) vs 0.003 (1417),0.0404,0.056
+R1 condicional (pares que comparten patrón),secundaria,0.010552331513805255,0.3262,AS: 0.168 (155) vs 0.165 (1497); HP: 0.107 (28) vs 0.095 (21); UR: 0.158 (114) vs 0.137 (1306),1.0,0.4120421052631579
+"R1 incondicional, k>=3",secundaria,0.0060407739128926444,0.1993,AS: 0.021 (192) vs 0.016 (1824); HP: 0.000 (28) vs 0.026 (38); UR: 0.025 (122) vs 0.009 (1526),1.0,0.31888
+"R1 condicional, k>=3",secundaria,0.012701494116067816,0.2587,AS: 0.054 (74) vs 0.042 (718); HP: 0.000 (15) vs 0.071 (14); UR: 0.075 (40) vs 0.030 (434),1.0,0.3616
+"R1 incondicional, estratos con investigadores cruzados",secundaria,0.011637062164041383,0.2712,AS: 0.135 (192) vs 0.135 (1824); AS-HP: 0.000 (3) vs 0.116 (764); AS-UR: 0.134 (134) vs 0.127 (3576); HP: 0.107 (28) vs 0.053 (38); HP-UR: 0.000 (2) vs 0.110 (694); UR: 0.148 (122) vs 0.117 (1526),1.0,0.3616
+"R1 incondicional, partición por sitio (Ica, Pachacamac enteros)",secundaria,0.018588997731079387,0.1973,AS: 0.144 (209) vs 0.134 (1807); HP: 0.107 (28) vs 0.053 (38); UR: 0.144 (125) vs 0.118 (1523),1.0,0.31888
+"R1 incondicional, CON UR053 (comparación con 22)",referencia,0.025221816637304703,0.1447,AS: 0.135 (192) vs 0.135 (1824); HP: 0.107 (28) vs 0.053 (38); UR: 0.191 (131) vs 0.135 (1816),0.1447,0.26713846153846155
+R2 condicional (pares que comparten patrón),secundaria,0.036368363748639033,0.0493,AS: 0.125 (16) vs 0.017 (236); HP: 0.000 (11) vs 0.000 (2); UR: 0.000 (15) vs 0.013 (298),0.3944,0.10756363636363635
+"R2 incondicional, k>=3",secundaria,0.008297874119783904,0.0089,AS: 0.018 (113) vs 0.002 (1427); HP: 0.000 (21) vs 0.000 (34); UR: 0.000 (67) vs 0.001 (1417),0.0979,0.0534
+"R2 condicional, k>=3",secundaria,0.04152329461383922,0.0188,AS: 0.133 (15) vs 0.013 (231); HP: 0.000 (11) vs 0.000 (2); UR: 0.000 (15) vs 0.007 (292),0.188,0.056
+"R2 incondicional, estratos con investigadores cruzados",secundaria,0.0030235632329680406,0.0901,AS: 0.018 (113) vs 0.003 (1427); AS-HP: 0.000 (3) vs 0.000 (612); AS-UR: 0.000 (142) vs 0.003 (2936); HP: 0.000 (21) vs 0.000 (34); HP-UR: 0.000 (2) vs 0.003 (603); UR: 0.000 (67) vs 0.003 (1417),0.6307,0.1802
+"R2 incondicional, partición por sitio (Ica, Pachacamac enteros)",secundaria,0.006192242292255838,0.0305,AS: 0.015 (134) vs 0.003 (1406); HP: 0.000 (21) vs 0.000 (34); UR: 0.000 (73) vs 0.003 (1411),0.27449999999999997,0.0732
+"R2 incondicional, CON UR053 (comparación con 22)",referencia,0.00743343088450709,0.0194,AS: 0.018 (113) vs 0.003 (1427); HP: 0.000 (21) vs 0.000 (34); UR: 0.000 (67) vs 0.003 (1417),0.0388,0.056
+R3 bandas (s = -|dif|),secundaria,0.06027082322902965,0.0002,AS: -0.245 (696) vs -0.258 (11368); HP: -0.112 (308) vs -0.289 (820); UR: -0.211 (957) vs -0.268 (22466),0.0024000000000000002,0.0048000000000000004
+R3 cabecera (s = -|dif|),secundaria,-0.004046662318131724,0.5918,AS: -0.418 (353) vs -0.396 (6430); HP: -0.443 (174) vs -0.412 (421); UR: -0.349 (644) vs -0.362 (14569),1.0,0.7101599999999999
+R1 control UR053,control,0.6420708634330925,0.0008,UR: 0.778 (9) vs 0.136 (1938),0.0032,0.009600000000000001
+"R1 control UR053, condicional",control,0.621879733912929,0.0042,UR: 0.778 (9) vs 0.156 (1687),0.0126,0.0336
+R2 control UR053,control,,,,0.0126,1.0
+"R2 control UR053, condicional",control,,,,0.0126,1.0
+"R1 Incahuasi, mismo investigador",incahuasi,-0.045227304583469595,0.8696,JC: 0.000 (3) vs nan (0); UR: 0.059 (102) vs 0.104 (2518),1.0,0.9513818181818181
+"R1 Incahuasi, con estrato UR-JC",incahuasi,-0.039357815378349294,0.8721,JC: 0.000 (3) vs nan (0); JC-UR: 0.089 (45) vs 0.115 (174); UR: 0.059 (102) vs 0.104 (2518),1.0,0.9513818181818181
+"R2 Incahuasi, mismo investigador",incahuasi,0.007638481984391851,0.0207,JC: 0.000 (6) vs nan (0); UR: 0.010 (102) vs 0.002 (2309),0.0828,0.056
+"R2 Incahuasi, con estrato UR-JC",incahuasi,0.004809414582765239,0.021,JC: 0.000 (6) vs nan (0); JC-UR: 0.000 (60) vs 0.000 (220); UR: 0.010 (102) vs 0.002 (2309),0.0828,0.056

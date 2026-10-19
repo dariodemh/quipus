@@ -1,0 +1,50 @@
+n=2 nulo A: n-gramas en >=3 quipus: obs=1128 vs nulo media=1360.2 (p=1.0000); no homogéneos: obs=1007 vs 1282.1 (p=1.0000)
+n=2 nulo R: n-gramas en >=3 quipus: obs=1128 vs nulo media=1237.8 (p=1.0000); no homogéneos: obs=1007 vs 1089.4 (p=1.0000)
+n=2 nulo Cfijo: n-gramas en >=3 quipus: obs=1128 vs nulo media=1250.9 (p=1.0000); no homogéneos: obs=1007 vs 1149.9 (p=1.0000)
+n=2 nulo Pfijo: n-gramas en >=3 quipus: obs=1128 vs nulo media=1353.9 (p=1.0000); no homogéneos: obs=1007 vs 1267.0 (p=1.0000)
+n=3 nulo A: n-gramas en >=3 quipus: obs=672 vs nulo media=570.8 (p=0.0025); no homogéneos: obs=617 vs 542.8 (p=0.0025)
+n=3 nulo R: n-gramas en >=3 quipus: obs=672 vs nulo media=586.0 (p=0.0025); no homogéneos: obs=617 vs 521.1 (p=0.0025)
+n=3 nulo Cfijo: n-gramas en >=3 quipus: obs=672 vs nulo media=758.0 (p=1.0000); no homogéneos: obs=617 vs 716.6 (p=1.0000)
+n=3 nulo Pfijo: n-gramas en >=3 quipus: obs=672 vs nulo media=631.1 (p=0.0050); no homogéneos: obs=617 vs 600.7 (p=0.1621)
+n=4 nulo A: n-gramas en >=3 quipus: obs=424 vs nulo media=143.7 (p=0.0025); no homogéneos: obs=388 vs 130.5 (p=0.0025)
+n=4 nulo R: n-gramas en >=3 quipus: obs=424 vs nulo media=283.4 (p=0.0025); no homogéneos: obs=388 vs 242.2 (p=0.0025)
+n=4 nulo Cfijo: n-gramas en >=3 quipus: obs=424 vs nulo media=433.3 (p=0.7606); no homogéneos: obs=388 vs 410.5 (p=0.9551)
+n=4 nulo Pfijo: n-gramas en >=3 quipus: obs=424 vs nulo media=210.9 (p=0.0025); no homogéneos: obs=388 vs 193.3 (p=0.0025)
+n-gramas no homogéneos con exceso de quipus (q_R<0.05, BH sobre 2224 candidatos): 369 (por n: {2: 85, 3: 161, 4: 123})
+  no homogéneos con q_A<0.05: 470
+  no homogéneos con q_R<0.05: 369
+  no homogéneos con q_Cfijo<0.05: 0
+  no homogéneos con q_Pfijo<0.05: 482
+  que superan LOS CUATRO nulos (q<0.05 en todos): 0 (por n: {})
+pureza de sitio (significativos_R, 230 n-gramas con >=3 quipus de sitio conocido): obs=0.496 vs nulo=0.439 (p=0.0120)
+pureza de sitio (todos_no_homog, 1194 n-gramas con >=3 quipus de sitio conocido): obs=0.482 vs nulo=0.447 (p=0.0379)
+significativos con todos sus quipus de sitio conocido en un único sitio: 15; sitios: {'Santa': 7, 'Leymebamba': 5, 'Incahuasi': 2, 'Ica': 1}
+      n                  ngrama  n_quipus    esp_A    esp_R       q_R                                                                                                sitios    pureza
+961   2          W|S1.L0 > W|L0        60  52.6175  43.3600  0.023109                  Chancay; Huaquerones; Ica; Incahuasi; Leymebamba; N. Chile; Nazca; Pachacamac; Santa  0.321429
+107   2            AB|L0 > AB|-        45  38.1575  30.5100  0.023109                 Chancay; Huacho; Ica; Incahuasi; Leymebamba; Lima; N. Chile; Nazca; Pachacamac; Santa  0.172414
+52    2            AB|- > AB|L0        44  37.8750  31.0250  0.023109             Huacho; Huaquerones; Ica; Incahuasi; Leymebamba; Lima; N. Chile; Nazca; Pachacamac; Santa  0.200000
+911   2             W|S1 > W|L0        44  28.8850  25.2125  0.023109  Armatambo; Huacho; Huaquerones; Ica; Incahuasi; Leymebamba; Lima; N. Chile; Nazca; Pachacamac; Santa  0.250000
+90    2           AB|E0 > AB|L0        36  24.2875  21.0925  0.023109              Armatambo; Chancay; Ica; Incahuasi; Leymebamba; Lima; N. Chile; Nazca; Pachacamac; Santa  0.166667
+108   2           AB|L0 > AB|E0        35  24.4450  21.1475  0.023109                                     Chancay; Ica; Incahuasi; Leymebamba; Lima; N. Chile; Nazca; Santa  0.217391
+965   2       W|S1.L0 > W|S1.E0        35  23.1250  21.4950  0.023109                             Armatambo; Huacho; Huaquerones; Ica; Leymebamba; Nazca; Pachacamac; Santa  0.333333
+806   2              W|- > W|E0        34  28.1150  24.5550  0.045091                           Huaquerones; Ica; Incahuasi; Leymebamba; N. Chile; Nazca; Pachacamac; Santa  0.222222
+790   2              W|- > MB|-        33  24.1450  19.7250  0.023109                                            Armatambo; Huaquerones; Ica; Leymebamba; Nazca; Pachacamac  0.533333
+55    2         AB|- > AB|S1.L0        31  26.4450  22.1300  0.045091                                 Huacho; Ica; Incahuasi; Leymebamba; Lima; N. Chile; Pachacamac; Santa  0.333333
+927   2       W|S1.E0 > W|S1.L0        30  22.9900  21.6550  0.023109      Armatambo; Chancay; Huacho; Huaquerones; Ica; Incahuasi; Leymebamba; N. Chile; Nazca; Pachacamac  0.333333
+1683  3   W|S1.L0 > W|L0 > W|L0        28  12.9100  18.0425  0.023109                                              Chancay; Huaquerones; Ica; Leymebamba; Pachacamac; Santa  0.250000
+475   2           MB|E0 > MB|L0        25  18.2300  15.6925  0.035439                                Armatambo; Huaquerones; Ica; Incahuasi; Leymebamba; Lima; Nazca; Santa  0.357143
+1566  3        W|- > W|L0 > W|-        25  16.6075   8.5150  0.023109                             Ica; Incahuasi; Leymebamba; N. Chile; Nazca; Pachacamac; Puruchuco; Santa  0.277778
+503   2        MB|L0 > MB|S1.L0        24  18.1200  16.0975  0.035439                                                    Ica; Leymebamba; Lima; N. Chile; Pachacamac; Santa  0.300000
+1615  3       W|L0 > W|- > W|L0        24  17.2000   7.9400  0.023109                                                          Ica; Leymebamba; N. Chile; Pachacamac; Santa  0.375000
+232   2  AB|S2.S1.L0 > AB|S1.L0        21  14.2450  12.8025  0.023109                                               Ica; Incahuasi; Leymebamba; N. Chile; Nazca; Pachacamac  0.375000
+1191  3   AB|E0 > AB|L0 > AB|L0        20   7.9575  10.8100  0.023109                                                        Ica; Incahuasi; Leymebamba; Lima; Nazca; Santa  0.307692
+1210  3   AB|L0 > AB|L0 > AB|E0        20   7.8750  10.9050  0.023109                                                        Ica; Incahuasi; Leymebamba; Lima; Nazca; Santa  0.307692
+178   2     AB|S1.L0 > AB|S1.E0        19   8.7675   8.1425  0.023109                                                      Ica; Incahuasi; Leymebamba; N. Chile; Pachacamac  0.285714
+524   2        MB|S1 > MB|S1.L0        18  10.7600  10.2550  0.035439                                                                     Ica; Leymebamba; Lima; Pachacamac  0.571429
+1655  3      W|S1 > W|L0 > W|L0        18   4.5775   8.6725  0.023109                                        Ica; Incahuasi; Leymebamba; N. Chile; Nazca; Pachacamac; Santa  0.222222
+1085  2            YB|L0 > YB|-        18  12.3700  10.7175  0.045091                                                                         Ica; Nazca; Pachacamac; Santa  0.400000
+1205  3   AB|L0 > AB|E0 > AB|L0        17   7.6875   3.3575  0.023109                                                            Chancay; Ica; Incahuasi; Leymebamba; Nazca  0.333333
+1645  3   W|L0 > W|S1.L0 > W|L0        17  12.7225   6.0800  0.023109                                                                         Leymebamba; Pachacamac; Santa  0.500000
+Empty DataFrame
+Columns: [n, ngrama, n_quipus, esp_R, esp_Cfijo, esp_Pfijo, q_todos, sitios, pureza, quipus]
+Index: []

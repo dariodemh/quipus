@@ -1,0 +1,205 @@
+pruebas por mitad: {'confirmacion': 5604, 'exploracion': 5569}
+   plantilla   khipu  en_puerta  estadistico         p  p_corpus         q         mitad     ok
+0         P3   UR029       True     0.766334  0.027586  0.027586  0.458590   exploracion   True
+1         P3   UR091       True    -0.524588  0.299213  0.299213  1.000000   exploracion  False
+2         P3  AS026A       True     0.231029  0.118881  0.118881  1.000000   exploracion  False
+3         P3   AS157       True     0.230915  0.212766  0.212766  1.000000  confirmacion  False
+4         P3   UR023      False          NaN       NaN       NaN       NaN  confirmacion  False
+5        P4r   UR087       True     0.705882  0.000050  0.120000  0.001868  confirmacion  False
+6        P4r   UR088       True     0.666667  0.000050  0.036036  0.002175   exploracion   True
+7        P4r   UR089       True     0.902913  0.000050  0.019608  0.001868  confirmacion   True
+8        P4r   UR090       True     0.722222  0.000050  0.037037  0.002175   exploracion   True
+9        P4r   UR091       True     1.000000  0.000050  0.022989  0.002175   exploracion   True
+10       P4r   UR092       True     1.000000  0.000050  0.017857  0.002175   exploracion   True
+11       P5a   UR266      False          NaN       NaN       NaN       NaN  confirmacion  False
+12       P5a   UR275      False          NaN       NaN       NaN       NaN   exploracion  False
+13       P5a   UR278       True    -0.202228  0.000010  0.500000  0.001326   exploracion  False
+14       P5b   UR266       True     1.000000  0.560000  0.441860  1.000000  confirmacion  False
+15       P5b   UR275       True     2.000000  0.001200  0.061224  0.037544   exploracion   True
+16       P5b   UR278       True     0.000000  1.000000  1.000000  1.000000   exploracion  False
+17       P5c   UR266       True     1.000000  0.012500  0.500000  0.245789  confirmacion  False
+18       P5c   UR275       True     7.000000  0.000050  0.028037  0.002175   exploracion   True
+19       P5c   UR278       True     0.000000  1.000000  1.000000  1.000000   exploracion  False
+20       P6b   UR063      False          NaN       NaN       NaN       NaN   exploracion  False
+21       P6b   UR064      False          NaN       NaN       NaN       NaN  confirmacion  False
+22       P6b   UR066      False          NaN       NaN       NaN       NaN   exploracion  False
+23       P6b   UR067      False          NaN       NaN       NaN       NaN  confirmacion  False
+24       P6b   UR068      False          NaN       NaN       NaN       NaN   exploracion  False
+25       P6b   UR073      False          NaN       NaN       NaN       NaN   exploracion  False
+26      P8ar   UR006       True    19.000000  0.000050  0.002198  0.001868  confirmacion   True
+27      P8ar   UR009       True     2.000000  0.275500  0.116279  1.000000   exploracion  False
+28      P8ar   UR021       True     0.000000  1.000000  1.000000  1.000000  confirmacion  False
+29       P9a  UR053B       True    -0.941176  1.000000  0.994048  1.000000   exploracion  False
+30       P9a  UR053C       True     0.862069  0.000010  0.013072  0.001121  confirmacion   True
+           sum  size
+plantilla           
+P3           1     5
+P4r          5     6
+P5a          0     3
+P5b          1     3
+P5c          1     3
+P6b          0     6
+P8ar         1     3
+P9a          1     2
+
+## P10: 0 coincidencias / 484 pruebas (exploración 0, confirmación 0)
+
+## P11a: 16 coincidencias / 396 pruebas (exploración 6, confirmación 10)
+  AS048(expl, p=5.0e-05, q=0.0022, pc=0.030), AS074(conf, p=5.0e-05, q=0.0019, pc=0.009), AS089(conf, p=5.0e-05, q=0.0019, pc=0.025), AS178(expl, p=5.0e-05, q=0.0022, pc=0.039), AS203(conf, p=5.0e-05, q=0.0019, pc=0.030), HP051_B(expl, p=5.0e-05, q=0.0022, pc=0.022), UR068(expl, p=5.0e-05, q=0.0022, pc=0.023), UR1057(conf, p=5.0e-05, q=0.0019, pc=0.010), UR1088(conf, p=5.0e-05, q=0.0019, pc=0.050), UR1099(conf, p=5.0e-05, q=0.0019, pc=0.022), UR1121(expl, p=5.0e-05, q=0.0022, pc=0.026), UR1131(conf, p=5.0e-05, q=0.0019, pc=0.012), UR1144(expl, p=5.0e-05, q=0.0022, pc=0.015), UR1149(conf, p=5.0e-05, q=0.0019, pc=0.028), UR1175(conf, p=5.0e-05, q=0.0019, pc=0.036), UR172(conf, p=5.0e-05, q=0.0019, pc=0.039)
+  procedencia más frecuente: Unknown 7/16 (base 138/396), Fisher p=0.3
+  museo más frecuente: Museum für Völkerkunde, Berlin 7/16 (base 49/396), Fisher p=0.0014
+  canutos: 0.25 en coincidencias vs 0.30 en probados
+  camélido: 0.00 en coincidencias vs 0.03 en probados
+
+## P11b: 6 coincidencias / 396 pruebas (exploración 2, confirmación 4)
+  AS202(expl, p=5.0e-05, q=0.0022, pc=0.007), HP055(conf, p=5.0e-05, q=0.0019, pc=0.014), UR006(conf, p=5.0e-05, q=0.0019, pc=0.008), UR1057(conf, p=5.0e-05, q=0.0019, pc=0.003), UR1176(expl, p=5.0e-05, q=0.0022, pc=0.032), UR1131(conf, p=7.5e-04, q=0.021, pc=0.035)
+  procedencia más frecuente: Unknown 2/6 (base 138/396), Fisher p=0.68
+  museo más frecuente: Museum für Völkerkunde, Berlin 2/6 (base 49/396), Fisher p=0.16
+  canutos: 0.17 en coincidencias vs 0.30 en probados
+  camélido: 0.00 en coincidencias vs 0.03 en probados
+
+## P11c: 7 coincidencias / 184 pruebas (exploración 1, confirmación 6)
+  AS092(conf, p=5.0e-05, q=0.0019, pc=0.020), HP055(conf, p=5.0e-05, q=0.0019, pc=0.050), UR1166(conf, p=5.0e-05, q=0.0019, pc=0.018), UR212(conf, p=5.0e-05, q=0.0019, pc=0.033), UR223(conf, p=5.0e-05, q=0.0019, pc=0.028), UR235(conf, p=5.0e-05, q=0.0019, pc=0.039), KH0058(expl, p=1.0e-04, q=0.004, pc=0.042)
+  procedencia más frecuente: Ica 2/7 (base 13/184), Fisher p=0.079
+  museo más frecuente: Ethnologisches Museum, Berlin, Germany 3/7 (base 28/184), Fisher p=0.073
+  canutos: 0.29 en coincidencias vs 0.34 en probados
+  camélido: 0.00 en coincidencias vs 0.01 en probados
+
+## P12: 0 coincidencias / 135 pruebas (exploración 0, confirmación 0)
+
+## P1a: 1 coincidencias / 499 pruebas (exploración 1, confirmación 0)
+  HP004(expl, p=6.5e-04, q=0.023, pc=0.013)
+  procedencia más frecuente: Pachacamac 1/1 (base 71/499), Fisher p=0.14
+  museo más frecuente: Museo de Sitio de Pachacamac 1/1 (base 22/499), Fisher p=0.044
+  canutos: 0.00 en coincidencias vs 0.30 en probados
+  camélido: 0.00 en coincidencias vs 0.03 en probados
+
+## P1b: 2 coincidencias / 515 pruebas (exploración 1, confirmación 1)
+  UR1163(expl, p=7.0e-04, q=0.024, pc=0.006), UR059(conf, p=1.3e-03, q=0.036, pc=0.010)
+  procedencia más frecuente: Pachacamac 1/2 (base 74/515), Fisher p=0.27
+  museo más frecuente: Museum für Völkerkunde, Berlin 1/2 (base 78/515), Fisher p=0.28
+  canutos: 0.00 en coincidencias vs 0.29 en probados
+  camélido: 0.00 en coincidencias vs 0.03 en probados
+
+## P1c: 2 coincidencias / 375 pruebas (exploración 1, confirmación 1)
+  MM001(conf, p=1.0e-04, q=0.0035, pc=0.024), AS172(expl, p=6.5e-04, q=0.023, pc=0.008)
+  procedencia más frecuente: Huacho? 1/2 (base 1/375), Fisher p=0.0053
+  museo más frecuente: Landesmuseum Hannover 1/2 (base 1/375), Fisher p=0.0053
+  canutos: 0.00 en coincidencias vs 0.35 en probados
+  camélido: 0.00 en coincidencias vs 0.03 en probados
+
+## P1d: 1 coincidencias / 195 pruebas (exploración 1, confirmación 0)
+  HP056(expl, p=9.5e-04, q=0.031, pc=0.015)
+  procedencia más frecuente: Unknown 1/1 (base 69/195), Fisher p=0.35
+  museo más frecuente: Museo Nacional de Arqueologia, Anthropologia e Historia del Peru 1/1 (base 3/195), Fisher p=0.015
+  canutos: 0.00 en coincidencias vs 0.34 en probados
+  camélido: 0.00 en coincidencias vs 0.04 en probados
+
+## P2: 0 coincidencias / 603 pruebas (exploración 0, confirmación 0)
+
+## P3: 0 coincidencias / 499 pruebas (exploración 0, confirmación 0)
+
+## P4r: 9 coincidencias / 275 pruebas (exploración 6, confirmación 3)
+  HP033(expl, p=5.0e-05, q=0.0022, pc=0.016), UR028(expl, p=5.0e-05, q=0.0022, pc=0.030), UR088(expl, p=5.0e-05, q=0.0022, pc=0.036), UR089(conf, p=5.0e-05, q=0.0019, pc=0.020), UR090(expl, p=5.0e-05, q=0.0022, pc=0.037), UR091(expl, p=5.0e-05, q=0.0022, pc=0.023), UR092(expl, p=5.0e-05, q=0.0022, pc=0.018), UR1114(conf, p=5.0e-05, q=0.0019, pc=0.018), UR1140(conf, p=5.0e-05, q=0.0019, pc=0.036)
+  procedencia más frecuente: Santa 5/9 (base 6/275), Fisher p=5.9e-08
+  museo más frecuente: Museo Temple Radicati 5/9 (base 15/275), Fisher p=2.6e-05
+  canutos: 0.11 en coincidencias vs 0.38 en probados
+  camélido: 0.00 en coincidencias vs 0.04 en probados
+
+## P5a: 0 coincidencias / 8 pruebas (exploración 0, confirmación 0)
+
+## P5b: 3 coincidencias / 290 pruebas (exploración 0, confirmación 3)
+  UR1088(conf, p=5.0e-05, q=0.0019, pc=0.009), UR269(conf, p=5.0e-05, q=0.0019, pc=0.031), UR274A(conf, p=7.5e-04, q=0.021, pc=0.049)
+  procedencia más frecuente: Incahuasi 2/3 (base 25/290), Fisher p=0.02
+  museo más frecuente: Museum Fur Volkerkunde, Munich, W. Germany 1/3 (base 11/290), Fisher p=0.11
+  canutos: 0.00 en coincidencias vs 0.36 en probados
+  camélido: 0.00 en coincidencias vs 0.02 en probados
+
+## P5c: 5 coincidencias / 494 pruebas (exploración 3, confirmación 2)
+  MM001(conf, p=5.0e-05, q=0.0019, pc=0.024), UR267A(expl, p=5.0e-05, q=0.0022, pc=0.008), UR267B(conf, p=5.0e-05, q=0.0019, pc=0.018), UR275(expl, p=5.0e-05, q=0.0022, pc=0.028), UR190(expl, p=1.1e-03, q=0.035, pc=0.010)
+  procedencia más frecuente: Incahuasi 3/5 (base 41/494), Fisher p=0.0047
+  museo más frecuente: Proyecto Incahuasi 3/5 (base 38/494), Fisher p=0.0038
+  canutos: 0.20 en coincidencias vs 0.30 en probados
+  camélido: 0.00 en coincidencias vs 0.02 en probados
+
+## P6a: 6 coincidencias / 401 pruebas (exploración 4, confirmación 2)
+  UR267A(expl, p=5.0e-05, q=0.0022, pc=0.008), UR267B(conf, p=5.0e-05, q=0.0019, pc=0.019), UR269(conf, p=5.0e-05, q=0.0019, pc=0.029), AS207A(expl, p=1.0e-04, q=0.004, pc=0.047), UR255(expl, p=1.0e-04, q=0.004, pc=0.035), AS172(expl, p=1.4e-03, q=0.044, pc=0.038)
+  procedencia más frecuente: Incahuasi 4/6 (base 28/401), Fisher p=0.00026
+  museo más frecuente: Proyecto Incahuasi 3/6 (base 26/401), Fisher p=0.0043
+  canutos: 0.33 en coincidencias vs 0.30 en probados
+  camélido: 0.00 en coincidencias vs 0.02 en probados
+
+## P7a: 4 coincidencias / 193 pruebas (exploración 3, confirmación 1)
+  UR256(expl, p=1.0e-05, q=0.0013, pc=0.041), UR268(expl, p=1.0e-05, q=0.0013, pc=0.029), UR275(expl, p=1.0e-05, q=0.0013, pc=0.014), UR210(conf, p=1.9e-04, q=0.0065, pc=0.046)
+  procedencia más frecuente: Incahuasi 3/4 (base 18/193), Fisher p=0.0026
+  museo más frecuente: Proyecto Incahuasi 3/4 (base 16/193), Fisher p=0.0018
+  canutos: 0.25 en coincidencias vs 0.31 en probados
+  camélido: 0.00 en coincidencias vs 0.01 en probados
+
+## P7b: 1 coincidencias / 23 pruebas (exploración 0, confirmación 1)
+  AS128(conf, p=1.0e-05, q=0.0011, pc=0.043)
+  procedencia más frecuente: Nazca 1/1 (base 3/23), Fisher p=0.13
+  museo más frecuente: Museum für Völkerkunde, Berlin 1/1 (base 4/23), Fisher p=0.17
+  canutos: 0.00 en coincidencias vs 0.26 en probados
+  camélido: 0.00 en coincidencias vs 0.00 en probados
+
+## P7c: 2 coincidencias / 603 pruebas (exploración 0, confirmación 2)
+  JC009(conf, p=4.4e-04, q=0.014, pc=0.007), AS079(conf, p=1.0e-03, q=0.029, pc=0.014)
+  procedencia más frecuente: Incahuasi 1/2 (base 48/603), Fisher p=0.15
+  museo más frecuente: Proyecto Incahuasi 1/2 (base 45/603), Fisher p=0.14
+  canutos: 0.50 en coincidencias vs 0.29 en probados
+  camélido: 0.00 en coincidencias vs 0.03 en probados
+
+## P8ar: 1 coincidencias / 455 pruebas (exploración 0, confirmación 1)
+  UR006(conf, p=5.0e-05, q=0.0019, pc=0.002)
+  procedencia más frecuente: Leymebamba 1/1 (base 21/455), Fisher p=0.046
+  museo más frecuente: Centro Mallqui, Leymebamba, Amazonas 1/1 (base 21/455), Fisher p=0.046
+  canutos: 0.00 en coincidencias vs 0.29 en probados
+  camélido: 0.00 en coincidencias vs 0.02 en probados
+
+## P8b: 2 coincidencias / 472 pruebas (exploración 2, confirmación 0)
+  UR1034(expl, p=1.0e-05, q=0.0013, pc=0.009), AS066(expl, p=3.0e-05, q=0.0022, pc=0.027)
+  procedencia más frecuente: Pachacamac 1/2 (base 64/472), Fisher p=0.25
+  museo más frecuente: National Museum, Smithsonian, Washington, D.C. 1/2 (base 1/472), Fisher p=0.0042
+  canutos: 0.00 en coincidencias vs 0.31 en probados
+  camélido: 0.00 en coincidencias vs 0.03 en probados
+
+## P8c: 2 coincidencias / 515 pruebas (exploración 2, confirmación 0)
+  UR190(expl, p=5.0e-05, q=0.0022, pc=0.010), AS066(expl, p=9.0e-05, q=0.0039, pc=0.014)
+  procedencia más frecuente: Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca) 1/2 (base 3/515), Fisher p=0.012
+  museo más frecuente: Musee Quai Branly, Paris, France 1/2 (base 6/515), Fisher p=0.023
+  canutos: 0.00 en coincidencias vs 0.29 en probados
+  camélido: 0.00 en coincidencias vs 0.03 en probados
+
+## P9a: 16 coincidencias / 559 pruebas (exploración 7, confirmación 9)
+  HP051_B(expl, p=1.0e-05, q=0.0013, pc=0.012), QU001(conf, p=1.0e-05, q=0.0011, pc=0.029), UR053A(conf, p=1.0e-05, q=0.0011, pc=0.021), UR053C(conf, p=1.0e-05, q=0.0011, pc=0.013), UR053D(expl, p=1.0e-05, q=0.0013, pc=0.007), UR073(expl, p=1.0e-05, q=0.0013, pc=0.034), UR1033B(conf, p=1.0e-05, q=0.0011, pc=0.006), UR1099(conf, p=1.0e-05, q=0.0011, pc=0.038), UR1121(expl, p=1.0e-05, q=0.0013, pc=0.026), UR210(conf, p=1.0e-05, q=0.0011, pc=0.027), UR218(conf, p=1.0e-05, q=0.0011, pc=0.040), UR267A(expl, p=1.0e-05, q=0.0013, pc=0.043), UR274A(conf, p=1.0e-05, q=0.0011, pc=0.048), AS089(conf, p=3.0e-05, q=0.0019, pc=0.017), UR268(expl, p=1.0e-04, q=0.004, pc=0.020), UR275(expl, p=1.2e-03, q=0.038, pc=0.043)
+  procedencia más frecuente: Unknown 7/16 (base 197/559), Fisher p=0.32
+  museo más frecuente: Proyecto Incahuasi 3/16 (base 40/559), Fisher p=0.099
+  canutos: 0.12 en coincidencias vs 0.28 en probados
+  camélido: 0.00 en coincidencias vs 0.03 en probados
+
+## P9b_i: 0 coincidencias / 651 pruebas (exploración 0, confirmación 0)
+
+## P9b_ii: 0 coincidencias / 651 pruebas (exploración 0, confirmación 0)
+
+## P9b_iii: 0 coincidencias / 651 pruebas (exploración 0, confirmación 0)
+
+## P9b_iv: 1 coincidencias / 651 pruebas (exploración 0, confirmación 1)
+  MM001(conf, p=1.5e-03, q=0.042, pc=nan)
+  procedencia más frecuente: Huacho? 1/1 (base 1/651), Fisher p=0.0015
+  museo más frecuente: Landesmuseum Hannover 1/1 (base 1/651), Fisher p=0.0015
+  canutos: 0.00 en coincidencias vs 0.27 en probados
+  camélido: 0.00 en coincidencias vs 0.03 en probados
+        kfg plantilla  estadistico         p         q         mitad  q_holm   p_perm      B  p_corpus  coincide  n_colg    procedencia                                     museo
+972   AS076       P5c     2.000000  0.033500  0.503308  confirmacion     1.0  0.03350   1999  0.010101     False      15        Unknown           Musee de l Homme, Paris, France
+3291  JC012       P10     0.937500  0.005800  0.134311  confirmacion     1.0  0.00580  19999  0.133333     False      30      Incahuasi                        Proyecto Incahuasi
+5294  UR050   P9b_iii     1.000000  0.012289  0.254410   exploracion     1.0      NaN      0       NaN     False     164        Unknown      Private Collection: Anna Maria Soldi
+5328  UR052       P6a     3.000000  0.000950  0.026888  confirmacion     1.0  0.00095  19999  0.201835     False      96        Unknown  Museo Central - Banco Central de Reserva
+5333  UR052       P10     1.000000  0.004800  0.113499  confirmacion     1.0  0.00480  19999  0.250000     False      96        Unknown  Museo Central - Banco Central de Reserva
+5432  UR054       P7c    -0.091470  0.043500  0.597485  confirmacion     1.0  0.04350   1999  0.142857     False     115        Unknown      Private Collection: Anna Maria Soldi
+8905  UR178        P3     1.142616  0.041237  0.579965  confirmacion     1.0      NaN      0  0.041237     False      14  Cajamarquilla    American Museum of Natural History, NY
+8919  UR179        P3     2.860053  0.007092  0.154649  confirmacion     1.0      NaN      0  0.007092     False      18  Cajamarquilla    American Museum of Natural History, NY
+8926  UR180       P1a     0.812777  0.002050  0.053433  confirmacion     1.0  0.00205  19999  0.029412     False      12  Cajamarquilla    American Museum of Natural History, NY
+8932  UR180        P3     2.345729  0.029412  0.461691  confirmacion     1.0      NaN      0  0.029412     False      12  Cajamarquilla    American Museum of Natural History, NY
+9397  UR203       P10     0.833333  0.017000  0.313382  confirmacion     1.0  0.01700   1999  0.421053     False     113        Unknown    Ethnologisches Museum, Berlin, Germany
+9647  UR215       P10     1.000000  0.001350  0.036904  confirmacion     1.0  0.00135  19999  0.288889     False     137        Unknown    Ethnologisches Museum, Berlin, Germany

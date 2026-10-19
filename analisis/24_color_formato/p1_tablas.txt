@@ -1,0 +1,123 @@
+Puruchuco: sumas UR068 [6, 0, 1, 0, 19, 4, 3, 0, 22, 3, 9, 2, 156, 13, 12, 5, 2908, 133, 162, 40]
+UR067 datos [0, 0, 1, 0, 19, 4, 3, 0, 22, 3, 9, 2, 156, 13, 12, 0, 2904, 133, 161, 40] (20/20 coinciden)
+UR066 desplazamiento 12: [6, 0, 1, 0, 19, 4, 3, 0, 22, 3, 9, 2, 156, 13, 12, 5, 2904, 1, 133, 0]
+
+=== F1_copia_mismo_reg / todo (n=273)
+destino_col  0Y  AB  AB:GG  AB:GG:MB  AB:KB  AB:MB  B  EB  GG  GG:MB  KB  MB  MB:KB  NB  NB:KB  RB  RL  RL:AB  RL:MB   W  W:KB  YB  YG
+fuente_col                                                                                                                            
+AB            0  34      0         0      0      0  0   0   0      0   0   4      0   0      0   0   0      0      0  23     0   0   0
+AB:GG         0   0      0         0      1      1  0   0   2      1   1   1      0   0      0   0   0      1      0   0     0   0   0
+AB:KB         0   0      0         1      0      0  0   0   0      0   0   0      0   0      0   0   0      0      0   0     0   0   0
+AB:MB         0   1      0         0      0      0  0   0   0      1   0   2      0   0      0   0   0      0      0   0     1   0   0
+B             0   0      0         0      0      0  1   0   0      0   0   0      0   0      0   0   0      0      0   0     0   0   0
+GG            0   0      1         0      0      0  0   0   5      3   0   0      0   0      0   0   0      0      0   0     0   0   0
+GG:MB         0   0      0         0      0      1  0   0   0      0   0   0      0   0      0   0   0      0      0   0     0   0   0
+HB            0   0      0         0      0      0  0  10   0      0   0   0      0   0      0   0   0      0      0   0     0   0   0
+KB            0   0      1         0      0      0  0   0   3      1   0   4      0   0      0   0   0      0      0   0     0   0   1
+MB            0  17      4         0      1      2  0   0   0      1   2  37      1   0      0   0   1      1      3   0     0   0   0
+MB:KB         0   0      1         0      0      1  0   0   0      0   1   2      0   0      0   0   0      0      0   0     0   0   0
+RL            0   0      0         0      0      0  0   0   0      0   0   1      0   0      0   8   8      0      0   0     0   0   0
+RL:AB         0   0      0         0      0      1  0   0   0      0   0   1      0   0      0   0   0      0      0   0     0   0   0
+RL:MB         0   0      0         0      0      0  0   0   0      0   0   3      0   0      0   0   0      0      0   0     0   0   0
+W             1   1      0         0      0      0  0   0   0      0   0   0      0   1      1   0   0      0      0  43     1   4   0
+W:AB          0   0      0         0      0      0  0   0   0      0   0   0      0   0      0   0   0      0      0   0     1   0   0
+W:AB:GG       0   0      1         0      0      0  0   0   3      0   0   0      0   0      0   0   0      0      0   0     1   0   0
+W:B           0   0      0         0      0      0  5   0   0      0   0   0      0   0      0   0   0      0      0   0     0   0   0
+W:CB          0   0      0         0      0      0  0   0   0      0   0   0      0   0      0   0   0      0      0   0     5   0   0
+W:KB          0   0      0         0      0      0  0   0   0      0   0   0      0   0      0   0   0      0      0   0     0   1   0
+W:MB          0   0      0         0      0      0  0   0   0      0   0   0      0   0      0   0   0      0      0   0     1   0   0
+
+=== F1_copia_otro_reg / todo (n=520)
+destino_col  AB  AB/YB  AB:CB  AB:GG  AB:MB  AB:RB  BG  BS  BY:BL  GG  GG:MB  HB  KB  KB/RL  KB/YB  LG:AB  LG:YB  MB  MB:KB  MB:W  PB  PK  PR  RB  RL  RL:AB:MB/AB:MB  RL:HB   W  W-BY  W-MB  W/YB  W:BL  W:BL/W:BY  W:BL:MB  W:BY  W:KB  W:LG  W:MB  YB  YB:AB  YB:GG  YB:MB
+fuente_col                                                                                                                                                                                                                                                                   
+AB           51      0      0      0      6      0   0   0      0   0      2   1   2      0      0      0      0  15      0     0   0   1   0   0   0               1      0   3     0     0     0     0          0        0     0     0     0     0   0      0      0      0
+B             0      0      0      0      7      0   0   0      0   0      0   0   0      0      0      0      0   4      0     0   0   0   0   0   0               1      0   0     0     0     0     0          0        0     0     0     0     0   0     10      0      0
+B:GL/B        0      0      2      0      0      0   0   0      0   0      0   0   0      0      0      0      0   0      0     0   0   0   0   0   0               0      0   0     0     0     0     0          0        0     0     0     0     0   0      0      0      0
+BS            0      0      0      0      1      0   0   0      0   0      0   0   0      0      0      0      0   2      1     0   0   0   0   0   0               0      0   0     0     0     0     0          0        0     0     0     0     0   0      0      0      8
+GG            0      0      0      0      0      0   0   0      0   0      1   0   1      0      0      0      0   0      0     0   0   0   0   0   0               0      0   0     0     0     0     0          0        0     0     0     0     0   0      0      0      0
+LB            5      0      0      0      1      1   1   0      0   0      0   1   0      0      0      0      0   2      0     0   1   0   9  13   1               0      1   1     0     0     0     0          0        0     0     0     0     0   0      0      0      0
+MB            1      0      0      0      2      0   0   0      0   0      0   5   2      0      0      0      0  11      0     0   0   0   0   0   0               0      0  11     0     0     0     0          0        1     0     0     0     0   1      0      0      0
+PG            0      0      0      0      0      0   0   0      0   0      0   0   0      0      0      0      0   0      0     0   0   0   0   0   0               0      0   0     0     0     0     0          0        0     2     0     0     0   0      0      0      0
+PG:MB         0      0      0      0      0      0   0   0      0   0      0   0   0      0      0      0      0   0      0     0   0   0   0   0   0               0      0   0     0     0     0     0          0        0     2     0     0     1   0      0      0      0
+PGPG:MB       0      0      0      0      0      0   0   0      0   0      0   0   0      0      0      0      0   0      0     0   0   0   0   0   0               0      0   0     0     0     0     0          0        0     1     0     0     0   0      0      0      0
+W            36      1      0      0      0      0   0  10      1   0      0   0   0      1      2      0      0   2      0     0   0   0   0   0   1               0      0  63     0     0     1     7          2        0     0     0     0     6   0      0      0      0
+W-MB          0      0      0      0      0      0   0   0      4   0      0   0   0      0      0      0      0   0      0     0   0   0   0   0   0               0      0   6    10     0     0     5          0        5     0     0     0     0   0      0      0      0
+W:AB          0      0      0      0      0      0   0   0      0   2      0   0   0      0      0      0      0   0      0     0   0   0   0   0   0               0      0   0     1     5     0     0          0        0     0     0     0     0   0      0      0      0
+W:BL          0      0      0      0      0      0   0   0      0   0      0   0   0      0      0      0      0   8      0     0   0   0   0   0   0               0      0   0    15     0     0     0          0        0     0     0     0     0   0      0      0      0
+W:KB          3      0      0      0      0      0   1   0      0   0      0   0   1      0      0      0      0   1      0     0   0   0   0   1   0               0      0   0     0     0     0     0          0        0     0     0     0     0   0      0      0      0
+W:LG:SB/W     2      0      0      0      0      0   0   0      0   0      0   0   0      0      0      0      0   0      0     0   0   0   0   0   0               0      0   0     0     0     0     0          0        0     0     0     0     0   0      0      0      0
+W:MB          0      0      0      0      0      0   0   0      0   0      0   0   1      0      0      0      0   0      0     2   0   0   0   0   0               0      0   0    10     0     0     0          0        0     0     0     0     0   0      0      0      0
+W:PB          0      0      0      0      0      0   0   0      0   0      0   0   0      0      0      0      0   0      0     0   0   0   0   0   0               0      0   0     0     0     0     0          0        0     0     0     0     1   0      0      0      0
+W:PG          0      0      0      0      0      0   0   0      0   0      0   0   0      0      0      0      0   1      0     0   0   0   0   0   0               0      0   0     0     0     0     0          0        0     2     0     0    10   0      0      0      0
+YB           23      0      0      0      0      1   0   0      0   0      0   0   0      0      0      1      0   0      0     0   0   0   0   0   1               0      0   1     0     0     0     0          0        0     0     0     2     0   6      0      0      0
+YB:0G         0      0      0      1      0      0   0   0      0   0      0   0   0      0      0     14      1   0      0     0   0   0   0   0   0               0      0   0     0     0     0     0          0        0     0     1     3     0   5      0      1      0
+YG            4      0      0      0      0      0  16   0      0   9      0   0   0      0      0      0      0   0      0     0   1   0   0   0   0               0      0   1     0     0     0     0          0        0     0     0     0     0   0      0      1      0
+
+=== F2_incahuasi_suma / todo (n=60)
+destino_col  AB  NB   W  W-MB  W:GG  W:MB
+fuente_col                               
+AB            3   1  12     0     0     0
+AB|W          0   1   0     0     0     0
+NB            1   1   8     0     0     0
+NB|W          0   0   1     0     0     0
+W             0   0   9     1     0     0
+W|AB          1   0   1     0     0     0
+W|NB          1   0   3     0     0     0
+W|W           0   3  11     0     1     1
+
+=== F2_incahuasi_suma / suma_AB (n=19)
+destino_col  AB  NB   W  W:GG  W:MB
+fuente_col                         
+AB|W          0   1   0     0     0
+NB|W          0   0   1     0     0
+W|AB          1   0   0     0     0
+W|W           0   3  11     1     1
+
+=== F2_incahuasi_suma / total_fila_UR278 (n=30)
+destino_col  AB  NB   W  W-MB
+fuente_col                   
+AB            3   1  11     0
+NB            1   0   7     0
+W             0   0   6     1
+
+=== F2_incahuasi_suma / suma_PS (n=5)
+destino_col  AB  W
+fuente_col        
+W|AB          0  1
+W|NB          1  3
+
+=== F2_incahuasi_celda / todo (n=39)
+destino_col  AB   W
+fuente_col         
+AB|AB         0   1
+W|AB          0   6
+W|AB:NB       0   3
+W|NB          9  14
+W|W:NB        1   5
+
+=== F3_puruchuco / todo (n=31)
+destino_col     AB  AB:GG  AB:KB  GG  KB  MB  MB:KB   W  W:AB  W:KB  YG
+fuente_col                                                             
+AB|AB|AB         5      0      0   0   0   2      0   0     0     0   0
+GG|AB:GG|GG      0      0      0   0   1   0      0   0     0     0   1
+GG|GG|GG         1      1      0   2   2   0      1   0     0     0   0
+W:KB|W:KB|W:KB   0      0      1   0   0   0      0   0     2     2   0
+W|W|W            0      0      0   0   0   0      0  10     0     0   0
+
+=== F3_puruchuco / UR068->UR067 (n=17)
+destino_col     AB  AB:GG  AB:KB  GG  MB  W  W:KB  YG
+fuente_col                                           
+AB|AB|AB         3      0      0   0   1  0     0   0
+GG|AB:GG|GG      0      0      0   0   0  0     0   1
+GG|GG|GG         1      1      0   2   0  0     0   0
+W:KB|W:KB|W:KB   0      0      1   0   0  0     2   0
+W|W|W            0      0      0   0   0  5     0   0
+
+=== F3_puruchuco / UR068->UR066 (n=14)
+destino_col     AB  KB  MB  MB:KB  W  W:AB
+fuente_col                                
+AB|AB|AB         2   0   1      0  0     0
+GG|AB:GG|GG      0   1   0      0  0     0
+GG|GG|GG         0   2   0      1  0     0
+W:KB|W:KB|W:KB   0   0   0      0  0     2
+W|W|W            0   0   0      0  5     0

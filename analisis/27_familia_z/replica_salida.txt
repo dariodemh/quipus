@@ -1,0 +1,27 @@
+quipus OKR: 612 con >=30 cuerdas con nudos y >=10 con torsion S/Z: 263
+
+== A_multi50 (>= 50% cuerdas no decimales) ==  tally n=11: UR050, UR039, UR051, UR055, UR110, UR054, UR052, UR144, LL01/UR176, UR193, UR203
+tabla tally x Z (filas T=0/1, cols Z=0/1): [[236, 16], [4, 7]]
+Fisher: OR=25.8 p=4.1e-06; Z en tally 7/11, en decimales 16/252
+CMH controlando fibra (camelido/algodon/mixta/sd): estratos usados=3, OR_MH=24.1 (IC95 3.6-159.8), p_cmh=0.0002; p perm intra-estrato (unilateral)=0.0006
+CMH controlando region de procedencia: estratos usados=4, OR_MH=11.7 (IC95 3.4-40.2), p_cmh=4.8e-06; p perm intra-estrato (unilateral)=0.0008
+CMH controlando fibra x region: estratos usados=5, OR_MH=12.9 (IC95 2.3-71.6), p_cmh=0.0074; p perm intra-estrato (unilateral)=0.0046
+solo fibra algodon: tabla [[145, 13], [1, 2]] OR=22.3 p=0.023
+solo fibra camelido: tabla [[4, 1], [1, 4]] OR=16.0 p=0.21
+logit T ~ Z + fraccion_camelido (n=183): Z=2.22 p=0.00568; cam=2.98 p=0.00106
+Spearman frac_nd_multi vs frac_Z (n=263): rho=0.15 p=0.014
+
+== B_valor50 (>= 50% cuerdas no decimales) ==  tally n=5: UR050, UR055, UR054, UR052, UR193
+tabla tally x Z (filas T=0/1, cols Z=0/1): [[238, 20], [2, 3]]
+Fisher: OR=17.9 p=0.0052; Z en tally 3/5, en decimales 20/258
+CMH controlando fibra (camelido/algodon/mixta/sd): estratos usados=2, OR_MH=5.7 (IC95 0.5-60.6), p_cmh=0.27; p perm intra-estrato (unilateral)=0.0458
+CMH controlando region de procedencia: estratos usados=1, OR_MH=9.0 (IC95 1.4-58.2), p_cmh=0.037; p perm intra-estrato (unilateral)=0.0318
+CMH controlando fibra x region: estratos usados=2, OR_MH=4.9 (IC95 0.4-62.4), p_cmh=0.43; p perm intra-estrato (unilateral)=0.2026
+solo fibra algodon: tabla [[146, 14], [0, 1]] OR=inf p=0.093
+solo fibra camelido: tabla [[4, 3], [1, 2]] OR=2.7 p=1
+logit T ~ Z + fraccion_camelido (n=183): Z=1.83 p=0.0956; cam=2.52 p=0.0248
+Spearman frac_nd vs frac_Z (n=263): rho=0.14 p=0.02
+
+Nivel cuerda, dentro de quipus con S y Z (estratos=6), nd_valor: OR_MH(Z vs S -> no decimal)=1.02 IC 0.66-1.59 p=0.99
+
+Nivel cuerda, dentro de quipus con S y Z (estratos=12), nd_multi: OR_MH(Z vs S -> no decimal)=1.07 IC 0.68-1.69 p=0.86

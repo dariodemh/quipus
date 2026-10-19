@@ -1,0 +1,85 @@
+   unidad posicion        rasgo  n_quipus  n_unidades  efecto  sd_nulo       p  p_holm  p_holm_global
+0   grupo  primero    sin_nudos       596        4942 -0.0051   0.0070  0.4521  0.7750         1.0000
+1   grupo  primero    val_rango       596        4942  0.0394   0.0066  0.0002  0.0032         0.0064
+2   grupo  primero          ncl       596        4942  0.0851   0.0167  0.0002  0.0032         0.0064
+3   grupo  primero         hasE       596        4942  0.0114   0.0066  0.0810  0.4859         0.8908
+4   grupo  primero         hasL       596        4942 -0.0139   0.0095  0.1462  0.7309         1.0000
+5   grupo  primero       nether       596        4942  0.0045   0.0043  0.2871  0.7750         1.0000
+6   grupo  primero    tiene_sub       596        4942  0.0154   0.0065  0.0180  0.1800         0.3239
+7   grupo  primero  firma_unica       596        4942  0.0288   0.0082  0.0006  0.0066         0.0132
+8   grupo   ultimo    sin_nudos       596        4942  0.0299   0.0070  0.0002  0.0032         0.0064
+9   grupo   ultimo    val_rango       596        4942 -0.0317   0.0066  0.0002  0.0032         0.0064
+10  grupo   ultimo          ncl       596        4942 -0.0898   0.0167  0.0002  0.0032         0.0064
+11  grupo   ultimo         hasE       596        4942 -0.0075   0.0066  0.2583  0.7750         1.0000
+12  grupo   ultimo         hasL       596        4942 -0.0220   0.0095  0.0226  0.2034         0.3807
+13  grupo   ultimo       nether       596        4942 -0.0081   0.0043  0.0648  0.4831         0.8454
+14  grupo   ultimo    tiene_sub       596        4942 -0.0122   0.0065  0.0604  0.4831         0.8454
+15  grupo   ultimo  firma_unica       596        4942  0.0119   0.0082  0.1474  0.7309         1.0000
+0   quipu  primero    sin_nudos       617         617  0.0498   0.0142  0.0012  0.0120         0.0240
+1   quipu  primero    val_rango       617         617  0.0377   0.0109  0.0006  0.0066         0.0132
+2   quipu  primero          ncl       617         617  0.0742   0.0321  0.0228  0.1792         0.3807
+3   quipu  primero         hasE       617         617 -0.0087   0.0119  0.4957  1.0000         1.0000
+4   quipu  primero         hasL       617         617 -0.0295   0.0173  0.0904  0.4519         0.9038
+5   quipu  primero       nether       617         617  0.0040   0.0073  0.6175  1.0000         1.0000
+6   quipu  primero    tiene_sub       617         617  0.0218   0.0123  0.0642  0.3851         0.8454
+7   quipu  primero  firma_unica       617         617  0.0699   0.0153  0.0002  0.0032         0.0064
+8   quipu   ultimo    sin_nudos       617         617  0.1357   0.0142  0.0002  0.0032         0.0064
+9   quipu   ultimo    val_rango       617         617 -0.0720   0.0109  0.0002  0.0032         0.0064
+10  quipu   ultimo          ncl       617         617 -0.2451   0.0321  0.0002  0.0032         0.0064
+11  quipu   ultimo         hasE       617         617 -0.0282   0.0119  0.0224  0.1792         0.3807
+12  quipu   ultimo         hasL       617         617 -0.0797   0.0173  0.0002  0.0032         0.0064
+13  quipu   ultimo       nether       617         617 -0.0057   0.0073  0.4337  1.0000         1.0000
+14  quipu   ultimo    tiene_sub       617         617 -0.0365   0.0123  0.0046  0.0414         0.0874
+15  quipu   ultimo  firma_unica       617         617 -0.0063   0.0153  0.6435  1.0000         1.0000
+
+(b) misma posicion, misma procedencia
+    campo        posicion  n_quipus  pares_misma_proc  exceso_eq  media_nulo  p_perm  ctrl_media  ctrl_max  p_vs_ctrl  p_holm
+0   valor           pend1       291              3580    -0.0069     -0.0007  0.9730     -0.0036    0.0118     0.8095     1.0
+1   valor           pend2       316              4551    -0.0046      0.0021  0.9910     -0.0036    0.0118     0.5714     1.0
+2   valor           pend3       322              4914    -0.0073      0.0010  0.9980     -0.0036    0.0118     0.8095     1.0
+3   valor           pend4       313              4678    -0.0033      0.0020  0.9491     -0.0036    0.0118     0.4286     1.0
+4   valor           pend5       308              4149    -0.0030      0.0018  0.9500     -0.0036    0.0118     0.4286     1.0
+5   valor          ultimo       257              2648     0.0006      0.0014  0.5455     -0.0036    0.0118     0.1905     1.0
+6   valor          penult       282              3326    -0.0031      0.0024  0.9411     -0.0036    0.0118     0.4286     1.0
+7   valor  grupo2_primero       281              3543    -0.0002      0.0030  0.7592     -0.0036    0.0118     0.1905     1.0
+8   valor  grupo3_primero       234              2327    -0.0042      0.0010  0.8871     -0.0036    0.0118     0.5238     1.0
+9   firma           pend1       293              3583    -0.0061     -0.0002  0.9740     -0.0027    0.0118     0.8571     1.0
+10  firma           pend2       318              4556    -0.0019      0.0021  0.8821     -0.0027    0.0118     0.2857     1.0
+11  firma           pend3       323              4916    -0.0056      0.0007  0.9830     -0.0027    0.0118     0.7619     1.0
+12  firma           pend4       315              4681    -0.0020      0.0019  0.9171     -0.0027    0.0118     0.2857     1.0
+13  firma           pend5       310              4152    -0.0033      0.0016  0.9590     -0.0027    0.0118     0.6190     1.0
+14  firma          ultimo       259              2649     0.0014      0.0008  0.4376     -0.0027    0.0118     0.1905     1.0
+15  firma          penult       284              3329    -0.0009      0.0030  0.8601     -0.0027    0.0118     0.2857     1.0
+16  firma  grupo2_primero       281              3543    -0.0002      0.0030  0.7403     -0.0027    0.0118     0.2857     1.0
+17  firma  grupo3_primero       236              2350    -0.0028      0.0004  0.8092     -0.0027    0.0118     0.4762     1.0
+
+(c) residuo respecto de la tendencia lineal dentro del grupo (grupos con >=5 colgantes)
+        rasgo posicion  n_quipus  residuo_medio      se       p  p_holm
+0   val_rango     pos1       521         0.0118  0.0131  0.3721  1.0000
+1   val_rango     pos2       521        -0.0181  0.0101  0.0748  0.9722
+2   val_rango     pos3       521        -0.0101  0.0095  0.2911  1.0000
+3   val_rango   penult       521        -0.0102  0.0095  0.2973  1.0000
+4   val_rango   ultimo       521        -0.0065  0.0120  0.6071  1.0000
+5         ncl     pos1       521         0.0209  0.0332  0.5041  1.0000
+6         ncl     pos2       521        -0.0150  0.0238  0.5443  1.0000
+7         ncl     pos3       521        -0.0174  0.0237  0.4645  1.0000
+8         ncl   penult       521         0.0047  0.0253  0.8510  1.0000
+9         ncl   ultimo       521        -0.0307  0.0324  0.3481  1.0000
+10  sin_nudos     pos1       521         0.0467  0.0134  0.0004  0.0060
+11  sin_nudos     pos2       521        -0.0193  0.0099  0.0522  0.7307
+12  sin_nudos     pos3       521         0.0011  0.0104  0.9240  1.0000
+13  sin_nudos   penult       521         0.0033  0.0108  0.7642  1.0000
+14  sin_nudos   ultimo       521         0.0224  0.0139  0.1074  1.0000
+
+(d) fraccion de primeros colgantes sin nudos
+primer colgante del quipu: 0.283 (n=651); primero de grupos>=1: 0.318 (n=7466); todos: 0.316
+por prefijo (primer colgante vacio / base):
+      mean  size   base
+kfg                    
+AS   0.174   144  0.428
+HP   0.375    56  0.280
+JC   0.391    23  0.292
+KH   0.214    14  0.271
+MM   0.364    22  0.288
+QU   0.455    22  0.307
+UR   0.292   370  0.295

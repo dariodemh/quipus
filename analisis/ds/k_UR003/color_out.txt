@@ -1,0 +1,63 @@
+=== runs de color base por cluster (colgantes) ===
+g0  n= 1 runs= 1  N
+g1  n= 4 runs= 3  WGAA
+g2  n=40 runs= 9  WWWWWWWWWWAWAAAAAAAAAAWWWMAAAAAWWAAAAAAA
+g3  n=21 runs=11  MWWWAAAAAWMWWMWMWWWAA
+g4  n=40 runs=13  AWWAAAAAAMWWMMMMMMMAAWWAAAAAAMAAAMMMMMMA
+g5  n=10 runs= 1  WWWWWWWWWW
+g6  n=26 runs= 7  AWWAAAAAAWWWWWWWWWWWMMAMMM
+g7  n= 1 runs= 1  N
+g8  n=60 runs=21  WWWWWWWWWWAAWAAAMAGAWAWWAAAAAWAWWAAAAAAAWWWWWWWWWWAWWAAAWWWW
+g9  n=21 runs= 5  WWWWWWWWWWAWWMMMMMMMW
+g10 n=18 runs= 7  WWWWWWWMNWMMMMMMMM
+g11 n=17 runs= 4  WWWWWWWMWWMMMMMMM
+g12 n=20 runs= 3  WWWWWWWWWWWWMMMMMMMN
+g13 n= 1 runs= 1  N
+g14 n= 1 runs= 1  A
+TOTAL runs=88 sobre 281 colgantes
+NULO runs: media=164.0 sd=7.5  p(obs<=nulo)=0.0010
+
+=== tabla union(R/V) x color(W/noW) colgantes ===
+isW    False  True 
+union              
+R         38     17
+V        107    112
+obs (V y W)=112  nulo media=103.2 sd=3.4  p(sup)=0.0050
+
+=== por cluster: fraccion W y fraccion R (colgantes >=3) ===
+g1  fracW=0.25 fracR=0.25
+g2  fracW=0.40 fracR=0.03
+g3  fracW=0.48 fracR=0.00
+g4  fracW=0.15 fracR=0.00
+g5  fracW=1.00 fracR=0.10
+g6  fracW=0.50 fracR=0.08
+g8  fracW=0.55 fracR=0.08
+g9  fracW=0.62 fracR=0.38
+g10 fracW=0.44 fracR=0.61
+g11 fracW=0.53 fracR=0.76
+g12 fracW=0.60 fracR=0.60
+
+=== color base: nivel0 vs nivel1 ===
+nivel0:
+ cbase
+W      131
+AB      86
+MB      52
+NA       5
+MIX      5
+GG       2
+nivel1:
+ cbase
+W      122
+AB      87
+MB      75
+RL      41
+GG      16
+KB      15
+LC      12
+RM      11
+MIX      4
+NA       4
+
+=== banding: cluster con >=50%% de un color ===
+clusters "banded" (>=50% dominante) = 8 / 15

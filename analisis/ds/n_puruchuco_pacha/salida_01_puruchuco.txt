@@ -1,0 +1,28 @@
+P1. Sumas de las 3 secciones de UR068 (20 columnas):
+    [6, 0, 1, 0, 19, 4, 3, 0, 22, 3, 9, 2, 156, 13, 12, 5, 2908, 133, 162, 40]
+UR067 datos (13-32): [0, 0, 1, 0, 19, 4, 3, 0, 22, 3, 9, 2, 156, 13, 12, 0, 2904, 1, 133, 161, 40]
+UR067 sin la cuerda 30 (rota): [0, 0, 1, 0, 19, 4, 3, 0, 22, 3, 9, 2, 156, 13, 12, 0, 2904, 133, 161, 40]
+P1 observado: 16/20 exactas, 17/20 con tolerancia +-1 digito
+    col 1: suma=6 UR067=0 dif=-6
+    col 16: suma=5 UR067=0 dif=-5
+    col 17: suma=2908 UR067=2904 dif=-4
+    col 19: suma=162 UR067=161 dif=-1
+   nulo (permutar cuerdas UR067, 5000 rep): media=1.49 max=7 p=0.00020
+   nulo (permutar grupos de 4 por seccion, 2000 rep): media=0.75 max=7 p=0.00050
+
+P2. Secciones de UR063 (tamanos): [20, 21, 15, 20, 20, 15]
+   grupos de 4 por seccion: [5, 5, 4, 5, 5, 4]
+   sumas de UR063 alineadas: [2, 0, 1, 0, 9, 1, 1, 0, 8, 2, 3, 1, 57, 5, 4, 2, 1247, 46, 44, 6]
+   seccion central UR068   : [2, 0, 1, 0, 8, 1, 1, 0, 8, 1, 3, 1, 57, 5, 6, 2, 1236, 46, 59, 10]
+   observado: 14/20 exactas, 16/20 con tolerancia
+    col 5: UR063=9 UR068=8 dif=-1
+    col 10: UR063=2 UR068=1 dif=-1
+    col 15: UR063=4 UR068=6 dif=2
+    col 17: UR063=1247 UR068=1236 dif=-11
+    col 19: UR063=44 UR068=59 dif=15
+    col 20: UR063=6 UR068=10 dif=4
+   nulo (permutar grupos dentro de seccion, 5000 rep): media=1.43 max=7 p=0.00020
+
+P3. UR064 vs UR068: LCS=66 de 73 cuerdas (pares identicos por posicion: 22/73)
+   nulo (barajar UR068): media=47.6 max=53 p=0.00050
+   sumas por seccion UR064: [1421, 1376, 592]  UR068: [1430, 1447, 621]

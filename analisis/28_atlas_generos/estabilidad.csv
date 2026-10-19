@@ -1,0 +1,652 @@
+kfg,cuerdas,umbrales,ambos,genero,confianza
+AS001,1.0,1.0,1.0,SUM,media
+AS002,1.0,1.0,1.0,SIN,sin genero
+AS003,1.0,1.0,1.0,SIN,sin genero
+AS004,1.0,1.0,1.0,SIN,sin genero
+AS005,1.0,1.0,1.0,FOR,baja
+AS006,1.0,1.0,1.0,SUM,alta
+AS007,1.0,1.0,1.0,SUM,media
+AS008,1.0,1.0,1.0,FOR,baja
+AS009,1.0,1.0,1.0,SIN,sin genero
+AS010,1.0,1.0,1.0,FOR,baja
+AS011,1.0,1.0,1.0,SIN,sin genero
+AS012,0.985,1.0,0.965,SEG,baja
+AS013,1.0,1.0,1.0,SEG,baja
+AS014,1.0,1.0,1.0,TAL,media
+AS015,1.0,1.0,1.0,SIN,sin genero
+AS016,1.0,1.0,0.995,SIN,sin genero
+AS017,1.0,1.0,1.0,SIN,sin genero
+AS018,1.0,1.0,1.0,SIN,sin genero
+AS019,1.0,1.0,1.0,SIN,sin genero
+AS020,1.0,1.0,1.0,SIN,sin genero
+AS021,1.0,1.0,1.0,TAB,media
+AS023,0.995,1.0,0.995,SIN,sin genero
+AS024,1.0,1.0,1.0,SIN,sin genero
+AS025,1.0,1.0,1.0,SIN,sin genero
+AS026A,1.0,1.0,1.0,SEG,baja
+AS026B,0.995,1.0,0.995,FOR,baja
+AS027,0.545,0.72,0.465,ASG,media
+AS028,0.865,0.765,0.79,SEG,baja
+AS029,1.0,1.0,1.0,SIN,sin genero
+AS035C,1.0,1.0,1.0,SIN,sin genero
+AS035D,0.745,1.0,0.745,FOR,baja
+AS036,0.825,0.65,0.72,SEG,baja
+AS037,0.985,1.0,0.96,SEG,baja
+AS039,0.62,1.0,0.62,TAB,baja
+AS041,0.975,0.77,0.745,ASG,media
+AS042,1.0,1.0,0.995,SIN,sin genero
+AS043,1.0,1.0,1.0,SIN,sin genero
+AS044,1.0,1.0,1.0,SUM,alta
+AS045,0.995,1.0,0.965,SEG,baja
+AS048,1.0,1.0,1.0,FOR,media
+AS050,1.0,1.0,1.0,FOR,media
+AS054,0.945,1.0,0.885,SEG,baja
+AS055,1.0,1.0,1.0,SIN,sin genero
+AS059,1.0,1.0,1.0,SIN,sin genero
+AS060,1.0,1.0,1.0,SIN,sin genero
+AS061_MA036,1.0,1.0,1.0,SIN,sin genero
+AS062,0.975,1.0,0.975,TAB,baja
+AS063,0.99,1.0,0.985,SIN,sin genero
+AS063B,1.0,1.0,1.0,FOR,media
+AS064,1.0,1.0,1.0,SIN,sin genero
+AS065,1.0,1.0,1.0,SIN,sin genero
+AS065B,1.0,1.0,1.0,SIN,sin genero
+AS066,1.0,1.0,1.0,SUM,alta
+AS069,1.0,1.0,1.0,TAB,media
+AS071,1.0,1.0,1.0,TAB,baja
+AS072,0.57,0.515,0.52,ASG,media
+AS073,1.0,1.0,1.0,SIN,sin genero
+AS074,1.0,1.0,1.0,TAB,media
+AS075,1.0,1.0,1.0,FOR,media
+AS076,0.99,1.0,0.97,TAL,media
+AS077,0.975,1.0,0.96,FOR,baja
+AS078,1.0,1.0,1.0,SEG,baja
+AS079,1.0,1.0,1.0,FOR,media
+AS080,0.805,0.845,0.75,SIN,sin genero
+AS081,1.0,1.0,1.0,SIN,sin genero
+AS082,1.0,1.0,1.0,SIN,sin genero
+AS083,1.0,1.0,1.0,SIN,sin genero
+AS085,0.935,1.0,0.93,NON,baja
+AS089,0.58,1.0,0.58,TAB,baja
+AS090_N2,1.0,1.0,1.0,SIN,sin genero
+AS092,1.0,1.0,1.0,TAB,media
+AS093,1.0,1.0,1.0,SIN,sin genero
+AS094,1.0,1.0,1.0,SIN,sin genero
+AS101_Part_1,1.0,1.0,1.0,ASG,media
+AS101_Part_2,1.0,1.0,1.0,ASG,media
+AS110,1.0,1.0,1.0,SIN,sin genero
+AS111,0.935,0.77,0.785,ASG,media
+AS112,1.0,1.0,1.0,SIN,sin genero
+AS115,1.0,1.0,1.0,TAB,baja
+AS122,1.0,1.0,1.0,SIN,sin genero
+AS125,1.0,1.0,1.0,SIN,sin genero
+AS128,1.0,1.0,0.995,FOR,media
+AS129,1.0,1.0,1.0,SIN,sin genero
+AS132,0.855,1.0,0.87,SIN,sin genero
+AS133,0.96,1.0,0.905,SEG,baja
+AS134,0.995,1.0,0.99,SIN,sin genero
+AS137,1.0,1.0,1.0,SIN,sin genero
+AS139,0.445,0.675,0.415,ASG,media
+AS142,1.0,1.0,1.0,SIN,sin genero
+AS153,1.0,1.0,1.0,SIN,sin genero
+AS155,1.0,1.0,1.0,SIN,sin genero
+AS156,0.825,0.61,0.6,ASG,media
+AS157,0.995,1.0,0.995,SIN,sin genero
+AS158,0.985,1.0,0.99,SIN,sin genero
+AS159,1.0,1.0,1.0,SEG,baja
+AS160,0.675,0.56,0.715,TAB,baja
+AS164,1.0,1.0,1.0,FOR,baja
+AS168,0.625,0.56,0.555,ASG,media
+AS169,1.0,1.0,1.0,TAB,baja
+AS170,1.0,1.0,1.0,FOR,media
+AS171,1.0,1.0,0.995,SEG,baja
+AS172,1.0,1.0,1.0,ASG,alta
+AS173,0.76,0.88,0.735,SIN,sin genero
+AS174,0.99,1.0,0.955,FOR,baja
+AS177,0.75,1.0,0.72,TAL,baja
+AS178,1.0,1.0,1.0,FOR,baja
+AS182,1.0,1.0,1.0,SIN,sin genero
+AS182B,1.0,1.0,1.0,SIN,sin genero
+AS183,1.0,1.0,1.0,SIN,sin genero
+AS184,1.0,1.0,1.0,SIN,sin genero
+AS185,0.99,1.0,0.97,SIN,sin genero
+AS186,0.995,1.0,0.99,SEG,baja
+AS187,1.0,1.0,1.0,SIN,sin genero
+AS188,1.0,1.0,1.0,SIN,sin genero
+AS189,0.985,1.0,0.96,SEG,baja
+AS191,1.0,1.0,1.0,SIN,sin genero
+AS192,1.0,1.0,0.995,SIN,sin genero
+AS193,1.0,1.0,1.0,SIN,sin genero
+AS194,1.0,1.0,1.0,SIN,sin genero
+AS195,1.0,1.0,1.0,SIN,sin genero
+AS196,1.0,1.0,1.0,SIN,sin genero
+AS197,1.0,1.0,1.0,SIN,sin genero
+AS198,1.0,1.0,1.0,SIN,sin genero
+AS199,1.0,1.0,1.0,SUM,alta
+AS200,1.0,1.0,1.0,FOR,media
+AS201,1.0,1.0,1.0,SIN,sin genero
+AS202,0.585,1.0,0.54,SIN,sin genero
+AS203,0.79,1.0,0.79,TAB,baja
+AS204,0.995,1.0,0.995,SIN,sin genero
+AS205,1.0,1.0,1.0,SIN,sin genero
+AS206,0.99,1.0,0.99,SIN,sin genero
+AS207A,0.985,0.95,0.905,FOR,media
+AS207B,0.79,0.91,0.745,SIN,sin genero
+AS207C,0.515,0.555,0.5,TAL,media
+AS209,1.0,1.0,1.0,TAB,media
+AS210,0.99,1.0,0.995,TAB,baja
+AS211,1.0,1.0,1.0,SIN,sin genero
+AS212,1.0,1.0,1.0,TAB,media
+AS213,0.99,1.0,0.955,SIN,sin genero
+AS214,0.65,0.66,0.605,SIN,sin genero
+AS215,1.0,1.0,1.0,FOR,media
+AS215F,1.0,1.0,1.0,SIN,sin genero
+AS35A,0.615,0.565,0.55,NON,baja
+AS35B,1.0,1.0,1.0,SIN,sin genero
+HP001,1.0,1.0,1.0,SIN,sin genero
+HP002,1.0,1.0,1.0,SIN,sin genero
+HP003,1.0,1.0,1.0,FOR,media
+HP004,1.0,1.0,1.0,SIN,sin genero
+HP005,1.0,1.0,0.99,TAB,baja
+HP006,1.0,1.0,1.0,SIN,sin genero
+HP007,0.905,1.0,0.845,SIN,sin genero
+HP008,1.0,1.0,1.0,SIN,sin genero
+HP009,1.0,1.0,1.0,SIN,sin genero
+HP010,1.0,1.0,1.0,TAB,media
+HP011,1.0,1.0,0.995,SIN,sin genero
+HP012,1.0,1.0,1.0,FOR,media
+HP013,1.0,1.0,1.0,SIN,sin genero
+HP014,1.0,1.0,0.855,TAB,media
+HP015,1.0,1.0,1.0,SIN,sin genero
+HP016,1.0,1.0,1.0,SIN,sin genero
+HP017,1.0,1.0,1.0,FOR,media
+HP018,1.0,1.0,1.0,SIN,sin genero
+HP019,0.93,1.0,0.895,TAL,baja
+HP020,0.57,0.555,0.55,TAL,media
+HP021,1.0,1.0,1.0,SIN,sin genero
+HP022,1.0,1.0,1.0,FOR,baja
+HP023,0.68,1.0,0.68,TAB,media
+HP024,1.0,1.0,1.0,SIN,sin genero
+HP025,1.0,1.0,1.0,NON,baja
+HP026,0.795,1.0,0.795,NON,baja
+HP027,1.0,1.0,1.0,TAB,media
+HP028,0.935,1.0,0.935,NON,baja
+HP029,1.0,1.0,1.0,SEG,baja
+HP030,1.0,1.0,1.0,FOR,media
+HP031,1.0,1.0,1.0,TAB,baja
+HP032,0.7,0.88,0.74,SIN,sin genero
+HP033,0.955,1.0,0.955,PAD,baja
+HP034,1.0,1.0,1.0,SEG,baja
+HP037,1.0,1.0,1.0,SIN,sin genero
+HP038,0.98,1.0,0.95,SIN,sin genero
+HP039,1.0,1.0,1.0,TAB,media
+HP040,1.0,1.0,1.0,SIN,sin genero
+HP042,0.785,1.0,0.775,NON,baja
+HP043,0.85,1.0,0.87,SIN,sin genero
+HP044,1.0,1.0,1.0,FOR,baja
+HP045,0.94,1.0,0.94,SEG,baja
+HP046_A,0.94,1.0,0.955,SEG,baja
+HP046_B,0.995,1.0,0.995,SEG,baja
+HP047,0.93,1.0,0.895,TAB,media
+HP048,1.0,1.0,1.0,SIN,sin genero
+HP049,1.0,1.0,1.0,SIN,sin genero
+HP050,1.0,1.0,1.0,SIN,sin genero
+HP051_A,0.92,1.0,0.84,SEG,baja
+HP051_B,0.795,1.0,0.795,ASG,media
+HP052,0.95,1.0,0.95,SIN,sin genero
+HP053,1.0,1.0,0.995,SIN,sin genero
+HP054,0.93,1.0,0.88,SIN,sin genero
+HP055,1.0,1.0,1.0,FOR,media
+HP056,1.0,1.0,1.0,NAZ,media
+HP057,1.0,1.0,1.0,SIN,sin genero
+JC001,1.0,1.0,1.0,FOR,media
+JC002,1.0,1.0,1.0,SIN,sin genero
+JC003,1.0,1.0,1.0,SIN,sin genero
+JC004,0.935,1.0,0.905,SIN,sin genero
+JC005,1.0,1.0,1.0,FOR,media
+JC006,0.495,0.525,0.465,TAL,baja
+JC007,1.0,1.0,1.0,SIN,sin genero
+JC008,1.0,1.0,1.0,SIN,sin genero
+JC009,1.0,1.0,1.0,FOR,baja
+JC010,1.0,1.0,1.0,SEG,baja
+JC011,1.0,1.0,1.0,SIN,sin genero
+JC012,0.87,0.905,0.79,TAL,alta
+JC013,0.995,1.0,0.98,SEG,baja
+JC014,1.0,1.0,1.0,SIN,sin genero
+JC015,1.0,1.0,1.0,SIN,sin genero
+JC016,1.0,1.0,1.0,SIN,sin genero
+JC017,1.0,1.0,1.0,SIN,sin genero
+JC018,1.0,1.0,1.0,SIN,sin genero
+JC019,1.0,1.0,1.0,SIN,sin genero
+JC020,1.0,1.0,1.0,SIN,sin genero
+JC021,1.0,1.0,1.0,SIN,sin genero
+JC022,1.0,1.0,1.0,SIN,sin genero
+JC023,0.815,1.0,0.82,SIN,sin genero
+KH0001,1.0,1.0,1.0,TAL,alta
+KH0032,0.82,0.855,0.785,TAL,media
+KH0033,0.995,1.0,0.99,SEG,baja
+KH0049,1.0,1.0,1.0,FOR,media
+KH0057,0.975,0.725,0.705,TAB,media
+KH0058,1.0,1.0,1.0,FOR,media
+KH0067,1.0,1.0,1.0,SIN,sin genero
+KH0080,1.0,1.0,0.99,SEG,baja
+KH0081,1.0,1.0,1.0,FOR,media
+KH0083,1.0,1.0,1.0,SEG,baja
+KH0197,1.0,1.0,1.0,TAB,media
+KH0227,1.0,1.0,1.0,FOR,media
+KH0267,0.835,1.0,0.835,ASG,media
+KH0350,0.98,1.0,0.96,SIN,sin genero
+MM001,0.795,0.6,0.59,FOR,media
+MM002,1.0,1.0,0.945,SIN,sin genero
+MM003,1.0,1.0,1.0,SIN,sin genero
+MM004,1.0,1.0,1.0,SIN,sin genero
+MM005,1.0,1.0,1.0,SIN,sin genero
+MM006_AN001,1.0,1.0,1.0,SEG,baja
+MM007_AN002,1.0,1.0,1.0,SIN,sin genero
+MM008,1.0,1.0,1.0,SIN,sin genero
+MM009,0.995,1.0,0.995,SIN,sin genero
+MM010,1.0,1.0,1.0,SIN,sin genero
+MM011,1.0,1.0,1.0,SIN,sin genero
+MM012,1.0,1.0,1.0,SIN,sin genero
+MM013,1.0,1.0,1.0,SIN,sin genero
+MM014,1.0,1.0,1.0,SIN,sin genero
+MM015,1.0,1.0,1.0,SIN,sin genero
+MM016,1.0,1.0,1.0,SIN,sin genero
+MM017,1.0,1.0,0.995,SIN,sin genero
+MM018,1.0,1.0,1.0,SIN,sin genero
+MM019,0.995,1.0,0.995,FOR,baja
+MM020,1.0,1.0,1.0,NON,media
+MM021,1.0,1.0,1.0,TAB,media
+MM1086,0.67,0.65,0.615,SIN,sin genero
+QU001,1.0,1.0,1.0,NON,baja
+QU002,1.0,1.0,1.0,TAB,media
+QU003,1.0,1.0,1.0,SEG,baja
+QU004,1.0,1.0,1.0,SIN,sin genero
+QU005,1.0,1.0,1.0,FOR,media
+QU006,1.0,1.0,1.0,SIN,sin genero
+QU007,1.0,1.0,1.0,FOR,media
+QU008,1.0,1.0,1.0,SIN,sin genero
+QU009,1.0,1.0,1.0,SUM,media
+QU010,1.0,1.0,1.0,SIN,sin genero
+QU011,1.0,1.0,1.0,SIN,sin genero
+QU012,1.0,1.0,1.0,FOR,baja
+QU013,1.0,1.0,1.0,FOR,baja
+QU014,1.0,1.0,1.0,TAB,media
+QU015,1.0,1.0,1.0,SUM,media
+QU016,1.0,1.0,1.0,SUM,media
+QU017,0.995,1.0,0.99,SIN,sin genero
+QU018,1.0,1.0,1.0,SEG,baja
+QU019,1.0,1.0,1.0,FOR,media
+QU020,1.0,1.0,1.0,SIN,sin genero
+QU021,1.0,1.0,1.0,FOR,media
+QU022,1.0,1.0,1.0,SIN,sin genero
+UR001,1.0,1.0,1.0,TAB,baja
+UR002,1.0,1.0,1.0,SIN,sin genero
+UR003,1.0,1.0,1.0,FOR,baja
+UR004,1.0,1.0,1.0,SEG,baja
+UR005,0.98,1.0,0.92,SIN,sin genero
+UR006,1.0,1.0,1.0,CAL,alta
+UR007,1.0,1.0,1.0,SIN,sin genero
+UR008,1.0,1.0,1.0,SIN,sin genero
+UR009,1.0,1.0,1.0,CAL,media
+UR010,1.0,1.0,1.0,SEG,baja
+UR011,1.0,1.0,1.0,FOR,media
+UR012,1.0,1.0,1.0,SEG,baja
+UR013,1.0,1.0,1.0,SEG,baja
+UR014,1.0,1.0,1.0,SEG,baja
+UR015,1.0,1.0,1.0,SEG,baja
+UR016,1.0,1.0,1.0,SIN,sin genero
+UR017,1.0,1.0,1.0,SEG,baja
+UR018,1.0,1.0,1.0,SIN,sin genero
+UR019,1.0,1.0,0.995,SIN,sin genero
+UR020,1.0,1.0,1.0,SEG,baja
+UR021,1.0,1.0,1.0,CAL,media
+UR022,1.0,1.0,1.0,FOR,baja
+UR023,1.0,1.0,1.0,SIN,sin genero
+UR024,1.0,1.0,1.0,SIN,sin genero
+UR026,1.0,1.0,1.0,FOR,media
+UR027,1.0,1.0,1.0,SIN,sin genero
+UR028,1.0,1.0,1.0,PAD,baja
+UR029,1.0,1.0,1.0,SIN,sin genero
+UR032,1.0,1.0,0.99,TAB,media
+UR033,0.635,1.0,0.635,SIN,sin genero
+UR034,1.0,1.0,1.0,SIN,sin genero
+UR037,0.785,1.0,0.785,TAB,media
+UR038,1.0,1.0,1.0,SIN,sin genero
+UR039,1.0,1.0,1.0,TAL,alta
+UR040,1.0,1.0,1.0,SIN,sin genero
+UR041,0.69,1.0,0.69,TAB,media
+UR042,1.0,1.0,1.0,SIN,sin genero
+UR044,0.985,1.0,0.98,SEG,baja
+UR045,1.0,1.0,1.0,FOR,media
+UR046,1.0,1.0,1.0,NON,baja
+UR047,1.0,1.0,1.0,SEG,baja
+UR048,1.0,1.0,1.0,FOR,media
+UR049,1.0,1.0,1.0,SEG,baja
+UR050,1.0,1.0,1.0,TAL,alta
+UR051,1.0,1.0,1.0,TAL,alta
+UR052,1.0,1.0,1.0,TAL,alta
+UR053A,1.0,1.0,1.0,FOR,alta
+UR053B,1.0,1.0,1.0,FOR,alta
+UR053C,1.0,1.0,1.0,FOR,alta
+UR053D,1.0,1.0,1.0,FOR,alta
+UR053E,1.0,1.0,1.0,FOR,alta
+UR054,1.0,1.0,1.0,TAL,alta
+UR055,1.0,1.0,1.0,TAL,alta
+UR056A,1.0,1.0,0.995,SIN,sin genero
+UR056B,0.875,1.0,0.875,TAB,media
+UR056C,1.0,1.0,1.0,FOR,baja
+UR057,0.935,1.0,0.93,SIN,sin genero
+UR058A,1.0,1.0,1.0,NON,media
+UR058B,0.75,0.525,0.56,ASG,media
+UR059,1.0,1.0,1.0,SEG,baja
+UR060,1.0,1.0,1.0,SIN,sin genero
+UR061,1.0,1.0,1.0,SIN,sin genero
+UR062,1.0,1.0,1.0,SEG,baja
+UR063,1.0,1.0,1.0,ARC,alta
+UR064,1.0,1.0,1.0,ARC,alta
+UR065,1.0,1.0,1.0,SIN,sin genero
+UR066,1.0,1.0,1.0,ARC,alta
+UR067,1.0,1.0,1.0,ARC,alta
+UR068,1.0,1.0,1.0,ARC,alta
+UR069,0.345,1.0,0.345,TAB,media
+UR070,1.0,1.0,1.0,NON,baja
+UR071,1.0,1.0,1.0,NON,baja
+UR072,0.995,1.0,0.995,TAB,baja
+UR073,1.0,1.0,1.0,ARC,media
+UR074,1.0,1.0,1.0,TAB,baja
+UR075,1.0,1.0,1.0,SIN,sin genero
+UR076,1.0,1.0,1.0,SIN,sin genero
+UR077,1.0,1.0,1.0,SIN,sin genero
+UR078,1.0,1.0,1.0,ARC,media
+UR079,0.99,1.0,0.975,SIN,sin genero
+UR080,0.895,1.0,0.885,SIN,sin genero
+UR081,1.0,1.0,1.0,SIN,sin genero
+UR082,1.0,1.0,1.0,NON,baja
+UR084,0.56,1.0,0.56,SIN,sin genero
+UR085,1.0,1.0,1.0,TAB,media
+UR086,0.99,1.0,0.99,TAB,media
+UR087,1.0,1.0,1.0,PAD,alta
+UR088,1.0,1.0,1.0,PAD,alta
+UR089,1.0,1.0,1.0,PAD,alta
+UR090,1.0,1.0,1.0,PAD,alta
+UR091,1.0,1.0,1.0,PAD,alta
+UR092,1.0,1.0,1.0,PAD,alta
+UR093,0.92,0.93,0.865,SIN,sin genero
+UR094,1.0,1.0,1.0,SIN,sin genero
+UR095,0.79,1.0,0.75,TAL,baja
+UR096,1.0,1.0,1.0,SIN,sin genero
+UR097,1.0,1.0,1.0,SEG,baja
+UR098,1.0,1.0,1.0,SIN,sin genero
+UR099,1.0,1.0,1.0,SIN,sin genero
+UR100,1.0,1.0,1.0,SIN,sin genero
+UR101,1.0,1.0,1.0,SIN,sin genero
+UR102,1.0,1.0,1.0,TAB,media
+UR103,1.0,1.0,1.0,ASG,media
+UR1032,1.0,1.0,1.0,SEG,baja
+UR1033A,0.825,1.0,0.855,SIN,sin genero
+UR1033B,0.975,1.0,0.975,TAB,baja
+UR1033C,1.0,1.0,1.0,TAB,baja
+UR1033D,1.0,1.0,1.0,FOR,baja
+UR1033E,1.0,1.0,1.0,SIN,sin genero
+UR1033F,1.0,1.0,1.0,SIN,sin genero
+UR1033G,1.0,1.0,1.0,SIN,sin genero
+UR1034,0.795,1.0,0.795,ASG,media
+UR104,1.0,1.0,1.0,SIN,sin genero
+UR1040,1.0,1.0,1.0,TAB,media
+UR1049,1.0,1.0,1.0,SIN,sin genero
+UR105,1.0,1.0,1.0,SIN,sin genero
+UR1051,1.0,1.0,1.0,SEG,baja
+UR1052,1.0,1.0,1.0,SIN,sin genero
+UR1053,1.0,1.0,1.0,SIN,sin genero
+UR1057,1.0,1.0,1.0,TAB,media
+UR1058,1.0,1.0,1.0,TAB,baja
+UR106,1.0,1.0,1.0,SIN,sin genero
+UR107,1.0,1.0,1.0,SIN,sin genero
+UR108,1.0,1.0,1.0,SIN,sin genero
+UR1084,1.0,1.0,1.0,FOR,media
+UR1087,1.0,1.0,0.95,TAL,baja
+UR1088,1.0,1.0,1.0,FOR,media
+UR109,0.985,1.0,0.975,SIN,sin genero
+UR1091,1.0,1.0,0.995,FOR,baja
+UR1095,1.0,1.0,1.0,TAL,baja
+UR1096,1.0,1.0,1.0,SUM,alta
+UR1097,1.0,1.0,1.0,SEG,baja
+UR1098,1.0,1.0,1.0,FOR,media
+UR1099,1.0,1.0,1.0,FOR,media
+UR110,1.0,1.0,0.995,TAL,alta
+UR1100,1.0,1.0,1.0,SEG,baja
+UR1102,0.915,0.735,0.68,ASG,media
+UR1103,1.0,1.0,1.0,TAB,media
+UR1104,1.0,1.0,1.0,SIN,sin genero
+UR1105,1.0,1.0,1.0,SIN,sin genero
+UR1106,0.995,1.0,0.97,SIN,sin genero
+UR1107,0.99,1.0,0.905,SIN,sin genero
+UR1108,1.0,1.0,1.0,TAB,baja
+UR1109,1.0,1.0,1.0,FOR,media
+UR111,0.47,1.0,0.47,TAB,media
+UR1113,1.0,1.0,1.0,FOR,baja
+UR1114,1.0,1.0,1.0,PAD,baja
+UR1116,1.0,1.0,1.0,SIN,sin genero
+UR1117,1.0,1.0,1.0,SIN,sin genero
+UR1118,1.0,1.0,1.0,SIN,sin genero
+UR1119,1.0,1.0,1.0,SIN,sin genero
+UR112,1.0,1.0,1.0,TAL,baja
+UR1120,1.0,1.0,1.0,FOR,media
+UR1121,1.0,1.0,1.0,FOR,media
+UR1123,1.0,1.0,1.0,SEG,baja
+UR1124,1.0,1.0,1.0,TAB,media
+UR1124_Detail_1,1.0,1.0,1.0,SIN,sin genero
+UR1126,1.0,1.0,0.99,SEG,baja
+UR1127,1.0,1.0,1.0,SIN,sin genero
+UR113,0.92,1.0,0.92,ASG,media
+UR1130,1.0,1.0,1.0,SIN,sin genero
+UR1131,1.0,1.0,1.0,NAZ,alta
+UR1135,1.0,1.0,1.0,FOR,media
+UR1136,1.0,1.0,1.0,NAZ,media
+UR1138,1.0,1.0,1.0,ASG,media
+UR114,0.935,1.0,0.905,TAB,baja
+UR1140,1.0,1.0,1.0,NAZ,alta
+UR1141,1.0,1.0,1.0,SIN,sin genero
+UR1143,1.0,1.0,1.0,FOR,media
+UR1144,1.0,1.0,1.0,FOR,media
+UR1145,1.0,1.0,1.0,FOR,media
+UR1146,1.0,1.0,1.0,FOR,baja
+UR1147,1.0,1.0,0.995,FOR,baja
+UR1148,1.0,1.0,1.0,FOR,baja
+UR1149,1.0,1.0,1.0,FOR,media
+UR1150,1.0,1.0,1.0,SEG,baja
+UR1151,1.0,1.0,1.0,SIN,sin genero
+UR1152,1.0,1.0,1.0,SUM,media
+UR1154,1.0,1.0,1.0,SIN,sin genero
+UR1161,1.0,1.0,0.995,SIN,sin genero
+UR1162A,1.0,1.0,1.0,SIN,sin genero
+UR1162B,1.0,1.0,1.0,SIN,sin genero
+UR1163,1.0,1.0,1.0,SEG,baja
+UR1165,1.0,1.0,1.0,SIN,sin genero
+UR1166,1.0,1.0,1.0,FOR,media
+UR1167,1.0,1.0,1.0,SIN,sin genero
+UR116A,1.0,1.0,1.0,SEG,baja
+UR116B,1.0,1.0,1.0,SIN,sin genero
+UR1175,1.0,1.0,1.0,FOR,media
+UR1176,1.0,1.0,1.0,FOR,media
+UR1179,0.95,1.0,0.94,SEG,baja
+UR117A,1.0,1.0,1.0,SIN,sin genero
+UR117B,1.0,1.0,1.0,SIN,sin genero
+UR117C,0.975,1.0,0.98,SIN,sin genero
+UR117D,1.0,1.0,1.0,SEG,baja
+UR118,1.0,1.0,1.0,SUM,alta
+UR1180,1.0,1.0,1.0,SIN,sin genero
+UR119,1.0,1.0,1.0,SUM,alta
+UR120,0.735,0.7,0.64,SEG,baja
+UR121,1.0,1.0,0.995,SIN,sin genero
+UR122,1.0,1.0,1.0,SIN,sin genero
+UR123,0.945,1.0,0.945,SEG,baja
+UR124,0.555,0.785,0.53,SIN,sin genero
+UR125,1.0,1.0,1.0,SIN,sin genero
+UR127,0.845,0.865,0.735,SEG,baja
+UR128,0.8,0.715,0.735,TAB,baja
+UR129,1.0,1.0,1.0,SIN,sin genero
+UR130,0.83,0.635,0.655,SEG,baja
+UR131A,1.0,1.0,1.0,FOR,alta
+UR131B,1.0,1.0,1.0,FOR,alta
+UR131C,1.0,1.0,1.0,FOR,alta
+UR132,0.715,0.745,0.63,ASG,media
+UR134,1.0,1.0,1.0,SIN,sin genero
+UR135,1.0,1.0,1.0,SIN,sin genero
+UR136,1.0,1.0,1.0,SIN,sin genero
+UR137,1.0,1.0,1.0,SIN,sin genero
+UR138,1.0,1.0,1.0,SIN,sin genero
+UR139,0.51,0.65,0.485,TAL,baja
+UR140,1.0,1.0,1.0,SIN,sin genero
+UR141,1.0,1.0,1.0,FOR,media
+UR142,1.0,1.0,1.0,SIN,sin genero
+UR143,1.0,1.0,1.0,SIN,sin genero
+UR144,1.0,1.0,1.0,TAL,alta
+UR145,1.0,1.0,1.0,SIN,sin genero
+UR146,0.99,1.0,0.95,SIN,sin genero
+UR147,0.855,1.0,0.84,SIN,sin genero
+UR148,1.0,1.0,1.0,SIN,sin genero
+UR149,1.0,1.0,1.0,FOR,alta
+UR150,1.0,1.0,1.0,SIN,sin genero
+UR151,0.97,1.0,0.97,SIN,sin genero
+UR152,0.93,1.0,0.875,SIN,sin genero
+UR153,1.0,1.0,1.0,SIN,sin genero
+UR154,1.0,1.0,1.0,SIN,sin genero
+UR155,0.98,1.0,0.985,SIN,sin genero
+UR156,1.0,1.0,1.0,SIN,sin genero
+UR157,0.735,0.895,0.7,SIN,sin genero
+UR158,0.57,1.0,0.57,NON,baja
+UR159,1.0,1.0,1.0,SIN,sin genero
+UR160,1.0,1.0,1.0,SIN,sin genero
+UR161,1.0,1.0,1.0,SIN,sin genero
+UR162,1.0,1.0,1.0,SIN,sin genero
+UR164,1.0,1.0,1.0,SIN,sin genero
+UR165,1.0,1.0,1.0,SIN,sin genero
+UR166,1.0,1.0,1.0,SUM,alta
+UR167,1.0,1.0,1.0,SIN,sin genero
+UR168,0.945,1.0,0.955,SIN,sin genero
+UR169,1.0,1.0,1.0,FOR,baja
+UR170,0.955,1.0,0.955,SEG,baja
+UR171,0.795,1.0,0.79,TAL,baja
+UR172,1.0,1.0,1.0,FOR,media
+UR173,1.0,1.0,1.0,SIN,sin genero
+UR174,1.0,1.0,1.0,SIN,sin genero
+UR175,1.0,1.0,1.0,SIN,sin genero
+UR177,0.98,0.91,0.875,SIN,sin genero
+UR178,1.0,1.0,1.0,TAL,media
+UR179,1.0,1.0,1.0,NON,media
+UR180,1.0,1.0,1.0,NON,media
+UR182,0.99,1.0,0.965,SIN,sin genero
+UR183,1.0,1.0,1.0,SIN,sin genero
+UR184,1.0,1.0,1.0,SIN,sin genero
+UR185,1.0,1.0,1.0,SIN,sin genero
+UR186,1.0,1.0,1.0,FOR,media
+UR187,1.0,1.0,1.0,SEG,baja
+UR188,1.0,1.0,1.0,TAB,media
+UR189,1.0,1.0,1.0,SEG,baja
+UR190,0.95,1.0,0.95,ASG,media
+UR191,1.0,1.0,1.0,SIN,sin genero
+UR192,1.0,1.0,1.0,SEG,baja
+UR193,1.0,1.0,1.0,TAL,alta
+UR194,1.0,1.0,1.0,SIN,sin genero
+UR195,1.0,1.0,1.0,FOR,media
+UR196,1.0,1.0,1.0,SEG,baja
+UR197,1.0,1.0,1.0,ASG,alta
+UR198,1.0,1.0,1.0,FOR,media
+UR199,1.0,1.0,1.0,FOR,media
+UR200,1.0,1.0,1.0,SEG,baja
+UR201,1.0,1.0,1.0,SEG,baja
+UR202,0.61,0.505,0.525,ASG,media
+UR203,1.0,1.0,1.0,TAL,media
+UR204,0.99,1.0,0.97,SIN,sin genero
+UR205,1.0,1.0,0.985,SIN,sin genero
+UR206,1.0,1.0,1.0,SIN,sin genero
+UR207,1.0,1.0,1.0,SIN,sin genero
+UR208,0.91,0.725,0.73,FOR,baja
+UR209,0.795,0.91,0.745,FOR,baja
+UR210,1.0,1.0,1.0,TAB,media
+UR211,1.0,1.0,1.0,SEG,baja
+UR212,1.0,1.0,1.0,TAB,media
+UR213,1.0,1.0,1.0,SEG,baja
+UR214,1.0,1.0,1.0,SIN,sin genero
+UR215,1.0,1.0,1.0,SIN,sin genero
+UR216,1.0,1.0,1.0,SIN,sin genero
+UR217,1.0,1.0,1.0,SIN,sin genero
+UR218,1.0,1.0,1.0,FOR,baja
+UR219,1.0,1.0,1.0,ASG,alta
+UR220,1.0,1.0,0.995,SIN,sin genero
+UR221,0.87,1.0,0.845,SIN,sin genero
+UR222,1.0,1.0,1.0,SEG,baja
+UR223,1.0,1.0,1.0,NAZ,media
+UR225,1.0,1.0,1.0,SIN,sin genero
+UR226,1.0,1.0,1.0,SIN,sin genero
+UR227,1.0,1.0,1.0,ASG,media
+UR228,1.0,0.915,0.905,ASG,media
+UR229,1.0,1.0,1.0,FOR,media
+UR230,1.0,1.0,1.0,SEG,baja
+UR231,1.0,1.0,1.0,FOR,media
+UR232,1.0,1.0,1.0,FOR,media
+UR233,1.0,1.0,1.0,FOR,media
+UR234,1.0,1.0,1.0,NAZ,alta
+UR235,1.0,1.0,1.0,FOR,media
+UR237,0.995,1.0,0.95,SIN,sin genero
+UR238,0.935,0.93,0.905,SEG,baja
+UR239,1.0,1.0,0.995,SIN,sin genero
+UR240,1.0,1.0,1.0,SEG,baja
+UR241,1.0,1.0,1.0,NON,media
+UR242,1.0,1.0,1.0,FOR,media
+UR243,1.0,1.0,1.0,FOR,media
+UR244,1.0,1.0,1.0,FOR,media
+UR245,1.0,1.0,1.0,SIN,sin genero
+UR246,1.0,1.0,1.0,FOR,media
+UR247,1.0,1.0,1.0,SIN,sin genero
+UR248,1.0,1.0,1.0,SIN,sin genero
+UR249,0.97,1.0,0.97,SIN,sin genero
+UR250,1.0,1.0,1.0,SIN,sin genero
+UR251,1.0,1.0,0.995,SIN,sin genero
+UR252,1.0,1.0,1.0,SEG,baja
+UR253,1.0,1.0,1.0,SEG,baja
+UR254,0.945,1.0,0.935,SIN,sin genero
+UR255,1.0,1.0,1.0,ARC,alta
+UR256,1.0,1.0,1.0,ARC,alta
+UR257,0.925,1.0,0.895,SIN,sin genero
+UR258,1.0,1.0,1.0,SEG,baja
+UR259,0.95,1.0,0.95,SIN,sin genero
+UR260,1.0,1.0,1.0,SIN,sin genero
+UR261,1.0,1.0,1.0,SIN,sin genero
+UR262,1.0,1.0,1.0,SEG,baja
+UR263,1.0,1.0,1.0,TAB,media
+UR264,1.0,1.0,1.0,FOR,media
+UR265,1.0,1.0,1.0,SIN,sin genero
+UR266,1.0,1.0,1.0,ARC,alta
+UR267A,1.0,1.0,1.0,ARC,alta
+UR267B,1.0,1.0,1.0,ARC,alta
+UR268,1.0,1.0,1.0,ARC,media
+UR269,1.0,1.0,1.0,ARC,alta
+UR270,1.0,1.0,1.0,ARC,alta
+UR271,0.745,1.0,0.745,ASG,alta
+UR272,0.995,1.0,0.99,FOR,baja
+UR273A,1.0,1.0,1.0,ARC,alta
+UR273B,1.0,1.0,1.0,ARC,alta
+UR274A,1.0,1.0,1.0,ARC,alta
+UR274B,1.0,1.0,1.0,ARC,alta
+UR275,1.0,1.0,1.0,ARC,alta
+UR276,1.0,1.0,1.0,SIN,sin genero
+UR277,1.0,1.0,1.0,SEG,baja
+UR278,1.0,1.0,1.0,ARC,alta
+UR279,1.0,1.0,1.0,SIN,sin genero
+UR280,1.0,1.0,1.0,SEG,baja
+UR282,0.725,1.0,0.725,ASG,media
+UR283,0.91,1.0,0.91,ASG,media
+UR284,1.0,1.0,1.0,TAL,alta
+UR285,1.0,1.0,1.0,SIN,sin genero
+UR286,1.0,1.0,1.0,SIN,sin genero
+UR287,0.98,1.0,0.98,SIN,sin genero
+UR288,1.0,1.0,1.0,SIN,sin genero
+UR289,0.98,1.0,0.97,FOR,baja
+UR290,1.0,1.0,1.0,SIN,sin genero
+UR291A,1.0,1.0,0.975,TAB,baja
+UR292A,0.93,1.0,0.9,FOR,baja
+UR293,1.0,1.0,1.0,SIN,sin genero
+UR294,1.0,1.0,1.0,SIN,sin genero

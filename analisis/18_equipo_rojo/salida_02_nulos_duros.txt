@@ -1,0 +1,34 @@
+(a) Nulo de desfase k (aciertos exactos)
+  UR273A+UR273B → unión 266/275/269: k=0: 8/18; k≠0 (16 desfases): media 1.00, máx 2; P(k≠0 ≥ k=0) = 0.000
+     -8:1 -7:1 -6:0 -5:1 -4:0 -3:1 -2:2 -1:2 0:8 1:1 2:2 3:2 4:1 5:0 6:0 7:0 8:2
+  UR274A+UR273B → unión 266/275/269: k=0: 7/17; k≠0 (16 desfases): media 1.19, máx 4; P(k≠0 ≥ k=0) = 0.000
+     -8:1 -7:2 -6:0 -5:0 -4:0 -3:2 -2:1 -1:1 0:7 1:2 2:4 3:2 4:0 5:0 6:3 7:1 8:0
+  UR267A+UR267B → cabeceras UR269: k=0: 5/26; k≠0 (16 desfases): media 0.56, máx 1; P(k≠0 ≥ k=0) = 0.000
+     -8:0 -7:1 -6:1 -5:1 -4:0 -3:0 -2:1 -1:1 0:5 1:0 2:1 3:1 4:0 5:0 6:1 7:0 8:1
+
+(b) Nulo de dígitos (10 000 réplicas): barajar entre registros las últimas cifras de B
+  UR273A+UR273B → unión 266/275/269, b mod 10: obs 8, nulo media 2.72 máx 9, p = 0.0012
+  UR273A+UR273B → unión 266/275/269, b mod 100: obs 8, nulo media 1.55 máx 6, p = 0.0001
+  UR274A+UR273B → unión 266/275/269, b mod 10: obs 7, nulo media 1.99 máx 7, p = 0.0002
+  UR274A+UR273B → unión 266/275/269, b mod 100: obs 7, nulo media 1.92 máx 8, p = 0.0006
+  UR267A+UR267B → cabeceras UR269, b mod 10: obs 5, nulo media 1.32 máx 7, p = 0.0046
+  UR267A+UR267B → cabeceras UR269, b mod 100: obs 5, nulo media 0.70 máx 5, p = 0.0004
+
+(c) Trasplante: pares de quipus de otros archivos con magnitudes como UR273A/B, sumas buscadas en la unión
+  candidatos A (mediana 450±×2): 10; B (mediana 1328±×2): 6; pares con ≥8 registros: 59
+  fracción de aciertos: media 0.051 (UR273A+B: 0.444); máx 0.308
+  pares con p ≤ 5.7e-5: 0; con p ≤ 1e-3: 0; con ≥8 aciertos: 0
+   p=1.46e-02 h=4/13 E=0.92 UR1099+UR165
+   p=6.16e-02 h=2/10 E=0.40 UR131C+UR1149
+   p=1.18e-01 h=1/8 E=0.12 UR200+UR165
+   p=1.22e-01 h=2/10 E=0.60 UR1179+UR1149
+   p=1.98e-01 h=2/11 E=0.82 UR1106+UR234
+
+(d) Búsqueda completa dentro de cada archivo (todos los pares × destinos de su archivo + unión greedy de 3)
+  Incahuasi: 52 quipus, 194 pares con ≥8 registros, 9894 pruebas; min p = 5.71e-05 (UR273A+UR273B, 5 aciertos); pares con p ≤ 5.7e-5: 0; p ≤ 1e-3: 4
+  Pachacamac: 90 quipus, 465 pares con ≥8 registros, 41385 pruebas; min p = 7.86e-04 (AS172+UR1144, 3 aciertos); pares con p ≤ 5.7e-5: 0; p ≤ 1e-3: 1
+  Ica: 47 quipus, 65 pares con ≥8 registros, 2990 pruebas; min p = 1.05e-02 (UR1143+UR229, 2 aciertos); pares con p ≤ 5.7e-5: 0; p ≤ 1e-3: 0
+  Leymebamba: 22 quipus, 53 pares con ≥8 registros, 1113 pruebas; min p = 2.40e-02 (UR001+UR010, 18 aciertos); pares con p ≤ 5.7e-5: 0; p ≤ 1e-3: 0
+  Huaquerones: 19 quipus, 9 pares con ≥8 registros, 162 pruebas; min p = 2.28e-01 (UR060+UR072, 12 aciertos); pares con p ≤ 5.7e-5: 0; p ≤ 1e-3: 0
+  Nazca: 13 quipus, 24 pares con ≥8 registros, 288 pruebas; min p = 1.11e-01 (UR1136+UR1140, 6 aciertos); pares con p ≤ 5.7e-5: 0; p ≤ 1e-3: 0
+  Armatambo, Huaca San Pedro: 11 quipus, 1 pares con ≥8 registros, 10 pruebas; min p = 3.58e-01 (UR291A+UR292A, 6 aciertos); pares con p ≤ 5.7e-5: 0; p ≤ 1e-3: 0

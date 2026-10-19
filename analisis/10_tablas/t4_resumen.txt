@@ -1,0 +1,45 @@
+Columnas gemelas, casi iguales (incluye idénticas): evaluables 119, p<0,05 23, q<0,05 5: UR011(3, 4, 4, 14), UR1121(0, 2, 1, 6), UR149(2, 5, 5, 7), UR267B(0, 2, 6, 13), UR269(0, 1, 14, 40)
+Columnas gemelas, casi iguales pero no idénticas (dif. 1..2 %): evaluables 108, p<0,05 15, q<0,05 3: UR011(3, 4, 4, 14), UR267B(0, 2, 6, 13), UR269(0, 1, 13, 40)
+(par = (col i, col j, filas casi iguales, filas con ambas >0))
+
+L1 Incahuasi: fila = lote; col0 = bruto, col1 = cuota fija c, col2 = neto (bruto − c)
+  UR255: columna de la cuota = 2
+  UR255: R=16, filas completas 7, bruto=c+neto en 7 (100%); c modal=15 (15 filas); filas sin c con bruto y neto: 0 (bruto==neto en 0); c en otra columna: [(1, 1)]; CV(c)=0.00 vs CV(c/bruto)=0.36; filas con bruto<=c: 0; colores [{'AB': 16}, {'AB': 16}, {'AB': 16}]
+  UR256: columna de la cuota = 2
+  UR256: R=11, filas completas 10, bruto=c+neto en 6 (60%); c modal=10 (10 filas); filas sin c con bruto y neto: 0 (bruto==neto en 0); c en otra columna: []; CV(c)=0.00 vs CV(c/bruto)=0.48; filas con bruto<=c: 0; colores [{'AB': 11}, {'AB': 11}, {'AB': 10, 'MB': 1}]
+  UR267A: columna de la cuota = 1
+  UR267A: R=25, filas completas 22, bruto=c+neto en 15 (68%); c modal=15 (22 filas); filas sin c con bruto y neto: 1 (bruto==neto en 0); c en otra columna: [(23, 2), (24, 2)]; CV(c)=0.99 vs CV(c/bruto)=0.98; filas con bruto<=c: 0; colores [{'W': 25}, {'W': 18, 'AB': 7}, {'AB': 11, 'AB:MB': 9}]
+  UR267B: columna de la cuota = 1
+  UR267B: R=14, filas completas 13, bruto=c+neto en 12 (92%); c modal=10 (13 filas); filas sin c con bruto y neto: 0 (bruto==neto en 0); c en otra columna: [(13, 2)]; CV(c)=1.51 vs CV(c/bruto)=2.49; filas con bruto<=c: 0; colores [{'W': 12, 'AB': 2}, {'W': 14}, {'W': 9, 'AB': 5}]
+  UR269: columna de la cuota = 2
+  UR269: R=60, filas completas 29, bruto=c+neto en 15 (52%); c modal=44 (9 filas); filas sin c con bruto y neto: 11 (bruto==neto en 1); c en otra columna: []; CV(c)=2.54 vs CV(c/bruto)=2.21; filas con bruto<=c: 1; colores [{'W': 51, 'AB': 8}, {'NB': 21, 'AB': 20}, {'NB': 33, 'AB': 22}]
+  UR275: columna de la cuota = 1
+  UR275: R=9, filas completas 9, bruto=c+neto en 7 (78%); c modal=47 (9 filas); filas sin c con bruto y neto: 0 (bruto==neto en 0); c en otra columna: []; CV(c)=0.00 vs CV(c/bruto)=0.10; filas con bruto<=c: 0; colores [{'W': 7, 'AB': 2}, {'NB': 9}, {'NB': 9}]
+  UR274B: columna de la cuota = 2
+  UR274B: R=12, filas completas 4, bruto=c+neto en 2 (50%); c modal=17 (4 filas); filas sin c con bruto y neto: 2 (bruto==neto en 1); c en otra columna: [(4, 1), (6, 1), (7, 1)]; CV(c)=1.36 vs CV(c/bruto)=1.36; filas con bruto<=c: 0; colores [{'W': 12}, {'NB': 7, 'AB': 5}, {'AB': 7, 'NB': 3}]
+
+L2 KH0197: fila = partida; col0 (W) y col1 (AB) = dos registros de la misma cantidad (asignado/entregado o copia).
+  Predicción: |col0−col1| <= max(1, 2 %) en muchas más filas que al azar -> obs 4, esperado 0.79, p=0.0033.
+  Diferencias col1−col0 por fila: [-425, -1, 1, 1, -98, 68, 15, 1, 9, -6, -11, -10]
+  Entre casi iguales, signo de la diferencia: [-1, 1, 1, 1]
+  Spearman col0~col1 = 0.93
+
+L3 UR011 (Leymebamba): fila = unidad (ayllu/pachaca); col3 y col4 = dos conteos grandes del mismo universo (p. ej. dos fechas, o dos categorías de tamaño similar).
+  P3a razón col3/col4 cercana a 1: mediana 1.014; DE(log10) obs 0.250, nulo 0.694, p=0.0001
+     razones por fila: [1.02, 0.98, 1.21, 1.02, 1.48, 1.57, 1.01, 0.99, 0.89, 8.28, 1.06, 0.79, 0.84, 0.75, nan]
+  P3b col0 proporcional al tamaño de la fila (Spearman con col3): 0.65 (nulo -0.01), p=0.0060
+  P3b col1 proporcional al tamaño de la fila (Spearman con col3): 0.84 (nulo 0.00), p=0.0005
+  P3b col2 proporcional al tamaño de la fila (Spearman con col3): 0.94 (nulo -0.00), p=0.0005
+  P3c totales de columna por bloque: filas 0-8: [1805, 338, 1863, 88027, 80524]; filas 9-: [183, 76, 205, 9128, 9037]; todas: [1988, 414, 2068, 97155, 89561]
+     cuerdas fuera de tabla con valor: 60; coincidencias exactas con totales de bloque: [(76, 'filas 9-', 1)]; a <2 %: [(2082, 'todas', 2, 2068), (2000, 'todas', 0, 1988)]
+
+L4 UR1144 (Pachacamac): fila = unidad; col0 = bien principal (centenas), col1-3 = bienes menores; predicción: el tamaño de la fila arrastra a todas las columnas.
+  Spearman(col0, col1+col2+col3) = 0.65 (nulo 0.00), p=0.0092
+  ¿col0 = múltiplo fijo del resto? razón mediana 2.30, DE(log10) 0.141 vs nulo 0.219, p=0.0093
+  ¿col0 = suma del resto? filas: 0
+
+L5 AS178 (cerca de Lima): fila = unidad; col1 (B) y col2 (LB) = dos mitades iguales de una partida; col0 (W) = total/doble de col3 (KB).
+  P5a col1≈col2: obs 6, esperado 1.99, p=0.0026
+  P5b col0 ≈ 2·col3: obs 5, esperado 2.14, p=0.0143
+  P5c col0 = col1+col2+col3: obs 0, esperado 0.13, p=1.0000
+  matriz: [[60.0, 10.0, 10.0, 30.0], [60.0, 20.0, 20.0, 30.0], [30.0, 10.0, 10.0, 30.0], [15.0, 2.0, nan, 7.0], [15.0, 2.0, 3.0, 7.0], [18.0, 4.0, 5.0, nan], [14.0, 2.0, 3.0, 7.0]]

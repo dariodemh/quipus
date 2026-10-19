@@ -1,0 +1,1048 @@
+kfg,orden,cuerda,tipo,nivel,padre,grupo,valor,alt,nudos,color,torsion,union,largo,terminacion,notas
+KH0674,0,1,p,0,,0.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,1,2,p,0,,0.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,2,3,p,0,,0.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,3,4,p,0,,0.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,4,5,p,0,,0.0,10.0,,"1S(8.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,5,5s1,p,1,5,0.0,2.0,,"2L(17.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,6,6,p,0,,0.0,26.0,,"2S(6.5,S),20;6L(10.5,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,7,6s1,p,1,6,0.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,8,7,p,0,,0.0,15.0,,"1S(8.0,S),10;5L(12.0,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,9,8,p,0,,0.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,10,9,p,0,,0.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,11,10,p,0,,0.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,12,11,p,0,,0.0,4.0,,"4L(15.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,13,12,p,0,,1.0,3.0,,"3L(13.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,14,13,p,0,,1.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,15,14,p,0,,1.0,3.0,,"3L(13.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,16,15,p,0,,1.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,17,16,p,0,,1.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,18,17,p,0,,1.0,3.0,,"3L(14.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,19,18,p,0,,1.0,45.0,,"4S(6.5,S),40;5L(11.5,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,20,19,p,0,,1.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,21,20,p,0,,1.0,3.0,,"3L(14.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,22,21,p,0,,1.0,3.0,,"3L(15.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,23,22,p,0,,1.0,10.0,,"1S(6.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,24,22s1,p,1,22,1.0,3.0,,"3L(11.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,25,22s2,p,1,22,1.0,15.0,,"1S(3.5,S),10;5L(10.5,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,26,23,p,0,,2.0,4.0,,"4L(13.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,27,24,p,0,,2.0,4.0,,"4L(16.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,28,25,p,0,,2.0,13.0,,"1S(7.5,S),10;3L(16.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,29,25s1,p,1,25,2.0,1.0,,"1E(14.0,S),1",,,,,,fuente: transcripcion visual KH0674
+KH0674,30,26,p,0,,2.0,10.0,,"1S(15.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,31,27,p,0,,2.0,13.0,,"1S(7.5,S),10;3L(5.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,32,27s1,p,1,27,2.0,10.0,,"1S(12.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,33,28,p,0,,2.0,4.0,,"4L(14.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,34,29,p,0,,2.0,810.0,,"8S(6.5,S),800;1S(17.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,35,29s1,p,1,29,2.0,54.0,,"5S(4.5,S),50;4L(16.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,36,29s2,p,1,29,2.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,37,29s3,p,1,29,2.0,30.0,,"3S(1.5,S),30",,,,,,fuente: transcripcion visual KH0674
+KH0674,38,29s4,p,1,29,2.0,3.0,,"3L(8.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,39,30,p,0,,2.0,8.0,,"8L(13.5,S),8",,,,,,fuente: transcripcion visual KH0674
+KH0674,40,30s1,p,1,30,2.0,10.0,,"1S(13.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,41,31,p,0,,2.0,13.0,,"1S(8.0,S),10;3L(15.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,42,31s1,p,1,31,2.0,10.0,,"1S(12.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,43,32,p,0,,2.0,4.0,,"4L(15.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,44,33,p,0,,2.0,22.0,,"2S(8.5,S),20;2L(14.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,45,33s1,p,1,33,2.0,60.0,,"6S(7.0,S),60",,,,,,fuente: transcripcion visual KH0674
+KH0674,46,33s2,p,1,33,2.0,14.0,,"1S(7.0,S),10;4L(16.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,47,33s2s1,p,2,33s2,2.0,10.0,,"1S(14.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,48,34,p,0,,3.0,8.0,,"8L(14.0,S),8",,,,,,fuente: transcripcion visual KH0674
+KH0674,49,34s1,p,1,34,3.0,2.0,,"2L(14.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,50,35,p,0,,3.0,6.0,,"6L(14.5,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,51,35s1,p,1,35,3.0,2.0,,"2L(11.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,52,36,p,0,,3.0,30.0,,"3S(7.0,S),30",,,,,,fuente: transcripcion visual KH0674
+KH0674,53,36s1,p,1,36,3.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,54,36s2,p,1,36,3.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,55,36s3s1,p,2,36s3,3.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos (nombre dudoso)
+KH0674,56,37,p,0,,3.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,57,37s1,p,1,37,3.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,58,38,p,0,,3.0,12.0,,"1S(8.5,S),10;2L(16.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,59,38s1,p,1,38,3.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; nudo desatado? (nota en la ficha)
+KH0674,60,39,p,0,,4.0,3.0,,"3L(13.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,61,40,p,0,,4.0,3.0,,"3L(13.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,62,40s1,p,1,40,4.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,63,41,p,0,,4.0,2.0,,"2L(16.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,64,41s1,p,1,41,4.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,65,42,p,0,,4.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,66,42s1,p,1,42,4.0,4.0,,"4L(10.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,67,43,p,0,,4.0,4.0,,"4L(13.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,68,43s1,p,1,43,4.0,3.0,,"3L(9.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,69,44,p,0,,4.0,52.0,,"5S(8.5,S),50;2L(13.0,S),2",,,,,,fuente: transcripcion visual KH0674; insercion con flecha: va antes de 45
+KH0674,70,44s1,p,1,44,4.0,53.0,,"5S(4.0,S),50;3L(10.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,71,44s2,p,1,44,4.0,5.0,,"5L(10.0,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,72,44s3,p,1,44,4.0,32.0,,"3S(3.5,S),30;2L(7.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,73,45,p,0,,4.0,17.0,,"1S(6.0,S),10;7L(14.0,S),7",,,,,,fuente: transcripcion visual KH0674; la ficha pone 45 antes de 44 (ver nota)
+KH0674,74,45s1,p,1,45,4.0,4.0,,"4L(8.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,75,46,p,0,,4.0,5.0,,"5L(13.0,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,76,46s1,p,1,46,4.0,8.0,,"8L(8.5,S),8",,,,,,fuente: transcripcion visual KH0674
+KH0674,77,47,p,0,,4.0,4.0,,"4L(13.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,78,47s1,p,1,47,4.0,10.0,,"1S(3.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,79,48,p,0,,4.0,15.0,,"1S(5.5,S),10;5L(11.0,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,80,48s1,p,1,48,4.0,14.0,,"1S(3.0,S),10;4L(10.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,81,49,p,0,,4.0,21.0,,"2S(5.5,S),20;1E(3.5,S),1",,,,,,fuente: transcripcion visual KH0674
+KH0674,82,49s1,p,1,49,4.0,33.0,,"3S(11.0,S),30;3L(9.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,83,50,p,0,,5.0,10.0,,"1S(5.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,84,50s1,p,1,50,5.0,10.0,,"1S(12.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,85,51,p,0,,5.0,20.0,,"2S(9.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,86,51s1,p,1,51,5.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,87,52,p,0,,5.0,13.0,,"1S(10.0,S),10;3L(16.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,88,52s1,p,1,52,5.0,20.0,,"2S(4.5,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,89,52s1s1,p,2,52s1,5.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,90,53,p,0,,5.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,91,53s1,p,1,53,5.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,92,54,p,0,,5.0,10.0,,"1S(10.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,93,54s1,p,1,54,5.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,94,55,p,0,,5.0,85.0,,"8S(13.0,S),80;5L(18.0,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,95,55s1,p,1,55,5.0,30.0,,"3S(9.5,S),30",,,,,,fuente: transcripcion visual KH0674
+KH0674,96,55s2,p,1,55,5.0,10.0,,"1S(9.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,97,55s2s1,p,2,55s2,5.0,3.0,,"3L(14.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,98,55s2s2,p,2,55s2,5.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,99,55s2s3,p,2,55s2,5.0,20.0,,"2S(8.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,100,55s3,p,1,55,5.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,101,56,p,0,,5.0,30.0,,"3S(9.5,S),30",,,,,,fuente: transcripcion visual KH0674
+KH0674,102,56s1,p,1,56,5.0,3.0,,"3L(9.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,103,57,p,0,,5.0,12.0,,"1S(9.5,S),10;2L(14.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,104,57s1,p,1,57,5.0,32.0,,"3S(5.0,S),30;2L(10.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,105,58,p,0,,5.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,106,58s1,p,1,58,5.0,5.0,,"5L(12.0,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,107,59,p,0,,5.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,108,59s1,p,1,59,5.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,109,60,p,0,,5.0,2.0,,"2L(15.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,110,60s1,p,1,60,5.0,2.0,,"2L(9.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,111,61,p,0,,6.0,2.0,,"2L(16.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,112,61s1,p,1,61,6.0,7.0,,"7L(12.0,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,113,62,p,0,,6.0,6.0,,"6L(16.0,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,114,62s1,p,1,62,6.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,115,63,p,0,,6.0,3.0,,"3L(17.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,116,63s1,p,1,63,6.0,3.0,,"3L(11.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,117,64,p,0,,6.0,6.0,,"6L(16.5,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,118,64s1,p,1,64,6.0,4.0,,"4L(13.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,119,65,p,0,,6.0,12.0,,"1S(9.0,S),10;2L(17.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,120,65s1,p,1,65,6.0,27.0,,"2S(4.0,S),20;7L(9.5,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,121,66,p,0,,6.0,74.0,,"7S(7.5,S),70;4L(17.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,122,66s1,p,1,66,6.0,63.0,,"6S(3.0,S),60;3L(11.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,123,66s1s1,p,2,66s1,6.0,37.0,,"3S(3.5,S),30;7L(6.5,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,124,66s2,p,1,66,6.0,24.0,,"2S(3.5,S),20;4L(9.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,125,66s3,p,1,66,6.0,50.0,,"5S(2.0,S),50",,,,,,fuente: transcripcion visual KH0674
+KH0674,126,67,p,0,,6.0,22.0,,"2S(8.0,S),20;2L(15.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,127,67s1,p,1,67,6.0,7.0,,"7L(12.0,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,128,68,p,0,,6.0,10.0,,"1S(11.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,129,68s1,p,1,68,6.0,5.0,,"5L(12.5,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,130,69,p,0,,6.0,10.0,,"1S(7.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,131,69s1,p,1,69,6.0,2.0,,"2L(11.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,132,70,p,0,,6.0,23.0,,"2S(9.5,S),20;3L(15.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,133,70s1,p,1,70,6.0,17.0,,"1S(5.5,S),10;7L(11.5,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,134,71,p,0,,6.0,21.0,,"2S(11.5,S),20;1E(7.5,S),1",,,,,,fuente: transcripcion visual KH0674
+KH0674,135,71s1,p,1,71,6.0,50.0,,"5S(5.5,S),50",,,,,,fuente: transcripcion visual KH0674
+KH0674,136,71s2,p,1,71,6.0,16.0,,"1S(5.5,S),10;6L(11.0,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,137,72,p,0,,7.0,6.0,,"6L(10.0,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,138,72s1,p,1,72,7.0,1.0,,"1E(1.5,S),1",,,,,,fuente: transcripcion visual KH0674
+KH0674,139,73,p,0,,7.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,140,73s1,p,1,73,7.0,2.0,,"2L(4.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,141,74,p,0,,7.0,7.0,,"7L(7.5,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,142,74s1,p,1,74,7.0,8.0,,"8L(13.5,S),8",,,,,,fuente: transcripcion visual KH0674
+KH0674,143,75,p,0,,7.0,8.0,,"8L(5.5,S),8",,,,,,fuente: transcripcion visual KH0674
+KH0674,144,75s1,p,1,75,7.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,145,76,p,0,,7.0,43.0,,"4S(9.0,S),40;3L(15.5,S),3",,,,,,fuente: transcripcion visual KH0674; * atada a 76s2s1 a 19.5 cm
+KH0674,146,76s1,p,1,76,7.0,421.0,,"4S(5.0,S),400;2L(9.0,S),20;1E(15.5,S),1",,,,,,fuente: transcripcion visual KH0674
+KH0674,147,76s2,p,1,76,7.0,65.0,,"6S(4.5,S),60;5L(9.5,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,148,76s2s1,p,2,76s2,7.0,17.0,,"1S(6.0,S),10;7L(6.5,S),7",,,,,,fuente: transcripcion visual KH0674; * atada a 76 a 19.5 cm
+KH0674,149,76s3,p,1,76,7.0,251.0,,"2S(4.5,S),200;5L(10.0,S),50;1E(14.5,S),1",,,,,,fuente: transcripcion visual KH0674
+KH0674,150,76s4,p,1,76,7.0,50.0,,"5S(4.5,S),50",,,,,,fuente: transcripcion visual KH0674; ** par de cuerdas dobladas anudadas
+KH0674,151,77,p,0,,7.0,23.0,,"2S(11.5,S),20;3L(7.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,152,77s1,p,1,77,7.0,25.0,,"2S(6.0,S),20;5L(10.0,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,153,77s2,p,1,77,7.0,5.0,,"5L(11.5,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,154,77s3,p,1,77,7.0,50.0,,"5S(5.5,S),50",,,,,,fuente: transcripcion visual KH0674
+KH0674,155,78,p,0,,7.0,45.0,,"4S(10.0,S),40;5L(15.0,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,156,78s1,p,1,78,7.0,22.0,,"2S(4.0,S),20;2L(11.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,157,79,p,0,,7.0,5.0,,"5L(16.0,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,158,79s1,p,1,79,7.0,4.0,,"4L(12.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,159,80,p,0,,7.0,2.0,,"2L(18.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,160,80s1,p,1,80,7.0,336.0,,"3S(7.0,S),300;3S(10.5,S),30;6L(14.0,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,161,81,p,0,,7.0,2.0,,"2L(18.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,162,81s1,p,1,81,7.0,1.0,,"1E(13.5,S),1",,,,,,fuente: transcripcion visual KH0674
+KH0674,163,82,p,0,,7.0,11.0,,"1S(12.5,S),10;1E(9.0,S),1",,,,,,fuente: transcripcion visual KH0674
+KH0674,164,82s1,p,1,82,7.0,7.0,,"7L(13.5,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,165,83,p,0,,8.0,4.0,,"4L(15.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,166,83s1,p,1,83,8.0,13.0,,"1S(1.0,S),10;3L(10.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,167,84,p,0,,8.0,2.0,,"2L(14.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,168,84s1,p,1,84,8.0,3.0,,"3L(8.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,169,85,p,0,,8.0,8.0,,"8L(14.5,S),8",,,,,,fuente: transcripcion visual KH0674
+KH0674,170,85s1,p,1,85,8.0,4.0,,"4L(9.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,171,85s2,p,1,85,8.0,4.0,,"4L(7.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,172,86,p,0,,8.0,2.0,,"2L(6.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,173,86s1,p,1,86,8.0,4.0,,"4L(11.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,174,87,p,0,,8.0,5.0,,"5L(15.0,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,175,87s1,p,1,87,8.0,10.0,,"1S(5.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,176,88,p,0,,8.0,61.0,,"6S(7.0,S),60;1E(16.0,S),1",,,,,,fuente: transcripcion visual KH0674
+KH0674,177,88s1,p,1,88,8.0,42.0,,"4S(5.0,S),40;2L(7.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,178,88s1s1,p,2,88s1,8.0,4.0,,"4L(18.5,S),4",,,,,,fuente: transcripcion visual KH0674; * anudadas juntas a 23.5 cm
+KH0674,179,88s1s1s1,p,3,88s1s1,8.0,20.0,,"2S(4.5,S),20",,,,,,fuente: transcripcion visual KH0674; * anudadas juntas a 23.5 cm
+KH0674,180,88s1s1s1s1,p,4,88s1s1s1,8.0,12.0,,"1S(4.0,S),10;2L(14.0,S),2",,,,,,fuente: transcripcion visual KH0674; * anudadas juntas a 23.5 cm
+KH0674,181,88s2,p,1,88,8.0,7.0,,"7L(14.0,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,182,88s3,p,1,88,8.0,20.0,,"2S(5.5,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,183,88s4,p,1,88,8.0,23.0,,"2S(6.0,S),20;3L(13.5,S),3",,,,,,fuente: transcripcion visual KH0674; ** par de cuerdas dobladas
+KH0674,184,89,p,0,,8.0,8.0,,"8L(15.0,S),8",,,,,,fuente: transcripcion visual KH0674
+KH0674,185,89s1,p,1,89,8.0,50.0,,"5S(2.5,S),50",,,,,,fuente: transcripcion visual KH0674
+KH0674,186,89s2,p,1,89,8.0,10.0,,"1S(2.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,187,90,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,188,90s1,p,1,90,8.0,5.0,,"5L(11.5,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,189,91,p,0,,8.0,5.0,,"5L(15.0,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,190,91s1,p,1,91,8.0,10.0,,"1S(3.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,191,91s1s1,p,2,91s1,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,192,92,p,0,,8.0,10.0,,"1S(8.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,193,92s1,p,1,92,8.0,16.0,,"1S(3.0,S),10;6L(9.0,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,194,92s2,p,1,92,8.0,10.0,,"1S(3.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,195,93,p,0,,8.0,14.0,,"1S(7.5,S),10;4L(14.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,196,93s1,p,1,93,8.0,20.0,,"2S(3.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,197,94,p,0,,9.0,7.0,,"7L(14.5,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,198,94s1,p,1,94,9.0,3.0,,"3L(12.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,199,95,p,0,,9.0,5.0,,"5L(16.0,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,200,95s1,p,1,95,9.0,14.0,,"1S(5.0,S),10;4L(14.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,201,96,p,0,,9.0,14.0,,"1S(7.5,S),10;4L(13.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,202,96s1,p,1,96,9.0,10.0,,"1S(4.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,203,97,p,0,,9.0,2.0,,"2L(15.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,204,97s1,p,1,97,9.0,8.0,,"8L(11.5,S),8",,,,,,fuente: transcripcion visual KH0674
+KH0674,205,98,p,0,,9.0,7.0,,"7L(17.0,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,206,98s1,p,1,98,9.0,8.0,,"8L(12.0,S),8",,,,,,fuente: transcripcion visual KH0674
+KH0674,207,99,p,0,,9.0,2.0,,"2L(15.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,208,99s1,p,1,99,9.0,28.0,,"2S(1.5,S),20;8L(9.5,S),8",,,,,,fuente: transcripcion visual KH0674
+KH0674,209,100,p,0,,9.0,16.0,,"1S(9.5,S),10;6L(15.0,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,210,100s1,p,1,100,9.0,83.0,,"8S(8.5,S),80;3L(14.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,211,100s2,p,1,100,9.0,40.0,,"4S(11.0,S),40",,,,,,fuente: transcripcion visual KH0674
+KH0674,212,100s3,p,1,100,9.0,20.0,,"2S(11.5,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,213,100s3s1,p,2,100s3,9.0,20.0,,"2S(8.5,S),20",,,,,,fuente: transcripcion visual KH0674; * atadas juntas a 22.0 cm
+KH0674,214,100s3s1s1,p,3,100s3s1,9.0,20.0,,"2S(8.0,S),20",,,,,,fuente: transcripcion visual KH0674; * atadas juntas a 22.0 cm
+KH0674,215,100s4,p,1,100,9.0,52.0,,"5S(9.0,S),50;2L(14.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,216,100s4s1,p,2,100s4,9.0,40.0,,"4S(5.5,S),40",,,,,,fuente: transcripcion visual KH0674
+KH0674,217,100s5,p,1,100,9.0,10.0,,"1S(9.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,218,100s6,p,1,100,9.0,17.0,,"1S(9.5,S),10;7L(14.0,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,219,100s6s1,p,2,100s6,9.0,650.0,,"6S(2.5,S),600;5S(3.0,S),50",,,,,,fuente: transcripcion visual KH0674
+KH0674,220,100s7,p,1,100,9.0,4.0,,"4L(12.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,221,100s8,p,1,100,9.0,20.0,,"2S(6.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,222,100s8s1,p,2,100s8,9.0,2.0,,"2L(15.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,223,101,p,0,,9.0,26.0,,"2S(6.5,S),20;6L(15.0,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,224,101s1,p,1,101,9.0,20.0,,"2S(5.5,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,225,101s2,p,1,101,9.0,13.0,,"1S(3.5,S),10;3L(14.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,226,102,p,0,,9.0,16.0,,"1S(7.0,S),10;6L(15.5,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,227,102s1,p,1,102,9.0,13.0,,"1S(4.0,S),10;3L(14.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,228,103,p,0,,9.0,2.0,,"2L(17.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,229,103s1,p,1,103,9.0,12.0,,"1S(4.0,S),10;2L(15.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,230,104,p,0,,9.0,48.0,,"4S(5.5,S),40;8L(11.5,S),8",,,,,,fuente: transcripcion visual KH0674
+KH0674,231,104s1,p,1,104,9.0,20.0,,"2S(4.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,232,104s1s1,p,2,104s1,9.0,22.0,,"2S(4.0,S),20;2L(11.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,233,104s2,p,1,104,9.0,40.0,,"4S(3.5,S),40",,,,,,fuente: transcripcion visual KH0674
+KH0674,234,104s3,p,1,104,9.0,20.0,,"2S(3.5,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,235,104s3s1,p,2,104s3,9.0,20.0,,"2S(5.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,236,105,p,0,,10.0,9.0,,"9L(8.0,S),9",,,,,,fuente: transcripcion visual KH0674
+KH0674,237,106,p,0,,10.0,7.0,,"7L(6.5,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,238,107,p,0,,10.0,32.0,,"3S(3.0,S),30;2L(9.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,239,108,p,0,,10.0,7.0,,"7L(4.5,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,240,109,p,0,,10.0,9.0,,"9L(6.5,S),9",,,,,,fuente: transcripcion visual KH0674
+KH0674,241,110,p,0,,11.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,242,111,p,0,,11.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,243,112,p,0,,11.0,2.0,,"2L(8.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,244,113,p,0,,11.0,5.0,,"5L(7.5,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,245,114,p,0,,11.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,246,115,p,0,,11.0,62.0,,"6S(5.0,S),60;2L(13.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,247,115s1,p,1,115,11.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,248,116,p,0,,11.0,3.0,,"3L(9.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,249,117,p,0,,11.0,3.0,,"3L(8.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,250,118,p,0,,11.0,3.0,,"3L(9.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,251,119,p,0,,11.0,23.0,,"2S(4.0,S),20;3L(7.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,252,120,p,0,,11.0,23.0,,"2S(5.0,S),20;3L(11.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,253,121,p,0,,12.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,254,122,p,0,,12.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,255,123,p,0,,12.0,15.0,,"1S(5.5,S),10;5L(9.5,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,256,124,p,0,,12.0,2.0,,"2L(10.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,257,125,p,0,,12.0,5.0,,"5L(8.5,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,258,126,p,0,,12.0,52.0,,"5S(5.0,S),50;2L(12.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,259,126s1,p,1,126,12.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,260,126s1s1,p,2,126s1,12.0,2.0,,"2L(8.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,261,127,p,0,,12.0,14.0,,"1S(5.5,S),10;4L(8.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,262,128,p,0,,12.0,4.0,,"4L(9.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,263,129,p,0,,12.0,5.0,,"5L(8.0,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,264,130,p,0,,12.0,7.0,,"7L(9.0,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,265,131,p,0,,12.0,2.0,,"2L(9.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,266,132,p,0,,13.0,4.0,,"4L(10.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,267,133,p,0,,13.0,2.0,,"2L(11.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,268,134,p,0,,13.0,4.0,,"4L(8.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,269,135,p,0,,13.0,7.0,,"7L(10.0,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,270,136,p,0,,13.0,12.0,,"1S(5.0,S),10;2L(10.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,271,137,p,0,,13.0,85.0,,"8S(4.0,S),80;5L(12.5,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,272,137s1,p,1,137,13.0,20.0,,"2S(6.5,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,273,138,p,0,,13.0,7.0,,"7L(8.0,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,274,139,p,0,,13.0,4.0,,"4L(8.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,275,140,p,0,,13.0,16.0,,"1S(5.0,S),10;6L(9.5,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,276,141,p,0,,13.0,6.0,,"6L(10.0,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,277,141s1,p,1,141,13.0,10.0,,"1S(3.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,278,142,p,0,,13.0,23.0,,"2S(3.5,S),20;3L(9.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,279,142s1,p,1,142,13.0,10.0,,"1S(3.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,280,143,p,0,,14.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,281,144,p,0,,14.0,2.0,,"2L(8.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,282,145,p,0,,14.0,4.0,,"4L(10.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,283,146,p,0,,14.0,7.0,,"7L(10.0,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,284,147,p,0,,14.0,13.0,,"1S(5.0,S),10;3L(10.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,285,148,p,0,,14.0,62.0,,"6S(4.5,S),60;2L(10.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,286,148s1,p,1,148,14.0,20.0,,"2S(5.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,287,149,p,0,,14.0,22.0,,"2S(6.0,S),20;2L(11.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,288,149s1,p,1,149,14.0,20.0,,"2S(1.5,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,289,150,p,0,,14.0,3.0,,"3L(12.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,290,151,p,0,,14.0,5.0,,"5L(12.0,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,291,152,p,0,,14.0,2.0,,"2L(13.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,292,153,p,0,,14.0,5.0,,"5L(11.5,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,293,154,p,0,,15.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,294,155,p,0,,15.0,3.0,,"3L(9.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,295,156,p,0,,15.0,10.0,,"1S(5.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,296,156s1,p,1,156,15.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,297,157,p,0,,15.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,298,158,p,0,,15.0,3.0,,"3L(9.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,299,159,p,0,,15.0,65.0,,"6S(5.0,S),60;5L(9.5,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,300,159s1,p,1,159,15.0,10.0,,"1S(4.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,301,160,p,0,,15.0,12.0,,"1S(5.5,S),10;2L(10.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,302,161,p,0,,15.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,303,162,p,0,,15.0,5.0,,"5L(9.5,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,304,163,p,0,,15.0,6.0,,"6L(8.5,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,305,164,p,0,,15.0,26.0,,"2S(5.5,S),20;6L(8.0,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,306,164s1,p,1,164,15.0,10.0,,"1S(3.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,307,165,p,0,,16.0,4.0,,"4L(5.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,308,166,p,0,,16.0,4.0,,"4L(7.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,309,167,p,0,,16.0,4.0,,"4L(8.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,310,168,p,0,,16.0,3.0,,"3L(8.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,311,169,p,0,,16.0,13.0,,"1S(5.5,S),10;3L(8.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,312,170,p,0,,16.0,60.0,,"6S(6.5,S),60",,,,,,fuente: transcripcion visual KH0674; circulo: posible cuerda resumen
+KH0674,313,170s1,p,1,170,16.0,10.0,,"1S(7.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,314,170s2,p,1,170,16.0,70.0,,"7S(5.5,S),70",,,,,,fuente: transcripcion visual KH0674
+KH0674,315,171,p,0,,16.0,5.0,,"5L(8.5,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,316,172,p,0,,16.0,13.0,,"1S(3.0,S),10;3L(10.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,317,172s1,p,1,172,16.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,318,172s2,p,1,172,16.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,319,173,p,0,,16.0,12.0,,"1S(2.5,S),10;2L(8.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,320,174,p,0,,16.0,5.0,,"5L(8.5,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,321,175,p,0,,16.0,23.0,,"2S(3.5,S),20;3L(9.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,322,176,p,0,,17.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,323,177,p,0,,17.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,324,178,p,0,,17.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,325,179,p,0,,17.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,326,180,p,0,,17.0,5.0,,"5L(15.0,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,327,181,p,0,,17.0,64.0,,"6S(11.5,S),60;4L(16.5,S),4",,,,,,fuente: transcripcion visual KH0674; circulo: posible cuerda resumen
+KH0674,328,181s1,p,1,181,17.0,11.0,,"1S(8.5,S),10;1E(15.0,S),1",,,,,,fuente: transcripcion visual KH0674
+KH0674,329,181s2,p,1,181,17.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,330,182,p,0,,17.0,10.0,,"1S(7.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,331,183,p,0,,17.0,10.0,,"1S(6.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,332,184,p,0,,17.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,333,185,p,0,,17.0,40.0,,"4S(6.5,S),40",,,,,,fuente: transcripcion visual KH0674
+KH0674,334,186,p,0,,17.0,10.0,,"1S(6.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,335,186s1,p,1,186,17.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,336,187,p,0,,18.0,3.0,,"3L(12.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,337,188,p,0,,18.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,338,188s1,p,1,188,18.0,,,?,,,,,,fuente: transcripcion visual KH0674; ilegible; NUDOS DUDOSOS
+KH0674,339,189,p,0,,18.0,24.0,,"2S(6.5,S),20;4L(12.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,340,189s1,p,1,189,18.0,5.0,,"5L(7.5,S),5",,,,,,fuente: transcripcion visual KH0674
+KH0674,341,190,p,0,,18.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,342,190s1,p,1,190,18.0,3.0,,"3L(9.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,343,191,p,0,,18.0,93.0,,"9S(6.0,S),90;3L(16.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,344,191s1,p,1,191,18.0,10.0,,"1S(5.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,345,191s2,p,1,191,18.0,10.0,,"1S(3.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,346,191s2s1,p,2,191s2,18.0,10.0,,"1S(5.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,347,192,p,0,,18.0,3.0,,"3L(13.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,348,193,p,0,,18.0,24.0,,"2S(5.5,S),20;4L(6.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,349,194,p,0,,18.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,350,195,p,0,,18.0,4.0,,"4L(12.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,351,196,p,0,,18.0,14.0,,"1S(7.0,S),10;4L(11.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,352,197,p,0,,18.0,4.0,,"4L(12.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,353,198,p,0,,19.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,354,199,p,0,,19.0,10.0,,"1S(6.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,355,200,p,0,,19.0,10.0,,"1S(6.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,356,201,p,0,,19.0,4.0,,"4L(11.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,357,202,p,0,,19.0,80.0,,"8S(7.5,S),80",,,,,,fuente: transcripcion visual KH0674
+KH0674,358,202s1,p,1,202,19.0,13.0,,"1S(6.5,S),10;3L(14.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,359,202s2,p,1,202,19.0,20.0,,"2S(4.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,360,203,p,0,,19.0,21.0,,"2S(7.0,S),20;1E(10.5,S),1",,,,,,fuente: transcripcion visual KH0674
+KH0674,361,204,p,0,,19.0,12.0,,"1S(7.5,S),10;2L(11.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,362,205,p,0,,19.0,14.0,,"1S(6.0,S),10;4L(18.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,363,206,p,0,,19.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,364,207,p,0,,19.0,12.0,,"1S(6.0,S),10;2L(11.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,365,208,p,0,,19.0,10.0,,"1S(5.0,S),10",,,,,,fuente: transcripcion visual KH0674; ficha: 12; dudoso
+KH0674,366,209,p,0,,20.0,2.0,,"2L(10.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,367,209s1,p,1,209,20.0,20.0,,"2S(3.0,S),20",,,,,,fuente: transcripcion visual KH0674; ficha: 22; dudoso
+KH0674,368,209s2,p,1,209,20.0,22.0,,"2S(4.0,S),20;2L(7.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,369,210,p,0,,20.0,111.0,,"1S(4.5,S),100;1S(10.0,S),10;1E(27.5,S),1",,,,,,fuente: transcripcion visual KH0674
+KH0674,370,210s1,p,1,210,20.0,2.0,,"2L(15.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,371,210s2,p,1,210,20.0,22.0,,"2S(4.0,S),20;2L(7.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,372,211,p,0,,20.0,6.0,,"6L(10.0,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,373,212,p,0,,20.0,10.0,,"1S(6.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,374,213,p,0,,20.0,4.0,,"4L(11.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,375,214,p,0,,20.0,38.0,,"3S(5.5,S),30;8L(8.5,S),8",,,,,,fuente: transcripcion visual KH0674
+KH0674,376,214s1,p,1,214,20.0,22.0,,"2S(2.5,S),20;2L(9.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,377,215,p,0,,20.0,27.0,,"2S(7.0,S),20;7L(9.0,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,378,216,p,0,,20.0,2.0,,"2L(10.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,379,217,p,0,,20.0,2.0,,"2L(12.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,380,218,p,0,,20.0,12.0,,"1S(5.5,S),10;2L(11.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,381,219,p,0,,20.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,382,220,p,0,,21.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,383,221,p,0,,21.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,384,222,p,0,,21.0,3.0,,"3L(18.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,385,223,p,0,,21.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,386,224,p,0,,21.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,387,225,p,0,,21.0,20.0,,"2S(7.5,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,388,226,p,0,,21.0,72.0,,"7S(8.0,S),70;2L(14.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,389,226s1,p,1,226,21.0,41.0,,"4S(6.0,S),40;1E(30.0,S),1",,,,,,fuente: transcripcion visual KH0674
+KH0674,390,226s2,p,1,226,21.0,22.0,,"2S(4.0,S),20;2L(8.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,391,227,p,0,,21.0,30.0,,"3S(7.0,S),30",,,,,,fuente: transcripcion visual KH0674
+KH0674,392,228,p,0,,21.0,10.0,,"1S(8.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,393,229,p,0,,21.0,10.0,,"1S(7.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,394,230,p,0,,21.0,40.0,,"4S(7.5,S),40",,,,,,fuente: transcripcion visual KH0674
+KH0674,395,230s1,p,1,230,21.0,22.0,,"2S(5.5,S),20;2L(14.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,396,231,p,0,,22.0,10.0,,"1S(6.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,397,232,p,0,,22.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,398,233,p,0,,22.0,10.0,,"1S(6.5,U),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,399,234,p,0,,22.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,400,234s1,p,1,234,22.0,46.0,,"4S(6.5,S),40;6L(11.5,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,401,235,p,0,,22.0,10.0,,"1S(7.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,402,235s1,p,1,235,22.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,403,236,p,0,,22.0,10.0,,"1S(6.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,404,236s1,p,1,236,22.0,26.0,,"2S(3.0,S),20;6L(8.0,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,405,237,p,0,,22.0,10.0,,"1S(6.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,406,238,p,0,,22.0,30.0,,"3S(8.0,S),30",,,,,,fuente: transcripcion visual KH0674
+KH0674,407,239,p,0,,22.0,34.0,,"3S(8.5,S),30;4L(20.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,408,240,p,0,,22.0,10.0,,"1S(8.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,409,241,p,0,,22.0,80.0,,"8S(9.5,S),80",,,,,,fuente: transcripcion visual KH0674
+KH0674,410,242,p,0,,23.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,411,243,p,0,,23.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,412,244,p,0,,23.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,413,245,p,0,,23.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,414,246,p,0,,23.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,415,247,p,0,,23.0,10.0,,"1S(6.5,S),10",,,,,,fuente: transcripcion visual KH0674; ficha: 100; dudoso
+KH0674,416,247s1,p,1,247,23.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,417,248,p,0,,23.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,418,249,p,0,,23.0,10.0,,"1S(5.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,419,250,p,0,,23.0,10.0,,"1S(5.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,420,251,p,0,,23.0,40.0,,"4S(4.5,S),40",,,,,,fuente: transcripcion visual KH0674
+KH0674,421,252,p,0,,23.0,40.0,,"4S(5.0,S),40",,,,,,fuente: transcripcion visual KH0674
+KH0674,422,253,p,0,,24.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,423,254,p,0,,24.0,10.0,,"1S(5.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,424,255,p,0,,24.0,30.0,,"3S(6.0,S),30",,,,,,fuente: transcripcion visual KH0674
+KH0674,425,256,p,0,,24.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,426,257,p,0,,24.0,30.0,,"3S(6.5,S),30",,,,,,fuente: transcripcion visual KH0674
+KH0674,427,258,p,0,,24.0,70.0,,"7S(17.0,S),70",,,,,,fuente: transcripcion visual KH0674; subs 2:3.0
+KH0674,428,258s1,p,1,258,24.0,10.0,,"1S(5.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,429,258s2,p,1,258,24.0,20.0,,"2S(14.5,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,430,259,p,0,,24.0,20.0,,"2S(5.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,431,260,p,0,,24.0,10.0,,"1S(5.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,432,261,p,0,,24.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,433,262,p,0,,24.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,434,263,p,0,,24.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,435,264,p,0,,25.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,436,265,p,0,,25.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,437,266,p,0,,25.0,10.0,,"1S(7.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,438,267,p,0,,25.0,10.0,,"1S(7.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,439,268,p,0,,25.0,20.0,,"2S(7.5,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,440,269,p,0,,25.0,20.0,,"2S(8.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,441,270,p,0,,25.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,442,271,p,0,,25.0,20.0,,"2S(7.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,443,272,p,0,,25.0,30.0,,"3S(7.0,S),30",,,,,,fuente: transcripcion visual KH0674
+KH0674,444,273,p,0,,25.0,30.0,,"3S(7.0,S),30",,,,,,fuente: transcripcion visual KH0674
+KH0674,445,274,p,0,,25.0,90.0,,"9S(7.5,S),90",,,,,,fuente: transcripcion visual KH0674
+KH0674,446,275,p,0,,26.0,10.0,,"1S(7.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,447,276,p,0,,26.0,10.0,,"1S(6.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,448,277,p,0,,26.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,449,278,p,0,,26.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,450,279,p,0,,26.0,10.0,,"1S(6.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,451,280,p,0,,26.0,50.0,,"5S(8.0,S),50",,,,,,fuente: transcripcion visual KH0674
+KH0674,452,281,p,0,,26.0,20.0,,"2S(13.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,453,281s1,p,1,281,26.0,110.0,,"1S(4.0,S),100;1S(12.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,454,282,p,0,,26.0,20.0,,"2S(8.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,455,283,p,0,,26.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,456,284,p,0,,26.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,457,285,p,0,,26.0,30.0,,"3S(8.0,S),30",,,,,,fuente: transcripcion visual KH0674
+KH0674,458,286,p,0,,27.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,459,287,p,0,,27.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,460,288,p,0,,27.0,10.0,,"1S(8.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,461,289,p,0,,27.0,10.0,,"1S(7.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,462,290,p,0,,27.0,20.0,,"2S(8.5,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,463,291,p,0,,27.0,130.0,,"1S(6.0,S),100;3S(8.0,S),30",,,,,,fuente: transcripcion visual KH0674
+KH0674,464,291s1,p,1,291,27.0,40.0,,"4S(7.0,S),40",,,,,,fuente: transcripcion visual KH0674
+KH0674,465,292,p,0,,27.0,20.0,,"2S(9.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,466,293,p,0,,27.0,20.0,,"2S(9.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,467,294,p,0,,27.0,20.0,,"2S(9.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,468,295,p,0,,27.0,14.0,,"1S(9.0,S),10;4L(16.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,469,296,p,0,,27.0,53.0,,"5S(9.0,S),50;3L(17.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,470,297,p,0,,28.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,471,298,p,0,,28.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,472,299,p,0,,28.0,10.0,,"1S(8.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,473,300,p,0,,28.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,474,301,p,0,,28.0,20.0,,"2S(9.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,475,302,p,0,,28.0,10.0,,"1S(9.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,476,303,p,0,,28.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,477,304,p,0,,28.0,40.0,,"4S(8.5,S),40",,,,,,fuente: transcripcion visual KH0674
+KH0674,478,305,p,0,,28.0,10.0,,"1S(8.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,479,306,p,0,,28.0,60.0,,"6S(8.5,S),60",,,,,,fuente: transcripcion visual KH0674
+KH0674,480,307,p,0,,29.0,50.0,,"5S(12.5,S),50",,,,,,fuente: transcripcion visual KH0674; subs 1:7.0
+KH0674,481,307s1,p,1,307,29.0,30.0,,"3S(7.0,S),30",,,,,,fuente: transcripcion visual KH0674
+KH0674,482,308,p,0,,29.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,483,309,p,0,,29.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,484,310,p,0,,29.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,485,311,p,0,,29.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,486,312,p,0,,29.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,487,313,p,0,,29.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,488,314,p,0,,29.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,489,315,p,0,,29.0,6.0,,"6L(28.5,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,490,316,p,0,,29.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,491,317,p,0,,29.0,50.0,,"5S(15.0,S),50",,,,,,fuente: transcripcion visual KH0674
+KH0674,492,318,p,0,,30.0,4.0,,"4L(21.5,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,493,319,p,0,,30.0,52.0,,"5S(7.5,S),50;2L(23.5,S),2",,,,,,fuente: transcripcion visual KH0674; subs 1:5.5
+KH0674,494,319s1,p,1,319,30.0,12.0,,"1S(2.5,S),10;2L(11.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,495,320,p,0,,30.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,496,321,p,0,,30.0,2.0,,"2L(21.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,497,322,p,0,,30.0,3.0,,"3L(23.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,498,323,p,0,,30.0,2.0,,"2L(24.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,499,324,p,0,,30.0,6.0,,"6L(23.0,S),6",,,,,,fuente: transcripcion visual KH0674
+KH0674,500,325,p,0,,30.0,2.0,,"2L(23.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,501,326,p,0,,30.0,1.0,,"1E(23.5,S),1",,,,,,fuente: transcripcion visual KH0674
+KH0674,502,327,p,0,,30.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,503,328,p,0,,30.0,60.0,,"6S(12.0,S),60",,,,,,fuente: transcripcion visual KH0674; subs 1:2.5
+KH0674,504,328s1,p,1,328,30.0,12.0,,"1S(4.0,S),10;2L(20.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,505,329,p,0,,31.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,506,330,p,0,,31.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,507,331,p,0,,31.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,508,332,p,0,,31.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,509,333,p,0,,31.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,510,334,p,0,,31.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,511,335,p,0,,31.0,10.0,,"1S(5.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,512,336,p,0,,31.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos; marcada con * (¿atada a 337?)
+KH0674,513,337,p,0,,31.0,12.0,,"1S(6.0,S),10;2L(14.0,S),2",,,,,,fuente: transcripcion visual KH0674; ficha: 12
+KH0674,514,338,p,0,,31.0,64.0,,"6S(6.0,S),60;4L(14.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,515,339,p,0,,31.0,96.0,,"9S(2.5,S),90;6L(22.5,S),6",,,,,,fuente: transcripcion visual KH0674; subs 1:2.5
+KH0674,516,339s1,p,1,339,31.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,517,340,p,0,,32.0,157.0,,"1S(4.0,S),100;5S(14.5,S),50;7L(25.5,S),7",,,,,,fuente: transcripcion visual KH0674; subs 1:2.0
+KH0674,518,340s1,p,1,340,32.0,23.0,,"2S(2.0,S),20;3L(24.0,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,519,341,p,0,,32.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,520,342,p,0,,32.0,10.0,,"1S(7.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,521,343,p,0,,32.0,10.0,,"1S(7.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,522,344,p,0,,32.0,10.0,,"1S(8.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,523,345,p,0,,32.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,524,346,p,0,,32.0,37.0,,"3S(6.5,S),30;7L(19.0,S),7",,,,,,fuente: transcripcion visual KH0674
+KH0674,525,347,p,0,,32.0,50.0,,"5S(7.0,S),50",,,,,,fuente: transcripcion visual KH0674
+KH0674,526,348,p,0,,32.0,10.0,,"1S(7.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,527,349,p,0,,32.0,10.0,,"1S(8.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,528,350,p,0,,32.0,20.0,,"2S(8.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,529,351,p,0,,33.0,10.0,,"1S(6.5,S),10",,,,,,fuente: transcripcion visual KH0674; ficha: 100; dudoso (probable 10)
+KH0674,530,351s1,p,1,351,33.0,30.0,,"3S(3.5,S),30",,,,,,fuente: transcripcion visual KH0674
+KH0674,531,352,p,0,,33.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,532,353,p,0,,33.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,533,354,p,0,,33.0,10.0,,"1S(4.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,534,355,p,0,,33.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,535,356,p,0,,33.0,20.0,,"2S(4.5,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,536,357,p,0,,33.0,10.0,,"1S(4.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,537,358,p,0,,33.0,30.0,,"3S(5.0,S),30",,,,,,fuente: transcripcion visual KH0674
+KH0674,538,359,p,0,,33.0,10.0,,"1S(4.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,539,360,p,0,,33.0,20.0,,"2S(4.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,540,361,p,0,,33.0,50.0,,"5S(5.0,S),50",,,,,,fuente: transcripcion visual KH0674
+KH0674,541,362,p,0,,34.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,542,363,p,0,,34.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,543,364,p,0,,34.0,14.0,,"1S(7.0,S),10;4L(14.0,S),4",,,,,,fuente: transcripcion visual KH0674
+KH0674,544,365,p,0,,34.0,10.0,,"1S(6.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,545,366,p,0,,34.0,10.0,,"1S(6.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,546,367,p,0,,34.0,20.0,,"2S(5.5,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,547,368,p,0,,34.0,40.0,,"4S(5.0,S),40",,,,,,fuente: transcripcion visual KH0674
+KH0674,548,369,p,0,,34.0,43.0,,"4S(5.5,S),40;3L(6.5,S),3",,,,,,fuente: transcripcion visual KH0674
+KH0674,549,370,p,0,,34.0,20.0,,"2S(6.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,550,371,p,0,,34.0,80.0,,"8S(6.0,S),80",,,,,,fuente: transcripcion visual KH0674
+KH0674,551,372,p,0,,34.0,237.0,,"2S(5.0,S),200;3S(13.5,S),30;7L(25.0,S),7",,,,,,fuente: transcripcion visual KH0674; subs 1:3.5
+KH0674,552,372s1,p,1,372,34.0,72.0,,"7S(0.5,S),70;2L(21.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,553,373,p,0,,35.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,554,374,p,0,,35.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,555,375,p,0,,35.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,556,376,p,0,,35.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,557,377,p,0,,35.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,558,378,p,0,,35.0,20.0,,"2S(2.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,559,379,p,0,,35.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,560,380,p,0,,35.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,561,381,p,0,,35.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,562,382,p,0,,35.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,563,383,p,0,,35.0,20.0,,"2S(6.5,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,564,384,p,0,,36.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,565,385,p,0,,36.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,566,386,p,0,,36.0,10.0,,"1S(8.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,567,387,p,0,,36.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,568,388,p,0,,36.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,569,389,p,0,,36.0,20.0,,"2S(10.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,570,390,p,0,,36.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,571,391,p,0,,36.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,572,392,p,0,,36.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,573,393,p,0,,36.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,574,394,p,0,,36.0,10.0,,"1S(9.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,575,395,p,0,,37.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,576,396,p,0,,37.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,577,397,p,0,,37.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,578,398,p,0,,37.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,579,399,p,0,,37.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,580,400,p,0,,37.0,40.0,,"4S(5.0,S),40",,,,,,fuente: transcripcion visual KH0674
+KH0674,581,400s1,p,1,400,37.0,40.0,,"4S(8.0,S),40",,,,,,fuente: transcripcion visual KH0674
+KH0674,582,401,p,0,,37.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,583,402,p,0,,37.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,584,403,p,0,,37.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,585,404,p,0,,37.0,10.0,,"1S(3.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,586,405,p,0,,37.0,70.0,,"7S(5.0,S),70",,,,,,fuente: transcripcion visual KH0674
+KH0674,587,406,p,0,,38.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,588,407,p,0,,38.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,589,408,p,0,,38.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,590,409,p,0,,38.0,40.0,,"4S(10.5,S),40",,,,,,fuente: transcripcion visual KH0674
+KH0674,591,410,p,0,,38.0,40.0,,"4S(11.0,S),40",,,,,,fuente: transcripcion visual KH0674
+KH0674,592,411,p,0,,38.0,30.0,,"3S(7.0,S),30",,,,,,fuente: transcripcion visual KH0674
+KH0674,593,411s1,p,1,411,38.0,20.0,,"2S(7.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,594,412,p,0,,38.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,595,413,p,0,,38.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,596,414,p,0,,38.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,597,415,p,0,,38.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,598,416,p,0,,38.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,599,417,p,0,,39.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,600,418,p,0,,39.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,601,419,p,0,,39.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,602,420,p,0,,39.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,603,421,p,0,,39.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,604,422,p,0,,39.0,40.0,,"4S(12.5,S),40",,,,,,fuente: transcripcion visual KH0674
+KH0674,605,422s1,p,1,422,39.0,42.0,,"4S(13.0,S),40;2L(23.5,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,606,423,p,0,,39.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,607,424,p,0,,39.0,1.0,,"1E(35.0,S),1",,,,,,fuente: transcripcion visual KH0674
+KH0674,608,425,p,0,,39.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,609,426,p,0,,39.0,20.0,,"2S(4.5,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,610,427,p,0,,39.0,60.0,,"6S(4.5,S),60",,,,,,fuente: transcripcion visual KH0674
+KH0674,611,428,p,0,,40.0,2.0,,"2L(21.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,612,429,p,0,,40.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,613,430,p,0,,40.0,10.0,,"1S(4.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,614,431,p,0,,40.0,10.0,,"1S(5.0,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,615,432,p,0,,40.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,616,433,p,0,,40.0,120.0,,"1S(5.0,S),100;2S(11.5,S),20",,,,,,fuente: transcripcion visual KH0674; subs 2:0.5
+KH0674,617,433s1,p,1,433,40.0,2.0,,"2L(15.0,S),2",,,,,,fuente: transcripcion visual KH0674
+KH0674,618,433s2,p,1,433,40.0,0.0,,,,,,,,fuente: transcripcion visual KH0674; sin nudos
+KH0674,619,434,p,0,,40.0,10.0,,"1S(4.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,620,435,p,0,,40.0,10.0,,"1S(4.5,S),10",,,,,,fuente: transcripcion visual KH0674
+KH0674,621,436,p,0,,40.0,20.0,,"2S(4.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,622,437,p,0,,40.0,20.0,,"2S(4.0,S),20",,,,,,fuente: transcripcion visual KH0674
+KH0674,623,438,p,0,,40.0,40.0,,"4S(5.5,S),40",,,,,,fuente: transcripcion visual KH0674
+KH0675,0,1,p,0,,0.0,551.0,,"5S(9.5,Z),500;5S(14.0,Z),50;1E(19.0,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,1,1s1,p,1,1,0.0,40.0,,"4S(13.5,Z),40",,,,,,fuente: transcripcion visual KH0675
+KH0675,2,2,p,0,,0.0,270.0,,"2S(9.5,Z),200;7S(14.0,Z),70",,,,,,fuente: transcripcion visual KH0675
+KH0675,3,2s1,p,1,2,0.0,37.0,,"3S(4.0,Z),30;7L(20.0,Z),7",,,,,,fuente: transcripcion visual KH0675
+KH0675,4,3,p,0,,0.0,125.0,,"1S(9.5,Z),100;2S(4.0,Z),20;5L(19.5,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,5,3s1,p,1,3,0.0,30.0,,"3S(4.0,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,6,4,p,0,,0.0,295.0,,"2S(9.0,Z),200;9S(13.5,Z),90;5L(19.0,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,7,4s1,p,1,4,0.0,21.0,,"2S(13.5,Z),20;1E(18.5,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,8,4s2,p,1,4,0.0,25.0,,"2S(7.0,Z),20;5L(13.0,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,9,5,p,0,,0.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,10,6,p,0,,0.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,11,7,p,0,,1.0,30.0,,"3S(16.0,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,12,8,p,0,,1.0,20.0,,"2S(15.5,Z),20",,,,,,fuente: transcripcion visual KH0675
+KH0675,13,9,p,0,,1.0,11.0,,"1S(15.5,Z),10;1E(22.5,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,14,10,p,0,,1.0,116.0,,"1S(16.0,Z),100;1E(22.0,Z),10;6L(23.5,Z),6",,,,,,fuente: transcripcion visual KH0675; lectura del ultimo racimo dudosa (¿10L?)
+KH0675,15,11,p,0,,1.0,20.0,,"2S(16.0,Z),20",,,,,,fuente: transcripcion visual KH0675
+KH0675,16,12,p,0,,1.0,10.0,,"1S(16.0,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,17,13,p,0,,1.0,4.0,,"4L(22.5,Z),4",,,,,,fuente: transcripcion visual KH0675
+KH0675,18,14,p,0,,1.0,4.0,,"4L(22.5,Z),4",,,,,,fuente: transcripcion visual KH0675
+KH0675,19,15,p,0,,1.0,7.0,,"7L(22.0,Z),7",,,,,,fuente: transcripcion visual KH0675
+KH0675,20,16,p,0,,1.0,2.0,,"2L(22.0,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,21,17,p,0,,1.0,2.0,,"2L(22.0,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,22,18,p,0,,1.0,1.0,,"1E(22.5,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,23,19,p,0,,1.0,212.0,,"2S(10.0,Z),200;1S(14.5,Z),10;2L(21.5,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,24,19s1,p,1,19,1.0,20.0,,"2S(13.0,Z),20",,,,,,fuente: transcripcion visual KH0675
+KH0675,25,20,p,0,,1.0,134.0,,"1S(10.0,Z),100;3S(15.0,Z),30;4L(21.5,Z),4",,,,,,fuente: transcripcion visual KH0675
+KH0675,26,20s1,p,1,20,1.0,10.0,,"1S(13.5,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,27,21,p,0,,1.0,226.0,,"2S(10.0,Z),200;2S(15.0,Z),20;6L(21.5,Z),6",,,,,,fuente: transcripcion visual KH0675
+KH0675,28,21s1,p,1,21,1.0,10.0,,"1S(14.0,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,29,22,p,0,,1.0,234.0,,"2S(10.0,Z),200;3S(15.5,Z),30;4L(21.5,Z),4",,,,,,fuente: transcripcion visual KH0675
+KH0675,30,22s1,p,1,22,1.0,20.0,,"2S(14.0,Z),20",,,,,,fuente: transcripcion visual KH0675
+KH0675,31,23,p,0,,1.0,174.0,,"1S(10.0,Z),100;7S(15.5,Z),70;4L(21.5,Z),4",,,,,,fuente: transcripcion visual KH0675
+KH0675,32,23s1,p,1,23,1.0,10.0,,"1S(15.0,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,33,24,p,0,,1.0,116.0,,"1S(10.0,Z),100;1S(15.5,Z),10;6L(21.0,Z),6",,,,,,fuente: transcripcion visual KH0675
+KH0675,34,24s1,p,1,24,1.0,10.0,,"1S(14.5,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,35,25,p,0,,1.0,1.0,,"1E(21.0,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,36,26,p,0,,1.0,1.0,,"1E(21.5,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,37,27,p,0,,1.0,1.0,,"1E(20.5,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,38,28,p,0,,1.0,2.0,,"2L(20.5,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,39,29,p,0,,1.0,2.0,,"2L(20.0,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,40,30,p,0,,1.0,1.0,,"1E(19.0,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,41,31,p,0,,2.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,42,32,p,0,,2.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,43,33,p,0,,2.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,44,34,p,0,,2.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,45,35,p,0,,2.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,46,36,p,0,,2.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,47,37,p,0,,2.0,130.0,,"1S(10.0,Z),100;3S(16.5,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,48,37s1,p,1,37,2.0,116.0,,"1S(8.5,Z),100;1S(15.0,Z),10;6L(20.5,Z),6",,,,,,fuente: transcripcion visual KH0675
+KH0675,49,38,p,0,,2.0,73.0,,"7S(15.5,Z),70;3L(21.0,Z),3",,,,,,fuente: transcripcion visual KH0675
+KH0675,50,38s1,p,1,38,2.0,43.0,,"4S(14.5,Z),40;3L(20.0,Z),3",,,,,,fuente: transcripcion visual KH0675
+KH0675,51,39,p,0,,2.0,77.0,,"7S(15.5,Z),70;7L(21.5,Z),7",,,,,,fuente: transcripcion visual KH0675
+KH0675,52,39s1,p,1,39,2.0,44.0,,"4S(15.0,Z),40;4L(20.5,Z),4",,,,,,fuente: transcripcion visual KH0675
+KH0675,53,40,p,0,,2.0,76.0,,"7S(15.0,Z),70;6L(21.5,Z),6",,,,,,fuente: transcripcion visual KH0675
+KH0675,54,40s1,p,1,40,2.0,34.0,,"3S(14.5,Z),30;4L(20.5,Z),4",,,,,,fuente: transcripcion visual KH0675
+KH0675,55,41,p,0,,2.0,36.0,,"3S(15.5,Z),30;6L(22.0,Z),6",,,,,,fuente: transcripcion visual KH0675
+KH0675,56,41s1,p,1,41,2.0,32.0,,"3S(14.0,Z),30;2L(20.0,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,57,42,p,0,,2.0,96.0,,"9S(15.5,Z),90;6L(21.5,Z),6",,,,,,fuente: transcripcion visual KH0675
+KH0675,58,42s1,p,1,42,2.0,32.0,,"3S(13.5,Z),30;2L(20.0,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,59,43,p,0,,2.0,122.0,,"1S(9.5,Z),100;2S(15.5,Z),20;2L(21.0,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,60,43s1,p,1,43,2.0,30.0,,"3S(14.0,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,61,43s1s1,p,2,43s1,2.0,1.0,,"1E(2.5,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,62,44,p,0,,2.0,55.0,,"5S(14.5,Z),50;5L(20.0,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,63,44s1,p,1,44,2.0,10.0,,"1S(13.5,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,64,44s1s1,p,2,44s1,2.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,65,45,p,0,,2.0,45.0,,"4S(15.0,Z),40;5L(21.5,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,66,45s1,p,1,45,2.0,10.0,,"1S(14.0,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,67,45s1s1,p,2,45s1,2.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,68,46,p,0,,2.0,37.0,,"3S(14.5,Z),30;7L(20.5,Z),7",,,,,,fuente: transcripcion visual KH0675
+KH0675,69,46s1,p,1,46,2.0,10.0,,"1S(13.5,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,70,46s1s1,p,2,46s1,2.0,1.0,,"1E(13.0,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,71,47,p,0,,2.0,29.0,,"2S(15.0,Z),20;9L(21.0,Z),9",,,,,,fuente: transcripcion visual KH0675
+KH0675,72,47s1,p,1,47,2.0,10.0,,"1S(14.0,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,73,47s1s1,p,2,47s1,2.0,1.0,,"1E(3.0,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,74,48,p,0,,2.0,27.0,,"2S(15.0,Z),20;7L(21.0,Z),7",,,,,,fuente: transcripcion visual KH0675
+KH0675,75,48s1,p,1,48,2.0,10.0,,"1S(14.0,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,76,48s1s1,p,2,48s1,2.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,77,49,p,0,,3.0,444.0,,"4S(9.0,Z),400;4S(15.0,Z),40;4L(21.0,Z),4",,,,,,fuente: transcripcion visual KH0675
+KH0675,78,49s1,p,1,49,3.0,111.0,,"1S(9.0,Z),100;1S(15.0,Z),10;1E(20.5,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,79,49s1s1,p,2,49s1,3.0,50.0,,"5S(14.5,Z),50",,,,,,fuente: transcripcion visual KH0675; la ficha repite 49s1s2; se renumera a 49s1s1
+KH0675,80,49s1s2,p,2,49s1,3.0,3.0,,"3L(19.5,Z),3",,,,,,fuente: transcripcion visual KH0675; nombre duplicado en la ficha (ver nota)
+KH0675,81,49s1s3,p,2,49s1,3.0,30.0,,"3S(14.0,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,82,49s2,p,1,49,3.0,50.0,,"5S(14.5,Z),50",,,,,,fuente: transcripcion visual KH0675
+KH0675,83,49s3,p,1,49,3.0,2.0,,"2L(20.5,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,84,50,p,0,,3.0,123.0,,"1S(9.0,Z),100;2S(15.0,Z),20;3L(21.0,Z),3",,,,,,fuente: transcripcion visual KH0675
+KH0675,85,50s1,p,1,50,3.0,90.0,,"9S(14.0,Z),90",,,,,,fuente: transcripcion visual KH0675
+KH0675,86,50s1s1,p,2,50s1,3.0,2.0,,"2L(19.0,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,87,50s1s2,p,2,50s1,3.0,30.0,,"3S(13.0,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,88,50s2,p,1,50,3.0,50.0,,"5S(13.5,Z),50",,,,,,fuente: transcripcion visual KH0675
+KH0675,89,50s3,p,1,50,3.0,15.0,,"1S(13.0,Z),10;5L(19.0,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,90,51,p,0,,3.0,171.0,,"1S(9.0,Z),100;7S(15.0,Z),70;1E(21.0,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,91,51s1,p,1,51,3.0,90.0,,"9S(14.0,Z),90",,,,,,fuente: transcripcion visual KH0675
+KH0675,92,51s1s1,p,2,51s1,3.0,4.0,,"4L(19.5,Z),4",,,,,,fuente: transcripcion visual KH0675
+KH0675,93,51s1s2,p,2,51s1,3.0,30.0,,"3S(14.0,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,94,51s2,p,1,51,3.0,60.0,,"6S(14.5,Z),60",,,,,,fuente: transcripcion visual KH0675
+KH0675,95,51s3,p,1,51,3.0,17.0,,"1S(13.5,Z),10;7L(20.0,Z),7",,,,,,fuente: transcripcion visual KH0675
+KH0675,96,52,p,0,,3.0,147.0,,"1S(9.0,Z),100;4S(15.5,Z),40;7L(21.0,Z),7",,,,,,fuente: transcripcion visual KH0675
+KH0675,97,52s1,p,1,52,3.0,80.0,,"8S(14.0,Z),80",,,,,,fuente: transcripcion visual KH0675
+KH0675,98,52s1s1,p,2,52s1,3.0,3.0,,"3L(18.0,Z),3",,,,,,fuente: transcripcion visual KH0675
+KH0675,99,52s1s2,p,2,52s1,3.0,30.0,,"3S(13.0,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,100,52s2,p,1,52,3.0,50.0,,"5S(14.0,Z),50",,,,,,fuente: transcripcion visual KH0675
+KH0675,101,52s3,p,1,52,3.0,18.0,,"1S(13.0,Z),10;8L(19.0,Z),8",,,,,,fuente: transcripcion visual KH0675
+KH0675,102,53,p,0,,3.0,165.0,,"1S(8.5,Z),100;6S(15.0,Z),60;5L(20.5,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,103,53s1,p,1,53,3.0,70.0,,"7S(14.5,Z),70",,,,,,fuente: transcripcion visual KH0675
+KH0675,104,53s1s1,p,2,53s1,3.0,2.0,,"2L(19.0,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,105,53s1s2,p,2,53s1,3.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,106,53s2,p,1,53,3.0,50.0,,"5S(14.0,Z),50",,,,,,fuente: transcripcion visual KH0675
+KH0675,107,54,p,0,,3.0,162.0,,"1S(9.0,Z),100;6S(15.5,Z),60;2L(21.5,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,108,54s1,p,1,54,3.0,82.0,,"8S(14.0,Z),80;2L(19.5,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,109,54s1s1,p,2,54s1,3.0,1.0,,"1E(18.0,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,110,54s1s2,p,2,54s1,3.0,30.0,,"3S(13.5,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,111,54s2,p,1,54,3.0,40.0,,"4S(14.5,Z),40",,,,,,fuente: transcripcion visual KH0675
+KH0675,112,54s3,p,1,54,3.0,18.0,,"1S(14.0,Z),10;8L(20.5,Z),8",,,,,,fuente: transcripcion visual KH0675
+KH0675,113,55,p,0,,3.0,60.0,,"6S(13.0,Z),60",,,,,,fuente: transcripcion visual KH0675
+KH0675,114,55s1,p,1,55,3.0,30.0,,"3S(8.0,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,115,56,p,0,,3.0,14.0,,"1S(16.5,Z),10;4L(20.0,Z),4",,,,,,fuente: transcripcion visual KH0675
+KH0675,116,56s1,p,1,56,3.0,10.0,,"1S(8.0,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,117,57,p,0,,3.0,15.0,,"1S(16.5,Z),10;5L(20.0,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,118,57s1,p,1,57,3.0,55.0,,"5S(7.5,Z),50;5L(14.5,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,119,58,p,0,,3.0,10.0,,"1S(16.5,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,120,58s1,p,1,58,3.0,30.0,,"3S(8.0,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,121,59,p,0,,3.0,30.0,,"3S(13.0,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,122,59s1,p,1,59,3.0,25.0,,"2S(8.5,Z),20;5L(14.5,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,123,60,p,0,,3.0,30.0,,"3S(13.5,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,124,60s1,p,1,60,3.0,14.0,,"1S(8.0,Z),10;4L(13.5,Z),4",,,,,,fuente: transcripcion visual KH0675
+KH0675,125,61,p,0,,3.0,431.0,,"4S(7.5,Z),400;3S(14.5,Z),30;1E(21.0,Z),1",,,,,,"fuente: transcripcion visual KH0675; cuerda superior, atada a 55-60"
+KH0675,126,61s1,p,1,61,3.0,62.0,,"6S(10.0,Z),60;2L(17.5,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,127,61s1s1,p,2,61s1,3.0,61.0,,"6S(9.0,Z),60;1E(17.0,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,128,61s2,p,1,61,3.0,45.0,,"4S(9.5,Z),40;5L(16.5,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,129,61s3,p,1,61,3.0,23.0,,"2S(9.5,Z),20;3L(15.5,Z),3",,,,,,fuente: transcripcion visual KH0675
+KH0675,130,61s4,p,1,61,3.0,162.0,,"1S(6.5,Z),100;6S(9.0,Z),60;2L(15.5,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,131,62,p,0,,3.0,340.0,,"3S(8.0,Z),300;4S(14.0,Z),40",,,,,,fuente: transcripcion visual KH0675
+KH0675,132,63,p,0,,3.0,70.0,,"7S(12.0,Z),70",,,,,,fuente: transcripcion visual KH0675
+KH0675,133,64,p,0,,3.0,120.0,,"1S(8.5,Z),100;2S(14.0,Z),20",,,,,,fuente: transcripcion visual KH0675
+KH0675,134,65,p,0,,3.0,120.0,,"1S(8.5,Z),100;2S(14.5,Z),20",,,,,,fuente: transcripcion visual KH0675
+KH0675,135,66,p,0,,3.0,60.0,,"6S(13.0,Z),60",,,,,,fuente: transcripcion visual KH0675
+KH0675,136,67,p,0,,3.0,50.0,,"5S(13.0,Z),50",,,,,,fuente: transcripcion visual KH0675
+KH0675,137,68,p,0,,4.0,1471.0,,"1S(6.0,Z),1000;4S(6.0,Z),400;7L(12.0,Z),70;1E(19.5,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,138,69,p,0,,4.0,654.0,,"6S(8.0,Z),600;5S(14.0,Z),50;4L(20.0,Z),4",,,,,,fuente: transcripcion visual KH0675
+KH0675,139,70,p,0,,4.0,64.0,,"6S(8.5,Z),60;4L(19.5,Z),4",,,,,,fuente: transcripcion visual KH0675
+KH0675,140,71,p,0,,4.0,617.0,,"6S(8.5,Z),600;1S(14.0,Z),10;7L(19.5,Z),7",,,,,,fuente: transcripcion visual KH0675
+KH0675,141,72,p,0,,4.0,15.0,,"1S(8.0,Z),10;5L(18.5,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,142,73,p,0,,4.0,68.0,,"6S(9.0,Z),60;8L(18.5,Z),8",,,,,,fuente: transcripcion visual KH0675
+KH0675,143,74,p,0,,4.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,144,75,p,0,,4.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,145,76,p,0,,4.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,146,77,p,0,,4.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,147,78,p,0,,4.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,148,79,p,0,,4.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,149,80,p,0,,4.0,69.0,,"6S(9.0,Z),60;9L(20.5,Z),9",,,,,,fuente: transcripcion visual KH0675
+KH0675,150,80s1,p,1,80,4.0,10.0,,"1S(3.0,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,151,81,p,0,,4.0,213.0,,"2S(9.0,Z),200;1S(15.0,Z),10;3L(21.0,Z),3",,,,,,fuente: transcripcion visual KH0675
+KH0675,152,81s1,p,1,81,4.0,10.0,,"1S(7.0,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,153,82,p,0,,4.0,240.0,,"2S(9.0,Z),200;4S(13.5,Z),40",,,,,,fuente: transcripcion visual KH0675
+KH0675,154,82s1,p,1,82,4.0,10.0,,"1S(7.0,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,155,83,p,0,,4.0,240.0,,"2S(8.5,Z),200;4S(14.5,Z),40",,,,,,fuente: transcripcion visual KH0675
+KH0675,156,83s1,p,1,83,4.0,40.0,,"4S(12.5,Z),40",,,,,,fuente: transcripcion visual KH0675
+KH0675,157,84,p,0,,4.0,186.0,,"1S(8.5,Z),100;8S(14.5,Z),80;6L(20.5,Z),6",,,,,,fuente: transcripcion visual KH0675; subs 1:1.0
+KH0675,158,84s1,p,1,84,4.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,159,85,p,0,,4.0,162.0,,"1S(8.5,Z),100;6S(14.5,Z),60;2L(20.5,Z),2",,,,,,fuente: transcripcion visual KH0675; subs 1:1.5
+KH0675,160,85s1,p,1,85,4.0,50.0,,"5S(12.0,Z),50",,,,,,fuente: transcripcion visual KH0675
+KH0675,161,86,p,0,,4.0,58.0,,"5S(14.0,Z),50;8L(19.5,Z),8",,,,,,fuente: transcripcion visual KH0675
+KH0675,162,87,p,0,,4.0,25.0,,"2S(13.0,Z),20;5L(18.5,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,163,88,p,0,,4.0,830.0,,"8S(8.0,Z),800;3S(13.5,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,164,89,p,0,,4.0,28.0,,"2S(8.0,Z),20;8L(20.0,Z),8",,,,,,fuente: transcripcion visual KH0675
+KH0675,165,90,p,0,,4.0,14.0,,"1S(8.0,Z),10;4L(19.0,Z),4",,,,,,fuente: transcripcion visual KH0675
+KH0675,166,91,p,0,,4.0,210.0,,"2S(8.0,Z),200;1S(13.5,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,167,92,p,0,,4.0,30.0,,"3S(14.0,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,168,93,p,0,,4.0,137.0,,"1S(8.5,Z),100;3S(14.0,Z),30;7L(20.0,Z),7",,,,,,fuente: transcripcion visual KH0675
+KH0675,169,94,p,0,,5.0,20.0,,"2S(14.0,Z),20",,,,,,fuente: transcripcion visual KH0675
+KH0675,170,95,p,0,,5.0,5.0,,"5L(20.0,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,171,96,p,0,,5.0,5.0,,"5L(20.0,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,172,97,p,0,,5.0,10.0,,"1S(13.0,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,173,98,p,0,,5.0,10.0,,"1S(13.0,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,174,99,p,0,,5.0,2.0,,"2L(20.0,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,175,100,p,0,,6.0,753.0,,"7S(8.0,Z),700;5S(14.0,Z),50;3L(20.0,Z),3",,,,,,fuente: transcripcion visual KH0675; subs 1:1.5
+KH0675,176,100s1,p,1,100,6.0,10.0,,"1S(6.5,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,177,101,p,0,,6.0,1110.0,,"1S(16.5,Z),1000;1S(8.5,Z),100;1S(19.5,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,178,102,p,0,,6.0,126.0,,"1S(8.0,Z),100;2S(15.5,Z),20;6L(20.0,Z),6",,,,,,fuente: transcripcion visual KH0675; subs 1:1.5
+KH0675,179,102s1,p,1,102,6.0,10.0,,"1S(7.0,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,180,103,p,0,,6.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,181,104,p,0,,6.0,134.0,,"1S(6.5,Z),100;3S(14.0,Z),30;4L(20.5,Z),4",,,,,,fuente: transcripcion visual KH0675; subs 1:1.5
+KH0675,182,104s1,p,1,104,6.0,10.0,,"1S(7.0,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,183,105,p,0,,6.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,184,106,p,0,,6.0,728.0,,"7S(8.0,Z),700;2S(13.5,Z),20;8L(19.0,Z),8",,,,,,fuente: transcripcion visual KH0675; subs 1:1.0
+KH0675,185,106s1,p,1,106,6.0,10.0,,"1S(7.5,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,186,107,p,0,,6.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,187,108,p,0,,6.0,179.0,,"1S(8.5,Z),100;7S(14.0,Z),70;9L(20.0,Z),9",,,,,,fuente: transcripcion visual KH0675; subs 1:1.0
+KH0675,188,108s1,p,1,108,6.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,189,109,p,0,,6.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,190,110,p,0,,6.0,79.0,,"7S(14.0,Z),70;9L(20.0,Z),9",,,,,,fuente: transcripcion visual KH0675; subs 1:1.5
+KH0675,191,110s1,p,1,110,6.0,10.0,,"1S(7.0,Z),10",,,,,,fuente: transcripcion visual KH0675
+KH0675,192,111,p,0,,6.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,193,112,p,0,,7.0,330.0,,"3S(5.0,Z),300;3S(8.0,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,194,113,p,0,,7.0,130.0,,"1S(5.0,Z),100;3S(8.5,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,195,114,p,0,,7.0,480.0,,"4S(8.5,Z),400;8S(14.0,Z),80",,,,,,fuente: transcripcion visual KH0675
+KH0675,196,115,p,0,,7.0,1950.0,,"1S(4.5,Z),1000;9S(13.5,Z),900;5S(19.0,Z),50",,,,,,fuente: transcripcion visual KH0675
+KH0675,197,116,p,0,,7.0,30.0,,"3S(9.0,Z),30",,,,,,fuente: transcripcion visual KH0675
+KH0675,198,117,p,0,,7.0,85.0,,"8S(9.0,Z),80;5L(20.5,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,199,118,p,0,,7.0,440.0,,"4S(8.0,Z),400;4S(14.0,Z),40",,,,,,fuente: transcripcion visual KH0675
+KH0675,200,119,p,0,,7.0,20.0,,"2S(14.0,Z),20",,,,,,fuente: transcripcion visual KH0675
+KH0675,201,120,p,0,,7.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,202,121,p,0,,7.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,203,122,p,0,,7.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,204,123,p,0,,7.0,18.0,,"1S(4.0,Z),10;8L(20.5,Z),8",,,,,,fuente: transcripcion visual KH0675
+KH0675,205,124,p,0,,8.0,14.0,,"1S(8.0,Z),10;4L(18.5,Z),4",,,,,,fuente: transcripcion visual KH0675
+KH0675,206,125,p,0,,8.0,12.0,,"1S(8.5,Z),10;2L(19.0,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,207,126,p,0,,8.0,13.0,,"1S(8.5,Z),10;3L(19.0,Z),3",,,,,,fuente: transcripcion visual KH0675
+KH0675,208,127,p,0,,8.0,13.0,,"1S(9.0,Z),10;3L(19.0,Z),3",,,,,,fuente: transcripcion visual KH0675
+KH0675,209,128,p,0,,8.0,13.0,,"1S(9.0,Z),10;3L(19.0,Z),3",,,,,,fuente: transcripcion visual KH0675
+KH0675,210,129,p,0,,8.0,13.0,,"1S(9.5,Z),10;3L(19.0,Z),3",,,,,,fuente: transcripcion visual KH0675
+KH0675,211,130,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,212,131,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,213,132,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos; muchos nudos sin atar (nota)
+KH0675,214,133,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,215,134,p,0,,8.0,210.0,,"2L(18.0,Z),200;1S(26.5,Z),10",,,,,,"fuente: transcripcion visual KH0675; ficha suma ""2+10"""
+KH0675,216,135,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,217,136,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,218,137,p,0,,8.0,210.0,,"2L(19.5,Z),200;1S(27.5,Z),10",,,,,,"fuente: transcripcion visual KH0675; ficha suma ""2+10"""
+KH0675,219,138,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,220,139,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,221,140,p,0,,8.0,2.0,,"2L(26.0,Z),2",,,,,,fuente: transcripcion visual KH0675
+KH0675,222,141,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,223,142,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,224,143,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,225,144,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,226,145,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,227,146,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,228,147,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,229,148,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,230,149,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,231,150,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,232,151,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,233,152,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,234,153,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,235,154,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,236,155,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,237,156,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,238,157,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,239,158,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,240,159,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,241,160,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,242,161,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,243,162,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,244,163,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,245,164,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,246,165,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,247,166,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,248,167,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,249,168,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,250,169,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,251,170,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,252,171,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,253,172,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,254,173,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,255,174,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,256,175,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,257,176,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,258,177,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,259,178,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos (cada una)
+KH0675,260,179,p,0,,8.0,40.0,,"4S(21.0,Z),40",,,,,,fuente: transcripcion visual KH0675
+KH0675,261,180,p,0,,8.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,262,181,p,0,,9.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,263,182,p,0,,9.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,264,183,p,0,,9.0,1380.0,,"1S(4.5,Z),1000;3S(9.5,Z),300;8S(20.5,Z),80",,,,,,fuente: transcripcion visual KH0675; ficha: 1380
+KH0675,265,184,p,0,,9.0,1190.0,,"1S(4.0,Z),1000;1S(9.0,Z),100;9S(15.0,Z),90",,,,,,fuente: transcripcion visual KH0675; ficha: 1190
+KH0675,266,185,p,0,,9.0,1758.0,,"1S(4.0,Z),1000;7S(9.0,Z),700;5S(15.0,Z),50;8L(21.0,Z),8",,,,,,fuente: transcripcion visual KH0675; ficha: 1758
+KH0675,267,186,p,0,,9.0,791.0,,"7S(9.5,Z),700;9S(15.0,Z),90;1E(22.5,Z),1",,,,,,fuente: transcripcion visual KH0675
+KH0675,268,187,p,0,,9.0,760.0,,"7S(10.0,Z),700;6S(14.5,Z),60",,,,,,fuente: transcripcion visual KH0675
+KH0675,269,188,p,0,,9.0,1867.0,,"1S(1.0,Z),1000;8S(5.0,Z),800;6S(17.0,Z),60;7L(21.5,Z),7",,,,,,fuente: transcripcion visual KH0675
+KH0675,270,189,p,0,,9.0,2755.0,,"2S(4.0,Z),2000;7S(9.5,Z),700;5S(16.0,Z),50;5L(19.0,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,271,190,p,0,,9.0,57.0,,"5S(6.5,Z),50;7L(14.5,Z),7",,,,,,fuente: transcripcion visual KH0675
+KH0675,272,191,p,0,,9.0,284.0,,"2S(4.0,Z),200;8S(15.0,Z),80;4L(23.5,Z),4",,,,,,fuente: transcripcion visual KH0675
+KH0675,273,192,p,0,,9.0,183.0,,"1S(4.0,Z),100;8S(14.5,Z),80;3L(21.0,Z),3",,,,,,fuente: transcripcion visual KH0675
+KH0675,274,193,p,0,,9.0,1136.0,,"1S(4.5,Z),1000;1S(9.5,Z),100;3S(16.5,Z),30;6L(23.5,Z),6",,,,,,fuente: transcripcion visual KH0675
+KH0675,275,194,p,0,,9.0,1695.0,,"1S(4.0,Z),1000;6S(9.0,Z),600;9S(14.5,Z),90;5L(21.5,Z),5",,,,,,fuente: transcripcion visual KH0675
+KH0675,276,195,p,0,,9.0,853.0,,"8S(10.0,Z),800;5S(15.5,Z),50;3L(22.0,Z),3",,,,,,fuente: transcripcion visual KH0675
+KH0675,277,196,p,0,,9.0,140.0,,"1S(3.5,Z),100;4S(17.0,Z),40",,,,,,fuente: transcripcion visual KH0675
+KH0675,278,197,p,0,,9.0,15980.0,,"1S(1.0,Z),10000;5S(4.0,Z),5000;9S(9.0,Z),900;8S(14.5,Z),80",,,,,,fuente: transcripcion visual KH0675
+KH0675,279,198,p,0,,9.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,280,199,p,0,,9.0,56.0,,"5S(5.0,Z),50;6L(22.5,Z),6",,,,,,fuente: transcripcion visual KH0675
+KH0675,281,200,p,0,,9.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,282,201,p,0,,9.0,1486.0,,"1S(4.0,Z),1000;4S(10.0,Z),400;8S(15.5,Z),80;6L(21.0,Z),6",,,,,,fuente: transcripcion visual KH0675
+KH0675,283,202,p,0,,9.0,0.0,,,,,,,,fuente: transcripcion visual KH0675; sin nudos
+KH0675,284,203,p,0,,9.0,0.0,,,,,,,,"fuente: transcripcion visual KH0675; rota, desprendida del cordon principal (nota)"
+KH0676,0,1,p,0,,,66.0,516.0,"5S(3.5,U),500;1S(20.0,U),10;6L(31.5,U),6",YB,z/s,r,39.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 516; varios racimos S: hoja=66, jerarquica=516"
+KH0676,1,2,p,0,,,111.0,3180.0,"3S(5.0,U),3000;1E(17.0,U),100;8S(26.0,U),80",YB,z/s,r,39.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3180; varios racimos S: hoja=111, jerarquica=3180"
+KH0676,2,3,p,0,,,10.0,451.0,"4L(2.0,U),400;5L(14.0,U),50;1E(31.5,U),1",YB,z/s,r,41.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 451
+KH0676,3,4,p,0,,,19.0,514.0,"5L(7.0,U),500;1S(18.5,U),10;4L(30.0,U),4",YB,z/s,r,37.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 514
+KH0676,4,5,p,0,,,11.0,461.0,"4L(6.0,U),400;6L(19.0,U),60;1E(27.0,U),1",YB,z/s,r,40.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 461
+KH0676,5,6,p,0,,,37.0,3133.0,"3S(7.5,U),3000;1E(9.5,U),100;3L(22.0,U),30;3L(31.5,U),3",YB:AB,z/s,r,37.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3133
+KH0676,6,6s1,p,1,6,,51.0,141.0,"1S(3.0,U),100;4S(18.0,U),40;1E(30.0,U),1",VB:W,z/s,,39.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 141; varios racimos S: hoja=51, jerarquica=141"
+KH0676,7,7,p,0,,,21.0,8310.0,"8L(5.5,U),8000;3L(18.5,U),300;1S(28.0,U),10",YB,z/s,r,35.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 8310
+KH0676,8,8,p,0,,,82.0,874.0,"8L(6.0,U),800;7S(18.0,U),70;4L(36.0,U),4",YY,z/s,r,46.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 874
+KH0676,9,8s1,p,1,8,,65.0,614.0,"6S(4.0,U),600;1E(17.0,U),10;4L(26.5,U),4",DB:W,z/s,,31.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 614
+KH0676,10,8s2,p,1,8,,10.0,10.0,"1S(9.0,U),10",YY,z/s,,9.5,B,fuente: transcripcion visual KH0676
+KH0676,11,9,p,0,,,7.0,151.0,"1E(8.0,U),100;5L(15.0,U),50;1E(33.5,U),1",YB:AB,z/s,r,41.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 151
+KH0676,12,9s1,p,1,9,,22.0,7510.0,"7L(5.0,U),7000;5L(21.0,U),500;1S(30.0,U),10",VB:YB,z/s,,37.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 7510
+KH0676,13,10,p,0,,,10.0,118.0,"1E(4.5,U),100;1E(17.5,U),10;8L(27.5,U),8",YB,z/s,r,36.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 118
+KH0676,14,10s1,p,1,10,,56.0,5150.0,"5L(6.5,U),5000;1E(21.0,U),100;5S(37.5,U),50",DB:W,z/s,,44.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 5150
+KH0676,15,11,p,0,,,22.0,6610.0,"6L(3.0,U),6000;6L(18.0,U),600;1S(30.5,U),10",YB,z/s,r,35.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 6610
+KH0676,16,11s1,p,1,11,,21.0,4710.0,"4L(6.0,U),4000;7L(19.5,U),700;1S(30.0,U),10",YB,z/s,,36.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4710
+KH0676,17,12,p,0,,,5.0,131.0,"1E(7.0,U),100;3L(22.5,U),30;1E(34.0,U),1",NB,z/s,r,40.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 131
+KH0676,18,12s1,p,1,12,,10.0,415.0,"4L(5.0,U),400;1E(18.0,U),10;5L(28.0,U),5",AB:W,z/s,,37.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 415
+KH0676,19,13,p,0,,,41.0,6530.0,"6L(4.0,U),6000;5L(24.0,U),500;3S(33.5,U),30",YB,z/s,r,40.0,K,fuente: transcripcion visual KH0676; tipo SP tratado como S; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 6530
+KH0676,20,13s1,p,1,13,,68.0,644.0,"6S(5.0,U),600;4L(20.5,U),40;4L(29.5,U),4",DB:W,z/s,,34.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 644
+KH0676,21,14,p,0,,,25.0,8710.0,"8L(3.0,U),8000;7L(16.0,U),700;1S(24.5,U),10",YB,z/s,r,29.0,,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 8710
+KH0676,22,14s1,p,1,14,,0.0,0.0,,YB, - / - ,,0.0,B,fuente: transcripcion visual KH0676
+KH0676,23,15,p,0,,,7.0,511.0,"5L(3.0,U),500;1E(16.5,U),10;1E(28.0,U),1",YB,z/s,r,41.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 511
+KH0676,24,16,p,0,,,17.0,314.0,"3E(8.0,U),300;1S(17.5,U),10;4L(28.0,U),4",YB,z/s,r,36.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 314
+KH0676,25,17,p,0,,,9.0,711.0,"7L(5.0,U),700;1E(15.5,U),10;1E(26.5,U),1",YB,z/s,r,38.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 711
+KH0676,26,18,p,0,,,60.0,1140.0,"1S(5.0,U),1000;1S(17.0,U),100;4S(31.0,U),40",YB:BY,z/s,r,41.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1140; varios racimos S: hoja=60, jerarquica=1140"
+KH0676,27,18s1,p,1,18,,22.0,913.0,"9L(4.5,U),900;1S(19.0,U),10;3L(32.0,U),3",VB:YB,z/s,,38.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 913
+KH0676,28,19,p,0,,,30.0,1110.0,"1S(8.0,U),1000;1S(23.0,U),100;1S(39.0,U),10",YB,z/s,r,50.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1110; varios racimos S: hoja=30, jerarquica=1110"
+KH0676,29,20,p,0,,,58.0,7150.0,"7L(5.5,U),7000;1E(21.0,U),100;5S(36.5,U),50",YY,z/s,r,50.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 7150
+KH0676,30,20s1,p,1,20,,17.0,566.0,"5L(5.5,U),500;6L(20.0,U),60;6L(31.5,U),6",DB:W,z/s,,36.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 566
+KH0676,31,20s2,p,1,20,,24.0,726.0,"7L(4.0,U),700;1E(16.0,U),10;16L(25.0,U),16",YY,z/s,,33.5,R,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 726
+KH0676,32,21,p,0,,,10.0,451.0,"4L(4.5,U),400;5L(18.5,U),50;1E(31.5,U),1",VB,z/s,r,39.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 451
+KH0676,33,21s1,p,1,21,,4.0,211.0,"2L(5.5,U),200;1E(21.0,U),10;1E(34.5,U),1",NB,z/s,,43.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 211
+KH0676,34,22,p,0,,,81.0,1170.0,"1S(6.0,U),1000;1E(23.5,U),100;7S(34.0,U),70",YB,z/s,r,43.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1170; varios racimos S: hoja=81, jerarquica=1170"
+KH0676,35,22s1,p,1,22,,12.0,111.0,"1S(4.0,U),100;1E(9.0,U),10;1E(15.0,U),1",DB:W,s/z,,18.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 111
+KH0676,36,23,p,0,,,47.0,227.0,"2S(9.5,U),200;2S(22.0,U),20;7L(34.0,U),7",YB,z/s,r,41.5,K,"fuente: transcripcion visual KH0676; tipo SP tratado como S; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 227; varios racimos S: hoja=47, jerarquica=227"
+KH0676,37,24,p,0,,,7.0,313.0,"3L(4.0,U),300;1E(19.5,U),10;3L(37.0,U),3",YB,z/s,r,43.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 313
+KH0676,38,25,p,0,,,91.0,181.0,"1S(5.0,U),100;8S(16.5,U),80;1E(30.5,U),1",YB,z/s,r,39.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 181; varios racimos S: hoja=91, jerarquica=181"
+KH0676,39,26,p,0,,,62.0,1160.0,"1E(9.5,U),1000;1E(20.0,U),100;6S(31.5,U),60",YB,z/s,r,41.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1160
+KH0676,40,27,p,0,,,10.0,334.0,"3L(3.0,U),300;3L(20.0,U),30;4L(31.5,U),4",YB,z/s,r,39.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 334
+KH0676,41,28,p,0,,,15.0,771.0,"7L(5.5,U),700;7L(18.5,U),70;1E(29.5,U),1",YB,z/s,r,37.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 771
+KH0676,42,28s1,p,1,28,,54.0,4140.0,"4L(2.0,U),4000;1S(15.0,U),100;4S(30.0,U),40",DB:W,z/s,,38.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4140; varios racimos S: hoja=54, jerarquica=4140"
+KH0676,43,29,p,0,,,57.0,6150.0,"6L(9.0,U),6000;1E(20.5,U),100;5S(31.0,U),50",YB,z/s,r,40.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 6150
+KH0676,44,30,p,0,,,30.0,1110.0,"1S(7.5,U),1000;1S(20.5,U),100;1S(36.0,U),10",YB,z/s,r,50.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1110; varios racimos S: hoja=30, jerarquica=1110"
+KH0676,45,31,p,0,,,32.0,11120.0,"1E(8.0,U),10000;1S(26.5,U),1000;1E(40.0,U),100;2S(40.5,U),20",YB,z/s,r,47.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 11120; varios racimos S: hoja=32, jerarquica=11120"
+KH0676,46,31s1,p,1,31,,16.0,601.0,"5L(2.5,U),500;10L(16.5,U),100;1E(25.5,U),1",DB:W,z/s,,29.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 601
+KH0676,47,32,p,0,,,73.0,613.0,"6S(5.0,U),600;1S(21.0,U),10;3L(39.0,U),3",YB,z/s,r,44.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 613; varios racimos S: hoja=73, jerarquica=613"
+KH0676,48,33,p,0,,,4.0,112.0,"1E(9.0,U),100;1E(22.0,U),10;2L(40.0,U),2",YB,z/s,r,50.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 112
+KH0676,49,34,p,0,,,11.0,119.0,"1E(5.0,U),100;1E(14.0,U),10;9L(25.0,U),9",YB,z/s,r,36.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 119
+KH0676,50,35,p,0,,,17.0,791.0,"7L(4.5,U),700;9L(18.0,U),90;1E(28.0,U),1",YB,z/s,r,34.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 791
+KH0676,51,35s1,p,1,35,,13.0,652.0,"6L(3.5,U),600;5L(20.5,U),50;2L(29.5,U),2",DB:W,z/s,,33.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 652
+KH0676,52,36,p,0,,,44.0,4130.0,"4L(4.0,U),4000;1S(17.5,U),100;3S(30.5,U),30",BY:YB,z/s,r,40.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4130; varios racimos S: hoja=44, jerarquica=4130"
+KH0676,53,36s1,p,1,36,,59.0,554.0,"5L(4.0,U),500;5S(15.0,U),50;4L(28.5,U),4",VB:YB,z/s,,34.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 554
+KH0676,54,37,p,0,,,48.0,3117.0,"3S(5.5,U),3000;1E(8.0,U),100;1S(19.0,U),10;7L(29.5,U),7",YB,z/s,r,38.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3117; varios racimos S: hoja=48, jerarquica=3117"
+KH0676,55,38,p,0,,,52.0,4111.0,"4S(3.0,U),4000;1E(5.5,U),100;1S(15.5,U),10;1E(29.5,U),1",YB,z/s,r,39.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4111; varios racimos S: hoja=52, jerarquica=4111"
+KH0676,56,39,p,0,,,75.0,723.0,"7S(7.0,U),700;2L(22.0,U),20;3L(35.0,U),3",YB,z/s,r,42.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 723
+KH0676,57,39s1,p,1,39,,12.0,453.0,"4L(2.5,U),400;5L(19.0,U),50;3L(32.0,U),3",DB:W,z/s,,39.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 453
+KH0676,58,40,p,0,,,35.0,7820.0,"7L(3.0,U),7000;8L(19.5,U),800;2S(31.0,U),20",YB,z/s,r,37.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 7820
+KH0676,59,40s1,p,1,40,,66.0,651.0,"6S(4.0,U),600;5L(18.5,U),50;1E(30.5,U),1",YB,z/s,,38.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 651
+KH0676,60,41,p,0,,,65.0,314120.0,"3L(4.0,U),300000;1E(16.0,U),10000;4S(16.5,U),4000;1E(25.0,U),100;2S(25.5,U),20",YB/W,z/s,r,36.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 314120; varios racimos S: hoja=65, jerarquica=314120"
+KH0676,61,41s1,p,1,41,,21.0,174.0,"1S(5.0,U),100;7L(17.0,U),70;4L(32.5,U),4",DB:W,z/s,,40.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 174
+KH0676,62,41s2,p,1,41,,109.0,61840.0,"6S(6.0,U),60000;1E(15.0,U),1000;8L(23.5,U),800;4S(33.0,U),40",YY,z/s,,39.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 61840; varios racimos S: hoja=109, jerarquica=61840"
+KH0676,63,41s2s1,p,2,41s2,,32.0,4820.0,"4L(3.5,U),4000;8L(16.0,U),800;2S(26.5,U),20",YB/W,z/s,,36.0,K,fuente: transcripcion visual KH0676; tipo SP tratado como S; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4820
+KH0676,64,42,p,0,,,10.0,613.0,"6L(5.5,U),600;1E(15.0,U),10;3L(26.5,U),3",YB,z/s,r,37.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 613
+KH0676,65,43,p,0,,,90.0,3330.0,"3S(5.0,U),3000;3S(17.5,U),300;3S(32.0,U),30",YB,z/s,r,43.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3330; varios racimos S: hoja=90, jerarquica=3330"
+KH0676,66,44,p,0,,,27.0,117.0,"1S(7.5,U),100;1S(20.5,U),10;7L(34.0,U),7",YB,z/s,r,44.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 117; varios racimos S: hoja=27, jerarquica=117"
+KH0676,67,45,p,0,,,121.0,1210.0,"1E(7.5,U),1000;1S(20.5,U),100;11S(29.0,U),110",YB,z/s,r,38.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1210; varios racimos S: hoja=121, jerarquica=1210"
+KH0676,68,46,p,0,,,11.0,614.0,"6L(4.0,U),600;1E(13.5,U),10;4L(29.5,U),4",YB,z/s,r,38.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 614
+KH0676,69,47,p,0,,,41.0,46130.0,"4L(7.0,U),40000;6L(22.0,U),6000;1E(31.0,U),100;3S(31.5,U),30",YB,z/s,r,44.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 46130
+KH0676,70,48,p,0,,,27.0,1710.0,"1S(5.0,U),1000;7L(21.5,U),700;1S(31.0,U),10",YB:YB~B,z/s,r,37.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1710; varios racimos S: hoja=27, jerarquica=1710"
+KH0676,71,48s1,p,1,48,,93.0,813.0,"8S(5.0,U),800;1S(17.0,U),10;3L(26.5,U),3",DB:W,z/s,,31.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 813; varios racimos S: hoja=93, jerarquica=813"
+KH0676,72,49,p,0,,,8.0,332.0,"3L(9.0,U),300;3L(22.5,U),30;2L(33.5,U),2",YB,z/s,r,42.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 332
+KH0676,73,49s1,p,1,49,,21.0,1011.0,"10L(4.5,U),1000;1S(10.5,U),10;1E(22.0,U),1",DB:W,z/s,,29.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1011
+KH0676,74,50,p,0,,,104.0,4640.0,"4L(2.5,U),4000;6S(19.5,U),600;4S(32.0,U),40",W/YB:YB~B,z/s,r,39.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4640; varios racimos S: hoja=104, jerarquica=4640"
+KH0676,75,51,p,0,,,9.0,333.0,"3L(4.0,U),300;3L(18.0,U),30;3L(30.0,U),3",YB,z/s,r,36.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 333
+KH0676,76,52,p,0,,,17.0,314.0,"3L(3.5,U),300;1S(16.0,U),10;4L(36.0,U),4",YB:BY,z/s,r,42.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 314
+KH0676,77,52s1,p,1,52,,58.0,553.0,"5S(5.5,U),500;5L(21.0,U),50;3L(30.0,U),3",VB:W,z/s,,35.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 553
+KH0676,78,53,p,0,,,19.0,316.0,"3L(10.0,U),300;1S(28.5,U),10;6L(39.0,U),6",YB,z/s,r,43.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 316
+KH0676,79,54,p,0,,,53.0,512.0,"5S(3.0,U),500;1E(16.0,U),10;2L(29.0,U),2",VB,z/s,r,36.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 512
+KH0676,80,54s1,p,1,54,,18.0,513.0,"5L(4.0,U),500;1S(16.5,U),10;3L(28.5,U),3",NB,z/s,,39.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 513
+KH0676,81,55,p,0,,,11.0,551.0,"5L(3.0,U),500;5L(18.0,U),50;1E(30.5,U),1",YB,z/s,r,39.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 551
+KH0676,82,55s1,p,1,55,,16.0,1051.0,"10L(3.0,U),1000;5L(19.5,U),50;1E(28.0,U),1",DB:W,z/s,,32.5,,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1051
+KH0676,83,56,p,0,,,11.0,533.0,"5L(2.5,U),500;3L(20.5,U),30;3L(34.5,U),3",YB,z/s,,40.0, ,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 533
+KH0676,84,57,p,0,,,46.0,5140.0,"5L(10.5,U),5000;1E(23.0,U),100;4S(30.0,U),40",YB,z/s,r,37.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 5140
+KH0676,85,58,p,0,,,110.0,3530.0,"3S(5.0,U),3000;5S(15.5,U),500;3S(26.5,U),30",YB:YB~B,z/s,r,36.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3530; varios racimos S: hoja=110, jerarquica=3530"
+KH0676,86,59,p,0,,,13.0,553.0,"5L(4.5,U),500;5L(18.0,U),50;3L(31.0,U),3",YB,z/s,r,40.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 553
+KH0676,87,60,p,0,,,12.0,111.0,"1E(7.0,U),100;1S(24.0,U),10;1E(37.5,U),1",YB:RL,z/s,r,45.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 111
+KH0676,88,60s1,p,1,60,,64.0,4150.0,"4L(2.5,U),4000;1S(18.0,U),100;5S(32.0,U),50",W:VB,z/s,,40.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4150; varios racimos S: hoja=64, jerarquica=4150"
+KH0676,89,61,p,0,,,32.0,1121.0,"1S(6.0,U),1000;1E(17.5,U),100;2S(23.0,U),20;1E(29.5,U),1",YB,z/s,r,43.0,K,"fuente: transcripcion visual KH0676; tipo SP tratado como S; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1121; varios racimos S: hoja=32, jerarquica=1121"
+KH0676,90,62,p,0,,,11.0,632.0,"6L(4.0,U),600;3L(21.5,U),30;2L(35.5,U),2",YB:W,z/s,r,42.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 632
+KH0676,91,62s1,p,1,62,,83.0,3170.0,"3L(6.5,U),3000;1S(24.0,U),100;7S(34.5,U),70",DB:W,z/s,,42.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3170; varios racimos S: hoja=83, jerarquica=3170"
+KH0676,92,63,p,0,,,5.0,131.0,"1E(4.5,U),100;3L(26.5,U),30;1E(36.5,U),1",YB,z/s,r,43.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 131
+KH0676,93,63s1,p,1,63,,16.0,115.0,"1E(5.5,U),100;1S(18.5,U),10;5L(28.0,U),5",YB:YB~B,z/s,,41.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 115
+KH0676,94,64,p,0,,,8.0,314.0,"3L(6.5,U),300;1E(19.0,U),10;4L(32.5,U),4",YB~YB/W,z/s,r,42.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 314
+KH0676,95,64s1,p,1,64,,81.0,1170.0,"1S(7.0,U),1000;1E(14.5,U),100;7S(29.5,U),70",DB:W,z/s,,37.5,,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1170; varios racimos S: hoja=81, jerarquica=1170"
+KH0676,96,65,p,0,,,56.0,452.0,"4L(4.5,U),400;5S(20.0,U),50;2L(33.5,U),2",YB:RL,z/s,r,41.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 452
+KH0676,97,65s1,p,1,65,,25.0,1510.0,"1S(6.5,U),1000;5L(25.0,U),500;1S(36.0,U),10",YB:RL,z/s,,45.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1510; varios racimos S: hoja=25, jerarquica=1510"
+KH0676,98,65s1s1,p,2,65s1,,63.0,513.0,"5S(4.5,U),500;1S(19.0,U),10;3L(31.0,U),3",W:VB,z/s,,37.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 513; varios racimos S: hoja=63, jerarquica=513"
+KH0676,99,65s2,p,1,65,,20.0,5510.0,"5L(5.0,U),5000;5L(17.5,U),500;1S(31.5,U),10",YB~YB/W,z/s,,37.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 5510
+KH0676,100,65s2s1,p,2,65s2,,9.0,612.0,"6L(6.5,U),600;1E(17.5,U),10;2L(30.0,U),2",DB:W,z/s,,37.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 612
+KH0676,101,65s2s1s1,p,3,65s2s1,,13.0,616.0,"6L(9.5,U),600;1E(21.5,U),10;6L(33.0,U),6",W/YB,z/s,,42.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 616
+KH0676,102,65s3,p,1,65,,8.0,413.0,"4L(4.5,U),400;1E(21.5,U),10;3L(36.0,U),3",YB~YB/W,z/s,,41.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 413
+KH0676,103,65s3s1,p,2,65s3,,34.0,1231.0,"1S(7.5,U),1000;2S(8.0,U),200;3E(18.0,U),30;1E(30.5,U),1",W/YB,z/s,,42.0,K,"fuente: transcripcion visual KH0676; tipo SP tratado como S; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1231; varios racimos S: hoja=34, jerarquica=1231"
+KH0676,104,65s3s1s1,p,3,65s3s1,,12.0,714.0,"7L(4.5,U),700;1E(20.5,U),10;4L(35.0,U),4",DB:W,z/s,,40.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 714
+KH0676,105,65s4,p,1,65,,4.0,211.0,"2L(6.5,U),200;1E(18.0,U),10;1E(32.0,U),1",YB~YB/W,z/s,,44.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 211
+KH0676,106,65s4s1,p,2,65s4,,27.0,3420.0,"3L(5.0,U),3000;4L(18.5,U),400;2S(30.5,U),20",VB:W,z/s,,37.5,K,fuente: transcripcion visual KH0676; tipo SP tratado como S; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3420
+KH0676,107,65s5,p,1,65,,16.0,5110.0,"5L(6.0,U),5000;1E(16.0,U),100;1S(26.5,U),10",YB~YB/W,z/s,,37.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 5110
+KH0676,108,65s5s1,p,2,65s5,,28.0,2116.0,"2S(6.5,U),2000;1E(7.5,U),100;1E(20.5,U),10;6L(31.5,U),6",W/YB,z/s,,41.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 2116
+KH0676,109,65s5s1s1,p,3,65s5s1,,46.0,541.0,"5L(10.0,U),500;4S(18.5,U),40;1E(33.5,U),1",DB:W,z/s,,38.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 541
+KH0676,110,65s6,p,1,65,,100.0,5410.0,"5S(4.5,U),5000;4S(19.5,U),400;1S(32.0,U),10",YB~YB/W,z/s,,39.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 5410; varios racimos S: hoja=100, jerarquica=5410"
+KH0676,111,65s6s1,p,2,65s6,,61.0,2140.0,"2S(3.0,U),2000;1E(17.0,U),100;4S(30.5,U),40",YB:RL,z/s,,40.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 2140; varios racimos S: hoja=61, jerarquica=2140"
+KH0676,112,65s6s1s1,p,3,65s6s1,,22.0,175.0,"1S(3.0,U),100;7L(8.5,U),70;5L(24.5,U),5",YB,z/s,,38.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 175
+KH0676,113,65s6s1s1s1,p,4,65s6s1s1,,14.0,131.0,"1S(5.0,U),100;3L(21.5,U),30;1E(36.5,U),1",YB~YB/W,z/s,,45.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 131
+KH0676,114,65s7,p,1,65,,60.0,1410.0,"1S(7.0,U),1000;4S(16.5,U),400;1S(34.5,U),10",YB~YB/W,z/s,,46.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1410; varios racimos S: hoja=60, jerarquica=1410"
+KH0676,115,65s7s1,p,2,65s7,,37.0,3115.0,"3S(6.5,U),3000;1E(8.0,U),100;1E(17.5,U),10;5L(31.5,U),5",YB/W,z/s,,39.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3115
+KH0676,116,65s7s1s1,p,3,65s7s1,,19.0,118.0,"1S(10.0,U),100;1E(23.5,U),10;8L(35.0,U),8",DB:W,z/s,,41.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 118
+KH0676,117,65s8,p,1,65,,16.0,5110.0,"5L(8.5,U),5000;1E(21.0,U),100;1S(33.5,U),10",YB~YB/W,z/s,,42.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 5110
+KH0676,118,65s8s1,p,2,65s8,,15.0,546.0,"5L(6.0,U),500;4L(18.5,U),40;6L(28.5,U),6",W,z/s,,37.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 546
+KH0676,119,65s8s1s1,p,3,65s8s1,,110.0,1910.0,"1S(7.0,U),1000;9S(15.0,U),900;1S(26.0,U),10",DB:W,z/s,,36.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1910; varios racimos S: hoja=110, jerarquica=1910"
+KH0676,120,65s9,p,1,65,,19.0,3610.0,"3L(4.5,U),3000;6L(19.5,U),600;1S(30.0,U),10",YB~YB/W,z/s,,39.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3610
+KH0676,121,65s9s1,p,2,65s9,,10.0,127.0,"1E(8.0,U),100;2E(22.5,U),20;7L(35.0,U),7",W,z/s,,42.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 127
+KH0676,122,65s9s1s1,p,3,65s9s1,,14.0,554.0,"5L(5.5,U),500;5L(21.0,U),50;4L(33.0,U),4",W,z/s,,40.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 554
+KH0676,123,65s9s1s1s1,p,4,65s9s1s1,,13.0,634.0,"6L(4.5,U),600;3L(17.0,U),30;4L(31.0,U),4",DB:W,z/s,,35.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 634
+KH0676,124,65s10,p,1,65,,34.0,4120.0,"4L(6.0,U),4000;1S(17.5,U),100;2S(30.0,U),20",YB~YB/W,z/s,,42.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4120; varios racimos S: hoja=34, jerarquica=4120"
+KH0676,125,65s10s1,p,2,65s10,,17.0,2411.0,"2E(6.0,U),2000;4E(15.5,U),400;1S(17.5,U),10;1E(27.5,U),1",W,z/s,,36.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 2411
+KH0676,126,65s10s1s1,p,3,65s10s1,,18.0,1431.0,"14L(3.5,U),1400;3L(20.0,U),30;1E(30.0,U),1",W,z/s,,37.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1431
+KH0676,127,65s11,p,1,65,,15.0,4110.0,"4L(5.0,U),4000;1E(16.0,U),100;1S(32.5,U),10",YB~YB/W,z/s,,43.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4110
+KH0676,128,65s11s1,p,2,65s11,,15.0,114.0,"1E(8.5,U),100;1S(22.0,U),10;4L(34.5,U),4",YB:RL,z/s,,43.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 114
+KH0676,129,65s11s1s1,p,3,65s11s1,,53.0,3410.0,"3L(4.0,U),3000;4S(21.5,U),400;1S(32.0,U),10",VB:W,z/s,,38.5,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3410; varios racimos S: hoja=53, jerarquica=3410"
+KH0676,130,65s12,p,1,65,,6.0,231.0,"2L(3.5,U),200;3L(19.0,U),30;1E(32.0,U),1",YB~YB:W,z/s,,41.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 231
+KH0676,131,65s13,p,1,65,,5.0,113.0,"1E(7.0,U),100;1E(20.0,U),10;3L(36.5,U),3",YB~YB:W,z/s,,46.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 113
+KH0676,132,65s14,p,1,65,,16.0,115.0,"1S(6.5,U),100;1E(21.5,U),10;5L(36.5,U),5",YB~YB:W,z/s,,43.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 115
+KH0676,133,65s14s1,p,2,65s14,,75.0,5610.0,"5L(3.5,U),5000;6S(15.0,U),600;1S(27.0,U),10",VB,z/s,,33.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 5610; varios racimos S: hoja=75, jerarquica=5610"
+KH0676,134,65s14s1s1,p,3,65s14s1,,17.0,143.0,"1S(4.5,U),100;4L(18.0,U),40;3L(32.5,U),3",NB,z/s,,40.5,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 143
+KH0676,135,65s15,p,1,65,,23.0,3110.0,"3L(5.5,U),3000;1S(19.5,U),100;1S(38.5,U),10",YB~YB/W,z/s,,48.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3110; varios racimos S: hoja=23, jerarquica=3110"
+KH0676,136,65s16,p,1,65,,18.0,4410.0,"4L(5.5,U),4000;4L(18.0,U),400;1S(34.5,U),10",YB~YB/W,z/s,,40.0,K,fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4410
+KH0676,137,65s17,p,1,65,,62.0,2510.0,"2E(9.5,U),2000;5S(22.5,U),500;1S(32.0,U),10",YB~YB/W,z/s,,41.0,K,"fuente: transcripcion visual KH0676; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 2510; varios racimos S: hoja=62, jerarquica=2510"

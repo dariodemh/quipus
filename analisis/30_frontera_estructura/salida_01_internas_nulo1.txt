@@ -1,0 +1,10 @@
+0 AS002 0
+20 AS129 2
+40 HP004 2
+60 KH0350 4
+80 UR016 10
+100 UR093 14
+120 UR1162A 15
+140 UR154 17
+160 UR216 21
+listo analisis\30_frontera_estructura\internas_nulo1.csv 22 s

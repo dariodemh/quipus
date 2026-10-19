@@ -1,0 +1,8 @@
+prueba,p,p_holm,detalle
+P1b_genero,0.0001999600079984003,0.0013997200559888023,chi2=1950; niveles=10; quipus=626
+P2a_total_primero,0.0001999600079984003,0.0013997200559888023,101/168 (esperado 49.8)
+P3_discrepancias_UR278,0.0001999600079984003,0.0013997200559888023,"filas=24; exactas=11; un-digito=7; fallo=0.54; nulo exactas=0.23, un-digito=5.56"
+P1a_archivo,0.0007998400319936012,0.003199360127974405,chi2=1340; niveles=11; quipus=493
+P4_cuota_suma_de_dos,0.23255348930213957,0.6976604679064187,"obs=13; nulo media=10.83; quipus=[('JC010', 10, 10, 1), ('UR255', 15, 24, 0), ('UR256', 10, 21, 0), ('UR264', 20, 11, 3), ('UR266', 47, 23, 0), ('UR267A', 15, 25, 0), ('UR267B', 10, 26, 0), ('UR268', 208, 19, 0), ('UR269', 46, 14, 0), ('UR272', 10, 9, 8), ('UR274A', 30, 17, 1), ('UR274B', 17, 12, 0), ('UR275', 47, 24, 0)]"
+P2c_genero_SUM_vs_resto,0.41151769646070785,0.8230353929214157,"dif=-0.47; SUM 3 quipus, resto 76; SUM(prim-ult)=0.00 resto=0.47"
+P2b_total_ultimo,1.0,1,25/168 (esperado 49.8)

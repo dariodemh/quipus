@@ -1,0 +1,21 @@
+n=2 nulo A: n-gramas en >=3 quipus: obs=1128 vs nulo media=1360.2 (p=1.0000); no homogéneos: obs=1007 vs 1282.1 (p=1.0000)
+n=2 nulo R: n-gramas en >=3 quipus: obs=1128 vs nulo media=1237.8 (p=1.0000); no homogéneos: obs=1007 vs 1089.4 (p=1.0000)
+n=2 nulo Cfijo: n-gramas en >=3 quipus: obs=1128 vs nulo media=1250.9 (p=1.0000); no homogéneos: obs=1007 vs 1149.9 (p=1.0000)
+n=2 nulo Pfijo: n-gramas en >=3 quipus: obs=1128 vs nulo media=1353.9 (p=1.0000); no homogéneos: obs=1007 vs 1267.0 (p=1.0000)
+n=3 nulo A: n-gramas en >=3 quipus: obs=672 vs nulo media=570.8 (p=0.0025); no homogéneos: obs=617 vs 542.8 (p=0.0025)
+n=3 nulo R: n-gramas en >=3 quipus: obs=672 vs nulo media=586.0 (p=0.0025); no homogéneos: obs=617 vs 521.1 (p=0.0025)
+n=3 nulo Cfijo: n-gramas en >=3 quipus: obs=672 vs nulo media=758.0 (p=1.0000); no homogéneos: obs=617 vs 716.6 (p=1.0000)
+n=3 nulo Pfijo: n-gramas en >=3 quipus: obs=672 vs nulo media=631.1 (p=0.0050); no homogéneos: obs=617 vs 600.7 (p=0.1621)
+n=4 nulo A: n-gramas en >=3 quipus: obs=424 vs nulo media=143.7 (p=0.0025); no homogéneos: obs=388 vs 130.5 (p=0.0025)
+n=4 nulo R: n-gramas en >=3 quipus: obs=424 vs nulo media=283.4 (p=0.0025); no homogéneos: obs=388 vs 242.2 (p=0.0025)
+n=4 nulo Cfijo: n-gramas en >=3 quipus: obs=424 vs nulo media=433.3 (p=0.7606); no homogéneos: obs=388 vs 410.5 (p=0.9551)
+n=4 nulo Pfijo: n-gramas en >=3 quipus: obs=424 vs nulo media=210.9 (p=0.0025); no homogéneos: obs=388 vs 193.3 (p=0.0025)
+n-gramas no homogéneos con exceso de quipus (q_R<0.05, BH sobre 2224 candidatos): 369 (por n: {2: 85, 3: 161, 4: 123})
+  no homogéneos con q_A<0.05: 470
+  no homogéneos con q_R<0.05: 369
+  no homogéneos con q_Cfijo<0.05: 0
+  no homogéneos con q_Pfijo<0.05: 482
+  que superan LOS CUATRO nulos (q<0.05 en todos): 0 (por n: {})
+pureza de sitio (significativos_R, 230 n-gramas con >=3 quipus de sitio conocido): obs=0.496 vs nulo=0.439 (p=0.0120)
+pureza de sitio (todos_no_homog, 1194 n-gramas con >=3 quipus de sitio conocido): obs=0.482 vs nulo=0.447 (p=0.0379)
+significativos con todos sus quipus de sitio conocido en un único sitio: 15; sitios: {'Santa': 7, 'Leymebamba': 5, 'Incahuasi': 2, 'Ica': 1}

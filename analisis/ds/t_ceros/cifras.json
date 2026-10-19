@@ -1,0 +1,72 @@
+{
+  "quipus_total": 651,
+  "cuerdas_total": 57818,
+  "quipus_con_racimos": 638,
+  "cuerdas_con_racimos": 40064,
+  "cat": {
+    "una": 23155,
+    "reg": 13832,
+    "dup": 2916,
+    "inv": 161
+  },
+  "quipus_por_cat": {
+    "reg": 543,
+    "dup": 259,
+    "inv": 48
+  },
+  "reg_multi": 13832,
+  "reg_con_cero": 726,
+  "reg_frac_cero": 0.05248698669751301,
+  "ceros_posiciones": 747,
+  "quipus_con_cero": 168,
+  "gaps_por_quipu": {
+    "count": 168.0,
+    "mean": 4.45,
+    "std": 5.43,
+    "min": 1.0,
+    "25%": 1.0,
+    "50%": 2.0,
+    "75%": 6.0,
+    "max": 37.0
+  },
+  "exponente_faltante": {
+    "1": 555,
+    "2": 169,
+    "3": 22,
+    "4": 1
+  },
+  "cero_interno_por_digitos": {
+    "3": {
+      "n": 4040,
+      "frac": 0.11386138613861387,
+      "esperado": 0.09999999999999998
+    },
+    "4": {
+      "n": 1085,
+      "frac": 0.21013824884792626,
+      "esperado": 0.18999999999999995
+    },
+    "5": {
+      "n": 125,
+      "frac": 0.288,
+      "esperado": 0.2709999999999999
+    }
+  },
+  "una_cuerdas": 23155,
+  "una_1a9": 17782,
+  "una_multiplo10": 5344,
+  "una_potencia10": 2368,
+  "quipus_multi": 577,
+  "quipus_con_dup": 259,
+  "quipus_con_unidades_dup": 195,
+  "quipus_secuencia": 30,
+  "gap_ratio_n": 727,
+  "gap_ratio_mediana": 0.9583333333333334,
+  "gap_ratio_iqr": [
+    0.8,
+    1.0416666666666667
+  ],
+  "gap_ratio_dentro_08_12": 0.6808803301237965,
+  "quipus_3mas_gaps": 81,
+  "cv_ratio_mediana": 0.12371791482634842
+}

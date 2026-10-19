@@ -1,0 +1,138 @@
+UR278: 28 filas con >=7 colgantes; 24 filas de exactamente 9 cuerdas
+
+Filas ordenadas por CV:
+ grupo  fase  total      media       cv  rango  distintos  ties
+     0     1 3618.0 402.000000 0.058820   62.0          5    10
+     1     1 1506.0 167.333333 0.064241   32.0          8     1
+    11     1 4273.0 474.777778 0.107818  119.0          7     2
+    14     1 2950.0 327.777778 0.116189  106.0          9     0
+     3     1 2919.0 324.333333 0.131744  109.0          9     0
+    19     2 2105.0 233.888889 0.159664  122.0          9     0
+     4     1 3293.0 365.888889 0.185601  188.0          8     1
+     2     1 1384.0 153.777778 0.214864   89.0          6     4
+     5     1 2089.0 232.111111 0.223648  218.0          9     0
+     8     1 3243.0 360.333333 0.227417  211.0          8     1
+    25     2 1941.0 215.666667 0.235905  171.0          9     0
+     9     1 2229.0 247.666667 0.270528  201.0          4     9
+    31     2 1410.0 156.666667 0.276547  131.0          9     0
+    30     2 1898.0 210.888889 0.297604  189.0          9     0
+    21     2 1654.0 183.777778 0.298077  189.0          8     1
+    29     2 1507.0 167.444444 0.309273  168.0          9     0
+    27     2 2202.0 244.666667 0.320931  220.0          9     0
+    17     2 2115.0 235.000000 0.329512  243.0          9     0
+     6     1 1842.0 204.666667 0.365373  243.0          8     1
+    13     1 3095.0 343.888889 0.388800  416.0          8     1
+    12     1 2533.0 281.444444 0.394186  300.0          7     2
+    16     2 1278.0 142.000000 0.395218  218.0          9     0
+     7     1 1876.0 208.444444 0.402529  225.0          6     3
+    28     2 1641.0 182.333333 0.452275  232.0          9     0
+
+Resumen observado:
+  eq_all: 0
+  range1: 0
+  cv05: 0
+  cv10: 2
+  cv15: 5
+  ties: 36
+  CV medio: 0.259
+
+Nulos de matriz completa:
+ prueba  observado  nulo_filas_barajadas  p_filas  nulo_columnas  p_columnas
+cv_mean   0.259448              0.399683  0.00005       0.401758     0.00005
+ eq_all   0.000000              0.000000  1.00000       0.000000     1.00000
+ range1   0.000000              0.000000  1.00000       0.000000     1.00000
+   cv05   0.000000              0.000000  1.00000       0.000000     1.00000
+   cv10   2.000000              0.000800  0.00005       0.000850     0.00005
+   cv15   5.000000              0.014750  0.00005       0.011900     0.00005
+   ties  36.000000              4.339200  0.00005       4.265650     0.00005
+
+Perfil de columnas p_j: [0.1371 0.1436 0.096  0.1081 0.1141 0.1258 0.1062 0.0796 0.0896]
+SD de log-residuo por columna: [0.171 0.229 0.26  0.157 0.197 0.178 0.324 0.514 0.2  ]
+
+Nulo parametrico (perfil de columnas + ruido):
+     prueba  observado  nulo_parametrico        p
+    cv_mean   0.259448          0.289307 0.019499
+     eq_all   0.000000          0.000000 1.000000
+     range1   0.000000          0.000000 1.000000
+       cv05   0.000000          0.000100 1.000000
+       cv10   2.000000          0.023450 0.000250
+       cv15   5.000000          0.424050 0.000200
+       ties  36.000000          3.478050 0.000050
+perfil_mean   0.231029          0.243950 0.219089
+
+Filas mas planas (CV) frente al nulo parametrico:
+ grupo  fase  total       cv  dist_perfil     p_cv  p_holm_cv
+     0     1 3618.0 0.058820     0.163696 0.000100   0.002400
+     1     1 1506.0 0.064241     0.146203 0.000150   0.003450
+    11     1 4273.0 0.107818     0.116268 0.001700   0.037398
+    14     1 2950.0 0.116189     0.115242 0.003600   0.075596
+     3     1 2919.0 0.131744     0.102042 0.007150   0.142993
+    19     2 2105.0 0.159664     0.111485 0.026499   0.503475
+     4     1 3293.0 0.185601     0.304102 0.067297   1.000000
+     2     1 1384.0 0.214864     0.110176 0.152692   1.000000
+
+Filas mas cercanas al perfil (proporcionales) frente al nulo parametrico:
+ grupo  fase  total       cv  dist_perfil  p_perfil  p_holm_perfil
+     3     1 2919.0 0.131744     0.102042  0.011149       0.267587
+     2     1 1384.0 0.214864     0.110176  0.015999       0.367982
+    19     2 2105.0 0.159664     0.111485  0.017149       0.377281
+    11     1 4273.0 0.107818     0.116268  0.020699       0.434678
+    14     1 2950.0 0.116189     0.115242  0.021199       0.434678
+    25     2 1941.0 0.235905     0.123535  0.030798       0.585171
+    29     2 1507.0 0.309273     0.142913  0.073396       1.000000
+     1     1 1506.0 0.064241     0.146203  0.078696       1.000000
+
+Fase 1 vs fase 2:
+         total                   cv              ties             
+          mean  median count   mean median count mean median count
+fase                                                              
+1     2632.143  2726.0    14  0.225  0.219    14  2.5    1.0    14
+2     1775.100  1776.0    10  0.308  0.304    10  0.1    0.0    10
+correlacion CV vs log(total): Pearson -0.428 (p=0.0371), Spearman -0.390 (p=0.0593)
+residuo CV (tras quitar log total) por fase: {1: -0.013, 2: 0.018}
+diferencia de residuo fase1-fase2 = -0.030; p (permutacion de fase) = 0.7566
+  5 filas con CV<=0.15, todas en fase 1: p exacta = 0.0471
+  2 filas con CV<=0.1, todas en fase 1: p exacta = 0.3297
+
+Mezcla gaussiana sobre log(CV):
+  k=1: BIC=46.19 AIC=43.83 pesos=[1.] medias=[-1.476]
+  k=2: BIC=46.65 AIC=40.76 pesos=[0.727 0.273] medias=[-1.193 -2.228]
+  k=3: BIC=49.42 AIC=40.00 pesos=[0.749 0.167 0.083] medias=[-1.201 -2.049 -2.789]
+  componente 2 (el de CV bajo): filas [0, 1, 3, 11, 14, 19]
+
+Emparejamiento dirigido de la Visita 2+1+2+2+2: (1-2)(4-5)(6-7)(8-9)+c3
+  r intra-par (log-razon, sin efecto de fila) = 0.090; rank 83/945; p = 0.0878
+  igualdades exactas = 11; rank 1/945; p = 0.0011 (media 945 = 4.0, max = 11)
+  mejor emparejamiento por r: (7, [(0, 1), (2, 5), (3, 8), (4, 6)]) r=0.377
+  mejor emparejamiento por igualdades: (2, [(0, 1), (3, 4), (5, 6), (7, 8)]) ties=11
+  nulo dentro de fila, emparejamiento dirigido: media 4.00; p = 0.0003
+  nulo dentro de fila, maximo sobre 945 emparejamientos (2000 reps): media 9.1; p = 0.0860
+
+Rotaciones del patron contiguo 2+1+2+2+2 (inicio en cada columna):
+  inicio c1: r=0.090 rank=83 ties=11
+  inicio c2: r=-0.063 rank=360 ties=2
+  inicio c3: r=0.035 rank=158 ties=10
+  inicio c4: r=0.032 rank=163 ties=4
+  inicio c5: r=-0.015 rank=256 ties=9
+  inicio c6: r=0.023 rank=178 ties=5
+  inicio c7: r=0.102 rank=76 ties=9
+  inicio c8: r=-0.046 rank=326 ties=6
+  inicio c9: r=-0.111 rank=480 ties=4
+
+Sin las 5 filas con CV<=0.15: igualdades dirigidas = 7; rank 6/945; p = 0.0063 (max 8)
+
+Matriz de igualdades exactas entre columnas (36 pares):
+    c1  c2  c3  c4  c5  c6  c7  c8  c9
+c1   0   5   0   1   1   2   1   0   0
+c2   5   0   0   1   2   2   1   0   0
+c3   0   0   0   2   2   0   0   1   1
+c4   1   1   2   0   3   1   0   0   1
+c5   1   2   2   3   0   1   1   1   1
+c6   2   2   0   1   1   0   2   0   0
+c7   1   1   0   0   1   2   0   1   1
+c8   0   0   1   0   1   0   1   0   1
+c9   0   0   1   1   1   0   1   1   0
+
+Robustez con 26 filas (grupos 18 y 32 recortados a c1-c9):
+  filas CV<=.15: 5; CV<=.10: 2; ties totales: 36
+  emparejamiento dirigido: r = 0.007; igualdades = 11

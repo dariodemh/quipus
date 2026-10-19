@@ -1,0 +1,41 @@
+ND_seq 35 ND_dup 51 ND_inv 10 ND 54 NC 6 NU 3 union 61 limpia 56
+
+ND por prefijo
+pref    AS  HP  JC  KH  MM  QU   UR
+ND                                 
+False  133  50  21  12  21  22  338
+True    11   6   2   2   1   0   32
+
+NC final:
+   kfg  ncuerdas  n_knotless  n_knotted  Rdiff  Rdiff_p  Rdiff_q                   procedencia
+ MM020      89.0          27         62  0.420    0.001    0.041                       Unknown
+UR058A     275.0          57        218  0.321    0.000    0.033 Playa Miller #6, Arica, Chile
+UR1109     287.0          60        227  0.344    0.000    0.033                           Ica
+ UR223      80.0           9         71  0.637    0.000    0.033                           Ica
+ UR234      98.0          26         72  0.326    0.001    0.041                       Unknown
+ UR241      71.0          37         34  0.536    0.000    0.033                       Unknown
+
+ND inv/seq/dup counts: 35 51 10
+
+ND top score:
+   kfg  ncuerdas_nudo  n_multi    D    I    Q  num_canuto_cords  f_CL                procedencia
+ UR112           76.0     37.0 1.00 0.02 0.97              37.0  1.00                    Unknown
+ AS076           16.0     12.0 1.00 0.00 1.00               8.0  0.00                    Unknown
+ JC012           22.0     13.0 1.00 0.00 1.00               1.0  0.00                  Incahuasi
+ HP020           24.0     12.0 1.00 0.00 1.00               6.0  0.00                 Pachacamac
+ HP019           10.0      7.0 1.00 0.00 1.00               0.0  0.00                 Pachacamac
+AS207C           12.0      6.0 1.00 0.00 1.00               0.0  0.00                    Unknown
+ UR050          164.0    163.0 1.00 0.00 1.00             163.0  1.00                    Unknown
+ UR178           14.0     14.0 1.00 0.00 1.00               0.0  0.00              Cajamarquilla
+ UR282           27.0      6.0 1.00 0.00 1.00              11.0  0.00 Huaca San Pedro, Armatambo
+ UR289           25.0      7.0 1.00 0.00 1.00              14.0  0.00 Armatambo, Huaca San Pedro
+ UR007           38.0      6.0 1.00 0.00 1.00               0.0  0.00                 Leymebamba
+ UR052           94.0     90.0 1.00 0.00 0.99              92.0  0.60                    Unknown
+ UR054          114.0    113.0 1.00 0.00 0.99             113.0  1.00                    Unknown
+ UR110           85.0     51.0 0.98 0.02 0.98              50.0  1.00                    Unknown
+ UR051           86.0     75.0 0.99 0.00 0.99              75.0  0.32                    Unknown
+ UR003          469.0     23.0 0.96 0.05 0.96               0.0  0.00                 Leymebamba
+ UR055          176.0    173.0 1.00 0.04 0.83             173.0  0.00                    Unknown
+ UR144           96.0     60.0 0.93 0.00 0.85              55.0  1.00             Valle de Pisco
+ AS077           30.0     10.0 0.90 0.00 0.90               0.0  0.00                    Unknown
+ UR193          222.0    222.0 1.00 0.20 0.41              79.0  0.00   Peru, Fundort: Pachacmac

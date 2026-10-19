@@ -1,0 +1,1 @@
+modelo C (tamano): n=186 q<.05=0 (esp 9.3, p 1) r2med 0.0909 r2abs_med 0.0097 suma 6.325 pglob 0.0020

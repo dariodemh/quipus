@@ -1,0 +1,9 @@
+=== Fracciones 2/9, 3/9, 4/9 (agrupacion contigua 2+3+4) ===
+Si las 9 columnas son 9 unidades iguales, las cuotas de los grupos deberian ser 0,222 / 0,333 / 0,444.
+grupo  columnas  cuota_obs  cuota_nula     dif  IC95_inf  IC95_sup  p_univ
+c1-c2         2     0.2807      0.2222  0.0584    0.2619    0.2986  0.0000
+c3-c5         3     0.3182      0.3333 -0.0151    0.3075    0.3285  0.0037
+c6-c9         4     0.4011      0.4444 -0.0433    0.3844    0.4197  0.0000
+Contraste conjunto (Mahalanobis, bootstrap de filas): T = 38.37; p = 0.00005
+Lectura: la agrupacion 2+3+4 NO reproduce los novenos documentados; el grupo c1-c2 es ~27 % mayor de lo previsto.
+Supuesto fuerte: las 9 columnas son unidades iguales y el orden fisico refleja el orden de los grupos. Si las columnas tienen poblaciones desiguales, el test no aplica.

@@ -1,0 +1,37 @@
+                             bloque                                                   prueba  estadistico        p               fuente   p_holm     p_bh
+Incahuasi global (nulo intercambio)                                      P vs S1: redondez50      0.07750 0.000050 pruebas_globales.csv 0.001700 0.000900
+Incahuasi global (nulo intercambio)                                     P vs S1: redondez100      0.07490 0.000050 pruebas_globales.csv 0.001700 0.000900
+            Otras pruebas primarias                           UR270 SS_col del cociente S1/P      0.49500 0.000100        salida_02.txt 0.003200 0.001200
+            Otras pruebas primarias                                    UR270->UR278 con P+S1     51.00000 0.000200        salida_03.txt 0.006200 0.001800
+            Otras pruebas primarias                     UR270 P = cabecera parte B (exactas)      4.00000 0.000400        salida_03.txt 0.012000 0.002571
+            Otras pruebas primarias             UR270 split-half del cociente S1/P (Pearson)      0.95200 0.000500        salida_02.txt 0.014500 0.002571
+            Otras pruebas primarias                            Control 20 quipus: redondez50      0.03605 0.000500        salida_04.txt 0.014500 0.002571
+Incahuasi global (nulo intercambio)                                      P vs S1: igualdades      0.04390 0.000700 pruebas_globales.csv 0.018899 0.003150
+Incahuasi global (nulo intercambio)                                      P vs S1: redondez10      0.08790 0.001850 pruebas_globales.csv 0.048098 0.007400
+            Otras pruebas primarias UR270 g6 único grupo 100/200 entre 142 grupos (post hoc)      1.00000 0.007042     consulta directa 0.176056 0.024669
+     Incahuasi nivel quipu (signos)                                      P vs S1: igualdades      0.01970 0.007538    pruebas_quipu.csv 0.180908 0.024669
+            Otras pruebas primarias                                  JC (Sector B): CV plano      0.17546 0.016800        salida_04.txt 0.386400 0.050400
+     Incahuasi nivel quipu (signos)                                       P vs S1: CV(plano)      0.09650 0.039062    pruebas_quipu.csv 0.859375 0.105423
+Incahuasi global (nulo intercambio)                                       P vs S1: CV(plano)      0.12480 0.040998 pruebas_globales.csv 0.860957 0.105423
+            Otras pruebas primarias                         Incahuasi vs control: igualdades      0.08476 0.077550        salida_04.txt 1.000000 0.186120
+            Otras pruebas primarias                            Control 20 quipus: redondez10      0.02846 0.107740        salida_04.txt 1.000000 0.228400
+            Otras pruebas primarias                UR270 Friedman del cociente S1/P (rangos)      8.93700 0.111620        salida_02.txt 1.000000 0.228400
+            Otras pruebas primarias                    UR270 S1 = cabecera parte A (exactas)      1.00000 0.114200        salida_03.txt 1.000000 0.228400
+ Control de magnitud (misma década)                                     P vs S1: redondez100      0.02940 0.125000 control_magnitud.csv 1.000000 0.236842
+            Otras pruebas primarias                          Incahuasi sin UR270: redondez10      0.03070 0.184200        salida_06.txt 1.000000 0.324154
+            Otras pruebas primarias                           Control 20 quipus: redondez100      0.00569 0.189090        salida_04.txt 1.000000 0.324154
+            Otras pruebas primarias           Logit redondez10 rol + log10(valor) + EF quipu      0.28260 0.234800        salida_01.txt 1.000000 0.384218
+            Otras pruebas primarias                              Control 20 quipus: CV plano      0.02077 0.380330        salida_04.txt 1.000000 0.595299
+            Otras pruebas primarias                           Incahuasi vs control: CV plano      0.08235 0.416330        salida_04.txt 1.000000 0.624495
+            Otras pruebas primarias                                      UR270->UR278 con S1      4.00000 0.652669        salida_03.txt 1.000000 0.936235
+            Otras pruebas primarias                         Incahuasi vs control: redondez10      0.03725 0.676170        salida_04.txt 1.000000 0.936235
+ Control de magnitud (misma década)                                      P vs S1: redondez50      0.01180 0.774414 control_magnitud.csv 1.000000 0.977435
+     Incahuasi nivel quipu (signos)                                      P vs S1: redondez10      0.09610 0.814529    pruebas_quipu.csv 1.000000 0.977435
+     Incahuasi nivel quipu (signos)                                      P vs S1: redondez50      0.05810 0.814529    pruebas_quipu.csv 1.000000 0.977435
+     Incahuasi nivel quipu (signos)                                     P vs S1: redondez100      0.04540 0.814529    pruebas_quipu.csv 1.000000 0.977435
+            Otras pruebas primarias                            Control 20 quipus: igualdades     -0.04231 0.999000        salida_04.txt 1.000000 1.000000
+ Control de magnitud (misma década)                                      P vs S1: redondez10      0.00000 1.000000 control_magnitud.csv 1.000000 1.000000
+            Otras pruebas primarias                                       UR270->UR278 con P     11.00000 1.000000        salida_03.txt 1.000000 1.000000
+            Otras pruebas primarias                     Mismo color P/S1: McNemar redondez10      0.00000 1.000000        salida_06.txt 1.000000 1.000000
+            Otras pruebas primarias                 UR270 sin columna 8: SS_col del cociente      0.16000      NaN        salida_02.txt      NaN 1.000000
+            Otras pruebas primarias         UR270: P más estable por columna que S1 (CV col)      0.29900      NaN        salida_06.txt      NaN 1.000000

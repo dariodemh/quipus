@@ -1,0 +1,62 @@
+﻿anio,grupo,especie,cantidad,unidad,valor_pesos,linea_fuente,nota
+1577,Lunahuaná,tributarios (total),740,personas,,831,"Visita de Juan de Vera Olguín; 740 indios tributarios casados, viudos y solteros, 18-50 años"
+1577,Lunahuaná,tributarios (payantes),732,personas,,836,740 menos 8 reservados para caciques
+1577,Lunahuaná,viejos,89,personas,,832,"más de 50 años, no pagan"
+1577,Lunahuaná,muchachos,601,personas,,833,"17 años para abajo, no pagan"
+1577,Lunahuaná,mujeres,1846,personas,,834,todas las edades y estados
+1577,Lunahuaná,personas (total),3276,personas,,835,740+89+601+1846 = 3276
+1577,Lunahuaná,plata ensayada,2196,pesos,2196.0,837,3 pesos por tributario payante
+1577,Lunahuaná,ropa de algodón,366,piezas,869.25,838,2 pesos 3 tomines por pieza; 869 pesos 2 tomines
+1577,Lunahuaná,maíz,500,fanegas,250.0,839,medio peso por fanega; puestas en los pueblos
+1577,Lunahuaná,aves de Castilla,758,aves,94.75,840,1 tomín por ave; 94 pesos 6 tomines
+1577,Lunahuaná,total tasa,,pesos,3660.0,844,5 pesos por tributario payante; el documento suma 3660
+1577,Lunahuaná,doctrina,,pesos,800.0,846,dos sacerdotes
+1577,Lunahuaná,fábrica de iglesias,,pesos,50.0,847,
+1577,Lunahuaná,justicias y defensores,,pesos,400.0,848,
+1577,Lunahuaná,caciques,,pesos,98.0,849,salario de los caciques
+1577,Lunahuaná,hospital,1,tomín/tributario/año,,845,un tomín de plata ensayada por tributario
+1577,Lunahuaná,costas (total),,pesos,1348.0,850,doctrina 800 + fábrica 50 + justicias 400 + caciques 98
+1590,Lunahuaná,tributarios (total),474,personas,,802,revisita de Francisco de Soto; 18-50 años
+1590,Lunahuaná,tributarios (payantes),469,personas,,802,474 menos 5 reservados para caciques
+1590,Lunahuaná,viejos,96,personas,,803,"más de 50 años, no pagan"
+1590,Lunahuaná,muchachos,372,personas,,804,"17 años para abajo, no pagan"
+1590,Lunahuaná,mujeres,973,personas,,805,todas las edades y estados
+1590,Lunahuaná,personas (total),1915,personas,,805,474+96+372+973 = 1915
+1590,Lunahuaná,plata ensayada,1392.34375,pesos,1392.34375,806,1392 pesos 2 tomines 9 granos; 2 pesos 7 tomines 9 granos por payante
+1590,Lunahuaná,ropa de algodón,234.5,piezas,556.9375,807,2 pesos 3 tomines por pieza; 556 pesos 7 tomines 6 granos
+1590,Lunahuaná,trigo y maíz,641.25,fanegas,320.625,807,641 fanegas 3 almudes; 4 tomines por fanega (320 pesos 5 tomines)
+1590,Lunahuaná,ropa sustituta del trigo/maíz,135,piezas,320.625,807,"desde San Juan de 1591, 135 piezas de ropa en lugar del trigo/maíz"
+1590,Lunahuaná,aves de Castilla,483.5,aves,60.4375,809,1 tomín por ave; 60 pesos 3 tomines 6 granos
+1590,Lunahuaná,total tasa,,pesos,2330.28125,809,2330 pesos 2 tomines 9 granos; 4 pesos 7 tomines 9 granos por payante
+1590,Lunahuaná,neto del encomendero,,pesos,1294.28125,813,tras descontar 1036 pesos de costas
+1590,Lunahuaná,doctrina,,pesos,700.0,811,
+1590,Lunahuaná,fábrica de iglesias,,pesos,33.0,811,
+1590,Lunahuaná,justicias y defensores,,pesos,240.0,811,
+1590,Lunahuaná,costas (total),,pesos,1036.0,811,total de lo que se saca de los 2330 pesos
+1557,Cañete (villa),merced para acequias,100,pesos/año,100.0,660,sacados de los tributos de repartimientos vacos
+1571,Collique,tributarios,15,personas,,230,Visita de Martínez Rengifo; población menguada
+1571,Collique,muchachos,7,personas,,230,
+1571,Collique,niños,2,personas,,230,
+1571,Guancayos,coca al Inca,45,cestos,,2601,5 cestos por pachaca; 45 = 9 x 5 (el texto también dice 'cinco pachaca' en 369)
+1571,Guancayos,coca al Sol,,huerta especial,,2601,"coca verde de una huerta especial, sin cifra"
+1571,Guancayos,ropa de algodón,26,piezas,,340,"mitad hombre, mitad mujer"
+1571,Guancayos,cumbi galano,2,piezas,,340,
+1571,Guancayos,ollas,10,ollas,,340,grandes y chicas
+1571,Guancayos,rodelas de madera,10,rodelas,,340,para las orejas
+1571,Guancayos,sandalias/ojotas,20,pares,,340,
+1571,Guancayos,ganado del Inca,300,cabezas,,340,cuidado en tierras del Inca; carne llevada al Cusco
+1571,Guancayos,indios para el Inca,3,personas,,342,hijos de caciques
+1571,Guancayos,indios para las mamaconas,3,personas,,342,
+1571,Guancayos,muchachas para mamaconas,10,personas,,342,diez muchachas hermosas elegidas
+1571,Guancayos,coca de mitmaq estatales,150-160,costales/año,,2601,estimación del quipucamayoc Juan Chauca
+1571,Guancayos,coca del curaca principal,40,cestos,,2603,20 cestos por cada una de dos mitas
+1571,Guancayos,coca del jefe de Guarauni,20,cestos,,2605,20 cestos en ambas mitas
+1571,Guancayos,coca por runa de Guarauni,2,cestos,,2607,dos cestos en las dos mitas
+1534,Chincha,tributarios,30000,personas,,2431,30 caciques de 1000 indios cada uno
+1570,Chincha,tributarios,600,personas,,2436,supervivientes según el 'Aviso'
+1534,Chincha,labradores,12000,personas,,2432,de los 30 000
+1534,Chincha,pescadores,10000,personas,,2432,de los 30 000
+1534,Chincha,mercaderes,6000,personas,,2915,de los 30 000
+1570,Chincha,tierras vacas,2000,fanegadas,,2436,"tierras perdidas, convertidas en monte"
+1500,Cerro Azul (Guarco),vasijas de almacenamiento,9,vasijas,,595,capacidad 700-2000 litros cada una; Estructura D
+1500,Ungará (Guarco),vasijas enterradas,,vasijas,,606,capacidad 300-500 galones cada una

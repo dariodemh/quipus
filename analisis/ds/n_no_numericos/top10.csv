@@ -1,0 +1,11 @@
+orden,kfg,ncuerdas,ncuerdas_nudo,n_multi,D,I,Q,frac_units,Z,num_canuto_cords,f_CL,frac_rico,fracS,procedencia,museo,flag_tx,ND,NC,NU,subtipo
+1,UR179,18.0,16.0,0.0,0.0,0.0,0.0,,0.889,0.0,0.0,1.0,0.034,Cajamarquilla,"American Museum of Natural History, NY",False,False,False,True,NU
+2,UR180,12.0,12.0,2.0,1.0,0.0,1.0,1.0,0.75,0.0,0.0,1.0,0.083,Cajamarquilla,"American Museum of Natural History, NY",False,False,False,True,NU
+3,UR178,14.0,14.0,14.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.778,Cajamarquilla,"American Museum of Natural History, NY",False,True,False,False,seq+dup
+4,UR050,164.0,164.0,163.0,1.0,0.0,1.0,1.0,0.0,163.0,1.0,0.0,0.802,Unknown,Private Collection: Anna Maria Soldi,False,True,False,False,seq+dup
+5,UR054,115.0,114.0,113.0,1.0,0.0,0.991,0.997,0.0,113.0,1.0,0.0,0.997,Unknown,Private Collection: Anna Maria Soldi,False,True,False,False,seq+dup
+6,UR052,96.0,94.0,90.0,1.0,0.005,0.989,0.997,0.0,92.0,0.602,0.0,1.0,Unknown,Museo Central - Banco Central de Reserva,False,True,False,False,seq+dup
+7,AS076,16.0,16.0,12.0,1.0,0.0,1.0,1.0,0.0,8.0,0.0,0.0,0.0,Unknown,"Musee de l Homme, Paris, France",False,True,False,False,seq+dup
+8,JC012,30.0,22.0,13.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,Incahuasi,Proyecto Incahuasi,False,True,False,False,seq+dup
+9,UR203,167.0,155.0,135.0,0.748,0.312,0.348,0.667,0.0,11.0,0.0,0.246,0.158,Unknown,"Ethnologisches Museum, Berlin, Germany",False,True,False,False,dup+inv
+10,UR215,268.0,228.0,42.0,0.476,0.322,0.286,0.777,0.0,2.0,0.0,0.414,0.04,Unknown,"Ethnologisches Museum, Berlin, Germany",False,True,False,False,inv

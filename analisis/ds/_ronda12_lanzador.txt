@@ -1,0 +1,4 @@
+fin n_agronomia ok intento=1 05:45:00
+fin n_linguistica ok intento=1 06:04:05
+fin n_descifrado_lm ok intento=1 06:15:23
+TODAS_TERMINADAS

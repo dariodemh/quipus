@@ -1,0 +1,25 @@
+test,list_id,stat,null,p,nperm,nota
+rho_dec,caj_bambamarca_1567,-0.870300505105952,permutacion,0.0015699921500392498,200000,una cola: lista ordenada de mayor a menor
+rho_dec,caj_chondal_1567,-0.19999999999999998,permutacion,0.45971270143649284,200000,una cola: lista ordenada de mayor a menor
+rho_dec,cusco_coco_1535,-0.2677847708018314,permutacion,0.24026879865600673,200000,una cola: lista ordenada de mayor a menor
+rho_dec,aullaga_acho_1540,-0.44647040662664117,permutacion,0.08220958895205524,200000,una cola: lista ordenada de mayor a menor
+rho_dec,lupaca_sayas_1567,-0.34965034965034975,permutacion,0.1298843505782471,200000,una cola: lista ordenada de mayor a menor
+rho_dec,lupaca_cabeceras_1567,-0.28571428571428575,permutacion,0.25071374643126787,200000,una cola: lista ordenada de mayor a menor
+rho_dec,chayanta_1540,0.17193088292651346,permutacion,0.7080714596427018,200000,una cola: lista ordenada de mayor a menor
+rho_dec,chayanta_1548,0.1541158230344362,permutacion,0.6880665596672016,200000,una cola: lista ordenada de mayor a menor
+rho_dec,yanque_collagua_1540,0.014716707442631503,permutacion,0.5226523867380664,200000,una cola: lista ordenada de mayor a menor
+rho_dec,cavana_conde_1540,-0.3198773189599661,permutacion,0.09776951115244424,200000,una cola: lista ordenada de mayor a menor
+rho_dec,guancayo_lords_1571,0.35355339059327373,permutacion,0.8009959950200249,200000,una cola: lista ordenada de mayor a menor
+rho_dec,pacajes_cabeceras_1543,-0.5,permutacion,0.4994225028874856,200000,una cola: lista ordenada de mayor a menor
+rho_dec,huanca_hunus,1.0,permutacion,1.0,200000,una cola: lista ordenada de mayor a menor
+rho_dec,chincha_hunus,-1.0,permutacion,0.1675641621791891,200000,una cola: lista ordenada de mayor a menor
+perfil_ordenado,caj_bambamarca_1567,0.06706108341374317,276 pares de filas UR278,0.6064981949458483,276,L2 medio a las 24 filas; menor = mas parecido
+orden_documental,caj_bambamarca_1567,0.22196184619593545,24 filas UR278 a la media,0.88,24,L1 a la media; menor = mas parecido
+nulo_cv,caj_bambamarca_1567,0.06726242178817461,lognormal misma n y CV (20.000),0.6460176991150443,20000,L2 al perfil medio; p bajo = mas cerca que el azar con su CV
+perfil_ordenado,cusco_coco_1535,0.2676218537377216,276 pares de filas UR278,1.0,276,L2 medio a las 24 filas; menor = mas parecido
+orden_documental,cusco_coco_1535,0.7463465899951838,24 filas UR278 a la media,1.0,24,L1 a la media; menor = mas parecido
+nulo_cv,cusco_coco_1535,0.28395669241943644,lognormal misma n y CV (20.000),0.8116094195290235,20000,L2 al perfil medio; p bajo = mas cerca que el azar con su CV
+triadas_3x3,UR278,-0.020202542680546234,20.000 particiones en 3 triadas,0.19019049047547623,20000,media r dentro de (1-2-3)(4-5-6)(7-8-9)
+orden_estable_chayanta,chayanta,0.9771544088929232,—,,0,misma secuencia de 12 pueblos en 1540 y 1548; valores rho
+rho_exacto,caj_bambamarca_1567,-0.870300505105952,9! = 362.880 permutaciones,0.0018298059964726632,362880,p exacto a una cola (con empates)
+rho_sin_primero,caj_bambamarca_1567,-0.8143858581010162,8! = 40.320 permutaciones,0.009226190476190476,40320,descenso de las 8 pachacas subordinadas

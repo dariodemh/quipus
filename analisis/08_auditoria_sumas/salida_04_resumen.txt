@@ -1,0 +1,46 @@
+quipus: 651
+
+## Corpus: total observado vs esperado (media nula, IC 95 %) y fracción atribuible al azar
+PPS: obs=8076.0 | M0_quipu: E=8031.2 [7892-8167] azar=0.99 p=0.2657 | M1_nivel: E=7912.8 [7790-8036] azar=0.98 p=0.0040 | M2_magnitud: E=8093.9 [7975-8209] azar=1.00 p=0.5964
+COL: obs=3055.0 | M0_quipu: E=2979.7 [2879-3088] azar=0.98 p=0.0869 | M1_nivel: E=2830.9 [2738-2930] azar=0.93 p=0.0010 | M2_magnitud: E=2997.1 [2908-3081] azar=0.98 p=0.0889
+IDX: obs=2358.0 | M0_quipu: E=2289.6 [2200-2379] azar=0.97 p=0.0679 | M1_nivel: E=2225.9 [2149-2309] azar=0.94 p=0.0010 | M2_magnitud: E=2385.1 [2299-2472] azar=1.01 p=0.7453
+SUB: obs=886.0 | M0_quipu: E=2077.2 [1970-2185] azar=2.34 p=1.0000 | M1_nivel: E=822.3 [773-867] azar=0.93 p=0.0060 | M2_magnitud: E=907.4 [869-945] azar=1.02 p=0.8631
+PPS_100: obs=1962.0 | M0_quipu: E=1668.1 [1600-1728] azar=0.85 p=0.0010 | M1_nivel: E=1757.7 [1698-1822] azar=0.90 p=0.0010 | M2_magnitud: E=1882.2 [1824-1939] azar=0.96 p=0.0060
+PPS_ady: obs=873.0 | M0_quipu: E=755.5 [706-805] azar=0.87 p=0.0010 | M1_nivel: E=721.1 [675-773] azar=0.83 p=0.0010 | M2_magnitud: E=711.0 [665-760] azar=0.81 p=0.0010
+PPS_cadena: obs=4093.0 | M0_quipu: E=4255.1 [4119-4395] azar=1.04 p=0.9920 | M1_nivel: E=4066.7 [3943-4203] azar=0.99 p=0.3307 | M2_magnitud: E=4104.4 [3989-4223] azar=1.00 p=0.5734
+PPS_cara01: obs=64.0 | M0_quipu: E=10.5 [4-18] azar=0.16 p=0.0010 | M1_nivel: E=12.4 [6-20] azar=0.19 p=0.0010 | M2_magnitud: E=13.0 [6-20] azar=0.20 p=0.0010
+PPS_cara001: obs=13.0 | M0_quipu: E=0.2 [0-2] azar=0.02 p=0.0010 | M1_nivel: E=0.3 [0-2] azar=0.03 p=0.0010 | M2_magnitud: E=0.4 [0-2] azar=0.03 p=0.0010
+PPS_ady100: obs=200.0 | M0_quipu: E=84.3 [66-103] azar=0.42 p=0.0010 | M1_nivel: E=87.0 [70-104] azar=0.44 p=0.0010 | M2_magnitud: E=83.4 [68-100] azar=0.42 p=0.0010
+PPS_sumlog_local: obs=877.1 | M0_quipu: E=632.1 [583-682] azar=0.72 p=0.0010 | M1_nivel: E=623.4 [577-677] azar=0.71 p=0.0010 | M2_magnitud: E=613.0 [564-663] azar=0.70 p=0.0010
+PPS_global05: obs=33.0 | M0_quipu: E=15.4 [9-24] azar=0.47 p=0.0010 | M1_nivel: E=25.9 [16-36] azar=0.78 p=0.0939 | M2_magnitud: E=30.8 [22-41] azar=0.93 p=0.3616
+
+## Quipus con >=1 relación: observado vs nulo (media e IC 95 % del nº de quipus)
+PPS: obs=428 (65.7%) | M0_quipu: 418.8 [408-429] p=0.0519 | M1_nivel: 414.4 [404-424] p=0.0050 | M2_magnitud: 422.4 [412-433] p=0.1608
+COL: obs=262 (40.2%) | M0_quipu: 262.1 [250-275] p=0.5445 | M1_nivel: 253.3 [242-266] p=0.0999 | M2_magnitud: 255.2 [243-267] p=0.1369
+IDX: obs=233 (35.8%) | M0_quipu: 225.6 [214-238] p=0.1429 | M1_nivel: 222.3 [210-235] p=0.0629 | M2_magnitud: 225.5 [214-237] p=0.1239
+SUB: obs=133 (20.4%) | M0_quipu: 198.6 [187-210] p=1.0000 | M1_nivel: 124.9 [116-133] p=0.0340 | M2_magnitud: 134.4 [126-142] p=0.6823
+PPS_100: obs=233 (35.8%) | M0_quipu: 213.7 [203-224] p=0.0020 | M1_nivel: 218.4 [208-228] p=0.0020 | M2_magnitud: 224.8 [216-233] p=0.0400
+PPS_ady: obs=275 (42.2%) | M0_quipu: 262.2 [246-279] p=0.0589 | M1_nivel: 253.9 [238-271] p=0.0070 | M2_magnitud: 258.9 [243-276] p=0.0410
+PPS_cadena: obs=296 (45.5%) | M0_quipu: 288.5 [276-300] p=0.1409 | M1_nivel: 279.6 [268-291] p=0.0080 | M2_magnitud: 284.4 [273-296] p=0.0270
+PPS_cara01: obs=21 (3.2%) | M0_quipu: 9.6 [4-16] p=0.0020 | M1_nivel: 11.5 [6-18] p=0.0060 | M2_magnitud: 12.0 [6-19] p=0.0070
+PPS_cara001: obs=5 (0.8%) | M0_quipu: 0.2 [0-2] p=0.0010 | M1_nivel: 0.3 [0-2] p=0.0010 | M2_magnitud: 0.4 [0-2] p=0.0010
+PPS_ady100: obs=82 (12.6%) | M0_quipu: 62.3 [51-74] p=0.0030 | M1_nivel: 64.3 [52-76] p=0.0040 | M2_magnitud: 63.8 [52-75] p=0.0030
+PPS_global05: obs=25 (3.8%) | M0_quipu: 12.6 [7-19] p=0.0010 | M1_nivel: 19.1 [13-26] p=0.0629 | M2_magnitud: 22.2 [16-29] p=0.2438
+any4: obs=449 (69.0%) | M0_quipu: 439.8 [430-449] p=0.0480 | M1_nivel: 430.3 [420-440] p=0.0010 | M2_magnitud: 441.1 [430-451] p=0.0809
+
+## Por quipu: testables (sd nula>0), p<0,05 (esperado 5 %), q<0,05 (BH dentro de cada estadístico x nulo)
+PPS: M0_quipu: test=499 p<.05=57 (esp 25) q<.05=0 1-pi0=0.00 | M1_nivel: test=482 p<.05=53 (esp 24) q<.05=10 1-pi0=0.00 | M2_magnitud: test=478 p<.05=27 (esp 24) q<.05=0 1-pi0=0.00
+COL: M0_quipu: test=457 p<.05=28 (esp 23) q<.05=0 1-pi0=0.00 | M1_nivel: test=438 p<.05=32 (esp 22) q<.05=0 1-pi0=0.00 | M2_magnitud: test=415 p<.05=18 (esp 21) q<.05=0 1-pi0=0.00
+IDX: M0_quipu: test=415 p<.05=29 (esp 21) q<.05=9 1-pi0=0.00 | M1_nivel: test=404 p<.05=25 (esp 20) q<.05=9 1-pi0=0.00 | M2_magnitud: test=386 p<.05=21 (esp 19) q<.05=8 1-pi0=0.00
+SUB: M0_quipu: test=349 p<.05=5 (esp 17) q<.05=0 1-pi0=0.00 | M1_nivel: test=190 p<.05=10 (esp 10) q<.05=0 1-pi0=0.00 | M2_magnitud: test=180 p<.05=1 (esp 9) q<.05=0 1-pi0=0.00
+PPS_ady: M0_quipu: test=499 p<.05=35 (esp 25) q<.05=0 1-pi0=0.00 | M1_nivel: test=481 p<.05=36 (esp 24) q<.05=11 1-pi0=0.00 | M2_magnitud: test=474 p<.05=33 (esp 24) q<.05=12 1-pi0=0.00
+PPS_100: M0_quipu: test=303 p<.05=36 (esp 15) q<.05=0 1-pi0=0.00 | M1_nivel: test=294 p<.05=25 (esp 15) q<.05=0 1-pi0=0.00 | M2_magnitud: test=283 p<.05=18 (esp 14) q<.05=0 1-pi0=0.00
+PPS_ady100: M0_quipu: test=303 p<.05=26 (esp 15) q<.05=11 1-pi0=0.00 | M1_nivel: test=293 p<.05=25 (esp 15) q<.05=12 1-pi0=0.00 | M2_magnitud: test=276 p<.05=23 (esp 14) q<.05=12 1-pi0=0.00
+PPS_cadena: M0_quipu: test=445 p<.05=31 (esp 22) q<.05=0 1-pi0=0.00 | M1_nivel: test=418 p<.05=31 (esp 21) q<.05=0 1-pi0=0.00 | M2_magnitud: test=408 p<.05=22 (esp 20) q<.05=0 1-pi0=0.00
+PPS_cara01: M0_quipu: test=224 p<.05=15 (esp 11) q<.05=5 1-pi0=0.00 | M1_nivel: test=227 p<.05=14 (esp 11) q<.05=5 1-pi0=0.00 | M2_magnitud: test=223 p<.05=11 (esp 11) q<.05=5 1-pi0=0.00
+PPS_sumlog_local: M0_quipu: test=499 p<.05=54 (esp 25) q<.05=12 1-pi0=0.00 | M1_nivel: test=481 p<.05=41 (esp 24) q<.05=12 1-pi0=0.00 | M2_magnitud: test=476 p<.05=40 (esp 24) q<.05=12 1-pi0=0.00
+
+unión M2 (ady, ady100, sumlog_local) q<.05: 14 quipus: ['AS006', 'AS199', 'MM001', 'UR118', 'UR119', 'UR166', 'UR246', 'UR255', 'UR256', 'UR267A', 'UR267B', 'UR269', 'UR274B', 'UR275']
+unión M1 (ady, ady100, sumlog_local) q<.05: 15 quipus; en ambos M1 y M2: 13
+definición KFG sin localidad (PPS, COL, IDX, SUB, PPS_100, cadena) q<.05 en M2: 8 quipus: ['KH0049', 'QU002', 'UR112', 'UR1120', 'UR1143', 'UR1149', 'UR122', 'UR208']
+ídem en M1: 19: ['AS008', 'AS159', 'HP034', 'KH0049', 'KH0081', 'QU015', 'UR011', 'UR1113', 'UR1114', 'UR112', 'UR1120', 'UR1123', 'UR1149', 'UR1175', 'UR122', 'UR197', 'UR208', 'UR231', 'UR269']

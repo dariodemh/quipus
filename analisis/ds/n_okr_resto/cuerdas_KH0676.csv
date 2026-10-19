@@ -1,0 +1,139 @@
+kfg,orden,cuerda,tipo,nivel,padre,grupo,valor,alt,nudos,color,torsion,union,largo,terminacion,notas
+KH0676,0,1,p,0,,,66,516,"5S(3.5,U),500;1S(20.0,U),10;6L(31.5,U),6",YB,z/s,r,39.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 516; varios racimos S: hoja=66, jerarquica=516"
+KH0676,1,2,p,0,,,111,3180,"3S(5.0,U),3000;1E(17.0,U),100;8S(26.0,U),80",YB,z/s,r,39.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3180; varios racimos S: hoja=111, jerarquica=3180"
+KH0676,2,3,p,0,,,10,451,"4L(2.0,U),400;5L(14.0,U),50;1E(31.5,U),1",YB,z/s,r,41.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 451
+KH0676,3,4,p,0,,,19,514,"5L(7.0,U),500;1S(18.5,U),10;4L(30.0,U),4",YB,z/s,r,37.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 514
+KH0676,4,5,p,0,,,11,461,"4L(6.0,U),400;6L(19.0,U),60;1E(27.0,U),1",YB,z/s,r,40.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 461
+KH0676,5,6,p,0,,,37,3133,"3S(7.5,U),3000;1E(9.5,U),100;3L(22.0,U),30;3L(31.5,U),3",YB:AB,z/s,r,37.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3133
+KH0676,6,6s1,p,1,6,,51,141,"1S(3.0,U),100;4S(18.0,U),40;1E(30.0,U),1",VB:W,z/s,,39.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 141; varios racimos S: hoja=51, jerarquica=141"
+KH0676,7,7,p,0,,,21,8310,"8L(5.5,U),8000;3L(18.5,U),300;1S(28.0,U),10",YB,z/s,r,35.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 8310
+KH0676,8,8,p,0,,,82,874,"8L(6.0,U),800;7S(18.0,U),70;4L(36.0,U),4",YY,z/s,r,46.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 874
+KH0676,9,8s1,p,1,8,,65,614,"6S(4.0,U),600;1E(17.0,U),10;4L(26.5,U),4",DB:W,z/s,,31.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 614
+KH0676,10,8s2,p,1,8,,10,10,"1S(9.0,U),10",YY,z/s,,9.5,B,
+KH0676,11,9,p,0,,,7,151,"1E(8.0,U),100;5L(15.0,U),50;1E(33.5,U),1",YB:AB,z/s,r,41.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 151
+KH0676,12,9s1,p,1,9,,22,7510,"7L(5.0,U),7000;5L(21.0,U),500;1S(30.0,U),10",VB:YB,z/s,,37.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 7510
+KH0676,13,10,p,0,,,10,118,"1E(4.5,U),100;1E(17.5,U),10;8L(27.5,U),8",YB,z/s,r,36.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 118
+KH0676,14,10s1,p,1,10,,56,5150,"5L(6.5,U),5000;1E(21.0,U),100;5S(37.5,U),50",DB:W,z/s,,44.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 5150
+KH0676,15,11,p,0,,,22,6610,"6L(3.0,U),6000;6L(18.0,U),600;1S(30.5,U),10",YB,z/s,r,35.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 6610
+KH0676,16,11s1,p,1,11,,21,4710,"4L(6.0,U),4000;7L(19.5,U),700;1S(30.0,U),10",YB,z/s,,36.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4710
+KH0676,17,12,p,0,,,5,131,"1E(7.0,U),100;3L(22.5,U),30;1E(34.0,U),1",NB,z/s,r,40.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 131
+KH0676,18,12s1,p,1,12,,10,415,"4L(5.0,U),400;1E(18.0,U),10;5L(28.0,U),5",AB:W,z/s,,37.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 415
+KH0676,19,13,p,0,,,41,6530,"6L(4.0,U),6000;5L(24.0,U),500;3S(33.5,U),30",YB,z/s,r,40.0,K,tipo SP tratado como S; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 6530
+KH0676,20,13s1,p,1,13,,68,644,"6S(5.0,U),600;4L(20.5,U),40;4L(29.5,U),4",DB:W,z/s,,34.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 644
+KH0676,21,14,p,0,,,25,8710,"8L(3.0,U),8000;7L(16.0,U),700;1S(24.5,U),10",YB,z/s,r,29.0,,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 8710
+KH0676,22,14s1,p,1,14,,0,0,,YB, - / - ,,0.0,B,
+KH0676,23,15,p,0,,,7,511,"5L(3.0,U),500;1E(16.5,U),10;1E(28.0,U),1",YB,z/s,r,41.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 511
+KH0676,24,16,p,0,,,17,314,"3E(8.0,U),300;1S(17.5,U),10;4L(28.0,U),4",YB,z/s,r,36.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 314
+KH0676,25,17,p,0,,,9,711,"7L(5.0,U),700;1E(15.5,U),10;1E(26.5,U),1",YB,z/s,r,38.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 711
+KH0676,26,18,p,0,,,60,1140,"1S(5.0,U),1000;1S(17.0,U),100;4S(31.0,U),40",YB:BY,z/s,r,41.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1140; varios racimos S: hoja=60, jerarquica=1140"
+KH0676,27,18s1,p,1,18,,22,913,"9L(4.5,U),900;1S(19.0,U),10;3L(32.0,U),3",VB:YB,z/s,,38.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 913
+KH0676,28,19,p,0,,,30,1110,"1S(8.0,U),1000;1S(23.0,U),100;1S(39.0,U),10",YB,z/s,r,50.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1110; varios racimos S: hoja=30, jerarquica=1110"
+KH0676,29,20,p,0,,,58,7150,"7L(5.5,U),7000;1E(21.0,U),100;5S(36.5,U),50",YY,z/s,r,50.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 7150
+KH0676,30,20s1,p,1,20,,17,566,"5L(5.5,U),500;6L(20.0,U),60;6L(31.5,U),6",DB:W,z/s,,36.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 566
+KH0676,31,20s2,p,1,20,,24,726,"7L(4.0,U),700;1E(16.0,U),10;16L(25.0,U),16",YY,z/s,,33.5,R,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 726
+KH0676,32,21,p,0,,,10,451,"4L(4.5,U),400;5L(18.5,U),50;1E(31.5,U),1",VB,z/s,r,39.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 451
+KH0676,33,21s1,p,1,21,,4,211,"2L(5.5,U),200;1E(21.0,U),10;1E(34.5,U),1",NB,z/s,,43.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 211
+KH0676,34,22,p,0,,,81,1170,"1S(6.0,U),1000;1E(23.5,U),100;7S(34.0,U),70",YB,z/s,r,43.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1170; varios racimos S: hoja=81, jerarquica=1170"
+KH0676,35,22s1,p,1,22,,12,111,"1S(4.0,U),100;1E(9.0,U),10;1E(15.0,U),1",DB:W,s/z,,18.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 111
+KH0676,36,23,p,0,,,47,227,"2S(9.5,U),200;2S(22.0,U),20;7L(34.0,U),7",YB,z/s,r,41.5,K,"tipo SP tratado como S; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 227; varios racimos S: hoja=47, jerarquica=227"
+KH0676,37,24,p,0,,,7,313,"3L(4.0,U),300;1E(19.5,U),10;3L(37.0,U),3",YB,z/s,r,43.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 313
+KH0676,38,25,p,0,,,91,181,"1S(5.0,U),100;8S(16.5,U),80;1E(30.5,U),1",YB,z/s,r,39.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 181; varios racimos S: hoja=91, jerarquica=181"
+KH0676,39,26,p,0,,,62,1160,"1E(9.5,U),1000;1E(20.0,U),100;6S(31.5,U),60",YB,z/s,r,41.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1160
+KH0676,40,27,p,0,,,10,334,"3L(3.0,U),300;3L(20.0,U),30;4L(31.5,U),4",YB,z/s,r,39.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 334
+KH0676,41,28,p,0,,,15,771,"7L(5.5,U),700;7L(18.5,U),70;1E(29.5,U),1",YB,z/s,r,37.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 771
+KH0676,42,28s1,p,1,28,,54,4140,"4L(2.0,U),4000;1S(15.0,U),100;4S(30.0,U),40",DB:W,z/s,,38.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4140; varios racimos S: hoja=54, jerarquica=4140"
+KH0676,43,29,p,0,,,57,6150,"6L(9.0,U),6000;1E(20.5,U),100;5S(31.0,U),50",YB,z/s,r,40.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 6150
+KH0676,44,30,p,0,,,30,1110,"1S(7.5,U),1000;1S(20.5,U),100;1S(36.0,U),10",YB,z/s,r,50.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1110; varios racimos S: hoja=30, jerarquica=1110"
+KH0676,45,31,p,0,,,32,11120,"1E(8.0,U),10000;1S(26.5,U),1000;1E(40.0,U),100;2S(40.5,U),20",YB,z/s,r,47.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 11120; varios racimos S: hoja=32, jerarquica=11120"
+KH0676,46,31s1,p,1,31,,16,601,"5L(2.5,U),500;10L(16.5,U),100;1E(25.5,U),1",DB:W,z/s,,29.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 601
+KH0676,47,32,p,0,,,73,613,"6S(5.0,U),600;1S(21.0,U),10;3L(39.0,U),3",YB,z/s,r,44.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 613; varios racimos S: hoja=73, jerarquica=613"
+KH0676,48,33,p,0,,,4,112,"1E(9.0,U),100;1E(22.0,U),10;2L(40.0,U),2",YB,z/s,r,50.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 112
+KH0676,49,34,p,0,,,11,119,"1E(5.0,U),100;1E(14.0,U),10;9L(25.0,U),9",YB,z/s,r,36.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 119
+KH0676,50,35,p,0,,,17,791,"7L(4.5,U),700;9L(18.0,U),90;1E(28.0,U),1",YB,z/s,r,34.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 791
+KH0676,51,35s1,p,1,35,,13,652,"6L(3.5,U),600;5L(20.5,U),50;2L(29.5,U),2",DB:W,z/s,,33.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 652
+KH0676,52,36,p,0,,,44,4130,"4L(4.0,U),4000;1S(17.5,U),100;3S(30.5,U),30",BY:YB,z/s,r,40.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4130; varios racimos S: hoja=44, jerarquica=4130"
+KH0676,53,36s1,p,1,36,,59,554,"5L(4.0,U),500;5S(15.0,U),50;4L(28.5,U),4",VB:YB,z/s,,34.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 554
+KH0676,54,37,p,0,,,48,3117,"3S(5.5,U),3000;1E(8.0,U),100;1S(19.0,U),10;7L(29.5,U),7",YB,z/s,r,38.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3117; varios racimos S: hoja=48, jerarquica=3117"
+KH0676,55,38,p,0,,,52,4111,"4S(3.0,U),4000;1E(5.5,U),100;1S(15.5,U),10;1E(29.5,U),1",YB,z/s,r,39.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4111; varios racimos S: hoja=52, jerarquica=4111"
+KH0676,56,39,p,0,,,75,723,"7S(7.0,U),700;2L(22.0,U),20;3L(35.0,U),3",YB,z/s,r,42.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 723
+KH0676,57,39s1,p,1,39,,12,453,"4L(2.5,U),400;5L(19.0,U),50;3L(32.0,U),3",DB:W,z/s,,39.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 453
+KH0676,58,40,p,0,,,35,7820,"7L(3.0,U),7000;8L(19.5,U),800;2S(31.0,U),20",YB,z/s,r,37.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 7820
+KH0676,59,40s1,p,1,40,,66,651,"6S(4.0,U),600;5L(18.5,U),50;1E(30.5,U),1",YB,z/s,,38.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 651
+KH0676,60,41,p,0,,,65,314120,"3L(4.0,U),300000;1E(16.0,U),10000;4S(16.5,U),4000;1E(25.0,U),100;2S(25.5,U),20",YB/W,z/s,r,36.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 314120; varios racimos S: hoja=65, jerarquica=314120"
+KH0676,61,41s1,p,1,41,,21,174,"1S(5.0,U),100;7L(17.0,U),70;4L(32.5,U),4",DB:W,z/s,,40.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 174
+KH0676,62,41s2,p,1,41,,109,61840,"6S(6.0,U),60000;1E(15.0,U),1000;8L(23.5,U),800;4S(33.0,U),40",YY,z/s,,39.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 61840; varios racimos S: hoja=109, jerarquica=61840"
+KH0676,63,41s2s1,p,2,41s2,,32,4820,"4L(3.5,U),4000;8L(16.0,U),800;2S(26.5,U),20",YB/W,z/s,,36.0,K,tipo SP tratado como S; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4820
+KH0676,64,42,p,0,,,10,613,"6L(5.5,U),600;1E(15.0,U),10;3L(26.5,U),3",YB,z/s,r,37.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 613
+KH0676,65,43,p,0,,,90,3330,"3S(5.0,U),3000;3S(17.5,U),300;3S(32.0,U),30",YB,z/s,r,43.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3330; varios racimos S: hoja=90, jerarquica=3330"
+KH0676,66,44,p,0,,,27,117,"1S(7.5,U),100;1S(20.5,U),10;7L(34.0,U),7",YB,z/s,r,44.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 117; varios racimos S: hoja=27, jerarquica=117"
+KH0676,67,45,p,0,,,121,1210,"1E(7.5,U),1000;1S(20.5,U),100;11S(29.0,U),110",YB,z/s,r,38.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1210; varios racimos S: hoja=121, jerarquica=1210"
+KH0676,68,46,p,0,,,11,614,"6L(4.0,U),600;1E(13.5,U),10;4L(29.5,U),4",YB,z/s,r,38.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 614
+KH0676,69,47,p,0,,,41,46130,"4L(7.0,U),40000;6L(22.0,U),6000;1E(31.0,U),100;3S(31.5,U),30",YB,z/s,r,44.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 46130
+KH0676,70,48,p,0,,,27,1710,"1S(5.0,U),1000;7L(21.5,U),700;1S(31.0,U),10",YB:YB~B,z/s,r,37.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1710; varios racimos S: hoja=27, jerarquica=1710"
+KH0676,71,48s1,p,1,48,,93,813,"8S(5.0,U),800;1S(17.0,U),10;3L(26.5,U),3",DB:W,z/s,,31.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 813; varios racimos S: hoja=93, jerarquica=813"
+KH0676,72,49,p,0,,,8,332,"3L(9.0,U),300;3L(22.5,U),30;2L(33.5,U),2",YB,z/s,r,42.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 332
+KH0676,73,49s1,p,1,49,,21,1011,"10L(4.5,U),1000;1S(10.5,U),10;1E(22.0,U),1",DB:W,z/s,,29.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1011
+KH0676,74,50,p,0,,,104,4640,"4L(2.5,U),4000;6S(19.5,U),600;4S(32.0,U),40",W/YB:YB~B,z/s,r,39.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4640; varios racimos S: hoja=104, jerarquica=4640"
+KH0676,75,51,p,0,,,9,333,"3L(4.0,U),300;3L(18.0,U),30;3L(30.0,U),3",YB,z/s,r,36.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 333
+KH0676,76,52,p,0,,,17,314,"3L(3.5,U),300;1S(16.0,U),10;4L(36.0,U),4",YB:BY,z/s,r,42.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 314
+KH0676,77,52s1,p,1,52,,58,553,"5S(5.5,U),500;5L(21.0,U),50;3L(30.0,U),3",VB:W,z/s,,35.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 553
+KH0676,78,53,p,0,,,19,316,"3L(10.0,U),300;1S(28.5,U),10;6L(39.0,U),6",YB,z/s,r,43.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 316
+KH0676,79,54,p,0,,,53,512,"5S(3.0,U),500;1E(16.0,U),10;2L(29.0,U),2",VB,z/s,r,36.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 512
+KH0676,80,54s1,p,1,54,,18,513,"5L(4.0,U),500;1S(16.5,U),10;3L(28.5,U),3",NB,z/s,,39.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 513
+KH0676,81,55,p,0,,,11,551,"5L(3.0,U),500;5L(18.0,U),50;1E(30.5,U),1",YB,z/s,r,39.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 551
+KH0676,82,55s1,p,1,55,,16,1051,"10L(3.0,U),1000;5L(19.5,U),50;1E(28.0,U),1",DB:W,z/s,,32.5,,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1051
+KH0676,83,56,p,0,,,11,533,"5L(2.5,U),500;3L(20.5,U),30;3L(34.5,U),3",YB,z/s,,40.0, ,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 533
+KH0676,84,57,p,0,,,46,5140,"5L(10.5,U),5000;1E(23.0,U),100;4S(30.0,U),40",YB,z/s,r,37.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 5140
+KH0676,85,58,p,0,,,110,3530,"3S(5.0,U),3000;5S(15.5,U),500;3S(26.5,U),30",YB:YB~B,z/s,r,36.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3530; varios racimos S: hoja=110, jerarquica=3530"
+KH0676,86,59,p,0,,,13,553,"5L(4.5,U),500;5L(18.0,U),50;3L(31.0,U),3",YB,z/s,r,40.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 553
+KH0676,87,60,p,0,,,12,111,"1E(7.0,U),100;1S(24.0,U),10;1E(37.5,U),1",YB:RL,z/s,r,45.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 111
+KH0676,88,60s1,p,1,60,,64,4150,"4L(2.5,U),4000;1S(18.0,U),100;5S(32.0,U),50",W:VB,z/s,,40.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4150; varios racimos S: hoja=64, jerarquica=4150"
+KH0676,89,61,p,0,,,32,1121,"1S(6.0,U),1000;1E(17.5,U),100;2S(23.0,U),20;1E(29.5,U),1",YB,z/s,r,43.0,K,"tipo SP tratado como S; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1121; varios racimos S: hoja=32, jerarquica=1121"
+KH0676,90,62,p,0,,,11,632,"6L(4.0,U),600;3L(21.5,U),30;2L(35.5,U),2",YB:W,z/s,r,42.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 632
+KH0676,91,62s1,p,1,62,,83,3170,"3L(6.5,U),3000;1S(24.0,U),100;7S(34.5,U),70",DB:W,z/s,,42.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3170; varios racimos S: hoja=83, jerarquica=3170"
+KH0676,92,63,p,0,,,5,131,"1E(4.5,U),100;3L(26.5,U),30;1E(36.5,U),1",YB,z/s,r,43.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 131
+KH0676,93,63s1,p,1,63,,16,115,"1E(5.5,U),100;1S(18.5,U),10;5L(28.0,U),5",YB:YB~B,z/s,,41.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 115
+KH0676,94,64,p,0,,,8,314,"3L(6.5,U),300;1E(19.0,U),10;4L(32.5,U),4",YB~YB/W,z/s,r,42.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 314
+KH0676,95,64s1,p,1,64,,81,1170,"1S(7.0,U),1000;1E(14.5,U),100;7S(29.5,U),70",DB:W,z/s,,37.5,,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1170; varios racimos S: hoja=81, jerarquica=1170"
+KH0676,96,65,p,0,,,56,452,"4L(4.5,U),400;5S(20.0,U),50;2L(33.5,U),2",YB:RL,z/s,r,41.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 452
+KH0676,97,65s1,p,1,65,,25,1510,"1S(6.5,U),1000;5L(25.0,U),500;1S(36.0,U),10",YB:RL,z/s,,45.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1510; varios racimos S: hoja=25, jerarquica=1510"
+KH0676,98,65s1s1,p,2,65s1,,63,513,"5S(4.5,U),500;1S(19.0,U),10;3L(31.0,U),3",W:VB,z/s,,37.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 513; varios racimos S: hoja=63, jerarquica=513"
+KH0676,99,65s2,p,1,65,,20,5510,"5L(5.0,U),5000;5L(17.5,U),500;1S(31.5,U),10",YB~YB/W,z/s,,37.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 5510
+KH0676,100,65s2s1,p,2,65s2,,9,612,"6L(6.5,U),600;1E(17.5,U),10;2L(30.0,U),2",DB:W,z/s,,37.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 612
+KH0676,101,65s2s1s1,p,3,65s2s1,,13,616,"6L(9.5,U),600;1E(21.5,U),10;6L(33.0,U),6",W/YB,z/s,,42.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 616
+KH0676,102,65s3,p,1,65,,8,413,"4L(4.5,U),400;1E(21.5,U),10;3L(36.0,U),3",YB~YB/W,z/s,,41.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 413
+KH0676,103,65s3s1,p,2,65s3,,34,1231,"1S(7.5,U),1000;2S(8.0,U),200;3E(18.0,U),30;1E(30.5,U),1",W/YB,z/s,,42.0,K,"tipo SP tratado como S; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1231; varios racimos S: hoja=34, jerarquica=1231"
+KH0676,104,65s3s1s1,p,3,65s3s1,,12,714,"7L(4.5,U),700;1E(20.5,U),10;4L(35.0,U),4",DB:W,z/s,,40.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 714
+KH0676,105,65s4,p,1,65,,4,211,"2L(6.5,U),200;1E(18.0,U),10;1E(32.0,U),1",YB~YB/W,z/s,,44.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 211
+KH0676,106,65s4s1,p,2,65s4,,27,3420,"3L(5.0,U),3000;4L(18.5,U),400;2S(30.5,U),20",VB:W,z/s,,37.5,K,tipo SP tratado como S; 3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3420
+KH0676,107,65s5,p,1,65,,16,5110,"5L(6.0,U),5000;1E(16.0,U),100;1S(26.5,U),10",YB~YB/W,z/s,,37.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 5110
+KH0676,108,65s5s1,p,2,65s5,,28,2116,"2S(6.5,U),2000;1E(7.5,U),100;1E(20.5,U),10;6L(31.5,U),6",W/YB,z/s,,41.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 2116
+KH0676,109,65s5s1s1,p,3,65s5s1,,46,541,"5L(10.0,U),500;4S(18.5,U),40;1E(33.5,U),1",DB:W,z/s,,38.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 541
+KH0676,110,65s6,p,1,65,,100,5410,"5S(4.5,U),5000;4S(19.5,U),400;1S(32.0,U),10",YB~YB/W,z/s,,39.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 5410; varios racimos S: hoja=100, jerarquica=5410"
+KH0676,111,65s6s1,p,2,65s6,,61,2140,"2S(3.0,U),2000;1E(17.0,U),100;4S(30.5,U),40",YB:RL,z/s,,40.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 2140; varios racimos S: hoja=61, jerarquica=2140"
+KH0676,112,65s6s1s1,p,3,65s6s1,,22,175,"1S(3.0,U),100;7L(8.5,U),70;5L(24.5,U),5",YB,z/s,,38.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 175
+KH0676,113,65s6s1s1s1,p,4,65s6s1s1,,14,131,"1S(5.0,U),100;3L(21.5,U),30;1E(36.5,U),1",YB~YB/W,z/s,,45.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 131
+KH0676,114,65s7,p,1,65,,60,1410,"1S(7.0,U),1000;4S(16.5,U),400;1S(34.5,U),10",YB~YB/W,z/s,,46.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1410; varios racimos S: hoja=60, jerarquica=1410"
+KH0676,115,65s7s1,p,2,65s7,,37,3115,"3S(6.5,U),3000;1E(8.0,U),100;1E(17.5,U),10;5L(31.5,U),5",YB/W,z/s,,39.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3115
+KH0676,116,65s7s1s1,p,3,65s7s1,,19,118,"1S(10.0,U),100;1E(23.5,U),10;8L(35.0,U),8",DB:W,z/s,,41.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 118
+KH0676,117,65s8,p,1,65,,16,5110,"5L(8.5,U),5000;1E(21.0,U),100;1S(33.5,U),10",YB~YB/W,z/s,,42.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 5110
+KH0676,118,65s8s1,p,2,65s8,,15,546,"5L(6.0,U),500;4L(18.5,U),40;6L(28.5,U),6",W,z/s,,37.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 546
+KH0676,119,65s8s1s1,p,3,65s8s1,,110,1910,"1S(7.0,U),1000;9S(15.0,U),900;1S(26.0,U),10",DB:W,z/s,,36.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1910; varios racimos S: hoja=110, jerarquica=1910"
+KH0676,120,65s9,p,1,65,,19,3610,"3L(4.5,U),3000;6L(19.5,U),600;1S(30.0,U),10",YB~YB/W,z/s,,39.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3610
+KH0676,121,65s9s1,p,2,65s9,,10,127,"1E(8.0,U),100;2E(22.5,U),20;7L(35.0,U),7",W,z/s,,42.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 127
+KH0676,122,65s9s1s1,p,3,65s9s1,,14,554,"5L(5.5,U),500;5L(21.0,U),50;4L(33.0,U),4",W,z/s,,40.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 554
+KH0676,123,65s9s1s1s1,p,4,65s9s1s1,,13,634,"6L(4.5,U),600;3L(17.0,U),30;4L(31.0,U),4",DB:W,z/s,,35.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 634
+KH0676,124,65s10,p,1,65,,34,4120,"4L(6.0,U),4000;1S(17.5,U),100;2S(30.0,U),20",YB~YB/W,z/s,,42.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4120; varios racimos S: hoja=34, jerarquica=4120"
+KH0676,125,65s10s1,p,2,65s10,,17,2411,"2E(6.0,U),2000;4E(15.5,U),400;1S(17.5,U),10;1E(27.5,U),1",W,z/s,,36.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 2411
+KH0676,126,65s10s1s1,p,3,65s10s1,,18,1431,"14L(3.5,U),1400;3L(20.0,U),30;1E(30.0,U),1",W,z/s,,37.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 1431
+KH0676,127,65s11,p,1,65,,15,4110,"4L(5.0,U),4000;1E(16.0,U),100;1S(32.5,U),10",YB~YB/W,z/s,,43.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4110
+KH0676,128,65s11s1,p,2,65s11,,15,114,"1E(8.5,U),100;1S(22.0,U),10;4L(34.5,U),4",YB:RL,z/s,,43.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 114
+KH0676,129,65s11s1s1,p,3,65s11s1,,53,3410,"3L(4.0,U),3000;4S(21.5,U),400;1S(32.0,U),10",VB:W,z/s,,38.5,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3410; varios racimos S: hoja=53, jerarquica=3410"
+KH0676,130,65s12,p,1,65,,6,231,"2L(3.5,U),200;3L(19.0,U),30;1E(32.0,U),1",YB~YB:W,z/s,,41.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 231
+KH0676,131,65s13,p,1,65,,5,113,"1E(7.0,U),100;1E(20.0,U),10;3L(36.5,U),3",YB~YB:W,z/s,,46.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 113
+KH0676,132,65s14,p,1,65,,16,115,"1S(6.5,U),100;1E(21.5,U),10;5L(36.5,U),5",YB~YB:W,z/s,,43.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 115
+KH0676,133,65s14s1,p,2,65s14,,75,5610,"5L(3.5,U),5000;6S(15.0,U),600;1S(27.0,U),10",VB,z/s,,33.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 5610; varios racimos S: hoja=75, jerarquica=5610"
+KH0676,134,65s14s1s1,p,3,65s14s1,,17,143,"1S(4.5,U),100;4L(18.0,U),40;3L(32.5,U),3",NB,z/s,,40.5,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 143
+KH0676,135,65s15,p,1,65,,23,3110,"3L(5.5,U),3000;1S(19.5,U),100;1S(38.5,U),10",YB~YB/W,z/s,,48.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 3110; varios racimos S: hoja=23, jerarquica=3110"
+KH0676,136,65s16,p,1,65,,18,4410,"4L(5.5,U),4000;4L(18.0,U),400;1S(34.5,U),10",YB~YB/W,z/s,,40.0,K,3+ racimos: regla de la hoja (simples=10); la jerarquica daria 4410
+KH0676,137,65s17,p,1,65,,62,2510,"2E(9.5,U),2000;5S(22.5,U),500;1S(32.0,U),10",YB~YB/W,z/s,,41.0,K,"3+ racimos: regla de la hoja (simples=10); la jerarquica daria 2510; varios racimos S: hoja=62, jerarquica=2510"

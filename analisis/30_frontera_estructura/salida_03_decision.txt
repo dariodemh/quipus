@@ -1,0 +1,37 @@
+familias:
+                            nA  kA  binomA   minqA  promovida    nB   kB  binomB  minqconf  binomB_holm  replica
+familia                                                                                                        
+T1_periodo_valor           78   3  0.7543  0.2587      False   NaN  NaN     NaN       NaN          NaN    False
+T2_periodo_color           68   6  0.1242  0.0082       True  73.0  8.0  0.0292    0.0027       0.1461     True
+T3_repeticion              84   3  0.7972  0.3950      False   NaN  NaN     NaN       NaN          NaN    False
+T4_tendencia               77  14  0.0000  0.0092       True  77.0  9.0  0.0146    0.3295       0.0877    False
+T5_subsidiaria             33   4  0.0808  0.0082       True  48.0  7.0  0.0095    0.0753       0.0663    False
+T6_suma_salteada           73   1  0.9764  0.0082       True  77.0  2.0  0.9027    0.5380       1.0000    False
+T7_pares_suma              82   4  0.5912  0.0369       True  85.0  4.0  0.6197    0.4663       1.0000    False
+I1_copia                   88   4  0.6468  0.0102       True  89.0  7.0  0.1575    0.1921       0.6301    False
+I2_invertida               88   8  0.0734  0.4727      False   NaN  NaN     NaN       NaN          NaN    False
+I3_diferencia              88   4  0.6468  0.0102       True  89.0  3.0  0.8279    0.5044       1.0000    False
+I4_razon                   88   3  0.8221  0.2765      False   NaN  NaN     NaN       NaN          NaN    False
+I5_grupos_permutados       71   1  0.9738  0.1084      False   NaN  NaN     NaN       NaN          NaN    False
+I6_suma_bloque_F_en_otro   89   5  0.4606  0.3309      False   NaN  NaN     NaN       NaN          NaN    False
+I7_suma_bloque_otro_en_F   76   0  1.0000  1.0000      False   NaN  NaN     NaN       NaN          NaN    False
+I8_total_grupo_F_en_sitio  79   2  0.9103  0.4727      False   NaN  NaN     NaN       NaN          NaN    False
+I9_total_grupo_sitio_en_F  67   0  1.0000  0.8869      False   NaN  NaN     NaN       NaN          NaN    False
+
+niveles: {'ninguno': 2830, 'especulativo': 41, 'propuesto': 6, 'demostrado': 2, 'apoyado': 1}
+filas que sacan de la frontera por familia: {'T2_periodo_color': 3}
+quipus que dejan la frontera: 3 | solo por relacion nueva (no 04): 3
+propuestos (quipus): 6
+suma de q en filas que sacan: 0.027
+
+filas demostrado/apoyado/propuesto:
+          kfg        estructura  estadistico        p         q mitad       nivel  conocido_04                                    detalle
+624     UR040  T2_periodo_color     0.757392  0.00001  0.008363     B  demostrado        False                            lag=2;colores=2
+894     UR122  T6_suma_salteada     3.000000  0.00001  0.008363     A   propuesto        False                            misma_posicion;
+1016    UR167  T2_periodo_color     0.799907  0.00001  0.008363     B  demostrado        False                            lag=2;colores=2
+564     UR016    T5_subsidiaria     0.382064  0.00002  0.010036     A   propuesto        False           spearman;obs=[12.0, 13.0, 0.382]
+722   UR1033F  T2_periodo_color     0.841959  0.00002  0.010036     A     apoyado        False                            lag=2;colores=3
+794    UR1107      T4_tendencia     0.823529  0.00003  0.012545     A   propuesto        False                                   signo=-1
+1494   UR1118          I1_copia    16.785267  0.00005  0.015681     A   propuesto         True   companero=UR218;posiciones_F_cubiertas=7
+2585    QU017     I3_diferencia    36.811834  0.00005  0.015681     A   propuesto        False  companero=UR016;posiciones_F_cubiertas=17
+388     JC011      T4_tendencia     0.393715  0.00010  0.027878     A   propuesto        False                                   signo=+1

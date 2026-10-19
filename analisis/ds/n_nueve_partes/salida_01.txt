@@ -1,0 +1,68 @@
+quipus: 651; cuerdas nivel 0: 41714
+
+== UR278: 26 grupos; tamanos {7: 1, 8: 1, 9: 24}
+   filas completas (9): 24; filas >=7: 26; total = 59166; mediana fila = 2097
+   CV dentro de fila (>=7): media 0.272 IC95 [0.228;0.315]; mediana 0.269 (n=26)
+   CV ENTRE MEDIAS DE COLUMNA: 0.193 IC95 [0.154;0.242]  <-- cifra comparable a 0,18
+   perfil (% del registro): c1=13.7 c2=14.4 c3=9.6 c4=10.8 c5=11.4 c6=12.6 c7=10.6 c8=8.0 c9=9.0
+   max/min de las medias de columna: 1.80
+   split-half (primeras 12 vs ultimas 12): rho=0.65, p=0.0581
+   Friedman chi2=94.6, p=5.45e-17 (n=24)
+   nulo columnas intercambiables: CVcol 0.059 [0.033;0.090], p=0.0002
+   nulo Dirichlet(perfil, a0=40): CVcol 0.213 [0.150;0.277]; p(observado mas plano)=0.2649
+   perfil ordenado: 14.4 13.7 12.6 11.4 10.8 10.6 9.6 9.0 8.0
+   mejor particion en 2 grupos: R2=0.728 cortes=(3,)
+   mejor particion en 3 grupos: R2=0.909 cortes=(3, 6)
+   mejor particion en 4+5: R2=0.728 cortes=(3,)
+   mejor particion en 3+3+3: R2=0.909 cortes=(3, 6)
+   mejor particion en 2+3+4: R2=0.909 cortes=(3, 6)
+
+== UR266: 132 colgantes, 36 grupos; tamanos {1: 9, 3: 5, 4: 10, 5: 8, 6: 1, 7: 2, 8: 1}; total 93841
+   grupos que cierran x=suma(resto): 2; cuotas mas frecuentes: {47.0: 2}
+
+== UR275: 112 colgantes, 26 grupos; tamanos {3: 9, 4: 8, 5: 4, 6: 2, 7: 3}; total 110776
+   grupos que cierran x=suma(resto): 10; cuotas mas frecuentes: {47.0: 9, 46.0: 1}
+
+== Cribado: 120 tablas con >=3 filas completas y >=3 columnas
+   tablas K=9: 11
+   kfg  K  filas   cv_col  cv_fila   total
+ UR278  9     24 0.192852 0.275187 59166.0
+ UR270  9      6 0.312666 0.411540  9209.0
+UR1136  9     18 0.522507 0.827892  5258.0
+UR1140  9     20 0.573269 0.921268  4238.0
+ AS021  9      3 0.623629 0.625716   474.0
+ HP056  9      5 0.696096 0.780036   942.0
+ UR022  9      3 0.717203 0.767768  2693.0
+ AS209  9      3 0.862296 0.868701 34903.0
+ QU002  9      4 1.069244 1.080879   357.0
+ HP030  9      8 1.107041 1.127105 49935.0
+ UR085  9      3 1.850810 1.855457 26502.0
+   UR278: K=9, CVcol=0.193, percentil 0 de 11 tablas K=9
+   distribucion de K: {3: 20, 4: 30, 5: 18, 6: 17, 7: 8, 8: 9, 9: 11, 10: 3, 11: 2, 12: 1, 18: 1}
+
+== Cuotas: 144 trios exactos x=c+n en 61 quipus
+c
+1.0     52
+15.0    24
+10.0    20
+47.0    14
+2.0      8
+46.0     7
+5.0      3
+25.0     2
+17.0     2
+7.0      1
+35.0     1
+24.0     1
+   c=10: {'UR267B': 12, 'UR256': 7, 'AS172': 1}
+      valor 10 como cuerda: 2141 cuerdas en 391 quipus
+   c=15: {'UR267A': 15, 'UR255': 9}
+      valor 15 como cuerda: 567 cuerdas en 206 quipus
+   c=17: {'UR274B': 2}
+      valor 17 como cuerda: 351 cuerdas en 143 quipus
+   c=46: {'UR269': 7}
+      valor 46 como cuerda: 104 cuerdas en 62 quipus
+   c=47: {'UR275': 8, 'UR269': 4, 'UR266': 2}
+      valor 47 como cuerda: 135 cuerdas en 55 quipus
+   c=208: {'UR268': 1}
+      valor 208 como cuerda: 23 cuerdas en 5 quipus

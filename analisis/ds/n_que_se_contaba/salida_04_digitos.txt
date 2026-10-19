@@ -1,0 +1,46 @@
+quipus por tipo: {'recuento': 159, 'intermedio': 145, 'asignacion': 26}
+
+=== Benford por quipu (n>=20) ===
+quipus probados: 190 ; rechazan Benford (q<0.05): 99 (52%)
+MAD mediano: 0.0567 (Benford exacto = 0)
+por rango de valores (max/min):
+         n    mad  rechaza
+tramo                     
+<10     35  0.078    0.686
+10-100  94  0.059    0.543
+>100    61  0.047    0.393
+
+=== Agregado por tipo (todos los valores) ===
+recuento    n= 7026  MAD=0.0269  chi2=574.5 p=7.2e-119  d1=[39.4, 20.4, 12.3, 9.4, 6.0, 4.2, 3.0, 3.2, 2.1]
+intermedio  n= 5813  MAD=0.0390  chi2=917.0 p=1.2e-192  d1=[45.5, 19.7, 10.9, 7.2, 5.7, 4.3, 3.3, 2.1, 1.2]
+asignacion  n=  807  MAD=0.0220  chi2=58.7 p=8.3e-10  d1=[32.2, 20.1, 12.0, 7.7, 9.3, 10.7, 3.8, 2.4, 1.9]
+
+digito final 0 por tipo:
+      tipo    n  frac0
+  recuento 7026  0.117
+intermedio 5813  0.412
+asignacion  807  0.893
+
+MAD asignacion (n=14, mediana 0.068) vs recuento (n=93, mediana 0.055): MW p=7.16e-02
+
+=== Control de circularidad: excluir valores multiplos de 10 y de 5 ===
+valores no multiplos de 10: 10273
+recuento    n= 6201 MAD=0.0259 chi2 p=3.84e-98
+asignacion  n=   86 MAD=0.0347 chi2 p=1.04e-01
+
+=== Digito final por quipu (n>=20) ===
+quipus n>=20: 190 ; rechazan uniformidad (q<0.05): 116 (61%)
+fraccion de 0 mediana: 0.207 (uniforme = 0,10)
+             n  frac0  rechaza
+tipo                          
+asignacion  14  0.857    1.000
+intermedio  81  0.355    0.840
+recuento    93  0.120    0.344
+
+=== Control: ¿el fracaso de Benford es solo restriccion de rango? ===
+observado   : [42.2, 20.0, 11.7, 8.2, 6.0, 4.5, 3.1, 2.6, 1.7]
+Benford     : [30.1, 17.6, 12.5, 9.7, 7.9, 6.7, 5.8, 5.1, 4.6]
+rango-uniforme: [29.4, 18.0, 13.5, 10.3, 8.6, 6.7, 5.2, 4.4, 3.8]
+MAD obs-Benford = 0.0321 ; MAD obs-rango = 0.0328
+
+guardado benford_por_quipu.csv, digito_final_por_quipu.csv, digitos_por_tipo.csv

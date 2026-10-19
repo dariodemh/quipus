@@ -1,0 +1,40 @@
+frontera n = 180
+ k   sil  nulo_media  nulo_p95    p
+ 2 0.188       0.133     0.151 0.01
+ 3 0.167       0.117     0.130 0.01
+ 4 0.144       0.107     0.117 0.01
+ 5 0.124       0.102     0.112 0.01
+ 6 0.135       0.098     0.108 0.01
+ 7 0.130       0.096     0.106 0.01
+k=2 bootstrap ARI medio 0.77 IC [0.03 0.99]
+k=3 bootstrap ARI medio 0.66 IC [0.28 0.84]
+k=4 bootstrap ARI medio 0.42 IC [0.24 0.7 ]
+k=5 bootstrap ARI medio 0.52 IC [0.23 0.8 ]
+k elegido (max silueta) = 2
+k=2: ARI 0.76 [0.01 0.98]; estabilidad por quipu mediana 0.97; >=0.7: 170
+entrenamiento {'FOR': np.int64(70), 'TAB': np.int64(34), 'ASG': np.int64(28), 'ARC': np.int64(21), 'TAL': np.int64(19), 'SUM': np.int64(14), 'NAZ': np.int64(6), 'PAD': np.int64(6)} (descartados <6:  ['NON', 'CAL'] )
+CV 5-fold: exactitud 0.601, balanceada 0.464; base mayoritaria 0.354; balanceada con etiquetas barajadas 0.125 (p95 0.161)
+por clase (recall): {'ARC': 0.62, 'ASG': 0.68, 'FOR': 0.76, 'NAZ': 0.0, 'PAD': 0.0, 'SUM': 0.57, 'TAB': 0.35, 'TAL': 0.74}
+en CV, prob>=0.7: 0.04 de casos, precision 1.00
+
+Firmas documentales (items rosetta):
+              clase  n  red10  log_med  ben_dist
+    padrón/recuento 22   0.17     1.31      0.33
+         pnum otros  6   0.60     1.74      0.61
+servicio/asignación  9   1.00     2.18      0.72
+    tributo (serie)  8   0.38     3.88      0.58
+
+Clusters de la frontera:
+           n  n_cuerdas  red10  red5  log_med   ben  var_media  n_grupos  subs  n_colores   nmi  estab  p_mejor  top
+cluster                                                                                                             
+0        122       18.0   0.25  0.34     0.74  0.74       7.64       3.0  0.43        4.0  0.19   0.96     0.34  TAL
+1         58       30.0   0.34  0.40     2.00  0.48     737.58       5.0  0.25       12.0  0.32   0.87     0.36  FOR
+
+Procedencia por cluster (top 3):
+0 {'Unknown': np.int64(49), 'Pachacamac': np.int64(14), 'Incahuasi': np.int64(10)}
+1 {'Unknown': np.int64(18), 'Pachacamac': np.int64(10), 'Ica': np.int64(4)}
+
+clusters candidatos a genero nuevo: []
+asignables prob>=0.7 a existente: 1 ; a nuevo: 0 ; total 1 de 180
+existentes: {'existente:ASG': np.int64(1)}
+mejor genero (argmax) de los 180: {'FOR': np.int64(65), 'TAL': np.int64(48), 'ASG': np.int64(29), 'TAB': np.int64(26), 'SUM': np.int64(5), 'PAD': np.int64(4), 'ARC': np.int64(3)}

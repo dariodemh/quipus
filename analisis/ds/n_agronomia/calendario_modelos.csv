@@ -1,0 +1,9 @@
+modelo,descripcion,k,set,cuota_dentro,cuota_fuera,stat,p_exacta,n_subconjuntos,p_holm
+M7_siembra_p1p2,mano de obra de siembra/preparación concentrada en p1-p2 (no cosecha),2,"1,2",0.1355835973700115,0.10411897217999666,0.03146462519001483,0.027777777777777776,36,0.2222222222222222
+M2_mani_1cosecha_junio,"maní, 1 cosecha; año inicia en solsticio de junio; siembra p2 (ago), cosecha 140 d después",2,"5,6",0.12051061335872966,0.10842553904036291,0.01208507431836675,0.2777777777777778,36,1.0
+M1_mani_1cosecha_enero,"maní, 1 cosecha; año inicia en enero (Guaman Poma); siembra p1, cosecha 140 d después",2,"4,5",0.11234226479368506,0.11075935291608995,0.001582911877595114,0.4722222222222222,36,1.0
+M4_mani_2cosechas_junio,"maní, 2 cosechas; siembras p2 y p6, cosechas p5-p6 y p9",3,"5,6,9",0.11018723710798944,0.1115730481126719,-0.0013858110046824496,0.5595238095238095,84,1.0
+M6_frijol_3cosechas,"frijol, 3 cosechas (ciclo 100 d); siembras p1,p4,p7; cosechas p3,p6,p9",3,"3,6,9",0.10296514715847693,0.11518409308742815,-0.012218945928951216,0.8214285714285714,84,1.0
+M5_aji_continuo,"ají: trasplante y cosecha escalonada, 6 periodos",6,"3,4,5,6,7,8",0.10654872010891127,0.12023589311551065,-0.013687173006599385,0.8333333333333334,84,1.0
+M3_mani_2cosechas_enero,"maní, 2 cosechas; siembras p1 y p5, cosechas p4-p5 y p8-p9",4,"4,5,8,9",0.09944872804527385,0.12044101756378087,-0.020992289518507012,0.9603174603174603,126,1.0
+M8_sin_estacionalidad,actividad repartida por igual en los 9 periodos,9,"1,2,3,4,5,6,7,8,9",0.11111111111111108,0.11111111111111108,0.0,1.0,1,1.0

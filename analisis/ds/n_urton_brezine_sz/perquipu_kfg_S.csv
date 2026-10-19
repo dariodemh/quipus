@@ -1,0 +1,580 @@
+kfg,n_dir_S,pZ_S,prov,archivo,region
+AS001,0.0,,SIN,SIN,Unknown
+AS002,0.0,,SIN,SIN,Unknown
+AS003,0.0,,SIN,SIN,Unknown
+AS004,0.0,,SIN,SIN,Unknown
+AS005,0.0,,SIN,SIN,Unknown
+AS006,0.0,,SIN,SIN,Unknown
+AS007,0.0,,SIN,SIN,Unknown
+AS008,0.0,,SIN,SIN,Unknown
+AS009,0.0,,SIN,SIN,Unknown
+AS010,0.0,,SIN,SIN,Unknown
+AS011,0.0,,SIN,SIN,Unknown
+AS012,0.0,,SIN,SIN,Unknown
+AS013,0.0,,SIN,SIN,Unknown
+AS014,0.0,,SIN,SIN,Unknown
+AS017,0.0,,SIN,SIN,Unknown
+AS018,0.0,,SIN,SIN,Unknown
+AS020,0.0,,SIN,SIN,Unknown
+AS021,0.0,,SIN,SIN,Unknown
+AS023,0.0,,SIN,SIN,Unknown
+AS024,0.0,,SIN,SIN,Unknown
+AS026A,0.0,,SIN,SIN,Unknown
+AS026B,0.0,,SIN,SIN,Unknown
+AS028,0.0,,SIN,SIN,Unknown
+AS029,0.0,,Aankoop,Otra/vaga,Unknown
+AS035C,0.0,,SIN,SIN,Unknown
+AS035D,0.0,,SIN,SIN,Unknown
+AS036,0.0,,"Maranga, Huaca 1",Lima,Unknown
+AS037,0.0,,SIN,SIN,Unknown
+AS039,0.0,,SIN,SIN,Unknown
+AS041,0.0,,SIN,SIN,Unknown
+AS042,0.0,,SIN,SIN,Unknown
+AS043,0.0,,SIN,SIN,Unknown
+AS044,0.0,,SIN,SIN,Unknown
+AS045,0.0,,SIN,SIN,Unknown
+AS048,0.0,,SIN,SIN,Unknown
+AS050,0.0,,SIN,SIN,Unknown
+AS054,0.0,,Hacienda Ullujalla y Callengo,Ica-Pisco-Paracas,Unknown
+AS055,0.0,,Hacienda Ullujalla y Callengo,Ica-Pisco-Paracas,Unknown
+AS059,0.0,,SIN,SIN,Unknown
+AS061_MA036,0.0,,SIN,SIN,Unknown
+AS062,0.0,,SIN,SIN,Unknown
+AS063,0.0,,SIN,SIN,Unknown
+AS063B,0.0,,SIN,SIN,Unknown
+AS064,0.0,,SIN,SIN,Unknown
+AS065,0.0,,SIN,SIN,Unknown
+AS065B,0.0,,SIN,SIN,Unknown
+AS066,0.0,,SIN,SIN,Unknown
+AS069,0.0,,Lluta Valley,Arica,Unknown
+AS071,0.0,,SIN,SIN,Unknown
+AS072,0.0,,"Rancho San Juan, Ica Valley",Ica-Pisco-Paracas,Unknown
+AS073,0.0,,"Rancho San Juan, Ica Valley",Ica-Pisco-Paracas,Unknown
+AS074,9.0,0.0,SIN,SIN,Unknown
+AS075,6.0,0.3333333333333333,Pachacamac,Pachacamac,Unknown
+AS076,1.0,1.0,SIN,SIN,Unknown
+AS077,0.0,,SIN,SIN,Unknown
+AS079,2.0,0.0,SIN,SIN,Unknown
+AS080,2.0,0.0,SIN,SIN,Unknown
+AS082,0.0,,SIN,SIN,Unknown
+AS083,0.0,,SIN,SIN,Unknown
+AS085,0.0,,SIN,SIN,Unknown
+AS089,0.0,,Peru,Otra/vaga,Unknown
+AS092,0.0,,Peru,Otra/vaga,Unknown
+AS093,0.0,,SIN,SIN,Unknown
+AS101_Part_1,0.0,,Pachacamac,Pachacamac,Unknown
+AS101_Part_2,0.0,,Pachacamac,Pachacamac,Unknown
+AS110,0.0,,Pachacamac,Pachacamac,Unknown
+AS111,0.0,,Pachacamac,Pachacamac,Unknown
+AS112,0.0,,Pachacamac,Pachacamac,Unknown
+AS115,0.0,,Ica,Ica-Pisco-Paracas,Unknown
+AS122,0.0,,Lima,Lima,Unknown
+AS125,0.0,,Pachacamac,Pachacamac,Unknown
+AS128,0.0,,Nazca,Nazca,Unknown
+AS129,0.0,,Ica,Ica-Pisco-Paracas,Unknown
+AS132,0.0,,Marquez,Otra/vaga,Unknown
+AS133,0.0,,Marquez,Otra/vaga,Unknown
+AS134,0.0,,Pachacamac,Pachacamac,Unknown
+AS137,0.0,,Chuquitanta,Lima,Unknown
+AS139,0.0,,Pachacamac,Pachacamac,Unknown
+AS142,0.0,,Ica,Ica-Pisco-Paracas,Unknown
+AS153,0.0,,SIN,SIN,Unknown
+AS156,0.0,,Pachacamac,Pachacamac,Unknown
+AS157,0.0,,SIN,SIN,Unknown
+AS158,0.0,,Pachacamac,Pachacamac,Unknown
+AS159,0.0,,Between Ica and Pisco,Ica-Pisco-Paracas,Unknown
+AS160,0.0,,Between Ica and Pisco,Ica-Pisco-Paracas,Unknown
+AS164,0.0,,Ica,Ica-Pisco-Paracas,Unknown
+AS168,0.0,,SIN,SIN,Unknown
+AS170,0.0,,Pachacamac,Pachacamac,Unknown
+AS171,0.0,,Ica,Ica-Pisco-Paracas,Unknown
+AS172,0.0,,Pachacamac,Pachacamac,Unknown
+AS173,0.0,,Between Ica and Pisco,Ica-Pisco-Paracas,Unknown
+AS174,0.0,,Between Ica and Pisco,Ica-Pisco-Paracas,Unknown
+AS177,0.0,,near Lima,Lima,Unknown
+AS178,0.0,,near Lima,Lima,Unknown
+AS182,0.0,,SIN,SIN,Unknown
+AS182B,0.0,,SIN,SIN,Unknown
+AS183,0.0,,SIN,SIN,Unknown
+AS184,0.0,,SIN,SIN,Unknown
+AS185,0.0,,SIN,SIN,Unknown
+AS186,0.0,,SIN,SIN,Unknown
+AS187,0.0,,Pachacamac,Pachacamac,Unknown
+AS188,0.0,,Pachacamac,Pachacamac,Unknown
+AS189,0.0,,Pachacamac,Pachacamac,Unknown
+AS191,1.0,0.0,Ica,Ica-Pisco-Paracas,Unknown
+AS192,10.0,0.1,Ica,Ica-Pisco-Paracas,Unknown
+AS194,3.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+AS195,3.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+AS196,6.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+AS197,23.0,0.0,Ica,Ica-Pisco-Paracas,Unknown
+AS199,89.0,0.8876404494382022,SIN,SIN,Unknown
+AS200,39.0,0.0,probably Central Coast Late Period,Otra/vaga,Unknown
+AS201,0.0,,Ica,Ica-Pisco-Paracas,Unknown
+AS206,0.0,,SIN,SIN,Unknown
+AS207A,0.0,,SIN,SIN,Unknown
+AS207B,0.0,,SIN,SIN,Unknown
+AS207C,0.0,,SIN,SIN,Unknown
+AS209,0.0,,SIN,SIN,Unknown
+AS210,0.0,,SIN,SIN,Unknown
+AS211,0.0,,SIN,SIN,Unknown
+AS212,0.0,,SIN,SIN,Unknown
+AS213,0.0,,SIN,SIN,Unknown
+AS214,0.0,,SIN,SIN,Unknown
+AS215,0.0,,Nazca,Nazca,Unknown
+AS35A,0.0,,SIN,SIN,Unknown
+AS35B,0.0,,SIN,SIN,Unknown
+HP001,40.0,1.0,Pachacamac,Pachacamac,near Lima
+HP002,56.0,1.0,Pachacamac,Pachacamac,Unknown
+HP003,66.0,1.0,Pachacamac,Pachacamac,Unknown
+HP004,31.0,1.0,Pachacamac,Pachacamac,Unknown
+HP005,11.0,1.0,Pachacamac,Pachacamac,Unknown
+HP006,10.0,1.0,Pachacamac,Pachacamac,Unknown
+HP007,28.0,1.0,Pachacamac,Pachacamac,Unknown
+HP008,17.0,1.0,Pachacamac,Pachacamac,Unknown
+HP009,5.0,1.0,Pachacamac,Pachacamac,Unknown
+HP010,62.0,1.0,Pachacamac,Pachacamac,Unknown
+HP011,53.0,1.0,Pachacamac,Pachacamac,Unknown
+HP012,46.0,1.0,Pachacamac,Pachacamac,Unknown
+HP013,6.0,1.0,Pachacamac,Pachacamac,Unknown
+HP014,17.0,1.0,Pachacamac,Pachacamac,Unknown
+HP015,3.0,1.0,"Cieneguilla, Valle de Lurin",Lima,Unknown
+HP017,66.0,1.0,Pachacamac,Pachacamac,Unknown
+HP018,13.0,1.0,Pachacamac,Pachacamac,Unknown
+HP021,7.0,1.0,Pachacamac,Pachacamac,Unknown
+HP022,12.0,1.0,Pachacamac,Pachacamac,Unknown
+HP023,21.0,1.0,Pachacamac,Pachacamac,Unknown
+HP024,7.0,1.0,Pachacamac,Pachacamac,Unknown
+HP027,139.0,1.0,Pachacamac,Pachacamac,Unknown
+HP029,69.0,1.0,Pachacamac,Pachacamac,Unknown
+HP030,206.0,1.0,Pachacamac,Pachacamac,Unknown
+HP032,6.0,1.0,Pachacamac,Pachacamac,Unknown
+HP033,4.0,1.0,"Ullujaya, Ocucaje, Ica",Ica-Pisco-Paracas,Unknown
+HP034,71.0,1.0,"Ullujaya, Ocucaje, Ica",Ica-Pisco-Paracas,Unknown
+HP037,51.0,0.35294117647058826,"Costa Central, Huacho",Huacho,Unknown
+HP038,2.0,0.0,SIN,SIN,Unknown
+HP039,94.0,0.0,Costa Sur,Otra/vaga,Unknown
+HP040,3.0,0.6666666666666666,SIN,SIN,Unknown
+HP042,6.0,0.8333333333333334,SIN,SIN,Unknown
+HP043,1.0,1.0,SIN,SIN,Unknown
+HP044,5.0,0.0,SIN,SIN,Unknown
+HP045,20.0,0.4,"Región Sur, Quillagua, Valle de Loa",Otra/vaga,Unknown
+HP046_A,5.0,0.8,SIN,SIN,Unknown
+HP046_B,12.0,1.0,SIN,SIN,Unknown
+HP047,26.0,0.0,"Armatambo, Lima, Central Coast",Armatambo,Unknown
+HP050,18.0,1.0,foothills of Cerro Solar,Otra/vaga,Unknown
+HP051_A,12.0,1.0,SIN,SIN,Unknown
+HP051_B,12.0,0.8333333333333334,SIN,SIN,Unknown
+HP052,2.0,0.0,SIN,SIN,Unknown
+HP053,36.0,0.08333333333333333,SIN,SIN,Unknown
+HP054,6.0,1.0,SIN,SIN,Unknown
+HP055,194.0,1.0,SIN,SIN,Unknown
+HP056,84.0,0.09523809523809523,SIN,SIN,Unknown
+HP057,6.0,1.0,SIN,SIN,Unknown
+JC001,21.0,0.9047619047619048,Incahuasi,Incahuasi,Unknown
+JC003,3.0,1.0,Incahuasi,Incahuasi,Unknown
+JC005,66.0,1.0,Incahuasi,Incahuasi,Unknown
+JC006,6.0,1.0,Incahuasi,Incahuasi,Unknown
+JC007,11.0,1.0,Incahuasi,Incahuasi,Unknown
+JC009,31.0,1.0,Incahuasi,Incahuasi,Unknown
+JC010,93.0,1.0,Incahuasi,Incahuasi,Unknown
+JC011,15.0,1.0,Incahuasi,Incahuasi,Unknown
+JC013,17.0,1.0,Incahuasi,Incahuasi,Unknown
+JC017,5.0,1.0,Incahuasi,Incahuasi,Unknown
+JC018,7.0,1.0,Incahuasi,Incahuasi,Unknown
+JC019,3.0,1.0,Incahuasi,Incahuasi,Unknown
+JC020,8.0,1.0,Incahuasi,Incahuasi,Unknown
+JC021,13.0,1.0,Incahuasi,Incahuasi,Unknown
+JC023,15.0,1.0,Incahuasi,Incahuasi,Unknown
+KH0001,254.0,1.0,Chuquitanta,Lima,Unknown
+KH0032,25.0,0.88,"La puntilla, between Paracas and Pisco",Ica-Pisco-Paracas,Unknown
+KH0033,22.0,1.0,"La puntilla, between Paracas and Pisco",Ica-Pisco-Paracas,Unknown
+KH0049,372.0,0.0,Costa Sur,Otra/vaga,Unknown
+KH0057,40.0,0.175,SIN,SIN,Unknown
+KH0058,0.0,,SIN,SIN,Unknown
+KH0067,23.0,0.9565217391304348,SIN,SIN,Unknown
+KH0080,0.0,,SIN,SIN,Unknown
+KH0081,256.0,0.0,"Monte de Cacatilla, Valle de Nazca",Nazca,Unknown
+KH0083,251.0,0.0,Mollepampa,Otra/vaga,"Inka, Playa Miller"
+KH0197,77.0,1.0,SIN,SIN,Unknown
+KH0227,51.0,0.0,"Huaura Valley, near Lima, on Santa Rosalia Hacienda",Huacho,Unknown
+KH0267,14.0,0.0,"Playa Miller #6, Arica, Chile",Ica-Pisco-Paracas,Unknown
+KH0350,7.0,0.8571428571428571,Pachacamac,Pachacamac,Unknown
+MM001,200.0,0.88,Huacho?,Huacho,Huacho
+MM002,59.0,0.4745762711864407,Eduard Gaffron Estate,Otra/vaga,Unknown
+MM003,25.0,0.28,Eduard Gaffron Estate,Otra/vaga,Unknown
+MM004,47.0,0.48936170212765956,Unknown (not from Gaffron collections),Otra/vaga,Unknown
+MM005,4.0,1.0,SIN,SIN,Unknown
+MM006_AN001,48.0,1.0,South Peru,Otra/vaga,unknown
+MM007_AN002,9.0,1.0,South Peru,Otra/vaga,unknown
+MM008,38.0,0.5,Eduard Gaffron,Otra/vaga,Unknown
+MM009,9.0,0.1111111111111111,Eduard Gaffron,Otra/vaga,Unknown
+MM010,3.0,0.0,Eduard Gaffron,Otra/vaga,Unknown
+MM012,4.0,0.25,Eduard Gaffron,Otra/vaga,Unknown
+MM014,4.0,0.0,Eduard Gaffron,Otra/vaga,Unknown
+MM015,18.0,0.3333333333333333,Eduard Gaffron,Otra/vaga,Unknown
+MM016,20.0,0.1,Eduard Gaffron,Otra/vaga,Unknown
+MM017,16.0,0.125,Eduard Gaffron,Otra/vaga,Unknown
+MM018,69.0,1.0,SIN,SIN,Unknown
+MM019,23.0,0.0,SIN,SIN,Unknown
+MM020,52.0,0.9615384615384616,SIN,SIN,Unknown
+MM021,38.0,0.9473684210526315,SIN,SIN,Unknown
+MM1086,30.0,0.6,"Dr Franz Xavier Weizinger, 1921",Otra/vaga,Unknown
+QU002,17.0,0.058823529411764705,SIN,SIN,"Inka, Late Horizon"
+QU003,23.0,0.0,SIN,SIN,"Inka, Late Horizon"
+QU004,6.0,0.0,SIN,SIN,"Inka, Late Horizon"
+QU005,101.0,0.0,SIN,SIN,"Inka, Late Horizon"
+QU007,23.0,1.0,SIN,SIN,"Inka, Late Horizon"
+QU008,4.0,0.75,SIN,SIN,"Inka, Late Horizon"
+QU009,40.0,0.025,SIN,SIN,"Inka, Late Horizon"
+QU010,42.0,1.0,SIN,SIN,"Inka, Late Horizon"
+QU011,127.0,0.31496062992125984,SIN,SIN,"Inka, Late Horizon"
+QU012,113.0,0.0,SIN,SIN,"Inka, Late Horizon"
+QU013,34.0,0.5588235294117647,SIN,SIN,"Inka, Late Horizon"
+QU014,135.0,0.014814814814814815,SIN,SIN,"Inka, Late Horizon"
+QU015,119.0,0.9747899159663865,SIN,SIN,"Inka, Late Horizon"
+QU016,33.0,0.9696969696969697,SIN,SIN,"Inka, Late Horizon"
+QU017,6.0,0.3333333333333333,SIN,SIN,"Inka, Late Horizon"
+QU018,15.0,0.5333333333333333,SIN,SIN,"Inka, Late Horizon"
+QU019,125.0,0.392,SIN,SIN,"Inka, Late Horizon"
+QU020,7.0,0.8571428571428571,SIN,SIN,Unknown
+QU021,22.0,0.09090909090909091,SIN,SIN,Unknown
+QU022,7.0,0.7142857142857143,Rimac Valley,Lima,Unknown
+UR001,169.0,1.0,Leymebamba,Leymebamba,Chachapoyas
+UR002,128.0,0.0,Leymebamba,Leymebamba,Chachapoyas
+UR003,1.0,0.0,Leymebamba,Leymebamba,Chachapoyas
+UR004,182.0,0.9395604395604396,Leymebamba,Leymebamba,Chachapoyas
+UR005,28.0,0.9642857142857143,Leymebamba,Leymebamba,Chachapoyas
+UR006,65.0,0.9230769230769231,Leymebamba,Leymebamba,Chachapoyas
+UR007,1.0,0.0,Leymebamba,Leymebamba,Chachapoyas
+UR008,7.0,1.0,Leymebamba,Leymebamba,Chachapoyas
+UR009,10.0,1.0,Leymebamba,Leymebamba,Chachapoyas
+UR010,99.0,0.98989898989899,Leymebamba,Leymebamba,Chachapoyas
+UR011,291.0,0.010309278350515464,Leymebamba,Leymebamba,Chachapoyas
+UR012,37.0,0.02702702702702703,Leymebamba,Leymebamba,Chachapoyas
+UR013,17.0,0.0,Leymebamba,Leymebamba,Chachapoyas
+UR014,12.0,0.08333333333333333,Leymebamba,Leymebamba,Chachapoyas
+UR015,104.0,0.0,Leymebamba,Leymebamba,Chachapoyas
+UR016,78.0,0.10256410256410256,Leymebamba,Leymebamba,Chachapoyas
+UR017,41.0,1.0,Leymebamba,Leymebamba,Chachapoyas
+UR018,35.0,1.0,Leymebamba,Leymebamba,Chachapoyas
+UR019,4.0,1.0,Leymebamba,Leymebamba,Chachapoyas
+UR020,33.0,1.0,Leymebamba,Leymebamba,Chachapoyas
+UR021,11.0,1.0,Leymebamba,Leymebamba,Chachapoyas
+UR022,139.0,0.9928057553956835,Leymebamba,Leymebamba,Chachapoyas
+UR026,24.0,0.9583333333333334,SIN,SIN,Unknown
+UR028,7.0,0.14285714285714285,Atarco,Otra/vaga,Nazca
+UR032,8.0,0.625,SIN,SIN,Unknown
+UR033,11.0,1.0,SIN,SIN,Unknown
+UR034,87.0,0.9770114942528736,SIN,SIN,Unknown
+UR037,11.0,0.0,SIN,SIN,Unknown
+UR038,47.0,1.0,SIN,SIN,Unknown
+UR039,43.0,0.0,Huari,Otra/vaga,Unknown
+UR040,2.0,0.0,Nazca,Nazca,Unknown
+UR041,9.0,0.0,SIN,SIN,Unknown
+UR042,12.0,0.0,SIN,SIN,Unknown
+UR044,22.0,1.0,"La puntilla, between Paracas and Pisco",Ica-Pisco-Paracas,Unknown
+UR045,11.0,1.0,SIN,SIN,Unknown
+UR046,8.0,0.875,"Pueblo Libre, Lima, Peru",Lima,Unknown
+UR047,47.0,0.9787234042553191,"Pueblo Libre, Lima, Peru",Lima,Unknown
+UR048,13.0,1.0,"Pueblo Libre, Lima, Peru",Lima,Unknown
+UR049,227.0,0.3876651982378855,SIN,SIN,Unknown
+UR053A,103.0,0.009708737864077669,SIN,SIN,Unknown
+UR053B,45.0,0.0,SIN,SIN,Unknown
+UR053C,48.0,0.5,SIN,SIN,Unknown
+UR053D,79.0,0.0,SIN,SIN,Unknown
+UR053E,41.0,0.0,SIN,SIN,Unknown
+UR054,1.0,1.0,SIN,SIN,Unknown
+UR055,14.0,0.9285714285714286,SIN,SIN,Unknown
+UR056A,9.0,1.0,SIN,SIN,Unknown
+UR056B,13.0,1.0,SIN,SIN,Unknown
+UR056C,7.0,1.0,SIN,SIN,Unknown
+UR057,6.0,0.3333333333333333,Atarco,Otra/vaga,Nazca
+UR058A,97.0,0.0,"Playa Miller #6, Arica, Chile",Ica-Pisco-Paracas,Unknown
+UR058B,87.0,0.10344827586206896,SIN,SIN,Unknown
+UR059,35.0,1.0,SIN,SIN,Unknown
+UR060,2.0,0.5,Huaquerones,Huaquerones,Puruchuco
+UR061,24.0,1.0,Huaquerones,Huaquerones,Puruchuco
+UR062,33.0,1.0,Huaquerones,Huaquerones,Puruchuco
+UR063,17.0,0.9411764705882353,SIN,SIN,Puruchuco
+UR064,19.0,1.0,Huaquerones,Huaquerones,Puruchuco
+UR066,11.0,0.0,Huaquerones,Huaquerones,Puruchuco
+UR067,13.0,1.0,Huaquerones,Huaquerones,Puruchuco
+UR068,20.0,1.0,SIN,SIN,Puruchuco
+UR069,11.0,1.0,Huaquerones,Huaquerones,Puruchuco
+UR072,17.0,1.0,Huaquerones,Huaquerones,Puruchuco
+UR073,14.0,1.0,SIN,SIN,Puruchuco
+UR074,13.0,1.0,Huaquerones,Huaquerones,Puruchuco
+UR077,2.0,1.0,SIN,SIN,Puruchuco
+UR078,3.0,0.6666666666666666,Huaquerones,Huaquerones,Puruchuco
+UR079,6.0,1.0,Huaquerones,Huaquerones,Puruchuco
+UR080,1.0,1.0,Huaquerones,Huaquerones,Puruchuco
+UR084,10.0,0.1,"Playa Miller #6, Arica, Chile",Ica-Pisco-Paracas,Unknown
+UR085,271.0,0.1881918819188192,SIN,SIN,Unknown
+UR086,63.0,1.0,SIN,SIN,Unknown
+UR087,54.0,1.0,Santa,Santa,Unknown
+UR088,52.0,0.9807692307692307,Santa,Santa,Unknown
+UR089,67.0,1.0,Santa,Santa,Unknown
+UR090,73.0,1.0,Santa,Santa,Unknown
+UR091,17.0,1.0,Santa,Santa,Unknown
+UR093,24.0,0.08333333333333333,SIN,SIN,Unknown
+UR094,63.0,0.0,SIN,SIN,Unknown
+UR095,16.0,0.0625,SIN,SIN,Unknown
+UR096,16.0,0.5,SIN,SIN,Unknown
+UR097,14.0,0.0,SIN,SIN,Unknown
+UR098,4.0,0.0,SIN,SIN,Unknown
+UR099,2.0,0.0,SIN,SIN,Unknown
+UR100,2.0,0.0,SIN,SIN,Unknown
+UR101,3.0,0.0,SIN,SIN,Unknown
+UR102,15.0,0.0,SIN,SIN,Unknown
+UR103,34.0,0.7352941176470589,SIN,SIN,Unknown
+UR1032,3.0,0.0,Nazca,Nazca,Unknown
+UR1033A,1.0,1.0,SIN,SIN,Unknown
+UR1033B,4.0,1.0,SIN,SIN,Unknown
+UR1033D,5.0,1.0,SIN,SIN,Unknown
+UR1033E,3.0,0.0,SIN,SIN,Unknown
+UR1033F,7.0,0.42857142857142855,SIN,SIN,Unknown
+UR1033G,5.0,1.0,SIN,SIN,Unknown
+UR1034,1.0,0.0,Pachacamac,Pachacamac,Unknown
+UR104,13.0,0.0,SIN,SIN,Unknown
+UR1040,1.0,0.0,SIN,SIN,Unknown
+UR1049,1.0,1.0,SIN,SIN,Unknown
+UR105,8.0,0.75,SIN,SIN,Unknown
+UR1051,33.0,0.9393939393939394,Hacienda Ullujalla y Callengo,Ica-Pisco-Paracas,Unknown
+UR1053,1.0,1.0,Hacienda Ullujalla y Callengo,Ica-Pisco-Paracas,Unknown
+UR1057,22.0,0.13636363636363635,SIN,SIN,Unknown
+UR1058,3.0,1.0,SIN,SIN,Unknown
+UR106,5.0,1.0,SIN,SIN,Unknown
+UR107,8.0,0.875,SIN,SIN,Unknown
+UR108,12.0,0.0,SIN,SIN,Unknown
+UR1084,290.0,0.5,SIN,SIN,Unknown
+UR1087,91.0,1.0,Peru,Otra/vaga,Unknown
+UR1088,20.0,0.05,Huacho,Huacho,Unknown
+UR109,3.0,1.0,SIN,SIN,Unknown
+UR1091,17.0,1.0,SIN,SIN,Unknown
+UR1095,109.0,0.9908256880733946,Pachacamac,Pachacamac,Unknown
+UR1096,9.0,1.0,Pachacamac,Pachacamac,Unknown
+UR1098,32.0,1.0,Between Ica and Pisco,Ica-Pisco-Paracas,Unknown
+UR1099,82.0,0.0,Pachacamac,Pachacamac,Unknown
+UR110,2.0,0.5,SIN,SIN,Unknown
+UR1100,20.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1102,19.0,1.0,Pachacamac,Pachacamac,Unknown
+UR1103,98.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1104,59.0,0.576271186440678,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR1105,12.0,0.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1106,48.0,1.0,Marquez,Otra/vaga,Unknown
+UR1107,27.0,1.0,Marquez,Otra/vaga,Unknown
+UR1108,1.0,1.0,Between Ica and Pisco,Ica-Pisco-Paracas,Unknown
+UR1109,309.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR111,26.0,0.038461538461538464,SIN,SIN,Unknown
+UR1113,119.0,0.18487394957983194,Between Ica and Pisco,Ica-Pisco-Paracas,Unknown
+UR1114,144.0,1.0,Between Ica and Pisco,Ica-Pisco-Paracas,Unknown
+UR1116,9.0,0.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1117,7.0,0.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1118,38.0,1.0,Pachacamac,Pachacamac,Unknown
+UR1119,24.0,1.0,Pachacamac,Pachacamac,Unknown
+UR112,1.0,0.0,SIN,SIN,Unknown
+UR1120,100.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1121,4.0,1.0,Pachacamac,Pachacamac,Unknown
+UR1123,90.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1124,32.0,1.0,Marquez,Otra/vaga,Unknown
+UR1124_Detail_1,44.0,1.0,Marquez,Otra/vaga,Unknown
+UR1126,108.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1127,6.0,1.0,Nazca,Nazca,Unknown
+UR113,281.0,0.9501779359430605,Nazca,Nazca,Unknown
+UR1130,2.0,1.0,near Lima,Lima,Unknown
+UR1131,203.0,1.0,Pachacamac,Pachacamac,Unknown
+UR1135,16.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1136,162.0,0.9938271604938271,Nazca,Nazca,Unknown
+UR1138,49.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR114,15.0,0.0,Nazca,Nazca,Unknown
+UR1140,146.0,1.0,Nazca,Nazca,Unknown
+UR1141,2.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1143,74.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1144,70.0,1.0,Pachacamac,Pachacamac,Unknown
+UR1145,61.0,1.0,Pachacamac,Pachacamac,Unknown
+UR1146,20.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1147,20.0,1.0,Ocucaje,Ica-Pisco-Paracas,Unknown
+UR1148,40.0,1.0,Ocucaje,Ica-Pisco-Paracas,Unknown
+UR1149,213.0,1.0,Ocucaje,Ica-Pisco-Paracas,Unknown
+UR1150,32.0,0.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1151,5.0,0.0,Pachacamac,Pachacamac,Unknown
+UR1152,77.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1154,2.0,1.0,near Lima,Lima,Unknown
+UR1161,8.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1162B,5.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1163,7.0,0.0,Pachacamac,Pachacamac,Unknown
+UR1165,13.0,0.8461538461538461,Pachacamac,Pachacamac,Unknown
+UR1166,89.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR1167,14.0,1.0,Pachacamac,Pachacamac,Unknown
+UR116A,12.0,1.0,SIN,SIN,Unknown
+UR116B,4.0,1.0,SIN,SIN,Unknown
+UR1175,239.0,1.0,Pachacamac,Pachacamac,Unknown
+UR1176,114.0,0.0,Nazca,Nazca,Unknown
+UR1179,35.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR117C,1.0,1.0,Paracas,Ica-Pisco-Paracas,Unknown
+UR117D,3.0,1.0,Paracas,Ica-Pisco-Paracas,Unknown
+UR118,227.0,0.0,Paracas,Ica-Pisco-Paracas,Unknown
+UR1180,50.0,1.0,Ica,Ica-Pisco-Paracas,Unknown
+UR119,240.0,0.0,Paracas,Ica-Pisco-Paracas,Unknown
+UR120,42.0,1.0,Huacho,Huacho,Unknown
+UR121,9.0,0.0,Nazca,Nazca,Unknown
+UR122,168.0,0.0,Nazca,Nazca,Unknown
+UR123,20.0,0.0,Pachacamac,Pachacamac,Unknown
+UR124,8.0,0.875,Pachacamac,Pachacamac,Unknown
+UR125,10.0,0.0,Paracas,Ica-Pisco-Paracas,Unknown
+UR127,3.0,1.0,SIN,SIN,Unknown
+UR128,15.0,1.0,SIN,SIN,Unknown
+UR129,8.0,1.0,SIN,SIN,Unknown
+UR130,55.0,0.0,"Playa Miller #6, Arica, Chile",Ica-Pisco-Paracas,Unknown
+UR131A,65.0,0.0,Lluta Valley,Arica,Unknown
+UR131B,71.0,0.0,Lluta Valley,Arica,Unknown
+UR131C,66.0,0.0,Lluta Valley,Arica,Unknown
+UR132,16.0,0.0,"Playa Miller #6, Arica, Chile",Ica-Pisco-Paracas,Unknown
+UR135,1.0,1.0,"Chancay, Central Coast",Chancay,Unknown
+UR136,4.0,0.0,"Chancay, Central Coast",Chancay,Unknown
+UR137,16.0,0.0,"Chancay, Central Coast",Chancay,Unknown
+UR138,12.0,0.9166666666666666,Cuzco,Otra/vaga,Unknown
+UR139,6.0,1.0,Valle de Ica Hacienda Callango Ocucaje,Ica-Pisco-Paracas,Unknown
+UR141,30.0,0.9666666666666667,SIN,SIN,Unknown
+UR142,95.0,0.0,Valle de Ica Hacienda Callango Ocucaje,Ica-Pisco-Paracas,Unknown
+UR143,87.0,0.0,Valle de Ica Hacienda Callango Ocucaje,Ica-Pisco-Paracas,Unknown
+UR144,9.0,0.0,Valle de Pisco,Ica-Pisco-Paracas,Unknown
+UR145,52.0,0.0,Acari,Otra/vaga,Unknown
+UR146,59.0,0.8813559322033898,Donation from the collection Belli,Otra/vaga,Unknown
+UR147,27.0,0.9629629629629629,SIN,SIN,Unknown
+UR148,5.0,1.0,SIN,SIN,Unknown
+UR149,109.0,0.9908256880733946,Hacienda Ullujalla y Callengo,Ica-Pisco-Paracas,Unknown
+UR150,13.0,1.0,SIN,SIN,Unknown
+UR151,22.0,1.0,Valle de Ica Hacienda Callango Ocucaje,Ica-Pisco-Paracas,Unknown
+UR152,19.0,0.9473684210526315,Hacienda Ullujalla y Callengo,Ica-Pisco-Paracas,Unknown
+UR153,55.0,0.9454545454545454,SIN,SIN,Unknown
+UR154,19.0,0.9473684210526315,Valle de Ica Hacienda Callango Ocucaje,Ica-Pisco-Paracas,Unknown
+UR155,20.0,0.95,Valle de Ica Hacienda Callango Ocucaje,Ica-Pisco-Paracas,Unknown
+UR156,1.0,1.0,Tambo Colorado,Tambo Colorado,Unknown
+UR159,1.0,1.0,Tambo Colorado,Tambo Colorado,Unknown
+UR160,11.0,0.9090909090909091,SIN,SIN,Unknown
+UR161,26.0,0.0,SIN,SIN,Unknown
+UR162,26.0,1.0,Valle de Ica Hacienda Callango Ocucaje,Ica-Pisco-Paracas,Unknown
+UR164,14.0,1.0,SIN,SIN,Unknown
+UR165,289.0,1.0,La Molina,Lima,Puruchuco
+UR166,41.0,0.24390243902439024,"Huando, Chancay, Peru (Gaffron Collection)",Chancay,Unknown
+UR167,6.0,0.3333333333333333,Ica or Cajamarquilla,Ica-Pisco-Paracas,Unknown
+UR168,5.0,0.2,Ica,Ica-Pisco-Paracas,Unknown
+UR169,15.0,0.0,"Ica Valley, near Callango",Ica-Pisco-Paracas,Unknown
+UR170,4.0,1.0,SIN,SIN,Unknown
+UR171,2.0,0.5,SIN,SIN,Unknown
+UR172,7.0,0.8571428571428571,SIN,SIN,Unknown
+UR173,4.0,1.0,SIN,SIN,Unknown
+UR174,7.0,1.0,SIN,SIN,Unknown
+UR175,4.0,1.0,SIN,SIN,Unknown
+UR177,44.0,1.0,Chuquitanta,Lima,Unknown
+UR178,9.0,0.2222222222222222,Cajamarquilla,Lima,Unknown
+UR182,21.0,0.19047619047619047,Chuquitanta,Lima,Unknown
+UR183,40.0,1.0,"Chancay, Central Coast",Chancay,Unknown
+UR184,7.0,0.0,SIN,SIN,Unknown
+UR185,25.0,0.96,SIN,SIN,Unknown
+UR186,42.0,0.047619047619047616,"Hda. Huando, Chancay",Chancay,Unknown
+UR187,156.0,0.0,"Ica Valley, near Callango",Ica-Pisco-Paracas,Unknown
+UR188,202.0,1.0,SIN,SIN,Unknown
+UR189,29.0,0.9655172413793104,SIN,SIN,Unknown
+UR190,157.0,0.9936305732484076,"Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)",Lima,"Central Coast, Peru"
+UR191,2.0,1.0,"Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)",Lima,"Central Coast, Peru"
+UR192,22.0,1.0,"Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)",Lima,"Central Coast, Peru"
+UR193,201.0,1.0,"Peru, Fundort: Pachacmac",Pachacamac,"Central Coast, Peru"
+UR194,34.0,0.0,Ica,Ica-Pisco-Paracas,"South Coast, Peru"
+UR195,42.0,0.8333333333333334,Huacho,Huacho,"Central Coast, Peru"
+UR196,11.0,1.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR197,147.0,1.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR198,39.0,0.02564102564102564,"Santa Clara, Nazca",Nazca,"South Coast, Peru"
+UR199,39.0,1.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR200,133.0,0.9924812030075187,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR201,178.0,1.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR202,85.0,1.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR203,116.0,0.9827586206896551,SIN,SIN,Unknown
+UR204,33.0,1.0,SIN,SIN,Unknown
+UR205,16.0,1.0,SIN,SIN,Unknown
+UR206,8.0,1.0,SIN,SIN,Unknown
+UR207,94.0,1.0,SIN,SIN,Unknown
+UR208,123.0,1.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR209,14.0,1.0,Pisco,Ica-Pisco-Paracas,"South Coast, Peru"
+UR210,11.0,1.0,Ica/Pisco,Ica-Pisco-Paracas,"South Coast, Peru"
+UR212,111.0,1.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR213,104.0,1.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR214,2.0,1.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR215,63.0,1.0,SIN,SIN,Unknown
+UR216,47.0,0.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR217,74.0,1.0,Ocucaje,Ica-Pisco-Paracas,"South Coast, Peru"
+UR218,82.0,1.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR219,60.0,1.0,Ica,Ica-Pisco-Paracas,"South Coast, Peru"
+UR220,4.0,1.0,Ica,Ica-Pisco-Paracas,"South Coast, Peru"
+UR221,9.0,1.0,Ica,Ica-Pisco-Paracas,"South Coast, Peru"
+UR222,14.0,1.0,Ica,Ica-Pisco-Paracas,"South Coast, Peru"
+UR223,62.0,0.016129032258064516,Ica,Ica-Pisco-Paracas,"South Coast, Peru"
+UR225,14.0,1.0,SIN,SIN,Unknown
+UR226,64.0,1.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR227,17.0,1.0,Pisco,Ica-Pisco-Paracas,"South Coast, Peru"
+UR228,44.0,1.0,Pisco,Ica-Pisco-Paracas,"South Coast, Peru"
+UR229,88.0,1.0,Ica,Ica-Pisco-Paracas,"South Coast, Peru"
+UR230,22.0,0.3181818181818182,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR231,271.0,1.0,Ica/Pisco,Ica-Pisco-Paracas,"South Coast, Peru"
+UR232,60.0,1.0,Huacho,Huacho,"North-Central Coast, Peru"
+UR233,93.0,1.0,Huacho,Huacho,"North-Central Coast, Peru"
+UR234,132.0,1.0,SIN,SIN,Unknown
+UR235,47.0,1.0,SIN,SIN,Unknown
+UR237,27.0,0.9629629629629629,SIN,SIN,Unknown
+UR238,12.0,1.0,Ica,Ica-Pisco-Paracas,"South Coast, Peru"
+UR239,15.0,1.0,SIN,SIN,Unknown
+UR240,72.0,1.0,SIN,SIN,Unknown
+UR241,7.0,0.2857142857142857,SIN,SIN,Unknown
+UR242,49.0,0.9183673469387755,Ica,Ica-Pisco-Paracas,"South Coast, Peru"
+UR243,8.0,1.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR244,11.0,1.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR245,1.0,1.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR246,31.0,1.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR247,47.0,0.06382978723404255,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR248,39.0,0.9743589743589743,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR249,31.0,1.0,Pachacamac,Pachacamac,"Central Coast, Peru"
+UR250,2.0,0.0,Ica,Ica-Pisco-Paracas,"South Coast, Peru"
+UR251,10.0,0.9,SIN,SIN,Unknown
+UR252,5.0,1.0,SIN,SIN,Unknown
+UR253,27.0,0.07407407407407407,Pachacamac,Pachacamac,Unknown
+UR254,24.0,1.0,Pachacamac,Pachacamac,Unknown
+UR255,83.0,1.0,Incahuasi,Incahuasi,Unknown
+UR256,141.0,1.0,Incahuasi,Incahuasi,Unknown
+UR257,35.0,1.0,Incahuasi,Incahuasi,Unknown
+UR258,46.0,1.0,Incahuasi,Incahuasi,Unknown
+UR260,30.0,1.0,Incahuasi,Incahuasi,Unknown
+UR261,10.0,1.0,Incahuasi,Incahuasi,Unknown
+UR262,436.0,0.9977064220183486,Incahuasi,Incahuasi,Unknown
+UR263,10.0,0.0,Incahuasi,Incahuasi,Unknown
+UR264,123.0,1.0,Incahuasi,Incahuasi,Unknown
+UR266,216.0,0.9907407407407407,Incahuasi,Incahuasi,Unknown
+UR267A,99.0,1.0,Incahuasi,Incahuasi,Unknown
+UR267B,143.0,1.0,Incahuasi,Incahuasi,Unknown
+UR268,304.0,1.0,Incahuasi,Incahuasi,Unknown
+UR269,398.0,1.0,Incahuasi,Incahuasi,Unknown
+UR270,370.0,1.0,Incahuasi,Incahuasi,Unknown
+UR271,76.0,1.0,Incahuasi,Incahuasi,Unknown
+UR272,42.0,1.0,Incahuasi,Incahuasi,Unknown
+UR273A,38.0,1.0,Incahuasi,Incahuasi,Unknown
+UR273B,71.0,1.0,Incahuasi,Incahuasi,Unknown
+UR274A,63.0,0.9841269841269841,Incahuasi,Incahuasi,Unknown
+UR274B,117.0,0.9829059829059829,Incahuasi,Incahuasi,Unknown
+UR275,226.0,1.0,Incahuasi,Incahuasi,Unknown
+UR276,3.0,1.0,Incahuasi,Incahuasi,Unknown
+UR277,134.0,1.0,Incahuasi,Incahuasi,Unknown
+UR278,505.0,1.0,Incahuasi,Incahuasi,Unknown
+UR279,23.0,1.0,Incahuasi,Incahuasi,Unknown
+UR280,128.0,0.9921875,Incahuasi,Incahuasi,Unknown
+UR282,10.0,1.0,"Huaca San Pedro, Armatambo",Armatambo,Unknown
+UR283,86.0,0.9883720930232558,"Huaca San Pedro, Armatambo",Armatambo,Unknown
+UR284,9.0,0.8888888888888888,"Armatambo, Huaca San Pedro",Armatambo,Unknown
+UR286,6.0,1.0,"Armatambo, Huaca San Pedro",Armatambo,Unknown
+UR287,11.0,1.0,"Armatambo, Huaca San Pedro",Armatambo,Unknown
+UR288,6.0,1.0,"Armatambo, Huaca San Pedro",Armatambo,Unknown
+UR289,2.0,0.0,"Armatambo, Huaca San Pedro",Armatambo,Unknown
+UR291A,42.0,1.0,"Armatambo, Huaca San Pedro",Armatambo,Unknown
+UR292A,1.0,1.0,"Armatambo, Huaca San Pedro",Armatambo,Unknown
+UR293,6.0,1.0,"Armatambo, Huaca San Pedro",Armatambo,Unknown
+UR294,4.0,1.0,"Armatambo, Huaca San Pedro",Armatambo,Unknown

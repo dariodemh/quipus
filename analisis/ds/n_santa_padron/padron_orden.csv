@@ -1,0 +1,131 @@
+﻿pachaca,orden,nombre_pila,resto,nombre,norm,fnorm,hijo_de,don,ausente
+Namus,0,Po,ticlla condor,Po ticlla condor,po ticlla condor,po,False,False,False
+Namus,1,lorenso,tapia,lorenso tapia,lorenso tapia,lorenso,False,False,False
+Namus,2,franco,nuñes,franco nuñes,franco nunes,franco,False,False,False
+Namus,3,Juo,chauca,Juo chauca,juo chauca,juo,False,False,False
+Namus,4,diego,pardaue,diego pardaue,diego pardaue,diego,False,False,False
+Namus,5,diego,xara,diego xara,diego xara,diego,False,False,False
+Namus,6,antonio,de Roxas,antonio de Roxas,antonio de roxas,antonio,False,False,False
+Namus,7,Po,artiaga,Po artiaga,po artiaga,po,False,False,False
+Namus,8,juo,salvador,juo salvador,juo salvador,juo,False,False,False
+Namus,9,juo,de Roxas,juo de Roxas,juo de roxas,juo,False,False,False
+Namus,10,franco,rroxas,franco rroxas,franco rroxas,franco,False,False,False
+Namus,11,Andres,Yapan,Andres Yapan,andres yapan,andres,False,False,False
+Namus,12,gabriel,chuquimaygo,gabriel chuquimaygo,gabriel chuquimaygo,gabriel,False,False,False
+Namus,13,juo,Bapta hijo del coxo,juo Bapta hijo del coxo,juo bapta hijo del coxo,juo,True,False,False
+Namus,14,juo,corongo hijo de simon,juo corongo hijo de simon,juo corongo hijo de simon,juo,True,False,False
+Namus,15,juo,po haçaña hijo de coxo,juo po haçaña hijo de coxo,juo po haçana hijo de coxo,juo,True,False,False
+Namus,16,po,joseph hijo del coxo,po joseph hijo del coxo,po joseph hijo del coxo,po,True,False,False
+Namus,17,juo,chauca hijo de juo chauca,juo chauca hijo de juo chauca,juo chauca hijo de juo chauca,juo,True,False,False
+Corongo,0,don franco,Ramos,don franco Ramos,don franco ramos,don franco,False,True,False
+Corongo,1,don Migl,carhuahuanca,don Migl carhuahuanca,don migl carhuahuanca,don migl,False,True,False
+Corongo,2,marcos,carhuayamoc,marcos carhuayamoc,marcos carhuayamoc,marcos,False,False,False
+Corongo,3,juo,tantaruna,juo tantaruna,juo tantaruna,juo,False,False,False
+Corongo,4,Benito,colquixari,Benito colquixari,benito colquixari,benito,False,False,False
+Corongo,5,Antonio,carhuahuanca,Antonio carhuahuanca,antonio carhuahuanca,antonio,False,False,False
+Corongo,6,Nicolas,colquixari,Nicolas colquixari,nicolas colquixari,nicolas,False,False,False
+Corongo,7,Juo,Diego,Juo Diego,juo diego,juo,False,False,False
+Corongo,8,Antonio,ygnacio,Antonio ygnacio,antonio ygnacio,antonio,False,False,False
+Corongo,9,po,huaman,po huaman,po huaman,po,False,False,False
+Corongo,10,franco,pomamango,franco pomamango,franco pomamango,franco,False,False,False
+Corongo,11,franco,salvador,franco salvador,franco salvador,franco,False,False,False
+Corongo,12,phelipe,paucarmango,phelipe paucarmango,phelipe paucarmango,phelipe,False,False,False
+Corongo,13,juo,chucimango,juo chucimango,juo chucimango,juo,False,False,False
+Corongo,14,Agn,Chuquimango,Agn Chuquimango,agn chuquimango,agn,False,False,False
+Corongo,15,nicolas,alexandro,nicolas alexandro,nicolas alexandro,nicolas,False,False,False
+Corongo,16,joseph,Roque,joseph Roque,joseph roque,joseph,False,False,False
+Corongo,17,donmingo,saluador,donmingo saluador,donmingo saluador,donmingo,False,False,False
+Corongo,18,jacinto,saluador,jacinto saluador,jacinto saluador,jacinto,False,False,False
+Corongo,19,pedro,pablo,pedro pablo,pedro pablo,pedro,False,False,False
+Corongo,20,jacinto,de la cruz,jacinto de la cruz,jacinto de la cruz,jacinto,False,False,False
+Corongo,21,juo,de la cruz,juo de la cruz,juo de la cruz,juo,False,False,False
+Corongo,22,esteban,chuquimango,esteban chuquimango,esteban chuquimango,esteban,False,False,False
+Cuyuchin,0,don juo,chuquinaupa,don juo chuquinaupa,don juo chuquinaupa,don juo,False,True,False
+Cuyuchin,1,juo,carhuahuanca,juo carhuahuanca,juo carhuahuanca,juo,False,False,False
+Cuyuchin,2,Joseph,colquimunan,Joseph colquimunan,joseph colquimunan,joseph,False,False,False
+Cuyuchin,3,diego,tanta riexi,diego tanta riexi,diego tanta riexi,diego,False,False,False
+Cuyuchin,4,Alonso,pon luis,Alonso pon luis,alonso pon luis,alonso,False,False,False
+Cuyuchin,5,juo,Ramos rupay,juo Ramos rupay,juo ramos rupay,juo,False,False,False
+Cuyuchin,6,juo,cullquimunan,juo cullquimunan,juo cullquimunan,juo,False,False,False
+Cuyuchin,7,po,marcos,po marcos,po marcos,po,False,False,False
+Cuyuchin,8,diego,huaman,diego huaman,diego huaman,diego,False,False,False
+Cusca,0,juo,quispe,juo quispe,juo quispe,juo,False,False,False
+Cusca,1,domingo,quispi,domingo quispi,domingo quispi,domingo,False,False,False
+Cusca,2,joseph,rincon,joseph rincon,joseph rincon,joseph,False,False,False
+Cusca,3,Alonso,montoya,Alonso montoya,alonso montoya,alonso,False,False,False
+Cusca,4,Joseph,carhuapari,Joseph carhuapari,joseph carhuapari,joseph,False,False,False
+Cusca,5,Agn,montalbo,Agn montalbo,agn montalbo,agn,False,False,False
+Cusca,6,Juo,belasques,Juo belasques,juo belasques,juo,False,False,False
+Guauyan,0,Alons,chucho,Alons chucho,alons chucho,alons,False,False,False
+Guauyan,1,luis,pari,luis pari,luis pari,luis,False,False,False
+Guauyan,2,diego,carhuahuachic,diego carhuahuachic,diego carhuahuachic,diego,False,False,False
+Guauyan,3,Po,Cochachin,Po Cochachin,po cochachin,po,False,False,False
+Guauyan,4,Agn,nunahuanca,Agn nunahuanca,agn nunahuanca,agn,False,False,False
+Guauyan,5,Franco,Pinedo,Franco Pinedo,franco pinedo,franco,False,False,False
+Guauyan,6,franco,chuquinaupaico,franco chuquinaupaico,franco chuquinaupaico,franco,False,False,False
+Guauyan,7,franco,incos,franco incos,franco incos,franco,False,False,False
+Guauyan,8,Germo,Vilcayauri,Germo Vilcayauri,germo vilcayauri,germo,False,False,False
+Guauyan,9,Agn,Rimanga,Agn Rimanga,agn rimanga,agn,False,False,False
+Guauyan,10,Juo,Toribio,Juo Toribio,juo toribio,juo,False,False,False
+Guauyan,11,Juo,Alonso,Juo Alonso,juo alonso,juo,False,False,False
+Guauyan,12,Alonso,huanca,Alonso huanca,alonso huanca,alonso,False,False,False
+Guauyan,13,Joseph,asencio,Joseph asencio,joseph asencio,joseph,False,False,False
+Guauyan,14,Pedro,huanca,Pedro huanca,pedro huanca,pedro,False,False,False
+Guauyan,15,Marcos,de la cruz,Marcos de la cruz,marcos de la cruz,marcos,False,False,False
+Guauyan,16,Jacinto,Hanampa,Jacinto Hanampa,jacinto hanampa,jacinto,False,False,False
+Guauyan,17,Jacinto,Collas,Jacinto Collas,jacinto collas,jacinto,False,False,False
+Guauyan,18,felipe,Santiago,felipe Santiago,felipe santiago,felipe,False,False,False
+Guauyan,19,d. Nicolas,lluyacpoma,d. Nicolas lluyacpoma,d. nicolas lluyacpoma,d. nicolas,False,False,False
+Guauyan,20,Miguel,llanqui,Miguel llanqui,miguel llanqui,miguel,False,False,False
+Guauyan,21,Juo,carhuaxambo,Juo carhuaxambo,juo carhuaxambo,juo,False,False,False
+Guauyan,22,Diego,chuquihuanca,Diego chuquihuanca,diego chuquihuanca,diego,False,False,False
+Guauyan,23,franco,Asencio,franco Asencio,franco asencio,franco,False,False,False
+Guauyan,24,Agn,sebastian,Agn sebastian,agn sebastian,agn,False,False,False
+Guauyan,25,domingo,incos,domingo incos,domingo incos,domingo,False,False,False
+Guauyan,26,Nicolas,lara,Nicolas lara,nicolas lara,nicolas,False,False,False
+Guauyan,27,Juo,huaquin morales,Juo huaquin morales,juo huaquin morales,juo,False,False,False
+Guauyan,28,joseph,campos,joseph campos,joseph campos,joseph,False,False,False
+Guauyan,29,Juo,culquiyanac,Juo culquiyanac,juo culquiyanac,juo,False,False,False
+Guauyan,30,domingo,ancxito,domingo ancxito,domingo ancxito,domingo,False,False,False
+Guauyan,31,juo bapta,quispicondor,juo bapta quispicondor,juo bapta quispicondor,juo bapta,False,False,False
+Guauyan,32,franco,nunahuanca,franco nunahuanca,franco nunahuanca,franco,False,False,False
+Guauyan,33,Agn,carhuacota,Agn carhuacota,agn carhuacota,agn,False,False,False
+Guauyan,34,Juo,cullquiyanac,Juo cullquiyanac,juo cullquiyanac,juo,False,False,False
+Guauyan,35,leon Domo,cullquiyanac,leon Domo cullquiyanac,leon domo cullquiyanac,leon domo,False,False,False
+Guauyan,36,leon xpoval,Tello,leon xpoval Tello,leon xpoval tello,leon xpoval,False,False,False
+Guauyan,37,leon Po,julez,leon Po julez,leon po julez,leon po,False,False,False
+Guauyan,38,Felis,cochachin,Felis cochachin,felis cochachin,felis,False,False,False
+Guauyan,39,Nicolas,Ocxac,Nicolas Ocxac,nicolas ocxac,nicolas,False,False,False
+Guauyan,40,juo,chicho,juo chicho,juo chicho,juo,False,False,False
+Ucore,0,Franco,rrojas,Franco rrojas,franco rrojas,franco,False,False,False
+Ucore,1,xpual,tantayari,xpual tantayari,xpual tantayari,xpual,False,False,False
+Ucore,2,marcos,Juares,marcos Juares,marcos juares,marcos,False,False,False
+Ucore,3,juo,rimaycachin,juo rimaycachin,juo rimaycachin,juo,False,False,False
+Ucore,4,juo,de la cruz,juo de la cruz,juo de la cruz,juo,False,False,False
+Ucore,5,jacinto,carhuamenta,jacinto carhuamenta,jacinto carhuamenta,jacinto,False,False,False
+Ucore,6,juo,Albares,juo Albares,juo albares,juo,False,False,False
+Ucore,7,Domingo,chuquimango,Domingo chuquimango,domingo chuquimango,domingo,False,False,False
+Ucore,8,juo,rimay cachin,juo rimay cachin,juo rimay cachin,juo,False,False,False
+Ucore,9,Alonso,Baltazar,Alonso Baltazar,alonso baltazar,alonso,False,False,False
+Ucore,10,Andres,yanac,Andres yanac,andres yanac,andres,False,False,False
+Ucore,11,domingo,felipe,domingo felipe,domingo felipe,domingo,False,False,False
+Ucore,12,fabian,Ramos,fabian Ramos,fabian ramos,fabian,False,False,False
+Ucore,13,juo,Antonio,juo Antonio,juo antonio,juo,False,False,False
+Ucore,14,juo,quispe,juo quispe,juo quispe,juo,False,False,False
+Ucore,15,juco,xpual,juco xpual,juco xpual,juco,False,False,False
+Ucore,16,felipe,parina,felipe parina,felipe parina,felipe,False,False,False
+Ucore,17,domingo,garcia,domingo garcia,domingo garcia,domingo,False,False,False
+Ucore,18,domingo,huacha,domingo huacha,domingo huacha,domingo,False,False,False
+Ucore,19,franco,chuquicondor,franco chuquicondor,franco chuquicondor,franco,False,False,False
+Ucore,20,felipe,barbudo,felipe barbudo,felipe barbudo,felipe,False,False,False
+Ucore,21,Po,martin,Po martin,po martin,po,False,False,False
+Ucore,22,Lorenso,asnabal,Lorenso asnabal,lorenso asnabal,lorenso,False,False,False
+Ucore,23,Blas,clemente cruz,Blas clemente cruz,blas clemente cruz,blas,False,False,False
+Ucore,24,Po,tomas pullic,Po tomas pullic,po tomas pullic,po,False,False,False
+Ucore,25,Juo,gaspar,Juo gaspar,juo gaspar,juo,False,False,False
+Ucore,26,Alonso,yaulli fausto,Alonso yaulli fausto,alonso yaulli fausto,alonso,False,False,False
+Ucore,27,Martin,chuquirimac,Martin chuquirimac,martin chuquirimac,martin,False,False,False
+Ucore,28,Antonio,carhuahuachic,Antonio carhuahuachic,antonio carhuahuachic,antonio,False,False,False
+Ucore,29,juo,francisco,juo francisco,juo francisco,juo,False,False,False
+Ucore,30,juo,de rroxas,juo de rroxas,juo de rroxas,juo,False,False,False
+Ucore,31,bernabe,principe,bernabe principe,bernabe principe,bernabe,False,False,False

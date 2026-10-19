@@ -1,0 +1,27 @@
+cuerdas OKR mapeadas: 53379 quipus: 590
+cuerdas KFG con match: 52178 de 57818 ; quipus: 595
+largo |dif|<=0.51: 0.9812 | <=0.1: 0.9791 nulo: 38
+coincidencia valor global: 0.9831
+coincidencia excl. cuerdas sin nudos KFG: 0.98
+desacuerdos con nudos KFG: 720 de 36023
+        kfg cuerda  valor                                    nudos  valor_okr  n_nudos_okr
+4644  AS072     p1   50.0                            5S(11.5,U),50      460.0         10.0
+4645  AS072   p1s1   60.0                             6S(3.0,U),60       50.0          5.0
+4646  AS072     p2   40.0                            4S(11.0,U),40        0.0          NaN
+4647  AS072   p2s1   60.0                             6S(3.5,U),60        0.0          NaN
+4650  AS072   p4s1   80.0                             8S(4.5,U),80       30.0          3.0
+4651  AS072     p5   60.0                            6S(11.5,U),60      530.0          8.0
+4652  AS072   p5s1   30.0                             3S(4.0,U),30       90.0          9.0
+4653  AS072     p6  460.0              4S(7.0,U),400;6S(16.5,U),60      520.0          7.0
+4655  AS072     p8   40.0                            4S(12.5,U),40        0.0          NaN
+8129  HP004   p1s1   10.0                             1S(4.5,Z),10       44.0          5.0
+8130  HP004   p1s2   35.0  2S(5.5,Z),20;5L(14.0,Z),5;1S(27.0,Z),10       62.0          7.0
+8131  HP004   p1s3   44.0                4S(5.0,Z),40;4L(22.0,Z),4       10.0          1.0
+8132  HP004   p1s4   62.0                6S(8.0,Z),60;2L(20.0,Z),2       35.0          4.0
+8148  HP004   p7s1   10.0                             1S(9.0,Z),10        0.0          NaN
+8149  HP004   p7s2    8.0                             8L(12.0,Z),8       10.0          1.0
+8152  HP004   p8s1    2.0                             2L(12.0,Z),2        0.0          NaN
+8153  HP004   p8s2    3.0                              3L(9.0,Z),3        2.0          1.0
+8156  HP004   p9s1    7.0                             7L(11.0,Z),7        0.0          NaN
+8157  HP004   p9s2    1.0                              1E(5.0,Z),1        7.0          1.0
+8160  HP004  p10s1    4.0                             4L(14.0,Z),4        0.0          NaN

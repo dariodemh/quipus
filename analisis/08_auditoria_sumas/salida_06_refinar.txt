@@ -1,0 +1,16 @@
+quipus refinados con B=20000: 148
+PPS: M1_nivel: test=482 p<.05=52 (esp 24) q<.05=9 q<.10=14 | M2_magnitud: test=478 p<.05=29 (esp 24) q<.05=2 q<.10=2
+COL: M1_nivel: test=438 p<.05=32 (esp 22) q<.05=2 q<.10=3 | M2_magnitud: test=415 p<.05=20 (esp 21) q<.05=2 q<.10=3
+IDX: M1_nivel: test=404 p<.05=26 (esp 20) q<.05=10 q<.10=12 | M2_magnitud: test=386 p<.05=22 (esp 19) q<.05=6 q<.10=7
+SUB: M1_nivel: test=190 p<.05=9 (esp 10) q<.05=0 q<.10=0 | M2_magnitud: test=180 p<.05=1 (esp 9) q<.05=0 q<.10=0
+PPS_ady: M1_nivel: test=481 p<.05=36 (esp 24) q<.05=13 q<.10=13 | M2_magnitud: test=474 p<.05=35 (esp 24) q<.05=12 q<.10=16
+PPS_100: M1_nivel: test=294 p<.05=27 (esp 15) q<.05=5 q<.10=5 | M2_magnitud: test=283 p<.05=18 (esp 14) q<.05=1 q<.10=1
+PPS_ady100: M1_nivel: test=293 p<.05=25 (esp 15) q<.05=13 q<.10=13 | M2_magnitud: test=276 p<.05=23 (esp 14) q<.05=13 q<.10=14
+PPS_cadena: M1_nivel: test=418 p<.05=32 (esp 21) q<.05=5 q<.10=5 | M2_magnitud: test=408 p<.05=20 (esp 20) q<.05=0 q<.10=0
+PPS_cara01: M1_nivel: test=227 p<.05=13 (esp 11) q<.05=5 q<.10=6 | M2_magnitud: test=223 p<.05=11 (esp 11) q<.05=5 q<.10=6
+PPS_sumlog_local: M1_nivel: test=481 p<.05=38 (esp 24) q<.05=13 q<.10=16 | M2_magnitud: test=476 p<.05=40 (esp 24) q<.05=13 q<.10=18
+M1_nivel: locales q<.05 15: ['AS006', 'AS199', 'MM001', 'UR118', 'UR119', 'UR166', 'UR255', 'UR256', 'UR266', 'UR267A', 'UR267B', 'UR269', 'UR270', 'UR274B', 'UR275']
+M1_nivel: KFG sin localidad q<.05 20: ['AS008', 'AS069', 'AS159', 'HP034', 'KH0049', 'KH0081', 'QU002', 'QU015', 'UR011', 'UR1113', 'UR1114', 'UR112', 'UR1120', 'UR1149', 'UR1175', 'UR122', 'UR197', 'UR208', 'UR231', 'UR269']
+M2_magnitud: locales q<.05 15: ['AS006', 'AS199', 'UR118', 'UR119', 'UR145', 'UR166', 'UR255', 'UR256', 'UR266', 'UR267A', 'UR267B', 'UR269', 'UR270', 'UR274B', 'UR275']
+M2_magnitud: KFG sin localidad q<.05 8: ['AS159', 'KH0049', 'QU002', 'UR1120', 'UR1143', 'UR122', 'UR208', 'UR269']
+locales en M1 y M2: 14: ['AS006', 'AS199', 'UR118', 'UR119', 'UR166', 'UR255', 'UR256', 'UR266', 'UR267A', 'UR267B', 'UR269', 'UR270', 'UR274B', 'UR275']

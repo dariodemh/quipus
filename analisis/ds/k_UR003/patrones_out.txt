@@ -1,0 +1,90 @@
+=== secuencia de COLGANTES por grupo (valor|colorBase|attachment) ===
+g0  (n=1): 0N?
+g1  (n=4): 0WV 0GR 1AV 1AV
+g2  (n=40): 3WV 2WV 1WV 1WV 1WV 1WV 2WV 0WV 0WV 1WV 1AV 0WV 0AV 0AV 2AV 1AV 0AV 0AV 1AV 3AV 4AV 2AV 2WV 0WV 1WV 1MV 2AV 0AV 0AV 0AR 4AV 0WV 0WV 0AV 2AV 1AV 0AV 0AV 5AV 1AV
+g3  (n=21): 1MU 0WV 1WU 1WV 0AV 2AV 2AV 7AV 1AV 1WV 6MV 0WV 1WV 0MV 3WV 0MV 0WV 0WV 0WV 5AV 6AV
+g4  (n=40): 0AV 1WV 0WV 1AV 0AV 1AV 2AV 0AV 0AV 2MV 0WV 1WV 0MV 0MV 1MV 0MV 0MV 0MV 1MV 3AV 1AV 2WV 0WV 1AV 1AV 0AV 2AV 0AV 1AV 3MV 0AV 0AV 1AV 0MV 2MV 0MV 0MV 0MV 0MV 2AV
+g5  (n=10): 3WV 2WV 1WR 0WV 0WV 1WV 2WV 2WV 1WV 0WV
+g6  (n=26): 6AV 1WV 0WR 0AV 1AV 0AV 0AV 0AV 2AR 1WV 3WV 1WV 11WV 0WV 3WV 2WV 3WV 1WV 0WV 1WV 0MV 2MV 1AV 0MV 0MV 1MV
+g7  (n=1): 0NU
+g8  (n=60): 2WV 0WV 0WV 1WV 0WV 0WV 0WV 1WV 0WV 2WV 2AV 0AR 0WU 0AV 0AV 0AV 1MR 0AV 0GR 1AV 4WV 0AV 0WV 0WV 0AV 0AV 0AV 1AV 1AV 2WV 6AV 2WV 0WV 0AV 0AV 0AV 0AV 0AV 0AV 0AV 4WV 0WV 2WR 0WR 0WV 1WV 1WV 0WV 0WV 0WV 2AV 1WV 1WV 0AV 1AV 0AV 0WV 0WV 0WV 2WV
+g9  (n=21): 0WV 0WV 1WV 0WV 0WV 0WV 1WV 0WV 0WV 2WV 1AV 0WR 1WR 0MV 2MR 0MR 0MR 1MR 1MR 5MR 0WV
+g10 (n=18): 0WV 0WV 2WV 1WV 4WV 0WV 1WV 1MR 0NR 0WR 0MR 0MR 1MR 0MR 0MR 1MR 1MR 1MR
+g11 (n=17): 0WV 1WV 0WV 1WR 0WR 1WR 0WV 0MR 0WR 1WR 0MR 1MR 1MR 0MR 0MR 0MR 2MR
+g12 (n=20): 0WR 0WR 1WV 1WV 1WV 0WV 2WV 0WV 1WV 0WR 0WR 1WR 0MR 5MR 0MR 0MR 0MR 2MR 2MR 5NU
+g13 (n=1): 0N?
+g14 (n=1): 0AR
+
+=== attachment R/V de colgantes por grupo ===
+g0 : ?
+g1 : VRVV
+g2 : VVVVVVVVVVVVVVVVVVVVVVVVVVVVVRVVVVVVVVVV
+g3 : UVUVVVVVVVVVVVVVVVVVV
+g4 : VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+g5 : VVRVVVVVVV
+g6 : VVRVVVVVRVVVVVVVVVVVVVVVVV
+g7 : U
+g8 : VVVVVVVVVVVRUVVVRVRVVVVVVVVVVVVVVVVVVVVVVVRRVVVVVVVVVVVVVVVV
+g9 : VVVVVVVVVVVRRVRRRRRRV
+g10: VVVVVVVRRRRRRRRRRR
+g11: VVVRRRVRRRRRRRRRR
+g12: RRVVVVVVVRRRRRRRRRRU
+g13: ?
+g14: R
+
+=== TEST R/V: switches observados vs nulo (barajar etiquetas dentro de cada grupo) ===
+switches totales obs = 28 sobre 273 cuerdas R/V
+nulo switches media=51.4 sd=4.2 min=38 max=66
+p(obs<=nulo)=0.0010  p(obs>=nulo)=1.0000  (una cola)
+
+=== color (W vs no-W) vs valor ===
+W  n=131 media=0.878  frac>0=0.511
+noW n=148 media=1.000 frac>0=0.480
+obs diff(noW-W)=0.122  nulo media=-0.003 sd=0.172  p(>=obs)=0.2398
+
+=== subsidiarias: color base por nivel ===
+cbase
+W     122
+AB     87
+MB     75
+RL     41
+GG     16
+KB     15
+LC     12
+RM     11
+colgantes color base count:
+ cbase
+W      131
+AB      86
+MB      52
+NA       5
+MIX      5
+GG       2
+
+=== valor vs n_hijas (colgantes) ===
+corr(nhijas,valor)=0.346
+media valor por nhijas:
+            mean  count
+nhijas                 
+0       0.705882    153
+1       0.583333     48
+2       1.545455     11
+3       1.157895     19
+4       0.761905     21
+5       1.285714      7
+6       2.923077     13
+7       2.600000      5
+8       2.666667      3
+9       4.000000      1
+
+=== distribucion valor colgantes vs Binomial/rr ===
+valor
+0.0     143
+1.0      77
+2.0      36
+3.0       9
+4.0       5
+5.0       5
+6.0       4
+7.0       1
+11.0      1

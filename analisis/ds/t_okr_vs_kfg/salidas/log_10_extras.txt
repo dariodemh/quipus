@@ -1,0 +1,45 @@
+=== cobertura ===
+quipus KFG: 651 | mapeados a OKR: 595 | sin mapear: 56
+cuerdas KFG: 57818
+cuerdas en quipus sin mapear: 4833
+cuerdas KFG emparejadas por nombre: 52178 | en quipus mapeados pero sin pareja: 807
+cuerdas OKR con nombre asignado: 53379 | total OKR: 54403 | quipus OKR: 612
+
+=== OKR: campos de valor ===
+knots: 110677 | knot_value_type=0: 212
+nudos L/LL con NUM_TURNS>0 y vt=0 (recuperados con vueltas): 11
+knot_value_type=0 por tipo:
+TYPE_CODE
+      123
+L      43
+E      22
+S      20
+''      4
+knot_cluster: 60169 | TOTAL_VALUE != 0: 0
+
+=== KFG: consistencia interna ===
+cuerdas con nudos: 40162 | cadenas sin valor explicito tras la coma: 26
+         kfg cuerda  valor                 nudos
+25204  UR044   p1s1   11.0  1S(5.0,Z);1E(11.0,Z)
+25205  UR044   p1s2   15.0  1S(5.0,Z);5L(10.0,Z)
+25207  UR044   p1s4    2.0            2L(10.0,Z)
+25208  UR044   p1s5   11.0  1S(5.5,Z);1E(11.5,Z)
+25209  UR044   p1s6   19.0  1S(6.0,Z);9L(11.0,Z)
+
+=== KFG: duplicados ===
+filas con (kfg,cuerda) repetido: 18 | quipus: 2 ['MM007_AN002', 'UR196']
+
+=== largos: magnitud de la diferencia (solo diferencias >0) ===
+cuerdas con largo identico: 50952 de 51903
+dlargo
+<=0.5    110
+0.5-2    232
+2-10     378
+>10      231
+
+=== multiset de valores por quipu (solo largos que coinciden) ===
+quipus con >=5 cuerdas comparables: 572 | multiset igual: 553
+
+=== nulo: cuantos quipus con >5% se esperan por azar ===
+tasa global de referencia: 0.00633
+quipus con denominador>0: 580 | observados >5%: 11 | esperados (media simulada): 14.2 | p(sim >= obs): 0.8512297540491902

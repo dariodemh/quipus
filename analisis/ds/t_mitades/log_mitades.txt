@@ -1,0 +1,34 @@
+=== FAMILIA CONFIRMATORIA (Holm, m=12) ===
+suma_mitades_simetria            obs=   0.8612 nulo=   0.5922 z=  15.59 p=1.0000 p_Holm=1.0000 cola5=0.074
+suma_mitades_igualdad_exacta     obs=   0.0123 nulo=   0.0140 z=  -0.44 p=0.7381 p_Holm=1.0000 cola5=0.958
+valores_espejo                   obs=   0.1062 nulo=   0.1107 z=  -1.26 p=0.8936 p_Holm=1.0000 cola5=0.220
+color_coarse_espejo              obs=   0.4634 nulo=   0.4877 z=  -6.01 p=1.0000 p_Holm=1.0000 cola5=0.281
+direccion_nudo_mitades           obs=   0.0081 nulo=  -0.0001 z=   1.49 p=0.1449 p_Holm=1.0000 cola5=0.693
+direccion_nudo_rachas            obs=   5.7588 nulo=   7.8043 z= -25.75 p=0.0010 p_Holm=0.0120 cola5=0.730
+union_RV_mitades                 obs=   0.0051 nulo=  -0.0001 z=   1.13 p=0.2569 p_Holm=1.0000 cola5=0.833
+union_RV_rachas                  obs=   3.2995 nulo=   8.8190 z= -58.51 p=0.0010 p_Holm=0.0120 cola5=0.894
+union_RV_valor                   obs=   0.0699 nulo=   0.0011 z=   1.18 p=0.2479 p_Holm=1.0000 cola5=0.234
+grupos_espejo_sumas              obs=   1.3302 nulo=   1.2326 z=   5.28 p=1.0000 p_Holm=1.0000 cola5=0.063
+grupos_espejo_tamanos            obs=   0.2794 nulo=   0.2635 z=   3.79 p=1.0000 p_Holm=1.0000 cola5=0.210
+torsion_SZ_mitades               obs=   0.0162 nulo=  -0.0002 z=   1.39 p=0.1649 p_Holm=1.0000 cola5=0.407
+=== SECUNDARIOS ===
+suma_mitades_razon_fija_2o3      obs=   0.0952 nulo=   0.0890 z=   0.57 p=0.3058
+tendencia_valor_posicion         obs=  -0.0732 nulo=   0.0000 z=  -7.39 p=0.0010
+valores_espejo_paralelo          obs=   0.1014 nulo=   0.1111 z=  -2.52 p=0.9955
+color_coarse_espejo_paralelo     obs=   0.4569 nulo=   0.4876 z=  -7.57 p=1.0000
+color_exacto_espejo_paralelo     obs=   0.3509 nulo=   0.3812 z=  -8.02 p=1.0000
+color_exacto_espejo              obs=   0.3495 nulo=   0.3813 z=  -8.42 p=1.0000
+direccion_nudo_valor             obs=  -0.4607 nulo=  -0.0010 z=  -9.51 p=0.0010
+union_RV_alternancia_grupos      obs=   3.0909 nulo=   3.6775 z=  -2.92 p=0.0030
+color_rachas                     obs=  30.4552 nulo=  42.0229 z= -84.40 p=0.0010
+color_mitades_composicion        obs=   0.3080 nulo=   0.2001 z=  23.31 p=1.0000
+UR028: {'grupos_sumas': {'0': 102.0, '1': 102.0, '2': 32.0, '3': 8.0, '4': 0.0, '5': 24.0, '6': 0.0, '7': 40.0}, 'grupos_n': {'0': 1, '1': 3, '2': 20, '3': 10, '4': 1, '5': 20, '6': 1, '7': 20}, 'n_pend': 76, 's1': 200.0, 's2': 56.0}
+         kfg  n       s1       s2  log_ratio
+AS101_Part_2 16    460.0    460.0   0.000000
+       AS193  8      9.0      9.0   0.000000
+       UR140 38     19.0     19.0   0.000000
+      UR1141 20    220.0    220.0   0.000000
+       AS018  9    280.0    280.0   0.000000
+       UR259 13     14.0     14.0   0.000000
+       JC014 10     10.0     10.0   0.000000
+       UR165 85 358031.0 358129.0   0.000274

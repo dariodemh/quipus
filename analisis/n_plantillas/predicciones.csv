@@ -1,0 +1,57 @@
+prueba,khipu,p,p_holm
+C1 perfil en bandas (P4r),UR087,0.0001,0.0055000000000000005
+C1 perfil en bandas (P4r),UR088,0.0001,0.0055000000000000005
+C1 perfil en bandas (P4r),UR089,0.0001,0.0055000000000000005
+C1 perfil en bandas (P4r),UR090,0.0001,0.0055000000000000005
+C1 perfil en bandas (P4r),UR091,0.0001,0.0055000000000000005
+C1 perfil en bandas (P4r),UR092,0.0002,0.009000000000000001
+C1 perfil en bandas (P4r),UR028,0.7298,1.0
+C1 perfil en bandas (P4r),UR1114,0.6863,1.0
+C1 perfil en bandas (P4r),UR1140,0.0001,0.0055000000000000005
+C1 perfil en bandas (P4r),HP033,0.5562,1.0
+C1 perfil en bandas (P4r),UR1123,0.8778,1.0
+C2 fase del trío (P9a),UR053C,0.0001,0.0055000000000000005
+C2 fase del trío (P9a),UR053A,0.0046,0.1334
+C2 fase del trío (P9a),UR053D,0.0001,0.0055000000000000005
+C2 fase del trío (P9a),UR1033B,0.2729,1.0
+C2 fase del trío (P9a),UR1099,0.0001,0.0055000000000000005
+C2 fase del trío (P9a),UR210,0.4861,1.0
+C2 fase del trío (P9a),UR218,0.7783,1.0
+C2 fase del trío (P9a),AS089,0.0705,1.0
+C2 fase del trío (P9a),HP051_B,0.2825,1.0
+C2 fase del trío (P9a),UR1121,0.0487,1.0
+C2 fase del trío (P9a),UR073,0.3026,1.0
+C3 perfil entre bloques (P11),UR1057,0.001,0.043000000000000003
+C3 perfil entre bloques (P11),UR1131,0.001,0.043000000000000003
+C3 perfil entre bloques (P11),HP055,0.001,0.043000000000000003
+C3 perfil entre bloques (P11),UR1176,0.004,0.12
+C3 perfil entre bloques (P11),AS074,0.128,1.0
+C3 perfil entre bloques (P11),AS089,0.257,1.0
+C3 perfil entre bloques (P11),AS203,0.078,1.0
+C3 perfil entre bloques (P11),UR1099,0.001,0.043000000000000003
+C3 perfil entre bloques (P11),UR1149,0.001,0.043000000000000003
+C3 perfil entre bloques (P11),UR1175,0.001,0.043000000000000003
+C3 perfil entre bloques (P11),UR172,0.001,0.043000000000000003
+C3 perfil entre bloques (P11),UR1088,0.001,0.043000000000000003
+C3 perfil entre bloques (P11),AS048,0.001,0.043000000000000003
+C3 perfil entre bloques (P11),AS178,0.001,0.043000000000000003
+C3 perfil entre bloques (P11),HP051_B,0.363,1.0
+C3 perfil entre bloques (P11),UR1144,0.001,0.043000000000000003
+C3 perfil entre bloques (P11),UR068,0.001,0.043000000000000003
+C3 perfil entre bloques (P11),UR006,0.001,0.043000000000000003
+C5 jerarquía UR053 (P6b),UR053A,1.0,1.0
+C5 jerarquía UR053 (P6b),UR053D,0.06,1.0
+C5 jerarquía UR053 (P6b),UR053E,1.0,1.0
+A2 ceques en rachas,UR055,0.9999,1.0
+C6(ii) ciclo de 3 en 41 cuerdas,MM001,0.1028,1.0
+C2 binomial W mayor,UR053A,0.00029,0.01276
+C2 binomial W mayor,UR053C,0.00017,0.00782
+C2 binomial W mayor,UR053D,5e-10,2.8000000000000003e-08
+C4(i) subsidiarias,KH0033,0.5004,1.0
+C4(ii) fallos 10^j,KH0033,1.0,1.0
+C4(i) subsidiarias,UR044,0.5013,1.0
+C4(ii) fallos 10^j,UR044,1.0,1.0
+C4(i) subsidiarias,QU013,1.0,1.0
+C4(ii) fallos 10^j,QU013,0.9352,1.0
+C4(i) subsidiarias,UR068,1.0,1.0
+C4(ii) fallos 10^j,UR068,1.0,1.0

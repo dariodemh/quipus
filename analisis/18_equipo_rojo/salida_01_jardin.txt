@@ -1,0 +1,21 @@
+Afirmación: UR273A+UR273B → unión 266/275/269: h=8 de n=18, E_perm=1.278, p_Poisson=5.71e-05
+UR267A+UR267B → UR269 cabeceras: h=5, E=0.69, p=7.48e-04;  → UR269 todas las cuerdas: h=6, E=1.38, p=3.03e-03
+
+F13 (8 pares × 4 destinos = 32 pruebas): min p obs=5.71e-05; P_nulo(min p ≤ p_afirmación) = 0.0010
+
+Familia amplia: 582 configuraciones (par×definición) × ~100 destinos + unión greedy = 58782 pruebas; preparación 2s
+10 mejores configuraciones en los datos reales (p mínimo sobre destinos):
+   UR273A+UR273B [max]  p=5.71e-05
+   UR273A+UR273B [primero]  p=5.71e-05
+   UR273B+UR274A [max]  p=5.87e-05
+   UR273B+UR274A [primero]  p=5.87e-05
+   UR263+UR272 [suma]  p=2.11e-04
+   UR264+UR266 [primero]  p=3.07e-04
+   UR267B+UR269 [max]  p=4.54e-04
+   UR267B+UR269 [primero]  p=4.54e-04
+   UR267A+UR267B [max]  p=7.48e-04
+   UR267A+UR267B [primero]  p=7.48e-04
+Nulo de la familia amplia (1000 réplicas): mediana min p=1.15e-03, 5 %=1.99e-04
+p corregido de la afirmación (UR273A+B, p=5.71e-05) = P_nulo(min p ≤ p) = 0.0150
+p corregido de UR267A+B → cabeceras UR269 (p=7.48e-04) = 0.3177
+Configuraciones reales con p ≤ p_afirmación: 2; con p ≤ 1e-3: 10 (esperadas bajo el nulo ≈ ver nulo)

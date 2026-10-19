@@ -1,0 +1,163 @@
+kfg,prueba,estadistico,p,N,detalle,seg
+JC004,I1_copia,15.459925230994429,0.545,199,companero=UR205;posiciones_F_cubiertas=9,10.0
+JC004,I2_invertida,16.638580227336078,0.38,199,companero=UR215;posiciones_F_cubiertas=10,10.0
+JC004,I3_diferencia,16.153072411554376,0.105,199,companero=UR016;posiciones_F_cubiertas=9,10.0
+JC004,I4_razon,10.537665880849602,0.12,199,companero=JC009;posiciones_F_cubiertas=6,10.0
+JC004,I5_grupos_permutados,0.0,1.0,0,ningun grupo desplazado,10.0
+JC004,I6_suma_bloque_F_en_otro,166.0,0.7,199,,10.0
+JC004,I7_suma_bloque_otro_en_F,,,0,NA,10.0
+JC004,I8_total_grupo_F_en_sitio,2.0,1.0,199,companeros=JC005|JC010|UR262|UR270|UR272,10.0
+JC004,I9_total_grupo_sitio_en_F,,,0,NA,10.0
+JC011,I1_copia,86.19334192176257,0.76,199,companero=UR215;posiciones_F_cubiertas=42,51.5
+JC011,I2_invertida,80.36048240483123,0.94,199,companero=UR215;posiciones_F_cubiertas=40,51.5
+JC011,I3_diferencia,39.22389050615405,0.6,199,companero=UR016;posiciones_F_cubiertas=23,51.5
+JC011,I4_razon,22.33718411544135,0.565,199,companero=UR270;posiciones_F_cubiertas=16,51.5
+JC011,I5_grupos_permutados,0.0,1.0,0,ningun grupo desplazado,51.5
+JC011,I6_suma_bloque_F_en_otro,222.0,0.37,199,,51.5
+JC011,I7_suma_bloque_otro_en_F,15.0,1.0,199,,51.5
+JC011,I8_total_grupo_F_en_sitio,3.0,0.905,199,companeros=UR262,51.5
+JC011,I9_total_grupo_sitio_en_F,7.0,0.725,199,companeros=UR263,51.5
+JC014,I1_copia,0.0,1.0,0,sin racha >= 3,0.5
+JC014,I2_invertida,0.0,1.0,0,sin racha >= 3,0.5
+JC014,I3_diferencia,0.0,1.0,0,sin racha >= 3,0.5
+JC014,I4_razon,0.0,1.0,0,sin racha >= 3,0.5
+JC014,I5_grupos_permutados,,,0,NA,0.5
+JC014,I6_suma_bloque_F_en_otro,91.0,1.0,199,,0.5
+JC014,I7_suma_bloque_otro_en_F,,,0,NA,0.5
+JC014,I8_total_grupo_F_en_sitio,1.0,1.0,199,companeros=JC001|JC005|JC009|JC010|JC011,0.5
+JC014,I9_total_grupo_sitio_en_F,,,0,NA,0.5
+JC022,I1_copia,5.570667661916895,0.295,199,companero=AS060;posiciones_F_cubiertas=5,6.4
+JC022,I2_invertida,5.570667661916895,0.295,199,companero=AS093;posiciones_F_cubiertas=5,6.4
+JC022,I3_diferencia,5.011051873981472,0.305,199,companero=UR215;posiciones_F_cubiertas=4,6.4
+JC022,I4_razon,3.0651417249261588,0.635,199,companero=UR280;posiciones_F_cubiertas=3,6.4
+JC022,I5_grupos_permutados,0.0,1.0,0,ningun grupo desplazado,6.4
+JC022,I6_suma_bloque_F_en_otro,86.0,0.28,199,,6.4
+JC022,I7_suma_bloque_otro_en_F,,,0,NA,6.4
+JC022,I8_total_grupo_F_en_sitio,1.0,0.825,199,companeros=JC005|JC009|JC010|UR255|UR262,6.4
+JC022,I9_total_grupo_sitio_en_F,,,0,NA,6.4
+JC023,I1_copia,13.656905527787634,0.575,199,companero=UR204;posiciones_F_cubiertas=7,23.6
+JC023,I2_invertida,11.577463986107798,0.84,199,companero=UR1162A;posiciones_F_cubiertas=6,23.6
+JC023,I3_diferencia,17.451145497559395,0.31,199,companero=AS093;posiciones_F_cubiertas=10,23.6
+JC023,I4_razon,6.096825062765808,0.54,199,companero=HP052;posiciones_F_cubiertas=3,23.6
+JC023,I5_grupos_permutados,0.0,1.0,0,ningun grupo desplazado,23.6
+JC023,I6_suma_bloque_F_en_otro,211.0,0.84,199,,23.6
+JC023,I7_suma_bloque_otro_en_F,15.0,1.0,199,,23.6
+JC023,I8_total_grupo_F_en_sitio,1.0,0.945,199,companeros=JC001|JC005|JC009|JC010|JC011,23.6
+JC023,I9_total_grupo_sitio_en_F,7.0,0.195,199,companeros=UR263,23.6
+KH0067,I1_copia,0.0,1.0,0,sin racha >= 3,2.3
+KH0067,I2_invertida,0.0,1.0,0,sin racha >= 3,2.3
+KH0067,I3_diferencia,0.0,1.0,0,sin racha >= 3,2.3
+KH0067,I4_razon,0.0,1.0,0,sin racha >= 3,2.3
+KH0067,I5_grupos_permutados,,,0,NA,2.3
+KH0067,I6_suma_bloque_F_en_otro,2.0,0.335,199,,2.3
+KH0067,I7_suma_bloque_otro_en_F,9.0,0.275,199,,2.3
+KH0067,I8_total_grupo_F_en_sitio,0.0,1.0,0,,2.3
+KH0067,I9_total_grupo_sitio_en_F,0.0,1.0,0,,2.3
+KH0350,I1_copia,5.807391457275221,0.65,199,companero=AS110;posiciones_F_cubiertas=3,20.4
+KH0350,I2_invertida,5.807391457275221,0.645,199,companero=AS029;posiciones_F_cubiertas=3,20.4
+KH0350,I3_diferencia,5.807391457275221,0.51,199,companero=UR218;posiciones_F_cubiertas=3,20.4
+KH0350,I4_razon,0.0,1.0,0,sin racha >= 3,20.4
+KH0350,I5_grupos_permutados,0.0,1.0,0,ningun grupo desplazado,20.4
+KH0350,I6_suma_bloque_F_en_otro,128.0,0.945,199,,20.4
+KH0350,I7_suma_bloque_otro_en_F,7.0,1.0,199,,20.4
+KH0350,I8_total_grupo_F_en_sitio,2.0,0.615,199,companeros=UR1131,20.4
+KH0350,I9_total_grupo_sitio_en_F,4.0,0.39,199,companeros=AS156,20.4
+MM002,I1_copia,13.235124044276544,0.585,199,companero=MM004;posiciones_F_cubiertas=4,25.1
+MM002,I2_invertida,13.235124044276544,0.565,199,companero=HP052;posiciones_F_cubiertas=4,25.1
+MM002,I3_diferencia,0.0,1.0,0,sin racha >= 3,25.1
+MM002,I4_razon,10.099629828347394,0.425,199,companero=HP052;posiciones_F_cubiertas=3,25.1
+MM002,I5_grupos_permutados,0.0,1.0,0,ningun grupo desplazado,25.1
+MM002,I6_suma_bloque_F_en_otro,99.0,0.105,199,,25.1
+MM002,I7_suma_bloque_otro_en_F,41.0,0.98,199,,25.1
+MM002,I8_total_grupo_F_en_sitio,0.0,1.0,0,,25.1
+MM002,I9_total_grupo_sitio_en_F,0.0,1.0,0,,25.1
+MM004,I1_copia,25.827873793719977,0.37,199,companero=MM002;posiciones_F_cubiertas=11,34.3
+MM004,I2_invertida,23.41477509606222,0.46,199,companero=UR254;posiciones_F_cubiertas=13,34.3
+MM004,I3_diferencia,15.216919575569694,0.385,199,companero=AS153;posiciones_F_cubiertas=9,34.3
+MM004,I4_razon,14.53725872029352,0.52,199,companero=UR093;posiciones_F_cubiertas=7,34.3
+MM004,I5_grupos_permutados,0.0,1.0,0,ningun grupo desplazado,34.3
+MM004,I6_suma_bloque_F_en_otro,82.0,0.96,199,,34.3
+MM004,I7_suma_bloque_otro_en_F,49.0,1.0,199,,34.3
+MM004,I8_total_grupo_F_en_sitio,,,0,NA sin companeros de sitio,34.3
+MM004,I9_total_grupo_sitio_en_F,,,0,NA sin companeros de sitio,34.3
+MM007_AN002,I1_copia,48.57113554561703,0.155,199,companero=UR215;posiciones_F_cubiertas=21,22.5
+MM007_AN002,I2_invertida,57.11472721088779,0.02,199,companero=UR215;posiciones_F_cubiertas=23,22.5
+MM007_AN002,I3_diferencia,19.824738873213114,0.275,199,companero=UR215;posiciones_F_cubiertas=10,22.5
+MM007_AN002,I4_razon,18.411045537905103,0.035,199,companero=HP052;posiciones_F_cubiertas=9,22.5
+MM007_AN002,I5_grupos_permutados,0.0,1.0,0,ningun grupo desplazado,22.5
+MM007_AN002,I6_suma_bloque_F_en_otro,78.0,0.12,199,,22.5
+MM007_AN002,I7_suma_bloque_otro_en_F,9.0,1.0,199,,22.5
+MM007_AN002,I8_total_grupo_F_en_sitio,0.0,1.0,0,,22.5
+MM007_AN002,I9_total_grupo_sitio_en_F,0.0,1.0,0,,22.5
+MM008,I1_copia,8.841014310483892,0.98,199,companero=AS060;posiciones_F_cubiertas=3,18.9
+MM008,I2_invertida,11.325920960271892,0.57,199,companero=UR177;posiciones_F_cubiertas=4,18.9
+MM008,I3_diferencia,8.841014310483892,0.71,199,companero=UR093;posiciones_F_cubiertas=3,18.9
+MM008,I4_razon,8.841014310483892,0.19,199,companero=UR1033F;posiciones_F_cubiertas=3,18.9
+MM008,I5_grupos_permutados,0.0,1.0,0,ningun grupo desplazado,18.9
+MM008,I6_suma_bloque_F_en_otro,87.0,0.16,199,,18.9
+MM008,I7_suma_bloque_otro_en_F,35.0,0.995,199,,18.9
+MM008,I8_total_grupo_F_en_sitio,0.0,1.0,0,,18.9
+MM008,I9_total_grupo_sitio_en_F,0.0,1.0,0,,18.9
+MM009,I1_copia,5.375278407684165,0.625,199,companero=MM002;posiciones_F_cubiertas=3,6.1
+MM009,I2_invertida,0.0,1.0,0,sin racha >= 3,6.1
+MM009,I3_diferencia,0.0,1.0,0,sin racha >= 3,6.1
+MM009,I4_razon,0.0,1.0,0,sin racha >= 3,6.1
+MM009,I5_grupos_permutados,,,0,NA,6.1
+MM009,I6_suma_bloque_F_en_otro,31.0,0.62,199,,6.1
+MM009,I7_suma_bloque_otro_en_F,9.0,1.0,199,,6.1
+MM009,I8_total_grupo_F_en_sitio,,,0,NA,6.1
+MM009,I9_total_grupo_sitio_en_F,0.0,1.0,0,,6.1
+MM015,I1_copia,16.061348070361895,0.65,199,companero=HP004;posiciones_F_cubiertas=6,15.5
+MM015,I2_invertida,20.451673507850472,0.21,199,companero=UR215;posiciones_F_cubiertas=8,15.5
+MM015,I3_diferencia,15.655882962253731,0.2,199,companero=UR207;posiciones_F_cubiertas=6,15.5
+MM015,I4_razon,7.886832998955057,0.205,199,companero=AS017;posiciones_F_cubiertas=3,15.5
+MM015,I5_grupos_permutados,0.0,1.0,0,ningun grupo desplazado,15.5
+MM015,I6_suma_bloque_F_en_otro,89.0,0.725,199,,15.5
+MM015,I7_suma_bloque_otro_en_F,17.0,1.0,199,,15.5
+MM015,I8_total_grupo_F_en_sitio,0.0,1.0,0,,15.5
+MM015,I9_total_grupo_sitio_en_F,0.0,1.0,0,,15.5
+MM016,I1_copia,0.0,1.0,0,sin racha >= 3,6.7
+MM016,I2_invertida,0.0,1.0,0,sin racha >= 3,6.7
+MM016,I3_diferencia,0.0,1.0,0,sin racha >= 3,6.7
+MM016,I4_razon,0.0,1.0,0,sin racha >= 3,6.7
+MM016,I5_grupos_permutados,,,0,NA,6.7
+MM016,I6_suma_bloque_F_en_otro,54.0,0.545,199,,6.7
+MM016,I7_suma_bloque_otro_en_F,17.0,1.0,199,,6.7
+MM016,I8_total_grupo_F_en_sitio,,,0,NA,6.7
+MM016,I9_total_grupo_sitio_en_F,0.0,1.0,0,,6.7
+MM017,I1_copia,6.591673732008658,0.72,199,companero=MM004;posiciones_F_cubiertas=3,8.2
+MM017,I2_invertida,6.591673732008658,0.75,199,companero=HP037;posiciones_F_cubiertas=3,8.2
+MM017,I3_diferencia,0.0,1.0,0,sin racha >= 3,8.2
+MM017,I4_razon,0.0,1.0,0,sin racha >= 3,8.2
+MM017,I5_grupos_permutados,,,0,NA,8.2
+MM017,I6_suma_bloque_F_en_otro,34.0,0.865,199,,8.2
+MM017,I7_suma_bloque_otro_en_F,17.0,1.0,199,,8.2
+MM017,I8_total_grupo_F_en_sitio,,,0,NA,8.2
+MM017,I9_total_grupo_sitio_en_F,0.0,1.0,0,,8.2
+MM018,I1_copia,0.0,1.0,0,sin racha >= 3,3.8
+MM018,I2_invertida,0.0,1.0,0,sin racha >= 3,3.8
+MM018,I3_diferencia,0.0,1.0,0,sin racha >= 3,3.8
+MM018,I4_razon,0.0,1.0,0,sin racha >= 3,3.8
+MM018,I5_grupos_permutados,0.0,1.0,0,ningun grupo desplazado,3.8
+MM018,I6_suma_bloque_F_en_otro,12.0,0.295,199,,3.8
+MM018,I7_suma_bloque_otro_en_F,27.0,0.81,199,,3.8
+MM018,I8_total_grupo_F_en_sitio,,,0,NA sin companeros de sitio,3.8
+MM018,I9_total_grupo_sitio_en_F,,,0,NA sin companeros de sitio,3.8
+MM1086,I1_copia,19.968636759438688,0.26,199,companero=JC011;posiciones_F_cubiertas=8,9.8
+MM1086,I2_invertida,16.38511782098258,0.545,199,companero=UR093;posiciones_F_cubiertas=7,9.8
+MM1086,I3_diferencia,9.36426245424844,0.52,199,companero=UR034;posiciones_F_cubiertas=3,9.8
+MM1086,I4_razon,0.0,1.0,0,sin racha >= 3,9.8
+MM1086,I5_grupos_permutados,,,0,NA,9.8
+MM1086,I6_suma_bloque_F_en_otro,82.0,0.935,199,,9.8
+MM1086,I7_suma_bloque_otro_en_F,22.0,1.0,199,,9.8
+MM1086,I8_total_grupo_F_en_sitio,,,0,NA sin companeros de sitio,9.8
+MM1086,I9_total_grupo_sitio_en_F,,,0,NA sin companeros de sitio,9.8
+QU004,I1_copia,44.867197525378124,0.455,199,companero=JC011;posiciones_F_cubiertas=37,14.4
+QU004,I2_invertida,44.40183427568889,0.54,199,companero=JC011;posiciones_F_cubiertas=36,14.4
+QU004,I3_diferencia,24.074178772054935,0.87,199,companero=QU009;posiciones_F_cubiertas=27,14.4
+QU004,I4_razon,13.41403207600532,0.625,199,companero=UR034;posiciones_F_cubiertas=20,14.4
+QU004,I5_grupos_permutados,0.0,1.0,0,ningun grupo desplazado,14.4
+QU004,I6_suma_bloque_F_en_otro,95.0,1.0,199,,14.4
+QU004,I7_suma_bloque_otro_en_F,6.0,1.0,199,,14.4
+QU004,I8_total_grupo_F_en_sitio,2.0,0.375,199,companeros=QU019,14.4
+QU004,I9_total_grupo_sitio_en_F,1.0,0.99,199,companeros=QU013,14.4

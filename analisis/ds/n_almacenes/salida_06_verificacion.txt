@@ -1,0 +1,26 @@
+OK     UR278 suma 9 columnas = 61 790
+OK     UR278 total columna = 62 179
+OK     UR266 = 56 986
+OK     UR275 = 56 446
+OK     UR269 = 122 609
+OK     UR268 = 300 378
+OK     celdas = 249
+OK     media celda 248,2
+OK     max celda 537
+OK     min celda 11
+OK     capacidad min 2 560 t
+OK     capacidad max 4 480 t
+OK     costal 25 kg L3 = 3 065 t
+OK     racion L3 = 86-98 t
+OK     maní 25 kg ocupa 0,1 m3/u
+OK     maní L3 pide 12 260 m3
+OK     saco 35 L L3 = 4 291 m3
+OK     cota L4 T=2,5 = 3,41 kg
+OK     cota L3 T=2 = 10,44 kg
+OK     caravana L1 a 25 kg = 2 207
+OK     caravana mensual = 74/dia
+OK     cuota 47 = 1 175 kg
+OK     cuadro 23cm x 5cm = 2,6 L
+OK     cuadro L4 a 5 cm = 12,4 %
+
+TODAS OK

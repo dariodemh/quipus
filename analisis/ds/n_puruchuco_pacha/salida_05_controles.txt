@@ -1,0 +1,54 @@
+P1: sumas de UR068 (20 columnas) frente a los 20 primeros valores de datos
+    de cada quipu de Puruchuco (cuerdas 13-32, o las que haya):
+  kfg  n  exactas  toler
+UR066 20       16     16
+UR067 20       16     17
+UR060 20        3      6
+UR061 20        3      5
+UR070 14        3      4
+UR082 20        3      4
+UR071 14        3      4
+UR064 20        2      5
+UR077 13        2      4
+UR073 20        2      3
+UR063 20        2      4
+UR076 12        1      3
+UR080  2        1      1
+UR074 20        1      4
+UR068 20        1      6
+UR069 20        1      4
+UR079 19        1      2
+UR062 11        0      0
+UR065  0        0      0
+UR072 20        0      2
+UR075  1        0      0
+UR078  0        0      0
+UR081  0        0      0
+UR165 20        0      0
+
+P2b: sumas de UR063 frente a TODAS las ventanas contiguas de 20 cuerdas
+     de cada quipu de Puruchuco (se informa el maximo de cada quipu):
+  kfg  n_ventanas  max_exactas  ventana  exactas_en_central
+UR068          54           14       34                14.0
+UR064          55           10       35                 NaN
+UR063          92            7       81                 NaN
+UR067          16            6        9                 NaN
+UR073          55            6       25                 NaN
+UR060          95            6       14                 NaN
+UR066          16            6        9                 NaN
+UR074          60            6       28                 NaN
+UR061          22            5       13                 NaN
+UR077           6            5        4                 NaN
+UR069          14            4        1                 NaN
+UR165         206            4       99                 NaN
+UR079          12            3        1                 NaN
+UR071           7            3        1                 NaN
+UR070           7            3        1                 NaN
+UR082          25            3        1                 NaN
+UR072          47            3       25                 NaN
+UR076           5            2        2                 NaN
+UR062           4            0        1                 NaN
+
+UR068 seccion central (cuerdas 34-53): 14/20 exactas, 16/20 con tolerancia
+nulo de la mejor ventana entre los 22 quipus: media=5.05, max=14
+p empirico (mejor ventana >= observado, sin corregir por ventanas): 0.1000

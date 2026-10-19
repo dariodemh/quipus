@@ -1,0 +1,22 @@
+F-A asignación redondeada vs recuento (cuerdas intactas K, valor >= 10, quipus con >= 8):
+  quipus evaluables 330; tasa conjunta de múltiplos de 10 = 0.289 (recuento puro: 0,10)
+  sobredispersión entre quipus: chi2 = 3690 con 329 gl, p = 0.0e+00
+  por magnitud: {'10-99': {'n': 10001, 'frac_red': 0.303}, '100-999': {'n': 3428, 'frac_red': 0.281}, '>=1000': {'n': 997, 'frac_red': 0.199}}
+  exceso de redondeo (BH q<0,05 vs p0=0,1): 143; de ellos con >= 80 % redondos ('asignación'): 26
+  compatibles con recuento (<= 20 % redondos): 159
+  histograma de la fracción redonda: [60, 92, 90, 43, 19, 15, 11] (bins 0-.1-.2-.4-.6-.8-.95-1)
+  asignación (frac >= 0,8, q<0,05): UR197(99/118,Pachacamac), UR058A(79/82,Playa Miller #6, Arica, Chile), UR058B(63/77,Unknown), AS156(50/59,Pachacamac), UR202(46/57,Pachacamac), UR219(54/54,Ica), AS172(38/44,Pachacamac), UR228(35/36,Pisco), AS200(28/34,probably Central Coast Late Period), AS041(20/22,Unknown), UR103(22/22,Unknown), AS072(17/21,Rancho San Juan, Ica Valley), JC001(17/20,Incahuasi), AS101_Part_2(20/20,Pachacamac), UR1102(17/19,Pachacamac), AS101_Part_1(18/18,Pachacamac), UR227(15/15,Pisco), AS168(10/12,Unknown), AS111(10/11,Pachacamac), UR132(9/10,Playa Miller #6, Arica, Chile), HP051_B(10/10,Unknown), KH0267(10/10,Playa Miller #6, Arica, Chile), UR271(10/10,Incahuasi), AS027(8/9,Unknown), UR282(9/9,Huaca San Pedro, Armatambo), AS139(7/8,Pachacamac)
+  tabulares de 10_tablas entre los 'asignación': 9/26; entre los 'recuento': 62/159; base 121/330
+  por procedencia (mediana frac, n): Eduard Gaffron 0.09 (5); Incahuasi 0.17 (27); Leymebamba 0.18 (15); Ica 0.20 (31); Santa 0.20 (5); Between Ica and Pisco 0.22 (7); Unknown 0.22 (90); Huaquerones 0.22 (5); Pachacamac 0.23 (61); Nazca 0.32 (6); Huacho 0.47 (5)
+  tablas con columna casi constante (q<0,05): mediana frac redonda 0.23 (n=29) vs 0.20 (n=92), Mann-Whitney p = 0.98
+  tablas con filas con tamaño (corr. entre columnas) (q<0,05): mediana frac redonda 0.15 (n=51) vs 0.25 (n=70), Mann-Whitney p = 0.01
+  tablas con columna mayor/menor (q<0,05): mediana frac redonda 0.18 (n=94) vs 0.28 (n=27), Mann-Whitney p = 0.10
+
+F antes: corpus obs 86 vs nulo 75.5 (máx 108), p = 0.119; quipus q<0,05: 3: UR118(6 vs 0.3), UR119(4 vs 0.2), UR275(3 vs 0.0)
+F despues: corpus obs 91 vs nulo 75.3 (máx 109), p = 0.0435; quipus q<0,05: 2: AS044(6 vs 0.7), AS199(5 vs 0.1)
+F producto: corpus obs 46 vs nulo 58.5 (máx 87), p = 0.962; quipus q<0,05: 0: 
+F iguales: corpus obs 929 vs nulo 552.2 (máx 620), p = 0.0005; quipus q<0,05: 20: UR190(51 vs 8.7), UR219(44 vs 25.7), MM001(42 vs 22.9), AS066(30 vs 3.7), UR113(29 vs 4.5), UR283(28 vs 3.7), AS207A(21 vs 3.9), UR278(16 vs 1.0), UR197(14 vs 5.8), UR1114(11 vs 1.8), UR1138(10 vs 1.5), UR270(10 vs 2.6), UR086(7 vs 0.8), UR1034(6 vs 1.0), AS026B(6 vs 0.6), AS172(6 vs 0.5), AS128(4 vs 0.6), MM019(4 vs 0.2), UR271(4 vs 0.4), UR123(3 vs 0.2)
+  dirección en quipus con totales significativos: antes>después en 3, después>antes en 2, empate 0
+  F-A x F-F: fracción redonda en quipus con repeticiones (q<0,05) 0.55 (n=20) vs 0.20; Mann-Whitney p = 1.7e-04; en ambas listas: ['AS172', 'UR197', 'UR219', 'UR271']
+
+F-D Santa: L1 entre tamaños ordenados de los 6 quipus y de las 6 pachacas = 21 (pares [(9, 7), (10, 9), (15, 18), (17, 23), (34, 32), (48, 41)]); nulo composiciones uniformes: mediana 33.0, p = 0.237; Dirichlet(2): mediana 24.0, p = 0.402

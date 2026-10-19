@@ -1,0 +1,37 @@
+Indicadores de arquetipo (unidad = quipu) frente al nulo conjunto
+ind | n quipus | observado | esperado nulo | p (una cola, sup.) | p (inf.)
+A0 | 155 | -0.0684 | 0.00136 | 0.9610 | 0.0400   (bilateral 0.0800, Holm 0.3400)
+A1 | 169 | 68 | 38.6 | 0.0010 | 1.0000   (bilateral 0.0020, Holm 0.0180)
+A2 | 169 | 34 | 31.6 | 0.3410 | 0.7270   (bilateral 0.6820, Holm 0.6820)
+A3 | 169 | 25 | 32.1 | 0.9430 | 0.0900   (bilateral 0.1800, Holm 0.3600)
+A4 | 169 | 49 | 40.1 | 0.0550 | 0.9690   (bilateral 0.1100, Holm 0.3400)
+A5 | 122 | 25 | 15.5 | 0.0040 | 0.9980   (bilateral 0.0080, Holm 0.0480)
+A6 | 128 | 29 | 16.8 | 0.0020 | 0.9990   (bilateral 0.0040, Holm 0.0320)
+A7p | 141 | 11 | 18.3 | 0.9840 | 0.0340   (bilateral 0.0680, Holm 0.3400)
+A7u | 141 | 31 | 18.5 | 0.0030 | 1.0000   (bilateral 0.0060, Holm 0.0420)
+
+Agrupamiento de 1129 columnas de 177 quipus; silueta por k: 2:0.182, 3:0.209, 4:0.213, 5:0.224, 6:0.236, 7:0.232, 8:0.240 -> k=8
+     rango   mag  vacia  moda  total  blanca  cons_color  n_col  n_quipus  pos_interior  pos_primera  pos_ultima
+arq                                                                                                             
+0     0.44 -0.05   0.13  0.33   0.00    0.01        0.95    196        80          0.61         0.16        0.23
+1     0.28 -0.34   0.86  0.26   0.00    0.12        0.77    145        61          0.68         0.14        0.18
+2     0.44 -0.05   0.08  0.36   0.00    0.95        0.95    178        78          0.53         0.27        0.20
+3     0.90  0.69   0.13  0.27   0.01    0.49        0.81    164       121          0.52         0.33        0.15
+4     0.97  0.26   0.04  0.14   0.59    0.55        0.88      6         6          0.07         0.93        0.00
+5     0.20 -0.50   0.17  0.78   0.00    0.27        0.76    116        83          0.49         0.25        0.26
+6     0.48 -0.01   0.76  0.27   0.00    0.99        0.99     79        28          0.70         0.11        0.19
+7     0.46 -0.05   0.19  0.30   0.00    0.27        0.52    245        88          0.65         0.11        0.24
+reparto global de posiciones (ponderado 1/K): {'interior': 0.587, 'primera': 0.207, 'ultima': 0.207}
+χ²(arquetipo x posición) observado 13.67; nulo media 2.62, p = 0.0050
+silueta k=8: observada 0.240; nulo (30 iter.) media 0.209 (máx 0.240)
+observado/esperado (independencia) por arquetipo x posición:
+clase_pos  interior  primera  ultima
+arq                                 
+0              1.04     0.78    1.12
+1              1.16     0.69    0.87
+2              0.91     1.31    0.95
+3              0.89     1.58    0.72
+4              0.12     4.50    0.00
+5              0.84     1.22    1.24
+6              1.20     0.51    0.91
+7              1.11     0.53    1.14

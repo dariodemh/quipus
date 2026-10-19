@@ -1,0 +1,113 @@
+=== MAPEO A LOS 12 ARCHIVOS DE LA TABLA 2 (U&B 2009) ===
+arch
+SIN                       232
+Otros/vago                140
+Pachacamac                 91
+Ica                        62
+Puruchuco                  24
+Laguna de los Condores     22
+Ocucaje                    21
+Nazca                      16
+Paracas                    10
+Arica                       9
+Santa                       7
+Chancay                     7
+Atarco                      6
+Tambo Colorado              4
+
+Nuestros 12 archivos suman 279 de 651 quipus (42.9%); U&B: 222/451 (49.2%)
+Pachacamac: 91 en KFG (U&B 2009: 68); OKR: 89
+
+--- KFG, todos los tipos (quipus con >=10 nudos orientados) ---
+               archivo  n_quipus  nudos_orient  pZ_ponderado  pZ_medio_quipu  pZ_mediana  pct_todoZ
+                 Santa         7          1327         0.813           0.845       0.980       28.6
+             Puruchuco        19          1244         0.806           0.766       0.846       21.1
+            Pachacamac        72          7052         0.760           0.759       0.943       43.1
+               Ocucaje        19          1621         0.719           0.782       0.977       47.4
+                   Ica        42          4662         0.718           0.652       0.917       42.9
+Laguna de los Condores        21          4995         0.666           0.632       0.896        4.8
+                 Nazca        13          3394         0.437           0.427       0.389        7.7
+               Chancay         6           275         0.375           0.406       0.219       33.3
+                Atarco         6           224         0.348           0.345       0.343        0.0
+               Paracas         9          1206         0.211           0.601       0.818       22.2
+                 Arica         8           778         0.143           0.126       0.101        0.0
+        Tambo Colorado         2            22         0.091           0.091       0.091        0.0
+
+--- KFG, solo nudos simples (tipo S) (quipus con >=10 nudos orientados) ---
+               archivo  n_quipus  nudos_orient  pZ_ponderado  pZ_medio_quipu  pZ_mediana  pct_todoZ
+             Puruchuco        12           481         0.975           0.912       1.000       83.3
+            Pachacamac        53          3471         0.924           0.884       1.000       79.2
+                 Santa         6           314         0.834           0.830       1.000       66.7
+                   Ica        32          2279         0.806           0.726       1.000       68.8
+               Ocucaje        14           848         0.778           0.841       0.995       50.0
+Laguna de los Condores        18          1479         0.545           0.613       0.952       33.3
+                 Nazca         8          1181         0.487           0.371       0.013       12.5
+               Chancay         4           139         0.374           0.323       0.146       25.0
+               Paracas         6           546         0.121           0.480       0.440       33.3
+                 Arica         8           394         0.003           0.012       0.000        0.0
+
+--- OKR, todos los tipos (quipus con >=10 nudos orientados) ---
+               archivo  n_quipus  nudos_orient  pZ_ponderado  pZ_medio_quipu  pZ_mediana  pct_todoZ
+                 Santa         6          1442         0.962           0.970       0.988       33.3
+             Puruchuco        19          2314         0.885           0.793       0.856       21.1
+            Pachacamac        73         14991         0.848           0.796       0.976       41.1
+               Ocucaje        19          3809         0.761           0.794       0.984       42.1
+                   Ica        45          9395         0.744           0.681       0.967       46.7
+Laguna de los Condores        22          8052         0.604           0.649       0.926        9.1
+                 Nazca        13          5546         0.421           0.433       0.379        7.7
+               Chancay         6           608         0.395           0.399       0.197       33.3
+                Atarco         6           228         0.351           0.349       0.338        0.0
+                 Arica         8          1694         0.253           0.195       0.059        0.0
+               Paracas         8          2421         0.142           0.493       0.601        0.0
+        Tambo Colorado         2            22         0.091           0.091       0.091        0.0
+
+=== TEST GLOBAL (unidad=quipu, permutacion de etiquetas de archivo) ===
+KFG todos: n=467 quipus, eta2=0.100, p_perm=0.0001
+KFG simples: n=327 quipus, eta2=0.168, p_perm=0.0001
+OKR todos: n=450 quipus, eta2=0.132, p_perm=0.0001
+KFG todos (>=50): n=264 quipus, eta2=0.121, p_perm=0.0004
+KFG simples (>=20): n=245 quipus, eta2=0.145, p_perm=0.0002
+KFG todos: control tamano (resid. por terciles, permutacion estratificada): eta2=0.102, p=0.0001
+KFG simples: control tamano (resid. por terciles, permutacion estratificada): eta2=0.169, p=0.0001
+OKR todos: control tamano (resid. por terciles, permutacion estratificada): eta2=0.135, p=0.0001
+
+=== COMPARACIONES PAREADAS vs RESTO (solo archivos con >=8 quipus; BH dentro de la familia) ===
+--- KFG todos ---
+               archivo  n  pZ_medio  dif_vs_resto  p_perm   q_BH
+                 Arica  8     0.126        -0.570  0.0002 0.0016
+                 Nazca 13     0.427        -0.263  0.0127 0.0508
+            Pachacamac 72     0.759         0.133  0.0197 0.0525
+               Ocucaje 19     0.782         0.120  0.1843 0.3686
+             Puruchuco 19     0.766         0.102  0.2674 0.4278
+               Paracas  9     0.601        -0.076  0.5717 0.6852
+Laguna de los Condores 21     0.632        -0.046  0.6143 0.6852
+                   Ica 42     0.652        -0.027  0.6852 0.6852
+--- KFG simples ---
+               archivo  n  pZ_medio  dif_vs_resto  p_perm   q_BH
+                 Arica  8     0.012        -0.767  0.0001 0.0007
+            Pachacamac 53     0.884         0.231  0.0020 0.0070
+                 Nazca  8     0.371        -0.387  0.0068 0.0159
+             Puruchuco 12     0.912         0.190  0.1341 0.2347
+Laguna de los Condores 18     0.613        -0.142  0.1947 0.2726
+               Ocucaje 14     0.841         0.115  0.3458 0.4034
+                   Ica 32     0.726        -0.015  0.8850 0.8850
+
+=== Pachacamac: mayor %Z? ===
+KFG todos: Pachacamac puesto 3 de 12; top3=['Santa', 'Puruchuco', 'Pachacamac']; pZ=[0.76]
+KFG simples: Pachacamac puesto 2 de 10; top3=['Puruchuco', 'Pachacamac', 'Santa']; pZ=[0.924]
+OKR todos: Pachacamac puesto 3 de 12; top3=['Santa', 'Puruchuco', 'Pachacamac']; pZ=[0.848]
+
+=== PATRON TODO-Z vs ARCHIVO (quipu; permutacion) ===
+KFG todos: n=467, todoZ=115, eta2=0.101, p=0.0001
+OKR todos: n=450, todoZ=120, eta2=0.099, p=0.0001
+
+=== CONTROL: TORSION DEL CORDEL ===
+cuerdas con torsion S/Z y >=1 nudo orientado: 31948; quipus con ambas: 21
+pZ medio en cuerdas S: 0.683; en cuerdas Z: 0.705; dif media=0.022; Wilcoxon p=0.0555
+pZ global en cuerdas S: 0.676 (n=88825); en cuerdas Z: 0.683 (n=8290)
+ARCHIVO con solo cuerdas de torsion S (OKR, n>=404 quipus): eta2=0.130, p=0.0001
+
+=== CONTROL: FIBRA (OKR) ===
+pZ por fibra (nudos): CN: 0.704 (n=59934), CL: 0.166 (n=2459), W: 0.118 (n=1074), H: 0.038 (n=851)
+quipus con cuerdas CN y CL: 7; pZ medio CN=0.315, CL=0.164; dif=-0.151; Wilcoxon p=0.5000
+ARCHIVO con solo nudos en cuerdas de algodon (n=259 quipus): eta2=0.158, p=0.0002

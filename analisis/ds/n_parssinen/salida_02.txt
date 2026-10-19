@@ -1,0 +1,50 @@
+Firma UR278: 24 filas de 9; perfil CV=0.193 max/min=1.80 eff=8.71; rho(perfil,pos)=-0.73 (p=0.0246)
+CV dentro de fila: med=0.290 IQR=0.190-0.359 max=0.480; rho por fila: med=-0.59, 62% <= -0.5, 38% <= -0.7
+
+Listas completas (n>=5):
+                list_id  n    cv  max_min  evenness    rho  p_rho_dec  holm_primarias  pct_cv_ur278  pct_l2  pct_l1_asg
+          chincha_hunus  3 0.327    2.000     0.933 -1.000      0.168             NaN        62.500     NaN         NaN
+           huanca_hunus  3 0.333    2.000     0.931  1.000      1.000             NaN        66.667     NaN         NaN
+ pacajes_cabeceras_1543  3 0.245    1.648     0.961 -0.500      0.499             NaN        41.667     NaN         NaN
+       caj_chondal_1567  4 0.462    2.366     0.862 -0.200      0.460             NaN        95.833     NaN         NaN
+    guancayo_lords_1571  5 0.248    2.000     0.953  0.354      0.801             NaN        41.667     NaN         NaN
+  lupaca_cabeceras_1567  7 0.356    3.120     0.902 -0.286      0.251             NaN        75.000     NaN         NaN
+    caj_bambamarca_1567  9 0.385    3.852     0.883 -0.870      0.002           0.005        75.000  60.507      87.500
+        cusco_coco_1535  9 1.079   25.000     0.491 -0.268      0.240           0.240       100.000 100.000     100.000
+guancayo_pachacas_ideal  9 0.000    1.000     1.000    NaN        NaN             NaN         0.000  81.884      50.000
+      aullaga_acho_1540 11 0.613   17.667     0.745 -0.446      0.082           0.164       100.000     NaN         NaN
+          chayanta_1540 12 0.647    7.500     0.723  0.172      0.708             NaN       100.000     NaN         NaN
+          chayanta_1548 12 0.620    7.750     0.739  0.154      0.688             NaN       100.000     NaN         NaN
+      lupaca_sayas_1567 12 0.199    2.083     0.965 -0.350      0.130             NaN        29.167     NaN         NaN
+   yanque_collagua_1540 16 0.581   28.000     0.760  0.015      0.523             NaN       100.000     NaN         NaN
+      cavana_conde_1540 18 1.709   35.882     0.266 -0.320      0.098             NaN       100.000     NaN         NaN
+
+Controles:
+                  test                list_id    stat      p  nperm
+               rho_dec    caj_bambamarca_1567 -0.8703 0.0016 200000
+               rho_dec       caj_chondal_1567 -0.2000 0.4597 200000
+               rho_dec        cusco_coco_1535 -0.2678 0.2403 200000
+               rho_dec      aullaga_acho_1540 -0.4465 0.0822 200000
+               rho_dec      lupaca_sayas_1567 -0.3497 0.1299 200000
+               rho_dec  lupaca_cabeceras_1567 -0.2857 0.2507 200000
+               rho_dec          chayanta_1540  0.1719 0.7081 200000
+               rho_dec          chayanta_1548  0.1541 0.6881 200000
+               rho_dec   yanque_collagua_1540  0.0147 0.5227 200000
+               rho_dec      cavana_conde_1540 -0.3199 0.0978 200000
+               rho_dec    guancayo_lords_1571  0.3536 0.8010 200000
+               rho_dec pacajes_cabeceras_1543 -0.5000 0.4994 200000
+               rho_dec           huanca_hunus  1.0000 1.0000 200000
+               rho_dec          chincha_hunus -1.0000 0.1676 200000
+       perfil_ordenado    caj_bambamarca_1567  0.0671 0.6065    276
+      orden_documental    caj_bambamarca_1567  0.2220 0.8800     24
+               nulo_cv    caj_bambamarca_1567  0.0673 0.6460  20000
+       perfil_ordenado        cusco_coco_1535  0.2676 1.0000    276
+      orden_documental        cusco_coco_1535  0.7463 1.0000     24
+               nulo_cv        cusco_coco_1535  0.2840 0.8116  20000
+           triadas_3x3                  UR278 -0.0202 0.1902  20000
+orden_estable_chayanta               chayanta  0.9772    NaN      0
+            rho_exacto    caj_bambamarca_1567 -0.8703 0.0018 362880
+       rho_sin_primero    caj_bambamarca_1567 -0.8144 0.0092  40320
+
+Bambamarca p exacto (una cola) = 0.00183
+Chayanta rho entre transcripciones = 0.977

@@ -1,0 +1,1058 @@
+
+=== A. Pureza de rasgos dentro de cada quipu ===
+           median_purity  quipus  con_dos_categorias
+trait                                               
+cromatico          0.968     642                 364
+kdir               1.000     484                 208
+torsion2           1.000     511                  28
+union2             1.000     445                 159
+
+=== B. Co-variación de rasgos binarios (CMH, permutación intra-quipu) ===
+CMH torsión Z × unión V                obs=5.8931772393 null=0.986 p=0.0168 n=9
+CMH torsión Z × color marcado          obs=70.883973633 null=0.952 p=0.0002 n=22
+CMH unión V × color marcado            obs=0.3775786771 null=1.0 p=0.54269 n=107
+CMH nudo S × torsión Z                 obs=1.8143025378 null=1.029 p=0.26715 n=8
+CMH nudo S × unión V                   obs=34.724315661 null=0.996 p=0.0002 n=68
+CMH nudo S × color marcado             obs=2.5859218190 null=1.0 p=0.10378 n=120
+
+--- B2. Co-variación entre quipus (proporciones) ---
+Spearman quipu unión V × torsión Z     obs=-0.085151332 null=0.001 p=0.10395 n=379
+Spearman quipu unión V × color         obs=-0.148092405 null=-0.001 p=0.003 n=381
+Spearman quipu unión V × nudo S        obs=0.0222623676 null=-0.002 p=0.67016 n=372
+Spearman quipu color × torsión         obs=0.1272357507 null=0.002 p=0.0085 n=440
+Spearman quipu color × nudo S          obs=-0.046072492 null=0.001 p=0.35882 n=434
+
+=== C. Bandas de color dentro del quipu ===
+Bandas de color (adyacencia)           obs=0.5975274050 null=0.445 p=0.001 n=633
+
+=== D. ¿La primera cuerda del grupo se distingue por color? ===
+Color de primera cuerda                obs=0.6695156695 null=0.642 p=0.0005 n=3159
+
+=== E. ¿Los valores de la primera cuerda son etiquetas repetidas? ===
+Repetición de valores (1.ª cuerda)     obs=0.4691330250 null=0.378 p=0.001 n=399
+
+=== F. Cuerda superior = suma del grupo anterior ===
+Cuerda superior = suma previa          obs=0.3421052631 null=0.042 p=0.00033 n=76
+
+=== G. Quipus 'narrativo-contables' (Urton cap. 8) ===
+khipus con >=50% de cuerdas de 3 racimos y algún nudo largo >=10: 4
+          ncuerdas  share3  share4  maxL  anyL10
+kfg                                             
+UR193          226   0.965   0.018    34    True
+KH0001         154   0.825   0.156    16    True
+AS090_N2        58   0.603   0.052   600    True
+UR053A          55   0.600   0.164   700    True
+3 racimos ~ nudo largo >=10            obs=0.1322393265 null=0.001 p=0.0015 n=575
+
+=== H. Variación de rasgos por procedencia ===
+eta2 sitio pV                          obs=0.0213918326 null=0.008 p=0.001 n=376
+eta2 sitio pTorZ                       obs=0.0407422236 null=0.003 p=0.001 n=428
+eta2 sitio pCrom                       obs=0.0018053828 null=0.001 p=0.13287 n=571
+eta2 sitio pKdS                        obs=0.0274739318 null=0.006 p=0.001 n=426
+
+=== I. ¿El significado del color cambia por sitio? ===
+analisis\ds\n_narrative_threads\tests.py:276: RuntimeWarning: invalid value encountered in scalar divide
+  obs = (cell.n * cell.dev ** 2).sum() / cell.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+analisis\ds\n_narrative_threads\tests.py:285: RuntimeWarning: invalid value encountered in scalar divide
+  null[i] = (ce.n * ce.dev ** 2).sum() / ce.n.sum()
+Interacción color×sitio                obs=         nan null=nan p=0.0005 n=0
+
+Guardado resultados_principales.csv

@@ -1,0 +1,24 @@
+== transcripcion_JC024_record.csv: filas 16, con nudos 10, verificables 6, coinciden 6, vacuas 4
+   modelo(s) que encajan: {'dec': 6, 't+u': 5}
+== transcripcion_JC025_record.csv: filas 10, con nudos 10, verificables 8, coinciden 8, vacuas 2
+   modelo(s) que encajan: {'dec': 8, 't+u': 8}
+== transcripcion_JC026_record.csv: filas 2, con nudos 0, verificables 0, coinciden 0, vacuas 0
+== transcripcion_JC027_record.csv: filas 12, con nudos 12, verificables 11, coinciden 11, vacuas 1
+   modelo(s) que encajan: {'dec': 11, 't+u': 10}
+== transcripcion_JC028_record.csv: filas 12, con nudos 12, verificables 9, coinciden 8, vacuas 3
+   modelo(s) que encajan: {'t+u': 8, 'dec': 5}
+   DESCUADRE 5 - escrito 12 vs nudos [4, 2, 3, 5] -> dec=4235 dec_r=5324 t+u=50 u=14
+== transcripcion_JC029_record.csv: filas 10, con nudos 8, verificables 3, coinciden 3, vacuas 5
+   modelo(s) que encajan: {'dec': 3, 't+u': 3}
+== transcripcion_JC030_record.csv: filas 5, con nudos 5, verificables 0, coinciden 0, vacuas 5
+== transcripcion_JC031_record.csv: filas 11, con nudos 7, verificables 4, coinciden 4, vacuas 3
+   modelo(s) que encajan: {'u': 4}
+== transcripcion_JC032_record.csv: filas 8, con nudos 8, verificables 8, coinciden 7, vacuas 0
+   modelo(s) que encajan: {'dec': 5, 't+u': 7}
+   DESCUADRE 1 - escrito 139 vs nudos [1, 3, 8] -> dec=138 dec_r=831 t+u=21 u=12
+== transcripcion_JC033_record.csv: filas 8, con nudos 4, verificables 1, coinciden 1, vacuas 3
+   modelo(s) que encajan: {'dec': 1, 't+u': 1}
+== transcripcion_JC034_record.csv: filas 7, con nudos 6, verificables 3, coinciden 3, vacuas 3
+   modelo(s) que encajan: {'u': 1, 'dec': 2, 't+u': 2}
+
+TOTAL: 11 fichas, 82 cuerdas con nudos, 53 verificables, 51 coinciden (96.2%), 29 vacuos, 2 descuadres

@@ -1,0 +1,23 @@
+rachas: {'dist_obs': {2: 1211, 3: 214, 4: 83, 5: 43, 6: 16, 7: 10, 8: 10, 9: 3, 10: 10, 12: 1, 17: 1, 19: 1, 21: 1, 25: 1, 27: 1, 35: 1}, 'pares_obs': 1211, 'trios_obs': 214, 'nulos_pares_media': 1017.756, 'nulos_trios_media': 148.3195, 'ratio_pares': 1.1898726217285873, 'ratio_trios': 1.4428311853802096, 'p_pares': 0.0004997501249375312, 'p_trios': 0.0004997501249375312, 'valores_mas_repetidos': {2.0: 204, 4.0: 143, 3.0: 116, 10.0: 111, 5.0: 70, 6.0: 50, 20.0: 45, 7.0: 34}}
+aportes KB u0: {"n_quipus_color": 162, "total_aporte": 30.046514576422858, "top": [{"kfg": "UR122", "n": 160, "nc": 20, "obs": 12, "esp": 5.0, "aporte": 7.0}, {"kfg": "AS066", "n": 162, "nc": 19, "obs": 8, "esp": 2.580246913580247, "aporte": 5.419753086419753}, {"kfg": "UR270", "n": 297, "nc": 8, "obs": 6, "esp": 1.9393939393939394, "aporte": 4.0606060606060606}, {"kfg": "UR006", "n": 551, "nc": 60, "obs": 7, "esp": 3.7023593466424685, "aporte": 3.2976406533575315}, {"kfg": "UR094", "n": 48, "nc": 11, "obs": 7
+dirigidos: {'KB_u0': {'obs': 170.0, 'p': 0.0007499625018749063}, 'DB_c100': {'obs': 56.0, 'p': 4.999750012499375e-05}}
+límites robusto: {'n_quipus': 435, 'dif_media_por_quipu': 0.12768193773480824, 'p_exceso': 0.0001999600079984003, 'quipus_dif_positiva': 0.5954022988505747}
+norcentral:
+   kfg                                         procedencia                    region   n      media      par       u0     c100
+ UR087                                               Santa                   Unknown 321   3.844237 0.271028 0.037383 0.000000
+ UR089                                               Santa                   Unknown 237  11.523207 0.540084 0.063291 0.000000
+ MM001                                             Huacho?                    Huacho 210  46.957143 0.842857 0.666667 0.052381
+KH0227 Huaura Valley, near Lima, on Santa Rosalia Hacienda                   Unknown 181   9.828729 0.486188 0.066298 0.000000
+ UR195                                              Huacho       Central Coast, Peru 133   8.165414 0.548872 0.195489 0.000000
+ UR090                                               Santa                   Unknown 123  18.910569 0.528455 0.121951 0.000000
+ UR233                                              Huacho North-Central Coast, Peru  94  51.670213 0.585106 0.361702 0.074468
+UR1088                                              Huacho                   Unknown  91   5.791209 0.725275 0.142857 0.000000
+ UR088                                               Santa                   Unknown  89  25.730337 0.393258 0.101124 0.000000
+ UR091                                               Santa                   Unknown  81  11.530864 0.555556 0.049383 0.000000
+ UR232                                              Huacho North-Central Coast, Peru  76  33.921053 0.684211 0.355263 0.026316
+ UR092                                               Santa                   Unknown  50   3.520000 0.400000 0.000000 0.000000
+ UR120                                              Huacho                   Unknown  49  36.938776 0.673469 0.204082 0.000000
+ HP037                               Costa Central, Huacho                   Unknown  32 299.343750 0.781250 0.500000 0.125000
+Santa: {'n_santa': 6, 'n_mediana': 106.0, 'n_resto_mediana': 31.0, 'n_max': 321, 'quipus': [{'kfg': 'UR087', 'n': 321}, {'kfg': 'UR088', 'n': 89}, {'kfg': 'UR089', 'n': 237}, {'kfg': 'UR090', 'n': 123}, {'kfg': 'UR091', 'n': 81}, {'kfg': 'UR092', 'n': 50}], 'mannwhitney_p': 0.0026808537157382876}
+efectos: {'spearman_orden_valor': {'media': -0.07101199625545296, 'mediana': -0.08392531288984562, 'p25': -0.3155979418725565, 'p75': 0.15327561819678479, 'frac_abs_mayor_0.3': 0.4147727272727273, 'n': 528}}
+OK

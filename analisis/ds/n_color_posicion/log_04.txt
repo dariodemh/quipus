@@ -1,0 +1,23 @@
+todo           A: q<.05  48/234 (esp 11.7, binom 7.6e-17) r2med 0.0969 r2pos 0.271 r2marg 0.178 T 39.81 pglob 0.0010 rank0 0
+todo           B: q<.05  11/234 (esp 11.7, binom 0.63) r2med 0.0719 r2pos 0.702 r2marg 0.178 T 38.02 pglob 0.0010 rank0 0
+sin_aus        A: q<.05  31/220 (esp 11.0, binom 2.3e-07) r2med 0.0902 r2pos 0.433 r2marg 0.154 T 39.72 pglob 0.0010 rank0 0
+sin_aus        B: q<.05  10/220 (esp 11.0, binom 0.67) r2med 0.0684 r2pos 0.823 r2marg 0.154 T 38.63 pglob 0.0020 rank0 0
+primario       A: q<.05  32/219 (esp 11.0, binom 6.2e-08) r2med 0.0900 r2pos 0.433 r2marg 0.157 T 39.51 pglob 0.0010 rank0 0
+primario       B: q<.05   9/219 (esp 11.0, binom 0.77) r2med 0.0752 r2pos 0.824 r2marg 0.157 T 39.94 pglob 0.0010 rank0 0
+sin_copias     A: q<.05  30/213 (esp 10.7, binom 3.5e-07) r2med 0.0848 r2pos 0.427 r2marg 0.157 T 38.10 pglob 0.0010 rank0 0
+sin_copias     B: q<.05   9/213 (esp 10.7, binom 0.74) r2med 0.0694 r2pos 0.825 r2marg 0.157 T 38.14 pglob 0.0050 rank0 0
+sin_copias_max A: q<.05  17/183 (esp  9.2, binom 0.011) r2med 0.1015 r2pos 0.320 r2marg 0.168 T 36.81 pglob 0.0010 rank0 0
+sin_copias_max B: q<.05   0/183 (esp  9.2, binom 1) r2med 0.0651 r2pos 0.831 r2marg 0.168 T 33.23 pglob 0.9650 rank0 0
+
+Guardado color_posicion.csv: (2138, 22)
+      variante modelo  q05  p_global  holm_global
+          todo      A   48     0.001        0.010
+          todo      B   11     0.001        0.010
+       sin_aus      A   31     0.001        0.010
+       sin_aus      B   10     0.002        0.010
+      primario      A   32     0.001        0.010
+      primario      B    9     0.001        0.010
+    sin_copias      A   30     0.001        0.010
+    sin_copias      B    9     0.005        0.010
+sin_copias_max      A   17     0.001        0.010
+sin_copias_max      B    0     0.965        0.965

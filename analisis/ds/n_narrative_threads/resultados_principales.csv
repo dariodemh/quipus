@@ -1,0 +1,22 @@
+test,hipotesis,observado,nulo,p,n,extra
+CMH torsión Z × unión V,independencia de rasgos binarios,5.893177239384396,0.9857708888198348,0.0167966406718656,9,quipus +2/-7
+CMH torsión Z × color marcado,independencia de rasgos binarios,70.8839736339976,0.9523894167679114,0.0001999600079984,22,quipus +4/-18
+CMH unión V × color marcado,independencia de rasgos binarios,0.3775786771757867,1.000330865654524,0.5426914617076585,107,quipus +53/-54
+CMH nudo S × torsión Z,independencia de rasgos binarios,1.8143025378173367,1.029153601346779,0.2671465706858628,8,quipus +3/-5
+CMH nudo S × unión V,independencia de rasgos binarios,34.724315661030346,0.9963854231855362,0.0001999600079984,68,quipus +34/-34
+CMH nudo S × color marcado,independencia de rasgos binarios,2.5859218190182998,0.999570441801824,0.1037792441511697,120,quipus +57/-63
+Spearman quipu unión V × torsión Z,co-variación ecológica entre quipus,-0.0851513323385315,0.0014884540316175,0.1039480259870064,379,
+Spearman quipu unión V × color,co-variación ecológica entre quipus,-0.1480924054837839,-0.0005786678706981,0.0029985007496251,381,
+Spearman quipu unión V × nudo S,co-variación ecológica entre quipus,0.0222623676243205,-0.0018758955092626,0.6701649175412294,372,
+Spearman quipu color × torsión,co-variación ecológica entre quipus,0.1272357507291611,0.0017311962095734,0.008495752123938,440,
+Spearman quipu color × nudo S,co-variación ecológica entre quipus,-0.0460724921061362,0.0006871856811003,0.3588205897051474,434,
+Bandas de color (adyacencia),Salomon: color en bloques,0.5975274050041783,0.4452360762915991,0.0009990009990009,633,
+Color de primera cuerda,Mackey: color marca el inicio,0.6695156695156695,0.6416994301994302,0.0004997501249375,3159,
+Repetición de valores (1.ª cuerda),Ascher: números como etiquetas,0.4691330250625795,0.3776511038274496,0.0009990009990009,399,
+Cuerda superior = suma previa,Conklin/Ascher: totales,0.3421052631578947,0.0423552631578947,0.0003332222592469,76,26/76 exactos
+3 racimos ~ nudo largo >=10,Urton: unidad significante tripartita,0.1322393265629242,0.0014656466806293,0.0014992503748125,575,4 candidatos
+eta2 sitio pV,Quilter: diversidad regional,0.0213918326643634,0.0080192712418832,0.0009990009990009,376,16 sitios
+eta2 sitio pTorZ,Quilter: diversidad regional,0.0407422236853371,0.003007056581446,0.0009990009990009,428,16 sitios
+eta2 sitio pCrom,Quilter: diversidad regional,0.0018053828572934,0.001307024090699,0.1328671328671328,571,21 sitios
+eta2 sitio pKdS,Quilter: diversidad regional,0.0274739318752813,0.0062979661500641,0.0009990009990009,426,17 sitios
+Interacción color×sitio,Platt: lecturas variables del color,0.010029896252310195,0.0042477564695917215,0.0004997501249375312,25276,"30 sitios, 19 colores"

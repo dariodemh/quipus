@@ -1,0 +1,60 @@
+cuerdas válidas: 40162 quipus: 641
+descriptivos: {"n_validas": 40162, "p_par_empirica": 0.5287834271201634, "p_u0": 0.1745182012847966, "p_c100": 0.019321746924953937, "unidades": {"0": 7009, "1": 7742, "2": 5769, "3": 4204, "4": 3864, "5": 3301, "6": 2633, "7": 2170, "8": 1962, "9": 1508}, "chi2_unidades_uniforme": {"chi2": 10535.628604153178, "p": 0.0, "gl": 9}, "chi2_decenas_uniforme": {"chi2": 80659.0651859967, "p": 0.0, "gl": 9}, "mult100": {"obs": 776, "esperado_independiente": 434.546, "ratio": 1.7857718170228238, "p_exceso": 0.00049975
+colores probados: ['MB', 'LB', 'W', 'DB', 'YB', 'B', 'PK', 'BG', 'AB', 'GG', 'KB', 'YG', 'LG', 'RL', 'BS', 'RB', 'HB', 'NB', 'LK']
+par terminado
+u0 terminado
+c100 terminado
+macro
+desconocida         281
+costa_sur           135
+costa_central       133
+sierra_selva         78
+costa_norcentral     14
+par|costa_norcentral {'grupo': 'costa_norcentral', 'n_grupo': 14, 'n_resto': 627, 'obs': 0.0185, 'p_exceso': 0.3566}
+u0|costa_norcentral {'grupo': 'costa_norcentral', 'n_grupo': 14, 'n_resto': 627, 'obs': 0.001, 'p_exceso': 0.4724}
+c100|costa_norcentral {'grupo': 'costa_norcentral', 'n_grupo': 14, 'n_resto': 627, 'obs': -0.001, 'p_exceso': 0.4369}
+media|costa_norcentral {'grupo': 'costa_norcentral', 'n_grupo': 14, 'n_resto': 627, 'obs': -270.0387, 'p_exceso': 0.9284}
+maxv|costa_norcentral {'grupo': 'costa_norcentral', 'n_grupo': 14, 'n_resto': 627, 'obs': -2495.2658, 'p_exceso': 0.9455}
+n|costa_norcentral {'grupo': 'costa_norcentral', 'n_grupo': 14, 'n_resto': 627, 'obs': 64.9782, 'p_exceso': 0.0063}
+nivel1|costa_norcentral {'grupo': 'costa_norcentral', 'n_grupo': 14, 'n_resto': 627, 'obs': -0.0347, 'p_exceso': 0.6861}
+par|costa_norte_yunga+costa_norcentral {'grupo': 'costa_norte_yunga+costa_norcentral', 'n_grupo': 14, 'n_resto': 627, 'obs': 0.0185, 'p_exceso': 0.3516}
+u0|costa_norte_yunga+costa_norcentral {'grupo': 'costa_norte_yunga+costa_norcentral', 'n_grupo': 14, 'n_resto': 627, 'obs': 0.001, 'p_exceso': 0.4583}
+c100|costa_norte_yunga+costa_norcentral {'grupo': 'costa_norte_yunga+costa_norcentral', 'n_grupo': 14, 'n_resto': 627, 'obs': -0.001, 'p_exceso': 0.4314}
+media|costa_norte_yunga+costa_norcentral {'grupo': 'costa_norte_yunga+costa_norcentral', 'n_grupo': 14, 'n_resto': 627, 'obs': -270.0387, 'p_exceso': 0.9349}
+maxv|costa_norte_yunga+costa_norcentral {'grupo': 'costa_norte_yunga+costa_norcentral', 'n_grupo': 14, 'n_resto': 627, 'obs': -2495.2658, 'p_exceso': 0.9488}
+n|costa_norte_yunga+costa_norcentral {'grupo': 'costa_norte_yunga+costa_norcentral', 'n_grupo': 14, 'n_resto': 627, 'obs': 64.9782, 'p_exceso': 0.0073}
+nivel1|costa_norte_yunga+costa_norcentral {'grupo': 'costa_norte_yunga+costa_norcentral', 'n_grupo': 14, 'n_resto': 627, 'obs': -0.0347, 'p_exceso': 0.6838}
+pares adyacentes: {'obs': 2533, 'nulo_media': 1661.068, 'nulo_sd': 31.871543856067852, 'z': 27.357695753229024, 'p_exceso': 0.0003332222592469177, 'cuerdas_nivel0': 28522, 'tasa': 0.09085039991391987}
+grupos tamaño 10: {'obs10': 215, 'esperado': 166.15250162850006, 'z': 3.8524683951734313, 'p': 0.00011693307312499179, 'tamanos_5_15': {5: 672, 6: 670, 7: 442, 8: 309, 9: 256, 10: 215, 11: 175, 12: 137, 13: 50, 14: 74, 15: 51}, 'n_grupos': 8117}
+color y límites: {'tasa_cambio_en_limite': 0.47408666100254887, 'tasa_cambio_dentro': 0.3839719987272149, 'dif': 0.09011466227533399, 'n_pares_limite': 5885, 'n_pares_dentro': 21999, 'p_exceso': 0.0003332222592469177}
+prelación: {'r_medio': -0.01242593816645059, 'n_quipus': 409, 'p_cola_negativa': 0.0004997501249375312}
+ordinal: {'r_intragrupo': -0.008968203851575613, 'spearman_medio': -0.08676740161367773, 'n_quipus_spearman': 528, 'p_bilateral': 0.0009995002498750624}
+estructura Santa: {'n': {'n_santa': 14, 'n_resto': 627, 'obs_log': 1.1370670295444718, 'p_exceso': 0.00029997000299970003}, 'par': {'n_santa': 14, 'n_resto': 627, 'obs_log': 0.014915668267139304, 'p_exceso': 0.3381661833816618}, 'u0': {'n_santa': 14, 'n_resto': 627, 'obs_log': 0.005045992561418133, 'p_exceso': 0.4310568943105689}, 'c100': {'n_santa': 14, 'n_resto': 627, 'obs_log': -0.00015923580042109114, 'p_exceso': 0.43595640435956406}, 'media': {'n_santa': 14, 'n_resto': 627, 'obs_log': -0.5908423476149003, 'p_exceso': 0.898010198980102}, 'maxv': {'n_santa': 14, 'n_resto': 627, 'obs_log': -0.2931205476796164, 'p_exceso': 0.6821317868213179}, 'nivel1': {'n_santa': 14, 'n_resto': 627, 'obs_log': -0.017041044554020945, 'p_exceso': 0.6244375562443756}}
+
+RESULTADOS (p<0.10):
+                                          prueba        p   p_holm     p_bh      efecto
+                                  grupo_tamano10 0.000117 0.009822 0.005247    3.852468
+                              estructura_santa_n 0.000300 0.024898 0.005247    1.137067
+                              color_limite_grupo 0.000333 0.027324 0.005247    0.090115
+                                pares_adyacentes 0.000333 0.027324 0.005247 2533.000000
+                                     color_u0|KB 0.000500 0.039980 0.005247    0.033424
+                                   color_c100|DB 0.000500 0.039980 0.005247    0.028653
+                           mult100_independencia 0.000500 0.039980 0.005247    1.785772
+                                prelacion_grupos 0.000500 0.039980 0.005247   -0.012426
+                             ordinal_orden_valor 0.001000 0.075962 0.009329   -0.008968
+                  procedencia_n|costa_norcentral 0.006299 0.472453 0.052915   64.978241
+procedencia_n|costa_norte_yunga+costa_norcentral 0.007299 0.540146 0.055740   64.978241
+                                      color_u0|W 0.008996 0.656672 0.062969    0.004415
+                                     color_u0|LK 0.010495 0.755622 0.067812    0.022869
+                                   color_c100|YB 0.016992 1.000000 0.101949    0.004507
+                                   color_c100|GG 0.029485 1.000000 0.165117    0.010378
+                                    color_par|LB 0.034483 1.000000 0.181034    0.025107
+                                    color_par|HB 0.038981 1.000000 0.186573    0.035824
+                                     color_u0|RL 0.039980 1.000000 0.186573    0.031925
+                                    color_par|KB 0.053973 1.000000 0.238618    0.026465
+                                   color_c100|LK 0.062969 1.000000 0.264468    0.006399
+                                    color_par|PK 0.069465 1.000000 0.277861    0.041871
+                                     color_u0|HB 0.074963 1.000000 0.281077    0.021237
+                                     color_u0|YB 0.076962 1.000000 0.281077    0.007263
+
+filas totales: 84

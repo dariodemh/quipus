@@ -1,0 +1,31 @@
+categoria,valor,evaluables,marcados,esperado,p_hiper,q_BH
+procedencia,Paracas,2,2,0.2857142857142857,0.017857142857142856,0.26785714285714285
+museo,"Museum of Worldculture, Goteborg, Sweden",2,2,0.2857142857142857,0.017857142857142856,0.26785714285714285
+serie,AS,7,3,1.0,0.050497049007257044,0.38491606762533764
+registrador,AS,12,4,1.7142857142857142,0.05132214235004502,0.38491606762533764
+museo,"American Museum of Natural History, NY",5,2,0.7142857142857143,0.14301132108717682,0.8580679265230609
+region,Unknown,40,7,5.714285714285714,0.21703647556109748,1.0
+museo,"Museum Fur Volkerkunde, Munich, W. Germany",2,1,0.2857142857142857,0.26785714285714285,1.0
+museo,"Museo Nacional, Lima, Peru",2,1,0.2857142857142857,0.26785714285714285,1.0
+procedencia,Unknown,19,3,2.7142857142857144,0.5612829477387486,1.0
+procedencia,Pachacamac,7,1,1.0,0.6859354530115884,1.0
+serie,UR,33,4,4.714285714285714,0.8543440868807132,1.0
+registrador,UR,28,3,4.0,0.8914140793268646,1.0
+serie,MM,2,0,0.2857142857142857,1.0,1.0
+serie,HP,3,0,0.42857142857142855,1.0,1.0
+registrador,QU,2,0,0.2857142857142857,1.0,1.0
+registrador,HP,3,0,0.42857142857142855,1.0,1.0
+museo,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",2,0,0.2857142857142857,1.0,1.0
+museo,Museo Larco,2,0,0.2857142857142857,1.0,1.0
+museo,"Ethnologisches Museum, Berlin, Germany",9,0,1.2857142857142858,1.0,1.0
+museo,Dallas Museum of Art,2,0,0.2857142857142857,1.0,1.0
+serie,QU,2,0,0.2857142857142857,1.0,1.0
+registrador,MM,2,0,0.2857142857142857,1.0,1.0
+museo,"Museum für Völkerkunde, Berlin",2,0,0.2857142857142857,1.0,1.0
+museo,Museo Regional de Ica,4,0,0.5714285714285714,1.0,1.0
+procedencia,Incahuasi,3,0,0.42857142857142855,1.0,1.0
+procedencia,Hacienda Ullujalla y Callengo,2,0,0.2857142857142857,1.0,1.0
+museo,Proyecto Incahuasi,3,0,0.42857142857142855,1.0,1.0
+procedencia,"Pueblo Libre, Lima, Peru",2,0,0.2857142857142857,1.0,1.0
+region,"Central Coast, Peru",4,0,0.5714285714285714,1.0,1.0
+region,"Inka, Late Horizon",2,0,0.2857142857142857,1.0,1.0

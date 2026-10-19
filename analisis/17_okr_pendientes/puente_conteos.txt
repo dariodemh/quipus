@@ -1,0 +1,61 @@
+KH en la lista OKR (filas de okr-kh-numbers.csv): 702
+KH con fila en khipu.db (khipu_main.OKR_NUM): 619 (filas khipu_main: 619)
+KH sin fila en khipu.db: 83; de ellos sin carpeta de datos: 39; con carpeta: 44
+quipus KFG (quipus.csv): 651; con KH: 651; sin KH: 0 -> []
+KH con al menos un quipu KFG: 646; KH sin KFG: 56; KH con 2+ KFG: ['KH0033', 'KH0197', 'KH0227', 'KH0267', 'KH0350']
+  metodo de enlace KFG: {'alias': 52, 'khipu_id': 558, 'okr_kfg': 39, 'alias_compuesto': 2}
+KH en khipu.db y en KFG: 612; en khipu.db sin KFG: 7; en KFG sin khipu.db: 34
+khipu.db OKR_NUM fuera de la lista OKR: []
+KHIPU_ID de khipu.db presentes en KFG_DB.SQL: 579 de 619; filas khipu_main en SQL: 685
+KFG_DB.SQL vs khipu_summary.csv: ids SQL 685, ids resumen 650, en ambos 650, solo SQL 35, solo resumen 0
+alias (clave nk) asignados a 2+ KH: 3
+   AS101: ['KH0114', 'KH0115']
+   AS124: ['KH0138', 'KH0139']
+   UR1124: ['KH0138', 'KH0139']
+n_inventario (mismo museo, sin sufijo A/B) compartido por 2+ KH: 38 grupos, 122 KH
+n_inventario igual en museos distintos: {'80.1012 aka 2708': ['KH0676', 'KH0700']}
+   Penn Museum | SA4030: ['KH0027', 'KH0028']
+   Peabody Museum of Archaeology and Ethnology | 41.52.30/293B: ['KH0035', 'KH0036', 'KH0037', 'KH0038', 'KH0039', 'KH0040', 'KH0041']
+   Brooklyn Museum | 70.177.69, X591a: ['KH0043', 'KH0044', 'KH0045', 'KH0046']
+   Óscar Núñez del Prado | 7B: ['KH0074', 'KH0075']
+   Ethnologisches Museum | VA42528: ['KH0114', 'KH0115']
+   Ethnologisches Museum | VA24370: ['KH0120', 'KH0121']
+   Ethnologisches Museum | VA24371: ['KH0138', 'KH0139']
+   Ethnologisches Museum | VA63042: ['KH0142', 'KH0143']
+   Ethnologisches Museum | VA16145: ['KH0190', 'KH0191']
+   Ethnologisches Museum | VA37859: ['KH0194', 'KH0195']
+   Ethnologisches Museum | VA66840A: ['KH0199', 'KH0201', 'KH0202', 'KH0203', 'KH0204']
+   Museum of Science | C14459: ['KH0225', 'KH0226', 'KH0227']
+   Hood Museum of Art | 55-32-13302: ['KH0235', 'KH0236']
+   Phoebe Hearst Museum of Anthropology | TM 4/5446: ['KH0265', 'KH0266']
+   Banco Central de Reserva del Perú | ATE 3517: ['KH0283', 'KH0284', 'KH0285', 'KH0286', 'KH0287']
+   Rijksmuseum voor Volkenkunde | 527412: ['KH0290', 'KH0291', 'KH0292']
+   Museo Arqueológico San Miguel de Azapa | 23284: ['KH0294', 'KH0295']
+   Världskulturmuseet | 1929.26.0157a-b: ['KH0352', 'KH0353']
+   Världskulturmuseet | 32.7.3: ['KH0354', 'KH0355', 'KH0356', 'KH0357']
+   Museo Chileno de Arte Precolombino | 21163: ['KH0370', 'KH0371', 'KH0372']
+   Ethnologisches Museum | VA42597: ['KH0438', 'KH0439']
+   Ethnologisches Museum | VA47114c: ['KH0442', 'KH0443', 'KH0444']
+   Ethnologisches Museum | VA16141: ['KH0448', 'KH0449']
+   Ethnologisches Museum | VA42508: ['KH0451', 'KH0452']
+   Ethnologisches Museum | VA44677a: ['KH0464', 'KH0465']
+   Ethnologisches Museum | VA63038: ['KH0469', 'KH0470']
+   Ethnologisches Museum | VA42607: ['KH0479', 'KH0480', 'KH0481', 'KH0482']
+   Complejo arqueológico Inkawasi | 9228-13: ['KH0491', 'KH0492', 'KH0493', 'KH0494']
+   Complejo arqueológico Inkawasi | 12703-2014: ['KH0500', 'KH0501']
+   Complejo arqueológico Inkawasi | 13092: ['KH0503', 'KH0504']
+   Complejo arqueológico Inkawasi | 13831-2014: ['KH0510', 'KH0511']
+   Complejo arqueológico Inkawasi | 13832-2014: ['KH0512', 'KH0513']
+   Complejo arqueológico Inkawasi | PAI-003-2016: ['KH0609', 'KH0610']
+   Complejo arqueológico Inkawasi | PAI-005-2016: ['KH0611', 'KH0612']
+   Complejo arqueológico Inkawasi | PAI-008-2016: ['KH0618', 'KH0619', 'KH0620']
+   The British Museum | Am1937,0213.84: ['KH0633', 'KH0634', 'KH0635']
+   Museo Nacional de Arqueología, Antropología e Historia del Perú | RT-16905: ['KH0638', 'KH0639', 'KH0640', 'KH0641', 'KH0642', 'KH0643', 'KH0644', 'KH0645', 'KH0646', 'KH0647', 'KH0648', 'KH0649', 'KH0650', 'KH0651', 'KH0652']
+   Museum der Kulturen | IVc.366.03: ['KH0682', 'KH0683', 'KH0684', 'KH0685', 'KH0686', 'KH0687', 'KH0688', 'KH0689', 'KH0690', 'KH0691']
+conflictos de enlace KFG: 0
+KH con 'duplicate' en Comments del OKR:
+   KH0033: UR044 (KHIPU_ID 10001012) is an unfinished duplicate of AS031. The more complete  UR1031 (KHIPU_ID 1000097) is
+   KH0080: This khipu is duplicated in the OKR as “AS067/MA029” (KHIPU_ID 1000371) and  “AS067/MA29” (KHIPU_ID 1000364). 
+   KH0140: This khipus is a duplicate of KH0483.
+   KH0198: Added museum accession number (previously N/A) from duplicate (UR236) entered into OKR.
+   KH0483: This khipu is a duplicate of KH0140.

@@ -1,0 +1,11 @@
+{
+  "tipos": {
+    "cadena con ramas": 88,
+    "cadena larga": 31,
+    "arbol ramificado": 27,
+    "abanico ancho": 7
+  },
+  "hoja_ok": 25,
+  "hoja_n": 485,
+  "hoja_p": 0.004975124378109453
+}

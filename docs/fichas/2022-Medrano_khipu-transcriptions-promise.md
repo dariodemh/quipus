@@ -1,0 +1,14 @@
+# Manuel Medrano (2022). The promise of Andean khipu transcriptions: a multi-scale investigation
+
+- **Referencia:** tesis doctoral, University of St Andrews, 2022. Handle 10023/28761; DOI 10.17630/sta/667.
+- **Tipo / acceso:** tesis; **solo resumen** (OpenAlex; OA verde en el repositorio de St Andrews, que durante la sesión de descarga daba 503). Ficha limitada al resumen.
+- **Pregunta u objetivo:** ¿cómo cambian las conclusiones sobre las transcripciones coloniales de quipu cuando se estudian desde múltiples distancias y perspectivas (cercanas y lejanas; cualitativas y cuantitativas)?
+- **Corpus y datos:** las **transcripciones de quipus** ("paper khipus") en español de la Colonia temprana; en el segundo caso de estudio, **10.000 líneas** de transcripciones de quipu digitalizadas; y un quipu estudiado por el autor en el **Museum der Kulturen (Museo de las Culturas), Basilea**.
+- **Métodos:** enfoque multiescala ("juxtaposition of scales" de Ted Underwood), informado por teoría del performance, semiótica y humanidades digitales; combina lectura cercana y agregación cuantitativa en tres casos prácticos.
+- **Hallazgos principales:** (1) las correcciones de escriba en un puñado de "paper khipus" pueden preservar rastros de las "lecturas" originales de los cordeles por los quipucamayocs; (2) el análisis del uso de **verbos de acción** en 10.000 líneas de transcripciones añade matices a las narrativas previas de transformación económica colonial temprana propuestas por John Murra y otros; (3) se presenta un plan para buscar coincidencias entre las transcripciones y quipus concretos de colecciones.
+- **Afirmaciones sobre el significado o desciframiento y nivel de evidencia:** **apoyado con datos** (caso 2, análisis cuantitativo de un corpus textual amplio) y **propuesto** (caso 1, rastros de lecturas; caso 3, plan de emparejamiento). No descifra cordeles; usa documentos alfabéticos como mediación.
+- **Limitaciones y críticas:** las transcripciones son textos coloniales mediados (no quipus); el caso 1 se apoya en "un puñado" de documentos; el caso 3 es un diseño, no un resultado. El resumen no reporta controles estadísticos ni intervalos.
+- **Relación con otros trabajos:** desarrolla la agenda de Urton (1998, 2003) sobre transcripciones de quipus y de Salomon (2004) sobre mediación; se relaciona con Medrano y Urton (2018) y con Medrano y Khosla (2024), del mismo autor.
+- **Relevancia para este proyecto:** aporta métodos de humanidades digitales comparables (análisis de corpus textual), aunque sobre documentos, no sobre quipus materiales. Útil como fuente de hipótesis sobre el contenido (economía colonial) y como modelo de "juxtaposición de escalas" para nuestro corpus de fichas.
+- **Citas clave:**
+  - "scribal corrections in a handful of paper khipus may preserve traces of the original 'readings' of knotted strings by Andean cord keepers." (resumen).

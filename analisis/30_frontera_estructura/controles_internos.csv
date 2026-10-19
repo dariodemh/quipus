@@ -1,0 +1,8 @@
+kfg,prueba,estadistico,p,N,detalle
+SINT_T1,T1_periodo_valor,1.0,1e-05,99999,iguales;lag=10
+SINT_T2,T2_periodo_color,1.0,1e-05,99999,lag=4;colores=4
+SINT_T3,T3_repeticion,15.149688917945149,0.00012,99999,
+SINT_T4,T4_tendencia,0.9866666666666667,1e-05,99999,signo=+1
+SINT_T5,T5_subsidiaria,12.0,1e-05,99999,"razon_modal;obs=[12.0, 3.0, 1.0]"
+SINT_T6,T6_suma_salteada,3.0,0.005,999,misma_posicion;
+SINT_T7,T7_pares_suma,12.0,1e-05,99999,espejo_grupo

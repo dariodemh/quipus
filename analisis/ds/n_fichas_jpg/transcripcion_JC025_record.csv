@@ -1,0 +1,11 @@
+cuerda,nudos,valor,color,largo,notas
+1,"1S(7.5,Z),7L(18.5,Z)d?",17,NB,23.5,"largo '23.5b'"
+2,"2S(7,Z),6L(18,Z)d?",26,NB,23.5,"largo '23.5b'"
+3,"3S(7.5,Z),9L(19,Z)d?",39,NB,33.0,"largo '33.0r'; subsidiarias (3: 2.2, 3.4, 3.6) cm"
+3s1,"1E(15.0,Z)",1,NB,24.0,"nudo en ocho; largo '24.0r'; posicion 15.0 (dudoso si 5.0/50: el trazo es 15.0)"
+3s2,"1S(6,Z),4L(14,Z)d?",14,W,32.0,"largo '32.0k'"
+3s3,"1S(4.5,Z),5L(14,Z)",15,W,20.0,"largo '20.0k'"
+4,"3S(7.5,Z),7L(19,Z)d?",37,NB,23.0,"largo '23.0b'; subsidiarias (3: 2.7, 3.0, 3.2) cm"
+4s1,"1E(13.7,Z)",1,W,30.0,"nudo en ocho; largo '30.0k'"
+4s2,"1S(4.5,Z),3L(15,Z)",13,W,35.5,"largo '35.5k'"
+4s3,"2S(3.5,Z),9L(25,Z)d?",29,W,29.5,"largo '29.5r'"

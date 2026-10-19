@@ -1,0 +1,4 @@
+observado: 0.539 a la derecha (4354/8076)
+M1_nivel: media 0.500 IC95 [0.492-0.507] p(>=obs)=0.0020
+M2_magnitud: media 0.521 IC95 [0.515-0.527] p(>=obs)=0.0020
+quipus con >=5 relaciones: 274; mediana de fracción derecha 0.538

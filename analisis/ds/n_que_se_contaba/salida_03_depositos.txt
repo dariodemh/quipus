@@ -1,0 +1,72 @@
+=== Capacidad del deposito ===
+Qolqawasi: 6400 m3; 245 unidades de almacenamiento; media 26.1 m3/unidad
+Masa almacenable a 0.6 t/m3: 3840 t
+
+=== Cabecera mediana (2 000 unidades) segun unidad ===
+         unidad           nota  masa_t  vol_m3  % capacidad  bins_equiv  cargas_llama
+  grano de maiz          0,3 g   0.001   0.001        0.000       0.000         0.020
+grano de frijol          0,4 g   0.001   0.001        0.000       0.000         0.027
+mani en cascara          0,8 g   0.002   0.003        0.000       0.000         0.053
+       aji seco            5 g   0.010   0.017        0.000       0.001         0.333
+     aji fresco           15 g   0.030   0.050        0.001       0.002         1.000
+           papa          100 g   0.200   0.333        0.005       0.013         6.667
+mazorca de maiz          250 g   0.500   0.833        0.013       0.032        16.667
+      kilogramo unidad de masa   2.000   3.333        0.052       0.128        66.667
+         arroba        11,5 kg  23.000  38.333        0.599       1.467       766.667
+ carga de llama          30 kg  60.000 100.000        1.562       3.828      2000.000
+  costal / saco          25 kg  50.000  83.333        1.302       3.190      1666.667
+  costal grande          50 kg 100.000 166.667        2.604       6.380      3333.333
+ fanega de maiz          ~55 L  90.000 150.000        2.344       5.742      3000.000
+
+=== UR278 completo (61 790 unidades) ===
+         unidad           nota   masa_t   vol_m3  % capacidad  bins_equiv  cargas_llama
+  grano de maiz          0,3 g    0.019    0.031        0.000       0.001         0.618
+grano de frijol          0,4 g    0.025    0.041        0.001       0.002         0.824
+mani en cascara          0,8 g    0.049    0.082        0.001       0.003         1.648
+       aji seco            5 g    0.309    0.515        0.008       0.020        10.298
+     aji fresco           15 g    0.927    1.545        0.024       0.059        30.895
+           papa          100 g    6.179   10.298        0.161       0.394       205.967
+mazorca de maiz          250 g   15.448   25.746        0.402       0.986       514.917
+      kilogramo unidad de masa   61.790  102.983        1.609       3.942      2059.667
+         arroba        11,5 kg  710.585 1184.308       18.505      45.337     23686.167
+ carga de llama          30 kg 1853.700 3089.500       48.273     118.270     61790.000
+  costal / saco          25 kg 1544.750 2574.583       40.228      98.558     51491.667
+  costal grande          50 kg 3089.500 5149.167       80.456     197.117    102983.333
+ fanega de maiz          ~55 L 2780.550 4634.250       72.410     177.405     92685.000
+
+=== Cuota fija 47 ===
+         unidad  masa_t  vol_m3  cargas_llama
+  grano de maiz  0.0000  0.0000        0.0005
+grano de frijol  0.0000  0.0000        0.0006
+mani en cascara  0.0000  0.0001        0.0013
+       aji seco  0.0002  0.0004        0.0078
+     aji fresco  0.0007  0.0012        0.0235
+           papa  0.0047  0.0078        0.1567
+mazorca de maiz  0.0118  0.0196        0.3917
+      kilogramo  0.0470  0.0783        1.5667
+         arroba  0.5405  0.9008       18.0167
+ carga de llama  1.4100  2.3500       47.0000
+  costal / saco  1.1750  1.9583       39.1667
+  costal grande  2.3500  3.9167       78.3333
+ fanega de maiz  2.1150  3.5250       70.5000
+
+=== Sensibilidad a la densidad aparente (UR278) ===
+mazorca de maiz  volumen 19-51 m3 = 0.3-0.8 % de 6 400
+kilogramo        volumen 77-206 m3 = 1.2-3.2 % de 6 400
+carga de llama   volumen 2317-6179 m3 = 36.2-96.5 % de 6 400
+costal           volumen 1931-5149 m3 = 30.2-80.5 % de 6 400
+costal grande    volumen 3862-10298 m3 = 60.3-160.9 % de 6 400
+
+=== Cuadricula de 23 x 23 cm (U.A. 07) ===
+~3 510 cuadros; superficies 23x23 cm = 529 cm2
+  altura  5 cm: 2.6 L por cuadro, 1.59 kg de maiz; 2 000 unidades = 3174 kg
+  altura 10 cm: 5.3 L por cuadro, 3.17 kg de maiz; 2 000 unidades = 6348 kg
+  altura 20 cm: 10.6 L por cuadro, 6.35 kg de maiz; 2 000 unidades = 12696 kg
+  3 510 cuadros x 2,0 kg (10 cm) = 7.0 t; x 4,1 kg (20 cm) = 14.4 t
+
+=== Coincidencias estructurales (especulativo) ===
+UR278: 28 filas x 9 columnas = 252 celdas; deposito: 245 colcas/camaras
+UR278: 33 registros x 9 = 297 celdas (si se conservaran las 33 filas)
+celda media UR278 = 248 unidades; colca media = 26.1 m3 = 15673 kg = 627 costales de 25 kg
+
+guardado depositos_unidades.csv

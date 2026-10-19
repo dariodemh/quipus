@@ -1,0 +1,7 @@
+khipu,cuerdas_por_grupo,campos,n_grupos,n_completos,max_frac,c1_c2,eta2,rho_medio,museo,procedencia,r_con_ficha
+UR1140,9,7,19,19,1.0,9.375,0.6458973868956758,0.6655930183636317,"Museum für Völkerkunde, Berlin",Nazca,1.0
+UR1136,9,7,15,14,0.9285714285714286,13.198863636363637,0.5323937554846296,0.5176771350279538,"Museum für Völkerkunde, Berlin",Nazca,0.96
+UR223,9,7,8,7,1.0,11.5,0.9313431861160384,0.8157970946799918,"Ethnologisches Museum, Berlin, Germany",Ica,0.883
+HP056,9,7,5,5,1.0,5.333333333333333,0.44292070340160244,0.42936141777766024,"Museo Nacional de Arqueologia, Anthropol",Unknown,0.796
+UR234,8,6,10,4,1.0,7.095121951219513,0.5882636442140425,0.45714285714285713,"Ethnologisches Museum, Berlin, Germany",Unknown,
+UR1131,10,8,13,12,0.9166666666666666,3.939732142857143,0.4632694380048821,0.3182051246967627,"Museum für Völkerkunde, Berlin",Pachacamac,

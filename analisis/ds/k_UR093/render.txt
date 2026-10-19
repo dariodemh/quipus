@@ -1,0 +1,1239 @@
+### GRUPO 0
+p1       v=0    W              u=R
+p2       v=30   YB             u=R
+  p2s1     v=4    W              u=V
+  p2s2     v=2    W              u=V
+  p2s3     v=10   W              u=V
+  p2s4     v=3    W              u=V
+  p2s5     v=8    W              u=V
+  p2s6     v=3    VG             u=V
+  p2s7     v=3    AB:GG          u=V
+  p2s8     v=1    W              u=V
+p3       v=7    MB             u=R
+p4       v=6    MB             u=R
+p5       v=0    W:MB           u=R
+p6       v=0    RL             u=R
+p7       v=0    0B             u=R
+p8       v=0    W              u=R
+p9       v=0    YB(0.0-9.5)/W(9.5-68.5) u=R
+p10      v=0    KB             u=R
+p11      v=0    W              u=R
+p12      v=0    AB-MB          u=R
+p13      v=1    AB:KB(0.0-17.5)/W(17.5-51.5) u=R
+p14      v=1    W-LG-MB        u=R
+p15      v=2    AB(0.0-5.0)/MB-YG(5.0-38.0) u=R
+p16      v=0    MB(0.0-9.0)/W(9.0-32.5) u=R
+  p16s1    v=0    W              u=V
+  p16s2    v=0    W              u=V
+  p16s3    v=0    W              u=V
+  p16s4    v=0    W              u=V
+  p16s5    v=0    YB             u=V
+  p16s6    v=0    TG             u=V
+  p16s7    v=1    W:GG           u=V
+  p16s8    v=0    W              u=V
+p17      v=0    W(0.0-10.5)/PK(10.5-13.5)/BG(13.5-20.5)/W(20.5-31.5) u=R
+  p17s1    v=0    W              u=V
+  p17s2    v=0    W              u=V
+  p17s3    v=0    YB             u=V
+  p17s4    v=0    YB             u=V
+  p17s5    v=0    YB             u=V
+  p17s6    v=0    TG             u=V
+  p17s7    v=1    W:GG           u=V
+  p17s8    v=0    W              u=V
+p18      v=2    AB:GG:KB(0.0-13.0)/GG(13.0-40.5) u=R
+p19      v=2    MB(0.0-9.0)/W(9.0-32.5) u=R
+p20      v=0    AB(0.0-5.5)/YB(5.5-13.5)/YB(13.5-40.0) u=R
+p21      v=1    AB(0.0-6.5)/GG(6.5-29.0) u=R
+### GRUPO 1
+p22      v=1    YB(0.0-4.5)/GG(4.5-32.0) u=R
+p23      v=1    BL(0.0-6.5)/W(6.5-28.0) u=R
+p24      v=0    RL(0.0-5.5)/YB(5.5-7.5) u=R
+### GRUPO 2
+p25      v=1    RB             u=R
+p26      v=1    AB             u=R
+p27      v=15   0B             u=R
+  p27s1    v=2    W              u=V
+  p27s2    v=1    W              u=V
+  p27s3    v=2    W              u=V
+  p27s4    v=1    W              u=V
+  p27s5    v=2    W              u=V
+  p27s6    v=1    HB:GR          u=V
+  p27s7    v=2    W:VG           u=V
+  p27s8    v=0    W              u=V
+p28      v=1    W              u=R
+  p28s1    v=0    W              u=V
+  p28s2    v=0    W              u=V
+  p28s3    v=0    W              u=V
+  p28s4    v=0    W              u=V
+  p28s5    v=0    W              u=V
+  p28s6    v=0    YB             u=V
+  p28s7    v=1    W              u=V
+  p28s8    v=0    W              u=V
+p29      v=1    W(0.0-9.5)/AB-MB(9.5-39.0) u=R
+p30      v=2    YB             u=R
+  p30s1    v=1    W              u=V
+  p30s2    v=0    W              u=V
+  p30s3    v=0    W              u=V
+  p30s4    v=0    W              u=V
+  p30s5    v=0    W              u=V
+  p30s6    v=0    VG             u=V
+  p30s7    v=0    W:VG           u=V
+  p30s8    v=0    W              u=V
+p31      v=1    W(0.0-4.5)/PK(4.5-11.5)/YB(11.5-22.0)/W-RL(22.0-52.0) u=U
+p32      v=1    W:GG           u=R
+  p32s1    v=7    W-MB           u=U
+    p32s1s1  v=2    W              u=V
+    p32s1s2  v=0    W              u=V
+    p32s1s3  v=0    W              u=V
+    p32s1s4  v=1    W              u=V
+    p32s1s5  v=2    W              u=V
+    p32s1s6  v=0    TG             u=V
+    p32s1s7  v=1    W:TG           u=V
+    p32s1s8  v=0    W              u=V
+  p32s2    v=0    W              u=V
+  p32s3    v=0    W              u=V
+  p32s4    v=0    W              u=V
+  p32s5    v=0    W              u=V
+  p32s6    v=0    W              u=V
+  p32s7    v=0    W              u=V
+  p32s8    v=0    TG             u=V
+  p32s9    v=0    W:BG           u=V
+  p32s10   v=0    W              u=V
+p33      v=1    AB:GG          u=R
+p34      v=2    RB             u=R
+  p34s1    v=0    W              u=V
+  p34s2    v=1    W              u=V
+  p34s3    v=1    W              u=V
+  p34s4    v=0    W              u=V
+  p34s5    v=0    W              u=V
+  p34s6    v=1    LC             u=V
+  p34s7    v=0    W:TG           u=V
+  p34s8    v=0    W              u=V
+p35      v=1    YB             u=R
+p36      v=1    W              u=R
+  p36s1    v=0    W              u=V
+  p36s2    v=0    W              u=V
+  p36s3    v=0    W              u=V
+  p36s4    v=0    W              u=V
+  p36s5    v=0    W              u=V
+  p36s6    v=0    LC             u=V
+  p36s7    v=1    W:BG           u=V
+  p36s8    v=0    W              u=V
+p37      v=1    W              u=R
+  p37s1    v=0    W              u=V
+  p37s2    v=0    W              u=V
+  p37s3    v=1    W              u=V
+  p37s4    v=0    W              u=V
+  p37s5    v=0    W              u=V
+  p37s6    v=0    BG             u=V
+  p37s7    v=0    W:BG           u=V
+  p37s8    v=0    W              u=V
+p38      v=2    W-MB(0.0-12.5)/W(12.5-45.5) u=R
+  p38s1    v=0    W              u=V
+  p38s2    v=0    W              u=V
+  p38s3    v=0    W              u=V
+  p38s4    v=0    W              u=V
+  p38s5    v=0    W              u=V
+  p38s6    v=0    LC             u=V
+  p38s7    v=0    W:LC           u=V
+  p38s8    v=0    W              u=V
+### GRUPO 3
+p39      v=0    W              u=R
+p40      v=36   YB             u=R
+  p40s1    v=3    W              u=V
+  p40s2    v=8    W              u=V
+  p40s3    v=1    W              u=V
+  p40s4    v=5    W              u=V
+  p40s5    v=10   W              u=V
+  p40s6    v=2    BG             u=V
+  p40s7    v=1    W:LC           u=V
+  p40s8    v=6    W              u=V
+p41      v=3    RB             u=R
+  p41s1    v=0    W              u=V
+  p41s2    v=0    W              u=V
+  p41s3    v=0    W              u=V
+  p41s4    v=0    W              u=V
+  p41s5    v=0    W              u=V
+  p41s6    v=0    BG             u=V
+  p41s7    v=0    W:BG           u=V
+  p41s8    v=0    W              u=V
+p42      v=0    AB             u=U
+p43      v=0    W:AB           u=R
+p44      v=0    YB             u=R
+p45      v=0    AB             u=R
+p46      v=0    AB:KB          u=R
+p47      v=0    W              u=R
+p48      v=0    AB-MB          u=R
+  p48s1    v=0    W              u=V
+  p48s2    v=0    W              u=V
+  p48s3    v=0    W              u=V
+  p48s4    v=0    W              u=V
+  p48s5    v=0    W              u=V
+  p48s6    v=0    VB             u=V
+  p48s7    v=0    W:VB           u=V
+  p48s8    v=0    W              u=V
+  p48s9    v=0    W              u=V
+p49      v=1    W-AB-GG        u=R
+  p49s1    v=0    W              u=V
+  p49s2    v=0    W              u=V
+  p49s3    v=1    W              u=V
+  p49s4    v=0    W              u=V
+  p49s5    v=0    W              u=V
+  p49s6    v=0    LG             u=V
+  p49s7    v=0    W:BG           u=V
+  p49s8    v=0    W              u=V
+p50      v=0    GG             u=R
+p51      v=1    W:HB(0.0-12.5)/W(12.5-49.5) u=R
+  p51s1    v=0    W              u=V
+  p51s2    v=0    W              u=V
+  p51s3    v=0    W              u=V
+  p51s4    v=1    W              u=V
+  p51s5    v=0    W              u=V
+  p51s6    v=0    BG             u=V
+  p51s7    v=0    W:BG           u=V
+  p51s8    v=0    W              u=V
+p52      v=0    W              u=R
+p53      v=0    W:MB           u=R
+p54      v=2    RB(0.0-11.0)/W(11.0-64.5) u=R
+p55      v=0    W(0.0-5.0)/PK(5.0-14.0)/GG(14.0-38.5) u=R
+p56      v=1    AB(0.0-6.0)/GG(6.0-30.0) u=R
+### GRUPO 4
+p57      v=2    W(0.0-5.5)/MB(5.5-39.5) u=R
+  p57s1    v=1    W              u=V
+  p57s2    v=1    W              u=V
+  p57s3    v=0    W              u=V
+  p57s4    v=0    W              u=V
+  p57s5    v=0    W              u=V
+  p57s6    v=0    BG             u=V
+  p57s7    v=0    W:BL           u=V
+  p57s8    v=0    W              u=V
+p58      v=1    AB:GG(0.0-10.0)/YB(10.0-32.5) u=R
+  p58s1    v=0    W              u=V
+  p58s2    v=0    W              u=V
+  p58s3    v=0    W              u=V
+  p58s4    v=0    W              u=V
+  p58s5    v=0    PB             u=V
+  p58s6    v=0    W:BL           u=V
+  p58s7    v=0    W              u=V
+  p58s8    v=0    W              u=V
+p59      v=10   W(0.0-5.5)/PK(5.5-13.0)/RL(13.0-33.0) u=R
+p60      v=1    RB(0.0-23.0)/KG(23.0-35.5) u=R
+p61      v=1    BB             u=R
+  p61s1    v=0    W              u=V
+  p61s2    v=0    W              u=V
+  p61s3    v=0    W              u=V
+  p61s4    v=0    W              u=V
+  p61s5    v=0    W              u=V
+  p61s6    v=0    VB             u=V
+  p61s7    v=0    W:BG           u=V
+  p61s8    v=0    W              u=V
+  p61s9    v=0    W              u=V
+p62      v=1    FR             u=R
+  p62s1    v=0    YB             u=V
+  p62s2    v=0    YB             u=V
+  p62s3    v=0    YB             u=V
+  p62s4    v=0    BG             u=V
+  p62s5    v=0    W:BL           u=V
+  p62s6    v=0    YB             u=V
+  p62s7    v=0    YB             u=V
+p63      v=1    W:RL           u=R
+  p63s1    v=0    W              u=V
+  p63s2    v=0    W              u=V
+  p63s3    v=0    W              u=V
+  p63s4    v=0    W              u=V
+  p63s5    v=0    W              u=V
+  p63s6    v=0    BG             u=V
+  p63s7    v=0    W:LG           u=V
+  p63s8    v=0    W              u=V
+  p63s9    v=0    W              u=V
+p64      v=1    AB             u=R
+  p64s1    v=1    W              u=V
+  p64s2    v=0    W              u=V
+  p64s3    v=0    W              u=V
+  p64s4    v=0    W              u=V
+  p64s5    v=0    W              u=V
+  p64s6    v=0    PB             u=V
+  p64s7    v=0    W:BL           u=V
+  p64s8    v=0    W              u=V
+p65      v=0    MB             u=R
+p66      v=1    W              u=R
+  p66s1    v=0    W              u=V
+  p66s2    v=0    W              u=V
+  p66s3    v=0    W              u=V
+  p66s4    v=0    W              u=V
+  p66s5    v=0    W              u=V
+  p66s6    v=0    LG             u=V
+  p66s7    v=0    W:LG           u=V
+  p66s8    v=0    W              u=V
+  p66s9    v=0    W              u=V
+p67      v=1    W(0.0-10.5)/AB-MB(10.5-34.5) u=R
+  p67s1    v=0    W              u=V
+  p67s2    v=0    W              u=V
+  p67s3    v=1    W              u=V
+  p67s4    v=0    W              u=V
+  p67s5    v=0    W              u=V
+  p67s6    v=0    VG             u=V
+  p67s7    v=0    W:BG           u=V
+  p67s8    v=0    W              u=V
+p68      v=1    RL             u=R
+  p68s1    v=1    W              u=V
+  p68s2    v=0    W              u=V
+  p68s3    v=0    W              u=V
+  p68s4    v=0    W              u=V
+  p68s5    v=1    W              u=V
+  p68s6    v=1    BG             u=V
+  p68s7    v=0    W:BL           u=V
+  p68s8    v=0    W              u=V
+p69      v=0    KB             u=R
+p70      v=1    RB:KB          u=R
+  p70s1    v=8    W-MB           u=U
+    p70s1s1  v=0    W              u=V
+    p70s1s2  v=1    W              u=V
+    p70s1s3  v=0    W              u=V
+    p70s1s4  v=0    W              u=V
+    p70s1s5  v=1    W              u=V
+    p70s1s6  v=0    BG             u=V
+    p70s1s7  v=1    W:BG           u=V
+    p70s1s8  v=0    W              u=U
+p71      v=0    YB             u=R
+p72      v=1    W:GG:RB        u=R
+  p72s1    v=0    W              u=V
+  p72s2    v=0    W              u=V
+  p72s3    v=0    W              u=V
+  p72s4    v=0    W              u=V
+  p72s5    v=0    W              u=V
+  p72s6    v=0    BG             u=V
+  p72s7    v=0    W:PB           u=V
+  p72s8    v=0    W              u=V
+  p72s9    v=0    W              u=V
+p73      v=1    RB             u=R
+p74      v=1    B              u=R
+p75      v=2    W              u=R
+  p75s1    v=0    W              u=V
+  p75s2    v=0    W              u=V
+  p75s3    v=0    W              u=V
+  p75s4    v=0    YB             u=V
+  p75s5    v=0    W              u=V
+  p75s6    v=0    BL             u=V
+  p75s7    v=0    W:BG           u=V
+  p75s8    v=0    YB             u=V
+  p75s9    v=0    W              u=V
+p76      v=2    W              u=R
+  p76s1    v=0    W              u=V
+  p76s2    v=0    W              u=V
+  p76s3    v=0    W              u=V
+  p76s4    v=0    W              u=V
+  p76s5    v=0    W              u=V
+  p76s6    v=0    BL             u=V
+  p76s7    v=0    W:BG           u=V
+  p76s8    v=0    W              u=V
+### GRUPO 5
+p77      v=0    W              u=R
+p78      v=0    W              u=R
+p79      v=0    MB             u=R
+p80      v=4    B              u=R
+  p80s1    v=2    W              u=V
+  p80s2    v=0    W              u=V
+  p80s3    v=0    W              u=V
+  p80s4    v=0    W              u=V
+  p80s5    v=0    W              u=V
+  p80s6    v=0    LG             u=V
+  p80s7    v=0    W:GG           u=V
+  p80s8    v=0    W              u=V
+p81      v=0    HB             u=R
+p82      v=0    B              u=R
+p83      v=0    W              u=R
+p84      v=0    AB:CB          u=R
+p85      v=1    GG-MB          u=R
+  p85s1    v=0    W              u=V
+  p85s2    v=0    W              u=V
+  p85s3    v=0    W              u=V
+  p85s4    v=0    W              u=V
+  p85s5    v=0    W              u=V
+  p85s6    v=0    GG             u=V
+  p85s7    v=0    W:PB           u=V
+  p85s8    v=0    W              u=V
+p86      v=1    AB(0.0-12.0)/AB-BG(12.0-35.0) u=R
+  p86s1    v=0    W              u=V
+  p86s2    v=0    W              u=V
+  p86s3    v=0    W              u=V
+  p86s4    v=0    W              u=V
+  p86s5    v=0    W              u=V
+  p86s6    v=0    BG             u=V
+  p86s7    v=0    W:LC           u=V
+  p86s8    v=0    W              u=V
+p87      v=0    AB:RB(0.0-24.0)/W(24.0-66.0) u=R
+  p87s1    v=0    W              u=V
+  p87s2    v=0    W              u=V
+  p87s3    v=0    W              u=V
+  p87s4    v=0    W              u=V
+  p87s5    v=0    W              u=V
+  p87s6    v=0    TG             u=V
+  p87s7    v=0    W:TG           u=V
+  p87s8    v=0    W              u=U
+p88      v=1    W(0.0-14.5)/PK(14.5-24.5)/W(24.5-56.5) u=R
+  p88s1    v=0    W              u=V
+  p88s2    v=0    W              u=V
+  p88s3    v=0    W              u=V
+  p88s4    v=0    W              u=V
+  p88s5    v=0    W              u=V
+  p88s6    v=0    BG             u=V
+  p88s7    v=0    W:LC           u=V
+  p88s8    v=0    W              u=V
+p89      v=1    RB(0.0-5.0)/W(5.0-46.5) u=R
+p90      v=1    GG:HB(0.0-13.5)/GG(13.5-40.0) u=R
+  p90s1    v=0    W              u=V
+  p90s2    v=0    W              u=V
+  p90s3    v=0    W              u=V
+  p90s4    v=0    W              u=V
+  p90s5    v=0    W              u=V
+  p90s6    v=0    LG             u=V
+  p90s7    v=0    W:TG           u=V
+  p90s8    v=0    W              u=V
+p91      v=1    AB(0.0-7.0)/PK(7.0-12.5)/BG(12.5-29.0) u=R
+p92      v=1    AB:MB(0.0-5.5)/GG(5.5-37.0) u=R
+p93      v=1    AB(0.0-15.5)/PK(15.5-22.5)/W(22.5-49.0) u=R
+  p93s1    v=0    W              u=V
+  p93s2    v=0    W              u=V
+  p93s3    v=0    W              u=V
+  p93s4    v=0    W              u=V
+  p93s5    v=0    W              u=V
+  p93s6    v=0    TG             u=V
+  p93s7    v=0    W:BG           u=V
+  p93s8    v=0    W              u=V
+p94      v=1    W(0.0-6.0)/W:RB(6.0-28.5) u=R
+  p94s1    v=0    W              u=V
+  p94s2    v=0    W              u=V
+  p94s3    v=0    W              u=V
+  p94s4    v=0    W              u=V
+  p94s5    v=0    W              u=V
+  p94s6    v=0    BL             u=V
+  p94s7    v=0    W:GG           u=V
+  p94s8    v=0    W              u=V
+p95      v=1    0L(0.0-7.0)/W(7.0-31.0) u=R
+p96      v=10   AB(0.0-5.5)/PK(5.5-12.0)/AB(12.0-40.0) u=R
+p97      v=0    RB             u=R
+p98      v=0    MB             u=U
+p99      v=3    PR             u=R
+  p99s1    v=1    W              u=V
+  p99s2    v=0    W              u=V
+  p99s3    v=1    W              u=V
+  p99s4    v=1    W              u=V
+  p99s5    v=1    W              u=V
+  p99s6    v=0    PB             u=V
+  p99s7    v=0    W:BG           u=V
+  p99s8    v=0    W              u=V
+p100     v=3    W-MB           u=R
+  p100s1   v=0    W              u=V
+  p100s2   v=0    W              u=V
+  p100s3   v=0    W              u=V
+  p100s4   v=1    W              u=V
+  p100s5   v=0    W              u=V
+  p100s6   v=0    VB             u=V
+  p100s7   v=0    W:BG           u=V
+  p100s8   v=0    W              u=V
+p101     v=0    AB             u=R
+p102     v=0    AB             u=R
+p103     v=10   0G             u=R
+  p103s1   v=0    W              u=V
+  p103s2   v=0    W              u=V
+  p103s3   v=1    W              u=V
+  p103s4   v=3    W              u=V
+  p103s5   v=4    W              u=V
+  p103s6   v=4    VB             u=V
+  p103s7   v=3    W:GG           u=V
+  p103s8   v=1    W              u=V
+p104     v=1    W              u=R
+  p104s1   v=0    W              u=V
+  p104s2   v=0    W              u=V
+  p104s3   v=0    W              u=V
+  p104s4   v=0    W              u=V
+  p104s5   v=0    W              u=V
+  p104s6   v=0    VB             u=V
+  p104s7   v=0    W:0D           u=V
+  p104s8   v=0    W              u=V
+p105     v=0    W(0.0-8.0)/AB(8.0-10.0) u=R
+p106     v=1    W(0.0-10.0)/AB-RB(10.0-37.0) u=R
+  p106s1   v=0    W              u=V
+  p106s2   v=0    W              u=V
+  p106s3   v=0    W              u=V
+  p106s4   v=0    W              u=V
+  p106s5   v=0    W              u=V
+  p106s6   v=0    LG             u=V
+  p106s7   v=0    W:BG           u=V
+  p106s8   v=0    W              u=V
+p107     v=1    YB             u=R
+  p107s1   v=0    W              u=V
+  p107s2   v=0    W              u=V
+  p107s3   v=0    W              u=V
+  p107s4   v=0    W              u=V
+  p107s5   v=0    W              u=V
+  p107s6   v=0    AB:BG          u=V
+  p107s7   v=0    W:LC           u=V
+  p107s8   v=0    W              u=V
+p108     v=0    YB             u=R
+  p108s1   v=7    W-MB           u=U
+    p108s1s1 v=1    W              u=V
+    p108s1s2 v=1    W              u=V
+    p108s1s3 v=0    W              u=V
+    p108s1s4 v=3    W              u=V
+    p108s1s5 v=3    W              u=V
+    p108s1s6 v=0    VB             u=V
+    p108s1s7 v=0    W:VB           u=V
+    p108s1s8 v=0    W              u=V
+p109     v=0    EB(0.0-6.5)/YB(6.5-46.0) u=R
+  p109s1   v=0    W              u=V
+  p109s2   v=0    W              u=V
+  p109s3   v=0    W              u=V
+  p109s4   v=0    W              u=V
+  p109s5   v=0    W              u=V
+  p109s6   v=0    VB             u=V
+  p109s7   v=1    W:LD           u=V
+  p109s8   v=0    W              u=V
+  p109s9   v=0    W              u=V
+p110     v=0    W-AB           u=R
+  p110s1   v=0    YB             u=V
+  p110s2   v=1    W              u=V
+  p110s3   v=0    W              u=V
+  p110s4   v=0    W              u=V
+  p110s5   v=0    W              u=V
+  p110s6   v=0    VB             u=V
+  p110s7   v=0    W:VB           u=V
+  p110s8   v=0    AB             u=V
+p111     v=1    BL:AB          u=R
+p112     v=0    MB             u=R
+p113     v=0    AB             u=R
+p114     v=2    W              u=R
+  p114s1   v=0    W              u=V
+  p114s2   v=0    W              u=V
+  p114s3   v=0    W              u=V
+  p114s4   v=1    W              u=V
+  p114s5   v=0    W              u=V
+  p114s6   v=0    BG             u=V
+  p114s7   v=0    W:BG           u=V
+  p114s8   v=0    W              u=V
+p115     v=1    AB(0.0-12.5)/PK(12.5-23.0)/W(23.0-44.5) u=R
+  p115s1   v=1    W              u=V
+  p115s2   v=0    W              u=V
+  p115s3   v=0    W              u=V
+  p115s4   v=0    W              u=V
+  p115s5   v=0    W              u=V
+  p115s6   v=0    BG             u=V
+  p115s7   v=0    W:GG           u=V
+  p115s8   v=0    W              u=V
+### GRUPO 6
+p116     v=6    W(0.0-19.0)/VB(19.0-39.0) u=R
+  p116s1   v=0    W              u=R
+  p116s2   v=0    W              u=R
+  p116s3   v=0    W              u=R
+  p116s4   v=0    W              u=R
+  p116s5   v=0    W              u=R
+  p116s6   v=0    LG             u=R
+  p116s7   v=0    W:BG           u=R
+  p116s8   v=0    W              u=R
+p117     v=20   W              u=R
+  p117s1   v=3    W              u=R
+  p117s2   v=3    W              u=R
+  p117s3   v=1    W              u=R
+  p117s4   v=5    W              u=R
+  p117s5   v=3    W              u=R
+  p117s6   v=3    BG             u=R
+  p117s7   v=4    W:BG           u=R
+  p117s8   v=4    W              u=R
+p118     v=3    RB             u=R
+p119     v=3    HB             u=R
+p120     v=0    AB-GG          u=R
+  p120s1   v=0    W              u=R
+  p120s2   v=0    W              u=R
+  p120s3   v=0    W              u=R
+  p120s4   v=0    W              u=R
+  p120s5   v=0    W              u=R
+  p120s6   v=0    BG             u=R
+  p120s7   v=1    W:PB           u=R
+  p120s8   v=0    W              u=R
+p121     v=1    AB(0.0-9.0)/PK(9.0-41.0) u=R
+  p121s1   v=0    W              u=R
+  p121s2   v=0    W              u=R
+  p121s3   v=0    W              u=R
+  p121s4   v=0    W              u=R
+  p121s5   v=0    W              u=R
+  p121s6   v=0    GG             u=R
+  p121s7   v=0    W:YG           u=R
+  p121s8   v=0    W              u=R
+p122     v=1    AB:MB(0.0-13.0)/W(13.0-43.0) u=R
+  p122s1   v=0    W              u=R
+  p122s2   v=0    W              u=R
+  p122s3   v=0    W              u=R
+  p122s4   v=0    W              u=R
+  p122s5   v=0    W              u=R
+  p122s6   v=0    W:BG           u=R
+  p122s7   v=0    W:BG           u=R
+  p122s8   v=0    W              u=R
+p123     v=2    W(0.0-15.0)/PK(15.0-23.0)/W(23.0-47.0) u=R
+  p123s1   v=0    W              u=R
+  p123s2   v=0    W              u=R
+  p123s3   v=0    W              u=R
+  p123s4   v=0    W              u=R
+  p123s5   v=0    W              u=R
+  p123s6   v=0    B:BG           u=R
+  p123s7   v=0    W:BG           u=R
+  p123s8   v=0    W              u=R
+p124     v=2    W:AB:BG(0.0-10.0)/BG(10.0-43.0) u=R
+  p124s1   v=0    W              u=R
+  p124s2   v=0    W              u=R
+  p124s3   v=0    W              u=R
+  p124s4   v=0    W              u=R
+  p124s5   v=0    W              u=R
+  p124s6   v=0    BG             u=R
+  p124s7   v=0    W:BL           u=R
+  p124s8   v=0    W              u=R
+p125     v=2    RB(0.0-5.0)/W(5.0-41.0) u=R
+p126     v=1    W(0.0-12.0)/BG(12.0-31.5) u=R
+p127     v=1    MB(0.0-6.5)/GG(6.5-29.0) u=R
+p128     v=1    W(0.0-20.5)/MB(20.5-28.5)/W(28.5-46.0) u=R
+  p128s1   v=0    W              u=R
+  p128s2   v=0    W              u=R
+  p128s3   v=0    W              u=R
+  p128s4   v=0    W              u=R
+  p128s5   v=0    W              u=R
+  p128s6   v=0    BG             u=R
+  p128s7   v=0    W:BL           u=R
+  p128s8   v=0    W              u=R
+p129     v=1    W(0.0-4.0)/MB(4.0-29.5) u=R
+  p129s1   v=0    W              u=R
+  p129s2   v=0    W              u=R
+  p129s3   v=0    W              u=R
+  p129s4   v=0    W              u=R
+  p129s5   v=0    W              u=R
+  p129s6   v=0    BG             u=R
+  p129s7   v=0    W:BG           u=R
+  p129s8   v=0    W              u=R
+p130     v=1    YG(0.0-11.0)/W(11.0-50.0) u=R
+  p130s1   v=0    W              u=R
+  p130s2   v=0    W              u=R
+  p130s3   v=0    W              u=R
+  p130s4   v=0    W              u=R
+  p130s5   v=0    W              u=R
+  p130s6   v=0    BG             u=R
+  p130s7   v=0    W:BL           u=R
+  p130s8   v=0    W              u=R
+p131     v=10   AB(0.0-14.0)/MB(14.0-21.0)/AB(21.0-47.0) u=R
+  p131s1   v=0    W              u=R
+  p131s2   v=0    W              u=R
+  p131s3   v=0    W              u=R
+  p131s4   v=0    W              u=R
+  p131s5   v=0    W              u=R
+  p131s6   v=0    BG             u=R
+  p131s7   v=0    W:BL           u=R
+  p131s8   v=0    W              u=R
+### GRUPO 7
+p132     v=1    AB             u=U
+  p132s1   v=0    W              u=R
+  p132s2   v=0    W              u=R
+  p132s3   v=0    W              u=R
+  p132s4   v=0    W              u=R
+  p132s5   v=0    W              u=R
+  p132s6   v=0    BG             u=R
+  p132s7   v=0    W:BG           u=R
+  p132s8   v=0    W              u=R
+p133     v=1    RB             u=R
+  p133s1   v=0    W              u=R
+  p133s2   v=0    W              u=R
+  p133s3   v=0    W              u=R
+  p133s4   v=0    W              u=R
+  p133s5   v=0    W              u=R
+  p133s6   v=0    LC             u=R
+  p133s7   v=0    W:BL           u=R
+  p133s8   v=0    W              u=R
+p134     v=1    AB             u=R
+  p134s1   v=0    W              u=R
+  p134s2   v=0    W              u=R
+  p134s3   v=0    W              u=R
+  p134s4   v=0    W              u=R
+  p134s5   v=0    W              u=R
+  p134s6   v=0    BG             u=R
+  p134s7   v=0    W:BL           u=R
+  p134s8   v=0    W              u=R
+p135     v=0    AB(0.0-5.0)/AB:GG:MB(5.0-46.0) u=R
+p136     v=11   0G             u=R
+  p136s1   v=2    W              u=R
+  p136s2   v=2    W              u=R
+  p136s3   v=2    W              u=R
+  p136s4   v=3    W              u=R
+  p136s5   v=3    W              u=R
+  p136s6   v=4    BG             u=R
+  p136s7   v=1    W:BG           u=R
+  p136s8   v=3    W              u=R
+p137     v=1    W              u=R
+  p137s1   v=1    W              u=R
+  p137s2   v=0    W              u=R
+  p137s3   v=0    W              u=R
+  p137s4   v=0    W              u=R
+  p137s5   v=0    W              u=R
+  p137s6   v=0    W:BG           u=R
+  p137s7   v=0    W:BG           u=R
+  p137s8   v=0    W              u=R
+p138     v=1    W(0.0-6.5)/AB-0B(6.5-36.0) u=R
+  p138s1   v=0    YB             u=V
+  p138s2   v=0    YB             u=R
+  p138s3   v=0    YB             u=R
+  p138s4   v=0    W              u=R
+  p138s5   v=0    W              u=R
+  p138s6   v=0    YG             u=R
+  p138s7   v=0    W:GG           u=R
+  p138s8   v=0    W              u=R
+p139     v=1    AB             u=R
+  p139s1   v=0    W              u=R
+  p139s2   v=0    W              u=R
+  p139s3   v=0    W              u=R
+  p139s4   v=0    W              u=R
+  p139s5   v=0    W              u=R
+  p139s6   v=0    YG             u=R
+  p139s7   v=0    W:YG           u=R
+  p139s8   v=0    W              u=R
+p140     v=1    W(0.0-7.5)/MB(7.5-28.0)/W(28.0-50.0) u=R
+p141     v=1    AB:GG          u=R
+  p141s1   v=10   W-MB           u=U
+    p141s1s1 v=0    W              u=V
+    p141s1s2 v=0    W              u=V
+    p141s1s3 v=0    W              u=V
+    p141s1s4 v=1    W              u=V
+    p141s1s5 v=1    W              u=V
+    p141s1s6 v=1    VB             u=V
+    p141s1s7 v=0    W:VB           u=V
+    p141s1s8 v=3    W              u=V
+p142     v=0    AB             u=R
+p143     v=0    W              u=U
+p144     v=1    AB:GG          u=R
+  p144s1   v=0    W              u=R
+  p144s2   v=0    W              u=R
+  p144s3   v=0    W              u=R
+  p144s4   v=0    W              u=R
+  p144s5   v=0    W              u=R
+  p144s6   v=0    PB             u=R
+  p144s7   v=0    W:PB           u=R
+  p144s8   v=0    W              u=R
+  p144s9   v=0    W              u=R
+p145     v=1    RB             u=R
+p146     v=1    AB             u=R
+p147     v=2    YB             u=R
+  p147s1   v=0    W              u=R
+  p147s2   v=0    W              u=R
+  p147s3   v=0    W              u=R
+  p147s4   v=0    W              u=R
+  p147s5   v=0    W              u=R
+  p147s6   v=0    BG             u=R
+  p147s7   v=0    W:BG           u=R
+  p147s8   v=0    W              u=R
+  p147s9   v=0    W              u=R
+p148     v=1    YB(0.0-17.5)/RL(17.5-28.5)/W(28.5-48.0) u=R
+  p148s1   v=0    W              u=R
+  p148s2   v=0    W              u=R
+  p148s3   v=0    W              u=R
+  p148s4   v=0    W              u=R
+  p148s5   v=0    W              u=R
+  p148s6   v=0    BG             u=R
+  p148s7   v=0    W:BG           u=R
+  p148s8   v=0    W              u=R
+  p148s9   v=0    W              u=R
+p149     v=2    W-MB(0.0-14.0)/W(14.0-45.5) u=R
+  p149s1   v=0    W              u=R
+  p149s2   v=0    W              u=R
+  p149s3   v=0    W              u=R
+  p149s4   v=0    W              u=R
+  p149s5   v=0    W              u=R
+  p149s6   v=0    BG             u=R
+  p149s7   v=0    W:BG           u=R
+  p149s8   v=0    W              u=R
+  p149s9   v=0    W              u=R
+### GRUPO 8
+p150     v=5    W(0.0-17.0)/W-BG(17.0-19.0)/BG(19.0-27.0) u=R
+  p150s1   v=0    W              u=V
+  p150s2   v=0    W              u=V
+  p150s3   v=0    W              u=V
+  p150s4   v=0    W              u=V
+  p150s5   v=0    W              u=V
+  p150s6   v=0    BG             u=V
+  p150s7   v=0    W:BG           u=R
+  p150s8   v=0    W              u=R
+p151     v=73   AB             u=R
+  p151s1   v=4    W              u=V
+  p151s2   v=0    W              u=V
+  p151s3   v=12   W              u=V
+  p151s4   v=7    W              u=V
+  p151s5   v=9    W              u=V
+  p151s6   v=1    GG             u=V
+  p151s7   v=24   W:GG           u=V
+  p151s8   v=4    W              u=V
+p152     v=8    DB             u=V
+  p152s1   v=0    W              u=V
+  p152s2   v=0    W              u=V
+  p152s3   v=0    W              u=V
+  p152s4   v=0    W              u=V
+  p152s5   v=0    W              u=V
+  p152s6   v=0    VB             u=V
+  p152s7   v=0    W:VB           u=V
+  p152s8   v=0    W              u=V
+  p152s9   v=0    W              u=V
+p153     v=10   HB             u=R
+  p153s1   v=0    W              u=V
+  p153s2   v=0    W              u=V
+  p153s3   v=0    W              u=V
+  p153s4   v=0    W              u=V
+  p153s5   v=0    W              u=V
+  p153s6   v=0    PB             u=V
+  p153s7   v=0    W:PB           u=V
+  p153s8   v=0    W              u=V
+  p153s9   v=0    W              u=V
+p154     v=2    W:MB           u=R
+p155     v=1    AB             u=R
+p156     v=6    AB             u=R
+p157     v=1    W              u=R
+p158     v=3    W:MB           u=R
+p159     v=1    YB             u=R
+p160     v=1    W-0B           u=R
+p161     v=1    AB-BG          u=R
+  p161s1   v=0    W              u=V
+  p161s2   v=0    W              u=V
+  p161s3   v=0    W              u=V
+  p161s4   v=0    W              u=V
+  p161s5   v=0    W              u=V
+  p161s6   v=0    PB             u=V
+  p161s7   v=0    W:BG           u=V
+  p161s8   v=0    W              u=V
+  p161s9   v=0    W              u=V
+p162     v=1    AB(0.0-9.0)/AB-GG(9.0-54.5) u=R
+  p162s1   v=0    W              u=V
+  p162s2   v=0    W              u=V
+  p162s3   v=0    W              u=V
+  p162s4   v=0    W              u=V
+  p162s5   v=0    W              u=V
+  p162s6   v=0    VB             u=V
+  p162s7   v=0    W:BG           u=V
+  p162s8   v=0    W              u=V
+  p162s9   v=0    W              u=V
+p163     v=1    RB(0.0-11.0)/W(11.0-57.0) u=R
+p164     v=2    W(0.0-5.5)/AB:MB(5.5-21.0)/W(21.0-68.0) u=R
+  p164s1   v=1    W              u=V
+  p164s2   v=0    W              u=V
+  p164s3   v=0    W              u=V
+  p164s4   v=0    W              u=V
+  p164s5   v=0    W              u=V
+  p164s6   v=0    VB             u=V
+  p164s7   v=0    W:BG           u=V
+  p164s8   v=0    W              u=V
+  p164s9   v=0    W              u=V
+p165     v=2    W:AB:KB(0.0-16.0)/BG(16.0-45.0) u=R
+  p165s1   v=0    W              u=V
+  p165s2   v=0    W              u=V
+  p165s3   v=0    W              u=V
+  p165s4   v=0    W              u=V
+  p165s5   v=0    W              u=V
+  p165s6   v=0    PB             u=V
+  p165s7   v=0    W:BG           u=V
+  p165s8   v=0    W              u=V
+  p165s9   v=0    W              u=V
+p166     v=2    KB(0.0-8.0)/W(8.0-40.5) u=R
+p167     v=1    W(0.0-6.5)/MB(6.5-12.5)/0L(12.5-33.5) u=R
+p168     v=1    AB(0.0-5.5)/0L(5.5-41.5) u=R
+p169     v=1    W(0.0-18.0)/MB(18.0-30.0)/W(30.0-61.5) u=R
+  p169s1   v=0    W              u=V
+  p169s2   v=0    W              u=V
+  p169s3   v=0    W              u=V
+  p169s4   v=0    W              u=V
+  p169s5   v=0    W              u=V
+  p169s6   v=0    PB             u=V
+  p169s7   v=0    W:GG           u=V
+  p169s8   v=0    W              u=V
+p170     v=1    W(0.0-4.5)/PR(4.5-28.5) u=R
+p171     v=2    GG(0.0-9.5)/W(9.5-38.5) u=R
+p172     v=10   RL(0.0-6.0)/W(6.0-13.0)/RL(13.0-34.0) u=R
+p173     v=3    AB             u=R
+  p173s1   v=0    W              u=V
+  p173s2   v=0    W              u=V
+  p173s3   v=0    W              u=V
+  p173s4   v=0    W              u=V
+  p173s5   v=0    W              u=V
+  p173s6   v=1    GG             u=V
+  p173s7   v=0    W:BG           u=V
+  p173s8   v=0    W              u=V
+### GRUPO 9
+p174     v=7    PR             u=R
+  p174s1   v=1    W              u=V
+  p174s2   v=1    W              u=V
+  p174s3   v=1    W              u=V
+  p174s4   v=0    W              u=V
+  p174s5   v=0    W              u=V
+  p174s6   v=0    GG             u=V
+  p174s7   v=2    W:GG           u=V
+  p174s8   v=0    W              u=V
+p175     v=6    W:AB           u=R
+  p175s1   v=0    W              u=V
+  p175s2   v=0    W              u=V
+  p175s3   v=0    W              u=V
+  p175s4   v=2    W              u=V
+  p175s5   v=1    W              u=V
+  p175s6   v=0    BG             u=V
+  p175s7   v=0    W:BG           u=V
+  p175s8   v=0    W              u=V
+p176     v=2    RB             u=R
+  p176s1   v=0    W              u=V
+  p176s2   v=1    W              u=V
+  p176s3   v=0    W              u=V
+  p176s4   v=0    W              u=V
+  p176s5   v=0    W              u=V
+  p176s6   v=0    BG             u=V
+  p176s7   v=0    W:BG           u=V
+  p176s8   v=0    W              u=V
+p177     v=0    LC(0.0-5.0)/AB:GG:MB(5.0-57.0) u=R
+  p177s1   v=0    W              u=V
+  p177s2   v=0    W              u=V
+  p177s3   v=0    W              u=V
+  p177s4   v=0    W              u=V
+  p177s5   v=0    W              u=V
+  p177s6   v=0    BG             u=V
+  p177s7   v=0    W:BG           u=V
+  p177s8   v=0    W              u=V
+  p177s9   v=0    W              u=V
+p178     v=15   0L             u=R
+  p178s1   v=1    W              u=V
+  p178s2   v=0    W              u=V
+  p178s3   v=1    W              u=V
+  p178s4   v=5    W              u=V
+  p178s5   v=1    W              u=V
+  p178s6   v=2    GG             u=V
+  p178s7   v=4    W:GG           u=V
+  p178s8   v=0    W              u=V
+p179     v=1    W              u=R
+  p179s1   v=1    W              u=V
+  p179s2   v=0    W              u=V
+  p179s3   v=0    W              u=V
+  p179s4   v=0    W              u=V
+  p179s5   v=0    W              u=V
+  p179s6   v=0    BG             u=V
+  p179s7   v=0    W:BG           u=V
+  p179s8   v=0    W              u=V
+p180     v=2    W(0.0-10.0)/AB-MB(10.0-43.0) u=R
+  p180s1   v=0    W              u=V
+  p180s2   v=0    W              u=V
+  p180s3   v=1    W              u=V
+  p180s4   v=1    W              u=V
+  p180s5   v=0    W              u=V
+  p180s6   v=0    BG             u=V
+  p180s7   v=2    W:BG           u=V
+  p180s8   v=1    W              u=V
+p181     v=1    AB             u=R
+p182     v=1    RL:PB          u=R
+  p182s1   v=4    W-RB           u=V
+    p182s1s1 v=1    W              u=V
+    p182s1s2 v=0    W              u=V
+    p182s1s3 v=2    W              u=V
+    p182s1s4 v=0    W              u=V
+    p182s1s5 v=0    W              u=V
+    p182s1s6 v=0    GG             u=V
+    p182s1s7 v=0    BG             u=V
+    p182s1s8 v=0    W              u=V
+  p182s2   v=1    W              u=V
+  p182s3   v=1    W              u=V
+  p182s4   v=0    W              u=V
+  p182s5   v=0    W              u=V
+  p182s6   v=0    W              u=V
+  p182s7   v=0    BG             u=V
+  p182s8   v=0    W:BG           u=V
+  p182s9   v=0    W              u=V
+p183     v=0    HB             u=R
+  p183s1   v=0    W              u=V
+  p183s2   v=0    W              u=V
+  p183s3   v=0    W              u=V
+  p183s4   v=0    W              u=V
+  p183s5   v=0    W              u=V
+  p183s6   v=0    BG             u=V
+  p183s7   v=0    W:BG           u=V
+  p183s8   v=0    W              u=V
+p184     v=1    AB:GG(0.0-9.5)/GG(9.5-49.0) u=R
+  p184s1   v=0    W              u=V
+  p184s2   v=0    W              u=V
+  p184s3   v=0    W              u=V
+  p184s4   v=0    W              u=V
+  p184s5   v=0    W              u=V
+  p184s6   v=0    GG             u=V
+  p184s7   v=0    W:GG           u=V
+  p184s8   v=0    W              u=V
+p185     v=1    RL             u=R
+p186     v=1    AB             u=R
+p187     v=7    W              u=R
+  p187s1   v=0    W              u=V
+  p187s2   v=0    W              u=V
+  p187s3   v=0    W              u=V
+  p187s4   v=2    W              u=V
+  p187s5   v=0    W              u=V
+  p187s6   v=0    BG             u=V
+  p187s7   v=0    W:BG           u=V
+  p187s8   v=0    W              u=V
+p188     v=2    W              u=R
+  p188s1   v=0    W              u=V
+  p188s2   v=0    W              u=V
+  p188s3   v=0    W              u=V
+  p188s4   v=0    W              u=V
+  p188s5   v=0    W              u=V
+  p188s6   v=0    VB             u=V
+  p188s7   v=0    W:VB           u=V
+  p188s8   v=0    W              u=V
+p189     v=2    W-AB-MB(0.0-18.0)/W(18.0-51.5) u=R
+  p189s1   v=0    W              u=V
+  p189s2   v=0    W              u=V
+  p189s3   v=0    W              u=V
+  p189s4   v=0    W              u=V
+  p189s5   v=0    W              u=V
+  p189s6   v=0    BG             u=V
+  p189s7   v=0    W:BG           u=V
+  p189s8   v=0    W              u=V
+### GRUPO 10
+p190     v=24   W              u=R
+  p190s1   v=7    W              u=V
+  p190s2   v=3    W              u=V
+  p190s3   v=8    W              u=V
+  p190s4   v=6    W              u=V
+  p190s5   v=10   W              u=V
+  p190s6   v=3    BG             u=V
+  p190s7   v=4    W:BG           u=V
+  p190s8   v=6    W              u=V
+p191     v=2    RB             u=R
+  p191s1   v=0    W              u=V
+  p191s2   v=0    W              u=V
+  p191s3   v=0    W              u=V
+  p191s4   v=0    W              u=V
+  p191s5   v=0    W              u=V
+  p191s6   v=0    BG             u=V
+  p191s7   v=0    W:BG           u=V
+  p191s8   v=0    W              u=V
+p192     v=7    MB             u=R
+  p192s1   v=0    W              u=V
+  p192s2   v=0    W              u=V
+  p192s3   v=0    W              u=V
+  p192s4   v=0    W              u=V
+  p192s5   v=0    W              u=V
+  p192s6   v=0    BG             u=V
+  p192s7   v=1    W:BG           u=V
+  p192s8   v=0    W              u=V
+p193     v=4    W:MB           u=R
+  p193s1   v=0    W              u=V
+  p193s2   v=0    W              u=V
+  p193s3   v=0    W              u=V
+  p193s4   v=0    W              u=V
+  p193s5   v=0    W              u=V
+  p193s6   v=0    BG             u=V
+  p193s7   v=0    W:BG           u=V
+  p193s8   v=0    W              u=V
+  p193s9   v=0    W              u=V
+p194     v=1    0L             u=R
+  p194s1   v=0    W              u=V
+  p194s2   v=0    W              u=V
+  p194s3   v=0    W              u=V
+  p194s4   v=0    W              u=V
+  p194s5   v=0    W              u=V
+  p194s6   v=0    BG             u=V
+  p194s7   v=0    W:BG           u=V
+  p194s8   v=0    W              u=V
+  p194s9   v=0    W              u=V
+p195     v=1    W              u=R
+  p195s1   v=0    W              u=V
+  p195s2   v=0    W              u=V
+  p195s3   v=0    W              u=V
+  p195s4   v=0    W              u=V
+  p195s5   v=0    W              u=V
+  p195s6   v=0    BG             u=V
+  p195s7   v=0    W:BG           u=V
+  p195s8   v=0    W              u=V
+  p195s9   v=0    W              u=V
+p196     v=1    AB:BG          u=R
+  p196s1   v=1    W-RB           u=U
+p197     v=1    GG-MB          u=R
+  p197s1   v=1    W              u=V
+  p197s2   v=0    W              u=V
+  p197s3   v=0    W              u=V
+  p197s4   v=0    W              u=V
+  p197s5   v=0    W              u=V
+  p197s6   v=0    YG             u=V
+  p197s7   v=0    W:GG           u=U
+  p197s8   v=0    W              u=V
+p198     v=1    VB             u=R
+  p198s1   v=0    W              u=V
+  p198s2   v=0    W              u=V
+  p198s3   v=0    W              u=V
+  p198s4   v=0    W              u=V
+  p198s5   v=0    W              u=V
+  p198s6   v=0    BG             u=V
+  p198s7   v=0    W:BG           u=V
+  p198s8   v=0    W              u=V
+p199     v=1    AB:MB(0.0-24.5)/W(24.5-61.0) u=R
+  p199s1   v=0    W              u=V
+  p199s2   v=0    W              u=V
+  p199s3   v=0    W              u=V
+  p199s4   v=0    W              u=V
+  p199s5   v=0    W              u=V
+  p199s6   v=0    BG             u=V
+  p199s7   v=0    W:BG           u=V
+  p199s8   v=0    W              u=V
+p200     v=2    W(0.0-12.5)/AB:MB(12.5-26.0)/W(26.0-38.5) u=R
+  p200s1   v=1    W:AB           u=V
+  p200s2   v=1    W              u=V
+  p200s3   v=0    W              u=V
+  p200s4   v=0    W              u=V
+  p200s5   v=0    W              u=V
+  p200s6   v=0    W              u=V
+  p200s7   v=0    BG(0.0-16.0)/GG(16.0-25.0) u=V
+  p200s8   v=0    W:BG           u=V
+  p200s9   v=0    W              u=V
+p201     v=1    W:AB:KB(0.0-16.0)/GG(16.0-44.5) u=R
+  p201s1   v=1    W              u=V
+  p201s2   v=0    W              u=V
+  p201s3   v=0    W              u=V
+  p201s4   v=0    W              u=V
+  p201s5   v=0    W              u=V
+  p201s6   v=0    GL             u=V
+  p201s7   v=0    W:BG           u=V
+  p201s8   v=0    W              u=V
+p202     v=0    AB(0.0-7.0)/MB(7.0-13.5)/W(13.5-37.5) u=R
+p203     v=1    RB(0.0-5.0)/YG(5.0-28.0) u=R
+  p203s1   v=1    W              u=V
+  p203s2   v=0    W              u=V
+  p203s3   v=0    W              u=V
+  p203s4   v=0    W              u=V
+  p203s5   v=0    W              u=V
+  p203s6   v=0    GG             u=V
+  p203s7   v=0    W:GG           u=V
+  p203s8   v=0    W              u=V
+p204     v=1    W(0.0-14.5)/RB(14.5-27.5)/W(27.5-55.5) u=R
+  p204s1   v=1    W              u=V
+  p204s2   v=0    W              u=V
+  p204s3   v=0    W              u=V
+  p204s4   v=0    W              u=V
+  p204s5   v=0    W              u=V
+  p204s6   v=0    LD             u=V
+  p204s7   v=0    W:BG           u=V
+  p204s8   v=0    W              u=V
+### GRUPO 11
+p205     v=0    W(0.0-3.5)/0G(3.5-42.0) u=R
+  p205s1   v=0    W              u=V
+  p205s2   v=0    W              u=V
+  p205s3   v=0    W              u=V
+  p205s4   v=0    W              u=V
+  p205s5   v=0    W              u=V
+  p205s6   v=0    BG             u=V
+  p205s7   v=0    W:BG           u=V
+  p205s8   v=0    W              u=V
+p206     v=1    GG(0.0-13.5)/W(13.5-40.5) u=R
+  p206s1   v=1    W              u=V
+  p206s2   v=0    W              u=V
+  p206s3   v=0    W              u=V
+  p206s4   v=0    W              u=V
+  p206s5   v=0    W              u=V
+  p206s6   v=0    BG             u=V
+  p206s7   v=0    W:BG           u=V
+  p206s8   v=0    W              u=V
+p207     v=10   W(0.0-7.0)/RL(7.0-13.5)/W(13.5-28.0) u=R
+p208     v=3    DB             u=R
+  p208s1   v=1    W              u=R
+  p208s2   v=1    W              u=R
+  p208s3   v=0    W              u=R
+  p208s4   v=0    W              u=R
+  p208s5   v=0    W              u=R
+  p208s6   v=0    BG             u=R
+  p208s7   v=0    W:BG           u=R
+  p208s8   v=0    W              u=R
+p209     v=20   W:AB           u=R
+  p209s1   v=2    W              u=V
+  p209s2   v=2    W              u=V
+  p209s3   v=0    W              u=V
+  p209s4   v=2    W              u=V
+  p209s5   v=0    W              u=V
+  p209s6   v=2    BG             u=V
+  p209s7   v=2    W:YG           u=V
+  p209s8   v=2    W              u=V
+p210     v=1    AB             u=R
+  p210s1   v=0    W              u=V
+  p210s2   v=0    W              u=V
+  p210s3   v=0    W              u=V
+  p210s4   v=0    W              u=V
+  p210s5   v=0    BG             u=V
+  p210s6   v=0    W:GG           u=V
+  p210s7   v=0    W              u=V
+p211     v=8    MB             u=R
+  p211s1   v=2    W              u=V
+  p211s2   v=3    W              u=V
+  p211s3   v=2    W              u=V
+  p211s4   v=3    W              u=V
+  p211s5   v=1    W              u=V
+  p211s6   v=2    BG             u=V
+  p211s7   v=3    W:BG           u=V
+  p211s8   v=2    W              u=V
+p212     v=2    W              u=R
+  p212s1   v=0    W              u=V
+  p212s2   v=0    W              u=V
+  p212s3   v=0    W              u=V
+  p212s4   v=0    W              u=V
+  p212s5   v=0    W              u=V
+  p212s6   v=0    PB             u=V
+  p212s7   v=0    W:YG           u=V
+  p212s8   v=0    W              u=V
+p213     v=3    W(0.0-6.5)/AB-MB(6.5-32.0) u=R
+  p213s1   v=2    W              u=V
+  p213s2   v=0    W              u=V
+  p213s3   v=0    W              u=V
+  p213s4   v=0    W              u=V
+  p213s5   v=1    W              u=V
+  p213s6   v=0    GG             u=V
+  p213s7   v=0    W:GG           u=V
+  p213s8   v=0    W              u=V
+p214     v=1    AB:GG          u=R
+  p214s1   v=8    W-MB           u=U
+    p214s1s1 v=1    W              u=V
+    p214s1s2 v=0    W              u=V
+    p214s1s3 v=0    W              u=V
+    p214s1s4 v=0    W              u=V
+    p214s1s5 v=0    W              u=V
+    p214s1s6 v=0    VB             u=V
+    p214s1s7 v=0    W:VB           u=V
+    p214s1s8 v=0    W              u=V
+p215     v=0    MB             u=R
+p216     v=0    GG:MB          u=R
+p217     v=0    W:YG           u=R
+  p217s1   v=0    W              u=V
+  p217s2   v=0    W              u=V
+  p217s3   v=0    W              u=V
+  p217s4   v=0    W              u=V
+  p217s5   v=0    W              u=V
+  p217s6   v=0    GG             u=V
+  p217s7   v=0    W:GG           u=V
+  p217s8   v=0    W              u=V
+p218     v=0    AB             u=R
+p219     v=3    RB             u=R
+  p219s1   v=1    W              u=V
+  p219s2   v=1    W              u=V
+  p219s3   v=0    W              u=V
+  p219s4   v=0    W              u=V
+  p219s5   v=0    W              u=V
+  p219s6   v=0    PB             u=V
+  p219s7   v=0    W:PB           u=V
+  p219s8   v=0    W              u=V
+p220     v=0    W              u=R
+p221     v=16   YB             u=R
+  p221s1   v=8    W              u=V
+  p221s2   v=3    W              u=V
+  p221s3   v=1    W              u=V
+  p221s4   v=1    W              u=V
+  p221s5   v=1    W              u=V
+  p221s6   v=0    BG             u=V
+  p221s7   v=1    W:BG           u=V
+  p221s8   v=1    W              u=V
+p222     v=10   W              u=R
+p223     v=2    W-AB-MB(0.0-19.5)/W(19.5-39.0) u=R
+  p223s1   v=1    W              u=V
+  p223s2   v=0    W              u=V
+  p223s3   v=0    W              u=V
+  p223s4   v=0    W              u=V
+  p223s5   v=0    W              u=V
+  p223s6   v=0    VB             u=V
+  p223s7   v=0    W:GG           u=V
+  p223s8   v=0    W              u=V

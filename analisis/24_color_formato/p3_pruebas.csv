@@ -1,0 +1,7 @@
+prueba,H,p,grupos,medianas
+alf_rare ~ registrador,41.13,0.0001,7,AS=5.99 (n=86); HP=8.92 (n=22); JC=14.9 (n=7); KH=10.02 (n=11); MM=12.13 (n=14); QU=9.54 (n=18); UR=9.72 (n=182)
+bases_rare ~ registrador,44.96,0.0001,7,AS=3.96 (n=86); HP=4.65 (n=22); JC=7.28 (n=7); KH=6.15 (n=11); MM=6.27 (n=14); QU=5.94 (n=18); UR=5.33 (n=182)
+frac_comp ~ registrador,12.9,0.0393,7,AS=0.16 (n=218); HP=0.19 (n=56); JC=0.12 (n=23); KH=0.21 (n=14); MM=0.25 (n=22); QU=0.27 (n=22); UR=0.21 (n=294)
+alf_rare ~ captura(CREATED_BY) | registrador UR,27.93,0.0002,7,cbrezine=5.98 (n=38); chandra=14.71 (n=8); eric=6.81 (n=19); gurton=10.66 (n=51); julia=8.57 (n=27); katie=8.2 (n=11); tania=10.58 (n=18)
+alf_rare ~ captura(CREATED_BY) | registrador AS,2.47,0.4916,4,eric=3.0 (n=5); katie=6.54 (n=44); leah=6.0 (n=21); tania=5.48 (n=10)
+"alf_rare ~ captura | UR, región Chachapoyas",0.33,0.6024,2,cbrezine=10.58 (n=9); katie=8.78 (n=9)

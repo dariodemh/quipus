@@ -1,0 +1,37 @@
+UR274B cuotas: 10 = 4  17 = 12  otras = 3
+  P(>=4 omisiones en 19 cuerdas | p=2.6e-4) = 8.169407390697594e-12
+  P(las 4 cuerdas mas cortas sean justo las 4 de valor 10) = 1820.0000000000005   (1/C(16,4))
+  largos: 10 -> [20.5, 22.5, 24.0, 25.0]  17 -> min 24.5
+
+UR275 cuotas 47: n = 24  largo min = 26.0  mediana = 41.75
+  p51 largo = 26.5; P(>=1 omision en 25 cuerdas) = 0.0064549156032903295
+
+Patron columna 1 (2 filas 9/9): P(misma columna | azar) = 1/9 = 0.111
+  P(misma columna y mismo signo) = 1/18 = 0.056
+  Holm x4 pruebas de patron = 0.222
+
+g12: UR269 p181 = 2433 (4 cientos), UR278 fila = 2533 (5), UR266 p64 = UR275 p41 = 2633 (6)
+
+Relaciones: 44 | con destino: 35 | reparables 1 edicion: 31
+Candidatas por relacion: mediana 4, media 8.1
+p_nulo medio: 0.810 (prob. de que una relacion aleatoria sea reparable)
+
+Catalogo por tipo:
+                      n   pct  por_1000_global  n_resto  por_1000_resto
+tipo_error                                                             
+factor10            106  47.1            3.009      3.0          0.0864
+vueltas              58  25.8            1.647      9.0          0.2591
+compuesto            21   9.3            0.596      0.0          0.0000
+bloque               21   9.3            0.596      7.0          0.2016
+racimo_omitido_okr   10   4.4            0.284      9.0          0.2591
+ocho_vs_largo         4   1.8            0.114      2.0          0.0576
+racimo_omitido_kfg    2   0.9            0.057      2.0          0.0576
+otro                  1   0.4            0.028      1.0          0.0288
+S_vs_L                1   0.4            0.028      1.0          0.0288
+S_otro                1   0.4            0.028      0.0          0.0000
+
+Por prefijo:
+pref
+UR    200
+KH     17
+HP      8

@@ -1,0 +1,66 @@
+{
+ "V_obs": 0.5832961777416656,
+ "pV": 0.1967606478704259,
+ "A_obs": 0.4380165289256198,
+ "pA": 0.020595880823835233,
+ "Vnull_mean": 0.5544983623244238,
+ "Vnull_p95": 0.6099370006159884,
+ "Anull_mean": 0.3972859504132231,
+ "Anull_p95": 0.4297520661157025,
+ "per_khipu": [
+  {
+   "pachaca": "Namus",
+   "khipu": "UR091",
+   "n_aligned": 15,
+   "n_nombres": 18,
+   "n_grupos": 15,
+   "V": 0.7464200272921789,
+   "acc": 0.6666666666666666
+  },
+  {
+   "pachaca": "Corongo",
+   "khipu": "UR090",
+   "n_aligned": 17,
+   "n_nombres": 23,
+   "n_grupos": 17,
+   "V": 0.8318168018976244,
+   "acc": 0.7058823529411765
+  },
+  {
+   "pachaca": "Cuyuchin",
+   "khipu": "UR092",
+   "n_aligned": 9,
+   "n_nombres": 9,
+   "n_grupos": 10,
+   "V": 0.9128709291752768,
+   "acc": 0.7777777777777778
+  },
+  {
+   "pachaca": "Cusca",
+   "khipu": "UR088",
+   "n_aligned": 7,
+   "n_nombres": 7,
+   "n_grupos": 9,
+   "V": 0.7500000000000001,
+   "acc": 0.7142857142857143
+  },
+  {
+   "pachaca": "Guauyan",
+   "khipu": "UR087",
+   "n_aligned": 41,
+   "n_nombres": 41,
+   "n_grupos": 48,
+   "V": 0.6439210772614115,
+   "acc": 0.2682926829268293
+  },
+  {
+   "pachaca": "Ucore",
+   "khipu": "UR089",
+   "n_aligned": 32,
+   "n_nombres": 32,
+   "n_grupos": 34,
+   "V": 0.7880032195835713,
+   "acc": 0.71875
+  }
+ ]
+}

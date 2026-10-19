@@ -1,0 +1,29 @@
+=== (a) Granularidad de las 249 celdas: test de multiplos ===
+        prueba    obs  esperado      p   q_BH
+ multiplo de 5 0.2169      0.20 0.2723 0.9154
+multiplo de 25 0.0402      0.04 0.5386 0.9154
+ multiplo de 2 0.4940      0.50 0.6017 0.9154
+multiplo de 50 0.0161      0.02 0.7343 0.9154
+multiplo de 10 0.0763      0.10 0.9154 0.9154
+=> ninguna prueba sobrevive BH; las celdas no se agrupan en lotes redondos.
+
+=== (b) Coincidencia 'volumen del ledger = capacidad': p bajo nulo log-uniforme ===
+       unidad  vol_unidad_L  ratio_ledger_capacidad      p  p_holm
+fanega 55,5 L         55.50                  1.0632 0.0133  0.0799
+  costal 69 L         69.00                  1.3219 0.0606  0.3030
+   carga 35 L         35.00                  0.6705 0.0868  0.3472
+costal 34,5 L         34.50                  0.6609 0.0899  0.3472
+arroba 15,5 L         15.50                  0.2969 0.2637  0.5273
+racion 0,7 kg          0.93                  0.0178 0.8746  0.8746
+=> ningun modelo se distingue: la capacidad solo excluye ordenes de magnitud.
+
+=== (c) Estructura de columnas de UR278 (permutacion dentro de fila) ===
+CV entre columnas observado=0.184; nulo (columnas intercambiables)=0.059 [p95=0.084]; p=0.0002
+=> hay estructura de columna real (las columnas no son intercambiables).
+
+=== (d) Robustez del total del ledger ===
+UR278 sumando 9 columnas: 61790
+UR278 sumando la columna 'total' (incluye cuerdas 10 y 12): 62179  (+0.6 %)
+UR266 (copia resumida): 56986; UR275 (copia): 56446
+dispersion entre las tres versiones del mismo flujo: 9.1 %
+=> el 8 % de diferencia no cambia ninguna conclusion fisica (todo se mueve <0,1 decadas).

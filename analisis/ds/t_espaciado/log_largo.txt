@@ -1,0 +1,71 @@
+=== 0. muestra ===
+cuerdas con nudos, largo>0: 40117 | quipus: 640
+quipus con >=8 cuerdas y >=4 valores: 548
+
+=== 1. largo vs valor (dentro de quipu) ===
+Spearman largo~valor: {'n_quipus': 548, 'obs': np.float64(-0.0223), 'null_mean': np.float64(0.0), 'null_sd': np.float64(0.0083), 'p_una_cola': np.float64(0.996), 'p_dos_colas': np.float64(0.009), 'frac_pos': np.float64(0.4544)}
+Spearman largo_resid~valor: {'n_quipus': 548, 'obs': np.float64(-0.1573), 'null_mean': np.float64(-0.0), 'null_sd': np.float64(0.0082), 'p_una_cola': np.float64(1.0), 'p_dos_colas': np.float64(0.0005), 'frac_pos': np.float64(0.2646)}
+Spearman cola~valor: {'n_quipus': 548, 'obs': np.float64(-0.071), 'null_mean': np.float64(0.0001), 'null_sd': np.float64(0.0084), 'p_una_cola': np.float64(1.0), 'p_dos_colas': np.float64(0.0005), 'frac_pos': np.float64(0.4051)}
+Spearman largo~n_clusters (control físico): {'n_quipus': 146, 'obs': np.float64(0.1201), 'null_mean': np.float64(0.001), 'null_sd': np.float64(0.013), 'p_una_cola': np.float64(0.0005), 'p_dos_colas': np.float64(0.0005), 'frac_pos': np.float64(0.6301)}
+solo nivel 0, Spearman largo~valor: {'n_quipus': 515, 'obs': np.float64(-0.1078), 'null_mean': np.float64(0.0004), 'null_sd': np.float64(0.0087), 'p_una_cola': np.float64(1.0), 'p_dos_colas': np.float64(0.0005), 'frac_pos': np.float64(0.3476)}
+solo nivel 0, Spearman largo_resid~valor: {'n_quipus': 515, 'obs': np.float64(-0.1965), 'null_mean': np.float64(0.0004), 'null_sd': np.float64(0.0088), 'p_una_cola': np.float64(1.0), 'p_dos_colas': np.float64(0.0005), 'frac_pos': np.float64(0.2233)}
+mismo n_clusters, Spearman largo~valor: {'n_unidades': 1100, 'obs': np.float64(-0.0855), 'null_mean': np.float64(0.0001), 'null_sd': np.float64(0.0084), 'p_una_cola': np.float64(1.0), 'p_dos_colas': np.float64(0.001), 'frac_pos': np.float64(0.3836)}
+mismo n_clusters, Spearman cola~valor: {'n_unidades': 1100, 'obs': np.float64(-0.0101), 'null_mean': np.float64(0.0001), 'null_sd': np.float64(0.0084), 'p_una_cola': np.float64(0.8831), 'p_dos_colas': np.float64(0.2368), 'frac_pos': np.float64(0.4873)}
+mismo grupo, Spearman largo~valor: {'n_unidades': 2359, 'obs': np.float64(-0.0419), 'null_mean': np.float64(-0.0002), 'null_sd': np.float64(0.0072), 'p_una_cola': np.float64(1.0), 'p_dos_colas': np.float64(0.001), 'frac_pos': np.float64(0.454)}
+entre quipus: Spearman media loglargo ~ media logvalor: 0.343 | n= 566
+entre quipus: Spearman media loglargo ~ media n_clusters: 0.326
+
+=== 2. largo vs color ===
+cuerdas con color simple: 29108 | quipus: 621
+color~largo, unidades=quipu: {'n_unidades': 221, 'obs': np.float64(0.1075), 'null_mean': np.float64(-0.0), 'null_sd': np.float64(0.0074), 'p': np.float64(0.001)}
+color~largo, nivel 0, unidades=quipu: {'n_unidades': 219, 'obs': np.float64(0.0975), 'null_mean': np.float64(-0.0007), 'null_sd': np.float64(0.0084), 'p': np.float64(0.001)}
+color~largo_resid, unidades=quipu: {'n_unidades': 221, 'obs': np.float64(0.1156), 'null_mean': np.float64(-0.0001), 'null_sd': np.float64(0.0074), 'p': np.float64(0.001)}
+color~largo, unidades=grupo (control layout): {'n_unidades': 414, 'obs': np.float64(0.1637), 'null_mean': np.float64(-0.0031), 'null_sd': np.float64(0.011), 'p': np.float64(0.001)}
+color~largo, nivel 0, unidades=grupo: {'n_unidades': 263, 'obs': np.float64(0.0866), 'null_mean': np.float64(-0.0032), 'null_sd': np.float64(0.0144), 'p': np.float64(0.001)}
+color~largo_resid, unidades=grupo (controla n_clusters y nivel): {'n_unidades': 414, 'obs': np.float64(0.188), 'null_mean': np.float64(-0.0023), 'null_sd': np.float64(0.0105), 'p': np.float64(0.001)}
+color~n_clusters, unidades=grupo: {'n_unidades': 414, 'obs': np.float64(-0.0419), 'null_mean': np.float64(-0.105), 'null_sd': np.float64(0.0061), 'p': np.float64(0.001)}
+color~valor (control positivo), unidades=quipu: {'n_unidades': 221, 'obs': np.float64(0.1488), 'null_mean': np.float64(-0.005), 'null_sd': np.float64(0.007), 'p': np.float64(0.001)}
+color~valor, unidades=grupo: {'n_unidades': 414, 'obs': np.float64(0.1353), 'null_mean': np.float64(-0.018), 'null_sd': np.float64(0.01), 'p': np.float64(0.001)}
+log largo W - no W dentro de quipu: media 0.051 | n quipus 312 | % W mas largas 0.609 | Wilcoxon p 1.92e-05
+
+mediana de largo por color (global, sin control):
+                 n  mediana
+color_simple               
+KB             841     27.0
+HB             449     28.0
+LB             690     29.5
+MB            4017     30.0
+GG             443     30.5
+YB            1783     31.0
+AB            5658     32.5
+B             1656     33.0
+RB             428     33.8
+NB             687     34.0
+W             8297     34.5
+DB             519     36.5
+LK             437     72.0
+
+desviación media de log largo respecto de la media del quipu:
+                 n  quipus   desv
+color_simple                     
+KB             841     148 -0.170
+GG             443      99 -0.097
+BS             242      25 -0.084
+HB             449      80 -0.063
+BG             247      54 -0.058
+B             1656     104 -0.013
+LB             690      61 -0.010
+LK             437      26 -0.007
+MB            4017     297 -0.004
+DB             519      51 -0.001
+YB            1783     143  0.011
+AB            5658     312  0.014
+RL             244      50  0.022
+RB             428      48  0.023
+W             8297     440  0.025
+NB             687      34  0.080
+colores raros excluidos: []
+color~largo, unidades=grupo, sin colores raros: {'n_unidades': 414, 'obs': np.float64(0.1637), 'null_mean': np.float64(-0.0031), 'null_sd': np.float64(0.011), 'p': np.float64(0.001)}
+color~largo, unidades=quipu, sin colores raros: {'n_unidades': 221, 'obs': np.float64(0.1075), 'null_mean': np.float64(-0.0), 'null_sd': np.float64(0.0074), 'p': np.float64(0.001)}
+
+p-values guardados: {'largo~valor': '9.00e-03', 'mismo_ncl~valor': '9.99e-04', 'mismo_grupo~valor': '9.99e-04', 'cola_mismo_ncl~valor': '2.37e-01', 'color~largo_quipu': '9.99e-04', 'color~largo_grupo': '9.99e-04', 'color~largo_grupo_nivel0': '9.99e-04', 'color~largo_resid_grupo': '9.99e-04', 'color~nclusters_grupo': '9.99e-04', 'color~valor_quipu': '9.99e-04', 'color~valor_grupo': '9.99e-04'}

@@ -1,0 +1,14 @@
+pares probados 21321 con >=5 comunes 3313 Bonferroni<.05: 8
+           a       b  comp   nA  nB       E  p_bonf       procA       procB
+560    AS125   UR247    14   15  15  0.0581  0.0000  Pachacamac  Pachacamac
+1346  KH0049   UR122    40  128  61  7.4435  0.0000   Costa Sur       Nazca
+2602  UR1118   UR218     8   16  20  0.2702  0.0000  Pachacamac  Pachacamac
+2446  UR1104   UR234     8   21  64  0.2764  0.0000  Pachacamac     Unknown
+3258   UR256  UR267B    29   62  58  8.3574  0.0004   Incahuasi   Incahuasi
+3251   UR255  UR267A    22   29  39  5.2403  0.0009   Incahuasi   Incahuasi
+3283   UR266   UR275    26   76  80  7.6147  0.0030   Incahuasi   Incahuasi
+1156   HP055  UR1084    17   27  36  4.1005  0.0335     unknown     Unknown
+            par   c  cuerdas_A  cuerdas_B  n_valores_ge30_A  n_valores_ge30_B  alineados_exactos  alineados_pm1  nulo_media  nulo_max       p
+0  UR255-UR267A  15         65         75                35                46                 24             24      5.7967        11  0.0033
+1  UR256-UR267B  10         99         93                70                63                 21             21      5.6200        12  0.0033
+2   UR266-UR275  47         90        107                65                81                 25             26      3.9267         8  0.0033

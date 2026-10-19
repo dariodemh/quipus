@@ -1,0 +1,6 @@
+simple  A: q<.05   0/200 r2med 0.0614 r2abs 0.0270 T_abs 19.285 p 0.0033
+simple  B: q<.05   0/184 r2med 0.0469 r2abs 0.0050 T_abs 5.823 p 0.0033
+mixto   A: q<.05   0/214 r2med 0.0582 r2abs 0.0262 T_abs 20.847 p 0.0033
+mixto   B: q<.05   0/207 r2med 0.0495 r2abs 0.0073 T_abs 7.229 p 0.0033
+rango   A: q<.05  29/222 r2med 0.0832
+rango   B: q<.05   0/207 r2med 0.0796

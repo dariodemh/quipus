@@ -1,0 +1,9 @@
+cuerda,nudos,valor,color,largo,notas
+1,"1S(6.5,Z),3S(9.5,Z),8L(13.5,Z)d?",139,"YB(0-9.5)/RD(9.5-12.0)/YB(12-22.0)",22.0,"valor escrito '13●9' con mancha entre el 3 y el 9; los nudos transcritos dan 138 (100+30+8): DESCUADRE de 1 con la ficha (cuadraria si el largo fuera 9L, pero el trazo es 8); declara (1 subsidiaria, 0.5 cm); largo '22.0k'"
+1s1,"7S(4.0,Z),8L(8.5,Z)",78,YB,12.5,"largo '12.5k'"
+1s1s1,"6S(2.5,Z),1E(7.5,S)",61,"YB(0-9.5)/RD(9.5-13.0)",13.0,"direccion del nudo en ocho anotada 'S' (no Z); largo '13.0k'"
+2,"5S(6.0,Z),6L(14.0,Z)d?,3L(18.0,Z)d?",59,"YB(0-11)/RD(11-14)/YB(14-24)",24.0,"DECLARA (1 subsidiaria, 1.0 cm) PERO NO HAY FILA 2s1; largo '24.0r'"
+3,"6S(5.5,Z),9L(11.5,Z)d?",69,"YB(0-10)/RD(10-11)/YB(11-18.5)",18.5,"largo '18.5k'"
+4,"1S(5.0,Z),3L(10,Z)d?,5L(12.0,Z)d?",18,"YB(0-10)/RD(10-14.5)",14.5,"10+3+5=18; largo '14.5k'"
+5,"9S(4.0,Z),7L(11.0,Z)d?",97,"YB(0-18)/RD(18-19)/YB(19-22.5)",22.5,"largo '22.5k'"
+6,"3S(4.5,Z),8L(12.5,Z)d?",38,"YB(0-26)/RD(26-27)/YB(27-32.5)",32.5,"etiqueta '6(+)'; nota al pie: '*Flipped up because top'; largo '32.5k'"

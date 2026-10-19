@@ -1,0 +1,131 @@
+=== parejas con >=8 predicciones de copia y >=75%% identicas (mismo objeto o copia literal) ===
+    a     b  n  hit    fr  duplicado
+UR066 UR067 17   16 0.941       True
+AS125 UR247 15   14 0.933       True
+UR179 UR180 11    9 0.818       True
+quipus implicados: 6
+
+=== GLOBAL ===
+quipus 651 (con valor 641); cuerdas con valor 40162
+cuerdas con >=1 via: 16266 (40.5%); con acierto exacto: 1565 (3.90%); nulo esperado 2.56% (exceso 1.34 puntos)
+quipus con q<0.05 (BH sobre 641): 17 (2.6%)
+quipus con tasa_neta>0.10: 24 ; >0.25: 10 ; =0 (sin exceso): 482
+
+=== POR REGLA (cuerdas cubiertas; nulo = misma maquinaria con valores barajados) ===
+      regla  quipus  cuerdas  aciertos  tasa    nulo  tasa_nula  exceso
+       subs     234     1800        72 0.040  31.147      0.017   0.023
+   subs_res     234     5056       212 0.042  68.328      0.014   0.028
+ hija_unica     377     8864       998 0.113 868.875      0.098   0.015
+   superior      25       72        23 0.319   0.264      0.004   0.316
+grupo_total     264      679        47 0.069   9.325      0.014   0.055
+     cierre       6      260       108 0.415   1.294      0.005   0.410
+
+=== POR PROCEDENCIA (>=5 quipus) ===
+                                         nq     nc   via  hit       pn   tasa   neta    cob
+procedencia                                                                                
+near Lima                                 5     80    32   14    4.253  0.175  0.122  0.400
+Huaquerones                              16    472   173   91   45.422  0.193  0.097  0.367
+Nazca                                    13   2095  1215  143   62.568  0.068  0.038  0.580
+Incahuasi                                52   3980  1922  226   73.727  0.057  0.038  0.483
+Chancay, Central Coast                    5     81    19    4    1.700  0.049  0.028  0.235
+Huacho                                    5    443    90   22   10.312  0.050  0.026  0.203
+Peru                                      5    254    52   10    5.966  0.039  0.016  0.205
+Unknown                                 233  12900  4856  511  322.778  0.040  0.015  0.376
+Valle de Ica Hacienda Callango Ocucaje    8    351   239    8    3.904  0.023  0.012  0.681
+Leymebamba                               22   3602  1580  194  160.000  0.054  0.009  0.439
+Paracas                                   7    596   384    9    4.046  0.015  0.008  0.644
+Pachacamac                               87   4183  1401  108   78.643  0.026  0.007  0.335
+Armatambo, Huaca San Pedro               11    269     5    2    0.500  0.007  0.006  0.019
+Ica                                      47   2169   702   40   34.281  0.018  0.003  0.324
+Hacienda Ullujalla y Callengo             7    318   192   10   10.055  0.031 -0.000  0.604
+Between Ica and Pisco                     8    486   150    8    8.894  0.016 -0.002  0.309
+Marquez                                   6    174    32    0    0.414  0.000 -0.002  0.184
+Playa Miller #6, Arica, Chile             5    384   293    6    7.239  0.016 -0.003  0.763
+Eduard Gaffron                           10    139    59    0    0.719  0.000 -0.005  0.424
+Santa                                     6    901   362   15   41.333  0.017 -0.029  0.402
+Atarco                                    6    218   145   30   39.746  0.138 -0.045  0.665
+
+con q_perm<0.05: ['near Lima', 'Huaquerones', 'Nazca', 'Incahuasi', 'Huacho', 'Unknown', 'Pachacamac']
+
+=== TAMANO Y RASGOS ===
+               nq   nval   neta    cob     ac  sig
+cubo                                              
+[0, 10)       113    5.0 -0.000  0.213  0.084    0
+[10, 20)      104   14.0  0.004  0.295  0.083    2
+[20, 50)      194   29.0  0.013  0.311  0.099    4
+[50, 100)     114   67.5  0.013  0.358  0.109    4
+[100, 200)     83  137.0  0.020  0.405  0.101    4
+[200, 10000)   43  257.0  0.007  0.494  0.077    3
+
+tiene cuerdas superiores T:
+                             nq   neta    cob    sig
+tiene cuerdas superiores T                          
+False                       625  0.009  0.319  0.027
+True                         26  0.021  0.468  0.000
+
+tiene subsidiarias:
+                     nq   neta    cob    sig
+tiene subsidiarias                          
+False               216  0.011  0.054  0.019
+True                435  0.009  0.455  0.030
+
+copia entre quipus:
+              nq   neta   hit   sig
+tiene_copia                        
+False        641  0.006  1458  0.02
+True          10  0.273   107  0.40
+
+=== correlaciones con tasa_neta (quipus nval>=10, sin duplicados, n=532) ===
+lnval      rho=+0.191  p=9.6e-06
+div        rho=-0.088  p=0.042
+media_grupo rho=-0.063  p=0.15
+ngrupos    rho=+0.203  p=2.3e-06
+subfrac    rho=-0.113  p=0.0091
+nT         rho=+0.087  p=0.045
+maxv       rho=+0.059  p=0.18
+
+=== OLS tasa_neta ~ rasgos (n=532, referencia=Incahuasi); R2=0.064 ===
+          var       b      lo      hi   sig
+        const -0.0187 -0.0661  0.0343 False
+        lnval  0.0127  0.0059  0.0197  True
+          div  0.0193 -0.0023  0.0416 False
+  media_grupo -0.0005 -0.0011 -0.0000  True
+      subfrac  0.0096 -0.0154  0.0346 False
+           nT  0.0000 -0.0017  0.0037 False
+ p_Pachacamac -0.0382 -0.0886  0.0010 False
+        p_Ica -0.0352 -0.0845  0.0035 False
+ p_Leymebamba -0.0347 -0.0858  0.0106 False
+p_Huaquerones -0.0098 -0.0661  0.0364 False
+      p_Nazca -0.0351 -0.0837  0.0079 False
+       p_Otra -0.0313 -0.0783  0.0051 False
+
+=== GENEROS ===
+                        nq  nval   neta    cob     ac  sig
+genero                                                    
+aditivo interno         40  70.5  0.081  0.555  0.208    8
+copia entre quipus      11  22.0  0.282  0.605  0.558    4
+mixto                   15  26.0  0.035  0.283  0.209    0
+repeticion jerarquica  145  91.0  0.033  0.517  0.205    5
+sin redundancia        430  23.0 -0.012  0.234  0.000    0
+
+=== TOP 20 FUERA DE INCAHUASI (nval>=20, sin duplicados, ordenado por tasa_neta) ===
+UR1130   near Lima                    nval= 26 hit=14 (nulo  3.9) neta=0.39 cob=0.92 ac=0.58 q=0.038 {'hija_unica': 14}
+UR017    Leymebamba                   nval=103 hit=30 (nulo  3.8) neta=0.25 cob=0.47 ac=0.62 q=0.038 {'hija_unica': 30}
+AS080    Unknown                      nval= 38 hit=10 (nulo  1.2) neta=0.23 cob=0.95 ac=0.28 q=0.061 {'subs_res': 6, 'subs': 2, 'hija_unica': 2}
+UR204    Unknown                      nval= 65 hit=15 (nulo  1.6) neta=0.21 cob=0.91 ac=0.25 q=0.038 {'hija_unica': 12, 'subs_res': 2, 'subs': 1}
+AS001    Unknown                      nval= 31 hit= 6 (nulo  1.2) neta=0.15 cob=0.94 ac=0.21 q=0.366 {'hija_unica': 2, 'subs_res': 2, 'superior': 1}
+UR113    Nazca                        nval=723 hit=101 (nulo 12.2) neta=0.12 cob=0.80 ac=0.18 q=0.038 {'subs_res': 74, 'subs': 17, 'hija_unica': 10}
+UR048    Pueblo Libre, Lima, Peru     nval= 51 hit= 7 (nulo  1.2) neta=0.11 cob=0.35 ac=0.39 q=0.119 {'subs_res': 6, 'subs': 1}
+UR074    Huaquerones                  nval= 71 hit=24 (nulo 16.3) neta=0.11 cob=0.76 ac=0.44 q=0.155 {'hija_unica': 24}
+UR166    Huando, Chancay, Peru (Gaffr nval= 28 hit= 3 (nulo  0.0) neta=0.11 cob=0.21 ac=0.50 q=0.038 {'grupo_total': 3}
+UR093    Unknown                      nval=338 hit=58 (nulo 23.2) neta=0.10 cob=0.66 ac=0.26 q=0.038 {'hija_unica': 32, 'subs_res': 21, 'subs': 5}
+UR254    Pachacamac                   nval= 28 hit= 5 (nulo  2.1) neta=0.10 cob=0.79 ac=0.23 q=0.787 {'hija_unica': 2, 'subs_res': 2, 'subs': 1}
+UR053E   Unknown                      nval=105 hit=14 (nulo  3.7) neta=0.10 cob=0.67 ac=0.20 q=0.061 {'hija_unica': 14}
+AS153    Unknown                      nval= 39 hit= 6 (nulo  2.2) neta=0.10 cob=0.87 ac=0.18 q=0.787 {'subs_res': 4, 'subs': 2}
+UR057    Atarco                       nval= 42 hit=14 (nulo  9.9) neta=0.10 cob=1.00 ac=0.33 q=1.000 {'hija_unica': 14}
+UR103    Unknown                      nval= 34 hit= 8 (nulo  4.8) neta=0.09 cob=0.24 ac=1.00 q=0.965 {'hija_unica': 8}
+UR1135   Ica                          nval= 21 hit= 2 (nulo  0.0) neta=0.09 cob=0.10 ac=1.00 q=0.246 {'hija_unica': 2}
+MM019    Unknown                      nval=218 hit=34 (nulo 13.9) neta=0.09 cob=0.44 ac=0.36 q=0.038 {'hija_unica': 34}
+UR202    Pachacamac                   nval= 77 hit=10 (nulo  3.1) neta=0.09 cob=0.29 ac=0.45 q=0.207 {'hija_unica': 10}
+HP046_A  Unknown                      nval= 36 hit= 4 (nulo  0.8) neta=0.09 cob=0.17 ac=0.67 q=0.562 {'hija_unica': 4}
+UR021    Leymebamba                   nval=137 hit=24 (nulo 12.6) neta=0.08 cob=0.25 ac=0.71 q=0.119 {'hija_unica': 24}

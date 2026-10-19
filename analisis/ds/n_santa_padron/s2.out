@@ -1,0 +1,49 @@
+n alineado total 121
+
+======================================================================
+4. VARIANTES DE ALINEACION (estadistico = V de Cramer color vs nombre)
+  orden del documento    V=0.583  nulo medio 0.554 p95 0.608  p=0.1816
+  orden invertido        V=0.602  nulo medio 0.554 p95 0.609  p=0.0730
+
+desplazamiento (nombre i con grupo i+off), V:
+  off=-5 n= 91 V=0.586
+  off=-4 n= 97 V=0.594
+  off=-3 n=103 V=0.517
+  off=-2 n=109 V=0.520
+  off=-1 n=115 V=0.527
+  off=+0 n=121 V=0.583
+  off=+1 n=115 V=0.507
+  off=+2 n=109 V=0.466
+  off=+3 n=103 V=0.574
+  off=+4 n= 97 V=0.652
+  off=+5 n= 91 V=0.609
+
+======================================================================
+5. CONTROLES NEGATIVOS (precision in-sample color->nombre)
+(a) nulo de orden: A=0.438 nulo medio 0.397 p95 0.430 p=0.0208
+(b) las 720 asignaciones pachaca-quipu (V y precision agregadas):
+    V: obs 0.583 | media 0.596 | max 0.688 | rango del percentil de lo observado: 0.376
+    A: obs 0.438 | media 0.462 | max 0.553 | percentil: 0.297
+(d) ver s3_control_corpus.py
+
+======================================================================
+6. PERIODICIDAD: color vs nombres (fraccion de coincidencias a distancia k)
+ Namus     n=15  color: 1:0.00 2:0.08 3:0.00 4:0.18 5:0.10 6:0.22   nombre: 1:0.21 2:0.00 3:0.00 4:0.09 5:0.30 6:0.22
+ Corongo   n=17  color: 1:0.00 2:0.00 3:0.00 4:0.00 5:0.08 6:0.00   nombre: 1:0.06 2:0.00 3:0.07 4:0.08 5:0.00 6:0.09
+ Cuyuchin  n= 9  color: 1:0.00 2:0.00 3:0.00 4:0.00 5:1.00 6:0.00   nombre: 1:0.12 2:0.00 3:0.00 4:0.20 5:0.50 6:0.00
+ Cusca     n= 7  color: 1:0.00 2:0.00 3:0.25 4:0.33 5:0.00 6:0.00   nombre: 1:0.00 2:0.20 3:0.00 4:0.00 5:0.00 6:1.00
+ Guauyan   n=41  color: 1:0.03 2:0.03 3:0.08 4:0.59 5:0.06 6:0.09   nombre: 1:0.10 2:0.05 3:0.00 4:0.00 5:0.08 6:0.06
+ Ucore     n=32  color: 1:0.00 2:0.00 3:0.03 4:0.11 5:0.04 6:0.04   nombre: 1:0.13 2:0.07 3:0.07 4:0.14 5:0.11 6:0.08
+
+(para comparar: coincidencia esperada por azar con m categorias ~ 1/m)
+colores distintos por quipu: {'UR087': 8, 'UR088': 7, 'UR089': 19, 'UR090': 12, 'UR091': 8, 'UR092': 5}
+
+======================================================================
+7. BLOQUES Namus: "hijo de" (ultimos 5) vs p1=0 en UR091 (ultimos 6)
+nombres 13-17: ['juo Bapta hijo del coxo', 'juo corongo hijo de simon', 'juo po haçaña hijo de coxo', 'po joseph hijo del coxo', 'juo chauca hijo de juo chauca']
+hijo_de por posicion: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+p1 UR091 por grupo: [4, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0]
+union: ['V', 'V', 'V', 'V', 'V', 'V', 'V', 'V', 'V', 'V', 'V', 'V', 'V', 'V', 'V']
+P(6 ultimos de 15 son justo los 6 con p1=0 | 6 ceros al azar) = 1/C(15,6) = 0.00020
+P(ambos bloques al final por azar) = 1/(C(18,5)*C(15,6)) = 2.33e-08
+  (post hoc: ver s3 para el max-estadistico sobre rasgos)

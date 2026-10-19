@@ -1,0 +1,33 @@
+
+===== Incahuasi: 52 quipus, 33 con >=3 registros =====
+T2 X: 528 pares; min p=4.03e-02; BH min q=1.00e+00; p corregido (jardin, 100 rep)=0.3960
+   top: UR267A+UR267B(h=9,E=4.5,p=4.03e-02), UR273A+UR273B(h=11,E=6.1,p=4.53e-02), JC009+UR255(h=6,E=3.0,p=8.39e-02), JC005+UR280(h=4,E=1.7,p=8.83e-02)
+T2 P: 528 pares; min p=3.02e-02; BH min q=1.00e+00; p corregido (jardin, 100 rep)=0.6733
+   top: JC013+UR258(h=3,E=0.7,p=3.02e-02), JC013+UR267B(h=3,E=0.9,p=5.60e-02), UR269+UR275(h=1,E=0.1,p=7.40e-02), UR258+UR265(h=3,E=1.0,p=8.03e-02)
+T2 PS: 528 pares; min p=3.25e-02; BH min q=1.00e+00; p corregido (jardin, 100 rep)=0.7030
+   top: UR264+UR270(h=8,E=3.6,p=3.25e-02), UR269+UR275(h=1,E=0.0,p=3.77e-02), JC001+UR256(h=3,E=0.8,p=4.05e-02), UR274B+UR278(h=3,E=0.8,p=5.01e-02)
+T1 copias: 378 pares; min q=0.378; top: UR255+UR267A(h=7,nulo=0.6,p=0.0010,q=0.378), UR263+UR266(h=3,nulo=0.5,p=0.0020,q=0.378), UR273A+UR273B(h=7,nulo=3.4,p=0.0120,q=1.000)
+T3 LCS: 870 pares ordenados; min q=1.000; top: UR267B->UR256(LCS=7,nulo=4.2,p=0.0050,q=1.00), UR267A->UR255(LCS=11,nulo=7.5,p=0.0050,q=1.00), UR255->UR267A(LCS=11,nulo=7.6,p=0.0050,q=1.00)
+T4 cuotas: 30 quipus; q<0.05: UR255(c=15,ap=10,q=0.002), UR266(c=47,ap=3,q=0.002), UR267A(c=15,ap=15,q=0.002), UR256(c=10,ap=8,q=0.002), UR274B(c=17,ap=3,q=0.002), UR269(c=46,ap=10,q=0.002), UR268(c=208,ap=4,q=0.002), UR267B(c=10,ap=13,q=0.002), UR275(c=47,ap=7,q=0.002), UR277(c=2,ap=8,q=0.012)
+
+===== Pachacamac: 90 quipus, 71 con >=3 registros =====
+T2 X: 2485 pares; min p=7.88e-02; BH min q=1.00e+00; p corregido (jardin, 100 rep)=0.9109
+   top: UR1099+UR226(h=2,E=0.5,p=7.88e-02), HP030+UR1096(h=1,E=0.1,p=8.00e-02), UR200+UR246(h=4,E=1.6,p=8.23e-02), UR1144+UR201(h=2,E=0.5,p=9.93e-02)
+T2 P: 2485 pares; min p=2.59e-02; BH min q=1.00e+00; p corregido (jardin, 100 rep)=0.5050
+   top: UR1175+UR208(h=16,E=9.2,p=2.59e-02), UR1099+UR246(h=2,E=0.2,p=2.65e-02), HP017+UR123(h=5,E=1.8,p=3.29e-02), AS170+UR199(h=7,E=3.2,p=4.68e-02)
+T2 PS: 2485 pares; min p=5.41e-03; BH min q=1.00e+00; p corregido (jardin, 100 rep)=0.0396
+   top: UR1099+UR212(h=4,E=0.7,p=5.41e-03), HP012+HP020(h=4,E=1.0,p=1.90e-02), AS170+UR201(h=2,E=0.4,p=4.94e-02), AS172+UR202(h=3,E=0.9,p=6.10e-02)
+T1 copias: 1431 pares; min q=1.000; top: HP004+UR1096(h=2,nulo=0.3,p=0.0190,q=1.000), UR1034+UR1096(h=2,nulo=0.3,p=0.0330,q=1.000), AS172+UR1034(h=1,nulo=0.1,p=0.0729,q=1.000)
+T3 LCS: 4160 pares ordenados; min q=1.000; top: UR208->UR199(LCS=7,nulo=5.1,p=0.0597,q=1.00), UR199->UR208(LCS=7,nulo=5.2,p=0.0647,q=1.00), UR1131->UR1095(LCS=4,nulo=2.8,p=0.1343,q=1.00)
+T4 cuotas: 65 quipus; q<0.05: 
+
+===== Puruchuco: 24 quipus, 22 con >=3 registros =====
+T2 X: 231 pares; min p=2.97e-01; BH min q=8.42e-01; p corregido (jardin, 100 rep)=0.8515
+   top: UR067+UR073(h=4,E=2.8,p=2.97e-01), UR072+UR080(h=8,E=6.4,p=3.09e-01), UR064+UR073(h=7,E=5.7,p=3.48e-01), UR061+UR067(h=4,E=3.0,p=3.53e-01)
+T2 P: 231 pares; min p=6.16e-02; BH min q=1.00e+00; p corregido (jardin, 100 rep)=0.2673
+   top: UR076+UR165(h=2,E=0.4,p=6.16e-02), UR062+UR165(h=1,E=0.2,p=1.54e-01), UR072+UR080(h=3,E=1.4,p=1.60e-01), UR060+UR072(h=9,E=6.2,p=1.74e-01)
+T2 PS: 231 pares; min p=1.18e-01; BH min q=9.61e-01; p corregido (jardin, 100 rep)=0.5347
+   top: UR063+UR165(h=1,E=0.1,p=1.18e-01), UR062+UR069(h=1,E=0.2,p=1.81e-01), UR072+UR076(h=1,E=0.2,p=1.81e-01), UR076+UR165(h=1,E=0.2,p=1.81e-01)
+T1 copias: 171 pares; min q=1.000; top: UR068+UR079(h=1,nulo=0.1,p=0.1449,q=1.000), UR064+UR066(h=1,nulo=0.2,p=0.1768,q=1.000), UR061+UR077(h=2,nulo=1.0,p=0.1828,q=1.000)
+T3 LCS: 462 pares ordenados; min q=1.000; top: UR072->UR068(LCS=5,nulo=3.7,p=0.0398,q=1.00), UR068->UR072(LCS=5,nulo=3.7,p=0.0995,q=1.00), UR068->UR073(LCS=8,nulo=6.8,p=0.1940,q=1.00)
+T4 cuotas: 22 quipus; q<0.05: 

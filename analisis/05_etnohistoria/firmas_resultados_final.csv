@@ -1,0 +1,56 @@
+categoria,firma,quipus_obs,nulo_media,p,nota,p_final,p_holm,q_bh,n_pruebas
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (todas las cuerdas) =10,2.0,1.983,0.623688155922039,,0.623688155922039,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (todas las cuerdas) =100,1.0,0.66,0.4787606196901549,,0.4787606196901549,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (todas las cuerdas) =1000,0.0,0.111,1.0,,1.0,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (todas las cuerdas) =10000,0.0,0.006,1.0,,1.0,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (todas las cuerdas) ~100(+-2%),2.0,3.0735,0.8160919540229885,,0.8160919540229885,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (todas las cuerdas) ~1000(+-2%),3.0,3.699,0.7266366816591704,,0.7266366816591704,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (todas las cuerdas) ~10000(+-2%),2.0,2.6005,0.743128435782109,,0.743128435782109,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (todas las cuerdas) %100==0 y >=100,7.0,6.693,0.5047476261869065,,0.5047476261869065,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (todas las cuerdas) %1000==0 y >=1000,0.0,0.4205,1.0,,1.0,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (solo colgantes) =10,2.0,2.4115,0.7251374312843578,,0.7251374312843578,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (solo colgantes) =100,0.0,0.7225,1.0,,1.0,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (solo colgantes) =1000,1.0,0.1875,0.1724137931034483,,0.1724137931034483,1.0,0.8620689655172415,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (solo colgantes) =10000,0.0,0.009,1.0,,1.0,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (solo colgantes) ~100(+-2%),3.0,3.406,0.6626686656671664,,0.6626686656671664,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (solo colgantes) ~1000(+-2%),5.0,4.6675,0.5067466266866567,,0.5067466266866567,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (solo colgantes) ~10000(+-2%),2.0,2.4235,0.6981509245377311,,0.6981509245377311,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (solo colgantes) %100==0 y >=100,8.0,6.8295,0.3768115942028985,,0.3768115942028985,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de quipu (solo colgantes) %1000==0 y >=1000,1.0,0.5195,0.4102948525737131,,0.4102948525737131,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de grupo =10,79.0,86.2785,0.8760619690154923,,0.8760619690154923,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de grupo =100,25.0,22.253,0.27936031984008,,0.27936031984008,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de grupo =1000,6.0,3.4195,0.0934532733633183,,0.0934532733633183,1.0,0.6424912543728133,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de grupo =10000,0.0,0.079,1.0,,1.0,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de grupo ~100(+-2%),59.0,55.615,0.3158420789605197,,0.3158420789605197,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de grupo ~1000(+-2%),18.0,23.647,0.9405297351324338,,0.9405297351324338,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),total de grupo ~10000(+-2%),1.0,4.7405,0.993503248375812,,0.993503248375812,1.0,1.0,55
+decimal admin (chunka/pachaka/waranqa/hunu),quipus con >=3 grupos de exactamente 10 colgantes (vs vecinos),17.0,19.83333333333333,0.767986326324396,Poisson sobre vecinos,0.767986326324396,1.0,1.0,55
+censo por edad/sexo (clases ordenadas),quipus con >=1 grupo decreciente en grupos de 8-12 colgantes,0.0,0.0405,1.0,,1.0,1.0,1.0,55
+censo por edad/sexo (clases ordenadas),quipus con >=1 grupo creciente en grupos de 8-12 colgantes,2.0,0.0405,0.0019990004997501,,0.0007983143258747769,0.042310659271363175,0.014635762641037576,55
+censo por edad/sexo (clases ordenadas),quipus con >=1 grupo decreciente en grupos >=5 colgantes,5.0,2.821,0.1579210394802598,,0.1579210394802598,1.0,0.8620689655172415,55
+censo por edad/sexo (clases ordenadas),quipus con >=1 grupo creciente en grupos >=5 colgantes,8.0,2.808,0.0089955022488755,,0.0089955022488755,0.46776611694152603,0.12368815592203813,55
+censo por edad/sexo (clases ordenadas),quipus con solo-decreciente vs solo-creciente (grupos>=5): prueba de signos,5.0,6.5,0.8665771484375,"dec=5, inc=8",0.8665771484375,1.0,1.0,55
+depositos/cuentas duplicadas (archivos),pares de quipus que comparten 6 colgantes consecutivos con valores no triviales,41.0,32.08,0.1129568106312292,unidad: par de quipus; nulo = barajar el orden de los colgantes de cada quipu,0.1129568106312292,1.0,0.6902916205241785,55
+depositos/cuentas duplicadas (archivos),pares con total identico (>=20) en el mismo contexto,3.0,2.06,0.335548172757475,28 contextos (campo procedencia) con >=3 quipus; no implica origen,0.335548172757475,1.0,1.0,55
+depositos/cuentas duplicadas (archivos),quipus cuyo total = suma de otros dos del mismo contexto (resumen),23.0,24.13,0.6445182724252492,28 contextos (campo procedencia) con >=3 quipus; no implica origen,0.6445182724252492,1.0,1.0,55
+mitas/tripartición (fracciones del tributo),pares con razon de totales exacta 3 o 7,6.0,3.02,0.0863787375415282,28 contextos (campo procedencia) con >=3 quipus; no implica origen,0.0863787375415282,1.0,0.6424912543728133,55
+"ganado / categorias binarias (S/Z, R/V)","quipus con segregacion espacial de torsion S/Z (sexo del ganado en Uhle, Hyland 2014) (Wald-Wolfowitz p<.05)",6.0,0.606,0.0019960079840319,9 quipus evaluables,1.1510234375000002e-06,6.215526562500001e-05,3.165314453125001e-05,55
+"ganado / categorias binarias (S/Z, R/V)",quipus con segregacion espacial de union R/V (mitades) (Wald-Wolfowitz p<.05),74.0,5.552,0.0019960079840319,100 quipus evaluables,9.940717379355872e-74,5.467394558645729e-72,5.467394558645729e-72,55
+genealogias/historias/nombres (no numericos),diferencia de mediana de entropia de color (>=60% colgantes sin nudo vs resto; 40/435 quipus),-0.2684791863436051,0.0542697441650162,0.2423788105947026,"bilateral; permutacion estratificada por tamano; ""quipus_obs"" = diferencia en bits",0.2423788105947026,1.0,1.0,55
+calendario/ceques (conteos estructurales),quipus con exactamente 328 colgantes (vs vecinos +-5),0.0,0.1,1.0,Poisson sobre vecinos,1.0,1.0,1.0,55
+calendario/ceques (conteos estructurales),quipus con exactamente 360 colgantes (vs vecinos +-5),0.0,0.0,1.0,Poisson sobre vecinos,1.0,1.0,1.0,55
+calendario/ceques (conteos estructurales),quipus con exactamente 365 colgantes (vs vecinos +-5),0.0,0.0,1.0,Poisson sobre vecinos,1.0,1.0,1.0,55
+calendario/ceques (conteos estructurales),quipus con exactamente 354 colgantes (vs vecinos +-5),0.0,0.0,1.0,Poisson sobre vecinos,1.0,1.0,1.0,55
+calendario/ceques (conteos estructurales),quipus con exactamente 355 colgantes (vs vecinos +-5),0.0,0.0,1.0,Poisson sobre vecinos,1.0,1.0,1.0,55
+calendario/ceques (conteos estructurales),quipus con exactamente 730 colgantes (vs vecinos +-5),0.0,0.0,1.0,Poisson sobre vecinos,1.0,1.0,1.0,55
+calendario/ceques (conteos estructurales),quipus con exactamente 328 cuerdas totales (vs vecinos +-5),0.0,0.2,1.0,Poisson sobre vecinos,1.0,1.0,1.0,55
+calendario/ceques (conteos estructurales),quipus con exactamente 360 cuerdas totales (vs vecinos +-5),0.0,0.4,1.0,Poisson sobre vecinos,1.0,1.0,1.0,55
+calendario/ceques (conteos estructurales),quipus con exactamente 365 cuerdas totales (vs vecinos +-5),0.0,0.6,1.0,Poisson sobre vecinos,1.0,1.0,1.0,55
+calendario/ceques (conteos estructurales),quipus con exactamente 354 cuerdas totales (vs vecinos +-5),0.0,0.2,1.0,Poisson sobre vecinos,1.0,1.0,1.0,55
+calendario/ceques (conteos estructurales),quipus con exactamente 355 cuerdas totales (vs vecinos +-5),0.0,0.2,1.0,Poisson sobre vecinos,1.0,1.0,1.0,55
+calendario/ceques (conteos estructurales),quipus con exactamente 730 cuerdas totales (vs vecinos +-5),0.0,0.0,1.0,Poisson sobre vecinos,1.0,1.0,1.0,55
+calendario/ceques (conteos estructurales),quipus con exactamente 41 grupos (vs vecinos +-5),0.0,1.8,1.0,Poisson sobre vecinos,1.0,1.0,1.0,55
+calendario/ceques (conteos estructurales),quipus con exactamente 12 grupos (vs vecinos +-5),17.0,18.1,0.6337397457056178,Poisson sobre vecinos,0.6337397457056178,1.0,1.0,55
+calendario/ceques (conteos estructurales),quipus con exactamente 24 grupos (vs vecinos +-5),7.0,4.8,0.2091954158154024,Poisson sobre vecinos,0.2091954158154024,1.0,0.958812322487261,55
+"nivel individual (grupos de color de 6, tipo Santa)","quipus con >=3 rachas de color de exactamente 6 colgantes (vs 4,5,7,8)",33.0,24.5,0.0581340729703725,Poisson sobre vecinos,0.0581340729703725,1.0,0.5328956688950812,55
+depositos/cuentas duplicadas (archivos),pares con secuencia compartida que ademas comparten procedencia (5/41 vs 1.4 al azar),5.0,1.4,0.014,"exploratoria, post hoc",0.014,0.714,0.154,55

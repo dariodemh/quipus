@@ -1,0 +1,23 @@
+Quipus >=20 pendientes: 441  clase 47
+p_rep2_c: clase 9/47 (19.1%) vs resto 41/394 (10.4%) OR=2.04 p=0.0871
+q_p_rep2_c: clase 7/47 (14.9%) vs resto 15/394 (3.8%) OR=4.42 p=0.0049
+p_cond_c: clase 26/47 (55.3%) vs resto 192/394 (48.7%) OR=1.30 p=0.4417
+q_p_cond_c: clase 23/47 (48.9%) vs resto 167/394 (42.4%) OR=1.30 p=0.4371
+p_mi: clase 5/47 (10.6%) vs resto 52/394 (13.2%) OR=0.78 p=0.8184
+q_p_mi: clase 0/47 (0.0%) vs resto 0/394 (0.0%) OR=nan p=1.0000
+
+Medias clase vs resto:
+rep2_c 0.906 0.881 p 0.9478
+rep3_c 0.794 0.755 p 0.8832
+Hn_c 0.61 0.546 p 0.1597
+H_c 0.858 0.843 p 0.8336
+V1_c 4.255 5.416 p 0.0687
+V1_e 7.766 10.929 p 0.0189
+mi_pat 0.354 0.372 p 0.569
+mi_val 0.555 0.962 p 0.0
+
+Valores: distribucion
+mean_cord_value 7.0 20.0 p 0.0
+benford_match 0.747 0.744 p 0.9169
+frac valores<10 0.664 0.444 p 0.0015
+frac valores repetidos 0.692 0.445 p 0.0

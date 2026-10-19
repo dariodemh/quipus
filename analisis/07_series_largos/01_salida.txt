@@ -1,0 +1,107 @@
+Cuerdas serie_L: KFG 1247 | OKR 1211
+Quipus con >=1 serie_L: KFG 133 | OKR 124
+     kfg    okr              procedencia  kfg_cuerdas_nudo  kfg_serieL  okr_serieL  palabras_comunes  frac_kfg  okr_canutos
+   UR050 KH0280                  Unknown               164         162         162               161      0.99          164
+   UR055 KH0289                  Unknown               176         156         155               155      0.89          180
+   UR054 KH0288                  Unknown               114         111         112               111      0.97           94
+   UR052 KH0282                  Unknown                94          89          92                89      0.95           97
+   UR051 KH0281                  Unknown                86          75          75                75      0.87            0
+   UR144 KH0384           Valle de Pisco                96          54          54                 2      0.56           96
+   UR110 KH0346                  Unknown                85          50          50                50      0.59           89
+   UR039 KH0271                    Huari                91          41          41                41      0.45           91
+   UR112 KH0348                  Unknown                76          36          36                36      0.47           76
+   UR193 KH0431 Peru, Fundort: Pachacmac               222          30          30                30      0.14            0
+   MM019  MM019                  Unknown               218          25           0                 0      0.11            0
+AS090_N2 KH0103                     Peru                58          21          21                 0      0.36            0
+  UR1087 KH0100                     Peru                96          20          20                20      0.21            0
+  AS026B KH0028                  Unknown               229          18          18                18      0.08            0
+   UR177 KH0415              Chuquitanta                84          16          16                16      0.19            0
+  UR1145 KH0161               Pachacamac                75          15          15                15      0.20            0
+  UR1095 KH0108               Pachacamac               196          15          14                14      0.08            0
+   UR037 KH0269                  Unknown               150          13          13                13      0.09            0
+  KH0001 KH0001              Chuquitanta               154          12          12                12      0.08            0
+  UR1091 KH0104                  Unknown                78          12          12                12      0.15            0
+   AS069 KH0082             Lluta Valley               398           9           9                 9      0.02            0
+   UR272 KH0509                Incahuasi               213           9           9                 0      0.04            0
+   AS076 KH0089                  Unknown                16           8           8                 8      0.50            0
+   UR003 KH0239               Leymebamba               469           7           7                 7      0.01            0
+  KH0083 KH0083               Mollepampa               351           7           6                 6      0.02            0
+
+Quipus con canutos en OKR: ['UR039', 'UR050', 'UR052', 'UR054', 'UR055', 'UR110', 'UR112', 'UR144']
+
+Racimos OKR en los quipus objetivo: tipos {'L': 2578, 'S': 72, '': 4, 'E': 1, 'LL': 1}
+n.o de nudos por racimo L: {1.0: 2577, 2.0: 1}
+vueltas L: {0.0: 3, 2.0: 28, 3.0: 142, 4.0: 490, 5.0: 736, 6.0: 546, 7.0: 412, 8.0: 141, 9.0: 52, 10.0: 20, 11.0: 4, 12.0: 2, 15.0: 1, 23.0: 1}
+direccion L: {'S': 2417, 'Z': 143, 'U': 18}
+AXIS_ORIENTATION L: {'AXU': 2068, 'vacio': 509, 'U': 2}
+
+=== UR039 (KH0271) procedencia OKR='Huari'
+NOTES: 
+CORD_NOTES (0): 
+cluster NOTES (0): 
+cuerdas por canuto: {2: 44, 3: 1} | cuerdas fuera de canuto: 0 | niveles: {1: 91}
+
+=== UR050 (KH0280) procedencia OKR=''
+NOTES: Knots are extremely difficult to read  (Urton).   | Cord twist approx. 70 deg. Much looser than usual on khipu.  | Canuto thicknesses on 4-cord bundles: .4, .46, .37, .39, .5.  Avg: 0.4 cm.  Canuto thicknesses on 6-cord bundles: .45, .5, .54, .53, .48, .5.   Avg: .5 cm.   | Cord thicknesses sample:  .13, .15, .13, .1, .1, .12, .13, .13, .14, .14, .14, .15, .11.  Avg:  .13 cm.  
+CORD_NOTES (12): broken and re-tied at 14.5.  Repair knot at 14.5 || splice or mend in cord at 31.5cm || splice/mending knot at 24.5 cm. || repair knot at 12.5 cm. || has a string loosely wrapped around the end.  color B. || repair knot at 42.0 cm || repair knot at 44.0 cm || repair at 38.0 cm.  Repair is a knot. || repair knot at 15.0 cm. || repair at 9.5 || knot placement indicates canutos were wrapped after knots were tied? || repair knot at 65.0 cm
+cluster NOTES (0): 
+cuerdas por canuto: {6: 24, 4: 5} | cuerdas fuera de canuto: 0 | niveles: {1: 164}
+
+=== UR051 (KH0281) procedencia OKR=''
+NOTES: 
+CORD_NOTES (42): cord wrapped with rest of group; see general notes || cord wrapped with rest of group: see general notes || see general note on attachment of these cords
+cluster NOTES (0): 
+cuerdas por canuto: {} | cuerdas fuera de canuto: 98 | niveles: {1: 93, 2: 5}
+
+=== UR052 (KH0282) procedencia OKR=''
+NOTES: 1. Most canuto groups are created by doubling cords over the primary cord and wrapping the bundle with colored camelid thread(called here canuto). Therefore at the primary cord there appear to be two pendant cords going around the primary cord. It is not possible to distinguish which pendants at B belong to which cords at A. | 2. The groups at A are connected with three cords wrapped around primary cord; they are not doubled, so three plied cords show ar primary cord and there are only 3 cords coming out of canuto. | 3. Fiber types: | 4. Canuto ribs: end of the cord is doubled back on itself and wrapped with colored thread | ** There are two diagrams in the notes
+CORD_NOTES (52): Type A || Type B || Type C || Type D || type D || disintegrating || Type: D || Type: B
+cluster NOTES (0): 
+cuerdas por canuto: {4: 19, 3: 5, 2: 3} | cuerdas fuera de canuto: 1 | niveles: {1: 98}
+
+=== UR054 (KH0288) procedencia OKR=''
+NOTES: Cord fiber types:
+CORD_NOTES (113): Fiber: A || Fiber: hairy A || Fiber: camelid A || Fiber: B || Fiber: C || Fiber: D || Thickness 1.0/2.0 || Change @ 47.5 || Fiber: not listed || Fiber D || Fiber:A || Fiber D:
+cluster NOTES (0): 
+cuerdas por canuto: {1: 10, 4: 6, 2: 4, 3: 4, 10: 2, 6: 1, 14: 1} | cuerdas fuera de canuto: 21 | niveles: {1: 115}
+
+=== UR055 (KH0289) procedencia OKR=''
+NOTES: The museum number is composed of several different parts: No. Inventario: 4117; No. Reg. Textil: 789; No. Ficha Tec.: 1014; No. INC: 203/INC-88.
+CORD_NOTES (10): last small knot may be unintentional || repair knot at 48.0 cm. || repair knot at 70.0cm || sheep hair? || sheep hair || strange knot at 15.0cm || tied to 125 || tied to 124 || tied to 180 || tied to 179
+cluster NOTES (0): 
+cuerdas por canuto: {4: 31, 6: 9, 1: 2} | cuerdas fuera de canuto: 0 | niveles: {1: 180}
+
+=== UR110 (KH0346) procedencia OKR=''
+NOTES: Beginning: "needlework bundle":  wrapping in brown and white stripes of ~.5cm ea. Wrapped over a core of cords. 
+CORD_NOTES (2): coming apart || Broken Off @ Canuto... no traces
+cluster NOTES (0): 
+cuerdas por canuto: {4: 13, 6: 4, 3: 3, 2: 2} | cuerdas fuera de canuto: 0 | niveles: {1: 89}
+
+=== UR112 (KH0348) procedencia OKR=''
+NOTES: Camelid khipu with canutos. Significant insect damage at one end. Khipu has been kept in a large cedar-lined box. Braided primary cord. | Groups 19 and 20 have been reconstructed as "best guesses." The strings are no longer connected with the canutos. It is possible that pendant 76 belongs with canuto 16.
+CORD_NOTES (3): broken @ end of top canuto || joined to Camelid at 28. Patches of thread wrapping at: 18.5, 11.5, 28.5 || patch @ 21.5
+cluster NOTES (0): 
+cuerdas por canuto: {4: 16, 2: 2, 3: 1, 5: 1} | cuerdas fuera de canuto: 0 | niveles: {1: 76}
+
+=== UR144 (KH0384) procedencia OKR='Valle de Pisco'
+NOTES: 
+CORD_NOTES (0): 
+cluster NOTES (0): 
+cuerdas por canuto: {4: 24} | cuerdas fuera de canuto: 0 | niveles: {1: 96}
+
+=== Concordancia racimo a racimo KFG vs OKR (colgantes; emparejados por n.o de colgante y posicion)
+UR144 diferencias de vueltas (KFG - OKR): {3.0: 25, 4.0: 17, 2.0: 9, 6.0: 4, 5.0: 2, -3.0: 1, 7.0: 1, 8.0: 1} | racimo j (0=arriba): {0: 58, 1: 2} | KFG n: {7.0: 19, 8.0: 14, 6.0: 11, 10.0: 7, 9.0: 5, 5.0: 3, 1.0: 1}
+ quipu  kfg  okr  emparejados  mismo_tipo  mismas_vueltas  misma_dir
+ UR039  212  212          216       0.991           0.994      1.000
+ UR050  504  504          501       0.998           1.000      1.000
+ UR051  170  170          170       1.000           1.000      1.000
+ UR052  313  320          312       1.000           1.000      1.000
+ UR054  313  313          312       1.000           1.000      1.000
+ UR055  715  715          714       1.000           0.999      1.000
+ UR110  139  139          139       1.000           1.000      1.000
+ UR112  117  117          117       1.000           1.000      1.000
+ UR144  164  164          164       1.000           0.613      1.000
+ UR193  285  285          285       0.958           1.000      1.000
+UR1087  175  175          175       1.000           1.000      0.989
+ UR177   64   64           64       1.000           1.000      1.000
+UR1145  139  139          139       1.000           1.000      1.000

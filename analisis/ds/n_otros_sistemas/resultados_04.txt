@@ -1,0 +1,19 @@
+Hoyos/seccion (si 60 secciones): 86.7
+Si fueran 65 secciones: 80.0; si 70: 74.3
+
+Diagonales seccion c: n= 15 suma= 104 media= 6.93
+Perfil unimodal: True
+Si la serie cubre toda la seccion, la suma de diagonales (104) = numero de hoyos.
+
+P(>=1 racha de 9 filas iguales en 60 secciones, anchos 7/8 al azar) = 0.319
+
+Numeros de Monte Sierpe frente a cuotas de Incahuasi:
+  a: 72.0 -> coincidencia exacta: ninguna
+  b: 50.0 -> coincidencia exacta: ninguna
+  c: 104.0 -> coincidencia exacta: ninguna
+  media: 86.7 -> coincidencia exacta: ninguna
+  50 = 2 x 25 (multiplo trivial). 104 = 2 x 52; 72 = 8 x 9; 86.7 ~ 9 x 9.6
+P(>=1 coincidencia exacta si los 4 numeros fueran U(10,210)) = 0.167
+
+VA16135a/b (Berlin) citado por el articulo: 80 grupos de 10-12 cuerdas.
+En KFG/OKR no aparece: la comparacion con ese quipu no se puede replicar aqui.

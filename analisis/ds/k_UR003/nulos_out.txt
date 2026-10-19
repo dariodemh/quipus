@@ -1,0 +1,23 @@
+=== VALORES OBSERVADOS ===
+  A_madre_suma_hijas = (37, 206)
+  A2_colg_suma_descend = 15
+  B_split_equilibrado = (3, ((np.int64(1), 3), (np.int64(5), 3), (np.int64(11), 10)))
+  C_pares_clusters_iguales = 1
+  E_clusters_seriados = 1
+  D_indexed_2sumandos = (26, ((np.int64(2), 0, 3.0), (np.int64(2), 1, 2.0), (np.int64(2), 6, 2.0), (np.int64(3), 5, 2.0), (np.int64(3), 6, 2.0), (np.int64(3), 14, 3.0)))
+
+=== NULO (N=1000, semilla 0): media / max / p(sup) ===
+ A_madre_suma_hijas         obs=37   nulo_media=43.68 nulo_max=61 p=0.9121
+ A2_colg_suma_descend       obs=15   nulo_media=19.14 nulo_max=35 p=0.9041
+ B_split_equilibrado        obs=3    nulo_media=2.79 nulo_max=8 p=0.5554
+ C_pares_clusters_iguales   obs=1    nulo_media=1.01 nulo_max=7 p=0.6533
+ E_clusters_seriados        obs=1    nulo_media=0.32 nulo_max=1 p=0.3167
+ D_indexed_2sumandos        obs=26   nulo_media=36.08 nulo_max=58 p=0.9640
+
+Holm:
+  A_madre_suma_hijas         p=0.9121  Holm=1.0000
+  A2_colg_suma_descend       p=0.9041  Holm=1.0000
+  B_split_equilibrado        p=0.5554  Holm=1.0000
+  C_pares_clusters_iguales   p=0.6533  Holm=1.0000
+  E_clusters_seriados        p=0.3167  Holm=1.0000
+  D_indexed_2sumandos        p=0.9640  Holm=1.0000

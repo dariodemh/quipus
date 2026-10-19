@@ -1,0 +1,22 @@
+COBERTURA
+               n   frac  frac_cuerdas
+confianza                           
+alta         61  0.094         0.155
+media       145  0.223         0.369
+baja        152  0.233         0.286
+sin genero  293  0.450         0.189
+sin genero por motivo: {'decimal sin estructura detectada': 180, 'datos insuficientes': 113}
+   genero    n  alta  media  baja  lineas_med                                                                                                          procedencias
+0     CAL    3     1      2     0         1.0                                                                                                          Leymebamba 3
+1     NAZ    6     3      3     0         2.0                                                                               Unknown 2; Nazca 2; Pachacamac 1; Ica 1
+2     ARC   21    18      3     0         2.0                                                                                Incahuasi 14; Huaquerones 4; Unknown 3
+3     PAD    9     6      0     3         2.0                                                  Santa 6; Ullujaya, Ocucaje, Ica 1; Atarco 1; Between Ica and Pisco 1
+4     FOR  101     9     61    31         1.0                                      Unknown 34; Pachacamac 18; Ica 9; Incahuasi 5; Huacho 4; Between Ica and Pisco 3
+5     NON   17     0      5    12         1.0  Unknown 6; Pachacamac 3; Huaquerones 3; Cajamarquilla 2; Pueblo Libre, Lima, Peru 1; Playa Miller #6, Arica, Chile 1
+6     TAL   28    12      7     9         3.0           Unknown 13; Pachacamac 3; Incahuasi 2; near Lima 1; Chuquitanta 1; La puntilla, between Paracas and Pisco 1
+7     SUM   14     8      6     0         1.0                               Unknown 9; Paracas 2; Pachacamac 1; Ica 1; Huando, Chancay, Peru (Gaffron Collection) 1
+8     ASG   28     4     24     0         1.0               Pachacamac 10; Unknown 6; Huaca San Pedro, Armatambo 2; Playa Miller #6, Arica, Chile 2; Ica 2; Pisco 2
+9     TAB   55     0     34    21         3.0                                       Unknown 30; Pachacamac 7; Huaquerones 3; Between Ica and Pisco 2; Ica 2; Peru 2
+10    SEG   76     0      0    76         1.0                 Unknown 22; Pachacamac 11; Ica 8; Leymebamba 8; Incahuasi 6; La puntilla, between Paracas and Pisco 2
+11    SIN  293     0      0     0         0.0                                    Unknown 110; Pachacamac 36; Ica 24; Incahuasi 23; Eduard Gaffron 10; Huaquerones 8
+quipus con generos secundarios: 198 de 358 asignados

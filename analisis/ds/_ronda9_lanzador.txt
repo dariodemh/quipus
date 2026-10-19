@@ -1,0 +1,3 @@
+fin n_rejilla ok intento=1 04:41:30
+fin n_puruchuco_pacha ok intento=1 04:44:29
+TODAS_TERMINADAS

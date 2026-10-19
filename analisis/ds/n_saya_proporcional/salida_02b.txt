@@ -1,0 +1,42 @@
+=== 1. Cambio de regimen ===
+Mejor corte: fila 14 (grupos 14 | 16); estadistico 0.2248; p permutacion 0.0004
+columna  dif_antes_despues  t_max     p_sel  p_cut_fijo  q_BH_sel  q_BH_fijo
+     c1            0.01046  1.835    0.4173      0.3081    0.4353     0.3962
+     c2            0.03493   3.77   0.02549      0.0016   0.05735   0.007199
+     c3            0.02041  2.852   0.03398       0.018   0.06117    0.04049
+     c4           0.004143  2.659    0.1024      0.5525    0.1317     0.6216
+     c5           -0.01116  6.081 0.0004998      0.2743  0.004498     0.3962
+     c6           0.003266  2.886   0.07996      0.7538    0.1199     0.7538
+     c7           -0.04888  5.746  0.002499      0.0002   0.01124     0.0018
+     c8           -0.02541  4.595  0.005497      0.0116   0.01649    0.03479
+     c9            0.01225  1.953    0.4353     0.08618    0.4353     0.1551
+
+=== 2. Heterogeneidad de rho entre columnas ===
+rho comun = 0.00593; LL libre = -1154.16; LL comun = -1165.81
+LRT = 23.30 (8 gl); p chi2 = 0.003004; p bootstrap = 0.0125
+rho por columna: c1=0.00402, c2=0.00724, c3=0.00570, c4=0.00238, c5=0.00463, c6=0.00433, c7=0.01054, c8=0.01230, c9=0.00316
+
+=== 3. Verosimilitud predictiva leave-one-out ===
+LL M1 = -2062.79; LL M2 = -1034.68; diferencia = 1028.11
+M2 gana en 23/24 filas; rango de alpha de entrenamiento 160-185
+
+=== 4. Robustez de la tendencia ===
+T completo = 0.1436; al quitar una fila: 0.1131-0.1665 (fila mas influyente: 2)
+nulo aproximado 1/(n-2) = 0.0455
+  tramo  n      T       p
+  antes 14 0.2289 0.01149
+despues 10 0.2327 0.02449
+
+=== 5. Componentes principales del CLR ===
+varianza explicada: [0.428, 0.256, 0.122, 0.09]
+columna    PC1    PC2    PC3  media_p
+     c1  0.150  0.120  0.468    0.137
+     c2  0.306  0.270  0.485    0.144
+     c3  0.070  0.436 -0.510    0.096
+     c4  0.047  0.018 -0.112    0.108
+     c5  0.140 -0.392  0.161    0.114
+     c6  0.120  0.017 -0.050    0.126
+     c7 -0.121 -0.725 -0.135    0.106
+     c8 -0.892  0.199  0.145    0.080
+     c9  0.179  0.057 -0.453    0.090
+correlaciones: {"PC1_orden": 0.6452173913043477, "PC1_logN": -0.4391304347826086, "PC2_orden": 0.5069565217391303, "PC2_logN": -0.41826086956521735}

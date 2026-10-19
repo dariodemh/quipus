@@ -1,0 +1,45 @@
+cuerdas comparables por valor (largo OK): 35214
+discrepancias de valor: 225 tasa: 0.0064
+cuerdas con desalineacion de largo: 738 de 35952 con nudos KFG
+
+=== quipus con tasa_valor > 5% ===
+       prefijo  n_valor  disc_valor  tasa_valor  n_estruct
+kfg                                                       
+UR193       UR       18          18    1.000000        134
+UR144       UR       96          56    0.583333          0
+UR090       UR      123          67    0.544715          0
+UR235       UR      160          36    0.225000          0
+KH0058      KH       56          12    0.214286        108
+HP054       HP       18           3    0.166667          0
+UR190       UR       97          14    0.144330        253
+UR044       UR       10           1    0.100000         13
+KH0033      KH       10           1    0.100000         13
+HP038       HP       54           4    0.074074          0
+HP023       HP       16           1    0.062500          7
+
+=== quipus con desalineacion estructural > 20% de sus cuerdas ===
+       prefijo  cuerdas  n_estruct  frac_estruct  disc_valor  n_valor
+kfg                                                                  
+KH0197      KH       34         31      0.911765           0        0
+KH0267      KH       10          9      0.900000           1        1
+UR193       UR      156        134      0.858974          18       18
+KH0227      KH       14         12      0.857143           0        0
+AS072       AS       12         10      0.833333           0        0
+HP009       HP        8          6      0.750000           0        1
+KH0058      KH      171        108      0.631579          12       56
+UR190       UR      407        253      0.621622          14       97
+HP024       HP        7          3      0.428571           0        3
+KH0350      KH       39         14      0.358974           1        1
+HP004       HP       47         16      0.340426           0       20
+HP006       HP       13          3      0.230769           0        7
+HP023       HP       31          7      0.225806           1       16
+UR096       UR       50         11      0.220000           0       33
+
+=== por prefijo ===
+         quipus  n_valor  disc  n_estruct  cuerdas  tasa_valor  frac_estruct
+prefijo                                                                     
+AS          133     4769     0         10     7987    0.000000      0.001252
+HP           56     1749     8         57     2615    0.004574      0.021797
+JC           23      828     0          0     1189    0.000000      0.000000
+KH           14     1292    17        187     1978    0.013158      0.094540
+UR          368    26576   200        484    38269    0.007526      0.012647

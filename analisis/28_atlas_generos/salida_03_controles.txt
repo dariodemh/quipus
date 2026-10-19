@@ -1,0 +1,55 @@
+A. Ward k=12 sobre 25 rasgos estandarizados
+   ARI reglas~cluster (todos) = 0.244; NMI = 0.392
+   ARI (solo asignados) = 0.250; NMI = 0.398
+   tabla cruzada genero x cluster:
+col_0   0    1   2    3   4   5   6   7   8   9   10  11
+genero                                                  
+ARC     13    0   0    0   0   8   0   0   0   0   0   0
+ASG      3    0   0   13   0   0   0   1   0   9   2   0
+CAL      2    0   0    0   0   0   0   0   1   0   0   0
+FOR     78    2   0   10   0   0   0   1   0   5   4   1
+NAZ      0    0   0    0   6   0   0   0   0   0   0   0
+NON      6    0   0    6   0   0   0   0   0   0   0   5
+PAD      1    0   0    0   0   0   8   0   0   0   0   0
+SEG     10    4   1   56   0   0   0   1   0   2   2   0
+SIN      5  117   3  139   0   0   0   6   0   0  23   0
+SUM     10    1   0    2   0   0   0   0   0   1   0   0
+TAB     44    1   0    8   0   0   0   0   0   1   1   0
+TAL      0    4  10    2   0   0   0   8   0   0   4   0
+   CAL: 2/3 en el cluster 0 (pureza del cluster 0.01)
+   NAZ: 6/6 en el cluster 4 (pureza del cluster 1.00)
+   ARC: 13/21 en el cluster 0 (pureza del cluster 0.08)
+   PAD: 8/9 en el cluster 6 (pureza del cluster 1.00)
+   FOR: 78/101 en el cluster 0 (pureza del cluster 0.45)
+   NON: 6/17 en el cluster 0 (pureza del cluster 0.03)
+   TAL: 10/28 en el cluster 2 (pureza del cluster 0.71)
+   SUM: 10/14 en el cluster 0 (pureza del cluster 0.06)
+   ASG: 13/28 en el cluster 3 (pureza del cluster 0.06)
+   TAB: 44/55 en el cluster 0 (pureza del cluster 0.26)
+   SEG: 56/76 en el cluster 3 (pureza del cluster 0.24)
+   SIN: 139/293 en el cluster 3 (pureza del cluster 0.59)
+   k=4: ARI 0.391, NMI 0.350
+   k=6: ARI 0.399, NMI 0.376
+   k=8: ARI 0.261, NMI 0.379
+   k=16: ARI 0.235, NMI 0.432
+
+B. Barajado de rasgos entre quipus (200 reps; cada detector permutado como bloque)
+   alta       observado 0.094 | barajado media 0.084 [0.078, 0.089] | p(obs<=baraj) 0.010
+   media      observado 0.223 | barajado media 0.256 [0.235, 0.278] | p(obs<=baraj) 1.000
+   baja       observado 0.233 | barajado media 0.338 [0.309, 0.367] | p(obs<=baraj) 1.000
+   sin        observado 0.450 | barajado media 0.322 [0.296, 0.347] | p(obs<=baraj) 0.005
+   lineas2    observado 0.399 | barajado media 0.391 [0.359, 0.420] | p(obs<=baraj) 0.289
+   lineas_med observado 1.606 | barajado media 1.572 [1.519, 1.620] | p(obs<=baraj) 0.085
+   nmi_proc   observado 0.355 | barajado media 0.220 [0.195, 0.241] | p(obs<=baraj) 0.005
+   nmi_museo  observado 0.301 | barajado media 0.179 [0.162, 0.199] | p(obs<=baraj) 0.005
+   ari_base   observado 1.000 | barajado media -0.001 [-0.017, 0.017] | p(obs<=baraj) 0.005
+   silueta Ward observada 0.122 | barajada media 0.153 (max 0.200)
+
+C. Recalculo sin remuestreo: coincide con el atlas en 0.997 de los quipus (redondeo: corr frac 1.000)
+   estabilidad (fraccion de 200 replicas con el mismo genero), mediana y fraccion >=0,8:
+   cuerdas  : mediana 1.00; >=0,8 en 0.931 de los quipus
+   umbrales : mediana 1.00; >=0,8 en 0.957 de los quipus
+   ambos    : mediana 1.00; >=0,8 en 0.909 de los quipus
+   por genero (ambos): ARC 1.00/1.00; ASG 0.80/0.46; CAL 1.00/1.00; FOR 1.00/0.96; NAZ 1.00/1.00; NON 1.00/0.76; PAD 1.00/1.00; SEG 1.00/0.93; SIN 1.00/0.96; SUM 1.00/1.00; TAB 1.00/0.80; TAL 1.00/0.68
+   por confianza (ambos): alta 1.00/0.97; baja 1.00/0.86; media 1.00/0.83; sin genero 1.00/0.96
+   Ward: estabilidad bootstrap de quipus ARI medio 0.539 [0.351, 0.699]

@@ -1,0 +1,652 @@
+kfg,okr,museo,procedencia,region,pc_largo,pc_color,pc_estructura
+AS001,AS001,"Museum of the American Indian, Heye Foundation",Unknown,Unknown,73.0,MB(0.0-33.0)/LB:KB(33.0-73.0),P
+AS002,AS002,"Museum of the American Indian, Heye Foundation",Unknown,Unknown,17.7,KB,P
+AS003,AS003,"Museum of the American Indian, Heye Foundation",Unknown,Unknown,36.5,LB:KB,P
+AS004,AS004,"Museum of the American Indian, Heye Foundation",Unknown,Unknown,41.0,W(0.0-25.0)/GR(25.0-41.0),P
+AS005,AS005,"Museum of the American Indian, Heye Foundation",Unknown,Unknown,54.5,LB(0.0-43.5)/KB(43.5-54.5),P
+AS006,AS006,"Museum of the American Indian, Heye Foundation",Unknown,Unknown,55.0,W,P
+AS007,AS007,"Museum of the American Indian, Heye Foundation",Unknown,Unknown,94.0,W:MB,P
+AS008,AS008,"Pitt Rivers Museum, University of Oxford",Unknown,Unknown,217.5,W:KB,P
+AS009,AS009,"Pitt Rivers Museum, University of Oxford",Unknown,Unknown,38.0,W:MB,P
+AS010,KH0011,"Niedersächsische Landesmuseum, Hanover, West Germany",Unknown,Unknown,73.0,W,
+AS011,KH0012,"Niedersächsische Landesmuseum, Hanover, West Germany",Unknown,Unknown,21.5,YB:B:GG,
+AS012,KH0013,"Niedersächsische Landesmuseum, Hanover, West Germany",Unknown,Unknown,27.0,W,
+AS013,KH0014,"Niedersächsische Landesmuseum, Hanover, West Germany",Unknown,Unknown,26.5,W:MB,
+AS014,KH0015,British Museum,Unknown,Unknown,81.0,BG,
+AS015,KH0016,"University Museum, University of Pennsylvania",Unknown,Unknown,34.0,W,
+AS016,KH0017,"University Museum, University of Pennsylvania",Unknown,Unknown,43.5,W:LB,
+AS017,KH0018,"University Museum, University of Pennsylvania",Unknown,Unknown,24.0,AB,
+AS018,KH0019,"University Museum, University of Pennsylvania",Unknown,Unknown,7.0,W,
+AS019,KH0020,"University Museum, University of Pennsylvania",Unknown,Unknown,28.0,B,
+AS020,KH0021,"University Museum, University of Pennsylvania",Unknown,Unknown,12.0,W,
+AS021,KH0022,"University Museum, University of Pennsylvania",Unknown,Unknown,47.0,W:AB(0.0-17.0)/W(17.0-47.0),
+AS023,KH0024,"University Museum, University of Pennsylvania",Unknown,Unknown,19.0,B,
+AS024,KH0025,"University Museum, University of Pennsylvania",Unknown,Unknown,23.5,DB,
+AS025,KH0026,"University Museum, University of Pennsylvania",Unknown,Unknown,88.0,W,
+AS026A,KH0027,"University Museum, University of Pennsylvania",Unknown,Unknown,17.0,B:FB,
+AS026B,KH0028,"University Museum, University of Pennsylvania",Unknown,Unknown,87.5,W:GG:FB,
+AS027,KH0029,"University Museum, University of Pennsylvania",Unknown,Unknown,61.5,W:LB,
+AS028,KH0030,"University Museum, University of Pennsylvania",Unknown,Unknown,16.0,W:LB,
+AS029,KH0031,"Museum Voor Land-en Volkenkunde, Rotterdam, Holland",Aankoop,Unknown,66.0,YB,
+AS035C,KH0045,Brooklyn Museum,Unknown,Unknown,22.0,YB,
+AS035D,KH0046,Brooklyn Museum,Unknown,Unknown,41.0,YB:KB,
+AS036,KH0047,"Museo Jijon y Caamano, Pontificia Universidad Catolica del Ecuador, Quito, Ecuador","Maranga, Huaca 1",Unknown,60.5,W-G-BB,
+AS037,KH0048,"Museo Jijon y Caamano, Pontificia Universidad Catolica del Ecuador, Quito, Ecuador",Unknown,Unknown,46.0,W-G-BB,
+AS039,KH0050,"Museo Nacional, Lima, Peru",Unknown,Unknown,39.0,W:B,
+AS041,KH0052,"Museo Nacional, Lima, Peru",Unknown,Unknown,29.0,PK,
+AS042,KH0053,"Museo Nacional, Lima, Peru",Unknown,Unknown,23.0,W:AB,
+AS043,KH0054,"Museo Nacional, Lima, Peru",Unknown,Unknown,31.0,BS,
+AS044,KH0055,"Museo Nacional, Lima, Peru",Unknown,Unknown,69.0,W:BL:B,
+AS045,KH0056,"Museo Nacional, Lima, Peru",Unknown,Unknown,34.0,W:LC,
+AS048,KH0059,"Museo Amano, Lima, Peru",Unknown,Unknown,112.5,B(0.0-11.0)/W:DB(11.0-112.5),
+AS050,KH0061,"owner Ana Maria Soldi, Lima, Peru",Unknown,Unknown,93.5,PK,
+AS054,KH0065,"Museo de Ica, Ica, Peru",Hacienda Ullujalla y Callengo,Unknown,21.0,YB-G0,
+AS055,KH0066,"Museo de Ica, Ica, Peru",Hacienda Ullujalla y Callengo,Unknown,36.0,YB,
+AS059,KH0070,"O. Nunez del Prado, Cuzco",Unknown,Unknown,36.0,W,
+AS060,KH0071,"O. Nunez del Prado, Cuzco",Unknown,Unknown,53.0,W,
+AS061_MA036,KH0072,"O. Nunez del Prado, Cuzco",Unknown,Unknown,55.0,W:B,
+AS062,KH0073,"O. Nunez del Prado, Cuzco",Unknown,Unknown,36.5,W,
+AS063,KH0074,"O. Nunez del Prado, Cuzco",Unknown,Unknown,21.0,W,
+AS063B,KH0075,"O. Nunez del Prado, Cuzco",Unknown,Unknown,20.5,W,
+AS064,KH0076,"O. Nunez del Prado, Cuzco",Unknown,Unknown,63.5,MB,
+AS065,KH0077,"O. Nunez del Prado, Cuzco",Unknown,Unknown,2.0,KB,
+AS065B,KH0078,"O. Nunez del Prado, Cuzco",Unknown,Unknown,36.0,KB,
+AS066,KH0079,"O. Nunez del Prado, Cuzco",Unknown,Unknown,124.0,W:MB,P
+AS069,KH0082,"owner Percy Dauelsberg, Arica, Chile",Lluta Valley,Unknown,513.5,W:BS,
+AS071,KH0084,"owner Percy Dauelsberg, Arica, Chile",Unknown,Unknown,138.5,W:BS,P
+AS072,KH0085,Unknown,"Rancho San Juan, Ica Valley",Unknown,22.0,PK,P
+AS073,KH0086,Unknown,"Rancho San Juan, Ica Valley",Unknown,10.0,PK,
+AS074,KH0087,"Musee de l Homme, Paris, France",Unknown,Unknown,56.5,YB,P
+AS075,KH0088,"Musee de l Homme, Paris, France",Pachacamac,Unknown,162.5,YB-MB,
+AS076,KH0089,"Musee de l Homme, Paris, France",Unknown,Unknown,14.5,LC,P
+AS077,KH0090,"Musee de l Homme, Paris, France",Unknown,Unknown,38.0,AB-GL,
+AS078,KH0091,"Musee Quai Branly, Paris, France","Hacienda Copara, Nazca","South Coast, Peru",64.0,YB-AB,
+AS079,KH0092,"Musee de l Homme, Paris, France",Unknown,Unknown,77.5,W:MB:PB,
+AS080,KH0093,"Musee de l Homme, Paris, France",Unknown,Unknown,49.5,AB,
+AS081,KH0094,"Musee de l Homme, Paris, France",Unknown,Unknown,48.5,G0,
+AS082,KH0095,"Musee de l Homme, Paris, France",Unknown,Unknown,19.5,B,
+AS083,KH0096,"Musee de l Homme, Paris, France",Unknown,Unknown,46.5,W,
+AS085,KH0098,"Musee d Ethnographie, Geneva, Switzerland",Unknown,Unknown,63.0,W,
+AS089,KH0102,"Museum Fur Volkerkunde, Munich, W. Germany",Peru,Unknown,51.0,W:BB,
+AS090_N2,KH0103,"Museum Fur Volkerkunde, Munich, W. Germany",Peru,Unknown,23.5,W:KB,
+AS092,KH0105,"Museum Fur Volkerkunde, Munich, W. Germany",Peru,Unknown,66.0,MB,
+AS093,KH0106,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,Unknown,81.0,W-BB,P
+AS094,KH0107,"Museum Fur Volkerkunde, Munich, W. Germany",Peru,Unknown,33.5,B,
+AS101_Part_1,AS101 - Part 1,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,46.5,W,
+AS101_Part_2,AS101 - Part 2,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,26.5,W,
+AS110,KH0124,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,36.0,W,
+AS111,KH0125,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,53.0,W:GG(0.0-5.5)/W(5.5-53.0),
+AS112,KH0126,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,0.0,PK,
+AS115,KH0129,"Museum für Völkerkunde, Berlin",Ica,Unknown,62.5,MB:0D,
+AS122,KH0136,"Museum für Völkerkunde, Berlin",Lima,Unknown,48.5,B,
+AS125,KH0140,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,62.0,W,
+AS128,KH0143,"Museum für Völkerkunde, Berlin",Nazca,Unknown,84.0,W-DB,
+AS129,KH0144,"Museum für Völkerkunde, Berlin",Ica,Unknown,63.0,W,
+AS132,KH0148,"Museum für Völkerkunde, Berlin",Marquez,Unknown,60.0,BS:LC,
+AS133,KH0149,"Museum für Völkerkunde, Berlin",Marquez,Unknown,129.0,D0,
+AS134,KH0150,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,72.0,LB,
+AS137,KH0153,"Museum für Völkerkunde, Berlin",Chuquitanta,Unknown,61.5,PK,
+AS139,KH0155,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,46.5,W:MB:CB(0.0-8.4)/W(8.4-46.5),
+AS142,KH0158,"Museum für Völkerkunde, Berlin",Ica,Unknown,17.0,W,
+AS153,KH0169,"Museum für Völkerkunde, Berlin",Unknown,Unknown,16.0,W:BB,
+AS155,KH0171,"Museum für Völkerkunde, Berlin",near Lima,Unknown,43.5,W,
+AS156,KH0172,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,80.5,B,
+AS157,KH0173,"Museum für Völkerkunde, Berlin",Unknown,Unknown,39.0,W,
+AS158,KH0174,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,23.5,LB,
+AS159,KH0175,"Museum für Völkerkunde, Berlin",Between Ica and Pisco,Unknown,36.0,W,
+AS160,KH0176,"Museum für Völkerkunde, Berlin",Between Ica and Pisco,Unknown,38.5,W,
+AS164,KH0181,"Museum für Völkerkunde, Berlin",Ica,Unknown,34.0,W,
+AS168,KH0185,"Museum für Völkerkunde, Berlin",Unknown,Unknown,44.0,LB,P
+AS169,KH0186,"Museum für Völkerkunde, Berlin",Unknown,Unknown,53.0,LB,
+AS170,KH0187,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,63.0,B,P
+AS171,KH0188,"Museum für Völkerkunde, Berlin",Ica,Unknown,20.0,W,
+AS172,KH0189,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,54.5,W,
+AS173,KH0190,"Museum für Völkerkunde, Berlin",Between Ica and Pisco,Unknown,22.0,W,
+AS174,KH0191,"Museum für Völkerkunde, Berlin",Between Ica and Pisco,Unknown,74.5,LB,
+AS177,KH0194,"Museum für Völkerkunde, Berlin",near Lima,Unknown,29.0,W,
+AS178,KH0195,"Museum für Völkerkunde, Berlin",near Lima,Unknown,33.0,W-KB,
+AS182,KH0199,"Museum für Völkerkunde, Berlin",Unknown,Unknown,14.5,AB,
+AS182B,KH0200,"Museum für Völkerkunde, Berlin",Unknown,Unknown,54.5,AB,
+AS183,KH0201,"Museum für Völkerkunde, Berlin",Unknown,Unknown,29.0,W,
+AS184,KH0202,"Museum für Völkerkunde, Berlin",Unknown,Unknown,24.5,LB,
+AS185,KH0203,"Museum für Völkerkunde, Berlin",Unknown,Unknown,32.5,LB,
+AS186,KH0204,"Museum für Völkerkunde, Berlin",Unknown,Unknown,33.5,YB,
+AS187,KH0205,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,91.5,PK,
+AS188,KH0206,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,55.0,W:DB,
+AS189,KH0207,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,48.5,W,
+AS191,KH0209,"American Museum of Natural History, NY",Ica,Unknown,22.0,W,P
+AS192,KH0210,"American Museum of Natural History, NY",Ica,Unknown,33.0,W-MB,P
+AS193,KH0211,"American Museum of Natural History, NY",Ica,Unknown,21.5,W,P
+AS194,KH0212,"American Museum of Natural History, NY",Ica,Unknown,24.5,KBGGAB,P
+AS195,KH0213,"American Museum of Natural History, NY",Ica,Unknown,19.0,AB,P
+AS196,KH0214,"American Museum of Natural History, NY",Ica,Unknown,43.0,AB,P
+AS197,KH0215,"American Museum of Natural History, NY",Ica,Unknown,75.0,W-AB-AB-MB,
+AS198,KH0216,"American Museum of Natural History, NY",Unknown,Unknown,30.0,W,P
+AS199,KH0217,"American Museum of Natural History, NY",Unknown,Unknown,33.0,W:YG,P
+AS200,KH0218,"American Museum of Natural History, NY",probably Central Coast Late Period,Unknown,58.0,AB,
+AS201,KH0219,"Lowie Museum, University of California, Berkeley",Ica,Unknown,17.5,B,
+AS202,KH0220,"Lowie Museum, University of California, Berkeley",Unknown,Unknown,30.0,YB,
+AS203,KH0221,"Lowie Museum, University of California, Berkeley",Unknown,Unknown,77.0,YB,
+AS204,KH0222,"Lowie Museum, University of California, Berkeley",Ica,Unknown,29.5,YB,
+AS205,KH0223,"Lowie Museum, University of California, Berkeley",Unknown,Unknown,55.0,YB:BS(0.0-23.0)/YB-BS(23.0-55.0),
+AS206,KH0224,"Museum of Culture History, University of California, Los Angeles",Unknown,Unknown,16.5,G0:LB,
+AS207A,KH0225,"Museum of Science, Buffalo, New York",Unknown,Unknown,97.5,W,
+AS207B,KH0226,"Museum of Science, Buffalo, New York",Unknown,Unknown,12.0,W,
+AS207C,KH0227,"Museum of Science, Buffalo, New York",Unknown,Unknown,45.5,W,
+AS209,KH0229,"Royal Ontario Museum, Toronto",Unknown,Unknown,59.0,LB,
+AS210,KH0230,"Field Museum of Natural History, Chicago, IL",Unknown,Unknown,81.0,B,
+AS211,KH0231,"N195161prstkovo Museum, Prague",Unknown,Unknown,58.5,W:B,
+AS212,KH0232,"Joslyn Art Museum, Omaha, Nebraska",Unknown,Unknown,0,W,
+AS213,KH0233,"owner Leo J. Harris, St. Paul, Minnesota",Unknown,Unknown,34.5,W,
+AS214,KH0234,"Hood Museum of Art, Dartmouth College, Hanover, New Hampshire",Unknown,Unknown,43.0,W:LB:TG,
+AS215,KH0235,"Hood Museum of Art, Dartmouth College, Hanover, New Hampshire",Nazca,Unknown,41.0,DB,
+AS215F,KH0236,"Hood Museum of Art, Dartmouth College, Hanover, New Hampshire",Nazca,Unknown,0.0,DB,
+AS35A,KH0043,Brooklyn Museum,Unknown,Unknown,26.5,YB:YG,
+AS35B,KH0044,Brooklyn Museum,Unknown,Unknown,5.5,YB:KB,
+HP001,KH0533,Museo de Sitio de Pachacamac,Pachacamac,near Lima,52.0,PK,P
+HP002,KH0534,Museo de Sitio de Pachacamac,Pachacamac,Unknown,67.0,PK,
+HP003,KH0535,Museo de Sitio de Pachacamac,Pachacamac,Unknown,30.0,PK,
+HP004,KH0536,Museo de Sitio de Pachacamac,Pachacamac,Unknown,54.5,PK,
+HP005,KH0537,Museo de Sitio de Pachacamac,Pachacamac,Unknown,37.0,PK,
+HP006,KH0538,Museo de Sitio de Pachacamac,Pachacamac,Unknown,12.2,PK,
+HP007,KH0539,Museo de Sitio de Pachacamac,Pachacamac,Unknown,10.3,PK,
+HP008,KH0540,Museo de Sitio de Pachacamac,Pachacamac,Unknown,8.8,PK,
+HP009,KH0541,Museo de Sitio de Pachacamac,Pachacamac,Unknown,45.5,PK,
+HP010,KH0542,Museo de Sitio de Pachacamac,Pachacamac,Unknown,43.0,PK,
+HP011,KH0543,Museo de Sitio de Pachacamac,Pachacamac,Unknown,32.0,PK,
+HP012,KH0544,Museo de Sitio de Pachacamac,Pachacamac,Unknown,15.8,PK,
+HP013,KH0545,Museo de Sitio de Pachacamac,Pachacamac,Unknown,5.0,PK,
+HP014,KH0546,Museo de Sitio de Pachacamac,Pachacamac,Unknown,56.0,PK,
+HP015,KH0547,Museo de Sitio de Pachacamac,"Cieneguilla, Valle de Lurin",Unknown,45.0,PK,
+HP016,KH0548,Museo de Sitio de Pachacamac,"Cieneguilla, Valle de Lurin",Unknown,1.4,PK,
+HP017,KH0549,Museo de Sitio de Pachacamac,Pachacamac,Unknown,42.0,PK,
+HP018,KH0550,Museo de Sitio de Pachacamac,Pachacamac,Unknown,15.0,PK,
+HP019,KH0551,Museo de Sitio de Pachacamac,Pachacamac,Unknown,27.8,PK,
+HP020,KH0552,Museo de Sitio de Pachacamac,Pachacamac,Unknown,71.0,PK,
+HP021,KH0553,Museo de Sitio de Pachacamac,Pachacamac,Unknown,41.0,PK,
+HP022,KH0554,Museo de Sitio de Pachacamac,Pachacamac,Unknown,33.0,PK,
+HP023,KH0555,Museo de Sitio de Pachacamac,Pachacamac,Unknown,57.5,PK,
+HP024,KH0556,Museo de Sitio de Pachacamac,Pachacamac,Unknown,3.1,PK,
+HP025,KH0557,Museo de Sitio de Pachacamac,Pachacamac,Unknown,46.0,PK,
+HP026,KH0558,Museo de Sitio de Pachacamac,Pachacamac,Unknown,33.2,PK,
+HP027,KH0559,Museo de Sitio de Pachacamac,Pachacamac,Unknown,17.8,PK,
+HP028,KH0560,Museo de Sitio de Pachacamac,Pachacamac,Unknown,50.0,PK,
+HP029,KH0561,Museo de Sitio de Pachacamac,Pachacamac,Unknown,28.0,PK,
+HP030,KH0562,Museo de Sitio de Pachacamac,Pachacamac,Unknown,42.4,PK,
+HP031,KH0563,Museo de Sitio de Pachacamac,Pachacamac,Unknown,71.0,PK,
+HP032,KH0564,Museo de Sitio de Pachacamac,Pachacamac,Unknown,15.2,PK,
+HP033,KH0565,"Museo Nacional de Arqueología, Antropología e Historia del Perú","Ullujaya, Ocucaje, Ica",Unknown,31.0,PK,P
+HP034,KH0566,"Museo Nacional de Arqueología, Antropología e Historia del Perú","Ullujaya, Ocucaje, Ica",Unknown,44.0,AB-AB(0.0-0.0)/AB:MB-AB-AB-AB(0.0-0.0),P
+HP037,KH0567,"Museo Nacional de Historia, Archaeología y Antropología de Perú","Costa Central, Huacho",Unknown,64.0,W-MB,P
+HP038,KH0568,"Museo Nacional de Arqueología, Antropología e Historia de Perú",Unknown,Unknown,58.0,W:MB-W,P
+HP039,KH0569,"Museo Nacional de Arqueologia, Anthropologia e Histora del Peru",Costa Sur,Unknown,64.0,W,P
+HP040,KH0570,"Museo Nacional de Arqueología, Antropología e Historia del Perú",Unknown,Unknown,12.0,W-MB,P
+HP042,KH0571,"Museo Nacional de Arqueología, Antropología, e Historia del Perú",Unknown,Unknown,62.0,AB,P
+HP043,KH0572,"Museo Nacional de Arqueología, Antropología e Historia del Perú",Unknown,Unknown,43.0,MB,P
+HP044,KH0573,"Museo Nacional de Arqueología, Antropología e Historia del Perú",Unknown,Unknown,24.0,MB,P
+HP045,KH0574,"Museo Nacional de Arqueología, Antropología e Historia del Perú","Región Sur, Quillagua, Valle de Loa",Unknown,21.0,MB,P
+HP046_A,KH0575,"Museo Nacional de Arqueologia, Antropologia e Historia del Peru",Unknown,Unknown,44.0,PK,P
+HP046_B,KH0576,"Museo Nacional de Arqueologia, Antropologia e Historia Nacional del Peru",Unknown,Unknown,46.0,PK,P
+HP047,KH0577,"Museo Nacional de Arqueologia, Antropologia e Historia del Peru","Armatambo, Lima, Central Coast",Unknown,31.0,W,P
+HP048,KH0578,"Museo Nacional de Arqueología, Antropología e Historia del Perú","Región Sur, Quillagua, Valle de Loa",Unknown,31.0,MB,P
+HP049,KH0579,"Museo Nacional de Arqueologia, Antropologia e Historia del Peru",Unknown,Unknown,11.5,W:PB(0.0-1.5)/MB(1.5-11.5),P
+HP050,KH0580,"Museo Nacional de Arqueologia, Antropologia e Historia del Peru",foothills of Cerro Solar,Unknown,63.5,W-MB,P
+HP051_A,KH0581,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",Unknown,Unknown,65.0,W:KB,P
+HP051_B,KH0582,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",Unknown,Unknown,56.0,AB,P
+HP052,KH0583,"Museo Nacional de Arqueologia, Antropologia e Historia del Peru",Unknown,Unknown,52.0,W,P
+HP053,KH0584,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",Unknown,Unknown,57.0,W-MB,P
+HP054,KH0585,"Museo Nacion de Arqueologia, Anthropologia e Historia del Peru",Unknown,Unknown,47.0,W,P
+HP055,KH0586,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",unknown,Unknown,112.0,W-W-MB,P
+HP056,KH0587,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",Unknown,Unknown,47.0,MB,P
+HP057,KH0588,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",Unknown,Unknown,32.0,W-AB-KB,P
+JC001,KH0608,Proyecto Incahuasi,Incahuasi,Unknown,70.0,YB-PG-RM,P
+JC002,KH0609,Proyecto Incahuasi,Incahuasi,Unknown,76.0,YB:NB,P
+JC003,KH0610,Proyecto Incahuasi,Incahuasi,Unknown,45.0,NB,P
+JC004,KH0611,Proyecto Incahuasi,Incahuasi,Unknown,30.0,YB,P
+JC005,KH0612,Proyecto Incahuasi,Incahuasi,Unknown,64.0,AB,P
+JC006,KH0613,Proyecto Incahuasi,Incahuasi,Unknown,35.0,MB,P
+JC007,KH0614,Proyecto Incahuasi,Incahuasi,Unknown,44.0,YB,P
+JC008,KH0615,Proyecto Incahuasi,Incahuasi,Unknown,6.0,YB,P
+JC009,KH0616,Proyecto Incahuasi,Incahuasi,Unknown,79.5,AB-GB-GL(0.0-69.0)/GB(69.0-79.5),P
+JC010,KH0617,Proyecto Incahuasi,Incahuasi,Unknown,59.0,AB-MB,P
+JC011,KH0618,Proyecto Incahuasi,Incahuasi,Unknown,84.0,AB-NB-KB,P
+JC012,KH0619,Proyecto Incahuasi,Incahuasi,Unknown,16.0,AB,P
+JC013,KH0620,Proyecto Incahuasi,Incahuasi,Unknown,83.5,AB-HB,P
+JC014,KH0621,Proyecto Incahuasi,Incahuasi,Unknown,42.0,MB,P
+JC015,KH0622,Proyecto Incahuasi,Incahuasi,Unknown,35.0,LG,P
+JC016,KH0623,Proyecto Incahuasi,Incahuasi,Unknown,43.5,LG:AB,P
+JC017,KH0624,Proyecto Incahuasi,Incahuasi,Unknown,17.0,LG,P
+JC018,KH0625,Proyecto Incahuasi,Incahuasi,Unknown,22.0,LG-HB,P
+JC019,KH0626,Proyecto Incahuasi,Incahuasi,Unknown,31.5,LG,P
+JC020,KH0627,Proyecto Incahausi,Incahuasi,Unknown,48.5,LG,P
+JC021,KH0628,Proyecto Incahuasi,Incahuasi,Unknown,5.5,LG,P
+JC022,KH0629,Proyecto Incahuasi,Incahuasi,Unknown,48.0,AB,P
+JC023,KH0630,Proyecto Incahuasi,Incahuasi,Unknown,26.5,LG,P
+KH0001,KH0001,"American Museum of Natural History, NY",Chuquitanta,Unknown,55.0,W,P
+KH0032,KH0032,"Peabody Museum, Harvard University","La puntilla, between Paracas and Pisco",Unknown,0.0,MB,P
+KH0033,KH0033,"Peabody Museum, Harvard University","La puntilla, between Paracas and Pisco",Unknown,215.5,MB-W:GG:AB,P
+KH0049,KH0049,"Museo Nacional de Arqueología, Antropología e Historia de Perú",Costa Sur,Unknown,31.0,YB:KB-YB,P
+KH0057,KH0057,"Museo Nacional de Arqueología, Antropología, e Historia del Perú",Unknown,Unknown,76.0,W-MB,P
+KH0058,KH0058,"Museo Nacional de Arqueología, Antropología e Historia de Perú",Unknown,Unknown,46.5,YB:MB,
+KH0067,KH0067,Valle de Ica Hacienda Callango Ocucaje,Unknown,Unknown,14.0,AB,P
+KH0080,KH0080,"O. Nunez del Prado, Cuzco",Unknown,Unknown,151.0,W:LB,P
+KH0081,KH0081,"Museo Nac., Pueblo Libre","Monte de Cacatilla, Valle de Nazca",Unknown,83.5,AB:BG-AB:MB:KB,P
+KH0083,KH0083,Museo Chileno de Arte Precolombino,Mollepampa,"Inka, Playa Miller",0.0,W:MB:DB,P
+KH0197,KH0197,"Ethnologisches Museum, Berlin, Germany",Unknown,Unknown,109.0,W:AB,P
+KH0227,KH0227,"Museum fur Volkerkunde, Vienna","Huaura Valley, near Lima, on Santa Rosalia Hacienda",Unknown,81.5,AB,P
+KH0267,KH0267,Museo Chileno de Arte Precolombino,"Playa Miller #6, Arica, Chile",Unknown,52.0,W:MB(0.0-6.0)/W(6.0-52.0),
+KH0350,KH0350,"Museum of Worldculture, Goteborg, Sweden",Pachacamac,Unknown,35.5,W-MB,
+MM001,MM001,Landesmuseum Hannover,Huacho?,Huacho,105.5,W-(YB:PB),
+MM002,MM002,Lippisches Landesmuseum Detmold,Eduard Gaffron Estate,Unknown,57.5,W:AB,
+MM003,MM003,Lippisches Landesmuseum Detmold,Eduard Gaffron Estate,Unknown,22.0,(YB:GL)-AB,
+MM004,MM004,Lippisches Landesmuseum Detmold,Unknown (not from Gaffron collections),Unknown,82.0,YB,
+MM005,MM005,"Museum am Rothenbaum, Kulturen und Kunste der Welt (MARKK), Hamburg. Formerly Museum fur Volkerkunde",Unknown,Unknown,10.5,AB:MB,
+MM006_AN001,MM006/AN001,"Museum Fur Volkerkunde, Hamburg, Germany",South Peru,unknown,56.0,W,
+MM007_AN002,MM007/AN002,"Museum Fur Volkerkunde, Hamburg, Germany",South Peru,unknown,12.5,PK,
+MM008,MM008,Museum der Kulturen (Basel),Eduard Gaffron,Unknown,11.0,W:KB,
+MM009,MM009,Museum der Kulturen (Basel),Eduard Gaffron,Unknown,2.5,AB:MB,
+MM010,MM010,Museum der Kulturen (Basel),Eduard Gaffron,Unknown,2.5,AB,
+MM011,MM011,Museum der Kulturen (Basel),Eduard Gaffron,Unknown,1.5,W:KB,
+MM012,MM012,Museum der Kulturen (Basel),Eduard Gaffron,Unknown,1.5,W:KB,
+MM013,MM013,Museum der Kulturen (Basel),Eduard Gaffron,Unknown,1.5,AB:KB,
+MM014,MM014,Museum der Kulturen (Basel),Eduard Gaffron,Unknown,1.5,W:AB,
+MM015,MM015,Museum der Kulturen (Basel),Eduard Gaffron,Unknown,6.5,W:AB,
+MM016,MM016,Museum der Kulturen (Basel),Eduard Gaffron,Unknown,7.0,AB:MB,
+MM017,MM017,Museum der Kulturen (Basel),Eduard Gaffron,Unknown,4.0,MB,
+MM018,MM018,"Museo de América, Madrid, Spain",Unknown,Unknown,64.5,W,
+MM019,MM019,"Linden Museum, Stuttgart, Germany",Unknown,Unknown,133.5,W:YB,
+MM020,MM020,"Linden Museum, Stuttgart, Germany",Unknown,Unknown,54.0,W:YB,
+MM021,MM021,"Weltkulturenmuseum, Frankfurt, Germany",Unknown,Unknown,59.0,W,
+MM1086,MM1086,Museum der Kulturen (Basel),"Dr Franz Xavier Weizinger, 1921",Unknown,13.0,MB,
+QU001,QU001,Dallas Museum of Art,Unknown,"Inka, Late Horizon",69.5,PK,
+QU002,QU002,Dallas Museum of Art,Unknown,"Inka, Late Horizon",36.0,PK,
+QU003,QU003,Dallas Museum of Art,Unknown,"Inka, Late Horizon",18.0,PK,
+QU004,QU004,Dallas Museum of Art,Unknown,"Inka, Late Horizon",11.0,BB-KB,
+QU005,QU005,Dallas Museum of Art,Unknown,"Inka, Late Horizon",28.0,GL-MB-BB,P
+QU006,QU006,Dallas Museum of Art,Unknown,"Inka, Late Horizon",13.0,YB:BB:PB,P
+QU007,QU007,Dallas Museum of Art,Unknown,"Inka, Late Horizon",68.0,BB%KB,P
+QU008,QU008,Dallas Museum of Art,Unknown,"Inka, Late Horizon",72.25,YB:MB:BB:PB,P
+QU009,QU009,Dallas Museum of Art,Unknown,"Inka, Late Horizon",76.0,YB:BB:PB,
+QU010,QU010,Dallas Museum of Art,Unknown,"Inka, Late Horizon",43.5,AB%BB,
+QU011,QU011,Dallas Museum of Art,Unknown,"Inka, Late Horizon",108.0,YB,P
+QU012,QU012,Dallas Museum of Art,Unknown,"Inka, Late Horizon",36.0,MB-BB,
+QU013,QU013,Dallas Museum of Art,Unknown,"Inka, Late Horizon",101.75,MB(0.0-58.75)/YB(58.75-101.75),P
+QU014,QU014,Dallas Museum of Art,Unknown,"Inka, Late Horizon",80.0,YB-PB-KB(0.0-49.0)/YB-BB(49.0-80.0),P
+QU015,QU015,Dallas Museum of Art,Unknown,"Inka, Late Horizon",89.0,MB-AB:YB(0.0-50.0)/AB-B-B(50.0-89.0),P
+QU016,QU016,Dallas Museum of Art,Unknown,"Inka, Late Horizon",53.5,BB(0.0-10.0)/BB(10.0-21.5)/BB-KB(21.25-53.5),P
+QU017,QU017,Dallas Museum of Art,Unknown,"Inka, Late Horizon",95.8,YB(0.0-35.3)/YB:MB(35.3-63.3)/AB(63.3-95.8),P
+QU018,QU018,Dallas Museum of Art,Unknown,"Inka, Late Horizon",79.5,YB-AB-MB(0.0-26.5)/AB(26.5-66.5)/YB(66.5-79.5),
+QU019,QU019,Dallas Museum of Art,Unknown,"Inka, Late Horizon",155.25,YB:AB(0.0-46.25)/YB(46.25-101.25)/YB:MB(101.25-136.25)/YB:MB(136.25-155.25),P
+QU020,QU020,"Logan Museum, Beloit College, Beloit, Wisconsin, USA",Unknown,Unknown,19.0,YB,P
+QU021,QU021,"Logan Museum, Beloit College, Beloit, Wisconsin, USA",Unknown,Unknown,46.0,YB,P
+QU022,QU022,"Logan Museum, Beloit College, Beloit, Wisconsin, USA",Rimac Valley,Unknown,5.8,BB-KB,P
+UR001,KH0237,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,147.0,W-B,P
+UR002,KH0238,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,39.5,W,P
+UR003,KH0239,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,0,AB,P
+UR004,KH0240,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,0.0,MB,P
+UR005,KH0241,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,23.5,W,P
+UR006,KH0242,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,220.0,GG:MB(0.0-157.0)/AB(157.0-220.0),P
+UR007,KH0243,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,29.0,MB:KB,P
+UR008,KH0244,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,16.5,W,P
+UR009,KH0245,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,90.0,MB,P
+UR010,KH0246,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,65.5,W,P
+UR011,KH0247,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,132.0,W,P
+UR012,KH0248,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,49.0,W,P
+UR013,KH0249,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,46.0,AB,P
+UR014,KH0250,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,77.5,W,P
+UR015,KH0251,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,56.0,W:BL,P
+UR016,KH0252,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,100.0,AB,P
+UR017,KH0253,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,75.5,W,P
+UR018,KH0254,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,98.0,W,P
+UR019,KH0255,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,26.0,W,P
+UR020,KH0256,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,10.5,AB:KB,P
+UR021,KH0257,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,132.0,AB,P
+UR022,KH0258,"Centro Mallqui, Leymebamba, Amazonas",Leymebamba,Chachapoyas,25.5,PK,P
+UR023,KH0259,"Museum Fur Volkerkunde, Munich, W. Germany",Atarco,Nazca,7.0,AB,P
+UR024,KH0260,"Museum Fur Volkerkunde, Munich, W. Germany",Atarco,Nazca,39.0,AB-MB,P
+UR026,KH0261,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,Unknown,38.0,W-W-MB-MB,
+UR027,KH0262,"Museum Fur Volkerkunde, Munich, W. Germany",Atarco,Nazca,43.0,-:-MB:AB,P
+UR028,KH0263,"Museum Fur Volkerkunde, Munich, W. Germany",Atarco,Nazca,54.0,AB-MB,P
+UR029,KH0264,"Museum Fur Volkerkunde, Munich, W. Germany",Atarco,Nazca,30.0,MB,P
+UR032,KH0265,Phoebe Hearst Museum of Anthropology,Unknown,Unknown,51.0,W:MB:DB:LK,
+UR033,KH0266,Phoebe Hearst Museum of Anthropology,Unknown,Unknown,57.0,W:MB,P
+UR034,KH0267,"Museo de la Nacion, Lima, Peru",Unknown,Unknown,86.5,AB,P
+UR037,KH0269,"Museo Amano, Lima, Peru",Unknown,Unknown,163.5,AB,
+UR038,KH0270,"Museo Amano, Lima, Peru",Unknown,Unknown,32.0,AB-MB-DB,P
+UR039,KH0271,Universidad de San Martin de Porres,Huari,Unknown,82.0,AB,P
+UR040,KH0272,"Peabody Museum, Harvard University",Nazca,Unknown,79.0,W:AB,P
+UR041,KH0273,"Peabody Museum, Harvard University",Unknown,Unknown,90.0,AB,P
+UR042,KH0274,"Peabody Museum, Harvard University",Unknown,Unknown,89.0,AB,P
+UR044,,"Peabody Museum, Harvard University","La puntilla, between Paracas and Pisco",Unknown,215.5,MB-W:GG:AB,P
+UR045,KH0275,Museo Larco,Unknown,Unknown,123.0,W:AB,
+UR046,KH0276,Museo Larco,"Pueblo Libre, Lima, Peru",Unknown,24.0,W:AB:MB,
+UR047,KH0277,Museo Larco,"Pueblo Libre, Lima, Peru",Unknown,0,W,
+UR048,KH0278,Museo Larco,"Pueblo Libre, Lima, Peru",Unknown,68.5,W:AB,
+UR049,KH0279,Museo Larco,Unknown,Unknown,78.5,W-MB-HB,
+UR050,KH0280,Private Collection: Anna Maria Soldi,Unknown,Unknown,67.0,RB,B
+UR051,KH0281,Banco Central de la Reserva del Peru,Unknown,Unknown,50.0,AB,P
+UR052,KH0282,Museo Central - Banco Central de Reserva,Unknown,Unknown,99.0,PK,W
+UR053A,KH0283,Banco Central de la Reserva,Unknown,Unknown,79.0,RL:AB:GG,P
+UR053B,KH0284,Banco Central de la Reserva,Unknown,Unknown,0,MB:W-MB,P
+UR053C,KH0285,Banco Central de la Reserva,Unknown,Unknown,77.0,W:RL:AB:KB,P
+UR053D,KH0286,Banco Central de la Reserva,Unknown,Unknown,69.5,W:KB,P
+UR053E,KH0287,Banco Central de la Reserva,Unknown,Unknown,103.5,W-MB,P
+UR054,KH0288,Private Collection: Anna Maria Soldi,Unknown,Unknown,63.0,DB,B
+UR055,KH0289,"Museo Oro, Fundaci195179n Miguel Mujica Gallo",Unknown,Unknown,70.0,W:AB,P
+UR056A,KH0290,"Rijksmuseum fur Volkerkunde, Leiden, Holland",Unknown,Unknown,0,KB,P
+UR056B,KH0291,"Rijksmuseum fur Volkerkunde, Leiden, Holland",Unknown,Unknown,36.0,W-W-AB-MB,P
+UR056C,KH0292,"Rijksmuseum fur Volkerkunde, Leiden, Holland",Unknown,Unknown,57.0,W:MB,
+UR057,KH0293,"Museum Fur Volkerkunde, Munich, W. Germany",Atarco,Nazca,13.0,0G:0L,P
+UR058A,KH0294,"Museo Arqueologico San Miguel de Azapa (MASMA), Arica, Chile","Playa Miller #6, Arica, Chile",Unknown,25.5,W:AB,P
+UR058B,KH0295,"Museo Arqueologico San Miguel de Azapa (MASMA), Arica, Chile",Unknown,Unknown,110.5,W:AB,P
+UR059,KH0296,"Lowe Art Museum, University of Miami",Unknown,Unknown,31.5,AB,P
+UR060,KH0297,Puruchuco Museum,Huaquerones,Puruchuco,115.0,AB:MB:HB,P
+UR061,KH0298,Puruchuco Museum,Huaquerones,Puruchuco,0,AB-AB-CB,P
+UR062,KH0299,Puruchuco Museum,Huaquerones,Puruchuco,52.0,W-W-AB-KB,P
+UR063,KH0300,Puruchuco Museum,Unknown,Puruchuco,57.0,W-W-AB-MB,P
+UR064,KH0301,Puruchuco Museum,Huaquerones,Puruchuco,62.5,AB-AB-CB-CB,P
+UR065,KH0302,Puruchuco Museum,Huaquerones,Puruchuco,20.0,W,P
+UR066,KH0303,Puruchuco Museum,Huaquerones,Puruchuco,73.5,W-AB-AB-GG,P
+UR067,KH0304,Unknown,Huaquerones,Puruchuco,67.0,AB,P
+UR068,KH0305,Puruchuco Museum,Unknown,Puruchuco,75.0,AB-AB-KB,P
+UR069,KH0306,Puruchuco Museum,Huaquerones,Puruchuco,35.0,AB:GG:MB,P
+UR070,KH0307,Puruchuco Museum,Huaquerones,Puruchuco,29.0,W-MB,P
+UR071,KH0308,Puruchuco Museum,Huaquerones,Puruchuco,0,W-MB-CB,P
+UR072,KH0309,Puruchuco Museum,Huaquerones,Puruchuco,0,AB-AB-KB-KB,P
+UR073,KH0310,Puruchuco Museum,Unknown,Puruchuco,0,PK,P
+UR074,KH0311,Puruchuco Museum,Huaquerones,Puruchuco,51.0,AB,P
+UR075,KH0312,Puruchuco Museum,Huaquerones,Puruchuco,53.0,W-W-KB-KB,P
+UR076,KH0313,Puruchuco Museum,Huaquerones,Puruchuco,41.5,W,P
+UR077,KH0314,Puruchuco Museum,Unknown,Puruchuco,47.0,W,P
+UR078,KH0315,Puruchuco Museum,Huaquerones,Puruchuco,37.5,AB-AB-KB-KB,P
+UR079,KH0316,Puruchuco Museum,Huaquerones,Puruchuco,36.0,W,P
+UR080,KH0317,Puruchuco Museum,Huaquerones,Puruchuco,50.0,MB-MB-TG-TG,P
+UR081,KH0318,Puruchuco Museum,Huaquerones,Puruchuco,66.5,W:RL,P
+UR082,KH0319,Puruchuco Museum,Huaquerones,Puruchuco,84.0,W-W-KB-KB,P
+UR084,KH0320,Museo Chileno de Arte Precolombino,"Playa Miller #6, Arica, Chile",Unknown,10.0,PK,
+UR085,KH0321,Museo Temple Radicati,Unknown,Unknown,0,W,
+UR086,KH0322,Museo Temple Radicati,Unknown,Unknown,56.0,W:AB,
+UR087,KH0323,Museo Temple Radicati,Santa,Unknown,126.5,AB-GG-GG-KB-KB,P
+UR088,KH0324,Museo Temple Radicati,Santa,Unknown,162.5,LG-AB,P
+UR089,KH0325,Museo Temple Radicati,Santa,Unknown,139.5,AB,P
+UR090,KH0326,Museo Temple Radicati,Santa,Unknown,123.5,W-AB-KB,P
+UR091,KH0327,Museo Temple Radicati,Santa,Unknown,154.0,W-W-AB-AB,P
+UR092,KH0328,Museo Temple Radicati,Santa,Unknown,38.5,W-GG,P
+UR093,KH0329,Museo Temple Radicati,Unknown,Unknown,72.0,AB:MB:KB,
+UR094,KH0330,Museo Temple Radicati,Unknown,Unknown,56.0,AB-AB-GG-GG-MB,
+UR095,KH0331,Museo Temple Radicati,Unknown,Unknown,94.5,W:RB,
+UR096,KH0332,Museo Temple Radicati,Unknown,Unknown,43.5,YB,
+UR097,KH0333,Museo Temple Radicati,Unknown,Unknown,68.5,W:AB,
+UR098,KH0334,Museo Temple Radicati,Unknown,Unknown,53.0,W,
+UR099,KH0335,Museo Temple Radicati,Unknown,Unknown,46.5,W,
+UR100,KH0336,Museo Temple Radicati,Unknown,Unknown,28.5,YB,
+UR101,KH0337,Museo Temple Radicati,Unknown,Unknown,30.5,YB,
+UR102,KH0338,Museo Temple Radicati,Unknown,Unknown,22.0,AB:MB,
+UR103,KH0339,Museo Temple Radicati,Unknown,Unknown,24.0,YB,
+UR1032,KH0034,"Peabody Museum, Harvard University",Nazca,Unknown,0,W,P
+UR1033A,KH0035,"Peabody Museum, Harvard University",Unknown,Unknown,61.5,AB-R-CB,P
+UR1033B,KH0036,"Peabody Museum, Harvard University",Unknown,Unknown,47.5,AB-GG,P
+UR1033C,KH0037,"Peabody Museum, Harvard University",Unknown,Unknown,30.0,W:LC,P
+UR1033D,KH0038,"Peabody Museum, Harvard University",Unknown,Unknown,39.5,W,P
+UR1033E,KH0039,"Peabody Museum, Harvard University",Unknown,Unknown,22.5,W,P
+UR1033F,KH0040,"Peabody Museum, Harvard University",Unknown,Unknown,16.0,W:AB,P
+UR1033G,KH0041,"Peabody Museum, Harvard University",Unknown,Unknown,0,R,P
+UR1034,KH0042,"National Museum, Smithsonian, Washington, D.C.",Pachacamac,Unknown,243.5,W,
+UR104,KH0340,Museo Temple Radicati,Unknown,Unknown,14.5,KB,
+UR1040,KH0051,"Museo Nacional, Lima, Peru",Unknown,Unknown,29.9,W,
+UR1049,KH0060,"Museo Amano, Lima, Peru",Unknown,Unknown,15.0,W-B-DB,
+UR105,KH0341,Museo Temple Radicati,Unknown,Unknown,82.0,YB,
+UR1051,KH0062,"Museo Nacional, Lima, Peru",Hacienda Ullujalla y Callengo,Unknown,39.0,MB,
+UR1052,KH0063,"Museo de Ica, Ica, Peru",Hacienda Ullujalla y Callengo,Unknown,29.0,W,
+UR1053,KH0064,"Museo de Ica, Ica, Peru",Hacienda Ullujalla y Callengo,Unknown,42.5,W,
+UR1057,KH0068,"Museo de Ica, Ica, Peru",Unknown,Unknown,195.5,YB:FB,
+UR1058,KH0069,"Museo de Ica, Ica, Peru",Unknown,Unknown,60.5,W:B,
+UR106,KH0342,Museo Temple Radicati,Unknown,Unknown,48.0,AB,
+UR107,KH0343,Museo Temple Radicati,Unknown,Unknown,30.0,AB,
+UR108,KH0344,Museo Temple Radicati,Unknown,Unknown,23.5,AB,
+UR1084,KH0097,"Musee Quai Branly, Paris, France",Unknown,Unknown,116.0,W:AB,
+UR1087,KH0100,"Museum Fur Volkerkunde, Munich, W. Germany",Peru,Unknown,86.0,W,P
+UR1088,KH0101,"Museum Fur Volkerkunde, Munich, W. Germany",Huacho,Unknown,100.5,W:DB,
+UR109,KH0345,Museo Temple Radicati,Unknown,Unknown,4.0,AB,
+UR1091,KH0104,"Museum Fur Volkerkunde, Munich, W. Germany",Unknown,Unknown,79.0,MB,
+UR1095,KH0108,"Museum Fur Volkerkunde, Munich, W. Germany",Pachacamac,Unknown,89.0,B,
+UR1096,KH0109,"Museum Fur Volkerkunde, Munich, W. Germany",Pachacamac,Unknown,66.0,PK,
+UR1097,KH0110,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,206.5,B,
+UR1098,KH0111,"Museum für Völkerkunde, Berlin",Between Ica and Pisco,Unknown,0,LB,P
+UR1099,KH0112,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,96.0,W,
+UR110,KH0346,Museo Temple Radicati,Unknown,Unknown,90.0,KB-W:AB,W
+UR1100,KH0113,"Museum für Völkerkunde, Berlin",Ica,Unknown,156.0,W-BB,
+UR1102,KH0116,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,44.5,B:BB,
+UR1103,KH0117,"Museum für Völkerkunde, Berlin",Ica,Unknown,60.5,B,
+UR1104,KH0118,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",55.5,W-MB-MB,W
+UR1105,KH0119,"Museum für Völkerkunde, Berlin",Ica,Unknown,38.5,W-B-BB,P
+UR1106,KH0120,"Museum für Völkerkunde, Berlin",Marquez,Unknown,0.0,YB,
+UR1107,KH0121,"Museum für Völkerkunde, Berlin",Marquez,Unknown,129.5,YB,P
+UR1108,KH0122,"Museum für Völkerkunde, Berlin",Between Ica and Pisco,Unknown,33.5,W:MB:LB,P
+UR1109,KH0123,"Museum für Völkerkunde, Berlin",Ica,Unknown,143.5,W-DB,P
+UR111,KH0347,Museo Temple Radicati,Unknown,Unknown,51.0,AB,
+UR1113,KH0127,"Museum für Völkerkunde, Berlin",Between Ica and Pisco,Unknown,167.0,W,P
+UR1114,KH0128,"Museum für Völkerkunde, Berlin",Between Ica and Pisco,Unknown,133.0,B-HB,P
+UR1116,KH0130,"Museum für Völkerkunde, Berlin",Ica,Unknown,33.5,W,
+UR1117,KH0131,"Museum für Völkerkunde, Berlin",Ica,Unknown,39.0,W:AB,P
+UR1118,KH0132,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,0,W:D0,B
+UR1119,KH0133,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,50.5,W:B:DB,P
+UR112,KH0348,Museo Temple Radicati,Unknown,Unknown,60.0,AB,B
+UR1120,KH0134,"Museum für Völkerkunde, Berlin",Ica,Unknown,107.0,W:GG:LB,P
+UR1121,KH0135,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,161.0,W,P
+UR1123,KH0137,"Museum für Völkerkunde, Berlin",Ica,Unknown,72.0,EB:B,P
+UR1124,KH0138,"Museum für Völkerkunde, Berlin",Marquez,Unknown,0,W,P
+UR1124_Detail_1,UR1124 Detail 1,"Museum für Völkerkunde, Berlin",Marquez,Unknown,26.0,W:YG,P
+UR1126,KH0141,"Museum für Völkerkunde, Berlin",Ica,Unknown,153.0,W:CB,P
+UR1127,KH0142,"Museum für Völkerkunde, Berlin",Nazca,Unknown,18.0,W:DB,
+UR113,KH0349,"Museum of Worldculture, Goteborg, Sweden",Nazca,Unknown,135.0,AB-AB-BG-KB,P
+UR1130,KH0145,"Museum für Völkerkunde, Berlin",near Lima,Unknown,59.5,LB,P
+UR1131,KH0147,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,200.5,W,P
+UR1135,KH0151,"Museum für Völkerkunde, Berlin",Ica,Unknown,37.5,W,P
+UR1136,KH0152,"Museum für Völkerkunde, Berlin",Nazca,Unknown,0.0,PK,P
+UR1138,KH0154,"Museum für Völkerkunde, Berlin",Ica,Unknown,38.5,G:LB,P
+UR114,KH0350,"Museum of Worldculture, Goteborg, Sweden",Nazca,Unknown,76.0,AB-MB,P
+UR1140,KH0156,"Museum für Völkerkunde, Berlin",Nazca,Unknown,0.0,W:BB,P
+UR1141,KH0157,"Museum für Völkerkunde, Berlin",Ica,Unknown,28.0,W,
+UR1143,KH0159,"Museum für Völkerkunde, Berlin",Ica,Unknown,300.5,W:BB,P
+UR1144,KH0160,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,52.5,W:LB,B
+UR1145,KH0161,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,143.0,B,P
+UR1146,KH0162,"Museum für Völkerkunde, Berlin",Ica,Unknown,55.5,W:YB:B:CB,P
+UR1147,KH0163,"Museum für Völkerkunde, Berlin",Ocucaje,Unknown,73.0,B:LB,P
+UR1148,KH0164,"Museum für Völkerkunde, Berlin",Ocucaje,Unknown,56.0,B,P
+UR1149,KH0165,"Museum für Völkerkunde, Berlin",Ocucaje,Unknown,77.5,B,P
+UR1150,KH0166,"Museum für Völkerkunde, Berlin",Ica,Unknown,110.0,W:B,P
+UR1151,KH0167,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,92.0,W-KB,P
+UR1152,KH0168,"Museum für Völkerkunde, Berlin",Ica,Unknown,69.0,W-B,P
+UR1154,KH0170,"Museum für Völkerkunde, Berlin",near Lima,Unknown,45.5,W,P
+UR1161,KH0177,"Museum für Völkerkunde, Berlin",Ica,Unknown,17.0,B,P
+UR1162A,KH0178,"Museum für Völkerkunde, Berlin",Ica,Unknown,31.5,B,P
+UR1162B,KH0179,"Museum für Völkerkunde, Berlin",Ica,Unknown,36.5,W,P
+UR1163,KH0180,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,25.0,B,P
+UR1165,KH0182,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,60.0,W,P
+UR1166,KH0183,"Museum für Völkerkunde, Berlin",Ica,Unknown,59.0,W-LB-BD,P
+UR1167,KH0184,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,62.0,W-B,P
+UR116A,KH0352,"Museum of Worldculture, Goteborg, Sweden",Unknown,Unknown,21.5,AB,P
+UR116B,KH0353,"Museum of Worldculture, Goteborg, Sweden",Unknown,Unknown,6.5,AB,P
+UR1175,KH0192,"Museum für Völkerkunde, Berlin",Pachacamac,Unknown,210.0,W:B,P
+UR1176,KH0193,"Museum für Völkerkunde, Berlin",Nazca,Unknown,51.0,W-B,P
+UR1179,KH0196,"Museum für Völkerkunde, Berlin",Ica,Unknown,22.0,W,P
+UR117A,KH0354,"Museum of Worldculture, Goteborg, Sweden",Paracas,Unknown,0,W:AB,P
+UR117B,KH0355,"Museum of Worldculture, Goteborg, Sweden",Paracas,Unknown,0,W:MB,P
+UR117C,KH0356,"Museum of Worldculture, Goteborg, Sweden",Paracas,Unknown,38.5,W-W-MB-HB-HB,P
+UR117D,KH0357,"Museum of Worldculture, Goteborg, Sweden",Paracas,Unknown,34.0,AB:W-AB:W-MB,P
+UR118,KH0358,"Museum of Worldculture, Goteborg, Sweden",Paracas,Unknown,0,W-AB-RB(0.0-21.0)/MB(21.0-88.5),P
+UR1180,UR1180,"Museum für Völkerkunde, Berlin",Ica,Unknown,44.0,W-YG,P
+UR119,KH0359,"Museum of Worldculture, Goteborg, Sweden",Paracas,Unknown,37.0,AB-MB-KB,
+UR120,KH0360,"Museum of Worldculture, Goteborg, Sweden",Huacho,Unknown,46.5,AB,
+UR121,KH0361,"Museum of Worldculture, Goteborg, Sweden",Nazca,Unknown,16.0,AB,
+UR122,KH0362,"Museum of Worldculture, Goteborg, Sweden",Nazca,Unknown,51.5,MB,
+UR123,KH0363,"Museum of Worldculture, Goteborg, Sweden",Pachacamac,Unknown,28.0,MB,
+UR124,KH0364,"Museum of Worldculture, Goteborg, Sweden",Pachacamac,Unknown,17.0,W:AB,
+UR125,KH0365,"Museum of Worldculture, Goteborg, Sweden",Paracas,Unknown,37.5,W,
+UR127,KH0366,"Museum of Worldculture, Goteborg, Sweden",Unknown,Unknown,0,W,
+UR128,KH0367,"Museum of Worldculture, Goteborg, Sweden",Unknown,Unknown,16.5,W-W-KB-KB,P
+UR129,KH0368,"Museum of Worldculture, Goteborg, Sweden",Unknown,Unknown,5.0,W,P
+UR130,KH0369,Museo Chileno de Arte Precolombino,"Playa Miller #6, Arica, Chile",Unknown,56.0,W,
+UR131A,KH0370,Museo Chileno de Arte Precolombino,Lluta Valley,Unknown,90.0,AB,P
+UR131B,KH0371,Museo Chileno de Arte Precolombino,Lluta Valley,Unknown,74.0,AB,P
+UR131C,KH0372,Museo Chileno de Arte Precolombino,Lluta Valley,Unknown,44.5,AB,P
+UR132,KH0373,Museo Chileno de Arte Precolombino,"Playa Miller #6, Arica, Chile",Unknown,5.0,PK,
+UR134,KH0374,"Lowe Art Museum, University of Miami","Chancay, Central Coast",Unknown,0,W,
+UR135,KH0375,"Lowe Art Museum, University of Miami","Chancay, Central Coast",Unknown,20.5,AB,P
+UR136,KH0376,"Lowe Art Museum, University of Miami","Chancay, Central Coast",Unknown,22.0,AB,P
+UR137,KH0377,"Lowe Art Museum, University of Miami","Chancay, Central Coast",Unknown,36.0,W-AB-MB,P
+UR138,KH0378,"Lowe Art Museum, University of Miami",Cuzco,Unknown,8.0,W-AB,P
+UR139,KH0379,Museo Regional de Ica,Valle de Ica Hacienda Callango Ocucaje,Unknown,23.5,W:AB:KB,P
+UR140,KH0380,Museo Regional de Ica,Valle de Ica Hacienda Callango Ocucaje,Unknown,29.0,AB,P
+UR141,KH0381,Museo Regional de Ica,Unknown,Unknown,31.5,AB-KB,P
+UR142,KH0382,Museo Regional de Ica,Valle de Ica Hacienda Callango Ocucaje,Unknown,6.5,AB-AB-KB,P
+UR143,KH0383,Museo Regional de Ica,Valle de Ica Hacienda Callango Ocucaje,Unknown,32.0,W-KB,P
+UR144,KH0384,On loan to Ica Museum,Valle de Pisco,Unknown,12.0,SR,P
+UR145,KH0385,Museo Regional de Ica,Acari,Unknown,102.0,AB-MB,P
+UR146,KH0386,Museo Regional de Ica,Donation from the collection Belli,Unknown,69.0,MB,P
+UR147,KH0387,Museo Regional de Ica,Unknown,Unknown,0.0,AB:KB,P
+UR148,KH0388,Museo Regional de Ica,Unknown,Unknown,10.5,W,P
+UR149,KH0389,Museo Regional de Ica,Hacienda Ullujalla y Callengo,Unknown,35.5,AB-MB,P
+UR150,KH0390,Museo Regional de Ica,Unknown,Unknown,28.5,AB:GG:KB,P
+UR151,KH0391,Museo Regional de Ica,Valle de Ica Hacienda Callango Ocucaje,Unknown,20.5,W:AB,P
+UR152,KH0392,Museo Regional de Ica,Hacienda Ullujalla y Callengo,Unknown,31.0,AB-MB,P
+UR153,KH0393,Museo Regional de Ica,Unknown,Unknown,38.5,MB:KB,P
+UR154,KH0394,Museo Regional de Ica,Valle de Ica Hacienda Callango Ocucaje,Unknown,91.5,W-MB-MB,P
+UR155,KH0395,Museo Regional de Ica,Valle de Ica Hacienda Callango Ocucaje,Unknown,46.5,GG-HB-HB,P
+UR156,KH0396,Museo Regional de Ica,Tambo Colorado,Unknown,20.0,W,P
+UR157,KH0397,Museo Regional de Ica,Tambo Colorado,Unknown,12.5,W,P
+UR158,KH0398,Museo Regional de Ica,Tambo Colorado,Unknown,26.0,AB,P
+UR159,KH0399,Museo Regional de Ica,Tambo Colorado,Unknown,30.0,W:AB(0.0-14.5)/W(14.5-30.0),P
+UR160,KH0400,Museo Regional de Ica,Unknown,Unknown,34.0,AB-AB-HB,P
+UR161,KH0401,Valle de Ica Hacienda Callango Ocucaje,Unknown,Unknown,15.5,AB,P
+UR162,KH0402,Museo Regional de Ica,Valle de Ica Hacienda Callango Ocucaje,Unknown,16.0,AB,P
+UR164,KH0403,Museo Regional de Ica,Unknown,Unknown,13.5,AB:MB,P
+UR165,KH0404,Puruchuco Museum,La Molina,Puruchuco,62.0,PK,P
+UR166,KH0405,"American Museum of Natural History, NY","Huando, Chancay, Peru (Gaffron Collection)",Unknown,13.0,W-KB,P
+UR167,KH0406,"American Museum of Natural History, NY",Ica or Cajamarquilla,Unknown,32.0,MB,P
+UR168,KH0407,"American Museum of Natural History, NY",Ica,Unknown,47.5,MB:KB,P
+UR169,KH0408,"American Museum of Natural History, NY","Ica Valley, near Callango",Unknown,18.5,KB,P
+UR170,KH0409,"American Museum of Natural History, NY",Unknown,Unknown,77.0,W-AB,P
+UR171,KH0410,"American Museum of Natural History, NY",Unknown,Unknown,31.0,W,P
+UR172,KH0411,"American Museum of Natural History, NY",Unknown,Unknown,34.0,AB-GG,P
+UR173,KH0412,"American Museum of Natural History, NY",Unknown,Unknown,55.0,W,
+UR174,KH0413,"American Museum of Natural History, NY",Unknown,Unknown,28.5,W:AB,
+UR175,KH0414,"American Museum of Natural History, NY",Unknown,Unknown,38.0,W:AB,P
+UR177,KH0415,"American Museum of Natural History, NY",Chuquitanta,Unknown,28.5,AB,P
+UR178,KH0416,"American Museum of Natural History, NY",Cajamarquilla,Unknown,28.0,W:AB,P
+UR179,KH0417,"American Museum of Natural History, NY",Cajamarquilla,Unknown,33.5,HB,P
+UR180,KH0418,"American Museum of Natural History, NY",Cajamarquilla,Unknown,32.5,PK:AB:KB,
+UR182,KH0420,"American Museum of Natural History, NY",Chuquitanta,Unknown,44.0,AB,P
+UR183,KH0421,"American Museum of Natural History, NY","Chancay, Central Coast",Unknown,51.5,AB-MB-KB,P
+UR184,KH0422,"American Museum of Natural History, NY",Unknown,Unknown,38.0,W-W-KB,P
+UR185,KH0423,"American Museum of Natural History, NY",Unknown,Unknown,43.0,AB,P
+UR186,KH0424,"American Museum of Natural History, NY","Hda. Huando, Chancay",Unknown,33.5,AB,P
+UR187,KH0425,"American Museum of Natural History, NY","Ica Valley, near Callango",Unknown,50.5,AB:KB,P
+UR188,KH0426,Musee Quai Branly,Unknown,Unknown,107.0,PK,P
+UR189,KH0427,"Musee Quai Branly, Paris, France",Unknown,Unknown,82.0,MB,P
+UR190,KH0428,"Musee Quai Branly, Paris, France","Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)","Central Coast, Peru",168.0,PK,P
+UR191,KH0429,"Musee Quai Branly, Paris, France","Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)","Central Coast, Peru",37.0,AB,P
+UR192,KH0430,"Musee Quai Branly, Paris, France","Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)","Central Coast, Peru",108.0,AB-MB,
+UR193,KH0431,"Ethnologisches Museum, Berlin, Germany","Peru, Fundort: Pachacmac","Central Coast, Peru",75.0,W:GG,
+UR194,KH0432,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",78.5,PK,
+UR195,KH0433,"Ethnologisches Museum, Berlin, Germany",Huacho,"Central Coast, Peru",107.5,W-AB,
+UR196,KH0434,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",85.0,PK,
+UR197,KH0435,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",280.5,AB,
+UR198,KH0436,"Ethnologisches Museum, Berlin, Germany","Santa Clara, Nazca","South Coast, Peru",72.0,W-MB,
+UR199,KH0437,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",78.0,W:AB:GG:KB,
+UR200,KH0438,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",77.5,W-MB,
+UR201,KH0439,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",62.4,W-MB,
+UR202,KH0440,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",26.0,W-MB,
+UR203,KH0441,"Ethnologisches Museum, Berlin, Germany",Unknown,Unknown,109.5,W,P
+UR204,KH0442,"Ethnologisches Museum, Berlin, Germany",Unknown,Unknown,30.0,AB:MB,
+UR205,KH0443,"Ethnologisches Museum, Berlin, Germany",Unknown,Unknown,51.0,W,
+UR206,KH0444,"Ethnologisches Museum, Berlin, Germany",Unknown,Unknown,25.5,MB,
+UR207,KH0445,"Ethnologisches Museum, Berlin, Germany",Unknown,Unknown,33.5,W-MB:W,P
+UR208,KH0446,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",240.0,W,P
+UR209,KH0447,"Ethnologisches Museum, Berlin, Germany",Pisco,"South Coast, Peru",59.0,W:LA:G0:MB,P
+UR210,KH0448,"Ethnologisches Museum, Berlin, Germany",Ica/Pisco,"South Coast, Peru",0.0,AB,P
+UR211,KH0449,"Ethnologisches Museum, Berlin, Germany",Ica/Pisco,"South Coast, Peru",74.0,PK,P
+UR212,KH0450,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",172.0,AB,P
+UR213,KH0451,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",51.5,W-W-AB,P
+UR214,KH0452,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",61.5,AB,P
+UR215,KH0453,"Ethnologisches Museum, Berlin, Germany",Unknown,Unknown,83.0,AB(0.0-33.0)/W-AB(33.0-59.5)/AB(59.5-83.0),P
+UR216,KH0454,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",68.0,FR,
+UR217,KH0455,"Ethnologisches Museum, Berlin, Germany",Ocucaje,"South Coast, Peru",90.0,W-MB,
+UR218,KH0456,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",28.0,AB,
+UR219,KH0457,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",106.0,W-GG,
+UR220,KH0458,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",24.5,W,
+UR221,KH0459,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",17.5,G0,
+UR222,KH0460,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",40.0,W-KB,
+UR223,KH0461,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",66.0,GG-GG-MB-MB,
+UR225,KH0462,"Ethnologisches Museum, Berlin, Germany",Unknown,Unknown,57.0,W:AB:GG:MB,
+UR226,KH0463,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",137.0,AB,
+UR227,KH0464,"Ethnologisches Museum, Berlin, Germany",Pisco,"South Coast, Peru",56.0,W:AB:BG,
+UR228,KH0465,"Ethnologisches Museum, Berlin, Germany",Pisco,"South Coast, Peru",77.0,W:MB,
+UR229,KH0466,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",59.0,W-MB-HB,
+UR230,KH0467,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",47.0,MB,
+UR231,KH0468,"Ethnologisches Museum, Berlin, Germany",Ica/Pisco,"South Coast, Peru",304.0,W:AB:KB,B
+UR232,KH0469,"Ethnologisches Museum, Berlin, Germany",Huacho,"North-Central Coast, Peru",81.0,AB,
+UR233,KH0470,"Ethnologisches Museum, Berlin, Germany",Huacho,"North-Central Coast, Peru",66.0,KB:W-W,
+UR234,KH0471,"Ethnologisches Museum, Berlin, Germany",Unknown,Unknown,78.0,AB,
+UR235,KH0472,"Ethnologisches Museum, Berlin, Germany",Unknown,Unknown,119.0,W:AB:GG:MB,
+UR237,KH0473,"Ethnologisches Museum, Berlin, Germany",Unknown,Unknown,129.0,AB,
+UR238,KH0474,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",44.5,AB-AB-HB-HB,
+UR239,KH0475,"Ethnologisches Museum, Berlin, Germany",Unknown,Unknown,61.0,CB:W-CB:W-AB,
+UR240,KH0476,"Ethnologisches Museum, Berlin, Germany",Unknown,Unknown,71.0,AB,
+UR241,KH0477,"Ethnologisches Museum, Berlin, Germany",Unknown,Unknown,14.0,KB,
+UR242,KH0478,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",51.0,AB:MB,
+UR243,KH0479,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",68.5,W,
+UR244,KH0480,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",121.5,W:AB:KB,
+UR245,KH0481,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",27.0,W:MB,
+UR246,KH0482,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",57.0,W:AB:MB,
+UR247,KH0483,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",59.5,W,
+UR248,KH0484,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",39.0,W-KB,
+UR249,KH0485,"Ethnologisches Museum, Berlin, Germany",Pachacamac,"Central Coast, Peru",46.0,AB:BG:KB,
+UR250,KH0486,"Ethnologisches Museum, Berlin, Germany",Ica,"South Coast, Peru",35.5,AB:PR,
+UR251,KH0487,"Museum fur Volkerkunde, Leipzig",Unknown,Unknown,8.0,AB,P
+UR252,KH0488,"Museum fur Volkerkunde, Leipzig",Unknown,Unknown,153.0,AB,P
+UR253,KH0489,"Museum fur Volkerkunde, Leipzig",Pachacamac,Unknown,29.5,KB,P
+UR254,KH0490,"Museum fur Volkerkunde, Leipzig",Pachacamac,Unknown,37.0,W-KB,P
+UR255,KH0491,Projecto Incahuasi,Incahuasi,Unknown,93.0,AB-MB,P
+UR256,KH0492,Proyecto Incahuasi,Incahuasi,Unknown,94.0,MB,P
+UR257,KH0493,Projecto Arqueologico Incahuasi,Incahuasi,Unknown,46.0,MB,P
+UR258,KH0494,Proyecto Incahuasi,Incahuasi,Unknown,53.0,AB,P
+UR259,KH0495,Proyecto Incahuasi,Incahuasi,Unknown,45.5,AB:MB,P
+UR260,KH0496,Proyecto Incahuasi,Incahuasi,Unknown,33.0,AB,P
+UR261,KH0497,Proyecto Incahuasi,Incahuasi,Unknown,24.5,AB,P
+UR262,KH0498,Proyecto Incahuasi,Incahuasi,Unknown,95.5,MB,P
+UR263,KH0499,Proyecto Incahuasi,Incahuasi,Unknown,122.5,W-W-KB:W,P
+UR264,KH0500,Proyecto Incahuasi,Incahuasi,Unknown,86.5,AB,P
+UR265,KH0501,Proyecto Incahuasi,Incahuasi,Unknown,43.0,MB,P
+UR266,KH0502,Proyecto Incahuasi,Incahuasi,Unknown,114.0,W-AB-MB,P
+UR267A,KH0503,Proyecto Incahuasi,Incahuasi,Unknown,95.5,W,P
+UR267B,KH0504,Proyecto Incahuasi,Incahuasi,Unknown,56.0,W,P
+UR268,KH0505,Proyecto Incahuasi,Incahuasi,Unknown,131.0,GG:MB,P
+UR269,KH0506,Proyecto Incahuasi,Incahuasi,Unknown,216.0,PK,P
+UR270,KH0507,Proyecto Incahuasi,Incahuasi,Unknown,73.5,AB,P
+UR271,KH0508,Proyecto Incahuasi,Incahuasi,Unknown,29.5,W,P
+UR272,KH0509,Proyecto Incahuasi,Incahuasi,Unknown,70.0,W,P
+UR273A,KH0510,Proyecto Incahuasi,Incahuasi,Unknown,127.0,W-MB,P
+UR273B,KH0511,Proyecto Incahuasi,Incahuasi,Unknown,164.0,W,P
+UR274A,KH0512,Proyecto Inahuasi,Incahuasi,Unknown,101.0,AB-MB-KB,P
+UR274B,KH0513,Proyecto Incahuasi,Incahuasi,Unknown,84.0,LG-0G-MB,P
+UR275,KH0514,Proyecto Incahuasi,Incahuasi,Unknown,159.0,AB-KB,P
+UR276,KH0515,Proyecto Incahuasi,Incahuasi,Unknown,48.0,AB,P
+UR277,KH0516,Proyecto Incahuasi,Incahuasi,Unknown,60.0,AB,P
+UR278,KH0517,Proyecto Incahuasi,Incahuasi,Unknown,153.0,W-KB-KB,P
+UR279,KH0518,Proyecto Incahuasi,Incahuasi,Unknown,20.5,NB:GG,P
+UR280,KH0519,Proyecto Incahuasi,Incahuasi,Unknown,68.0,W-GG-GG,P
+UR282,KH0520,"Museo Nac., Pueblo Libre","Huaca San Pedro, Armatambo",Unknown,31.0,YB,P
+UR283,KH0521,"Museo Nac., Pueblo Libre","Huaca San Pedro, Armatambo",Unknown,93.0,KB:W-W,P
+UR284,KH0522,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,51.5,W-MB,P
+UR285,KH0523,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,54.0,W-AB,P
+UR286,KH0524,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,41.0,W,P
+UR287,KH0525,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,48.5,W-W-MB,P
+UR288,KH0526,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,27.0,W,P
+UR289,KH0527,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,40.0,W,P
+UR290,KH0528,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,25.0,W,P
+UR291A,KH0529,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,44.0,KB:MB-KB,P
+UR292A,KH0530,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,57.0,W-RD,P
+UR293,KH0531,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,19.0,W-KB-KB,P
+UR294,KH0532,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,31.0,MB,P

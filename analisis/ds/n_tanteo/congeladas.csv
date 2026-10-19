@@ -1,0 +1,8 @@
+id,variante,congelada,regla,parametros,criterio
+H06,UR275,True,"registro = cabecera == suma(cuerdas no cabecera), exacto; mitad confirmar",cuota=47; exacto,"p_perm<0,05 con cabeceras barajadas"
+H06,UR269,True,"registro = cabecera == suma(cuerdas no cabecera), exacto; mitad confirmar",cuota modal; exacto,"p_perm<0,05 con cabeceras barajadas"
+H07,UR278,True,"celda_ij = total_i * P_j / 100, P congelado de exploracion; MAE por celda en confirmar","P=[13.5, 13.6, 8.7, 10.7, 11.6, 12.5, 12.4, 8.7, 8.3]","MAE < novenos iguales y p_perm<0,05 con columnas barajadas por fila"
+H16,UR275,True,"|cabecera - suma(resto)|/cabecera < 0,05; mitad confirmar","umbral=0,05; cuota=47","p_perm<0,05 con destinos barajados entre registros"
+H16,UR269,True,"|cabecera - suma(resto)|/cabecera < 0,05; mitad confirmar","umbral=0,05","p_perm<0,05 con destinos barajados entre registros"
+H09,escalera,False,"triple 2433->2533->2633, paso +100",un solo triple,no confirmable con n=1; queda especulativo
+H08,UR278,False,rho perfil explore vs confirm,se elimina: habria usado confirmacion para explorar,no cuenta como confirmacion

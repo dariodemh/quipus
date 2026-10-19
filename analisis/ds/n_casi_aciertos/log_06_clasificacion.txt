@@ -1,0 +1,67 @@
+=== NULO AGREGADO ===
+relaciones con destino: 35 | reparables con 1 edicion: 31 | esperadas: 28.34 (exceso +2.66)
+p binomial aproximado = 0.1771 (pbar=0.810); no corrige dependencia entre relaciones
+
+                 n  con_destino  reparables  candidatas_medianas
+familia                                                         
+R1_ur278_fila    7            7           6                 21.0
+R2_ur278_celda   8            8           6                  6.5
+R3_ur273ab      10            7           7                  4.0
+R4_ur274a_273b  10            4           4                  0.0
+R5_cuota         9            9           8                  2.0
+
+=== CLASES ===
+clase
+ambiguo                          17
+sin_destino                       9
+error_de_lectura_plausible        8
+sistematico                       5
+discrepancia_real_o_compuesta     4
+discrepancia_entre_copias         1
+
+=== TABLA ===
+       familia      relacion  residual  n_ediciones                         clase cuerda    lado    tipo_error  relaciones_que_resuelve
+ R1_ur278_fila            g4      24.0            0 discrepancia_real_o_compuesta    NaN     NaN           NaN                      NaN
+ R1_ur278_fila            g8       6.0           21    error_de_lectura_plausible    p77 detalle     insercion                      1.0
+ R1_ur278_fila           g12     100.0           21     discrepancia_entre_copias   p109 detalle conteo_simple                      1.0
+ R1_ur278_fila           g13       1.0           40                       ambiguo   p118 detalle       vueltas                      1.0
+ R1_ur278_fila           g17      -1.0           18                       ambiguo   p156 detalle       vueltas                      1.0
+ R1_ur278_fila           g19       1.0           43                       ambiguo   p172 detalle       vueltas                      1.0
+ R1_ur278_fila           g21      -1.0           18    error_de_lectura_plausible   p180 detalle       vueltas                      2.0
+R2_ur278_celda g21c1~UR270g0       1.0            9    error_de_lectura_plausible   p180   libro       vueltas                      2.0
+R2_ur278_celda g25c1~UR270g4       1.0           12                   sistematico    p18 detalle       vueltas                      1.0
+R2_ur278_celda g27c1~UR270g8      -1.0           11    error_de_lectura_plausible  p46s1 detalle       vueltas                      1.0
+R2_ur278_celda g27c2~UR270g8      -1.0            9                       ambiguo  p47s1 detalle       vueltas                      1.0
+R2_ur278_celda g27c4~UR270g8     -44.0            0 discrepancia_real_o_compuesta    NaN     NaN           NaN                      NaN
+R2_ur278_celda g28c6~UR270g9     -94.0            0 discrepancia_real_o_compuesta    NaN     NaN           NaN                      NaN
+R2_ur278_celda g28c7~UR270g9     -29.0            2                       ambiguo  p61s1 detalle ocho_vs_largo                      1.0
+R2_ur278_celda g28c9~UR270g9      -2.0            4                       ambiguo   p231   libro ocho_vs_largo                      1.0
+    R3_ur273ab          reg0      10.0            4    error_de_lectura_plausible     p2 detalle conteo_simple                      1.0
+    R3_ur273ab          reg1       NaN            0                   sin_destino    NaN     NaN           NaN                      NaN
+    R3_ur273ab          reg4    1000.0            5                       ambiguo    p26 detalle conteo_simple                      1.0
+    R3_ur273ab          reg6       NaN            0                   sin_destino    NaN     NaN           NaN                      NaN
+    R3_ur273ab         reg13     -10.0            4    error_de_lectura_plausible    p44 detalle conteo_simple                      1.0
+    R3_ur273ab         reg17       NaN            0                   sin_destino    NaN     NaN           NaN                      NaN
+    R3_ur273ab         reg18      -1.0            7                       ambiguo   p171   libro       vueltas                      2.0
+    R3_ur273ab         reg19      -1.0            6                       ambiguo   p171   libro       vueltas                      2.0
+    R3_ur273ab         reg20     -10.0            4    error_de_lectura_plausible    p67 detalle conteo_simple                      1.0
+    R3_ur273ab         reg21    1000.0            5                       ambiguo   p103 detalle conteo_simple                      1.0
+R4_ur274a_273b          reg0       NaN            0                   sin_destino    NaN     NaN           NaN                      NaN
+R4_ur274a_273b          reg2       NaN            0                   sin_destino    NaN     NaN           NaN                      NaN
+R4_ur274a_273b          reg3   -1000.0            4                       ambiguo    p20 detalle conteo_simple                      1.0
+R4_ur274a_273b          reg4       1.0            6                       ambiguo    p15 detalle     insercion                      1.0
+R4_ur274a_273b         reg11       NaN            0                   sin_destino    NaN     NaN           NaN                      NaN
+R4_ur274a_273b         reg13       NaN            0                   sin_destino    NaN     NaN           NaN                      NaN
+R4_ur274a_273b         reg14       1.0           11                       ambiguo    p49 detalle ocho_vs_largo                      1.0
+R4_ur274a_273b         reg19    -100.0            3                       ambiguo    p97 detalle conteo_simple                      1.0
+R4_ur274a_273b         reg20       NaN            0                   sin_destino    NaN     NaN           NaN                      NaN
+R4_ur274a_273b         reg21       NaN            0                   sin_destino    NaN     NaN           NaN                      NaN
+      R5_cuota           p51       7.0            2    error_de_lectura_plausible    p51 detalle     insercion                      1.0
+      R5_cuota            p9       7.0            2                   sistematico     p9 detalle     insercion                      1.0
+      R5_cuota           p13       7.0            2                   sistematico    p13 detalle     insercion                      1.0
+      R5_cuota           p19       7.0            2                   sistematico    p19 detalle     insercion                      1.0
+      R5_cuota           p64       7.0            2                   sistematico    p64 detalle     insercion                      1.0
+      R5_cuota           p88       2.0            2                       ambiguo    p88 detalle     insercion                      1.0
+      R5_cuota          p100       5.0            2                       ambiguo   p100 detalle     insercion                      1.0
+      R5_cuota           p94      70.0            1                       ambiguo    p94 detalle     insercion                      1.0
+      R5_cuota           p86     -94.0            0 discrepancia_real_o_compuesta    NaN     NaN           NaN                      NaN

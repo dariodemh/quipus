@@ -1,0 +1,6 @@
+escenario,m3_min,m3_max,supuesto
+S1_solo_A_6400_de_Hyslop,6400,6400,lectura literal: 6400 m3 para los 'square storage bins' de A
+S2_A3_209_bins_3.5-4.5m,5120,8464,"209 bins de 3,5-4,5 m de lado x 2 m"
+S3_A3+A2_si_A2_es_almacen,9332,13648,"36 camaras de 15x6 m x 1,3-1,6 m"
+S4_sitio_A+G_si_A2_es_almacen,10876,16200,"S3 + 63 cuartos de G de 3,5-4,5 m x 2 m"
+S5_sitio_A+G_sin_A2,7944,8952,6400 (A) + G

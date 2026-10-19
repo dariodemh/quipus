@@ -1,0 +1,12 @@
+k,observados,esperados,p_binomial,p_montecarlo,cuales
+2,8,6.5,0.29052734375,0.29253537323133844,"kallankas_A1, secaderos_A1, camaras_grandes_por_lado_A2, cubiculos_E1, recintos_rectangulares_A, unidades_F1, cuartos_B, cuartos_D"
+3,7,4.33,0.10353924518431966,0.1015949202539873,"camaras_grandes_por_lado_A2, cubiculos_E1, cuartos_E2, cuartos_G, recintos_rectangulares_A, cuartos_B, cuartos_D"
+4,4,3.25,0.4157472848892212,0.40812959352032396,"kallankas_A1, cubiculos_E1, cuartos_B, cuartos_D"
+5,4,2.6,0.2526756904960004,0.25313734313284336,"recintos_rectangulares_A, cuartos_C, cuartos_B, cuartos_D"
+6,5,2.17,0.05115470052215641,0.04514774261286936,"camaras_grandes_por_lado_A2, cubiculos_E1, recintos_rectangulares_A, cuartos_B, cuartos_D"
+7,3,1.86,0.2810636164061036,0.27018649067546624,"cuartos_G, unidades_F1, cuartos_H"
+8,3,1.62,0.21591146635546465,0.21173941302934854,"cubiculos_E1, cuartos_B, cuartos_D"
+9,3,1.44,0.16867212813465093,0.15499225038748063,"camaras_grandes_por_lado_A2, cuartos_E2, cuartos_G"
+10,3,1.3,0.1338827547916001,0.13144342782860857,"recintos_rectangulares_A, cuartos_B, cuartos_D"
+11,1,1.18,0.710335620263312,0.6991650417479126,bins_pequenos_A3
+12,3,1.08,0.08801132741791748,0.0815459227038648,"cubiculos_E1, cuartos_B, cuartos_D"

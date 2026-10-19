@@ -1,0 +1,6 @@
+[submodule "data/external/open-khipu-repository"]
+	path = data/external/open-khipu-repository
+	url = https://github.com/khipulab/open-khipu-repository
+[submodule "data/external/data-science-khipu-article"]
+	path = data/external/data-science-khipu-article
+	url = https://github.com/khipufieldguide/data-science-khipu-article

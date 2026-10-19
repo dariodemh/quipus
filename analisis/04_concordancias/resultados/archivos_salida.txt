@@ -1,0 +1,246 @@
+         A       B   nA   nB   score             p             q      p_bloque  alineadas  exactas  tolerantes  discordantes  huecos  frac_color_igual  frac_nudos_identicos  rango_en_A  rango_en_B  sentido                                                                                    clase
+0    HP055  UR1084  162  258  315.00  1.162000e-91  2.346000e-86  2.864000e-46        142      121           8            13      27          0.140845              0.000000           1           1  directo                                                                candidato a copia/versión
+1   UR1175   UR233  268   94  163.00  4.044000e-46  4.083000e-41  3.589000e-27         93       77          11             5      43          0.096774              0.000000           1           1  directo                                                                candidato a copia/versión
+2   KH0049   UR122  351  160  154.50  2.119000e-43  1.426000e-38  5.460000e-40         80       60           2            18      19          0.300000              0.000000           1           1  directo                                                                candidato a copia/versión
+3   UR053B  UR053C   54   61  110.10  5.192000e-31  2.621000e-26  2.217000e-09         48       35           3            10       0          0.833333              0.020833           1           1  directo                               copia dentro de un conjunto con el mismo n.º de inventario
+4    UR006   UR009  551  100   95.25  3.124000e-25  1.220000e-20  3.874000e-16         61       55           4             2       8          0.409836              0.065574           1           1  inverso                                                                candidato a copia/versión
+5    UR064   UR068   49   51   90.03  3.626000e-25  1.220000e-20  4.806000e-10         47       41           4             2       5          0.595745              0.000000           1           1  directo                                                                candidato a copia/versión
+6   UR1175   UR232  268   76   85.93  4.292000e-23  1.238000e-18  7.074000e-18         50       38           6             6      18          0.220000              0.020000           2           1  directo                                                                candidato a copia/versión
+7   KH0033   UR044   23   23   76.16  2.085000e-21  5.262000e-17  3.996000e-03         23       23           0             0       0          0.913043              0.000000           1           1  directo                                                      duplicado de base (mismo número KH)
+8   UR1107   UR237   26   26   75.65  2.996000e-21  6.721000e-17  3.030000e-05         26       23           0             3       0          0.000000              0.076923           1           1  inverso                              probable mismo objeto registrado dos veces (no documentado)
+9    AS128   QU013  140  150   66.82  2.184000e-17  4.410000e-13  1.294000e-10         28       28           0             0       0          0.000000              0.000000           1           1  inverso  débil: baja diversidad (<=4 valores distintos en el tramo; posible artefacto de rachas)
+10   MM015   UR212   28  162   60.17  4.562000e-16  8.375000e-12  9.188000e-06         13       13           0             0       0          0.000000              0.000000           1           1  inverso                                                                candidato a copia/versión
+11  UR1114  UR1123  175   70   55.28  1.498000e-14  2.522000e-10  8.804000e-05         10       10           0             0       0          0.000000              0.000000           1           1  directo                                                                candidato a copia/versión
+12   UR009   UR021  100  137   52.96  1.957000e-13  3.039000e-09  1.951000e-07         21       18           1             2       0          0.238095              0.142857           2           1  inverso                                                                candidato a copia/versión
+13   UR066   UR067   22   22   48.07  3.871000e-13  5.584000e-09  3.234000e-04         21       20           0             1       2          0.523810              0.095238           1           1  directo                                                                candidato a copia/versión
+14   MM016   UR212   18  162   49.68  4.869000e-13  6.555000e-09  5.342000e-04         13       11           1             1       1          0.000000              0.000000           1           2  inverso                                                                candidato a copia/versión
+15   UR006   UR021  551  137   53.09  1.407000e-12  1.776000e-08  4.292000e-07         19       18           1             0       2          0.578947              0.052632           2           2  directo                                                                candidato a copia/versión
+16   AS125   UR247   15   15   44.34  2.518000e-12  2.991000e-08  2.198000e-02         15       14           0             1       0          1.000000              0.000000           1           1  directo                                                   duplicado de base (documentado en OKR)
+17   UR113   UR271  723   91   41.84  1.035000e-09  1.161000e-05  1.998000e-03         10        9           0             1       1          0.100000              0.000000           1           1  directo  débil: baja diversidad (<=4 valores distintos en el tramo; posible artefacto de rachas)
+18  UR1118   UR218   16   62   29.95  2.347000e-08  2.494000e-04  1.199000e-02          8        7           0             1       0          1.000000              0.000000           1           1  directo                                                                candidato a copia/versión
+19   QU002   UR137   58   28   32.02  4.509000e-08  4.552000e-04  1.998000e-03         11       10           1             0       1          1.000000              0.181818           1           1  directo                                                                candidato a copia/versión
+20   AS159   AS173   52   15   27.88  3.267000e-07  3.141000e-03  6.993000e-03          8        8           0             0       0          0.375000              0.000000           1           1  directo                                                                candidato a copia/versión
+21   MM008   UR212   47  162   30.73  5.132000e-07  4.573000e-03  9.990000e-04          8        8           0             0       1          0.875000              0.000000           1           3  directo                                                                candidato a copia/versión
+22   UR255  UR267A   65   76   29.88  5.209000e-07  4.573000e-03  2.319000e-05         28       27           1             0      14          0.142857              0.000000           1           1  directo                                                                candidato a copia/versión
+23   MM016  UR1131   18  205   29.44  2.170000e-06  1.825000e-02  1.019000e-01          5        5           0             0       0          1.000000              0.000000           2           1  directo                                                                candidato a copia/versión
+24   MM019  UR131C  218   68   25.82  5.850000e-06  4.725000e-02  2.997000e-03          8        7           0             1       0          0.000000              0.000000           1           1  inverso                                                                candidato a copia/versión
+         A       B      tramo_A      tramo_B  r_largo  dif_med_largo_cm  r_pos_nudo  dif_med_pos_nudo_cm
+0    HP055  UR1084      p1-p185      p1-p180     0.31              6.00        0.89                 3.00
+1   UR1175   UR233      p1-p104      p2-p126     0.25             24.00        0.92                 8.00
+2   KH0049   UR122    p77-p99s1    p41-p63s1     0.47              7.50        0.52                 2.75
+3   UR053B  UR053C     p1-p32s1      p11-p58     0.29              3.75        0.77                 2.00
+4    UR006   UR009  p276-p338s6     p145-p59    -0.04              7.50        0.69                 1.50
+5    UR064   UR068       p1-p70       p1-p72     0.54              6.00        0.81                 2.00
+6   UR1175   UR232    p160-p223     p49-p124     0.04             15.50        0.85                 1.00
+7   KH0033   UR044     p1s1-p17     p1s1-p17     1.00              0.00        1.00                 0.00
+8   UR1107   UR237       p1-p29       p30-p1     0.99              1.25        0.92                 1.00
+9    AS128   QU013    p203-p259      p70-p11     0.17              2.50        0.54                 1.95
+10   MM015   UR212       p1-p13    p194-p182     0.41              7.50        0.98                 1.00
+11  UR1114  UR1123      p40-p49      p41-p50     0.58             10.75        0.99                 3.50
+12   UR009   UR021    p117-p141      p37-p15    -0.34             11.50        0.75                 1.00
+13   UR066   UR067     p1-p32s2     p1-p32s2     0.57              7.50        0.96                 1.00
+14   MM016   UR212       p1-p13    p153-p140     0.19             10.50        0.94                 3.50
+15   UR006   UR021  p279-p292s9      p15-p36     0.17              8.00        0.63                 2.00
+16   AS125   UR247       p1-p15       p1-p15     0.92              2.00        0.06                 1.00
+17   UR113   UR271      p25-p33  p3-p4s1s1s2     0.46              7.25       -0.50                 1.00
+18  UR1118   UR218        p2-p9       p7-p14     0.19             10.75       -0.29                 2.50
+19   QU002   UR137      p10-p17      p11-p18     0.83              4.00        0.97                 2.00
+20   AS159   AS173        p1-p7        p2-p8     0.67              4.25        0.97                 4.50
+21   MM008   UR212      p16-p23       p6-p14     0.67              6.00        0.98                 2.25
+22   UR255  UR267A      p13-p57      p11-p52     0.41              6.75        0.89                 1.25
+23   MM016  UR1131      p15-p19      p35-p39     0.13              4.00        0.97                 0.50
+24   MM019  UR131C  p14s2-p18s1  p38s1s1-p34     0.06              7.75       -0.71                 5.50
+         A       B    kh_A    kh_B                           procedencia_A                           procedencia_B                                                           museo_A                                   museo_B         n_coleccion_A         n_coleccion_B
+0    HP055  UR1084  KH0586  KH0097                                 unknown                                 Unknown  Museo Nacional de Arqueologia, Anthropologia e Historia del Peru          Musee Quai Branly, Paris, France          MNAAHP 29934        71.1930.19.470
+1   UR1175   UR233  KH0192  KH0470                              Pachacamac                                  Huacho                                    Museum für Völkerkunde, Berlin    Ethnologisches Museum, Berlin, Germany               VA42518            VA63038(B)
+2   KH0049   UR122  KH0049  KH0362                               Costa Sur                                   Nazca    Museo Nacional de Arqueología, Antropología e Historia de Perú  Museum of Worldculture, Goteborg, Sweden  MNAAHP3550, 3884-147          1938.45.0228
+3   UR053B  UR053C  KH0284  KH0285                                 Unknown                                 Unknown                                       Banco Central de la Reserva               Banco Central de la Reserva              ATE 3517              ATE 3517
+4    UR006   UR009  KH0242  KH0245                              Leymebamba                              Leymebamba                              Centro Mallqui, Leymebamba, Amazonas      Centro Mallqui, Leymebamba, Amazonas      CMA.625/ LC1-254      CMA 850/ LC1-479
+5    UR064   UR068  KH0301  KH0305                             Huaquerones                                 Unknown                                                  Puruchuco Museum                          Puruchuco Museum      3 Tex 641 Rt 639                     2
+6   UR1175   UR232  KH0192  KH0469                              Pachacamac                                  Huacho                                    Museum für Völkerkunde, Berlin    Ethnologisches Museum, Berlin, Germany               VA42518            VA63038(A)
+7   KH0033   UR044  KH0033  KH0033  La puntilla, between Paracas and Pisco  La puntilla, between Paracas and Pisco                                Peabody Museum, Harvard University        Peabody Museum, Harvard University         32-70-30/F851         32-70-30/F851
+8   UR1107   UR237  KH0121  KH0473                                 Marquez                                 Unknown                                    Museum für Völkerkunde, Berlin    Ethnologisches Museum, Berlin, Germany            VA24370(B)               VA66834
+9    AS128   QU013  KH0143  KH0601                                   Nazca                                 Unknown                                    Museum für Völkerkunde, Berlin                      Dallas Museum of Art            VA63042(B)  B369 / T41299.33.A-B
+10   MM015   UR212  KH0689  KH0450                          Eduard Gaffron                              Pachacamac                                       Museum der Kulturen (Basel)    Ethnologisches Museum, Berlin, Germany            IVc.366.03               VA42513
+11  UR1114  UR1123  KH0128  KH0137                   Between Ica and Pisco                                     Ica                                    Museum für Völkerkunde, Berlin            Museum für Völkerkunde, Berlin               VA16148               VA47085
+12   UR009   UR021  KH0245  KH0257                              Leymebamba                              Leymebamba                              Centro Mallqui, Leymebamba, Amazonas      Centro Mallqui, Leymebamba, Amazonas      CMA 850/ LC1-479               INC-498
+13   UR066   UR067  KH0303  KH0304                             Huaquerones                             Huaquerones                                                  Puruchuco Museum                                   Unknown                    4a                   NaN
+14   MM016   UR212  KH0690  KH0450                          Eduard Gaffron                              Pachacamac                                       Museum der Kulturen (Basel)    Ethnologisches Museum, Berlin, Germany            IVc.366.03               VA42513
+15   UR006   UR021  KH0242  KH0257                              Leymebamba                              Leymebamba                              Centro Mallqui, Leymebamba, Amazonas      Centro Mallqui, Leymebamba, Amazonas      CMA.625/ LC1-254               INC-498
+16   AS125   UR247  KH0140  KH0483                              Pachacamac                              Pachacamac                                    Museum für Völkerkunde, Berlin    Ethnologisches Museum, Berlin, Germany               VA42670               VA42610
+17   UR113   UR271  KH0349  KH0508                                   Nazca                               Incahuasi                          Museum of Worldculture, Goteborg, Sweden                        Proyecto Incahuasi          1924.18.0001                 13842
+18  UR1118   UR218  KH0132  KH0456                              Pachacamac                              Pachacamac                                    Museum für Völkerkunde, Berlin    Ethnologisches Museum, Berlin, Germany               VA42601               VA42559
+19   QU002   UR137  KH0590  KH0377                                 Unknown                  Chancay, Central Coast                                              Dallas Museum of Art      Lowe Art Museum, University of Miami        B376/T41299.23            57.172.002
+20   AS159   AS173  KH0175  KH0190                   Between Ica and Pisco                   Between Ica and Pisco                                    Museum für Völkerkunde, Berlin            Museum für Völkerkunde, Berlin              VA16138B            VA16145(B)
+21   MM008   UR212  KH0682  KH0450                          Eduard Gaffron                              Pachacamac                                       Museum der Kulturen (Basel)    Ethnologisches Museum, Berlin, Germany            IVc.366.03               VA42513
+22   UR255  UR267A  KH0491  KH0503                               Incahuasi                               Incahuasi                                                Projecto Incahuasi                        Proyecto Incahuasi               9228-13                 13092
+23   MM016  UR1131  KH0690  KH0147                          Eduard Gaffron                              Pachacamac                                       Museum der Kulturen (Basel)            Museum für Völkerkunde, Berlin            IVc.366.03               VA42510
+24   MM019  UR131C  KH0692  KH0372                                 Unknown                            Lluta Valley                                 Linden Museum, Stuttgart, Germany        Museo Chileno de Arte Precolombino                M32902                 21163
+
+Tarea 2, mejores 15 (FDR global):
+       A_totales B_cuerdas  n_totales   nB  score  null_media             p     p_emp      p_bloque  refinado             q      q_bloque       p_orden   q_orden
+310862     UR278     UR266         33  120  54.69       4.162  3.284000e-14  0.000999  3.631000e-14      True  1.022000e-08  1.130000e-08  2.289000e-09  0.000712
+311053     UR278     UR275         33  114  31.54       4.191  4.476000e-08  0.000999  3.379000e-08      True  6.964000e-03  5.257000e-03  1.720000e-06  0.267600
+135289     UR113     UR264         27  148  28.38       7.147  2.280000e-07  0.000999  3.768000e-05      True  2.364000e-02  1.000000e+00  9.990000e-04  1.000000
+101057     UR004     UR091         38   81  28.84       7.418  1.236000e-06  0.000999  5.119000e-05      True  9.612000e-02  1.000000e+00  3.329000e-05  1.000000
+126548    UR1034    UR1145         17   75  27.06       5.518  2.368000e-06  0.000999  7.313000e-05      True  1.474000e-01  1.000000e+00  3.387000e-05  1.000000
+241012     UR004    KH0049         38  351  44.75      14.280  4.514000e-06  0.000999  1.008000e-04      True  2.341000e-01  1.000000e+00  9.990000e-04  1.000000
+235297     UR004     JC010         38  192  34.25      10.560  8.795000e-06  0.000999  2.501000e-04      True  3.290000e-01  1.000000e+00  2.303000e-04  1.000000
+156344     QU015     AS008         19  196  25.65       7.031  1.017000e-05  0.000999  6.753000e-04      True  3.290000e-01  1.000000e+00  2.997000e-03  1.000000
+54272     AS207A     UR097         27  153  28.33       7.767  1.065000e-05  0.000999  1.644000e-04      True  3.290000e-01  1.000000e+00  9.610000e-04  1.000000
+24172      AS066     UR113         31  723  49.75      17.600  1.069000e-05  0.000999  1.365000e-04      True  3.290000e-01  1.000000e+00  1.998000e-03  1.000000
+241130     UR113    KH0049         27  351  27.72       9.176  1.163000e-05  0.000999  7.593000e-05      True  3.290000e-01  1.000000e+00  2.997000e-03  1.000000
+152500     UR270    UR274B         19   65  19.08       2.266  1.394000e-05  0.000999  2.440000e-05      True  3.615000e-01  1.000000e+00  9.990000e-04  1.000000
+101312     UR004     UR272         38  213  31.17      10.060  1.846000e-05  0.000999  1.606000e-04      True  3.627000e-01  1.000000e+00  1.998000e-03  1.000000
+103483     UR010    UR291A         22  102  22.43       4.119  1.962000e-05  0.000999  2.689000e-05      True  3.627000e-01  1.000000e+00  8.040000e-04  1.000000
+114229     UR052     UR203         24  155  21.77       5.966  2.004000e-05  0.000999  3.595000e-04      True  3.627000e-01  1.000000e+00  9.990000e-04  1.000000
+
+##### Incahuasi: 52 quipus con datos (52 listados); pares 1326, ordenados tarea 2 1836
+                                                   tipo origen destino  score             p     p_emp      p_bloque             q     q_archivo       p_orden  q_archivo_orden
+201080                                    copia/versión  UR255  UR267A  29.88  5.209000e-07  0.000999  2.319000e-05  4.573000e-03  6.907134e-04           NaN              NaN
+201476                                    copia/versión  UR266   UR275  23.32  4.030000e-05  0.000999  9.990000e-04  1.985000e-01  2.671890e-02           NaN              NaN
+34662                 copia/versión (sólo valores>=100)  UR255  UR267A  50.18  1.028000e-13  0.000999  5.514000e-05  1.797000e-09  3.885840e-11           NaN              NaN
+34687                 copia/versión (sólo valores>=100)  UR256  UR267B  42.96  3.236000e-10  0.000999  2.997000e-03  2.830000e-06  6.116040e-08           NaN              NaN
+310862  totales de grupo de origen = cuerdas de destino  UR278   UR266  54.69  3.284000e-14  0.000999  3.631000e-14  1.022000e-08  6.029424e-11  2.289000e-09         0.000004
+311053  totales de grupo de origen = cuerdas de destino  UR278   UR275  31.54  4.476000e-08  0.000999  3.379000e-08  6.964000e-03  4.108968e-05  1.720000e-06         0.001579
+  mejores 5 tarea 1 dentro del archivo:
+            A       B   nA   nB  score             p  p_bloque  q_archivo
+201080  UR255  UR267A   65   76  29.88  5.209000e-07  0.000023   0.000691
+201476  UR266   UR275  120  114  23.32  4.030000e-05  0.000999   0.026719
+201436  UR265  UR267B   13  106  17.46  1.491000e-04  0.106900   0.065902
+107940  JC012  UR267B   22  106  14.11  3.821000e-04  0.145900   0.101898
+109666  JC016  UR267B    8  106  13.77  4.585000e-04  0.222800   0.101898
+  mejores 5 tarea 2 dentro del archivo:
+       A_totales B_cuerdas  n_totales  score             p     q_archivo       p_orden  q_archivo_orden
+310862     UR278     UR266         33  54.69  3.284000e-14  6.029424e-11  2.289000e-09         0.000004
+311053     UR278     UR275         33  31.54  4.476000e-08  4.108968e-05  1.720000e-06         0.001579
+152500     UR270    UR274B         19  19.08  1.394000e-05  8.531280e-03  9.990000e-04         0.611388
+310913     UR269     UR268         60  12.24  9.990000e-04  2.620234e-01  4.995000e-02         1.000000
+235568     UR271     JC010          4  11.92  9.990000e-04  2.620234e-01  5.045000e-01         1.000000
+  sumas cuerda a cuerda: racha máx observada 5, nulo máx: mediana 5.0, p95 5.0
+        A1     A2      B  pos_A1  pos_A2  pos_B  racha   p_fwer
+92   JC004  UR271  JC006       2      70      3      5  0.60396
+249  JC011  UR272  JC010       8     166     57      5  0.60396
+385  JC010  JC014  JC023      93      52     12      5  0.60396
+321  JC001  JC011  JC023      26      38     13      5  0.60396
+336  JC003  UR271  JC023       2      59     13      5  0.60396
+  totales globales en cuerdas de otro quipu: 120 (nulo medio 84.35), p=0.063
+   [('JC003', 'UR262', 71), ('JC003', 'UR264', 71), ('JC003', 'UR270', 71), ('JC004', 'JC017', 63), ('JC004', 'UR256', 63), ('JC004', 'UR262', 63), ('JC004', 'UR264', 63), ('JC004', 'UR266', 63), ('JC004', 'UR267A', 63), ('JC004', 'UR267B', 63)]
+
+##### Puruchuco: 20 quipus con datos (23 listados); pares 190, ordenados tarea 2 266
+                 tipo origen destino  score             p     p_emp      p_bloque             q     q_archivo  p_orden  q_archivo_orden
+156184  copia/versión  UR063   UR073  17.62  9.990000e-04  0.000999  1.998000e-03  3.280000e-01  4.745250e-02      NaN              NaN
+156189  copia/versión  UR063   UR078  15.78  6.096000e-04  0.000999  1.059000e-01  3.280000e-01  3.860800e-02      NaN              NaN
+156482  copia/versión  UR064   UR068  90.03  3.626000e-25  0.000999  4.806000e-10  1.220000e-20  6.889400e-23      NaN              NaN
+157080  copia/versión  UR066   UR067  48.07  3.871000e-13  0.000999  3.234000e-04  5.584000e-09  3.677450e-11      NaN              NaN
+  mejores 5 tarea 1 dentro del archivo:
+            A      B  nA  nB   score             p      p_bloque     q_archivo
+156482  UR064  UR068  49  51  90.030  3.626000e-25  4.806000e-10  6.889400e-23
+157080  UR066  UR067  22  22  48.070  3.871000e-13  3.234000e-04  3.677450e-11
+156189  UR063  UR078  57   7  15.780  6.096000e-04  1.059000e-01  3.860800e-02
+156184  UR063  UR073  57  36  17.620  9.990000e-04  1.998000e-03  4.745250e-02
+155883  UR062  UR074  22  71   5.061  1.961000e-02  1.000000e+00  3.725900e-01
+  mejores 5 tarea 2 dentro del archivo:
+       A_totales B_cuerdas  n_totales   score         p  q_archivo   p_orden  q_archivo_orden
+274983     UR072     UR066         14  13.920  0.000999   0.265734  0.006993              1.0
+120732     UR074     UR079         14  14.300  0.001998   0.265734  0.100900              1.0
+275448     UR074     UR068         14  18.230  0.002997   0.265734  0.167800              1.0
+274046     UR069     UR062          4   7.408  0.012020   0.372590  1.000000              1.0
+273576     UR074     UR060         14  14.520  0.014950   0.372590  1.000000              1.0
+  sumas cuerda a cuerda: racha máx observada 0, nulo máx: mediana 0.0, p95 3.049999999999997
+Empty DataFrame
+Columns: [A1, A2, B, pos_A1, pos_A2, pos_B, racha, p_fwer]
+Index: []
+  totales globales en cuerdas de otro quipu: 8 (nulo medio 3.95), p=0.152
+   [('UR065', 'UR060', 10), ('UR065', 'UR061', 10), ('UR065', 'UR063', 10), ('UR065', 'UR068', 10), ('UR065', 'UR072', 10), ('UR065', 'UR073', 10), ('UR065', 'UR074', 10), ('UR065', 'UR079', 10)]
+
+##### Santa: 6 quipus con datos (6 listados); pares 15, ordenados tarea 2 20
+  sin aristas q_archivo<0.05
+  mejores 5 tarea 1 dentro del archivo:
+            A      B   nA   nB   score        p  p_bloque  q_archivo
+162311  UR088  UR091   89   81  11.370  0.05882       1.0   0.882300
+162028  UR087  UR089  321  237  14.360  0.13730       1.0   0.903321
+162312  UR088  UR092   89   50   9.559  0.19610       1.0   0.903321
+162592  UR089  UR092  237   50  10.690  0.37250       1.0   0.903321
+162590  UR089  UR090  237  123  11.800  0.43140       1.0   0.903321
+  mejores 5 tarea 2 dentro del archivo:
+       A_totales B_cuerdas  n_totales   score       p  q_archivo  p_orden  q_archivo_orden
+279286     UR090     UR089          4   7.075  0.1569        1.0      1.0              1.0
+279066     UR091     UR088          2   1.585  0.1569        1.0      1.0              1.0
+122167     UR087     UR088         38  22.540  0.2353        1.0      1.0              1.0
+122168     UR087     UR089         38  22.280  0.4902        1.0      1.0              1.0
+122170     UR087     UR091         38  10.140  0.7647        1.0      1.0              1.0
+  sumas cuerda a cuerda: racha máx observada 4, nulo máx: mediana 4.0, p95 4.0
+      A1     A2      B  pos_A1  pos_A2  pos_B  racha    p_fwer
+1  UR087  UR089  UR088       2     168     65      4  0.663366
+0  UR087  UR090  UR088      51      91     42      3  1.000000
+2  UR089  UR090  UR088       8     100     42      3  1.000000
+3  UR089  UR092  UR088     136      28     64      3  1.000000
+4  UR090  UR092  UR088      12      11     42      3  1.000000
+  totales globales en cuerdas de otro quipu: 0 (nulo medio 1.02), p=1
+   []
+
+##### Leymebamba: 22 quipus con datos (22 listados); pares 231, ordenados tarea 2 462
+                 tipo origen destino  score             p     p_emp      p_bloque             q     q_archivo  p_orden  q_archivo_orden
+136952  copia/versión  UR006   UR009  95.25  3.124000e-25  0.000999  3.874000e-16  1.220000e-20  7.216440e-23      NaN              NaN
+136964  copia/versión  UR006   UR021  53.09  1.407000e-12  0.000999  4.292000e-07  1.776000e-08  1.083390e-10      NaN              NaN
+138038  copia/versión  UR009   UR021  52.96  1.957000e-13  0.000999  1.951000e-07  3.039000e-09  2.260335e-11      NaN              NaN
+  mejores 5 tarea 1 dentro del archivo:
+            A      B   nA   nB  score             p      p_bloque     q_archivo
+136952  UR006  UR009  551  100  95.25  3.124000e-25  3.874000e-16  7.216440e-23
+138038  UR009  UR021  100  137  52.96  1.957000e-13  1.951000e-07  2.260335e-11
+136964  UR006  UR021  551  137  53.09  1.407000e-12  4.292000e-07  1.083390e-10
+136243  UR004  UR021  424  137  21.95  9.990000e-04  1.099000e-02  5.769225e-02
+136958  UR006  UR015  551   76  17.01  2.997000e-03  3.666000e-01  1.384614e-01
+  mejores 5 tarea 2 dentro del archivo:
+       A_totales B_cuerdas  n_totales  score         p  q_archivo   p_orden  q_archivo_orden
+100980     UR004     UR011         38  44.90  0.000058   0.026925  0.001998         0.615384
+100990     UR004     UR021         38  23.31  0.000170   0.034835  0.006993         0.738461
+100975     UR004     UR006         38  29.34  0.000226   0.034835  0.007992         0.738461
+100985     UR004     UR016         38  29.51  0.000470   0.054262  0.003996         0.615384
+258377     UR004     UR003         38  19.85  0.000999   0.076923  0.002997         0.615384
+  sumas cuerda a cuerda: racha máx observada 6, nulo máx: mediana 4.0, p95 5.049999999999997
+        A1     A2      B  pos_A1  pos_A2  pos_B  racha    p_fwer
+545  UR006  UR011  UR022     462     142     83      6  0.059406
+38   UR009  UR012  UR002      91      19     93      4  1.000000
+210  UR002  UR009  UR010      44      57     85      4  1.000000
+211  UR002  UR013  UR010      69       2     57      4  1.000000
+204  UR002  UR021  UR010      44      52     85      4  1.000000
+  totales globales en cuerdas de otro quipu: 9 (nulo medio 21.59), p=0.898
+   [('UR003', 'UR011', 263), ('UR007', 'UR001', 52), ('UR007', 'UR002', 52), ('UR007', 'UR004', 52), ('UR007', 'UR005', 52), ('UR007', 'UR011', 52), ('UR009', 'UR015', 390), ('UR019', 'UR017', 78), ('UR019', 'UR022', 78)]
+
+##### Pachacamac: 86 quipus con datos (90 listados); pares 3655, ordenados tarea 2 6375
+                                     tipo  origen destino  score             p     p_emp  p_bloque             q     q_archivo  p_orden  q_archivo_orden
+45919                       copia/versión   AS125   UR247  44.34  2.518000e-12  0.000999   0.02198  2.991000e-08  9.203290e-09      NaN              NaN
+177982                      copia/versión  UR1118   UR218  29.95  2.347000e-08  0.000999   0.01199  2.494000e-04  4.289143e-05      NaN              NaN
+6271    copia/versión (sólo valores>=100)   AS125   UR247  44.34  2.565000e-12  0.000999   0.01499  2.991000e-08  3.016440e-09      NaN              NaN
+28607   copia/versión (sólo valores>=100)  UR1118   UR218  22.33  3.192000e-06  0.000999   0.02797  1.861000e-02  1.876896e-03      NaN              NaN
+  mejores 5 tarea 1 dentro del archivo:
+                   A      B  nA   nB  score             p  p_bloque     q_archivo
+45919          AS125  UR247  15   15  44.34  2.518000e-12   0.02198  9.203290e-09
+177982        UR1118  UR218  16   62  29.95  2.347000e-08   0.01199  4.289143e-05
+173657        UR1096  UR226  60   43  11.84  9.990000e-04   0.42560  7.302690e-01
+42615   AS101_Part_2  AS156  28   61  12.84  9.990000e-04   0.25070  7.302690e-01
+79678          HP003  HP017  66  107  18.03  9.990000e-04   0.20480  7.302690e-01
+  mejores 5 tarea 2 dentro del archivo:
+       A_totales B_cuerdas  n_totales   score         p  q_archivo   p_orden  q_archivo_orden
+126548    UR1034    UR1145         17  27.060  0.000002   0.015096  0.000034         0.215921
+214374    UR1145     HP003          8  10.290  0.000630   0.489894  0.269700         1.000000
+39171      AS156     AS172         28  11.700  0.000999   0.489894  0.005994         1.000000
+284266    UR1175    UR1034         45  14.780  0.000999   0.489894  0.001998         1.000000
+148959     UR202     UR230          9   9.406  0.000999   0.489894  0.220800         1.000000
+  sumas cuerda a cuerda: racha máx observada 6, nulo máx: mediana 5.0, p95 5.049999999999997
+         A1      A2             B  pos_A1  pos_A2  pos_B  racha    p_fwer
+3042  UR212   UR244         UR123      92      37     10      6  0.059406
+762   AS110   UR253         HP004      11      24     34      5  0.782178
+123   UR197   UR202  AS101_Part_2     141      36     14      5  0.782178
+66    AS156  UR1102  AS101_Part_2      12       0     19      5  0.782178
+1264  AS075   AS189        UR1095      35      14    170      5  0.782178
+  totales globales en cuerdas de otro quipu: 71 (nulo medio 187.43), p=1
+   [('AS101_Part_1', 'AS170', 700), ('AS101_Part_1', 'UR202', 700), ('AS101_Part_2', 'AS170', 920), ('AS101_Part_2', 'AS172', 920), ('AS110', 'UR200', 424), ('AS110', 'UR201', 424), ('AS134', 'UR200', 239), ('AS158', 'UR201', 149), ('AS187', 'HP004', 302), ('AS187', 'HP030', 302)]
+      archivo  quipus  pares  aristas_copia  aristas_copia_v100  aristas_resumen  racha_suma_max   p_racha  totales_obs  totales_nulo  p_totales
+0   Incahuasi      52   1326              2                   2                2               5  0.603960          120       84.3475   0.062969
+1   Puruchuco      20    190              4                   0                0               0  1.000000            8        3.9485   0.152424
+2       Santa       6     15              0                   0                0               4  0.663366            0        1.0250   1.000000
+3  Leymebamba      22    231              3                   0                0               6  0.059406            9       21.5905   0.897551
+4  Pachacamac      86   3655              2                   2                0               6  0.059406           71      187.4310   0.999500

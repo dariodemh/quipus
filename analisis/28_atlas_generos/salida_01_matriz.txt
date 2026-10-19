@@ -1,0 +1,57 @@
+quipus: 651
+fraccion faltante por rasgo:
+nazca_p              0.989
+copias               0.934
+filatotal_q          0.925
+nonum_subtipo        0.914
+form_archivo         0.846
+tabla_rho            0.791
+tabla_q_orden        0.728
+tabla_K              0.728
+tabla_R              0.728
+santa_q              0.578
+santa_pcorpus        0.578
+okr_frac_lana        0.519
+okr_frac_camelido    0.519
+red_n                0.493
+red_q                0.493
+red_frac             0.493
+form_holm            0.422
+form_qbh             0.422
+color_grupo_p        0.421
+segm_q               0.392
+segm_pcorpus         0.392
+calend_q             0.301
+calend_pcorpus       0.301
+nmi_color_grupo      0.218
+frac_Z               0.209
+cuotas_rep_q         0.132
+disc_okr             0.106
+okr_superiores       0.089
+okr_marcadoras       0.089
+frac_nodec           0.018
+okr                  0.002
+region               0.000
+museo                0.000
+procedencia          0.000
+frac_rota            0.000
+n_colores            0.000
+transcriptor         0.000
+log_val_med          0.000
+n_cuerdas            0.000
+n_colg               0.000
+frac_anudada         0.000
+n_grupos             0.000
+trio_xcx             0.000
+form_Q               0.000
+sumas_01             0.000
+rel_archivo          0.000
+sumas_q_M1           0.000
+sumas_q              0.000
+nonum_clase          0.000
+frac_sin_nudo        0.000
+pure_tally           0.000
+vueltas10            0.000
+transcriptor: {'UR': 294, 'AS': 220, 'HP': 56, 'JC': 23, 'MM': 22, 'QU': 22, 'KH': 14}
+con cuerdas en KFG: 651
+frac_rota>0.5: 55  n_cuerdas<10: 76

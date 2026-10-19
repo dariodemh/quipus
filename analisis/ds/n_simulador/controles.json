@@ -1,0 +1,56 @@
+{
+ "q_nec15": 0.18903973392354667,
+ "q_nec18": 0.23685717163111208,
+ "p_firma_trans": 8.4284781690033e-06,
+ "p_nulo_orden": 0.0,
+ "nulo_media": 0.4405,
+ "tabla": [
+  {
+   "estadistico": "exact18",
+   "observado": 0.444,
+   "simulado": 0.4616666666666666,
+   "p_post": 0.71075,
+   "p_holm": 1.0
+  },
+  {
+   "estadistico": "le1",
+   "observado": 0.5555555555555556,
+   "simulado": 0.5387777777777778,
+   "p_post": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "estadistico": "le10",
+   "observado": 0.7222222222222222,
+   "simulado": 0.6225,
+   "p_post": 0.5335,
+   "p_holm": 1.0
+  },
+  {
+   "estadistico": "pot",
+   "observado": 1.0,
+   "simulado": 0.8207808410921689,
+   "p_post": 0.291125,
+   "p_holm": 1.0
+  },
+  {
+   "estadistico": "ac_link",
+   "observado": 7.8,
+   "simulado": 8.498048323690847,
+   "p_post": 0.07533333333333334,
+   "p_holm": 0.452
+  },
+  {
+   "estadistico": "n_ge6",
+   "observado": 5.0,
+   "simulado": 5.057,
+   "p_post": 1.0,
+   "p_holm": 1.0
+  }
+ ],
+ "abc_q": [
+  0.05640248391644271,
+  0.06148441186407719,
+  0.06679354583527138
+ ]
+}

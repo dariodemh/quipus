@@ -1,0 +1,62 @@
+=== A. Descriptivos (n=651 quipus) ===
+  n_quipus: 651
+  media_cuerdas: 88.8
+  mediana_cuerdas: 43.0
+  media_pend: 64.1
+  mediana_pend: 32.0
+  pct_cuerdas_subs: 27.9
+  pct_pend_con_sub: 22.6
+  pct_quipus_con_sub: 66.8
+  max_nivel: 15
+  n_nivel_ge6: 1
+  n_nivel_ge5: 3
+  max_pend: 1650
+  n_codigos_color: 61
+
+=== B. UR019 (Saez-Rodriguez 2014) ===
+  pendientes=13 subsidiarias=5 | pc_largo=26.0 cm
+  suma valores=100.0 | suma pendientes=78.0 | total/13=7.692 | pend/13=6.00
+  nudos por direccion: {'Z': 11, 'S': 1} | suma solo-S=1.0 solo-Z=99.0
+  control: quipus con total/n_pend dentro de +-0.01 de constantes:
+    3.1416: 1
+    6.2832: 0
+    2.7183: 0
+    1.6180: 0
+    3.0000: 0
+    6.0000: 1
+    9.0000: 0
+    12.0000: 0
+  rango ratio p5-p95: 1.59 - 1095.81
+
+=== C. UR1104 (=VA42527) (Saez-Rodriguez 2013) ===
+  cuerdas=21 pendientes=21 subsidiarias=0 (afirma 21, 0)
+  cuerdas 15-18 (/10)=[315.9, 140.7, 217.8, 208.5] suma=882.9
+  315+140+217+209=881; 881/29.5=29.864 -> no es multiplo entero
+
+=== D. Direccion S/Z (Hyland 2014): 199 quipus con >=6 pendientes y ambas clases ===
+  runs obs=2317 nulo=3048 p=0.0002
+  |rango S - centro| obs=1477 p=0.0002
+  heterogeneidad entre grupos obs=552.5 p=0.0002
+  cuerdas con >=2 racimos: 14884; ultimo racimo Z: 7992 (53.7%)
+  cuerdas por clase: {'Z': 13683, 'S': 7982}
+
+=== E. Pares 'similares' (Urton & Chu 2015) ===
+  pares comparables (misma n_pend, >=5 cuerdas con valor comun): 1528
+  r mediana=-0.040; r>=0.9: 25 pares; de ellos Incahuasi: 0
+  top pares del corpus:
+       r      a      b   n   inc
+1.000000 KH0033  UR044  54 False
+0.999998  UR066  UR067  32 False
+0.995420  AS157  AS158  18 False
+0.989986  AS132 UR1117  11 False
+0.981828  UR139  UR213 102 False
+0.966232  AS111 UR1119   7 False
+  top pares Incahuasi:
+        r     a     b  n  inc
+ 0.857187 JC015 UR257 10 True
+-0.015038 JC006 UR279 12 True
+-0.134037 UR261 UR279 12 True
+-0.234233 JC006 UR261 12 True
+  max r Incahuasi=0.857; nulo max r media=0.471, p=0.1134
+
+OK -> resultados.json

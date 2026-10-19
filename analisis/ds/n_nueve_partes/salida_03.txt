@@ -1,0 +1,37 @@
+Grupos de exactamente 9 cuerdas presentes: 238 en 97 quipus
+
+Quipus con >=2 grupos de 9 (ordenados por CV medio):
+          n        cv      tot
+kfg                           
+MM019     4  0.075000     74.0
+UR278    24  0.275187  54601.0
+UR123     2  0.293628    226.0
+UR037     2  0.337500     44.0
+AS026B    2  0.375722     85.0
+UR1100    3  0.394144    167.0
+AS128     2  0.402774     77.0
+UR270     7  0.416206   9114.0
+UR1033F   2  0.533666    141.0
+UR283     2  0.610005     65.0
+AS021     3  0.625716    272.0
+UR1123    4  0.651439  12645.0
+UR114     2  0.657743     65.0
+UR201     3  0.673667  10709.0
+UR006     2  0.676573     68.0
+
+UR278: 24 grupos de 9; CV medio 0.275
+Percentil de UR278 entre todos los grupos de 9: 9%
+   grupos de 9 con total > 100: n=177; CV mediana 0.851; UR278 CV 0.275; percentil 9%
+   grupos de 9 con total > 500: n=89; CV mediana 0.863; UR278 CV 0.275; percentil 16%
+   grupos de 9 con total > 1000: n=77; CV mediana 0.751; UR278 CV 0.275; percentil 17%
+Grupos de 9 con CV < 0.20 y total > 500: 8 de 238
+  quipus: {'UR278': 7, 'AS018': 1}
+   nulo a nivel de quipu (24 grupos al azar de 238): CV medio 0.865 [0.677;1.071]; observado 0.275; p=0.0000
+   nulo emparejado por magnitud (total 1000-5000, n=62): CV medio 0.804; observado 0.275 (n=24); p=0.0000
+Grupos de 9 con CV < 0.20: 13 de 238 (5%)
+Quipus de esos grupos: {'UR278': 7, 'MM019': 3, 'AS018': 1, 'AS207A': 1, 'UR277': 1}
+
+== Totales de UR278 y cabeceras de UR266/UR275
+   UR266: 30 cabeceras; 15 coinciden (+-1) con algun total de grupo de UR278; rango 47-4273
+   UR275: 25 cabeceras; 11 coinciden (+-1) con algun total de grupo de UR278; rango 1278-4273
+   UR278: 37 grupos; total 68403; mediana 1876; rango 0-4273

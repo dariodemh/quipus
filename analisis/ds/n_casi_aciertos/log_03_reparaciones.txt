@@ -1,0 +1,43 @@
+relaciones: 44 | con >=1 reparacion: 31
+                   n  reparables   p_media
+familia                                   
+R1_ur278_fila    7.0         6.0  0.002680
+R2_ur278_celda   8.0         6.0  0.000671
+R3_ur273ab      10.0         7.0  0.000368
+R4_ur274a_273b  10.0         4.0  0.000206
+R5_cuota         9.0         8.0  0.000096
+
+           familia   quipu       relacion  residual  n_ediciones  n_cuerdas_reparables                                                            tipos
+1    R1_ur278_fila   UR278             g8       6.0           21                     9                         insercion;ocho_vs_largo;racimo_duplicado
+2    R1_ur278_fila   UR278            g12     100.0           21                    11                         conteo_simple;insercion;racimo_duplicado
+3    R1_ur278_fila   UR278            g13       1.0           40                    11                                 insercion;racimo_omitido;vueltas
+4    R1_ur278_fila   UR278            g17      -1.0           18                    10            S_vs_L;insercion;ocho_vs_largo;racimo_omitido;vueltas
+5    R1_ur278_fila   UR278            g19       1.0           43                    11                 insercion;ocho_vs_largo;racimo_duplicado;vueltas
+6    R1_ur278_fila   UR278            g21      -1.0           18                    11                                 insercion;racimo_omitido;vueltas
+7   R2_ur278_celda   UR278  g21c1~UR270g0       1.0            9                     3                                 insercion;racimo_omitido;vueltas
+8   R2_ur278_celda   UR278  g25c1~UR270g4       1.0           12                     3  insercion;ocho_vs_largo;racimo_duplicado;racimo_omitido;vueltas
+9   R2_ur278_celda   UR278  g27c1~UR270g8      -1.0           11                     3  insercion;ocho_vs_largo;racimo_duplicado;racimo_omitido;vueltas
+10  R2_ur278_celda   UR278  g27c2~UR270g8      -1.0            9                     3                           S_vs_L;insercion;ocho_vs_largo;vueltas
+13  R2_ur278_celda   UR278  g28c7~UR270g9     -29.0            2                     1                                             S_vs_L;ocho_vs_largo
+14  R2_ur278_celda   UR278  g28c9~UR270g9      -2.0            4                     2                           insercion;ocho_vs_largo;racimo_omitido
+15      R3_ur273ab  UR273A           reg0      10.0            4                     3                                          conteo_simple;insercion
+17      R3_ur273ab  UR273A           reg4    1000.0            5                     3                         conteo_simple;insercion;racimo_duplicado
+19      R3_ur273ab  UR273A          reg13     -10.0            4                     3                                          conteo_simple;insercion
+21      R3_ur273ab  UR273A          reg18      -1.0            7                     3                                 insercion;racimo_omitido;vueltas
+22      R3_ur273ab  UR273A          reg19      -1.0            6                     2                                 insercion;racimo_omitido;vueltas
+23      R3_ur273ab  UR273A          reg20     -10.0            4                     3                                          conteo_simple;insercion
+24      R3_ur273ab  UR273A          reg21    1000.0            5                     3                         conteo_simple;insercion;racimo_duplicado
+27  R4_ur274a_273b  UR274A           reg3   -1000.0            4                     2                         conteo_simple;insercion;racimo_duplicado
+28  R4_ur274a_273b  UR274A           reg4       1.0            6                     2                                                        insercion
+31  R4_ur274a_273b  UR274A          reg14       1.0           11                     3  insercion;ocho_vs_largo;racimo_duplicado;racimo_omitido;vueltas
+32  R4_ur274a_273b  UR274A          reg19    -100.0            3                     2                                          conteo_simple;insercion
+35        R5_cuota   UR275            p51       7.0            2                     1                                                        insercion
+36        R5_cuota  UR274B             p9       7.0            2                     1                                                        insercion
+37        R5_cuota  UR274B            p13       7.0            2                     1                                                        insercion
+38        R5_cuota  UR274B            p19       7.0            2                     1                                                        insercion
+39        R5_cuota  UR274B            p64       7.0            2                     1                                                        insercion
+40        R5_cuota   UR275            p88       2.0            2                     1                                                        insercion
+41        R5_cuota   UR275           p100       5.0            2                     1                                                        insercion
+42        R5_cuota   UR275            p94      70.0            1                     1                                                        insercion
+
+SIN reparacion (delta): [-94, -44, 24]

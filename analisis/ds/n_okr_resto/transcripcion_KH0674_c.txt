@@ -1,0 +1,119 @@
+p033|329|z/s/V||sin nudos
+p033|330|z/s/V||sin nudos
+p033|331|z/s/V||sin nudos
+p033|332|z/s/V||sin nudos
+p033|333|z/s/V||sin nudos
+p033|334|z/s/V||sin nudos
+p033|335|z/s/V|1S(5.5/s)|
+p033|337|z/s/V|1S(6.0/s) 2L(14.0/s)|ficha: 12
+p033|336|z/s/V||sin nudos; marcada con * (¿atada a 337?)
+p033|338|z/s/V|6S(6.0/s) 4L(14.0/s)|
+p033|339|z/s/V|9S(2.5/s) 6L(22.5/s)|subs 1:2.5
+p033|339s1|z/s||sin nudos
+p033|340|z/s/V|1S(4.0/s) 5S(14.5/s) 7L(25.5/s)|subs 1:2.0
+p033|340s1|z/s|2S(2.0/s) 3L(24.0/s)|
+p033|341|z/s/V||sin nudos
+p033|342|z/s/V|1S(7.0/s)|
+p033|343|z/s/V|1S(7.0/s)|
+p034|344|z/s/V|1S(8.0/s)|
+p034|345|z/s/V||sin nudos
+p034|346|z/s/V|3S(6.5/s) 7L(19.0/s)|
+p034|347|z/s/V|5S(7.0/s)|
+p034|348|z/s/V|1S(7.0/s)|
+p034|349|z/s/V|1S(8.0/s)|
+p034|350|z/s/V|2S(8.0/s)|
+p034|351|z/s/V|1S(6.5/s)|ficha: 100; dudoso (probable 10)
+p034|351s1|z/s|3S(3.5/s)|
+p034|352|z/s/V||sin nudos
+p034|353|z/s/V||sin nudos
+p034|354|z/s/V|1S(4.0/s)|
+p034|355|z/s/V||sin nudos
+p034|356|z/s/V|2S(4.5/s)|
+p034|357|z/s/V|1S(4.5/s)|
+p034|358|z/s/V|3S(5.0/s)|
+p034|359|z/s/V|1S(4.5/s)|
+p035|360|z/s/V|2S(4.0/s)|
+p035|361|z/s/V|5S(5.0/s)|
+p035|362|z/s/V||sin nudos
+p035|363|z/s/V||sin nudos
+p035|364|z/s/V|1S(7.0/s) 4L(14.0/s)|
+p035|365|z/s/V|1S(6.0/s)|
+p035|366|z/s/V|1S(6.5/s)|
+p035|367|z/s/V|2S(5.5/s)|
+p035|368|z/s/V|4S(5.0/s)|
+p035|369|z/s/V|4S(5.5/s) 3L(6.5/s)|
+p035|370|z/s/V|2S(6.0/s)|
+p035|371|z/s/V|8S(6.0/s)|
+p035|372|z/s/V|2S(5.0/s) 3S(13.5/s) 7L(25.0/s)|subs 1:3.5
+p035|372s1|z/s|7S(0.5/s) 2L(21.0/s)|
+p035|373|z/s/V||sin nudos
+p035|374|z/s/V||sin nudos
+p035|375|z/s/V||sin nudos
+p035|376|z/s/V||sin nudos
+p036|377|z/s/V||sin nudos
+p036|378|z/s/V|2S(2.0/s)|
+p036|379|z/s/V||sin nudos
+p036|380|z/s/V||sin nudos
+p036|381|z/s/V||sin nudos
+p036|382|z/s/V||sin nudos
+p036|383|z/s/V|2S(6.5/s)|
+p036|384|z/s/V||sin nudos
+p036|385|z/s/V||sin nudos
+p036|386|z/s/V|1S(8.0/s)|
+p036|387|z/s/V||sin nudos
+p036|388|z/s/V||sin nudos
+p036|389|z/s/V|2S(10.0/s)|
+p036|390|z/s/V||sin nudos
+p036|391|z/s/V||sin nudos
+p036|392|z/s/V||sin nudos
+p036|393|z/s/V||sin nudos
+p036|394|z/s/V|1S(9.5/s)|
+p037|395|z/s/V||sin nudos
+p037|396|z/s/V||sin nudos
+p037|397|z/s/V||sin nudos
+p037|398|z/s/V||sin nudos
+p037|399|z/s/V||sin nudos
+p037|400|z/s/V|4S(5.0/s)|
+p037|400s1|z/s|4S(8.0/s)|
+p037|401|z/s/V||sin nudos
+p037|402|z/s/V||sin nudos
+p037|403|z/s/V||sin nudos
+p037|404|z/s/V|1S(3.5/s)|
+p037|405|z/s/V|7S(5.0/s)|
+p037|406|z/s/V||sin nudos
+p037|407|z/s/V||sin nudos
+p037|408|z/s/V||sin nudos
+p037|409|z/s/V|4S(10.5/s)|
+p037|410|z/s/V|4S(11.0/s)|
+p038|411|z/s/V|3S(7.0/s)|
+p038|411s1|z/s|2S(7.0/s)|
+p038|412|z/s/V||sin nudos
+p038|413|z/s/V||sin nudos
+p038|414|z/s/V||sin nudos
+p038|415|z/s/V||sin nudos
+p038|416|z/s/V||sin nudos
+p038|417|z/s/V||sin nudos
+p038|418|z/s/V||sin nudos
+p038|419|z/s/V||sin nudos
+p038|420|z/s/V||sin nudos
+p038|421|z/s/V||sin nudos
+p038|422|z/s/V|4S(12.5/s)|
+p038|422s1|z/s|4S(13.0/s) 2L(23.5/s)|
+p038|423|z/s/V||sin nudos
+p038|424|z/s/V|1E(35.0/s)|
+p038|425|z/s/V||sin nudos
+p039|426|z/s/V|2S(4.5/s)|
+p039|427|z/s/V|6S(4.5/s)|
+p039|428|z/s/V|2L(21.0/s)|
+p039|429|z/s/V||sin nudos
+p039|430|z/s/V|1S(4.5/s)|
+p039|431|z/s/V|1S(5.0/s)|
+p039|432|z/s/V||sin nudos
+p039|433|z/s/V|1S(5.0/s) 2S(11.5/s)|subs 2:0.5
+p039|433s1|z/s|2L(15.0/s)|
+p039|433s2|z/s||sin nudos
+p039|434|z/s/V|1S(4.5/s)|
+p039|435|z/s/V|1S(4.5/s)|
+p039|436|z/s/V|2S(4.0/s)|
+p039|437|z/s/V|2S(4.0/s)|
+p039|438|z/s/V|4S(5.5/s)|

@@ -1,0 +1,11 @@
+tipo_error,n,pct,por_1000_global,n_resto,por_1000_resto
+factor10,106,47.1,3.009,3.0,0.0864
+vueltas,58,25.8,1.647,9.0,0.2591
+compuesto,21,9.3,0.596,,
+bloque,21,9.3,0.596,7.0,0.2016
+racimo_omitido_okr,10,4.4,0.284,9.0,0.2591
+ocho_vs_largo,4,1.8,0.114,2.0,0.0576
+racimo_omitido_kfg,2,0.9,0.057,2.0,0.0576
+otro,1,0.4,0.028,1.0,0.0288
+S_vs_L,1,0.4,0.028,1.0,0.0288
+S_otro,1,0.4,0.028,,

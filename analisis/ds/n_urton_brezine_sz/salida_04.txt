@@ -1,0 +1,83 @@
+=== EFECTO ARCHIVO POR TIPO DE NUDO (KFG; quipus con >=10 nudos del tipo) ===
+simples: n=327 quipus, nudos=22719, eta2=0.168, p=0.0001, pZ global=0.721
+   control tamano: eta2=0.169, p=0.0001
+largos: n=380 quipus, nudos=23885, eta2=0.132, p=0.0001, pZ global=0.455
+   control tamano: eta2=0.135, p=0.0001
+figura de ocho: n=179 quipus, nudos=6690, eta2=0.121, p=0.0327, pZ global=0.730
+   control tamano: eta2=0.122, p=0.0273
+
+=== ROBUSTEZ: SUBCONJUNTOS (todos los tipos; >=10 nudos orientados) ===
+sin khipus canuto: n=328, eta2=0.096, p=0.0012
+sin Arica: n=459, eta2=0.070, p=0.0011
+solo U<=10%: n=106, eta2=0.164, p=0.1178
+solo U<=20%: n=147, eta2=0.129, p=0.0713
+solo 12 archivos: n=224, eta2=0.186, p=0.0001
+solo >=50 nudos: n=264, eta2=0.121, p=0.0009
+
+=== LEAVE-ONE-ARCHIVE-OUT (eta2 global) ===
+todos: eta2=0.100, n=467
+sin Pachacamac: eta2=0.094, n=395
+sin Ica: eta2=0.113, n=425
+sin Laguna de los Condores: eta2=0.106, n=446
+sin Nazca: eta2=0.095, n=454
+sin Arica: eta2=0.070, n=459
+sin Paracas: eta2=0.102, n=458
+sin Ocucaje: eta2=0.098, n=448
+sin Santa: eta2=0.097, n=460
+
+=== BOOTSTRAP (quipu, 2000 remuestras) ===
+eta2=0.100; IC95% bootstrap=[0.076, 0.175]
+Pachacamac: pZ medio=0.759 IC95=[0.684, 0.830] n=72
+Ica: pZ medio=0.652 IC95=[0.525, 0.772] n=42
+Laguna de los Condores: pZ medio=0.632 IC95=[0.449, 0.799] n=21
+Nazca: pZ medio=0.427 IC95=[0.230, 0.621] n=13
+Arica: pZ medio=0.126 IC95=[0.043, 0.218] n=8
+Paracas: pZ medio=0.601 IC95=[0.342, 0.845] n=9
+Santa: pZ medio=0.845 IC95=[0.601, 0.988] n=7
+Ocucaje: pZ medio=0.782 IC95=[0.634, 0.918] n=19
+
+=== CONTROL: TASA DE DIRECCION DESCONOCIDA (U) ===
+pZ residualizado por quintiles de %U: eta2=0.089, p=0.0001, n=467
+  quintil U 0: %U entre 0-7, n=94, pZ medio=0.562
+  quintil U 1: %U entre 8-29, n=93, pZ medio=0.657
+  quintil U 2: %U entre 29-44, n=93, pZ medio=0.586
+  quintil U 3: %U entre 44-60, n=93, pZ medio=0.632
+  quintil U 4: %U entre 60-95, n=94, pZ medio=0.758
+
+=== PACHACAMAC vs PURUCHUCO / SANTA (dos colas, permutacion) ===
+todos: Pachacamac(72) - Puruchuco(19) = -0.007, p=0.9376
+todos: Pachacamac(72) - Santa(7) = -0.086, p=0.5185
+todos: Pachacamac(72) - Ica(42) = 0.107, p=0.1295
+todos: Pachacamac(72) - Ocucaje(19) = -0.023, p=0.7870
+simples: Pachacamac(53) - Puruchuco(12) = -0.028, p=0.8521
+simples: Pachacamac(53) - Santa(6) = 0.054, p=0.6927
+simples: Pachacamac(53) - Ica(32) = 0.158, p=0.0545
+simples: Pachacamac(53) - Ocucaje(14) = 0.043, p=0.6681
+
+=== AGRUPACION ALTERNATIVA: REGION (KFG) ===
+region (grupos >=10 quipus): n=454, grupos=6, eta2=0.027, p=0.0275
+                       n     pZ
+reg                            
+Puruchuco             19  0.766
+Central Coast, Peru   27  0.697
+South Coast, Peru     19  0.697
+Unknown              351  0.643
+Chachapoyas           21  0.632
+Inka, Late Horizon    17  0.364
+
+=== BINARIO TODO-Z vs TODO-S vs MIXTO POR ARCHIVO ===
+pat                     todoZ  todoS  mixto   n  pct_todoZ
+arch                                                      
+Ocucaje                     9      0     10  19       47.4
+Pachacamac                 31      4     37  72       43.1
+Ica                        18      4     20  42       42.9
+Chancay                     2      2      2   6       33.3
+Santa                       2      0      5   7       28.6
+Paracas                     2      0      7   9       22.2
+Puruchuco                   4      0     15  19       21.1
+Nazca                       1      3      9  13        7.7
+Laguna de los Condores      1      2     18  21        4.8
+Atarco                      0      1      5   6        0.0
+Arica                       0      2      6   8        0.0
+Tambo Colorado              0      0      2   2        0.0
+chi2=65.4, p_perm=0.0004, V de Cramer=0.265

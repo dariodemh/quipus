@@ -1,0 +1,26 @@
+Pares de copia: 29 | quipus implicados: 51
+Contabilidad verificable (20): 7/20 con copia vs 44/631 fuera; OR=7.18 p=0.00042
+Contabilidad fuera de Incahuasi (11): 0/11 con copia vs 51/640 fuera; OR=0.00 p=1.00000
+Incahuasi (14): 10/14 con copia vs 41/637 fuera; OR=36.34 p=0.00000
+
+Pares que tocan el archivo de Incahuasi: 5 de 29
+Pares fuera de Incahuasi: 24
+
+Archivos con copias y/o contabilidad verificable (n>=5):
+                          n  copias  contab
+procedencia                                
+Incahuasi                52      11       9
+Unknown                 235       8       7
+Paracas                   7       0       2
+Ica                      47       1       1
+Pachacamac               90       7       0
+Between Ica and Pisco     8       3       0
+Eduard Gaffron           10       3       0
+Huaquerones              19       3       0
+Leymebamba               22       3       0
+Nazca                    13       3       0
+Huacho                    5       2       0
+Chancay, Central Coast    5       1       0
+Marquez                   6       1       0
+
+Archivos con AMBOS: 3 de 13

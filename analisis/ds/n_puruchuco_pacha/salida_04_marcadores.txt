@@ -1,0 +1,56 @@
+Inventario OKR (cuerdas nivel 0 = colgantes; nivel<0 = superiores):
+  Pachacamac: 90 quipus, 5861 cuerdas; superiores (nivel<0)=11 en 1 quipus; marcadoras M=18 en 9 quipus; clase T=31
+  Puruchuco: 24 quipus, 1210 cuerdas; superiores (nivel<0)=0 en 0 quipus; marcadoras M=5 en 1 quipus; clase T=0
+  Incahuasi: 52 quipus, 5732 cuerdas; superiores (nivel<0)=0 en 0 quipus; marcadoras M=52 en 11 quipus; clase T=1
+
+Quipus de Pachacamac con marcadoras:
+kfg
+AS075     5
+AS112     2
+AS156     1
+AS170     1
+UR1144    2
+UR123     2
+UR197     1
+UR213     2
+UR253     2
+
+UR073: bloques delimitados por las 5 marcadoras M (n, suma P, cabecera):
+   [(6, 155, 9), (16, 251, 1), (14, 172, 1), (17, 391, 2), (14, 170, 1), (2, 0, 0)]
+UR063: seis secciones (sumas P): [165, 266, 172, 406, 197, 233]
+Diferencias bloque UR073 - seccion UR063 (primeros 5): [-10, -15, 0, -15, -27]
+La 6.a seccion de UR063 (233) no tiene bloques en UR073: quipu roto (69 cuerdas).
+
+Cuerdas superiores T en la muestra:    kfg  CORD_ORDINAL  valor
+UR1096             7     14
+UR1096            14     19
+UR1096            21     60
+UR1096            28     15
+UR1096            35     12
+UR1096            42     17
+UR1096            49     45
+UR1096            56     26
+UR1096            63      0
+UR1096            70      0
+UR1096            77      0
+ UR200            14      0
+ UR200            15   5400
+ UR200            26   6669
+ UR200            37      0
+ UR200            50   4889
+ UR200            63      0
+ UR200            75   3000
+ UR201             1   6678
+ UR201            26   5526
+ UR201            38   6000
+ UR201            51   6273
+ UR201            62   5787
+ UR201            75   4000
+ UR201            87      0
+ UR201            99   4542
+ UR201           110      0
+ UR246             1    283
+ UR246             8    290
+ UR246            25    288
+ UR246            34    316
+ UR255            36      0

@@ -1,0 +1,8 @@
+fin n_simulador ok intento=1 04:06:13
+fin n_almacenes ok intento=1 04:06:39
+fin n_fotos ok intento=1 04:09:01
+fin n_otros_sistemas ok intento=1 04:11:14
+fin n_casi_aciertos ok intento=1 04:13:17
+fin n_legibilidad ok intento=1 04:24:55
+fin n_materiales ok intento=1 06:24:20
+TODAS_TERMINADAS

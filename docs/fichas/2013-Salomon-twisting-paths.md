@@ -1,0 +1,15 @@
+# Frank L. Salomon (2013). The Twisting Paths of Recall: Khipu (Andean cord notation) as artifact
+
+- **Referencia:** capítulo en *Writing as Material Practice: Substance, surface and medium* (Ubiquity Press eBooks), 2013, pp. 15-43; DOI 10.5334/bai.b.
+- **Tipo / acceso:** capítulo de libro; **solo resumen** (OpenAlex; OA CC-BY confirmado, pero el sitio de Ubiquity Press bloquea la descarga automatizada). Ficha limitada al resumen.
+- **Pregunta u objetivo:** revisar el vínculo material-significado del khipu inca y proponer cómo los estudios arqueológicos y etnográficos aclaran la noción de "mundo-objeto inscrito" de los quipus.
+- **Corpus y datos:** quipus incas; quipus preinca (al menos **medio milenio** anteriores al formato inca); y quipus etnográficos producidos hasta el siglo XX en comunidades que usaban cordeles para pastoreo o administración interna.
+- **Métodos:** síntesis teórica de arqueología y etnografía; análisis del objeto como artefacto en distintos estados físicos de su ciclo de uso.
+- **Hallazgos principales:** la aritmética anudada explica sólo parte de los atributos físicos (cordeles multicolores y multi-hebra, mechones y bulbos, arreglos de nudos que desafían la estructura decimal). Los quipus preinca estaban **menos anudados y más coloreados** (quizá más estéticos). El medio se compone de partes físicamente discretas y se presta a uso como **dispositivo de simulación** más que de fijación de texto; tiende a la **representación diagramática de jerarquías de datos** más que a la sintaxis oracional. La lectura estaba **físicamente distribuida** entre "cord-handlers", calculadores e intérpretes, de modo que no existía un lector unitario.
+- **Afirmaciones sobre el significado o desciframiento y nivel de evidencia:** **propuesto (teórico)**. Sugiere que la noción de "data graphic" de Tufte es más fiel a la práctica del khipu que los modelos basados en la "escritura propiamente dicha"; esto es una tesis interpretativa, no un desciframiento.
+- **Limitaciones y críticas:** ensayo de síntesis sin corpus controlado; la distinción simulación/diagrama vs. escritura es difícil de falsar; el resumen no ofrece datos cuantitativos.
+- **Relación con otros trabajos:** continúa la línea de Salomon (2004/2006) sobre Tupicocha y contrasta con las propuestas escriturarias de Urton (1998, 2003) y con el modelo "mediático" de Brokaw (2010).
+- **Relevancia para este proyecto:** aporta hipótesis estructurales comprobables: preponderancia de estructuración "diagramática"/jerárquica (árbol de datos) frente a sintaxis lineal, y el uso de componentes discretos como marcadores. Sugiere controles sobre la organización jerárquica de cordeles en el OKR.
+- **Citas clave:**
+  - "its physical mode of articulating parts tends toward diagrammatic representation of data hierarchies, rather than sentential syntax" (resumen).
+  - "the act of 'reading' was physically distributed among cord-handlers, calculators, and interpreters, implying that there was no such actor as the unitary reader." (resumen).

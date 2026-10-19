@@ -1,0 +1,45 @@
+== A) UR270 -> UR278 (mejor fila por grupo; +/-1) ==
+    relacion candidato  n_grupos  grupos_6mas  aciertos_total  p_6mas  p_total                                                                                                                                 detalle
+UR270->UR278         P        12            0              11  1.0000  0.50930   g0->g16:1; g4->g32:1; g5->g5:2; g6->g34:0; g8->g30:1; g9->g34:0; g10->g32:1; g12->g29:1; g19->g33:1; g22->g7:1; g23->g26:1; g24->g7:1
+UR270->UR278        S1        12            0               4  1.0000  0.65267 g0->g34:0; g4->g32:1; g5->g34:0; g6->g32:1; g8->g34:0; g9->g32:1; g10->g34:0; g12->g34:0; g19->g2:1; g22->g34:0; g23->g34:0; g24->g34:0
+UR270->UR278      P+S1        12            5              51  0.0002  0.00020  g0->g21:9; g4->g25:9; g5->g26:7; g6->g33:1; g8->g27:8; g9->g28:6; g10->g29:5; g12->g30:2; g19->g29:1; g22->g7:1; g23->g26:1; g24->g7:1
+
+== B) totales reconstruidos vs cabeceras UR275/UR266 ==
+ grupo  ur278 candidato  total  total_ur278  cabeceras_pm1  cabeceras_exactas
+     0     21         P   1200         1654              0                  0
+     0     21        S1    453         1654              0                  0
+     0     21      P+S1   1653         1654              1                  1
+     4     25         P   1332         1941              0                  0
+     4     25        S1    608         1941              0                  0
+     4     25      P+S1   1940         1941              1                  0
+     5     26         P   1402         1816              0                  0
+     5     26        S1    450         1816              0                  0
+     5     26      P+S1   1852         1816              0                  0
+     8     27         P   1575         2202              0                  0
+     8     27        S1    673         2202              0                  0
+     8     27      P+S1   2248         2202              1                  0
+     9     28         P   1256         1641              0                  0
+     9     28        S1    510         1641              0                  0
+     9     28      P+S1   1766         1641              1                  0
+    10     29         P    831         1507              0                  0
+    10     29        S1    305         1507              0                  0
+    10     29      P+S1   1136         1507              0                  0
+
+cabeceras UR275: [np.float64(3317.0), np.float64(2089.0), np.float64(1842.0), np.float64(1876.0), np.float64(3249.0), np.float64(2229.0), np.float64(3320.0), np.float64(4273.0), np.float64(2633.0), np.float64(3096.0), np.float64(2950.0), np.float64(2275.0), np.float64(1278.0), np.float64(2020.0), np.float64(1588.0), np.float64(2106.0), np.float64(1653.0), np.float64(1737.0), np.float64(1825.0), np.float64(1780.0), np.float64(1891.0), np.float64(2247.0), np.float64(1760.0), np.float64(1505.0), np.float64(1907.0)]
+cabeceras UR266: [np.float64(3618.0), np.float64(1506.0), np.float64(1384.0), np.float64(2919.0), np.float64(3317.0), np.float64(2089.0), np.float64(1271.0), np.float64(1842.0), np.float64(1876.0), np.float64(250.0), np.float64(2229.0), np.float64(3320.0), np.float64(4273.0), np.float64(2633.0), np.float64(3096.0), np.float64(2950.0), np.float64(2275.0), np.float64(1278.0), np.float64(2114.0), np.float64(1594.0), np.float64(2106.0), np.float64(100.0), np.float64(1737.0), np.float64(1939.0), np.float64(47.0), np.float64(47.0), np.float64(1765.0), np.float64(1505.0), np.float64(1000.0)]
+
+== C) UR270 -> UR273B (P) / UR273A (S1), alineación g->fila g+9 ==
+ grupo  fila  Psum      B     dP  Ssum     A     dS  PmasS
+     0     9  1200 1200.0    0.0   453 453.0    0.0   1653
+     4    13  1332 1332.0    0.0   608 448.0  160.0   1940
+     6    15  1300 1370.0  -70.0   593 579.0   14.0   1893
+     8    17  1575 1575.0    0.0   673 672.0    1.0   2248
+     9    18  1256 1256.0    0.0   510 509.0    1.0   1766
+    10    19  2551 1181.0 1370.0   480 325.0  155.0   3031
+    12    21  1144 1361.0 -217.0   219 526.0 -307.0   1363
+    19    28  3074    NaN    NaN   358 309.0   49.0   3432
+    22    31  1049    NaN    NaN     0   NaN    NaN   1049
+
+P = B exactas: 4/9 (nulo medio 0.45, p=0.0004)
+S1 = A exactas: 1/9 (nulo medio 0.11, p=0.1142)
+P = B +/-1: 4/9; S1 = A +/-1: 3/9

@@ -1,0 +1,13 @@
+UR255 registros 23
+neto   False  True 
+mitad              
+g<16      11      2
+g>=16      0     10
+Fisher p = 6.730380939561179e-05
+UR267A registros 25
+neto   False  True 
+mitad              
+g<16       2     11
+g>=16      1     11
+Fisher p = 1.0
+UR255 cuerdas sin nudos: 24 largo mediana 35.25 | con largo>=20: 17

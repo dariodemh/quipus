@@ -1,0 +1,189 @@
+kfg,plantilla,estadistico,p,q,mitad,q_holm,p_perm,B,p_corpus,coincide,n_colg,procedencia,museo
+AS076,P5c,2.0,0.0335,0.5023255208333334,confirmacion,1.0,0.0335,1999,0.010101010101010102,False,15,Unknown,"Musee de l Homme, Paris, France"
+AS076,P3,0.8750314510347692,0.08333333333333333,0.8797891439703579,confirmacion,1.0,,0,0.08333333333333333,False,15,Unknown,"Musee de l Homme, Paris, France"
+AS076,P1b,0.7661308776828737,0.16,1.0,confirmacion,1.0,0.16,199,0.12280701754385964,False,15,Unknown,"Musee de l Homme, Paris, France"
+AS076,P10,0.6857142857142857,0.24,1.0,confirmacion,1.0,0.24,199,0.2765957446808511,False,15,Unknown,"Musee de l Homme, Paris, France"
+AS076,P1a,0.4198250790600938,0.525,1.0,confirmacion,1.0,0.525,199,0.48148148148148145,False,15,Unknown,"Musee de l Homme, Paris, France"
+AS076,P7c,-0.2124113475177305,0.665,1.0,confirmacion,1.0,0.665,199,0.4076923076923077,False,15,Unknown,"Musee de l Homme, Paris, France"
+AS076,P9a,-0.1987179487179487,0.76,1.0,confirmacion,1.0,0.76,199,0.7111111111111111,False,15,Unknown,"Musee de l Homme, Paris, France"
+AS076,P2,-0.4046997389033943,0.93,1.0,confirmacion,1.0,0.93,199,0.6923076923076923,False,15,Unknown,"Musee de l Homme, Paris, France"
+AS076,P8b,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,15,Unknown,"Musee de l Homme, Paris, France"
+AS076,P8c,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,15,Unknown,"Musee de l Homme, Paris, France"
+AS076,P9b_i,0.0,1.0,1.0,confirmacion,1.0,,0,,False,15,Unknown,"Musee de l Homme, Paris, France"
+AS076,P9b_ii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,15,Unknown,"Musee de l Homme, Paris, France"
+AS076,P9b_iii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,15,Unknown,"Musee de l Homme, Paris, France"
+AS076,P9b_iv,0.0,1.0,1.0,confirmacion,1.0,,0,,False,15,Unknown,"Musee de l Homme, Paris, France"
+JC012,P10,0.9375,0.0058,0.1352080971659919,confirmacion,1.0,0.0058,19999,0.13333333333333333,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P3,0.7032718824846255,0.05389221556886228,0.700641592920354,confirmacion,1.0,,0,0.05389221556886228,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P1b,0.8398412548412547,0.135,1.0,confirmacion,1.0,0.135,199,0.10588235294117647,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P9a,-0.0842911877394635,0.57,1.0,confirmacion,1.0,0.57,199,0.5,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P6b,5.0,0.685,1.0,confirmacion,1.0,0.685,199,0.11,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P2,-0.3112271540469974,0.735,1.0,confirmacion,1.0,0.735,199,0.6763005780346821,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P1c,-0.0416125189288239,0.74,1.0,confirmacion,1.0,0.74,199,0.8114754098360656,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P1a,0.3745126703594155,0.855,1.0,confirmacion,1.0,0.855,199,0.8263473053892215,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P7c,-0.2028368794326241,0.985,1.0,confirmacion,1.0,0.985,199,0.5028901734104047,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P11a,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P11b,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P4r,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P5c,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P6a,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P8ar,0.0,1.0,1.0,confirmacion,1.0,1.0,1999,1.0,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P8b,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P8c,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P9b_i,0.0,1.0,1.0,confirmacion,1.0,,0,,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P9b_ii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P9b_iii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,30,Incahuasi,Proyecto Incahuasi
+JC012,P9b_iv,0.0,1.0,1.0,confirmacion,1.0,,0,,False,30,Incahuasi,Proyecto Incahuasi
+UR050,P9b_iii,1.0,0.01228878648233487,0.25271579971046204,exploracion,1.0,,0,,False,164,Unknown,Private Collection: Anna Maria Soldi
+UR050,P1c,0.6482593132545567,0.085,0.9472612085769981,exploracion,1.0,0.085,199,0.0759493670886076,False,164,Unknown,Private Collection: Anna Maria Soldi
+UR050,P1b,0.8207826816681233,0.75,1.0,exploracion,1.0,0.75,199,0.5189873417721519,False,164,Unknown,Private Collection: Anna Maria Soldi
+UR050,P2,-0.3985409307326064,0.75,1.0,exploracion,1.0,0.75,199,0.9873417721518988,False,164,Unknown,Private Collection: Anna Maria Soldi
+UR050,P3,-3.9524828105757472,0.9240506329113924,1.0,exploracion,1.0,,0,0.9240506329113924,False,164,Unknown,Private Collection: Anna Maria Soldi
+UR050,P1a,0.6688877462108798,0.935,1.0,exploracion,1.0,0.935,199,0.8481012658227848,False,164,Unknown,Private Collection: Anna Maria Soldi
+UR050,P1d,0.6688877462108798,0.98,1.0,exploracion,1.0,0.98,199,0.29850746268656714,False,164,Unknown,Private Collection: Anna Maria Soldi
+UR050,P7c,-0.2813379908965809,0.98,1.0,exploracion,1.0,0.98,199,0.9746835443037974,False,164,Unknown,Private Collection: Anna Maria Soldi
+UR050,P10,0.0,1.0,1.0,exploracion,1.0,1.0,199,1.0,False,164,Unknown,Private Collection: Anna Maria Soldi
+UR050,P4r,0.0,1.0,1.0,exploracion,1.0,1.0,199,1.0,False,164,Unknown,Private Collection: Anna Maria Soldi
+UR050,P8b,0.0,1.0,1.0,exploracion,1.0,1.0,199,1.0,False,164,Unknown,Private Collection: Anna Maria Soldi
+UR050,P8c,0.0,1.0,1.0,exploracion,1.0,1.0,199,1.0,False,164,Unknown,Private Collection: Anna Maria Soldi
+UR050,P9a,-0.0001524215981404,1.0,1.0,exploracion,1.0,1.0,199,0.189873417721519,False,164,Unknown,Private Collection: Anna Maria Soldi
+UR050,P9b_i,0.0,1.0,1.0,exploracion,1.0,,0,,False,164,Unknown,Private Collection: Anna Maria Soldi
+UR050,P9b_ii,0.0,1.0,1.0,exploracion,1.0,,0,,False,164,Unknown,Private Collection: Anna Maria Soldi
+UR050,P9b_iv,0.0,1.0,1.0,exploracion,1.0,,0,,False,164,Unknown,Private Collection: Anna Maria Soldi
+UR052,P6a,3.0,0.00095,0.0273505,confirmacion,1.0,0.00095,19999,0.2018348623853211,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P10,1.0,0.0048,0.11420826446280989,confirmacion,1.0,0.0048,19999,0.25,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P1b,0.9288784237188524,0.09,0.9172035398230088,confirmacion,1.0,0.09,199,0.05,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P2,-0.1411879895561358,0.11,1.0,confirmacion,1.0,0.11,199,0.21487603305785125,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P1c,0.4677476657214643,0.36,1.0,confirmacion,1.0,0.36,199,0.25833333333333336,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P1a,0.7561116173156892,0.46,1.0,confirmacion,1.0,0.46,199,0.325,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P11c,-0.0023809523809523,0.66,1.0,confirmacion,1.0,0.66,199,0.5492957746478874,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P3,-3.2446091206070657,0.7083333333333334,1.0,confirmacion,1.0,,0,0.7083333333333334,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P7c,-0.153068146777675,0.71,1.0,confirmacion,1.0,0.71,199,0.5041322314049587,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P9a,-0.0654216185625353,0.825,1.0,confirmacion,1.0,0.825,199,0.5702479338842975,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P1d,0.4741663240704503,0.835,1.0,confirmacion,1.0,0.835,199,0.5694444444444444,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P7a,0.0073014695958795,0.84,1.0,confirmacion,1.0,0.84,199,0.9692307692307692,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P8b,2.0,0.99,1.0,confirmacion,1.0,0.99,199,0.2833333333333333,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P11a,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P11b,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P4r,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P5b,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P5c,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P8ar,0.0,1.0,1.0,confirmacion,1.0,1.0,1999,1.0,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P8c,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P9b_i,0.0,1.0,1.0,confirmacion,1.0,,0,,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P9b_ii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P9b_iii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR052,P9b_iv,0.0,1.0,1.0,confirmacion,1.0,,0,,False,96,Unknown,Museo Central - Banco Central de Reserva
+UR054,P7c,-0.0914701935978531,0.0435,0.5977875894988066,confirmacion,1.0,0.0435,1999,0.14285714285714285,False,115,Unknown,Private Collection: Anna Maria Soldi
+UR054,P1d,0.7033935166085081,0.755,1.0,confirmacion,1.0,0.755,199,0.2,False,115,Unknown,Private Collection: Anna Maria Soldi
+UR054,P1a,0.7033935166085081,0.76,1.0,confirmacion,1.0,0.76,199,0.5625,False,115,Unknown,Private Collection: Anna Maria Soldi
+UR054,P1b,0.798347516475217,0.765,1.0,confirmacion,1.0,0.765,199,0.48214285714285715,False,115,Unknown,Private Collection: Anna Maria Soldi
+UR054,P3,-3.687642471413204,0.7767857142857143,1.0,confirmacion,1.0,,0,0.7767857142857143,False,115,Unknown,Private Collection: Anna Maria Soldi
+UR054,P1c,0.3364055948997212,0.94,1.0,confirmacion,1.0,0.94,199,0.6964285714285714,False,115,Unknown,Private Collection: Anna Maria Soldi
+UR054,P9a,-0.00062656641604,0.955,1.0,confirmacion,1.0,0.955,199,0.25,False,115,Unknown,Private Collection: Anna Maria Soldi
+UR054,P2,-0.3844665906667158,0.98,1.0,confirmacion,1.0,0.98,199,0.9642857142857143,False,115,Unknown,Private Collection: Anna Maria Soldi
+UR054,P10,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,115,Unknown,Private Collection: Anna Maria Soldi
+UR054,P4r,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,115,Unknown,Private Collection: Anna Maria Soldi
+UR054,P8b,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,115,Unknown,Private Collection: Anna Maria Soldi
+UR054,P8c,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,115,Unknown,Private Collection: Anna Maria Soldi
+UR054,P9b_i,0.0,1.0,1.0,confirmacion,1.0,,0,,False,115,Unknown,Private Collection: Anna Maria Soldi
+UR054,P9b_ii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,115,Unknown,Private Collection: Anna Maria Soldi
+UR054,P9b_iii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,115,Unknown,Private Collection: Anna Maria Soldi
+UR054,P9b_iv,0.0,1.0,1.0,confirmacion,1.0,,0,,False,115,Unknown,Private Collection: Anna Maria Soldi
+UR055,P8b,8.0,0.095,1.0,exploracion,1.0,0.095,199,0.027777777777777776,False,180,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo"
+UR055,P1b,0.9166666666666666,0.18,1.0,exploracion,1.0,0.18,199,0.1388888888888889,False,180,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo"
+UR055,P2,-0.2197278125649854,0.255,1.0,exploracion,1.0,0.255,199,0.8333333333333334,False,180,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo"
+UR055,P1d,0.7754763931697962,0.605,1.0,exploracion,1.0,0.605,199,0.06557377049180328,False,180,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo"
+UR055,P1a,0.7754763931697962,0.63,1.0,exploracion,1.0,0.63,199,0.4861111111111111,False,180,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo"
+UR055,P1c,0.4695209236557102,0.68,1.0,exploracion,1.0,0.68,199,0.49295774647887325,False,180,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo"
+UR055,P7c,-0.1559192580469176,0.8,1.0,exploracion,1.0,0.8,199,0.7222222222222222,False,180,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo"
+UR055,P3,-3.9091640084618295,0.9027777777777778,1.0,exploracion,1.0,,0,0.9027777777777778,False,180,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo"
+UR055,P9a,-0.0291323422655682,0.995,1.0,exploracion,1.0,0.995,199,0.3333333333333333,False,180,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo"
+UR055,P10,0.0,1.0,1.0,exploracion,1.0,1.0,199,1.0,False,180,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo"
+UR055,P4r,0.0,1.0,1.0,exploracion,1.0,1.0,199,1.0,False,180,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo"
+UR055,P8c,1.0,1.0,1.0,exploracion,1.0,1.0,199,0.7083333333333334,False,180,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo"
+UR055,P9b_i,0.0,1.0,1.0,exploracion,1.0,,0,,False,180,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo"
+UR055,P9b_ii,0.0,1.0,1.0,exploracion,1.0,,0,,False,180,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo"
+UR055,P9b_iii,0.0,1.0,1.0,exploracion,1.0,,0,,False,180,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo"
+UR055,P9b_iv,0.0,1.0,1.0,exploracion,1.0,,0,,False,180,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo"
+UR178,P3,1.142615698863468,0.041237113402061855,0.5799927184466019,confirmacion,1.0,,0,0.041237113402061855,False,14,Cajamarquilla,"American Museum of Natural History, NY"
+UR178,P1a,0.5222329678670935,0.395,1.0,confirmacion,1.0,0.395,199,0.32989690721649484,False,14,Cajamarquilla,"American Museum of Natural History, NY"
+UR178,P1b,0.5477225575051662,0.675,1.0,confirmacion,1.0,0.675,199,0.5728155339805825,False,14,Cajamarquilla,"American Museum of Natural History, NY"
+UR178,P2,-0.4524036246352327,0.775,1.0,confirmacion,1.0,0.775,199,0.7394957983193278,False,14,Cajamarquilla,"American Museum of Natural History, NY"
+UR178,P7c,-0.3269920734251147,0.79,1.0,confirmacion,1.0,0.79,199,0.773109243697479,False,14,Cajamarquilla,"American Museum of Natural History, NY"
+UR178,P10,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,14,Cajamarquilla,"American Museum of Natural History, NY"
+UR178,P5c,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,14,Cajamarquilla,"American Museum of Natural History, NY"
+UR178,P8b,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,14,Cajamarquilla,"American Museum of Natural History, NY"
+UR178,P8c,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,14,Cajamarquilla,"American Museum of Natural History, NY"
+UR178,P9a,0.0,1.0,1.0,confirmacion,1.0,1.0,199,0.3225806451612903,False,14,Cajamarquilla,"American Museum of Natural History, NY"
+UR178,P9b_i,0.0,1.0,1.0,confirmacion,1.0,,0,,False,14,Cajamarquilla,"American Museum of Natural History, NY"
+UR178,P9b_ii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,14,Cajamarquilla,"American Museum of Natural History, NY"
+UR178,P9b_iii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,14,Cajamarquilla,"American Museum of Natural History, NY"
+UR178,P9b_iv,0.0,1.0,1.0,confirmacion,1.0,,0,,False,14,Cajamarquilla,"American Museum of Natural History, NY"
+UR179,P3,2.860052802866104,0.0070921985815602835,0.15586595203291648,confirmacion,1.0,,0,0.0070921985815602835,False,18,Cajamarquilla,"American Museum of Natural History, NY"
+UR179,P9a,-0.0078431372549019,0.31,1.0,confirmacion,1.0,0.31,199,0.2981366459627329,False,18,Cajamarquilla,"American Museum of Natural History, NY"
+UR179,P1a,-1.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,18,Cajamarquilla,"American Museum of Natural History, NY"
+UR179,P1b,-1.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,18,Cajamarquilla,"American Museum of Natural History, NY"
+UR179,P2,-9.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,18,Cajamarquilla,"American Museum of Natural History, NY"
+UR179,P5c,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,18,Cajamarquilla,"American Museum of Natural History, NY"
+UR179,P7c,-9.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,18,Cajamarquilla,"American Museum of Natural History, NY"
+UR179,P8b,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,18,Cajamarquilla,"American Museum of Natural History, NY"
+UR179,P8c,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,18,Cajamarquilla,"American Museum of Natural History, NY"
+UR179,P9b_i,0.0,1.0,1.0,confirmacion,1.0,,0,,False,18,Cajamarquilla,"American Museum of Natural History, NY"
+UR179,P9b_ii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,18,Cajamarquilla,"American Museum of Natural History, NY"
+UR179,P9b_iii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,18,Cajamarquilla,"American Museum of Natural History, NY"
+UR179,P9b_iv,0.0,1.0,1.0,confirmacion,1.0,,0,,False,18,Cajamarquilla,"American Museum of Natural History, NY"
+UR180,P1a,0.812776759390954,0.00205,0.05414633027522937,confirmacion,1.0,0.00205,19999,0.029411764705882353,False,12,Cajamarquilla,"American Museum of Natural History, NY"
+UR180,P3,2.345729299025329,0.029411764705882353,0.4627129540340726,confirmacion,1.0,,0,0.029411764705882353,False,12,Cajamarquilla,"American Museum of Natural History, NY"
+UR180,P1b,0.5477225575051662,0.435,1.0,confirmacion,1.0,0.435,199,0.475,False,12,Cajamarquilla,"American Museum of Natural History, NY"
+UR180,P9a,-0.2424242424242424,0.715,1.0,confirmacion,1.0,0.715,199,0.7477477477477478,False,12,Cajamarquilla,"American Museum of Natural History, NY"
+UR180,P2,-9.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,12,Cajamarquilla,"American Museum of Natural History, NY"
+UR180,P5c,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,12,Cajamarquilla,"American Museum of Natural History, NY"
+UR180,P7c,-9.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,12,Cajamarquilla,"American Museum of Natural History, NY"
+UR180,P8b,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,12,Cajamarquilla,"American Museum of Natural History, NY"
+UR180,P8c,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,12,Cajamarquilla,"American Museum of Natural History, NY"
+UR180,P9b_i,0.0,1.0,1.0,confirmacion,1.0,,0,,False,12,Cajamarquilla,"American Museum of Natural History, NY"
+UR180,P9b_ii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,12,Cajamarquilla,"American Museum of Natural History, NY"
+UR180,P9b_iii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,12,Cajamarquilla,"American Museum of Natural History, NY"
+UR180,P9b_iv,0.0,1.0,1.0,confirmacion,1.0,,0,,False,12,Cajamarquilla,"American Museum of Natural History, NY"
+UR203,P10,0.8333333333333333,0.017,0.31576129032258066,confirmacion,1.0,0.017,1999,0.42105263157894735,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P1a,0.8545454545454545,0.12,1.0,confirmacion,1.0,0.12,199,0.07894736842105263,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P1c,0.5828659631828564,0.145,1.0,confirmacion,1.0,0.145,199,0.07894736842105263,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P8ar,2.0,0.3225,1.0,confirmacion,1.0,0.3225,1999,0.102803738317757,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P2,-0.1454556757428819,0.51,1.0,confirmacion,1.0,0.51,199,0.2956521739130435,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P3,-2.603983261400764,0.5614035087719298,1.0,confirmacion,1.0,,0,0.5614035087719298,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P8b,4.0,0.595,1.0,confirmacion,1.0,0.595,199,0.08771929824561403,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P12,0.2692307692307692,0.6666666666666666,1.0,confirmacion,1.0,,0,0.6666666666666666,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P7c,-0.1089910775566231,0.7,1.0,confirmacion,1.0,0.7,199,0.24347826086956523,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P9a,-0.0647727272727272,0.825,1.0,confirmacion,1.0,0.825,199,0.5304347826086957,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P11c,-0.1011235955056179,0.85,1.0,confirmacion,1.0,0.85,199,0.8133333333333334,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P1d,0.5151515151515151,0.9,1.0,confirmacion,1.0,0.9,199,0.5625,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P8c,2.0,0.9,1.0,confirmacion,1.0,0.9,199,0.20175438596491227,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P1b,0.7166666666666667,0.975,1.0,confirmacion,1.0,0.975,199,0.8333333333333334,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P11a,1.0,1.0,1.0,confirmacion,1.0,1.0,199,0.8018867924528302,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P11b,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P4r,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P5b,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P5c,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P6a,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P9b_i,0.0,1.0,1.0,confirmacion,1.0,,0,,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P9b_ii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P9b_iii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR203,P9b_iv,0.0,1.0,1.0,confirmacion,1.0,,0,,False,113,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P10,1.0,0.00135,0.03737163461538462,confirmacion,1.0,0.00135,19999,0.28888888888888886,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P3,-0.1367198697505952,0.13333333333333333,1.0,confirmacion,1.0,,0,0.13333333333333333,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P12,0.7222222222222222,0.29545454545454547,1.0,confirmacion,1.0,,0,0.29545454545454547,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P2,-0.1112271540469974,0.395,1.0,confirmacion,1.0,0.395,199,0.16666666666666666,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P1a,0.7745360140854262,0.4,1.0,confirmacion,1.0,0.4,199,0.35555555555555557,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P1b,0.809461100193995,0.64,1.0,confirmacion,1.0,0.64,199,0.5111111111111111,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P7c,-0.1226577081000373,0.71,1.0,confirmacion,1.0,0.71,199,0.4444444444444444,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P8b,2.0,0.78,1.0,confirmacion,1.0,0.78,199,0.4444444444444444,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P9a,-0.0509218612818261,0.835,1.0,confirmacion,1.0,0.835,199,0.45555555555555555,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P1c,0.3292744139923163,0.935,1.0,confirmacion,1.0,0.935,199,0.8333333333333334,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P4r,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P5c,0.0,1.0,1.0,confirmacion,1.0,1.0,199,1.0,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P8c,1.0,1.0,1.0,confirmacion,1.0,1.0,199,0.6333333333333333,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P9b_i,0.0,1.0,1.0,confirmacion,1.0,,0,,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P9b_ii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P9b_iii,0.0,1.0,1.0,confirmacion,1.0,,0,,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"
+UR215,P9b_iv,0.0,1.0,1.0,confirmacion,1.0,,0,,False,137,Unknown,"Ethnologisches Museum, Berlin, Germany"

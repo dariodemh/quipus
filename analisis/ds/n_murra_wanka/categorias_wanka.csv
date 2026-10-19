@@ -1,0 +1,44 @@
+cuerda,categoria,etiqueta,unidad,flujo
+1,I,Varones,personas,entregado
+2,I,Mujeres,personas,entregado
+3,II,Ovejas de la tierra (llamas),cabezas,entregado
+4,II,Carneros para su comida,cabezas,entregado
+5,II,"Ovejas, carneros, pacos",cabezas,rancheado
+6,III,"Vestidos, lana, cumbi",piezas,entregado
+7,III,Frazadas,piezas,entregado
+8,III,Vestidos,piezas,rancheado
+9,IV,Maíz,hanegas,entregado
+10,IV,Quinua,hanegas,entregado
+11,IV,Papas,hanegas,entregado
+12,IV,Maíz,hanegas,rancheado
+13,IV,Quinua,hanegas,rancheado
+14,IV,Papas,hanegas,rancheado
+15,V,Sandalias de cuerda,pares,entregado
+16,V,Sandalias de agave,pares,entregado
+17,V,Sandalias de cuerda,pares,rancheado
+18,V,Sandalias de agave,pares,rancheado
+19,V,Soga gruesa,unidad,entregado
+20,V,Aderezos de caballo,juegos,entregado
+21,VI,"Cántaros, ollas, tinajas",piezas,entregado
+22,VI,"Vasijas pequeñas, mates, escudillas",piezas,entregado
+23,VI,Cántaros,piezas,rancheado
+24,VI,Mates,piezas,rancheado
+25,VII,Gallinas de Castilla,aves,entregado
+26,VII,Huevos,unidades,entregado
+27,VII,Perdices,aves,entregado
+28,VIII,Leña partida,cargas,entregado
+29,VIII,Astillas,cargas,entregado
+30,VIII,Carbón,cargas,entregado
+31,VIII,Hierba,cargas,entregado
+32,VIII,Paja,cargas,entregado
+33,IX,Chicha,cántaros,entregado
+34,IX,Toda fruta,cestas,entregado
+35,IX,Sal blanca,libras,entregado
+36,IX,Pescado,cestas de 1 libra,entregado
+37,X,Cargadores,personas,a la salida
+38,X,Yanaconas/sirvientes,personas,a la salida
+39,XI,Ovejas,cabezas,a la salida
+40,XI,Carneros,cabezas,a la salida
+41,XII,Maíz para el camino,hanegas,a la salida
+42,XII,Quinua para el camino,hanegas,a la salida
+43,XII,Papas para el camino,hanegas,a la salida

@@ -1,0 +1,75 @@
+{
+  "ausentes_kfg": [
+    "AS030",
+    "AS031",
+    "AS032",
+    "AS033A",
+    "AS033B",
+    "AS033C",
+    "AS033D",
+    "AS033E",
+    "AS033F",
+    "AS033G"
+  ],
+  "okr_presentes": [
+    "KH0033",
+    "KH0032",
+    "KH0034",
+    "KH0035",
+    "KH0036",
+    "KH0037",
+    "KH0038",
+    "KH0039",
+    "KH0040",
+    "KH0041"
+  ],
+  "thompson_p1": [
+    {
+      "ord": 1,
+      "TYPE_CODE": "S",
+      "NUM_TURNS": 0.0,
+      "DIRECTION": "Z",
+      "CLUSTER_ORDINAL": 1.0,
+      "knot_value_type": 10
+    },
+    {
+      "ord": 1,
+      "TYPE_CODE": "S",
+      "NUM_TURNS": 0.0,
+      "DIRECTION": "U",
+      "CLUSTER_ORDINAL": 1.0,
+      "knot_value_type": 10
+    }
+  ],
+  "okr_sin_metadata": [
+    "KH0099",
+    "KH0114",
+    "KH0115",
+    "KH0139",
+    "KH0146",
+    "KH0198",
+    "KH0208",
+    "KH0228",
+    "KH0268",
+    "KH0351",
+    "KH0419",
+    "KH0589",
+    "KH0590",
+    "KH0591",
+    "KH0592",
+    "KH0593",
+    "KH0594",
+    "KH0595",
+    "KH0596",
+    "KH0597",
+    "KH0598",
+    "KH0599",
+    "KH0601",
+    "KH0602",
+    "KH0603",
+    "KH0604",
+    "KH0605",
+    "KH0606",
+    "KH0607"
+  ]
+}

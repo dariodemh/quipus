@@ -1,0 +1,37 @@
+EVENTOS: 19 | CUERDAS (columnas) declaradas: 43 | CLÚSTERES: 12
+Celdas impresas con cantidad: 361 de 817 posibles (44.2 %)
+
+Por evento: n.º de cantidades y año aproximado
+ i_evento evento  n     suma  anio
+        0      a 32 724721.0  1533
+        1      b 18  81794.0  1533
+        2      c 13  57811.0  1533
+        3     ch 20  51778.0  1533
+        4      d 11  23728.0  1533
+        5      e 10   6643.0  1533
+        6      f 33 323634.0  1537
+        7      g 14  22888.0  1538
+        8      h 18  47573.0  1539
+        9      i 20   2839.0  1541
+       10      j 26  35102.0  1541
+       11      k 10  56654.0  1541
+       12      l 23  76796.0  1542
+       13     ll 24  44086.0  1542
+       14      m 23  40925.0  1542
+       15      n 15   4205.0  1542
+       16      o  6   4029.0  1542
+       17      p 19   7351.0  1542
+       18      q 26  63452.0  1548
+
+Por clúster: n.º de cantidades, suma bruta (unidades heterogéneas), máximo
+            n       suma    maximo  mediana
+categoria                                  
+I+II       47    81098.0   29231.0    173.0
+III+IV     84   132560.0   21563.0    146.5
+IX+X       53    55116.0   12404.0    234.0
+V+VI       78    49299.0   11285.0    123.0
+VII+VIII   88  1348619.0  321354.0   1778.0
+XI+XII     11     9317.0    4755.0    283.0
+
+Pares de eventos consecutivos con vector de valores IDÉNTICO: []
+Duplicados por página: [(40, 'll', 'm', '210;300;15;25;123'), (41, 'll', 'm', '22;450;31;50;2933;30541;3214')]

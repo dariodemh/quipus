@@ -1,0 +1,290 @@
+
+===== HP038 / p8  n=66 altura=15 nivel>=3=63 pA=0.002 =====
+cuerda | niv | valor | color | largo | union | nudos
+p8 | 0 | 1 | W:MB(0.0-6.5)/W(6.5-29.0) | 29.0 | R | 1E(12.0,S),1
+  p8s1 | 1 |  | W | 27.0 | Unknown | nan
+    p8s1s1 | 2 |  | W:BG(0-3)W(3-40) | 40.0 | R | nan
+      p8s1s1s1 | 3 |  | W | 28.0 | Unknown | nan
+      p8s1s1s2 | 3 |  | W | 29.0 | Unknown | nan
+      p8s1s1s3 | 3 |  | W | 28.0 | Unknown | nan
+      p8s1s1s4 | 3 |  | W | 23.0 | Unknown | nan
+      p8s1s1s5 | 3 | 1 | W | 20.0 | Unknown | 1E(12.0,S),1
+      p8s1s1s6 | 3 |  | W:MB | 24.0 | Unknown | nan
+      p8s1s1s7 | 3 | 10 | W:MB | 18.0 | Unknown | 1S(11.5,S),10
+      p8s1s1s8 | 3 | 1 | W | 19.0 | Unknown | 1E(11.0,S),1
+        p8s1s1s8s1 | 4 |  | MB:BG(0-6)W(6-42) | 42.0 | R | nan
+          p8s1s1s8s1s1 | 5 |  | W | 24.0 | Unknown | nan
+          p8s1s1s8s1s2 | 5 |  | W | 25.0 | Unknown | nan
+          p8s1s1s8s1s3 | 5 |  | W | 25.0 | Unknown | nan
+          p8s1s1s8s1s4 | 5 | 1 | W | 18.0 | Unknown | 1E(11.5,S),1
+          p8s1s1s8s1s5 | 5 |  | W | 25.0 | Unknown | nan
+          p8s1s1s8s1s6 | 5 | 2 | W:MB | 21.0 | Unknown | 2L(11.0,S),2
+          p8s1s1s8s1s7 | 5 | 2 | W:MB | 17.0 | Unknown | 2L(10.5,S),2
+          p8s1s1s8s1s8 | 5 | 1 | W | 26.0 | Unknown | 1E(11.0,S),1
+            p8s1s1s8s1s8s1 | 6 |  | MB:BG(0-7)W(7-38) | 38.0 | R | nan
+              p8s1s1s8s1s8s1s1 | 7 |  | W:MB | 24.5 | Unknown | nan
+              p8s1s1s8s1s8s1s2 | 7 |  | W:MB | 22.0 | Unknown | nan
+              p8s1s1s8s1s8s1s3 | 7 | 3 | W | 17.0 | Unknown | 3L(10.5,S),3
+              p8s1s1s8s1s8s1s4 | 7 |  | W | 20.0 | Unknown | nan
+              p8s1s1s8s1s8s1s5 | 7 |  | W | 27.0 | Unknown | nan
+              p8s1s1s8s1s8s1s6 | 7 |  | W | 29.0 | Unknown | nan
+              p8s1s1s8s1s8s1s7 | 7 | 1 | W | 28.0 | Unknown | 1E(18.0,S),1
+              p8s1s1s8s1s8s1s8 | 7 |  | W | 12.5 | Unknown | nan
+                p8s1s1s8s1s8s1s8s1 | 8 |  | W:MB(0-8)W(8-39) | 39.0 | R | nan
+                  p8s1s1s8s1s8s1s8s1s1 | 9 |  | W:MB | 23.0 | Unknown | nan
+                  p8s1s1s8s1s8s1s8s1s2 | 9 |  | W:MB | 23.0 | Unknown | nan
+                  p8s1s1s8s1s8s1s8s1s3 | 9 |  | W | 9.0 | Unknown | nan
+                  p8s1s1s8s1s8s1s8s1s4 | 9 |  | W | 29.0 | Unknown | nan
+                  p8s1s1s8s1s8s1s8s1s5 | 9 | 1 | W | 20.5 | Unknown | 1E(15.0,S),1
+                  p8s1s1s8s1s8s1s8s1s6 | 9 |  | W | 31.0 | Unknown | nan
+                  p8s1s1s8s1s8s1s8s1s7 | 9 |  | W | 13.0 | Unknown | nan
+                  p8s1s1s8s1s8s1s8s1s8 | 9 | 1 | W | 19.0 | Unknown | 1E(15.0,S),1
+                  p8s1s1s8s1s8s1s8s1s9 | 9 |  | W | 29.0 | Unknown | nan
+                    p8s1s1s8s1s8s1s8s1s9s1 | 10 |  | W:MB | 8.0 | R | nan
+                      p8s1s1s8s1s8s1s8s1s9s1s1 | 11 |  | W:MB | 5.5 | Unknown | nan
+                      p8s1s1s8s1s8s1s8s1s9s1s2 | 11 |  | W:MB | 5.5 | Unknown | nan
+                      p8s1s1s8s1s8s1s8s1s9s1s3 | 11 |  | W | 6.0 | Unknown | nan
+                      p8s1s1s8s1s8s1s8s1s9s1s4 | 11 |  | W | 12.0 | Unknown | nan
+                      p8s1s1s8s1s8s1s8s1s9s1s5 | 11 |  | W | 5.5 | Unknown | nan
+                      p8s1s1s8s1s8s1s8s1s9s1s6 | 11 | 1 | W | 23.0 | Unknown | 1E(15.0,S),1
+                      p8s1s1s8s1s8s1s8s1s9s1s7 | 11 |  | W | 15.0 | Unknown | nan
+                      p8s1s1s8s1s8s1s8s1s9s1s8 | 11 |  | W | 8.0 | Unknown | nan
+                        p8s1s1s8s1s8s1s8s1s9s1s8s1 | 12 |  | W:MB(0-9)W(9-28) | 28.0 | R | nan
+                          p8s1s1s8s1s8s1s8s1s9s1s8s1s1 | 13 |  | W:MB | 13.0 | Unknown | nan
+                          p8s1s1s8s1s8s1s8s1s9s1s8s1s2 | 13 |  | W:MB | 13.0 | Unknown | nan
+                          p8s1s1s8s1s8s1s8s1s9s1s8s1s3 | 13 |  | W | 11.0 | Unknown | nan
+                          p8s1s1s8s1s8s1s8s1s9s1s8s1s4 | 13 |  | W | 3.5 | Unknown | nan
+                          p8s1s1s8s1s8s1s8s1s9s1s8s1s5 | 13 |  | W | 28.0 | Unknown | nan
+                          p8s1s1s8s1s8s1s8s1s9s1s8s1s6 | 13 |  | W | 21.0 | Unknown | nan
+                          p8s1s1s8s1s8s1s8s1s9s1s8s1s7 | 13 |  | W | 6.0 | Unknown | nan
+                          p8s1s1s8s1s8s1s8s1s9s1s8s1s8 | 13 |  | W | 6.0 | Unknown | nan
+                            p8s1s1s8s1s8s1s8s1s9s1s8s1s8s1 | 14 |  | W:MB(0-6.5)W(6.5-29) | 29.0 | R | nan
+                              p8s1s1s8s1s8s1s8s1s9s1s8s1s8s1s1 | 15 |  | W | 13.0 | Unknown | nan
+                              p8s1s1s8s1s8s1s8s1s9s1s8s1s8s1s2 | 15 |  | W | 7.5 | Unknown | nan
+                              p8s1s1s8s1s8s1s8s1s9s1s8s1s8s1s3 | 15 |  | W | 12.0 | Unknown | nan
+                              p8s1s1s8s1s8s1s8s1s9s1s8s1s8s1s4 | 15 |  | W | 9.0 | Unknown | nan
+                              p8s1s1s8s1s8s1s8s1s9s1s8s1s8s1s5 | 15 |  | W | 7.0 | Unknown | nan
+                              p8s1s1s8s1s8s1s8s1s9s1s8s1s8s1s6 | 15 |  | W:MB | 22.0 | Unknown | nan
+                              p8s1s1s8s1s8s1s8s1s9s1s8s1s8s1s7 | 15 |  | W:MB | 13.5 | Unknown | nan
+                              p8s1s1s8s1s8s1s8s1s9s1s8s1s8s1s8 | 15 |  | W | 7.0 | Unknown | nan
+  -- por nivel relativo: n, con valor, largo medio, colores distintos
+     0: n=1, valor=1, largo=29.0, colores=1
+     1: n=1, valor=0, largo=27.0, colores=1
+     2: n=1, valor=0, largo=40.0, colores=1
+     3: n=8, valor=3, largo=23.6, colores=2
+     4: n=1, valor=0, largo=42.0, colores=1
+     5: n=8, valor=4, largo=22.6, colores=2
+     6: n=1, valor=0, largo=38.0, colores=1
+     7: n=8, valor=2, largo=22.5, colores=2
+     8: n=1, valor=0, largo=39.0, colores=1
+     9: n=9, valor=2, largo=21.8, colores=2
+     10: n=1, valor=0, largo=8.0, colores=1
+     11: n=8, valor=1, largo=10.1, colores=2
+     12: n=1, valor=0, largo=28.0, colores=1
+     13: n=8, valor=0, largo=12.7, colores=2
+     14: n=1, valor=0, largo=29.0, colores=1
+     15: n=8, valor=0, largo=11.4, colores=2
+
+===== KH0083 / p17  n=19 altura=4 nivel>=3=10 pA=0.404 =====
+cuerda | niv | valor | color | largo | union | nudos
+p17 | 0 | 15 | W | 39.5 | R | 1S(11.5,S),10;5L(18.0,S),5
+  p17s1 | 1 | 55 | W | 29.0 | U | 5S(9.0,S),50;5L(15.5,S),5
+    p17s1s1 | 2 |  | W:MB(0.0-3.5)/W(3.5-41.5) | 41.5 | U | nan
+      p17s1s1s1 | 3 |  | W-DB | 44.0 | U | nan
+        p17s1s1s1s1 | 4 | 44 | W-HB | 35.0 | U | 4S(7.0,S),40;4L(15.0,S),4
+      p17s1s1s2 | 3 | 563 | W-MB | 26.0 | U | 5S(2.0,S),500;6S(7.0,S),60;3L(15.5,S),3
+    p17s1s2 | 2 |  | W | 39.5 | U | nan
+      p17s1s2s1 | 3 | 140 | W:MB | 36.5 | U | 1S(1.5,S),100;4S(6.5,S),40
+      p17s1s2s2 | 3 | 4 | YB:DB(0.0-2.0)/W(2.0-40.5) | 40.5 | U | 4L(15.0,S),4
+      p17s1s2s3 | 3 |  | PK(0.0-4.0)/PK(4.0-8.5)/W(8.5-45.5) | 45.5 | U | nan
+        p17s1s2s3s1 | 4 | 5 | W-YB(0.0-6.0)/W(6.0-40.0) | 40.0 | U | 5L(13.5,S),5
+      p17s1s2s4 | 3 | 10 | PK(0.0-7.0)/PK(7.0-10.0)/PK(10.0-47.0) | 47.0 | U | 1S(7.0,S),10
+      p17s1s2s5 | 3 | 8 | BY:SR(0.0-2.5)/W(2.5-42.0) | 42.0 | U | 8L(14.0,S),8
+    p17s1s3 | 2 | 18 | DB(0.0-2.0)/W(2.0-30.0) | 30.0 | U | 1S(7.5,S),10;8L(14.0,S),8
+  p17s2 | 1 |  | W:MB(0.0-3.0)/W(3.0-41.0) | 41.0 | U | nan
+    p17s2s1 | 2 |  | W-DB | 47.0 | U | nan
+      p17s2s1s1 | 3 | 3 | W-GA | 42.5 | U | 3L(14.5,S),3
+    p17s2s2 | 2 | 13 | W-GA | 38.0 | U | 1S(7.5,S),10;1E(14.5,Z),1;2L(18.5,S),2
+  p17s3 | 1 | 3 | W(0.0-4.0)/W:DB(4.0-7.5)/W(7.5-36.0) | 36.0 | U | 3L(14.5,S),3
+  -- por nivel relativo: n, con valor, largo medio, colores distintos
+     0: n=1, valor=1, largo=39.5, colores=1
+     1: n=3, valor=2, largo=35.3, colores=3
+     2: n=5, valor=2, largo=39.2, colores=5
+     3: n=8, valor=6, largo=40.5, colores=8
+     4: n=2, valor=2, largo=37.5, colores=2
+
+===== UR267B / p52  n=14 altura=4 nivel>=3=7 pA=0.085 =====
+cuerda | niv | valor | color | largo | union | nudos
+p52 | 0 |  | W:MB | 15.5 | R | nan
+  p52s1 | 1 | 1 | LG | 9.0 | U | 1E(8.5,Z),1
+    p52s1s1 | 2 |  | AB | 1.0 | U | nan
+    p52s1s2 | 2 | 4 | W | 29.5 | U | 4L(8.5,S),4
+    p52s1s3 | 2 | 1 | W:MB | 27.0 | U | 1E(8.0,Z),1
+    p52s1s4 | 2 | 1 | W:MB | 39.5 | U | 1E(9.0,Z),1
+      p52s1s4s1 | 3 | 1 | LG | 19.5 | U | 1E(8.0,Z),1
+    p52s1s5 | 2 | 1 | MB | 23.0 | U | 1E(7.5,Z),1
+      p52s1s5s1 | 3 | 1 | W | 31.0 | U | 1E(7.5,Z),1
+        p52s1s5s1s1 | 4 |  | W | 23.0 | U | nan
+      p52s1s5s2 | 3 | 5 | W | 21.5 | U | 5L(8.0,S),5
+      p52s1s5s3 | 3 |  | MB | 2.0 | U | nan
+      p52s1s5s4 | 3 | 5 | W | 22.0 | U | 5L(8.0,S),5
+      p52s1s5s5 | 3 |  | AB | 28.5 | U | nan
+  -- por nivel relativo: n, con valor, largo medio, colores distintos
+     0: n=1, valor=0, largo=15.5, colores=1
+     1: n=1, valor=1, largo=9.0, colores=1
+     2: n=5, valor=4, largo=24.0, colores=4
+     3: n=6, valor=4, largo=20.8, colores=4
+     4: n=1, valor=0, largo=23.0, colores=1
+
+===== KH0197 / p3  n=10 altura=4 nivel>=3=6 pA=0.085 =====
+cuerda | niv | valor | color | largo | union | nudos
+p3 | 0 | 533 | W | 21.0 | R | 5S(5.5,Z),500;3S(13.0,Z),30;3L(16.0,Z),3
+  p3s1 | 1 | 9 | AB:RB | 23.5 | U | 9L(10.5,Z),9
+    p3s1s1 | 2 | 10 | PR | 23.5 | U | 1S(10.0,Z),10
+      p3s1s1s1 | 3 | 2 | W | 25.5 | U | 2L(9.0,Z),2
+        p3s1s1s1s1 | 4 | 2 | W:KB | 27.5 | U | 2L(8.5,Z),2
+      p3s1s1s2 | 3 | 10 | YB | 27.0 | U | 1S(2.5,Z),10
+      p3s1s1s3 | 3 | 1 | RL | 39.5 | U | 1E(8.0,Z),1
+      p3s1s1s4 | 3 | 1 | GL | 27.5 | U | 1E(7.5,Z),1
+      p3s1s1s5 | 3 | 1 | AB:MB | 26.0 | U | 1E(7.0,Z),1
+  p3s2 | 1 | 6 | W | 31.0 | U | 6L(11.0,Z),6
+  -- por nivel relativo: n, con valor, largo medio, colores distintos
+     0: n=1, valor=1, largo=21.0, colores=1
+     1: n=2, valor=2, largo=27.2, colores=2
+     2: n=1, valor=1, largo=23.5, colores=1
+     3: n=5, valor=5, largo=29.1, colores=5
+     4: n=1, valor=1, largo=27.5, colores=1
+
+===== UR262 / p80  n=10 altura=5 nivel>=3=6 pA=0.042 =====
+cuerda | niv | valor | color | largo | union | nudos
+p80 | 0 | 224 | NB | 32.0 | R | 2S(13.0,Z),200;2S(19.5,Z),20;4L(28.0,Z),
+  p80s1 | 1 | 2211 | AB:KB | 30.0 | U | 2S(2.0,Z),2000;2S(7.0,Z),200;1S(13.0,Z),
+    p80s1s1 | 2 | 56 | NB | 51.0 | U | 5S(8.5,Z),50;6L(17.0,Z),6
+    p80s1s2 | 2 | 40 | NB | 6.0 | U | 4S(2.0,Z),40
+      p80s1s2s1 | 3 | 98 | NB | 21.5 | U | 9S(10.5,Z),90;8L(17.0,Z),8
+        p80s1s2s1s1 | 4 | 40 | AB | 13.5 | U | 4S(8.5,Z),40
+          p80s1s2s1s1s1 | 5 |  | AB | 4.5 | U | nan
+          p80s1s2s1s1s2 | 5 | 53 | AB | 33.5 | U | 5S(7.0,Z),50;3L(14.0,Z),3
+          p80s1s2s1s1s3 | 5 | 20 | AB | 12.5 | U | 2S(10.0,Z),20
+          p80s1s2s1s1s4 | 5 | 11 | NB | 16.5 | U | 1S(6.0,Z),10;1E(14.5,Z),1
+  -- por nivel relativo: n, con valor, largo medio, colores distintos
+     0: n=1, valor=1, largo=32.0, colores=1
+     1: n=1, valor=1, largo=30.0, colores=1
+     2: n=2, valor=2, largo=28.5, colores=1
+     3: n=1, valor=1, largo=21.5, colores=1
+     4: n=1, valor=1, largo=13.5, colores=1
+     5: n=4, valor=3, largo=16.8, colores=2
+
+===== UR280 / p7  n=16 altura=4 nivel>=3=5 pA=0.469 =====
+cuerda | niv | valor | color | largo | union | nudos
+p7 | 0 | 188 | AB | 30.0 | V | 1S(5.0,Z),100;8S(11.0,Z),80;8L(19.5,S),8
+  p7s1 | 1 |  | AB | 1.5 | U | nan
+  p7s2 | 1 | 12 | AB | 32.0 | U | 1S(10.0,Z),10;2L(19.5,S),2
+    p7s2s1 | 2 | 14 | W:GG | 31.0 | U | 1S(11.0,Z),10;4L(18.5,S),4
+      p7s2s1s1 | 3 | 22 | NB | 27.0 | U | 1S(10.0,Z),10;9L(19.0,S),9;3L(24.5,S),3
+      p7s2s1s2 | 3 | 5 | AB | 45.5 | U | 5L(17.0,S),5
+      p7s2s1s3 | 3 | 36 | W:MB | 21.5 | U | 3S(5.5,Z),30;6L(14.0,S),6
+      p7s2s1s4 | 3 | 3 | AB | 17.5 | U | 3L(8.0,S),3
+        p7s2s1s4s1 | 4 | 2 | W:AB | 14.0 | U | 2L(6.0,S),2
+  p7s3 | 1 | 164 | AB | 35.5 | U | 1S(3.5,Z),100;6S(10.0,Z),60;4L(19.0,S),4
+    p7s3s1 | 2 | 3 | W | 32.5 | U | 3L(17.5,S),3
+  p7s4 | 1 | 63 | AB | 41.0 | U | 6S(7.5,Z),60;3L(18.5,S),3
+    p7s4s1 | 2 | 2 | W | 18.5 | U | 2L(5.5,S),2
+  p7s5 | 1 | 20 | AB | 28.5 | U | 2S(9.0,Z),20
+    p7s5s1 | 2 | 72 | AB | 36.5 | U | 7S(7.5,Z),70;2L(17.5,S),2
+  p7s6 | 1 |  | MB | 10.0 | U | nan
+  -- por nivel relativo: n, con valor, largo medio, colores distintos
+     0: n=1, valor=1, largo=30.0, colores=1
+     1: n=6, valor=4, largo=24.8, colores=2
+     2: n=4, valor=4, largo=29.6, colores=3
+     3: n=4, valor=4, largo=27.9, colores=3
+     4: n=1, valor=1, largo=14.0, colores=1
+
+===== AS071 / p16  n=18 altura=3 nivel>=3=4 pA=0.461 =====
+cuerda | niv | valor | color | largo | union | nudos
+p16 | 0 | 11 | W | 29.5 | U | 1S(8.5,U),10;1E(14.5,U),1
+  p16s1 | 1 | 4 | BS:DB | 29.0 | U | 4L(13.0,U),4
+  p16s2 | 1 | 1 | DB(0.0-3.5)/W(3.5-25.0) | 25.0 | U | 1E(12.5,U),1
+    p16s2s1 | 2 |  | DB(0.0-2.0)/W(2.0-30.5) | 30.5 | U | nan
+      p16s2s1s1 | 3 | 1 | W:SY | 28.5 | U | 1E(11.5,U),1
+      p16s2s1s2 | 3 | 1 | W:FB | 21.5 | U | 1E(11.0,U),1
+      p16s2s1s3 | 3 | 1 | W:0G | 25.0 | U | 1E(10.5,U),1
+      p16s2s1s4 | 3 | 1 | DB(0.0-2.0)/W(2.0-26.5) | 26.5 | U | 1E(10.5,U),1
+    p16s2s2 | 2 | 1 | W:VB | 21.5 | U | 1E(11.5,U),1
+    p16s2s3 | 2 | 3 | W:KB | 26.5 | U | 3L(11.0,U),3
+  p16s3 | 1 | 1 | W:DB | 30.5 | U | 1E(11.5,U),1
+    p16s3s1 | 2 | 1 | W:VB | 23.0 | U | 1E(11.5,U),1
+    p16s3s2 | 2 | 1 | SR:KB | 36.5 | U | 1E(11.5,U),1
+  p16s4 | 1 | 1 | W:BS | 29.5 | U | 1E(12.0,U),1
+  p16s5 | 1 | 4 | SR:KB | 29.0 | U | 3L(12.0,U),3;1E(12.5,U),1
+  p16s6 | 1 | 4 | W:KB | 29.5 | U | 4L(11.5,U),4
+  p16s7 | 1 | 1 | W:FB | 28.5 | U | 1E(11.5,U),1
+  p16s8 | 1 | 2 | KB | 33.0 | U | 2L(13.5,U),2
+  -- por nivel relativo: n, con valor, largo medio, colores distintos
+     0: n=1, valor=1, largo=29.5, colores=1
+     1: n=8, valor=8, largo=29.2, colores=8
+     2: n=5, valor=4, largo=27.6, colores=4
+     3: n=4, valor=4, largo=25.4, colores=4
+
+===== UR058B / p7  n=15 altura=3 nivel>=3=4 pA=0.800 =====
+cuerda | niv | valor | color | largo | union | nudos
+p7 | 0 | 21 | W:KB | 32.0 | R | 21S(18.0,S),21
+  p7s1 | 1 |  | W(0.0-5.0)/W-MB(5.0-11.0)/W(11.0-36.5) | 36.5 | U | nan
+    p7s1s1 | 2 | 1 | W:KB | 33.5 | U | 1E(16.0,Z),1
+      p7s1s1s1 | 3 | 2 | AB | 25.0 | U | 1E(15.0,Z),1;1E(22.0,Z),1
+      p7s1s1s2 | 3 | 30 | MG | 28.5 | U | 3S(8.0,S),30
+      p7s1s1s3 | 3 | 10 | W | 31.5 | U | 1S(4.5,S),10
+  p7s2 | 1 | 1 | MB | 35.0 | U | 1E(14.5,Z),1
+  p7s3 | 1 | 70 | KB | 26.5 | U | 7S(9.0,S),70
+    p7s3s1 | 2 | 20 | KB | 27.5 | U | 2S(4.0,S),20
+  p7s4 | 1 | 60 | W-KB | 33.5 | U | 3S(4.0,S),30;3S(9.0,S),30
+  p7s5 | 1 |  | W-AB | 33.0 | U | nan
+    p7s5s1 | 2 | 1 | W | 26.0 | U | 1E(15.0,Z),1
+      p7s5s1s1 | 3 | 1 | MB | 27.5 | U | 1E(14.0,Z),1
+  p7s6 | 1 | 20 | W-KB | 33.0 | U | 2S(4.5,S),20
+  p7s7 | 1 | 40 | W | 27.0 | U | 4S(5.0,S),40
+  -- por nivel relativo: n, con valor, largo medio, colores distintos
+     0: n=1, valor=1, largo=32.0, colores=1
+     1: n=7, valor=5, largo=32.1, colores=6
+     2: n=3, valor=3, largo=29.0, colores=3
+     3: n=4, valor=4, largo=28.1, colores=4
+
+===== UR146 / p37  n=14 altura=3 nivel>=3=4 pA=0.172 =====
+cuerda | niv | valor | color | largo | union | nudos
+p37 | 0 |  | MB | 22.5 | U | nan
+  p37s1 | 1 |  | MB | 14.5 | U | nan
+    p37s1s1 | 2 |  | AB | 6.0 | U | nan
+      p37s1s1s1 | 3 |  | MB | 4.5 | U | nan
+    p37s1s2 | 2 | 3 | AB | 8.5 | U | 3L(5.5,Z),3
+      p37s1s2s1 | 3 |  | MB | 1.5 | U | nan
+    p37s1s3 | 2 | 5 | AB | 17.0 | U | 3L(6.0,Z),3;2L(10.5,Z),2
+      p37s1s3s1 | 3 |  | MB | 3.0 | U | nan
+    p37s1s4 | 2 | 10 | AB | 6.5 | U | 1S(6.0,Z),10
+      p37s1s4s1 | 3 |  | MB | 3.0 | U | nan
+    p37s1s5 | 2 | 12 | PK | 18.0 | U | 2L(6.5,Z),2;1S(10.5,Z),10
+    p37s1s6 | 2 |  | AB | 0.0 | U | nan
+    p37s1s7 | 2 |  | AB | 5.0 | U | nan
+    p37s1s8 | 2 | 3 | AB | 16.5 | U | 3L(5.5,Z),3
+  -- por nivel relativo: n, con valor, largo medio, colores distintos
+     0: n=1, valor=0, largo=22.5, colores=1
+     1: n=1, valor=0, largo=14.5, colores=1
+     2: n=8, valor=5, largo=9.7, colores=2
+     3: n=4, valor=0, largo=3.0, colores=1
+
+===== UR270 / p101  n=9 altura=4 nivel>=3=4 pA=0.110 =====
+cuerda | niv | valor | color | largo | union | nudos
+p101 | 0 |  | YB | 46.0 | V | nan
+  p101s1 | 1 | 93 | W | 25.0 | U | 9S(8.0,Z),90;3L(15.5,S),3
+    p101s1s1 | 2 | 12 | NB | 42.0 | U | 1S(9.0,Z),10;2L(14.0,S),2
+    p101s1s2 | 2 |  | KB | 3.0 | U | nan
+    p101s1s3 | 2 | 8 | PK | 14.0 | U | 7L(10.0,S),7;1E(13.5,Z),1
+      p101s1s3s1 | 3 | 13 | NB | 37.0 | U | 1S(8.5,Z),10;2L(14.0,S),2;1E(17.5,Z),1
+      p101s1s3s2 | 3 |  | KB | 0.0 | U | nan
+      p101s1s3s3 | 3 | 31 | PK | 25.0 | U | 3S(7.0,Z),30;1E(13.5,Z),1
+        p101s1s3s3s1 | 4 | 63 | YB | 34.0 | U | 6S(6.5,Z),60;3L(12.0,S),3
+  -- por nivel relativo: n, con valor, largo medio, colores distintos
+     0: n=1, valor=0, largo=46.0, colores=1
+     1: n=1, valor=1, largo=25.0, colores=1
+     2: n=3, valor=2, largo=19.7, colores=3
+     3: n=3, valor=2, largo=20.7, colores=3
+     4: n=1, valor=1, largo=34.0, colores=1

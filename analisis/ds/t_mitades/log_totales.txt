@@ -1,0 +1,10 @@
+RV_sumas                     obs=   1.9223 nulo=   1.8782 z=   0.57 p=0.71246 n=141
+RV_conteos                   obs=   0.5473 nulo=   0.1175 z=  53.99 p=1.00000 n=153
+RV_sumas_igualdad            obs=   0.0000 nulo=   0.0009 z=  -0.37 p=1.00000 n=153
+SZ_sumas                     obs=   3.2096 nulo=   2.2923 z=  16.37 p=1.00000 n=226
+SZ_conteos                   obs=   0.6089 nulo=   0.1365 z=  63.45 p=1.00000 n=226
+SZ_sumas_igualdad            obs=   0.0088 nulo=   0.0028 z=   2.08 p=0.08298 n=226
+ABMB_sumas                   obs=   1.7637 nulo=   1.5528 z=   3.36 p=0.99920 n=188
+ABMB_conteos                 obs=   0.4758 nulo=   0.1686 z=  32.44 p=1.00000 n=214
+ABMB_sumas_igualdad          obs=   0.0000 nulo=   0.0046 z=  -1.05 p=1.00000 n=214
+grupos_adyacentes_igualdad   obs=   0.0366 nulo=   0.0240 z=   6.26 p=0.00020 n=471

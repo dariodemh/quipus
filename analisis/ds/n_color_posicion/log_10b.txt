@@ -1,0 +1,10 @@
+primario       A: n 221/228 q<.05 31 (esp 11.1, p 2.5e-07) r2_abs_med 0.0365 suma 24.764 pglob 0.0020 | z 1.32 frac+ 0.57
+primario       B: n 205/228 q<.05 0 (esp 10.2, p 1) r2_abs_med 0.0120 suma 8.360 pglob 0.0020 | z 0.34 frac+ 0.48
+sin_copias_max A: n 195/218 q<.05 18 (esp 9.8, p 0.0095) r2_abs_med 0.0604 suma 25.731 pglob 0.0020 | z 1.20 frac+ 0.61
+sin_copias_max B: n 157/218 q<.05 0 (esp 7.9, p 1) r2_abs_med 0.0111 suma 5.595 pglob 0.2140 | z -0.05 frac+ 0.42
+
+       variante modelo  n_valid  n_total  cuerdas  q05  esperado  binom_p  r2_med  r2_abs_med  r2_abs_suma  p_global  nulo_media  z_medio  stouffer  p_stouffer  frac_z_pos  df2_med  holm
+      primario      A      221      228    11606   31     11.05   0.0000  0.0848      0.0365      24.7644     0.002     12.0993   1.3212   19.6404      0.0000      0.5656     26.0 0.008
+      primario      B      205      228    11458    0     10.25   1.0000  0.0752      0.0120       8.3596     0.002      6.3994   0.3417    4.8923      0.0000      0.4780     21.0 0.008
+sin_copias_max      A      195      218     8494   18      9.75   0.0095  0.0985      0.0604      25.7307     0.002     13.5761   1.1952   16.6897      0.0000      0.6103     20.0 0.008
+sin_copias_max      B      157      218     8128    0      7.85   1.0000  0.0606      0.0111       5.5951     0.214      5.2084  -0.0468   -0.5869      0.7214      0.4204     18.0 0.214

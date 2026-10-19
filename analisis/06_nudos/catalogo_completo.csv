@@ -1,0 +1,51 @@
+kfg,score,familias,procedencia,museo,n_cuerdas_nudos,dir_bloques,n_banda_estructurada,lectura_aburrida,detalle
+UR055,173,inf,Unknown,"Museo Oro, Fundaci195179n Miguel Mujica Gallo",176,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:173(98%) firma L-L-L-L 31% (resto 0%) SIST
+UR050,164,inf,Unknown,Private Collection: Anna Maria Soldi,164,True,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:164(100%) firma L-L-L 89% (resto nan%) SIST
+UR054,113,inf,Unknown,Private Collection: Anna Maria Soldi,114,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:113(99%) firma L-L-L 57% (resto 0%) SIST
+UR052,90,inf,Unknown,Museo Central - Banco Central de Reserva,94,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:90(96%) firma L-L-L-L 34% (resto 0%) SIST
+UR211,82,tiporaro,Ica/Pisco,"Ethnologisches Museum, Berlin, Germany",83,False,0,"tipo de nudo fuera de S/L/E (TF,U,EE,LL,SP...) sin glosa en KFG",tiporaro:82(99%) firma TF 76% (resto 0%) SIST
+UR051,75,inf,Unknown,Banco Central de la Reserva del Peru,86,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:75(87%) firma L-L 85% (resto 0%) SIST
+UR278,66,inf,Incahuasi,Proyecto Incahuasi,292,False,0,L/E con racimo debajo (nudo inferior en sentido de Hyland?),inf:66(23%) firma S-S-L-E 35% (resto 0%) q=0.00469
+UR144,58,inf,Valle de Pisco,On loan to Ica Museum,96,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:58(60%) firma L-L 84% (resto 0%) q=0.00469
+UR110,51,inf,Unknown,Museo Temple Radicati,85,True,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:51(60%) firma L-L 92% (resto 0%) q=0.00469
+AS090_N2,42,inf,Peru,"Museum Fur Volkerkunde, Munich, W. Germany",58,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:42(72%) firma L-L-L 45% (resto 0%) q=0.00469
+AS069,40,inf,Lluta Valley,"owner Percy Dauelsberg, Arica, Chile",398,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:40(10%) firma L-L 22% (resto 0%) q=0.00469
+UR112,37,inf,Unknown,Museo Temple Radicati,76,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:37(49%) firma L-L 89% (resto 0%) q=0.00469
+MM019,30,inf,Unknown,"Linden Museum, Stuttgart, Germany",218,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:30(14%) firma L-L 77% (resto 0%) q=0.00469
+UR188,27,"raras,inf,tiporaro",Unknown,Musee Quai Branly,74,False,0,"violacion puntual (>9 simples, L1, E multiple, aporte no n*10^k, valor!=suma) | L/E con racimo debajo (nudo inferior en sentido de Hyland?) | tipo de nudo fuera de S/L/E (TF,U,EE,LL,SP...) sin glosa en KFG",raras:10(14%) firma S-S-S-L-? 40% (resto 0%) q=0.0223; inf:9(12%) firma S-S-S-L-? 44% (resto 0%) q=0.00469; tiporaro:8(11%) firma S-S-S-L-? 50% (resto 0%) q=0.00469
+UR113,26,tiporaro,Nazca,"Museum of Worldculture, Goteborg, Sweden",723,True,49,"tipo de nudo fuera de S/L/E (TF,U,EE,LL,SP...) sin glosa en KFG",tiporaro:26(4%) firma U-S 35% (resto 0%) q=0.00469
+UR120,25,"inf,raras",Huacho,"Museum of Worldculture, Goteborg, Sweden",49,False,7,"serie L/E: valor=suma de vueltas, sin pesos decimales | violacion puntual (>9 simples, L1, E multiple, aporte no n*10^k, valor!=suma)",inf:20(41%) firma E-E-E-E 25% (resto 0%) q=0.00469; raras:5(10%) firma L-E-L-E-L-S-L 20% (resto 0%) q=0.0299
+UR044,23,raras,"La puntilla, between Paracas and Pisco","Peabody Museum, Harvard University",23,False,0,"violacion puntual (>9 simples, L1, E multiple, aporte no n*10^k, valor!=suma)",raras:23(100%) firma S-L 39% (resto nan%) SIST
+UR272,23,inf,Incahuasi,Proyecto Incahuasi,213,False,0,L/E con racimo debajo (nudo inferior en sentido de Hyland?),inf:23(11%) firma L-E 39% (resto 0%) q=0.0166
+AS026B,22,inf,Unknown,"University Museum, University of Pennsylvania",229,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:22(10%) firma L-L 82% (resto 0%) q=0.013
+KH0083,22,inf,Mollepampa,Museo Chileno de Arte Precolombino,351,False,44,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:22(6%) firma L-L 32% (resto 0%) q=0.0223
+AS207A,20,inf,Unknown,"Museum of Science, Buffalo, New York",162,False,5,L/E con racimo debajo (nudo inferior en sentido de Hyland?),inf:20(12%) firma L-E 50% (resto 0%) q=0.00469
+UR1145,19,inf,Pachacamac,"Museum für Völkerkunde, Berlin",75,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:19(25%) firma L-L 79% (resto 0%) q=0.0272
+UR179,16,tiporaro,Cajamarquilla,"American Museum of Natural History, NY",16,False,0,"tipo de nudo fuera de S/L/E (TF,U,EE,LL,SP...) sin glosa en KFG",tiporaro:16(100%) firma U-U-U 31% (resto nan%) SIST
+UR1091,14,inf,Unknown,"Museum Fur Volkerkunde, Munich, W. Germany",78,False,8,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:14(18%) firma L-L 86% (resto 0%) q=0.00469
+UR267A,14,inf,Incahuasi,Proyecto Incahuasi,76,False,0,L/E con racimo debajo (nudo inferior en sentido de Hyland?),inf:14(18%) firma S-L-E 57% (resto 0%) q=0.0201
+UR178,14,inf,Cajamarquilla,"American Museum of Natural History, NY",14,False,0,L/E con racimo debajo (nudo inferior en sentido de Hyland?),inf:14(100%) firma S-S-S-S 93% (resto nan%) SIST
+UR006,14,inf,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",551,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:14(3%) firma L-L 43% (resto 0%) q=0.00469
+UR255,13,inf,Incahuasi,Projecto Incahuasi,65,False,0,L/E con racimo debajo (nudo inferior en sentido de Hyland?),inf:13(20%) firma S-L-E 46% (resto 0%) q=0.0241
+UR005,13,inf,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",40,False,8,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:13(32%) firma L-L-L-L 46% (resto 0%) q=0.00469
+JC012,13,inf,Incahuasi,Proyecto Incahuasi,22,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:13(59%) firma E-E 92% (resto 0%) q=0.00469
+UR165,12,inf,La Molina,Puruchuco Museum,174,False,0,L/E con racimo debajo (nudo inferior en sentido de Hyland?),inf:12(7%) firma S-S-S-S-L-S 17% (resto 0%) q=0.0325
+QU013,11,raras,Unknown,Dallas Museum of Art,150,False,0,"violacion puntual (>9 simples, L1, E multiple, aporte no n*10^k, valor!=suma)",raras:11(7%) firma L 73% (resto 65%) q=0.00469
+UR180,10,tiporaro,Cajamarquilla,"American Museum of Natural History, NY",12,False,0,"tipo de nudo fuera de S/L/E (TF,U,EE,LL,SP...) sin glosa en KFG",tiporaro:10(83%) firma U 20% (resto 0%) SIST
+HP051_A,9,inf,Unknown,"Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",27,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:9(33%) firma L-L 78% (resto 0%) q=0.0241
+UR240,9,inf,Unknown,"Ethnologisches Museum, Berlin, Germany",68,False,9,L/E con racimo debajo (nudo inferior en sentido de Hyland?),inf:9(13%) firma L-S-L 22% (resto 0%) q=0.00469
+UR195,9,inf,Huacho,"Ethnologisches Museum, Berlin, Germany",133,True,0,L/E con racimo debajo (nudo inferior en sentido de Hyland?),inf:9(7%) firma L-EE 33% (resto 0%) q=0.00469
+HP054,8,inf,Unknown,"Museo Nacion de Arqueologia, Anthropologia e Historia del Peru",21,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:8(38%) firma L-L 50% (resto 0%) q=0.0166
+UR119,8,inf,Paracas,"Museum of Worldculture, Goteborg, Sweden",257,False,0,L/E con racimo debajo (nudo inferior en sentido de Hyland?),inf:8(3%) firma S-E-L 38% (resto 0%) q=0.0418
+UR015,7,inf,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",76,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:7(9%) firma E-EE-EE-S 14% (resto 0%) q=0.00469
+JC023,7,inf,Incahuasi,Proyecto Incahuasi,38,False,0,L/E con racimo debajo (nudo inferior en sentido de Hyland?),inf:7(18%) firma L-E 86% (resto 0%) q=0.0223
+UR058A,7,inf,"Playa Miller #6, Arica, Chile","Museo Arqueologico San Miguel de Azapa (MASMA), Arica, Chile",218,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:7(3%) firma E-E 43% (resto 0%) q=0.00469
+UR1114,7,inf,Between Ica and Pisco,"Museum für Völkerkunde, Berlin",175,False,28,L/E con racimo debajo (nudo inferior en sentido de Hyland?),inf:7(4%) firma L-E 43% (resto 0%) q=0.00908
+UR186,7,inf,"Hda. Huando, Chancay","American Museum of Natural History, NY",49,False,0,L/E con racimo debajo (nudo inferior en sentido de Hyland?),inf:7(14%) firma S-L-E 43% (resto 0%) q=0.00469
+UR123,7,inf,Pachacamac,"Museum of Worldculture, Goteborg, Sweden",47,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:7(15%) firma L-L 100% (resto 0%) q=0.00469
+AS207C,6,inf,Unknown,"Museum of Science, Buffalo, New York",12,False,0,L/E con racimo debajo (nudo inferior en sentido de Hyland?),inf:6(50%) firma L-E 100% (resto 0%) q=0.0241
+UR012,6,inf,Leymebamba,"Centro Mallqui, Leymebamba, Amazonas",98,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:6(6%) firma L-L 33% (resto 0%) q=0.013
+UR059,6,inf,Unknown,"Lowe Art Museum, University of Miami",99,False,0,L/E con racimo debajo (nudo inferior en sentido de Hyland?),inf:6(6%) firma L-E 67% (resto 0%) q=0.00469
+UR282,6,inf,"Huaca San Pedro, Armatambo","Museo Nac., Pueblo Libre",27,False,0,"serie L/E: valor=suma de vueltas, sin pesos decimales",inf:6(22%) firma L-L 100% (resto 0%) q=0.00469
+QU003,5,tiporaro,Unknown,Dallas Museum of Art,29,False,0,"tipo de nudo fuera de S/L/E (TF,U,EE,LL,SP...) sin glosa en KFG",tiporaro:5(17%) firma U 100% (resto 0%) q=0.00469
+AS075,5,inf,Pachacamac,"Musee de l Homme, Paris, France",96,False,5,L/E con racimo debajo (nudo inferior en sentido de Hyland?),inf:5(5%) firma S-L-S-L 40% (resto 0%) q=0.00469

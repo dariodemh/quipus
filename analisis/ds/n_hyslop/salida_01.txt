@@ -1,0 +1,21 @@
+SECTORES Y CAPACIDAD
+cuartos contados en el sitio (punto medio): 734
+almacen A+G / total: 308/734 = 42.0% (Hyslop: 1/3-1/2)
+capacidad (m3):
+  A3_209_bins: 5,120-8,464
+  A2_36_camaras: 4,212-5,184
+  G_63_cuartos: 1,544-2,552
+  A_total_si_6400_es_A3_mas_A2: 9,332-13,648
+  sitio_si_A2_es_almacen: 10,876-16,200
+6400/209 = 30.6 m3/bin; 6400/245 = 26.1 m3/bin
+volumen por 1000 habitantes: 3200-6400 m3 (ref. sierra 605-780) -> 4.1-10.6 x
+
+QUIPUS POR U.A.
+  U.A.2: 5 quipus, 651 cuerdas
+  U.A.4: 15 quipus, 1839 cuerdas
+  U.A.7: 2 quipus, 182 cuerdas
+  corredor (U.A.3): 7 quipus, 303 cuerdas
+  TOTAL: 29 quipus, 2975 cuerdas
+
+14 del mani: UR266,268,269,270,272,273A,273B,274A,274B,275,276,277,278,279
+cuerdas de los 14: 1807 (60.7% del total)

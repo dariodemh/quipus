@@ -1,0 +1,289 @@
+UR269, registros con cuota 25: [(21, 828), (28, 200), (47, 662), (53, 712), (65, 522), (77, 486)]
+UR269, registros con cuota 47: [(5, 1653), (11, 1737), (17, 1827), (49, 1505), (55, 1648), (67, 1890), (73, 1130), (100, 1665)]
+                                                           prueba           destino  tolerancia  obs  nulo_media  nulo_max        p  p_holm_principal
+                                UR267A+UR267B registro a registro UR266+UR275+UR269       False    6      2.6120        10 0.036196          0.325767
+                                UR267A+UR267B registro a registro UR266+UR275+UR269        True   17     12.8613        21 0.066793               NaN
+                                UR267A+UR267B registro a registro             UR266       False    1      0.7403         5 0.532547               NaN
+                                UR267A+UR267B registro a registro             UR266        True    2      4.7588        12 0.969203               NaN
+                                UR267A+UR267B registro a registro             UR275       False    0      0.7237         6 1.000000               NaN
+                                UR267A+UR267B registro a registro             UR275        True    5      5.1054        13 0.611739               NaN
+                                UR267A+UR267B registro a registro             UR269       False    6      1.3945         7 0.001200               NaN
+                                UR267A+UR267B registro a registro             UR269        True   15      7.2804        16 0.000500               NaN
+                                UR267A+UR267B registro a registro           control       False    8      5.9219        13 0.188181               NaN
+                                UR267A+UR267B registro a registro           control        True   18     18.9816        25 0.773223               NaN
+                                  UR255+UR256 registro a registro UR266+UR275+UR269       False    2      1.8664         8 0.577542          1.000000
+                                  UR255+UR256 registro a registro UR266+UR275+UR269        True   12     10.5098        18 0.320168               NaN
+                                  UR255+UR256 registro a registro             UR266       False    0      0.5494         4 1.000000               NaN
+                                  UR255+UR256 registro a registro             UR266        True    4      3.8850        11 0.572043               NaN
+                                  UR255+UR256 registro a registro             UR275       False    0      0.4561         4 1.000000               NaN
+                                  UR255+UR256 registro a registro             UR275        True    5      4.5388        12 0.493151               NaN
+                                  UR255+UR256 registro a registro             UR269       False    2      0.9975         6 0.260974               NaN
+                                  UR255+UR256 registro a registro             UR269        True    6      6.0897        14 0.603840               NaN
+                                  UR255+UR256 registro a registro           control       False    6      5.0256        11 0.371763               NaN
+                                  UR255+UR256 registro a registro           control        True   15     15.3375        20 0.700330               NaN
+                                 UR267A+UR256 registro a registro UR266+UR275+UR269       False    4      2.0354         8 0.132587          0.928107
+                                 UR267A+UR256 registro a registro UR266+UR275+UR269        True    9     11.4203        19 0.904710               NaN
+                                 UR267A+UR256 registro a registro             UR266       False    1      0.5425         6 0.428557               NaN
+                                 UR267A+UR256 registro a registro             UR266        True    5      4.1605        12 0.405159               NaN
+                                 UR267A+UR256 registro a registro             UR275       False    2      0.5423         5 0.096690               NaN
+                                 UR267A+UR256 registro a registro             UR275        True    3      4.5802        12 0.885911               NaN
+                                 UR267A+UR256 registro a registro             UR269       False    1      1.0355         6 0.664534               NaN
+                                 UR267A+UR256 registro a registro             UR269        True    6      6.4098        14 0.658034               NaN
+                                 UR267A+UR256 registro a registro           control       False    4      5.3695        13 0.866113               NaN
+                                 UR267A+UR256 registro a registro           control        True   14     16.5474        22 0.956304               NaN
+                                 UR255+UR267B registro a registro UR266+UR275+UR269       False    6      2.5515         9 0.030497          0.304970
+                                 UR255+UR267B registro a registro UR266+UR275+UR269        True   15     12.1410        21 0.154285               NaN
+                                 UR255+UR267B registro a registro             UR266       False    1      0.7920         5 0.558144               NaN
+                                 UR255+UR267B registro a registro             UR266        True    8      4.9962        14 0.096590               NaN
+                                 UR255+UR267B registro a registro             UR275       False    2      0.7038         5 0.157384               NaN
+                                 UR255+UR267B registro a registro             UR275        True    6      4.9482        13 0.366863               NaN
+                                 UR255+UR267B registro a registro             UR269       False    3      1.2994         6 0.131287               NaN
+                                 UR255+UR267B registro a registro             UR269        True   10      6.9590        16 0.117288               NaN
+                                 UR255+UR267B registro a registro           control       False    5      5.8559        12 0.782922               NaN
+                                 UR255+UR267B registro a registro           control        True   17     17.6655        24 0.731127               NaN
+                                UR273A+UR273B registro a registro UR266+UR275+UR269       False    8      1.2689         6 0.000100          0.001800
+                                UR273A+UR273B registro a registro UR266+UR275+UR269        True   15      8.2300        16 0.000800               NaN
+                                UR273A+UR273B registro a registro             UR266       False    5      0.5009         4 0.000100               NaN
+                                UR273A+UR273B registro a registro             UR266        True    7      3.2233        10 0.024398               NaN
+                                UR273A+UR273B registro a registro             UR275       False    5      0.8167         5 0.000500               NaN
+                                UR273A+UR273B registro a registro             UR275        True    8      3.3348        10 0.007499               NaN
+                                UR273A+UR273B registro a registro             UR269       False    4      0.6802         4 0.000900               NaN
+                                UR273A+UR273B registro a registro             UR269        True   12      5.0115        12 0.000900               NaN
+                                UR273A+UR273B registro a registro           control       False    0      0.2895         3 1.000000               NaN
+                                UR273A+UR273B registro a registro           control        True    4      5.2318        12 0.839416               NaN
+                                UR274A+UR274B registro a registro UR266+UR275+UR269       False    1      1.7867         6 0.866313          1.000000
+                                UR274A+UR274B registro a registro UR266+UR275+UR269        True    8      6.9260        13 0.366463               NaN
+                                UR274A+UR274B registro a registro             UR266       False    1      0.7937         6 0.575442               NaN
+                                UR274A+UR274B registro a registro             UR266        True    4      2.8102        10 0.297270               NaN
+                                UR274A+UR274B registro a registro             UR275       False    0      0.6007         4 1.000000               NaN
+                                UR274A+UR274B registro a registro             UR275        True    2      2.9462        10 0.828317               NaN
+                                UR274A+UR274B registro a registro             UR269       False    0      0.9432         5 1.000000               NaN
+                                UR274A+UR274B registro a registro             UR269        True    5      4.4033        10 0.462854               NaN
+                                UR274A+UR274B registro a registro           control       False    3      0.7379         5 0.021198               NaN
+                                UR274A+UR274B registro a registro           control        True    7      5.2714        11 0.198180               NaN
+                                UR273A+UR274B registro a registro UR266+UR275+UR269       False    1      0.8092         6 0.573743          1.000000
+                                UR273A+UR274B registro a registro UR266+UR275+UR269        True    7      6.5415        13 0.504150               NaN
+                                UR273A+UR274B registro a registro             UR266       False    0      0.2664         3 1.000000               NaN
+                                UR273A+UR274B registro a registro             UR266        True    0      2.2716         7 1.000000               NaN
+                                UR273A+UR274B registro a registro             UR275       False    1      0.3284         4 0.288971               NaN
+                                UR273A+UR274B registro a registro             UR275        True    2      1.9332         7 0.614339               NaN
+                                UR273A+UR274B registro a registro             UR269       False    0      0.5995         5 1.000000               NaN
+                                UR273A+UR274B registro a registro             UR269        True    6      4.3307        11 0.228777               NaN
+                                UR273A+UR274B registro a registro           control       False    0      0.4651         4 1.000000               NaN
+                                UR273A+UR274B registro a registro           control        True    5      4.4595        11 0.478252               NaN
+                                UR274A+UR273B registro a registro UR266+UR275+UR269       False    7      1.5836         7 0.000600          0.007799
+                                UR274A+UR273B registro a registro UR266+UR275+UR269        True   11      8.0862        15 0.107389               NaN
+                                UR274A+UR273B registro a registro             UR266       False    4      0.7045         5 0.003500               NaN
+                                UR274A+UR273B registro a registro             UR266        True    5      3.1018         9 0.169783               NaN
+                                UR274A+UR273B registro a registro             UR275       False    6      0.7163         6 0.000200               NaN
+                                UR274A+UR273B registro a registro             UR275        True    8      3.8838        10 0.013699               NaN
+                                UR274A+UR273B registro a registro             UR269       False    5      0.9229         5 0.000800               NaN
+                                UR274A+UR273B registro a registro             UR269        True    8      4.5325        11 0.050295               NaN
+                                UR274A+UR273B registro a registro           control       False    1      0.4807         2 0.424758               NaN
+                                UR274A+UR273B registro a registro           control        True    3      4.5212        11 0.899410               NaN
+           UR269 registros con cuota 25: cabecera = UR267A+UR267B             UR269       False    3      0.1920         3 0.000300          0.005099
+           UR269 registros con cuota 25: cabecera = UR267A+UR267B             UR269        True    5      1.0036         4 0.000100               NaN
+           UR269 registros con cuota 47: cabecera = UR273A+UR273B             UR269       False    3      0.3254         3 0.000600          0.007799
+           UR269 registros con cuota 47: cabecera = UR273A+UR273B             UR269        True    5      1.1182         5 0.001200               NaN
+                                UR270 P en UR273B+UR274B (S = s1)     UR273B+UR274B       False    6      0.5685         4 0.000500          0.007496
+                                UR270 P en UR273B+UR274B (S = s1)     UR273B+UR274B        True    6      3.4970        11 0.121939               NaN
+                                UR270 P en UR273B+UR274B (S = s1)   otros 42 quipus       False    3      2.5135         8 0.485257               NaN
+                                UR270 P en UR273B+UR274B (S = s1)   otros 42 quipus        True   10     11.3420        17 0.841579               NaN
+                                UR270 S en UR273A+UR274A (S = s1)     UR273A+UR274A       False    1      0.9745         5 0.638681          1.000000
+                                UR270 S en UR273A+UR274A (S = s1)     UR273A+UR274A        True    8      5.9590        14 0.218391               NaN
+                                UR270 S en UR273A+UR274A (S = s1)   otros 42 quipus       False   11     11.7315        17 0.747126               NaN
+                                UR270 S en UR273A+UR274A (S = s1)   otros 42 quipus        True   17     18.0445        19 0.941029               NaN
+                          UR270 P+S en UR266+UR275+UR269 (S = s1) UR266+UR275+UR269       False    3      1.3954         7 0.147485          0.928107
+                          UR270 P+S en UR266+UR275+UR269 (S = s1) UR266+UR275+UR269        True   10      7.5815        16 0.166783               NaN
+                          UR270 P+S en UR266+UR275+UR269 (S = s1)   otros 42 quipus       False    1      1.0540         6 0.686631               NaN
+                          UR270 P+S en UR266+UR275+UR269 (S = s1)   otros 42 quipus        True   10      7.9373        15 0.203380               NaN
+                       UR270 (P,S) = fila (B,A) de UR273 (S = s1)          UR273A/B        True    3      0.1736         3 0.000400          0.006399
+         UR270 P en UR273B+UR274B (S = todas las subsid. nivel 1)     UR273B+UR274B       False    6      0.5760         4 0.000500          0.007496
+         UR270 P en UR273B+UR274B (S = todas las subsid. nivel 1)     UR273B+UR274B        True    6      3.4510        10 0.113443               NaN
+         UR270 P en UR273B+UR274B (S = todas las subsid. nivel 1)   otros 42 quipus       False    3      2.5960         8 0.508746               NaN
+         UR270 P en UR273B+UR274B (S = todas las subsid. nivel 1)   otros 42 quipus        True   11     11.4160        18 0.680660               NaN
+         UR270 S en UR273A+UR274A (S = todas las subsid. nivel 1)     UR273A+UR274A       False    1      0.9800         5 0.647676          1.000000
+         UR270 S en UR273A+UR274A (S = todas las subsid. nivel 1)     UR273A+UR274A        True    7      5.8790        14 0.366817               NaN
+         UR270 S en UR273A+UR274A (S = todas las subsid. nivel 1)   otros 42 quipus       False    9      9.3365        15 0.674163               NaN
+         UR270 S en UR273A+UR274A (S = todas las subsid. nivel 1)   otros 42 quipus        True   17     17.0675        19 0.698651               NaN
+   UR270 P+S en UR266+UR275+UR269 (S = todas las subsid. nivel 1) UR266+UR275+UR269       False    3      0.9921         6 0.065993          0.527947
+   UR270 P+S en UR266+UR275+UR269 (S = todas las subsid. nivel 1) UR266+UR275+UR269        True    8      7.4935        15 0.491751               NaN
+   UR270 P+S en UR266+UR275+UR269 (S = todas las subsid. nivel 1)   otros 42 quipus       False    0      0.9568         6 1.000000               NaN
+   UR270 P+S en UR266+UR275+UR269 (S = todas las subsid. nivel 1)   otros 42 quipus        True    8      8.4424        16 0.688331               NaN
+UR270 (P,S) = fila (B,A) de UR273 (S = todas las subsid. nivel 1)          UR273A/B        True    2      0.1082         2 0.002600          0.028597
+
+       fuente grupo registro  parte_A  parte_B  suma                                                             en_resumen                                                             parte_B_en                    parte_A_en
+UR267A+UR267B   0/0      0.0      106     1054  1160                                                         UR269:g11:160~                                                                                                     
+UR267A+UR267B   1/1      1.0      112      660   772                                                                                                                                                                            
+UR267A+UR267B   2/2      2.0      161     1024  1185                                                                                                                                                                            
+UR267A+UR267B   4/3      3.0      206     1411  1617                                                       UR269:g100:1618~                                                                                                     
+UR267A+UR267B   5/4      4.0      238      543   781                                                                                                                                                                            
+UR267A+UR267B   6/5      5.0       85      260   345                                           UR275:g6:335~ UR275:g11:346~                                                                                                     
+UR267A+UR267B   7/6      6.0      160      308   468                                                                                                                                                                            
+UR267A+UR267B   8/7      7.0      114      413   527                                                                                                                                                                            
+UR267A+UR267B   9/8      8.0      141      523   664                                                                                                                                                                            
+UR267A+UR267B  11/9      9.0      187      526   713                                                         UR269:g53:712~                                                                                                     
+UR267A+UR267B 12/10     10.0       95      357   452                                                         UR269:g77:451~                                                                                                     
+UR267A+UR267B 13/11     11.0      215      613   828                                                          UR269:g21:828                                                                                                     
+UR267A+UR267B 14/12     12.0      157      328   485                                          UR266:g20:484~ UR269:g77:486~                                                                                                     
+UR267A+UR267B 15/13     13.0      187      660   847                                                        UR269:g12:1847~                                                                                                     
+UR267A+UR267B 16/14     14.0      141      601   742                                                          UR269:g41:742                                                                                                     
+UR267A+UR267B 17/15     15.0      127      535   662                                                          UR269:g47:662                                                                                                     
+UR267A+UR267B 18/16     16.0      110      603   713                                                         UR269:g53:712~                                                                                                     
+UR267A+UR267B 19/17     17.0      149      284   433                                                                                                                                                                            
+UR267A+UR267B 20/18     18.0      201      321   522                                                          UR269:g65:522                                                                                                     
+UR267A+UR267B 22/19     19.0       70      543   613                                                                                                                                                                            
+UR267A+UR267B 23/20     20.0       82      394   476                                                         UR269:g77:486~                                                                                                     
+UR267A+UR267B 24/21     21.0       63      329   392                              UR269:g81:392 UR275:g7:393~ UR275:g7:391~                                                                                                     
+UR267A+UR267B 25/22     22.0       34       10    44 UR266:g5:44 UR266:g31:44 UR269:g5:45~ UR269:g27:44 UR269:g33:44 UR269:                                                                                                     
+UR267A+UR267B 26/23     23.0       44      518   562                                           UR269:g47:662~ UR275:g6:561~                                                                                                     
+UR267A+UR267B 27/24     24.0      124      152   276                                                          UR275:g8:277~                                                                                                     
+UR267A+UR267B 28/25     25.0       31      121   152                                                                                                                                                                            
+  UR255+UR256   0/0      0.0      106     1055  1161                                                         UR266:g9:1151~                                                                                                     
+  UR255+UR256   1/1      1.0      100      672   772                                                                                                                                                                            
+  UR255+UR256   2/2      2.0       15       10    25 UR266:g32:15~ UR269:g28:25 UR269:g34:25 UR269:g47:25 UR269:g58:35~ UR2                                                                                                     
+  UR255+UR256   3/3      3.0      160     1411  1571                                                                                                                                                                            
+  UR255+UR256   4/4      4.0      206      543   749                                                                                                                                                                            
+  UR255+UR256   5/5      5.0      238      270   508                                                          UR275:g0:498~                                                                                                     
+  UR255+UR256   6/6      6.0       85      355   440                                                        UR269:g13:1440~                                                                                                     
+  UR255+UR256   7/7      7.0      160      366   526                                                                                                                                                                            
+  UR255+UR256   8/8      8.0      114      357   471                                                          UR275:g7:472~                                                                                                     
+  UR255+UR256   9/9      9.0      141      663   804                                                         UR269:g21:803~                                                                                                     
+  UR255+UR256 10/10     10.0      187      365   552                                                                                                                                                                            
+  UR255+UR256 12/12     12.0       95      601   696                                                                                                                                                                            
+  UR255+UR256 13/13     13.0      215      535   750                                          UR266:g35:1750~ UR269:g7:850~                                                                                                     
+  UR255+UR256 14/14     14.0      157      603   760                                                        UR275:g22:1760~                                                                                                     
+  UR255+UR256 15/15     15.0      187      290   477                                                                                                                                                                            
+  UR255+UR256 17/17     17.0      127      321   448                                                                                                                                                                            
+  UR255+UR256 18/18     18.0      110      342   452                                                         UR269:g77:451~                                                                                                     
+  UR255+UR256 19/19     19.0      148      394   542                                                         UR275:g14:541~                                                                                                     
+  UR255+UR256 22/22     22.0       70      518   588                                          UR269:g71:588 UR275:g14:1588~                                                                                                     
+  UR255+UR256 23/23     23.0       92      153   245                                                          UR266:g6:235~                                                                                                     
+ UR267A+UR256   0/0      0.0      106     1055  1161                                                         UR266:g9:1151~                                                                                                     
+ UR267A+UR256   1/1      1.0      112      672   784                                                                                                                                                                            
+ UR267A+UR256   2/2      2.0      161       10   171                                                                                                                                                                            
+ UR267A+UR256   4/3      3.0      206     1411  1617                                                       UR269:g100:1618~                                                                                                     
+ UR267A+UR256   5/4      4.0      238      543   781                                                                                                                                                                            
+ UR267A+UR256   6/5      5.0       85      270   355                                                                                                                                                                            
+ UR267A+UR256   7/6      6.0      160      355   515                                                                                                                                                                            
+ UR267A+UR256   8/7      7.0      114      366   480                                                                                                                                                                            
+ UR267A+UR256   9/8      8.0      141      357   498                                            UR269:g65:497~ UR275:g0:498                                                                                                     
+ UR267A+UR256  11/9      9.0      187      663   850                                           UR266:g31:1850~ UR269:g7:850                                                                                                     
+ UR267A+UR256 12/10     10.0       95      365   460                                            UR269:g7:360~ UR275:g15:460                                                                                                     
+ UR267A+UR256 13/11     11.0      215      620   835                                                                                                                                                                            
+ UR267A+UR256 14/12     12.0      157      601   758                                                                                                                                                                            
+ UR267A+UR256 15/13     13.0      187      535   722                                                         UR269:g53:712~                                                                                                     
+ UR267A+UR256 16/14     14.0      141      603   744                                                           UR266:g2:744                                                                                                     
+ UR267A+UR256 17/15     15.0      127      290   417                                                                                                                                                                            
+ UR267A+UR256 19/17     17.0      149      321   470                             UR266:g5:370~ UR275:g0:370~ UR275:g15:460~                                                                                                     
+ UR267A+UR256 20/18     18.0      201      342   543                                                                                                                                                                            
+ UR267A+UR256 22/19     19.0       70      394   464                                                                                                                                                                            
+ UR267A+UR256 23/20     20.0       82      329   411                                         UR266:g10:421~ UR269:g100:311~                                                                                                     
+ UR267A+UR256 25/22     22.0       34      518   552                                                                                                                                                                            
+ UR267A+UR256 26/23     23.0       44      153   197                                                                                                                                                                            
+ UR255+UR267B   0/0      0.0      106     1054  1160                                                         UR269:g11:160~                                                                                                     
+ UR255+UR267B   1/1      1.0      100      660   760                                                        UR275:g22:1760~                                                                                                     
+ UR255+UR267B   2/2      2.0       15     1024  1039                                                                                                                                                                            
+ UR255+UR267B   3/3      3.0      160     1411  1571                                                                                                                                                                            
+ UR255+UR267B   4/4      4.0      206      543   749                                                                                                                                                                            
+ UR255+UR267B   5/5      5.0      238      260   498                                            UR269:g65:497~ UR275:g0:498                                                                                                     
+ UR255+UR267B   6/6      6.0       85      308   393                                            UR269:g81:392~ UR275:g7:393                                                                                                     
+ UR255+UR267B   7/7      7.0      160      413   573                                                          UR266:g8:473~                                                                                                     
+ UR255+UR267B   8/8      8.0      114      523   637                                           UR266:g22:636~ UR269:g47:637                                                                                                     
+ UR255+UR267B   9/9      9.0      141      526   667                                                                                                                                                                            
+ UR255+UR267B 10/10     10.0      187      357   544                                                                                                                                                                            
+ UR255+UR267B 12/12     12.0       95      328   423                                                         UR266:g20:323~                                                                                                     
+ UR255+UR267B 13/13     13.0      215      660   875                                                                                                                                                                            
+ UR255+UR267B 14/14     14.0      157      601   758                                                                                                                                                                            
+ UR255+UR267B 15/15     15.0      187      535   722                                                         UR269:g53:712~                                                                                                     
+ UR255+UR267B 16/16     16.0      141      603   744                                                           UR266:g2:744                                                                                                     
+ UR255+UR267B 17/17     17.0      127      284   411                                         UR266:g10:421~ UR269:g100:311~                                                                                                     
+ UR255+UR267B 18/18     18.0      110      321   431                                                         UR266:g10:421~                                                                                                     
+ UR255+UR267B 19/19     19.0      148      543   691                                                                                                                                                                            
+ UR255+UR267B 21/21     21.0      201      329   530                                                           UR269:g6:530                                                                                                     
+ UR255+UR267B 22/22     22.0       70       10    80                  UR266:g24:81~ UR266:g31:70~ UR269:g9:80 UR275:g20:70~                                                                                                     
+ UR255+UR267B 23/23     23.0       92      518   610              UR266:g4:611~ UR269:g9:710~ UR269:g71:600~ UR275:g14:710~                                                                                                     
+ UR255+UR267B 24/24     24.0       66      152   218                                          UR269:g11:228~ UR275:g14:118~                                                                                                     
+ UR255+UR267B 25/25     25.0       34      121   155                                                                                                                                                                            
+UR273A+UR273B   0/0      0.0      272     3991  4263                                         UR266:g15:4273~ UR275:g7:4273~                                                                                                     
+UR273A+UR273B   1/1      1.0      297     2300  2597                                                                                                                                                                            
+UR273A+UR273B   3/3      3.0      808     2142  2950                                          UR266:g19:2950 UR275:g10:2950                                                                                                     
+UR273A+UR273B   4/4      4.0      126     1249  1375                                                        UR269:g59:2375~                                                                                                     
+UR273A+UR273B   6/6      6.0       30     1129  1159                                                                                                                                                                            
+UR273A+UR273B   9/9      9.0      453     1200  1653                            UR266:g25:1653 UR269:g5:1653 UR275:g16:1653                                                                                                     
+UR273A+UR273B 11/11     10.0      448     1289  1737                           UR266:g26:1737 UR269:g11:1737 UR275:g17:1737                                                                                                     
+UR273A+UR273B 12/12     11.0      502     1325  1827                                                         UR269:g17:1827                                                                                                     
+UR273A+UR273B 13/13     12.0      448     1332  1780            UR269:g17:1780 UR269:g23:1780 UR275:g18:1780 UR275:g19:1780                                                                                                     
+UR273A+UR273B 15/15     13.0      579     1370  1949                                        UR266:g29:1939~ UR269:g30:1959~                                                                                                     
+UR273A+UR273B 17/17     14.0      672     1575  2247                                                         UR275:g21:2247                                                                                                     
+UR273A+UR273B 18/18     15.0      509     1256  1765                                        UR266:g33:1765 UR269:g100:1665~                                                                                                     
+UR273A+UR273B 19/19     16.0      325     1181  1506 UR266:g2:1506 UR266:g34:1505~ UR269:g49:1505~ UR275:g16:1606~ UR275:g2                                                                                                     
+UR273A+UR273B 20/20     17.0      503     1193  1696                                                                                                                                                                            
+UR273A+UR273B 21/21     18.0      526     1361  1887                                                        UR269:g61:1886~                                                                                                     
+UR273A+UR273B 22/22     19.0      517     1370  1887                                                        UR269:g61:1886~                                                                                                     
+UR273A+UR273B 24/24     20.0      368     1662  2030                                        UR269:g69:2020~ UR275:g13:2020~                                                                                                     
+UR273A+UR273B 25/25     21.0      263     1096  1359                                                        UR269:g45:2359~                                                                                                     
+UR274A+UR274B   0/0      0.0      280     3900  4180                                                                                                                                                                            
+UR274A+UR274B   1/1      1.0       30     1332  1362                                                        UR269:g58:2362~                                                                                                     
+UR274A+UR274B   2/2      2.0      862     1100  1962                                                                                                                                                                            
+UR274A+UR274B   3/3      3.0      700     2300  3000 UR266:g4:2000~ UR269:g36:2000~ UR269:g36:2000~ UR269:g51:2000~ UR269:g                                                                                                     
+UR274A+UR274B   5/4      4.0     1020     2232  3252                                                                                                                                                                            
+UR274A+UR274B   8/6      6.0      891     2142  3033                                                                                                                                                                            
+UR274A+UR274B  11/8      8.0      772     1249  2021                                        UR269:g69:2020~ UR275:g13:2020~                                                                                                     
+UR274A+UR274B 14/10     10.0      448      880  1328                                                                                                                                                                            
+UR274A+UR274B 15/11     11.0      607     1043  1650                                                        UR266:g35:1750~                                                                                                     
+UR274A+UR274B 17/13     13.0      591     1090  1681                                                                                                                                                                            
+UR274A+UR274B 24/19     19.0       30     1288  1318                                                                                                                                                                            
+UR274A+UR274B 25/20     20.0      264     1402  1666                                                       UR269:g100:1665~                                                                                                     
+UR274A+UR274B 26/21     21.0      143     1300  1443                                                         UR275:g2:1442~                                                                                                     
+UR274A+UR274B 29/24     24.0       73       17    90 UR266:g8:100~ UR266:g25:100~ UR269:g7:190~ UR269:g8:100~ UR269:g9:80~                                                                                                      
+UR274A+UR274B 30/25     25.0       64     1300  1364                                                          UR266:g1:1364                                                                                                     
+UR273A+UR274B   0/0      0.0      272     3900  4172                                                                                                                                                                            
+UR273A+UR274B   1/1      1.0      297     1332  1629                                                        UR269:g31:2629~                                                                                                     
+UR273A+UR274B   3/3      3.0      808     2300  3108                                                                                                                                                                            
+UR273A+UR274B   4/4      4.0      126     2232  2358                                                        UR269:g45:2359~                                                                                                     
+UR273A+UR274B   6/6      6.0       30     2142  2172                                                        UR269:g69:2182~                                                                                                     
+UR273A+UR274B 11/10     10.0      448      880  1328                                                                                                                                                                            
+UR273A+UR274B 12/11     11.0      502     1043  1545                                                          UR275:g3:1545                                                                                                     
+UR273A+UR274B 15/13     13.0      579     1090  1669                                                                                                                                                                            
+UR273A+UR274B 19/16     16.0      325     1300  1625                                                                                                                                                                            
+UR273A+UR274B 20/17     17.0      503     1200  1703                                                                                                                                                                            
+UR273A+UR274B 22/19     19.0      517     1288  1805                                                                                                                                                                            
+UR273A+UR274B 24/20     20.0      368     1402  1770 UR269:g17:1780~ UR269:g23:1780~ UR275:g11:1870~ UR275:g18:1780~ UR275:                                                                                                     
+UR273A+UR274B 25/21     21.0      263     1300  1563                                                                                                                                                                            
+UR273A+UR274B 26/22     22.0      100     1575  1675                                       UR269:g31:2675~ UR269:g100:1665~                                                                                                     
+UR273A+UR274B 30/25     25.0      431     1300  1731                                                        UR269:g23:1730~                                                                                                     
+UR274A+UR273B   0/0      0.0      280     3991  4271                                                                                                                                                                            
+UR274A+UR273B   1/1      1.0       30     2300  2330                                         UR269:g26:2430~ UR269:g59:2330                                                                                                     
+UR274A+UR273B   2/2      2.0      862     2222  3084                                                                                                                                                                            
+UR274A+UR273B   3/3      3.0      700     2142  2842                                          UR266:g8:1842~ UR275:g2:1842~                                                                                                     
+UR274A+UR273B   5/4      4.0     1020     1249  2269                                                        UR269:g86:2270~                                                                                                     
+UR274A+UR273B   7/5      5.0      391      887  1278                                          UR266:g21:1278 UR275:g12:1278                                                                                                     
+UR274A+UR273B   8/6      6.0      891     1129  2020                                          UR269:g69:2020 UR275:g13:2020                                                                                                     
+UR274A+UR273B  11/8      8.0      772     1334  2106                                          UR266:g24:2106 UR275:g15:2106                                                                                                     
+UR274A+UR273B  12/9      9.0      453     1200  1653                            UR266:g25:1653 UR269:g5:1653 UR275:g16:1653                                                                                                     
+UR274A+UR273B 14/11     10.0      448     1289  1737                           UR266:g26:1737 UR269:g11:1737 UR275:g17:1737                                                                                                     
+UR274A+UR273B 15/12     11.0      607     1325  1932                                                                                                                                                                            
+UR274A+UR273B 16/13     12.0      448     1332  1780            UR269:g17:1780 UR269:g23:1780 UR275:g18:1780 UR275:g19:1780                                                                                                     
+UR274A+UR273B 17/15     13.0      591     1370  1961                                                                                                                                                                            
+UR274A+UR273B 18/17     14.0      671     1575  2246                                        UR269:g85:2236~ UR275:g21:2247~                                                                                                     
+UR274A+UR273B 24/22     19.0       30     1370  1400                           UR269:g8:400~ UR269:g14:1300~ UR269:g15:400~                                                                                                     
+UR274A+UR273B 25/24     20.0      264     1662  1926                                                                                                                                                                            
+UR274A+UR273B 26/25     21.0      143     1096  1239                                                                                                                                                                            
+        UR270     0               453     1200  1653                            UR266:g25:1653 UR269:g5:1653 UR275:g16:1653 UR273B:g9:1200 UR273B:g9:200 UR273B:g11:200 UR274B:g2:1100 UR274B:g16:  UR273A:g9:453 UR274A:g12:453
+        UR270     1               224      630   854                                                                                                                                                                            
+        UR270     2               108      329   437                                                                                                                                                                            
+        UR270     4               608     1332  1940                                                         UR266:g29:1939                                         UR273B:g13:1332 UR274B:g1:1332                UR274A:g15:607
+        UR270     5               450     1402  1852                                            UR266:g8:1842 UR275:g2:1842                                                        UR274B:g20:1402                              
+        UR270     6               593     1300  1893                                                         UR269:g84:1893 UR273B:g1:2300 UR273B:g9:1200 UR273B:g11:300 UR274B:g3:2300 UR274B:g16                              
+        UR270     8               673     1575  2248                                                         UR275:g21:2247                                        UR273B:g17:1575 UR274B:g22:1575                UR273A:g17:672
+        UR270     9               510     1256  1766                                                         UR266:g33:1765                                                        UR273B:g18:1256 UR273A:g18:509 UR274A:g17:500
+        UR270    10               480     2551  3031                                                                                                                                                              UR274A:g10:490
+        UR270    12               219     1144  1363                                                          UR266:g1:1364                                                                                                     
+        UR270    14               304      724  1028                                                                                                                                                              UR274A:g16:404
+        UR270    15               194      335   529                                                           UR269:g6:530                                                                                                     
+        UR270    17               333     1430  1763                                                                                                                                                                            
+        UR270    18               134      101   235                   UR266:g6:235 UR275:g1:236 UR275:g6:335 UR275:g14:234                                                                                                     
+        UR270    19               358     3074  3432                                                                                                                                                              UR273A:g24:368
+        UR270    20               188      507   695                                                          UR266:g16:685                                                                                                     
+        UR270    21               243      562   805                                                                                                                                                              UR274A:g26:143

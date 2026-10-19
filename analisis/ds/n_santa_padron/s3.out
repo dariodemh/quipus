@@ -1,0 +1,27 @@
+marco alineado: {'Corongo': 17, 'Cusca': 7, 'Cuyuchin': 9, 'Guauyan': 41, 'Namus': 15, 'Ucore': 32} n = 121
+
+AMI max observada = 0.198 en hijo|p1_0
+top 10 pares:
+  hijo|p1_0          +0.198
+  fn_freq|union      +0.069
+  sn_top|p1          +0.067
+  fn_freq|p1_bin     +0.061
+  fn_freq|p4_bin     +0.061
+  sn_top|union       +0.052
+  fn_freq|solid      +0.046
+  fn_freq|p2_bin     +0.040
+  fn|col             +0.034
+  sn_top|p2_bin      +0.034
+
+nulo (3000 permutaciones de nombres dentro de pachaca):
+  max AMI: media 0.098 p95 0.198  ->  p (corregido por busqueda de 72 pares) = 0.1423
+  el par hijo|p1_0 por separado: p sin corregir = 0.1423
+
+======================================================================
+PRUEBA DIRIGIDA (post hoc): Namus, "hijo de" al final vs UR091 p1=0 al final
+hijo  = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1] (solo los 15 alineados)
+p1_0  = [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+P(5 hijos ocupan las 5 ultimas de 18) = 1/C(18,5) = 0.000117
+P(6 ceros ocupan los 6 ultimos de 15) = 1/C(15,6) = 0.000200
+P(ambos) = 2.33e-08  <- el par de rasgos se eligio tras ver los datos
+control valido = p del max-estadistico: 0.1423

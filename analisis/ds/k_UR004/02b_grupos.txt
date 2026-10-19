@@ -1,0 +1,15 @@
+=== TAMANO DE GRUPO (correcto) ===
+n grupos 73 | tam min/max/med 1 30 5
+grupos de 1 cuerda: 28 de multi: 45
+suma de cuerdas: 482
+=== SUMA POR GRUPO (correcta) ===
+{0: np.float64(329.0), 1: np.float64(0.0), 2: np.float64(567.0), 3: np.float64(0.0), 4: np.float64(955.0), 5: np.float64(0.0), 6: np.float64(0.0), 7: np.float64(61.0), 8: np.float64(0.0), 9: np.float64(58.0), 10: np.float64(0.0), 11: np.float64(960.0), 12: np.float64(0.0), 13: np.float64(1714.0), 14: np.float64(0.0), 15: np.float64(112.0), 16: np.float64(0.0), 17: np.float64(53.0), 18: np.float64(0.0), 19: np.float64(0.0), 20: np.float64(317.0), 21: np.float64(0.0), 22: np.float64(144.0), 23: np.float64(0.0), 24: np.float64(462.0), 25: np.float64(91.0), 26: np.float64(45.0), 27: np.float64(0.0), 28: np.float64(139.0), 29: np.float64(0.0), 30: np.float64(24.0), 31: np.float64(0.0), 32: np.float64(43.0), 33: np.float64(0.0), 34: np.float64(35.0), 35: np.float64(0.0), 36: np.float64(792.0), 37: np.float64(0.0), 38: np.float64(1516.0), 39: np.float64(0.0), 40: np.float64(232.0), 41: np.float64(0.0), 42: np.float64(26.0), 43: np.float64(0.0), 44: np.float64(12.0), 45: np.float64(0.0), 46: np.float64(2.0), 47: np.float64(0.0), 48: np.float64(3.0), 49: np.float64(0.0), 50: np.float64(3.0), 51: np.float64(0.0), 52: np.float64(108.0), 53: np.float64(0.0), 54: np.float64(4.0), 55: np.float64(0.0), 56: np.float64(6.0), 57: np.float64(69.0), 58: np.float64(2.0), 59: np.float64(6.0), 60: np.float64(3.0), 61: np.float64(19.0), 62: np.float64(20.0), 63: np.float64(14.0), 64: np.float64(43.0), 65: np.float64(2409.0), 66: np.float64(4.0), 67: np.float64(4.0), 68: np.float64(1.0), 69: np.float64(0.0), 70: np.float64(2.0), 71: np.float64(1.0), 72: np.float64(0.0)}
+=== T3 grupo: cuerda = suma de las demas ===
+obs 12/45 | nulo 6.20 | p=0.001
+=== T4 suma de grupo = cuerda ajena ===
+obs 21 | nulo 13.83 | p=0.003
+=== A sumas de grupo repetidas ===
+obs 9 | nulo 3.46 | p=0.002
+sumas repetidas: {np.float64(43.0): 2, np.float64(2.0): 3, np.float64(3.0): 3, np.float64(4.0): 3, np.float64(6.0): 2, np.float64(1.0): 2}
+=== T9 entropia color por grupo ===
+obs 1.318 | nulo 1.431 sd 0.051 | p(menor)=0.014

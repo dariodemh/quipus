@@ -1,0 +1,79 @@
+detector,A,B,C,cifras,p,q,q_dir,familia,nota,enlace,control
+D1,UR267A,,,nrec=26; c*=15; apoyo=15; expl=24; pos=1.0:15.0x24,0.000999,0.004281,0.004281,proc:Incahuasi,cuota por diferencia,,1
+D1,UR268,,,nrec=30; c*=208; apoyo=4; expl=16; pos=1.0:208.0x19,0.000999,0.004281,0.004281,proc:Incahuasi,cuota por diferencia,,1
+D1,UR275,,,nrec=26; c*=47; apoyo=7; expl=22; pos=1.0:47.0x24,0.000999,0.004281,0.004281,proc:Incahuasi,cuota por diferencia,,1
+D4,UR270,UR278,,nA=11; nB=31; grupos=6; columnas=9; B_grupo=21; tau=1.0,0.000999,0.5887,0.02997,proc:Incahuasi,celda colgante+s1,,1
+D2,UR273A,UR273B,UR269,n=18; obs=12; exacto=8; nC=7; tau=0.4286; top3=UR269:7|UR275:6|UR266:5,0.0002,1,0.037,proc:Incahuasi,exceso=8.30,,1
+D3,UR278,UR266,,nA=33; nB=30; lcs=15; tau_nulo=5.92,0.0002,1,0.038,proc:Incahuasi,exceso=9.08,,1
+D3,UR278,UR275,,nA=33; nB=25; lcs=11; tau_nulo=4.87,0.0002,1,0.038,proc:Incahuasi,exceso=6.13,,1
+D2,UR273B,UR274A,UR275,n=17; obs=10; exacto=6; nC=7; tau=1.0; top3=UR275:7|UR269:5|UR266:3,0.0007998,1,0.07398,proc:Incahuasi,exceso=6.02,,1
+D1,HP055,,,nrec=31; c*=12; apoyo=1; expl=9; pos=2.0:100.0x10,0.000999,0.000999,0.000999,"museo:Museo Nacional de Arqueologia, Anthropologia e Historia del Peru",,,0
+D1,UR255,,,nrec=28; c*=15; apoyo=9; expl=15; pos=1.0:15.0x15,0.000999,0.004281,0.004281,proc:Incahuasi,cuota por diferencia,,0
+D1,UR256,,,nrec=24; c*=10; apoyo=8; expl=6; pos=2.0:10.0x14,0.000999,0.004281,0.004281,proc:Incahuasi,cuota por diferencia,,0
+D1,UR267B,,,nrec=26; c*=10; apoyo=13; expl=22; pos=1.0:10.0x24,0.000999,0.004281,0.004281,proc:Incahuasi,cuota por diferencia,,0
+D1,UR269,,,nrec=91; c*=46; apoyo=10; expl=2; pos=2.0:46.0x9,0.000999,0.004281,0.004281,proc:Incahuasi,cuota por diferencia,,0
+D1,UR266,,,nrec=33; c*=47; apoyo=3; expl=14; pos=1.0:47.0x14,0.000999,0.005994,0.005994,proc:Incahuasi,cuota por diferencia,,0
+D1,UR274B,,,nrec=33; c*=17; apoyo=3; expl=6; pos=1.0:17.0x6,0.001998,0.005994,0.005994,proc:Incahuasi,cuota por diferencia,,0
+D1,UR277,,,nrec=19; c*=2; apoyo=8; expl=1; pos=1.0:22.0x4,0.001998,0.005994,0.005994,proc:Incahuasi,cuota por diferencia,,0
+D1,UR076,,,nrec=5; c*=1; apoyo=4; expl=4; pos=1.0:1.0x4,0.000999,0.007992,0.007992,proc:Huaquerones,,,0
+D1,UR1149,,,nrec=25; c*=610; apoyo=4; expl=0; pos=1.0:670.0x4,0.004995,0.01499,0.01499,proc:Ocucaje,cuota por diferencia,,0
+D2,UR1088,UR195,UR232,n=24; obs=23; exacto=14; nC=18; tau=-0.312; top3=UR232:18|UR233:18|UR120:11,0.002599,1,0.0234,proc:Huacho,exceso=4.39,,0
+D1,JC001,,,nrec=8; c*=2; apoyo=3; expl=0; pos=1.0:40.0x3,0.01399,0.03814,0.03814,proc:Incahuasi,cuota por diferencia,,0
+D1,UR001,,,nrec=29; c*=1; apoyo=5; expl=15; pos=1.0:1.0x9,0.001998,0.04196,0.04196,proc:Leymebamba,,,0
+D1,UR006,,,nrec=63; c*=1; apoyo=9; expl=31; pos=1.0:1.0x20,0.003996,0.04196,0.04196,proc:Leymebamba,,,0
+D2,UR1123,UR223,UR1109,n=7; obs=6; exacto=3; nC=2; tau=nan; top3=UR1109:2|UR1179:1|UR229:1,0.0012,1,0.066,proc:Ica,exceso=3.44,,0
+D2,KH0197,UR226,UR231,n=12; obs=9; exacto=4; nC=4; tau=0.3333; top3=UR231:4|UR208:3|UR201:2,0.0022,1,0.1529,"museo:Ethnologisches Museum, Berlin, Germany",exceso=4.16,,0
+D2,KH0197,UR197,UR235,n=15; obs=11; exacto=6; nC=4; tau=-0.9129; top3=UR235:4|UR226:3|UR241:3,0.002999,1,0.1529,"museo:Ethnologisches Museum, Berlin, Germany",exceso=3.81,,0
+D3,UR273A,UR274A,,nA=22; nB=21; lcs=7; tau_nulo=3.97,0.0014,1,0.1773,proc:Incahuasi,exceso=3.03,,0
+D2,MM016,MM017,MM015,n=9; obs=6; exacto=6; nC=4; tau=0.4082; top3=MM015:4|MM010:3|MM014:2,0.006599,1,0.2338,proc:Eduard Gaffron,exceso=3.01,,0
+D2,UR267A,UR267B,UR269,n=26; obs=15; exacto=9; nC=9; tau=0.4573; top3=UR269:9|UR278:4|UR256:3,0.009398,1,0.4622,proc:Incahuasi,exceso=5.84,,0
+D2,UR255,UR274A,UR269,n=19; obs=12; exacto=3; nC=4; tau=-1.0; top3=UR269:4|UR278:3|UR267A:2,0.011,1,0.4622,proc:Incahuasi,exceso=4.88,,0
+D4,UR029,AS212,,nA=3; nB=13; grupos=3; columnas=3; B_grupo=7; tau=nan,0.000999,0.5887,0.6066,global,celda colgante+s1,,0
+D4,UR057,AS212,,nA=4; nB=13; grupos=2; columnas=4; B_grupo=7; tau=nan,0.000999,0.5887,0.6066,global,celda colgante+s1,,0
+D4,UR057,UR113,,nA=4; nB=26; grupos=2; columnas=4; B_grupo=29; tau=nan,0.000999,0.5887,0.6066,global,celda colgante+s1,,0
+D4,UR057,UR272,,nA=4; nB=15; grupos=3; columnas=5; B_grupo=12; tau=nan,0.000999,0.5887,0.6066,global,celda colgante+s1,,0
+D4,UR272,UR034,,nA=6; nB=10; grupos=2; columnas=3; B_grupo=13; tau=nan,0.000999,0.5887,0.6066,global,celda colgante+s1,,0
+D3,QU021,AS007,,nA=17; nB=37; lcs=9; tau_nulo=5.55,0.0002,1,1,proc:Unknown,exceso=3.45,,0
+D3,UR045,UR1140,,nA=28; nB=20; lcs=10; tau_nulo=6.59,0.0007998,1,1,global,exceso=3.41,,0
+D3,UR272,KH0227,,nA=22; nB=16; lcs=8; tau_nulo=4.94,0.0007998,1,1,global,exceso=3.06,,0
+D2,UR1149,UR207,HP030,n=11; obs=9; exacto=4; nC=2; tau=nan; top3=HP030:2|UR223:1|UR238:1,0.0012,1,1,global,exceso=4.11,,0
+D2,AS069,UR201,UR200,n=7; obs=7; exacto=3; nC=2; tau=nan; top3=UR200:2|UR269:2|UR240:2,0.0012,1,1,global,exceso=3.48,,0
+D3,JC010,UR203,,nA=18; nB=12; lcs=7; tau_nulo=4.07,0.0012,1,1,global,exceso=2.93,,0
+D2,UR190,UR274B,AS008,n=14; obs=11; exacto=2; nC=3; tau=nan; top3=AS008:3|UR1058:2|UR269:2,0.0016,1,1,global,exceso=5.21,,0
+D2,MM018,UR266,UR118,n=8; obs=6; exacto=1; nC=1; tau=nan; top3=UR118:1|UR085:1|UR269:1,0.0016,1,1,global,exceso=3.69,,0
+D2,UR034,UR197,AS069,n=19; obs=19; exacto=17; nC=14; tau=0.514; top3=AS069:14|UR055:14|UR1175:12,0.0016,1,1,global,exceso=2.44,,0
+D4,UR169,MM019,,nA=5; nB=27; grupos=2; columnas=4; B_grupo=20; tau=nan,0.001998,1,1,global,celda colgante+s1,,0
+D3,AS207A,HP056,,nA=27; nB=17; lcs=9; tau_nulo=6.22,0.002599,1,1,proc:Unknown,exceso=2.78,,0
+D2,MM019,UR266,UR247,n=26; obs=13; exacto=6; nC=3; tau=nan; top3=UR247:3|UR267A:3|UR1113:3,0.002999,1,1,global,exceso=4.90,,0
+D2,HP030,UR1051,UR269,n=10; obs=7; exacto=3; nC=2; tau=nan; top3=UR269:2|UR1084:2|UR275:2,0.003199,1,1,global,exceso=3.69,,0
+D2,UR1126,UR201,UR1176,n=9; obs=8; exacto=5; nC=2; tau=nan; top3=UR1176:2|UR212:1|UR120:1,0.003199,1,1,global,exceso=3.07,,0
+D2,AS039,UR1149,HP037,n=11; obs=8; exacto=3; nC=2; tau=nan; top3=HP037:2|AS008:2|UR223:1,0.003599,1,1,global,exceso=3.63,,0
+D4,UR029,JC010,,nA=3; nB=13; grupos=2; columnas=3; B_grupo=5; tau=nan,0.003996,1,1,global,celda colgante+s1,,0
+D3,UR087,UR223,,nA=47; nB=9; lcs=6; tau_nulo=3.60,0.003999,1,1,global,exceso=2.40,,0
+D3,UR1091,AS044,,nA=21; nB=27; lcs=8; tau_nulo=5.62,0.004799,1,1,proc:Unknown,exceso=2.38,,0
+D2,UR085,UR118,UR234,n=5; obs=3; exacto=1; nC=1; tau=nan; top3=UR234:1|UR268:1|UR1104:1,0.005199,1,1,global,exceso=2.46,,0
+D3,UR045,UR009,,nA=28; nB=10; lcs=9; tau_nulo=6.55,0.005199,1,1,global,exceso=2.45,,0
+D3,UR006,AS171,,nA=30; nB=12; lcs=8; tau_nulo=5.07,0.005799,1,1,global,exceso=2.93,,0
+D4,UR057,UR235,,nA=4; nB=14; grupos=2; columnas=5; B_grupo=15; tau=nan,0.005994,1,1,global,celda colgante+s1,,0
+D4,UR272,AS212,,nA=6; nB=13; grupos=2; columnas=3; B_grupo=0; tau=nan,0.005994,1,1,global,celda colgante+s1,,0
+D2,UR1166,UR200,UR118,n=6; obs=6; exacto=5; nC=3; tau=nan; top3=UR118:3|UR022:2|UR273A:2,0.006999,1,1,global,exceso=2.54,,0
+D3,KH0227,UR1098,,nA=16; nB=15; lcs=6; tau_nulo=3.67,0.006999,1,1,global,exceso=2.33,,0
+D3,UR004,UR231,,nA=43; nB=30; lcs=11; tau_nulo=7.76,0.007399,1,1,global,exceso=3.24,,0
+D3,UR017,QU011,,nA=16; nB=22; lcs=5; tau_nulo=2.80,0.007598,1,1,global,exceso=2.20,,0
+D3,MM016,AS008,,nA=18; nB=45; lcs=7; tau_nulo=4.51,0.007998,1,1,global,exceso=2.49,,0
+D3,UR1091,UR093,,nA=21; nB=12; lcs=7; tau_nulo=4.56,0.007998,1,1,proc:Unknown,exceso=2.44,,0
+D2,MM001,UR1099,AS209,n=15; obs=15; exacto=7; nC=3; tau=nan; top3=AS209:3|UR1144:2|UR153:2,0.008198,1,1,global,exceso=3.66,,0
+D3,MM020,UR267A,,nA=17; nB=26; lcs=6; tau_nulo=3.60,0.008198,1,1,global,exceso=2.40,,0
+D2,UR131B,UR197,UR246,n=8; obs=8; exacto=5; nC=2; tau=nan; top3=UR246:2|UR264:2|AS069:2,0.008398,1,1,global,exceso=2.74,,0
+D2,HP055,UR147,AS008,n=9; obs=9; exacto=3; nC=2; tau=nan; top3=AS008:2|UR266:1|UR119:1,0.008598,1,1,global,exceso=2.78,,0
+D2,AS041,AS209,UR1084,n=7; obs=6; exacto=1; nC=2; tau=nan; top3=UR1084:2|QU015:2|QU012:1,0.008798,1,1,proc:Unknown,exceso=2.72,,0
+D2,AS008,UR273A,UR266,n=22; obs=22; exacto=10; nC=3; tau=nan; top3=UR266:3|UR166:3|UR1113:3,0.008998,1,1,global,exceso=3.72,,0
+D2,AS008,UR1152,UR278,n=23; obs=23; exacto=17; nC=5; tau=-0.2; top3=UR278:5|AS069:4|KH0197:4,0.009198,1,1,global,exceso=3.36,,0
+D2,UR015,UR273B,UR201,n=7; obs=6; exacto=2; nC=1; tau=nan; top3=UR201:1|UR247:1|UR269:1,0.009398,1,1,global,exceso=3.59,,0
+D2,QU019,UR1149,UR269,n=25; obs=19; exacto=8; nC=4; tau=0.3333; top3=UR269:4|UR011:3|UR278:3,0.009798,1,1,global,exceso=4.12,,0
+D2,HP055,UR291A,UR1131,n=15; obs=13; exacto=10; nC=7; tau=-0.5832; top3=UR1131:7|AS069:7|UR1176:6,0.009798,1,1,global,exceso=2.35,,0
+D2,AS004,UR041,AS008,n=7; obs=7; exacto=4; nC=3; tau=nan; top3=AS008:3|AS042:2|QU011:2,0.009798,1,1,proc:Unknown,exceso=2.29,,0
+D2,HP030,UR1107,UR269,n=8; obs=6; exacto=2; nC=4; tau=0.3333; top3=UR269:4|UR1124_Detail_1:2|UR275:2,0.0112,1,1,global,exceso=3.65,,0
+D4,UR074,MM019,,nA=2; nB=27; grupos=2; columnas=6; B_grupo=1; tau=nan,0.02597,1,1,global,celda colgante+s1,,0
+D4,UR074,AS186,,nA=2; nB=6; grupos=2; columnas=4; B_grupo=1; tau=nan,0.04496,1,1,global,celda colgante+s1,,0
+D4,UR074,UR097,,nA=2; nB=5; grupos=2; columnas=4; B_grupo=3; tau=nan,0.04795,1,1,global,celda colgante+s1,,0

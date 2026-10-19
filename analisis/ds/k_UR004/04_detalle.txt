@@ -1,0 +1,56 @@
+=== GRUPOS MULTI CON SUMA REPETIDA ===
+suma=1.0
+   g58 [('p354s1', 1, 'MB'), ('p355', 0, 'MB')]
+suma=3.0
+   g54 [('p335', 0, 'MB'), ('p336', 0, 'LK'), ('p337', 1, 'MB'), ('p338', 1, 'MB'), ('p339', 1, 'MB')]
+suma=4.0
+   g57 [('p345', 0, 'PK'), ('p346', 0, 'AB'), ('p347', 0, 'MB'), ('p348', 0, 'MB'), ('p348s1', 1, 'MB'), ('p349', 0, 'AB'), ('p350', 1, 'MB'), ('p350s1', 0, 'MB'), ('p351', 1, 'MB'), ('p352', 0, 'PK'), ('p353', 0, 'MB'), ('p353s1', 1, 'MB'), ('p354', 0, 'MB')]
+   g59 [('p355s1', 1, 'MB'), ('p356', 1, 'MB'), ('p357', 0, 'GG'), ('p357s1', 2, 'G'), ('p358', 0, 'MB:KB')]
+   g60 [('p359', 1, 'KB'), ('p360', 1, 'MB:G'), ('p361', 0, 'PK'), ('p362', 0, 'MB'), ('p362s1', 1, 'MB'), ('p363', 1, 'MB'), ('p364', 0, 'MB')]
+   g65 [('p386', 3, 'AB:G'), ('p387', 0, 'AB:KB'), ('p388', 1, 'MB')]
+suma=6.0
+   g70 [('p405', 0, 'MB'), ('p405s1', 3, 'MB'), ('p406', 3, 'MB'), ('p406s1', 0, 'MB'), ('p407', 0, 'GG')]
+   g56 [('p341', 2, 'GG'), ('p342', 0, 'MB:KB'), ('p343', 4, 'MB'), ('p344', 0, 'AB:G')]
+suma=7.0
+   g69 [('p402', 1, 'MB'), ('p403', 3, 'MB'), ('p403s1', 0, 'MB'), ('p404', 0, 'MB'), ('p404s1', 3, 'MB')]
+suma=8.0
+   g71 [('p407s1', 3, 'G'), ('p408', 0, 'MB'), ('p408s1', 2, 'MB'), ('p409', 0, 'MB'), ('p409s1', 3, 'MB')]
+suma=12.0
+   g38 [('p267', 3, 'MB'), ('p268', 3, 'MB'), ('p269', 0, 'GG'), ('p269s1', 6, 'MB'), ('p270', 0, 'AB:MB'), ('p271', 0, 'MB'), ('p272', 0, 'GG:MB'), ('p273', 0, 'KB'), ('p274', 0, 'AB'), ('p275', 0, 'MB')]
+suma=67.0
+   g9  [('p81', 0, 'PK'), ('p82', 4, 'MB'), ('p83', 11, 'MB'), ('p84', 13, 'MB'), ('p85', 0, 'MB'), ('p85s1', 14, 'MB'), ('p86', 0, 'MB'), ('p86s1', 20, 'MB'), ('p87', 5, 'GG')]
+   g22 [('p166', 5, 'MB'), ('p167', 8, 'MB'), ('p168', 1, 'MB'), ('p169', 11, 'MB'), ('p170', 1, 'MB'), ('p171', 5, 'MB'), ('p172', 16, 'AB'), ('p173', 1, 'MB'), ('p174', 19, 'MB')]
+   g20 [('p152', 1, 'AB'), ('p153', 2, 'MB'), ('p154', 11, 'MB'), ('p155', 11, 'KB'), ('p156', 3, 'MB'), ('p157', 9, 'MB'), ('p158', 3, 'MB'), ('p159', 0, 'GG'), ('p160', 8, 'MB'), ('p161', 5, 'MB'), ('p162', 0, 'GG'), ('p163', 0, 'PK'), ('p164', 0, 'PK'), ('p164s1', 1, 'MB'), ('p164s1s1', 0, 'MB'), ('p164s2', 0, 'MB'), ('p164s2s1', 2, 'MB'), ('p164s3', 0, 'MB'), ('p164s3s1', 1, 'MB'), ('p164s4', 0, 'MB'), ('p164s4s1', 4, 'MB'), ('p164s5', 2, 'GG:MB'), ('p164s6', 4, 'GG')]
+suma=364.0
+   g46 [('p307', 26, 'MB'), ('p307s1', 1, 'MB'), ('p308', 126, 'KB'), ('p308s1', 4, 'KB'), ('p309', 16, 'G'), ('p310', 191, 'AB:MB')]
+   g0  [('p2', 0, 'AB'), ('p3', 0, 'MB'), ('p4', 0, 'MB'), ('p5', 1, 'MB'), ('p6', 0, 'MB'), ('p7', 1, 'KB'), ('p8', 2, 'MB'), ('p9', 1, 'KB'), ('p10', 123, 'KB'), ('p11', 22, 'MB'), ('p12', 20, 'MB'), ('p13', 23, 'MB'), ('p14', 101, 'MB'), ('p14s1', 37, 'MB'), ('p15', 0, 'GG'), ('p16', 29, 'MB:KB'), ('p17', 2, 'GG'), ('p18', 2, 'AB:GG')]
+
+=== T4: quien iguala la suma de cada grupo multi ===
+g10 suma=   28.0 <- p290=g36
+g23 suma=   20.0 <- p12=g0; p86s1=g7; p130=g13; p179=g20
+g27 suma=   91.0 <- p220=g25
+g30 suma=   61.0 <- p217=g24
+g36 suma=   46.0 <- p66=g4
+g38 suma=   12.0 <- p55=g4; p69=g4; p202=g24; p204=g24; p296=g36; p328=g42
+g40 suma=   45.0 <- p47=g2; p221=g26
+g50 suma=  101.0 <- p14=g0
+g52 suma=   27.0 <- p113=g11; p211=g24; p215s1=g24
+g54 suma=    3.0 <- p21=g2; p23=g2; p31=g2; p37=g2; p48=g2; p59=g4; p138=g15; p156=g17; p158=g17; p208=g24; p228=g28; p250=g32; p254=g32; p257=g32; p265=g34; p266=g34; p267=g34; p268=g34; p295s1=g36; p325=g42; p330=g42; p386=g56; p403=g59; p404s1=g59; p405s1=g59; p406=g59; p407s1=g59; p409s1=g60; p410s1=g60; p420=g62; p424=g62
+g56 suma=    6.0 <- p33=g2; p67=g4; p182s1=g20; p190=g22; p194=g22; p216s1=g24; p269s1=g34; p394=g57
+g57 suma=    4.0 <- p26=g2; p82=g7; p139=g15; p146=g15; p164s4s1=g19; p164s6=g19; p201=g24; p203=g24; p212=g24; p216=g24; p243=g32; p308s1=g38; p311s1=g38; p326=g42; p327=g42; p343=g44; p371s1=g52; p433=g63
+g58 suma=    1.0 <- p5=g0; p7=g0; p9=g0; p20=g2; p22=g2; p53=g4; p56=g4; p58=g4; p60=g4; p63=g4; p71s1=g4; p91=g9; p93=g9; p96=g9; p121=g11; p135=g15; p152=g17; p164s1=g19; p164s3s1=g19; p165=g20; p168=g20; p170=g20; p173=g20; p192s1=g22; p226=g28; p233=g30; p234=g30; p235=g30; p237=g30; p242=g32; p247=g32; p251=g32; p253=g32; p256=g32; p258=g32; p259=g32; p260=g32; p277=g34; p282=g36; p289=g36; p307s1=g38; p312s1=g38; p313=g38; p320=g40; p321=g40; p333=g44; p337=g44; p338=g44; p339=g44; p348s1=g46; p350=g46; p351=g46; p353s1=g48; p354s1=g48; p355s1=g48; p356=g48; p359=g48; p360=g48; p362s1=g50; p363=g50; p365=g50; p366=g50; p373=g52; p378=g54; p378s1=g54; p379=g54; p384=g56; p388=g57; p390=g57; p393=g57; p395=g57; p397=g57; p400=g57; p412=g60; p413=g60; p414=g60; p416=g62; p418=g62; p421=g62; p423=g62; p429=g63; p429s1=g63; p430=g63; p430s1=g63; p431s1=g63; p432=g63; p436s1=g64; p436s2=g64; p437s1=g64; p438=g64; p439=g64; p445=g66; p446=g66; p447=g66; p448=g66; p454=g68; p455s1=g68; p456s1=g68; p457s1=g68; p458s1=g68; p459s1=g69; p460s1=g69; p461s1=g69; p462s1=g69; p464=g70; p468=g70; p469=g71; p470s1=g71; p471s1=g71; p472s1=g71; p473s1=g71
+g59 suma=    4.0 <- p26=g2; p82=g7; p139=g15; p146=g15; p164s4s1=g19; p164s6=g19; p201=g24; p203=g24; p212=g24; p216=g24; p243=g32; p308s1=g38; p311s1=g38; p326=g42; p327=g42; p343=g44; p371s1=g52; p398=g57; p433=g63
+g60 suma=    4.0 <- p26=g2; p82=g7; p139=g15; p146=g15; p164s4s1=g19; p164s6=g19; p201=g24; p203=g24; p212=g24; p216=g24; p243=g32; p308s1=g38; p311s1=g38; p326=g42; p327=g42; p343=g44; p371s1=g52; p398=g57; p433=g63
+g63 suma=   18.0 <- p38=g2
+g64 suma=   21.0 <- p76=g4
+g65 suma=    4.0 <- p26=g2; p82=g7; p139=g15; p146=g15; p164s4s1=g19; p164s6=g19; p201=g24; p203=g24; p212=g24; p216=g24; p243=g32; p308s1=g38; p311s1=g38; p326=g42; p327=g42; p343=g44; p371s1=g52; p398=g57; p433=g63
+g66 suma=   23.0 <- p13=g0; p288=g36; p396=g57
+g67 suma=   32.0 <- p43s1=g2; p441=g64; p442=g65
+g68 suma=   15.0 <- p61=g4; p88=g7; p144=g15; p176=g20; p207=g24
+g69 suma=    7.0 <- p35=g2; p42=g2; p42s1=g2; p51=g4; p74=g4; p180=g20; p210=g24; p259s1=g32; p263=g32; p370=g52; p389=g57
+g70 suma=    6.0 <- p33=g2; p67=g4; p182s1=g20; p190=g22; p194=g22; p216s1=g24; p269s1=g34; p394=g57
+g71 suma=    8.0 <- p40s1=g2; p94=g9; p103=g11; p160=g17; p167=g20; p191=g22; p192=g22; p206=g24; p227s1=g28; p399=g57
+g72 suma=   31.0 <- p32=g2; p180s1=g20
+OKR tablas: ['archive_dc', 'ascher_canutito_color', 'ascher_canuto_color', 'ascher_color_dc', 'sqlite_sequence', 'attachment_dc', 'beginning_dc', 'canutito', 'canuto', 'canuto_cluster', 'color_operator_dc', 'cord', 'cord_classification_dc', 'cord_cluster', 'fiber_dc', 'grouping_class_dc', 'knot_cluster', 'knot_type_dc', 'pigmentation_dc', 'regions_dc', 'structure_dc', 'termination_dc', 'ascher_cord_color', 'khipu_main', 'primary_cord', 'knot']
+khipu_main cols: ['KHIPU_ID', 'EARLIEST_AGE', 'LATEST_AGE', 'PROVENANCE', 'DATE_DISCOVERED', 'DISCOVERED_BY', 'MUSEUM_DESCR', 'MUSEUM_NAME', 'NICKNAME', 'MUSEUM_NUM', 'CONDITIONOFKHIPU', 'REGION', 'INVESTIGATOR_NUM', 'COMPLETE', 'CREATED_BY', 'CREATED_ON', 'CHANGED_BY', 'CHANGED_ON', 'DUPLICATE_FLAG', 'DUPLICATE_ID', 'ARCHIVE_NUM', 'orig_inv_num', 'NOTES', 'OKR_NUM']
+khipu_main match: [(1000240, '0000-00-00', '0000-00-00', '"Pueblo Libre, Lima, Peru"', '0000-00-00', '', '', 'Museo Larco', '', '#3', '', '', 'UR047', 0.0, 'leah', '2004-05-04 18:51:07', '', '0000-00-00 00:00:00', 0.0, 0.0, 0.0, 'UR047', None, 'KH0277')]

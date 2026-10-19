@@ -1,0 +1,42 @@
+origen destino             tipo     variante  pares       tau        p        q
+ UR255  UR267A            copia exactas y ±1     28  1.000000 0.000200 0.000533
+ UR256  UR267B            copia exactas y ±1     21  1.000000 0.000200 0.000533
+ UR266   UR275            copia exactas y ±1     46  1.000000 0.000200 0.000533
+UR267A   UR266 suma_AB(parte A) exactas y ±1      1       NaN      NaN      NaN
+UR267A   UR269 suma_AB(parte A) exactas y ±1     10  0.000000 0.523095 0.597823
+UR267A   UR269 suma_AB(parte A) solo exactas      5  1.000000 0.009198 0.014717
+UR267A   UR275 suma_AB(parte A) exactas y ±1      4 -0.333333 0.842432 0.871026
+ UR269   UR266            copia exactas y ±1     22  1.000000 0.000200 0.000533
+ UR269   UR275            copia exactas y ±1     23  1.000000 0.000200 0.000533
+ UR270   UR266          suma_PS exactas y ±1      2       NaN      NaN      NaN
+ UR270   UR266          suma_PS solo exactas      1       NaN      NaN      NaN
+ UR270   UR269          suma_PS exactas y ±1      1       NaN      NaN      NaN
+ UR270   UR269          suma_PS solo exactas      1       NaN      NaN      NaN
+ UR270  UR273A          parte_S exactas y ±1      3       NaN      NaN      NaN
+ UR270  UR273B          parte_P exactas y ±1      3       NaN      NaN      NaN
+ UR270   UR275          suma_PS exactas y ±1      2       NaN      NaN      NaN
+ UR270   UR275          suma_PS solo exactas      1       NaN      NaN      NaN
+UR273A   UR266 suma_AB(parte A) exactas y ±1      5  0.200000 0.407718 0.489262
+UR273A   UR266 suma_AB(parte A) solo exactas      5  0.200000 0.405919 0.489262
+UR273A   UR269 suma_AB(parte A) exactas y ±1      7  0.975900 0.000400 0.000873
+UR273A   UR269 suma_AB(parte A) solo exactas      4  1.000000 0.041592 0.058122
+UR273A  UR274A            copia exactas y ±1      7  1.000000 0.000200 0.000533
+UR273A   UR275 suma_AB(parte A) exactas y ±1      6  1.000000 0.002200 0.004061
+UR273A   UR275 suma_AB(parte A) solo exactas      5  1.000000 0.006999 0.011998
+UR273B  UR274B            copia exactas y ±1      7  1.000000 0.000200 0.000533
+UR274A   UR266 suma_AB(parte A) exactas y ±1      4  1.000000 0.043591 0.058122
+UR274A   UR266 suma_AB(parte A) solo exactas      4  1.000000 0.041792 0.058122
+UR274A   UR269 suma_AB(parte A) exactas y ±1      6 -0.333333 0.871026 0.871026
+UR274A   UR269 suma_AB(parte A) solo exactas      5 -0.200000 0.761048 0.830234
+UR274A   UR275 suma_AB(parte A) exactas y ±1      7  1.000000 0.000400 0.000873
+UR274A   UR275 suma_AB(parte A) solo exactas      6  1.000000 0.001200 0.002400
+ UR278   UR266      total_grupo exactas y ±1     15  1.000000 0.000200 0.000533
+ UR278   UR269      total_grupo exactas y ±1      1       NaN      NaN      NaN
+ UR278   UR275      total_grupo exactas y ±1      9  1.000000 0.000200 0.000533
+
+UR270 -> UR278 (grupos con >=5 columnas): pares 6, tau = 1.00 [(0, 21), (4, 25), (5, 26), (8, 27), (9, 28), (10, 29)]
+
+UR269: posición en el bloque (fila, tamaño del bloque) de las cabeceras = suma A+B
+  UR267A: [(21, 5, 5), (41, 4, 9), (47, 9, 9), (53, 5, 5), (65, 5, 5), (77, 5, 5), (81, 2, 2), (100, 4, 4)]; en 1.a fila 0/8, en la última 7/8; P(todas en la 1.a por azar) = 2.5e-06; P(todas en la última) = 2.5e-06
+  UR273A: [(5, 1, 5), (11, 1, 5), (17, 1, 5), (23, 1, 6), (49, 1, 5), (61, 1, 5)]; en 1.a fila 6/6, en la última 0/6; P(todas en la 1.a por azar) = 5.3e-05; P(todas en la última) = 5.3e-05
+  UR274A: [(5, 1, 5), (11, 1, 5), (17, 1, 5), (23, 1, 6), (59, 5, 5), (69, 3, 5), (86, 4, 5)]; en 1.a fila 4/7, en la última 1/7; P(todas en la 1.a por azar) = 1.1e-05; P(todas en la última) = 1.1e-05

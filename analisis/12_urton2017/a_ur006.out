@@ -1,0 +1,43 @@
+      a    b  loop  n_reg  n_loop  suma_reg  suma_loop   n
+0     3   22    23     20       9      75.0      135.0  29
+1    25   45    46     21       9      58.0       19.0  30
+2    47   67    69     21       9      60.0       12.0  30
+3    70   90    91     21       9      52.0      595.0  30
+4    92  112   113     21       9      58.0      150.0  30
+5   114  134   135     21       9      44.0       10.0  30
+6   136  156   157     21       9      45.0       11.0  30
+7   158  178   179     21       9      49.0      102.0  30
+8   180  201   202     22       9      83.0      148.0  31
+9   203  224   225     22       8      67.0       13.0  30
+10  226  246   247     21       9      71.0       12.0  30
+11  248  269   270     22       9      71.0       87.0  31
+12  271  291   292     21       9      59.0      121.0  30
+13  293  314   315     22       9      52.0       12.0  31
+14  316  337   338     22       9      55.0       13.0  31
+15  344  365   366     22       9      57.0       86.0  31
+16  367  388   389     22       9      26.0       76.0  31
+17  390  411   412     22       9      26.0        7.0  31
+18  414  435   436     22       9      28.0        7.0  31
+19  437  458   459     22       9      33.0       64.0  31
+20  460  481   482     22       8      19.0        7.0  30
+21  484  505   506     22       9      22.0        6.0  31
+22  508  529   530     22       8      39.0       66.0  30
+23  532  552   553     21       9      12.0       37.0  30
+tot cuerdas en pares 729 año1 361 año2 368 semestres [179, 182, 185, 183]
+suma valores total 3037.0 año1(hasta par12) 2058.0
+fuera de pares 80.0 dentro 2957.0
+cifras Tabla4.3 coincidentes: año1 23 /24  año2 22 /24
+nulo permutacion valores: coincidencias exactas media 0.562 max 5  observado 45
+P(|total-730|<=1) remuestreando tamaños: 0.3957  media 729.0263
+quipus 1500-6000: frac con total a <=1.22% de un múltiplo de 1000: 0.06722689075630252 119
+UR009 LCS(valores>=3) bloque meses13-16 = 18  otros bloques de 4 pares: media 14.642857142857142 max 17  len bloque 44  len 42
+  por bloque: [14, 16, 12, 13, 13, 14, 16, 15, 17, 18, 19, 16, 18, 18, 17, 16, 14, 14, 16, 17, 14]
+UR021 LCS(valores>=3) bloque meses13-16 = 30  otros bloques de 4 pares: media 13.285714285714286 max 19  len bloque 44  len 40
+  por bloque: [12, 12, 12, 13, 12, 14, 15, 15, 19, 17, 13, 20, 30, 22, 18, 11, 13, 14, 13, 11, 11]
+--- LCS umbral>=5, nulo permutando orden de valores de la otra quipu
+UR009 obs por bloque [8, 9, 9, 9, 7, 5, 7, 8, 9, 11, 12, 13, 10, 10, 11, 10, 6, 6, 4, 6, 7] mejor bloque 11 (meses 12 - 15 )  nulo max-sobre-bloques: media 12.293333333333333 p95 14.0 p(null>=obs max) 0.3933333333333333
+UR021 obs por bloque [8, 10, 9, 8, 9, 11, 12, 10, 13, 12, 10, 12, 20, 13, 11, 9, 6, 7, 5, 6, 5] mejor bloque 12 (meses 13 - 16 )  nulo max-sobre-bloques: media 12.986666666666666 p95 15.0 p(null>=obs max) 0.0
+--- UR009 vs UR021 y vs UR006 completo
+UR009-UR021 LCS 9 nulo media 10.18 max 14 p 0.9651741293532339 len 24 30
+UR009-UR006 completo LCS 17 nulo media 18.51 max 21 p 0.9950248756218906 len 24 144
+UR021-UR006 completo LCS 22 nulo media 21.56 max 26 p 0.4925373134328358 len 30 144

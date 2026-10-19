@@ -1,0 +1,29 @@
+{
+ "estricta_adyacente": {
+  "obs": 10,
+  "obs_cuerdas": 5,
+  "null_mean": 2.39,
+  "null_sd": 1.99,
+  "null_p95": 6.0,
+  "p": 0.007992007992007992,
+  "z": 3.82
+ },
+ "mismo_grupo_cualquier_pos": {
+  "obs": 64,
+  "obs_cuerdas": 17,
+  "null_mean": 10.46,
+  "null_sd": 4.31,
+  "null_p95": 18.0,
+  "p": 0.000999000999000999,
+  "z": 12.43
+ },
+ "global_ventana_2a6": {
+  "obs": 1471,
+  "obs_cuerdas": 175,
+  "null_mean": 1061.7,
+  "null_sd": 125.54,
+  "null_p95": 1270.0,
+  "p": 0.002997002997002997,
+  "z": 3.26
+ }
+}

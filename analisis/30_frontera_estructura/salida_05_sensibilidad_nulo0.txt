@@ -1,0 +1,24 @@
+22 filas
+            kfg                    prueba  p_bloque  N_bloque                                      nota  p_congelado
+0         HP038            T5_subsidiaria    1.0000       999   rho=-0.242;padres=8;movibles_en_grupo=0        0.021
+1         MM002             T3_repeticion    0.0470       999                           segmentos=53/56        0.040
+2         UR075             T3_repeticion    1.0000       999                            segmentos=2/13        0.013
+3        UR1049            T5_subsidiaria    0.0070       999  rho=0.627;padres=15;movibles_en_grupo=15        0.005
+4         UR167             T3_repeticion    0.0550       999                           segmentos=27/37        0.025
+5         UR288             T3_repeticion    0.0190       999                           segmentos=28/29        0.012
+6        UR1104             I3_diferencia    0.0020      1999                           segmentos=21/21        0.002
+7        UR1106             I3_diferencia    0.1400       199                           segmentos=47/49        0.025
+8        UR1106                  I4_razon    0.0600       199                           segmentos=47/49        0.035
+9         UR137                  I1_copia    0.0450       199                           segmentos=20/21        0.035
+10        UR145  I6_suma_bloque_F_en_otro    0.0350       199                           segmentos=31/32        0.035
+11        UR287                  I1_copia    0.3950       199                           segmentos=41/55        0.020
+12        UR287              I2_invertida    0.3300       199                           segmentos=41/55        0.025
+13        UR287             I3_diferencia    0.7000       199                           segmentos=41/55        0.015
+14        AS110                  I4_razon    0.0150       199                           segmentos=17/20        0.025
+15        HP040                  I4_razon    0.0055      1999                           segmentos=16/22        0.003
+16        MM002                  I1_copia    0.0300       199                           segmentos=53/56        0.025
+17  MM007_AN002                  I1_copia    0.0065      1999                           segmentos=58/63        0.020
+18        MM008             I3_diferencia    0.1400       199                           segmentos=22/25        0.020
+19        MM015                  I4_razon    0.0300       199                           segmentos=22/23        0.045
+20        QU004             I3_diferencia    0.3800       199                           segmentos=33/55        0.045
+21      UR1033F                  I4_razon    0.0900       199                           segmentos=19/21        0.040

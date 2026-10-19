@@ -1,0 +1,13 @@
+import pandas as pd
+pd.set_option('display.width', 200)
+q = pd.read_csv('analisis/datos/quipus.csv')
+print("quipus cols:", q.columns.tolist())
+print(q[q.kfg == 'AS069'].T)
+print("---- cuerdas cols ----")
+c = pd.read_csv('analisis/datos/cuerdas.csv', nrows=3)
+print(c.columns.tolist())
+print(c.head(3).to_string())
+print("---- grupos cols ----")
+g = pd.read_csv('analisis/datos/grupos.csv', nrows=5)
+print(g.columns.tolist())
+print(g.head(5).to_string())

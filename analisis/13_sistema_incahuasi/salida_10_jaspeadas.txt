@@ -1,0 +1,66 @@
+
+Todos los quipus con cuota: 222 registros
+  x     n=222  jaspeadas 0.00 (nulo 0.07; p_mayor=1.0000)  blancas 0.73 (nulo 0.31; p_mayor=0.0002)
+  c     n=212  jaspeadas 0.02 (nulo 0.08; p_mayor=1.0000)  blancas 0.21 (nulo 0.30; p_mayor=0.9996)
+  n     n= 92  jaspeadas 0.17 (nulo 0.06; p_mayor=0.0002)  blancas 0.11 (nulo 0.37; p_mayor=1.0000)
+  resto n=302  jaspeadas 0.22 (nulo 0.16; p_mayor=0.0002)  blancas 0.04 (nulo 0.20; p_mayor=1.0000)
+
+UR255: 16 registros
+  x     n= 16  jaspeadas 0.00 (nulo 0.02; p_mayor=1.0000)  blancas 0.00 (nulo 0.00; p_mayor=1.0000)
+  c     n= 16  jaspeadas 0.00 (nulo 0.02; p_mayor=1.0000)  blancas 0.00 (nulo 0.00; p_mayor=1.0000)
+  n     n=  6  jaspeadas 0.17 (nulo 0.06; p_mayor=0.3311)  blancas 0.00 (nulo 0.00; p_mayor=1.0000)
+  resto n=  1  jaspeadas 0.00 (nulo 0.00; p_mayor=1.0000)  blancas 0.00 (nulo 0.00; p_mayor=1.0000)
+
+UR256: 21 registros
+  x     n= 21  jaspeadas 0.00 (nulo 0.01; p_mayor=1.0000)  blancas 0.00 (nulo 0.00; p_mayor=1.0000)
+  c     n= 20  jaspeadas 0.00 (nulo 0.01; p_mayor=1.0000)  blancas 0.00 (nulo 0.00; p_mayor=1.0000)
+  n     n=  9  jaspeadas 0.00 (nulo 0.00; p_mayor=1.0000)  blancas 0.00 (nulo 0.00; p_mayor=1.0000)
+  resto n= 45  jaspeadas 0.04 (nulo 0.04; p_mayor=0.7928)  blancas 0.00 (nulo 0.00; p_mayor=1.0000)
+
+UR266: 23 registros
+  x     n= 23  jaspeadas 0.00 (nulo 0.01; p_mayor=1.0000)  blancas 0.78 (nulo 0.24; p_mayor=0.0002)
+  c     n= 21  jaspeadas 0.00 (nulo 0.01; p_mayor=1.0000)  blancas 0.00 (nulo 0.22; p_mayor=1.0000)
+  n     n=  4  jaspeadas 0.00 (nulo 0.05; p_mayor=1.0000)  blancas 0.00 (nulo 0.30; p_mayor=1.0000)
+  resto n= 43  jaspeadas 0.02 (nulo 0.01; p_mayor=0.4077)  blancas 0.05 (nulo 0.20; p_mayor=1.0000)
+
+UR267A: 17 registros
+  x     n= 17  jaspeadas 0.00 (nulo 0.12; p_mayor=1.0000)  blancas 1.00 (nulo 0.65; p_mayor=0.0006)
+  c     n= 17  jaspeadas 0.00 (nulo 0.12; p_mayor=1.0000)  blancas 0.82 (nulo 0.65; p_mayor=0.0840)
+  n     n= 12  jaspeadas 0.17 (nulo 0.06; p_mayor=0.1128)  blancas 0.08 (nulo 0.61; p_mayor=1.0000)
+  resto n=  4  jaspeadas 1.00 (nulo 0.33; p_mayor=0.0106)  blancas 0.00 (nulo 0.67; p_mayor=1.0000)
+
+UR267B: 25 registros
+  x     n= 25  jaspeadas 0.00 (nulo 0.06; p_mayor=1.0000)  blancas 0.88 (nulo 0.67; p_mayor=0.0026)
+  c     n= 25  jaspeadas 0.00 (nulo 0.06; p_mayor=1.0000)  blancas 0.92 (nulo 0.67; p_mayor=0.0002)
+  n     n= 15  jaspeadas 0.07 (nulo 0.01; p_mayor=0.2050)  blancas 0.53 (nulo 0.76; p_mayor=0.9994)
+  resto n= 40  jaspeadas 0.23 (nulo 0.17; p_mayor=0.0714)  blancas 0.25 (nulo 0.45; p_mayor=1.0000)
+
+UR268: 22 registros
+  x     n= 22  jaspeadas 0.00 (nulo 0.26; p_mayor=1.0000)  blancas 0.91 (nulo 0.26; p_mayor=0.0002)
+  c     n= 19  jaspeadas 0.16 (nulo 0.27; p_mayor=0.9370)  blancas 0.05 (nulo 0.23; p_mayor=0.9954)
+  n     n=  6  jaspeadas 0.50 (nulo 0.23; p_mayor=0.0996)  blancas 0.00 (nulo 0.42; p_mayor=1.0000)
+  resto n= 53  jaspeadas 0.40 (nulo 0.28; p_mayor=0.0034)  blancas 0.02 (nulo 0.18; p_mayor=1.0000)
+
+UR269: 44 registros
+  x     n= 44  jaspeadas 0.00 (nulo 0.06; p_mayor=1.0000)  blancas 0.84 (nulo 0.29; p_mayor=0.0002)
+  c     n= 41  jaspeadas 0.02 (nulo 0.08; p_mayor=0.9866)  blancas 0.05 (nulo 0.25; p_mayor=1.0000)
+  n     n= 20  jaspeadas 0.00 (nulo 0.01; p_mayor=1.0000)  blancas 0.05 (nulo 0.37; p_mayor=1.0000)
+  resto n= 52  jaspeadas 0.35 (nulo 0.25; p_mayor=0.0014)  blancas 0.00 (nulo 0.18; p_mayor=1.0000)
+
+UR274A: 15 registros
+  x     n= 15  jaspeadas 0.00 (nulo 0.00; p_mayor=1.0000)  blancas 0.87 (nulo 0.45; p_mayor=0.0002)
+  c     n= 15  jaspeadas 0.00 (nulo 0.00; p_mayor=1.0000)  blancas 0.13 (nulo 0.44; p_mayor=0.9996)
+  n     n=  1  jaspeadas 0.00 (nulo 0.00; p_mayor=1.0000)  blancas 0.00 (nulo 0.00; p_mayor=1.0000)
+  resto n=  4  jaspeadas 0.00 (nulo 0.00; p_mayor=1.0000)  blancas 0.00 (nulo 0.41; p_mayor=1.0000)
+
+UR274B: 12 registros
+  x     n= 12  jaspeadas 0.00 (nulo 0.04; p_mayor=1.0000)  blancas 0.83 (nulo 0.37; p_mayor=0.0002)
+  c     n= 11  jaspeadas 0.00 (nulo 0.04; p_mayor=1.0000)  blancas 0.18 (nulo 0.37; p_mayor=0.9828)
+  n     n=  3  jaspeadas 0.00 (nulo 0.00; p_mayor=1.0000)  blancas 0.00 (nulo 0.33; p_mayor=1.0000)
+  resto n= 11  jaspeadas 0.18 (nulo 0.09; p_mayor=0.2603)  blancas 0.00 (nulo 0.22; p_mayor=1.0000)
+
+UR275: 24 registros
+  x     n= 24  jaspeadas 0.00 (nulo 0.14; p_mayor=1.0000)  blancas 0.88 (nulo 0.20; p_mayor=0.0002)
+  c     n= 24  jaspeadas 0.00 (nulo 0.14; p_mayor=1.0000)  blancas 0.00 (nulo 0.20; p_mayor=1.0000)
+  n     n= 16  jaspeadas 0.56 (nulo 0.14; p_mayor=0.0002)  blancas 0.00 (nulo 0.21; p_mayor=1.0000)
+  resto n= 45  jaspeadas 0.18 (nulo 0.18; p_mayor=0.6355)  blancas 0.00 (nulo 0.18; p_mayor=1.0000)

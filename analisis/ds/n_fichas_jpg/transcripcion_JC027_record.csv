@@ -1,0 +1,13 @@
+cuerda,nudos,valor,color,largo,notas
+1,"2S(2.5,Z),5S(6.0?,Z),9L(8.7,Z)d?",259,W,45.5,"el 2.o racimo esta tapado por una mancha de tinta: se lee '?S1(6.0,Z)'; LECTURA GUIADA POR EL VALOR: el valor 259 obliga a que sean 5 simples; largo '45.5k'"
+2,"5S(4.5,Z),6L(13.0,Z)d?",56,W,27.0,"largo '27.0r'"
+3,"2S(5.0,Z),4L(13.0,Z)d?",24,W,31.5,"largo '31.5r'"
+4,"2S(5.0,Z),4L(12.5,Z)d?",24,W,28.5,"largo '28.5c'"
+5,"6S(5.0,Z)",60,W,34.0,"un solo racimo: posicion (decenas) inferida del valor; largo '34.0r'"
+6,"1S(5.0,Z),2L(13.0,Z)d?",12,W,26.0,"valor escrito '12'; largo '26.0b'"
+7,"1S(4.5,Z),4L(12.0,Z)d?",14,W,31.0,"largo '31.0r'"
+8,"2S(5.5,Z),1E(30?,Z)",21,W,33.5,"posicion del nudo en ocho ilegible ('30'?); largo '33.5r'"
+9,"2S(5.5,Z),3L(12.0,Z)",23,W,29.0,"largo '29.0r'"
+10,"2S(5.5,Z),7L(11.5,Z)",27,W,26.5,"largo '26.5r'"
+11,"5S(5.5,Z),6L(11.5,Z)d?",56,W,14.0,"largo '14.0b'"
+12,"1S(5.5,Z),7L(12.0,Z)d?",17,W,28.0,"largo '28.0r'"

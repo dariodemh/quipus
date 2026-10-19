@@ -1,0 +1,8 @@
+
+== Incahuasi: 9 quipus con tabla de celdas: ['JC010', 'JC014', 'JC019', 'UR270', 'UR271', 'UR272', 'UR276', 'UR278', 'UR280']
+   1 pares; min q=0.000
+   top: UR270->UR278(cols=9,obs=6,nulo=0.2,p=0.0005,q=0.00)
+
+== Pachacamac: 8 quipus con tabla de celdas: ['AS101_Part_1', 'AS101_Part_2', 'AS172', 'AS189', 'HP005', 'UR1034', 'UR230', 'UR254']
+
+== Puruchuco: 2 quipus con tabla de celdas: ['UR074', 'UR165']

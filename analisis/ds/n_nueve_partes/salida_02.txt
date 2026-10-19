@@ -1,0 +1,71 @@
+UR278: 24 filas completas x 9 columnas
+
+== 1. Estabilidad de la cuota de cada columna
+   col  media%  sd%   CV%   min%  max%   (CV = sd/media entre filas)
+   c1   13.71  2.35  17.2   8.1  19.7
+   c2   14.36  2.97  20.7   7.4  18.4
+   c3    9.60  2.24  23.3   3.7  15.7
+   c4   10.81  1.66  15.3   7.0  14.7
+   c5   11.41  2.39  21.0   7.5  17.2
+   c6   12.58  2.45  19.5   9.3  19.0
+   c7   10.62  3.22  30.3   4.2  19.0
+   c8    7.96  2.61  32.8   0.9  12.8
+   c9    8.96  1.73  19.4   5.9  11.4
+   CV medio intra-columna: observado 0.221; ruido multinomial 0.064; razon 3.48
+
+== 2. ?La cuota depende del tamano del registro?
+   c1: rho=-0.51 p=0.010   c2: rho=-0.64 p=0.001   c3: rho=-0.31 p=0.134
+   c4: rho=+0.11 p=0.625   c5: rho=+0.19 p=0.371   c6: rho=+0.04 p=0.862
+   c7: rho=+0.58 p=0.003   c8: rho=+0.33 p=0.121   c9: rho=-0.03 p=0.881
+
+
+== 3. Correlacion entre columnas tras quitar el tamano de la fila
+   matriz (solo |r|>=0.3):
+     c1-c2: r=+0.56
+     c1-c4: r=-0.36
+     c1-c7: r=-0.39
+     c1-c9: r=-0.32
+     c2-c7: r=-0.67
+     c2-c8: r=-0.50
+     c3-c5: r=-0.71
+     c3-c7: r=-0.48
+     c3-c9: r=+0.36
+     c5-c6: r=-0.40
+     c5-c7: r=+0.35
+   top 6 pares: [('c1-c2', np.float64(0.56)), ('c3-c9', np.float64(0.36)), ('c5-c7', np.float64(0.35)), ('c4-c9', np.float64(0.21)), ('c7-c8', np.float64(0.19)), ('c4-c8', np.float64(0.16))]
+   peores 4 pares: [('c3-c7', np.float64(-0.48)), ('c2-c8', np.float64(-0.5)), ('c2-c7', np.float64(-0.67)), ('c3-c5', np.float64(-0.71))]
+
+== 4. ?Las columnas se ordenan como 4+5 o 3+3+3?
+   orden por tamano: ['c2', 'c1', 'c6', 'c5', 'c4', 'c7', 'c3', 'c9', 'c8']
+   particion fisica 2+3+4: R2=0.613; nulo 0.251 [0.655 p95]; p=0.079
+   particion fisica 3+3+3: R2=0.495; nulo 0.251 [0.651 p95]; p=0.132
+   particion fisica 4+5: R2=0.199; nulo 0.125 [0.456 p95]; p=0.222
+   particion fisica 5+4: R2=0.230; nulo 0.125 [0.456 p95]; p=0.183
+
+== 5. Concordancia de rango entre filas (Kendall W)
+   rango medio por columna: c1=7.4 c2=7.6 c3=3.7 c4=5.1 c5=5.5 c6=6.2 c7=4.5 c8=2.3 c9=2.6
+   Kendall W = 0.484 (0 = ninguna concordancia; 1 = orden identico); chi2 Friedman = 92.9
+
+== 5b. Correlacion de log-razones (evita la suma constante)
+   log-razon vs tamano del registro, |rho| mayores:
+     log(c2/c7) vs total: rho=-0.68 p=0.000
+     log(c1/c7) vs total: rho=-0.68 p=0.000
+     log(c2/c6) vs total: rho=-0.63 p=0.001
+     log(c6/c7) vs total: rho=-0.62 p=0.001
+     log(c2/c4) vs total: rho=-0.61 p=0.002
+     log(c3/c7) vs total: rho=-0.57 p=0.004
+
+== 6. UR278 vs UR270: ?mismo perfil de 9 columnas?
+   UR270 g0 -> UR278 g21: 9/9 celdas +-1, rho de perfil=+1.00
+   UR270 g4 -> UR278 g25: 9/9 celdas +-1, rho de perfil=+1.00
+   UR270 g5 -> UR278 g26: 7/9 celdas +-1, rho de perfil=+0.98
+   UR270 g6 -> UR278 g30: 1/9 celdas +-1, rho de perfil=+0.70
+   UR270 g8 -> UR278 g27: 8/9 celdas +-1, rho de perfil=+0.95
+   UR270 g9 -> UR278 g28: 6/9 celdas +-1, rho de perfil=+0.97
+   UR270 g10 -> UR278 g29: 5/9 celdas +-1, rho de perfil=+0.75
+   UR270 g12 -> UR278 g30: 2/9 celdas +-1, rho de perfil=+0.71
+   UR270 g19 -> UR278 g29: 1/9 celdas +-1, rho de perfil=+0.10
+   UR270 g22 -> UR278 g7: 1/9 celdas +-1, rho de perfil=+0.11
+   UR270 g23 -> UR278 g26: 1/9 celdas +-1, rho de perfil=+0.21
+   UR270 g24 -> UR278 g7: 1/9 celdas +-1, rho de perfil=-0.16
+   rho medio de los 12 pares: +0.61; positivos: 11/12

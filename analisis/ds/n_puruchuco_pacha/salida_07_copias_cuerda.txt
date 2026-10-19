@@ -1,0 +1,12 @@
+
+== Incahuasi: 1225 pares con >=5 cuerdas; min q=1.000
+   top: UR255=UR267A(ex=20,tol=23/88,nulo=11.9,p=0.0010,q=1.00), JC006=UR280(ex=0,tol=6/13,nulo=2.4,p=0.0030,q=1.00), JC010=UR271(ex=6,tol=18/92,nulo=10.7,p=0.0040,q=1.00), UR264=UR266(ex=21,tol=32/174,nulo=23.6,p=0.0060,q=1.00), UR267B=UR271(ex=4,tol=9/92,nulo=4.2,p=0.0060,q=1.00), JC005=JC011(ex=24,tol=52/126,nulo=42.1,p=0.0110,q=1.00)
+
+== Pachacamac: 3916 pares con >=5 cuerdas; min q=1.000
+   top: AS075=HP022(ex=0,tol=6/18,nulo=1.7,p=0.0010,q=1.00), AS125=UR247(ex=14,tol=14/15,nulo=0.9,p=0.0010,q=1.00), UR1118=UR218(ex=8,tol=8/20,nulo=0.4,p=0.0010,q=1.00), AS075=UR1163(ex=5,tol=9/27,nulo=4.3,p=0.0020,q=1.00), AS110=UR123(ex=5,tol=8/20,nulo=3.5,p=0.0020,q=1.00), HP020=KH0350(ex=7,tol=14/29,nulo=7.9,p=0.0030,q=1.00)
+
+== Puruchuco: 276 pares con >=5 cuerdas; min q=0.138
+   top: UR066=UR067(ex=30,tol=32/35,nulo=11.8,p=0.0010,q=0.14), UR064=UR068(ex=22,tol=37/73,nulo=26.8,p=0.0010,q=0.14), UR066=UR068(ex=9,tol=19/35,nulo=12.9,p=0.0040,q=0.37), UR067=UR068(ex=10,tol=19/35,nulo=13.4,p=0.0060,q=0.41), UR064=UR066(ex=11,tol=18/35,nulo=13.9,p=0.0140,q=0.77), UR063=UR077(ex=9,tol=18/25,nulo=14.6,p=0.0190,q=0.87)
+
+== Ica: 1081 pares con >=5 cuerdas; min q=1.000
+   top: AS194=AS195(ex=6,tol=6/7,nulo=1.6,p=0.0010,q=1.00), AS192=UR1105(ex=0,tol=4/13,nulo=1.0,p=0.0080,q=1.00), UR1126=UR1162A(ex=2,tol=5/16,nulo=2.4,p=0.0110,q=1.00), UR1166=UR229(ex=50,tol=64/194,nulo=53.2,p=0.0110,q=1.00), UR1150=UR1162A(ex=1,tol=4/16,nulo=1.6,p=0.0130,q=1.00), UR1103=UR242(ex=2,tol=6/71,nulo=2.1,p=0.0130,q=1.00)

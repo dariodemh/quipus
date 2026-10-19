@@ -1,0 +1,368 @@
+
+==============================================================================
+t1_ur028.py
+==============================================================================
+UR028: filas totales 91 | colgantes nivel 0 76 | subsidiarias 15
+
+Sumas por grupo del KFG (incluye subsidiarias):
+ grupo  n_total  n_colgantes  suma  suma_colgantes    AB   MB  KB
+     0        1            1 102.0           102.0 102.0  0.0 0.0
+     1        6            3 102.0            54.0  54.0 48.0 0.0
+     2       22           20  32.0            31.0  20.0 11.0 1.0
+     3       11           10   8.0             8.0   5.0  3.0 0.0
+     4        1            1   0.0             0.0   0.0  0.0 0.0
+     5       23           20  24.0            23.0  13.0 10.0 1.0
+     6        1            1   0.0             0.0   0.0  0.0 0.0
+     7       26           20  40.0            38.0  14.0 24.0 2.0
+
+1) p1 = 102.0
+2) grupo 1 (p2-p4 + subs) = 102.0   [AB 54.0 + MB 48.0 ]
+3) grupos 2,3,5,7 (p5-p76 + subs) = 104.0   [AB 52.0 + MB 48.0 + KB 4.0 ]
+   desvio respecto de 102: 2.0 (Urton reporta un error de 2 unidades)
+
+Combinaciones de grupos del KFG que suman exactamente 102: 8
+[(0,), (1,), (0, 4), (0, 6), (1, 4), (1, 6), (0, 4, 6), (1, 4, 6)]
+
+Colores de los 76 colgantes:
+color
+AB     39
+MB     35
+NaN     2
+
+NOTA: el articulo dice 74 cordeles; el KFG registra 76 colgantes
+(p35 y p56 son cuerdas sin color ni nudos, valor 0 = ausente).
+
+==============================================================================
+t2_ur267a.py
+==============================================================================
+======================================================================
+UR267A
+triples completos: 25 | a-b=c exacto: 15
+triples con tercer valor >0: 23 | exactos: 15 (65%)
+permutacion del tercer valor: p = 0.00005 (B=20000)
+  tercer cordel AB      : n=11 exactos= 9
+  tercer cordel AB:MB   : n= 7 exactos= 2
+  tercer cordel W       : n= 5 exactos= 4
+Detalle (a, b, c, color_c, a-b-c):
+  g00  106 -  15 =   91 | c=  91 AB:MB   OK
+  g01  112 -  15 =   97 | c=   0 AB:MB   NO
+  g02  161 -  15 =  146 | c= 140 AB:MB   NO
+  g04  206 -  15 =  191 | c= 191 AB:MB   OK
+  g05  238 -  15 =  223 | c= 223 W       OK
+  g06   85 -  15 =   70 | c=   0 AB:MB   NO
+  g07  160 -  15 =  145 | c= 239 AB:MB   NO
+  g08  114 -  15 =   99 | c=  84 AB:MB   NO
+  g09  141 -  16 =  125 | c= 120 AB:MB   NO
+  g11  187 -  15 =  172 | c=  80 AB:MB   NO
+  g13  215 -  15 =  200 | c= 200 AB      OK
+  g14  157 -  15 =  142 | c= 142 AB      OK
+  g15  187 -  15 =  172 | c= 172 AB      OK
+  g16  141 -  15 =  126 | c= 126 AB      OK
+  g17  127 -  15 =  112 | c= 112 AB      OK
+  g18  110 -  15 =   95 | c=  95 AB      OK
+  g19  149 -  15 =  134 | c= 134 AB      OK
+  g20  201 -  15 =  186 | c= 186 AB      OK
+  g22   70 -  15 =   55 | c=  55 W       OK
+  g23   82 -  15 =   67 | c=  77 W       NO
+  g24   63 -  15 =   48 | c=  40 AB      NO
+  g25   34 -  15 =   19 | c=  19 W       OK
+  g26   44 -  15 =   29 | c=  29 W       OK
+  g27  124 - 109 =   15 | c=  15 AB      OK
+  g28   31 -   0 =   31 | c=  15 AB      NO
+======================================================================
+UR255
+triples completos: 16 | a-b=c exacto: 7
+triples con tercer valor >0: 15 | exactos: 7 (47%)
+permutacion del tercer valor: p = 1.00000 (B=20000)
+  tercer cordel AB      : n=15 exactos= 7
+Detalle (a, b, c, color_c, a-b-c):
+  g00  106 -   0 =  106 | c=  15 AB      NO
+  g02    0 -  15 =  -15 | c=   0 AB      NO
+  g06   85 -   0 =   85 | c=  15 AB      NO
+  g07  160 -   0 =  160 | c=  15 AB      NO
+  g08  114 -   0 =  114 | c=  15 AB      NO
+  g09  141 -   0 =  141 | c=  15 AB      NO
+  g10  187 -   0 =  187 | c=  15 AB      NO
+  g12   95 -   0 =   95 | c=  15 AB      NO
+  g13  215 -   0 =  215 | c=  15 AB      NO
+  g16  141 - 126 =   15 | c=  15 AB      OK
+  g17  127 - 112 =   15 | c=  15 AB      OK
+  g18  110 -  95 =   15 | c=  15 AB      OK
+  g19  148 - 133 =   15 | c=  15 AB      OK
+  g21  201 - 186 =   15 | c=  15 AB      OK
+  g22   70 -  55 =   15 | c=  15 AB      OK
+  g24   66 -  51 =   15 | c=  15 AB      OK
+
+==============================================================================
+t3_santa.py
+==============================================================================
+Identificacion de los seis quipus del Santa:
+  kfg    okr                 museo procedencia
+UR087 KH0323 Museo Temple Radicati       Santa
+UR088 KH0324 Museo Temple Radicati       Santa
+UR089 KH0325 Museo Temple Radicati       Santa
+UR090 KH0326 Museo Temple Radicati       Santa
+UR091 KH0327 Museo Temple Radicati       Santa
+UR092 KH0328 Museo Temple Radicati       Santa
+
+Otros quipus con procedencia 'Santa':
+['KH0227', 'UR087', 'UR088', 'UR089', 'UR090', 'UR091', 'UR092', 'UR198']
+
+A) Bloques de 6 colgantes consecutivos: 133
+   colgantes cubiertos: 798 | colgantes totales nivel 0: 824
+   bloques por khipu:
+kfg
+UR087    48
+UR088     9
+UR089    34
+UR090    17
+UR091    15
+UR092    10
+
+Distribucion de union del primer cordel de cada bloque:
+union1
+V    69
+R    63
+U     1
+V=69 R=63 U=1
+binomial V vs R (p=0.5): p = 0.6636
+
+C) Union del primer cordel por quipu (¿la variacion es dentro o entre quipus?):
+union1   R  U   V
+kfg              
+UR087   48  0   0
+UR088    0  0   9
+UR089    0  0  34
+UR090    6  0  11
+UR091    0  0  15
+UR092    9  1   0
+
+Khipus con ambos R y V: observado=1; nulo independiente p=0.00005 (B=20000)
+Chi2 khipu x union: chi2=128.7, dof=10, p=8.52e-23
+Cramer's V = 0.696
+
+B) Suma de los primeros cordeles = 398.0
+   por khipu:
+       size    sum
+kfg               
+UR087    48   57.0
+UR088     9   80.0
+UR089    34  101.0
+UR090    17  113.0
+UR091    15   36.0
+UR092    10   11.0
+   suma de todas las posiciones del bloque (offsets 0-5): [398, 1858, 501, 4438, 615, 690]
+   (132 tributarios y 133 bloques: ningun offset da 132/133)
+
+Magnitud del bloque segun union del primer cordel:
+         n  v1_med  total_med
+union1                       
+R       63     1.0       18.0
+U        1     2.0       16.0
+V       69     4.0       90.0
+  Mann-Whitney v1: p=9.58e-05 (V med=4, R med=1)
+  Mann-Whitney total: p=6.58e-09 (V med=90, R med=18)
+
+Control dentro de quipu: solo UR090 tiene bloques R y V.
+         n  v1_med  total_med
+union1                       
+R        6     7.5       99.5
+V       11     5.0      111.0
+  UR090 Mann-Whitney v1: p=0.044 (V med=5, R med=8)
+  UR090 Mann-Whitney total: p=0.884 (V med=111, R med=100)
+
+Nivel de quipu: comparacion de medianas de bloque
+       med_total  med_v1 union
+kfg                           
+UR087       18.0     1.0     R
+UR088      250.0     9.0     V
+UR089       73.0     4.0     V
+UR090      105.0     5.0   R/V
+UR091       83.0     4.0     V
+UR092       17.0     1.0   R/U
+
+==============================================================================
+t4_direccion_nudos.py
+==============================================================================
+=== A/C. Direccion por procedencia (nudos simples) ===
+Inkawasi (JC)                khipus= 23 | simples S=    12 Z=   794 (%Z=0.985) bin.p=6.9e-217 | largos S=   323 Z=  1967
+Inkawasi Clindaniel (52)     khipus= 48 | simples S=    37 Z= 12561 (%Z=0.997) bin.p=0.0e+00 | largos S=  7374 Z=  5641
+Pachacamac (museo)           khipus= 32 | simples S=     0 Z=  3599 (%Z=1.000) bin.p=0.0e+00 | largos S=    60 Z=  2697
+Puruchuco (region)           khipus= 24 | simples S=    34 Z=  1518 (%Z=0.978) bin.p=0.0e+00 | largos S=   244 Z=  2223
+Armatambo (todos)            khipus= 14 | simples S=   101 Z=   396 (%Z=0.797) bin.p=2.7e-42 | largos S=   767 Z=   569
+Armatambo UR281-294          khipus= 11 | simples S=     5 Z=   326 (%Z=0.985) bin.p=1.5e-89 | largos S=   626 Z=   253
+Chachapoyas                  khipus= 22 | simples S=  2167 Z=  2330 (%Z=0.518) bin.p=1.6e-02 | largos S=  2931 Z= 12723
+resto                        khipus=536 | simples S= 17389 Z= 44137 (%Z=0.717) bin.p=0.0e+00 | largos S= 63325 Z= 45674
+
+Armatambo, detalle por khipu (simples S/Z):
+   kfg  simple_S  simple_Z
+ HP047        96         0
+ UR282         0        12
+ UR283         1       206
+ UR284         1        24
+ UR285         0         0
+ UR286         0         8
+ UR287         0        35
+ UR288         0         8
+ UR289         3         0
+ UR290         0         0
+UR291A         0        68
+UR292A         0         2
+ UR293         0        19
+ UR294         0        14
+
+=== Pseudorreplicacion: nudos vs quipus ===
+khipus con >=1 nudo simple: 465 | todos Z: 247 | todos S: 87 | mixtos: 131
+proporcion de khipus puramente S: 0.187
+p global (nudos): 0.7281
+IC binomial 95%: [0.7249, 0.7314]
+IC 95% bootstrap por quipu: [0.6534, 0.7943]
+SE binomial=0.00165 | SE cluster=0.03575 | deff=467.8
+Sign test khipus puros S vs puros Z: 6.854165012050423e-19
+
+=== B. Cordeles con nudo largo en S: direccion de sus nudos simples ===
+todos los khipus: cordeles=13446, simples S=13682, Z=11837
+solo Inkawasi (JC): cordeles=103, simples S=6, Z=77
+Afirmacion de Clindaniel: 1212 Z vs 0 S (solo Inkawasi).
+
+Cordeles cuyo UNICO nudo es largo/figure-eight (comparacion con 402 S vs 835 Z):
+  Inkawasi 52 : S=1084, Z=2134 (%Z=0.663)
+  todos       : S=22609, Z=25115 (%Z=0.526)
+
+=== Distribucion de la fraccion Z por quipu (n>=10 simples) ===
+count    390.000
+mean       0.706
+std        0.426
+min        0.000
+25%        0.143
+50%        1.000
+75%        1.000
+max        1.000
+khipus con fz>0.9: 256 | fz<0.1: 93 | 0.4<fz<0.6: 9 de 390
+
+==============================================================================
+t5_torsion.py
+==============================================================================
+cuerdas con torsion S/Z: 48363 de 57818
+S: 44965 Z: 3398 | %S = 92.97
+IC 95% bootstrap por quipu del %S: [89.97, 95.58]
+khipus con torsion S/Z: 515
+todos S: 435 | todos Z: 46 | mixtos: 34
+
+=== C. ¿La torsion Z se asocia a khipus no contables? ===
+khipus analizados (>=10 cuerdas con torsion): 463
+  Spearman fZ ~ ncol    : rho=+0.055 p=0.2411
+  Spearman fZ ~ frac_sin: rho=-0.045 p=0.3357
+  Spearman fZ ~ maxv    : rho=-0.143 p=0.0021
+  q BH-FDR: [np.float64(0.3357), np.float64(0.3357), np.float64(0.0063)]
+
+Medias por cuartil de fZ:
+             n   ncol  frac_sin   maxv
+q                                     
+0          397  13.18      0.25  200.0
+(0,.25]     26  20.46      0.25   95.0
+(.25,.75]    3   7.00      0.22  100.0
+(.75,1]     37  12.89      0.22   36.0
+
+ncol medio: con Z=15.6 (n=66), sin Z=13.2 (n=397)
+  IC 95% de la diferencia: [np.float64(-1.26), np.float64(6.41)]
+
+=== B. Combinaciones color+torsion por quipu ===
+khipus con >=10 colgantes: 543
+count    543.000
+mean       0.088
+std        0.091
+min        0.000
+25%        0.021
+50%        0.065
+75%        0.125
+max        0.500
+percentil del ratio de Collata (95/487 = 0.195): 88.4 %
+khipus con ratio >= 0.195: 63
+
+Solo khipus con >=100 colgantes:
+count    118.000
+mean       0.036
+std        0.025
+min        0.000
+25%        0.018
+50%        0.030
+75%        0.050
+max        0.109
+percentil 0.195 en ese subconjunto: 100.0 %
+
+==============================================================================
+t6_metadatos.py
+==============================================================================
+=== A. Cobertura de la nomenclatura KH#### ===
+quipus en quipus.csv: 651
+con id KH: 593 (91.1%)
+sin id KH: 58
+sin ningun okr: 1 ['UR044']
+
+Prefijos que aun no usan KH:
+0
+MM    22
+QU    22
+AS    11
+UR     3
+
+okr duplicados (colisiones de clave):
+   kfg    okr
+AS207C KH0227
+KH0227 KH0227
+KH0267 KH0267
+ UR034 KH0267
+KH0350 KH0350
+ UR114 KH0350
+filas afectadas: 6 | ids OKR duplicados: 3
+
+=== B. Khipus 'no decimales' (proxy: cuerdas sin nudos) ===
+khipus: 651
+sin ningun nudo: 13 (2.0%)
+  >50% de colgantes sin nudos: 81 (12.4%)
+  >33% de colgantes sin nudos: 177 (27.2%)
+  >25% de colgantes sin nudos: 245 (37.6%)
+  >10% de colgantes sin nudos: 413 (63.4%)
+
+distribucion de la fraccion sin nudos:
+count    651.000
+mean       0.235
+std        0.238
+min        0.000
+25%        0.045
+50%        0.167
+75%        0.345
+max        1.000
+
+Comparacion: Urton (2019) dice 923 quipus en el KDB y 'casi un tercio' no decimales.
+Nuestro corpus KFG: 651 quipus; el proxy mas cercano a 1/3 es >33% sin nudos.
+
+==============================================================================
+t7_color_okr.py
+==============================================================================
+=== Trampa de CORD_ORDINAL ===
+filas de cord con (KHIPU_ID, CORD_ORDINAL) duplicado: 15373 de 54403 (28.3%)
+Ejemplo UR090 (KH0326): primeros ordinales = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+quipus KFG con equivalente OKR: 511 de 651
+khipus comparables (>=10 cuerdas en ambas bases): 447
+
+=== Concordancia a nivel de quipu (proporcion de cada color) ===
+color   n   r Pearson   dif. media abs
+W      447   +0.757      0.141
+AB     447   +0.876      0.050
+MB     447   +0.871      0.046
+KB     447   +0.635      0.035
+YB     447   +0.951      0.009
+B      447   +0.966      0.006
+LB     447   +0.946      0.009
+GG     447   +0.718      0.014
+
+diferencia media absoluta global (8 colores): 0.0388
+Interpretacion: KFG y OKR son casi la misma observacion (no son
+controles independientes). El color sigue sin validacion externa;
+Milillo et al. no puede refutarse ni confirmarse con estas bases.
+
+=== Join naive por ordinal (para documentar el artefacto) ===
+cuerdas comparables: 44359 | concordancia: 0.38

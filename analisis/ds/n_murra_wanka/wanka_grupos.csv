@@ -1,0 +1,115 @@
+evento,i_evento,anio,clusteres,macro,total,n_celdas
+a,0,1533,I+II,seres vivos,43577.0,5
+a,0,1533,III+IV,textiles y cultivos,42329.0,9
+a,0,1533,IX+X,bebida/fruta/sal/pescado + gente,14147.0,4
+a,0,1533,V+VI,fibra y cerámica,17731.0,6
+a,0,1533,VII+VIII,aves y vegetales silvestres,602058.0,5
+a,0,1533,XI+XII,"a la salida: gente, camélidos, comida",4879.0,3
+b,1,1533,I+II,seres vivos,774.0,2
+b,1,1533,III+IV,textiles y cultivos,8130.0,5
+b,1,1533,IX+X,bebida/fruta/sal/pescado + gente,14459.0,2
+b,1,1533,V+VI,fibra y cerámica,2077.0,4
+b,1,1533,VII+VIII,aves y vegetales silvestres,56354.0,5
+b,1,1533,XI+XII,"a la salida: gente, camélidos, comida",0.0,0
+c,2,1533,I+II,seres vivos,380.0,1
+c,2,1533,III+IV,textiles y cultivos,3927.0,4
+c,2,1533,IX+X,bebida/fruta/sal/pescado + gente,2245.0,2
+c,2,1533,V+VI,fibra y cerámica,1300.0,2
+c,2,1533,VII+VIII,aves y vegetales silvestres,49959.0,4
+c,2,1533,XI+XII,"a la salida: gente, camélidos, comida",0.0,0
+ch,3,1533,I+II,seres vivos,261.0,2
+ch,3,1533,III+IV,textiles y cultivos,2422.0,4
+ch,3,1533,IX+X,bebida/fruta/sal/pescado + gente,2207.0,2
+ch,3,1533,V+VI,fibra y cerámica,1720.0,4
+ch,3,1533,VII+VIII,aves y vegetales silvestres,44440.0,5
+ch,3,1533,XI+XII,"a la salida: gente, camélidos, comida",728.0,3
+d,4,1533,I+II,seres vivos,805.0,3
+d,4,1533,III+IV,textiles y cultivos,436.0,3
+d,4,1533,IX+X,bebida/fruta/sal/pescado + gente,20.0,2
+d,4,1533,V+VI,fibra y cerámica,0.0,0
+d,4,1533,VII+VIII,aves y vegetales silvestres,22467.0,3
+d,4,1533,XI+XII,"a la salida: gente, camélidos, comida",0.0,0
+e,5,1533,I+II,seres vivos,4471.0,3
+e,5,1533,III+IV,textiles y cultivos,493.0,4
+e,5,1533,IX+X,bebida/fruta/sal/pescado + gente,0.0,0
+e,5,1533,V+VI,fibra y cerámica,1679.0,3
+e,5,1533,VII+VIII,aves y vegetales silvestres,0.0,0
+e,5,1533,XI+XII,"a la salida: gente, camélidos, comida",0.0,0
+f,6,1537,I+II,seres vivos,565.0,2
+f,6,1537,III+IV,textiles y cultivos,15781.0,7
+f,6,1537,IX+X,bebida/fruta/sal/pescado + gente,3752.0,5
+f,6,1537,V+VI,fibra y cerámica,6325.0,9
+f,6,1537,VII+VIII,aves y vegetales silvestres,295505.0,7
+f,6,1537,XI+XII,"a la salida: gente, camélidos, comida",1706.0,3
+g,7,1538,I+II,seres vivos,276.0,2
+g,7,1538,III+IV,textiles y cultivos,2478.0,3
+g,7,1538,IX+X,bebida/fruta/sal/pescado + gente,740.0,4
+g,7,1538,V+VI,fibra y cerámica,2051.0,3
+g,7,1538,VII+VIII,aves y vegetales silvestres,17343.0,2
+g,7,1538,XI+XII,"a la salida: gente, camélidos, comida",0.0,0
+h,8,1539,I+II,seres vivos,433.0,3
+h,8,1539,III+IV,textiles y cultivos,4154.0,5
+h,8,1539,IX+X,bebida/fruta/sal/pescado + gente,644.0,3
+h,8,1539,V+VI,fibra y cerámica,1039.0,4
+h,8,1539,VII+VIII,aves y vegetales silvestres,41303.0,3
+h,8,1539,XI+XII,"a la salida: gente, camélidos, comida",0.0,0
+i,9,1541,I+II,seres vivos,11.0,2
+i,9,1541,III+IV,textiles y cultivos,1512.0,3
+i,9,1541,IX+X,bebida/fruta/sal/pescado + gente,125.0,4
+i,9,1541,V+VI,fibra y cerámica,98.0,4
+i,9,1541,VII+VIII,aves y vegetales silvestres,1093.0,7
+i,9,1541,XI+XII,"a la salida: gente, camélidos, comida",0.0,0
+j,10,1541,I+II,seres vivos,460.0,3
+j,10,1541,III+IV,textiles y cultivos,1544.0,5
+j,10,1541,IX+X,bebida/fruta/sal/pescado + gente,1753.0,4
+j,10,1541,V+VI,fibra y cerámica,469.0,5
+j,10,1541,VII+VIII,aves y vegetales silvestres,28872.0,7
+j,10,1541,XI+XII,"a la salida: gente, camélidos, comida",2004.0,2
+k,11,1541,I+II,seres vivos,27133.0,4
+k,11,1541,III+IV,textiles y cultivos,20987.0,2
+k,11,1541,IX+X,bebida/fruta/sal/pescado + gente,0.0,0
+k,11,1541,V+VI,fibra y cerámica,8534.0,4
+k,11,1541,VII+VIII,aves y vegetales silvestres,0.0,0
+k,11,1541,XI+XII,"a la salida: gente, camélidos, comida",0.0,0
+l,12,1542,I+II,seres vivos,5.0,1
+l,12,1542,III+IV,textiles y cultivos,9966.0,5
+l,12,1542,IX+X,bebida/fruta/sal/pescado + gente,3506.0,4
+l,12,1542,V+VI,fibra y cerámica,3042.0,5
+l,12,1542,VII+VIII,aves y vegetales silvestres,60277.0,8
+l,12,1542,XI+XII,"a la salida: gente, camélidos, comida",0.0,0
+ll,13,1542,I+II,seres vivos,328.0,3
+ll,13,1542,III+IV,textiles y cultivos,4051.0,5
+ll,13,1542,IX+X,bebida/fruta/sal/pescado + gente,1793.0,4
+ll,13,1542,V+VI,fibra y cerámica,673.0,5
+ll,13,1542,VII+VIII,aves y vegetales silvestres,37241.0,7
+ll,13,1542,XI+XII,"a la salida: gente, camélidos, comida",0.0,0
+m,14,1542,I+II,seres vivos,81.0,1
+m,14,1542,III+IV,textiles y cultivos,1051.0,5
+m,14,1542,IX+X,bebida/fruta/sal/pescado + gente,1879.0,5
+m,14,1542,V+VI,fibra y cerámica,673.0,5
+m,14,1542,VII+VIII,aves y vegetales silvestres,37241.0,7
+m,14,1542,XI+XII,"a la salida: gente, camélidos, comida",0.0,0
+n,15,1542,I+II,seres vivos,390.0,3
+n,15,1542,III+IV,textiles y cultivos,2479.0,4
+n,15,1542,IX+X,bebida/fruta/sal/pescado + gente,0.0,0
+n,15,1542,V+VI,fibra y cerámica,199.0,5
+n,15,1542,VII+VIII,aves y vegetales silvestres,1137.0,3
+n,15,1542,XI+XII,"a la salida: gente, camélidos, comida",0.0,0
+o,16,1542,I+II,seres vivos,548.0,3
+o,16,1542,III+IV,textiles y cultivos,3481.0,3
+o,16,1542,IX+X,bebida/fruta/sal/pescado + gente,0.0,0
+o,16,1542,V+VI,fibra y cerámica,0.0,0
+o,16,1542,VII+VIII,aves y vegetales silvestres,0.0,0
+o,16,1542,XI+XII,"a la salida: gente, camélidos, comida",0.0,0
+p,17,1542,I+II,seres vivos,278.0,1
+p,17,1542,III+IV,textiles y cultivos,366.0,3
+p,17,1542,IX+X,bebida/fruta/sal/pescado + gente,443.0,3
+p,17,1542,V+VI,fibra y cerámica,102.0,5
+p,17,1542,VII+VIII,aves y vegetales silvestres,6162.0,7
+p,17,1542,XI+XII,"a la salida: gente, camélidos, comida",0.0,0
+q,18,1548,I+II,seres vivos,322.0,3
+q,18,1548,III+IV,textiles y cultivos,6973.0,5
+q,18,1548,IX+X,bebida/fruta/sal/pescado + gente,7403.0,5
+q,18,1548,V+VI,fibra y cerámica,1587.0,5
+q,18,1548,VII+VIII,aves y vegetales silvestres,47167.0,8
+q,18,1548,XI+XII,"a la salida: gente, camélidos, comida",0.0,0

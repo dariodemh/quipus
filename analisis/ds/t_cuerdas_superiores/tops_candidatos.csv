@@ -1,0 +1,83 @@
+kfg,top,top_val,grupo,color,n_before,n_prev,prev_l0,prev_all,next_l0,next_all,hit_prev_l0,hit_prev_all,hit_next_l0,hit_next_all,hit_contig_prev_l0,contig_prev_l0,hit_contig_prev_all,contig_prev_all,hit_color_prev_l0,color_prev_l0,hit_color_prev_all,color_prev_all,hit_alt_prev_l0,alt_prev_l0,hit_contig_before_l0,contig_before_l0
+AS001,p7,101.0,1,MB,14,14,101.0,138.0,83.0,124.0,True,False,False,False,True,0:6 (6 cuerdas),False,,True,MB,False,,False,,True,1 bloques; primero 0:6
+AS001,p14,93.0,3,MB,30,14,83.0,124.0,,,False,False,False,False,False,,False,,False,,False,,False,,False,
+AS002,p7,117.0,1,LB:DB,10,10,117.0,126.0,,,True,False,False,False,True,0:6 (6 cuerdas),False,,False,,False,,False,,True,1 bloques; primero 0:6
+AS003,p7,76.0,1,W:LB,7,7,76.0,82.0,,,True,False,False,False,True,0:6 (6 cuerdas),False,,True,W:LB,False,,False,,True,1 bloques; primero 0:6
+AS004,p7,312.0,1,MB,9,9,312.0,363.0,2534.0,2534.0,True,False,False,False,True,0:6 (6 cuerdas),True,2:7 (5 cuerdas),False,,False,,False,,True,1 bloques; primero 0:6
+AS006,p7,105.0,1,W:MB,6,6,105.0,105.0,120.0,128.0,True,True,False,False,True,0:6 (6 cuerdas),True,0:6 (6 cuerdas),False,,False,,False,,True,1 bloques; primero 0:6
+AS006,p14,120.0,3,W:MB,17,10,120.0,128.0,118.0,149.0,True,False,False,False,True,0:6 (6 cuerdas),False,,False,,False,,False,,True,1 bloques; primero 7:13
+AS006,p21,127.0,5,MB,35,12,118.0,149.0,138.0,158.0,False,False,False,False,False,,True,0:9 (9 cuerdas),False,,False,,False,,True,1 bloques; primero 13:15
+AS006,p28,138.0,7,MB,53,12,138.0,158.0,140.0,154.0,True,False,False,False,True,0:6 (6 cuerdas),False,,False,,False,,False,,True,1 bloques; primero 21:27
+AS006,p35,140.0,9,W,72,13,140.0,154.0,102.0,111.0,True,False,False,False,True,0:6 (6 cuerdas),True,1:11 (10 cuerdas),True,W,False,,False,,True,1 bloques; primero 28:34
+AS006,p42,93.0,11,MB,88,11,102.0,111.0,,,False,False,False,False,False,,False,,False,,False,,False,,True,2 bloques; primero 23:27
+AS007,p6,1.0,1,W,5,5,105.0,105.0,51.0,68.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+AS007,p13,83.0,3,RM:GR,16,10,51.0,68.0,131.0,132.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+AS007,p20,131.0,5,W:GR,28,7,131.0,132.0,37.0,37.0,True,False,False,False,True,0:6 (6 cuerdas),False,,False,,False,,False,,True,2 bloques; primero 7:13
+AS007,p57,17.0,15,W:GR,66,6,19.0,19.0,149.0,149.0,False,False,False,False,True,0:4 (4 cuerdas),True,0:4 (4 cuerdas),False,,False,,False,,True,11 bloques; primero 15:16
+AS007,p65,170.0,17,W:DB,74,7,149.0,149.0,168.0,170.0,False,False,False,True,False,,False,,False,,False,,False,,True,3 bloques; primero 22:48
+AS007,p74,16.0,19,W:MB,85,10,168.0,170.0,147.0,156.0,False,False,False,False,True,5:6 (1 cuerdas),True,6:7 (1 cuerdas),False,,False,,False,,True,4 bloques; primero 4:8
+AS007,p81,147.0,21,W:GR,96,10,147.0,156.0,153.0,154.0,True,False,False,False,True,0:6 (6 cuerdas),False,,True,W:GR,True,W:GR,False,,True,5 bloques; primero 23:49
+AS007,p88,152.0,23,W:MB,109,12,153.0,154.0,80.0,81.0,False,False,False,False,False,,False,,False,,False,,False,,True,5 bloques; primero 0:10
+AS007,p96,80.0,25,W,118,8,80.0,81.0,124.0,124.0,True,False,False,False,True,0:7 (7 cuerdas),False,,False,,False,,False,,True,11 bloques; primero 15:19
+AS007,p103,124.0,27,MB,126,6,124.0,124.0,20.0,20.0,True,True,False,False,True,0:6 (6 cuerdas),True,0:6 (6 cuerdas),True,MB,True,MB,False,,True,5 bloques; primero 22:40
+AS072,p6,460.0,1,PK,9,9,190.0,420.0,120.0,340.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+AS072,p12,,3,PK,19,9,120.0,340.0,50.0,110.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+AS072,p18,30.0,5,PK,29,9,50.0,110.0,40.0,126.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+AS072,p23,40.0,7,PK,38,8,40.0,126.0,220.0,430.0,True,False,False,False,True,0:2 (2 cuerdas),False,,True,PK,False,,False,,True,16 bloques; primero 1:2
+AS072,p28,530.0,9,PK,47,8,220.0,430.0,520.0,520.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+AS072,p29,520.0,10,PK,48,1,530.0,530.0,299.0,526.0,False,False,False,False,False,,False,,False,,False,,False,,True,2 bloques; primero 4:6
+AS072,p35,,12,PK,58,9,299.0,526.0,,,False,False,False,False,False,,False,,False,,False,,False,,False,
+AS072,p36,,13,PK,59,1,,,,,False,False,False,False,False,,False,,False,,False,,False,,False,
+HP047,p10,,3,W(0.0-9.0)/W:AB(9.0-72.0),9,6,316.0,316.0,742.0,742.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+HP047,p17,842.0,5,W:AB:PB,16,6,742.0,742.0,264.0,264.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+HP047,p24,729.0,7,W:AB,24,7,264.0,264.0,592.0,592.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+KH0080,p111,254.0,7,DB,114,4,196.0,196.0,98.0,98.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+KH0080,p120,169.0,10,DB,125,5,163.0,163.0,70.0,70.0,False,False,False,False,False,,False,,False,,False,,False,,True,1 bloques; primero 112:117
+KH0080,p129,244.0,13,DB,143,8,158.0,158.0,92.0,92.0,False,False,False,False,False,,False,,False,,False,,False,,True,1 bloques; primero 116:121
+QU003,p21,202.0,2,MB,20,7,112.0,112.0,,,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU003,p22,,3,MB:LK,21,1,202.0,202.0,403.0,403.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU003,p23,403.0,4,YB,22,1,,,,,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU003,p33,,8,BS,31,5,,,1674.0,1674.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU009,p7,33.0,1,AB,7,7,28.0,29.0,367.0,414.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU009,p14,239.0,3,AB,20,12,367.0,414.0,203.0,222.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU009,p70,83.0,6,AB,87,7,83.0,93.0,83.0,93.0,True,False,True,False,True,0:6 (6 cuerdas),False,,False,,False,,False,,True,14 bloques; primero 14:41
+QU009,p77,83.0,8,AB,97,9,83.0,93.0,46.0,51.0,True,False,False,False,True,0:6 (6 cuerdas),False,,False,,False,,False,,True,16 bloques; primero 14:41
+QU009,p116,50.0,12,AB,144,10,50.0,59.0,98.0,117.0,True,False,False,False,True,0:6 (6 cuerdas),True,1:9 (8 cuerdas),False,,False,,False,,True,16 bloques; primero 23:37
+QU009,p123,98.0,14,AB,154,9,98.0,117.0,107.0,130.0,True,False,False,False,True,0:6 (6 cuerdas),False,,False,,False,,False,,True,15 bloques; primero 17:45
+QU012,p8,,1,W,7,7,,,773.0,773.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU012,p18,313.0,4,MB,27,17,418.0,823.0,5.0,6.0,False,False,False,False,True,0:6 (6 cuerdas),False,,False,,False,,False,,True,1 bloques; primero 10:16
+QU012,p67,137.0,8,MB,121,12,162.0,431.0,160.0,854.0,False,False,False,False,True,0:4 (4 cuerdas),False,,False,,False,,False,,True,6 bloques; primero 29:42
+QU012,p113,247.0,11,B,198,17,318.0,574.0,280.0,552.0,False,False,False,False,True,0:6 (6 cuerdas),False,,False,,False,,False,,True,4 bloques; primero 21:48
+QU014,p7,541.0,1,YB,12,12,541.0,617.0,37.0,37.0,True,False,False,False,True,0:6 (6 cuerdas),False,,False,,False,,False,,True,1 bloques; primero 0:6
+QU014,p14,10.0,3,YB,19,6,37.0,37.0,326.0,341.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU014,p20,,5,PK,28,8,326.0,341.0,408.0,459.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU014,p27,,7,YB,39,10,408.0,459.0,234.0,258.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU014,p34,200.0,9,YB,50,10,234.0,258.0,45.0,45.0,False,False,False,False,False,,False,,False,,False,,False,,True,1 bloques; primero 17:18
+QU014,p43,935.0,12,YB,62,9,925.0,1031.0,562.0,667.0,False,False,False,False,False,,False,,False,,False,,False,,True,1 bloques; primero 12:31
+QU014,p49,,14,YB,73,10,562.0,667.0,185.0,185.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU014,p55,,15,YB,79,1,,,,,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU014,p56,,16,YB,80,6,185.0,185.0,48.0,48.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU014,p63,,18,YB,87,6,48.0,48.0,,,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU014,p66,,20,YB,90,2,,,211.0,245.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU014,p103,,24,YB,137,9,369.0,380.0,112.0,123.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU014,p118,692.0,29,YB,157,8,534.0,565.0,8.0,8.0,False,False,False,False,False,,False,,False,,False,,False,,True,1 bloques; primero 13:25
+QU014,p125,,31,YB,164,6,8.0,8.0,,,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU014,p138,,34,YB:BS,178,7,383.0,386.0,,,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU014,p156,119.0,38,YB:BS,197,6,56.0,56.0,,44.0,False,False,False,False,False,,False,,False,,False,,False,,True,5 bloques; primero 74:77
+QU015,p33,1485.0,6,BS,43,6,2076.0,2099.0,1190.0,1990.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU015,p40,512.0,9,BS,54,4,512.0,512.0,8888.0,10828.0,True,True,False,False,True,0:4 (4 cuerdas),True,0:4 (4 cuerdas),False,,False,,False,,True,1 bloques; primero 35:39
+QU015,p51,111.0,13,YB,82,0,,,10.0,10.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU015,p90,143.0,25,YB,141,3,66.0,66.0,77.0,77.0,False,False,False,False,False,,False,,False,,False,,False,,True,2 bloques; primero 52:64
+QU015,p97,100.0,28,YB,148,3,46.0,46.0,97.0,97.0,False,False,False,False,False,,False,,False,,False,,False,,True,4 bloques; primero 35:36
+QU016,p13,80.0,3,AB,14,4,6.0,6.0,79.0,79.0,False,False,False,False,False,,False,,False,,False,,False,,True,3 bloques; primero 0:10
+QU016,p24,129.0,6,YB,38,19,129.0,160.0,16.0,16.0,True,False,False,False,True,0:6 (6 cuerdas),True,2:19 (17 cuerdas),False,,False,,False,,True,2 bloques; primero 16:23
+QU016,p35,10.0,9,YB,59,16,239.0,262.0,21.0,21.0,False,False,False,False,False,,True,2:3 (1 cuerdas),False,,False,,False,,True,2 bloques; primero 3:5
+QU016,p36,,10,YB,60,1,10.0,10.0,20.0,20.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+QU016,p37,21.0,10,YB,61,1,10.0,10.0,20.0,20.0,False,False,False,False,False,,False,,False,,False,,False,,True,7 bloques; primero 6:10
+QU019,p86,173.0,11,YB,85,6,173.0,173.0,115.0,122.0,True,True,False,False,True,0:6 (6 cuerdas),True,0:6 (6 cuerdas),False,,False,,False,,True,1 bloques; primero 79:85
+QU019,p114,196.0,18,YB,128,0,,,63.0,68.0,False,False,False,False,False,,False,,False,,False,,False,,True,6 bloques; primero 8:15
+QU019,p158,168.0,22,YB,192,3,81.0,81.0,38.0,39.0,False,False,False,False,False,,False,,False,,False,,False,,True,2 bloques; primero 9:16
+QU019,p165,159.0,25,YB,200,3,94.0,94.0,52.0,52.0,False,False,False,False,False,,False,,False,,False,,False,,True,3 bloques; primero 57:63
+QU019,p172,164.0,28,YB,207,3,98.0,98.0,58.0,58.0,False,False,False,False,False,,False,,False,,False,,False,,True,5 bloques; primero 0:8
+UR155,p23,,2,W:KB,27,14,274.0,369.0,12.0,12.0,False,False,False,False,False,,False,,False,,False,,False,,False,
+UR155,p24,20.0,2,W-MB,28,14,274.0,369.0,12.0,12.0,False,False,False,False,True,3:5 (2 cuerdas),True,6:8 (2 cuerdas),False,,False,,False,,True,10 bloques; primero 3:4

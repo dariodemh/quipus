@@ -1,0 +1,42 @@
+{
+  "D1": {
+    "n": 6344,
+    "pct_exacto": 9.06,
+    "mediana_ratio": 0.5
+  },
+  "D1b": {
+    "n": 7484,
+    "pct_exacto": 7.72,
+    "mediana_ratio": 0.357
+  },
+  "D2": {
+    "n": 1800,
+    "pct_exacto": 4.0,
+    "mediana_ratio": 0.733
+  },
+  "composicion_exactas": {
+    "n_exactas": 575,
+    "de_1_hijo": 503,
+    "pct_1_hijo": 87.5
+  },
+  "D3": {
+    "pct_trivial": 15.3,
+    "pct_exacto_no_trivial": 9.07,
+    "mediana_ratio": 0.5
+  },
+  "D3_ampliado": {
+    "grupos": 9426,
+    "pct_trivial": 32.8
+  },
+  "nulo": {
+    "obs_D1": 9.06,
+    "obs_D2": 4.0,
+    "p_D1": 0.0004997501249375312,
+    "p_D2": 0.0004997501249375312,
+    "holm": {
+      "D1": 0.0009995002498750624,
+      "D2": 0.0004997501249375312
+    },
+    "n_perm": 2000
+  }
+}

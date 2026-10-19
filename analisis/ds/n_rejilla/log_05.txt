@@ -1,0 +1,8 @@
+UR278: 45 cuerdas
+  reglas: {'celda270': 44, '(sin prediccion)': 1}
+  n_vias_indep: {1.0: 44, nan: 1}
+  exactas (LOO): 35 / 44
+UR270: 45 cuerdas
+  reglas: {'celda270': 44, '(sin prediccion)': 1}
+  n_vias_indep: {1.0: 44, nan: 1}
+  exactas (LOO): 35 / 44

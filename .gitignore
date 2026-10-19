@@ -1,0 +1,6 @@
+__pycache__/
+*.pkl
+# Fuentes con derechos de autor y material de uso local: no se redistribuyen
+analisis/fuentes_txt/
+encontrado/
+papers/

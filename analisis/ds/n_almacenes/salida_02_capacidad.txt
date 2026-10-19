@@ -1,0 +1,95 @@
+UR278 (flujo 47): 61790 unidades en 28 registros
+UR269 (libro maestro): 122609 unidades en 67 registros, ~12 bloques
+UR268 (nivel de periodo): 300378 unidades en 30 grupos
+Qolqawasi: 6400 m3 en 245 unidades (36 camaras + 209 colcas); media 26.1 m3/unidad
+
+=== 1. Capacidad fisica del deposito ===
+masa almacenable = 6 400 m3 x densidad aparente 0,40-0,70 t/m3 = 2,560-4,480 t
+   si todo fuera maiz_grano   : 3,840-5,120 t
+   si todo fuera maiz_mazorca : 1,600-2,240 t
+   si todo fuera frijol       : 4,160-5,120 t
+   si todo fuera mani_cascara : 1,280-1,920 t
+   si todo fuera aji_seco     : 1,600-2,560 t
+   si todo fuera chuno        : 2,560-3,520 t
+   si todo fuera papa         : 3,840-4,800 t
+
+=== 2. Masa y volumen del ledger segun la unidad ===
+            unidad                        ledger        n     t_min     t_max    m3_min    m3_max  pct_cap_vol_min  pct_cap_vol_max  llenados_min  llenados_max
+racion_persona_dia registro (una entrega, media)   2207.0     1.324     1.766     1.766     2.428            0.028            0.038         0.000         0.001
+racion_persona_dia      flujo 47 (UR278, 9 col.)  61790.0    37.074    49.432    49.432    67.969            0.772            1.062         0.008         0.019
+racion_persona_dia       maestro UR269 (67 reg.) 122609.0    73.565    98.087    98.087   134.870            1.533            2.107         0.016         0.038
+racion_persona_dia      periodos UR268 (30 reg.) 300378.0   180.227   240.302   240.302   330.416            3.755            5.163         0.040         0.094
+            arroba registro (una entrega, media)   2207.0    25.380    25.380    33.105    35.312            0.517            0.552         0.006         0.010
+            arroba      flujo 47 (UR278, 9 col.)  61790.0   710.585   710.585   926.850   988.640           14.482           15.448         0.159         0.278
+            arroba       maestro UR269 (67 reg.) 122609.0  1410.004  1410.004  1839.135  1961.744           28.736           30.652         0.315         0.551
+            arroba      periodos UR268 (30 reg.) 300378.0  3454.347  3454.347  4505.670  4806.048           70.401           75.094         0.771         1.349
+       carga_llama registro (una entrega, media)   2207.0    50.761    66.210    66.210    88.280            1.035            1.379         0.011         0.026
+       carga_llama      flujo 47 (UR278, 9 col.)  61790.0  1421.170  1853.700  1853.700  2471.600           28.964           38.619         0.317         0.724
+       carga_llama       maestro UR269 (67 reg.) 122609.0  2820.007  3678.270  3678.270  4904.360           57.473           76.631         0.629         1.437
+       carga_llama      periodos UR268 (30 reg.) 300378.0  6908.694  9011.340  9011.340 12015.120          140.802          187.736         1.542         3.520
+         costal_25 registro (una entrega, media)   2207.0    55.175    55.175    72.831    79.452            1.138            1.241         0.012         0.022
+         costal_25      flujo 47 (UR278, 9 col.)  61790.0  1544.750  1544.750  2039.070  2224.440           31.860           34.757         0.345         0.603
+         costal_25       maestro UR269 (67 reg.) 122609.0  3065.225  3065.225  4046.097  4413.924           63.220           68.968         0.684         1.197
+         costal_25      periodos UR268 (30 reg.) 300378.0  7509.450  7509.450  9912.474 10813.608          154.882          168.963         1.676         2.933
+            fanega registro (una entrega, media)   2207.0    90.487    99.315   122.488   122.488            1.914            1.914         0.020         0.039
+            fanega      flujo 47 (UR278, 9 col.)  61790.0  2533.390  2780.550  3429.345  3429.345           53.584           53.584         0.565         1.086
+            fanega       maestro UR269 (67 reg.) 122609.0  5026.969  5517.405  6804.800  6804.800          106.325          106.325         1.122         2.155
+            fanega      periodos UR268 (30 reg.) 300378.0 12315.498 13517.010 16670.979 16670.979          260.484          260.484         2.749         5.280
+         costal_50 registro (una entrega, media)   2207.0   110.350   110.350   145.662   158.904            2.276            2.483         0.025         0.043
+         costal_50      flujo 47 (UR278, 9 col.)  61790.0  3089.500  3089.500  4078.140  4448.880           63.721           69.514         0.690         1.207
+         costal_50       maestro UR269 (67 reg.) 122609.0  6130.450  6130.450  8092.194  8827.848          126.441          137.935         1.368         2.395
+         costal_50      periodos UR268 (30 reg.) 300378.0 15018.900 15018.900 19824.948 21627.216          309.765          337.925         3.352         5.867
+  cuadro_23cm_10cm registro (una entrega, media)   2207.0     3.531    17.656     5.738    23.394            0.090            0.366         0.001         0.007
+  cuadro_23cm_10cm      flujo 47 (UR278, 9 col.)  61790.0    98.864   494.320   160.654   654.974            2.510           10.234         0.022         0.193
+  cuadro_23cm_10cm       maestro UR269 (67 reg.) 122609.0   196.174   980.872   318.783  1299.655            4.981           20.307         0.044         0.383
+  cuadro_23cm_10cm      periodos UR268 (30 reg.) 300378.0   480.605  2403.024   780.983  3184.007           12.203           49.750         0.107         0.939
+
+=== 3. Numero de ledgers necesarios para llenar Qolqawasi (masa) ===
+racion_persona_dia   ( 0.7 kg): caben 3,657,143-6,400,000 unidades; el ledger maestro es el 1.92-3.35 % del deposito
+arroba               (11.5 kg): caben 222,609-389,565 unidades; el ledger maestro es el 31.47-55.08 % del deposito
+carga_llama          (26.5 kg): caben 96,604-169,057 unidades; el ledger maestro es el 72.53-126.92 % del deposito
+costal_25            (25.0 kg): caben 102,400-179,200 unidades; el ledger maestro es el 68.42-119.74 % del deposito
+fanega               (43.0 kg): caben 59,535-104,186 unidades; el ledger maestro es el 117.68-205.94 % del deposito
+costal_50            (50.0 kg): caben 51,200-89,600 unidades; el ledger maestro es el 136.84-239.47 % del deposito
+
+=== 4. Cota inferior de la masa unitaria (kg) para que el archivo quepa ===
+supuesto: el ledger es TODO lo que paso por el deposito en T anios
+y el deposito estaba razonablemente lleno (2 560-4 480 t)
+    T     L3 UR269 (122 609)     L4 UR268 (300 378)
+  1.0             20.88 kg              8.52 kg
+  2.0             10.44 kg              4.26 kg
+  2.5              8.35 kg              3.41 kg
+  5.0              4.18 kg              1.70 kg
+ 10.0              2.09 kg              0.85 kg
+ 20.0              1.04 kg              0.43 kg
+   (cota con la densidad MINIMA 0,40 t/m3; con 0,55-0,70 sube 1,4-1,75x)
+
+=== 5. Que significa la coincidencia 'ledger ~ 1 llenado' ===
+Nulo: el tamano de la unidad es desconocido y log-uniforme entre 5e-5 y 0,5 m3 (4 decadas).
+   P(volumen del ledger dentro de un factor 1.25 de la capacidad) = 0.048   (flujo 47: 0.048)
+   P(volumen del ledger dentro de un factor 1.50 de la capacidad) = 0.088   (flujo 47: 0.088)
+   P(volumen del ledger dentro de un factor 2.00 de la capacidad) = 0.151   (flujo 47: 0.151)
+   P(volumen del ledger dentro de un factor 3.00 de la capacidad) = 0.239   (flujo 47: 0.239)
+   => la coincidencia NO es significativa por si sola; solo sirve para excluir
+      unidades que se alejan ordenes de magnitud (items, raciones).
+
+=== 6. La unica regla fisica del sitio: 3 510 cuadros de 23 x 23 cm (U.A. 07) ===
+   capa de    3 cm ->   1.6 L por cuadro; maiz   1.2 kg, mani en cascara   0.4 kg
+   capa de    5 cm ->   2.6 L por cuadro; maiz   2.0 kg, mani en cascara   0.7 kg
+   capa de   10 cm ->   5.3 L por cuadro; maiz   4.0 kg, mani en cascara   1.3 kg
+   capa de   20 cm ->  10.6 L por cuadro; maiz   7.9 kg, mani en cascara   2.6 kg
+   61 790 unidades / 3 510 cuadros = 17.6 cuadros por unidad registrada
+   (si 1 cuadro = 1 unidad, el ledger del flujo son 17.6 'vueltas' de la cuadricula)
+
+=== 7. Logistica: cargas de llama necesarias ===
+   racion 0,7 kg : registro medio =    61.8 cargas de 25 kg; ledger maestro =    85.8 t =     9.4 cargas/dia si es 1 anio
+   arroba 11,5   : registro medio =  1015.2 cargas de 25 kg; ledger maestro =  1410.0 t =   154.5 cargas/dia si es 1 anio
+   carga 25      : registro medio =  2207.0 cargas de 25 kg; ledger maestro =  3065.2 t =   335.9 cargas/dia si es 1 anio
+   fanega 43     : registro medio =  3796.0 cargas de 25 kg; ledger maestro =  5272.2 t =   577.8 cargas/dia si es 1 anio
+
+=== 8. Si la unidad fuera una racion-persona-dia ===
+   guarnicion  1000: el ledger maestro = 122.6 dias; el deposito lleno =   3657 dias (10.0 anios)
+   guarnicion  5000: el ledger maestro =  24.5 dias; el deposito lleno =    731 dias (2.0 anios)
+   guarnicion 10000: el ledger maestro =  12.3 dias; el deposito lleno =    366 dias (1.0 anios)
+
+OK -> capacidad_escenarios.csv

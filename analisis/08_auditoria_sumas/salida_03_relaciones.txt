@@ -1,0 +1,14 @@
+relaciones PPS: 8076 en 428 quipus
+valor <=20: 0.271; <=50: 0.601; >=100: 0.243; >=1000: 0.023
+adyacentes (saltando huecos): 0.108; distancia mediana 11, p90 61
+nº sumandos: mediana 3; >=10: 0.157
+coste global: mediana 0.947; <0.05: 33; <0.01: 2
+coste local (solo adyacentes): mediana 0.1457; <0.01: 64 en 21 quipus; <0.001: 13 en 5 quipus
+
+quipus con relaciones de coste local <0.001:
+kfg
+UR269    9
+UR188    1
+UR266    1
+UR268    1
+UR275    1

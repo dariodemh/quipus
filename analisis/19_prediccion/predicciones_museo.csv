@@ -1,0 +1,253 @@
+quipu,cuerda,tipo,valor_registrado,valor_predicho,via,reglas_independientes,confianza_num,confianza,alternativas
+UR275,p51,discrepancia,40,47,UR275,1,0.96,alta,
+UR267A,p27,discrepancia,16,15,UR267A,1,0.92,alta,21
+UR267A,p65,discrepancia,82,92,UR255->UR267A + UR267A,2,0.82,alta,
+UR267A,p68,discrepancia,63,66,UR255->UR267A,1,0.82,alta,55
+UR266,p86,discrepancia,2114,2020,UR274A+UR273B:UR266 + UR275->UR266,2,0.77,alta,1159;2115
+UR275,p88,discrepancia,1825,1827,UR273A+UR273B:UR275 + UR275,2,0.77,alta,1932
+UR275,p94,discrepancia,1891,1961,UR274A+UR273B:UR275 + UR275,2,0.77,alta,1949
+UR267A,p7,discrepancia,161,155,UR267A,1,0.75,alta,
+UR267A,p8,discrepancia,15,21,UR267A,1,0.75,alta,15
+UR267A,p9,discrepancia,140,146,UR267A,1,0.75,alta,100
+UR267A,p26,discrepancia,141,136,UR267A,1,0.75,alta,141
+UR267A,p27,discrepancia,16,21,UR267A,1,0.75,alta,15
+UR267A,p28,discrepancia,120,125,UR267A,1,0.75,alta,
+UR267A,p66,discrepancia,15,5,UR267A,1,0.75,alta,15
+UR267A,p67,discrepancia,77,67,UR267A,1,0.75,alta,
+UR267A,p68,discrepancia,63,55,UR267A,1,0.75,alta,66
+UR267A,p69,discrepancia,15,23,UR267A,1,0.75,alta,15
+UR267A,p70,discrepancia,40,48,UR267A,1,0.75,alta,
+UR270,p1,discrepancia,178,179,UR278->UR270,1,0.74,media,
+UR270,p1s1,discrepancia,59,60,UR278->UR270,1,0.74,media,
+UR270,p18,discrepancia,215,216,UR278->UR270,1,0.74,media,
+UR270,p18s1,discrepancia,86,87,UR278->UR270,1,0.74,media,
+UR270,p46,discrepancia,239,238,UR278->UR270,1,0.74,media,
+UR270,p46s1,discrepancia,60,59,UR278->UR270,1,0.74,media,
+UR270,p47,discrepancia,211,210,UR278->UR270,1,0.74,media,
+UR270,p47s1,discrepancia,132,131,UR278->UR270,1,0.74,media,
+UR270,p63,discrepancia,90,88,UR278->UR270,1,0.74,media,
+UR270,p63s1,discrepancia,43,41,UR278->UR270,1,0.74,media,
+UR270,p64,discrepancia,186,185,UR278->UR270,1,0.74,media,
+UR270,p64s1,discrepancia,36,35,UR278->UR270,1,0.74,media,
+UR270,p67,discrepancia,124,121,UR278->UR270,1,0.74,media,
+UR270,p67s1,discrepancia,24,21,UR278->UR270,1,0.74,media,
+UR270,p71,discrepancia,68,67,UR278->UR270,1,0.74,media,
+UR270,p71s1,discrepancia,43,42,UR278->UR270,1,0.74,media,
+UR270,p72,discrepancia,78,77,UR278->UR270,1,0.74,media,
+UR270,p72s1,discrepancia,32,31,UR278->UR270,1,0.74,media,
+UR278,p180,discrepancia,238,237,UR270->UR278,1,0.74,media,
+UR278,p196,discrepancia,302,301,UR270->UR278,1,0.74,media,
+UR278,p214,discrepancia,298,299,UR270->UR278,1,0.74,media,
+UR278,p215,discrepancia,342,343,UR270->UR278,1,0.74,media,
+UR278,p231,discrepancia,131,133,UR270->UR278,1,0.74,media,
+UR278,p232,discrepancia,221,222,UR270->UR278,1,0.74,media,
+UR278,p235,discrepancia,145,148,UR270->UR278,1,0.74,media,
+UR278,p239,discrepancia,110,111,UR270->UR278,1,0.74,media,
+UR278,p240,discrepancia,109,110,UR270->UR278,1,0.74,media,
+UR255,p70,discrepancia,92,82,UR267A->UR255,1,0.69,media,
+UR255,p74,discrepancia,66,63,UR267A->UR255,1,0.69,media,66
+UR267B,p67,discrepancia,601,612,UR267B,1,0.68,media,601
+UR267B,p69,discrepancia,591,580,UR267B,1,0.68,media,
+UR267B,p98,discrepancia,152,153,UR267B,1,0.68,media,
+UR267B,p99,discrepancia,10,9,UR267B,1,0.68,media,10
+UR267B,p100,discrepancia,143,142,UR267B,1,0.68,media,
+UR256,p68,discrepancia,357,388,UR256,1,0.6,media,
+UR256,p69,discrepancia,347,316,UR256,1,0.6,media,
+UR256,p72,discrepancia,663,633,UR256,1,0.6,media,613
+UR256,p73,discrepancia,623,653,UR256,1,0.6,media,
+UR256,p101,discrepancia,342,339,UR256,1,0.6,media,10
+UR256,p102,discrepancia,329,332,UR256,1,0.6,media,
+UR256,p103,discrepancia,10,13,UR256,1,0.6,media,10
+UR266,p22,discrepancia,44,47,UR266,1,0.52,media,
+UR274B,p9,discrepancia,10,17,UR274B,1,0.5,media,
+UR274B,p13,discrepancia,10,17,UR274B,1,0.5,media,
+UR274B,p19,discrepancia,10,17,UR274B,1,0.5,media,
+UR274B,p64,discrepancia,10,17,UR274B,1,0.5,media,
+UR275,p21,discrepancia,3249,3243,UR278->UR275,1,0.5,media,3249
+UR275,p41,discrepancia,2633,2533,UR278->UR275,1,0.5,media,2633;633
+UR275,p45,discrepancia,3096,3095,UR278->UR275,1,0.5,media,3096
+UR275,p66,discrepancia,2020,2115,UR278->UR275,1,0.5,media,2114;1159;2020;1980
+UR275,p88,discrepancia,1825,1932,UR274A+UR273B:UR275,1,0.5,media,1827
+UR275,p94,discrepancia,1891,1949,UR273A+UR273B:UR275,1,0.5,media,1961
+UR275,p100,discrepancia,1760,1765,UR273A+UR273B:UR275,1,0.5,media,1757
+UR275,p1,discrepancia,3317,3316,UR275,1,0.47,baja,
+UR275,p2,discrepancia,47,48,UR275,1,0.47,baja,47
+UR275,p3,discrepancia,114,115,UR275,1,0.47,baja,
+UR275,p4,discrepancia,498,499,UR275,1,0.47,baja,
+UR275,p5,discrepancia,370,371,UR275,1,0.47,baja,
+UR275,p6,discrepancia,2287,2288,UR275,1,0.47,baja,1217
+UR275,p7,discrepancia,2089,2090,UR275,1,0.47,baja,
+UR275,p8,discrepancia,47,46,UR275,1,0.47,baja,47
+UR275,p9,discrepancia,203,202,UR275,1,0.47,baja,
+UR275,p10,discrepancia,236,235,UR275,1,0.47,baja,
+UR275,p10s1,discrepancia,21,20,UR275,1,0.47,baja,
+UR275,p11,discrepancia,312,311,UR275,1,0.47,baja,
+UR275,p12,discrepancia,1271,1270,UR275,1,0.47,baja,
+UR275,p59,discrepancia,1278,1264,UR275,1,0.47,baja,1278
+UR275,p61,discrepancia,389,403,UR275,1,0.47,baja,
+UR275,p62,discrepancia,164,178,UR275,1,0.47,baja,
+UR275,p65,discrepancia,549,563,UR275,1,0.47,baja,
+UR275,p66,discrepancia,2020,1980,UR275,1,0.47,baja,2114;1159;2020;2115
+UR275,p69,discrepancia,877,917,UR275,1,0.47,baja,
+UR275,p70,discrepancia,1035,1075,UR275,1,0.47,baja,
+UR275,p89,discrepancia,47,45,UR275,1,0.47,baja,47
+UR275,p90,discrepancia,1780,1778,UR275,1,0.47,baja,
+UR275,p96,discrepancia,1844,1774,UR275,1,0.47,baja,
+UR275,p100,discrepancia,1760,1757,UR275,1,0.47,baja,1765
+UR275,p101,discrepancia,47,50,UR275,1,0.47,baja,47
+UR275,p102,discrepancia,1710,1713,UR275,1,0.47,baja,
+UR275,p106,discrepancia,1907,2017,UR275,1,0.47,baja,
+UR275,p108,discrepancia,1860,1750,UR275,1,0.47,baja,
+UR266,p21,discrepancia,3317,3293,UR278->UR266,1,0.46,baja,
+UR266,p45,discrepancia,3249,3243,UR278->UR266,1,0.46,baja,3249
+UR266,p64,discrepancia,2633,2533,UR278->UR266,1,0.46,baja,2633
+UR266,p69,discrepancia,3096,3095,UR278->UR266,1,0.46,baja,3096
+UR266,p86,discrepancia,2114,2115,UR278->UR266,1,0.46,baja,2020;1159
+UR266,p96,discrepancia,2106,2105,UR278->UR266,1,0.46,baja,1599;2106
+UR275,p66,discrepancia,2020,2114,UR266->UR275,1,0.45,baja,1159;2020;2115;1980
+UR275,p71,discrepancia,1588,1594,UR266->UR275,1,0.45,baja,1888
+UR266,p91,discrepancia,1594,1588,UR275->UR266,1,0.41,baja,1888
+UR273B,p39,discrepancia,1129,1223,UR274A+UR273B:UR266,1,0.39,baja,2084;1990;10;1129;-851
+UR273B,p69,discrepancia,1325,1323,UR273A+UR273B:UR275,1,0.39,baja,1218
+UR273B,p69,discrepancia,1325,1218,UR274A+UR273B:UR275,1,0.39,baja,1323
+UR273B,p77,discrepancia,1370,1312,UR273A+UR273B:UR275,1,0.39,baja,1300
+UR273B,p77,discrepancia,1370,1300,UR274A+UR273B:UR275,1,0.39,baja,1312
+UR273B,p85,discrepancia,1256,1251,UR273A+UR273B:UR275,1,0.39,baja,
+UR273A,p37,discrepancia,502,500,UR273A+UR273B:UR275,1,0.36,baja,607
+UR273A,p51,discrepancia,509,504,UR273A+UR273B:UR275,1,0.36,baja,
+UR256,p1,discrepancia,1055,1054,UR267B->UR256,1,0.33,baja,
+UR256,p9,discrepancia,672,660,UR267B->UR256,1,0.33,baja,
+UR256,p72,discrepancia,663,613,UR267B->UR256,1,0.33,baja,633
+UR256,p79,discrepancia,620,660,UR267B->UR256,1,0.33,baja,
+UR267B,p2,discrepancia,1054,1055,UR256->UR267B,1,0.33,baja,10
+UR267B,p8,discrepancia,660,672,UR256->UR267B,1,0.33,baja,
+UR267B,p58,discrepancia,613,663,UR256->UR267B,1,0.33,baja,613
+UR267B,p64,discrepancia,660,620,UR256->UR267B,1,0.33,baja,660
+UR273A,p44,discrepancia,579,591,UR274A->UR273A,1,0.33,baja,521
+UR274A,p45,discrepancia,591,579,UR273A->UR274A,1,0.33,baja,521
+UR269,p12,discrepancia,45,46,UR269,1,0.2,baja,1278
+UR269,p17,discrepancia,40,46,UR269,1,0.2,baja,1159;2020
+UR269,p40,discrepancia,47,46,UR269,1,0.2,baja,
+UR269,p60,discrepancia,50,46,UR269,1,0.2,baja,
+UR269,p66,discrepancia,47,46,UR269,1,0.2,baja,
+UR269,p82,discrepancia,40,46,UR269,1,0.2,baja,1733
+UR269,p91,discrepancia,44,46,UR269,1,0.2,baja,
+UR269,p107,discrepancia,44,46,UR269,1,0.2,baja,
+UR269,p114,discrepancia,40,46,UR269,1,0.2,baja,
+UR269,p139,discrepancia,44,46,UR269,1,0.2,baja,
+UR269,p146,discrepancia,47,46,UR269,1,0.2,baja,
+UR269,p154,discrepancia,44,46,UR269,1,0.2,baja,
+UR269,p169,discrepancia,44,46,UR269,1,0.2,baja,
+UR269,p182,discrepancia,44,46,UR269,1,0.2,baja,
+UR269,p189,discrepancia,47,46,UR269,1,0.2,baja,
+UR269,p205,discrepancia,47,46,UR269,1,0.2,baja,
+UR269,p214,discrepancia,44,46,UR269,1,0.2,baja,
+UR269,p230,discrepancia,44,46,UR269,1,0.2,baja,23
+UR269,p233,discrepancia,36,46,UR269,1,0.2,baja,
+UR269,p239,discrepancia,44,46,UR269,1,0.2,baja,
+UR274B,p58,discrepancia,1288,1325,UR273B->UR274B,1,0.0,baja,1471
+UR274B,p87,discrepancia,762,717,UR274B,1,0.0,baja,
+UR274B,p89,discrepancia,700,745,UR274B,1,0.0,baja,17
+UR278,fila g4 (alguna de 9 celdas; suma registrada 3293),discrepancia de fila,3293,3317,UR278->UR266,1,0.48,baja,el libro (UR266/UR275) dice +24; una celda de la fila debe corregirse en 24
+UR278,fila g8 (alguna de 9 celdas; suma registrada 3243),discrepancia de fila,3243,3249,UR278->UR266 + UR278->UR275,1,0.48,baja,el libro (UR266/UR275) dice +6; una celda de la fila debe corregirse en 6
+UR278,fila g12 (alguna de 9 celdas; suma registrada 2533),discrepancia de fila,2533,2633,UR278->UR266 + UR278->UR275,1,0.48,baja,el libro (UR266/UR275) dice +100; una celda de la fila debe corregirse en 100
+UR278,fila g13 (alguna de 9 celdas; suma registrada 3095),discrepancia de fila,3095,3096,UR278->UR266 + UR278->UR275,1,0.48,baja,el libro (UR266/UR275) dice +1; una celda de la fila debe corregirse en 1
+UR278,fila g17 (alguna de 9 celdas; suma registrada 2115),discrepancia de fila,2115,2020,UR278->UR275,1,0.48,baja,el libro (UR266/UR275) dice +-95; una celda de la fila debe corregirse en -95
+UR278,fila g17 (alguna de 9 celdas; suma registrada 2115),discrepancia de fila,2115,2114,UR278->UR266,1,0.48,baja,el libro (UR266/UR275) dice +-1; una celda de la fila debe corregirse en -1
+UR278,fila g19 (alguna de 9 celdas; suma registrada 2105),discrepancia de fila,2105,2106,UR278->UR266,1,0.48,baja,el libro (UR266/UR275) dice +1; una celda de la fila debe corregirse en 1
+UR255,p8,reconstruccion,sin nudos,15,UR255,1,0.96,alta,
+UR255,p83,reconstruccion,sin nudos,15,UR255,1,0.96,alta,
+UR275,p110,reconstruccion,sin nudos,47,UR275,1,0.96,alta,
+UR267A,p81,reconstruccion,sin nudos,15,UR267A,1,0.92,alta,16
+UR255,p2,reconstruccion,sin nudos,91,UR255,1,0.91,alta,
+UR255,p10,reconstruccion,sin nudos,45,UR255,1,0.91,alta,
+UR255,p22,reconstruccion,sin nudos,70,UR255,1,0.91,alta,
+UR255,p25,reconstruccion,sin nudos,145,UR255,1,0.91,alta,
+UR255,p28,reconstruccion,sin nudos,99,UR255,1,0.91,alta,
+UR255,p31,reconstruccion,sin nudos,126,UR255,1,0.91,alta,
+UR255,p34,reconstruccion,sin nudos,172,UR255,1,0.91,alta,
+UR255,p38,reconstruccion,sin nudos,80,UR255,1,0.91,alta,
+UR255,p41,reconstruccion,sin nudos,200,UR255,1,0.91,alta,
+UR255,p71,reconstruccion,sin nudos,16,UR255,1,0.91,alta,
+UR256,p40,reconstruccion,sin nudos,10,UR256,1,0.9,alta,
+UR256,p81,reconstruccion,sin nudos,10,UR256,1,0.9,alta,
+UR256,p112,reconstruccion,sin nudos,10,UR256,1,0.9,alta,
+UR274A,p13,reconstruccion,sin nudos,30,UR274A,1,0.88,alta,
+UR274A,p51,reconstruccion,sin nudos,30,UR274A,1,0.88,alta,
+UR274A,p59,reconstruccion,sin nudos,30,UR274A,1,0.88,alta,
+UR274A,p72,reconstruccion,sin nudos,30,UR274A,1,0.88,alta,
+UR274A,p75,reconstruccion,sin nudos,30,UR274A,1,0.88,alta,
+UR267A,p6,reconstruccion,sin nudos,97,UR267A,1,0.75,alta,
+UR267A,p32s1,reconstruccion,sin nudos,92,UR267A,1,0.75,alta,
+UR267A,p81,reconstruccion,sin nudos,16,UR267A,1,0.75,alta,15
+UR270,p65,reconstruccion,sin nudos,194,UR278->UR270,1,0.74,media,
+UR270,p66s1,reconstruccion,sin nudos,22,UR278->UR270,1,0.74,media,
+UR270,p69,reconstruccion,sin nudos,161,UR278->UR270,1,0.74,media,
+UR278,p212,reconstruccion,sin nudos,62,UR270->UR278,1,0.74,media,
+UR255,p16,reconstruccion,sin nudos,191,UR267A->UR255,1,0.69,media,
+UR255,p20,reconstruccion,sin nudos,223,UR267A->UR255,1,0.69,media,
+UR255,p46,reconstruccion,sin nudos,142,UR267A->UR255,1,0.69,media,
+UR267B,p15,reconstruccion,sin nudos,958,UR267B,1,0.68,media,
+UR267B,p19,reconstruccion,sin nudos,116,UR267B,1,0.68,media,63
+UR256,p2,reconstruccion,sin nudos,347,UR256,1,0.6,media,
+UR256,p22,reconstruccion,sin nudos,1181,UR256,1,0.6,media,
+UR256,p28,reconstruccion,sin nudos,74,UR256,1,0.6,media,
+UR256,p34,reconstruccion,sin nudos,135,UR256,1,0.6,media,
+UR256,p75,reconstruccion,sin nudos,305,UR256,1,0.6,media,
+UR266,p44,reconstruccion,sin nudos,47,UR266,1,0.52,media,
+UR266,p92,reconstruccion,sin nudos,47,UR266,1,0.52,media,
+UR266,p112,reconstruccion,sin nudos,47,UR266,1,0.52,media,
+UR266,p120,reconstruccion,sin nudos,47,UR266,1,0.52,media,
+UR274B,p3,reconstruccion,sin nudos,17,UR274B,1,0.5,media,
+UR274B,p47,reconstruccion,sin nudos,17,UR274B,1,0.5,media,
+UR274B,p79,reconstruccion,sin nudos,17,UR274B,1,0.5,media,
+UR274B,p85,reconstruccion,sin nudos,17,UR274B,1,0.5,media,
+UR274B,p92,reconstruccion,sin nudos,17,UR274B,1,0.5,media,
+UR274B,p95,reconstruccion,sin nudos,17,UR274B,1,0.5,media,
+UR274B,p98,reconstruccion,sin nudos,17,UR274B,1,0.5,media,
+UR274B,p101,reconstruccion,sin nudos,17,UR274B,1,0.5,media,
+UR275,p23s1,reconstruccion,sin nudos,10,UR275,1,0.47,baja,
+UR275,p27s1,reconstruccion,sin nudos,10,UR275,1,0.47,baja,
+UR275,p57s1,reconstruccion,sin nudos,3,UR275,1,0.47,baja,
+UR266,p39,reconstruccion,sin nudos,1442,UR275->UR266,1,0.41,baja,
+UR266,p66,reconstruccion,sin nudos,307,UR275->UR266,1,0.41,baja,
+UR266,p67,reconstruccion,sin nudos,277,UR275->UR266,1,0.41,baja,
+UR266,p129,reconstruccion,sin nudos,47,UR269->UR266,1,0.41,baja,
+UR267B,p19,reconstruccion,sin nudos,63,UR256->UR267B,1,0.33,baja,116
+UR267B,p53s1,reconstruccion,sin nudos,347,UR256->UR267B,1,0.33,baja,
+UR273A,p31,reconstruccion,sin nudos,30,UR274A->UR273A,1,0.33,baja,
+UR269,p4,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p7,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p22,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p27,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p45,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p72,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p75,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p78,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p98,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p104,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p118,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p136,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p151,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p157,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p173,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p195,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p201,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p223,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p226,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p249,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p252,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p257,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p261,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p264,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p267,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p270,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p279,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p282,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR269,p285,reconstruccion,sin nudos,46,UR269,1,0.2,baja,
+UR273B,p28,reconstruccion,sin nudos,17,UR274B->UR273B,1,0.0,baja,
+UR273B,p29,reconstruccion,sin nudos,322,UR274B->UR273B,1,0.0,baja,
+UR273B,p30,reconstruccion,sin nudos,770,UR274B->UR273B,1,0.0,baja,
+UR273B,p62s1,reconstruccion,sin nudos,17,UR274B->UR273B,1,0.0,baja,
+UR273B,p83,reconstruccion,sin nudos,1000,UR274B->UR273B,1,0.0,baja,
+UR273B,p84,reconstruccion,sin nudos,17,UR274B->UR273B,1,0.0,baja,

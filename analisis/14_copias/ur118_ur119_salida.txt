@@ -1,0 +1,44 @@
+
+=== UR118: 23 filas (>=2 cuerdas con nudos); con cuerda-total adyacente: 18
+  total == suma de la fila: 6 ; |dif|<=1: 7 ; total == suma con subsidiarias: 0
+  lado del total: {'antes': 15, 'despues': 3}
+  filas con total != suma (diff = total - suma; ceros = cuerdas sin nudos en la fila; marcador = valor de la 1.ª cuerda):
+    p39-p44    S= 451 total= 496 diff=  +45  ceros=0 marcador=16  vals=[16, 61, 56, 212, 52, 54]
+    p46-p51    S= 335 total= 333 diff=   -2  ceros=0 marcador=16  vals=[16, 76, 10, 190, 35, 8]
+    p53-p58    S= 317 total= 333 diff=  +16  ceros=1 marcador=0  vals=[0, 63, 14, 220, 8, 12]
+    p74-p79    S= 406 total= 514 diff= +108  ceros=0 marcador=16  vals=[16, 12, 47, 236, 54, 41]
+    p88-p93    S= 259 total= 495 diff= +236  ceros=0 marcador=16  vals=[16, 61, 54, 29, 46, 53]
+    p95-p102   S= 432 total= 504 diff=  +72  ceros=0 marcador=16  vals=[16, 42, 52, 37, 158, 44, 52, 31]
+    p104-p109  S= 498 total= 497 diff=   -1  ceros=0 marcador=16  vals=[16, 105, 55, 239, 31, 52]
+    p111-p116  S= 531 total= 535 diff=   +4  ceros=0 marcador=16  vals=[16, 146, 32, 256, 52, 29]
+    p118-p123  S= 538 total= 535 diff=   -3  ceros=0 marcador=16  vals=[16, 147, 34, 300, 19, 22]
+    p132-p137  S= 112 total= 530 diff= +418  ceros=2 marcador=16  vals=[16, 0, 30, 0, 47, 19]
+    p153-p158  S= 402 total= 435 diff=  +33  ceros=0 marcador=16  vals=[16, 66, 35, 212, 30, 43]
+    p160-p167  S=3839 total=  15 diff=-3824  ceros=0 marcador=234  vals=[234, 215, 456, 375, 375, 168, 1957, 59]
+  filas con cuerda sin nudos: [('p53-p58', 16, [0, 63, 14, 220, 8, 12]), ('p132-p137', 418, [16, 0, 30, 0, 47, 19])]
+
+=== UR119: 24 filas (>=2 cuerdas con nudos); con cuerda-total adyacente: 10
+  total == suma de la fila: 4 ; |dif|<=1: 4 ; total == suma con subsidiarias: 0
+  lado del total: {'antes': 8, 'despues': 2}
+  filas con total != suma (diff = total - suma; ceros = cuerdas sin nudos en la fila; marcador = valor de la 1.ª cuerda):
+    p81-p86    S= 512 total= 503 diff=   -9  ceros=0 marcador=19  vals=[19, 135, 35, 231, 38, 54]
+    p88-p93    S= 450 total= 456 diff=   +6  ceros=0 marcador=19  vals=[19, 27, 46, 258, 53, 47]
+    p95-p100   S= 449 total= 522 diff=  +73  ceros=0 marcador=19  vals=[19, 32, 41, 265, 46, 46]
+    p102-p109  S= 489 total= 522 diff=  +33  ceros=0 marcador=19  vals=[19, 30, 38, 51, 229, 43, 46, 33]
+    p118-p123  S= 629 total= 643 diff=  +14  ceros=0 marcador=19  vals=[19, 122, 57, 332, 44, 55]
+    p125-p130  S= 587 total= 643 diff=  +56  ceros=0 marcador=31  vals=[31, 135, 51, 244, 61, 65]
+
+Filas con total != suma y sin cuerdas vacías: total > suma en 11, total < suma en 4; p binomial bilateral = 0.118
+cuerdas rotas (terminación B) por fila: total==suma media 0.20 (n=10), total!=suma media 0.24 (n=17); Mann-Whitney p=0.544
+
+Filas sin cuerda-total adyacente (con nudos): {'UR118': 5, 'UR119': 14}
+UR118 marcador por filas (valor x nº de filas consecutivas): [(46, 1), (13, 3), (2, 1), (16, 2), (0, 1), (16, 14), (234, 1)]
+UR119 marcador por filas (valor x nº de filas consecutivas): [(19, 4), (25, 3), (19, 10), (31, 1), (13, 6)]
+
+=== Emparejamiento fila a fila
+pares de filas (UR118 x UR119) con >=2 columnas idénticas en la misma posición: 1; nulo (columnas barajadas) 1.05, p=0.689
+   UR118 p18-p23 [13, 91, 61, 204, 24, 56]  ~  UR119 p9-p14 [19, 91, 61, 246, 33, 264]
+alineamiento monótono de totales de fila (desfases -4..4, ambos sentidos): mejor rho=0.44 (sentido inverso=True, desfase -1, n=19); nulo (orden de filas barajado, mismo máximo): p=0.416
+UR118: mediana de suma de fila 419 (rango 112-3839); columna mayor (4.ª-5.ª) mediana 224; nº de cuerdas por fila: {6: 16, 8: 2}
+UR119: mediana de suma de fila 466 (rango 390-629); columna mayor (4.ª-5.ª) mediana 230; nº de cuerdas por fila: {6: 9, 8: 1}
+Mann-Whitney sumas de fila UR118 vs UR119: 0.27006341820667434

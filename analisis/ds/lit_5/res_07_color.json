@@ -1,0 +1,25 @@
+{
+  "blanco": {
+    "pct_W_exacto": 21.85,
+    "pct_contiene_W": 38.58,
+    "pct_khipus_W": 70.7,
+    "pct_khipus_contiene": 82.0
+  },
+  "kw_cuerda": {
+    "n_colores": 39,
+    "H": 1449.8,
+    "p": 7.53e-280
+  },
+  "quipu_signos": {
+    "n": 394,
+    "mediana_dif": 0.077,
+    "pos": 216,
+    "neg": 141,
+    "p": 8.501237191432944e-05
+  },
+  "nulo_color": {
+    "obs": 0.112,
+    "p_perm": 0.000999000999000999,
+    "n_perm": 1000
+  }
+}

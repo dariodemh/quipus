@@ -1,0 +1,25 @@
+{
+ "bloques": {
+  "n": 444,
+  "q05": 108,
+  "por_rasgo": {
+   "terminacion": 314,
+   "torsion": 10,
+   "union": 120
+  }
+ },
+ "cambio": {
+  "n": 706,
+  "q05": 108,
+  "por_rasgo": {
+   "terminacion": 409,
+   "torsion": 86,
+   "union": 211
+  }
+ },
+ "notas": {
+  "n_cuerdas": 134,
+  "n_quipus": 52,
+  "p": 0.08693204595992399
+ }
+}

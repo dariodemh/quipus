@@ -1,0 +1,64 @@
+clase ND 60 NC 15 NU 3 union 77 de 651
+
+ND por prefijo
+pref    AS  HP  JC  KH  MM  QU   UR
+ND                                 
+False  132  51  21  13  21  22  331
+True    12   5   2   1   1   0   39
+
+NC (Rdiff>=.3,p<.05):
+   kfg  ncuerdas  n_knotless  n_knotted  Rdiff  Rdiff_p  frac_rico                   procedencia
+ UR223      80.0           9         71  0.637    0.000      0.212                           Ica
+ UR241      71.0          37         34  0.536    0.000      0.338                       Unknown
+ AS199      86.0           7         79  0.481    0.012      0.558                       Unknown
+UR1058      38.0          19         19  0.421    0.009      0.474                       Unknown
+ MM020      89.0          27         62  0.420    0.001      0.337                       Unknown
+ UR182      30.0           6         24  0.417    0.038      0.167                   Chuquitanta
+ HP056     162.0           7        155  0.397    0.026      0.191                       Unknown
+ MM005      54.0          45          9  0.356    0.047      0.630                       Unknown
+ QU003      44.0          15         29  0.354    0.021      0.500                       Unknown
+ HP012      57.0          26         31  0.352    0.002      0.193                    Pachacamac
+UR1109     287.0          60        227  0.344    0.000      0.495                           Ica
+ UR234      98.0          26         72  0.326    0.001      0.184                       Unknown
+ UR067      35.0          13         22  0.325    0.049      0.257                   Huaquerones
+UR058A     275.0          57        218  0.321    0.000      0.553 Playa Miller #6, Arica, Chile
+ UR240      76.0           8         68  0.316    0.021      0.092                       Unknown
+
+NU:
+  kfg  ncuerdas  n_imposible     Z  n_knotless   procedencia
+UR179      18.0         16.0 0.889           2 Cajamarquilla
+UR180      12.0          9.0 0.750           0 Cajamarquilla
+AS081       8.0          2.0 0.250           0       Unknown
+
+ND top:
+    kfg  ncuerdas_nudo  n_multi    D    I    Q  Rdiff    NC                   procedencia
+ AS207C           12.0      6.0 1.00 0.00 1.00   0.08 False                       Unknown
+  AS076           16.0     12.0 1.00 0.00 1.00    NaN False                       Unknown
+  HP020           24.0     12.0 1.00 0.00 1.00  -0.04 False                    Pachacamac
+  HP019           10.0      7.0 1.00 0.00 1.00   0.00 False                    Pachacamac
+  UR007           38.0      6.0 1.00 0.00 1.00  -0.16 False                    Leymebamba
+  JC012           22.0     13.0 1.00 0.00 1.00   0.00 False                     Incahuasi
+  UR282           27.0      6.0 1.00 0.00 1.00  -0.01 False    Huaca San Pedro, Armatambo
+  UR050          164.0    163.0 1.00 0.00 1.00    NaN False                       Unknown
+  UR178           14.0     14.0 1.00 0.00 1.00    NaN False                 Cajamarquilla
+  UR289           25.0      7.0 1.00 0.00 1.00  -0.30 False    Armatambo, Huaca San Pedro
+  UR054          114.0    113.0 1.00 0.00 0.99   0.00 False                       Unknown
+  UR052           94.0     90.0 1.00 0.00 0.99   0.00 False                       Unknown
+  UR051           86.0     75.0 0.99 0.00 0.99   0.25 False                       Unknown
+  UR110           85.0     51.0 0.98 0.02 0.98   0.00 False                       Unknown
+  UR112           76.0     37.0 1.00 0.02 0.97    NaN False                       Unknown
+  UR003          469.0     23.0 0.96 0.05 0.96  -0.09 False                    Leymebamba
+  AS077           30.0     10.0 0.90 0.00 0.90  -0.03 False                       Unknown
+  UR144           96.0     60.0 0.93 0.00 0.85    NaN False                Valle de Pisco
+  UR055          176.0    173.0 1.00 0.04 0.83   0.74 False                       Unknown
+ UR058A          218.0     12.0 0.75 0.08 0.75   0.32  True Playa Miller #6, Arica, Chile
+ AS207B           23.0     12.0 0.75 0.00 0.75  -0.13 False                       Unknown
+  UR284           21.0     15.0 0.87 0.05 0.73  -0.19 False    Armatambo, Huaca San Pedro
+  UR171           11.0      7.0 0.71 0.29 0.71   0.00 False                       Unknown
+HP051_A           27.0     14.0 0.64 0.07 0.64  -0.07 False                       Unknown
+  AS186           51.0      8.0 0.62 0.00 0.62   0.13 False                       Unknown
+  UR037          150.0     28.0 0.75 0.00 0.61  -0.06 False                       Unknown
+  JC006           12.0      5.0 0.60 0.00 0.60   0.00 False                     Incahuasi
+  UR173            7.0      5.0 0.60 0.00 0.60    NaN False                       Unknown
+  MM019          218.0     47.0 0.64 0.00 0.60   0.18 False                       Unknown
+  UR196           71.0     24.0 0.62 0.00 0.58   0.29 False                    Pachacamac

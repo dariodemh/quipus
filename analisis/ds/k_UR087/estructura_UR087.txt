@@ -1,0 +1,370 @@
+  0 p1         n0 g 0 v=1.0      u=R c=AB(0.0-8.0)/YB(8.0-35.0)   t=SK 1E(15.0,Z),1
+  1 p2         n0 g 0 v=1.0      u=R c=AB(0.0-10.0)/YB(10.0-33.0) t=SK 1E(14.5,Z),1
+  2 p3         n0 g 0 v=10.0     u=R c=AB(0.0-8.0)/YB(8.0-28.0)   t=ZK 1S(5.5,Z),10
+  3 p4         n0 g 0 v=1.0      u=R c=AB(0.0-9.0)/YB(9.0-29.5)   t=ZK 1E(15.0,Z),1
+  4 p4s1       n1 g 0 v=1.0      u=U c=AB:MB                      t=SK 1E(5.5,Z),1
+  5 p4s2       n1 g 0 v=1.0      u=U c=AB                         t=SR 1E(5.5,Z),1
+  6 p5         n0 g 0 v=1.0      u=R c=AB(0.0-6.0)/YB(6.0-26.5)   t=ZK 1E(14.5,Z),1
+  7 p6         n0 g 0 v=1.0      u=R c=AB(0.0-8.5)/YB(8.5-33.0)   t=SR 1E(14.5,Z),1
+  8 p7         n0 g 1 v=15.0     u=U c=AB                         t=SR 1S(6.5,Z),10;5L(18.0,Z),5
+  9 p8         n0 g 2 v=1.0      u=R c=AB                         t=SK 1E(16.5,Z),1
+ 10 p9         n0 g 2 v=1.0      u=R c=AB                         t=SK 1E(15.0,Z),1
+ 11 p10        n0 g 2 v=11.0     u=R c=AB                         t=SK 1S(5.0,Z),10;1E(15.0,Z),1
+ 12 p11        n0 g 2 v=1.0      u=R c=AB                         t=SK 1E(14.5,Z),1
+ 13 p12        n0 g 2 v=1.0      u=R c=AB                         t=SK 1E(13.5,Z),1
+ 14 p13        n0 g 2 v=1.0      u=R c=AB                         t=SK 1E(14.5,Z),1
+ 15 p14        n0 g 3 v=21.0     u=U c=AB                         t=SK 2S(5.5,Z),20;1E(18.0,Z),1
+ 16 p15        n0 g 4 v=10.0     u=R c=W                          t=SK 1S(15.0,Z),10
+ 17 p16        n0 g 4 v=1.0      u=R c=W                          t=SK 1E(15.0,S),1
+ 18 p17        n0 g 4 v=10.0     u=R c=W                          t=SK 1S(6.0,Z),10
+ 19 p18        n0 g 4 v=1.0      u=R c=W                          t=SK 1E(15.5,Z),1
+ 20 p19        n0 g 4 v=1.0      u=R c=W                          t=SK 1E(16.0,Z),1
+ 21 p20        n0 g 4 v=1.0      u=R c=W                          t=SK 1E(16.0,Z),1
+ 22 p21        n0 g 5 v=13.0     u=U c=AB                         t=SK 1S(8.0,Z),10;3L(25.0,Z),3
+ 23 p22        n0 g 6 v=1.0      u=R c=AB                         t=SK 1E(18.0,Z),1
+ 24 p23        n0 g 6 v=1.0      u=R c=AB                         t=SK 1E(16.5,Z),1
+ 25 p24        n0 g 6 v=11.0     u=R c=AB                         t=SK 1S(6.5,Z),10;1E(15.5,Z),1
+ 26 p25        n0 g 6 v=1.0      u=R c=AB                         t=SK 1E(16.5,Z),1
+ 27 p26        n0 g 6 v=1.0      u=R c=AB                         t=SR 1E(16.5,Z),1
+ 28 p27        n0 g 6 v=1.0      u=R c=AB                         t=SK 1E(16.5,Z),1
+ 29 p28        n0 g 7 v=1.0      u=R c=AB(0.0-6.5)/YB(6.5-32.5)   t=SK 1E(16.5,Z),1
+ 30 p29        n0 g 7 v=0.0      u=R c=AB(0.0-8.0)/YB(8.0-34.0)   t=SR nan
+ 31 p29s1      n1 g 7 v=2.0      u=U c=LG                         t=SR 2L(8.5,Z),2
+ 32 p30        n0 g 7 v=0.0      u=R c=AB(0.0-6.5)/YB(6.5-31.5)   t=SR nan
+ 33 p30s1      n1 g 7 v=2.0      u=R c=AB:MB                      t=SR 2L(5.5,Z),2
+ 34 p30s2      n1 g 7 v=1.0      u=U c=AB:KB                      t=SK 1E(5.0,Z),1
+ 35 p31        n0 g 7 v=1.0      u=R c=AB(0.0-6.5)/YB(6.5-31.0)   t=SK 1E(17.0,Z),1
+ 36 p32        n0 g 7 v=1.0      u=R c=AB(0.0-6.0)/YB(6.0-30.0)   t=SR 1E(15.5,Z),1
+ 37 p33        n0 g 7 v=1.0      u=R c=AB(0.0-7.5)/YB(7.5-31.0)   t=SR 1E(15.5,Z),1
+ 38 p34        n0 g 8 v=1.0      u=R c=W(0.0-7.0)/AB(7.0-31.0)    t=SK 1E(15.5,Z),1
+ 39 p35        n0 g 8 v=1.0      u=R c=W(0.0-7.5)/AB(7.5-15.5)    t=SK 1E(15.5,Z),1
+ 40 p35s1      n1 g 8 v=3.0      u=R c=LG                         t=SK 3L(7.0,Z),3
+ 41 p36        n0 g 8 v=1.0      u=R c=W(0.0-6.5)/AB(6.5-31.5)    t=SK 1E(16.5,Z),1
+ 42 p36s1      n1 g 8 v=2.0      u=U c=AB:MB                      t=SK 2L(4.0,Z),2
+ 43 p36s2      n1 g 8 v=1.0      u=R c=KB(0.0-4.5)/AB:MB(4.5-13.0) t=SK 1E(4.5,Z),1
+ 44 p37        n0 g 8 v=13.0     u=R c=W(0.0-6.0)/AB(6.0-30.0)    t=SK 1S(5.0,Z),10;3L(15.0,Z),3
+ 45 p38        n0 g 8 v=2.0      u=R c=W(0.0-7.0)/AB(7.0-28.5)    t=SK 2L(13.0,Z),2
+ 46 p39        n0 g 8 v=1.0      u=R c=W(0.0-7.0)/AB(7.0-30.0)    t=SK 1E(15.5,Z),1
+ 47 p40        n0 g 9 v=20.0     u=R c=AB(0.0-5.5)/W(5.5-31.0)    t=SK 2S(5.0,Z),20
+ 48 p41        n0 g10 v=1.0      u=R c=YB                         t=SK 1E(15.0,Z),1
+ 49 p42        n0 g10 v=1.0      u=R c=YB                         t=SK 1E(14.5,Z),1
+ 50 p42s1      n1 g10 v=2.0      u=U c=LG                         t=SK 2L(8.0,Z),2
+ 51 p43        n0 g10 v=2.0      u=R c=YB                         t=SK 2L(14.5,Z),2
+ 52 p43s1      n1 g10 v=1.0      u=U c=AB:MB                      t=SR 1E(4.5,Z),1
+ 53 p44        n0 g10 v=11.0     u=R c=YB                         t=SK 1S(5.0,Z),10;1E(15.0,Z),1
+ 54 p45        n0 g10 v=1.0      u=R c=YB                         t=SK 1E(14.0,Z),1
+ 55 p46        n0 g10 v=2.0      u=R c=YB                         t=SK 2L(13.0,Z),2
+ 56 p47        n0 g11 v=16.0     u=U c=AB                         t=SK 1S(5.0,Z),10;6L(15.0,Z),6
+ 57 p48        n0 g12 v=1.0      u=R c=AB                         t=SK 1E(12.0,Z),1
+ 58 p49        n0 g12 v=1.0      u=R c=AB                         t=SK 1E(12.5,Z),1
+ 59 p49s1      n1 g12 v=3.0      u=U c=LG                         t=SK 3L(6.0,S),3
+ 60 p50        n0 g12 v=1.0      u=U c=AB                         t=SR 1E(13.0,Z),1
+ 61 p50s1      n1 g12 v=1.0      u=R c=AB:MB                      t=SR 1E(9.0,Z),1
+ 62 p51        n0 g12 v=11.0     u=R c=AB                         t=SK 1S(5.5,Z),10;1E(16.5,Z),1
+ 63 p51s1      n1 g12 v=1.0      u=R c=AB:KB                      t=SB 1E(7.5,Z),1
+ 64 p52        n0 g12 v=2.0      u=R c=AB                         t=SB 2L(12.0,Z),2
+ 65 p53        n0 g12 v=1.0      u=R c=AB                         t=SK 1E(12.5,Z),1
+ 66 p54        n0 g13 v=22.0     u=U c=YB                         t=SK 2S(6.0,Z),20;2L(15.0,Z),2
+ 67 p55        n0 g14 v=1.0      u=R c=AB(0.0-7.0)/YB(7.0-35.0)   t=SB 1E(14.5,Z),1
+ 68 p56        n0 g14 v=0.0      u=R c=AB(0.0-7.0)/YB(7.0-38.0)   t=SK nan
+ 69 p57        n0 g14 v=1.0      u=R c=AB(0.0-7.0)/YB(7.0-37.0)   t=SK 1E(14.5,Z),1
+ 70 p58        n0 g14 v=11.0     u=R c=AB(0.0-6.0)/YB(6.0-36.5)   t=SK 1S(4.5,Z),10;1E(14.5,Z),1
+ 71 p58s1      n1 g14 v=1.0      u=R c=LG:AB                      t=SK 1E(8.5,Z),1
+ 72 p59        n0 g14 v=1.0      u=R c=AB(0.0-6.0)/YB(6.0-36.5)   t=SK 1E(14.0,Z),1
+ 73 p60        n0 g14 v=1.0      u=R c=AB(0.0-7.5)/YB(7.5-39.0)   t=SK 1E(14.5,Z),1
+ 74 p61        n0 g15 v=20.0     u=U c=W:KB                       t=SB 2S(6.0,Z),20
+ 75 p62        n0 g16 v=1.0      u=R c=YB(0.0-7.0)/AB(7.0-31.0)   t=SK 1E(12.5,Z),1
+ 76 p63        n0 g16 v=1.0      u=R c=YB(0.0-8.0)/AB(8.0-32.0)   t=SK 1E(12.0,Z),1
+ 77 p64        n0 g16 v=1.0      u=R c=YB(0.0-8.5)/AB(8.5-32.5)   t=SK 1E(12.5,Z),1
+ 78 p64s1      n1 g16 v=1.0      u=U c=AB:MB                      t=SR 1E(7.5,Z),1
+ 79 p65        n0 g16 v=13.0     u=R c=YB(0.0-7.5)/AB(7.5-29.5)   t=SK 1S(4.5,Z),10;3L(13.0,Z),3
+ 80 p65s1      n1 g16 v=2.0      u=R c=W:KB                       t=SR 2L(7.0,Z),2
+ 81 p66        n0 g16 v=1.0      u=R c=YB(0.0-11.0)/AB(11.0-35.0) t=SK 1E(12.5,Z),1
+ 82 p67        n0 g16 v=7.0      u=R c=YB(0.0-9.0)/AB(9.0-35.0)   t=SK 7L(12.5,Z),7
+ 83 p68        n0 g17 v=20.0     u=U c=AB:KB                      t=SB 2S(7.0,Z),20
+ 84 p69        n0 g18 v=1.0      u=R c=RB                         t=SK 1E(13.5,Z),1
+ 85 p70        n0 g18 v=3.0      u=R c=RB                         t=SK 3L(14.0,Z),3
+ 86 p71        n0 g18 v=1.0      u=R c=RB                         t=SK 1E(14.0,Z),1
+ 87 p71s1      n1 g18 v=2.0      u=U c=W:AB                       t=SK 2L(8.0,Z),2
+ 88 p72        n0 g18 v=11.0     u=R c=RB                         t=SK 1S(3.5,Z),10;1E(13.0,Z),1
+ 89 p72s1      n1 g18 v=1.0      u=U c=W:KB                       t=SK 1E(7.0,Z),1
+ 90 p73        n0 g18 v=1.0      u=R c=RB                         t=SR 1E(14.0,Z),1
+ 91 p73s1      n1 g18 v=1.0      u=U c=LG:AB                      t=SR 1E(7.5,Z),1
+ 92 p74        n0 g18 v=1.0      u=R c=RB                         t=SK 1E(14.0,Z),1
+ 93 p75        n0 g19 v=10.0     u=U c=W:KB                       t=SB 1S(8.0,Z),10
+ 94 p76        n0 g20 v=1.0      u=R c=YB                         t=SK 1E(12.5,Z),1
+ 95 p77        n0 g20 v=1.0      u=R c=YB                         t=SK 1E(12.5,Z),1
+ 96 p78        n0 g20 v=1.0      u=R c=YB                         t=SK 1E(12.5,Z),1
+ 97 p78s1      n1 g20 v=1.0      u=U c=W:AB                       t=SR 1E(9.0,Z),1
+ 98 p79        n0 g20 v=11.0     u=R c=YB                         t=SK 1S(3.5,Z),10;1E(13.0,Z),1
+ 99 p79s1      n1 g20 v=2.0      u=U c=W:KB                       t=SR 2L(8.0,Z),2
+100 p80        n0 g20 v=1.0      u=R c=YB                         t=SK 1E(13.0,Z),1
+101 p81        n0 g20 v=1.0      u=R c=YB                         t=SK 1E(13.0,Z),1
+102 p82        n0 g21 v=1.0      u=R c=AB(0.0-8.0)/YB(8.0-30.0)   t=SK 1E(12.5,Z),1
+103 p83        n0 g21 v=0.0      u=R c=AB(0.0-8.0)/YB(8.0-33.0)   t=SK nan
+104 p83s1      n1 g21 v=1.0      u=U c=LG:AB                      t=SK 1E(10.0,Z),1
+105 p84        n0 g21 v=0.0      u=R c=AB(0.0-8.0)/YB(8.0-36.5)   t=SK nan
+106 p84s1      n1 g21 v=3.0      u=R c=W:AB                       t=SK 3L(7.0,Z),3
+107 p85        n0 g21 v=11.0     u=R c=nan                        t=SK 1S(5.5,Z),10;1E(14.0,Z),1
+108 p85s1      n1 g21 v=1.0      u=U c=LG:MB                      t=SK 1E(6.0,Z),1
+109 p86        n0 g21 v=1.0      u=R c=AB(0.0-8.5)/YB(8.5-32.5)   t=SK 1E(12.5,Z),1
+110 p87        n0 g21 v=1.0      u=R c=AB(0.0-8.5)/YB(8.5-37.0)   t=SK 1E(13.0,Z),1
+111 p88        n0 g22 v=0.0      u=U c=LG                         t=SK nan
+112 p89        n0 g23 v=1.0      u=R c=AB                         t=SK 1E(12.5,Z),1
+113 p90        n0 g23 v=0.0      u=R c=AB                         t=SK nan
+114 p90s1      n1 g23 v=2.0      u=R c=AB                         t=SK 2L(5.5,Z),2
+115 p91        n0 g23 v=1.0      u=R c=AB                         t=SK 1E(12.5,Z),1
+116 p91s1      n1 g23 v=3.0      u=R c=AB                         t=SK 3L(7.0,Z),3
+117 p92        n0 g23 v=13.0     u=R c=AB                         t=SK 1S(5.0,Z),10;3L(12.0,Z),3
+118 p92s1      n1 g23 v=1.0      u=U c=W-KB                       t=SK 1E(8.0,S),1
+119 p93        n0 g23 v=7.0      u=R c=AB                         t=SR 7L(11.0,Z),7
+120 p94        n0 g23 v=2.0      u=R c=AB                         t=SK 2L(11.0,Z),2
+121 p95        n0 g24 v=0.0      u=R c=LG                         t=SK nan
+122 p96        n0 g25 v=1.0      u=R c=RB                         t=SK 1E(11.0,Z),1
+123 p97        n0 g25 v=2.0      u=R c=RB                         t=SB 2L(13.0,Z),2
+124 p97s1      n1 g25 v=2.0      u=U c=W:KB                       t=SB 2L(5.0,Z),2
+125 p98        n0 g25 v=1.0      u=R c=RB                         t=SK 1E(11.0,Z),1
+126 p98s1      n1 g25 v=3.0      u=R c=W:AB                       t=SK 3L(6.0,Z),3
+127 p98s2      n1 g25 v=0.0      u=R c=KB                         t=SB nan
+128 p99        n0 g25 v=12.0     u=R c=RB                         t=SK 1S(4.0,Z),10;2L(11.0,Z),2
+129 p100       n0 g25 v=1.0      u=R c=RB                         t=SK 1E(10.5,Z),1
+130 p101       n0 g25 v=1.0      u=R c=RB                         t=SK 1E(10.0,Z),1
+131 p102       n0 g26 v=0.0      u=R c=LG                         t=SK nan
+132 p103       n0 g27 v=1.0      u=R c=YB                         t=SK 1E(10.0,Z),1
+133 p104       n0 g27 v=2.0      u=R c=YB                         t=SK 2L(10.0,Z),2
+134 p105       n0 g27 v=1.0      u=R c=YB                         t=SK 1E(11.0,Z),1
+135 p105s1     n1 g27 v=3.0      u=U c=W:AB                       t=SK 3L(6.0,Z),3
+136 p106       n0 g27 v=12.0     u=R c=YB                         t=SK 1S(4.5,Z),10;2L(12.5,S),2
+137 p107       n0 g27 v=1.0      u=R c=YB                         t=SK 1E(11.0,Z),1
+138 p108       n0 g27 v=1.0      u=R c=YB                         t=SK 1E(12.0,Z),1
+139 p109       n0 g28 v=0.0      u=U c=LG                         t=SK nan
+140 p110       n0 g29 v=1.0      u=R c=AB(0.0-6.5)/YB(6.5-29.5)   t=SK 1E(12.0,Z),1
+141 p111       n0 g29 v=0.0      u=R c=AB(0.0-8.5)/YB(8.5-36.0)   t=SK nan
+142 p111s1     n1 g29 v=1.0      u=U c=W:KB                       t=SK 1E(6.0,Z),1
+143 p112       n0 g29 v=0.0      u=R c=AB(0.0-8.5)/YB(8.5-34.0)   t=SK nan
+144 p112s1     n1 g29 v=4.0      u=U c=W:AB                       t=SK 4L(5.0,Z),4
+145 p113       n0 g29 v=5.0      u=R c=AB(0.0-9.0)/YB(9.0-35.5)   t=SK 5L(17.0,S),5
+146 p113s1     n1 g29 v=7.0      u=U c=W:KB                       t=SK 7L(9.5,S),7
+147 p114       n0 g29 v=2.0      u=R c=AB(0.0-8.5)/YB(8.5-39.0)   t=SK 2L(14.5,S),2
+148 p115       n0 g29 v=2.0      u=R c=AB(0.0-9.0)/YB(9.0-39.5)   t=SK 2L(14.5,S),2
+149 p116       n0 g30 v=1.0      u=R c=YB(0.0-8.5)/AB(8.5-40.0)   t=SK 1E(13.5,Z),1
+150 p117       n0 g30 v=0.0      u=R c=YB(0.0-10.0)/AB(10.0-44.5) t=SK nan
+151 p117s1     n1 g30 v=1.0      u=U c=W:KB                       t=SK 1E(9.5,Z),1
+152 p118       n0 g30 v=1.0      u=R c=YB(0.0-9.5)/AB(9.5-39.0)   t=SK 1E(13.5,Z),1
+153 p119       n0 g30 v=20.0     u=R c=YB(0.0-5.5)/AB(5.5-35.0)   t=SR 2S(4.5,Z),20
+154 p120       n0 g30 v=2.0      u=R c=YB(0.0-8.5)/AB(8.5-40.0)   t=SK 2L(15.0,S),2
+155 p121       n0 g30 v=2.0      u=R c=YB(0.0-8.5)/AB(8.5-38.5)   t=SK 2L(14.0,Z),2
+156 p122       n0 g31 v=1.0      u=R c=RB                         t=SK 1E(14.0,Z),1
+157 p123       n0 g31 v=1.0      u=R c=RB                         t=SK 1E(15.5,Z),1
+158 p123s1     n1 g31 v=0.0      u=U c=W:KB                       t=SB nan
+159 p124       n0 g31 v=1.0      u=R c=RB                         t=SK 1E(13.5,Z),1
+160 p124s1     n1 g31 v=5.0      u=U c=W:AB                       t=SR 5L(6.0,Z),5
+161 p125       n0 g31 v=11.0     u=R c=RB                         t=SB 1S(6.0,Z),10;1E(15.0,Z),1
+162 p125s1     n1 g31 v=2.0      u=U c=W:KB                       t=SB 2L(8.5,Z),2
+163 p126       n0 g31 v=1.0      u=R c=RB                         t=SK 1E(14.5,Z),1
+164 p127       n0 g31 v=0.0      u=R c=RB                         t=SK nan
+165 p128       n0 g31 v=1.0      u=R c=YB                         t=SK 1E(12.0,Z),1
+166 p129       n0 g31 v=3.0      u=R c=YB                         t=SK 3L(14.0,Z),3
+167 p130       n0 g31 v=1.0      u=R c=YB                         t=SK 1E(15.0,Z),1
+168 p130s1     n1 g31 v=2.0      u=U c=W:AB                       t=SK 2L(6.0,Z),2
+169 p131       n0 g31 v=11.0     u=R c=YB                         t=SK 1S(5.5,Z),10;1E(13.5,S),1
+170 p131s1     n1 g31 v=2.0      u=U c=W:KB                       t=SR 2L(6.5,S),2
+171 p132       n0 g31 v=1.0      u=R c=YB                         t=SK 1E(13.0,S),1
+172 p133       n0 g31 v=1.0      u=R c=YB                         t=SK 1E(14.5,Z),1
+173 p134       n0 g32 v=1.0      u=R c=W                          t=SK 1E(12.5,Z),1
+174 p135       n0 g32 v=0.0      u=R c=W                          t=SK nan
+175 p136       n0 g32 v=1.0      u=R c=W                          t=SK 1E(13.0,Z),1
+176 p137       n0 g32 v=6.0      u=R c=W                          t=SK 6L(13.0,S),6
+177 p138       n0 g32 v=2.0      u=R c=W                          t=SK 2L(13.0,S),2
+178 p139       n0 g32 v=1.0      u=R c=W                          t=SK 1E(12.0,Z),1
+179 p140       n0 g33 v=1.0      u=R c=RB                         t=SK 1E(12.0,Z),1
+180 p141       n0 g33 v=1.0      u=R c=RB                         t=SK 1E(13.5,Z),1
+181 p142       n0 g33 v=0.0      u=R c=RB                         t=SB nan
+182 p143       n0 g33 v=21.0     u=R c=RB                         t=SK 2S(4.5,Z),20;1E(12.5,Z),1
+183 p144       n0 g33 v=1.0      u=R c=RB                         t=SK 1E(12.5,Z),1
+184 p145       n0 g33 v=2.0      u=R c=RB                         t=SK 2L(12.5,Z),2
+185 p146       n0 g34 v=1.0      u=R c=YB                         t=SK 1E(13.0,Z),1
+186 p147       n0 g34 v=1.0      u=R c=YB                         t=SK 1E(12.0,Z),1
+187 p148       n0 g34 v=2.0      u=R c=YB                         t=SK 2L(13.5,Z),2
+188 p149       n0 g34 v=11.0     u=R c=YB                         t=SK 1S(4.5,Z),10;1E(12.5,Z),1
+189 p150       n0 g34 v=0.0      u=R c=YB                         t=SK nan
+190 p151       n0 g34 v=1.0      u=R c=YB                         t=SK 1E(13.0,Z),1
+191 p152       n0 g35 v=1.0      u=R c=MB                         t=SK 1E(13.5,Z),1
+192 p153       n0 g35 v=3.0      u=R c=MB                         t=SK 3L(14.0,Z),3
+193 p154       n0 g35 v=0.0      u=R c=MB                         t=SK nan
+194 p154s1     n1 g35 v=3.0      u=U c=W:AB                       t=SK 3L(4.0,Z),3
+195 p155       n0 g35 v=11.0     u=R c=MB                         t=SK 1S(4.5,Z),10;1E(13.5,Z),1
+196 p156       n0 g35 v=1.0      u=R c=MB                         t=SK 1E(13.0,Z),1
+197 p157       n0 g35 v=1.0      u=R c=MB                         t=SK 1E(12.5,Z),1
+198 p158       n0 g36 v=1.0      u=R c=W                          t=SK 1E(12.5,Z),1
+199 p159       n0 g36 v=0.0      u=R c=W                          t=SK nan
+200 p159s1     n1 g36 v=0.0      u=U c=W:BY                       t=SB nan
+201 p160       n0 g36 v=1.0      u=R c=W                          t=SK 1E(13.0,Z),1
+202 p160s1     n1 g36 v=4.0      u=U c=W:BY                       t=SK 4L(4.5,Z),4
+203 p161       n0 g36 v=8.0      u=R c=W                          t=SK 8L(11.0,Z),8
+204 p162       n0 g36 v=1.0      u=R c=W                          t=SK 1E(12.5,Z),1
+205 p163       n0 g36 v=1.0      u=R c=W                          t=SK 1E(14.0,Z),1
+206 p164       n0 g37 v=1.0      u=R c=RB                         t=SK 1E(13.5,S),1
+207 p165       n0 g37 v=3.0      u=R c=RB                         t=SK 3L(14.0,Z),3
+208 p166       n0 g37 v=2.0      u=R c=RB                         t=SK 2L(14.0,Z),2
+209 p166s1     n1 g37 v=5.0      u=U c=W:AB                       t=SK 5L(7.5,Z),5
+210 p167       n0 g37 v=22.0     u=R c=RB                         t=SK 2S(5.5,Z),20;2L(14.0,Z),2
+211 p168       n0 g37 v=2.0      u=R c=RB                         t=SK 2L(14.5,Z),2
+212 p169       n0 g37 v=2.0      u=R c=RB                         t=SK 2L(14.5,Z),2
+213 p170       n0 g38 v=1.0      u=R c=AB                         t=SK 1E(15.0,S),1
+214 p171       n0 g38 v=3.0      u=R c=AB                         t=SK 3L(15.0,S),3
+215 p172       n0 g38 v=1.0      u=R c=AB                         t=SK 1E(14.5,S),1
+216 p172s1     n1 g38 v=0.0      u=R c=KB                         t=SB nan
+217 p173       n0 g38 v=11.0     u=R c=AB                         t=SK 1S(6.0,Z),10;1E(14.0,Z),1
+218 p174       n0 g38 v=1.0      u=R c=AB                         t=SK 1E(14.0,S),1
+219 p175       n0 g38 v=1.0      u=R c=AB                         t=SK 1E(13.0,S),1
+220 p176       n0 g39 v=1.0      u=R c=YB                         t=SK 1E(13.5,S),1
+221 p177       n0 g39 v=3.0      u=R c=YB                         t=SK 3L(14.5,S),3
+222 p178       n0 g39 v=1.0      u=R c=YB                         t=SK 1E(14.0,S),1
+223 p178s1     n1 g39 v=4.0      u=U c=W:BY                       t=SK 4L(6.0,Z),4
+224 p179       n0 g39 v=11.0     u=R c=YB                         t=SK 1S(6.0,Z),10;1E(15.5,Z),1
+225 p180       n0 g39 v=1.0      u=R c=YB                         t=SK 1E(15.0,S),1
+226 p181       n0 g39 v=1.0      u=R c=YB                         t=SK 1E(15.0,Z),1
+227 p182       n0 g41 v=0.0      u=U c=GG:DG                      t=SK nan
+228 p183       n0 g40 v=1.0      u=R c=YB                         t=SK 1E(15.0,Z),1
+229 p184       n0 g40 v=1.0      u=R c=YB                         t=SK 1E(14.5,Z),1
+230 p185       n0 g40 v=0.0      u=R c=YB                         t=SK nan
+231 p186       n0 g40 v=9.0      u=R c=YB                         t=SK 9L(14.0,S),9
+232 p187       n0 g40 v=1.0      u=R c=YB                         t=SK 1E(15.0,Z),1
+233 p188       n0 g40 v=2.0      u=R c=YB                         t=SK 2L(14.0,Z),2
+234 p189       n0 g42 v=1.0      u=R c=RB                         t=SK 1E(14.0,Z),1
+235 p190       n0 g42 v=5.0      u=R c=RB                         t=SK 5L(13.5,Z),5
+236 p191       n0 g42 v=4.0      u=R c=RB                         t=SK 4L(14.0,Z),4
+237 p192       n0 g42 v=22.0     u=R c=RB                         t=SK 2S(6.5,Z),20;2L(13.0,Z),2
+238 p193       n0 g42 v=2.0      u=R c=RB                         t=SK 2L(13.0,Z),2
+239 p194       n0 g42 v=2.0      u=R c=RB                         t=SK 2L(13.5,Z),2
+240 p195       n0 g43 v=1.0      u=R c=AB                         t=SK 1E(13.5,Z),1
+241 p196       n0 g43 v=3.0      u=R c=AB                         t=SK 3L(14.0,Z),3
+242 p197       n0 g43 v=0.0      u=R c=AB                         t=SK nan
+243 p197s1     n1 g43 v=3.0      u=R c=W:AB                       t=SK 3L(5.0,Z),3
+244 p198       n0 g43 v=12.0     u=R c=AB                         t=SK 1S(6.0,Z),10;2L(14.5,Z),2
+245 p199       n0 g43 v=1.0      u=R c=AB                         t=SK 1E(14.0,Z),1
+246 p200       n0 g43 v=1.0      u=R c=AB                         t=SK 1E(15.0,Z),1
+247 p201       n0 g44 v=1.0      u=R c=YB                         t=SK 1E(16.0,Z),1
+248 p202       n0 g44 v=3.0      u=R c=YB                         t=SK 3L(16.5,S),3
+249 p202s1     n1 g44 v=1.0      u=U c=W:KB                       t=SK 1E(7.5,S),1
+250 p203       n0 g44 v=1.0      u=R c=YB                         t=SK 1E(16.5,Z),1
+251 p204       n0 g44 v=12.0     u=R c=YB                         t=SK 1S(5.5,Z),10;2L(16.0,S),2
+252 p205       n0 g44 v=1.0      u=R c=YB                         t=SK 1E(16.5,Z),1
+253 p206       n0 g44 v=3.0      u=R c=YB                         t=SK 3L(15.5,Z),3
+254 p207       n0 g45 v=0.0      u=U c=AB                         t=SK nan
+255 p208       n0 g46 v=1.0      u=R c=W                          t=SK 1E(19.0,Z),1
+256 p209       n0 g46 v=1.0      u=R c=W                          t=SK 1E(19.5,Z),1
+257 p210       n0 g46 v=0.0      u=R c=W                          t=SK nan
+258 p210s1     n1 g46 v=4.0      u=U c=W:BY                       t=SK 4L(11.5,Z),4
+259 p210s2     n1 g46 v=0.0      u=U c=W                          t=SB nan
+260 p210s3     n1 g46 v=2.0      u=R c=HB                         t=SB 2L(8.0,Z),2
+261 p211       n0 g46 v=10.0     u=R c=W                          t=SK 1S(9.0,Z),10
+262 p212       n0 g46 v=1.0      u=R c=W                          t=SK 1E(17.0,S),1
+263 p212s1     n1 g46 v=1.0      u=R c=W:HB                       t=SK 1E(9.0,Z),1
+264 p213       n0 g46 v=0.0      u=R c=W                          t=SK nan
+265 p214       n0 g47 v=1.0      u=R c=RB                         t=SK 1E(19.5,Z),1
+266 p215       n0 g47 v=8.0      u=R c=RB                         t=SK 8L(16.0,S),8
+267 p215s1     n1 g47 v=1.0      u=U c=W:LA                       t=SR 1E(14.5,S),1
+268 p216       n0 g47 v=2.0      u=R c=RB                         t=SK 2L(19.5,Z),2
+269 p216s1     n1 g47 v=4.0      u=U c=W:AB                       t=SK 4L(10.0,Z),4
+270 p217       n0 g47 v=22.0     u=R c=RB                         t=SK 2S(7.5,Z),20;2L(19.0,Z),2
+271 p217s1     n1 g47 v=2.0      u=U c=W:KB                       t=SK 2L(9.0,S),2
+272 p218       n0 g47 v=1.0      u=R c=RB                         t=SK 1E(18.0,Z),1
+273 p219       n0 g47 v=1.0      u=R c=RB                         t=SK 1E(18.5,Z),1
+274 p220       n0 g48 v=1.0      u=R c=AB                         t=SK 1E(20.5,Z),1
+275 p221       n0 g48 v=3.0      u=R c=AB                         t=SK 3L(20.0,Z),3
+276 p222       n0 g48 v=1.0      u=R c=AB                         t=SK 1E(20.0,Z),1
+277 p223       n0 g48 v=12.0     u=R c=AB                         t=SK 1S(7.5,Z),10;2L(18.0,Z),2
+278 p224       n0 g48 v=1.0      u=R c=AB                         t=SK 1E(18.5,Z),1
+279 p225       n0 g48 v=1.0      u=R c=AB                         t=SK 1E(18.0,Z),1
+280 p226       n0 g49 v=1.0      u=R c=YB                         t=SK 1E(18.0,Z),1
+281 p227       n0 g49 v=3.0      u=R c=YB                         t=SK 3L(17.0,Z),3
+282 p227s1     n1 g49 v=1.0      u=R c=W:KB                       t=SK 1E(15.0,S),1
+283 p228       n0 g49 v=1.0      u=R c=YB                         t=SK 1E(17.0,Z),1
+284 p229       n0 g49 v=12.0     u=R c=YB                         t=SK 1S(7.0,Z),10;2L(18.5,S),2
+285 p229s1     n1 g49 v=1.0      u=U c=W:KB                       t=SB 1E(9.0,S),1
+286 p230       n0 g49 v=3.0      u=R c=YB                         t=SK 3L(17.0,Z),3
+287 p231       n0 g49 v=0.0      u=R c=YB                         t=SK nan
+288 p232       n0 g50 v=0.0      u=U c=G0                         t=SK nan
+289 p233       n0 g51 v=1.0      u=R c=W                          t=SK 1E(19.0,Z),1
+290 p234       n0 g51 v=1.0      u=R c=W                          t=SK 1E(19.5,S),1
+291 p235       n0 g51 v=0.0      u=R c=W                          t=SK nan
+292 p236       n0 g51 v=10.0     u=R c=W                          t=SK 1S(7.0,Z),10
+293 p236s1     n1 g51 v=1.0      u=U c=W:KB                       t=SB 1E(9.5,Z),1
+294 p237       n0 g51 v=0.0      u=R c=W                          t=SK nan
+295 p238       n0 g51 v=1.0      u=R c=W                          t=SK 1E(20.0,Z),1
+296 p239       n0 g51 v=1.0      u=R c=RB                         t=SK 1E(20.0,Z),1
+297 p240       n0 g51 v=10.0     u=R c=RB                         t=SK 1S(7.5,Z),10
+298 p241       n0 g51 v=2.0      u=R c=RB                         t=SK 2L(20.0,Z),2
+299 p242       n0 g51 v=23.0     u=R c=RB                         t=SK 2S(7.0,Z),20;3L(20.5,S),3
+300 p243       n0 g51 v=1.0      u=R c=RB                         t=SK 1E(21.5,Z),1
+301 p244       n0 g51 v=1.0      u=R c=RB                         t=SK 1E(21.5,Z),1
+302 p245       n0 g51 v=1.0      u=R c=AB                         t=SK 1E(22.5,Z),1
+303 p246       n0 g51 v=3.0      u=R c=AB                         t=SK 3L(21.5,Z),3
+304 p247       n0 g51 v=1.0      u=R c=AB                         t=SK 1E(21.0,Z),1
+305 p248       n0 g51 v=12.0     u=R c=AB                         t=SK 1S(7.5,Z),10;2L(21.0,S),2
+306 p248s1     n1 g51 v=1.0      u=U c=MB:KB                      t=SK 1E(19.5,S),1
+307 p249       n0 g51 v=1.0      u=R c=AB                         t=SK 1E(22.0,Z),1
+308 p250       n0 g51 v=2.0      u=R c=AB                         t=SK 2L(21.0,Z),2
+309 p251       n0 g51 v=1.0      u=R c=YB                         t=SK 1E(22.0,Z),1
+310 p252       n0 g51 v=3.0      u=R c=YB                         t=SK 3L(20.5,Z),3
+311 p253       n0 g51 v=1.0      u=R c=YB                         t=SK 1E(21.5,Z),1
+312 p254       n0 g51 v=14.0     u=R c=YB                         t=SK 1S(8.5,Z),10;4L(21.0,S),4
+313 p254s1     n1 g51 v=0.0      u=U c=KB                         t=SB nan
+314 p255       n0 g51 v=0.0      u=R c=YB                         t=SK nan
+315 p256       n0 g51 v=1.0      u=R c=YB                         t=SK 1E(22.0,Z),1
+316 p257       n0 g52 v=0.0      u=U c=G0                         t=SK nan
+317 p258       n0 g53 v=1.0      u=R c=W                          t=SK 1E(23.0,Z),1
+318 p259       n0 g53 v=1.0      u=R c=W                          t=SK 1E(22.5,Z),1
+319 p260       n0 g53 v=1.0      u=R c=W                          t=SK 1E(22.0,Z),1
+320 p261       n0 g53 v=10.0     u=R c=W                          t=SK 1S(7.0,U),10
+321 p262       n0 g53 v=0.0      u=R c=W                          t=SR nan
+322 p263       n0 g53 v=1.0      u=R c=W                          t=SK 1E(17.0,Z),1
+323 p264       n0 g53 v=1.0      u=R c=RB                         t=SR 1E(19.5,Z),1
+324 p265       n0 g53 v=12.0     u=R c=RB                         t=SK 1S(9.0,Z),10;2L(19.0,Z),2
+325 p266       n0 g53 v=2.0      u=R c=RB                         t=SK 2L(20.5,Z),2
+326 p267       n0 g53 v=25.0     u=R c=RB                         t=SK 2S(9.0,Z),20;5L(20.5,Z),5
+327 p268       n0 g53 v=2.0      u=R c=RB                         t=SR 2L(19.0,Z),2
+328 p269       n0 g53 v=2.0      u=R c=RB                         t=SK 2L(19.5,Z),2
+329 p270       n0 g53 v=1.0      u=R c=AB                         t=SR 1E(19.5,Z),1
+330 p271       n0 g53 v=2.0      u=R c=AB                         t=SK 2L(19.5,Z),2
+331 p272       n0 g53 v=2.0      u=R c=AB                         t=SB 2L(19.0,Z),2
+332 p273       n0 g53 v=13.0     u=R c=AB                         t=SK 1S(8.5,Z),10;3L(19.5,Z),3
+333 p273s1     n1 g53 v=1.0      u=R c=W:BY                       t=SB 1E(8.0,Z),1
+334 p274       n0 g53 v=0.0      u=R c=AB                         t=SR nan
+335 p275       n0 g53 v=2.0      u=R c=AB                         t=SK 2L(19.0,Z),2
+336 p276       n0 g53 v=1.0      u=R c=YB                         t=SB 1E(18.0,Z),1
+337 p277       n0 g53 v=4.0      u=R c=W:AB                       t=SK 4L(17.0,Z),4
+338 p278       n0 g53 v=1.0      u=R c=YB                         t=SR 1E(18.0,Z),1
+339 p279       n0 g53 v=12.0     u=R c=YB                         t=SR 1S(6.5,Z),10;2L(17.5,Z),2
+340 p280       n0 g53 v=2.0      u=R c=W:AB                       t=SK 2L(16.5,Z),2
+341 p281       n0 g53 v=3.0      u=R c=W:AB                       t=SK 3L(15.5,Z),3
+342 p282       n0 g54 v=0.0      u=U c=AB                         t=ZD nan
+343 p283       n0 g55 v=1.0      u=R c=W                          t=SK 1E(16.0,Z),1
+344 p284       n0 g55 v=1.0      u=R c=W                          t=SK 1E(17.0,Z),1
+345 p285       n0 g55 v=0.0      u=R c=W                          t=SK nan
+346 p286       n0 g55 v=9.0      u=R c=W                          t=SK 9L(15.0,Z),9
+347 p287       n0 g55 v=2.0      u=R c=W                          t=SK 2L(15.0,Z),2
+348 p288       n0 g55 v=1.0      u=R c=W                          t=SK 1E(16.0,Z),1
+349 p289       n0 g55 v=1.0      u=R c=RB                         t=SK 1E(17.0,Z),1
+350 p290       n0 g55 v=13.0     u=R c=RB                         t=SK 1S(8.0,Z),10;3L(17.0,Z),3
+351 p290s1     n1 g55 v=0.0      u=R c=KB                         t=SB nan
+352 p291       n0 g55 v=0.0      u=R c=RB                         t=SK nan
+353 p292       n0 g55 v=26.0     u=R c=RB                         t=SK 2S(8.5,Z),20;6L(17.0,Z),6
+354 p292s1     n1 g55 v=0.0      u=U c=W:BY                       t=SB nan
+355 p293       n0 g55 v=2.0      u=R c=RB                         t=SK 2L(17.0,Z),2
+356 p294       n0 g55 v=2.0      u=R c=RB                         t=SK 2L(16.5,Z),2
+357 p295       n0 g55 v=1.0      u=R c=AB                         t=SR 1E(16.5,Z),1
+358 p296       n0 g55 v=4.0      u=R c=AB                         t=SB 4L(16.5,Z),4
+359 p297       n0 g55 v=0.0      u=R c=AB                         t=SB nan
+360 p298       n0 g55 v=11.0     u=R c=AB                         t=SK 1S(9.5,Z),10;1E(20.0,Z),1
+361 p298s1     n1 g55 v=0.0      u=R c=W:BY                       t=SB nan
+362 p299       n0 g55 v=2.0      u=R c=AB                         t=SK 2L(19.0,Z),2
+363 p300       n0 g55 v=0.0      u=R c=AB                         t=SK nan
+364 p301       n0 g55 v=1.0      u=R c=YB                         t=SK 1E(19.5,Z),1
+365 p302       n0 g55 v=5.0      u=R c=YB                         t=SR 5L(18.0,Z),5
+366 p303       n0 g55 v=0.0      u=R c=YB                         t=SK nan
+367 p304       n0 g55 v=15.0     u=R c=YB                         t=SK 1S(9.0,Z),10;5L(19.5,Z),5
+368 p305       n0 g55 v=3.0      u=R c=YB                         t=SK 3L(19.0,Z),3
+369 p306       n0 g55 v=0.0      u=R c=YB                         t=SB nan

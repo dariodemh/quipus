@@ -1,0 +1,30 @@
+modelo A: obs T=38.714 | nulo media 20.976 sd 1.175 | crit95 22.976
+  calibracion: rechazo al 5% = 0.065
+  modal delta=0.00: potencia 0.100
+  modal delta=0.20: potencia 0.640
+  modal delta=0.35: potencia 1.000
+  modal delta=0.50: potencia 1.000
+  modal delta=0.70: potencia 1.000
+  W     delta=0.00: potencia 0.100
+  W     delta=0.20: potencia 0.300
+  W     delta=0.35: potencia 0.820
+  W     delta=0.50: potencia 1.000
+  W     delta=0.70: potencia 1.000
+modelo B: obs T=34.624 | nulo media 28.352 sd 1.833 | crit95 31.465
+  calibracion: rechazo al 5% = 0.045
+  modal delta=0.00: potencia 0.060
+  modal delta=0.20: potencia 0.965
+  modal delta=0.35: potencia 1.000
+  modal delta=0.50: potencia 1.000
+  modal delta=0.70: potencia 1.000
+  W     delta=0.00: potencia 0.060
+  W     delta=0.20: potencia 0.735
+  W     delta=0.35: potencia 0.995
+  W     delta=0.50: potencia 1.000
+  W     delta=0.70: potencia 1.000
+
+ modelo objetivo  mde80  pot_05  pot_07  calibracion
+     A        W  0.344     1.0     1.0        0.065
+     A    modal  0.267     1.0     1.0        0.065
+     B        W  0.238     1.0     1.0        0.045
+     B    modal  0.164     1.0     1.0        0.045

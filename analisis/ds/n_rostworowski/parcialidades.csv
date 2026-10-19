@@ -1,0 +1,33 @@
+﻿valle,unidad,nombre,nivel,tributarios,linea_fuente,nota
+Guarco,encomienda norte,Antonio Navarro / Juan Navarro,encomienda,,680,"mitad norte del valle, con Asia, Oquilla y Calango"
+Guarco,encomienda sur,Alonso Martín de Don Benito,encomienda,,683,segunda encomienda del valle
+Guarco,minoría étnica,coayllos (don Pedro Coayllo),mitmaq,30,630,hasta treinta indígenas con tierras dadas por los incas en Huanca y Lalna
+Guarco,minoría étnica,chinchas (Tambo de Locos),mitmaq,,634,tierras en Herbay Bajo/Alto y Palo
+Guarco,minoría étnica,mochicas (Hualcará),mitmaq,,638,sin lugar preciso en el documento
+Guarco,tierras de dios,Pachacamac (Cuyba/Siuba),enclave religioso,,644,"chacras al sur del valle, junto a la acequia Pachacamilla"
+Guarco,tierras del Sol,Vilcahuasi/Huacones,enclave religioso,,649,tierras del Sol al norte de Vilcahuasi
+Lunahuaná,señorío,Lunaguanay (curaca principal),señorío,740,695,cédula de depósito de 1534; 740 tributarios en la visita de 1577
+Lunahuaná,guaranga 1,Lunaguanay,guaranga,183,706,183 = 732 tributarios payantes / 4 guarangas (derivado)
+Lunahuaná,guaranga 2,Llaquipa (residente en las minas),guaranga,183,706,183 derivado
+Lunahuaná,guaranga 3,"Allauca (mitmaq), pueblo Mullibamba",guaranga,183,712,183 derivado
+Lunahuaná,guaranga 4,Jucxu / Pedro Camaluana,guaranga,183,712,183 derivado; la identificación Jucxu-Camaluana es dudosa en el texto
+Lunahuaná,curacas,"8 curacas, 2 por guaranga",curaca,,762,posible división urin/anan de cada guaranga
+Lunahuaná,ayllus/barrios,"16 nombres actuales (Caltopilla, Caltopa, Casalla, Catapaya, Con-Con y Ramadilla, Paullu, Langla, Lunahuaná, Patapampa, Condoray, Uchupampa, Paraíso, Lúcumo, San Pedro, Socsi, San Jerónimo)",ayllu/barrio,,716,lista de informantes; posible rezago de antiguos ayllus
+Collique,guaranga,Collique,guaranga,1000,229,guaranga = mil tributarios (cifra ideal/incaica)
+Collique,pachaca,Chuquiruro,pachaca,,236,
+Collique,pachaca,Caxa Chumbi,pachaca,,236,
+Collique,pachaca,Vilca Tanta,pachaca,,236,
+Collique,pachaca,Vilca Chumbi,pachaca,,236,
+Collique,pachaca,Chumbi Guarco,pachaca,,236,
+Collique,pachaca,Chumbi Tanta,pachaca,,236,
+Collique,pachaca,Carua Guanco,pachaca,,236,
+Collique,pachaca,Carua Chumbi,pachaca,,236,
+Collique,pachaca,Chinqui Yanga,pachaca,,236,
+Collique,pachaca,Chuquitanta,pachaca,,236,
+Collique,pueblo,Collique (visita 1571),pueblo,15,230,"15 tributarios, 7 muchachos y 2 niños"
+Guancayos,pachaca,9 pachacas (no se listan los nombres),pachaca,900,369,900 hatun runa; el texto dice 'cinco pachaca' y luego 'nueve pachaca' entre cinco jefes; 1+4x2=9 y 5x9=45 apoyan nueve; 100 por pachaca derivado
+Guancayos,jefes,"5 jefes: uno gobierna 1 pachaca, cuatro gobiernan 2",curaca,,369,1 + 4x2 = 9 pachacas
+Chincha,pachaca,30 caciques de 1000 indios,pachaca,30000,2431,30 pachacas de 1000 tributarios; un señor mayor
+Chincha,grupo laboral,labradores,grupo funcional,12000,2915,
+Chincha,grupo laboral,pescadores,grupo funcional,10000,2915,
+Chincha,grupo laboral,mercaderes,grupo funcional,6000,2915,

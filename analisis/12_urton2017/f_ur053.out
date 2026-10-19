@@ -1,0 +1,13 @@
+53C pendientes 61 color seq AB W RB AB W RB AB W RL AB W RL  union {'V': 61}
+53B pend 36 subs 18  union {'R': 36} sub union {'U': 18}
+53C [2, 42, 10, 6, 73, 4, 5, 53, 14, 2, 53, 13, 3, 53, 15, 5, 63, 16, 16, 63, 17, 17, 74, 16, 8, 53, 13, 5, 53, 12, 16, 58, 15, 16, 52, 11, 14, 32, 10, 14, 22, 26, 5, 19, 25, 9, 16, 26, 11, 21, 27, 11, 18, 26, 10, 22, 8, 9, 21, 16, 50]
+53B (orden cuerda,subs) [53, 13, 3, 53, 15, 5, 63, 16, 16, 63, 17, 19, 74, 16, 8, 33, 13, 5, 53, 12, 16, 58, 16, 16, 52, 11, 14, 32, 10, 17, 22, 27, 6, 19, 20, 9, 12, 15, 17, 17, 29, 13, 18, 26, 10, 22, 8, 9, 24, 26, 11, 23, 19, 9]
+53B colores W RL AB W RL AB W RL AB W RL AB W RL AB
+frac color W/RL/AB periodico 53C 0.0  53B 0.9814814814814815
+53C colores: {'AB': 21, 'W': 20, 'RB': 11, 'RL': 9}
+53B colores: {'W': 18, 'AB': 18, 'RL': 17, 'RB': 1}
+[(10, 51, 35, 39), (4, 54, 5, 14), (7, 54, 5, 19), (13, 48, 4, 15), (22, 39, 4, 8)]
+desfase 10: exactas 35 /51; nulo media 2.4244 max 8 p 0.0001999600079984003
+nulo del maximo sobre 25 desfases: media 5.144 max 10
+exactas con valor>=5: 34 de 50
+R/V opuestos: 53C union {'V'}  53B pend union {'R'}

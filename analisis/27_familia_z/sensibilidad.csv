@@ -1,0 +1,9 @@
+variante,n_tally,Z_en_tally,Z_en_decim,n_decim,OR,p
+umbral 30%,17,8,15,246,13.68889,1e-05
+umbral 40%,14,8,15,249,20.8,0.0
+umbral 50%,11,7,16,252,25.8125,0.0
+umbral 60%,7,4,19,256,16.63158,0.00133
+umbral 70%,7,4,19,256,16.63158,0.00133
+serie UR050-055 colapsada en 1 unidad,7,5,16,252,36.875,4e-05
+sin la serie UR050-055,6,5,16,252,73.75,1e-05
+serie colapsada y sin UR203,6,5,16,252,73.75,1e-05

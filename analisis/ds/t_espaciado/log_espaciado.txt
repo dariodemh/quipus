@@ -1,0 +1,45 @@
+=== A. pares consecutivos ===
+pares utilizables: 5397 quipus: 548
+quipus con >=4 pares: 342
+
+--- A1. Spearman(gap, |delta feature|) dentro de quipu ---
+dv: rho=0.074 (sd null 0.021), p_pos=0.0005, p_dos=0.0005, frac+=0.59, n=309
+dnd: rho=0.071 (sd null 0.020), p_pos=0.0005, p_dos=0.0005, frac+=0.52, n=309
+dcl: rho=0.073 (sd null 0.020), p_pos=0.0010, p_dos=0.0010, frac+=0.55, n=309
+dl: rho=0.075 (sd null 0.022), p_pos=0.0010, p_dos=0.0010, frac+=0.59, n=309
+dn: rho=0.030 (sd null 0.021), p_pos=0.0780, p_dos=0.1459, frac+=0.48, n=309
+dent: rho=0.025 (sd null 0.020), p_pos=0.1084, p_dos=0.2169, frac+=0.50, n=309
+
+--- A2. gap grande (> percentil 75 del quipu) vs pequeño ---
+dv: dif=0.262 (sd 0.042), p=0.0005, frac+=0.59, n=291
+dnd: dif=0.154 (sd 0.037), p=0.0005, frac+=0.51, n=291
+dcl: dif=0.108 (sd 0.023), p=0.0005, frac+=0.53, n=291
+dl: dif=1.871 (sd 0.317), p=0.0005, frac+=0.56, n=291
+dent: dif=0.048 (sd 0.018), p=0.0035, frac+=0.48, n=291
+
+=== B. estructura aritmética y aislamiento ===
+grupos con flag: {'dec': 140, 'band': 149, 'csum': 605, 'arit': 871} | quipus con algún flag: 224
+
+--- B1. gap (cm) en grupos con estructura aritmética ---
+gap_after: dif=-0.357 (sd 0.216), p=0.9590, frac+=0.32, n=188
+gap_before: dif=-0.093 (sd 0.218), p=0.6641, frac+=0.40, n=187
+gap_max: dif=-0.209 (sd 0.228), p=0.8264, frac+=0.39, n=200
+gap_sum: dif=-0.196 (sd 0.254), p=0.7797, frac+=0.46, n=200
+--- B2. controlando tamaño del grupo (estratos n_pend) ---
+gap_after: dif=0.070 (sd 0.158), p=0.3136, frac+=0.35, n=254
+gap_max: dif=0.176 (sd 0.157), p=0.1376, frac+=0.37, n=271
+
+=== C. ¿las sumas cruzan gaps grandes? ===
+quipus con índices de grupo contiguos: 647 / 651
+cluster-cluster sums con span>0: 292 quipus 107
+C1 cluster-cluster (gap>=2cm): {'n': 292, 'obs_mean': np.float64(0.4623), 'null_mean': np.float64(0.4811), 'dif': np.float64(-0.0188), 'p': np.float64(0.2899), 'frac_cero': 0.8493}
+C1 cluster-cluster (gap>=5cm): {'n': 292, 'obs_mean': np.float64(0.0719), 'null_mean': np.float64(0.0658), 'dif': np.float64(0.0061), 'p': np.float64(0.7531), 'frac_cero': 0.9521}
+
+pendant-pendant sums con span>0: 2769 quipus 311 | mediana span: 1.0
+C2 pendant-pendant (gap>=2cm): {'n': 2768, 'obs_mean': np.float64(0.1911), 'null_mean': np.float64(0.2214), 'dif': np.float64(-0.0303), 'p': np.float64(0.0003), 'frac_cero': 0.8428}
+C2 pendant-pendant (gap>=5cm): {'n': 2768, 'obs_mean': np.float64(0.0249), 'null_mean': np.float64(0.0431), 'dif': np.float64(-0.0182), 'p': np.float64(0.0003), 'frac_cero': 0.9765}
+
+span de relaciones pendant-pendant: {'count': 2769.0, 'mean': 2.26, 'std': 3.45, 'min': 1.0, '50%': 1.0, '90%': 4.0, 'max': 76.0}
+fracción de relaciones que cruzan al menos un gap>=2cm: 0.157
+
+p-values: {'A_rho_dv': '0.0005', 'A_rho_dnd': '0.0005', 'A_rho_dcl': '0.001', 'A_rho_dl': '0.001', 'A_rho_dn': '0.15', 'A_rho_dent': '0.22', 'A_bigsmall_dv': '0.0005', 'A_bigsmall_dnd': '0.0005', 'A_bigsmall_dcl': '0.0005', 'A_bigsmall_dl': '0.0005', 'A_bigsmall_dent': '0.0035', 'B_gap_after': '0.96', 'B_gap_before': '0.66', 'B_gap_max': '0.83', 'B_gap_sum': '0.78', 'B_match_gap_after': '0.31', 'B_match_gap_max': '0.14', 'C_cluster_2cm': '0.29', 'C_pp_2cm': '0.00033'}

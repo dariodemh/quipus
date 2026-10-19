@@ -1,0 +1,8 @@
+rg,size,mean,median,cuerdas
+Central,24,0.0074,0.0,1001
+North,31,0.0018,0.0,6063
+NorthCentral,3,0.0,0.0,45
+South,26,0.0004,0.0,2677
+SouthCentral,40,0.025,0.0,4890
+Unknown,3,0.457,0.3711,349
+sin_prov,152,0.2499,0.0,12753

@@ -1,0 +1,55 @@
+tasa global de discrepancia de valor: 0.00633 (223/35212)
+
+quipus con exceso significativo tras BH (q<0.05): 8
+       prefijo  n_valor  disc_valor  tasa_valor          p_bin           q_bh
+kfg                                                                          
+UR090       UR      123          67    0.544715  1.684798e-112  9.771827e-110
+UR144       UR       96          56    0.583333   1.034738e-96   3.000739e-94
+UR235       UR      160          36    0.225000   2.820973e-44   5.453882e-42
+UR193       UR       18          18    1.000000   2.685685e-40   3.894243e-38
+KH0058      KH       56          12    0.214286   1.796184e-15   2.083574e-13
+UR190       UR       97          14    0.144330   2.856060e-15   2.760858e-13
+HP054       HP       18           3    0.166667   1.930129e-04   1.599250e-02
+HP038       HP       54           4    0.074074   3.951638e-04   2.864938e-02
+
+heterogeneidad entre prefijos: chi2=48.3, p_perm=0.7499 (B=20000)
+
+tasas por prefijo:
+         quipus      n    d      tasa
+prefijo                              
+AS          131   4769    0  0.000000
+HP           52   1749    8  0.004574
+JC           23    828    0  0.000000
+KH           10   1290   15  0.011628
+UR          364  26576  200  0.007526
+
+pares (permutacion, Holm):
+  par      dif        p   p_holm
+AS-HP 0.004574 0.015397 0.153969
+AS-KH 0.011628 0.066387 0.597481
+HP-JC 0.004574 0.280944 1.000000
+AS-UR 0.007526 0.359528 1.000000
+JC-KH 0.011628 0.368926 1.000000
+HP-KH 0.007054 0.608278 1.000000
+UR-JC 0.007526 0.652270 1.000000
+UR-HP 0.002952 0.875025 1.000000
+UR-KH 0.004102 0.983003 1.000000
+AS-JC 0.000000 1.000000 1.000000
+
+top5 quipus por discrepancias de valor:
+      prefijo  n_valor  disc_valor
+kfg                               
+UR090      UR      123          67
+UR144      UR       96          56
+UR235      UR      160          36
+UR193      UR       18          18
+UR190      UR       97          14
+
+prefijos sin top5:
+             n   d      tasa
+prefijo                     
+AS        4769   0  0.000000
+HP        1749   8  0.004574
+JC         828   0  0.000000
+KH        1290  15  0.011628
+UR       26082   9  0.000345

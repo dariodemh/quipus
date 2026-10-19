@@ -1,0 +1,30 @@
+=== 1. Totales ===
+filas=28  celdas=249  suma 9 columnas=61790
+suma columna 'total'=62179 (incluye cuerdas 10 y 12 de g18 y g32)
+media celda=248.2  mediana=228  min=11  max=537
+suma por fila: min=875 max=4273 mediana=2015
+suma por columna: {'c1': np.int64(8218), 'c2': np.int64(8466), 'c3': np.int64(5814), 'c4': np.int64(6722), 'c5': np.int64(6846), 'c6': np.int64(8151), 'c7': np.int64(7104), 'c8': np.int64(5211), 'c9': np.int64(5258)}
+
+=== 2. Granularidad de las celdas ===
+multiplos de  2: obs=0.494  esperado=0.500  p(una cola, mayor)=0.6017
+multiplos de  5: obs=0.217  esperado=0.200  p(una cola, mayor)=0.2723
+multiplos de 10: obs=0.076  esperado=0.100  p(una cola, mayor)=0.9154
+multiplos de 25: obs=0.040  esperado=0.040  p(una cola, mayor)=0.5386
+multiplos de 50: obs=0.016  esperado=0.020  p(una cola, mayor)=0.7343
+
+=== 3. Ultimo digito de las celdas ===
+digito 0..9: 0.076 0.137 0.088 0.084 0.137 0.141 0.096 0.084 0.096 0.060
+chi2=17.7 gl=9 p=0.0387
+
+=== 4. Tamano relativo de las 9 columnas (control de particion) ===
+mediana de la proporcion por columna: 0.134 0.139 0.096 0.107 0.114 0.122 0.113 0.080 0.092
+CV entre columnas=0.176  max/min=1.74
+
+=== 5. Libro consolidado: totales por quipu ===
+        n    suma   media    mn    mx
+quipu                                
+UR266  28   56986  2035.0   100  4273
+UR269  67  122609  1830.0   200  2810
+UR275  25   56446  2258.0  1278  4273
+
+OK -> ur278_filas.csv, resumen_ur278.json

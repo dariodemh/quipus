@@ -1,0 +1,24 @@
+kfg,prefijo,n_con_nudos,disc,tasa,disc_valor,n_valor,tasa_valor,n_estruct,multiset_igual,causa,nota
+UR193,UR,152,148,0.9736842105263158,18,18,1.0,134,False,mixto,OKR multi-raiz (PENDANT_FROM colgante); 134 cuerdas con largo distinto. Mezcla/estructura + valor.
+AS072,AS,10,9,0.9,0,0,,10,,estructura,"KFG reordena las cuerdas (mismo n de cuerdas, largos en otro orden)."
+HP009,HP,7,5,0.7142857142857143,0,1,0.0,6,,estructura,KFG incompleto: 13 cuerdas frente a 20 en OKR; largos 0-2 cm con nudos a 15-20 cm.
+UR144,UR,96,56,0.5833333333333334,56,96,0.583,0,False,valor,Valor: vueltas de nudos largos (KFG 7L donde OKR tiene 4L). 56 cuerdas.
+UR090,UR,123,67,0.5447154471544715,67,123,0.545,0,False,valor,Valor: lugar decimal (OKR asigna 100 donde KFG asigna 10). 67 cuerdas.
+HP024,HP,6,3,0.5,0,3,0.0,3,,estructura,Solo orden: multiset de valores identico.
+UR190,UR,350,166,0.4742857142857143,14,97,0.144,253,False,mixto,OKR multi-raiz; 253 cuerdas con largo distinto. Estructura + 14 valores.
+HP004,HP,36,15,0.4166666666666667,0,20,0.0,16,True,orden/mapeo,Solo orden de subsidiarias: multiset de valores identico.
+HP045,HP,31,11,0.3548387096774194,0,19,0.0,12,True,orden/mapeo,Solo orden: multiset de valores identico.
+HP006,HP,10,3,0.3,0,7,0.0,3,True,orden/mapeo,Solo orden: multiset de valores identico.
+HP023,HP,23,6,0.2608695652173913,1,16,0.062,7,False,mixto,Orden + 1 discrepancia de valor.
+UR096,UR,44,11,0.25,0,33,0.0,11,True,orden/mapeo,Solo orden: multiset de valores identico.
+HP047,HP,17,4,0.2352941176470588,0,13,0.0,4,True,orden/mapeo,Solo orden: multiset de valores identico.
+KH0058,KH,164,38,0.2317073170731707,12,56,0.214,108,False,mixto,Registro KH de AS047/HP035; mezcla de orden y valor. Revisar antes de usar.
+UR235,UR,160,36,0.225,36,160,0.225,0,False,valor,Valor: lugar decimal (OKR 100 donde KFG 10). 36 cuerdas.
+HP054,HP,18,3,0.1666666666666666,3,18,0.167,0,False,valor,Valor: 3 cuerdas con nudos en KFG y otra lectura en OKR.
+UR003,UR,456,40,0.087719298245614,3,404,0.007,52,False,estructura,OKR multi-raiz (8 cuerdas huerfanas); 52 largos distintos; 3 valores.
+UR044,UR,23,2,0.0869565217391304,1,10,0.1,13,False,mixto,Duplicado con KH0033; 13 largos distintos y 1 valor. 33 cuerdas solo en OKR.
+KH0033,KH,23,2,0.0869565217391304,1,10,0.1,13,False,mixto,Duplicado de UR044; codifica largos ausentes como 0 (infla el desajuste).
+UR255,UR,62,5,0.0806451612903225,1,58,0.017,4,False,estructura,1 discrepancia de valor.
+HP038,HP,54,4,0.074074074074074,4,54,0.074,0,False,valor,Valor: KFG registra nudos que OKR no tiene (4 cuerdas).
+UR253,UR,61,4,0.0655737704918032,0,56,0.0,5,True,orden/mapeo,Solo orden: multiset de valores identico.
+UR280,UR,134,8,0.0597014925373134,1,127,0.008,7,False,estructura,1 discrepancia de valor.

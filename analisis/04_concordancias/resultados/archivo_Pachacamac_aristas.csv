@@ -1,0 +1,5 @@
+tipo,origen,destino,score,p,p_emp,p_bloque,q,q_archivo,p_orden,q_archivo_orden
+copia/versión,AS125,UR247,44.3,2.52e-12,0.000999,0.022,2.99e-08,9.2e-09,,
+copia/versión,UR1118,UR218,29.9,2.35e-08,0.000999,0.012,0.000249,4.29e-05,,
+copia/versión (sólo valores>=100),AS125,UR247,44.3,2.57e-12,0.000999,0.015,2.99e-08,3.02e-09,,
+copia/versión (sólo valores>=100),UR1118,UR218,22.3,3.19e-06,0.000999,0.028,0.0186,0.00188,,

@@ -1,0 +1,11 @@
+prueba,valor,p,nota
+UR1140 15 rachas de 7: eta2,0.4236,0.0001,reproduce n_plantillas 0.42
+UR1140 15 rachas de 7: rho medio,0.412,0.0001,nulo: permutar dentro de racha
+"UR1140 grupos de 9, 7 campos: eta2",0.274,0.0001,unidad fisica
+UR1140 canonico: max en campo 1,19.0,8.772780025937786e-17,19/19; binomial anti-conservador por clustering
+4 quipus: max en campo 1,44.0,0.00042,44/45; 4/4 quipus (1/7)^4
+UR1136 perfil canonico total,0.96,0.0003,Holm 5=0.0009; Holm 651=0.195
+UR1136 campos 3-7,-0.319,0.697,no comparte el medio de la ficha
+UR223 perfil canonico total,0.883,0.0057,Holm 5=0.011; Holm 651=1.0
+HP056 perfil canonico total,0.796,0.0186,held-out; Holm 651=1.0
+Santa control positivo,0.8333333333333334,0.0005,"5/6 con p<=0.0005; 6 campos, no 7"

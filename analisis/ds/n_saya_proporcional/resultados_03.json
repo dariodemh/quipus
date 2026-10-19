@@ -1,0 +1,146 @@
+{
+  "cap_resumen": [
+    {
+      "cuartos": 202,
+      "tipo": "documentados",
+      "bruto_min": 4949.0,
+      "bruto_max": 11312.0,
+      "ocup_min": 1979.6000000000001,
+      "ocup_max": 9049.6,
+      "factor_max_min": 4.571428571428571
+    },
+    {
+      "cuartos": 250,
+      "tipo": "estimados",
+      "bruto_min": 6125.0,
+      "bruto_max": 14000.0,
+      "ocup_min": 2450.0,
+      "ocup_max": 11200.0,
+      "factor_max_min": 4.571428571428571
+    }
+  ],
+  "adm": [
+    {
+      "ledger": "UR278 (flujo 47, libro completo)",
+      "nivel": "L2",
+      "N": 61790,
+      "cuartos": 202,
+      "v_min_L": 32.0375465285645,
+      "v_max_L": 146.45735555915198,
+      "factor": 4.571428571428571
+    },
+    {
+      "ledger": "UR278 (flujo 47, libro completo)",
+      "nivel": "L2",
+      "N": 61790,
+      "cuartos": 250,
+      "v_min_L": 39.65042887198576,
+      "v_max_L": 181.25910341479204,
+      "factor": 4.571428571428571
+    },
+    {
+      "ledger": "UR266 (copia resumida)",
+      "nivel": "L2b",
+      "N": 56986,
+      "cuartos": 202,
+      "v_min_L": 34.73835678938687,
+      "v_max_L": 158.80391675148283,
+      "factor": 4.571428571428571
+    },
+    {
+      "ledger": "UR266 (copia resumida)",
+      "nivel": "L2b",
+      "N": 56986,
+      "cuartos": 250,
+      "v_min_L": 42.993015828449096,
+      "v_max_L": 196.539500930053,
+      "factor": 4.571428571428571
+    },
+    {
+      "ledger": "UR269 (libro maestro)",
+      "nivel": "L3",
+      "N": 122609,
+      "cuartos": 202,
+      "v_min_L": 16.145633681051148,
+      "v_max_L": 73.80861111337667,
+      "factor": 4.571428571428571
+    },
+    {
+      "ledger": "UR269 (libro maestro)",
+      "nivel": "L3",
+      "N": 122609,
+      "cuartos": 250,
+      "v_min_L": 19.98221990229102,
+      "v_max_L": 91.34729098190182,
+      "factor": 4.571428571428571
+    },
+    {
+      "ledger": "UR268 (nivel de periodo)",
+      "nivel": "L4",
+      "N": 300378,
+      "cuartos": 202,
+      "v_min_L": 6.590362809526664,
+      "v_max_L": 30.12737284355046,
+      "factor": 4.571428571428571
+    },
+    {
+      "ledger": "UR268 (nivel de periodo)",
+      "nivel": "L4",
+      "N": 300378,
+      "cuartos": 250,
+      "v_min_L": 8.15638961575082,
+      "v_max_L": 37.28635252914661,
+      "factor": 4.571428571428571
+    }
+  ],
+  "cap_mediana_m3": 5089.516445622561,
+  "cap_p05_m3": 3177.2876493966696,
+  "cap_p95_m3": 7839.639364236315,
+  "v_ur278_mediana_L": 82.36796319182005,
+  "v_ur278_p05_L": 51.42074201969039,
+  "v_ur278_p95_L": 126.87553591578434,
+  "v_ur269_mediana_L": 41.51013747459453,
+  "v_ur268_mediana_L": 16.943705749497504,
+  "p_fanega_ur278": 0.90836,
+  "p_saco55_ur278": 0.91879,
+  "p_saco30_ur278": 1.0,
+  "p_fanega_ur268": 0.0,
+  "p_saco30_ur268": 0.007915,
+  "p_cap_6400": 0.789,
+  "p_ur278_v_103_6": 0.789195,
+  "fanegas_p05": 56737.279453511954,
+  "fanegas_mediana": 90884.22224326001,
+  "fanegas_p95": 139993.56007564848,
+  "inc": [
+    {
+      "supuesto": "llenado (40-80 %)",
+      "var_log": 0.040037751159850116,
+      "pct_sin_N": 52.77402707712911,
+      "pct_con_N": 8.087023467800435
+    },
+    {
+      "supuesto": "altura (2-3,5 m)",
+      "var_log": 0.02609748584221533,
+      "pct_sin_N": 34.399270303253,
+      "pct_con_N": 5.271299569597881
+    },
+    {
+      "supuesto": "lado (3,5-4 m)",
+      "var_log": 0.005943544272081467,
+      "pct_sin_N": 7.834225381356738,
+      "pct_con_N": 1.2005065374009785
+    },
+    {
+      "supuesto": "cuartos (202-250)",
+      "var_log": 0.0037876124375458594,
+      "pct_sin_N": 4.992477238261163,
+      "pct_con_N": 0.7650407373549608
+    },
+    {
+      "supuesto": "que ledger se almacena a la vez",
+      "var_log": 0.4192199791579518,
+      "pct_sin_N": 0.0,
+      "pct_con_N": 84.67612968784576
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+prueba,p,script,p_BH
+B10 camelido ~ estilo S (Fisher),7.9e-06,07,0.0001027
+B5 camelido ~ percent_s_knots (perm),5e-05,04,0.00032500000000000004
+B1 camelido ~ zona (chi2 perm),0.0336,04,0.14559999999999998
+B11 S dentro de Temple Radicati (Fisher),0.089,07,0.28925
+B3 camelido ~ colores/cuerda (perm),0.138,04,0.35880000000000006
+B2 camelido ~ num_cords (perm),0.302,04,0.544375
+B12 KH0281 log valor CL vs CN (perm),0.319,04,0.544375
+B8 colores/cuerda controlando log n (perm),0.335,07,0.544375
+B4 camelido ~ mean_cord_value (perm),0.385,04,0.5561111111111111
+B9 camelido ~ mean_cord_value (MW),0.746,07,0.9698
+B6 camelido ~ knot_cluster_count (perm),0.989,04,1.0
+B7 tamano estratificado (perm),1.0,04,1.0
+B13 KH0281 blanco CL vs CN (perm),1.0,04,1.0

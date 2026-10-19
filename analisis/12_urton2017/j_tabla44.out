@@ -1,0 +1,6 @@
+valores en Tabla 4.4 (todos, tras separar +): 564 suma 3071
+KFG nonzero: 549 suma 3037
+multiconjunto compartido 544 de 564 549
+LCS secuencia (orden KFG) = 530  ; ratio 0.9397163120567376
+nulo LCS con K permutado:  305.75
+mayores valores Urton [35, 40, 40, 61, 65, 71, 80, 521]  KFG [35, 40, 40, 61, 65, 71, 80, 521]

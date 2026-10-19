@@ -1,0 +1,13 @@
+prueba,p,holm
+P1 Incahuasi sumas: M vs N1,0.33,0.99
+P1 Incahuasi sumas: NMI vs N1,0.973,1.0
+P1 Puruchuco: M vs N1,0.0001,0.0012000000000000001
+P1 copias mismo registrador: M vs N1,0.0001,0.0012000000000000001
+P2 T1 total: D vs NG,0.0001,0.0012000000000000001
+P2 T1 total: D vs NP,0.0371,0.1484
+P2 T3 cabecera-máximo: D vs NG,0.0001,0.0012000000000000001
+P2 T4 en blanco: D vs NG,0.9718,1.0
+P2 T5 marcadora: D vs NG,0.0001,0.0012000000000000001
+P2 T7 subsidiaria = padre (más que el nulo),0.0001,0.0012000000000000001
+P2 preferencia W de T1 entre quipus,0.0285,0.14250000000000002
+P3 alfabeto rarefactado ~ registrador,0.0001,0.0012000000000000001

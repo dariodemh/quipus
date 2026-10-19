@@ -1,0 +1,64 @@
+{
+ "color_lag14": {
+  "obs": 16,
+  "n": 66,
+  "null_mean": 3.83,
+  "null_sd": 1.81,
+  "p": 0.000999000999000999,
+  "ranking": 1
+ },
+ "separadores_AP": {
+  "obs": [
+   36,
+   50,
+   64,
+   78
+  ],
+  "diffs": [
+   14,
+   14,
+   14
+  ],
+  "p_ap": 2.4026606305087316e-05
+ },
+ "totales_tramos": {
+  "obs": 8,
+  "null_mean": 16.43,
+  "null_sd": 13.41,
+  "p": 0.7313432835820896
+ },
+ "valores_repetidos": {
+  "obs": 35,
+  "null_mean": 35.87,
+  "p": 0.993006993006993
+ },
+ "perfiles_r": {
+  "obs": 0.915,
+  "null_mean": -0.004,
+  "null_sd": 0.081,
+  "p": 0.000999000999000999
+ },
+ "ultima_posicion": {
+  "valores": [
+   48.0,
+   14.0,
+   27.0,
+   19.0,
+   15.0,
+   23.0
+  ],
+  "puestos": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "color_intragrupo": {
+  "media": 1.48,
+  "max": 11,
+  "mono": 73
+ }
+}

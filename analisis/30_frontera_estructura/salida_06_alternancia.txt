@@ -1,0 +1,35 @@
+quipus evaluados: 515 | lag 2 con q < 0.05: 19
+         kfg       p         q  frac_alterna  colores   n genero                                   museo                               sitio  frontera
+111    HP022  0.0001  0.000560         0.875        3  18    FOR            museo de sitio de pachacamac                          Pachacamac     False
+78     AS200  0.0001  0.000560         0.457        3  37    FOR  american museum of natural history, ny  probably Central Coast Late Period     False
+231    UR040  0.0001  0.000560         0.839        2  33    SIN      peabody museum, harvard university                               Nazca      True
+164   KH0197  0.0001  0.000560         0.718        5  41    TAB                                  BERLIN                             Unknown     False
+318   UR1103  0.0001  0.000560         0.878        4  43    TAB                                  BERLIN                                 Ica     False
+321   UR1108  0.0001  0.000560         1.000        2  34    TAB                                  BERLIN               Between Ica and Pisco     False
+294  UR1033F  0.0001  0.000560         0.895        3  21    SIN      peabody museum, harvard university                             Unknown      True
+274    UR080  0.0001  0.000560         0.750        4  14    SIN                        puruchuco museum                         Huaquerones     False
+346   UR1145  0.0001  0.000560         0.581        5  88    FOR                                  BERLIN                          Pachacamac     False
+406    UR167  0.0001  0.000560         0.857        2  37    SIN  american museum of natural history, ny                Ica or Cajamarquilla      True
+456    UR228  0.0001  0.000560         0.630       14  75    ASG                                  BERLIN                               Pisco     False
+292  UR1033C  0.0002  0.001062         1.000        2  15    TAB      peabody museum, harvard university                             Unknown     False
+69     AS174  0.0002  0.001062         1.000        2  13    FOR                                  BERLIN               Between Ica and Pisco     False
+31     AS062  0.0002  0.001062         1.000        2  16    TAB               o. nunez del prado, cuzco                             Unknown     False
+298   UR1049  0.0006  0.002888         0.373        3  61    SIN                 museo amano, lima, peru                             Unknown      True
+351   UR1150  0.0008  0.003745         0.600        4  27    SEG                                  BERLIN                                 Ica     False
+232    UR041  0.0021  0.009244         0.610        3  43    TAB      peabody museum, harvard university                             Unknown     False
+206    UR005  0.0058  0.024484         0.255        7  49    SIN    centro mallqui, leymebamba, amazonas                          Leymebamba      True
+293  UR1033D  0.0077  0.031472         0.609        3  25    FOR      peabody museum, harvard university                             Unknown     False
+
+por museo (lag2 q<0.05 / evaluados):
+                                          n  alt
+museo                                           
+BERLIN                                  127    7
+peabody museum, harvard university       12    5
+american museum of natural history, ny   19    2
+centro mallqui, leymebamba, amazonas     21    1
+museo amano, lima, peru                   4    1
+museo de sitio de pachacamac             24    1
+o. nunez del prado, cuzco                 4    1
+puruchuco museum                         20    1
+
+fraccion de quipus con alternancia lag 2 (q<0.05): frontera 0.26

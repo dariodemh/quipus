@@ -1,0 +1,9 @@
+prueba,n,obs,nulo_media,nulo_max,p,familia,q_bh
+UR274B nuevas -> consolidado,21,13,10.75,17,0.1576,nuevas,0.4202
+UR256 nuevas -> consolidado,46,25,23.56,34,0.3574,nuevas,0.7017
+UR274B nuevas -> UR270,21,9,12.26,18,0.9895,nuevas,0.9895
+UR274B nuevas -> UR278,21,10,12.1,16,0.9602,nuevas,0.9895
+UR274B nuevas -> cuotas,21,6,3.485,6,0.0312,nuevas,0.2496
+UR256 nuevas -> UR267B,46,19,15.73,25,0.1154,nuevas,0.4202
+UR256 nuevas -> UR255,46,8,7.82,15,0.5576,nuevas,0.7435
+UR274B cabecera + nuevas del registro -> consolidado,24,5,4.334,9,0.4386,nuevas,0.7017

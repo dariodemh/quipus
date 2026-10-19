@@ -1,0 +1,23 @@
+analisis\03_gramatica\t2_tabla.py:54: RuntimeWarning: All-NaN axis encountered
+  "p_col": simes(pk), "exc_row_max": float(np.nanmax(er))}
+analisis\03_gramatica\t2_tabla.py:54: RuntimeWarning: All-NaN axis encountered
+  "p_col": simes(pk), "exc_row_max": float(np.nanmax(er))}
+analisis\03_gramatica\t2_tabla.py:54: RuntimeWarning: All-NaN axis encountered
+  "p_col": simes(pk), "exc_row_max": float(np.nanmax(er))}
+Tasas de significación (p<0.05 sin corregir / q<0.05 BH) por clase de secuencia:
+  var         clase  n_impl  impl_p<.05  impl_q<.05  n_grupos  grupos_p<.05  grupos_q<.05  exc_col_med  g_exc_med  exc_row_max_med
+color       markov1     489       0.151       0.000       287         0.111         0.063        0.045     -0.004            0.062
+color         quipu     498       0.297       0.239       290         0.514         0.476        0.043      0.149            0.112
+color  tabla_fid0.3     100       0.310       0.000        97         0.464         0.423        0.075      0.045            0.031
+color  tabla_fid0.6     100       0.700       0.680        97         0.794         0.794        0.197      0.241            0.007
+color texto_quechua     523       0.122       0.000       302         0.053         0.000        0.019      0.000            0.001
+ magn       markov1     495       0.059       0.000       289         0.038         0.000        0.060     -0.006            0.114
+ magn         quipu     505       0.188       0.111       289         0.457         0.405        0.067      0.114            0.159
+[color] impl_p<.05: quipus 29.7% vs markov1 15.1% -> fracción tabular estimada (r-r0)/(1-r0) = 17.2%
+[color] impl_p<.05: quipus 29.7% vs texto_quechua 12.2% -> fracción tabular estimada (r-r0)/(1-r0) = 19.9%
+[color] grupos_p<.05: quipus 51.4% vs markov1 11.1% -> fracción tabular estimada (r-r0)/(1-r0) = 45.3%
+[color] grupos_p<.05: quipus 51.4% vs texto_quechua 5.3% -> fracción tabular estimada (r-r0)/(1-r0) = 48.7%
+[magn] impl_p<.05: quipus 18.8% vs markov1 5.9% -> fracción tabular estimada (r-r0)/(1-r0) = 13.8%
+[magn] grupos_p<.05: quipus 45.7% vs markov1 3.8% -> fracción tabular estimada (r-r0)/(1-r0) = 43.5%
+Quipus con columnas significativas en sus grupos explícitos (q<0.05, color o magnitud): 175/299 = 58.5% (de los que tienen grupos repetidos >=2)
+Periodo implícito q<0.05: 140 quipus; entre ellos columnas > filas (exc_col > exc_row) = 81.7%; k mediano = 5.0

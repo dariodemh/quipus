@@ -1,0 +1,13 @@
+cuerda,nudos,valor,color,largo,notas
+1,"1S(3.5,Z),1E(5.5,Z),4L(8.5,Z),3L(12.5,Z),4L(15.5,Z)",22,NB?,16.5,"color con prefijo tapado por tinta (¿YB?)/NB; largo anotado a mano sobre el encabezado '16.S 6' (¿16.5?); la ficha suma 10+1+4+3+4=22, es decir trata los 4 ultimos racimos como unidades"
+2,"4S(4.0,Z),5L(9.5,Z)",45,YB?,29.0,"color 'YB(0-14.5?)/RD(14.5-19)/W(19-29)' con manchas; largo '29.0k'"
+3,"5S(5.5,Z),4L(13.5,Z)",54,"NB(0-19)/RD(19-21.3)/NB(21.3-35)",35.0,"largo '35.0k'"
+4,"5S(8?,Z),6L(13.5,Z),4L(21.5,Z)d?",60,LC,30.0,"posicion del 5S dudosa (¿8?); color 'LC' no es codigo Ascher estandar, ilegible; largo '30k'"
+5,"4L(5,Z)d?,2L(10,Z)d?,3L(13?,Z)d?,5L(18,Z)d?",12,"YB(0-5)/RD(5-16)/W(16-26)?",26.0,"DESCUADRE: los nudos suman 14 (4+2+3+5) y el valor escrito parece 12; el color tiene 3 tramos con manchas"
+6,"3S(5,Z),2L(8,Z)d?,4L(14,Z)d?,5L(18,Z)d?",41,"YB(0-8)/RD(8-16)/W(16-23)",23.0,"el 3 de '3S' esta escrito pequeno sobre una mancha; largo '23k'"
+7,"4S(5.0,Z),8L(10.5,Z)d?",48,"YB(0-8)/RD(8-10.5)/W(20-30)?",30.5,"subsidiarias (2: 2.2 y 2.5 cm); tramo W(20-30) salta de 10.5 a 20, dudoso"
+7s1,"9L(6.5,Z)d?",9,NB,11.0,"largo '11b'"
+7s2,"2L(7.5,Z)d?",2,NB,16.5,"largo '16.5k'"
+8,"4S(5,Z),6L(9.5,Z)d?",46,"YB(0-14.5)/RD(14.5-16.5)/W(16.5-30)",30.0,"subsidiarias (2: 2.5 y 2.7 cm); largo '30.0k'"
+8s1,"1S(2.0,Z),7L(7.0,Z)d?",17,NB,29.5,"largo '29.5k'"
+8s2,"3L(6.5,Z)d?",3,NB,14.5,"largo '14.5k'"

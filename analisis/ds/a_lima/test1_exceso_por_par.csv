@@ -1,0 +1,1892 @@
+A,B,sitioA,sitioB,obs,nulo,exceso
+AS132,AS133,Marquez,Marquez,2,1.41,0.59
+AS132,AS137,Marquez,Chuquitanta,0,0.0,0.0
+AS132,AS155,Marquez,near Lima,0,0.02,-0.02
+AS132,AS177,Marquez,near Lima,0,0.0,0.0
+AS132,AS178,Marquez,near Lima,0,0.41,-0.41
+AS132,HP037,Marquez,Huacho,0,0.0,0.0
+AS132,HP047,Marquez,Armatambo,1,0.95,0.05
+AS132,KH0001,Marquez,Chuquitanta,0,0.01,-0.01
+AS132,KH0227,Marquez,near Lima,4,3.41,0.59
+AS132,MM001,Marquez,Huacho,1,3.39,-2.39
+AS132,UR060,Marquez,Huaquerones,1,0.95,0.05
+AS132,UR061,Marquez,Huaquerones,1,0.91,0.09
+AS132,UR062,Marquez,Huaquerones,0,0.05,-0.05
+AS132,UR064,Marquez,Huaquerones,1,1.62,-0.62
+AS132,UR065,Marquez,Huaquerones,0,0.61,-0.61
+AS132,UR066,Marquez,Huaquerones,1,1.73,-0.73
+AS132,UR067,Marquez,Huaquerones,1,1.72,-0.72
+AS132,UR069,Marquez,Huaquerones,1,2.01,-1.01
+AS132,UR070,Marquez,Huaquerones,1,0.95,0.05
+AS132,UR071,Marquez,Huaquerones,1,0.95,0.05
+AS132,UR072,Marquez,Huaquerones,0,0.44,-0.44
+AS132,UR074,Marquez,Huaquerones,1,0.58,0.42
+AS132,UR075,Marquez,Huaquerones,0,0.46,-0.46
+AS132,UR076,Marquez,Huaquerones,0,0.0,0.0
+AS132,UR078,Marquez,Huaquerones,0,0.75,-0.75
+AS132,UR079,Marquez,Huaquerones,1,0.66,0.34
+AS132,UR080,Marquez,Huaquerones,1,0.95,0.05
+AS132,UR081,Marquez,Huaquerones,2,1.57,0.43
+AS132,UR082,Marquez,Huaquerones,1,0.95,0.05
+AS132,UR1088,Marquez,Huacho,0,0.46,-0.46
+AS132,UR1106,Marquez,Marquez,2,1.65,0.35
+AS132,UR1107,Marquez,Marquez,1,0.42,0.58
+AS132,UR1124,Marquez,Marquez,0,0.97,-0.97
+AS132,UR1130,Marquez,near Lima,1,0.35,0.65
+AS132,UR1154,Marquez,near Lima,0,0.0,0.0
+AS132,UR120,Marquez,Huacho,4,2.53,1.47
+AS132,UR134,Marquez,Chancay,0,0.0,0.0
+AS132,UR135,Marquez,Chancay,0,0.0,0.0
+AS132,UR136,Marquez,Chancay,0,0.0,0.0
+AS132,UR137,Marquez,Chancay,1,0.18,0.82
+AS132,UR166,Marquez,Chancay,0,0.08,-0.08
+AS132,UR177,Marquez,Chuquitanta,0,0.43,-0.43
+AS132,UR182,Marquez,Chuquitanta,0,1.28,-1.28
+AS132,UR183,Marquez,Chancay,1,0.17,0.83
+AS132,UR186,Marquez,Chancay,3,1.91,1.09
+AS132,UR195,Marquez,Huacho,1,1.75,-0.75
+AS132,UR232,Marquez,Huacho,2,2.79,-0.79
+AS132,UR233,Marquez,Huacho,1,2.11,-1.11
+AS132,UR282,Marquez,Armatambo,2,1.3,0.7
+AS132,UR283,Marquez,Armatambo,4,1.33,2.67
+AS132,UR284,Marquez,Armatambo,0,0.14,-0.14
+AS132,UR285,Marquez,Armatambo,0,0.13,-0.13
+AS132,UR286,Marquez,Armatambo,0,0.0,0.0
+AS132,UR287,Marquez,Armatambo,3,1.77,1.23
+AS132,UR288,Marquez,Armatambo,1,2.03,-1.03
+AS132,UR289,Marquez,Armatambo,1,1.77,-0.77
+AS132,UR290,Marquez,Armatambo,1,1.33,-0.33
+AS132,UR291A,Marquez,Armatambo,2,2.52,-0.52
+AS132,UR292A,Marquez,Armatambo,1,1.31,-0.31
+AS132,UR293,Marquez,Armatambo,0,0.0,0.0
+AS132,UR294,Marquez,Armatambo,0,0.0,0.0
+AS133,AS137,Marquez,Chuquitanta,0,0.0,0.0
+AS133,AS155,Marquez,near Lima,0,0.08,-0.08
+AS133,AS177,Marquez,near Lima,0,0.04,-0.04
+AS133,AS178,Marquez,near Lima,0,1.14,-1.14
+AS133,HP037,Marquez,Huacho,0,0.1,-0.1
+AS133,HP047,Marquez,Armatambo,2,1.92,0.08
+AS133,KH0001,Marquez,Chuquitanta,0,0.02,-0.02
+AS133,KH0227,Marquez,near Lima,9,7.88,1.12
+AS133,MM001,Marquez,Huacho,7,8.38,-1.38
+AS133,UR060,Marquez,Huaquerones,4,2.58,1.42
+AS133,UR061,Marquez,Huaquerones,2,2.28,-0.28
+AS133,UR062,Marquez,Huaquerones,0,0.02,-0.02
+AS133,UR064,Marquez,Huaquerones,2,2.88,-0.88
+AS133,UR065,Marquez,Huaquerones,0,0.92,-0.92
+AS133,UR066,Marquez,Huaquerones,5,2.84,2.16
+AS133,UR067,Marquez,Huaquerones,2,2.31,-0.31
+AS133,UR069,Marquez,Huaquerones,1,1.94,-0.94
+AS133,UR070,Marquez,Huaquerones,1,0.98,0.02
+AS133,UR071,Marquez,Huaquerones,1,0.98,0.02
+AS133,UR072,Marquez,Huaquerones,0,1.34,-1.34
+AS133,UR074,Marquez,Huaquerones,2,1.06,0.94
+AS133,UR075,Marquez,Huaquerones,0,0.56,-0.56
+AS133,UR076,Marquez,Huaquerones,0,0.19,-0.19
+AS133,UR078,Marquez,Huaquerones,0,1.48,-1.48
+AS133,UR079,Marquez,Huaquerones,3,2.39,0.61
+AS133,UR080,Marquez,Huaquerones,2,1.25,0.75
+AS133,UR081,Marquez,Huaquerones,2,1.68,0.32
+AS133,UR082,Marquez,Huaquerones,1,0.98,0.02
+AS133,UR1088,Marquez,Huacho,2,1.47,0.53
+AS133,UR1106,Marquez,Marquez,3,2.57,0.43
+AS133,UR1107,Marquez,Marquez,1,1.54,-0.54
+AS133,UR1124,Marquez,Marquez,2,1.59,0.41
+AS133,UR1130,Marquez,near Lima,2,0.77,1.23
+AS133,UR1154,Marquez,near Lima,0,0.0,0.0
+AS133,UR120,Marquez,Huacho,7,5.2,1.8
+AS133,UR134,Marquez,Chancay,0,0.0,0.0
+AS133,UR135,Marquez,Chancay,0,0.25,-0.25
+AS133,UR136,Marquez,Chancay,0,0.0,0.0
+AS133,UR137,Marquez,Chancay,2,0.88,1.12
+AS133,UR166,Marquez,Chancay,1,0.49,0.51
+AS133,UR177,Marquez,Chuquitanta,1,0.84,0.16
+AS133,UR182,Marquez,Chuquitanta,1,1.3,-0.3
+AS133,UR183,Marquez,Chancay,1,0.31,0.69
+AS133,UR186,Marquez,Chancay,4,3.18,0.82
+AS133,UR195,Marquez,Huacho,4,4.54,-0.54
+AS133,UR232,Marquez,Huacho,9,8.68,0.32
+AS133,UR233,Marquez,Huacho,5,5.22,-0.22
+AS133,UR282,Marquez,Armatambo,5,1.78,3.22
+AS133,UR283,Marquez,Armatambo,7,4.86,2.14
+AS133,UR284,Marquez,Armatambo,0,0.45,-0.45
+AS133,UR285,Marquez,Armatambo,0,0.39,-0.39
+AS133,UR286,Marquez,Armatambo,0,0.04,-0.04
+AS133,UR287,Marquez,Armatambo,6,2.99,3.01
+AS133,UR288,Marquez,Armatambo,3,2.35,0.65
+AS133,UR289,Marquez,Armatambo,2,2.54,-0.54
+AS133,UR290,Marquez,Armatambo,2,0.74,1.26
+AS133,UR291A,Marquez,Armatambo,7,7.28,-0.28
+AS133,UR292A,Marquez,Armatambo,3,3.44,-0.44
+AS133,UR293,Marquez,Armatambo,0,0.0,0.0
+AS133,UR294,Marquez,Armatambo,0,0.0,0.0
+AS137,AS155,Chuquitanta,near Lima,0,0.0,0.0
+AS137,AS177,Chuquitanta,near Lima,0,0.0,0.0
+AS137,AS178,Chuquitanta,near Lima,0,0.0,0.0
+AS137,HP037,Chuquitanta,Huacho,0,0.0,0.0
+AS137,HP047,Chuquitanta,Armatambo,0,0.0,0.0
+AS137,KH0001,Chuquitanta,Chuquitanta,0,0.08,-0.08
+AS137,KH0227,Chuquitanta,near Lima,0,0.0,0.0
+AS137,MM001,Chuquitanta,Huacho,0,0.01,-0.01
+AS137,UR060,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR061,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR062,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR064,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR065,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR066,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR067,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR069,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR070,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR071,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR072,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR074,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR075,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR076,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR078,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR079,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR080,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR081,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR082,Chuquitanta,Huaquerones,0,0.0,0.0
+AS137,UR1088,Chuquitanta,Huacho,0,0.0,0.0
+AS137,UR1106,Chuquitanta,Marquez,0,0.0,0.0
+AS137,UR1107,Chuquitanta,Marquez,0,0.01,-0.01
+AS137,UR1124,Chuquitanta,Marquez,0,0.0,-0.0
+AS137,UR1130,Chuquitanta,near Lima,0,0.0,0.0
+AS137,UR1154,Chuquitanta,near Lima,0,0.0,0.0
+AS137,UR120,Chuquitanta,Huacho,0,0.01,-0.01
+AS137,UR134,Chuquitanta,Chancay,0,0.0,0.0
+AS137,UR135,Chuquitanta,Chancay,0,0.0,0.0
+AS137,UR136,Chuquitanta,Chancay,0,0.0,0.0
+AS137,UR137,Chuquitanta,Chancay,0,0.05,-0.05
+AS137,UR166,Chuquitanta,Chancay,0,0.0,0.0
+AS137,UR177,Chuquitanta,Chuquitanta,0,0.0,0.0
+AS137,UR182,Chuquitanta,Chuquitanta,0,0.0,0.0
+AS137,UR183,Chuquitanta,Chancay,0,0.0,0.0
+AS137,UR186,Chuquitanta,Chancay,0,0.02,-0.02
+AS137,UR195,Chuquitanta,Huacho,0,0.0,0.0
+AS137,UR232,Chuquitanta,Huacho,0,0.01,-0.01
+AS137,UR233,Chuquitanta,Huacho,0,0.01,-0.01
+AS137,UR282,Chuquitanta,Armatambo,0,0.0,0.0
+AS137,UR283,Chuquitanta,Armatambo,0,0.0,0.0
+AS137,UR284,Chuquitanta,Armatambo,0,0.0,0.0
+AS137,UR285,Chuquitanta,Armatambo,0,0.0,0.0
+AS137,UR286,Chuquitanta,Armatambo,0,0.0,0.0
+AS137,UR287,Chuquitanta,Armatambo,0,0.0,0.0
+AS137,UR288,Chuquitanta,Armatambo,0,0.0,0.0
+AS137,UR289,Chuquitanta,Armatambo,0,0.0,0.0
+AS137,UR290,Chuquitanta,Armatambo,0,0.0,0.0
+AS137,UR291A,Chuquitanta,Armatambo,0,0.0,0.0
+AS137,UR292A,Chuquitanta,Armatambo,0,0.0,0.0
+AS137,UR293,Chuquitanta,Armatambo,0,0.0,0.0
+AS137,UR294,Chuquitanta,Armatambo,0,0.0,0.0
+AS155,AS177,near Lima,near Lima,0,0.0,0.0
+AS155,AS178,near Lima,near Lima,0,0.34,-0.34
+AS155,HP037,near Lima,Huacho,0,0.0,0.0
+AS155,HP047,near Lima,Armatambo,0,0.0,0.0
+AS155,KH0001,near Lima,Chuquitanta,0,0.0,0.0
+AS155,KH0227,near Lima,near Lima,3,2.65,0.35
+AS155,MM001,near Lima,Huacho,0,0.1,-0.1
+AS155,UR060,near Lima,Huaquerones,0,0.21,-0.21
+AS155,UR061,near Lima,Huaquerones,0,0.15,-0.15
+AS155,UR062,near Lima,Huaquerones,0,0.0,0.0
+AS155,UR064,near Lima,Huaquerones,1,0.39,0.61
+AS155,UR065,near Lima,Huaquerones,0,0.15,-0.15
+AS155,UR066,near Lima,Huaquerones,1,0.08,0.92
+AS155,UR067,near Lima,Huaquerones,1,0.05,0.95
+AS155,UR069,near Lima,Huaquerones,0,0.06,-0.06
+AS155,UR070,near Lima,Huaquerones,0,0.0,0.0
+AS155,UR071,near Lima,Huaquerones,0,0.0,0.0
+AS155,UR072,near Lima,Huaquerones,2,1.67,0.33
+AS155,UR074,near Lima,Huaquerones,0,0.01,-0.01
+AS155,UR075,near Lima,Huaquerones,1,0.59,0.41
+AS155,UR076,near Lima,Huaquerones,1,0.98,0.02
+AS155,UR078,near Lima,Huaquerones,0,0.0,0.0
+AS155,UR079,near Lima,Huaquerones,0,0.93,-0.93
+AS155,UR080,near Lima,Huaquerones,0,0.0,0.0
+AS155,UR081,near Lima,Huaquerones,0,0.04,-0.04
+AS155,UR082,near Lima,Huaquerones,0,0.0,0.0
+AS155,UR1088,near Lima,Huacho,1,0.61,0.39
+AS155,UR1106,near Lima,Marquez,0,0.0,-0.0
+AS155,UR1107,near Lima,Marquez,0,0.0,0.0
+AS155,UR1124,near Lima,Marquez,0,0.0,0.0
+AS155,UR1130,near Lima,near Lima,0,0.38,-0.38
+AS155,UR1154,near Lima,near Lima,0,0.0,0.0
+AS155,UR120,near Lima,Huacho,1,0.24,0.76
+AS155,UR134,near Lima,Chancay,0,0.0,0.0
+AS155,UR135,near Lima,Chancay,0,0.0,0.0
+AS155,UR136,near Lima,Chancay,0,0.0,0.0
+AS155,UR137,near Lima,Chancay,0,0.06,-0.06
+AS155,UR166,near Lima,Chancay,0,0.0,0.0
+AS155,UR177,near Lima,Chuquitanta,1,0.41,0.59
+AS155,UR182,near Lima,Chuquitanta,0,0.01,-0.01
+AS155,UR183,near Lima,Chancay,0,0.01,-0.01
+AS155,UR186,near Lima,Chancay,0,0.12,-0.12
+AS155,UR195,near Lima,Huacho,3,0.93,2.07
+AS155,UR232,near Lima,Huacho,0,0.22,-0.22
+AS155,UR233,near Lima,Huacho,0,0.03,-0.03
+AS155,UR282,near Lima,Armatambo,0,0.21,-0.21
+AS155,UR283,near Lima,Armatambo,3,1.68,1.32
+AS155,UR284,near Lima,Armatambo,1,0.47,0.53
+AS155,UR285,near Lima,Armatambo,0,0.0,0.0
+AS155,UR286,near Lima,Armatambo,0,0.0,0.0
+AS155,UR287,near Lima,Armatambo,1,0.15,0.85
+AS155,UR288,near Lima,Armatambo,0,0.14,-0.14
+AS155,UR289,near Lima,Armatambo,1,0.46,0.54
+AS155,UR290,near Lima,Armatambo,0,0.34,-0.34
+AS155,UR291A,near Lima,Armatambo,2,1.13,0.87
+AS155,UR292A,near Lima,Armatambo,1,0.62,0.38
+AS155,UR293,near Lima,Armatambo,0,0.0,0.0
+AS155,UR294,near Lima,Armatambo,0,0.0,0.0
+AS177,AS178,near Lima,near Lima,0,0.13,-0.13
+AS177,HP037,near Lima,Huacho,0,0.0,0.0
+AS177,HP047,near Lima,Armatambo,0,0.0,0.0
+AS177,KH0001,near Lima,Chuquitanta,0,0.09,-0.09
+AS177,KH0227,near Lima,near Lima,0,0.17,-0.17
+AS177,MM001,near Lima,Huacho,1,0.21,0.79
+AS177,UR060,near Lima,Huaquerones,0,0.0,0.0
+AS177,UR061,near Lima,Huaquerones,0,0.0,0.0
+AS177,UR062,near Lima,Huaquerones,0,0.0,0.0
+AS177,UR064,near Lima,Huaquerones,0,0.0,0.0
+AS177,UR065,near Lima,Huaquerones,0,0.0,0.0
+AS177,UR066,near Lima,Huaquerones,0,0.0,0.0
+AS177,UR067,near Lima,Huaquerones,0,0.0,0.0
+AS177,UR069,near Lima,Huaquerones,0,0.02,-0.02
+AS177,UR070,near Lima,Huaquerones,0,0.0,0.0
+AS177,UR071,near Lima,Huaquerones,0,0.0,0.0
+AS177,UR072,near Lima,Huaquerones,0,0.01,-0.01
+AS177,UR074,near Lima,Huaquerones,0,0.0,0.0
+AS177,UR075,near Lima,Huaquerones,0,0.0,0.0
+AS177,UR076,near Lima,Huaquerones,0,0.0,0.0
+AS177,UR078,near Lima,Huaquerones,0,0.0,0.0
+AS177,UR079,near Lima,Huaquerones,0,0.04,-0.04
+AS177,UR080,near Lima,Huaquerones,0,0.0,0.0
+AS177,UR081,near Lima,Huaquerones,0,0.0,0.0
+AS177,UR082,near Lima,Huaquerones,0,0.0,0.0
+AS177,UR1088,near Lima,Huacho,1,0.04,0.96
+AS177,UR1106,near Lima,Marquez,0,0.04,-0.04
+AS177,UR1107,near Lima,Marquez,0,0.03,-0.03
+AS177,UR1124,near Lima,Marquez,0,0.07,-0.07
+AS177,UR1130,near Lima,near Lima,0,0.0,0.0
+AS177,UR1154,near Lima,near Lima,0,0.05,-0.05
+AS177,UR120,near Lima,Huacho,0,0.09,-0.09
+AS177,UR134,near Lima,Chancay,0,0.0,0.0
+AS177,UR135,near Lima,Chancay,0,0.0,0.0
+AS177,UR136,near Lima,Chancay,0,0.0,0.0
+AS177,UR137,near Lima,Chancay,1,0.1,0.9
+AS177,UR166,near Lima,Chancay,0,0.0,0.0
+AS177,UR177,near Lima,Chuquitanta,0,0.03,-0.03
+AS177,UR182,near Lima,Chuquitanta,0,0.01,-0.01
+AS177,UR183,near Lima,Chancay,0,0.0,0.0
+AS177,UR186,near Lima,Chancay,0,0.01,-0.01
+AS177,UR195,near Lima,Huacho,1,0.05,0.95
+AS177,UR232,near Lima,Huacho,0,0.07,-0.07
+AS177,UR233,near Lima,Huacho,1,0.31,0.69
+AS177,UR282,near Lima,Armatambo,0,0.01,-0.01
+AS177,UR283,near Lima,Armatambo,0,0.01,-0.01
+AS177,UR284,near Lima,Armatambo,0,0.02,-0.02
+AS177,UR285,near Lima,Armatambo,0,0.0,0.0
+AS177,UR286,near Lima,Armatambo,0,0.0,0.0
+AS177,UR287,near Lima,Armatambo,0,0.0,0.0
+AS177,UR288,near Lima,Armatambo,0,0.0,0.0
+AS177,UR289,near Lima,Armatambo,0,0.0,0.0
+AS177,UR290,near Lima,Armatambo,0,0.0,0.0
+AS177,UR291A,near Lima,Armatambo,0,0.0,-0.0
+AS177,UR292A,near Lima,Armatambo,0,0.02,-0.02
+AS177,UR293,near Lima,Armatambo,0,0.0,0.0
+AS177,UR294,near Lima,Armatambo,0,0.0,0.0
+AS178,HP037,near Lima,Huacho,0,0.0,0.0
+AS178,HP047,near Lima,Armatambo,0,0.34,-0.34
+AS178,KH0001,near Lima,Chuquitanta,0,0.03,-0.03
+AS178,KH0227,near Lima,near Lima,4,5.35,-1.35
+AS178,MM001,near Lima,Huacho,4,5.98,-1.98
+AS178,UR060,near Lima,Huaquerones,2,1.59,0.41
+AS178,UR061,near Lima,Huaquerones,1,0.85,0.15
+AS178,UR062,near Lima,Huaquerones,0,0.01,-0.01
+AS178,UR064,near Lima,Huaquerones,3,1.08,1.92
+AS178,UR065,near Lima,Huaquerones,1,0.67,0.33
+AS178,UR066,near Lima,Huaquerones,0,0.55,-0.55
+AS178,UR067,near Lima,Huaquerones,0,0.52,-0.52
+AS178,UR069,near Lima,Huaquerones,1,0.97,0.03
+AS178,UR070,near Lima,Huaquerones,0,0.07,-0.07
+AS178,UR071,near Lima,Huaquerones,0,0.07,-0.07
+AS178,UR072,near Lima,Huaquerones,2,3.66,-1.66
+AS178,UR074,near Lima,Huaquerones,0,0.5,-0.5
+AS178,UR075,near Lima,Huaquerones,1,0.6,0.4
+AS178,UR076,near Lima,Huaquerones,0,1.03,-1.03
+AS178,UR078,near Lima,Huaquerones,1,0.12,0.88
+AS178,UR079,near Lima,Huaquerones,2,2.47,-0.47
+AS178,UR080,near Lima,Huaquerones,1,0.38,0.62
+AS178,UR081,near Lima,Huaquerones,1,0.45,0.55
+AS178,UR082,near Lima,Huaquerones,0,0.07,-0.07
+AS178,UR1088,near Lima,Huacho,3,3.14,-0.14
+AS178,UR1106,near Lima,Marquez,1,0.96,0.04
+AS178,UR1107,near Lima,Marquez,1,0.77,0.23
+AS178,UR1124,near Lima,Marquez,1,1.28,-0.28
+AS178,UR1130,near Lima,near Lima,1,0.49,0.51
+AS178,UR1154,near Lima,near Lima,0,0.05,-0.05
+AS178,UR120,near Lima,Huacho,1,2.02,-1.02
+AS178,UR134,near Lima,Chancay,0,0.0,0.0
+AS178,UR135,near Lima,Chancay,1,0.12,0.88
+AS178,UR136,near Lima,Chancay,0,0.0,0.0
+AS178,UR137,near Lima,Chancay,1,0.27,0.73
+AS178,UR166,near Lima,Chancay,0,0.08,-0.08
+AS178,UR177,near Lima,Chuquitanta,2,1.34,0.66
+AS178,UR182,near Lima,Chuquitanta,1,0.88,0.12
+AS178,UR183,near Lima,Chancay,1,0.16,0.84
+AS178,UR186,near Lima,Chancay,1,1.64,-0.64
+AS178,UR195,near Lima,Huacho,4,6.18,-2.18
+AS178,UR232,near Lima,Huacho,1,3.06,-2.06
+AS178,UR233,near Lima,Huacho,2,2.0,-0.0
+AS178,UR282,near Lima,Armatambo,2,1.92,0.08
+AS178,UR283,near Lima,Armatambo,6,5.73,0.27
+AS178,UR284,near Lima,Armatambo,0,1.25,-1.25
+AS178,UR285,near Lima,Armatambo,0,0.34,-0.34
+AS178,UR286,near Lima,Armatambo,0,0.0,0.0
+AS178,UR287,near Lima,Armatambo,1,0.81,0.19
+AS178,UR288,near Lima,Armatambo,1,1.1,-0.1
+AS178,UR289,near Lima,Armatambo,3,1.91,1.09
+AS178,UR290,near Lima,Armatambo,0,0.04,-0.04
+AS178,UR291A,near Lima,Armatambo,4,4.36,-0.36
+AS178,UR292A,near Lima,Armatambo,2,1.75,0.25
+AS178,UR293,near Lima,Armatambo,0,0.0,0.0
+AS178,UR294,near Lima,Armatambo,0,0.0,0.0
+HP037,HP047,Huacho,Armatambo,0,0.0,0.0
+HP037,KH0001,Huacho,Chuquitanta,0,0.0,0.0
+HP037,KH0227,Huacho,near Lima,0,0.0,0.0
+HP037,MM001,Huacho,Huacho,1,0.27,0.73
+HP037,UR060,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR061,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR062,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR064,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR065,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR066,Huacho,Huaquerones,0,0.04,-0.04
+HP037,UR067,Huacho,Huaquerones,0,0.04,-0.04
+HP037,UR069,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR070,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR071,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR072,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR074,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR075,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR076,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR078,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR079,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR080,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR081,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR082,Huacho,Huaquerones,0,0.0,0.0
+HP037,UR1088,Huacho,Huacho,0,0.0,0.0
+HP037,UR1106,Huacho,Marquez,0,0.02,-0.02
+HP037,UR1107,Huacho,Marquez,1,0.11,0.89
+HP037,UR1124,Huacho,Marquez,0,0.06,-0.06
+HP037,UR1130,Huacho,near Lima,0,0.0,0.0
+HP037,UR1154,Huacho,near Lima,0,0.0,0.0
+HP037,UR120,Huacho,Huacho,0,0.02,-0.02
+HP037,UR134,Huacho,Chancay,0,0.0,0.0
+HP037,UR135,Huacho,Chancay,0,0.0,0.0
+HP037,UR136,Huacho,Chancay,0,0.0,0.0
+HP037,UR137,Huacho,Chancay,0,0.0,0.0
+HP037,UR166,Huacho,Chancay,0,0.0,0.0
+HP037,UR177,Huacho,Chuquitanta,0,0.0,0.0
+HP037,UR182,Huacho,Chuquitanta,0,0.0,0.0
+HP037,UR183,Huacho,Chancay,0,0.0,0.0
+HP037,UR186,Huacho,Chancay,0,0.0,0.0
+HP037,UR195,Huacho,Huacho,0,0.0,0.0
+HP037,UR232,Huacho,Huacho,1,0.07,0.93
+HP037,UR233,Huacho,Huacho,0,0.01,-0.01
+HP037,UR282,Huacho,Armatambo,0,0.0,0.0
+HP037,UR283,Huacho,Armatambo,1,0.03,0.97
+HP037,UR284,Huacho,Armatambo,0,0.0,0.0
+HP037,UR285,Huacho,Armatambo,0,0.0,0.0
+HP037,UR286,Huacho,Armatambo,0,0.0,0.0
+HP037,UR287,Huacho,Armatambo,0,0.0,0.0
+HP037,UR288,Huacho,Armatambo,0,0.0,0.0
+HP037,UR289,Huacho,Armatambo,0,0.0,0.0
+HP037,UR290,Huacho,Armatambo,0,0.0,0.0
+HP037,UR291A,Huacho,Armatambo,1,0.02,0.98
+HP037,UR292A,Huacho,Armatambo,0,0.0,0.0
+HP037,UR293,Huacho,Armatambo,0,0.0,0.0
+HP037,UR294,Huacho,Armatambo,0,0.0,0.0
+HP047,KH0001,Armatambo,Chuquitanta,0,0.01,-0.01
+HP047,KH0227,Armatambo,near Lima,2,2.99,-0.99
+HP047,MM001,Armatambo,Huacho,2,2.34,-0.34
+HP047,UR060,Armatambo,Huaquerones,2,1.25,0.75
+HP047,UR061,Armatambo,Huaquerones,1,1.59,-0.59
+HP047,UR062,Armatambo,Huaquerones,0,0.0,0.0
+HP047,UR064,Armatambo,Huaquerones,1,1.0,0.0
+HP047,UR065,Armatambo,Huaquerones,0,0.3,-0.3
+HP047,UR066,Armatambo,Huaquerones,1,1.0,0.0
+HP047,UR067,Armatambo,Huaquerones,1,1.0,0.0
+HP047,UR069,Armatambo,Huaquerones,1,0.97,0.03
+HP047,UR070,Armatambo,Huaquerones,1,1.0,0.0
+HP047,UR071,Armatambo,Huaquerones,1,1.0,0.0
+HP047,UR072,Armatambo,Huaquerones,0,0.17,-0.17
+HP047,UR074,Armatambo,Huaquerones,1,0.97,0.03
+HP047,UR075,Armatambo,Huaquerones,0,0.0,0.0
+HP047,UR076,Armatambo,Huaquerones,0,0.0,0.0
+HP047,UR078,Armatambo,Huaquerones,0,0.78,-0.78
+HP047,UR079,Armatambo,Huaquerones,1,0.74,0.26
+HP047,UR080,Armatambo,Huaquerones,1,1.0,0.0
+HP047,UR081,Armatambo,Huaquerones,1,1.0,0.0
+HP047,UR082,Armatambo,Huaquerones,1,1.0,0.0
+HP047,UR1088,Armatambo,Huacho,1,0.52,0.48
+HP047,UR1106,Armatambo,Marquez,1,1.18,-0.18
+HP047,UR1107,Armatambo,Marquez,1,0.52,0.48
+HP047,UR1124,Armatambo,Marquez,1,1.03,-0.03
+HP047,UR1130,Armatambo,near Lima,1,0.12,0.88
+HP047,UR1154,Armatambo,near Lima,0,0.0,0.0
+HP047,UR120,Armatambo,Huacho,2,1.96,0.04
+HP047,UR134,Armatambo,Chancay,0,0.0,0.0
+HP047,UR135,Armatambo,Chancay,0,0.0,0.0
+HP047,UR136,Armatambo,Chancay,0,0.0,0.0
+HP047,UR137,Armatambo,Chancay,1,0.23,0.77
+HP047,UR166,Armatambo,Chancay,0,0.34,-0.34
+HP047,UR177,Armatambo,Chuquitanta,0,0.2,-0.2
+HP047,UR182,Armatambo,Chuquitanta,1,1.2,-0.2
+HP047,UR183,Armatambo,Chancay,1,0.18,0.82
+HP047,UR186,Armatambo,Chancay,2,2.69,-0.69
+HP047,UR195,Armatambo,Huacho,2,1.99,0.01
+HP047,UR232,Armatambo,Huacho,1,2.78,-1.78
+HP047,UR233,Armatambo,Huacho,2,4.18,-2.18
+HP047,UR282,Armatambo,Armatambo,2,1.29,0.71
+HP047,UR283,Armatambo,Armatambo,1,1.63,-0.63
+HP047,UR284,Armatambo,Armatambo,0,0.13,-0.13
+HP047,UR285,Armatambo,Armatambo,0,0.14,-0.14
+HP047,UR286,Armatambo,Armatambo,0,0.07,-0.07
+HP047,UR287,Armatambo,Armatambo,1,1.0,0.0
+HP047,UR288,Armatambo,Armatambo,2,2.37,-0.37
+HP047,UR289,Armatambo,Armatambo,1,1.26,-0.26
+HP047,UR290,Armatambo,Armatambo,1,0.24,0.76
+HP047,UR291A,Armatambo,Armatambo,3,3.56,-0.56
+HP047,UR292A,Armatambo,Armatambo,1,1.0,0.0
+HP047,UR293,Armatambo,Armatambo,0,0.0,0.0
+HP047,UR294,Armatambo,Armatambo,0,0.19,-0.19
+KH0001,KH0227,Chuquitanta,near Lima,1,0.04,0.96
+KH0001,MM001,Chuquitanta,Huacho,0,0.7,-0.7
+KH0001,UR060,Chuquitanta,Huaquerones,0,0.0,0.0
+KH0001,UR061,Chuquitanta,Huaquerones,0,0.01,-0.01
+KH0001,UR062,Chuquitanta,Huaquerones,0,0.02,-0.02
+KH0001,UR064,Chuquitanta,Huaquerones,0,0.01,-0.01
+KH0001,UR065,Chuquitanta,Huaquerones,0,0.0,0.0
+KH0001,UR066,Chuquitanta,Huaquerones,0,0.0,-0.0
+KH0001,UR067,Chuquitanta,Huaquerones,0,0.01,-0.01
+KH0001,UR069,Chuquitanta,Huaquerones,0,0.03,-0.03
+KH0001,UR070,Chuquitanta,Huaquerones,0,0.0,0.0
+KH0001,UR071,Chuquitanta,Huaquerones,0,0.0,0.0
+KH0001,UR072,Chuquitanta,Huaquerones,0,0.03,-0.03
+KH0001,UR074,Chuquitanta,Huaquerones,0,0.0,0.0
+KH0001,UR075,Chuquitanta,Huaquerones,0,0.0,0.0
+KH0001,UR076,Chuquitanta,Huaquerones,0,0.0,0.0
+KH0001,UR078,Chuquitanta,Huaquerones,0,0.0,0.0
+KH0001,UR079,Chuquitanta,Huaquerones,0,0.02,-0.02
+KH0001,UR080,Chuquitanta,Huaquerones,0,0.0,0.0
+KH0001,UR081,Chuquitanta,Huaquerones,0,0.0,0.0
+KH0001,UR082,Chuquitanta,Huaquerones,0,0.0,0.0
+KH0001,UR1088,Chuquitanta,Huacho,0,0.03,-0.03
+KH0001,UR1106,Chuquitanta,Marquez,0,0.02,-0.02
+KH0001,UR1107,Chuquitanta,Marquez,0,0.06,-0.06
+KH0001,UR1124,Chuquitanta,Marquez,1,0.21,0.79
+KH0001,UR1130,Chuquitanta,near Lima,0,0.0,0.0
+KH0001,UR1154,Chuquitanta,near Lima,0,0.0,0.0
+KH0001,UR120,Chuquitanta,Huacho,0,0.04,-0.04
+KH0001,UR134,Chuquitanta,Chancay,0,0.0,0.0
+KH0001,UR135,Chuquitanta,Chancay,0,0.0,0.0
+KH0001,UR136,Chuquitanta,Chancay,0,0.02,-0.02
+KH0001,UR137,Chuquitanta,Chancay,0,0.01,-0.01
+KH0001,UR166,Chuquitanta,Chancay,0,0.01,-0.01
+KH0001,UR177,Chuquitanta,Chuquitanta,0,0.0,-0.0
+KH0001,UR182,Chuquitanta,Chuquitanta,0,0.11,-0.11
+KH0001,UR183,Chuquitanta,Chancay,0,0.0,-0.0
+KH0001,UR186,Chuquitanta,Chancay,0,0.2,-0.2
+KH0001,UR195,Chuquitanta,Huacho,0,0.09,-0.09
+KH0001,UR232,Chuquitanta,Huacho,1,0.16,0.84
+KH0001,UR233,Chuquitanta,Huacho,0,0.77,-0.77
+KH0001,UR282,Chuquitanta,Armatambo,0,0.01,-0.01
+KH0001,UR283,Chuquitanta,Armatambo,0,0.03,-0.03
+KH0001,UR284,Chuquitanta,Armatambo,0,0.03,-0.03
+KH0001,UR285,Chuquitanta,Armatambo,0,0.0,0.0
+KH0001,UR286,Chuquitanta,Armatambo,0,0.0,-0.0
+KH0001,UR287,Chuquitanta,Armatambo,0,0.0,0.0
+KH0001,UR288,Chuquitanta,Armatambo,0,0.0,-0.0
+KH0001,UR289,Chuquitanta,Armatambo,0,0.0,0.0
+KH0001,UR290,Chuquitanta,Armatambo,0,0.0,0.0
+KH0001,UR291A,Chuquitanta,Armatambo,0,0.05,-0.05
+KH0001,UR292A,Chuquitanta,Armatambo,0,0.0,0.0
+KH0001,UR293,Chuquitanta,Armatambo,0,0.01,-0.01
+KH0001,UR294,Chuquitanta,Armatambo,0,0.03,-0.03
+KH0227,MM001,near Lima,Huacho,14,17.73,-3.73
+KH0227,UR060,near Lima,Huaquerones,16,13.66,2.34
+KH0227,UR061,near Lima,Huaquerones,5,8.01,-3.01
+KH0227,UR062,near Lima,Huaquerones,0,0.25,-0.25
+KH0227,UR064,near Lima,Huaquerones,11,14.12,-3.12
+KH0227,UR065,near Lima,Huaquerones,4,3.39,0.61
+KH0227,UR066,near Lima,Huaquerones,7,8.9,-1.9
+KH0227,UR067,near Lima,Huaquerones,6,7.17,-1.17
+KH0227,UR069,near Lima,Huaquerones,4,7.24,-3.24
+KH0227,UR070,near Lima,Huaquerones,1,1.0,0.0
+KH0227,UR071,near Lima,Huaquerones,1,1.0,0.0
+KH0227,UR072,near Lima,Huaquerones,13,15.88,-2.88
+KH0227,UR074,near Lima,Huaquerones,6,4.44,1.56
+KH0227,UR075,near Lima,Huaquerones,4,5.71,-1.71
+KH0227,UR076,near Lima,Huaquerones,9,8.88,0.12
+KH0227,UR078,near Lima,Huaquerones,5,3.91,1.09
+KH0227,UR079,near Lima,Huaquerones,15,13.37,1.63
+KH0227,UR080,near Lima,Huaquerones,6,5.27,0.73
+KH0227,UR081,near Lima,Huaquerones,4,3.73,0.27
+KH0227,UR082,near Lima,Huaquerones,1,1.0,0.0
+KH0227,UR1088,near Lima,Huacho,14,12.35,1.65
+KH0227,UR1106,near Lima,Marquez,7,3.99,3.01
+KH0227,UR1107,near Lima,Marquez,1,1.32,-0.32
+KH0227,UR1124,near Lima,Marquez,3,3.05,-0.05
+KH0227,UR1130,near Lima,near Lima,7,6.36,0.64
+KH0227,UR1154,near Lima,near Lima,0,0.0,0.0
+KH0227,UR120,near Lima,Huacho,17,15.17,1.83
+KH0227,UR134,near Lima,Chancay,2,1.28,0.72
+KH0227,UR135,near Lima,Chancay,2,1.66,0.34
+KH0227,UR136,near Lima,Chancay,0,0.0,0.0
+KH0227,UR137,near Lima,Chancay,3,3.55,-0.55
+KH0227,UR166,near Lima,Chancay,1,0.79,0.21
+KH0227,UR177,near Lima,Chuquitanta,8,7.95,0.05
+KH0227,UR182,near Lima,Chuquitanta,2,3.67,-1.67
+KH0227,UR183,near Lima,Chancay,2,1.08,0.92
+KH0227,UR186,near Lima,Chancay,12,8.57,3.43
+KH0227,UR195,near Lima,Huacho,25,24.3,0.7
+KH0227,UR232,near Lima,Huacho,22,20.08,1.92
+KH0227,UR233,near Lima,Huacho,10,13.95,-3.95
+KH0227,UR282,near Lima,Armatambo,11,9.35,1.65
+KH0227,UR283,near Lima,Armatambo,31,27.5,3.5
+KH0227,UR284,near Lima,Armatambo,0,4.78,-4.78
+KH0227,UR285,near Lima,Armatambo,5,2.95,2.05
+KH0227,UR286,near Lima,Armatambo,0,0.27,-0.27
+KH0227,UR287,near Lima,Armatambo,16,13.09,2.91
+KH0227,UR288,near Lima,Armatambo,11,11.95,-0.95
+KH0227,UR289,near Lima,Armatambo,12,13.67,-1.67
+KH0227,UR290,near Lima,Armatambo,4,3.78,0.22
+KH0227,UR291A,near Lima,Armatambo,30,31.73,-1.73
+KH0227,UR292A,near Lima,Armatambo,14,14.57,-0.57
+KH0227,UR293,near Lima,Armatambo,0,0.0,0.0
+KH0227,UR294,near Lima,Armatambo,0,0.0,0.0
+MM001,UR060,Huacho,Huaquerones,7,8.67,-1.67
+MM001,UR061,Huacho,Huaquerones,3,5.24,-2.24
+MM001,UR062,Huacho,Huaquerones,0,0.21,-0.21
+MM001,UR064,Huacho,Huaquerones,6,7.8,-1.8
+MM001,UR065,Huacho,Huaquerones,1,2.05,-1.05
+MM001,UR066,Huacho,Huaquerones,5,7.12,-2.12
+MM001,UR067,Huacho,Huaquerones,3,6.38,-3.38
+MM001,UR069,Huacho,Huaquerones,6,7.27,-1.27
+MM001,UR070,Huacho,Huaquerones,1,1.0,0.0
+MM001,UR071,Huacho,Huaquerones,1,1.0,0.0
+MM001,UR072,Huacho,Huaquerones,7,6.42,0.58
+MM001,UR074,Huacho,Huaquerones,5,5.6,-0.6
+MM001,UR075,Huacho,Huaquerones,1,1.4,-0.4
+MM001,UR076,Huacho,Huaquerones,1,0.54,0.46
+MM001,UR078,Huacho,Huaquerones,2,3.25,-1.25
+MM001,UR079,Huacho,Huaquerones,6,5.84,0.16
+MM001,UR080,Huacho,Huaquerones,3,3.79,-0.79
+MM001,UR081,Huacho,Huaquerones,1,2.95,-1.95
+MM001,UR082,Huacho,Huaquerones,1,1.0,0.0
+MM001,UR1088,Huacho,Huacho,6,10.05,-4.05
+MM001,UR1106,Huacho,Marquez,5,7.39,-2.39
+MM001,UR1107,Huacho,Marquez,4,4.48,-0.48
+MM001,UR1124,Huacho,Marquez,9,8.1,0.9
+MM001,UR1130,Huacho,near Lima,3,2.61,0.39
+MM001,UR1154,Huacho,near Lima,0,0.0,0.0
+MM001,UR120,Huacho,Huacho,10,12.57,-2.57
+MM001,UR134,Huacho,Chancay,2,1.43,0.57
+MM001,UR135,Huacho,Chancay,0,0.63,-0.63
+MM001,UR136,Huacho,Chancay,0,0.0,0.0
+MM001,UR137,Huacho,Chancay,1,1.22,-0.22
+MM001,UR166,Huacho,Chancay,1,0.67,0.33
+MM001,UR177,Huacho,Chuquitanta,4,2.87,1.13
+MM001,UR182,Huacho,Chuquitanta,7,6.7,0.3
+MM001,UR183,Huacho,Chancay,1,0.62,0.38
+MM001,UR186,Huacho,Chancay,9,9.48,-0.48
+MM001,UR195,Huacho,Huacho,12,22.78,-10.78
+MM001,UR232,Huacho,Huacho,17,20.31,-3.31
+MM001,UR233,Huacho,Huacho,11,17.03,-6.03
+MM001,UR282,Huacho,Armatambo,10,10.52,-0.52
+MM001,UR283,Huacho,Armatambo,12,17.84,-5.84
+MM001,UR284,Huacho,Armatambo,1,2.37,-1.37
+MM001,UR285,Huacho,Armatambo,3,2.33,0.67
+MM001,UR286,Huacho,Armatambo,0,0.0,0.0
+MM001,UR287,Huacho,Armatambo,4,8.08,-4.08
+MM001,UR288,Huacho,Armatambo,7,7.27,-0.27
+MM001,UR289,Huacho,Armatambo,7,8.91,-1.91
+MM001,UR290,Huacho,Armatambo,2,1.36,0.64
+MM001,UR291A,Huacho,Armatambo,15,23.08,-8.08
+MM001,UR292A,Huacho,Armatambo,8,8.05,-0.05
+MM001,UR293,Huacho,Armatambo,0,0.0,0.0
+MM001,UR294,Huacho,Armatambo,1,0.54,0.46
+UR060,UR061,Huaquerones,Huaquerones,5,5.79,-0.79
+UR060,UR062,Huaquerones,Huaquerones,0,0.02,-0.02
+UR060,UR064,Huaquerones,Huaquerones,12,13.68,-1.68
+UR060,UR065,Huaquerones,Huaquerones,2,2.21,-0.21
+UR060,UR066,Huaquerones,Huaquerones,4,7.27,-3.27
+UR060,UR067,Huaquerones,Huaquerones,4,6.03,-2.03
+UR060,UR069,Huaquerones,Huaquerones,6,6.39,-0.39
+UR060,UR070,Huaquerones,Huaquerones,1,1.0,0.0
+UR060,UR071,Huaquerones,Huaquerones,1,1.0,0.0
+UR060,UR072,Huaquerones,Huaquerones,9,6.54,2.46
+UR060,UR074,Huaquerones,Huaquerones,7,8.52,-1.52
+UR060,UR075,Huaquerones,Huaquerones,0,1.33,-1.33
+UR060,UR076,Huaquerones,Huaquerones,6,6.5,-0.5
+UR060,UR078,Huaquerones,Huaquerones,4,4.99,-0.99
+UR060,UR079,Huaquerones,Huaquerones,8,6.34,1.66
+UR060,UR080,Huaquerones,Huaquerones,6,5.98,0.02
+UR060,UR081,Huaquerones,Huaquerones,2,2.28,-0.28
+UR060,UR082,Huaquerones,Huaquerones,1,1.0,0.0
+UR060,UR1088,Huaquerones,Huacho,9,10.62,-1.62
+UR060,UR1106,Huaquerones,Marquez,2,1.47,0.53
+UR060,UR1107,Huaquerones,Marquez,1,0.43,0.57
+UR060,UR1124,Huaquerones,Marquez,1,0.81,0.19
+UR060,UR1130,Huaquerones,near Lima,9,6.94,2.06
+UR060,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR060,UR120,Huaquerones,Huacho,8,6.93,1.07
+UR060,UR134,Huaquerones,Chancay,3,2.85,0.15
+UR060,UR135,Huaquerones,Chancay,2,1.07,0.93
+UR060,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR060,UR137,Huaquerones,Chancay,2,0.71,1.29
+UR060,UR166,Huaquerones,Chancay,1,0.43,0.57
+UR060,UR177,Huaquerones,Chuquitanta,5,4.8,0.2
+UR060,UR182,Huaquerones,Chuquitanta,1,2.3,-1.3
+UR060,UR183,Huaquerones,Chancay,2,0.63,1.37
+UR060,UR186,Huaquerones,Chancay,5,3.22,1.78
+UR060,UR195,Huaquerones,Huacho,12,17.85,-5.85
+UR060,UR232,Huaquerones,Huacho,8,7.39,0.61
+UR060,UR233,Huaquerones,Huacho,4,4.49,-0.49
+UR060,UR282,Huaquerones,Armatambo,7,5.34,1.66
+UR060,UR283,Huaquerones,Armatambo,21,15.42,5.58
+UR060,UR284,Huaquerones,Armatambo,1,0.27,0.73
+UR060,UR285,Huaquerones,Armatambo,7,6.08,0.92
+UR060,UR286,Huaquerones,Armatambo,0,0.0,0.0
+UR060,UR287,Huaquerones,Armatambo,12,11.87,0.13
+UR060,UR288,Huaquerones,Armatambo,10,8.13,1.87
+UR060,UR289,Huaquerones,Armatambo,9,12.03,-3.03
+UR060,UR290,Huaquerones,Armatambo,1,0.35,0.65
+UR060,UR291A,Huaquerones,Armatambo,16,14.93,1.07
+UR060,UR292A,Huaquerones,Armatambo,11,12.38,-1.38
+UR060,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR060,UR294,Huaquerones,Armatambo,0,0.0,0.0
+UR061,UR062,Huaquerones,Huaquerones,0,0.06,-0.06
+UR061,UR064,Huaquerones,Huaquerones,2,5.87,-3.87
+UR061,UR065,Huaquerones,Huaquerones,1,1.61,-0.61
+UR061,UR066,Huaquerones,Huaquerones,2,4.02,-2.02
+UR061,UR067,Huaquerones,Huaquerones,2,3.98,-1.98
+UR061,UR069,Huaquerones,Huaquerones,2,2.19,-0.19
+UR061,UR070,Huaquerones,Huaquerones,1,0.95,0.05
+UR061,UR071,Huaquerones,Huaquerones,1,0.95,0.05
+UR061,UR072,Huaquerones,Huaquerones,4,3.62,0.38
+UR061,UR074,Huaquerones,Huaquerones,3,2.94,0.06
+UR061,UR075,Huaquerones,Huaquerones,0,0.73,-0.73
+UR061,UR076,Huaquerones,Huaquerones,0,1.1,-1.1
+UR061,UR078,Huaquerones,Huaquerones,1,1.63,-0.63
+UR061,UR079,Huaquerones,Huaquerones,3,2.98,0.02
+UR061,UR080,Huaquerones,Huaquerones,1,2.0,-1.0
+UR061,UR081,Huaquerones,Huaquerones,2,1.88,0.12
+UR061,UR082,Huaquerones,Huaquerones,1,0.95,0.05
+UR061,UR1088,Huaquerones,Huacho,2,3.89,-1.89
+UR061,UR1106,Huaquerones,Marquez,1,1.27,-0.27
+UR061,UR1107,Huaquerones,Marquez,1,0.49,0.51
+UR061,UR1124,Huaquerones,Marquez,0,1.0,-1.0
+UR061,UR1130,Huaquerones,near Lima,4,2.05,1.95
+UR061,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR061,UR120,Huaquerones,Huacho,2,4.29,-2.29
+UR061,UR134,Huaquerones,Chancay,1,0.84,0.16
+UR061,UR135,Huaquerones,Chancay,0,0.08,-0.08
+UR061,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR061,UR137,Huaquerones,Chancay,1,0.74,0.26
+UR061,UR166,Huaquerones,Chancay,0,0.35,-0.35
+UR061,UR177,Huaquerones,Chuquitanta,1,2.11,-1.11
+UR061,UR182,Huaquerones,Chuquitanta,0,1.08,-1.08
+UR061,UR183,Huaquerones,Chancay,1,0.45,0.55
+UR061,UR186,Huaquerones,Chancay,3,3.7,-0.7
+UR061,UR195,Huaquerones,Huacho,5,7.0,-2.0
+UR061,UR232,Huaquerones,Huacho,3,6.64,-3.64
+UR061,UR233,Huaquerones,Huacho,4,4.5,-0.5
+UR061,UR282,Huaquerones,Armatambo,2,1.68,0.32
+UR061,UR283,Huaquerones,Armatambo,5,5.93,-0.93
+UR061,UR284,Huaquerones,Armatambo,0,0.1,-0.1
+UR061,UR285,Huaquerones,Armatambo,3,2.18,0.82
+UR061,UR286,Huaquerones,Armatambo,0,0.04,-0.04
+UR061,UR287,Huaquerones,Armatambo,2,3.28,-1.28
+UR061,UR288,Huaquerones,Armatambo,2,3.45,-1.45
+UR061,UR289,Huaquerones,Armatambo,4,4.72,-0.72
+UR061,UR290,Huaquerones,Armatambo,1,0.34,0.66
+UR061,UR291A,Huaquerones,Armatambo,4,7.2,-3.2
+UR061,UR292A,Huaquerones,Armatambo,4,5.25,-1.25
+UR061,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR061,UR294,Huaquerones,Armatambo,0,0.0,0.0
+UR062,UR064,Huaquerones,Huaquerones,0,0.27,-0.27
+UR062,UR065,Huaquerones,Huaquerones,0,0.0,0.0
+UR062,UR066,Huaquerones,Huaquerones,0,0.05,-0.05
+UR062,UR067,Huaquerones,Huaquerones,0,0.06,-0.06
+UR062,UR069,Huaquerones,Huaquerones,0,0.03,-0.03
+UR062,UR070,Huaquerones,Huaquerones,0,0.0,0.0
+UR062,UR071,Huaquerones,Huaquerones,0,0.0,0.0
+UR062,UR072,Huaquerones,Huaquerones,0,0.03,-0.03
+UR062,UR074,Huaquerones,Huaquerones,0,0.01,-0.01
+UR062,UR075,Huaquerones,Huaquerones,0,0.0,0.0
+UR062,UR076,Huaquerones,Huaquerones,0,0.0,0.0
+UR062,UR078,Huaquerones,Huaquerones,0,0.02,-0.02
+UR062,UR079,Huaquerones,Huaquerones,0,0.0,0.0
+UR062,UR080,Huaquerones,Huaquerones,0,0.0,0.0
+UR062,UR081,Huaquerones,Huaquerones,0,0.0,0.0
+UR062,UR082,Huaquerones,Huaquerones,0,0.0,0.0
+UR062,UR1088,Huaquerones,Huacho,0,0.01,-0.01
+UR062,UR1106,Huaquerones,Marquez,0,0.05,-0.05
+UR062,UR1107,Huaquerones,Marquez,0,0.0,0.0
+UR062,UR1124,Huaquerones,Marquez,0,0.05,-0.05
+UR062,UR1130,Huaquerones,near Lima,0,0.0,0.0
+UR062,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR062,UR120,Huaquerones,Huacho,1,0.32,0.68
+UR062,UR134,Huaquerones,Chancay,0,0.0,0.0
+UR062,UR135,Huaquerones,Chancay,0,0.0,0.0
+UR062,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR062,UR137,Huaquerones,Chancay,1,0.07,0.93
+UR062,UR166,Huaquerones,Chancay,0,0.02,-0.02
+UR062,UR177,Huaquerones,Chuquitanta,0,0.09,-0.09
+UR062,UR182,Huaquerones,Chuquitanta,0,0.02,-0.02
+UR062,UR183,Huaquerones,Chancay,0,0.0,-0.0
+UR062,UR186,Huaquerones,Chancay,0,0.12,-0.12
+UR062,UR195,Huaquerones,Huacho,1,0.09,0.91
+UR062,UR232,Huaquerones,Huacho,0,0.3,-0.3
+UR062,UR233,Huaquerones,Huacho,0,0.26,-0.26
+UR062,UR282,Huaquerones,Armatambo,0,0.02,-0.02
+UR062,UR283,Huaquerones,Armatambo,0,0.04,-0.04
+UR062,UR284,Huaquerones,Armatambo,0,0.01,-0.01
+UR062,UR285,Huaquerones,Armatambo,0,0.0,0.0
+UR062,UR286,Huaquerones,Armatambo,0,0.0,0.0
+UR062,UR287,Huaquerones,Armatambo,0,0.0,0.0
+UR062,UR288,Huaquerones,Armatambo,0,0.02,-0.02
+UR062,UR289,Huaquerones,Armatambo,0,0.0,0.0
+UR062,UR290,Huaquerones,Armatambo,0,0.07,-0.07
+UR062,UR291A,Huaquerones,Armatambo,0,0.24,-0.24
+UR062,UR292A,Huaquerones,Armatambo,0,0.04,-0.04
+UR062,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR062,UR294,Huaquerones,Armatambo,0,0.0,0.0
+UR064,UR065,Huaquerones,Huaquerones,1,1.75,-0.75
+UR064,UR066,Huaquerones,Huaquerones,4,7.18,-3.18
+UR064,UR067,Huaquerones,Huaquerones,4,6.04,-2.04
+UR064,UR069,Huaquerones,Huaquerones,4,6.59,-2.59
+UR064,UR070,Huaquerones,Huaquerones,1,1.0,0.0
+UR064,UR071,Huaquerones,Huaquerones,1,1.0,0.0
+UR064,UR072,Huaquerones,Huaquerones,5,4.89,0.11
+UR064,UR074,Huaquerones,Huaquerones,5,6.45,-1.45
+UR064,UR075,Huaquerones,Huaquerones,1,0.97,0.03
+UR064,UR076,Huaquerones,Huaquerones,2,3.91,-1.91
+UR064,UR078,Huaquerones,Huaquerones,3,4.48,-1.48
+UR064,UR079,Huaquerones,Huaquerones,3,5.0,-2.0
+UR064,UR080,Huaquerones,Huaquerones,5,4.51,0.49
+UR064,UR081,Huaquerones,Huaquerones,2,2.1,-0.1
+UR064,UR082,Huaquerones,Huaquerones,1,1.0,0.0
+UR064,UR1088,Huaquerones,Huacho,5,6.67,-1.67
+UR064,UR1106,Huaquerones,Marquez,2,1.69,0.31
+UR064,UR1107,Huaquerones,Marquez,1,0.44,0.56
+UR064,UR1124,Huaquerones,Marquez,0,0.68,-0.68
+UR064,UR1130,Huaquerones,near Lima,7,5.44,1.56
+UR064,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR064,UR120,Huaquerones,Huacho,6,7.1,-1.1
+UR064,UR134,Huaquerones,Chancay,3,2.83,0.17
+UR064,UR135,Huaquerones,Chancay,2,0.73,1.27
+UR064,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR064,UR137,Huaquerones,Chancay,4,1.29,2.71
+UR064,UR166,Huaquerones,Chancay,1,0.59,0.41
+UR064,UR177,Huaquerones,Chuquitanta,4,3.33,0.67
+UR064,UR182,Huaquerones,Chuquitanta,2,2.11,-0.11
+UR064,UR183,Huaquerones,Chancay,2,0.72,1.28
+UR064,UR186,Huaquerones,Chancay,3,3.14,-0.14
+UR064,UR195,Huaquerones,Huacho,14,13.7,0.3
+UR064,UR232,Huaquerones,Huacho,5,8.62,-3.62
+UR064,UR233,Huaquerones,Huacho,3,4.3,-1.3
+UR064,UR282,Huaquerones,Armatambo,6,4.11,1.89
+UR064,UR283,Huaquerones,Armatambo,16,12.41,3.59
+UR064,UR284,Huaquerones,Armatambo,0,0.66,-0.66
+UR064,UR285,Huaquerones,Armatambo,4,5.1,-1.1
+UR064,UR286,Huaquerones,Armatambo,0,0.0,0.0
+UR064,UR287,Huaquerones,Armatambo,9,9.46,-0.46
+UR064,UR288,Huaquerones,Armatambo,7,6.4,0.6
+UR064,UR289,Huaquerones,Armatambo,6,9.11,-3.11
+UR064,UR290,Huaquerones,Armatambo,1,1.79,-0.79
+UR064,UR291A,Huaquerones,Armatambo,12,14.23,-2.23
+UR064,UR292A,Huaquerones,Armatambo,11,12.92,-1.92
+UR064,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR064,UR294,Huaquerones,Armatambo,0,0.0,0.0
+UR065,UR066,Huaquerones,Huaquerones,0,1.3,-1.3
+UR065,UR067,Huaquerones,Huaquerones,0,1.34,-1.34
+UR065,UR069,Huaquerones,Huaquerones,0,0.97,-0.97
+UR065,UR070,Huaquerones,Huaquerones,0,0.3,-0.3
+UR065,UR071,Huaquerones,Huaquerones,0,0.3,-0.3
+UR065,UR072,Huaquerones,Huaquerones,2,2.38,-0.38
+UR065,UR074,Huaquerones,Huaquerones,1,0.61,0.39
+UR065,UR075,Huaquerones,Huaquerones,2,1.03,0.97
+UR065,UR076,Huaquerones,Huaquerones,2,0.52,1.48
+UR065,UR078,Huaquerones,Huaquerones,0,0.22,-0.22
+UR065,UR079,Huaquerones,Huaquerones,2,1.83,0.17
+UR065,UR080,Huaquerones,Huaquerones,0,0.3,-0.3
+UR065,UR081,Huaquerones,Huaquerones,2,2.03,-0.03
+UR065,UR082,Huaquerones,Huaquerones,0,0.3,-0.3
+UR065,UR1088,Huaquerones,Huacho,4,3.47,0.53
+UR065,UR1106,Huaquerones,Marquez,0,0.29,-0.29
+UR065,UR1107,Huaquerones,Marquez,0,0.07,-0.07
+UR065,UR1124,Huaquerones,Marquez,0,0.34,-0.34
+UR065,UR1130,Huaquerones,near Lima,0,0.93,-0.93
+UR065,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR065,UR120,Huaquerones,Huacho,0,1.69,-1.69
+UR065,UR134,Huaquerones,Chancay,0,0.0,0.0
+UR065,UR135,Huaquerones,Chancay,0,0.0,0.0
+UR065,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR065,UR137,Huaquerones,Chancay,0,0.03,-0.03
+UR065,UR166,Huaquerones,Chancay,0,0.03,-0.03
+UR065,UR177,Huaquerones,Chuquitanta,2,1.86,0.14
+UR065,UR182,Huaquerones,Chuquitanta,0,0.2,-0.2
+UR065,UR183,Huaquerones,Chancay,0,0.05,-0.05
+UR065,UR186,Huaquerones,Chancay,1,0.99,0.01
+UR065,UR195,Huaquerones,Huacho,3,4.0,-1.0
+UR065,UR232,Huaquerones,Huacho,2,1.94,0.06
+UR065,UR233,Huaquerones,Huacho,0,0.52,-0.52
+UR065,UR282,Huaquerones,Armatambo,0,0.62,-0.62
+UR065,UR283,Huaquerones,Armatambo,3,3.34,-0.34
+UR065,UR284,Huaquerones,Armatambo,0,0.06,-0.06
+UR065,UR285,Huaquerones,Armatambo,2,1.42,0.58
+UR065,UR286,Huaquerones,Armatambo,0,0.0,0.0
+UR065,UR287,Huaquerones,Armatambo,0,0.68,-0.68
+UR065,UR288,Huaquerones,Armatambo,0,0.69,-0.69
+UR065,UR289,Huaquerones,Armatambo,3,3.31,-0.31
+UR065,UR290,Huaquerones,Armatambo,0,0.24,-0.24
+UR065,UR291A,Huaquerones,Armatambo,3,3.48,-0.48
+UR065,UR292A,Huaquerones,Armatambo,2,2.26,-0.26
+UR065,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR065,UR294,Huaquerones,Armatambo,0,0.0,0.0
+UR066,UR067,Huaquerones,Huaquerones,15,8.15,6.85
+UR066,UR069,Huaquerones,Huaquerones,3,4.2,-1.2
+UR066,UR070,Huaquerones,Huaquerones,1,1.0,0.0
+UR066,UR071,Huaquerones,Huaquerones,1,1.0,0.0
+UR066,UR072,Huaquerones,Huaquerones,1,2.79,-1.79
+UR066,UR074,Huaquerones,Huaquerones,4,3.88,0.12
+UR066,UR075,Huaquerones,Huaquerones,1,1.18,-0.18
+UR066,UR076,Huaquerones,Huaquerones,0,1.51,-1.51
+UR066,UR078,Huaquerones,Huaquerones,2,3.12,-1.12
+UR066,UR079,Huaquerones,Huaquerones,3,3.12,-0.12
+UR066,UR080,Huaquerones,Huaquerones,3,3.47,-0.47
+UR066,UR081,Huaquerones,Huaquerones,1,2.1,-1.1
+UR066,UR082,Huaquerones,Huaquerones,1,1.0,0.0
+UR066,UR1088,Huaquerones,Huacho,1,3.91,-2.91
+UR066,UR1106,Huaquerones,Marquez,3,1.89,1.11
+UR066,UR1107,Huaquerones,Marquez,1,0.63,0.37
+UR066,UR1124,Huaquerones,Marquez,1,1.21,-0.21
+UR066,UR1130,Huaquerones,near Lima,3,3.14,-0.14
+UR066,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR066,UR120,Huaquerones,Huacho,7,6.31,0.69
+UR066,UR134,Huaquerones,Chancay,2,1.97,0.03
+UR066,UR135,Huaquerones,Chancay,0,0.53,-0.53
+UR066,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR066,UR137,Huaquerones,Chancay,3,0.86,2.14
+UR066,UR166,Huaquerones,Chancay,0,0.28,-0.28
+UR066,UR177,Huaquerones,Chuquitanta,1,1.79,-0.79
+UR066,UR182,Huaquerones,Chuquitanta,0,1.67,-1.67
+UR066,UR183,Huaquerones,Chancay,1,0.57,0.43
+UR066,UR186,Huaquerones,Chancay,2,3.49,-1.49
+UR066,UR195,Huaquerones,Huacho,6,8.72,-2.72
+UR066,UR232,Huaquerones,Huacho,5,7.62,-2.62
+UR066,UR233,Huaquerones,Huacho,5,4.83,0.17
+UR066,UR282,Huaquerones,Armatambo,4,3.21,0.79
+UR066,UR283,Huaquerones,Armatambo,4,6.98,-2.98
+UR066,UR284,Huaquerones,Armatambo,0,0.21,-0.21
+UR066,UR285,Huaquerones,Armatambo,2,2.61,-0.61
+UR066,UR286,Huaquerones,Armatambo,0,0.0,0.0
+UR066,UR287,Huaquerones,Armatambo,7,7.15,-0.15
+UR066,UR288,Huaquerones,Armatambo,3,5.06,-2.06
+UR066,UR289,Huaquerones,Armatambo,4,6.45,-2.45
+UR066,UR290,Huaquerones,Armatambo,2,0.64,1.36
+UR066,UR291A,Huaquerones,Armatambo,7,9.61,-2.61
+UR066,UR292A,Huaquerones,Armatambo,5,6.58,-1.58
+UR066,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR066,UR294,Huaquerones,Armatambo,0,0.15,-0.15
+UR067,UR069,Huaquerones,Huaquerones,3,3.86,-0.86
+UR067,UR070,Huaquerones,Huaquerones,1,1.0,0.0
+UR067,UR071,Huaquerones,Huaquerones,1,1.0,0.0
+UR067,UR072,Huaquerones,Huaquerones,1,2.55,-1.55
+UR067,UR074,Huaquerones,Huaquerones,4,3.97,0.03
+UR067,UR075,Huaquerones,Huaquerones,1,1.2,-0.2
+UR067,UR076,Huaquerones,Huaquerones,0,1.14,-1.14
+UR067,UR078,Huaquerones,Huaquerones,2,2.37,-0.37
+UR067,UR079,Huaquerones,Huaquerones,1,2.23,-1.23
+UR067,UR080,Huaquerones,Huaquerones,3,2.65,0.35
+UR067,UR081,Huaquerones,Huaquerones,1,2.11,-1.11
+UR067,UR082,Huaquerones,Huaquerones,1,1.0,0.0
+UR067,UR1088,Huaquerones,Huacho,1,3.76,-2.76
+UR067,UR1106,Huaquerones,Marquez,2,1.96,0.04
+UR067,UR1107,Huaquerones,Marquez,1,0.59,0.41
+UR067,UR1124,Huaquerones,Marquez,0,1.2,-1.2
+UR067,UR1130,Huaquerones,near Lima,3,2.71,0.29
+UR067,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR067,UR120,Huaquerones,Huacho,4,5.55,-1.55
+UR067,UR134,Huaquerones,Chancay,2,2.02,-0.02
+UR067,UR135,Huaquerones,Chancay,0,0.0,0.0
+UR067,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR067,UR137,Huaquerones,Chancay,1,0.6,0.4
+UR067,UR166,Huaquerones,Chancay,0,0.22,-0.22
+UR067,UR177,Huaquerones,Chuquitanta,1,1.37,-0.37
+UR067,UR182,Huaquerones,Chuquitanta,0,1.46,-1.46
+UR067,UR183,Huaquerones,Chancay,1,0.59,0.41
+UR067,UR186,Huaquerones,Chancay,2,3.41,-1.41
+UR067,UR195,Huaquerones,Huacho,6,7.47,-1.47
+UR067,UR232,Huaquerones,Huacho,2,7.25,-5.25
+UR067,UR233,Huaquerones,Huacho,3,4.19,-1.19
+UR067,UR282,Huaquerones,Armatambo,3,2.71,0.29
+UR067,UR283,Huaquerones,Armatambo,4,6.32,-2.32
+UR067,UR284,Huaquerones,Armatambo,0,0.07,-0.07
+UR067,UR285,Huaquerones,Armatambo,2,2.69,-0.69
+UR067,UR286,Huaquerones,Armatambo,0,0.0,0.0
+UR067,UR287,Huaquerones,Armatambo,5,5.26,-0.26
+UR067,UR288,Huaquerones,Armatambo,3,4.19,-1.19
+UR067,UR289,Huaquerones,Armatambo,4,6.01,-2.01
+UR067,UR290,Huaquerones,Armatambo,1,0.44,0.56
+UR067,UR291A,Huaquerones,Armatambo,5,8.02,-3.02
+UR067,UR292A,Huaquerones,Armatambo,4,5.34,-1.34
+UR067,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR067,UR294,Huaquerones,Armatambo,0,0.18,-0.18
+UR069,UR070,Huaquerones,Huaquerones,1,0.97,0.03
+UR069,UR071,Huaquerones,Huaquerones,1,0.97,0.03
+UR069,UR072,Huaquerones,Huaquerones,2,1.4,0.6
+UR069,UR074,Huaquerones,Huaquerones,4,4.13,-0.13
+UR069,UR075,Huaquerones,Huaquerones,0,0.39,-0.39
+UR069,UR076,Huaquerones,Huaquerones,2,1.31,0.69
+UR069,UR078,Huaquerones,Huaquerones,2,3.19,-1.19
+UR069,UR079,Huaquerones,Huaquerones,2,2.3,-0.3
+UR069,UR080,Huaquerones,Huaquerones,2,3.17,-1.17
+UR069,UR081,Huaquerones,Huaquerones,1,1.7,-0.7
+UR069,UR082,Huaquerones,Huaquerones,1,0.97,0.03
+UR069,UR1088,Huaquerones,Huacho,2,4.3,-2.3
+UR069,UR1106,Huaquerones,Marquez,2,2.12,-0.12
+UR069,UR1107,Huaquerones,Marquez,1,0.42,0.58
+UR069,UR1124,Huaquerones,Marquez,0,1.47,-1.47
+UR069,UR1130,Huaquerones,near Lima,4,2.99,1.01
+UR069,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR069,UR120,Huaquerones,Huacho,3,4.96,-1.96
+UR069,UR134,Huaquerones,Chancay,3,2.51,0.49
+UR069,UR135,Huaquerones,Chancay,0,0.43,-0.43
+UR069,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR069,UR137,Huaquerones,Chancay,1,1.14,-0.14
+UR069,UR166,Huaquerones,Chancay,0,0.21,-0.21
+UR069,UR177,Huaquerones,Chuquitanta,1,1.24,-0.24
+UR069,UR182,Huaquerones,Chuquitanta,0,2.3,-2.3
+UR069,UR183,Huaquerones,Chancay,1,0.48,0.52
+UR069,UR186,Huaquerones,Chancay,1,1.56,-0.56
+UR069,UR195,Huaquerones,Huacho,7,9.03,-2.03
+UR069,UR232,Huaquerones,Huacho,2,5.83,-3.83
+UR069,UR233,Huaquerones,Huacho,1,4.09,-3.09
+UR069,UR282,Huaquerones,Armatambo,5,4.54,0.46
+UR069,UR283,Huaquerones,Armatambo,7,8.26,-1.26
+UR069,UR284,Huaquerones,Armatambo,0,0.35,-0.35
+UR069,UR285,Huaquerones,Armatambo,3,3.2,-0.2
+UR069,UR286,Huaquerones,Armatambo,0,0.0,0.0
+UR069,UR287,Huaquerones,Armatambo,6,6.5,-0.5
+UR069,UR288,Huaquerones,Armatambo,4,4.3,-0.3
+UR069,UR289,Huaquerones,Armatambo,4,6.34,-2.34
+UR069,UR290,Huaquerones,Armatambo,1,0.86,0.14
+UR069,UR291A,Huaquerones,Armatambo,5,8.1,-3.1
+UR069,UR292A,Huaquerones,Armatambo,5,6.83,-1.83
+UR069,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR069,UR294,Huaquerones,Armatambo,0,0.22,-0.22
+UR070,UR071,Huaquerones,Huaquerones,1,1.0,0.0
+UR070,UR072,Huaquerones,Huaquerones,0,0.02,-0.02
+UR070,UR074,Huaquerones,Huaquerones,1,0.61,0.39
+UR070,UR075,Huaquerones,Huaquerones,0,0.0,0.0
+UR070,UR076,Huaquerones,Huaquerones,0,0.0,0.0
+UR070,UR078,Huaquerones,Huaquerones,0,0.78,-0.78
+UR070,UR079,Huaquerones,Huaquerones,1,0.55,0.45
+UR070,UR080,Huaquerones,Huaquerones,1,1.0,0.0
+UR070,UR081,Huaquerones,Huaquerones,1,1.0,0.0
+UR070,UR082,Huaquerones,Huaquerones,1,1.0,0.0
+UR070,UR1088,Huaquerones,Huacho,0,0.11,-0.11
+UR070,UR1106,Huaquerones,Marquez,1,0.94,0.06
+UR070,UR1107,Huaquerones,Marquez,1,0.23,0.77
+UR070,UR1124,Huaquerones,Marquez,0,0.48,-0.48
+UR070,UR1130,Huaquerones,near Lima,1,0.12,0.88
+UR070,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR070,UR120,Huaquerones,Huacho,1,1.0,0.0
+UR070,UR134,Huaquerones,Chancay,0,0.0,0.0
+UR070,UR135,Huaquerones,Chancay,0,0.0,0.0
+UR070,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR070,UR137,Huaquerones,Chancay,1,0.1,0.9
+UR070,UR166,Huaquerones,Chancay,0,0.08,-0.08
+UR070,UR177,Huaquerones,Chuquitanta,0,0.2,-0.2
+UR070,UR182,Huaquerones,Chuquitanta,0,0.69,-0.69
+UR070,UR183,Huaquerones,Chancay,1,0.18,0.82
+UR070,UR186,Huaquerones,Chancay,1,0.97,0.03
+UR070,UR195,Huaquerones,Huacho,1,1.0,0.0
+UR070,UR232,Huaquerones,Huacho,1,1.0,0.0
+UR070,UR233,Huaquerones,Huacho,1,1.0,0.0
+UR070,UR282,Huaquerones,Armatambo,1,0.51,0.49
+UR070,UR283,Huaquerones,Armatambo,1,0.48,0.52
+UR070,UR284,Huaquerones,Armatambo,0,0.0,0.0
+UR070,UR285,Huaquerones,Armatambo,0,0.14,-0.14
+UR070,UR286,Huaquerones,Armatambo,0,0.0,0.0
+UR070,UR287,Huaquerones,Armatambo,1,1.0,0.0
+UR070,UR288,Huaquerones,Armatambo,1,0.97,0.03
+UR070,UR289,Huaquerones,Armatambo,1,0.97,0.03
+UR070,UR290,Huaquerones,Armatambo,1,0.24,0.76
+UR070,UR291A,Huaquerones,Armatambo,1,1.0,0.0
+UR070,UR292A,Huaquerones,Armatambo,1,1.0,0.0
+UR070,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR070,UR294,Huaquerones,Armatambo,0,0.0,0.0
+UR071,UR072,Huaquerones,Huaquerones,0,0.02,-0.02
+UR071,UR074,Huaquerones,Huaquerones,1,0.61,0.39
+UR071,UR075,Huaquerones,Huaquerones,0,0.0,0.0
+UR071,UR076,Huaquerones,Huaquerones,0,0.0,0.0
+UR071,UR078,Huaquerones,Huaquerones,0,0.78,-0.78
+UR071,UR079,Huaquerones,Huaquerones,1,0.55,0.45
+UR071,UR080,Huaquerones,Huaquerones,1,1.0,0.0
+UR071,UR081,Huaquerones,Huaquerones,1,1.0,0.0
+UR071,UR082,Huaquerones,Huaquerones,1,1.0,0.0
+UR071,UR1088,Huaquerones,Huacho,0,0.11,-0.11
+UR071,UR1106,Huaquerones,Marquez,1,0.94,0.06
+UR071,UR1107,Huaquerones,Marquez,1,0.23,0.77
+UR071,UR1124,Huaquerones,Marquez,0,0.48,-0.48
+UR071,UR1130,Huaquerones,near Lima,1,0.12,0.88
+UR071,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR071,UR120,Huaquerones,Huacho,1,1.0,0.0
+UR071,UR134,Huaquerones,Chancay,0,0.0,0.0
+UR071,UR135,Huaquerones,Chancay,0,0.0,0.0
+UR071,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR071,UR137,Huaquerones,Chancay,1,0.1,0.9
+UR071,UR166,Huaquerones,Chancay,0,0.08,-0.08
+UR071,UR177,Huaquerones,Chuquitanta,0,0.2,-0.2
+UR071,UR182,Huaquerones,Chuquitanta,0,0.69,-0.69
+UR071,UR183,Huaquerones,Chancay,1,0.18,0.82
+UR071,UR186,Huaquerones,Chancay,1,0.97,0.03
+UR071,UR195,Huaquerones,Huacho,1,1.0,0.0
+UR071,UR232,Huaquerones,Huacho,1,1.0,0.0
+UR071,UR233,Huaquerones,Huacho,1,1.0,0.0
+UR071,UR282,Huaquerones,Armatambo,1,0.51,0.49
+UR071,UR283,Huaquerones,Armatambo,1,0.48,0.52
+UR071,UR284,Huaquerones,Armatambo,0,0.0,0.0
+UR071,UR285,Huaquerones,Armatambo,0,0.14,-0.14
+UR071,UR286,Huaquerones,Armatambo,0,0.0,0.0
+UR071,UR287,Huaquerones,Armatambo,1,1.0,0.0
+UR071,UR288,Huaquerones,Armatambo,1,0.97,0.03
+UR071,UR289,Huaquerones,Armatambo,1,0.97,0.03
+UR071,UR290,Huaquerones,Armatambo,1,0.24,0.76
+UR071,UR291A,Huaquerones,Armatambo,1,1.0,0.0
+UR071,UR292A,Huaquerones,Armatambo,1,1.0,0.0
+UR071,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR071,UR294,Huaquerones,Armatambo,0,0.0,0.0
+UR072,UR074,Huaquerones,Huaquerones,2,2.5,-0.5
+UR072,UR075,Huaquerones,Huaquerones,4,5.08,-1.08
+UR072,UR076,Huaquerones,Huaquerones,7,7.09,-0.09
+UR072,UR078,Huaquerones,Huaquerones,2,0.35,1.65
+UR072,UR079,Huaquerones,Huaquerones,6,6.09,-0.09
+UR072,UR080,Huaquerones,Huaquerones,2,0.79,1.21
+UR072,UR081,Huaquerones,Huaquerones,0,1.13,-1.13
+UR072,UR082,Huaquerones,Huaquerones,0,0.02,-0.02
+UR072,UR1088,Huaquerones,Huacho,8,11.87,-3.87
+UR072,UR1106,Huaquerones,Marquez,0,0.53,-0.53
+UR072,UR1107,Huaquerones,Marquez,0,0.27,-0.27
+UR072,UR1124,Huaquerones,Marquez,3,0.97,2.03
+UR072,UR1130,Huaquerones,near Lima,5,3.87,1.13
+UR072,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR072,UR120,Huaquerones,Huacho,5,4.76,0.24
+UR072,UR134,Huaquerones,Chancay,0,0.18,-0.18
+UR072,UR135,Huaquerones,Chancay,1,0.07,0.93
+UR072,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR072,UR137,Huaquerones,Chancay,0,0.57,-0.57
+UR072,UR166,Huaquerones,Chancay,0,0.06,-0.06
+UR072,UR177,Huaquerones,Chuquitanta,6,5.32,0.68
+UR072,UR182,Huaquerones,Chuquitanta,2,0.54,1.46
+UR072,UR183,Huaquerones,Chancay,0,0.23,-0.23
+UR072,UR186,Huaquerones,Chancay,4,3.13,0.87
+UR072,UR195,Huaquerones,Huacho,8,13.54,-5.54
+UR072,UR232,Huaquerones,Huacho,7,4.96,2.04
+UR072,UR233,Huaquerones,Huacho,4,2.51,1.49
+UR072,UR282,Huaquerones,Armatambo,1,3.05,-2.05
+UR072,UR283,Huaquerones,Armatambo,13,17.38,-4.38
+UR072,UR284,Huaquerones,Armatambo,2,0.97,1.03
+UR072,UR285,Huaquerones,Armatambo,2,1.95,0.05
+UR072,UR286,Huaquerones,Armatambo,1,0.11,0.89
+UR072,UR287,Huaquerones,Armatambo,2,3.08,-1.08
+UR072,UR288,Huaquerones,Armatambo,5,3.19,1.81
+UR072,UR289,Huaquerones,Armatambo,8,7.54,0.46
+UR072,UR290,Huaquerones,Armatambo,0,0.41,-0.41
+UR072,UR291A,Huaquerones,Armatambo,10,11.17,-1.17
+UR072,UR292A,Huaquerones,Armatambo,5,4.59,0.41
+UR072,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR072,UR294,Huaquerones,Armatambo,0,0.05,-0.05
+UR074,UR075,Huaquerones,Huaquerones,0,0.14,-0.14
+UR074,UR076,Huaquerones,Huaquerones,1,2.29,-1.29
+UR074,UR078,Huaquerones,Huaquerones,2,2.55,-0.55
+UR074,UR079,Huaquerones,Huaquerones,2,1.09,0.91
+UR074,UR080,Huaquerones,Huaquerones,3,1.9,1.1
+UR074,UR081,Huaquerones,Huaquerones,1,0.94,0.06
+UR074,UR082,Huaquerones,Huaquerones,1,0.61,0.39
+UR074,UR1088,Huaquerones,Huacho,4,7.36,-3.36
+UR074,UR1106,Huaquerones,Marquez,2,0.84,1.16
+UR074,UR1107,Huaquerones,Marquez,1,0.38,0.62
+UR074,UR1124,Huaquerones,Marquez,0,0.75,-0.75
+UR074,UR1130,Huaquerones,near Lima,5,3.79,1.21
+UR074,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR074,UR120,Huaquerones,Huacho,4,2.62,1.38
+UR074,UR134,Huaquerones,Chancay,3,2.85,0.15
+UR074,UR135,Huaquerones,Chancay,0,0.0,0.0
+UR074,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR074,UR137,Huaquerones,Chancay,1,0.32,0.68
+UR074,UR166,Huaquerones,Chancay,0,0.32,-0.32
+UR074,UR177,Huaquerones,Chuquitanta,2,0.58,1.42
+UR074,UR182,Huaquerones,Chuquitanta,1,1.37,-0.37
+UR074,UR183,Huaquerones,Chancay,1,0.34,0.66
+UR074,UR186,Huaquerones,Chancay,3,1.55,1.45
+UR074,UR195,Huaquerones,Huacho,8,10.31,-2.31
+UR074,UR232,Huaquerones,Huacho,3,4.05,-1.05
+UR074,UR233,Huaquerones,Huacho,2,1.61,0.39
+UR074,UR282,Huaquerones,Armatambo,5,4.54,0.46
+UR074,UR283,Huaquerones,Armatambo,8,9.06,-1.06
+UR074,UR284,Huaquerones,Armatambo,0,0.1,-0.1
+UR074,UR285,Huaquerones,Armatambo,5,4.72,0.28
+UR074,UR286,Huaquerones,Armatambo,0,0.0,-0.0
+UR074,UR287,Huaquerones,Armatambo,5,4.33,0.67
+UR074,UR288,Huaquerones,Armatambo,4,3.47,0.53
+UR074,UR289,Huaquerones,Armatambo,7,6.39,0.61
+UR074,UR290,Huaquerones,Armatambo,1,0.14,0.86
+UR074,UR291A,Huaquerones,Armatambo,4,7.13,-3.13
+UR074,UR292A,Huaquerones,Armatambo,5,6.16,-1.16
+UR074,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR074,UR294,Huaquerones,Armatambo,0,0.05,-0.05
+UR075,UR076,Huaquerones,Huaquerones,1,3.12,-2.12
+UR075,UR078,Huaquerones,Huaquerones,0,0.0,0.0
+UR075,UR079,Huaquerones,Huaquerones,0,1.69,-1.69
+UR075,UR080,Huaquerones,Huaquerones,0,0.3,-0.3
+UR075,UR081,Huaquerones,Huaquerones,1,1.02,-0.02
+UR075,UR082,Huaquerones,Huaquerones,0,0.0,0.0
+UR075,UR1088,Huaquerones,Huacho,3,3.13,-0.13
+UR075,UR1106,Huaquerones,Marquez,0,0.13,-0.13
+UR075,UR1107,Huaquerones,Marquez,0,0.0,0.0
+UR075,UR1124,Huaquerones,Marquez,1,0.35,0.65
+UR075,UR1130,Huaquerones,near Lima,1,1.53,-0.53
+UR075,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR075,UR120,Huaquerones,Huacho,1,2.68,-1.68
+UR075,UR134,Huaquerones,Chancay,0,0.0,0.0
+UR075,UR135,Huaquerones,Chancay,0,0.0,0.0
+UR075,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR075,UR137,Huaquerones,Chancay,0,0.0,0.0
+UR075,UR166,Huaquerones,Chancay,0,0.0,0.0
+UR075,UR177,Huaquerones,Chuquitanta,1,1.27,-0.27
+UR075,UR182,Huaquerones,Chuquitanta,0,0.0,0.0
+UR075,UR183,Huaquerones,Chancay,0,0.07,-0.07
+UR075,UR186,Huaquerones,Chancay,0,1.25,-1.25
+UR075,UR195,Huaquerones,Huacho,3,3.88,-0.88
+UR075,UR232,Huaquerones,Huacho,1,2.08,-1.08
+UR075,UR233,Huaquerones,Huacho,0,0.85,-0.85
+UR075,UR282,Huaquerones,Armatambo,1,1.38,-0.38
+UR075,UR283,Huaquerones,Armatambo,4,4.36,-0.36
+UR075,UR284,Huaquerones,Armatambo,0,0.16,-0.16
+UR075,UR285,Huaquerones,Armatambo,0,0.08,-0.08
+UR075,UR286,Huaquerones,Armatambo,0,0.0,0.0
+UR075,UR287,Huaquerones,Armatambo,1,1.32,-0.32
+UR075,UR288,Huaquerones,Armatambo,1,1.62,-0.62
+UR075,UR289,Huaquerones,Armatambo,5,3.92,1.08
+UR075,UR290,Huaquerones,Armatambo,0,0.28,-0.28
+UR075,UR291A,Huaquerones,Armatambo,4,4.25,-0.25
+UR075,UR292A,Huaquerones,Armatambo,0,0.73,-0.73
+UR075,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR075,UR294,Huaquerones,Armatambo,0,0.0,0.0
+UR076,UR078,Huaquerones,Huaquerones,0,0.55,-0.55
+UR076,UR079,Huaquerones,Huaquerones,5,3.7,1.3
+UR076,UR080,Huaquerones,Huaquerones,0,0.96,-0.96
+UR076,UR081,Huaquerones,Huaquerones,0,0.11,-0.11
+UR076,UR082,Huaquerones,Huaquerones,0,0.0,0.0
+UR076,UR1088,Huaquerones,Huacho,5,6.02,-1.02
+UR076,UR1106,Huaquerones,Marquez,0,0.03,-0.03
+UR076,UR1107,Huaquerones,Marquez,0,0.0,0.0
+UR076,UR1124,Huaquerones,Marquez,0,0.01,-0.01
+UR076,UR1130,Huaquerones,near Lima,5,4.28,0.72
+UR076,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR076,UR120,Huaquerones,Huacho,2,1.54,0.46
+UR076,UR134,Huaquerones,Chancay,0,0.43,-0.43
+UR076,UR135,Huaquerones,Chancay,0,0.18,-0.18
+UR076,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR076,UR137,Huaquerones,Chancay,0,0.14,-0.14
+UR076,UR166,Huaquerones,Chancay,0,0.01,-0.01
+UR076,UR177,Huaquerones,Chuquitanta,5,2.56,2.44
+UR076,UR182,Huaquerones,Chuquitanta,0,0.08,-0.08
+UR076,UR183,Huaquerones,Chancay,1,0.11,0.89
+UR076,UR186,Huaquerones,Chancay,0,0.44,-0.44
+UR076,UR195,Huaquerones,Huacho,6,7.86,-1.86
+UR076,UR232,Huaquerones,Huacho,2,1.1,0.9
+UR076,UR233,Huaquerones,Huacho,0,0.42,-0.42
+UR076,UR282,Huaquerones,Armatambo,1,1.9,-0.9
+UR076,UR283,Huaquerones,Armatambo,10,9.74,0.26
+UR076,UR284,Huaquerones,Armatambo,0,0.39,-0.39
+UR076,UR285,Huaquerones,Armatambo,1,1.47,-0.47
+UR076,UR286,Huaquerones,Armatambo,0,0.0,0.0
+UR076,UR287,Huaquerones,Armatambo,4,4.52,-0.52
+UR076,UR288,Huaquerones,Armatambo,1,2.59,-1.59
+UR076,UR289,Huaquerones,Armatambo,4,5.4,-1.4
+UR076,UR290,Huaquerones,Armatambo,0,0.04,-0.04
+UR076,UR291A,Huaquerones,Armatambo,4,5.51,-1.51
+UR076,UR292A,Huaquerones,Armatambo,2,3.44,-1.44
+UR076,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR076,UR294,Huaquerones,Armatambo,0,0.0,0.0
+UR078,UR079,Huaquerones,Huaquerones,1,1.29,-0.29
+UR078,UR080,Huaquerones,Huaquerones,3,2.52,0.48
+UR078,UR081,Huaquerones,Huaquerones,0,0.78,-0.78
+UR078,UR082,Huaquerones,Huaquerones,0,0.78,-0.78
+UR078,UR1088,Huaquerones,Huacho,2,1.62,0.38
+UR078,UR1106,Huaquerones,Marquez,0,0.73,-0.73
+UR078,UR1107,Huaquerones,Marquez,0,0.25,-0.25
+UR078,UR1124,Huaquerones,Marquez,0,0.47,-0.47
+UR078,UR1130,Huaquerones,near Lima,1,1.95,-0.95
+UR078,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR078,UR120,Huaquerones,Huacho,4,3.3,0.7
+UR078,UR134,Huaquerones,Chancay,2,1.95,0.05
+UR078,UR135,Huaquerones,Chancay,2,0.58,1.42
+UR078,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR078,UR137,Huaquerones,Chancay,0,0.47,-0.47
+UR078,UR166,Huaquerones,Chancay,0,0.33,-0.33
+UR078,UR177,Huaquerones,Chuquitanta,1,0.72,0.28
+UR078,UR182,Huaquerones,Chuquitanta,0,1.16,-1.16
+UR078,UR183,Huaquerones,Chancay,0,0.28,-0.28
+UR078,UR186,Huaquerones,Chancay,0,1.08,-1.08
+UR078,UR195,Huaquerones,Huacho,3,4.39,-1.39
+UR078,UR232,Huaquerones,Huacho,0,3.02,-3.02
+UR078,UR233,Huaquerones,Huacho,1,1.58,-0.58
+UR078,UR282,Huaquerones,Armatambo,2,2.4,-0.4
+UR078,UR283,Huaquerones,Armatambo,3,3.33,-0.33
+UR078,UR284,Huaquerones,Armatambo,0,0.14,-0.14
+UR078,UR285,Huaquerones,Armatambo,2,1.88,0.12
+UR078,UR286,Huaquerones,Armatambo,0,0.0,0.0
+UR078,UR287,Huaquerones,Armatambo,4,5.06,-1.06
+UR078,UR288,Huaquerones,Armatambo,3,2.82,0.18
+UR078,UR289,Huaquerones,Armatambo,2,3.16,-1.16
+UR078,UR290,Huaquerones,Armatambo,0,0.38,-0.38
+UR078,UR291A,Huaquerones,Armatambo,4,5.17,-1.17
+UR078,UR292A,Huaquerones,Armatambo,3,4.27,-1.27
+UR078,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR078,UR294,Huaquerones,Armatambo,0,0.0,0.0
+UR079,UR080,Huaquerones,Huaquerones,2,2.61,-0.61
+UR079,UR081,Huaquerones,Huaquerones,2,1.63,0.37
+UR079,UR082,Huaquerones,Huaquerones,1,0.55,0.45
+UR079,UR1088,Huaquerones,Huacho,4,4.75,-0.75
+UR079,UR1106,Huaquerones,Marquez,3,1.13,1.87
+UR079,UR1107,Huaquerones,Marquez,1,0.38,0.62
+UR079,UR1124,Huaquerones,Marquez,1,0.9,0.1
+UR079,UR1130,Huaquerones,near Lima,4,2.05,1.95
+UR079,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR079,UR120,Huaquerones,Huacho,7,4.35,2.65
+UR079,UR134,Huaquerones,Chancay,0,0.0,0.0
+UR079,UR135,Huaquerones,Chancay,1,1.09,-0.09
+UR079,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR079,UR137,Huaquerones,Chancay,2,0.72,1.28
+UR079,UR166,Huaquerones,Chancay,0,0.16,-0.16
+UR079,UR177,Huaquerones,Chuquitanta,5,4.1,0.9
+UR079,UR182,Huaquerones,Chuquitanta,0,1.27,-1.27
+UR079,UR183,Huaquerones,Chancay,1,0.32,0.68
+UR079,UR186,Huaquerones,Chancay,3,2.48,0.52
+UR079,UR195,Huaquerones,Huacho,5,9.84,-4.84
+UR079,UR232,Huaquerones,Huacho,8,5.32,2.68
+UR079,UR233,Huaquerones,Huacho,5,4.02,0.98
+UR079,UR282,Huaquerones,Armatambo,4,2.09,1.91
+UR079,UR283,Huaquerones,Armatambo,6,7.88,-1.88
+UR079,UR284,Huaquerones,Armatambo,2,1.69,0.31
+UR079,UR285,Huaquerones,Armatambo,2,1.07,0.93
+UR079,UR286,Huaquerones,Armatambo,0,0.0,0.0
+UR079,UR287,Huaquerones,Armatambo,5,4.93,0.07
+UR079,UR288,Huaquerones,Armatambo,4,3.51,0.49
+UR079,UR289,Huaquerones,Armatambo,3,5.08,-2.08
+UR079,UR290,Huaquerones,Armatambo,2,0.41,1.59
+UR079,UR291A,Huaquerones,Armatambo,7,9.48,-2.48
+UR079,UR292A,Huaquerones,Armatambo,7,6.65,0.35
+UR079,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR079,UR294,Huaquerones,Armatambo,0,0.06,-0.06
+UR080,UR081,Huaquerones,Huaquerones,1,1.0,0.0
+UR080,UR082,Huaquerones,Huaquerones,1,1.0,0.0
+UR080,UR1088,Huaquerones,Huacho,2,1.19,0.81
+UR080,UR1106,Huaquerones,Marquez,2,1.55,0.45
+UR080,UR1107,Huaquerones,Marquez,1,0.23,0.77
+UR080,UR1124,Huaquerones,Marquez,0,0.63,-0.63
+UR080,UR1130,Huaquerones,near Lima,2,1.52,0.48
+UR080,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR080,UR120,Huaquerones,Huacho,6,3.64,2.36
+UR080,UR134,Huaquerones,Chancay,1,0.95,0.05
+UR080,UR135,Huaquerones,Chancay,2,1.03,0.97
+UR080,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR080,UR137,Huaquerones,Chancay,1,0.37,0.63
+UR080,UR166,Huaquerones,Chancay,0,0.15,-0.15
+UR080,UR177,Huaquerones,Chuquitanta,2,1.58,0.42
+UR080,UR182,Huaquerones,Chuquitanta,0,1.63,-1.63
+UR080,UR183,Huaquerones,Chancay,1,0.41,0.59
+UR080,UR186,Huaquerones,Chancay,3,1.92,1.08
+UR080,UR195,Huaquerones,Huacho,4,4.85,-0.85
+UR080,UR232,Huaquerones,Huacho,3,2.76,0.24
+UR080,UR233,Huaquerones,Huacho,3,3.57,-0.57
+UR080,UR282,Huaquerones,Armatambo,2,1.96,0.04
+UR080,UR283,Huaquerones,Armatambo,5,3.03,1.97
+UR080,UR284,Huaquerones,Armatambo,0,0.08,-0.08
+UR080,UR285,Huaquerones,Armatambo,1,0.98,0.02
+UR080,UR286,Huaquerones,Armatambo,0,0.0,0.0
+UR080,UR287,Huaquerones,Armatambo,5,6.1,-1.1
+UR080,UR288,Huaquerones,Armatambo,4,4.96,-0.96
+UR080,UR289,Huaquerones,Armatambo,2,4.01,-2.01
+UR080,UR290,Huaquerones,Armatambo,1,0.24,0.76
+UR080,UR291A,Huaquerones,Armatambo,6,5.67,0.33
+UR080,UR292A,Huaquerones,Armatambo,5,3.73,1.27
+UR080,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR080,UR294,Huaquerones,Armatambo,0,0.0,0.0
+UR081,UR082,Huaquerones,Huaquerones,1,1.0,0.0
+UR081,UR1088,Huaquerones,Huacho,2,2.09,-0.09
+UR081,UR1106,Huaquerones,Marquez,1,0.94,0.06
+UR081,UR1107,Huaquerones,Marquez,1,0.23,0.77
+UR081,UR1124,Huaquerones,Marquez,0,0.84,-0.84
+UR081,UR1130,Huaquerones,near Lima,1,0.87,0.13
+UR081,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR081,UR120,Huaquerones,Huacho,2,2.82,-0.82
+UR081,UR134,Huaquerones,Chancay,0,0.0,0.0
+UR081,UR135,Huaquerones,Chancay,0,0.0,0.0
+UR081,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR081,UR137,Huaquerones,Chancay,1,0.1,0.9
+UR081,UR166,Huaquerones,Chancay,0,0.08,-0.08
+UR081,UR177,Huaquerones,Chuquitanta,0,1.17,-1.17
+UR081,UR182,Huaquerones,Chuquitanta,0,0.69,-0.69
+UR081,UR183,Huaquerones,Chancay,1,0.18,0.82
+UR081,UR186,Huaquerones,Chancay,3,1.88,1.12
+UR081,UR195,Huaquerones,Huacho,3,3.71,-0.71
+UR081,UR232,Huaquerones,Huacho,2,2.91,-0.91
+UR081,UR233,Huaquerones,Huacho,1,1.4,-0.4
+UR081,UR282,Huaquerones,Armatambo,2,1.42,0.58
+UR081,UR283,Huaquerones,Armatambo,3,2.53,0.47
+UR081,UR284,Huaquerones,Armatambo,0,0.1,-0.1
+UR081,UR285,Huaquerones,Armatambo,1,0.82,0.18
+UR081,UR286,Huaquerones,Armatambo,0,0.0,0.0
+UR081,UR287,Huaquerones,Armatambo,2,1.74,0.26
+UR081,UR288,Huaquerones,Armatambo,1,1.71,-0.71
+UR081,UR289,Huaquerones,Armatambo,2,3.53,-1.53
+UR081,UR290,Huaquerones,Armatambo,1,0.57,0.43
+UR081,UR291A,Huaquerones,Armatambo,4,3.87,0.13
+UR081,UR292A,Huaquerones,Armatambo,2,2.3,-0.3
+UR081,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR081,UR294,Huaquerones,Armatambo,0,0.0,0.0
+UR082,UR1088,Huaquerones,Huacho,0,0.11,-0.11
+UR082,UR1106,Huaquerones,Marquez,1,0.94,0.06
+UR082,UR1107,Huaquerones,Marquez,1,0.23,0.77
+UR082,UR1124,Huaquerones,Marquez,0,0.48,-0.48
+UR082,UR1130,Huaquerones,near Lima,1,0.12,0.88
+UR082,UR1154,Huaquerones,near Lima,0,0.0,0.0
+UR082,UR120,Huaquerones,Huacho,1,1.0,0.0
+UR082,UR134,Huaquerones,Chancay,0,0.0,0.0
+UR082,UR135,Huaquerones,Chancay,0,0.0,0.0
+UR082,UR136,Huaquerones,Chancay,0,0.0,0.0
+UR082,UR137,Huaquerones,Chancay,1,0.1,0.9
+UR082,UR166,Huaquerones,Chancay,0,0.08,-0.08
+UR082,UR177,Huaquerones,Chuquitanta,0,0.2,-0.2
+UR082,UR182,Huaquerones,Chuquitanta,0,0.69,-0.69
+UR082,UR183,Huaquerones,Chancay,1,0.18,0.82
+UR082,UR186,Huaquerones,Chancay,1,0.97,0.03
+UR082,UR195,Huaquerones,Huacho,1,1.0,0.0
+UR082,UR232,Huaquerones,Huacho,1,1.0,0.0
+UR082,UR233,Huaquerones,Huacho,1,1.0,0.0
+UR082,UR282,Huaquerones,Armatambo,1,0.51,0.49
+UR082,UR283,Huaquerones,Armatambo,1,0.48,0.52
+UR082,UR284,Huaquerones,Armatambo,0,0.0,0.0
+UR082,UR285,Huaquerones,Armatambo,0,0.14,-0.14
+UR082,UR286,Huaquerones,Armatambo,0,0.0,0.0
+UR082,UR287,Huaquerones,Armatambo,1,1.0,0.0
+UR082,UR288,Huaquerones,Armatambo,1,0.97,0.03
+UR082,UR289,Huaquerones,Armatambo,1,0.97,0.03
+UR082,UR290,Huaquerones,Armatambo,1,0.24,0.76
+UR082,UR291A,Huaquerones,Armatambo,1,1.0,0.0
+UR082,UR292A,Huaquerones,Armatambo,1,1.0,0.0
+UR082,UR293,Huaquerones,Armatambo,0,0.0,0.0
+UR082,UR294,Huaquerones,Armatambo,0,0.0,0.0
+UR1088,UR1106,Huacho,Marquez,0,0.5,-0.5
+UR1088,UR1107,Huacho,Marquez,0,0.44,-0.44
+UR1088,UR1124,Huacho,Marquez,2,1.75,0.25
+UR1088,UR1130,Huacho,near Lima,3,5.82,-2.82
+UR1088,UR1154,Huacho,near Lima,0,0.0,0.0
+UR1088,UR120,Huacho,Huacho,8,4.76,3.24
+UR1088,UR134,Huacho,Chancay,1,1.94,-0.94
+UR1088,UR135,Huacho,Chancay,1,0.07,0.93
+UR1088,UR136,Huacho,Chancay,0,0.0,0.0
+UR1088,UR137,Huacho,Chancay,0,0.46,-0.46
+UR1088,UR166,Huacho,Chancay,0,0.19,-0.19
+UR1088,UR177,Huacho,Chuquitanta,6,4.83,1.17
+UR1088,UR182,Huacho,Chuquitanta,1,1.25,-0.25
+UR1088,UR183,Huacho,Chancay,0,0.23,-0.23
+UR1088,UR186,Huacho,Chancay,3,3.14,-0.14
+UR1088,UR195,Huacho,Huacho,15,21.08,-6.08
+UR1088,UR232,Huacho,Huacho,5,4.97,0.03
+UR1088,UR233,Huacho,Huacho,1,1.98,-0.98
+UR1088,UR282,Huacho,Armatambo,4,8.33,-4.33
+UR1088,UR283,Huacho,Armatambo,14,23.01,-9.01
+UR1088,UR284,Huacho,Armatambo,0,1.0,-1.0
+UR1088,UR285,Huacho,Armatambo,5,5.41,-0.41
+UR1088,UR286,Huacho,Armatambo,0,0.0,0.0
+UR1088,UR287,Huacho,Armatambo,2,4.71,-2.71
+UR1088,UR288,Huacho,Armatambo,6,4.19,1.81
+UR1088,UR289,Huacho,Armatambo,10,11.93,-1.93
+UR1088,UR290,Huacho,Armatambo,0,0.2,-0.2
+UR1088,UR291A,Huacho,Armatambo,11,15.91,-4.91
+UR1088,UR292A,Huacho,Armatambo,4,6.92,-2.92
+UR1088,UR293,Huacho,Armatambo,0,0.0,0.0
+UR1088,UR294,Huacho,Armatambo,0,0.02,-0.02
+UR1106,UR1107,Marquez,Marquez,1,0.97,0.03
+UR1106,UR1124,Marquez,Marquez,3,1.65,1.35
+UR1106,UR1130,Marquez,near Lima,2,0.21,1.79
+UR1106,UR1154,Marquez,near Lima,0,0.0,0.0
+UR1106,UR120,Marquez,Huacho,3,2.82,0.18
+UR1106,UR134,Marquez,Chancay,0,0.0,0.0
+UR1106,UR135,Marquez,Chancay,0,0.0,0.0
+UR1106,UR136,Marquez,Chancay,0,0.0,0.0
+UR1106,UR137,Marquez,Chancay,1,0.37,0.63
+UR1106,UR166,Marquez,Chancay,0,0.16,-0.16
+UR1106,UR177,Marquez,Chuquitanta,1,0.43,0.57
+UR1106,UR182,Marquez,Chuquitanta,2,2.15,-0.15
+UR1106,UR183,Marquez,Chancay,1,0.34,0.66
+UR1106,UR186,Marquez,Chancay,2,2.33,-0.33
+UR1106,UR195,Marquez,Huacho,4,2.56,1.44
+UR1106,UR232,Marquez,Huacho,6,4.74,1.26
+UR1106,UR233,Marquez,Huacho,6,5.27,0.73
+UR1106,UR282,Marquez,Armatambo,1,1.21,-0.21
+UR1106,UR283,Marquez,Armatambo,3,2.56,0.44
+UR1106,UR284,Marquez,Armatambo,0,0.14,-0.14
+UR1106,UR285,Marquez,Armatambo,0,0.13,-0.13
+UR1106,UR286,Marquez,Armatambo,0,0.0,0.0
+UR1106,UR287,Marquez,Armatambo,3,2.01,0.99
+UR1106,UR288,Marquez,Armatambo,1,1.67,-0.67
+UR1106,UR289,Marquez,Armatambo,1,1.57,-0.57
+UR1106,UR290,Marquez,Armatambo,2,0.62,1.38
+UR1106,UR291A,Marquez,Armatambo,2,4.06,-2.06
+UR1106,UR292A,Marquez,Armatambo,3,1.82,1.18
+UR1106,UR293,Marquez,Armatambo,0,0.0,0.0
+UR1106,UR294,Marquez,Armatambo,0,0.2,-0.2
+UR1107,UR1124,Marquez,Marquez,1,0.89,0.11
+UR1107,UR1130,Marquez,near Lima,1,0.06,0.94
+UR1107,UR1154,Marquez,near Lima,0,0.0,0.0
+UR1107,UR120,Marquez,Huacho,1,0.94,0.06
+UR1107,UR134,Marquez,Chancay,0,0.0,0.0
+UR1107,UR135,Marquez,Chancay,0,0.09,-0.09
+UR1107,UR136,Marquez,Chancay,0,0.0,0.0
+UR1107,UR137,Marquez,Chancay,1,0.08,0.92
+UR1107,UR166,Marquez,Chancay,0,0.11,-0.11
+UR1107,UR177,Marquez,Chuquitanta,0,0.04,-0.04
+UR1107,UR182,Marquez,Chuquitanta,1,1.14,-0.14
+UR1107,UR183,Marquez,Chancay,1,0.06,0.94
+UR1107,UR186,Marquez,Chancay,2,1.14,0.86
+UR1107,UR195,Marquez,Huacho,1,1.18,-0.18
+UR1107,UR232,Marquez,Huacho,2,2.51,-0.51
+UR1107,UR233,Marquez,Huacho,2,1.87,0.13
+UR1107,UR282,Marquez,Armatambo,2,0.77,1.23
+UR1107,UR283,Marquez,Armatambo,3,1.25,1.75
+UR1107,UR284,Marquez,Armatambo,0,0.37,-0.37
+UR1107,UR285,Marquez,Armatambo,0,0.03,-0.03
+UR1107,UR286,Marquez,Armatambo,0,0.02,-0.02
+UR1107,UR287,Marquez,Armatambo,1,0.68,0.32
+UR1107,UR288,Marquez,Armatambo,1,0.53,0.47
+UR1107,UR289,Marquez,Armatambo,1,0.4,0.6
+UR1107,UR290,Marquez,Armatambo,1,0.09,0.91
+UR1107,UR291A,Marquez,Armatambo,1,1.98,-0.98
+UR1107,UR292A,Marquez,Armatambo,1,0.4,0.6
+UR1107,UR293,Marquez,Armatambo,0,0.0,0.0
+UR1107,UR294,Marquez,Armatambo,0,0.1,-0.1
+UR1124,UR1130,Marquez,near Lima,1,0.2,0.8
+UR1124,UR1154,Marquez,near Lima,0,0.04,-0.04
+UR1124,UR120,Marquez,Huacho,5,3.45,1.55
+UR1124,UR134,Marquez,Chancay,0,0.0,0.0
+UR1124,UR135,Marquez,Chancay,0,0.1,-0.1
+UR1124,UR136,Marquez,Chancay,0,0.0,0.0
+UR1124,UR137,Marquez,Chancay,0,0.44,-0.44
+UR1124,UR166,Marquez,Chancay,1,0.15,0.85
+UR1124,UR177,Marquez,Chuquitanta,0,0.37,-0.37
+UR1124,UR182,Marquez,Chuquitanta,2,1.16,0.84
+UR1124,UR183,Marquez,Chancay,0,0.08,-0.08
+UR1124,UR186,Marquez,Chancay,4,2.89,1.11
+UR1124,UR195,Marquez,Huacho,3,5.49,-2.49
+UR1124,UR232,Marquez,Huacho,5,5.17,-0.17
+UR1124,UR233,Marquez,Huacho,5,4.55,0.45
+UR1124,UR282,Marquez,Armatambo,4,3.4,0.6
+UR1124,UR283,Marquez,Armatambo,3,2.91,0.09
+UR1124,UR284,Marquez,Armatambo,0,0.53,-0.53
+UR1124,UR285,Marquez,Armatambo,0,0.07,-0.07
+UR1124,UR286,Marquez,Armatambo,0,0.09,-0.09
+UR1124,UR287,Marquez,Armatambo,0,0.74,-0.74
+UR1124,UR288,Marquez,Armatambo,1,1.63,-0.63
+UR1124,UR289,Marquez,Armatambo,2,1.84,0.16
+UR1124,UR290,Marquez,Armatambo,0,0.23,-0.23
+UR1124,UR291A,Marquez,Armatambo,6,4.76,1.24
+UR1124,UR292A,Marquez,Armatambo,0,0.93,-0.93
+UR1124,UR293,Marquez,Armatambo,0,0.0,0.0
+UR1124,UR294,Marquez,Armatambo,0,0.07,-0.07
+UR1130,UR1154,near Lima,near Lima,0,0.0,0.0
+UR1130,UR120,near Lima,Huacho,5,2.94,2.06
+UR1130,UR134,near Lima,Chancay,2,1.84,0.16
+UR1130,UR135,near Lima,Chancay,0,0.2,-0.2
+UR1130,UR136,near Lima,Chancay,0,0.0,0.0
+UR1130,UR137,near Lima,Chancay,1,0.29,0.71
+UR1130,UR166,near Lima,Chancay,0,0.13,-0.13
+UR1130,UR177,near Lima,Chuquitanta,2,1.38,0.62
+UR1130,UR182,near Lima,Chuquitanta,0,0.43,-0.43
+UR1130,UR183,near Lima,Chancay,2,0.2,1.8
+UR1130,UR186,near Lima,Chancay,2,0.93,1.07
+UR1130,UR195,near Lima,Huacho,9,8.52,0.48
+UR1130,UR232,near Lima,Huacho,3,2.85,0.15
+UR1130,UR233,near Lima,Huacho,2,1.07,0.93
+UR1130,UR282,near Lima,Armatambo,4,3.06,0.94
+UR1130,UR283,near Lima,Armatambo,11,8.18,2.82
+UR1130,UR284,near Lima,Armatambo,0,0.17,-0.17
+UR1130,UR285,near Lima,Armatambo,4,3.11,0.89
+UR1130,UR286,near Lima,Armatambo,0,0.0,0.0
+UR1130,UR287,near Lima,Armatambo,7,5.44,1.56
+UR1130,UR288,near Lima,Armatambo,2,2.96,-0.96
+UR1130,UR289,near Lima,Armatambo,6,6.55,-0.55
+UR1130,UR290,near Lima,Armatambo,1,0.23,0.77
+UR1130,UR291A,near Lima,Armatambo,6,6.78,-0.78
+UR1130,UR292A,near Lima,Armatambo,6,5.25,0.75
+UR1130,UR293,near Lima,Armatambo,0,0.0,0.0
+UR1130,UR294,near Lima,Armatambo,0,0.0,0.0
+UR1154,UR120,near Lima,Huacho,0,0.0,0.0
+UR1154,UR134,near Lima,Chancay,0,0.0,0.0
+UR1154,UR135,near Lima,Chancay,0,0.0,0.0
+UR1154,UR136,near Lima,Chancay,0,0.0,0.0
+UR1154,UR137,near Lima,Chancay,0,0.0,0.0
+UR1154,UR166,near Lima,Chancay,0,0.0,0.0
+UR1154,UR177,near Lima,Chuquitanta,0,0.0,0.0
+UR1154,UR182,near Lima,Chuquitanta,0,0.0,0.0
+UR1154,UR183,near Lima,Chancay,0,0.0,0.0
+UR1154,UR186,near Lima,Chancay,0,0.0,0.0
+UR1154,UR195,near Lima,Huacho,0,0.0,0.0
+UR1154,UR232,near Lima,Huacho,0,0.0,-0.0
+UR1154,UR233,near Lima,Huacho,0,0.0,0.0
+UR1154,UR282,near Lima,Armatambo,0,0.0,0.0
+UR1154,UR283,near Lima,Armatambo,0,0.0,0.0
+UR1154,UR284,near Lima,Armatambo,0,0.0,0.0
+UR1154,UR285,near Lima,Armatambo,0,0.0,0.0
+UR1154,UR286,near Lima,Armatambo,0,0.0,0.0
+UR1154,UR287,near Lima,Armatambo,0,0.0,0.0
+UR1154,UR288,near Lima,Armatambo,0,0.0,0.0
+UR1154,UR289,near Lima,Armatambo,0,0.0,0.0
+UR1154,UR290,near Lima,Armatambo,0,0.0,0.0
+UR1154,UR291A,near Lima,Armatambo,0,0.02,-0.02
+UR1154,UR292A,near Lima,Armatambo,0,0.0,0.0
+UR1154,UR293,near Lima,Armatambo,0,0.0,0.0
+UR1154,UR294,near Lima,Armatambo,0,0.0,0.0
+UR120,UR134,Huacho,Chancay,2,1.08,0.92
+UR120,UR135,Huacho,Chancay,2,0.74,1.26
+UR120,UR136,Huacho,Chancay,0,0.0,0.0
+UR120,UR137,Huacho,Chancay,3,1.64,1.36
+UR120,UR166,Huacho,Chancay,0,0.52,-0.52
+UR120,UR177,Huacho,Chuquitanta,5,3.23,1.77
+UR120,UR182,Huacho,Chuquitanta,1,2.15,-1.15
+UR120,UR183,Huacho,Chancay,1,0.66,0.34
+UR120,UR186,Huacho,Chancay,6,5.58,0.42
+UR120,UR195,Huacho,Huacho,10,13.08,-3.08
+UR120,UR232,Huacho,Huacho,10,12.98,-2.98
+UR120,UR233,Huacho,Huacho,9,10.0,-1.0
+UR120,UR282,Huacho,Armatambo,8,5.55,2.45
+UR120,UR283,Huacho,Armatambo,12,9.32,2.68
+UR120,UR284,Huacho,Armatambo,0,0.8,-0.8
+UR120,UR285,Huacho,Armatambo,2,1.58,0.42
+UR120,UR286,Huacho,Armatambo,0,0.02,-0.02
+UR120,UR287,Huacho,Armatambo,9,7.5,1.5
+UR120,UR288,Huacho,Armatambo,7,6.14,0.86
+UR120,UR289,Huacho,Armatambo,5,8.13,-3.13
+UR120,UR290,Huacho,Armatambo,2,1.05,0.95
+UR120,UR291A,Huacho,Armatambo,14,14.36,-0.36
+UR120,UR292A,Huacho,Armatambo,7,6.44,0.56
+UR120,UR293,Huacho,Armatambo,0,0.0,0.0
+UR120,UR294,Huacho,Armatambo,0,0.0,0.0
+UR134,UR135,Chancay,Chancay,0,0.0,0.0
+UR134,UR136,Chancay,Chancay,0,0.0,0.0
+UR134,UR137,Chancay,Chancay,0,0.16,-0.16
+UR134,UR166,Chancay,Chancay,0,0.14,-0.14
+UR134,UR177,Chancay,Chuquitanta,0,0.0,0.0
+UR134,UR182,Chancay,Chuquitanta,0,0.39,-0.39
+UR134,UR183,Chancay,Chancay,0,0.17,-0.17
+UR134,UR186,Chancay,Chancay,0,0.0,0.0
+UR134,UR195,Chancay,Huacho,3,2.84,0.16
+UR134,UR232,Chancay,Huacho,0,1.49,-1.49
+UR134,UR233,Chancay,Huacho,0,0.0,0.0
+UR134,UR282,Chancay,Armatambo,3,1.92,1.08
+UR134,UR283,Chancay,Armatambo,3,2.67,0.33
+UR134,UR284,Chancay,Armatambo,0,0.0,0.0
+UR134,UR285,Chancay,Armatambo,3,2.52,0.48
+UR134,UR286,Chancay,Armatambo,0,0.0,0.0
+UR134,UR287,Chancay,Armatambo,3,2.79,0.21
+UR134,UR288,Chancay,Armatambo,2,1.48,0.52
+UR134,UR289,Chancay,Armatambo,3,2.49,0.51
+UR134,UR290,Chancay,Armatambo,0,0.0,0.0
+UR134,UR291A,Chancay,Armatambo,2,2.35,-0.35
+UR134,UR292A,Chancay,Armatambo,2,2.78,-0.78
+UR134,UR293,Chancay,Armatambo,0,0.0,0.0
+UR134,UR294,Chancay,Armatambo,0,0.0,0.0
+UR135,UR136,Chancay,Chancay,0,0.0,0.0
+UR135,UR137,Chancay,Chancay,1,0.22,0.78
+UR135,UR166,Chancay,Chancay,0,0.02,-0.02
+UR135,UR177,Chancay,Chuquitanta,1,0.37,0.63
+UR135,UR182,Chancay,Chuquitanta,0,0.3,-0.3
+UR135,UR183,Chancay,Chancay,0,0.0,0.0
+UR135,UR186,Chancay,Chancay,0,0.07,-0.07
+UR135,UR195,Chancay,Huacho,2,0.94,1.06
+UR135,UR232,Chancay,Huacho,0,0.41,-0.41
+UR135,UR233,Chancay,Huacho,1,0.75,0.25
+UR135,UR282,Chancay,Armatambo,0,0.36,-0.36
+UR135,UR283,Chancay,Armatambo,2,0.37,1.63
+UR135,UR284,Chancay,Armatambo,0,0.14,-0.14
+UR135,UR285,Chancay,Armatambo,0,0.0,0.0
+UR135,UR286,Chancay,Armatambo,0,0.0,0.0
+UR135,UR287,Chancay,Armatambo,3,1.97,1.03
+UR135,UR288,Chancay,Armatambo,1,0.94,0.06
+UR135,UR289,Chancay,Armatambo,0,0.44,-0.44
+UR135,UR290,Chancay,Armatambo,0,0.07,-0.07
+UR135,UR291A,Chancay,Armatambo,2,1.31,0.69
+UR135,UR292A,Chancay,Armatambo,1,0.73,0.27
+UR135,UR293,Chancay,Armatambo,0,0.0,0.0
+UR135,UR294,Chancay,Armatambo,0,0.0,0.0
+UR136,UR137,Chancay,Chancay,0,0.0,0.0
+UR136,UR166,Chancay,Chancay,0,0.0,0.0
+UR136,UR177,Chancay,Chuquitanta,0,0.0,0.0
+UR136,UR182,Chancay,Chuquitanta,0,0.0,0.0
+UR136,UR183,Chancay,Chancay,0,0.0,0.0
+UR136,UR186,Chancay,Chancay,0,0.02,-0.02
+UR136,UR195,Chancay,Huacho,0,0.0,0.0
+UR136,UR232,Chancay,Huacho,0,0.0,0.0
+UR136,UR233,Chancay,Huacho,0,0.0,0.0
+UR136,UR282,Chancay,Armatambo,0,0.0,0.0
+UR136,UR283,Chancay,Armatambo,0,0.0,0.0
+UR136,UR284,Chancay,Armatambo,0,0.0,0.0
+UR136,UR285,Chancay,Armatambo,0,0.0,0.0
+UR136,UR286,Chancay,Armatambo,0,0.0,0.0
+UR136,UR287,Chancay,Armatambo,0,0.0,0.0
+UR136,UR288,Chancay,Armatambo,0,0.0,0.0
+UR136,UR289,Chancay,Armatambo,0,0.0,0.0
+UR136,UR290,Chancay,Armatambo,0,0.0,0.0
+UR136,UR291A,Chancay,Armatambo,0,0.0,0.0
+UR136,UR292A,Chancay,Armatambo,0,0.0,0.0
+UR136,UR293,Chancay,Armatambo,0,0.0,0.0
+UR136,UR294,Chancay,Armatambo,0,0.0,0.0
+UR137,UR166,Chancay,Chancay,1,0.1,0.9
+UR137,UR177,Chancay,Chuquitanta,0,0.45,-0.45
+UR137,UR182,Chancay,Chuquitanta,0,0.29,-0.29
+UR137,UR183,Chancay,Chancay,1,0.13,0.87
+UR137,UR186,Chancay,Chancay,1,0.54,0.46
+UR137,UR195,Chancay,Huacho,3,1.73,1.27
+UR137,UR232,Chancay,Huacho,2,2.15,-0.15
+UR137,UR233,Chancay,Huacho,2,1.68,0.32
+UR137,UR282,Chancay,Armatambo,3,0.6,2.4
+UR137,UR283,Chancay,Armatambo,5,2.46,2.54
+UR137,UR284,Chancay,Armatambo,0,0.31,-0.31
+UR137,UR285,Chancay,Armatambo,0,0.16,-0.16
+UR137,UR286,Chancay,Armatambo,0,0.0,0.0
+UR137,UR287,Chancay,Armatambo,4,1.09,2.91
+UR137,UR288,Chancay,Armatambo,1,0.63,0.37
+UR137,UR289,Chancay,Armatambo,1,0.46,0.54
+UR137,UR290,Chancay,Armatambo,1,0.35,0.65
+UR137,UR291A,Chancay,Armatambo,3,2.12,0.88
+UR137,UR292A,Chancay,Armatambo,2,1.37,0.63
+UR137,UR293,Chancay,Armatambo,0,0.0,0.0
+UR137,UR294,Chancay,Armatambo,0,0.04,-0.04
+UR166,UR177,Chancay,Chuquitanta,0,0.06,-0.06
+UR166,UR182,Chancay,Chuquitanta,1,0.18,0.82
+UR166,UR183,Chancay,Chancay,0,0.03,-0.03
+UR166,UR186,Chancay,Chancay,1,0.54,0.46
+UR166,UR195,Chancay,Huacho,2,0.57,1.43
+UR166,UR232,Chancay,Huacho,1,0.85,0.15
+UR166,UR233,Chancay,Huacho,2,0.38,1.62
+UR166,UR282,Chancay,Armatambo,0,0.37,-0.37
+UR166,UR283,Chancay,Armatambo,1,0.66,0.34
+UR166,UR284,Chancay,Armatambo,0,0.07,-0.07
+UR166,UR285,Chancay,Armatambo,0,0.13,-0.13
+UR166,UR286,Chancay,Armatambo,0,0.03,-0.03
+UR166,UR287,Chancay,Armatambo,1,0.37,0.63
+UR166,UR288,Chancay,Armatambo,0,0.35,-0.35
+UR166,UR289,Chancay,Armatambo,1,0.28,0.72
+UR166,UR290,Chancay,Armatambo,0,0.06,-0.06
+UR166,UR291A,Chancay,Armatambo,3,1.01,1.99
+UR166,UR292A,Chancay,Armatambo,0,0.38,-0.38
+UR166,UR293,Chancay,Armatambo,0,0.0,0.0
+UR166,UR294,Chancay,Armatambo,0,0.0,0.0
+UR177,UR182,Chuquitanta,Chuquitanta,2,0.46,1.54
+UR177,UR183,Chuquitanta,Chancay,0,0.13,-0.13
+UR177,UR186,Chuquitanta,Chancay,1,1.29,-0.29
+UR177,UR195,Chuquitanta,Huacho,3,6.26,-3.26
+UR177,UR232,Chuquitanta,Huacho,2,3.12,-1.12
+UR177,UR233,Chuquitanta,Huacho,3,1.92,1.08
+UR177,UR282,Chuquitanta,Armatambo,1,0.62,0.38
+UR177,UR283,Chuquitanta,Armatambo,5,5.26,-0.26
+UR177,UR284,Chuquitanta,Armatambo,0,0.16,-0.16
+UR177,UR285,Chuquitanta,Armatambo,1,1.1,-0.1
+UR177,UR286,Chuquitanta,Armatambo,0,0.0,0.0
+UR177,UR287,Chuquitanta,Armatambo,2,2.2,-0.2
+UR177,UR288,Chuquitanta,Armatambo,2,2.02,-0.02
+UR177,UR289,Chuquitanta,Armatambo,3,3.75,-0.75
+UR177,UR290,Chuquitanta,Armatambo,0,0.31,-0.31
+UR177,UR291A,Chuquitanta,Armatambo,7,5.69,1.31
+UR177,UR292A,Chuquitanta,Armatambo,3,2.8,0.2
+UR177,UR293,Chuquitanta,Armatambo,0,0.0,0.0
+UR177,UR294,Chuquitanta,Armatambo,0,0.04,-0.04
+UR182,UR183,Chuquitanta,Chancay,0,0.2,-0.2
+UR182,UR186,Chuquitanta,Chancay,2,1.83,0.17
+UR182,UR195,Chuquitanta,Huacho,4,3.43,0.57
+UR182,UR232,Chuquitanta,Huacho,2,3.62,-1.62
+UR182,UR233,Chuquitanta,Huacho,3,3.99,-0.99
+UR182,UR282,Chuquitanta,Armatambo,4,2.45,1.55
+UR182,UR283,Chuquitanta,Armatambo,2,3.06,-1.06
+UR182,UR284,Chuquitanta,Armatambo,1,0.6,0.4
+UR182,UR285,Chuquitanta,Armatambo,0,0.46,-0.46
+UR182,UR286,Chuquitanta,Armatambo,1,0.09,0.91
+UR182,UR287,Chuquitanta,Armatambo,0,2.74,-2.74
+UR182,UR288,Chuquitanta,Armatambo,2,2.8,-0.8
+UR182,UR289,Chuquitanta,Armatambo,2,1.8,0.2
+UR182,UR290,Chuquitanta,Armatambo,0,0.49,-0.49
+UR182,UR291A,Chuquitanta,Armatambo,5,4.97,0.03
+UR182,UR292A,Chuquitanta,Armatambo,1,2.02,-1.02
+UR182,UR293,Chuquitanta,Armatambo,0,0.0,0.0
+UR182,UR294,Chuquitanta,Armatambo,0,0.24,-0.24
+UR183,UR186,Chancay,Chancay,1,0.32,0.68
+UR183,UR195,Chancay,Huacho,2,0.84,1.16
+UR183,UR232,Chancay,Huacho,1,0.84,0.16
+UR183,UR233,Chancay,Huacho,1,0.44,0.56
+UR183,UR282,Chancay,Armatambo,1,0.25,0.75
+UR183,UR283,Chancay,Armatambo,2,0.87,1.13
+UR183,UR284,Chancay,Armatambo,0,0.07,-0.07
+UR183,UR285,Chancay,Armatambo,0,0.2,-0.2
+UR183,UR286,Chancay,Armatambo,0,0.0,0.0
+UR183,UR287,Chancay,Armatambo,2,0.59,1.41
+UR183,UR288,Chancay,Armatambo,1,0.49,0.51
+UR183,UR289,Chancay,Armatambo,1,0.54,0.46
+UR183,UR290,Chancay,Armatambo,1,0.04,0.96
+UR183,UR291A,Chancay,Armatambo,3,1.15,1.85
+UR183,UR292A,Chancay,Armatambo,1,0.79,0.21
+UR183,UR293,Chancay,Armatambo,0,0.0,0.0
+UR183,UR294,Chancay,Armatambo,0,0.0,0.0
+UR186,UR195,Chancay,Huacho,7,7.12,-0.12
+UR186,UR232,Chancay,Huacho,8,8.03,-0.03
+UR186,UR233,Chancay,Huacho,7,6.65,0.35
+UR186,UR282,Chancay,Armatambo,4,3.21,0.79
+UR186,UR283,Chancay,Armatambo,8,5.95,2.05
+UR186,UR284,Chancay,Armatambo,0,0.74,-0.74
+UR186,UR285,Chancay,Armatambo,1,0.36,0.64
+UR186,UR286,Chancay,Armatambo,0,0.29,-0.29
+UR186,UR287,Chancay,Armatambo,3,2.68,0.32
+UR186,UR288,Chancay,Armatambo,4,3.86,0.14
+UR186,UR289,Chancay,Armatambo,2,3.62,-1.62
+UR186,UR290,Chancay,Armatambo,1,0.53,0.47
+UR186,UR291A,Chancay,Armatambo,10,8.82,1.18
+UR186,UR292A,Chancay,Armatambo,4,2.62,1.38
+UR186,UR293,Chancay,Armatambo,0,0.0,0.0
+UR186,UR294,Chancay,Armatambo,0,0.0,0.0
+UR195,UR232,Huacho,Huacho,11,14.64,-3.64
+UR195,UR233,Huacho,Huacho,7,9.27,-2.27
+UR195,UR282,Huacho,Armatambo,10,14.89,-4.89
+UR195,UR283,Huacho,Armatambo,24,29.17,-5.17
+UR195,UR284,Huacho,Armatambo,2,2.36,-0.36
+UR195,UR285,Huacho,Armatambo,6,6.42,-0.42
+UR195,UR286,Huacho,Armatambo,0,0.0,0.0
+UR195,UR287,Huacho,Armatambo,13,12.01,0.99
+UR195,UR288,Huacho,Armatambo,7,9.94,-2.94
+UR195,UR289,Huacho,Armatambo,15,18.38,-3.38
+UR195,UR290,Huacho,Armatambo,1,0.95,0.05
+UR195,UR291A,Huacho,Armatambo,19,27.33,-8.33
+UR195,UR292A,Huacho,Armatambo,11,15.52,-4.52
+UR195,UR293,Huacho,Armatambo,0,0.0,0.0
+UR195,UR294,Huacho,Armatambo,0,0.0,0.0
+UR232,UR233,Huacho,Huacho,12,13.75,-1.75
+UR232,UR282,Huacho,Armatambo,4,5.61,-1.61
+UR232,UR283,Huacho,Armatambo,12,12.19,-0.19
+UR232,UR284,Huacho,Armatambo,2,1.16,0.84
+UR232,UR285,Huacho,Armatambo,2,2.23,-0.23
+UR232,UR286,Huacho,Armatambo,0,0.08,-0.08
+UR232,UR287,Huacho,Armatambo,5,6.9,-1.9
+UR232,UR288,Huacho,Armatambo,6,6.65,-0.65
+UR232,UR289,Huacho,Armatambo,6,7.96,-1.96
+UR232,UR290,Huacho,Armatambo,2,1.65,0.35
+UR232,UR291A,Huacho,Armatambo,12,18.8,-6.8
+UR232,UR292A,Huacho,Armatambo,7,8.6,-1.6
+UR232,UR293,Huacho,Armatambo,0,0.02,-0.02
+UR232,UR294,Huacho,Armatambo,0,0.25,-0.25
+UR233,UR282,Huacho,Armatambo,2,3.6,-1.6
+UR233,UR283,Huacho,Armatambo,2,5.71,-3.71
+UR233,UR284,Huacho,Armatambo,1,0.7,0.3
+UR233,UR285,Huacho,Armatambo,0,0.14,-0.14
+UR233,UR286,Huacho,Armatambo,0,0.21,-0.21
+UR233,UR287,Huacho,Armatambo,6,5.95,0.05
+UR233,UR288,Huacho,Armatambo,3,5.97,-2.97
+UR233,UR289,Huacho,Armatambo,3,4.37,-1.37
+UR233,UR290,Huacho,Armatambo,2,0.55,1.45
+UR233,UR291A,Huacho,Armatambo,7,12.92,-5.92
+UR233,UR292A,Huacho,Armatambo,3,3.87,-0.87
+UR233,UR293,Huacho,Armatambo,0,0.0,0.0
+UR233,UR294,Huacho,Armatambo,1,0.9,0.1
+UR282,UR283,Armatambo,Armatambo,12,12.88,-0.88
+UR282,UR284,Armatambo,Armatambo,1,2.33,-1.33
+UR282,UR285,Armatambo,Armatambo,3,1.86,1.14
+UR282,UR286,Armatambo,Armatambo,0,0.0,0.0
+UR282,UR287,Armatambo,Armatambo,8,5.82,2.18
+UR282,UR288,Armatambo,Armatambo,7,5.66,1.34
+UR282,UR289,Armatambo,Armatambo,9,7.31,1.69
+UR282,UR290,Armatambo,Armatambo,1,1.07,-0.07
+UR282,UR291A,Armatambo,Armatambo,11,13.54,-2.54
+UR282,UR292A,Armatambo,Armatambo,5,4.64,0.36
+UR282,UR293,Armatambo,Armatambo,0,0.0,0.0
+UR282,UR294,Armatambo,Armatambo,0,0.0,0.0
+UR283,UR284,Armatambo,Armatambo,6,3.35,2.65
+UR283,UR285,Armatambo,Armatambo,6,5.88,0.12
+UR283,UR286,Armatambo,Armatambo,1,0.37,0.63
+UR283,UR287,Armatambo,Armatambo,14,9.97,4.03
+UR283,UR288,Armatambo,Armatambo,11,9.11,1.89
+UR283,UR289,Armatambo,Armatambo,18,15.66,2.34
+UR283,UR290,Armatambo,Armatambo,1,1.32,-0.32
+UR283,UR291A,Armatambo,Armatambo,27,28.84,-1.84
+UR283,UR292A,Armatambo,Armatambo,11,13.28,-2.28
+UR283,UR293,Armatambo,Armatambo,0,0.0,0.0
+UR283,UR294,Armatambo,Armatambo,0,0.02,-0.02
+UR284,UR285,Armatambo,Armatambo,0,0.0,0.0
+UR284,UR286,Armatambo,Armatambo,0,0.0,0.0
+UR284,UR287,Armatambo,Armatambo,0,0.65,-0.65
+UR284,UR288,Armatambo,Armatambo,0,0.61,-0.61
+UR284,UR289,Armatambo,Armatambo,0,0.5,-0.5
+UR284,UR290,Armatambo,Armatambo,0,0.4,-0.4
+UR284,UR291A,Armatambo,Armatambo,3,4.46,-1.46
+UR284,UR292A,Armatambo,Armatambo,1,1.29,-0.29
+UR284,UR293,Armatambo,Armatambo,0,0.0,0.0
+UR284,UR294,Armatambo,Armatambo,0,0.0,0.0
+UR285,UR286,Armatambo,Armatambo,0,0.0,0.0
+UR285,UR287,Armatambo,Armatambo,3,2.73,0.27
+UR285,UR288,Armatambo,Armatambo,2,1.51,0.49
+UR285,UR289,Armatambo,Armatambo,5,5.03,-0.03
+UR285,UR290,Armatambo,Armatambo,0,0.03,-0.03
+UR285,UR291A,Armatambo,Armatambo,3,4.5,-1.5
+UR285,UR292A,Armatambo,Armatambo,5,5.66,-0.66
+UR285,UR293,Armatambo,Armatambo,0,0.0,0.0
+UR285,UR294,Armatambo,Armatambo,0,0.0,0.0
+UR286,UR287,Armatambo,Armatambo,0,0.0,0.0
+UR286,UR288,Armatambo,Armatambo,1,0.27,0.73
+UR286,UR289,Armatambo,Armatambo,0,0.0,0.0
+UR286,UR290,Armatambo,Armatambo,0,0.0,0.0
+UR286,UR291A,Armatambo,Armatambo,1,0.39,0.61
+UR286,UR292A,Armatambo,Armatambo,0,0.0,0.0
+UR286,UR293,Armatambo,Armatambo,0,0.0,0.0
+UR286,UR294,Armatambo,Armatambo,0,0.0,0.0
+UR287,UR288,Armatambo,Armatambo,6,8.33,-2.33
+UR287,UR289,Armatambo,Armatambo,6,8.74,-2.74
+UR287,UR290,Armatambo,Armatambo,2,0.93,1.07
+UR287,UR291A,Armatambo,Armatambo,13,13.07,-0.07
+UR287,UR292A,Armatambo,Armatambo,6,8.88,-2.88
+UR287,UR293,Armatambo,Armatambo,0,0.0,0.0
+UR287,UR294,Armatambo,Armatambo,0,0.15,-0.15
+UR288,UR289,Armatambo,Armatambo,6,7.25,-1.25
+UR288,UR290,Armatambo,Armatambo,1,1.1,-0.1
+UR288,UR291A,Armatambo,Armatambo,10,12.14,-2.14
+UR288,UR292A,Armatambo,Armatambo,4,4.98,-0.98
+UR288,UR293,Armatambo,Armatambo,0,0.0,0.0
+UR288,UR294,Armatambo,Armatambo,0,0.0,0.0
+UR289,UR290,Armatambo,Armatambo,1,0.68,0.32
+UR289,UR291A,Armatambo,Armatambo,11,15.28,-4.28
+UR289,UR292A,Armatambo,Armatambo,6,9.02,-3.02
+UR289,UR293,Armatambo,Armatambo,0,0.0,0.0
+UR289,UR294,Armatambo,Armatambo,0,0.0,0.0
+UR290,UR291A,Armatambo,Armatambo,2,2.56,-0.56
+UR290,UR292A,Armatambo,Armatambo,2,1.39,0.61
+UR290,UR293,Armatambo,Armatambo,0,0.0,0.0
+UR290,UR294,Armatambo,Armatambo,0,0.0,0.0
+UR291A,UR292A,Armatambo,Armatambo,10,14.72,-4.72
+UR291A,UR293,Armatambo,Armatambo,0,0.0,0.0
+UR291A,UR294,Armatambo,Armatambo,0,0.18,-0.18
+UR292A,UR293,Armatambo,Armatambo,0,0.0,0.0
+UR292A,UR294,Armatambo,Armatambo,0,0.0,0.0
+UR293,UR294,Armatambo,Armatambo,0,0.0,0.0

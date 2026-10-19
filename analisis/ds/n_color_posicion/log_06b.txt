@@ -1,0 +1,14 @@
+swaps observados: 76 quipus: 21
+gana color: 24 (0.316) | delta medio -1.8281 (mediana 0.0000)
+nulo: delta medio -1.7405 (sd 0.5767) | p(color mejor que posicion) = 0.5750
+    kfg  n  delta   win
+  HP037  2  9.054 1.000
+ UR1152  1  5.167 1.000
+  AS159  1  5.156 1.000
+  AS169  1  0.708 1.000
+UR1033D 14  0.454 0.571
+  UR034  1  0.264 1.000
+  HP040  2  0.000 0.000
+  UR037  2  0.000 0.000
+  UR032  1  0.000 0.000
+  UR235  1  0.000 0.000

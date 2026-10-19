@@ -1,0 +1,31 @@
+=== T3 LIMPIO (suma no trivial, >=2 sumandos con valor>0) ===
+obs 2/45 | nulo 0.70 | p=0.152
+=== VALOR MAXIMO ===
+p444 valor=2230.0 color=MB grupo=65 union=R nudos=2S(3.5,Z),2000;2S(6.5,Z),200;3S(14.0,Z),30
+=== TOTALES ===
+suma total (424 cuerdas con nudo): 12304
+mayor suma de grupo: 2409
+=== COLOR POR GRUPO ===
+grupos multi monocromaticos: 4/45 = 0.09
+colores grupo-0dominantes: [('MB', 35), ('PK', 3), ('GG:MB', 3), ('KB', 3), ('MB:KB', 1)]
+=== SIN NUDOS ===
+sin nudo por nivel: {0: 138, 1: 10, 2: 1}
+sin nudo por color: {'MB': 55, 'PK': 31, 'KB': 17, 'GG': 11, 'GG:MB': 9, 'AB': 7, 'LK': 5, 'MB:KB': 4}
+=== AUTOCORRELACION DE COLOR (lag 1-4) ===
+lag1: obs 290 | nulo 218.4 sd 6.9 | z=10.4 p=0.001
+lag2: obs 248 | nulo 218.2 sd 7.0 | z=4.3 p=0.001
+lag3: obs 235 | nulo 217.5 sd 7.0 | z=2.5 p=0.005
+lag4: obs 218 | nulo 217.6 sd 7.0 | z=0.1 p=0.491
+=== DIRECCION NUDO POR NIVEL ===
+nivel 0: [('Z', 441), ('S', 49)]
+nivel 1: [('Z', 80), ('S', 12), ('U', 1)]
+nivel 2: [('Z', 3)]
+=== CUERDAS PK (marcador en cordon principal) ===
+n=31, todas valor 0: True
+       orden cuerda  grupo                                        notas
+20581     19    p19      1  Nudo en cord195179n principal con una borla
+20619     57    p49      3  Nudo en cord195179n principal con una borla
+20652     90    p80      5                 Un nudo del cordon principal
+20653     91    p81      6                 Un nudo del cordon principal
+20664    102    p90      8               Un nudo en el cordon principal
+20674    112   p100     10               Un nudo en el cordon principal

@@ -1,0 +1,120 @@
+unidad,nivel,nombre,cantidad,unidad_medida,epoca,linea
+tributarios,guaranga,Guancayo,900,tributarios,Inca,2820
+pachacas,guaranga,Guancayo,9,pachacas,Inca,731
+pachacas,guaranga,Guancayo,5,pachacas/curacas,Inca,2820
+tributarios,pachaca,cada pachaca de Guancayo (derivado 900/9),100,tributarios,Inca (derivado),747
+curacas,guaranga,Guancayo: 1 de guaranga + 4 de pachaca,5,curacas,Inca,747
+pachacas,curaca,Mongoy/Moncoy (curaca de guaranga),2,pachacas,Inca,2832
+pachacas,curaca,Cancay/Caycay,1,pachacas,Inca,2832
+pachacas,curaca,Chuquitanga/Chuquitunca,2,pachacas,Inca,2832
+pachacas,curaca,Chumbillan,2,pachacas,Inca,2832
+pachacas,curaca,Antachumbi/Aritachumbi,2,pachacas,Inca,2833
+pachacas,guaranga,Guancayo: pachacas extinguidas en 1571,7,pachacas,1571,2949-2957
+pachacas,guaranga,Guancayo: pachacas con descendencia en 1571,2,pachacas,1571,2949-2957
+tributarios,guaranga,Guarauni,200,tributarios,Inca,2975
+pachacas,guaranga,Guarauni,2,pachacas,Inca,835
+curacas,guaranga,Guarauni (mismo curaca para las 2 pachacas),1,curaca,Inca,835
+tributarios,guaranga,Maca (1571),190,tributarios,1571,3057-3059
+tributarios,pueblo,"Maca, pueblo de Maca (1571)",90,tributarios,1571,3057
+tributarios,pueblo,Misayo/Misaye (1571),100,tributarios,1571,3057
+tributarios,pachaca,Misayo: tributarios residentes en Maca,10,tributarios,1571,3080-3090
+personas,pachaca,Misayo: los 10 tributarios con mujeres e hijos,32,personas,1571,845
+pachacas,guaranga,Maca,2,pachacas,1571,845
+curacas,guaranga,"Maca (don Juan Paucar, tambien curaca de Misayo)",1,curaca,1571,845
+producto,pachaca,coca: cestos grandes,5,cestos,Inca,3149
+producto,pachaca,"ropa de algodon, mitad hombre / mitad mujer",26,piezas,Inca,3151
+producto,pachaca,trajes de cumbi galanos,2,piezas/trajes,Inca,3151
+producto,pachaca,maiz,3,fanegas,Inca,3151
+producto,pachaca,aji: cestos grandes,4,cestos,Inca,3151
+producto,pachaca,ojotas,20,pares,Inca,3151
+producto,pachaca,charqui de pajaros secos: petacas,10,petacas,Inca,3151
+producto,pachaca,guabas secas: petaquillas,3,petaquillas,Inca,3151
+producto,pachaca,manta galana de algodon para hamaca,1,manta,Inca,3151
+producto,pachaca,coca para el Inca: petaquillas de zuara,5,petaquillas,Inca,3151
+producto,pachaca,camarones secos para el Inca: petaquillas,2,petaquillas,Inca,3151
+producto,pachaca,rodejones de palo para orejones,10,pares,Inca,3151
+producto,guaranga,coca: total 9 pachacas,45,cestos,Inca (x9),1189
+producto,guaranga,ropa: total 9 pachacas,234,piezas,Inca (x9),1189
+producto,guaranga,cumbi: total 9 pachacas,18,piezas/trajes,Inca (x9),1189
+producto,guaranga,maiz: total 9 pachacas,27,fanegas,Inca (x9),1189
+producto,guaranga,aji: total 9 pachacas,36,cestos,Inca (x9),1189
+producto,guaranga,ojotas: total 9 pachacas,180,pares,Inca (x9),1189
+producto,guaranga,charqui: total 9 pachacas,90,petacas,Inca (x9),1189
+producto,guaranga,guabas: total 9 pachacas,27,petaquillas,Inca (x9),1189
+producto,guaranga,mantas: total 9 pachacas,9,mantas,Inca (x9),1189
+producto,pachaca,maiz para mamaconas: 10 pocchas,5,fanegas,Inca,3151
+producto,pachaca,frijoles para mamaconas: 10 pocchas,5,fanegas,Inca,3151
+producto,pachaca,ollas grandes y chicas,10,ollas,Inca,3151
+producto,pachaca,algodon por hilar,5,cargas,Inca,3151
+ganado,guaranga,ganado de la tierra del Inca en guarda,300,cabezas,Inca,3151
+personas,guaranga,hijos de caciques para servicio del Inca,3,indios,Inca,3153
+personas,guaranga,guardas de las mamaconas,3,indios,Inca,3153
+personas,guaranga,mujeres escogidas para mamaconas,10,indias,Inca,3153
+chacras,curaca,sementeras de maiz del curaca principal,5,chacras,Inca,3162
+producto,curaca,cada sementera: 4 pocchas de maiz,2,fanegas,Inca,3162
+producto,curaca,chacra de aji,1,chacra,Inca,3162
+producto,curaca,chacra de frijoles: fanega y media,1.5,fanegas,Inca,3162
+producto,curaca,chacra de calabaza,1,chacra,Inca,3162
+producto,curaca,chacra de yuca,1,chacra,Inca,3162
+producto,curaca,chacra grande de coca: 20 cestos por mita,20,cestos/mita,Inca,3170
+producto,curaca,chacra de algodon,1,chacra,Inca,3170
+personas,curaca,indios hamaqueros,10,indios,Inca,3170
+personas,curaca,muchachos pajes,5,indios,Inca,3170
+personas,curaca,indios viejos para porqueros,2,indios,Inca,3170
+producto,pachaca,cada indio: un carnero de la tierra al ano,1,carnero/ano,Inca,3183
+mita,repartimiento,indios para la mita de Los Reyes,8,indios,1571,3214
+mita,pueblo,Maca: indios de la mita de Los Reyes,2,indios,1571,3216
+mita,pueblo,Guarauni: indios de la mita de Los Reyes,3,indios,1571,3216
+mita,pueblo,Guancayo: indios de la mita de Los Reyes,2,indios,1571,3216
+distancia,repartimiento,de Guancayo a Los Reyes,7,leguas,1571,3216
+personas,curaca,don Juan (Maca): muchachos de servicio,4,muchachos,1571,3220
+personas,curaca,don Francisco (Guarauni): muchachos de servicio,4,muchachos,1571,3220
+personas,curaca,don Pedro (Guancayo): muchachos de servicio,3,muchachos,1571,3220
+producto,curaca,ropa anual para cada muchacho casado y su mujer,2,piezas,1571,3230
+producto,repartimiento,ropa de la tasa al encomendero,60,piezas,1571,3238
+pesos,pachaca,cada indio tributario: 4 pesos/ano para la ropa,4,pesos,1571,3238
+pesos,persona,"derrama para ornamento: 2 tomines por indio, mujer e hijo",2,tomines,1571,3240
+anos,repartimiento,antiguedad de la derrama,4,anos,1571,3240
+chacra,guaranga,"Guancayo: Atuncama, maiz",3,fanegas de sembradura,Inca,3251
+chacra,guaranga,"Guancayo: Pircay, tinta colorada",1,chacra,Inca,3251
+chacra,guaranga,"Guancayo: Curpa, algodon",1,chacra,Inca,3252
+chacra,guaranga,"Guancayo: Llamavilla, mates",1,chacra,Inca,3252
+chacra,guaranga,"Guancayo: Pampavilla, coca",1,chacra,Inca,3252
+chacra,guaranga,"Guancayo: Camasca, maiz",3,fanegas de sembradura,Inca,3252
+chacra,guaranga,"Guancayo: Vitoc, maiz",3,fanegas de sembradura,Inca,3253
+chacra,guaranga,"Guancayo: Cancavilla, coca",1,chacra,Inca,3255
+chacra,guaranga,"Guancayo: Achuan, aji",1,chacra,Inca,3255
+chacras,guaranga,Guancayo: total chacras comunales,9,chacras,Inca,775
+fanegas,guaranga,Guancayo: maiz en las 3 chacras de maiz,9,fanegas,Inca,3251-3255
+chacra,guaranga,"Guarauni: Atum, maiz",5,fanegas de sembradura,Inca,3255
+chacra,guaranga,"Guarauni: Corupa, coca",1,chacra,Inca,3255
+chacra,guaranga,"Guarauni: Vitrito, aji",1,chacra,Inca,3255
+chacra,guaranga,"Guarauni: Pequepe, aji",1,chacra,Inca,3255
+chacra,guaranga,"Guarauni: Camac, mates",1,chacra,Inca,3255
+chacras,guaranga,Guarauni: total chacras (Visita),5,chacras,Inca,3255
+chacra,guaranga,"Maca: Capa, maiz",5,fanegas de sembradura,Inca,3255
+chacra,guaranga,"Maca: Cudcuy, maiz",5,fanegas de sembradura,Inca,3255
+chacra,guaranga,"Maca: Guaynacapa, coca",50,cestos (antiguamente),Inca,3255
+chacra,guaranga,Maca: Guacllav,1,chacra,Inca,3255
+chacra,guaranga,"Maca: Guadccy, algodon",1,chacra,Inca,3255
+chacra,guaranga,Maca: Quillaque,1,chacra,Inca,3255
+chacras,guaranga,Maca: total chacras,6,chacras,Inca,845
+producto,curaca,Guarauni: cestillos de coca del curaca al ano,20,cestillos/ano,Inca,3351
+producto,pachaca,"Guarauni: cada indio, cestillos de coca al ano",2,cestillos/ano,Inca,3341
+mitas,repartimiento,cosecha de coca: mitas al ano,2,mitas,Inca,3341
+pesos,repartimiento,venta de tierras de indios muertos,250,pesos,1571,3269
+pesos,repartimiento,venta de Chancay y Locha,80,pesos,1571,3301
+carneros,repartimiento,venta de la chacra Yanqa,9,carneros,1571,3305
+pesos,curaca,don Juan: arboles vendidos,10,pesos,1571,3375
+pesos,curaca,don Pedro: arboles vendidos,9,pesos,1571,3375
+tomines,repartimiento,precio de cada arbol vendido,2,tomines,1571,3378
+veces,repartimiento,puente construido en el ano,2,veces,1571,3390
+pesos,repartimiento,precio de una pieza de ropa,4,pesos,1571,3480
+meses,repartimiento,tiempo que tuvo la doctrina el arzobispo,5,meses,1571,3482
+anos,repartimiento,tiempo que tuvo la doctrina fray Vicente de Valverde,1,anos,1571,3482
+fecha,repartimiento,inicio de la visita en Maca,18,marzo 1571,1571,2802
+edadanios,repartimiento,edad de inicio del tributo en tiempo del Inca,19,anos,Inca,3426
+edadanios,repartimiento,edad de inicio del tributo en 1571,17,anos,1571,3426
+jornal,repartimiento,jornal diario,1,tomin,1571,3445
+personas,repartimiento,indios cantores para el convento,8,indios,1571,3523
+personas,repartimiento,religiosos del convento,6,religiosos,1571,3503

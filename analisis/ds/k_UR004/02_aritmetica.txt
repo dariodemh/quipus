@@ -1,0 +1,20 @@
+=== T1: colgante = suma de subsidiarias directas ===
+colgantes con subsidiarias: 84 | coincidencias obs: 6 | nulo media 4.69 | p=0.302
+coincidencias: [('p42', 7.0, [7.0]), ('p188', 0.0, [0.0]), ('p378', 1.0, [1.0]), ('p401', 1.0, [1.0]), ('p429', 1.0, [1.0]), ('p430', 1.0, [1.0])]
+=== T2: colgante = suma de todos los descendientes ===
+obs 6 | nulo media 4.75 | p=0.319
+T1b colgantes con >=2 subsid: 3 | obs 0 | nulo media 0.01 | p=1.000
+distrib. n subsidiarias: {1: 81, 2: 2, 6: 1}
+=== T3: en un grupo, alguna cuerda = suma de las demas ===
+grupos >=2 cuerdas: 45 | obs 3 | nulo media 1.39 | p=0.168
+=== T4: suma de un grupo (>=2 cuerdas) = valor de una cuerda AJENA ===
+obs 24 de 45 grupos multi | nulo media 17.03 | p=0.007
+sumas multi-grupo: [(0, 364.0), (2, 482.0), (4, 410.0), (7, 474.0), (9, 67.0), (10, 28.0), (11, 356.0), (13, 407.0), (15, 2032.0), (17, 111.0), (20, 67.0), (22, 67.0), (23, 20.0), (24, 344.0), (27, 91.0), (28, 117.0), (30, 61.0), (32, 775.0), (34, 48.0), (36, 46.0), (38, 12.0), (40, 45.0), (42, 197.0), (44, 686.0), (46, 364.0), (48, 386.0), (50, 101.0), (52, 27.0), (54, 3.0), (56, 6.0), (57, 4.0), (58, 1.0), (59, 4.0), (60, 4.0), (62, 130.0), (63, 18.0), (64, 21.0), (65, 4.0), (66, 23.0), (67, 32.0), (68, 15.0), (69, 7.0), (70, 6.0), (71, 8.0), (72, 31.0)]
+=== T5: total del quipu ===
+suma cuerdas con nudo: 12304.0 | max valor 2230.0 | total aparece como cuerda? False | total/2=6152.0 aparece? False
+=== T7: valores repetidos ===
+valores distintos 85 de 424 cuerdas | con >1 aparicion: 37 | cuerdas en valores repetidos: 376
+=== T8: color adyacente igual ===
+obs 290 de 572 | nulo media 218.68 sd 7.02 | p(mayor)=0.001
+=== T9: entropia de color dentro de grupos ===
+obs 1.291 | nulo media 1.430 sd 0.050 | p(menor)=0.002

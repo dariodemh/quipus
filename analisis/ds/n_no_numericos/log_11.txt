@@ -1,0 +1,58 @@
+quipus 444
+             D   D_null        I   I_null        Q   Q_null
+count  444.000  444.000  444.000  444.000  444.000  444.000
+mean     0.162    0.158    0.013    0.018    0.114    0.108
+std      0.270    0.072    0.050    0.007    0.237    0.015
+min      0.000    0.095    0.000    0.009    0.000    0.095
+25%      0.000    0.101    0.000    0.011    0.000    0.100
+50%      0.008    0.133    0.000    0.017    0.000    0.102
+75%      0.200    0.184    0.000    0.023    0.084    0.109
+max      1.000    0.485    0.389    0.050    1.000    0.195
+
+Significativos Q alto (q<0.05): 52  I alto: 10  D alto: 71
+
+Top Q exceso (q<0.05):
+    kfg  n_multi     Q  Q_null  pQ_hi  qQ_hi   ND                   procedencia
+  AS076       12 1.000   0.107    0.0  0.002 True                       Unknown
+  HP020       12 1.000   0.114    0.0  0.002 True                    Pachacamac
+  HP019        7 1.000   0.105    0.0  0.002 True                    Pachacamac
+ AS207C        6 1.000   0.100    0.0  0.002 True                       Unknown
+  JC012       13 1.000   0.100    0.0  0.002 True                     Incahuasi
+  UR289        7 1.000   0.101    0.0  0.002 True    Armatambo, Huaca San Pedro
+  UR050      163 1.000   0.120    0.0  0.002 True                       Unknown
+  UR282        6 1.000   0.098    0.0  0.002 True    Huaca San Pedro, Armatambo
+  UR178       14 1.000   0.170    0.0  0.002 True                 Cajamarquilla
+  UR007        6 1.000   0.099    0.0  0.002 True                    Leymebamba
+  UR054      113 0.991   0.115    0.0  0.002 True                       Unknown
+  UR052       90 0.989   0.147    0.0  0.002 True                       Unknown
+  UR051       75 0.987   0.102    0.0  0.002 True                       Unknown
+  UR110       51 0.980   0.099    0.0  0.002 True                       Unknown
+  UR112       37 0.973   0.101    0.0  0.002 True                       Unknown
+  UR003       23 0.957   0.099    0.0  0.002 True                    Leymebamba
+  AS077       10 0.900   0.101    0.0  0.002 True                       Unknown
+  UR144       60 0.850   0.101    0.0  0.002 True                Valle de Pisco
+  UR055      173 0.832   0.190    0.0  0.002 True                       Unknown
+ AS207B       12 0.750   0.100    0.0  0.002 True                       Unknown
+ UR058A       12 0.750   0.100    0.0  0.002 True Playa Miller #6, Arica, Chile
+  UR284       15 0.733   0.110    0.0  0.002 True    Armatambo, Huaca San Pedro
+  UR171        7 0.714   0.099    0.0  0.002 True                       Unknown
+HP051_A       14 0.643   0.098    0.0  0.002 True                       Unknown
+  AS186        8 0.625   0.100    0.0  0.004 True                       Unknown
+  UR037       28 0.607   0.102    0.0  0.002 True                       Unknown
+  MM019       47 0.596   0.103    0.0  0.002 True                       Unknown
+  UR196       24 0.583   0.100    0.0  0.002 True                    Pachacamac
+ AS026B       38 0.579   0.100    0.0  0.002 True                       Unknown
+ UR1091       22 0.545   0.102    0.0  0.002 True                       Unknown
+
+Top I exceso (q<0.05):
+   kfg  n_multi     I  I_null  pI_hi  qI_hi   ND              procedencia
+ UR177       50 0.389   0.023  0.000  0.011 True              Chuquitanta
+ UR215       42 0.322   0.023  0.000  0.011 True                  Unknown
+KH0001      154 0.319   0.032  0.000  0.011 True              Chuquitanta
+ UR203      135 0.312   0.024  0.000  0.011 True                  Unknown
+UR1095      130 0.292   0.020  0.000  0.011 True               Pachacamac
+ AS075       11 0.250   0.028  0.001  0.027 True               Pachacamac
+ UR096       12 0.227   0.038  0.000  0.020 True                  Unknown
+ AS014       75 0.223   0.034  0.000  0.011 True                  Unknown
+UR1087       76 0.207   0.020  0.000  0.011 True                     Peru
+ UR193      222 0.199   0.032  0.000  0.011 True Peru, Fundort: Pachacmac

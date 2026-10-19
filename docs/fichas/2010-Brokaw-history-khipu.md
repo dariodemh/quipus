@@ -1,0 +1,14 @@
+# Galen Brokaw (2010). A History of the Khipu
+
+- **Referencia:** Cambridge University Press, Cambridge (Cambridge Latin American Studies 94), 2010, xvi + 320 pp. ISBN 9780521197793. Sin DOI.
+- **Tipo / acceso:** libro; **sin texto** (no hay versión digital abierta ni PDF local). Ficha basada en la descripción editorial (Google Books / Cambridge) y en la reseña de *American Historical Review*; **no he leído el cuerpo del libro**.
+- **Pregunta u objetivo:** construir una historia del khipu andino desde tiempos precolombinos hasta los primeros 120 años de la Colonia, evitando la dicotomía "sociedades con/sin escritura" y atendiendo a cómo una sociedad distribuye funciones semióticas entre sus medios.
+- **Corpus y datos:** medios andinos tempranos y sus contextos socioeconómicos y políticos; surgimiento del khipu Wari y luego inca; uso colonial del khipu por individuos y comunidades indígenas en interacción con funcionarios, cronistas y sacerdotes españoles. El resumen no da inventarios de quipus.
+- **Métodos:** modelo teórico que concilia los estudios de oralidad-literacidad con la teoría de medios; historia cultural/historiográfica. No es un estudio cuantitativo.
+- **Hallazgos principales:** la primera mitad examina los medios andinos tempranos y culmina con el khipu Wari e inca; la segunda documenta y analiza la continuación del uso del khipu en la Colonia. El estudio "corrige muchas concepciones erróneas, como la supuesta destrucción masiva de khipus a fines del siglo XVI" y subraya el **diálogo** entre los discursos administrativos e historiográficos del español alfabético y los géneros nativos del khipu.
+- **Afirmaciones sobre el significado o desciframiento y nivel de evidencia:** **propuesto (histórico-teórico)**. No ofrece desciframiento; su aporte es de historia y marco conceptual. La corrección sobre la destrucción masiva de khipus es una afirmación histórica apoyada en fuentes, según la descripción editorial.
+- **Limitaciones y críticas:** es síntesis interpretativa, no análisis de datos primarios del código; el resumen no menciona controles ni manejo de sesgos documentales coloniales. Al no leer el texto no puedo evaluar la solidez de sus fuentes.
+- **Relación con otros trabajos:** se inserta en el debate escritura/literacidad con Urton (1998, 2003) y Salomon (2004); adopta una postura más mediático-histórica que la tesis binaria de Urton. útil como contrapeso crítico al "desciframiento".
+- **Relevancia para este proyecto:** contexto histórico imprescindible (cronología Wari/Inca/colonial y continuidad del medio). No aporta datos cuantitativos directamente reutilizables. Recomendado como lectura de marco y para controlar anacronismos.
+- **Citas clave:**
+  - "The study corrects many common misconceptions, such as the alleged mass destruction of khipu in the late sixteenth century." (descripción editorial, Google Books/Cambridge).

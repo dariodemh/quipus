@@ -1,0 +1,64 @@
+kfg,okr,museo,procedencia,region,pc_largo,pc_color,pc_estructura,proc,okr_norm,sitio
+AS132,KH0148,"Museum für Völkerkunde, Berlin",Marquez,Unknown,60.0,BS:LC,,Marquez,KH0148,Marquez
+AS133,KH0149,"Museum für Völkerkunde, Berlin",Marquez,Unknown,129.0,D0,,Marquez,KH0149,Marquez
+AS137,KH0153,"Museum für Völkerkunde, Berlin",Chuquitanta,Unknown,61.5,PK,,Chuquitanta,KH0153,Chuquitanta
+AS155,KH0171,"Museum für Völkerkunde, Berlin",near Lima,Unknown,43.5,W,,near Lima,KH0171,near Lima
+AS177,KH0194,"Museum für Völkerkunde, Berlin",near Lima,Unknown,29.0,W,,near Lima,KH0194,near Lima
+AS178,KH0195,"Museum für Völkerkunde, Berlin",near Lima,Unknown,33.0,W-KB,,near Lima,KH0195,near Lima
+HP037,KH0567,"Museo Nacional de Historia, Archaeología y Antropología de Perú","Costa Central, Huacho",Unknown,64.0,W-MB,P,"Costa Central, Huacho",KH0567,Huacho
+HP047,KH0577,"Museo Nacional de Arqueologia, Antropologia e Historia del Peru","Armatambo, Lima, Central Coast",Unknown,31.0,W,P,"Armatambo, Lima, Central Coast",KH0577,Armatambo
+KH0001,KH0001,"American Museum of Natural History, NY",Chuquitanta,Unknown,55.0,W,P,Chuquitanta,KH0001,Chuquitanta
+KH0227,KH0227,"Museum fur Volkerkunde, Vienna","Huaura Valley, near Lima, on Santa Rosalia Hacienda",Unknown,81.5,AB,P,"Huaura Valley, near Lima, on Santa Rosalia Hacienda",KH0227,near Lima
+MM001,MM001,Landesmuseum Hannover,Huacho?,Huacho,105.5,W-(YB:PB),,Huacho?,MM001,Huacho
+UR060,KH0297,Puruchuco Museum,Huaquerones,Puruchuco,115.0,AB:MB:HB,P,Huaquerones,KH0297,Huaquerones
+UR061,KH0298,Puruchuco Museum,Huaquerones,Puruchuco,0.0,AB-AB-CB,P,Huaquerones,KH0298,Huaquerones
+UR062,KH0299,Puruchuco Museum,Huaquerones,Puruchuco,52.0,W-W-AB-KB,P,Huaquerones,KH0299,Huaquerones
+UR064,KH0301,Puruchuco Museum,Huaquerones,Puruchuco,62.5,AB-AB-CB-CB,P,Huaquerones,KH0301,Huaquerones
+UR065,KH0302,Puruchuco Museum,Huaquerones,Puruchuco,20.0,W,P,Huaquerones,KH0302,Huaquerones
+UR066,KH0303,Puruchuco Museum,Huaquerones,Puruchuco,73.5,W-AB-AB-GG,P,Huaquerones,KH0303,Huaquerones
+UR067,KH0304,Unknown,Huaquerones,Puruchuco,67.0,AB,P,Huaquerones,KH0304,Huaquerones
+UR069,KH0306,Puruchuco Museum,Huaquerones,Puruchuco,35.0,AB:GG:MB,P,Huaquerones,KH0306,Huaquerones
+UR070,KH0307,Puruchuco Museum,Huaquerones,Puruchuco,29.0,W-MB,P,Huaquerones,KH0307,Huaquerones
+UR071,KH0308,Puruchuco Museum,Huaquerones,Puruchuco,0.0,W-MB-CB,P,Huaquerones,KH0308,Huaquerones
+UR072,KH0309,Puruchuco Museum,Huaquerones,Puruchuco,0.0,AB-AB-KB-KB,P,Huaquerones,KH0309,Huaquerones
+UR074,KH0311,Puruchuco Museum,Huaquerones,Puruchuco,51.0,AB,P,Huaquerones,KH0311,Huaquerones
+UR075,KH0312,Puruchuco Museum,Huaquerones,Puruchuco,53.0,W-W-KB-KB,P,Huaquerones,KH0312,Huaquerones
+UR076,KH0313,Puruchuco Museum,Huaquerones,Puruchuco,41.5,W,P,Huaquerones,KH0313,Huaquerones
+UR078,KH0315,Puruchuco Museum,Huaquerones,Puruchuco,37.5,AB-AB-KB-KB,P,Huaquerones,KH0315,Huaquerones
+UR079,KH0316,Puruchuco Museum,Huaquerones,Puruchuco,36.0,W,P,Huaquerones,KH0316,Huaquerones
+UR080,KH0317,Puruchuco Museum,Huaquerones,Puruchuco,50.0,MB-MB-TG-TG,P,Huaquerones,KH0317,Huaquerones
+UR081,KH0318,Puruchuco Museum,Huaquerones,Puruchuco,66.5,W:RL,P,Huaquerones,KH0318,Huaquerones
+UR082,KH0319,Puruchuco Museum,Huaquerones,Puruchuco,84.0,W-W-KB-KB,P,Huaquerones,KH0319,Huaquerones
+UR1088,KH0101,"Museum Fur Volkerkunde, Munich, W. Germany",Huacho,Unknown,100.5,W:DB,,Huacho,KH0101,Huacho
+UR1106,KH0120,"Museum für Völkerkunde, Berlin",Marquez,Unknown,0.0,YB,,Marquez,KH0120,Marquez
+UR1107,KH0121,"Museum für Völkerkunde, Berlin",Marquez,Unknown,129.5,YB,P,Marquez,KH0121,Marquez
+UR1124,KH0138,"Museum für Völkerkunde, Berlin",Marquez,Unknown,0.0,W,P,Marquez,KH0138,Marquez
+UR1124_Detail_1,UR1124 Detail 1,"Museum für Völkerkunde, Berlin",Marquez,Unknown,26.0,W:YG,P,Marquez,UR1124 Detail 1,Marquez
+UR1130,KH0145,"Museum für Völkerkunde, Berlin",near Lima,Unknown,59.5,LB,P,near Lima,KH0145,near Lima
+UR1154,KH0170,"Museum für Völkerkunde, Berlin",near Lima,Unknown,45.5,W,P,near Lima,KH0170,near Lima
+UR120,KH0360,"Museum of Worldculture, Goteborg, Sweden",Huacho,Unknown,46.5,AB,,Huacho,KH0360,Huacho
+UR134,KH0374,"Lowe Art Museum, University of Miami","Chancay, Central Coast",Unknown,0.0,W,,"Chancay, Central Coast",KH0374,Chancay
+UR135,KH0375,"Lowe Art Museum, University of Miami","Chancay, Central Coast",Unknown,20.5,AB,P,"Chancay, Central Coast",KH0375,Chancay
+UR136,KH0376,"Lowe Art Museum, University of Miami","Chancay, Central Coast",Unknown,22.0,AB,P,"Chancay, Central Coast",KH0376,Chancay
+UR137,KH0377,"Lowe Art Museum, University of Miami","Chancay, Central Coast",Unknown,36.0,W-AB-MB,P,"Chancay, Central Coast",KH0377,Chancay
+UR166,KH0405,"American Museum of Natural History, NY","Huando, Chancay, Peru (Gaffron Collection)",Unknown,13.0,W-KB,P,"Huando, Chancay, Peru (Gaffron Collection)",KH0405,Chancay
+UR177,KH0415,"American Museum of Natural History, NY",Chuquitanta,Unknown,28.5,AB,P,Chuquitanta,KH0415,Chuquitanta
+UR182,KH0420,"American Museum of Natural History, NY",Chuquitanta,Unknown,44.0,AB,P,Chuquitanta,KH0420,Chuquitanta
+UR183,KH0421,"American Museum of Natural History, NY","Chancay, Central Coast",Unknown,51.5,AB-MB-KB,P,"Chancay, Central Coast",KH0421,Chancay
+UR186,KH0424,"American Museum of Natural History, NY","Hda. Huando, Chancay",Unknown,33.5,AB,P,"Hda. Huando, Chancay",KH0424,Chancay
+UR195,KH0433,"Ethnologisches Museum, Berlin, Germany",Huacho,"Central Coast, Peru",107.5,W-AB,,Huacho,KH0433,Huacho
+UR232,KH0469,"Ethnologisches Museum, Berlin, Germany",Huacho,"North-Central Coast, Peru",81.0,AB,,Huacho,KH0469,Huacho
+UR233,KH0470,"Ethnologisches Museum, Berlin, Germany",Huacho,"North-Central Coast, Peru",66.0,KB:W-W,,Huacho,KH0470,Huacho
+UR282,KH0520,"Museo Nac., Pueblo Libre","Huaca San Pedro, Armatambo",Unknown,31.0,YB,P,"Huaca San Pedro, Armatambo",KH0520,Armatambo
+UR283,KH0521,"Museo Nac., Pueblo Libre","Huaca San Pedro, Armatambo",Unknown,93.0,KB:W-W,P,"Huaca San Pedro, Armatambo",KH0521,Armatambo
+UR284,KH0522,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,51.5,W-MB,P,"Armatambo, Huaca San Pedro",KH0522,Armatambo
+UR285,KH0523,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,54.0,W-AB,P,"Armatambo, Huaca San Pedro",KH0523,Armatambo
+UR286,KH0524,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,41.0,W,P,"Armatambo, Huaca San Pedro",KH0524,Armatambo
+UR287,KH0525,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,48.5,W-W-MB,P,"Armatambo, Huaca San Pedro",KH0525,Armatambo
+UR288,KH0526,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,27.0,W,P,"Armatambo, Huaca San Pedro",KH0526,Armatambo
+UR289,KH0527,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,40.0,W,P,"Armatambo, Huaca San Pedro",KH0527,Armatambo
+UR290,KH0528,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,25.0,W,P,"Armatambo, Huaca San Pedro",KH0528,Armatambo
+UR291A,KH0529,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,44.0,KB:MB-KB,P,"Armatambo, Huaca San Pedro",KH0529,Armatambo
+UR292A,KH0530,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,57.0,W-RD,P,"Armatambo, Huaca San Pedro",KH0530,Armatambo
+UR293,KH0531,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,19.0,W-KB-KB,P,"Armatambo, Huaca San Pedro",KH0531,Armatambo
+UR294,KH0532,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",Unknown,31.0,MB,P,"Armatambo, Huaca San Pedro",KH0532,Armatambo

@@ -1,0 +1,209 @@
+=== UR003: resumen ===
+total cuerdas 758
+por nivel:
+ nivel
+0    281
+1    392
+2     77
+3      7
+4      1
+por grupo (cuerdas totales):
+ grupo
+0       1
+1       4
+2     104
+3      63
+4      93
+5      33
+6      59
+7       1
+8     178
+9      61
+10     45
+11     39
+12     66
+13      1
+14     10
+
+colgantes por grupo:
+ grupo
+0      1
+1      4
+2     40
+3     21
+4     40
+5     10
+6     26
+7      1
+8     60
+9     21
+10    18
+11    17
+12    20
+13     1
+14     1
+
+=== por grupo: n_colg, n_subs, suma_valor_colgantes, suma_valor_total, min/max valor colg ===
+g 0: colg=  1 subs=  0 sum_colg=     0 sum_tot=     0 val_colg[min,max]=[0,0]
+g 1: colg=  4 subs=  0 sum_colg=     2 sum_tot=     2 val_colg[min,max]=[0,1]
+g 2: colg= 40 subs= 64 sum_colg=    45 sum_tot=   152 val_colg[min,max]=[0,5]
+g 3: colg= 21 subs= 42 sum_colg=    37 sum_tot=   116 val_colg[min,max]=[0,7]
+g 4: colg= 40 subs= 53 sum_colg=    29 sum_tot=    86 val_colg[min,max]=[0,3]
+g 5: colg= 10 subs= 23 sum_colg=    12 sum_tot=    51 val_colg[min,max]=[0,3]
+g 6: colg= 26 subs= 33 sum_colg=    40 sum_tot=    80 val_colg[min,max]=[0,11]
+g 7: colg=  1 subs=  0 sum_colg=     0 sum_tot=     0 val_colg[min,max]=[0,0]
+g 8: colg= 60 subs=118 sum_colg=    41 sum_tot=   165 val_colg[min,max]=[0,6]
+g 9: colg= 21 subs= 40 sum_colg=    15 sum_tot=    68 val_colg[min,max]=[0,5]
+g10: colg= 18 subs= 27 sum_colg=    13 sum_tot=    51 val_colg[min,max]=[0,4]
+g11: colg= 17 subs= 22 sum_colg=     8 sum_tot=    42 val_colg[min,max]=[0,2]
+g12: colg= 20 subs= 46 sum_colg=    21 sum_tot=    73 val_colg[min,max]=[0,5]
+g13: colg=  1 subs=  0 sum_colg=     0 sum_tot=     0 val_colg[min,max]=[0,0]
+g14: colg=  1 subs=  9 sum_colg=     0 sum_tot=     7 val_colg[min,max]=[0,0]
+
+suma colgantes total = 263.0
+suma todas las cuerdas = 893.0
+
+=== union por nivel ===
+union  ?   R    U    V
+nivel                 
+0      2  55    5  219
+1      1   0  390    1
+2      1   0   76    0
+3      1   0    6    0
+4      0   0    1    0
+
+colgantes (nivel0) union counts:
+ union
+V    219
+R     55
+U      5
+?      2
+
+cuerdas union R (posicion en grupo):
+  orden=2 p3 nivel=0 grupo=1 valor=0 color=GG
+  orden=77 p35 nivel=0 grupo=2 valor=0 color=AB
+  orden=278 p109 nivel=0 grupo=5 valor=1 color=W:MB
+  orden=310 p119 nivel=0 grupo=6 valor=0 color=W:AB
+  orden=322 p125 nivel=0 grupo=6 valor=2 color=AB
+  orden=407 p155 nivel=0 grupo=8 valor=0 color=AB
+  orden=423 p160 nivel=0 grupo=8 valor=1 color=MB(0.0-19.0)/RL(19.0-26.0)
+  orden=426 p162 nivel=0 grupo=8 valor=0 color=GG
+  orden=494 p186 nivel=0 grupo=8 valor=2 color=W:KB
+  orden=495 p187 nivel=0 grupo=8 valor=0 color=W:MB
+  orden=575 p215 nivel=0 grupo=9 valor=0 color=W:AB
+  orden=577 p216 nivel=0 grupo=9 valor=1 color=W:AB
+  orden=584 p218 nivel=0 grupo=9 valor=2 color=MB
+  orden=585 p219 nivel=0 grupo=9 valor=0 color=MB
+  orden=586 p220 nivel=0 grupo=9 valor=0 color=MB
+  orden=587 p221 nivel=0 grupo=9 valor=1 color=MB
+  orden=588 p222 nivel=0 grupo=9 valor=1 color=MB
+  orden=590 p223 nivel=0 grupo=9 valor=5 color=MB
+  orden=608 p232 nivel=0 grupo=10 valor=1 color=MB(0.0-20.0)/RL(20.0-24.0)
+  orden=615 p233 nivel=0 grupo=10 valor=0 color=nan
+  orden=617 p234 nivel=0 grupo=10 valor=0 color=W:RL
+  orden=619 p235 nivel=0 grupo=10 valor=0 color=MB
+  orden=625 p236 nivel=0 grupo=10 valor=0 color=MB
+  orden=627 p237 nivel=0 grupo=10 valor=1 color=MB
+  orden=628 p238 nivel=0 grupo=10 valor=0 color=MB
+  orden=629 p239 nivel=0 grupo=10 valor=0 color=MB
+  orden=630 p240 nivel=0 grupo=10 valor=1 color=MB(0.0-13.0)/W(13.0-27.0)
+  orden=631 p241 nivel=0 grupo=10 valor=1 color=MB
+  orden=636 p242 nivel=0 grupo=10 valor=1 color=MB
+  orden=645 p246 nivel=0 grupo=11 valor=1 color=W
+  orden=646 p247 nivel=0 grupo=11 valor=0 color=W
+  orden=647 p248 nivel=0 grupo=11 valor=1 color=W
+  orden=654 p250 nivel=0 grupo=11 valor=0 color=MB
+  orden=662 p251 nivel=0 grupo=11 valor=0 color=W:AB
+  orden=664 p252 nivel=0 grupo=11 valor=1 color=W:AB
+  orden=665 p253 nivel=0 grupo=11 valor=0 color=MB
+  orden=671 p254 nivel=0 grupo=11 valor=1 color=MB
+  orden=672 p255 nivel=0 grupo=11 valor=1 color=MB
+  orden=674 p256 nivel=0 grupo=11 valor=0 color=MB
+  orden=675 p257 nivel=0 grupo=11 valor=0 color=MB
+  orden=676 p258 nivel=0 grupo=11 valor=0 color=MB
+  orden=677 p259 nivel=0 grupo=11 valor=2 color=MB
+  orden=681 p260 nivel=0 grupo=12 valor=0 color=W
+  orden=694 p261 nivel=0 grupo=12 valor=0 color=W:KB
+  orden=707 p269 nivel=0 grupo=12 valor=0 color=W
+  orden=718 p270 nivel=0 grupo=12 valor=0 color=W:AB
+  orden=720 p271 nivel=0 grupo=12 valor=1 color=W:AB
+  orden=721 p272 nivel=0 grupo=12 valor=0 color=MB
+  orden=729 p273 nivel=0 grupo=12 valor=5 color=MB
+  orden=731 p274 nivel=0 grupo=12 valor=0 color=MB
+  orden=732 p275 nivel=0 grupo=12 valor=0 color=MB
+  orden=733 p276 nivel=0 grupo=12 valor=0 color=MB
+  orden=734 p277 nivel=0 grupo=12 valor=2 color=MB
+  orden=735 p278 nivel=0 grupo=12 valor=2 color=MB
+  orden=748 p281 nivel=0 grupo=14 valor=0 color=AB
+
+=== color base (sin combinaciones ":","-","/") top ===
+color
+W         271
+AB        185
+MB        153
+RL         48
+KB         32
+GG         19
+LC         13
+RM         11
+NA         10
+MB(0.0      3
+RL(0.0      3
+PK          3
+AB(0.0      2
+LC(0.0      2
+BG          1
+WMB         1
+MG          1
+
+=== distribucion de valores (todas) ===
+valor
+0.0     292
+1.0     276
+2.0      95
+3.0      34
+4.0      26
+5.0      14
+6.0      11
+7.0       4
+8.0       1
+9.0       2
+10.0      2
+11.0      1
+
+valores colgantes:
+ valor
+0.0     143
+1.0      77
+2.0      36
+3.0       9
+4.0       5
+5.0       5
+6.0       4
+7.0       1
+11.0      1
+
+torsion:
+ torsion
+S      749
+NaN      7
+U        1
+Z        1
+
+terminacion:
+ terminacion
+K      567
+B       87
+U       77
+R       21
+NaN      6
+
+sin nudos (nudos vacio): 289
+sin nudos por nivel:
+ nivel
+0    142
+1    138
+2      7
+3      2
+sin nudos con valor>0: 0
+con nudos pero valor=0: 3

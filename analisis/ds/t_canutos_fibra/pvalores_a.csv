@@ -1,0 +1,14 @@
+prueba,p,script,p_BH
+A2 canuto ~ num_cords (Mann-Whitney),1e-06,05,1.3e-05
+A5 UR052 limites canuto = limites grupo (perm),5e-05,05,0.00021666666666666666
+"A12 canutito ~ largo (AUC, perm)",5e-05,09,0.00021666666666666666
+A1 prevalencia canuto ~ zona (chi2 perm),0.0002,05,0.0006500000000000001
+"A10 canutito ~ blanco (AUC, perm)",0.0015,09,0.0039000000000000003
+"A8 canutito ~ valor>0 (AUC, perm)",0.0075,09,0.014857142857142859
+"A6 suma redonda por segmento, UR055",0.008,05,0.014857142857142859
+A3 canuto ~ fibra camelido (Fisher),0.038,05,0.06175
+"A6 suma redonda por segmento, mejor de 8",0.056,05,0.08088888888888889
+"A11 canutito ~ nivel (AUC, perm)",0.3469,09,0.45097
+A7 color canuto ~ color cuerdas (mejor de 8),0.634,08,0.7492727272727273
+"A9 canutito ~ log valor (AUC, perm)",0.9676,09,1.0
+A4 canuto ~ estilo S (Fisher),1.0,05,1.0

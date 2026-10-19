@@ -1,0 +1,105 @@
+=== U08/U09: TAMANO DE KHIPU POR ARCHIVO (KFG, cuerdas.csv) ===
+                        count   mean  median   max  min
+arch                                                   
+Arica                       9  292.0   100.0  1831   22
+Atarco                      6   44.0    31.0    91   17
+Chancay                     7   26.3    30.0    63    5
+Ica                        62   81.0    34.0   954    5
+Laguna de los Condores     22  234.9   124.0   874    6
+Nazca                      16  231.3   217.0   866    5
+Ocucaje                    21   62.5    35.0   256    3
+Pachacamac                 91   67.5    43.0   338    3
+Paracas                    10   86.8    26.0   321    8
+Puruchuco                  24   50.4    34.0   225    6
+Santa                       7  185.4   131.0   370   61
+Tambo Colorado              4   13.5    12.0    25    5
+
+Khipus mas grandes (n cuerdas):
+   kfg  n_cuerdas                   arch
+ AS069       1831                  Arica
+ UR093       1227                    SIN
+ UR231        954                    Ica
+ UR006        874 Laguna de los Condores
+ UR113        866                  Nazca
+ UR003        758 Laguna de los Condores
+UR1057        589                    SIN
+KH0083        585             Otros/vago
+
+=== U10: SUBSIDIARIAS ===
+KFG: 435 de 651 quipus con >=1 subsidiaria (66.8%)
+KFG, 12 archivos: 197 de 279 (70.6%)
+
+=== U12: FIBRA (OKR, cord.FIBER) ===
+cordeles con fibra registrada: 31402 de 54403 (57.7%)
+FIBER
+CN          28895
+sin dato    23001
+CL           1373
+W             666
+H             226
+CC            106
+V              91
+AH             45
+Porcentajes entre los conocidos: CN=92.0%, CL=4.4%, W=2.1%, H=0.7%, CC=0.3%, V=0.3%
+
+=== U14: TORSION POR ARCHIVO (KFG) ===
+t                          S     Z     U  NA  n_ conocido  pct_Z
+arch                                                            
+Otros/vago              8562  2240   589  78        10802   20.7
+Ocucaje                 1116   112    82   2         1228    9.1
+Nazca                   3122   216   362   1         3338    6.5
+Pachacamac              5298   263   574   7         5561    4.7
+Santa                   1286     9     3   0         1295    0.7
+Puruchuco               1187     8     6   9         1195    0.7
+Atarco                   262     1     1   0          263    0.4
+Ica                     4575    10   430   4         4585    0.2
+Paracas                  779     1    49  39          780    0.1
+Arica                    790     0  1834   4          790    0.0
+Chancay                  181     0     1   2          181    0.0
+Laguna de los Condores  5013     1   100  53         5014    0.0
+
+Torsion y fibra (OKR): Z entre S/Z
+TWIST      S     Z  pct_Z
+FIBER                    
+       14466   389    2.6
+CC        59     0    0.0
+CL       802   495   38.2
+CN     25281  2497    9.0
+H        225     0    0.0
+V         91     0    0.0
+W        643    21    3.2
+
+KFG torsion Z%% sin Incahuasi (n=57818 cuerdas): 7.03%
+OKR torsion Z% en Pachacamac: 4.6% (n=5756)
+OKR torsion Z% solo algodon: 8.9% (n=28211); solo camelido: 38.2% (n=1297)
+
+=== TASA DE DIRECCION DESCONOCIDA (U) POR ARCHIVO (KFG) ===
+d                          S      Z     U  total  pct_U
+arch                                                   
+Puruchuco                262   2050     3   2315    0.1
+Paracas                 1946    311     2   2259    0.1
+Chancay                  368    247     2    617    0.3
+Laguna de los Condores  3160   4849    24   8033    0.3
+Santa                    307   1411     5   1723    0.3
+Atarco                   150     78     2    230    0.9
+Nazca                   3254   2374   377   6005    6.3
+Ocucaje                  896   2888   280   4064    6.9
+Pachacamac              2177  12848  1956  16981   11.5
+Ica                     2405   7167  1264  10836   11.7
+Arica                   1278    111  1013   2402   42.2
+
+=== KHIPUS CANUTO ===
+179 khipus con >=1 cuerda canuto; 2030 cuerdas canuto
+                         n  canutos
+arch                               
+Arica                    4       21
+Chancay                  1        3
+Ica                      5        7
+Laguna de los Condores   5       19
+Nazca                    4       14
+Ocucaje                  6       14
+Otros/vago              65      860
+Pachacamac              22      158
+Paracas                  4       14
+SIN                     62      919
+Tambo Colorado           1        1

@@ -1,0 +1,15 @@
+import pandas as pd, numpy as np
+K=pd.read_csv('analisis/ds/n_no_numericos/clusters.csv')
+QI=pd.read_csv('analisis/ds/n_no_numericos/quipus_indice.csv')
+K['isS']=K.tipo=='S'; K['isE']=K.tipo.isin(['E','EE']); K['isL']=K.tipo.isin(['L','LL'])
+K['badS']=K.isS & (K.val<10)
+K['badE']=K.isE & (K.val>1)
+K['badL']=K.isL & (K.k < K.groupby(['kfg','cuerda'])['k'].transform('max')) & (K.exp_next.fillna(0)>0)
+K['badT']=K[['badS','badE','badL']].any(axis=1)
+g=K.groupby('kfg').agg(ncl=('k','size'), badT=('badT','sum'), badS=('badS','sum'), badE=('badE','sum'), badL=('badL','sum'), ncl_lt10=('val',lambda x:(x<10).sum()))
+g['Trate']=g.badT/g.ncl
+g=g.join(QI.set_index('kfg')[['ncuerdas_nudo','procedencia']])
+g=g[g.ncuerdas_nudo>=10].sort_values('Trate',ascending=False)
+print(g.head(35).to_string())
+print('\nT rate distribution:'); print(g.Trate.describe(percentiles=[.5,.75,.9,.95,.99]).round(3).to_string())
+print('\nquipus Trate>=0.2:',(g.Trate>=0.2).sum(),' >=0.5:',(g.Trate>=0.5).sum())

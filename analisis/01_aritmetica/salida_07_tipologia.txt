@@ -1,0 +1,56 @@
+quipus clusterizados 536 de 651; PCs 9 var 0.93
+cargas PC1/PC2:
+      lmed  lp90  fle9   top  distintos   m10  lnpos   lgs  subs  prof  ausentes  zcomp  zcierre  tieneT
+PC1  0.47  0.46 -0.44 -0.37       0.43 -0.01  -0.06 -0.07 -0.10 -0.05     -0.10   0.10     0.08    0.03
+PC2  0.02  0.12 -0.06 -0.16      -0.13 -0.02   0.48  0.18  0.49  0.58      0.13   0.23     0.17    0.08
+   k  silueta  ARI_boot  BIC_gmm  ARI_ward
+0  2    0.186     0.905  11625.0     0.333
+1  3    0.170     0.758  10978.0     0.293
+2  4    0.183     0.759  10979.0     0.453
+3  5    0.149     0.565  11015.0     0.422
+4  6    0.160     0.507  11052.0     0.357
+5  7    0.172     0.591  10655.0     0.357
+6  8    0.168     0.571  11059.0     0.302
+K = 4
+cluster         0       1      2       3
+lmed         0.60    1.00   1.13    1.64
+lp90         1.11    1.68   1.78    2.47
+fle9         0.80    0.49   0.44    0.08
+top          0.30    0.17   0.17    0.11
+distintos    0.33    0.35   0.47    0.75
+m10          0.29    0.29   0.23    0.27
+lnpos        1.48    2.08   1.75    1.51
+lgs          0.71    0.90   0.57    0.70
+subs         0.08    0.43   0.21    0.07
+prof         1.00    2.00   1.00    1.00
+ausentes     0.18    0.21   0.20    0.13
+zcomp       -0.12    0.29   1.07   -0.08
+zcierre     -0.10   -0.04  -0.03   -0.01
+tieneT       0.00    0.00   1.00    0.00
+n_pos       30.00  120.00  57.00   32.00
+n_quipus   200.00  139.00  16.00  181.00
+cluster    0   1  2    3
+prefijo                 
+AS        53  16  6   32
+HP        14   8  1   22
+JC         6   6  0    0
+KH         0   9  1    4
+MM         2   4  0   10
+QU         7   1  7    4
+UR       118  95  1  109
+procedencias con >=8 quipus: {'Pachacamac': 78, 'Incahuasi': 40, 'Ica': 37, 'Leymebamba': 21, 'Huaquerones': 12, 'Nazca': 11, 'Valle de Ica Hacienda Callango Ocucaje': 8, 'Between Ica and Pisco': 8}
+chi2 observado 66.6 p perm (estratificado por prefijo) 0.0004998750312421895 V de Cramer 0.321
+cluster                                  0   1  2   3
+procedencia                                          
+Pachacamac                              20  19  0  39
+Incahuasi                               10  14  0  16
+Ica                                     11   5  0  21
+Leymebamba                               5  11  0   5
+Huaquerones                             10   0  0   2
+Nazca                                    5   6  0   0
+Valle de Ica Hacienda Callango Ocucaje   2   2  1   3
+Between Ica and Pisco                    4   2  0   2
+    procedencia  cluster   n  obs  esp  p_exceso  p_defecto  q_exceso  q_defecto
+16  Huaquerones        0  12   10  3.7   0.00025        1.0  0.007998        1.0
+== sin estratificar (solo informativo):
+p perm global 0.0004997501249375312

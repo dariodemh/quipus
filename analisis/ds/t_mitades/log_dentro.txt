@@ -1,0 +1,5 @@
+suma_dentro_grupo                obs=  0.9995 nulo=  0.8561 z=   9.95 p=1.0000 n=543
+suma_dentro_grupo_igualdad       obs=  0.0430 nulo=  0.0386 z=   1.08 p=0.1324 n=543
+color_espejo_dentro_grupo        obs=  0.5509 nulo=  0.5824 z=  -7.50 p=1.0000 n=566
+dir_dentro_grupo                 obs=  0.0158 nulo=  0.0000 z=   2.45 p=0.0180 n=421
+union_dentro_grupo               obs=  0.0042 nulo= -0.0000 z=   0.98 p=0.3398 n=397

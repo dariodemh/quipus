@@ -1,0 +1,51 @@
+UR278 filas: 28 | completas: 26
+UR270 filas: 7 | completas: 6
+
+Friedman: chi2=90.6, p=3.48e-16, W de Kendall=0.436 (n=26)
+varianza de las medias por columna: obs=0.00043, nulo=0.00005, p=0.0002
+Spearman medio entre pares de filas: 0.411 (min -0.60, max 0.97, n=377 pares)
+  nulo -0.000; p=0.0020
+
+columna maxima: {'c1': 9, 'c2': 9, 'c6': 4, 'c5': 4, 'c7': 1, 'c3': 1}
+columna minima: {'c9': 9, 'c8': 7, 'c3': 6, 'c7': 4, 'c2': 2}
+max en c1/c2: 18/28 (esperado 6.2), binomial p=2.18e-06
+min en c8/c9: 16/28 (esperado 6.2), binomial p=6.55e-05
+UR270 columna maxima: {'c2': 3, 'c6': 3, 'c1': 1} | minima: {'c8': 5, 'c7': 1, 'c9': 1}
+filas ordenadas de mayor a menor: 0/28; pares adyacentes descendentes: 127/221 (0.57)
+
+Orden de las 9 partes entre UR270 y UR278:
+ g270  g278  n  aciertos_identidad  max_perm           mejor_permutacion  identidad_es_optima  n_optimas  p_permutacion
+    0    21  9                   9         9 (0, 1, 2, 3, 4, 5, 6, 7, 8)                 True          2       0.000008
+    4    25  9                   9         9 (0, 1, 2, 3, 4, 5, 6, 7, 8)                 True          1       0.000006
+    5    26  8                   7         7 (0, 1, 2, 3, 4, 5, 6, 7, 8)                 True          2       0.000008
+    8    27  9                   8         8 (0, 1, 2, 3, 4, 5, 6, 7, 8)                 True          1       0.000006
+    9    28  9                   6         6 (0, 1, 2, 3, 4, 5, 6, 7, 8)                 True         12       0.000036
+p combinado (producto, filas tratadas como independientes): 7.44e-26
+
+Correlacion de la firma UR278 vs UR270 (9 columnas): rho=0.85, p=0.0037
+
+firma_9_partes.csv:
+parte  prop_media  ic_low  ic_high  prop_media_UR270  rango_medio  es_max  es_min color_UR278
+   c1       0.135   0.125    0.145             0.143        2.804       9       0           W
+   c2       0.140   0.128    0.152             0.163        2.607       9       2           W
+   c3       0.096   0.087    0.105             0.103        6.321       1       6           W
+   c4       0.107   0.102    0.113             0.118        5.054       0       0          AB
+   c5       0.116   0.107    0.127             0.093        4.407       4       0           W
+   c6       0.132   0.119    0.147             0.150        3.696       4       0           W
+   c7       0.111   0.099    0.123             0.090        5.196       1       4           W
+   c8       0.083   0.072    0.093             0.063        7.426       0       7           W
+   c9       0.090   0.082    0.097             0.084        7.241       0       9           W
+
+|rho| medio (proporcion de la columna vs total de la fila): 0.27
+UR270 (7 filas) reproduce el rango de UR278: rho=0.85
+
+pruebas_columnas.csv:
+                                prueba  estadistico       nulo         p
+Friedman columnas (26 filas completas)        90.62            3.483e-16
+        varianza de medias por columna    0.0004278  4.637e-05    0.0002
+            Spearman medio entre filas       0.4109 -0.0001904  0.001996
+               maximo en c1/c2 (18/28)           18      6.222 2.176e-06
+               minimo en c8/c9 (16/28)           16      6.222 6.554e-05
+         identidad optima en 5/5 pares            5          1 7.438e-26
+              rho firma UR278 vs UR270         0.85          0  0.003705
+     |rho| proporcion vs total (media)       0.2747          0       NaN

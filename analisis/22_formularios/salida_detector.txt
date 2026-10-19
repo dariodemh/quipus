@@ -1,0 +1,23 @@
+quipus con colgantes: 651; con >=1 candidato: 376; candidatos totales: 6989
+Q por tipo: {'no': 489, 'posicional': 89, 'cromatico': 73} | Q+: 87 | Holm<.05: 79
+
+== controles positivos ==
+        kfg    m fam      clave  n_bloques       p_q       p_param   n_perm      q_bh      holm      p_n1           Q  Qplus                                        cuotas claveP        pP                                      P_cuotas  P_p_n2     claveC            pC                  C_cuotas
+327  UR053A   27  Cf    W-RL-AB       14.0  0.000098  3.678385e-05  10199.0  0.000467  0.036863  0.000455   cromatico  False                                0.65/0.19/0.16              NaN                                           NaN     NaN    W-RL-AB  3.678385e-05            0.65/0.19/0.16
+328  UR053B   21  Cf       W-RL       17.0  0.020000  1.618265e-02    699.0  0.045301  1.000000  0.110000          no  False                                     0.67/0.33              NaN                                           NaN     NaN       W-RL  1.618265e-02                 0.67/0.33
+329  UR053C  110  Cg      A-W-R       20.0  0.000098  9.687991e-08  10199.0  0.000467  0.036863  0.000455   cromatico  False                                0.14/0.61/0.25              NaN                                           NaN     NaN      A-W-R  9.687991e-08            0.14/0.61/0.25
+330  UR053D   89  Cg  W-R-A-W-R       12.0  0.000098  1.191673e-20  10199.0  0.000467  0.036863  0.000455   cromatico   True                      0.44/0.09/0.12/0.28/0.08              NaN                                           NaN     NaN  W-R-A-W-R  1.191673e-20  0.44/0.09/0.12/0.28/0.08
+331  UR053E   74  Cg        W-R       35.0  0.000098  3.859607e-17  10199.0  0.000467  0.036863  0.000455   cromatico   True                                     0.77/0.23              NaN                                           NaN     NaN        W-R  3.859607e-17                 0.77/0.23
+625   UR270    4   P         P9        7.0  0.013333  5.264954e-03   1199.0  0.032344  1.000000  1.000000  posicional  False  0.15/0.15/0.10/0.12/0.09/0.16/0.10/0.04/0.08     P9  0.005265  0.15/0.15/0.10/0.12/0.09/0.16/0.10/0.04/0.08   0.078       NB-W  1.000000e+00                 0.63/0.37
+635   UR278    2   P         P9       26.0  0.002239  9.018209e-05   6699.0  0.007320  0.586567  1.000000  posicional   True  0.14/0.14/0.10/0.11/0.11/0.13/0.11/0.08/0.09     P9  0.000090  0.14/0.14/0.10/0.11/0.11/0.13/0.11/0.08/0.09   0.001       NB-W  5.770764e-01                 0.36/0.64
+  UR278: candidato control P9: [('P', 'P9', 26, '4.5e-05')]  (m=2)
+  UR270: candidato control P9: [('P', 'P9', 7, '0.0013')]  (m=4)
+  UR053A: candidato control W-R: [('Cf', 'W-RL', 14, '2.9e-05'), ('Cf', 'W-RL-AB', 14, '1.4e-06'), ('Cf', 'W-RL-AB-W', 7, '7.5e-05'), ('Cf', 'W-RL-AB-W-RL', 7, '7.4e-06')]  (m=27)
+  UR053C: candidato control W-R: [('Cf', 'W-RB', 11, '0.03'), ('Cf', 'W-RL', 9, '0.00053'), ('Cf', 'W-RB-AB', 11, '0.00099'), ('Cf', 'W-RL-AB', 9, '3.2e-05')]  (m=110)
+  UR053D: candidato control W-R: [('Cf', 'W-RB', 14, '3.7e-08'), ('Cf', 'W-RL', 10, '5.5e-08'), ('Cf', 'W-RB-AB', 14, '2.4e-11'), ('Cf', 'W-RL-AB', 9, '1.4e-09')]  (m=89)
+
+== controles negativos (corpus barajados, sin nulo 1; cuenta q_BH<.05) ==
+  N1 rep0: paramétrico q_BH<.05 119 | permutación: Q {'no': 546, 'posicional': 102, 'cromatico': 3}; Holm<.05 42
+  N1 rep1: paramétrico q_BH<.05 124 | permutación: Q {'no': 542, 'posicional': 104, 'cromatico': 5}; Holm<.05 44
+  N3 rep0: paramétrico q_BH<.05 2 | permutación: Q {'no': 651}; Holm<.05 0
+  N3 rep1: paramétrico q_BH<.05 4 | permutación: Q {'no': 651}; Holm<.05 0

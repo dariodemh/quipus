@@ -1,0 +1,9 @@
+cuerda,nudos,valor,color,largo,notas
+1,"",0,YB,5.0,"SIN NUDOS (guion); largo '5.0b'"
+2,"",0,YB,7.5,"SIN NUDOS; largo '7.5b'"
+3,"",0,YB,4.5,"SIN NUDOS; largo '4.5b'"
+4,"",0,YB,5.0,"SIN NUDOS; largo '5.0b'"
+5,"1E(14.5,S)",1,YB,37.0,"nudo en ocho con direccion S; etiqueta '5(+)'; largo '37.0r'"
+6,"4L(14.0,Z)",4,"YB(0-21.5)/RD(21.5-24)/YB(24-33.5)",33.5,"largo '33.5k'"
+7,"4L(13.5,Z)",4,"YB(0-20.5)/RD(20.5-21.5)/YB(21.5-35.5)",35.5,"largo '35.5k'"
+8,"1S(5.0,Z),4L(5.0,Z)",14,"YB(0-20.5)/RD(20.5-24.0)/YB(24-41)",41.0,"largo '41.0k'"
