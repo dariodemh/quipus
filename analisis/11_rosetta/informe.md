@@ -96,7 +96,7 @@ Sin ellas, la Rosetta solo puede usar los fragmentos citados.
 | **Asignación o tasa de servicios** (m4: 9/9 redondas) frente a **recuento de personas** (m40, Santa: 0 redondas) | fracción de cuerdas **intactas** (terminación K) ≥10 que son múltiplo de 10; nulo binomial p0 = 0,1 | tasa conjunta 0,289 (×2,9). Sobredispersión χ² = 3690/329 gl (p ≈ 0): **los quipus se reparten entre "redondos" y "de recuento"**. 143 con exceso (q<0,05), **26 "de asignación"** (≥80 %): UR197, UR058A/B (Arica), AS156, UR202, UR219, AS172, UR228, AS200, AS041, UR103, AS072, JC001, AS101, UR1102, UR227, … **159 compatibles con recuento** (≤20 %). Histograma: 60/92/90/43/19/15/11 en 0–.1–.2–.4–.6–.8–.95–1 | **apoyado con datos** (la heterogeneidad); "asignación" = **propuesto** |
 | ídem, cruce con 10_tablas | ¿las tablas son de recuento? | tablas con filas con tamaño (ρ entre columnas, q<0,05): fracción redonda 0,15 frente a 0,25 en las demás tablas (Mann-Whitney p = 0,01; Holm sobre 3 cruces, 0,03). Columnas casi constantes: 0,23 frente a 0,20 (p = 0,98) | **apoyado (exploratorio)**: las tablas con filas que crecen juntas son recuentos (personas u hogares por unidad), no asignaciones |
 | **Cuota repetida** (m4 150/150, 200/200; m5 "100 cada 15 días") | colgantes adyacentes idénticos ≥10 | 929 frente a 552 (máximo del nulo 620), p = 0,0005. 20 quipus q<0,05: UR190, UR219, MM001, AS066, UR113, UR283, AS207A, UR278, UR197, UR1114, … Son los redondeados: mediana 0,55 frente a 0,20, p = 1,7·10⁻⁴. En ambas listas: **AS172, UR197, UR219, UR271** | **apoyado con datos**; "lista de asignaciones tipo m4" = **propuesto** |
-| **Resumen de encomienda** (m40: total → subtotal → lista que lo suma) | colgante = suma exacta de los 3–12 siguientes (total antes) o de los anteriores (total después) | antes: 86 frente a 75,5 (p = 0,12); después: 91 frente a 75,3 (p = 0,04). Quipus con q<0,05: antes **UR118, UR119, UR275**; después **AS044, AS199**. Direcciones 3 frente a 2 | **negativo** como regla general; **demostrado** en esos 5 (replica a 10_tablas) |
+| **Resumen de encomienda** (m40: total → subtotal → lista que lo suma) | colgante = suma exacta de los 3–12 siguientes (total antes) o de los anteriores (total después) | antes: 86 frente a 75,5 (p = 0,12); después: 91 frente a 75,3 (p = 0,04). Quipus con q<0,05: antes **UR118, UR119, UR275**; después **AS044, AS199**. Direcciones 3 frente a 2 | **negativo** como regla general; **bien apoyado** en esos 5 (replica a 10_tablas) |
 | **Cuenta monetizada** (m16, m17: cantidad, precio, valor) | terna consecutiva a·b = c (factor 2–12, c ≥ 20) | 46 frente a 58,5 (p = 0,96); ningún quipu | **negativo** |
 | **Padrón individual** (Santa) | (a) tamaños de quipu = tamaños de pachaca; (b) 1.ª cuerda pequeña | (a) L1 entre tamaños ordenados = 21 (9/7, 10/9, 15/18, 17/23, 34/32, 48/41); nulo: composiciones uniformes de 133, mediana 33, p = 0,24; Dirichlet(2), mediana 24, p = 0,40. (b) En el Santa la 1.ª columna es la **menor** (suma 369 frente a 439–4871, 05). En el corpus, "1.ª columna menor" = 49 frente a 40,1 esperado (A4 de 10_tablas, n.s.) | (a) **negativo**; (b) **el formato Santa no es el arquetipo general** (lo general es la 1.ª columna mayor) |
 | Censo por edades decrecientes; totales decimales; calendario (05) | — | negativos en 05 | negativo |
@@ -153,7 +153,7 @@ Sin ellas, la Rosetta solo puede usar los fragmentos citados.
   - allí la 1.ª columna es la menor; en el corpus, la 1.ª columna mayor (68 frente a 39 esperados, 10_tablas);
   - los tamaños de los quipus no reflejan los de las pachacas mejor que el azar (p = 0,24–0,40; nuevo);
   - las alineaciones de mitades no son excepcionales (05).
-  - En consecuencia, el Santa sigue siendo "Rosetta" **propuesta**, no demostrada. La única coincidencia fuerte (Σ 1.ª cuerda = 367) es post hoc (05).
+  - En consecuencia, el Santa sigue siendo "Rosetta" **propuesta**, no bien apoyada. La única coincidencia fuerte (Σ 1.ª cuerda = 367) es post hoc (05).
 - **El total "en voz alta" no tiene por qué estar en el quipu.** Las transcripciones muestran que los totales a menudo **se calculaban al leer**: piedras y *yupana* en Sacaca, "bottom line". Los quipus "resumen" eran objetos aparte (Jauja, según Chirinos).
   - Esto ofrece una explicación aburrida y documental de dos hechos del corpus:
     - solo el 3–7 % de los quipus tiene contabilidad interna verificable (08);
@@ -167,9 +167,9 @@ Sin ellas, la Rosetta solo puede usar los fragmentos citados.
 - **Edad y sexo; tributo monetizado.** 05 descartó los censos por edad decreciente. Aquí se descarta la estructura de cuentas monetizadas (cantidad × precio). En el corpus no aparecen los géneros posteriores a la conquista que dominan *Textos Andinos* (26 de 29 pnum son post).
   - Coherente con un corpus mayoritariamente prehispánico y costero.
 
-## 5. Qué significa la estructura demostrada, a la luz de la Rosetta (síntesis con niveles)
+## 5. Qué significa la estructura bien apoyada, a la luz de la Rosetta (síntesis con niveles)
 
-| rasgo demostrado (rondas 1–2) | análogo colonial | lectura | nivel |
+| rasgo bien apoyado (rondas 1–2) | análogo colonial | lectura | nivel |
 |---|---|---|---|
 | tabla filas × columnas; filas con "tamaño" | lista de pueblos o ayllus × categorías (m40, Chucuito: indios por cabecera) | fila = unidad social; columnas = categorías de personas o bienes; **de recuento** (no redondas, p = 0,01) | apoyado (exploratorio) |
 | 1.ª columna mayor y blanca | primera partida = la principal (m4, 400; Garcilaso) | categoría principal, no total | propuesto |

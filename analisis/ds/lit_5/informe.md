@@ -87,7 +87,7 @@ Khipu-ML afirma que en KH0323–KH0328 cinco de seis quipus son R o V puros, que
 | KH0328 | 56 | 0 | 5 | 56/0 ✓ |
 | **Total** | **406** | **423** | **249** | **49/51 ✓ (48,97%)** |
 
-Los seis conteos coinciden **exactamente**, el único quipu mixto es KH0326 y el agregado da 48,97% R / 51,03% V. Es la verificación más limpia de todo el lote. Lo que esto demuestra es la **estructura R/V**, no la contabilidad: la propia autora advierte que no reproduce el total de 367 pesos. Nivel: **demostrado** (para el patrón estructural y los conteos); la interpretación hanan/hurin sigue siendo **apoyada con datos** por Medrano & Urton, no demostrada aquí.
+Los seis conteos coinciden **exactamente**, el único quipu mixto es KH0326 y el agregado da 48,97% R / 51,03% V. Es la verificación más limpia de todo el lote. Lo que esto demuestra es la **estructura R/V**, no la contabilidad: la propia autora advierte que no reproduce el total de 367 pesos. Nivel: **bien apoyado** (para el patrón estructural y los conteos); la interpretación hanan/hurin sigue siendo **apoyada con datos** por Medrano & Urton, no bien apoyada aquí.
 
 ### 4.3 Handedness: 54/46 se sostiene; 63% y subsidiary no
 
@@ -189,8 +189,8 @@ Nivel: la ficha es **curación de datos**, no una hipótesis; sus cifras no son 
 
 | Conclusión | Nivel |
 |---|---|
-| Los conteos del OKR (619/54.403/110.677/633; 702 KH/83) son exactos | **demostrado** |
-| La réplica R/V de Santa Valley (6/6 conteos, KH0326 único mixto, 49/51) es exacta | **demostrado** |
+| Los conteos del OKR (619/54.403/110.677/633; 702 KH/83) son exactos | **bien apoyado** |
+| La réplica R/V de Santa Valley (6/6 conteos, KH0326 único mixto, 49/51) es exacta | **bien apoyado** |
 | La asimetría PPS 54/46 y color 56/44 existe y es consistente por quipu | **apoyado con datos** (p≈1e-6, Holm; efecto modesto) |
 | El 5,3% de cuerdas STRING es correcto | **apoyado con datos** (1.963/37.206) |
 | La suma padre=hijos es una minoría (4–9%) pero ocurre más que el azar | **apoyado con datos** (nulo p=0,0005; Holm) |
@@ -202,7 +202,7 @@ Nivel: la ficha es **curación de datos**, no una hipótesis; sus cifras no son 
 | Los 709 quipus de K-CAT | **no reproducible** desde esta release (651 xlsx; +9%) |
 | Los ocho tipos de documento de Sivan | **especulativo** (sin criterio operacional ni validación externa) |
 | El silabario de 13 símbolos y la cobertura del 92,3% | **especulativo** (optimización sobre un quipu, sin código ni nulo de cobertura) |
-| La lectura semántica de los quipus en general | **no demostrada** (coinciden OKR, K-CAT y Zenil) |
+| La lectura semántica de los quipus en general | **no bien apoyada** (coinciden OKR, K-CAT y Zenil) |
 
 ## 7. Limitaciones
 

@@ -105,7 +105,7 @@ def main():
 
     def nivel(x):
         if x.holm < .05 and x.rt_pasa:
-            return 'demostrado'
+            return 'bien apoyado'
         if x.q < .05 and x.rt_pasa:
             return 'apoyado'
         if x.q < .2:

@@ -241,7 +241,7 @@ no una lectura directa.
 
 | Afirmación | Nivel |
 |---|---|
-| CM009: 65 colgantes, sin subsidiarias ni cuerdas superiores, largo 45, 4 colores | **demostrado** (dato directo) |
+| CM009: 65 colgantes, sin subsidiarias ni cuerdas superiores, largo 45, 4 colores | **bien apoyado** (dato directo) |
 | Color en periodo 4 estricto desde p6 (acuerdo 0.934, p_Holm=0.006) | **apoyado con datos** |
 | Plantilla de 20 cuerdas repetida 3× en valor y nudos (p_Holm=0.006, sobrevive nulo color-preservado) | **apoyado con datos** |
 | Estructura = 15 registros `[W,AB,GG,W:KB]` + cabecera de 5, en 3 bloques de 5 | **apoyado con datos / propuesto** (la partición en 4 depende de mi lectura del color; no tengo `grupo`) |
@@ -274,7 +274,7 @@ no una lectura directa.
   blanco delimita cada registro, coincidiendo con Medrano & Khosla (2024, **propuesto**).
 - Los 4 campos por registro **correlacionan ρ 0.83–0.95**: una magnitud única desglosada en 4
   columnas (no una suma). Consistente con una **lista administrativa** (censo/tributo) de
-  Puruchuco (Urton & Brezine 2005), pero la lectura semántica es **propuesto**, no demostrado.
+  Puruchuco (Urton & Brezine 2005), pero la lectura semántica es **propuesto**, no bien apoyado.
 - **Anomalías:** cabecera p1–p5 irregular; registros 1/6/11 sólo con la cuerda blanca;
   3 valores W gigantes (1213, 1236, 459) en progresión lag-20 que no encajan; 23 % de cuerdas
   sin nudos (ausentes, no ceros). El E (figura de 8) siempre vale 1.

@@ -134,7 +134,7 @@ subconjunto; la información principal va en el **color** y en el **attachment r
 colgantes no tiene nudo: el color solo ya distingue.
 
 - **Nivel: apoyado con datos** — *que UR003 carece de aritmética interna y usa sólo nudos de
-  unidades* (máx 11, 2 nudos simples; KFG y OKR coinciden; todos los p-valores ≈ 1). **Demostrado**.
+  unidades* (máx 11, 2 nudos simples; KFG y OKR coinciden; todos los p-valores ≈ 1). **Bien apoyado**.
 - **Nivel: apoyado con datos** — *que porta estructura no numérica en color y attachment R/V*
   (permutaciones p = 0.001/0.001/0.005, que sobreviven Holm y replican el hallazgo publicado de
   KH0239 con p = 0 en el test de attachment binario R/V, `repo-rv-repro`).

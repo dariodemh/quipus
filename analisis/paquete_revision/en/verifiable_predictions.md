@@ -74,7 +74,7 @@ Priority, from highest to lowest: 1, 2, 3, 4, 5, 6, 7. The first four are the ch
 **7. Independent re-reading of complete UR273A, UR273B and UR274A.**
 
 - **Prediction:** a new reading, made without knowledge of our figures, reproduces the 8 exact A+B sums: 2950, 1653, 1737, 1827, 1780, 2247, 1765 and 1506. It also reproduces the 3 fillers of UR274A (1278, 2020 and 2106).
-- **Confirms:** that 7 or more of the 8 hold. **Refutes:** that 3 or more break. In that case H1, currently supported and not demonstrated, falls.
+- **Confirms:** that 7 or more of the 8 hold. **Refutes:** that 3 or more break. In that case H1, currently supported and not well supported, falls.
 - *Technical detail:* the pink separators should also be recorded. Our alignment depends on them falling in the same groups (10, 14, 16, 23 and 27) in both halves.
 
 **8. Three discrepancies that are NOT single-knot errors.**

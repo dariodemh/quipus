@@ -52,7 +52,7 @@ Se distingue:
 - Nulo de prefijos: permutación de la etiqueta de investigador entre quipus (20 000 permutaciones), preservando el tamaño y las discrepancias de cada quipu; comparaciones por pares con **Holm**.
 - Nulo del umbral «>5 %»: simulación binomial con la tasa global (5 000 réplicas).
 - Nulo de nivel: hipergeométrico estratificado por quipu (20 000 réplicas).
-- Se excluyen de las tasas los quipus con metadatos erróneos demostrados (§3.7) y las cuerdas duplicadas dentro de KFG (`UR196`, `MM007_AN002`).
+- Se excluyen de las tasas los quipus con metadatos erróneos bien apoyados (§3.7) y las cuerdas duplicadas dentro de KFG (`UR196`, `MM007_AN002`).
 
 ---
 
@@ -150,7 +150,7 @@ Desalineación estructural (cuerdas con nudos y largo distinto):
 
 ### 3.7 Defectos específicos encontrados
 
-#### (a) Cuatro archivos KH de KFG están desplazados en uno — **demostrado**
+#### (a) Cuatro archivos KH de KFG están desplazados en uno — **bien apoyado**
 
 Los archivos KFG `KH0197`, `KH0227`, `KH0267` y `KH0350` no corresponden a su número KH: contienen los datos del KH siguiente. La prueba es que coinciden al 100 % en número de cuerdas, largos y valores con el KH siguiente de OKR:
 
@@ -163,19 +163,19 @@ Los archivos KFG `KH0197`, `KH0227`, `KH0267` y `KH0350` no corresponden a su n�
 
 Consecuencia: si se enlazan por la columna `okr`, estos 4 quipus aparecen con 100 % de discrepancia. Es un **falso positivo de calidad de datos**, no un problema de las lecturas. Corrección en `salidas/correcciones_kfg.csv`.
 
-#### (b) Duplicados dentro de KFG — **demostrado**
+#### (b) Duplicados dentro de KFG — **bien apoyado**
 
 - `UR196`: 16 filas extra; cada nombre `p1`…`p8` aparece dos veces con largos y valores distintos (dos fragmentos mezclados en un mismo archivo).
 - `MM007_AN002`: 2 filas duplicadas.
 - `KH0033` y `UR044` son el mismo quipu (66 cuerdas, mismos largos y valores), pero `KH0033` codifica los largos ausentes como 0 en vez de vacío: 37 cuerdas con largo 0 donde OKR sí tiene un largo > 0 (p. ej., 44 cm). Es una inconsistencia de codificación, no dos quipus.
 
-#### (c) Limitaciones internas de OKR — **demostrado**
+#### (c) Limitaciones internas de OKR — **bien apoyado**
 
 - `knot_cluster.TOTAL_VALUE = 0` en **60 169/60 169** filas. Cualquier análisis que use esa columna obtiene ceros.
 - 212 nudos con `knot_value_type = 0`: 43 largos, 22 figura de ocho, 20 simples y 123 con tipo vacío. Solo 11 largos se pudieron recuperar con `NUM_TURNS`; **32 nudos largos quedan sin valor** (vueltas y valor ambos ausentes).
 - 6 quipus con referencias `PENDANT_FROM` colgantes o múltiples raíces (AS061_MA036, KH0083, UR003, UR149, UR190, UR193): cuerdas huérfanas que dificultan reconstruir la jerarquía.
 
-#### (d) Limitaciones internas de KFG — **demostrado**
+#### (d) Limitaciones internas de KFG — **bien apoyado**
 
 - 26 cuerdas tienen cadenas de nudos sin el valor explícito tras la coma (casi todas en `UR044`): `1S(5.0,Z);1E(11.0,Z)`. No se puede verificar el valor interno de esas cadenas, aunque la columna `valor` sí está.
 - Codificación inconsistente de largos ausentes: `0` en unos archivos, vacío en otros (el caso KH0033/UR044).
@@ -202,8 +202,8 @@ Consecuencia: si se enlazan por la columna `okr`, estos 4 quipus aparecen con 10
 |---|---|
 | KFG y OKR coinciden en el 99,37 % de las cuerdas comparables; 0,63 % discrepa en valor | **Apoyado con datos** |
 | Las discrepancias se concentran en 5 quipus (85,7 %) y en 8 quipus significativos tras BH | **Apoyado con datos** |
-| Cuatro archivos KH de KFG están desplazados en uno (KH0197→KH0198, etc.) | **Demostrado** |
-| `knot_cluster.TOTAL_VALUE` es inútil (todo 0) | **Demostrado** |
+| Cuatro archivos KH de KFG están desplazados en uno (KH0197→KH0198, etc.) | **Bien apoyado** |
+| `knot_cluster.TOTAL_VALUE` es inútil (todo 0) | **Bien apoyado** |
 | El patrón dominante es una diferencia de valor de posición (factor 10), no un dígito suelto | **Apoyado con datos** |
 | UR144 difiere por vueltas de nudos largos (KFG registra ~3 vueltas más) | **Apoyado con datos** |
 | No hay efecto de investigador tras corregir por quipu | **Apoyado con datos** (resultado negativo) |

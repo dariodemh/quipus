@@ -23,7 +23,7 @@
 | Parámetro | Central | Rango | Base | Nivel |
 |---|---|---|---|---|
 | Volumen del bulto | 82 L | 51–127 (IC90); 30–130 (extremos) | n_saya_proporcional | propuesto |
-| Densidad del maní en vaina | **0,286 kg/L** | 0,285–0,289 | medición de vaina GG-20, IJCMAS 2019 (DOI 10.20546/ijcmas.2019.802.354) | demostrado (medición) |
+| Densidad del maní en vaina | **0,286 kg/L** | 0,285–0,289 | medición de vaina GG-20, IJCMAS 2019 (DOI 10.20546/ijcmas.2019.802.354) | bien apoyado (medición) |
 | Peso del bulto de maní | **23,5 kg** | 8,6–37,2 kg | cálculo (30–130 L × 0,286) | apoyado |
 | Rendimiento del maní tradicional | 1 000 kg/ha | 700–1 300 | serie 1 200 kg/ha (1920) → 800 (1950), LEISA; ensayo de Cañete 3 437 kg/ha con insumos modernos (UNJFSC 2023) | apoyado |
 | Rendimiento del ají seco | 1,5 t/ha | 1,0–2,0 | literatura agronómica; **no verificado en este informe** | especulativo |
@@ -158,7 +158,7 @@ La tabla completa, con supuestos y nivel de evidencia por fila, está en **`esce
 ### 3.4 ¿Cabe en Cañete y en las 4 guarangas?
 
 - **Tierra.** 1 449 ha son el **3,7 %** de las 38 900 ha agrícolas de la provincia de Cañete y ~**10 %** de un valle bajo riego supuesto de 15 000 ha. Caben en la provincia. Pero el maní no se cultiva en monocultivo: exige rotación por enfermedades del suelo. Si entra **1 de cada 3 años**, el área de rotación sube a **~4 350 ha** (11 % de la provincia, ~29 % del riego supuesto), lo que sigue cabiendo en Cañete pero refuerza que no es un cultivo de aldea. En cambio, en Lunahuaná —un tramo donde la zona irrigada rara vez supera 1,5 km de ancho (Hyslop 1985)— el máximo geométrico es de ~1 500–3 000 ha (1,5 km × 10–20 km de valle), de modo que el maní ocuparía **48–97 %** de la superficie cultivable: posible en el límite, pero **implausible como monocultivo**. El grueso de la producción tuvo que venir del valle bajo del Cañete (Guarco) o de varios valles; Incahuasi, 13 km aguas arriba de la llanura costera, es el punto de acopio, no la chacra.
-- **Mano de obra.** 115 928 jornadas a 80 j/ha. Con 4 000 hogares nominales y 80 jornadas por hogar, se necesitan **1 449 hogares = 36 %** de las 4 guarangas. En términos de **tributarios** (un tributario = un hombre adulto; 90–120 jornadas al año), hacen falta **966–1 288 tributarios** (rango 1 932 si se usan 60 jornadas). Los **740 tributarios de 1577** cubren solo el **57 %** con 90 jornadas. El umbral es ~1 300 tributarios a 90 jornadas (o ~1 000 a 120): la población prehispánica tendría que haber sido **1,3–2,6 veces** la de 1577, lo que es plausible tras las epidemias, pero no está demostrado. **La mano de obra cabe en las 4 guarangas; la tierra no cabe con holgura en Lunahuaná.**
+- **Mano de obra.** 115 928 jornadas a 80 j/ha. Con 4 000 hogares nominales y 80 jornadas por hogar, se necesitan **1 449 hogares = 36 %** de las 4 guarangas. En términos de **tributarios** (un tributario = un hombre adulto; 90–120 jornadas al año), hacen falta **966–1 288 tributarios** (rango 1 932 si se usan 60 jornadas). Los **740 tributarios de 1577** cubren solo el **57 %** con 90 jornadas. El umbral es ~1 300 tributarios a 90 jornadas (o ~1 000 a 120): la población prehispánica tendría que haber sido **1,3–2,6 veces** la de 1577, lo que es plausible tras las epidemias, pero no está bien apoyado. **La mano de obra cabe en las 4 guarangas; la tierra no cabe con holgura en Lunahuaná.**
 - **Si el quipu registra solo una fracción de la cosecha** (E14/E15): con 1/3, el área cultivada sube a 4 347 ha y la mano de obra a 347 784 jornadas (109 % de las 4 guarangas); con 1/2, 2 898 ha y 73 %. Es decir, el registro es compatible con una **tasa de extracción de 1/2 o más**, no con un tercio, si las 4 guarangas son el único reservorio de mano de obra.
 - **Consumo per cápita.** 1 449 t para ~20 000 personas (4 000 hogares × 5) son **72,5 kg/persona/año** de maní en vaina (~54 kg de grano, ~150 g/día). Es alto para consumo directo, pero razonable si el destino es **semilla, aceite, renta y aprovisionamiento militar**, o si el libro cubre **2–3 años**. Como cosecha anual de una sola provincia, está en el límite superior.
 
@@ -169,21 +169,21 @@ Cada columna implica **161 t** de maní (a 82 L y 1 000 kg/ha), es decir, **161 
 - **9 chacras del Inca:** 161 ha por chacra es grande para una chacra individual, pero plausible como **bloque de campos estatales**; 9 bloques = 1 449 ha, una parte importante del valle (10 % del riego supuesto).
 - **9 grupos de cultivadores:** ~100–160 hogares por columna, 900–1 450 en total, **24–36 % de las 4 guarangas**. Es la lectura que mejor encaja con la escala demográfica y con la organización en guarangas/pachacas; también con la **tendencia a que las columnas decrezcan de izquierda a derecha** (22/24 filas, ρ medio −0,54; §4.2), como una lista jerárquica de unidades, no como campos dispersos. Si una pachaca tiene ~100 hogares, las 4 guarangas contendrían ~40 pachacas; las 9 columnas equivalen a ~9 pachacas, es decir, a **una guaranga**, no a las cuatro. Eso es coherente con un registro de una unidad de leva, no con el censo de toda la provincia.
 
-**Nivel:** **propuesto**. La aritmética es sólida; la identificación de las columnas con grupos sociales es una inferencia, no una prueba. Además, las cuotas cambian con el tamaño del registro (§4.2), de modo que las 9 unidades no tienen tamaños fijos: la lectura de «9 grupos» es **compatible**, no demostrada.
+**Nivel:** **propuesto**. La aritmética es sólida; la identificación de las columnas con grupos sociales es una inferencia, no una prueba. Además, las cuotas cambian con el tamaño del registro (§4.2), de modo que las 9 unidades no tienen tamaños fijos: la lectura de «9 grupos» es **compatible**, no bien apoyada.
 
 ### 3.6 Las cuotas 47 y 208
 
-Como fracción de 61 790, 47 y 208 son **0,076 % y 0,337 %**: 1,1 t y 4,9 t, 1,0 ha y 4,9 ha, 88 y 390 jornadas, **1 y 5 hogares**. Si 47 y 208 fueran cantidades de maní en la misma unidad, serían **escala doméstica**, no provincial. Por tanto: o no son cantidades de maní, o la unidad no es el bulto de 82 L, o son cuotas de otra cosa (cargas, personas, unidades de un producto distinto). **No pueden ser el total de un periodo de una provincia.** Nivel: **demostrado (negativo)** bajo el supuesto de que sean cantidades en la misma unidad.
+Como fracción de 61 790, 47 y 208 son **0,076 % y 0,337 %**: 1,1 t y 4,9 t, 1,0 ha y 4,9 ha, 88 y 390 jornadas, **1 y 5 hogares**. Si 47 y 208 fueran cantidades de maní en la misma unidad, serían **escala doméstica**, no provincial. Por tanto: o no son cantidades de maní, o la unidad no es el bulto de 82 L, o son cuotas de otra cosa (cargas, personas, unidades de un producto distinto). **No pueden ser el total de un periodo de una provincia.** Nivel: **bien apoyado (negativo)** bajo el supuesto de que sean cantidades en la misma unidad.
 
 ---
 
 ## 4. Controles
 
-**Alcance.** Todas las pruebas de esta sección son **intra-quipu** (UR278): las filas son registros dentro del mismo quipu y no son réplicas independientes. Los p-valores describen la estructura interna de UR278, no la generalización a otros quipus; UR270 comparte los mismos registros y no sirve como réplica independiente. Por eso hablo de «apoyado con datos» y no de «demostrado» en las afirmaciones sobre el significado de las columnas.
+**Alcance.** Todas las pruebas de esta sección son **intra-quipu** (UR278): las filas son registros dentro del mismo quipu y no son réplicas independientes. Los p-valores describen la estructura interna de UR278, no la generalización a otros quipus; UR270 comparte los mismos registros y no sirve como réplica independiente. Por eso hablo de «apoyado con datos» y no de «bien apoyado» en las afirmaciones sobre el significado de las columnas.
 
 ### 4.1 Nulo posicional (¿la posición de la columna importa?)
 
-Permutando las 9 etiquetas dentro de cada fila (20 000 réplicas): la correlación entre índice de columna y cuota es **ρ = −0,683**; el nulo tiene media 0,001; **p = 0,0245** (una cola; **0,049 a dos colas**). El R² de la cuota sobre la posición es 0,462; **p = 0,0441** (0,088 a dos colas). Es decir, **la posición aporta información**: las primeras columnas tienden a ser mayores, pero el efecto es marginal, se detectó después de ver los datos y no es confirmatorio; además, 22/24 filas tienen ρ negativo (sign test p = 2 × 10⁻⁵, descriptivo; las filas no son independientes). Lo trato como **apoyado con datos**, no como demostrado.
+Permutando las 9 etiquetas dentro de cada fila (20 000 réplicas): la correlación entre índice de columna y cuota es **ρ = −0,683**; el nulo tiene media 0,001; **p = 0,0245** (una cola; **0,049 a dos colas**). El R² de la cuota sobre la posición es 0,462; **p = 0,0441** (0,088 a dos colas). Es decir, **la posición aporta información**: las primeras columnas tienden a ser mayores, pero el efecto es marginal, se detectó después de ver los datos y no es confirmatorio; además, 22/24 filas tienen ρ negativo (sign test p = 2 × 10⁻⁵, descriptivo; las filas no son independientes). Lo trato como **apoyado con datos**, no como bien apoyado.
 
 ### 4.2 ¿Es un artefacto de la tabla?
 
@@ -230,16 +230,16 @@ Con los totales brutos de cuerdas de nivel 0 (proxy, no reconstrucción canónic
 
 | Afirmación | Nivel |
 |---|---|
-| La densidad del maní en vaina es 0,286 kg/L (variedad medida) y un bulto de 82 L pesa 23,5 kg | **demostrado** (medición + aritmética) |
-| La firma de columnas de UR278 es estable en sus extremos (c1–c2 arriba, c8–c9 abajo) | **demostrado para UR278** (bootstrap 0,83–0,86) |
+| La densidad del maní en vaina es 0,286 kg/L (variedad medida) y un bulto de 82 L pesa 23,5 kg | **bien apoyado** (medición + aritmética) |
+| La firma de columnas de UR278 es estable en sus extremos (c1–c2 arriba, c8–c9 abajo) | **bien apoyado para UR278** (bootstrap 0,83–0,86) |
 | La posición de la columna aporta información (ρ = −0,68; p = 0,0245) | **apoyado con datos** (post hoc, un solo quipu) |
 | La cuota de c9 no depende del tamaño de la fila, pero c2 y c7 sí (ρ = −0,64 y +0,58; Holm 0,006 y 0,022) | **apoyado con datos** (Holm sobre 9) |
-| 61 790 unidades a 82 L = 1 449 t = 1 449 ha = 5 067 m³ = 39–61 % de Inkawasi | **demostrado bajo los supuestos** (aritmética) |
+| 61 790 unidades a 82 L = 1 449 t = 1 449 ha = 5 067 m³ = 39–61 % de Inkawasi | **bien apoyado bajo los supuestos** (aritmética) |
 | El volumen cabe en Cañete pero no en Lunahuaná | **propuesto** (depende del área de Lunahuaná, que no se midió) |
 | La mano de obra cabe en las 4 guarangas (24–36 % de 4 000 hogares) | **propuesto** (depende de 80 j/ha y 80 j/hogar) |
 | Cada columna = ~100–160 hogares o ~161 ha | **propuesto** |
 | 9 columnas = 9 periodos | **especulativo / no apoyado** |
-| 9 columnas = 9 grupos de cultivadores ordenados por tamaño | **propuesto** (la mejor lectura, no demostrada) |
+| 9 columnas = 9 grupos de cultivadores ordenados por tamaño | **propuesto** (la mejor lectura, no bien apoyada) |
 | Guano +10–30 % en maní | **especulativo** |
 | Rendimientos de ají y frijol | **especulativo** (no verificados) |
 
@@ -263,7 +263,7 @@ Con los totales brutos de cuerdas de nivel 0 (proxy, no reconstrucción canónic
 - **La escala es de valle, no de aldea.** 1 449 ha = 3,7 % de la superficie agrícola provincial, pero 48–97 % de las 1 500–3 000 ha cultivables del estrecho Lunahuaná: el maní tuvo que venir del valle bajo del Cañete (Guarco) o de varios valles, no solo del tramo de Lunahuaná.
 - **La mano de obra sí cabe en las 4 guarangas:** 116 000 jornadas equivalen a 966–1 932 tributarios, es decir, 24–48 % de los 4 000 tributarios nominales (o 1 449 hogares a 80 jornadas). Con los 740 tributarios de 1577 solo se cubriría el 57 %, lo que es coherente con una población prehispánica mayor.
 - **Cada columna equivale a ~161 t, ~161 ha y ~100–160 hogares.** Es demasiado para una chacra individual y razonable para un grupo tipo pachaca; la lectura «9 grupos de cultivadores» es la más económica, pero queda en **propuesto**.
-- **Las cuotas 47 y 208 no son cantidades provinciales:** 1,1 t y 4,9 t, 1 y 5 hogares. O no son maní, o la unidad no es el bulto de 82 L. **Demostrado (negativo)** bajo ese supuesto.
+- **Las cuotas 47 y 208 no son cantidades provinciales:** 1,1 t y 4,9 t, 1 y 5 hogares. O no son maní, o la unidad no es el bulto de 82 L. **Bien apoyado (negativo)** bajo ese supuesto.
 - **Cuidado con el total:** 61 790 es la suma de 28 registros; por registro son ~52 t, 52 ha y ~52 hogares. Si el libro cubre varios años o varias comunidades, la escala anual se reduce hasta 28 veces.
 - **El ají no escala con el mismo bulto:** ~25 kg/persona/año de ají seco es implausible; hay que revisar la unidad de los quipus de ají antes de usarlos como control.
 

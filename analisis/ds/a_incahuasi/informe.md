@@ -181,7 +181,7 @@ etiquetas).
 
 ## 7. Nivel de evidencia global
 
-- **Demostrado** (hechos de los datos): conteos, rangos, ausencia de cuerdas superiores,
+- **Bien apoyado** (hechos de los datos): conteos, rangos, ausencia de cuerdas superiores,
   ausencia de firmas de grupo repetidas.
 - **Apoyado con datos**: división JC(Z)/UR(S); dominancia de nudo Z; reproducción exacta de
   UR267A "+106−15=91" y de la inversión de color en UR255; constante 15 recurrente.

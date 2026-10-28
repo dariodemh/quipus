@@ -178,7 +178,7 @@ Notas de interpretación:
 
 ## 6. Interpretación
 
-### 6.1 Qué está demostrado
+### 6.1 Qué está bien apoyado
 
 - UR1057 es una **retícula completa de 24 filas × 20 columnas** (5 subgrupos × 4 cordones), con cabeceras de color fijas y separadores físicos (marcadores/banderas).
 - Está **partida en dos registros** por la bandera F1: 7 filas cuantitativas (P1) y 17 filas casi vacías (P2).
@@ -231,7 +231,7 @@ Ninguna se puede contrastar con los datos disponibles; las tres quedan en **espe
 
 | afirmación | nivel |
 |---|---|
-| 24 grupos × 5 subgrupos × 4 cordones; 480 celdas completas | **demostrado** (dato + notas de Ascher) |
+| 24 grupos × 5 subgrupos × 4 cordones; 480 celdas completas | **bien apoyado** (dato + notas de Ascher) |
 | plantilla de color fija (90,8 %; p Holm = 0,008) | **apoyado con datos** |
 | dos registros separados por F1 (P1 cuantitativo / P2 casi vacío) | **apoyado con datos** |
 | ausencia de aritmética interna (todos los tests ≤ azar) | **apoyado con datos** (resultado negativo) |

@@ -4,9 +4,9 @@ Carpeta: `analisis/09_incahuasi/`. Todos los scripts son reproducibles (semillas
 
 ## 0. Resumen
 
-1. **Demostrado.** La regularidad "primera cuerda del grupo = constante c + resto" es específica de 8 quipus de Incahuasi del Sector A (UR255, 256, 266, 267A, 267B, 269, 274B, 275). En el resto del corpus (643 quipus) no aparece ningún trío no trivial con constante (los "hallazgos" fuera de Incahuasi son rachas de 10/100/200 repetidos o un trío solapado contado 3 veces). Los 23 quipus JC (Sector B) no la muestran.
-2. **Demostrado.** `c` es una constante por quipu (15, 15, 10, 10, 47, 47) y no depende de `x`; en UR269 depende de la **fila** dentro de bloques de 5 (47, 46, 46, 44, 25; R² = 0,39, p = 0,0015), no del valor de `x` dentro de la fila.
-3. **Demostrado (búsqueda ciega en 21 321 pares del corpus).** Existen **tres** parejas de quipus que comparten `x`: UR255–UR267A, UR256–UR267B y **UR266–UR275** (esta última no figura en la ficha de Urton y Chu, que solo habla de "dos conjuntos"; no he podido comprobar el texto completo). Alineación cuerda a cuerda: 24, 21 y 25 valores idénticos frente a 5,8, 5,6 y 3,9 esperados (p ≈ 0,003, el mínimo posible).
+1. **Bien apoyado.** La regularidad "primera cuerda del grupo = constante c + resto" es específica de 8 quipus de Incahuasi del Sector A (UR255, 256, 266, 267A, 267B, 269, 274B, 275). En el resto del corpus (643 quipus) no aparece ningún trío no trivial con constante (los "hallazgos" fuera de Incahuasi son rachas de 10/100/200 repetidos o un trío solapado contado 3 veces). Los 23 quipus JC (Sector B) no la muestran.
+2. **Bien apoyado.** `c` es una constante por quipu (15, 15, 10, 10, 47, 47) y no depende de `x`; en UR269 depende de la **fila** dentro de bloques de 5 (47, 46, 46, 44, 25; R² = 0,39, p = 0,0015), no del valor de `x` dentro de la fila.
+3. **Bien apoyado (búsqueda ciega en 21 321 pares del corpus).** Existen **tres** parejas de quipus que comparten `x`: UR255–UR267A, UR256–UR267B y **UR266–UR275** (esta última no figura en la ficha de Urton y Chu, que solo habla de "dos conjuntos"; no he podido comprobar el texto completo). Alineación cuerda a cuerda: 24, 21 y 25 valores idénticos frente a 5,8, 5,6 y 3,9 esperados (p ≈ 0,003, el mínimo posible).
 4. **Apoyado con datos.** En cada pareja el orden de `c` y `n = x−c` está invertido (UR267A/UR267B: `[x, c, n]`; UR255/UR256: `[x, n, c]`; UR275 `[x, c, …, n]`) y la unión R/V también (3/3 parejas opuestas; con p = 0,5 por pareja esto es descriptivo, p ≈ 0,13).
 5. **Apoyado con datos.** El color distingue a `x` (blanco W en UR267A 15/15, UR267B 11/13, UR269 14/15, UR275 6/7; Holm p < 0,05 en 3 quipus), pero **no** distingue `c` de `n` (Holm p ≥ 0,35). No hay una terna de colores bruto/deducción/neto general; UR255 y UR256 son casi monocromos (AB). Las cuerdas jaspeadas (`:`) están sobrerrepresentadas al final del registro en UR267A, 267B, 269, 275 y 255.
 6. **Interpretación.** Sobreviven solo las lecturas de "deducción fija por registro" (tara, cuota, ración para el depósito). Quedan descartadas con datos: proporcional (diezmo, merma %), saldo encadenado y salida variable. Con estos datos **no se puede separar** tara de tributo de ración. Cualquier asignación a un producto es especulativa.
@@ -101,8 +101,8 @@ Qué dicen:
 
 | Hipótesis | Predicción distinta | Comprobación | Veredicto |
 |---|---|---|---|
-| **A. Tara/cuota fija por registro** (bruto − tara = neto; tributo fijo; ración para el depósito) | c constante dentro del quipu; c/x decrece con x; neto siempre positivo | CV(c) = 0 en UR255, 256, 267A, 267B, 275. c/x: UR267A 6–44 %; UR267B 1,5–8 %; UR275 2–3 % | **Compatible** (demostrado que c es fija) |
-| **B. Proporcional** (diezmo 10 %, merma %, impuesto ad valorem) | c ∝ x; c/x constante | c/x varía de 6 % a 44 % en UR267A (con 10 % tendríamos c de 3 a 24). Si c = round(r·x) la SD de c sería 8,5 (UR255), 4,7 (256), 9,1 (267A), 4,5 (267B), 6,3 (275); observada **0**. UR269 dentro de fila: SD de c predicha 9,1/4,6/3,4/12,1/26,5, observada 2,9/3,4/2,4/6,7/11,7; Spearman c–x intrafila 0,11 (p = 0,24) | **Descartada** (demostrado en 5 quipus). Tampoco el diezmo (1/10 ya negativo en `01_aritmetica`). |
+| **A. Tara/cuota fija por registro** (bruto − tara = neto; tributo fijo; ración para el depósito) | c constante dentro del quipu; c/x decrece con x; neto siempre positivo | CV(c) = 0 en UR255, 256, 267A, 267B, 275. c/x: UR267A 6–44 %; UR267B 1,5–8 %; UR275 2–3 % | **Compatible** (bien apoyado que c es fija) |
+| **B. Proporcional** (diezmo 10 %, merma %, impuesto ad valorem) | c ∝ x; c/x constante | c/x varía de 6 % a 44 % en UR267A (con 10 % tendríamos c de 3 a 24). Si c = round(r·x) la SD de c sería 8,5 (UR255), 4,7 (256), 9,1 (267A), 4,5 (267B), 6,3 (275); observada **0**. UR269 dentro de fila: SD de c predicha 9,1/4,6/3,4/12,1/26,5, observada 2,9/3,4/2,4/6,7/11,7; Spearman c–x intrafila 0,11 (p = 0,24) | **Descartada** (bien apoyado en 5 quipus). Tampoco el diezmo (1/10 ya negativo en `01_aritmetica`). |
 | **C. Entrada–salida–saldo encadenado** (el saldo de un registro es la entrada del siguiente) | n_i reaparece como x_(i+1) | 0 encadenamientos adyacentes en los 6 quipus (nulo ≈ 0); 0 n reaparecen como x en el mismo quipu (1 en UR267B) | **Descartada** (en forma de saldo arrastrado) |
 | **D. Salida variable** (cada registro con su propia salida) | c variaría libremente | c idéntica en 5 quipus; solo UR269 varía | **Descartada** para 5; UR269 ver E |
 | **E. Deducción por categoría** (tara/cuota según tipo de producto o de contenedor) | c fija por categoría y quipu distinto = categoría distinta | UR269, bloques de 5 filas separadas por cuerdas sin valor: c = 47, 46, 46, 44, 25; R² de c explicado por fila = 0,39 frente a 0,09 del nulo (barajar c entre registros, B = 10 000), p = 0,0015. c distinta entre parejas (15, 10, 47) | **Apoyado con datos** (UR269 y entre quipus); la correspondencia con productos es especulativa |
@@ -115,7 +115,7 @@ Otros hechos del archivo: los registros por quipu son ~24–26 en las tres parej
 
 ## 6. Tarea 5: lectura de UR267A, registro a registro (`07_traduccion_UR267A.py`)
 
-Notación: x (color) / c (color) / n (color). **[D]** = demostrado por la aritmética; **[S]** = supuesto interpretativo.
+Notación: x (color) / c (color) / n (color). **[D]** = bien apoyado por la aritmética; **[S]** = supuesto interpretativo.
 
 > *«UR267A es una lista de 26 registros, en 4 bloques (3, 6, 10 y 7 registros) separados por tres cordones rosa sin nudos [D]. Cada registro abre con una cuerda blanca que lleva una cantidad (el bruto), sigue casi siempre una cuerda con el valor 15 y termina con una cuerda que lleva la diferencia [D en 15 registros; en el resto, ver abajo]. [S] Leído como un almacén: llegó 106 (W); se apartó la cuota fija de 15 (AB); quedan 91 (AB:MB, jaspeado = resultado) [Clindaniel, propuesto]. [S] Lo que se aparta (15) sería lo destinado al sostén del depósito y su personal [Urton y Chu, propuesto].»*
 
@@ -166,7 +166,7 @@ Balance: 15 registros cierran exactamente [D]; 3 no tienen cuerda neta; 8 no cie
 
 ## 8. Niveles de evidencia
 
-- **Demostrado:** el patrón `primera cuerda = c + resto` en 8 quipus del Sector A, y solo ahí (frente a N1/N2, 651 quipus); c constante por quipu; c no proporcional a x; tres parejas de quipus con x comunes; UR267A: 15 registros cierran.
+- **Bien apoyado:** el patrón `primera cuerda = c + resto` en 8 quipus del Sector A, y solo ahí (frente a N1/N2, 651 quipus); c constante por quipu; c no proporcional a x; tres parejas de quipus con x comunes; UR267A: 15 registros cierran.
 - **Apoyado con datos:** c por categoría de fila en UR269; orden y unión invertidos en las parejas; x = cuerda blanca en 3-4 quipus; jaspeado al final del registro; UR255 con el neto en blanco en la primera mitad (corte post hoc); registros `x = c + d + n` en UR256/267B/275.
 - **Propuesto:** c = tara/cuota/ración del depósito; pares como verificación cruzada; "jaspeado = resultado".
 - **Especulativo:** ligar un valor de c a un producto concreto; cualquier lectura de x como cantidad de grano, ají, maní o frijol; la lectura de UR266–UR275 como pareja (nueva aquí, sin contrastar con la literatura).

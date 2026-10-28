@@ -53,7 +53,7 @@ Lectura:
 - Concentracion: los 10 quipus con mas cuerdas `nether` contienen el 38,5 % de ellas; indice de dispersion frente a binomial 27,7 (nether), 19,5 (cualquiera), 18,2 (L10), 2,7 (banda). Las anomalias **no son ruido homogeneo: son propiedades de quipus concretos**.
 - Top por clase (cuerdas): nether UR055 173, UR193 167, UR050 164, KH0001 115, UR054 113; serie_LE UR050 162, UR055 156, UR054 111, UR052 89, UR051 75; tiporaro UR193 106, UR211 82, UR203 50; L1 QU013 9, HP039 5.
 
-Nivel de evidencia: la existencia y magnitud de las violaciones en los datos KFG es **demostrado (descriptivo)**; que reflejen la fisica del quipu y no el criterio de codificacion no esta resuelto (ver 2).
+Nivel de evidencia: la existencia y magnitud de las violaciones en los datos KFG es **bien apoyado (descriptivo)**; que reflejen la fisica del quipu y no el criterio de codificacion no esta resuelto (ver 2).
 
 ## 2. Explicacion aburrida (`02_aburrida.py`, `02_salida.txt`)
 
@@ -95,7 +95,7 @@ Es el perfil de **orden decreciente dentro del grupo** (el primero es el mayor, 
 - **Resultado: nulo.** Exceso de igualdad entre -0,007 y +0,001 en las 18 pruebas, p de permutacion 0,44-0,998, Holm = 1 en todas; ninguna posicion supera a las posiciones control (p vs control >=0,19).
 - Interpretacion: no hay indicio de valores o firmas "etiqueta" fijos en una posicion dentro de una procedencia. Salvedad: la procedencia de museo es mala etiqueta de origen, y solo ~300 quipus tienen procedencia conocida; pudo haber etiquetas por sitio concreto o por conjunto de quipus enlazados que este diseno no ve. La hipotesis de Saez-Rodriguez (n = 1, divisores elegidos a posteriori) **no recibe apoyo** en el corpus.
 
-Nivel: ausencia de efecto de etiqueta tras control de tendencia = **apoyado con datos (negativo)**; el perfil decreciente del primero/ultimo = **demostrado (descriptivo)** y esperado por las relaciones de suma de Ascher.
+Nivel: ausencia de efecto de etiqueta tras control de tendencia = **apoyado con datos (negativo)**; el perfil decreciente del primero/ultimo = **bien apoyado (descriptivo)** y esperado por las relaciones de suma de Ascher.
 
 ## 4. Direccion de nudo dentro de la cuerda (`04_direccion.py`)
 
@@ -167,10 +167,10 @@ Notas sobre los mejores candidatos (con su lectura aburrida):
 
 ## 7. Niveles de evidencia
 
-- Prevalencia de violaciones de posicion (nether 43,7 % de quipus >=1 cuerda; 26 % >=3), concentracion en quipus concretos, ausencia de `alt`: **demostrado (descriptivo)** con la definicion usada; sensible a la asignacion por posicion/por tipo (Thompson 2026) **no resuelta**.
+- Prevalencia de violaciones de posicion (nether 43,7 % de quipus >=1 cuerda; 26 % >=3), concentracion en quipus concretos, ausencia de `alt`: **bien apoyado (descriptivo)** con la definicion usada; sensible a la asignacion por posicion/por tipo (Thompson 2026) **no resuelta**.
 - La explicacion por fuente cubre L10, tipos raros, Spot (**apoyado con datos**); no cubre nether/series L/E (**apoyado con datos, negativo**).
 - No hay efecto de "etiqueta" en la primera cuerda tras descontar la tendencia decreciente: **apoyado con datos (negativo)**.
-- Direccion: la mezcla S/Z intra-cuerda es casi toda efecto del tipo de nudo (**demostrado**, 96,2 %); sin asociacion con posicion/color/union (**apoyado, negativo**).
+- Direccion: la mezcla S/Z intra-cuerda es casi toda efecto del tipo de nudo (**bien apoyado**, 96,2 %); sin asociacion con posicion/color/union (**apoyado, negativo**).
 - Estructura en bloques de direccion (23 quipus) y quipus de series de largos (UR050-055...): estructura **apoyada con datos**; interpretacion como contenido no numerico **propuesta/especulativa**.
 - Que alguno de esos quipus codifique nombres, etiquetas o signos: **especulativo**; el analisis no aporta ninguna lectura, solo prioriza candidatos.
 

@@ -86,7 +86,7 @@ Un quipu puede pertenecer a varios archivos.
   - Estadístico: T = Σ_bloques ⟨clr(bloque), π_E⟩.
   - Nulo: permutar las posiciones dentro de cada bloque de forma independiente, con 20 000 réplicas, para obtener p_C.
   - Si τ no aparece en C, el resultado es «no confirmable».
-  - Se aplican Holm y BH sobre todos los τ llevados a confirmación. **Formulario de archivo confirmado:** q_BH < 0,05 («apoyado») o Holm < 0,05 («demostrado» si además es local).
+  - Se aplican Holm y BH sobre todos los τ llevados a confirmación. **Formulario de archivo confirmado:** q_BH < 0,05 («apoyado») o Holm < 0,05 («bien apoyado» si además es local).
 - **Especificidad: local frente a genérico.**
   - Se calcula la concordancia media por bloque ⟨clr, π_E⟩ en los quipus de fuera, que comparten τ pero no comparten ningún archivo con A.
   - Se comparan con Mann-Whitney unilateral las concordancias medias por quipu de C(A) y de fuera.
@@ -118,7 +118,7 @@ Un quipu puede pertenecer a varios archivos.
 
 ## 8. Niveles
 
-- **Demostrado:** Holm < 0,05, con los nulos pasados y replicado en confirmación.
+- **Bien apoyado:** Holm < 0,05, con los nulos pasados y replicado en confirmación.
 - **Apoyado:** BH < 0,05 y confirmado.
 - **Propuesto:** solo en exploración, o solo nominal.
 - **Especulativo:** interpretación sin prueba.

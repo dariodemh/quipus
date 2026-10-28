@@ -257,7 +257,7 @@ Criterio: ≥20 cuerdas con valor, sin los quipus de copia literal, ordenado por
 
 La única estructura nueva que aparece es un grupo de quipus de **Huaquerones**: UR060 y UR074 actúan como registros A y B, y UR064, UR072, UR075, UR076, UR079 como registros X con X ≈ A + B en posiciones alineadas. La regla `suma_dos`, estimando el offset **solo con posiciones pares** y evaluando en las impares, da **20/36 = 55,6 %** de aciertos en 7 quipus, frente a **37,1 %** con offsets aleatorios (200 offsets por triple). El exceso es de +18 puntos, con n = 36 posiciones y 7 quipus.
 
-Es **sugerente pero no demostrado**: los valores son enteros pequeños (1–6), donde las sumas aparecen por azar con facilidad, y el null de offsets aleatorios no corrige la elección del par (A,B). Se propone como candidato a verificar en los objetos y a replicar con un null que baraje los pares (A,B), no solo el offset.
+Es **sugerente pero no bien apoyado**: los valores son enteros pequeños (1–6), donde las sumas aparecen por azar con facilidad, y el null de offsets aleatorios no corrige la elección del par (A,B). Se propone como candidato a verificar en los objetos y a replicar con un null que baraje los pares (A,B), no solo el offset.
 
 ---
 
@@ -310,7 +310,7 @@ Solo **2 cuerdas** de 40 162 tienen dos reglas distintas que aciertan. La «dobl
 
 | Afirmación | Nivel |
 |---|---|
-| El corpus es mayoritariamente **no legible** por reglas estructurales: 3,90 % exacto frente a 2,56 % del nulo; 70 % de quipus con cero aciertos | **Demostrado** (nulo explícito, 1 000 permutaciones, BH) |
+| El corpus es mayoritariamente **no legible** por reglas estructurales: 3,90 % exacto frente a 2,56 % del nulo; 70 % de quipus con cero aciertos | **Bien apoyado** (nulo explícito, 1 000 permutaciones, BH) |
 | `cierre` (cabecera = cuota + partidas) es real y fuerte (41,5 % vs 0,5 %) en UR267A/UR255/UR267B y poco más | **Apoyado con datos** (n = 260, 6 quipus; coincide con 13) |
 | `superior` = suma del grupo adyacente (31,9 % vs 0,4 %) | **Apoyado con datos** (n = 72, 25 quipus; coincide con `t_cuerdas_superiores`) |
 | La suma de subsidiarias **no** es una regla general del corpus (4,0 % vs 1,7 %) | **Apoyado con datos** |
@@ -352,5 +352,5 @@ Solo **2 cuerdas** de 40 162 tienen dos reglas distintas que aciertan. La «dobl
 6. **Las «copias» son duplicados literales, no un sistema.** Solo 8 parejas disparan la regla de offset (4 con aciertos); dos pasan la prueba fuera de muestra y ya estaban documentadas (UR066/UR067, AS125/UR247). `copia_grupo` cae del 62 % al **35 %** cuando el offset se estima sin las posiciones que se evalúan. **No hay una red de registros relacionados.**
 7. **No hay «doble entrada»:** solo **2 cuerdas** de 40 162 tienen dos reglas distintas que aciertan. No se puede validar una lectura con otra; la señal de fiabilidad de 19 no existe en el corpus.
 8. **Ningún rasgo estructural explica la legibilidad** (OLS, R² = 0,064): ni tamaño, ni cuerdas T, ni subsidiarias, ni procedencia. La única excepción es «tener una copia» (10 quipus, 27 % neto). La legibilidad es idiosincrática del objeto.
-9. **Top 20 fuera de Incahuasi: no hay sistemas nuevos.** 13 de 20 son repetición padre-hija (UR1130, UR017, UR204, UR093…); 5 son aritmética parcial de subsidiarias, con **UR113** (Nazca, 74 residuales) como mejor candidato; UR166 tiene 3 totales de grupo. El único candidato a sistema es el grupo **Huaquerones** (UR060/UR074 como registros A/B y UR064/072/075/076/079 como A+B), con 55,6 % fuera de muestra frente a 37,1 % de offsets aleatorios: **propuesto, no demostrado**.
+9. **Top 20 fuera de Incahuasi: no hay sistemas nuevos.** 13 de 20 son repetición padre-hija (UR1130, UR017, UR204, UR093…); 5 son aritmética parcial de subsidiarias, con **UR113** (Nazca, 74 residuales) como mejor candidato; UR166 tiene 3 totales de grupo. El único candidato a sistema es el grupo **Huaquerones** (UR060/UR074 como registros A/B y UR064/072/075/076/079 como A+B), con 55,6 % fuera de muestra frente a 37,1 % de offsets aleatorios: **propuesto, no bien apoyado**.
 10. **Recomendación:** dejar de buscar un «sistema general» en los 651 y (a) exprimir UR113 y los tres quipus de cierre de Incahuasi, (b) verificar el candidato Huaquerones con un nulo que baraje pares, (c) atacar las 17 656 cuerdas sin valor con atributos no numéricos. El mapa completo está en `quipus_legibles.csv`.

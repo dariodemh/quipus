@@ -155,9 +155,9 @@ Niveles de evidencia:
 
 | Afirmación | Nivel |
 |---|---|
-| UR087 está organizado en grupos de 6 cordeles codificados por color (80,4 %; p=0,008 vs grandes) | **Demostrado** (en UR087) / **apoyado con datos** (familia Santa) |
-| UR087 es puramente recto y posee 13 cuerdas superiores y 5 marcadores | **Demostrado** (campos directos OKR) |
-| Existe aritmética interna exacta (sumas) en UR087 | **Demostrado** (KFG + verificación de p7) |
+| UR087 está organizado en grupos de 6 cordeles codificados por color (80,4 %; p=0,008 vs grandes) | **Bien apoyado** (en UR087) / **apoyado con datos** (familia Santa) |
+| UR087 es puramente recto y posee 13 cuerdas superiores y 5 marcadores | **Bien apoyado** (campos directos OKR) |
+| Existe aritmética interna exacta (sumas) en UR087 | **Bien apoyado** (KFG + verificación de p7) |
 | Esa aritmética es **más** que lo esperado por su tamaño | **No apoyado** (Holm n.s.) |
 | El quipu es un registro censal/de tributo (tipo revisita de 1670) | **Propuesto** |
 | El emparejamiento numérico con el tributo (Medrano–Urton) | **No verificable** (documento de 1670 no abierto; Contreras 2026 tampoco lo reproduce) |
@@ -175,11 +175,11 @@ Niveles de evidencia:
 
 ## Para el coordinador
 
-- **UR087 está organizado en ~41 "filas" de 6 cordeles del mismo color** (246 de 306 colgantes = 80,4 %), rasgo que es el **percentil 100 de los quipus grandes** (p=0,008) y que **comparten sus hermanos del Santa** (UR092 100 %, UR091 73 %). Esto **apoya con datos** la estructura que Medrano–Urton describen ("grupos de seis cordeles codificados por color"). Nivel: **demostrado en UR087**.
-- **Descubrimiento operativo:** UR087 tiene **13 cuerdas superiores y 5 marcadores** que **KFG registra como `union=U` (no T)**. Cualquier pipeline basado solo en KFG pierde estos cordeles de resumen. Hay que cruzar con `CORD_CLASSIFICATION` de OKR. Nivel: **demostrado**.
-- **La aritmética existe pero es indexada/columnar, no jerárquica.** Verificado a mano: `p7=15=1+1+10+1+1+1` (suma exacta del run anterior); `p47=16` = suma de la columna 0 de 7 runs; `p167=p192=p217=22` = suma de la columna 3 de dos runs. **"colgante = suma de subsidiarias" es FALSO aquí** (p=0,90). Nivel: **demostrado** (existencia) / la lectura semántica, **propuesta**.
+- **UR087 está organizado en ~41 "filas" de 6 cordeles del mismo color** (246 de 306 colgantes = 80,4 %), rasgo que es el **percentil 100 de los quipus grandes** (p=0,008) y que **comparten sus hermanos del Santa** (UR092 100 %, UR091 73 %). Esto **apoya con datos** la estructura que Medrano–Urton describen ("grupos de seis cordeles codificados por color"). Nivel: **bien apoyado en UR087**.
+- **Descubrimiento operativo:** UR087 tiene **13 cuerdas superiores y 5 marcadores** que **KFG registra como `union=U` (no T)**. Cualquier pipeline basado solo en KFG pierde estos cordeles de resumen. Hay que cruzar con `CORD_CLASSIFICATION` de OKR. Nivel: **bien apoyado**.
+- **La aritmética existe pero es indexada/columnar, no jerárquica.** Verificado a mano: `p7=15=1+1+10+1+1+1` (suma exacta del run anterior); `p47=16` = suma de la columna 0 de 7 runs; `p167=p192=p217=22` = suma de la columna 3 de dos runs. **"colgante = suma de subsidiarias" es FALSO aquí** (p=0,90). Nivel: **bien apoyado** (existencia) / la lectura semántica, **propuesta**.
 - **El "muchas sumas" es en gran parte un artefacto de tamaño.** Tras controlar por nº de colgantes, ninguna de 5 familias de relación de suma es significativa (Holm: p ajustados ≥0,14). Es un **resultado negativo** que conviene comunicar para no sobreafirmar el "quipu aritmético".
-- **UR087 es puramente recto (R=310, U=61, V=0).** Reproduzco a Contreras (2026): 5 quipus puros + UR090 mixto; UR087 y UR092 son los puros-recto. **Corolario importante:** la hipótesis de moiety por recto/verso **no se manifiesta dentro de UR087**; el binario actúa **entre quipus**. Nivel: **demostrado** (campos) / interpretación **propuesta**.
+- **UR087 es puramente recto (R=310, U=61, V=0).** Reproduzco a Contreras (2026): 5 quipus puros + UR090 mixto; UR087 y UR092 son los puros-recto. **Corolario importante:** la hipótesis de moiety por recto/verso **no se manifiesta dentro de UR087**; el binario actúa **entre quipus**. Nivel: **bien apoyado** (campos) / interpretación **propuesta**.
 - **No hay periodicidad de color** (cuerda ni run; p≈1,0) → se descarta por ahora una lectura calendárica basada en ciclos de color. Tampoco hay valores repetidos ni progresiones locales (p>0,36). Nivel: **resultado negativo**.
 - **Anomalías / no numérico:** 49 cuerdas sin nudos (incl. 4 cuerdas superiores LG vacías), 5 marcadores, 4 cuerdas Z (una, p282, con terminación D), p85 sin color, y notas OKR de **nudo roto ilegible** y **fragmento atado con hilo** (daño de conservación). Candidatos a información cualitativa o a pérdida de datos, no a cifras.
 - **Lo que falta para cerrar el caso:** (1) el **documento de la revisita de 1670** (no abierto) para validar el emparejamiento; (2) un **nulo propio para la estructura columnar/indexada** y para la dirección de nudo Z/S, que es donde podría haber la señal "no numérica"; (3) repetir el pipeline en **UR088–UR092** para ver si los seis forman una serie (p. ej. totales por quipu = pachacas).

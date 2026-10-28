@@ -60,7 +60,7 @@ Con los 64.464 racimos:
 - **Ningún** nudo largo con `n ≤ 9` aporta ≥ 10 (0 de 27.934): el nudo largo es siempre unidades.
 - Los 665 racimos (1,03%) con `n > 9` no son violaciones de la regla decimal: en ellos el prefijo es el **valor**, no el número de nudos (p. ej. `20L(…),20`, `800S(…),800`), una convención de registro de KFG.
 
-**Nivel de evidencia: demostrado (consistencia interna), no prueba independiente.** El `valor` de KFG se decodificó con la misma regla decimal, así que el test verifica que la base de datos es internamente coherente y que el 1% restante son convenciones, no que la lectura sea la única posible. Aun así, descarta errores gruesos y fija el marco para los tests siguientes.
+**Nivel de evidencia: bien apoyado (consistencia interna), no prueba independiente.** El `valor` de KFG se decodificó con la misma regla decimal, así que el test verifica que la base de datos es internamente coherente y que el 1% restante son convenciones, no que la lectura sea la única posible. Aun así, descarta errores gruesos y fija el marco para los tests siguientes.
 
 ### 3.2 La cuerda superior suma el grupo — Locke 1912, 1927, 1928
 
@@ -192,7 +192,7 @@ Controles adicionales: (i) en los quipus con top cords, los candidatos no-T acie
 
 | Conclusión | Nivel |
 |---|---|
-| Codificación decimal posicional y nudo largo = unidades | **Demostrado** (consistencia interna; no independiente) |
+| Codificación decimal posicional y nudo largo = unidades | **Bien apoyado** (consistencia interna; no independiente) |
 | La top cord suma el grupo de pendientes (no subsidiarias) | **Apoyado con datos** (23 casos, 16 quipus, p=0,0002) |
 | AS159/AS173 son cuentas duplicadas | **Apoyado con datos** (p=0,00005; 0,18% de pares comparables) |
 | AS194/AS195 son cuentas duplicadas | **Propuesto** (coincidencia de una sola cuerda) |

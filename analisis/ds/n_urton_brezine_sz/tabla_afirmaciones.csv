@@ -1,19 +1,19 @@
 ﻿id,afirmacion,cifra_UB,KFG,OKR,comentario,nivel
 U07a,Khipus con procedencia en 12 archivos,"222 de 451 (49,2%)",279 de 651 (42.9%),255 de 619 (41.2%),Depende de la definicion de 'archivo' y del tamano del corpus.,"apoyado con datos (proporcion), no reproducible en absoluto"
-U07b,Pachacamac es el archivo mayor,68,"91 (14,0%)",91 (14.7%),La proporcion se mantiene (~15%); el absoluto crece con el corpus.,demostrado
+U07b,Pachacamac es el archivo mayor,68,"91 (14,0%)",91 (14.7%),La proporcion se mantiene (~15%); el absoluto crece con el corpus.,bien apoyado
 U07c,Khipus sin procedencia,"229 de 451 (50,8%)",372 de 651 (57.1%),364 de 619 (58.8%),Misma proporcion; el corpus crecio de 451 a 651.,apoyado con datos
 U08,Media de cordeles por khipu: 218 (Nazca) a 10 (Chancay); max 323; min 12,218-10; 323; 12,media 231 (Nazca) - 26 (Chancay); max 1831 (Arica); min 5,no calculado por archivo,Orden de magnitud similar; los extremos dependen de incluir khipus gigantes (AS069).,apoyado con datos (parcial)
 U09,"Khipus mayores: Laguna 870, Arica 1585; Pachacamac 338, Puruchuco 114",870; 1585; 338; 114,874 (UR006); 1831 (AS069); 338 exacto; 225 (max Puruchuco),no calculado,Pachacamac 338 y Laguna 874 casi exactos. Arica crecio (1831). Puruchuco no coincide.,apoyado con datos
-U10,Khipus con cordeles subsidiarios,"291 de 451 (64,5%)",435 de 651 (66.8%),no calculado,Casi identico.,demostrado
+U10,Khipus con cordeles subsidiarios,"291 de 451 (64,5%)",435 de 651 (66.8%),no calculado,Casi identico.,bien apoyado
 U12,"Cordeles con datos de material: 15.616 (40%); 85% algodon, 9% camelido, 6% otros",15.616; 85/9/6,sin campo de fibra,"31402 (57.7%); 92% algodon, 4.4% camelido",Mas cords documentados y mas algodon que en 2009; el camelido esta subrepresentado.,apoyado con datos (composicion distinta)
 U14a,Cordeles con retorcido final S / Z,96% S / 4% Z (1.012 Z de 26.279),92.97% S / 7.03% Z (3398 Z de 48363),92.44% S / 7.56% Z (3402 Z de 44971),La proporcion Z se duplica (4% -> 7%); el absoluto Z se triplica. Depende de la fibra (38% Z en camelido vs 9% en algodon).,apoyado con datos (cambio de corpus)
 U14b,"De los cordeles Z, 54% camelido y 33% algodon",54% camelido; 33% algodon,sin fibra,"16% camelido; 83% algodon (entre los Z con fibra, n=3013)","No se reproduce: el numero absoluto de cordeles Z de camelido es parecido (495 vs ~546), pero hay 7x mas cordeles Z de algodon.",refutado en el corpus actual
 U16a,Total de nudos registrados,70.660,121449,110151,"El corpus actual tiene 1,6-1,7x mas nudos.",cambio de corpus
 U16b,Nudos con orientacion conocida,"51.178 (72,4%)",106591 (87.8%),97585 (88.6%),La cobertura de orientacion subio de 72% a 88%.,cambio de corpus
 U16c,Nudos simples: 35% S / 65% Z,35/65,27.2/72.8 (n=72477),26.1/73.9 (n=66590),"NO se reproduce: los simples son 26-27% S, no 35%. El 35/65 coincide con el agregado de TODOS los tipos (34,8% S en khipu_summary).",refutado / probable error de etiqueta
-U16d,Nudos largos: 53% S / 47% Z,53/47,54.1/45.9,52.4/47.6,Reproduccion casi exacta.,demostrado
-U16e,Figura de ocho: 30% S / 70% Z,30/70,27.1/72.9,27.2/72.8,Reproduccion cercana (27/73).,demostrado
-U17a,Patron todo-Z,"72 de 272 (26,5%)",102 de 379 (26.9%),94 de 333 (28.2%),Proporcion casi identica; el denominador se duplica con el corpus.,demostrado
-U17b,Patron todo-S,"27 de 272 (9,9%)",39 de 379 (10.3%),32 de 333 (9.6%),Casi identico.,demostrado
+U16d,Nudos largos: 53% S / 47% Z,53/47,54.1/45.9,52.4/47.6,Reproduccion casi exacta.,bien apoyado
+U16e,Figura de ocho: 30% S / 70% Z,30/70,27.1/72.9,27.2/72.8,Reproduccion cercana (27/73).,bien apoyado
+U17a,Patron todo-Z,"72 de 272 (26,5%)",102 de 379 (26.9%),94 de 333 (28.2%),Proporcion casi identica; el denominador se duplica con el corpus.,bien apoyado
+U17b,Patron todo-S,"27 de 272 (9,9%)",39 de 379 (10.3%),32 de 333 (9.6%),Casi identico.,bien apoyado
 U17c,Pachacamac tiene el mayor % de nudos Z,cualitativo,"Pachacamac 76,0% (todos) / 92,4% (simples); Puruchuco 80,6/97,5; Santa 81,3/83,4","Pachacamac 84,8%; Santa 96,2%; Puruchuco n.d.","Pachacamac esta en el grupo alto, pero NO es el maximo: Puruchuco y Santa lo superan, sin diferencia significativa. Si es significativo vs el resto en simples (q=0,007).",parcialmente apoyado
 U12b,Cordeles totales (texto vs figura),38.381 vs 38.831,57818,54403,"No se reproduce ninguno de los dos; el corpus actual es 1,42x mayor. La discrepancia de 450 es interna al capitulo (probable errata).",no verificable

@@ -183,7 +183,7 @@ La conclusión es asimétrica: **los datos no apoyan un silabario general en los
 - El KFG ya viene decodificado; los valores y colores no son observación primaria mía.
 - Reduje el color al primer código base; se pierden barber pole y combinaciones.
 - Los grupos son espacios físicos en el cordón, no categorías semánticas conocidas.
-- La analogía mochica es tipológica; no hay continuidad histórica demostrada con los quipus incaicos.
+- La analogía mochica es tipológica; no hay continuidad histórica bien apoyada con los quipus incaicos.
 - El corpus de Huarochirí es una edición OCR de 1966; la extracción quechua/castellana es probabilística y la silabificación depende de la normalización ortográfica.
 - Las listas de nombres vienen de la compilación de Rostworowski, no de una verificación archivística propia.
 
@@ -191,8 +191,8 @@ La conclusión es asimétrica: **los datos no apoyan un silabario general en los
 
 | Afirmación | Nivel |
 |---|---|
-| El sistema decimal y los términos de cuenta están documentados en diccionarios y crónicas | **demostrado** |
-| Carrera 1644 describe cuatro series de clasificadores numerales mochica (monedas, animados/cosas, frutas, días) | **demostrado** (texto primario, ed. Villarreal 1921) |
+| El sistema decimal y los términos de cuenta están documentados en diccionarios y crónicas | **bien apoyado** |
+| Carrera 1644 describe cuatro series de clasificadores numerales mochica (monedas, animados/cosas, frutas, días) | **bien apoyado** (texto primario, ed. Villarreal 1921) |
 | El quechua de Huarochirí tiene estructura silábica CV/CVC y un inventario CV de ~86 tipos, 26 de ellos cubren el 90% de las sílabas CV | **apoyado con datos** |
 | La unión marca bloques de grupo en los quipus | **apoyado con datos** (0,43; p=0,0025) |
 | El color marca clases de grupo | **propuesto** (0,06; positivo pero débil) |

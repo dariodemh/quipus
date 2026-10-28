@@ -25,7 +25,7 @@ las anomalías y si hay información no numérica.
   los positivos con p≤0.002 (color/runs) y no cambian los negativos (p≥0.69).
 - **Advertencias del BRIEF aplicadas:** `valor==0` con `nudos` vacío = cuerda **sin nudos** (no un cero real);
   el museo (Centro Mallqui) **no** se usa como procedencia de origen (la ficha declara procedencia *Leymebamba*, región *Chachapoyas*).
-- **Etiquetas:** demostrado / apoyado con datos / propuesto / especulativo.
+- **Etiquetas:** bien apoyado / apoyado con datos / propuesto / especulativo.
 
 ## 2. Estructura (script `01_estructura.py`)
 
@@ -102,7 +102,7 @@ El patrón "celdas vacías + valor al cierre de cada unidad de color" se repite 
 
 ## 5. Lectura propuesta
 
-**Cuerdas decimales confirmadas (demostrado).** Los valores grandes están en notación decimal posicional
+**Cuerdas decimales confirmadas (bien apoyado).** Los valores grandes están en notación decimal posicional
 correcta:
 `p81 = 8S(8000)+3S(300)+8L(8) = 8308`; `p70=8201`; `p389=5490`; `p153=4501`. Es decir, **la técnica de
 registro numérico decimal está presente y bien aplicada**.
@@ -165,7 +165,7 @@ documental ni coincidencia con un censo conocido, igual que en UR6).
 
 | Afirmación | Nivel |
 |---|---|
-| UR001 usa el sistema **decimal posicional** (valores grandes bien formados) | **demostrado** (lectura interna verificada) |
+| UR001 usa el sistema **decimal posicional** (valores grandes bien formados) | **bien apoyado** (lectura interna verificada) |
 | Estructura **periódica** de ~16–17 cuerdas y bloques separados por `PK` | **apoyado con datos** (p=0.002 sobre nulo por bloques) |
 | **Categorías de color** por unidades de ~5 con valores al cierre | **apoyado con datos** |
 | **Ausencia** de aritmética sumatoria interna | **apoyado con datos** (varios tests, p≥0.9) |
@@ -176,7 +176,7 @@ documental ni coincidencia con un censo conocido, igual que en UR6).
 ## 9. Para el coordinador
 
 - **UR001 no es un quipu "sumatorio".** Ningún test de aritmética interna pasa: colgante ≠ Σ subsidiarias (8/63, y triviales; p=0.977 — por *debajo* del azar), ni suma de grupo, ni suma por color (p=0.906), ni razones constantes. **No hay cuerdas superiores** (union T=0).
-- **Sí es un quipu decimal bien formado.** Los valores grandes están en notación posicional correcta (p. ej. p81=8308 = 8000+300+8). El sistema numérico está **demostrado**; lo que falta es la aritmética de agregación.
+- **Sí es un quipu decimal bien formado.** Los valores grandes están en notación posicional correcta (p. ej. p81=8308 = 8000+300+8). El sistema numérico está **bien apoyado**; lo que falta es la aritmética de agregación.
 - **Hallazgo fuerte y nuevo: es tabular y periódico.** Hay un **período de ~16–17 cuerdas** (color y "tiene nudo" se repiten; p=0.002 frente a un nulo que preserva runs locales). Los bloques están separados por **20 cuerdas `PK` (rosa) sin nudos**.
 - **Estructura interna de los bloques:** cada bloque se divide en **3 unidades de color de ~5 cuerdas** y los **valores se concentran al cierre de cada unidad** (col4-5, col10, col15-16 ricas al 79–94 %; col1-2-8-12 vacías). Esto es lo que da la lectura "filas × columnas".
 - **Cuerdas "hub"** p1/p230/p232/p301 (valor 0, 16–21 subsidiarias de conteos pequeños) parecen **índices de categorías**, no totales. Ninguna es suma de sus hijas.
@@ -184,4 +184,4 @@ documental ni coincidencia con un censo conocido, igual que en UR6).
 - **Lectura más probable (propuesta):** registro administrativo **tabular de censo/tributo** del archivo de la Laguna de los Cóndores, hermano de UR6 (que Urton 2001/2005 lee como censo + calendario). **Filas** = bloques (unidades registradas); **columnas** = categorías de color de ~5 cuerdas; celdas = conteos decimales.
 - **La alternativa calendárica es menos probable:** UR6 se apoya en 24 conjuntos de 29–31 cuerdas; UR001 no los tiene (bloques de ~16–17).
 - **Recomendación siguiente ronda:** (1) testar el mismo patrón periódico + `PK` en **todos los `UR###` de Leymebamba** para ver si el período ~17 y los separadores `PK` son firma de la colección; (2) buscar si las **3 unidades de color** tienen un orden/etiqueta estable entre quipus del archivo; (3) cruzar los conteos con UR6/UR9/UR21 (posible cuenta duplicada, como los pares de Urton 2005), con control de multiplicidad.
-- **Cautela:** color y valor son datos **inciertos** (Thompson 2025; Milillo 2023). Toda lectura de color aquí es **propuesta/especulativa**, no demostrada.
+- **Cautela:** color y valor son datos **inciertos** (Thompson 2025; Milillo 2023). Toda lectura de color aquí es **propuesta/especulativa**, no bien apoyada.

@@ -205,7 +205,7 @@ Todas las predicciones se escribieron en `predicciones_preregistradas.md` antes 
 
 | Afirmación | Nivel |
 |---|---|
-| El método de plantillas reconoce Santa (P4r 5/6), Puruchuco (P6b 4/6), UR006 (P8ar) y UR053C (P9a) | **demostrado** (controles a priori) |
+| El método de plantillas reconoce Santa (P4r 5/6), Puruchuco (P6b 4/6), UR006 (P8ar) y UR053C (P9a) | **bien apoyado** (controles a priori) |
 | Ningún género colonial aparece en exceso sobre la tasa base; ningún agrupamiento se replica en confirmación tras Holm | **apoyado (negativo)** |
 | Los «censos» de Urton por distribución de valores no se distinguen de quipus de su tamaño | **apoyado (negativo)** |
 | Ninguna plantilla explica la clase no numérica; los ceques para UR050 + UR055 y MM001 están descartados | **apoyado (negativo)** |

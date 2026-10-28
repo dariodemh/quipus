@@ -101,7 +101,7 @@ El color, por tanto, **viaja con el rubro, no con el número**. Esto es compatib
 - El color marca de forma robusta los **separadores** (marcadoras, superiores) y, débilmente, el **inicio del grupo**.
 - No marca el total como tal una vez controlada la posición, ni las cuerdas en blanco.
 - Entre quipus solo se comparte una tendencia: **primera cuerda blanca**, que es posicional.
-- **Nivel:** marcadoras, demostrado (Holm 0,0012); primera cuerda W, apoyado con datos; total con color propio, no se sostiene fuera de Incahuasi.
+- **Nivel:** marcadoras, bien apoyado (Holm 0,0012); primera cuerda W, apoyado con datos; total con color propio, no se sostiene fuera de Incahuasi.
 
 ---
 
@@ -152,7 +152,7 @@ En UR1107/UR237 lo que Ascher llama YB o LB, Urton lo llama AB; lo que Ascher ll
 **Veredicto P3:**
 - Las **etiquetas** (y con ellas cualquier «léxico») dependen mucho del transcriptor. Las **particiones** (color = grupo, marcadora distinta) no dependen de él.
 - Cualquier comparación de etiquetas entre quipus de distintos registradores (p. ej. «W = principal» en todo el corpus) está contaminada por este efecto.
-- **Nivel:** demostrado para el tamaño del alfabeto y para el par UR1107/UR237; no se puede separar de la colección.
+- **Nivel:** bien apoyado para el tamaño del alfabeto y para el par UR1107/UR237; no se puede separar de la colección.
 
 ---
 
@@ -272,13 +272,13 @@ Búsqueda en `analisis/fuentes_txt/`, con las citas verificadas línea a línea.
   - En Puruchuco, una columna conserva su color al pasar de UR068 a UR067/UR066: 61 % frente a 18 % del nulo; NMI 0,74 frente a 0,31; Holm 0,0012.
   - En Incahuasi, cuando un número cambia de papel (partes o filas → cabecera de registro), el destino es W en el 75 % de los casos, sea cual sea la fuente. M = 0,50 frente a 0,475 (p = 0,33); NMI 0,05 frente a 0,09 (Holm 0,99). Las filas AB y NB de UR278 pasan a W en 18 de 23.
 - **Copias (réplica de 14):** se conserva la etiqueta en el 47 % frente al 25 % y la partición con NMI 0,60 frente a 0,35. Con otro registrador, la etiqueta casi no coincide (25 % frente a 20 %), pero la partición sí (0,56 frente a 0,31).
-- **Marcadoras (demostrado):** se distinguen de sus vecinas en el 76 % frente al 16 % (Holm 0,0012), pero cada quipu usa un color distinto para ellas. Formato con clave local. Las cuerdas superiores, igual (0,64 frente a 0,48; 8 de 9 quipus).
+- **Marcadoras (bien apoyado):** se distinguen de sus vecinas en el 76 % frente al 16 % (Holm 0,0012), pero cada quipu usa un color distinto para ellas. Formato con clave local. Las cuerdas superiores, igual (0,64 frente a 0,48; 8 de 9 quipus).
 - **«Blanco = principal» es en realidad «blanco = primera cuerda» (apoyado con datos).**
   - La cabecera-máximo es modalmente W en 64 de 133 quipus (nulo 43,8; p = 0,0005; también sin Incahuasi, 51 de 110).
   - Dentro del quipu, la primera cuerda que no es máximo es igual de blanca (19 a favor, 24 en contra; p = 0,75).
   - Coincide literalmente con Mackey 2002: el color señala la cuerda «primera» o «izquierda». El total controlado por posición ya no pasa Holm (0,15).
 - **Las cuerdas en blanco no tienen color propio** (0,580 frente a 0,584; p = 0,97). **Las subsidiarias casi nunca heredan el color del padre:** 19,7 % iguales frente a 16,7 % del azar, así que el 80 % se distingue.
-- **El efecto del transcriptor es grande (demostrado, pero confundido con la colección).**
+- **El efecto del transcriptor es grande (bien apoyado, pero confundido con la colección).**
   - Alfabeto en 40 cuerdas: Ascher 6,0, Urton 9,7, Clindaniel 14,9 (p = 0,0001).
   - En el mismo objeto, UR1107 (Ascher) y UR237 (Urton) coinciden en 0 de 23 etiquetas: YB/LB de Ascher equivale a AB de Urton.
   - La marca de total y de cabecera se ve en UR pero no en AS. La partición color~grupo sí se mantiene en todos.

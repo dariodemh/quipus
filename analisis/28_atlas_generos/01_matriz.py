@@ -110,7 +110,7 @@ INCA = ["UR255", "UR256", "UR266", "UR267A", "UR267B", "UR269", "UR270", "UR273A
         "UR274A", "UR274B", "UR275", "UR278"]
 PURU = ["UR063", "UR064", "UR066", "UR067", "UR068"]
 M["rel_archivo"] = np.select([M.index.isin(INCA + PURU), M.index.isin(["UR268", "UR073", "UR078"])],
-                             ["demostrada", "propuesta"], "")
+                             ["bien apoyada", "propuesta"], "")
 pr = R(r"14_copias\pares_resumen.csv")
 cop = {}
 for _, x in pr.iterrows():
@@ -126,7 +126,7 @@ M["form_holm"] = fd.holm
 M["form_qbh"] = fd.q_bh
 fo = R(r"22_formularios\formularios.csv")
 niv = {}
-rank = {"demostrado-local": 3, "apoyado-indeterminado": 2, "no confirmado": 1, "no confirmable": 0}
+rank = {"bien apoyado-local": 3, "apoyado-indeterminado": 2, "no confirmado": 1, "no confirmable": 0}
 for _, x in fo.iterrows():
     for col in ("quipus_E", "quipus_C"):
         for k in str(x[col]).split():

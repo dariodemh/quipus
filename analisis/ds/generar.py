@@ -13,7 +13,7 @@ LÍMITE DE CONTEXTO (crítico, tienes 200k tokens y no puedes pasarte):
 - Escribe tus resultados en tu `informe.md` a medida que avanzas, no al final, para no perderlos.
 - Escribe SOLO dentro de `{carpeta}/`. No toques nada más. No hagas commits.
 
-ENTREGA: `{carpeta}/informe.md` en español con: pregunta, método, resultados con cifras, controles (nulo, p-valor, corrección múltiple si aplica), resultados negativos, nivel de evidencia (demostrado / apoyado con datos / propuesto / especulativo) y una sección final "Para el coordinador" de 5–10 viñetas con lo más importante. Guarda tus scripts .py en la misma carpeta.
+ENTREGA: `{carpeta}/informe.md` en español con: pregunta, método, resultados con cifras, controles (nulo, p-valor, corrección múltiple si aplica), resultados negativos, nivel de evidencia (bien apoyado / apoyado con datos / propuesto / especulativo) y una sección final "Para el coordinador" de 5–10 viñetas con lo más importante. Guarda tus scripts .py en la misma carpeta.
 
 TU TAREA:
 """

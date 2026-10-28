@@ -173,7 +173,7 @@ Hipótesis ordenadas por verosimilitud:
 - **No hay ninguna mención a UR093/KH0329 en `docs/fichas/` ni en `docs/estado_del_arte.md`** (grep literal: 0 resultados). Tampoco hay ficha del Museo Temple Radicati. La lectura semántica no puede apoyarse en una fuente que describa este objeto.
 - **Paralelo morfológico más cercano:** Milillo (2023) describe el quipu wari 1932.08.0002 (Gothenburg, «Nasca») como «loop and branched», con **un colgante y 8 subsidiarias**, la última con 8 de segundo nivel. UR093 repite el módulo 8 y el anidamiento 8×8, pero a escala de 223 colgantes y con unión lateral a media cuerda (15,5 cm), no en el extremo. Es el único paralelo publicado que encuentro; **nivel: especulativo** para inferir filiación wari.
 - **Corpus:** el módulo 8 es excepcional (18/512 quipus con ≥10 colgantes tienen alguno; solo UR093, KH0568 y KH0349 tienen ≥5). Los otros quipus con módulo 8 son KH0568 (procedencia unknown), KH0349 (Nazca) y KH0362 (Nazca, con la misma unión a media cuerda, 15,0 cm). La asociación con Nazca/sur es sugerente pero n=4: **especulativo**.
-- **Color y no-numericidad:** Salomon (2013) señala que los quipus preincaicos están «menos anudados y más coloreados». UR093 (72,5 % de cuerdas sin nudos, par verde sistemático, 147 códigos de color) encaja en ese perfil, lo que abre la puerta a una confección preincaica o a un uso no predominantemente numérico. **Propuesto, no demostrado.**
+- **Color y no-numericidad:** Salomon (2013) señala que los quipus preincaicos están «menos anudados y más coloreados». UR093 (72,5 % de cuerdas sin nudos, par verde sistemático, 147 códigos de color) encaja en ese perfil, lo que abre la puerta a una confección preincaica o a un uso no predominantemente numérico. **Propuesto, no bien apoyado.**
 - **R/V y dirección:** FitzPatrick (2024) propone recto/verso como marcado/no marcado; Hyland y Ware (2014) proponen S/Z ↔ Hanan/Urin. En UR093 el R/V marca un **bloque de dos grupos** (p≈10⁻⁷⁰) y la dirección S/Z está cautiva del tipo de nudo (E→Z, L→S), así que **no replican** esas hipótesis a nivel de cuerda. Es un negativo útil.
 - **Los seis quipus del Santa (UR087–UR092)** son censos con estructura muy distinta (61–371 cuerdas, 0,02–0,89 subsidiarias por colgante, sin módulo 8). UR093 no se parece a ellos; no hay base para asignarle esa procedencia.
 
@@ -181,11 +181,11 @@ Hipótesis ordenadas por verosimilitud:
 
 | Afirmación | Nivel |
 |---|---|
-| 1227 cuerdas, 223/956/48, 12 grupos, 0 cuerdas superiores, 889 en blanco | **Demostrado** (conteo directo, doble fuente KFG/OKR) |
-| Módulo de 8 subsidiarias y 6 casos de 8×8 | **Demostrado** (estructura); p=0,001 frente a reparto aleatorio |
-| Par de color verde sólido/rayado en posiciones 6–7 | **Demostrado** (103/116 y 109/116; p=0,001) |
-| Bloque R en grupos 6–7 | **Demostrado** (179/181 vs 10/775; p≈10⁻⁷⁰) |
-| Puntas y nudos alineados a ~41 y ~25 cm | **Demostrado** (DE 2,3–3,7 cm) |
+| 1227 cuerdas, 223/956/48, 12 grupos, 0 cuerdas superiores, 889 en blanco | **Bien apoyado** (conteo directo, doble fuente KFG/OKR) |
+| Módulo de 8 subsidiarias y 6 casos de 8×8 | **Bien apoyado** (estructura); p=0,001 frente a reparto aleatorio |
+| Par de color verde sólido/rayado en posiciones 6–7 | **Bien apoyado** (103/116 y 109/116; p=0,001) |
+| Bloque R en grupos 6–7 | **Bien apoyado** (179/181 vs 10/775; p≈10⁻⁷⁰) |
+| Puntas y nudos alineados a ~41 y ~25 cm | **Bien apoyado** (DE 2,3–3,7 cm) |
 | Colgante y subsidiarias miden el mismo dominio (correlación) | **Apoyado con datos** (ρ=0,43 dentro de grupo; p=0,001) |
 | El colgante es la suma exacta de las subsidiarias | **No apoyado** (5/60; p=0,098) |
 | Totales de grupo / suma de grupos | **No apoyado** (2/12 vs 2,0 esperados; p=1,0) |

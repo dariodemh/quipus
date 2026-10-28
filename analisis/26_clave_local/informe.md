@@ -131,7 +131,7 @@ UR053 e Incahuasi quedan aparte. Se excluyen los pares de copias o del mismo obj
   - UR268~UR275 (P5, Incahuasi; no entra en la principal).
   - Quitando un solo par, p ≈ 0,10 (post hoc).
   - Además, R2 no validó en los pares de doble transcripción.
-  - Por la regla congelada no cuenta como «demostrada». Se califica **débil**.
+  - Por la regla congelada no cuenta como «bien apoyada». Se califica **débil**.
 - **R3 bandas:** los quipus del mismo archivo se parecen en dónde caen los cambios de color respecto a los grupos (Holm 0,0024).
   - Es un **estilo de archivo, no una clave de reparto**.
   - Lo empuja sobre todo HP (Pachacamac, museo de sitio).
@@ -188,14 +188,14 @@ Pares que comparten un patrón con k ≥ 3; concordancia = d ≤ d\* = 0,434; nu
 
 ## Para el coordinador
 
-- **[demostrado, negativo con potencia]** Sin UR053, la clave local no aparece con la representación invariante (partición de color recodificada + reparto). Dentro frente a entre archivo, por investigador: T = +0,015, p = 0,24 (Holm 0,24). Ascher 0,135 frente a 0,135 (192 pares dentro), Urton 0,148 frente a 0,117, HP 0,107 frente a 0,053. La potencia declarada era 1,00 para el efecto de 22 sin UR053 (22 % frente a 5 %).
-- **[demostrado]** La prueba sí detecta una clave local real: el control UR053A–E da 7 de 9 pares concordantes frente a una tasa base del 13,6 % (p = 0,0008). De 17 archivos, es el único con BH < 0,05 (q = 0,024). **La «clave de archivo» es, hoy, un rasgo de UR053, no un patrón general del corpus.**
+- **[bien apoyado, negativo con potencia]** Sin UR053, la clave local no aparece con la representación invariante (partición de color recodificada + reparto). Dentro frente a entre archivo, por investigador: T = +0,015, p = 0,24 (Holm 0,24). Ascher 0,135 frente a 0,135 (192 pares dentro), Urton 0,148 frente a 0,117, HP 0,107 frente a 0,053. La potencia declarada era 1,00 para el efecto de 22 sin UR053 (22 % frente a 5 %).
+- **[bien apoyado]** La prueba sí detecta una clave local real: el control UR053A–E da 7 de 9 pares concordantes frente a una tasa base del 13,6 % (p = 0,0008). De 17 archivos, es el único con BH < 0,05 (q = 0,024). **La «clave de archivo» es, hoy, un rasgo de UR053, no un patrón general del corpus.**
 - **[apoyado]** La invariancia es parcial.
   - Entre transcriptores, la partición de color coincide más que por azar (ARI mediano 0,24, frente a 0,45 entre copias del mismo transcriptor; Wilcoxon p = 0,004). Los cambios de color adyacentes no coinciden (kappa 0).
   - UR1107~UR237: 0 de 23 etiquetas iguales, ARI 0,26 (p = 0,043). Ascher separa LB/YB donde Urton pone AB, y los grupos también difieren (9 cuerdas = 4 grupos).
   - **El transcriptor discrimina y agrupa distinto, no solo nombra distinto.**
 - **[débil]** La concordancia posicional (R2) pasa Holm (p = 0,020; Holm 0,040), pero descansa en 2 pares de Ascher de Ica-Berlín (UR1109~UR1179, UR1143~UR1149). Quitando uno, p ≈ 0,10. Además, R2 no validó en los pares de doble transcripción (0 de 3).
-- **[demostrado como negativo de la refutación]** No hay clave compartida entre archivos sin relación, **ahora también entre transcriptores distintos**. En pares estrictos, R1 da 44/1 418 = 3,1 % (nulo 3,0 %; p = 0,37). Entre investigadores distintos, 32/1 038 (nulo 31,6). El criterio individual da 22 pares frente a 20,3 esperados (p95 27). Ni la regla (a) ni la (b) se cumplen.
+- **[bien apoyado como negativo de la refutación]** No hay clave compartida entre archivos sin relación, **ahora también entre transcriptores distintos**. En pares estrictos, R1 da 44/1 418 = 3,1 % (nulo 3,0 %; p = 0,37). Entre investigadores distintos, 32/1 038 (nulo 31,6). El criterio individual da 22 pares frente a 20,3 esperados (p95 27). Ni la regla (a) ni la (b) se cumplen.
 - **[apoyado, cambio de lectura]** El acuerdo dentro de archivo, sin UR053, también está en el azar: 8/216 = 3,7 % frente a 3,1 %. La asimetría «local sí / compartida no» de 22_formularios desaparece fuera de UR053: los dos lados son nulos.
 - **[apoyado: estilo, no clave]** Los quipus de un mismo archivo se parecen en *dónde* cambian de color respecto a los grupos (R3 bandas: p = 0,0002, Holm 0,0024). Lo empuja HP (Pachacamac, museo de sitio): |dif| 0,11 frente a 0,29. No validó entre transcriptores (p = 0,072). Puede ser un hábito de archivo o de transcripción.
 - **[propuesto]** Candidatos concretos de clave compartida dentro de archivo:

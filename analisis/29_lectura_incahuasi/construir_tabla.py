@@ -61,19 +61,19 @@ for g, x in u270.groupby("grupo"):
                 continue
             fila("UR270", g, r.cuerda, 0, j, r.valor, r.color, "P: componente B de la unidad j",
                  f"Parte B (la mayor) que aportó la unidad {j} en este registro." + extra,
-                 f"Σ P del grupo -> cabecera de UR273B g{g + 9}", "demostrado (P+S1 -> UR278; Σ P = UR273B en 4/9)", FCE)
+                 f"Σ P del grupo -> cabecera de UR273B g{g + 9}", "bien apoyado (P+S1 -> UR278; Σ P = UR273B en 4/9)", FCE)
             if len(s1):
                 fila("UR270", g, r.cuerda + "s1", 1, j, s1v, s1.color.iloc[0], "S1: componente A de la unidad j",
                      f"Parte A (la menor, ~1/3 de P) que aportó la unidad {j} en este registro.",
                      f"P+S1 = {r.valor + s1v}" + (f" -> UR278 g{MAPA[g]} col {j}" if g in MAPA else ""),
-                     "demostrado (celda = P+S1); S1 = UR273A solo apoyado (1/9 exacta, 3/9 ±1)", FCE)
+                     "bien apoyado (celda = P+S1); S1 = UR273A solo apoyado (1/9 exacta, 3/9 ±1)", FCE)
     else:
         for r in x.itertuples():
             fila("UR270", g, r.cuerda, r.nivel, None, r.valor, r.color,
                  "separador" if r.color.startswith("PK") else "registro sin enlace",
                  "Separador rosado entre tramos." if r.color.startswith("PK") else
                  "Registro de otro formato (subsidiarias múltiples); no se enlaza con UR278 ni UR273.",
-                 "", "demostrado (separador)" if r.color.startswith("PK") else "sin lectura", F13)
+                 "", "bien apoyado (separador)" if r.color.startswith("PK") else "sin lectura", F13)
 
 # ------------------------------------------------------------------ UR278 (tabla de 9 columnas)
 u278 = q("UR278")
@@ -88,14 +88,14 @@ for g, x in u278.groupby("grupo"):
                 p, s1 = ps[org][j - 1]
                 d = r.valor - (p + s1)
                 enl = f"= UR270 g{org} col {j}: P {p} + S1 {s1} = {p + s1}" + ("" if d == 0 else f" (diferencia {d:+d})")
-                ev = "demostrado (celda = P+S1)" if abs(d) <= 1 else "apoyado (fila enlazada; esta celda discrepa)"
+                ev = "bien apoyado (celda = P+S1)" if abs(d) <= 1 else "apoyado (fila enlazada; esta celda discrepa)"
             fila("UR278", g, r.cuerda, 0, j, r.valor, r.color, f"celda: unidad {j}",
                  f"Bultos de maní que la unidad {j} (¿pachaca {j}?) aportó en el registro {g}.", enl, ev,
                  f"{F13}; {FNU}")
         for r in x[x.nivel > 0].itertuples():
             fila("UR278", g, r.cuerda, r.nivel, None, r.valor, r.color, "subsidiaria pequeña",
                  "Valor de 3 a 10 colgado de una celda; sin regla conocida.", "", "sin lectura", F13)
-        d, ev = donde(tot, 0), "demostrado (11 totales exactos en orden en UR266, 7 en UR275)"
+        d, ev = donde(tot, 0), "bien apoyado (11 totales exactos en orden en UR266, 7 en UR275)"
         if not d and donde(tot, 1):
             d, ev = donde(tot, 1), "apoyado (destino a ±1)"
         if not d:
@@ -125,7 +125,7 @@ for k in CUOTA:
         h = cab(k, g)
         for r in x.itertuples():
             if r.color.startswith("PK") and r.valor == 0:
-                rol, lec, enl, ev = "separador", "Separador rosado (mismas posiciones en UR273A y UR273B).", "", "demostrado"
+                rol, lec, enl, ev = "separador", "Separador rosado (mismas posiciones en UR273A y UR273B).", "", "bien apoyado"
             elif r.valor == 0:
                 continue
             elif k == "UR273A" and r.valor == 30:
@@ -172,7 +172,7 @@ for k, (cuota, desc) in LIB.items():
                 otros = donde(h, 0).split("; ")
                 e += [o for o in otros if o and not o.startswith(f"{k} ") and h % 100]  # redondos: coincidencia trivial
                 enl = "; ".join(e)
-                ev = ("demostrado (destino de UR278)" if any("UR278" in s for s in e) else
+                ev = ("bien apoyado (destino de UR278)" if any("UR278" in s for s in e) else
                       "apoyado (destino de A+B)" if any("A+B" in s for s in e) else "apoyado (formato bruto-cuota-resto)")
                 if k == "UR269":
                     ev = "apoyado (recibe sumas A+B)" if any("A+B" in s for s in e) else "propuesto"
@@ -182,7 +182,7 @@ for k, (cuota, desc) in LIB.items():
                     f"Cantidad fija ({r.valor})."
                 if k == "UR275" and r.valor == 40:
                     lec += " Probable 47 con el 7L terminal perdido (n_casi_aciertos)."
-                enl, ev = "", "demostrado (valor fijo; publicado por Urton y Chu); absoluta, no %: apoyado"
+                enl, ev = "", "bien apoyado (valor fijo; publicado por Urton y Chu); absoluta, no %: apoyado"
             else:
                 rol = "partida / destino" if r.nivel == 0 else "subsidiaria"
                 lec = ("Parte del bruto repartida a un destino (¿colca, procedencia o salida?)." if k in ("UR275", "UR268")

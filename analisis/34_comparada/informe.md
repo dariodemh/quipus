@@ -1,6 +1,6 @@
 # Contabilidad comparada: protocuneiforme, Lineal B y quipus
 
-*18-10-2026. Carpeta `analisis/34_comparada/`. Niveles: demostrado / apoyado / propuesto / especulativo. Literatura: la búsqueda web fue escasa; lo de Uruk y Pilos viene sobre todo de conocimiento previo de la literatura citada, sin página verificada (se marca). Solo se verificó por la web que existen: Englund 2011 («Accounting in proto-cuneiform», en Radner y Robson, *Oxford Handbook of Cuneiform Culture*), Englund 2005 (CDLJ 2005:1, «Unusual Accounting Practices in Archaic Mesopotamian Tablets») y Killen 1984 («Last year's debts on the Pylos Ma Tablets», SMEA 25: 173–188).*
+*18-10-2026. Carpeta `analisis/34_comparada/`. Niveles: bien apoyado / apoyado / propuesto / especulativo. Literatura: la búsqueda web fue escasa; lo de Uruk y Pilos viene sobre todo de conocimiento previo de la literatura citada, sin página verificada (se marca). Solo se verificó por la web que existen: Englund 2011 («Accounting in proto-cuneiform», en Radner y Robson, *Oxford Handbook of Cuneiform Culture*), Englund 2005 (CDLJ 2005:1, «Unusual Accounting Practices in Archaic Mesopotamian Tablets») y Killen 1984 («Last year's debts on the Pylos Ma Tablets», SMEA 25: 173–188).*
 
 ## A. Pallariforme (detalle en `pallariforme.md`)
 Larco Hoyle (1942–43) propuso escritura sobre pallares mochicas; los contemporáneos la rechazaron (fichas rituales o de juego); no hay datos tabulados abiertos ni relación demostrable con quipus. **Especulativo; sin relación con quipus.** No seguir.
@@ -13,7 +13,7 @@ Larco Hoyle (1942–43) propuso escritura sobre pallares mochicas; los contempor
 ## B2. Tabla comparada
 Ver `rasgos_comparados.csv` (10 rasgos, con tipo de paralelo, nivel y páginas de NDE1993; actualizada en la segunda ronda).
 - **Paralelos reales:** jerarquía en niveles (Incahuasi 3–4, Uruk 2–3); formato fijo por documento; copias; numerales leídos antes que los productos.
-- **Analogías débiles:** cuadre por dos caminos (solo Incahuasi, propuesto); posición de totales (el protocuneiforme al final o reverso, Incahuasi primero); metrologías por producto (hay heterogeneidad de perfil, no bases distintas demostradas); cuota (los quipus restan, Pilos compara tres columnas); signo de producto (los quipus no lo tienen).
+- **Analogías débiles:** cuadre por dos caminos (solo Incahuasi, propuesto); posición de totales (el protocuneiforme al final o reverso, Incahuasi primero); metrologías por producto (hay heterogeneidad de perfil, no bases distintas bien apoyadas); cuota (los quipus restan, Pilos compara tres columnas); signo de producto (los quipus no lo tienen).
 
 ## B3. Predicciones y pruebas
 Diseño escrito antes de correr: `diseno_previo.md`. Código con semilla 20261018: `pruebas.py` (salida `resultados_pruebas.csv`; 5000 permutaciones; Holm sobre 7 pruebas) y `sensibilidad.py` (fuera de la familia).
@@ -72,12 +72,12 @@ Fuente: `analisis/fuentes_txt/Nissen1993_ArchaicBookkeeping.txt`. Página impres
 
 | Prueba | Resultado | p Holm (11) | Nivel |
 |---|---|---|---|
-| P5b: columnas de UR278 de mayor a menor | 24 filas, tau medio −0,41 (nulo 0,00) | 0,0022 | demostrado en UR278 |
+| P5b: columnas de UR278 de mayor a menor | 24 filas, tau medio −0,41 (nulo 0,00) | 0,0022 | bien apoyado en UR278 |
 | P5c: el mayor va primero (corpus sin Incahuasi, sin grupos con total) | 25,9 % de 2342 grupos vs 15,2 % esperado | 0,0022 | apoyado |
 | P5a: orden monótono decreciente (mismo conjunto) | tau medio −0,017 (nulo 0,000, sd 0,007) | 0,063 | no significativo tras Holm |
 | P6: omisión de una celda entera | 2 vs 3,9 esperado | 1 | negativo |
 
-Lectura: fuera de Incahuasi no hay orden monótono general, pero sí tendencia a que el valor mayor vaya primero (posible cabecera o subtotal parcial no detectado como total). El decrecimiento de las 9 columnas de UR278 es propiedad de ese quipu, no convención demostrada del corpus ni de Uruk. Holm recalculado en 11: P1a 0,0048; P1b, P2a y P3 0,0022; el resto de la primera ronda no cambia de conclusión.
+Lectura: fuera de Incahuasi no hay orden monótono general, pero sí tendencia a que el valor mayor vaya primero (posible cabecera o subtotal parcial no detectado como total). El decrecimiento de las 9 columnas de UR278 es propiedad de ese quipu, no convención bien apoyada del corpus ni de Uruk. Holm recalculado en 11: P1a 0,0048; P1b, P2a y P3 0,0022; el resto de la primera ronda no cambia de conclusión.
 
 ## Para el coordinador
 - Confirmado con página: sistemas numéricos por clase de producto (NDE1993 pp. 25–28), formato fijo por transacción (p. 30), totales en el reverso (p. 20), copias solo de listas léxicas (pp. 24, 106). La cadena de documentos es real pero «probada en pocos casos» (p. 20).

@@ -37,7 +37,7 @@ La hipótesis a batir es la más aburrida: que el «7» sea un artefacto de cóm
 - **Perfil congelado:** media por posición de los z-scores de `log10(valor+1)` dentro de cada banda. Es la «ficha» que se aplica a otros quipus.
 - **Nulo:** permutación de los valores *dentro de cada banda* (preserva el multiconjunto de valores de cada registro y destruye la asignación posición-valor). B = 9 999; p empírico = (1 + #{nulo ≥ observado}) / (1 + B).
 - **Corrección múltiple:** Holm y BH-FDR. Se reportan dos familias: (a) los quipus con 7 campos testables; (b) todos los quipus probados (169 en Nazca/Berlín/Santa; 651 en el corpus para la validación externa), asignando p = 1 a los no testables. La segunda es la conservadora.
-- **Niveles:** demostrado / apoyado con datos / propuesto / especulativo.
+- **Niveles:** bien apoyado / apoyado con datos / propuesto / especulativo.
 
 ### 2.3 Universo
 
@@ -73,7 +73,7 @@ Consecuencia: la racha de 7 tiene dos fases, y cada fase tiene un perfil distint
 
 La correlación media **entre** fases es solo **0,181**. El perfil agregado de 15 rachas es una mezcla de dos perfiles; el η² = 0,42 no es la magnitud limpia del formulario. Con la unidad física sin orientar baja a **η² = 0,274** (ρ̄ = 0,255; p = 0,0001); con la orientación canónica (§3.2) sube a **0,646**. Es decir: hay un efecto posicional real, pero el «0,42» es el resultado de una segmentación que mezcla dos órdenes.
 
-**Nivel:** *demostrado* que las 15 rachas cruzan los grupos de 9 y que el perfil depende de la fase; *demostrado* que η² baja de 0,424 a 0,274 al usar el registro físico sin orientar (y sube a 0,646 al orientarlo).
+**Nivel:** *bien apoyado* que las 15 rachas cruzan los grupos de 9 y que el perfil depende de la fase; *bien apoyado* que η² baja de 0,424 a 0,274 al usar el registro físico sin orientar (y sube a 0,646 al orientarlo).
 
 ### 3.2 La ficha física: 20 registros de 9 cuerdas, 7 campos + 2 marcadoras
 
@@ -178,7 +178,7 @@ En los 45 registros completos de los 4 quipus con registros utilizables:
 - Prueba cluster-robust: los 4 quipus tienen su máximo modal en el campo 1; bajo la nula, (1/7)⁴ ≈ 4,2·10⁻⁴.
 - La única excepción es un registro de UR1136 (tipo 6,7) con el máximo en el campo 2.
 
-**Nivel:** *apoyado con datos* (rayano en demostrado) que el campo 1 canónico es el valor principal del registro, y que el par de marcadoras define la orientación. *No* está apoyado que los 7 campos tengan un perfil completo compartido.
+**Nivel:** *apoyado con datos* (rayano en bien apoyado) que el campo 1 canónico es el valor principal del registro, y que el par de marcadoras define la orientación. *No* está apoyado que los 7 campos tengan un perfil completo compartido.
 
 ### 3.4 ¿Copias o sumas?
 
@@ -202,7 +202,7 @@ Además, los números de museo son **consecutivos** (VA16635/VA16636), la proced
 
 UR223 (Ica, VA47077; 80 cuerdas, 71 numéricas, suma 1.667, 8 registros) es una versión más corta y de otra procedencia; no es copia ni suma de UR1140/UR1136. UR1176 es un formato de 7 ranuras DB entre dos RB, pero sin 7 campos numéricos completos; no es comparable.
 
-**Nivel:** *demostrado* que no son copias (celdas idénticas 1–2 %, sumas por grupo no correlacionadas); *propuesto* que sean dos registros del mismo archivo, con el apoyo externo de los números de museo consecutivos.
+**Nivel:** *bien apoyado* que no son copias (celdas idénticas 1–2 %, sumas por grupo no correlacionadas); *propuesto* que sean dos registros del mismo archivo, con el apoyo externo de los números de museo consecutivos.
 
 ### 3.5 Control positivo: el Santa
 
@@ -221,7 +221,7 @@ El test detecta formularios reales. En los 6 quipus del Santa, con bandas de 6 (
 
 Pero el Santa tiene **6 campos, no 7**, y su perfil es **distinto**: en el Santa el máximo está en la posición 4 y el mínimo en la 1; en UR1140 el máximo está en la 1 canónica y el mínimo en la 2. La analogía «cada banda = persona, cada posición = rubro» es formalmente plausible, pero **no se puede transferir el significado de los campos del Santa a UR1140**.
 
-**Nivel:** *demostrado* que el test tiene potencia (Santa); *demostrado* que el Santa no es la misma ficha que UR1140 (6 vs 7 campos y perfiles distintos).
+**Nivel:** *bien apoyado* que el test tiene potencia (Santa); *bien apoyado* que el Santa no es la misma ficha que UR1140 (6 vs 7 campos y perfiles distintos).
 
 ---
 
@@ -263,7 +263,7 @@ Pero el Santa tiene **6 campos, no 7**, y su perfil es **distinto**: en el Santa
 
 ### 6.2 Lo que no se sostiene
 
-- **No es un padrón del Santa de 6 campos.** El Santa tiene 6 cuerdas por tributario, con la posición 1 = tributo (0–13), la posición 4 = máximo, unión R/V = mitad y color = nombre. UR1140 tiene 7 campos, máximo en la posición 1 canónica, sin variación de unión y sin variación de color en las 7 cuerdas (todas B). La analogía «15 personas × 7 rubros» es una posibilidad, pero no está demostrada y el perfil no coincide.
+- **No es un padrón del Santa de 6 campos.** El Santa tiene 6 cuerdas por tributario, con la posición 1 = tributo (0–13), la posición 4 = máximo, unión R/V = mitad y color = nombre. UR1140 tiene 7 campos, máximo en la posición 1 canónica, sin variación de unión y sin variación de color en las 7 cuerdas (todas B). La analogía «15 personas × 7 rubros» es una posibilidad, pero no está bien apoyada y el perfil no coincide.
 - **No hay un «formulario de 7 campos» completo compartido.** Lo compartido es el formato (9 cuerdas: 7 + 2 marcadoras), la orientación y el encabezado (campo 1 máximo). Los campos 3–7 no se replican.
 
 ### 6.3 Lectura propuesta (especulativa)
@@ -286,9 +286,9 @@ Una lectura alternativa que los datos no descartan: el grupo de 9 podría conten
 
 | Afirmación | Nivel |
 |---|---|
-| UR1140 tiene 20 grupos de 9 cuerdas; las 15 rachas de 7 cruzan grupos | **Demostrado** |
-| El η² = 0,42 de `n_plantillas` se reproduce, pero baja a 0,274 con la unidad física | **Demostrado** |
-| Hay dos perfiles de fase (t=2 y t=5); el agregado es una mezcla | **Demostrado** |
+| UR1140 tiene 20 grupos de 9 cuerdas; las 15 rachas de 7 cruzan grupos | **Bien apoyado** |
+| El η² = 0,42 de `n_plantillas` se reproduce, pero baja a 0,274 con la unidad física | **Bien apoyado** |
+| Hay dos perfiles de fase (t=2 y t=5); el agregado es una mezcla | **Bien apoyado** |
 | El registro físico es 9 cuerdas = 7 campos + 2 marcadoras | **Apoyado con datos** |
 | El campo 1 canónico es el máximo en 44/45 registros de 4 quipus | **Apoyado con datos** (cluster-robust p ≈ 4·10⁻⁴) |
 | El par marcador define la orientación (invertir alinea los perfiles, r = 0,926) | **Apoyado con datos** |

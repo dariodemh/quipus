@@ -109,7 +109,7 @@ Globalmente, con q<0,05 en el nulo (a), salen 3 de 311 150 pares ordenados.
 
 ### 2.3 Tarea 3: grafos por archivo
 
-**Incahuasi**: 52 quipus, 1326 pares; es el único archivo con jerarquía demostrada.
+**Incahuasi**: 52 quipus, 1326 pares; es el único archivo con jerarquía bien apoyada.
 ```
 UR278 (detalle: 33 grupos × ~9) ──totales──▶ UR266 ══copia══ UR275
 UR270 (grupos) ──4 totales──▶ UR274B   (propuesto)
@@ -143,8 +143,8 @@ No hay relaciones de resumen: los totales de grupo, las sumas cuerda a cuerda (r
 
 | conclusión | nivel |
 |---|---|
-| UR278 → UR266/UR275: los totales de los grupos de un quipu de detalle se registran en orden como cabeceras de otro quipu, que a su vez tiene una copia | **demostrado** (3 nulos y lectura de cuerdas) |
-| Existen copias exactas o casi exactas entre quipus de un mismo archivo (Leymebamba, Puruchuco, Incahuasi, Berlín/Pachacamac); réplica de Urton (2005) | **demostrado** |
+| UR278 → UR266/UR275: los totales de los grupos de un quipu de detalle se registran en orden como cabeceras de otro quipu, que a su vez tiene una copia | **bien apoyado** (3 nulos y lectura de cuerdas) |
+| Existen copias exactas o casi exactas entre quipus de un mismo archivo (Leymebamba, Puruchuco, Incahuasi, Berlín/Pachacamac); réplica de Urton (2005) | **bien apoyado** |
 | Copias entre objetos de museos distintos: HP055/AS084, AS038/UR122, Basilea/UR212, UR1175/UR232-233, QU002/UR137 | **apoyado con datos** (estadística fuerte; la identidad física y la procedencia no están verificadas) |
 | «Consolidación»: un quipu grande que reúne a varios menores (UR1175 = UR233 + UR232; UR063 = UR073 + UR078; MM016 = tramos de UR212 y UR1131) | **propuesto** |
 | UR270 → UR274B; constantes 47 y 17 como deducciones fijas | **propuesto** |

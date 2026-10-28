@@ -104,7 +104,7 @@ Referencias de línea: archivos de `analisis/fuentes_txt/`. U17 = Urton 2017; R 
   - Clave cromática: el reparto por color de cuerda.
   - Clave posicional: el reparto por posición en el bloque.
   - En UR053A–E: W > R en 99 de 111 tríos, y W:R entre 0,66 y 0,80 en 5 quipus cuya escala varía 70 veces.
-  - Es la señal más frecuente del corpus: 162 detecciones (150 de los 410 quipus con ≥ 30 cuerdas). Por la jerarquía, 64 quedan asignados a otro género: TAB 20, ARC 17, SUM 9, ASG 6, NAZ 5 y otros. A la inversa, 3 quipus entran en FOR solo por la clave de archivo demostrada.
+  - Es la señal más frecuente del corpus: 162 detecciones (150 de los 410 quipus con ≥ 30 cuerdas). Por la jerarquía, 64 quedan asignados a otro género: TAB 20, ARC 17, SUM 9, ASG 6, NAZ 5 y otros. A la inversa, 3 quipus entran en FOR solo por la clave de archivo bien apoyada.
   - El reparto concreto es local: no hay clave compartida entre archivos, tampoco con el transcriptor fijo.
 - **Analogía documental:**
   - Los guancayos del Chillón: 9 pachacas de 100 bajo 5 señores (1 + 4 × 2), con el tributo repartido por pachaca (R l. 369–371).

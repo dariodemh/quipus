@@ -117,7 +117,7 @@ Lo central, 1a y 2, resiste todos los nulos que probé. 1a baja de p = 10⁻⁴ 
 
 ## 6. Niveles de evidencia, revisados
 
-- **Demostrado:** 2 (UR270 → UR278) y 3 (UR278 → UR266).
+- **Bien apoyado:** 2 (UR270 → UR278) y 3 (UR278 → UR266).
 - **Apoyado con datos:** 1a, p corregido 0,015, robusto al desfase, a los dígitos y al trasplante.
 - **Propuesto:**
   - 1b.

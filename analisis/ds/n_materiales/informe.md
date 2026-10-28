@@ -125,7 +125,7 @@ Los 7 quipus del sistema aritmético (UR266, UR269, UR270, UR273A, UR273B, UR275
 - Parece un "efecto de mano". **No lo es.** Restringiendo el nulo al sector UR (26 quipus), la distancia observada es 0,274 frente a 0,301 nula, **p = 0,29**; sin el eje unión, 0,175 vs 0,234, **p = 0,12**; solo torsión, **p = 1,00**. El efecto desaparece por completo.
 - La razón del falso positivo es simple: los 7 están entre los más grandes del depósito, y en Incahuasi los grandes son S (mediana de colgantes: S = 107,5; Z = 11,0). La probabilidad de que los 7 sean S usando la tasa S de **su estrato de tamaño** es 0,20, no 0,009.
 
-**Nivel: demostrado (negativo).** El sistema aritmético no muestra una firma de manufactura propia; comparte el baseline del depósito UR. No hay evidencia de que el "libro consolidado" (UR267A/B) haya sido hecho por otra mano que los parciales: UR267A/B no difieren de UR273, UR275 o UR278 en torsión, dirección de nudo ni terminación.
+**Nivel: bien apoyado (negativo).** El sistema aritmético no muestra una firma de manufactura propia; comparte el baseline del depósito UR. No hay evidencia de que el "libro consolidado" (UR267A/B) haya sido hecho por otra mano que los parciales: UR267A/B no difieren de UR273, UR275 o UR278 en torsión, dirección de nudo ni terminación.
 
 ### 3.6 El hallazgo positivo: la unión R/V **codifica la parte**, no la mano
 
@@ -138,13 +138,13 @@ Dos parejas del sistema son la misma obra en dos volúmenes (A + B = consolidado
 
 Esto coincide con la estructura interna: la unión R/V está **bloqueada a lo largo del quipu** (120 quipus mixtos; 77 con rachas significativamente agrupadas tras BH; rachas observadas 9,3 vs 20,9 esperadas; p < 0,0005 en cada uno) y con pureza por grupo 0,880 frente a 0,850 nula (86/462 quipus con q < 0,05). No marca la primera cuerda del grupo (R = 51,9 % en posición 1 vs 50,3 % en el resto).
 
-**Interpretación (apoyada con datos, no demostrada):** R/V es un **código binario de disposición/partición** —probablemente la dicotomía hanan/hurín o parte A/B que propusieron Medrano y Urton (2018)— y **no un rasgo de manufactura**. Usarlo como "firma de mano" es inválido: dos partes de la misma obra, hechas para sumarse, llevan unión opuesta por diseño. Esto también explica por qué la unión "pura" es tan alta (0,909): un quipu bien hecho usa un solo código de unión en toda su extensión.
+**Interpretación (apoyada con datos, no bien apoyada):** R/V es un **código binario de disposición/partición** —probablemente la dicotomía hanan/hurín o parte A/B que propusieron Medrano y Urton (2018)— y **no un rasgo de manufactura**. Usarlo como "firma de mano" es inválido: dos partes de la misma obra, hechas para sumarse, llevan unión opuesta por diseño. Esto también explica por qué la unión "pura" es tan alta (0,909): un quipu bien hecho usa un solo código de unión en toda su extensión.
 
 ### 3.7 Copias: no comparten firma de manufactura
 
 De `14_copias` se evaluaron **14 parejas de copia no redundantes** (se excluyen pares que comparten objeto, para no violar independencia; 9 de ellas tienen los cuatro ejes comparables):
 
-- Firma idéntica en los 4 ejes: **1/9 (11 %)**, frente al 15 % del corpus. Con n = 9 la diferencia no es significativa: el resultado correcto es que **no hay exceso**, no que haya un déficit demostrado.
+- Firma idéntica en los 4 ejes: **1/9 (11 %)**, frente al 15 % del corpus. Con n = 9 la diferencia no es significativa: el resultado correcto es que **no hay exceso**, no que haya un déficit bien apoyado.
 - Torsión coincide 13/13 (trivial: el 93 % de las cuerdas con dato del corpus es S).
 - Dirección de nudo 9/13; terminación **13/14**; **unión 3/9** (P(X≤3 | Bin(9, 0,5)) = 0,25).
 - El único par con firma idéntica es UR064/UR068.
@@ -167,7 +167,7 @@ La firma **por grupo** confirma el mismo reparto: pureza ponderada dentro de gru
 - La **unión y la terminación sí se segmentan**, pero en bloques que coinciden con la disposición del registro, no con reparaciones.
 - **Notas de reparación/empalme/añadido:** 134 cuerdas en 52 quipus. No se asocian a mayor mezcla de torsión; el efecto va en dirección **contraria** (Mann-Whitney p = 0,087; los quipus con nota están *menos* mezclados). Las "reparaciones" anotadas por los catalogadores no dejan huella detectable en la firma.
 
-**Nivel: demostrado (descriptivo) para la torsión; apoyado con datos para la segmentación de unión/terminación.**
+**Nivel: bien apoyado (descriptivo) para la torsión; apoyado con datos para la segmentación de unión/terminación.**
 
 ### 3.9 Respuesta directa a "¿quién hacía qué registros?"
 
@@ -212,11 +212,11 @@ Con estos datos, **no se puede asignar registros a personas**. Lo que sí se pue
 
 | Afirmación | Nivel |
 |---|---|
-| Cada rasgo de manufactura es constante dentro del quipu (torsión 99,5 % de pureza; 93,4 % de quipus 100 % puros) | **Demostrado (descriptivo)** |
-| Los cuatro ejes discretos son independientes y la firma idéntica ocurre a la tasa de las marginales | **Demostrado (descriptivo)** |
-| La unión R/V está bloqueada y marca la parte A vs B en las dos parejas del sistema de Incahuasi (UR273A/B, UR267A/B) | **Demostrado (descriptivo);** su lectura como hanan/hurín es **apoyada con datos** |
-| La torsión separa sectores/colecciones (JC vs UR en Incahuasi, p = 3,7 × 10⁻¹⁴), no individuos | **Demostrado (descriptivo)** |
-| Fibra y grosor no son utilizables como firma por sesgo de registro | **Demostrado (descriptivo)** |
+| Cada rasgo de manufactura es constante dentro del quipu (torsión 99,5 % de pureza; 93,4 % de quipus 100 % puros) | **Bien apoyado (descriptivo)** |
+| Los cuatro ejes discretos son independientes y la firma idéntica ocurre a la tasa de las marginales | **Bien apoyado (descriptivo)** |
+| La unión R/V está bloqueada y marca la parte A vs B en las dos parejas del sistema de Incahuasi (UR273A/B, UR267A/B) | **Bien apoyado (descriptivo);** su lectura como hanan/hurín es **apoyada con datos** |
+| La torsión separa sectores/colecciones (JC vs UR en Incahuasi, p = 3,7 × 10⁻¹⁴), no individuos | **Bien apoyado (descriptivo)** |
+| Fibra y grosor no son utilizables como firma por sesgo de registro | **Bien apoyado (descriptivo)** |
 | No hay talleres/manos discretos detectables en la firma | **Apoyado con datos** |
 | Las copias no comparten manufactura | **Apoyado con datos** |
 | El sistema aritmético de Incahuasi comparte baseline de sector, no mano | **Apoyado con datos** (negativo) |

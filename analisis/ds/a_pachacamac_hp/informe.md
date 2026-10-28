@@ -84,7 +84,7 @@ Tabla completa en `tabla_por_quipu.csv` (generada por `01_describe.py`). Resumen
 - **Quipus vacíos (sin nudos):** HP025 (55 cuerdas), HP026 (17), HP028 (10). Son cuerdas
   presentes pero sin nudos → probablemente "vacíos de datos" o marcadores de posición.
 
-> **Nivel de evidencia:** descripción = **demostrado** (lectura directa de los datos) para
+> **Nivel de evidencia:** descripción = **bien apoyado** (lectura directa de los datos) para
 > torsión, unión, dirección y conteos; **apoyado con datos** para la lectura funcional de
 > los quipus vacíos.
 
@@ -98,7 +98,7 @@ Esto importa para la pregunta 2: cualquier "relación" HP001–HP002 o HP029–H
 trivial (son el mismo objeto) y **no debe contarse como hallazgo**. Los totales no
 coinciden exactamente (HP001 Σ=28 045 vs. HP002 Σ=29 080; HP029 Σ=16 404 vs.
 HP030 Σ=52 916), así que no son "mitad y mitad" aritméticas.
-**Nivel: demostrado** (número de registro compartido).
+**Nivel: bien apoyado** (número de registro compartido).
 
 ---
 
@@ -125,7 +125,7 @@ La única señal marginal (métrica A) es un **artefacto**: al exigir valores �
 los pares alineados caen de 81 a 19 y a 8; de las 8 coincidencias posicionales de
 HP014–HP031, **7 son el valor 1** (HP031 tiene 34 de sus 48 cuerdas con el valor 1).
 Con valores informativos la señal desaparece.
-**Nivel: demostrado (negativo).**
+**Nivel: bien apoyado (negativo).**
 
 ### 2.1 Jerarquía de archivo (detalle vs. resumen)
 
@@ -184,7 +184,7 @@ Con valores informativos la señal desaparece.
   el archivo HP **carece por completo** de union T, por lo que **no replica** ese género
   de "cuenta de cuentas".
 
-**Propuesta (nivel: propuesto, no demostrado):** el archivo HP001–HP032 es una
+**Propuesta (nivel: propuesto, no bien apoyado):** el archivo HP001–HP032 es una
 **serie de registros administrativos independientes** (probable censo/tributo o listas
 de cantidades) sin estructura jerárquica conservada; la ausencia de cuerdas superiores
 y de relaciones cruzadas sugiere que **la jerarquía (si la hubo) se perdió o residía en

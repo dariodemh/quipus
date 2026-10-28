@@ -164,7 +164,7 @@ def nivel(r):
     loc = r.p_local < .05 if pd.notna(r.p_local) else False
     gen = (r.p_fuera_signo < .05) and not loc if pd.notna(r.p_fuera_signo) else False
     esp = 'local' if loc else ('generico' if gen else 'indeterminado')
-    return ('demostrado' if (r.holm < .05 and loc) else 'apoyado') + '-' + esp
+    return ('bien apoyado' if (r.holm < .05 and loc) else 'apoyado') + '-' + esp
 F['nivel'] = F.apply(nivel, axis=1)
 F.to_csv(AQ + 'formularios.csv', index=False)
 say(f'\n== §5 formularios de archivo: tipos llevados a confirmación {len(F)}; confirmables {t.sum()}; BH<.05 {(F.q_bh<.05).sum()}; Holm<.05 {(F.holm<.05).sum()}')

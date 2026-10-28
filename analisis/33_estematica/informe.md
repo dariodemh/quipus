@@ -54,7 +54,7 @@ Orden de ejecución (≈ 25 min con 20 núcleos):
 - **Exploración/confirmación.** Quipus divididos en E (319) y C (317), estratificados por procedencia. En E se hicieron dos cambios, documentados en las adendas:
   1. **El prefiltro por huella** (multiconjunto de valores ≥ 10) perdía 7 de los 25 pares de 04: los de valores pequeños, como Leymebamba. Se sustituyó por Monte Carlo secuencial sobre todos los pares, sin pérdida.
   2. **El nulo por nivel daba 84 «copias» solo en E–E.** Eran quipus eje (HP034, UR1114) con rachas 1-1-1 o 2-2-2. Se pasó al **nulo de rachas** y a τ = 20 bits. Los controles se mantienen entre 1e-7 y 1e-91. 30_frontera llegó a la misma conclusión por su lado: el nulo de permutación total imita copias.
-- **Calibración E/C de la versión final.** Los pares apoyados o demostrados se reparten 8 en E–E, 3 en C–C y 12 en E–C. Lo esperado por número de pares es 5,75, 5,75 y 11,5. No hay sesgo de la fase de exploración.
+- **Calibración E/C de la versión final.** Los pares apoyados o bien apoyados se reparten 8 en E–E, 3 en C–C y 12 en E–C. Lo esperado por número de pares es 5,75, 5,75 y 11,5. No hay sesgo de la fase de exploración.
 - **Post hoc, y marcado así en todas las salidas.**
   - `05_orden_libre.py` (valores ≥ 100 compartidos frente a reemplazo por quipus de otra procedencia, más el orden de esos valores). Se añadió porque el barrido no veía las versiones de Incahuasi.
   - `06_candidatas_lector.py`.
@@ -63,8 +63,8 @@ Orden de ejecución (≈ 25 min con 20 núcleos):
 
 | nivel | n | pares |
 |---|---|---|
-| demostrado (Holm < 0,05 y equipo rojo o publicado) | 15 | HP055~UR1084, KH0049~UR122, UR1175~UR233, UR1175~UR232, UR006~UR009, UR006~UR021, UR009~UR021, UR053B~C, UR064~UR068, UR066~UR067, MM015~UR212, MM016~UR212, UR1114~UR1123, UR1118~UR218, QU002~UR137 |
-| mismo objeto (demostrado) | 3 | UR1107=UR237 (inverso), KH0033=UR044, AS125=UR247 |
+| bien apoyado (Holm < 0,05 y equipo rojo o publicado) | 15 | HP055~UR1084, KH0049~UR122, UR1175~UR233, UR1175~UR232, UR006~UR009, UR006~UR021, UR009~UR021, UR053B~C, UR064~UR068, UR066~UR067, MM015~UR212, MM016~UR212, UR1114~UR1123, UR1118~UR218, QU002~UR137 |
+| mismo objeto (bien apoyado) | 3 | UR1107=UR237 (inverso), KH0033=UR044, AS125=UR247 |
 | apoyado | 2 | AS159~AS173, UR255~UR267A |
 | apoyado (post hoc) | 3 | UR266~UR275, UR256~UR267B, **UR1104~UR234 (nuevo)** |
 | propuesto | 5 | AS128~QU013 (falla diversidad), MM008~UR212, MM016~UR1131, UR004~UR037 y UR113~UR260 (estos dos, artefactos) |
@@ -160,13 +160,14 @@ Copia sembrada de L cuerdas en quipus reales, con 10 % de errores de ±1 nudo y 
 
 ## 7. Niveles de evidencia
 
-- **Demostrado.**
+- **Bien apoyado.**
   - La copia es un fenómeno de archivo: mismo sitio frente a sitios distintos, OR 18, p = 1e-7.
-  - Los 15 pares demostrados.
+  - 10 de los 15 pares con Holm < 0,05, los que están en un mismo museo.
   - La inversión real en Basilea y en Leymebamba.
   - El nulo de permutación por cuerda es insuficiente; hace falta conservar las rachas (independiente de 30).
   - KFG y OKR son la misma lectura.
 - **Apoyado.**
+  - Los otros 5 pares con Holm < 0,05, que están en museos distintos (HP055/UR1084, KH0049/UR122, MM015/UR212, MM016/UR212, QU002/UR137). La estadística es tan fuerte como en los demás, pero falta verificar en los objetos que sean piezas distintas y de qué procedencia. En `pares_copia.csv` figuran como «apoyado (entre museos)»; criterio de `04_concordancias`, corregido el 27/10/2026.
   - Tipología a–c.
   - UR1104 extrae las cabeceras de UR234 (post hoc).
   - Un testigo en dos piezas: UR232 + UR233, y Basilea.

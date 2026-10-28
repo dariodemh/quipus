@@ -2,7 +2,7 @@
 
 *Versión en español: [README.es.md](README.es.md).*
 
-**Draft for specialist review.** Nothing here has been through peer review.
+**Open to specialist review.** Nothing here has been through peer review yet, and we invite specialists in khipus, Andean history and statistics to check it. Objections, corrections and new readings of the objects are welcome as [issues](https://github.com/dariodemh/quipus/issues).
 
 **Languages.** The review package is available in English in [`analisis/paquete_revision/en/`](analisis/paquete_revision/en/), and the reader's guide in [`lector/README.md`](lector/README.md). The per-folder reports and the work log (`analisis/SINTESIS.md`) are in Spanish only.
 
@@ -20,7 +20,7 @@ We ran the whole digital khipu corpus (Khipu Field Guide and Open Khipu Reposito
 - pendant + first subsidiary of UR270 reproduce, cell by cell, the 9-column table of UR278;
 - the row totals of UR278 reappear, in order, as headers of UR275 and UR266.
 
-A second route (UR273A + UR273B) is supported but not demonstrated.
+A second route (UR273A + UR273B) is supported but not well supported.
 
 **Outside Inkawasi,** the results are mostly negative or methodological:
 
@@ -37,6 +37,7 @@ Every claim carries an evidence level and points to the script that produces it.
 
 ## Where to start
 
+0. [`articulo/index.html`](articulo/index.html): the essay *What the khipus add up to*, for a general reader, with interactive figures. It opens in English and links to the Spanish version, [`articulo/index.es.html`](articulo/index.es.html).
 1. [`analisis/paquete_revision/en/summary_for_specialists.md`](analisis/paquete_revision/en/summary_for_specialists.md): data, methods and findings, grouped by evidence level.
 2. [`analisis/paquete_revision/en/findings_table.csv`](analisis/paquete_revision/en/findings_table.csv): one row per finding, with:
    - its statistic and p or q value;
@@ -67,16 +68,16 @@ The errors we found and corrected are recorded in the `corrected` column of the 
 
 | Id | Finding | Level |
 |---|---|---|
-| I01 | UR270 → UR278: pendant + first subsidiary = cells of the 9-column table | demonstrated |
-| I02 | Row totals of UR278 = headers of UR266 and totals of UR275, in order | demonstrated |
+| I01 | UR270 → UR278: pendant + first subsidiary = cells of the 9-column table | well supported |
+| I02 | Row totals of UR278 = headers of UR266 and totals of UR275, in order | well supported |
 | I03 | UR273A + UR273B = the same headers by a second route | supported |
-| I09–I10 | The 9 columns are the same 9 units in UR270 and UR278, with exceptional flatness | demonstrated |
+| I09–I10 | The 9 columns are the same 9 units in UR270 and UR278, with exceptional flatness | well supported |
 | C01 | The "74% of khipus with sums" figure is not informative against a proper null | supported |
-| C06, C18 | Colour is a local key with no shared lexicon; khipus are data records, not text | demonstrated / supported (negative) |
-| C24, K05 | Copies across museums; copying is an archive-level practice (OR 17.9) | demonstrated / supported |
-| C27 | The method reproduces the published Puruchuco hierarchy (positive control) | demonstrated |
+| C06, C18 | Colour is a local key with no shared lexicon; khipus are data records, not text | well supported / supported (negative) |
+| C24, K05 | Copies across museums; copying is an archive-level practice (OR 17.9) | well supported / supported |
+| C27 | The method reproduces the published Puruchuco hierarchy (positive control) | well supported |
 | K01 | KH0049 is a three-level table with column totals; UR122 is its partial copy | supported (post hoc) |
-| K02 | Two-column tables with alternating colours (UR040, UR167) | demonstrated |
+| K02 | Two-column tables with alternating colours (UR040, UR167) | well supported |
 | K03 | UR1104 extracts the headers of 9 records of UR234 and preserves a broken header | supported |
 | K11 | Inkawasi unit: *carga* (load, ~23 kg) or *fanega*; total of the order of 900–1,400 t | proposed |
 
@@ -84,7 +85,7 @@ The full list (I01–I22, C01–C29, K01–K11) is in the findings table.
 
 **Evidence scale:**
 
-- **Demonstrated:** survives the null and the correction, and was replicated by an independent route.
+- **Well supported:** survives the null and the correction, and was replicated by an independent route.
 - **Supported:** significant after correction, but without independent replication.
 - **Proposed:** consistent with the data, with no test that separates it from the alternatives.
 - **Speculative:** untested.
@@ -102,6 +103,11 @@ python analisis/paquete_revision/verificar.py   # figures in the review package
 python lector/verificar.py                      # known results of the reader
 python lector/lector.py UR278                   # reading sheet for one khipu
 python lector/lector.py --todos                 # the whole corpus (~3 min)
+
+python articulo/fuente/extraer.py . articulo/fuente/datos.json   # data for the essay's figures
+python articulo/fuente/construir.py             # articulo/index.html (English) and index.es.html (Spanish)
+python articulo/fuente/comprobar.py             # what the text says about each figure matches its data
+python articulo/fuente/comprobar_idioma.py articulo/index.html en   # no Spanish left on the English page (needs playwright)
 ```
 
 - **Run time.** The first run compiles numba, which takes about 1 minute. After that, each sheet takes 4–20 s.
@@ -118,6 +124,8 @@ analisis/            one folder per question, numbered in the order it was addre
   NN_tema/           informe.md + scripts for each analysis
   SINTESIS.md        work log, in chronological order (Spanish)
 lector/              reproducible reader (lector.py, detectores.py, verificar.py)
+articulo/            the essay: index.html (English), index.es.html (Spanish)
+  fuente/            templates (plantilla.en.html, plantilla.html), figuras.js, datos.json and the build scripts
 docs/fichas/         reading notes on the literature
 scripts/             construction of the cord table
 data/external/       submodules: Open Khipu Repository and Medrano & Khosla 2024 data
@@ -139,6 +147,8 @@ The work log (`analisis/SINTESIS.md`) is included without administrative notes. 
 
 `analisis/datos/cuerdas.csv` is derived from KFG. Finding C26 lists the errata we found in both databases.
 
+The essay's map uses country outlines from **Natural Earth** (1:50m, public domain), via the `world-atlas` package (v2.0.2). The images in the essay are public domain (Cleveland Museum of Art, CC0; Locke 1912; Guaman Poma, c. 1615).
+
 **This repository:**
 
 - code and derived data: MIT ([`LICENSE`](LICENSE));
@@ -153,6 +163,6 @@ The work log (`analisis/SINTESIS.md`) is included without administrative notes. 
 
 ## How to cite
 
-> dariodemh (2026). *Khipus: a computational analysis of the digital corpus* [code and data repository, draft]. https://github.com/dariodemh/quipus
+> dariodemh (2026). *Khipus: a computational analysis of the digital corpus* [code and data repository]. https://github.com/dariodemh/quipus
 
 If you use the data, please also cite OKR and Medrano & Khosla (2024).

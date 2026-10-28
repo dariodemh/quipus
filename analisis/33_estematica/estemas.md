@@ -17,10 +17,10 @@ Nivel de cada arista entre corchetes. La salida automática completa (variantes,
 
 ```
                 UR270 (detalle por 9 columnas)
-                  │  celda = colgante + 1.ª subsidiaria            [demostrado, 13/18/ciego]
+                  │  celda = colgante + 1.ª subsidiaria            [bien apoyado, 13/18/ciego]
                   ▼
                 UR278 (filas de 9)
-                  │  totales de fila → cabeceras, en orden          [demostrado, 13/ciego]
+                  │  totales de fila → cabeceras, en orden          [bien apoyado, 13/ciego]
                   ▼
                   α  (libro perdido: ya contiene los ±1 de unidades)
                  ╱ ╲
@@ -45,10 +45,10 @@ Nivel de cada arista entre corchetes. La salida automática completa (variantes,
 ## 2. Puruchuco (Huaquerones). Jerarquía con copias del mismo nivel
 
 ```
-   nivel I     UR063 ──suma──► UR068 (sección central)          [demostrado, publicado: Urton y Brezine 2005]
-   nivel II    UR064 — UR068          41/47 exactas, 8 variantes  [demostrado; publicado]
+   nivel I     UR063 ──suma──► UR068 (sección central)          [bien apoyado, publicado: Urton y Brezine 2005]
+   nivel II    UR064 — UR068          41/47 exactas, 8 variantes  [bien apoyado; publicado]
                          │ suma (2904/2908, 161/162)
-   nivel III   UR066 — UR067          20/21 exactas, enrollados juntos  [demostrado; publicado: «identical numerical values»]
+   nivel III   UR066 — UR067          20/21 exactas, enrollados juntos  [bien apoyado; publicado: «identical numerical values»]
 ```
 
 - **UR064/UR068:** 6 diferencias de valor (4 de ±1 nudo) y 1 por daño. Ningún criterio orienta la arista.
@@ -62,8 +62,8 @@ Nivel de cada arista entre corchetes. La salida automática completa (variantes,
                 ╱                         ╲
    UR009 copia p276–p365 de UR006       UR021 copia 3 tramos de p279–p386
    (2 bloques, reordenados, sentido      (directo; 40/44 exactas)
-    inverso; 68/74 exactas)               [demostrado; publicado: Urton 2005]
-   [demostrado; publicado: Urton 2005]
+    inverso; 68/74 exactas)               [bien apoyado; publicado: Urton 2005]
+   [bien apoyado; publicado: Urton 2005]
                 \_________ UR009 — UR021 (21 cuerdas, sentido opuesto; 18/21) _________/
 ```
 
@@ -76,15 +76,15 @@ Nivel de cada arista entre corchetes. La salida automática completa (variantes,
   - El único conjuntivo posible (p283) es de ±1 nudo. Puede ser coincidencia.
   - No decide entre las dos lecturas: «UR009 y UR021 reportan a UR006» (Urton 2005, consolidación) y «UR009 y UR021 extraen de UR006».
 - Las orientaciones opuestas (UR009 invertido frente a UR006 y frente a UR021) indican que el tramo se leyó, o se anudó, en sentido contrario.
-- **Nivel:** familia demostrada; estema especulativo.
+- **Nivel:** familia bien apoyada; estema especulativo.
 - Falla del equipo rojo: los valores son casi todos menores que 10. Al quitar los 10 valores más comunes del corpus no queda señal (p = 0,31). Esto no rebaja el nivel, porque el par está publicado (§7). Sí avisa de que una copia de valores pequeños **no publicada** quedaría como «propuesta».
 
 ## 4. Berlín: UR1175 (Ascher) y UR233 + UR232 (Urton). Una copia en dos piezas
 
 ```
    UR1175 (Pachacamac; 268 cuerdas, con capa de subsidiarias)
-     ├─ p1–p104   ⇢  UR233  (93 alineadas, 77 exactas; omite 42 de 51 subsidiarias; 100→110 ×4)   [demostrado]
-     └─ p160–p223 ⇢  UR232  (50 alineadas, 38 exactas; omite 11 de 16 subsidiarias)              [demostrado]
+     ├─ p1–p104   ⇢  UR233  (93 alineadas, 77 exactas; omite 42 de 51 subsidiarias; 100→110 ×4)   [bien apoyado]
+     └─ p160–p223 ⇢  UR232  (50 alineadas, 38 exactas; omite 11 de 16 subsidiarias)              [bien apoyado]
    UR233 y UR232 comparten el inventario VA63038 (comentario OKR de KH0469): dos partes de un mismo testigo β.
 ```
 
@@ -97,8 +97,8 @@ Nivel de cada arista entre corchetes. La salida automática completa (variantes,
 ```
    UR212 (Berlín, 162 cuerdas)
      ├─ p6–p14    → MM008  directo, 8/8      [propuesto: q = 0,007, Holm 0,16]
-     ├─ p140–p153 → MM016  INVERSO, 11/13    [demostrado]
-     └─ p182–p194 → MM015  INVERSO, 13/13    [demostrado]
+     ├─ p140–p153 → MM016  INVERSO, 11/13    [bien apoyado]
+     └─ p182–p194 → MM015  INVERSO, 13/13    [bien apoyado]
    UR1131 p35–p39 ···> MM016 p15–p19  (5/5 cuerdas W)   [propuesto: q = 0,006, Holm 0,14]
    MM008/MM015/MM016 = IVc.366.03 (14): fragmentos de un mismo testigo β de Basilea.
 ```
@@ -111,12 +111,12 @@ Nivel de cada arista entre corchetes. La salida automática completa (variantes,
 
 | familia | relación | nota estemática | nivel |
 |---|---|---|---|
-| HP055 (Lima) — UR1084 (París) | 121/142 exactas | UR1084 omite 8 de 14 cuerdas «222» (Holm 3e-4, 14). Salto +10 ×5. 7 diferencias son daño en HP055. Un criterio (omisión): `HP055 ⇢ UR1084 (1 criterio)` | demostrado; nuevo frente a la literatura (ya en 04/14) |
-| KH0049 (Lima) — UR122 (Gotemburgo) | 68/90 | **Error conjuntivo 15652/15649 en las dos** (30_frontera). Hay fuente común con ese error, o una copia de la otra. UR122 conserva solo la sección de subtotales (extracto); KH0049 tiene 22 cuerdas más en el tramo. Propuesto: `KH0049 ⇢ UR122`, o `α → KH0049, UR122` | demostrado; nuevo frente a la literatura |
-| UR053B — UR053C | 35/48 | Hermanos del conjunto atado ATE 3517. Uniones R/V opuestas. Diferencias sin signo común (14) | demostrado; publicado (Urton 2017, cap. 8) |
-| UR1114 — UR1123 (AS114/AS123) | 10/10 | Tramo de 10 cuerdas | demostrado; publicado (Urton 2005) |
-| UR1118 — UR218 | 7/8 | Tramo corto | demostrado; nuevo frente a la literatura |
-| QU002 (Dallas) — UR137 (Miami) | 10/11 | Tramo corto | demostrado; nuevo frente a la literatura |
+| HP055 (Lima) — UR1084 (París) | 121/142 exactas | UR1084 omite 8 de 14 cuerdas «222» (Holm 3e-4, 14). Salto +10 ×5. 7 diferencias son daño en HP055. Un criterio (omisión): `HP055 ⇢ UR1084 (1 criterio)` | bien apoyado; nuevo frente a la literatura (ya en 04/14) |
+| KH0049 (Lima) — UR122 (Gotemburgo) | 68/90 | **Error conjuntivo 15652/15649 en las dos** (30_frontera). Hay fuente común con ese error, o una copia de la otra. UR122 conserva solo la sección de subtotales (extracto); KH0049 tiene 22 cuerdas más en el tramo. Propuesto: `KH0049 ⇢ UR122`, o `α → KH0049, UR122` | bien apoyado; nuevo frente a la literatura |
+| UR053B — UR053C | 35/48 | Hermanos del conjunto atado ATE 3517. Uniones R/V opuestas. Diferencias sin signo común (14) | bien apoyado; publicado (Urton 2017, cap. 8) |
+| UR1114 — UR1123 (AS114/AS123) | 10/10 | Tramo de 10 cuerdas | bien apoyado; publicado (Urton 2005) |
+| UR1118 — UR218 | 7/8 | Tramo corto | bien apoyado; nuevo frente a la literatura |
+| QU002 (Dallas) — UR137 (Miami) | 10/11 | Tramo corto | bien apoyado; nuevo frente a la literatura |
 | AS159 — AS173 | 8/8 | Tramo corto | apoyado; publicado (Urton 2005) |
 | AS128 — QU013 | 43/43 | Solo 9 valores distintos, 2 de ellos ≥ 10. Falla la diversidad | propuesto |
 

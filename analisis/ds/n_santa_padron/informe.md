@@ -2,7 +2,7 @@
 
 **Dictamen en una línea:** no. Ninguna prueba de orden sobrevive a la corrección múltiple; el único exceso nominal (precisión color→nombre *in-sample*, p = 0,021) desaparece al validar fuera de muestra (0,117 frente a 0,092 esperado, p = 0,32) y se explica porque en los dos quipus grandes el color de la primera cuerda es una **seriación posicional** (ciclos de 4 y 5 colores), no una etiqueta individual. La coincidencia de tamaños entre pachacas y quipus que usa Urton (2017, tabla 12.3) es la asignación por rangos elegida *post hoc*, no un hallazgo.
 
-Etiqueta de evidencia: **apoyado con datos (resultado negativo)**. La estructura del archivo y la seriación de color están **demostradas**; la hipótesis de orden queda **no apoyada**; cualquier lectura nombre↔grupo concreta es **especulativa**.
+Etiqueta de evidencia: **apoyado con datos (resultado negativo)**. La estructura del archivo y la seriación de color están **bien apoyadas**; la hipótesis de orden queda **no apoyada**; cualquier lectura nombre↔grupo concreta es **especulativa**.
 
 ---
 
@@ -168,10 +168,10 @@ Ninguna sobrevive Holm al 5 %.
 
 | Afirmación | Nivel |
 |---|---|
-| El archivo del Santa son 6 quipus con 133 grupos de seis cuerdas, distribuidos 48/9/34/17/15/10 | **demostrado** (KFG = Apéndice B = tabla 12.3) |
-| 33 colores distintos y 17 singletons en las primeras cuerdas | **demostrado** (reproduce 32/17 publicado) |
-| En UR087 el color de la primera cuerda es una seriación de período 4; en UR092, de período 5 | **demostrado** (descriptivo, exacto) |
-| El padrón tiene 130 nombres en 6 pachacas con los conteos publicados y un bloque de 5 «hijo de» al final de Namus | **demostrado** |
+| El archivo del Santa son 6 quipus con 133 grupos de seis cuerdas, distribuidos 48/9/34/17/15/10 | **bien apoyado** (KFG = Apéndice B = tabla 12.3) |
+| 33 colores distintos y 17 singletons en las primeras cuerdas | **bien apoyado** (reproduce 32/17 publicado) |
+| En UR087 el color de la primera cuerda es una seriación de período 4; en UR092, de período 5 | **bien apoyado** (descriptivo, exacto) |
+| El padrón tiene 130 nombres en 6 pachacas con los conteos publicados y un bloque de 5 «hijo de» al final de Namus | **bien apoyado** |
 | **No hay correspondencia de orden entre nombres y grupos más allá del azar** | **apoyado con datos** (n = 121; V p = 0,18; held-out p = 0,32; max-AMI p = 0,14; Holm no significativo) |
 | El emparejamiento pachaca↔quipu de la tabla 12.3 no es evidencia (es la asignación por rangos) | **apoyado con datos** |
 | El color de la primera cuerda codifica el nombre de pila (Medrano y Urton 2018) | **propuesto**, no apoyado aquí: el orden no se alinea y en 44 % de los grupos el color es periódico |

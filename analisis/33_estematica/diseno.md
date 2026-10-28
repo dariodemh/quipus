@@ -40,7 +40,7 @@ Para cada par y cada k: H_k = Σ idf(v) sobre los valores distintos v ≥ 10 pre
 - **Holm** y **BH** sobre los N pares (no candidatos con p = 1).
 - **Mismo objeto** (duplicado de base): largos de cuerda alineados r ≥ 0,9 y diferencia mediana ≤ 2,5 cm (regla de 04), o mismo número de inventario. No es copia: se fusiona como un solo testigo con dos lecturas.
 - Niveles por par:
-  - **demostrado**: Holm < 0,05 y pasa el equipo rojo (sección 7).
+  - **bien apoyado**: Holm < 0,05 y pasa el equipo rojo (sección 7).
   - **apoyado**: BH q < 0,05 y pasa el equipo rojo.
   - **propuesto**: q < 0,05 pero falla algún punto del equipo rojo; o q < 0,20.
   - **especulativo**: p < 1e-3 sin lo anterior.
@@ -62,7 +62,7 @@ Un par cae a «propuesto» si falla cualquiera:
 
 ## 8. Crítica de familias (Lachmann)
 
-- **Familia** = componente conexa del grafo de pares apoyados o demostrados (los duplicados de base fusionados).
+- **Familia** = componente conexa del grafo de pares apoyados o bien apoyados (los duplicados de base fusionados).
 - **Alineamiento múltiple en estrella** sobre el testigo con mayor solapamiento total; columnas = cuerdas del centro; cada testigo se proyecta por sus bloques con el centro.
 - **Variantes**: columnas con ≥ 2 lecturas distintas (la omisión «—» cuenta como lectura).
   - **Conjuntivo** (≥ 3 testigos): lectura compartida por un subconjunto propio de ≥ 2 testigos frente al resto, que no sea un error trivial plausible por azar (se informa por separado si es ±1 nudo).

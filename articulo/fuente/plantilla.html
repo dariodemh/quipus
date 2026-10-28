@@ -1,0 +1,775 @@
+<title>Lo que suman los quipus</title>
+<meta name="description" content="La lectura de un archivo contable inca y un análisis estadístico de todos los quipus digitalizados.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Ensayo de una columna, como un artículo largo; las figuras se abren más anchas que el texto. Papel de algodón crudo, tinta de nogal, índigo y cochinilla como en los tintes de los quipus. */
+:root{
+  --papel:#f7f6f2; --tarjeta:#fffdf8; --tinta:#1d1b18; --gris:#6b655c; --regla:#dcd8cf; --suave:#efece5;
+  --indigo:#2f3f8f; --cochinilla:#a8322d; --fibra:#8a6a4a;
+  --ev-d:#2f3f8f; --ev-a:#2c7a6b; --ev-p:#a8701a; --ok:#2c7a6b; --casi:#b07a1e; --mal:#a8322d;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,"Cascadia Mono",Consolas,monospace;
+  --texto:680px; --ancho:1000px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --papel:#17150f; --tarjeta:#1f1c16; --tinta:#ece7dd; --gris:#a69e90; --regla:#3a352d; --suave:#25221b;
+  --indigo:#a3b0ff; --cochinilla:#f08177; --fibra:#c9a27e;
+  --ev-d:#a3b0ff; --ev-a:#6cc3b0; --ev-p:#e2b25a; --ok:#6cc3b0; --casi:#e2b25a; --mal:#f08177; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --papel:#17150f; --tarjeta:#1f1c16; --tinta:#ece7dd; --gris:#a69e90; --regla:#3a352d; --suave:#25221b;
+  --indigo:#a3b0ff; --cochinilla:#f08177; --fibra:#c9a27e;
+  --ev-d:#a3b0ff; --ev-a:#6cc3b0; --ev-p:#e2b25a; --ok:#6cc3b0; --casi:#e2b25a; --mal:#f08177; color-scheme:dark}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--papel);color:var(--tinta);font-family:var(--serif);font-size:20px;line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+.col{max-width:var(--texto);margin-inline:auto}
+.ancho{max-width:var(--ancho);margin-inline:auto}
+p{margin:0 0 1.05em}
+a{color:var(--indigo);text-underline-offset:2px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--indigo);outline-offset:2px;border-radius:3px}
+h1,h2,h3{font-family:var(--serif);font-weight:500;text-wrap:balance;line-height:1.15;letter-spacing:-.01em}
+h1{font-size:clamp(40px,7vw,68px);margin:0 0 14px;font-weight:500}
+h2{font-size:clamp(28px,4vw,38px);margin:2.2em 0 .6em}
+h3{font-size:25px;margin:1.9em 0 .5em}
+.kicker,.meta,.etq,figcaption,.boton,.ev,.nota-al-pie,.tarjeta,.leyenda,.pie{font-family:var(--sans)}
+.kicker{font-size:13px;letter-spacing:.09em;text-transform:uppercase;color:var(--gris);margin:56px 0 18px}
+.subtitulo{font-size:24px;line-height:1.35;color:var(--gris);font-style:italic;margin:0 0 22px;max-width:640px}
+.meta{font-size:14px;color:var(--gris);display:flex;flex-wrap:wrap;gap:6px 18px;border-top:1px solid var(--regla);padding-top:12px}
+.meta b{color:var(--tinta);font-weight:500}
+.num{font-family:var(--mono);font-size:.86em;letter-spacing:-.01em}
+.fila-num{font-family:var(--mono);font-size:17px;background:var(--suave);border-radius:6px;padding:10px 14px;margin:0 0 1em;overflow-x:auto;white-space:nowrap}
+.fila-num .dif{color:var(--cochinilla);font-weight:500}
+blockquote{margin:1.4em 0;padding:0 0 0 20px;border-left:2px solid var(--fibra);font-style:italic;color:var(--tinta)}
+blockquote cite{display:block;font-style:normal;font-family:var(--sans);font-size:14px;color:var(--gris);margin-top:6px}
+hr{border:0;border-top:1px solid var(--regla);margin:56px auto;max-width:var(--texto)}
+sup.fn a{font-family:var(--sans);font-size:12px;text-decoration:none;padding:0 2px;font-weight:600}
+/* evidencia */
+.ev{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:99px;border:1px solid currentColor;line-height:1.5;vertical-align:2px;white-space:nowrap}
+.ev-d{color:var(--ev-d)} .ev-a{color:var(--ev-a)} .ev-p{color:var(--ev-p)}
+.leyenda{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;font-size:14.5px;line-height:1.45;color:var(--gris);margin:18px 0 8px;padding:16px 0;border-block:1px solid var(--regla)}
+.leyenda div{min-width:0}.leyenda .ev{margin-bottom:6px}
+/* bloque de hallazgo */
+.partes{display:grid;gap:4px;margin:6px 0 10px}
+.parte{margin:0 0 .9em}
+.parte>.etq{font-family:var(--sans);font-size:13px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--fibra);margin-right:8px}
+.h-num{font-family:var(--sans);font-size:14px;font-weight:600;color:var(--fibra);letter-spacing:.06em;text-transform:uppercase;display:block;margin-bottom:6px}
+/* índice de tarjetas */
+.indice{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin:22px 0 10px}
+.indice .grupo{grid-column:1/-1;font-family:var(--sans);font-size:13px;letter-spacing:.09em;text-transform:uppercase;color:var(--gris);margin-top:10px}
+.tarjeta{display:flex;flex-direction:column;gap:8px;text-decoration:none;color:var(--tinta);background:var(--tarjeta);border:1px solid var(--regla);border-radius:10px;padding:14px;min-width:0;transition:border-color .15s,transform .15s}
+.tarjeta:hover{border-color:var(--fibra);transform:translateY(-1px)}
+.tarjeta .n{font-family:var(--mono);font-size:12px;color:var(--gris)}
+.tarjeta .t{font-family:var(--serif);font-size:18px;line-height:1.25}
+.tarjeta svg{width:100%;height:46px;display:block}
+.tarjeta.grande{grid-column:span 2}
+@media (max-width:560px){.tarjeta.grande{grid-column:span 1}}
+/* figuras */
+figure{margin:34px auto 38px;max-width:var(--ancho)}
+figure.texto{max-width:var(--texto)}
+.lienzo{background:var(--tarjeta);border:1px solid var(--regla);border-radius:12px;padding:16px;overflow-x:auto}
+.lienzo svg{display:block;max-width:100%;height:auto;margin-inline:auto}
+figcaption{font-size:14.5px;line-height:1.5;color:var(--gris);margin:10px auto 0;max-width:var(--texto)}
+figcaption b{color:var(--tinta);font-weight:600}
+.controles{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px;align-items:center}
+.boton{font-size:13.5px;font-weight:500;background:var(--papel);color:var(--tinta);border:1px solid var(--regla);border-radius:99px;padding:6px 14px;cursor:pointer}
+.boton:hover{border-color:var(--fibra)}
+.boton[aria-pressed="true"]{background:var(--tinta);color:var(--papel);border-color:var(--tinta)}
+.salida{font-family:var(--mono);font-size:14px;color:var(--gris)}
+svg text{font-family:var(--sans);fill:var(--tinta)}
+svg .m{font-family:var(--mono)}
+svg .g{fill:var(--gris)}
+.foto img{width:100%;height:auto;border-radius:10px;display:block}
+.foto.angosta{max-width:420px}
+.tabla{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:14px;font-variant-numeric:tabular-nums}
+.tabla th{font-family:var(--sans);font-weight:500;color:var(--gris);font-size:12.5px;text-align:right;padding:4px 6px;border-bottom:1px solid var(--regla)}
+.tabla td{text-align:right;padding:4px 6px;border-bottom:1px solid var(--suave)}
+.tabla tr.hit td{color:var(--ok);font-weight:500}
+.tabla td.l,.tabla th.l{text-align:left}
+.ficha{font-family:var(--sans);font-size:14.5px;line-height:1.5}
+.ficha details{border-top:1px solid var(--regla);padding:8px 0}
+.ficha summary{cursor:pointer;font-weight:500}
+.ficha li{margin:6px 0;list-style:none}
+.ficha ul{padding:0;margin:6px 0 0}
+.ficha .ev{margin-right:8px;font-size:10.5px}
+.notas{font-family:var(--sans);font-size:15px;line-height:1.55;color:var(--gris)}
+.notas li{margin-bottom:10px}
+.refs{font-family:var(--sans);font-size:15px;line-height:1.55}
+.refs li{margin-bottom:8px}
+.pie{font-size:13.5px;color:var(--gris)}
+@media (max-width:600px){body{font-size:18px}.subtitulo{font-size:20px}.lienzo{padding:10px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<header class="col">
+  <div class="kicker">Ensayo · abierto a revisión especializada · octubre de 2026</div>
+  <h1>Lo que suman los quipus</h1>
+  <p class="subtitulo">La lectura de un archivo contable inca y un análisis estadístico de todos los quipus digitalizados</p>
+  <div class="meta"><span><b>dario</b>, con agentes de IA</span><span>Unos 45 minutos de lectura</span><a href="https://github.com/dariodemh/quipus">Código y datos</a><a href="#referencias">Referencias ↓</a><a href="index.html" hreflang="en" lang="en">Read in English</a></div>
+</header>
+
+<figure class="ancho foto">
+  <img src="__HERO__" alt="Un quipu inca extendido sobre fondo claro. De una cuerda principal curvada cuelgan decenas de cuerdas de algodón en tonos blancos y marrones, varias con nudos.">
+  <figcaption>Un quipu inca de los siglos XV o XVI, de algodón y fibra de camélido. Museo de Arte de Cleveland, 1940.469. Fotografía del museo, dominio público (CC0). Este no es uno de los quipus del estudio.</figcaption>
+</figure>
+
+<main>
+<section class="col" id="version-corta">
+<h2>La versión corta</h2>
+
+<p>En el depósito inca de Inkawasi, en el valle de Cañete, los arqueólogos encontraron catorce quipus amontonados y cubiertos de maní. Proponemos una reconstrucción, cifra por cifra, de la contabilidad que guardaban, y la dejamos abierta para que otros la revisen.</p>
+
+<p>Según nuestra lectura, nueve unidades (posiblemente pachacas, una unidad de organización incaica) entregaban un producto, probablemente maní, y cada una aportaba dos partes. Un quipu anotaba las dos partes de cada unidad en cada entrega. Otro pasaba esas cifras en limpio a una tabla de nueve columnas, una por unidad. Los totales de las filas de esa tabla aparecen después, en el mismo orden, en un libro de resumen del que se conservan dos copias: once exactos y siete con diferencias, casi todas de una unidad; para los demás no se conserva el destino. Y una pareja de quipus atados llega a varios de esos mismos totales por otro camino, sumando las partes en lugar de las unidades.</p>
+
+<p>De los diez quipus que entran en la cuenta tenemos 1461 cifras, y para unas mil sabemos qué papel cumplen. Si la lectura es correcta, se puede seguir un número desde la cuerda donde se anotó hasta el libro donde terminó, predecir cuerdas que faltan y señalar nudos que quizá se contaron mal. Un agente de IA que trabajó a ciegas, sin los nombres de los quipus ni acceso a la literatura, encontró la relación principal con la misma regla que nosotros. Se apoya en el trabajo de Gary Urton y Alejandro Chu, que ya habían visto en Inkawasi parejas de quipus con cifras parecidas y cuotas fijas que se restaban de cada entrega.</p>
+
+<p>El resto del trabajo mira los 650 quipus del corpus digitalizado (la base tiene 651; uno es un duplicado), con casi 58 000 cuerdas. Visto en conjunto, los quipus que podemos leer se parecen menos a un texto y más a lo que hoy haríamos con una planilla. Son tablas de filas y columnas, formularios que reparten una cantidad siempre en las mismas proporciones, listas con sus totales y padrones de personas. Algunos archivos tenían formatos propios, y los documentos se copiaban, se resumían unos a otros y se guardaban juntos, como en un sistema de libros contables.</p>
+
+<p>Estos son los hallazgos. Cada tarjeta lleva a su sección.</p>
+
+<div class="indice" id="indice"></div>
+
+<div class="leyenda" aria-label="Escala de evidencia">
+  <div><span class="ev ev-d">Bien apoyado</span><br>Sobrevive al azar y a la corrección por muchas pruebas, y se repitió por una vía independiente.</div>
+  <div><span class="ev ev-a">Apoyado</span><br>Significativo después de corregir, pero sin réplica independiente.</div>
+  <div><span class="ev ev-p">Propuesto</span><br>Compatible con los datos, sin una prueba que lo separe de otras explicaciones.</div>
+</div>
+
+<p>Ninguna etiqueta quiere decir que algo esté probado. Dicen cuánto resistió cada resultado a las pruebas que hicimos, y cada uno está en el repositorio para que otros lo revisen.</p>
+
+<p>Nuestros datos tampoco apoyan algunas propuestas anteriores, como que la mayoría de los quipus tenga sumas internas reconocibles, que los colores tuvieran un significado común en todo el imperio o que algunos quipus guarden sílabas. Lo explicamos <a href="#propuestas">en una sección aparte</a>, junto con lo que haría falta para que los datos sí las apoyen.</p>
+
+<p>Ninguno de nosotros, ni la persona a cargo del proyecto ni los agentes, ha visto los objetos. Todo sale de las transcripciones publicadas, y por eso cada hallazgo termina con lo que habría que mirar en un museo o en un archivo para confirmarlo o rechazarlo. El código, los datos y un <a href="#lector">lector de quipus</a> que da la ficha de cualquier quipu del corpus, o de uno nuevo, están en un repositorio público.</p>
+</section>
+
+<hr>
+
+<section class="col" id="quipu">
+<h2>Qué es un quipu</h2>
+
+<p>Un quipu es una cuerda principal de la que cuelgan otras cuerdas, a veces cientos. En las cuerdas colgantes hay nudos, y de ellas pueden colgar otras más pequeñas, las subsidiarias. Las cuerdas tienen colores, se tuercen hacia un lado o hacia el otro y se atan a la principal por delante o por detrás.</p>
+
+<p>Ante la falta de una escritura alfabética, los quipus sirvieron para registrar censos, tributos y lo que entraba y salía de los depósitos del Estado. Los especialistas que los hacían y los leían se llamaban quipucamayos. Después de la conquista se siguieron usando durante décadas, en algunas comunidades aisladas hasta el siglo XX, y algunos cronistas españoles transcribieron lo que los quipucamayos les leían.</p>
+</section>
+
+<figure class="foto angosta">
+  <img src="__POMA1__" alt="Dibujo a tinta de un hombre de pie que sostiene con las dos manos un quipu extendido. Abajo a la izquierda, un tablero con casillas y semillas.">
+  <figcaption>El contador mayor y tesorero del Tawantinsuyu, con un quipu en las manos y una yupana, el tablero de cálculo, a sus pies. Felipe Guamán Poma de Ayala, <i>Nueva corónica y buen gobierno</i>, hacia 1615. Dominio público.</figcaption>
+</figure>
+
+<section class="col">
+
+<p>Cómo se leen los números lo descubrió en 1912 Leland Locke, un matemático estadounidense. Se dio cuenta de que en algunos quipus una cuerda superior valía exactamente la suma de las cuerdas que agrupaba.</p>
+
+<blockquote>«The top cord sums then the numbers on the pendent cords through which it is looped, thus giving an accurate key to the numerical character of the knots.»<cite>L. Leland Locke, 1912, p. 330</cite></blockquote>
+</section>
+
+<figure class="foto angosta">
+  <img src="__LOCKE__" alt="Fotografía antigua en blanco y negro de un quipu: una cuerda principal horizontal de la que cuelgan muchas cuerdas con nudos.">
+  <figcaption>Uno de los quipus que estudió Locke, en una lámina de su artículo de 1912. Dominio público.</figcaption>
+</figure>
+
+<section class="col">
+<p>Gracias a Locke sabemos que el sistema es decimal y posicional. Cerca de la cuerda principal van los millares, más abajo las centenas, después las decenas y al final las unidades. Las centenas y las decenas se marcan con grupos de nudos simples. Las unidades se marcan con un nudo largo, de dos a nueve vueltas, y el número de vueltas es la cifra; el uno, que no se puede hacer como nudo largo, es una figura de ocho. Un espacio vacío en una posición es un cero.</p>
+
+<p>Aquí hay una cuerda real de uno de los quipus de esta historia. Pasa el cursor, o toca, cada grupo de nudos.</p>
+</section>
+
+<figure class="texto" id="fig-cuerda">
+  <div class="lienzo"><svg id="svg-cuerda" viewBox="0 0 600 330" role="img" aria-label="Una cuerda de UR278 con nudos en tres posiciones que suman 415."></svg></div>
+  <figcaption><b>Figura 1.</b> La primera cuerda de UR278, dibujada a escala desde la transcripción. Cuatro nudos simples en las centenas, uno en las decenas y un nudo largo de cinco vueltas en las unidades. Suma 415.</figcaption>
+</figure>
+
+<section class="col">
+<p>Eso es, a grandes rasgos, lo que se sabe con más seguridad sobre cómo se leen los números de los quipus. No se sabe qué se contaba en cada caso, si los colores tenían un significado fijo ni si algunos quipus guardaban algo más que números, como nombres o relatos. Hay crónicas que hablan de quipus narrativos, pero nadie ha propuesto una lectura de uno que haya sido aceptada y replicada.</p>
+</section>
+
+<hr>
+
+<section class="col" id="metodo">
+<h2>Los datos y cómo trabajamos</h2>
+
+<p>Usamos dos bases de datos públicas. La primera es la del Khipu Field Guide, de Manuel Medrano y Ashok Khosla, con 651 quipus y 57 818 cuerdas.<sup class="fn"><a href="#n1" id="r1">1</a></sup> La segunda es el Open Khipu Repository, que reúne transcripciones de varios investigadores. Para cada cuerda tenemos sus nudos, su valor, su color, su largo, hacia dónde se tuerce y cómo se ata. Sin el trabajo de quienes armaron estas bases, este proyecto no habría sido posible.</p>
+
+<p>Las dos bases coinciden en el 99,4 % de los valores. Las diferencias se concentran en cinco quipus, y la mitad son errores de un factor de diez, una cifra corrida de posición.</p>
+
+<p>El análisis lo hicieron agentes de inteligencia artificial, coordinados por una persona. Los agentes escribieron y corrieron los programas y se revisaron entre ellos, y uno hacía de equipo rojo y trataba de refutar cada resultado. El trabajo no ha pasado todavía por revisión de pares. Por eso optamos por esa contradicción continua entre agentes y por dejar todo, datos y programas, en un repositorio público donde cualquiera pueda corregirlo o mejorarlo. Invitamos a especialistas en quipus, en historia andina y en estadística a revisarlo. Las objeciones, las correcciones y, sobre todo, las relecturas de los objetos pueden enviarse como un <a href="https://github.com/dariodemh/quipus/issues">issue en el repositorio</a>.</p>
+
+<p>Ningún agente ha tenido acceso directo a un quipu. Todo sale de las transcripciones publicadas y de la literatura, y esa falta de contacto con los objetos es lo primero que habría que resolver en una siguiente etapa.</p>
+
+<h3>El problema del azar</h3>
+
+<p>Con miles de cuerdas y miles de números, siempre aparecen coincidencias. Si uno busca sumas, encuentra sumas, y si busca sílabas, también las encuentra. La pregunta que importa es cuántas aparecerían por casualidad.</p>
+
+<p>Para responderla usamos pruebas de permutación. La idea es simple. Barajamos los valores de las cuerdas muchas veces, dentro del mismo quipu o del mismo grupo según la pregunta, y contamos cuántas coincidencias aparecen en los datos barajados. Si los datos reales tienen muchas más, ahí hay algo que el azar no explica. Si tienen las mismas, no podemos afirmar nada. La figura de abajo lo hace en pequeño.</p>
+</section>
+
+<figure class="texto" id="fig-azar">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" data-caso="con" aria-pressed="true">Quipu con totales</button><button class="boton" data-caso="sin" aria-pressed="false">Quipu sin totales</button><button class="boton" id="azar-jugar">Barajar 300 veces</button><span class="salida" id="azar-salida"></span></div>
+    <svg id="svg-azar" viewBox="0 0 640 380" role="img" aria-label="Animación de una prueba de permutación."></svg>
+  </div>
+  <figcaption><b>Figura 2.</b> Una prueba de permutación con números de ejemplo. Arriba, doce cuerdas; contamos cuántas valen exactamente la suma de las tres que siguen. Abajo, cuántos de los 300 barajados encontraron 0, 1, 2 o más sumas; la línea índigo marca cuántas hay en los datos reales, sin barajar. Con totales de verdad, la línea queda lejos de las barras. Sin ellos, cae sobre ellas y el azar lo explica.</figcaption>
+</figure>
+
+<section class="col">
+<p>La probabilidad que damos para cada resultado, la <i>p</i>, dice con qué frecuencia el azar produciría algo igual o mejor. Una <i>p</i> de 0,0002 quiere decir 2 veces en 10 000. Como hicimos muchas pruebas, corregimos además por su número. Si uno hace cien pruebas, cinco salen «significativas» por pura suerte, y las correcciones de Holm y de Benjamini-Hochberg ajustan eso.<sup class="fn"><a href="#n2" id="r2">2</a></sup></p>
+
+<p>Antes de usar un método en algo nuevo lo probamos con algo conocido. Si un detector de sumas no encuentra las sumas que ya publicaron otros, no sirve. El control principal fue Puruchuco, un archivo de quipus cerca de Lima donde Gary Urton y Carrie Brezine mostraron en 2005 que unos quipus resumían a otros. Nuestro método encontró la misma jerarquía, incluidas dos pequeñas discrepancias que ellos ya habían señalado, 2904 contra 2908 y 161 contra 162.<sup class="fn"><a href="#n3" id="r3">3</a></sup></p>
+
+<h3>Cuando una prueba no encuentra nada</h3>
+
+<p>Cuando una prueba no encuentra nada, hay que preguntarse si habría podido encontrarlo. Por eso escondimos a propósito patrones conocidos en datos de prueba y miramos si cada método los detectaba. Si un método solo detecta un patrón real una de cada cuatro veces, que no lo encuentre dice poco. En esos casos escribimos «no detectable con estos datos» y no «no existe».</p>
+
+<h3>Una prueba a ciegas</h3>
+
+<p>Una de las pruebas fue a ciegas. Tomamos los 52 quipus que la base atribuye a Inkawasi, les quitamos los nombres, escondimos el 15 % de las cuerdas con nudos y le pedimos a un agente de IA, sin acceso a la literatura ni a nuestros resultados, que adivinara los valores escondidos y buscara relaciones entre quipus.<sup class="fn"><a href="#n4" id="r4">4</a></sup></p>
+
+<p>El agente se animó a predecir 68 cuerdas escondidas y acertó exactamente 56, el 82 %. Además encontró por su cuenta la relación principal de este trabajo, con la misma regla que habíamos usado nosotros. Con esa réplica, la relación pasó de apoyada a bien apoyada.</p>
+</section>
+
+<figure class="texto" id="fig-ciegas">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" id="ciegas-jugar">Ver la prueba</button><span class="salida" id="ciegas-salida">68 predicciones</span></div>
+    <svg id="svg-ciegas" viewBox="0 0 620 170" role="img" aria-label="68 predicciones a ciegas, 56 exactas."></svg>
+  </div>
+  <figcaption><b>Figura 3.</b> Las 68 cuerdas escondidas que el agente se animó a predecir. En verde, las que acertó exactamente (56); en rojo, las que no (12). La posición de cada punto es ilustrativa: lo que cuenta es la proporción. La mejor alternativa sin conocer las relaciones entre quipus acierta alrededor del 14 %.</figcaption>
+</figure>
+
+<section class="col">
+<h3>Cómo leer cada hallazgo</h3>
+
+<p>Cada hallazgo tiene las mismas cuatro partes. Qué encontramos, cómo lo probamos, qué tan seguros estamos y qué falta. Esta última dice qué observación lo reforzaría y, cuando lo sabemos, cuál lo tumbaría, y es la más útil para quien tenga acceso a los objetos o a los archivos. Cuando un hallazgo apoya, desarrolla o da más evidencia a una propuesta anterior, lo decimos en un apartado de antecedentes.</p>
+</section>
+
+<hr>
+
+<section class="col" id="inkawasi">
+<h2>Inkawasi, el depósito</h2>
+
+<p>Inkawasi está en el valle de Cañete, cerca de Lunahuaná. Los incas lo construyeron como cuartel y centro de almacenamiento durante su guerra contra los guarco, que vivían en la parte baja del valle. Allí el arqueólogo Alejandro Chu excavó decenas de quipus, varios cubiertos con restos de ají, maní y frijol, que podrían ser los productos que registraban.</p>
+
+<blockquote>«Varios de los khipus fueron hallados asociados o cubiertos con ají (Capsicum sp.), maní (Arachis hypogaea) y frijol negro (Phaseolus vulgaris). Sugerimos que estos podrían haber sido los productos de los cuales los khipus dan cuenta en sus valores.»<cite>Urton y Chu, 2015, resumen en español</cite></blockquote>
+
+<p>Urton y Chu publicaron en 2015 y 2018 que varios de estos quipus estaban atados en parejas con cifras parecidas, y que había cantidades fijas que se restaban una y otra vez, 10, 15, 47 y 208. Las interpretaron como una cuota que se separaba de cada entrega. Nosotros replicamos ese resultado, que es de ellos, y partimos de él.</p>
+</section>
+
+<figure class="foto angosta">
+  <img src="__POMA2__" alt="Dibujo a tinta con el título Depósito del Inga. Un Inca de pie frente a un administrador que le muestra un quipu; detrás, filas de depósitos con techos abovedados.">
+  <figcaption>«Depósito del Inga». El Inca frente a un administrador que le rinde cuentas con un quipu, delante de las colcas, los depósitos del Estado. Guamán Poma de Ayala, hacia 1615. Dominio público.</figcaption>
+</figure>
+
+<figure class="texto" id="fig-mapa">
+  <div class="lienzo"><svg id="svg-mapa" viewBox="0 0 520 560" role="img" aria-label="Mapa esquemático del Perú con los sitios mencionados."></svg></div>
+  <figcaption><b>Figura 4.</b> Los sitios del Perú que aparecen en este ensayo; Berlín, París, Gotemburgo y los demás museos con quipus quedan fuera del mapa. Contornos de Natural Earth; las posiciones de los sitios son aproximadas.</figcaption>
+</figure>
+
+<section class="col">
+<p>Los catorce quipus del maní estaban amontonados en una esquina de una de las grandes salas del depósito.<sup class="fn"><a href="#n5" id="r5">5</a></sup> Los cinco primeros hallazgos salen de ellos.</p>
+</section>
+
+<hr>
+
+<section class="col" id="hallazgos">
+<h2>Los hallazgos</h2>
+
+<h3>Una lectura del archivo del maní</h3>
+
+<p>Antes de ir por partes, conviene ver el conjunto. De los catorce quipus del montón, diez entran en una misma cuenta: ocho forman la cadena y dos, UR269 y UR268, son libros laterales. Aquí está, de abajo hacia arriba.</p>
+</section>
+
+<figure id="fig-archivo">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" id="archivo-jugar">Recorrer la cuenta</button><span class="salida" id="archivo-salida"></span></div>
+    <svg id="svg-archivo" viewBox="0 0 960 470" role="img" aria-label="Diagrama del archivo del maní en tres niveles."></svg>
+  </div>
+  <figcaption><b>Figura 5.</b> El archivo del maní. El color de cada flecha indica el nivel de evidencia de esa relación. Los quipus en gris quedan fuera de la cuenta; UR272 y UR277 tienen una lectura propuesta, como listas de conteos pequeños, y UR276 y UR279 no tienen lectura.</figcaption>
+</figure>
+
+<section class="col">
+<p>En el nivel más bajo, UR270 anota en sus registros de nueve cuerdas cada entrega como nueve unidades, y cada unidad con dos partes, una en la cuerda colgante y otra en su subsidiaria. En el nivel siguiente hay dos resúmenes del mismo detalle. UR278 suma las dos partes de cada unidad y arma una tabla de nueve columnas. La pareja atada UR273A y UR273B suma, en cambio, todas las partes de un tipo y todas las del otro. En el nivel más alto, el libro, del que se conservan dos copias, UR275 y UR266, asienta el total de cada entrega, la cuota fija de 47 y el reparto del resto. Los dos resúmenes llegan al mismo libro por caminos distintos, como si se cuadrara la cuenta por filas y por columnas.</p>
+
+<p>De esos diez quipus tenemos 1461 cifras. Para unas mil sabemos qué papel cumplen en la cuenta, y cada una lleva en el repositorio su lectura, su enlace aritmético y su nivel de evidencia. El trabajo más cercano es el de Puruchuco, donde Urton y Brezine mostraron que unos quipus resumían a otros. Aquí intentamos seguir además cada número a lo largo de toda la cadena, en dos direcciones. Leímos completos los trabajos de Urton y Chu sobre Inkawasi, con sus suplementos, y el capítulo de Urton de 2017. No hemos podido leer tres trabajos de Alejandro Chu publicados en 2016 y 2018, y alguno podría adelantar parte de esto.</p>
+
+<p>Lo que no sabemos todavía es qué eran las nueve unidades, qué eran las dos partes ni en qué se medía el maní. Los hallazgos 3 y 5 tratan esas preguntas.</p>
+
+<h3 id="h1"><span class="h-num">Hallazgo 1</span>Una contabilidad en tres niveles</h3>
+
+<p class="parte"><span class="etq">Qué encontramos</span>UR278 es un quipu ordenado en grupos de nueve cuerdas, y cada grupo funciona como una fila de una tabla con nueve columnas. UR270 es otro quipu del mismo montón, y en sus registros de nueve cuerdas cada cuerda colgante tiene una subsidiaria. Si a cada cuerda de UR270 se le suma su subsidiaria, salen las celdas de UR278, columna por columna y en el mismo orden.</p>
+
+<p>En el primer grupo de UR270, la primera cuerda vale 178 y su subsidiaria 59, que suman 237. La segunda vale 200 y su subsidiaria 95, que suman 295. Así con las nueve.</p>
+
+<div class="fila-num">UR270, grupo 0, colgante + subsidiaria &nbsp; <span class="dif">237</span> · 295 · 138 · 198 · 201 · 153 · 106 · 138 · 187</div>
+<div class="fila-num">UR278, fila 21 &nbsp; <span class="dif">238</span> · 295 · 138 · 198 · 201 · 153 · 106 · 138 · 187</div>
+
+<p>Coinciden ocho de nueve, y la primera difiere en uno. Esa diferencia de uno va a reaparecer en el hallazgo 4. Aquí están los dos quipus, dibujados desde la transcripción. Pasa el cursor por una columna.</p>
+</section>
+
+<figure id="fig-celdas">
+  <div class="lienzo">
+    <div class="controles" id="celdas-tabs"></div>
+    <svg id="svg-celdas" viewBox="0 0 960 520" role="img" aria-label="Un grupo de UR270 y la fila correspondiente de UR278, cuerda por cuerda."></svg>
+  </div>
+  <figcaption><b>Figura 6.</b> Arriba, un grupo de UR270, con cada colgante y su subsidiaria. Abajo, la fila de UR278 que le corresponde. La tabla del medio hace la suma. Los botones cambian entre los cinco grupos de UR270 que coinciden con una fila de UR278 en seis o más de sus nueve celdas.</figcaption>
+</figure>
+
+<section class="col">
+<p>El segundo paso es sumar cada fila de UR278. La fila 0 da 415 + 415 + 353 + 415 + 415 + 415 + 414 + 413 + 363 = 3618, y ese 3618 es una de las cabeceras de UR266, un quipu que funciona como libro de resumen. Once totales de fila de UR278 aparecen como cabeceras de UR266, en el mismo orden. UR275, la otra copia del mismo libro, tiene siete en el mismo orden. La figura de abajo une cada fila con su destino. Que las líneas no se crucen es lo que quiere decir «en el mismo orden».</p>
+</section>
+
+<figure id="fig-cadena">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" id="cadena-jugar">Llevar los totales al libro</button><span class="salida" id="cadena-salida"></span></div>
+    <svg id="svg-cadena" viewBox="0 0 960 420" role="img" aria-label="Totales de fila de UR278 unidos a las cabeceras de UR266."></svg>
+  </div>
+  <figcaption><b>Figura 7.</b> A la izquierda, los totales de las 26 filas de UR278. En el medio, la cabecera de UR266 donde aparece cada uno, y a la derecha la de UR275. En verde, coincidencia exacta; en ocre, diferencia de uno; en rojo, diferencias mayores; en gris, filas sin destino conservado. La única línea que se cruza es la de la fila 29, que apunta a la misma cabecera que la fila 1 y podría ser un registro duplicado.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Antecedentes</span>Desarrolla lo que vieron Urton y Chu, que habían notado que UR278 estaba organizado de a nueve y que UR266 y UR275 eran copias. Es una jerarquía del mismo tipo que la que Urton y Brezine mostraron en Puruchuco.</p>
+
+<p class="parte"><span class="etq">Cómo lo probamos</span>En cinco de los doce grupos comparables coinciden entre seis y nueve de las nueve celdas. Si se usan solo las cuerdas colgantes, sin la subsidiaria, ningún grupo llega a seis, y el azar produce algo así 2 veces en 10 000. En el paso al libro, por azar se esperaría menos de una cabecera en el orden correcto, y hay once. Un segundo programa, escrito por separado, encontró lo mismo. El agente de la prueba a ciegas encontró las dos relaciones; la segunda, en una prueba donde dejamos fijada por escrito la regla, el azar de referencia y la corrección antes de abrir los datos.</p>
+
+<p>Con las reglas de la cadena se pueden predecir cuerdas. Si se esconde una cuerda cada vez y se calcula a partir de las demás, se acierta exactamente el 59 % de las que la cadena permite predecir, frente al 21 % de la mejor alternativa sin la cadena.</p>
+
+<p class="parte"><span class="etq">Qué tan seguros estamos</span><span class="ev ev-d">Bien apoyado</span>, para la aritmética de la cadena. Hay un límite que conviene decir. En las cuerdas que no usamos para descubrir las reglas, la ventaja predictiva casi desaparece, 18 % frente a 15 %. Lo que mejor resiste es la aritmética de la cadena, no todo lo que dice cada quipu.</p>
+
+<p class="parte"><span class="etq">Qué falta</span>Una relectura de los quipus hecha por otra persona. Las dos bases de datos, en Inkawasi, vienen de la misma lectura, y una segunda lectura independiente es lo que más falta en todo este trabajo.<sup class="fn"><a href="#n6" id="r6">6</a></sup> También ayudaría encontrar otra tabla de nueve columnas en Inkawasi, de ají o de frijol. Si tiene el mismo perfil que UR278 (hallazgo 3), las nueve unidades no serían propias del maní.</p>
+
+<h3 id="h2"><span class="h-num">Hallazgo 2</span>Un segundo camino al mismo libro</h3>
+
+<p class="parte"><span class="etq">Qué encontramos</span>En el mismo montón hay una pareja de quipus atados, UR273A y UR273B. Si se suman registro por registro, ocho de dieciocho sumas coinciden con cabeceras de los libros. La tabla de UR278 suma por unidades y la pareja suma por partes, y las dos llegan a los mismos totales.</p>
+
+<p>La pareja se completa con sus copias. Cuando un registro de UR273A está en blanco, su copia UR274A ocupa su lugar, y la suma vuelve a dar la cabecera en 3 de 4 casos. Las copias llevan además sus propias cuotas fijas, 30 en una y 17 en la otra, que juntas dan el 47 del libro. Esto último es solo una propuesta.</p>
+</section>
+
+<figure class="texto" id="fig-ab">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" id="ab-jugar">Sumar las dos mitades</button><span class="salida" id="ab-salida"></span></div>
+    <div style="overflow-x:auto"><table class="tabla" id="tabla-ab"></table></div>
+  </div>
+  <figcaption><b>Figura 8.</b> La cabecera de cada registro de UR273A y de UR273B, alineadas por número de grupo. En verde, las sumas que aparecen como cabeceras en los libros del archivo. En g6, la cuerda de UR273A es la cuota fija de 30 y no una cabecera, pero el registro entra en la prueba, que compara los 18.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Antecedentes</span>Da evidencia a una observación de Urton y Chu, que notaron que las cifras de UR273B se parecían a las de los libros.</p>
+
+<p class="parte"><span class="etq">Cómo lo probamos</span>Por azar se esperaría poco más de una coincidencia, y hay ocho. El resultado resiste cuando se divide la pareja en dos mitades y se prueba cada una por separado. Se debilita cuando se cuentan todas las formas posibles de alinear las dos mitades,<sup class="fn"><a href="#n7" id="r7">7</a></sup> y en la prueba a ciegas quedó entre los cinco primeros de 132 600 tríos posibles, sin pasar la corrección.</p>
+
+<p class="parte"><span class="etq">Qué tan seguros estamos</span><span class="ev ev-a">Apoyado</span> La suma de las cuotas es <span class="ev ev-p">propuesta</span>.</p>
+
+<p class="parte"><span class="etq">Qué falta</span>Una relectura independiente de UR273A, UR273B y UR274A. Si se mantienen siete de las ocho sumas o más, se refuerza; si se rompen tres o más, cae. Hay además una cuerda concreta, la 104 de UR266. Hoy vale 1737, que es justo una de las sumas, pero Urton la publicó como 1732, y contar las vueltas de su último nudo lo decide. Por último, de los 34 quipus excavados en Inkawasi solo 29 están descritos. Si entre los otros cinco hay otra pareja atada, predecimos que sus sumas darán cabeceras de otro libro del archivo, UR269.</p>
+
+<h3 id="h3"><span class="h-num">Hallazgo 3</span>Nueve columnas fijas</h3>
+
+<p class="parte"><span class="etq">Qué encontramos</span>Las columnas de la tabla son siempre las mismas nueve, en el mismo orden, en UR270 y en UR278. Son además muy parejas, porque cada columna recibe más o menos lo mismo en cada fila. Pero no son iguales. Bajan en conjunto de mayor a menor, con las dos primeras como las mayores y las dos últimas como las menores, y esas proporciones se mantienen de fila en fila.</p>
+</section>
+
+<figure class="texto" id="fig-perfil">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" id="perfil-jugar">Apilar las filas</button><button class="boton" id="perfil-bamba" aria-pressed="false">Comparar con Bambamarca</button></div>
+    <svg id="svg-perfil" viewBox="0 0 640 330" role="img" aria-label="Valor de cada columna de UR278 en cada fila, y su promedio."></svg>
+  </div>
+  <figcaption><b>Figura 9.</b> Cada línea fina es una fila completa de UR278; las barras son el promedio de cada columna. El botón superpone, en gris y a la misma escala media, los tributarios de las nueve pachacas de Bambamarca según la visita de 1567.</figcaption>
+</figure>
+
+<section class="col">
+<p>¿Qué grupo de nueve recibe cantidades parejas pero ordenadas? No parece una población, porque las poblaciones varían mucho más, ni un calendario, porque no hay ciclos. Una posibilidad es que sean nueve pachacas, las unidades de unas cien familias en que se dividía una guaranga, de mil. Buscamos listas coloniales de nueve unidades y cotejamos nueve. La única que baja en conjunto de mayor a menor como UR278 es la de las nueve pachacas de la guaranga de Bambamarca, en Cajamarca, según la visita de 1567 que publicó Martti Pärssinen, aunque Bambamarca es bastante más desigual.<sup class="fn"><a href="#n8" id="r8">8</a></sup></p>
+
+<p class="parte"><span class="etq">Antecedentes</span>Desarrolla la observación de Urton y Chu de que UR278 está organizado en grupos de nueve.</p>
+
+<p class="parte"><span class="etq">Cómo lo probamos</span>Hay 362 880 maneras de ordenar nueve columnas, y en los cinco registros que se pueden comparar la que mejor encaja entre UR270 y UR278 es el mismo orden. Para medir lo parejas que son, las comparamos con todos los grupos de nueve cuerdas del corpus. De los ocho grupos más parejos entre los 650 quipus, siete están en UR278. El orden de mayor a menor se probó contra el azar, y las proporciones de las columnas predicen filas que no se usaron para calcularlas. El parecido con Bambamarca tiene una probabilidad por azar de 14 en 1000, ya corregida por haber probado nueve listas.</p>
+
+<p class="parte"><span class="etq">Qué tan seguros estamos</span>El orden fijo, <span class="ev ev-d">bien apoyado</span>. El perfil y el parecido con Bambamarca, <span class="ev ev-a">apoyados</span>. La lectura como pachacas, <span class="ev ev-p">propuesta</span>.</p>
+
+<p class="parte"><span class="etq">Qué falta</span>Tres cosas de archivo. Ver el manuscrito de la visita de Bambamarca de 1567 y confirmar que las pachacas aparecen en ese orden; si aparecen en otro, el parecido es obra del editor y cae. Encontrar una lista de pachacas de Lunahuaná o del Guarco, que hoy no conocemos; si alguna guaranga del valle tenía nueve pachacas de tamaños moderadamente desiguales, la idea se refuerza mucho. Y revisar otras listas coloniales de nueve unidades leídas de quipus, porque si muchas bajan de mayor a menor, el parecido con Bambamarca deja de ser especial.</p>
+
+<h3 id="h4"><span class="h-num">Hallazgo 4</span>Los errores de los contadores</h3>
+
+<p class="parte"><span class="etq">Qué encontramos</span>En el paso de UR278 al libro, de las 18 filas que tienen destino, 11 coinciden exactamente y 7 no. Las diferencias son estas.</p>
+
+<div class="fila-num">+6 · +100 · +1 · −1 · +1 · −1 · −1</div>
+
+<p>No van todas hacia el mismo lado. Si fueran una regla, como redondear o descontar algo, tendrían el mismo signo o el mismo tamaño. Seis de las siete caen en las unidades, que se marcan con el nudo largo, y eso es lo que se espera si alguien contó mal las vueltas de un nudo.</p>
+
+<p>Un caso sirve de ejemplo. La primera celda de la fila 21 de UR278 es la cuerda 180. Tiene dos nudos en las centenas, tres en las decenas, un nudo largo de siete vueltas y una figura de ocho, y suma 238. UR270 da 237 para esa celda. Además, la fila 21 suma 1654 y el libro dice 1653. Con seis vueltas en lugar de siete, las dos cuentas cerrarían. Un solo nudo explica las dos diferencias. Pruébalo.</p>
+</section>
+
+<figure class="texto" id="fig-p180">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" data-v="7" aria-pressed="true">7 vueltas, como está transcrito</button><button class="boton" data-v="6" aria-pressed="false">6 vueltas</button></div>
+    <svg id="svg-p180" viewBox="0 0 640 300" role="img" aria-label="La cuerda 180 de UR278 con su nudo largo de 7 o 6 vueltas."></svg>
+  </div>
+  <figcaption><b>Figura 10.</b> La cuerda 180 de UR278, a escala. Con seis vueltas, la celda coincide con UR270 y el total de la fila coincide con el libro.</figcaption>
+</figure>
+
+<section class="col">
+<p>Las dos copias del libro, UR266 y UR275, tienen los mismos errores. Eso sugiere que ninguna se copió directamente de la tabla, sino que las dos vienen de un paso intermedio que no se conservó, un quipu perdido entre la tabla y el libro.</p>
+
+<p class="parte"><span class="etq">Cómo lo probamos</span>Comparamos dónde caen las diferencias con dónde caerían si los errores se repartieran al azar entre las posiciones de los nudos. Que seis de siete caigan en las unidades pasa por azar unas 7 veces en 1000. Son pocos casos, así que la cifra es aproximada.</p>
+
+<p class="parte"><span class="etq">Qué tan seguros estamos</span><span class="ev ev-a">Apoyado</span>, con pocos casos. El quipu perdido es <span class="ev ev-p">propuesto</span>.</p>
+
+<p class="parte"><span class="etq">Qué falta</span>Contar vueltas en el objeto. Predecimos que el nudo largo de la cuerda 180 tiene seis vueltas; si tiene siete y está intacto, la diferencia ya estaba en el registro original. Lo mismo vale para las filas 13, 17, 19 y 29. La diferencia de +6 de la fila 8 es de otro tipo, y ahí predecimos que a la cuerda 77 le falta un nudo largo de seis vueltas, porque es la única de su fila sin nudo de unidades.</p>
+
+<h3 id="h5"><span class="h-num">Hallazgo 5</span>Cuánto se guardaba</h3>
+
+<p class="parte"><span class="etq">Qué encontramos</span>Si los quipus cuentan producto, falta saber en qué unidad. Hay dos candidatas que los datos no separan. Una es la carga, lo que llevaba una persona o una llama, unos 23 kilos. La otra es la fanega, la medida castellana, unos 56 litros, que de maní en vaina son unos 16 kilos. Con cualquiera de las dos, el total del archivo da del orden de 900 a 1400 toneladas.</p>
+</section>
+
+<figure class="texto" id="fig-ton">
+  <div class="lienzo"><svg id="svg-ton" viewBox="0 0 640 150" role="img" aria-label="Escala de 0 a 2000 toneladas con el rango de 900 a 1400 sombreado."></svg></div>
+  <figcaption><b>Figura 11.</b> El rango estimado para todo lo que registra el archivo. Es un orden de magnitud y no una cifra.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Antecedentes</span>Desarrolla la propuesta de Urton y Chu de que en Inkawasi había unidades contables estandarizadas para los productos agrícolas.</p>
+
+<p class="parte"><span class="etq">Cómo lo probamos</span>Llevamos los totales de los libros a peso con cada unidad posible y los comparamos con la capacidad de los depósitos de Inkawasi. La capacidad solo descarta unidades muy pequeñas.</p>
+
+<p class="parte"><span class="etq">Qué tan seguros estamos</span><span class="ev ev-p">Propuesto</span> Al principio escribimos 1390 toneladas, y era demasiada precisión para lo que sabemos.</p>
+
+<p class="parte"><span class="etq">Qué falta</span>Un dato independiente sobre la unidad, como un documento colonial que diga en qué se medían las entregas en la zona, o la medida de una de las salas donde se guardaba el producto.</p>
+
+<h3>Fuera de Inkawasi</h3>
+
+<p>Los hallazgos que siguen salen de mirar los 650 quipus a la vez, buscando relaciones entre quipus y formatos que se repiten.</p>
+
+<h3 id="h6"><span class="h-num">Hallazgo 6</span>Copias de un museo a otro</h3>
+
+<p class="parte"><span class="etq">Qué encontramos</span>Los quipus que sobrevivieron se dispersaron por museos de Europa y América. Encontramos 25 pares de copias, algunos ya conocidos y otros que no aparecen en la literatura que revisamos. HP055, que está en Lima, y UR1084, que está en París, comparten 121 de 142 cuerdas con el mismo valor.</p>
+
+<p>Copiar era una práctica de archivo. Dentro de un mismo sitio, la probabilidad de que dos quipus sean copia uno del otro es casi 18 veces mayor que entre sitios. En los archivos que conocemos casi completos, entre el 14 % y el 20 % de los quipus tiene una copia.</p>
+</section>
+
+<figure id="fig-copias">
+  <div class="lienzo">
+    <svg id="svg-copias" viewBox="0 0 960 560" role="img" aria-label="Red de copias entre quipus, agrupados por el lugar donde se guardan."></svg>
+    <div class="salida" id="copias-salida" style="min-height:2.6em;margin-top:6px">Pasa el cursor o toca una línea.</div>
+  </div>
+  <figcaption><b>Figura 12.</b> Pares de copias, con los quipus agrupados por el lugar donde se guardan hoy. Cada línea es un par; el grosor indica cuántas cuerdas coinciden y el color, el nivel de evidencia de la copia. La red usa la revisión más reciente del repositorio, que incluye algunos pares más que los 25 del primer análisis.</figcaption>
+</figure>
+
+<section class="col">
+<p>Las copias son de varios tipos. Algunas son duplicados; otras copian solo un tramo o desglosan distinto; y hay extractos. UR1104, que está en Berlín y viene de Pachacamac, copia en orden las cabeceras de nueve registros de otro quipu, UR234. Siete son exactas, una tiene dos cifras invertidas, 3102 por 3012, y la sexta repite una cabecera que en UR234 hoy está rota. Quien hizo el extracto copió también la cuerda que ahora está dañada, y, si la copia es fiel, conserva lo que decía.</p>
+</section>
+
+<figure class="texto" id="fig-extracto">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" id="extracto-jugar">Hacer el extracto</button></div>
+    <svg id="svg-extracto" viewBox="0 0 640 190" role="img" aria-label="Las nueve cabeceras de UR234 y su extracto en UR1104."></svg>
+  </div>
+  <figcaption><b>Figura 13.</b> Arriba, las cabeceras de nueve registros de UR234; la sexta está rota. Abajo, UR1104. La tercera tiene las mismas cifras en otro orden, y la sexta conserva el valor que se perdió en UR234.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Antecedentes</span>Amplía el trabajo de Urton (2005) sobre cuentas duplicadas dentro de un mismo archivo, que él relacionó con lo que cuenta Garcilaso sobre varios quipucamayos llevando los mismos registros. Aquí se mide en todo el corpus y entre museos.</p>
+
+<p class="parte"><span class="etq">Cómo lo probamos</span>Comparamos cada quipu con todos los demás buscando tramos de valores repetidos en el mismo orden, con un método que viene del alineamiento de secuencias de ADN. Cada par se probó contra el azar y se corrigió por el número enorme de pares posibles. Para HP055 y UR1084 la probabilidad por azar es prácticamente cero, y sus largos de cuerda no se parecen, lo que apoya que sean dos objetos distintos y no un mismo quipu registrado dos veces, aunque falta comprobarlo en los objetos.<sup class="fn"><a href="#n9" id="r9">9</a></sup></p>
+
+<p class="parte"><span class="etq">Qué tan seguros estamos</span>Las copias dentro de un mismo archivo, <span class="ev ev-d">bien apoyado</span>. Las copias entre museos, <span class="ev ev-a">apoyado</span>, porque falta verificar la identidad física y la procedencia. La copia como práctica de archivo, <span class="ev ev-a">apoyado</span>. UR1104 como extracto, <span class="ev ev-a">apoyado</span>, aunque lo encontramos mirando los datos y hace falta confirmarlo.</p>
+
+<p class="parte"><span class="etq">Qué falta</span>Que los museos confirmen que cada par son objetos físicamente distintos, con largos y torsiones diferentes. Y en Berlín, mirar la cabecera rota de UR234. Predecimos que vale 2016, el número que conserva el extracto.</p>
+
+<h3 id="h7"><span class="h-num">Hallazgo 7</span>Una tabla de tres niveles en la costa sur</h3>
+
+<p class="parte"><span class="etq">Qué encontramos</span>KH0049, que está en el Museo Nacional en Lima, es una tabla de tres niveles en bloques de 18 cuerdas. Un bloque es la suma de otros dos en 14 de 18 posiciones, y uno de esos es a su vez la suma de otros tres en 7 de 18. Un quipu de Gotemburgo, UR122, es una copia parcial de la parte de subtotales. En los dos aparece la misma discrepancia, 15652 donde la suma da 15649, que por eso probablemente viene del original.</p>
+</section>
+
+<figure id="fig-kh">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" data-s="0" aria-pressed="false">B1 + B2 = B0</button><button class="boton" data-s="1" aria-pressed="false">B3 + B4 + B5 = B1</button><button class="boton" data-s="2" aria-pressed="false">La copia de Gotemburgo</button></div>
+    <div style="overflow-x:auto"><svg id="svg-kh" viewBox="0 0 960 330" role="img" aria-label="Los seis bloques de 18 cuerdas de KH0049."></svg></div>
+  </div>
+  <figcaption><b>Figura 14.</b> Las 108 cuerdas colgantes de KH0049, en seis bloques de 18. Los botones marcan las posiciones donde la suma cuadra exactamente, y las cuerdas de UR122 que copian cuatro de los seis bloques.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Antecedentes</span>El Khipu Field Guide ya listaba algunas sumas de KH0049, sin describir la tabla ni la copia. No hemos podido leer dos trabajos que podrían haberla descrito, Ascher y Ascher 1978 y Pereyra Sánchez 2011.</p>
+
+<p class="parte"><span class="etq">Cómo lo probamos</span>Barajamos las posiciones dentro de los bloques. En los datos barajados, lo máximo que apareció fue 6 de 18 para la primera suma y 4 de 18 para la segunda. El azar produce algo como lo observado 5 veces en 100 000.</p>
+
+<p class="parte"><span class="etq">Qué tan seguros estamos</span><span class="ev ev-a">Apoyado</span> Lo encontramos mirando los datos, así que necesita confirmación con datos nuevos.</p>
+
+<p class="parte"><span class="etq">Qué falta</span>En Gotemburgo, ver si las cuerdas de UR122 que hoy valen cero están rotas o sueltas, como predecimos. En Lima, releer la cuerda 19 de KH0049, donde predecimos 15652.</p>
+
+<h3 id="h8"><span class="h-num">Hallazgo 8</span>Tablas escritas con dos colores alternados</h3>
+
+<p class="parte"><span class="etq">Qué encontramos</span>En algunos quipus las cuerdas alternan dos colores de forma regular, A, B, A, B. Lo leemos como una tabla de dos columnas escrita intercalada, con una columna por color. Hay 19 quipus así en el corpus, y en dos de ellos, UR040 y UR167, el patrón es muy claro, 26 de 33 posiciones y 30 de 37.</p>
+</section>
+
+<figure class="texto" id="fig-alt">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" id="alt-jugar" aria-pressed="false">Separar por color</button></div>
+    <svg id="svg-alt" viewBox="0 0 640 260" role="img" aria-label="Las 33 cuerdas colgantes de UR040 alternando blanco y marrón claro."></svg>
+  </div>
+  <figcaption><b>Figura 15.</b> Las 33 cuerdas colgantes de UR040 con sus colores transcritos, blanco (W) y marrón claro (AB). Al separarlas, cada par se vuelve una fila de una tabla de dos columnas.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Cómo lo probamos</span>Barajamos los colores de las cuerdas y medimos cuánto se repetía un patrón de dos. Lo buscamos primero en la mitad de los quipus y lo confirmamos en la otra mitad, que no habíamos mirado. Entre 180 quipus que no tenían ninguna estructura conocida, fue la única estructura nueva que pasó esa confirmación.</p>
+
+<p class="parte"><span class="etq">Qué tan seguros estamos</span>El formato en UR040 y UR167, <span class="ev ev-d">bien apoyado</span>. Sus valores son casi todos pequeños, así que vemos cómo está armada la tabla pero no qué registra.</p>
+
+<p class="parte"><span class="etq">Qué falta</span>Otra lectura de UR040, en el Peabody, y de UR167, en el Museo Americano de Historia Natural, que confirme los mismos colores en las mismas posiciones.</p>
+
+<h3 id="h9"><span class="h-num">Hallazgo 9</span>Cada quipu tiene su propia clave de colores</h3>
+
+<p class="parte"><span class="etq">Qué encontramos</span>Dentro de cada quipu, el color funciona como formato: marca la columna, el grupo o la cuerda de total, como el formato de celda en una planilla. En 165 de 222 quipus el color sigue la posición de la cuerda mucho más de lo que daría el azar. Pero lo que significa cada color cambia de un quipu a otro. Cada quipu parece traer su propia clave, como una tabla cuya leyenda no se conservó.</p>
+
+<p class="parte"><span class="etq">Antecedentes</span>Da evidencia a la idea, ya sugerida en la literatura, de que los colores funcionaban como claves locales. Hasta ahora no se había medido contra el azar en todo el corpus.</p>
+
+<p class="parte"><span class="etq">Cómo lo probamos</span>Por azar se esperarían unos 20 quipus de 403 en que el color va con el tamaño del número, y hay 167; con un azar que respeta los grupos de cuerdas, quedan 103. Pero esa señal es de posición: comparando la misma posición en grupos distintos quedan 10 de 205, el nivel del azar. Para ver si un color significa lo mismo en quipus distintos, comparamos órdenes y secuencias de colores entre quipus y entre sitios, y no dieron más coincidencias que el azar.</p>
+
+<p class="parte"><span class="etq">Qué tan seguros estamos</span>Que el color marca columna o grupo dentro de cada quipu, <span class="ev ev-a">apoyado</span>. Que además separe categorías por sí mismo, <span class="ev ev-p">propuesto</span>. Sobre la falta de un código común, ver <a href="#propuestas">la sección de propuestas</a>.</p>
+
+<p class="parte"><span class="etq">Qué falta</span>Los nombres de los colores dependen de quién transcribe. UR1107 y UR237 resultaron ser el mismo quipu registrado dos veces. Los valores coinciden en 23 de las 26 cuerdas con nudos, y las otras tres son el mismo nudo leído en otra posición decimal, pero las etiquetas de color no coinciden en ninguna cuerda.</p>
+</section>
+
+<figure class="texto" id="fig-1107">
+  <div class="lienzo"><svg id="svg-1107" viewBox="0 0 640 210" role="img" aria-label="Las mismas cuerdas de un quipu en dos transcripciones con etiquetas de color distintas."></svg></div>
+  <figcaption><b>Figura 16.</b> Un mismo quipu de Berlín transcrito dos veces, como UR1107 y como UR237. Cada columna es una cuerda; arriba y abajo, el color y el valor que anotó cada transcripción. Los valores casi siempre coinciden y los colores no.</figcaption>
+</figure>
+
+<section class="col">
+<p>Una relectura de colores con un estándar común, o con fotografías calibradas, permitiría repetir la comparación entre quipus con más confianza.</p>
+
+<h3 id="h10"><span class="h-num">Hallazgo 10</span>Maneras recurrentes de armar una tabla</h3>
+
+<p class="parte"><span class="etq">Qué encontramos</span>Hay formatos que se repiten en quipus de distintos lugares. La cuerda superior suma el grupo que tiene inmediatamente antes. Una fila de cuerdas va seguida de una cuerda suelta con su total. Y la cuerda mayor abre el grupo.</p>
+</section>
+
+<figure class="texto" id="fig-formatos">
+  <div class="lienzo"><svg id="svg-formatos" viewBox="0 0 640 250" role="img" aria-label="Tres esquemas de formatos de tabla."></svg></div>
+  <figcaption><b>Figura 17.</b> Esquemas de los tres formatos, con números de ejemplo. El total va marcado en índigo.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Antecedentes</span>Desarrolla lo que observó Locke, que las cuerdas superiores suman a otras. Aquí se ve que suman el grupo anterior y no uno cualquiera.</p>
+
+<p class="parte"><span class="etq">Cómo lo probamos</span>La cuerda superior suma el grupo anterior en 23 de 72 casos, cuando el azar daría 2 o 3. La fila con total suelto aparece 51 veces frente a 15 esperadas, en siete quipus distintos. La cuerda mayor abre el grupo en el 26 % de los grupos, frente al 15 % esperado, sin contar Inkawasi.</p>
+
+<p class="parte"><span class="etq">Qué tan seguros estamos</span>Los dos primeros, <span class="ev ev-d">bien apoyados</span> en los quipus donde se midieron, sin que eso diga cuán frecuentes son en el corpus. El tercero, <span class="ev ev-a">apoyado</span>.</p>
+
+<p class="parte"><span class="etq">Qué falta</span>Una búsqueda de antecedentes más fina y probar los formatos en quipus que no estén en las bases.</p>
+
+<h3 id="h11"><span class="h-num">Hallazgo 11</span>Un formulario con reparto fijo</h3>
+
+<p class="parte"><span class="etq">Qué encontramos</span>En el Banco Central de Reserva del Perú hay cinco quipus atados, UR053A a UR053E. Cada uno reparte sus cantidades en cuerdas de colores fijos, una blanca, una roja y, en la mayoría, una de un tercer color, que en UR053B cuelga de la roja como subsidiaria. El reparto se mantiene cerca de 4 a 1 a 1 en los cinco, aunque sus totales van de 1200 a 36 800.</p>
+</section>
+
+<figure class="texto" id="fig-053">
+  <div class="lienzo"><svg id="svg-053" viewBox="0 0 640 230" role="img" aria-label="Reparto blanco, rojo y tercer color en los cinco quipus UR053."></svg></div>
+  <figcaption><b>Figura 18.</b> Qué parte del total de cada quipu va a las cuerdas blancas (W), rojas (R) y marrón claro (AB), en cada uno de los cinco quipus. Los totales van de 1200 a 36 800.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Antecedentes</span>Desarrolla la descripción de Urton (2017), que ya había notado el mismo vocabulario de colores en los cinco quipus.</p>
+
+<p class="parte"><span class="etq">Cómo lo probamos</span>En UR053D, la cuerda blanca es la mayor del trío en 23 de 23 tríos, y en UR053A, en 13 de 14. En los dos casos, el azar no llega a eso.</p>
+
+<p class="parte"><span class="etq">Qué tan seguros estamos</span><span class="ev ev-a">Apoyado</span> Es un segundo caso, independiente de Inkawasi, de un formulario con una clave de reparto estable.</p>
+
+<p class="parte"><span class="etq">Qué falta</span>Una relectura de colores en los cinco, porque si el rojo resultara ser dos colores distintos con repartos diferentes, el resultado cambia. Y buscar en el Banco Central otros quipus del mismo hallazgo.</p>
+
+<h3 id="h12"><span class="h-num">Hallazgo 12</span>Los quipus como sistema de registros</h3>
+
+<p class="parte"><span class="etq">Qué encontramos</span>Visto en conjunto, los quipus que podemos leer se parecen menos a un texto y más a lo que hoy haríamos con una planilla. Son tablas de filas y columnas, formularios que reparten una cantidad siempre en las mismas proporciones, listas con sus totales y padrones de personas. Algunos archivos tenían formatos propios. Los documentos se copiaban, se resumían unos a otros y se guardaban juntos, como en un sistema de libros contables. Los primeros archivos contables de Mesopotamia tienen esos mismos rasgos, con jerarquías de documentos, formatos fijos para cada tipo de registro y copias, aunque allí lo que se copiaba eran listas de palabras, no cuentas.</p>
+</section>
+
+<figure id="fig-atlas">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" id="atlas-orden" aria-pressed="false">Agrupar por procedencia</button></div>
+    <svg id="svg-atlas" viewBox="0 0 960 420" role="img" aria-label="Mosaico de 651 quipus coloreados por tipo de registro."></svg>
+    <div class="leyenda" id="atlas-leyenda" style="border:0;padding:6px 0 0;margin:0"></div>
+  </div>
+  <figcaption><b>Figura 19.</b> Los 651 quipus del corpus, uno por cuadrito, coloreados por el tipo de registro que les asigna el atlas. Los colores llenos son de confianza alta o media; los pálidos, de confianza baja; los grises, sin tipo reconocible. Al agrupar por procedencia, se ve que cada sitio tiene sus tipos.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Antecedentes</span>Que los quipus eran registros administrativos se sabe desde Locke. María Contreras agrupó en 2026 los quipus por sus rasgos estructurales y encontró que los grupos se relacionan en parte con la procedencia, aunque el corpus arrastra el sesgo del coleccionismo. Este hallazgo coincide con el suyo y le añade una clasificación por la función que cumple cada quipu.</p>
+
+<p class="parte"><span class="etq">Cómo lo probamos</span>Los quipus se comportan como datos y no como texto. En un texto, cuanto más largo es, más palabras nuevas aparecen, y lo hacen a un ritmo conocido; en los quipus el repertorio se agota mucho antes, como en una tabla donde se repiten los mismos valores. Para clasificar el corpus escribimos reglas explícitas para cada tipo de registro y las probamos primero con ocho quipus de tipo conocido, y acertaron en los ocho. Después barajamos los tipos entre quipus para ver si dependían del sitio de origen. Dependen bastante más de lo que daría el azar (<i>p</i> = 0,005).<sup class="fn"><a href="#n10" id="r10">10</a></sup></p>
+
+<p class="parte"><span class="etq">Qué tan seguros estamos</span>Que se comportan como datos y que cada archivo tenía sus formatos, <span class="ev ev-a">apoyado</span>. La comparación con una planilla o con un sistema de libros contables es una analogía, <span class="ev ev-p">propuesta</span>.</p>
+
+<p class="parte"><span class="etq">Qué falta</span>Hoy podemos reconocer el tipo de documento en un tercio de los quipus, que reúnen la mitad de las cuerdas. Otro 23 % tiene un tipo probable, pero con poca confianza. El 28 % son listas cortas de números en las que estos métodos no detectan estructura, y que pueden ser cualquier cosa. El 17 % restante no tiene datos suficientes. Cada quipu nuevo que se transcriba, pasado por el <a href="#lector">lector de quipus</a>, dirá si encaja en alguno de los tipos o si hace falta uno nuevo.</p>
+
+<p class="pie">La <a href="https://github.com/dariodemh/quipus/blob/main/analisis/paquete_revision/tabla_hallazgos.csv">tabla completa del repositorio</a> tiene más de 60 hallazgos y correcciones, cada uno con su estadístico y el archivo que lo produce.</p>
+</section>
+
+<hr>
+
+<section class="col" id="propuestas">
+<h2>Propuestas que estos datos no apoyan</h2>
+
+<p>Los quipus llevan más de un siglo estudiándose, y hay muchas propuestas sobre lo que contienen. Algunas las pusimos a prueba con el mismo método, comparando con el azar, y en varias lo que se observa en los datos se parece a lo que el azar produce por sí solo. Eso no quiere decir que la propuesta sea falsa. Quiere decir que estos datos no la apoyan, y en cada caso decimos qué haría falta para que sí.</p>
+
+<p>Algunas de estas propuestas son de los mismos investigadores cuyas bases de datos usamos. Su trabajo es el punto de partida del nuestro.</p>
+
+<h3>Cuántos quipus tienen sumas</h3>
+
+<p>En 2024, Medrano y Khosla publicaron que al menos el 74 % de los quipus tiene alguna de las relaciones que describieron los Ascher, casi siempre sumas internas, cuerdas cuyo valor es la suma de otras.</p>
+
+<blockquote>«We find that Ascher formulae characterize at least 74% of khipus, which exhibit meaningful arrangements of internal sums.»<cite>Medrano y Khosla, 2024</cite></blockquote>
+
+<p>La cuenta está bien hecha, aunque no todo ese 74 % son sumas: 447 quipus, el 69 %, las tienen entre cuerdas, y otros 35 entran por relaciones de otro tipo. Lo que hicimos fue preguntarnos cuántas de esas sumas aparecerían por casualidad. Un quipu largo, con muchos números, tiene muchísimas combinaciones posibles, y algunas suman por puro azar. Al barajar los valores, entre el 93 % y el 100 % de las sumas que detecta esa medida siguen apareciendo.</p>
+</section>
+
+<figure class="texto" id="fig-74">
+  <div class="lienzo"><svg id="svg-74" viewBox="0 0 640 220" role="img" aria-label="Sumas observadas frente a lo esperado por azar con tres formas de barajar."></svg></div>
+  <figcaption><b>Figura 20.</b> El tipo de suma más común que cuenta la medida. La línea es lo que encuentra en el corpus real; las barras, lo que encuentra en el corpus barajado de tres maneras distintas, con su rango del 95 %. Con dos de las tres, la cifra real cae dentro del rango, y con la tercera queda apenas por encima. Aun en ese caso, el azar produce el 98 % de esas sumas.</figcaption>
+</figure>
+
+<section class="col">
+<p>Eso no descarta que los quipus tengan sumas. La medida simplemente no las separa del azar. Calculamos que detectaría una contabilidad real solo una de cada cuatro veces. Con una prueba más estricta, unos 20 quipus, el 3 % del corpus, tienen una contabilidad interna que se puede verificar, y nueve de ellos son de Inkawasi.</p>
+
+<p class="parte"><span class="etq">Qué la rescataría</span>Una medida de sumas que se compare con el azar quipu por quipu.</p>
+
+<h3>Un código de colores común</h3>
+
+<p>Desde las crónicas se ha supuesto que los colores tenían significados fijos, compartidos por todos los quipucamayos. Nuestro hallazgo 9 dice que dentro de cada quipu el color sí marca columnas y grupos. Pero cuando comparamos qué colores van con qué tipo de números en quipus distintos, o en sitios distintos, las coincidencias son las del azar.</p>
+
+<p class="parte"><span class="etq">Qué la rescataría</span>Colores registrados con un estándar común. Hoy el mismo quipu transcrito dos veces no comparte las etiquetas de color, así que un código común podría estar escondido detrás de ese ruido.</p>
+
+<h3>Quipus que guardan sílabas</h3>
+
+<p>Algunos trabajos recientes proponen que ciertos quipus registran palabras, sílabas o nombres. El más reciente es el de Julien Sivan, de 2026, que aún no ha pasado revisión de pares. Pusimos a prueba la idea de varias maneras. Como vimos en el hallazgo 12, los quipus se comportan como tablas de datos y no como textos. Los quipus sin números usan entre 1 y 19 colores, cinco en la mediana, y un silabario necesita entre 60 y 120 signos. Y las predicciones que la propuesta de Sivan hace sobre sus propios ejemplos no se cumplen en los datos.<sup class="fn"><a href="#n11" id="r11">11</a></sup></p>
+
+<p class="parte"><span class="etq">Qué la rescataría</span>Un quipu con un repertorio de signos mucho más grande que los conocidos. Las cartas de Collata que estudió Sabine Hyland tienen 95 signos distintos, combinando color, fibra y torsión, y ningún quipu antiguo del corpus llega a ese número.</p>
+
+<h3>Calendarios</h3>
+
+<p>Se ha propuesto que algunos quipus registran calendarios. Buscamos números calendáricos (365, 360, meses de 29 o 30 días y otros) en totales, grupos y conteos de cuerdas, en 111 pruebas. Cinco dieron positivo, lo mismo que se espera por azar. Un caso concreto, UR006, sí tiene la estructura regular que describió Urton en 2017, y su lectura como calendario sigue siendo posible, pero los números por sí solos no la prueban.</p>
+
+<p class="parte"><span class="etq">Qué la rescataría</span>Un quipu cuyos grupos coincidan con un calendario conocido mejor que el azar, con una regla fijada antes de mirarlo.</p>
+
+<h3>El padrón del Santa</h3>
+
+<p>Medrano y Urton propusieron en 2018 que seis quipus del valle del Santa corresponden a un padrón colonial de 1670 de San Pedro de Corongo. La suma de las primeras cuerdas de los grupos da casi exactamente el tributo del padrón, pero ese objetivo se eligió después de ver los datos y el apoyo es débil. FitzPatrick propuso en 2024 una forma óptima de alinear los grupos de los quipus con las pachacas del padrón. Al comparar esa alineación con alineaciones al azar, la mayoría de los repartos al azar alcanzan el mismo ajuste, y el orden del padrón no se distingue en los quipus.</p>
+
+<p class="parte"><span class="etq">Qué la rescataría</span>Una prueba de la alineación con una regla fijada de antemano, o más quipus del mismo lote.</p>
+
+<h3>Un sistema sin cero</h3>
+
+<p>Que el espacio vacío en una posición es un cero se sabe desde Locke, y los Ascher lo describieron en detalle. En 2025, Florio y Overmann propusieron lo contrario, que el sistema inca no era posicional ni tenía cero. Para ponerlo a prueba medimos el hueco en 726 cuerdas con un cero en medio. El hueco mide casi exactamente lo que una posición con nudos: medido en bandas, la mediana es 0,96, y dentro de una misma cuerda el intervalo que salta el cero mide 1,89 veces la separación entre dos posiciones contiguas. Es lo que se espera de un sistema posicional, así que estos datos no apoyan la propuesta de Florio y Overmann.</p>
+</section>
+
+<figure class="texto" id="fig-cero">
+  <div class="lienzo"><svg id="svg-cero" viewBox="0 0 640 230" role="img" aria-label="Una cuerda de valor 1202 con el hueco de las decenas medido."></svg></div>
+  <figcaption><b>Figura 21.</b> Una cuerda real de valor 1202 (MM018, cuerda 29), con las posiciones de sus nudos en centímetros. Entre el millar y la centena hay 7 cm; entre la centena y las unidades, donde falta la decena, hay 14. El hueco ocupa una posición entera. Es un ejemplo; en las 201 cuerdas que permiten esta comparación, la mediana es 1,89.</figcaption>
+</figure>
+
+<section class="col">
+<p>Hay una salvedad. La transcripción asigna valores a los nudos en parte según su posición, así que la medida no es del todo independiente de lo que mide.</p>
+
+<p class="parte"><span class="etq">Qué la rescataría</span>Que, medidos sobre los objetos, los huecos no correspondan a una posición decimal. Predecimos que el hueco de un cero mide entre 0,8 y 1,1 veces el ancho de una posición.</p>
+
+<h3>Una propuesta nuestra que falló</h3>
+
+<p>También pusimos a prueba ideas propias. Planteamos que dos quipus, UR050 y UR055, eran una pareja que registraba ceques, las líneas rituales que salían del Cusco. Escribimos tres predicciones antes de mirar los datos que las ponían a prueba, fallaron las tres y la retiramos.</p>
+</section>
+
+<hr>
+
+<section class="col" id="correcciones">
+<h2>Lo que corregimos en el camino</h2>
+
+<p>Nos equivocamos varias veces y lo dejamos todo anotado, porque un error escondido le quita valor a todo lo demás. Algunos ejemplos.</p>
+
+<ul>
+<li>Primero dijimos que el 74 % «no se distingue del azar». Era más de lo que podíamos afirmar. Ahora decimos que la medida no es informativa.</li>
+<li>La relación de UR278 con UR266 empezó en 16 coincidencias, bajó a 15 y quedó en 11, en parte porque cambiamos el criterio de qué contaba como coincidencia; la cifra que repitieron un segundo programa y la prueba a ciegas.</li>
+<li>La pareja UR273A y UR273B bajó del nivel más alto a apoyado. Otra pareja que creíamos que sumaba a un tercer quipu no pasó la prueba con datos nuevos y la retiramos.</li>
+<li>Las cuotas fijas y las copias de Inkawasi las tratamos como hallazgo propio hasta que leímos a Urton y Chu. Eran de ellos.</li>
+<li>Una coincidencia con el padrón del Santa nos daba una probabilidad de 0,006, pero el cálculo era circular. Bien hecho da 0,24.</li>
+<li>El tonelaje bajó de «1390 toneladas» a «del orden de 900 a 1400».</li>
+</ul>
+
+<p>La lista completa está en el repositorio.</p>
+</section>
+
+<hr>
+
+<section class="col" id="lector">
+<h2>El lector de quipus</h2>
+
+<p>Todo lo anterior quedó empaquetado en un programa, el lector de quipus (Khipu Reader). Se le da el nombre de un quipu del corpus, o una tabla con las cuerdas de un quipu nuevo, y devuelve su ficha de lectura.</p>
+
+<p>La ficha incluye un resumen físico, con cuántas cuerdas, grupos y colores tiene el quipu y cuántas están rotas, y cómo están escritos sus números. Dice si tiene sumas internas y si son más de las que daría el azar, si el color marca grupos o columnas, y si sigue alguno de los formatos que encontramos, como la tabla de dos colores alternados o la tabla con totales por columna. Muestra con qué otros quipus del corpus se relaciona, sea por copia o porque sus totales reaparecen en otro, y a qué tipo de registro se parece. Cada línea dice su nivel de evidencia y de qué parte del repositorio sale. Aquí están cuatro fichas reales, tal como las da el programa.</p>
+</section>
+
+<figure class="texto" id="fig-lector">
+  <div class="lienzo">
+    <div class="controles" id="lector-tabs"></div>
+    <div class="ficha" id="lector-ficha"></div>
+  </div>
+  <figcaption><b>Figura 22.</b> Salida del lector de quipus para cuatro quipus que aparecen en este ensayo. «Dato» es lo que dice la transcripción.</figcaption>
+</figure>
+
+<section class="col">
+<p>El lector corre sobre los 651 quipus del corpus sin errores y tiene una batería de 19 comprobaciones que falla si se rompe algún resultado conocido. También corre controles negativos, quipus con los valores barajados, para asegurarse de que no ve cosas donde no las hay.</p>
+
+<p>El lector no interpreta ni dice qué se contaba. Describe la estructura de un quipu y la confianza que merece cada afirmación. Lo pensamos sobre todo para quien transcriba un quipu nuevo y quiera saber en minutos si se parece a algo conocido.</p>
+</section>
+
+<hr>
+
+<section class="col" id="como">
+<h2>Cómo se hizo</h2>
+
+<p>Este trabajo lo hicieron agentes de inteligencia artificial (Claude, de Anthropic, y DeepSeek para algunas extracciones), dirigidos por una persona. Los agentes escribieron el código, corrieron las pruebas y se revisaron entre ellos. Una persona decidió qué preguntar, qué creer y qué publicar. Nadie ha revisado todavía este trabajo por pares.</p>
+
+<p>Todo está en <a href="https://github.com/dariodemh/quipus">github.com/dariodemh/quipus</a>. Hay dos programas de verificación que fallan si cambia alguno de los resultados principales, la lectura completa del archivo del maní con sus 1461 cifras, y el lector de quipus. Las predicciones de cada hallazgo, con más detalle y algunas más, están en el repositorio con la fecha en que se fijaron. Si alguna falla, lo diremos. Cualquier revisión o corrección es bienvenida en <a href="https://github.com/dariodemh/quipus/issues">los issues del repositorio</a>.</p>
+</section>
+
+<hr>
+
+<section class="col">
+<h2>Notas</h2>
+<ol class="notas">
+<li id="n1">El Khipu Field Guide trae 651 quipus. Usamos 650, porque UR044 es un duplicado de AS031/KH0033. En 57 789 de las 57 818 cuerdas, el valor es exactamente la suma de lo que aportan sus nudos. <a href="#r1">↩</a></li>
+<li id="n2">Holm controla la probabilidad de tener aunque sea un falso positivo en toda la familia de pruebas. Benjamini-Hochberg controla la proporción de falsos positivos entre los resultados que se declaran significativos. Cuando una regla se eligió mirando los datos, contamos también todas las reglas que podríamos haber elegido. <a href="#r2">↩</a></li>
+<li id="n3">UR068 → UR067 en 16 de 20 cuerdas y UR063 → UR068 en 14 de 20, con una probabilidad corregida por azar de 6 en 10 000 o menos. <a href="#r3">↩</a></li>
+<li id="n4">Se escondieron 597 cuerdas. Cuando el agente decía tener confianza alta acertó 21 de 23 veces, y la mejor alternativa acierta el 14,4 %. Dos corridas con un modelo más pequeño acertaron 33 de 45 y 35 de 46. Ninguna corrida encontró por su cuenta la segunda vía, la del hallazgo 2. <a href="#r4">↩</a></li>
+<li id="n5">Unidades estratigráficas 11 a 22 de la sala U.A. 04 del sector A. El texto del capítulo 9 de Urton (2017) dice U.A. 05 y su apéndice dice U.A. 04. <a href="#r5">↩</a></li>
+<li id="n6">En los quipus de Inkawasi, las dos bases coinciden en el 99,8 % de los valores, porque vienen de la misma transcripción. Las únicas lecturas independientes que tenemos en el corpus son tres casos de un mismo objeto transcrito dos veces, y dan un ruido de lectura de entre el 3 % y el 12 %. Son muy pocos casos. <a href="#r6">↩</a></li>
+<li id="n7">El equipo rojo recalculó la relación contando todas las alineaciones posibles, 58 782 pruebas. Corregida así, la probabilidad por azar sube a 0,015. <a href="#r7">↩</a></li>
+<li id="n8">La correlación entre el orden de las columnas de UR278 y el de las pachacas de Bambamarca es de −0,87. La variación relativa entre columnas es de 0,19 en UR278 y de 0,39 en Bambamarca. <a href="#r8">↩</a></li>
+<li id="n9">En casi todos los pares no se puede saber cuál es el original y cuál la copia. Hay dos casos donde sí, KH0049 y UR122 (hallazgo 7) y el quipu perdido entre UR278 y el libro (hallazgo 4), porque los dos documentos comparten un error. <a href="#r9">↩</a></li>
+<li id="n10">Antes de usar las reglas, probamos si un agrupamiento automático, sin reglas, recuperaba los mismos tipos. Recupera los tipos que se reconocen por su perfil, como las fichas de Nazca o los padrones del Santa, pero no los que se definen por una prueba, como una suma o un reparto. Por eso el atlas se basa en reglas explícitas. <a href="#r10">↩</a></li>
+<li id="n11">Los cuatro quipus que Sivan usa como ejemplos principales son de una misma familia, la de los quipus con canutos, que tiene series de largos de cuerda que no aparecen en otros quipus. Lo que la propuesta lee como un patrón general podría ser un rasgo de esa familia. <a href="#r11">↩</a></li>
+</ol>
+</section>
+
+<section class="col" id="referencias">
+<h2>Referencias</h2>
+<ul class="refs">
+<li>Ascher, M. y Ascher, R. (1981). <i>Code of the Quipu: A Study in Media, Mathematics, and Culture</i>. University of Michigan Press.</li>
+<li>Contreras, M. (2026). Structural Pattern Mining in Inka Khipus: Unsupervised Clustering, Provenance Classification, and a Computational Validation of the Santa Valley Match. Preprint, arXiv:2607.00185.</li>
+<li>FitzPatrick, M. (2024). New Insights on Cord Attachment and Social Hierarchy in Six Khipus from the Santa Valley, Peru. <i>Ethnohistory</i> 71(4): 443-469. <a href="https://doi.org/10.1215/00141801-11266328">DOI</a>.</li>
+<li>Florio, C. y Overmann, K. A. (2025). Inka numbers, khipu, and yupana: a reanalysis. <i>Journal of Cognition and Culture</i>. <a href="https://doi.org/10.1163/15685373-12340204">DOI 10.1163/15685373-12340204</a>.</li>
+<li>Hyland, S. (2017). Writing with Twisted Cords: The Inscriptive Capacity of Andean Khipus. <i>Current Anthropology</i>.</li>
+<li>Locke, L. L. (1912). The ancient quipu, a Peruvian knot record. <i>American Anthropologist</i> 14(2): 325-332.</li>
+<li>Medrano, M. y Khosla, A. (2024). How can data science contribute to understanding the khipu code? <i>Latin American Antiquity</i>. Datos: <a href="https://doi.org/10.5281/zenodo.10472429">Zenodo</a>.</li>
+<li>Medrano, M. y Urton, G. (2018). Toward the Decipherment of a Set of Mid-Colonial Khipus from the Santa Valley, Coastal Peru. <i>Ethnohistory</i> 65(1): 1-23. <a href="https://doi.org/10.1215/00141801-4260638">DOI</a>.</li>
+<li>Nissen, H. J., Damerow, P. y Englund, R. K. (1993). <i>Archaic Bookkeeping: Early Writing and Techniques of Economic Administration in the Ancient Near East</i>. University of Chicago Press.</li>
+<li>Open Khipu Repository, v2.1.0. <a href="https://doi.org/10.5281/zenodo.18025748">Zenodo</a>.</li>
+<li>Pärssinen, M. (1992). <i>Tawantinsuyu: The Inca State and Its Political Organization</i>. Societas Historica Finlandiae.</li>
+<li>Sivan, J. (2026). Reading the Inca Spreadsheet: How Khipu Knots Encode a Syllabic Data Language. Preprint.</li>
+<li>Urton, G. (2005). Khipu Archives: Duplicate Accounts and Identity Labels in the Inka Knotted String Records. <i>Latin American Antiquity</i> 16(2): 147-167. <a href="https://doi.org/10.2307/30042809">DOI</a>.</li>
+<li>Urton, G. (2017). <i>Inka History in Knots: Reading Khipus as Primary Sources</i>. University of Texas Press.</li>
+<li>Urton, G. y Brezine, C. J. (2005). Khipu accounting in ancient Peru. <i>Science</i> 309: 1065-1067.</li>
+<li>Urton, G. y Chu, A. (2015). Accounting in the King's Storehouse: The Inkawasi Khipu Archive. <i>Latin American Antiquity</i> 26(4): 512-529. <a href="https://doi.org/10.7183/1045-6635.26.4.512">DOI</a>.</li>
+<li>Urton, G. y Chu, A. (2018). The Invention of Taxation in the Inka Empire. <i>Latin American Antiquity</i>.</li>
+</ul>
+<p class="pie">Imágenes: quipu del Museo de Arte de Cleveland (1940.469), CC0, vía Wikimedia Commons. Lámina de Locke (1912) y dibujos de Guamán Poma de Ayala (hacia 1615), dominio público, vía Wikimedia Commons. Las demás figuras se dibujan en la página a partir de los datos del repositorio. Textos bajo CC BY 4.0; código y datos bajo MIT.</p>
+</section>
+</main>
+
+<script>const DATOS = __DATOS__;</script>
+<script>
+__JS__
+</script>

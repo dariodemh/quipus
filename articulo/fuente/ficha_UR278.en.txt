@@ -1,0 +1,338 @@
+# Reading profile: UR278
+
+## Physical summary
+
+- [DATA] 322 cords (298 pendants, 24 subsidiaries) in 37 groups; 64 broken, 30 without knots.  
+  _source: analisis/datos/cuerdas.csv_
+- [WELL SUPPORTED] Normalized color without ranges in cm. Color names depend on the transcriber (UR1107 = UR237: 0 of 23 labels the same); compare colors only within the same transcriber.  
+  _source: analisis/24_color_formato/informe.md_
+
+<details><summary>data</summary>
+
+```
+{
+ "cuerdas": 322,
+ "colgantes": 298,
+ "subsidiarias": 24,
+ "niveles": {
+  "0": 298,
+  "1": 15,
+  "2": 9
+ },
+ "grupos": 37,
+ "cuerdas_por_grupo": {
+  "min": 1,
+  "mediana": 9.0,
+  "max": 12,
+  "modal": 9
+ },
+ "colores_distintos": 8,
+ "colores": {
+  "W": 138,
+  "AB": 122,
+  "NB": 47,
+  "MB": 7,
+  "W:AB": 3,
+  "W:MB": 2,
+  "W:NB": 2,
+  "PK": 1
+ },
+ "torsion": {
+  "S": 322
+ },
+ "valores": {
+  "min": 2,
+  "mediana": 214.0,
+  "max": 1918,
+  "suma_colgantes": 68403
+ },
+ "rotas": 64,
+ "sin_nudos": 30,
+ "union_superior_T": 0,
+ "okr": "KH0517",
+ "museo": "Proyecto Incahuasi",
+ "procedencia": "Incahuasi",
+ "marcadoras_OKR": 1
+}
+```
+</details>
+
+## Number grammar
+
+- [DATA] NON-standard decimal: 23% of knotted cords violate decimal grammar (repeated place or digit >9 in one place).  
+  _source: analisis/28_atlas_generos/01_matriz.py (no_decimal)_
+- [DATA] 11 cords with several unit knots in the units place adding up to >9 (additive or tally notation: a separate class, 915 cords on 76 khipus in the corpus).  
+  _source: analisis/ds/n_nudos_imposibles/informe.md_
+
+<details><summary>data</summary>
+
+```
+{
+ "cuerdas_anudadas": 292,
+ "frac_no_decimal": 0.22602739726027396,
+ "tipos_de_nudo": {
+  "S": 505,
+  "L": 251,
+  "E": 125
+ },
+ "cuerdas_aditivas": 11,
+ "L_10_o_mas_KFG": 0,
+ "L_ambiguos_KFG": 0,
+ "L_10_o_mas_OKR": 0,
+ "frac_torsion_Z": 0.0
+}
+```
+</details>
+
+## Internal sums
+
+
+<details><summary>data</summary>
+
+```
+{
+ "pruebas": {
+  "R1 colgante=Σsubsidiarias": {
+   "obs": 0,
+   "esperado": 0.001001001001001001,
+   "p": 1.0
+  },
+  "F colgante=Σ vecinos": {
+   "obs": 0,
+   "esperado": 0.6416416416416416,
+   "p": 1.0
+  },
+  "A total de grupo(s) adyacentes": {
+   "obs": 0,
+   "esperado": 0.06906906906906907,
+   "p": 1.0
+  },
+  "TA cuerda superior=Σ grupos": {
+   "obs": 0,
+   "esperado": 0.0,
+   "p": 1.0
+  }
+ },
+ "ejemplos": [],
+ "n_ejemplos": 0
+}
+```
+</details>
+
+## Headers and color formatting
+
+- [SUPPORTED] Color marks the group (NMI 0.44 against 0.08 for the null; p=0.005).  
+  _source: analisis/24_color_formato/p3_transcriptor.py_
+
+<details><summary>data</summary>
+
+```
+{
+ "max_primer": {
+  "grupos": 31,
+  "obs": 9,
+  "esperado": 3.6,
+  "p": 0.006527302069117062
+ },
+ "max_último": {
+  "grupos": 31,
+  "obs": 0,
+  "esperado": 3.6,
+  "p": 0.9999999999999988
+ },
+ "color_grupo": {
+  "NMI": 0.44,
+  "NMI_nulo": 0.082,
+  "p": 0.005
+ },
+ "color_posicion": {
+  "k": 9,
+  "grupos": 26,
+  "NMI": 0.007,
+  "NMI_nulo": 0.033,
+  "p": 1.0,
+  "columnas": {
+   "1": [
+    "AB",
+    0.46
+   ],
+   "2": [
+    "AB",
+    0.46
+   ],
+   "3": [
+    "AB",
+    0.46
+   ],
+   "4": [
+    "AB",
+    0.54
+   ],
+   "5": [
+    "AB",
+    0.46
+   ],
+   "6": [
+    "AB",
+    0.46
+   ],
+   "7": [
+    "AB",
+    0.42
+   ],
+   "8": [
+    "AB",
+    0.42
+   ],
+   "9": [
+    "AB",
+    0.42
+   ]
+  }
+ }
+}
+```
+</details>
+
+## Nazca/Berlin format (field header + marker pair)
+
+
+<details><summary>data</summary>
+
+```
+{
+ "barrido": []
+}
+```
+</details>
+
+## Form with a splitting key
+
+- [PROPOSED] Positional form: blocks that repeat the key P9 with split 0.14/0.14/0.10/0.11/0.11/0.13/0.11/0.08/0.09 (perm p=0.0022; BH q=0.0073; Holm=0.587).  
+  _source: analisis/22_formularios/quipus_detector.csv_
+
+<details><summary>data</summary>
+
+```
+{
+ "Q": "posicional",
+ "fam": "P",
+ "clave": "P9",
+ "cuotas": "0.14/0.14/0.10/0.11/0.11/0.13/0.11/0.08/0.09",
+ "p_q": 0.0022388059701492,
+ "q_bh": 0.0073199221284879,
+ "holm": 0.5865671641791045,
+ "calculo": "publicado"
+}
+```
+</details>
+
+## Relations with other khipus in the corpus
+
+- [PROPOSED] totals in order: group totals of UR278 reappear in order among the cords of UR266 (55 bits) (p=4.0e-10; BH q in this query=0.000).  
+  _source: reader (recalculated): analisis/04_concordancias/concordancias.py; analisis/ds/n_cuota_entrega/03_relaciones.py_
+- [PROPOSED] totals in order: group totals of UR278 reappear in order among the cords of UR275 (32 bits) (p=1.4e-06; BH q in this query=0.001).  
+  _source: reader (recalculated): analisis/04_concordancias/concordancias.py; analisis/ds/n_cuota_entrega/03_relaciones.py_
+- [PROPOSED] cell = P + S1: 5 groups of UR270 (pendant + 1st subsidiary) match rows of UR278 in >=2/3 of the columns; with P only: 0 (p=5.0e-05; BH q in this query=0.013).  
+  _source: reader (recalculated): analisis/04_concordancias/concordancias.py; analisis/ds/n_cuota_entrega/03_relaciones.py_
+- [WELL SUPPORTED] UR270 → UR278: each cell of UR278 = pendant + 1st subsidiary of UR270 (5 groups with >=6/9; P only: 0; p=0.0002) [documented]  
+  _source: analisis/ds/n_cuota_entrega/relaciones.csv; analisis/13_sistema_incahuasi/; analisis/16_verificacion_incahuasi/_
+- [WELL SUPPORTED] UR278 → UR266: row totals reappear in order (11 exact; q=1e-8, order q=7e-4) [documented]  
+  _source: analisis/04_concordancias/resultados/pares_resumen_todos.csv.gz; analisis/29_lectura_incahuasi/coherencia.py_
+- [SUPPORTED] UR278 → UR275: row totals reappear in order as headers (7) [documented]  
+  _source: analisis/29_lectura_incahuasi/coherencia.py; analisis/13_sistema_incahuasi/grafo_quipus.csv_
+- [SUPPORTED] UR278 → UR266/UR275: detail → ledger mismatches: of the 26 rows of UR278, 18 have a destination; 11 are exact and 7 mismatches (ledger − detail: +6, +100, +1, −1, +1, −1, −1). No direction (4+/3−, p=1.0); 6 of 7 in the units (p=0.007). Error in counting the turns of long knots, not a convention. Row g29 (1507) points to UR266 g2, already the destination of g1: check whether it is a duplicate [documented]  
+  _source: analisis/34_comparada/desajustes.py; analisis/SINTESIS.md_
+
+<details><summary>data</summary>
+
+```
+{
+ "detectadas": [
+  {
+   "tipo": "totales en orden",
+   "origen": "UR278",
+   "destino": "UR266",
+   "con": "UR266",
+   "detalle": "totales de grupo de UR278 reaparecen en orden entre las cuerdas de UR266 (55 bits)",
+   "p": 4.0290051265752004e-10,
+   "q": 4.528601762270525e-07
+  },
+  {
+   "tipo": "totales en orden",
+   "origen": "UR278",
+   "destino": "UR275",
+   "con": "UR275",
+   "detalle": "totales de grupo de UR278 reaparecen en orden entre las cuerdas de UR275 (32 bits)",
+   "p": 1.4462516518535128e-06,
+   "q": 0.0008127934283416742
+  },
+  {
+   "tipo": "celda = P + S1",
+   "origen": "UR270",
+   "destino": "UR278",
+   "con": "UR270",
+   "detalle": "5 grupos de UR270 (colgante + 1.ª subsidiaria) coinciden con filas de UR278 en >=2/3 de las columnas; con solo P: 0",
+   "p": 4.999750012499375e-05,
+   "q": 0.013399330033498325
+  }
+ ]
+}
+```
+</details>
+
+## Two-color alternation (interleaved two-column table)
+
+
+<details><summary>data</summary>
+
+```
+{
+ "evaluado": true,
+ "desfase": 6,
+ "estadistico": 0.0138,
+ "posiciones_alternas": 5,
+ "colgantes": 298,
+ "colores": 5
+}
+```
+</details>
+
+## Column totals between blocks (hierarchical table)
+
+
+<details><summary>data</summary>
+
+```
+{
+ "bloque": 9,
+ "bloques": 33,
+ "significativos": [],
+ "candidatos": 1922
+}
+```
+</details>
+
+## Atlas type
+
+- [SUPPORTED] Type: Hierarchical archive with relations between khipus (Incahuasi, Puruchuco) (ARC), high confidence. numerical relation with other khipus well supported (13/04/n_puruchuco_pacha) | also: FOR(low); SEG(low) | quality: 322 cords, 20% broken, transcriber UR  
+  _source: analisis/28_atlas_generos/atlas.csv; analisis/28_atlas_generos/reglas.py_
+- [PROPOSED] Testable prediction: Its totals reappear, in order, as headers of UR266/UR275/UR269; fixed quota subtracted c (47, 25, 15, 10). Open prediction (13): among the 5 Inkawasi khipus not studied by Urton there will be pairs with quotas that add up to 46 or 44.  
+  _source: analisis/28_atlas_generos/atlas.csv; analisis/28_atlas_generos/reglas.py_
+
+<details><summary>data</summary>
+
+```
+{
+ "genero": "ARC",
+ "nombre": "Archivo jerarquico con relaciones entre quipus (Incahuasi, Puruchuco)",
+ "confianza": "alta",
+ "evidencia": "relacion numerica con otros quipus bien apoyada (13/04/n_puruchuco_pacha) | tambien: FOR(baja); SEG(baja) | calidad: 322 cuerdas, 20% rotas, transcriptor UR",
+ "prediccion": "Sus totales reaparecen, en orden, como cabeceras de UR266/UR275/UR269; cuota fija restada c (47, 25, 15, 10). Prediccion abierta (13): en los 5 quipus de Inkawasi no estudiados por Urton habra parejas con cuotas que sumen 46 o 44.",
+ "estabilidad": 1.0,
+ "reglas_reproducen": true,
+ "calculo": "atlas publicado"
+}
+```
+</details>
+

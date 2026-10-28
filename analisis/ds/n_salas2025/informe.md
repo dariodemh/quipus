@@ -93,7 +93,7 @@ En el otro extremo hay quipus con **déficit** de pares porque casi todas sus cu
 
 **Grupos de tamaño 10.** Hay 215 grupos de exactamente 10 cuerdas, frente a 166 esperados por composición aleatoria (z = 3,85; p = 0,0001). Pero el control negativo inmediato lo desmonta: hay **256 grupos de 9** y 175 de 11; el tamaño 10 no es un pico local (215 vs 215,5 del promedio de sus vecinos). El "efecto" es un artefacto del nulo de composición uniforme, no una firma de los diez mandamientos ni de la decena.
 
-**Nivel de evidencia:** *demostrado en el corpus* que los ceros de unidad son ausencia de racimo; *no apoyado* que *chiæng*/*palæc* dejen una huella detectable en forma de centenas exactas o grupos de 10.
+**Nivel de evidencia:** *bien apoyado en el corpus* que los ceros de unidad son ausencia de racimo; *no apoyado* que *chiæng*/*palæc* dejen una huella detectable en forma de centenas exactas o grupos de 10.
 
 ### 4.4 Estructura por procedencia (costa norte/yunga)
 
@@ -156,7 +156,7 @@ De 84 pruebas principales, 8 pasan Holm y 9 pasan BH. Tras el escrutinio:
 
 ## 6. Evaluación crítica del libro
 
-### 6.1 Lo sólido (demostrado / apoyado con datos)
+### 6.1 Lo sólido (bien apoyado / apoyado con datos)
 
 - **El sistema de clasificadores mochicas está bien documentado** en Carrera (1644) y Middendorf (1892): *luc*/*felæp* = pares, *chiæng*/*palæc* = centenas, *ssop*/*pong*/*cæss*/*cɥoquixll* = decenas. Esto es dato lingüístico, no especulación.
 - **La etimología y la semántica de los clasificadores** (*luc* < 'pie', *felæp* < 'sentado', *cɥoquixll* < quechua 'choclo', *cunô* < quechua 'mil') son defendibles y citan fuentes primarias.
@@ -164,7 +164,7 @@ De 84 pruebas principales, 8 pasan Holm y 9 pasan BH. Tras el escrutinio:
 - **El color como marcador de trechos** tiene apoyo documental (Martos 1606) y, en nuestro corpus, un efecto estadístico robusto de +9 a +13 pp en los límites de grupo. Es la parte de su teoría que mejor se sostiene, aunque el libro no la desarrolla como hipótesis central.
 - **El escepticismo sobre los quipus narrativos** es metodológicamente sano: una anomalía no prueba narración.
 
-### 6.2 Lo propuesto (inferencia razonable, no demostrada)
+### 6.2 Lo propuesto (inferencia razonable, no bien apoyada)
 
 - **La transferencia de los clasificadores mochicas a los quipus**: es una analogía semántica plausible, pero no hay un corpus yunga que la confirme. El propio Salas lo dice.
 - **La cuerda como ordinal y el nudo como cardinal**: es coherente con la iconicidad y con la independencia posición-valor que encontramos, pero no se sigue de los datos.
@@ -194,12 +194,12 @@ El libro **no propone** que el color sea un clasificador semántico. Su aporte e
 
 | Hallazgo | Nivel |
 |---|---|
-| El sistema de clasificadores mochicas (valores y semántica) está documentado en Carrera/Middendorf | **Demostrado** (filológico) |
-| No hay quipus yungas en el corpus: 0 de 365 con procedencia identificable | **Demostrado en el corpus** (no histórico) |
-| Los ceros de unidad son ausencia de racimo, no ceros contados (solo 65 nudos 0 explícitos) | **Demostrado en el corpus** |
+| El sistema de clasificadores mochicas (valores y semántica) está documentado en Carrera/Middendorf | **Bien apoyado** (filológico) |
+| No hay quipus yungas en el corpus: 0 de 365 con procedencia identificable | **Bien apoyado en el corpus** (no histórico) |
+| Los ceros de unidad son ausencia de racimo, no ceros contados (solo 65 nudos 0 explícitos) | **Bien apoyado en el corpus** |
 | El color cambia más en los límites de grupo (+9 pp; +12,8 pp por quipu) | **Apoyado con datos** |
 | Existen quipus que registran valores pares dominantes (UR037, MM019, AS036) | **Apoyado con datos** |
-| No hay asociación entre pares y color o procedencia yunga/norcentral | **Demostrado en el corpus** (negativo) |
+| No hay asociación entre pares y color o procedencia yunga/norcentral | **Bien apoyado en el corpus** (negativo) |
 | La cuerda es ordinal y el nudo cardinal | **Propuesto** (compatible con r ≈ 0) |
 | Los clasificadores mochicas se transfieren a los quipus | **Propuesto** (analogía sin corpus yunga) |
 | *Ssop* deriva del uso de quipus / es calco de *caitu* | **Especulativo** |

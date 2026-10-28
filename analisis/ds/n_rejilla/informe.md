@@ -242,12 +242,12 @@ concentran el 27,6 % del total (2/9 = 22,2 % si fuera uniforme), y las dos últi
 
 | Categoría | Marcador | Atributos | Evidencia |
 |---|---|---|---|
-| cabecera (total bruto) | posición 1 + blanco | W 92/120 (77 %), nulo 29/120, p = 0,0003; nivel 0 | demostrado (estructura) / apoyado (color) |
+| cabecera (total bruto) | posición 1 + blanco | W 92/120 (77 %), nulo 29/120, p = 0,0003; nivel 0 | bien apoyado (estructura) / apoyado (color) |
 | cuota c | posición 2; constante del libro | UR275 24/25 (p = 0,0002), UR266 12/25 (p = 0,001); color del libro (NB en UR275, YB/HB en UR266); UR269 2/65 (p = 0,93) | apoyado (posición); color = estilo |
-| parte A (subsidiaria) | nivel 1; NB/KB o mezcla | UR270: 55/76; cuota 30/15 | demostrado (aritmética) / apoyado (color) |
-| parte B (colgante) | nivel 0; blanco | UR270: 61/63 W; unión V; cuota 17/10 | demostrado (aritmética) / apoyado (color) |
-| columna k (k = 1..9) | posición ordinal 1..9 | 39/45 celdas ±1; color de fila (MI p = 0,77); firma estable | demostrado (estructura y orden) |
-| celda compuesta P+S | aritmética | 39/45 celdas ±1; en UR278 una sola cuerda | demostrado |
+| parte A (subsidiaria) | nivel 1; NB/KB o mezcla | UR270: 55/76; cuota 30/15 | bien apoyado (aritmética) / apoyado (color) |
+| parte B (colgante) | nivel 0; blanco | UR270: 61/63 W; unión V; cuota 17/10 | bien apoyado (aritmética) / apoyado (color) |
+| columna k (k = 1..9) | posición ordinal 1..9 | 39/45 celdas ±1; color de fila (MI p = 0,77); firma estable | bien apoyado (estructura y orden) |
+| celda compuesta P+S | aritmética | 39/45 celdas ±1; en UR278 una sola cuerda | bien apoyado |
 | neto n = x − c | siguiente a la cuota; a menudo ausente | sin color/posición propios | propuesto |
 
 **Magnitud típica por categoría.** Cabecera: mediana 2 000 (rango 100–4 273; n = 120). Parte A:
@@ -313,12 +313,12 @@ contra otro**, no como un hecho doblemente contabilizado.
 
 | Afirmación | Nivel |
 |---|---|
-| La celda de UR278 es colgante + 1.ª subsidiaria de UR270, columna a columna | **demostrado** (13/07; 39/45 ±1; el equipo rojo lo deja sobrevivir) |
-| Las 9 partes están en el mismo orden en UR270 y UR278 | **demostrado** (identidad óptima 5/5; p ≤ 3,3·10⁻⁵ por fila) |
-| Hay un efecto de columna estable (las 9 partes no son intercambiables) | **demostrado** (Friedman p = 3,5·10⁻¹⁶; var p = 0,0002) |
+| La celda de UR278 es colgante + 1.ª subsidiaria de UR270, columna a columna | **bien apoyado** (13/07; 39/45 ±1; el equipo rojo lo deja sobrevivir) |
+| Las 9 partes están en el mismo orden en UR270 y UR278 | **bien apoyado** (identidad óptima 5/5; p ≤ 3,3·10⁻⁵ por fila) |
+| Hay un efecto de columna estable (las 9 partes no son intercambiables) | **bien apoyado** (Friedman p = 3,5·10⁻¹⁶; var p = 0,0002) |
 | La firma relativa es c2 ≈ c1 > c6 > … > c8 | **apoyado con datos** (28 filas; IC; réplica parcial en UR270) |
-| El color marca la fila/registro en UR278 | **demostrado** (23/28 vs 0,01; p = 0,0002) |
-| El color marca el nivel/rol en UR270 | **demostrado** (61/62; p = 1,4·10⁻¹⁷) |
+| El color marca la fila/registro en UR278 | **bien apoyado** (23/28 vs 0,01; p = 0,0002) |
+| El color marca el nivel/rol en UR270 | **bien apoyado** (61/62; p = 1,4·10⁻¹⁷) |
 | El color no marca la columna | **apoyado con datos** (MI p = 0,77; unión/torsión constantes) |
 | La cabecera es blanca | **apoyado con datos** (92/120 vs 29/120; p = 0,0003) |
 | La cuota va en 2.ª posición en UR266/UR275 | **apoyado con datos** (24/25 y 12/25; p ≤ 0,001) |

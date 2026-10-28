@@ -277,7 +277,7 @@ El diseño **sí tenía potencia**: un efecto corpus-wide de +0,16 log (≈18 % 
 
 | Afirmación | Nivel | Motivo |
 |---|---|---|
-| Color y posición están fuertemente confundidos | **Demostrado** | 28,4 % de posiciones constantes; NMI 0,505 vs 0,200; 165/222, p = 1,1 × 10⁻¹³ |
+| Color y posición están fuertemente confundidos | **Bien apoyado** | 28,4 % de posiciones constantes; NMI 0,505 vs 0,200; 165/222, p = 1,1 × 10⁻¹³ |
 | No hay un código color→valor general independiente de posición y grupo | **Apoyado con datos** | B 10/205 (azar), mediana 1,2 %, 52,2 % de z negativos, C 9/186 (azar), MDE 0,16 log; límite: 43 % del corpus |
 | El exceso de A es, sobre todo, asociación a nivel de grupo | **Apoyado con datos** | 25/32 hits de A desaparecen con efectos fijos de grupo; solo 7 son A∩B |
 | Una minoría de quipus (≈5–15 %) tiene códigos locales fuertes | **Apoyado con datos** | A 32/221 (14,5 %), B 10/205, C 9/186; hits con 13–31 % de varianza y rango 1,4–1,8 log; robusto a rango y a colores simples (atenuado) |

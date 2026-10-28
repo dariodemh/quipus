@@ -117,7 +117,7 @@ La foto de AS010 permitió alinear la imagen con el texto y descubrir un problem
 - **AS069:** no solo hay marcadores: como los marcadores también se numeran como `p`, la **numeración de KFG se desplaza** respecto del Databook. En los pares alineados del equipo `n_databook`: DB `p137` → KFG `p159` (+22); DB `p209` → KFG `p243` (+34); DB `p394` → KFG `p461` (+67); DB `p545` → KFG `p639` (+94); DB `p968` → KFG `p1137` (+169). El desplazamiento crece ~1 posición cada 6–7 colgantes, como corresponde a un marcador por grupo. **Cualquier unión posicional KFG↔Databook en AS069 sin mapa explícito está desfasada en decenas o cientos de posiciones.**
 - 18 archivos del OCR mencionan cuerdas superiores (AS10, 13, 21, 44, 51, 57, 59, 61, 66, 67, 72, 96, 115, 199, 204, 207, 212, 215), es decir ~9 % de los 210 quipus. El problema no es anecdótico.
 
-**Nivel de evidencia: demostrado** para AS010, AS212 y AS215 (la aritmética cierra exactamente y la posición coincide con el texto). **Apoyado con datos** para la extensión a AS069 (205 grupos de 1 cuerda con morfología de marcador y desplazamiento monótono en 5 pares alineados).
+**Nivel de evidencia: bien apoyado** para AS010, AS212 y AS215 (la aritmética cierra exactamente y la posición coincide con el texto). **Apoyado con datos** para la extensión a AS069 (205 grupos de 1 cuerda con morfología de marcador y desplazamiento monótono en 5 pares alineados).
 
 ### 3.5 Colores
 
@@ -144,7 +144,7 @@ La foto de AS010 permitió alinear la imagen con el texto y descubrir un problem
 | **AS036 & AS037** | **Bolsa tejida P688** con asa, listas marrón/crema/rojo y bandas geométricas; borde superior dañado | Maranga, Huaca 1; excavados en 1925; **4 entierros**; misma tumba con vasijas, calabazas y conchas; mismo número de museo P501A/P501B | La bolsa es el único objeto fotografiado; **los quipus no aparecen**. Contexto funerario múltiple, no una tumba individual |
 | **AS048 & AS049** | **6 fragmentos de cerámica** (negro sobre rojo, crema con bandas, incisa) + **una vasija restaurada** con listas crema y asa | La Centinela, Tambo de Mora (Chincha), expedición Universidad de Tokio 1958; "fragmentos de cerámica asociados" | No hay foto de los quipus. La vasija está restaurada: no sirve para datación directa sin ficha |
 | **AS059–AS067** | **Bolsa de tela oscura** rectangular, tejido liso, cordón de cierre, muy desgastada | Chala; bolsa depositada por Dorothy Menzel con Oscar Núñez del Prado, Cusco; contiene 8 quipus | No hay foto de los quipus; la bolsa es la asociación de los 8. El Databook dice que AS66/AS67 tienen cuerdas superiores, pero no se ven |
-| **AS124, AS136, AS140** | **Barra de madera tallada**: AS124 con cabeza de animal; AS136 con tres figuras humanas (central y dos laterales); AS140 con figura humana que sostiene una copa/vaso | AS136/140: Museo de Berlín, ingreso 1904, procedencia declarada Nasca; AS124: Museo de Colonia | **Asociación no listada en el encargo.** ¿Soporte original o montaje museográfico? Las cuerdas de suspensión y la barra sugieren montaje, pero las tallas son elaboradas. **Propuesto**, no demostrado |
+| **AS124, AS136, AS140** | **Barra de madera tallada**: AS124 con cabeza de animal; AS136 con tres figuras humanas (central y dos laterales); AS140 con figura humana que sostiene una copa/vaso | AS136/140: Museo de Berlín, ingreso 1904, procedencia declarada Nasca; AS124: Museo de Colonia | **Asociación no listada en el encargo.** ¿Soporte original o montaje museográfico? Las cuerdas de suspensión y la barra sugieren montaje, pero las tallas son elaboradas. **Propuesto**, no bien apoyado |
 | **AS038, AS213** | Montaje radial sobre azul (AS038) y tabla negra con alfileres (AS213) | Museos | La disposición es **museográfica**; no usar el orden radial como orden original |
 
 ### 3.8 Conservación
@@ -207,9 +207,9 @@ Solo hay dos pruebas formales (grupos: exactos y MAE); se aplicó Holm y se repo
 
 | Afirmación | Nivel |
 |---|---|
-| Las 88 fotos no son 88 quipus: 23 etiquetas fotografiadas + 4 conjuntos solo asociados; ≥30 objetos físicos | **Demostrado** (inventario de archivos) |
-| AS010: KFG 27 = 23 colgantes + 2 cuerdas superiores + 2 cuerdas de largo 0 | **Demostrado** (alineación t1→p1, t2→p18 y aritmética) |
-| AS212: las 3 cuerdas superiores son p51–p53 y los colgantes 51–55 pasan a p54–p58 | **Demostrado** (posiciones y 68−3=65) |
+| Las 88 fotos no son 88 quipus: 23 etiquetas fotografiadas + 4 conjuntos solo asociados; ≥30 objetos físicos | **Bien apoyado** (inventario de archivos) |
+| AS010: KFG 27 = 23 colgantes + 2 cuerdas superiores + 2 cuerdas de largo 0 | **Bien apoyado** (alineación t1→p1, t2→p18 y aritmética) |
+| AS212: las 3 cuerdas superiores son p51–p53 y los colgantes 51–55 pasan a p54–p58 | **Bien apoyado** (posiciones y 68−3=65) |
 | AS215: KFG 28 incluye 1 cuerda superior; 28−1=27 | **Apoyado con datos** |
 | AS069: 432 grupos KFG vs 204 del Databook por 205 marcadores contados como grupos | **Apoyado con datos** (morfología de los 205 grupos de 1 cuerda; 432 = 227 grupos múltiples + 205 marcadores; 23 sin explicar) |
 | AS069: desplazamiento de la numeración KFG vs Databook (+22 a +169) | **Apoyado con datos** (5 pares alineados y crecimiento ~1/6–7) |

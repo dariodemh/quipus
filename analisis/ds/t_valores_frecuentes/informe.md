@@ -198,8 +198,8 @@ En colores sólidos los tamaños no cambian (1-B 1,22×; 3-B 1,19×; 30-KB 1,93�
 
 | afirmación | nivel |
 |---|---|
-| El sistema numérico está dominado por una distribución de magnitud con redondeo decimal (32,7 % de los valores de 2 dígitos terminan en 0) | **demostrado** (descriptivo, n = 15 081) |
-| Benford y log-uniforme no describen el corpus | **demostrado** (χ² y razones; p < 1e-300) |
+| El sistema numérico está dominado por una distribución de magnitud con redondeo decimal (32,7 % de los valores de 2 dígitos terminan en 0) | **bien apoyado** (descriptivo, n = 15 081) |
+| Benford y log-uniforme no describen el corpus | **bien apoyado** (χ² y razones; p < 1e-300) |
 | Los valores se concentran por quipu: 1 007 excesos vs 349 esperados (2,9×); HHI 0,168 vs 0,127 | **apoyado con datos** (permutación entre quipus, p = 0,005) |
 | 100, 200, 110 tienen exceso global robusto (IC bootstrap > 1) | **apoyado con datos** |
 | 100 funciona como unidad de cuenta / atractor de redondeo (pachaca) | **propuesto** (no distinguible de redondeo por estos datos) |

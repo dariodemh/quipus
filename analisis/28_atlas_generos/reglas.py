@@ -57,14 +57,14 @@ def reglas(k, r, u=U):
         else:
             out["NAZ"] = (1, 1, "candidato del barrido de ficha que no pasa")
     # ARC ------------------------------------------------------------------
-    if r.rel_archivo == "demostrada":
+    if r.rel_archivo == "bien apoyada":
         n = 1 + bool(r.trio_xcx) + _lt(r.sumas_q, .05) + bool(cop)
-        ev = "relacion numerica con otros quipus demostrada (13/04/n_puruchuco_pacha)"
+        ev = "relacion numerica con otros quipus bien apoyada (13/04/n_puruchuco_pacha)"
         ev += "; trio [x,c,x-c]" if r.trio_xcx else ""
         ev += f"; sumas internas q={r.sumas_q:.3f}" if _lt(r.sumas_q, .05) else ""
         out["ARC"] = (3, n, ev)
     elif r.rel_archivo == "propuesta":
-        out["ARC"] = (2, 1, "relacion con otros quipus propuesta, no demostrada")
+        out["ARC"] = (2, 1, "relacion con otros quipus propuesta, no bien apoyada")
     # PAD ------------------------------------------------------------------
     if _lt(r.santa_q, .05) and r.procedencia == "Santa":
         out["PAD"] = (3, 2, f"formato P4r (grupos monocromos alternos) q={r.santa_q:.4f} + archivo del padron del Santa (Radicati)")
@@ -73,8 +73,8 @@ def reglas(k, r, u=U):
     elif _lt(r.santa_q, .05) and _lt(r.santa_pcorpus, .05):
         out["PAD"] = (1, 1, f"formato P4r q={r.santa_q:.4f}, destaca sobre el corpus (p={r.santa_pcorpus:.3f}); no replica tras Holm")
     # FOR ------------------------------------------------------------------
-    if r.form_archivo == "demostrado-local":
-        out["FOR"] = (3, 2, f"clave local demostrada en el archivo (22_formularios); deteccion {r.form_Q}")
+    if r.form_archivo == "bien apoyado-local":
+        out["FOR"] = (3, 2, f"clave local bien apoyada en el archivo (22_formularios); deteccion {r.form_Q}")
     elif r.form_archivo == "apoyado-indeterminado" and r.form_Q != "no":
         out["FOR"] = (2, 2, f"formulario {r.form_Q} y clave de archivo apoyada (22_formularios)")
     elif r.form_Q != "no" and _lt(r.form_holm, .05):

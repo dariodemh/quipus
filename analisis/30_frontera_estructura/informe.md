@@ -28,7 +28,7 @@
   - en A, una familia se promueve si tiene algún BH(A) < 0,10 o exceso binomial;
   - en B se replica si el exceso binomial pasa Holm o hay algún BH confirmatorio < 0,05.
 - **Niveles** (detalle en `diseno.md`):
-  - *demostrado:* Holm global y la familia se replica;
+  - *bien apoyado:* Holm global y la familia se replica;
   - *apoyado:* q global < 0,05 y la familia se replica;
   - *propuesto:* q < 0,05 sin réplica de la familia;
   - *especulativo:* p < 0,01.
@@ -187,8 +187,8 @@
 
 | Quipu | Estructura | Nivel | Género cercano | Predicción comprobable |
 |---|---|---|---|---|
-| UR040 (Nazca, Peabody) | alternancia W/AB, desfase 2 | demostrado (Holm 0,025) | TAB/FOR: pares intercalados | Con otra lectura, la alternancia se conserva. Si el color que domina se mantiene, es una tabla de 2 columnas; hoy los valores son casi nulos, así que la prueba es la foto. |
-| UR167 (Ica o Cajamarquilla, AMNH) | alternancia AB/MB, desfase 2 | demostrado (Holm 0,025) | TAB/FOR | Mismo formato; los valores 0/1 sugieren presencia/ausencia por par, así que otro transcriptor debe leer los mismos 0 en los mismos colores. |
+| UR040 (Nazca, Peabody) | alternancia W/AB, desfase 2 | bien apoyado (Holm 0,025) | TAB/FOR: pares intercalados | Con otra lectura, la alternancia se conserva. Si el color que domina se mantiene, es una tabla de 2 columnas; hoy los valores son casi nulos, así que la prueba es la foto. |
+| UR167 (Ica o Cajamarquilla, AMNH) | alternancia AB/MB, desfase 2 | bien apoyado (Holm 0,025) | TAB/FOR | Mismo formato; los valores 0/1 sugieren presencia/ausencia por par, así que otro transcriptor debe leer los mismos 0 en los mismos colores. |
 | UR1033F (Peabody) | alternancia W/AB; AB > W en 14 de 16 | apoyado (q 0,010) | TAB: tabla de 2 columnas intercaladas | En el lote UR1033, C y D ya alternan con desfase 2 y B repite un ciclo de 3 colores (W:R, W:GG, W:AB). A, E y G tienen 4–12 colgantes, demasiado pocos para evaluarlos. Predicción: en la foto de UR1033F, AB > W también en los pares hoy leídos como 0 o rotos; un ciclo de color en A, E o G es esperable, pero no se exige. |
 | UR122 (Nazca, Göteborg) | totales por posición (columna) | propuesto por reglas; **apoyado post hoc** con KH0049 | SUM/TAB jerárquica | Las cuerdas de UR122 en 0 donde KH0049 tiene valor (p. ej. p21–p23: 487, 281, 661) están rotas o sueltas en el objeto. El bloque 1 completo cumple B0 = B1 + B2 + B3. |
 
@@ -214,10 +214,10 @@
 
 ## Para el coordinador
 
-- **Recuento:** de los 180 quipus «decimales sin estructura», dejan la frontera **3 (1,7 %)**: UR040, UR167 y UR1033F. Contando UR122 post hoc son **4 (2,2 %)**. Los falsos esperados son Σq = 0,027, y en 2 fronteras nulas salen 0 y 0. **Demostrado** para UR040 y UR167 (Holm 0,025); **apoyado** para UR1033F (q 0,010).
+- **Recuento:** de los 180 quipus «decimales sin estructura», dejan la frontera **3 (1,7 %)**: UR040, UR167 y UR1033F. Contando UR122 post hoc son **4 (2,2 %)**. Los falsos esperados son Σq = 0,027, y en 2 fronteras nulas salen 0 y 0. **Bien apoyado** para UR040 y UR167 (Holm 0,025); **apoyado** para UR1033F (q 0,010).
 - **Estructura común de los 3: dos colores intercalados A/B/A/B.** Es la única familia que se replica en la mitad de confirmación (q confirmatorio = 0,003). En el corpus la tienen 19 quipus, 15 de ellos ya en TAB/FOR. Se concentra en el Peabody (5 de 12; Fisher 2,6e-5, descriptivo). Es una **tabla de dos columnas escrita intercalando**: en 4 casos con valores, un color domina en 12–14 de 12–16 pares. Nivel: **apoyado** como formato. Su lectura como «dos categorías por unidad» es **propuesta**.
 - **Nuevo y fuerte (post hoc): KH0049/UR122 es una tabla jerárquica con totales por columna.** B0 = B1 + B2 en 14 de 18 posiciones y B1 = B3 + B4 + B5 en 7–8 de 18 (p = 5e-5 cada una). UR122 copia la sección del subtotal. La discrepancia 15652/15649 está en las dos copias, así que es del original. Nivel: **apoyado**, porque es posterior al diseño. Corrige a 10: la columna-total ya no es «solo Incahuasi».
-- **Advertencia metodológica:** con el diseño congelado salían 22 quipus y 7 familias «replicadas». Un nulo que conserva rachas y escalones de F tumba 19 de los 22: la estructura local imita las relaciones. Los controles reales (UR1107/UR237 invertido y HP055/UR1084) **sobreviven** a ese nulo (p = 5e-4). **Demostrado** que el nulo de permutación total es insuficiente para buscar relaciones entre quipus. Toda prueba futura de copia, diferencia o razón debe usar nulos por tramos.
+- **Advertencia metodológica:** con el diseño congelado salían 22 quipus y 7 familias «replicadas». Un nulo que conserva rachas y escalones de F tumba 19 de los 22: la estructura local imita las relaciones. Los controles reales (UR1107/UR237 invertido y HP055/UR1084) **sobreviven** a ese nulo (p = 5e-4). **Bien apoyado** que el nulo de permutación total es insuficiente para buscar relaciones entre quipus. Toda prueba futura de copia, diferencia o razón debe usar nulos por tramos.
 - **Relaciones entre quipus de la frontera o del mismo museo: negativo.** No hay copias nuevas, inversiones, versiones desplazadas, versiones escaladas ni grupos reordenados que sobrevivan. QU017 ~ UR016 (diferencia, p_bloque 5e-4) no es específico: QU017 puntúa casi igual con otros 3 compañeros. Solo queda UR1118 ≈ UR218, ya conocido. Nivel del negativo: **apoyado**, con potencia comprobada por los controles.
 - **Jerarquía débil por sitio (un total de grupo que aparece en otro quipu del mismo sitio): negativo** (I8: 2 de 79; I9: 0 de 67; ninguna familia promovida). El mejor caso (AS093 ← UR1088) es un artefacto de totales repetidos (15). Nivel: **apoyado** (negativo).
 - **Subsidiarias que escalan con su colgante (T5).** Hay exceso agregado: 11 de 81 frente a 4 con un nulo de bloques dentro del grupo (p = 0,002). No se replica por quipu (Holm B 0,066). UR016 (p 1e-5) es **propuesto**; UR093, HP011 y UR1130 son **especulativos**. Es una escala por rangos (ρ 0,38–0,87), no una razón fija: compatible con el negativo de n_quipus_modernos sobre la «cría proporcional».

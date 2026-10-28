@@ -173,7 +173,7 @@ Son señales parcialmente independientes, no una sola variable oculta.
 
 ## 6. Interpretación y nivel de evidencia
 
-### Demostrado (descriptivo, corpus completo + control cruzado)
+### Bien apoyado (descriptivo, corpus completo + control cruzado)
 
 1. **30,5 % de las cuerdas no tiene nudos**, y el fenómeno es real: OKR coincide con KFG (Spearman 0,991; mediana de diferencia 0; 98,7 % de quipus a <5 pp).
 2. **No es un solo tipo de cuerda:** 25,8 % son rotas/cortadas (fragmentos cortos, mediana 6 cm), 65,1 % son completas sin nudos (largo comparable a las anudadas) y 8,4 % son de largo 0 (marcadores/indeterminadas).
@@ -220,7 +220,7 @@ Son señales parcialmente independientes, no una sola variable oculta.
 - **Color:** el enorme efecto de PK (99 vs 36 esperadas) era un artefacto: 91/99 PK vacías tenían largo 0. Tras excluirlas, quedan efectos modestos: B +7,0 pp, RB −8,7, DB −13,6, LB +6,0, GG +6,3, LG +11,1 (BH q < 0,05). W y AB no son marcadores; no hay etiqueta por color simple.
 - **Unión:** las vacías tienen unión U (desconocida) en 34,7 % vs 21–23 % en R/V; +16,6 pp (IC95 % +4,9 a +27,0). Puede ser fijación no estándar o sesgo de registro; hay que verificarlo en OKR/fotos.
 - **Próximos pasos recomendados:** (1) inspeccionar en OKR/fotografías las cuerdas finales vacías y su unión; (2) comparar KFG vs OKR cord a cord en una muestra; (3) analizar los 10 quipus 100 % vacíos como categoría propia; (4) añadir fibra/torsión/ply; (5) probar si las vacías finales se relacionan con sumas o con el cierre de series; (6) separar siempre `largo = 0` y `B/C` antes de cualquier modelo de color o posición.
-- **Nivel de evidencia:** demostrado el conteo y la taxonomía; apoyado con datos el patrón de posición final, el agrupamiento, el largo de completas y las asociaciones de color/unión; propuesto el rol de cierre/placeholder y los bloques inacabados; especulativo el cero, el separador y la etiqueta por color.
+- **Nivel de evidencia:** bien apoyado el conteo y la taxonomía; apoyado con datos el patrón de posición final, el agrupamiento, el largo de completas y las asociaciones de color/unión; propuesto el rol de cierre/placeholder y los bloques inacabados; especulativo el cero, el separador y la etiqueta por color.
 
 ---
 

@@ -114,7 +114,7 @@ def decidir(df):
     prop = ((df.q < 0.05) & ~rep) | ((df.mitad == "B") & (df.qconf < 0.05) & (df.q >= 0.05))
     niv[prop.to_numpy()] = "propuesto"
     niv[((df.q < 0.05) & rep).to_numpy()] = "apoyado"
-    niv[((df.holm < 0.05) & rep).to_numpy()] = "demostrado"
+    niv[((df.holm < 0.05) & rep).to_numpy()] = "bien apoyado"
     df["nivel"] = niv
     return df, fam
 
@@ -135,7 +135,7 @@ if __name__ == "__main__":
     nulo = int(sys.argv[sys.argv.index("--nulo") + 1]) if "--nulo" in sys.argv else None
     df, fam = decidir(cargar(nulo))
     df["conocido_04"] = df.apply(conocido, axis=1)
-    sale = df[df.nivel.isin(["demostrado", "apoyado"])]
+    sale = df[df.nivel.isin(["bien apoyado", "apoyado"])]
     nuevos = sale[~sale.conocido_04]
     print("familias:\n", fam.round(4).to_string())
     print("\nniveles:", df.nivel.value_counts().to_dict())
@@ -147,11 +147,11 @@ if __name__ == "__main__":
         df.to_csv(AQUI / "frontera_estructura_sin_enmienda3.csv", index=False)
     elif nulo is None:
         df["genero_cercano"] = df.estructura.map(GENERO)
-        df["prediccion"] = [prediccion(r) if r.nivel in ("demostrado", "apoyado", "propuesto") else "" for r in df.itertuples()]
+        df["prediccion"] = [prediccion(r) if r.nivel in ("bien apoyado", "apoyado", "propuesto") else "" for r in df.itertuples()]
         cols = ["kfg", "estructura", "estadistico", "p", "q", "mitad", "nivel", "prediccion", "holm", "qconf", "N", "detalle", "conocido_04", "genero_cercano", "p_congelado", "p_bloque"]
-        df[cols].sort_values(["nivel", "q", "kfg"], key=lambda s: s.map({"demostrado": 0, "apoyado": 1, "propuesto": 2, "especulativo": 3, "ninguno": 4}) if s.name == "nivel" else s).to_csv(AQUI / "frontera_estructura.csv", index=False)
+        df[cols].sort_values(["nivel", "q", "kfg"], key=lambda s: s.map({"bien apoyado": 0, "apoyado": 1, "propuesto": 2, "especulativo": 3, "ninguno": 4}) if s.name == "nivel" else s).to_csv(AQUI / "frontera_estructura.csv", index=False)
         fam.to_csv(AQUI / "familias.csv")
-        print("\nfilas demostrado/apoyado/propuesto:")
-        print(df[df.nivel.isin(["demostrado", "apoyado", "propuesto"])][["kfg", "estructura", "estadistico", "p", "q", "mitad", "nivel", "conocido_04", "detalle"]].sort_values("q").to_string())
+        print("\nfilas bien apoyado/apoyado/propuesto:")
+        print(df[df.nivel.isin(["bien apoyado", "apoyado", "propuesto"])][["kfg", "estructura", "estadistico", "p", "q", "mitad", "nivel", "conocido_04", "detalle"]].sort_values("q").to_string())
     else:
         fam.to_csv(AQUI / f"familias_nulo{nulo}.csv")

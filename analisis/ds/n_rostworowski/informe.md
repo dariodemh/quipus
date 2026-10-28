@@ -292,7 +292,7 @@ En contra / matices:
 
 ### H6. ¿Una cuota de 47 o 17 por unidad tiene análogo?
 
-- **47:** dos coincidencias de orden de magnitud: 45 cestos de coca para 9 pachacas guancayas (9 × 5) y 50 piezas de ropa por 100 tributarios en Lunahuaná (0,5 × 100). Ambas dentro del 6 %. Pero la primera es de otro valle y la segunda es una tasa colonial por cabeza, no un impuesto incaico. **Coincidencia, no analogía demostrada.**
+- **47:** dos coincidencias de orden de magnitud: 45 cestos de coca para 9 pachacas guancayas (9 × 5) y 50 piezas de ropa por 100 tributarios en Lunahuaná (0,5 × 100). Ambas dentro del 6 %. Pero la primera es de otro valle y la segunda es una tasa colonial por cabeza, no un impuesto incaico. **Coincidencia, no analogía bien apoyada.**
 - **17:** no hay análogo. Si fuera ropa, equivaldría a 34 tributarios; si coca, a 3,4 pachacas de 5 cestos. Ninguna de las dos cosas está documentada.
 - **10:** sí aparece como cantidad en la lista guancaya (10 ollas, 10 rodelas), pero es una lista de bienes, no una cuota por unidad.
 - **208:** no hay análogo; 208 ≈ 0,44 × 469 tributarios (ropa de 1590), pero es numerología.
@@ -317,14 +317,14 @@ En contra / matices:
 
 | Afirmación | Nivel |
 |---|---|
-| Guarco: 2 encomiendas, 3 fortalezas, coayllos/chinchas/mochicas, tierras de Pachacamac y del Sol | **Demostrado** (documental) |
-| Lunahuaná: 4 guarangas, 8 curacas (2 por guaranga), 740→474 tributarios | **Demostrado** (documental) |
-| Tasas 1577/1590: plantilla por tributario estable (ropa 0,5; aves ~1,03; plata ~3; total ~5) | **Demostrado** (aritmética de los documentos) |
-| Guancayos: 9 pachacas (el texto también dice «cinco pachaca»), 900 runa, 5 jefes, 45 cestos = 9 × 5 | **Demostrado** el total de 45 y la estructura 1+4×2=9; el «cinco pachaca» es una contradicción textual |
-| Incahuasi: fundación por Tupac Yupanqui, guarnición de guerra, colcas, abandono según Cieza | **Demostrado** (Cieza + Rostworowski) |
+| Guarco: 2 encomiendas, 3 fortalezas, coayllos/chinchas/mochicas, tierras de Pachacamac y del Sol | **Bien apoyado** (documental) |
+| Lunahuaná: 4 guarangas, 8 curacas (2 por guaranga), 740→474 tributarios | **Bien apoyado** (documental) |
+| Tasas 1577/1590: plantilla por tributario estable (ropa 0,5; aves ~1,03; plata ~3; total ~5) | **Bien apoyado** (aritmética de los documentos) |
+| Guancayos: 9 pachacas (el texto también dice «cinco pachaca»), 900 runa, 5 jefes, 45 cestos = 9 × 5 | **Bien apoyado** el total de 45 y la estructura 1+4×2=9; el «cinco pachaca» es una contradicción textual |
+| Incahuasi: fundación por Tupac Yupanqui, guarnición de guerra, colcas, abandono según Cieza | **Bien apoyado** (Cieza + Rostworowski) |
 | Incahuasi: continuidad parcial como centro administrativo/tambo; mitas de diversos lugares | **Propuesto** (Rostworowski, sin archivo específico) |
-| 9 columnas de UR278 equilibradas (CV 0,278 vs 0,865) e identidad estable (r 0,41 vs 0) | **Demostrado** (permutación, p_Holm < 1e-4) |
-| 47 es cuota absoluta, no proporcional (1,10–4,18 %) | **Demostrado** (aritmética) |
+| 9 columnas de UR278 equilibradas (CV 0,278 vs 0,865) e identidad estable (r 0,41 vs 0) | **Bien apoyado** (permutación, p_Holm < 1e-4) |
+| 47 es cuota absoluta, no proporcional (1,10–4,18 %) | **Bien apoyado** (aritmética) |
 | 9 columnas = 9 unidades/pachacas | **Propuesto** (analogía guancaya + estructura estable; falta lista de Cañete) |
 | 9 columnas = 9 periodos | **No apoyado / especulativo** (el eje temporal son las filas; calendario de 9 meses no mapea) |
 | 4 × 2 = 8 + 1 | **Especulativo** (sin dato) |
@@ -343,7 +343,7 @@ En contra / matices:
 - **UR278: las 9 columnas están equilibradas pero no son iguales.** CV dentro de fila 0,278 frente a 0,865 del nulo (p_Holm < 1e-4); la mayor es 1,63 × la menor. Tienen identidad estable (r = 0,41 frente a 0 del nulo; p_Holm < 1e-4), así que no son intercambiables.
 - **La cuota 47 es absoluta, no un 2 %:** 1,10–4,18 % del registro, solo 3/28 dentro de ±10 % de 2 %; es ~1/43 de un registro. Eso refuta «tasa proporcional» y apoya «cuota fija por registro/periodo», igual que la tasa colonial por cabeza.
 - **El eje temporal del archivo son las filas, no las columnas:** UR278 son 33 registros sucesivos y UR269 se organiza en bloques de 5 periodos (cuotas 47, 46, 46, 44, 25). El año de 9 meses × 40 días está documentado (914–916), pero no mapea a las 9 columnas: «9 = periodos» no está apoyado; «9 = unidades/pachacas» es la lectura plausible.
-- **Unidad = bulto:** apoyado para depósitos costeños por el **runcu** (medida de coca/ají en inventarios, con 1/2, 1/4, 1/8 y cesto de ~20 libras), la fanega/almud y las vasijas de 700–2000 L; propuesto, no demostrado, para Incahuasi.
+- **Unidad = bulto:** apoyado para depósitos costeños por el **runcu** (medida de coca/ají en inventarios, con 1/2, 1/4, 1/8 y cesto de ~20 libras), la fanega/almud y las vasijas de 700–2000 L; propuesto, no bien apoyado, para Incahuasi.
 - **Incahuasi:** fundado por Tupac Yupanqui durante la guerra contra Guarco, construido rápido con piedra basta, con guarnición y colcas de campaña; Cieza dice que se abandonó al terminar la guerra, y Rostworowski propone continuidad parcial como centro administrativo/tambo y mitas de diversos lugares. Ningún curaca vivió allí. La arqueología (Hyslop/Snead) insiste en la ocupación breve y los ~202 almacenes de ~250 unidades.
 - **Recomendación inmediata:** buscar en AGI Justicia 432/482 y Escribanía de Cámara 498-B una lista de 9 pachacas/ayllus de Lunahuaná (o de Cañete) que permita probar la firma de 9 columnas; mientras no exista, tratar «9 = pachacas» como propuesto y no usar 47 como «2 %».
 

@@ -1,0 +1,386 @@
+# Reading profile: KH0049
+
+## Physical summary
+
+- [DATA] 367 cords (108 pendants, 259 subsidiaries) in 7 groups; 5 broken, 16 without knots.  
+  _source: analisis/datos/cuerdas.csv_
+- [WELL SUPPORTED] Normalized color without ranges in cm. Color names depend on the transcriber (UR1107 = UR237: 0 of 23 labels the same); compare colors only within the same transcriber.  
+  _source: analisis/24_color_formato/informe.md_
+
+<details><summary>data</summary>
+
+```
+{
+ "cuerdas": 367,
+ "colgantes": 108,
+ "subsidiarias": 259,
+ "niveles": {
+  "0": 108,
+  "1": 259
+ },
+ "grupos": 7,
+ "cuerdas_por_grupo": {
+  "min": 9,
+  "mediana": 18.0,
+  "max": 18,
+  "modal": 18
+ },
+ "colores_distintos": 12,
+ "colores": {
+  "AB": 169,
+  "W": 94,
+  "MB": 40,
+  "W:KB": 23,
+  "GG": 20,
+  "W:AB": 7,
+  "KB": 5,
+  "RL": 3,
+  "RM": 2,
+  "W:MB": 2
+ },
+ "torsion": {
+  "S": 367
+ },
+ "valores": {
+  "min": 1,
+  "mediana": 13.0,
+  "max": 27475,
+  "suma_colgantes": 282645
+ },
+ "rotas": 5,
+ "sin_nudos": 16,
+ "union_superior_T": 0,
+ "okr": "KH0049",
+ "museo": "Museo Nacional de Arqueología, Antropología e Historia de Perú",
+ "procedencia": "Costa Sur",
+ "marcadoras_OKR": 0
+}
+```
+</details>
+
+## Number grammar
+
+- [DATA] Standard decimal: 0% of knotted cords violate decimal grammar (repeated place or digit >9 in one place).  
+  _source: analisis/28_atlas_generos/01_matriz.py (no_decimal)_
+
+<details><summary>data</summary>
+
+```
+{
+ "cuerdas_anudadas": 351,
+ "frac_no_decimal": 0.0,
+ "tipos_de_nudo": {
+  "S": 372,
+  "L": 237,
+  "E": 85
+ },
+ "cuerdas_aditivas": 0,
+ "L_10_o_mas_KFG": 0,
+ "L_ambiguos_KFG": 0,
+ "L_10_o_mas_OKR": 0,
+ "frac_torsion_Z": 0.0
+}
+```
+</details>
+
+## Internal sums
+
+
+<details><summary>data</summary>
+
+```
+{
+ "pruebas": {
+  "R1 colgante=Σsubsidiarias": {
+   "obs": 0,
+   "esperado": 0.002002002002002002,
+   "p": 1.0
+  },
+  "F colgante=Σ vecinos": {
+   "obs": 0,
+   "esperado": 0.03303303303303303,
+   "p": 1.0
+  },
+  "A total de grupo(s) adyacentes": {
+   "obs": 0,
+   "esperado": 0.001001001001001001,
+   "p": 1.0
+  },
+  "TA cuerda superior=Σ grupos": {
+   "obs": 0,
+   "esperado": 0.0,
+   "p": 1.0
+  }
+ },
+ "ejemplos": [],
+ "n_ejemplos": 0
+}
+```
+</details>
+
+## Headers and color formatting
+
+- [SUPPORTED] Header: the first pendant is the largest in 7 of 7 groups (expected 0.5; p=6.5e-09). “Largest 1st column = main entry, not a total”.  
+  _source: analisis/10_tablas/informe.md; analisis/ds/n_ficha_nazca/informe.md_
+- [SUPPORTED] Color marks the group (NMI 0.11 against 0.05 for the null; p=0.010).  
+  _source: analisis/24_color_formato/p3_transcriptor.py_
+- [SUPPORTED] Color marks the column in the groups of 18 (NMI 0.53 against 0.12; p=0.005). col 1: W (100%); col 2: W (100%); col 3: W:KB (100%); col 4: W:KB (100%); col 5: W (100%); col 6: W (100%); col 7: W (100%); col 8: W (80%); col 9: W (100%); col 10: AB (100%); col 11: AB (100%); col 12: W:KB (100%); col 13: W:KB (100%); col 14: AB (100%); col 15: AB (100%); col 16: AB (100%); col 17: AB (100%); col 18: AB (100%) Color is FORMATTING (column identity), not a value.  
+  _source: analisis/ds/n_color_posicion/informe.md; analisis/24_color_formato/informe.md_
+- [DATA] The first cord of each group is W in 100% of groups (“white = first cord of the group” in the corpus: 64/133 against 43.8).  
+  _source: analisis/24_color_formato/informe.md_
+
+<details><summary>data</summary>
+
+```
+{
+ "max_primer": {
+  "grupos": 7,
+  "obs": 7,
+  "esperado": 0.5,
+  "p": 6.533598691524028e-09
+ },
+ "max_último": {
+  "grupos": 7,
+  "obs": 0,
+  "esperado": 0.5,
+  "p": 0.9999999999999998
+ },
+ "color_grupo": {
+  "NMI": 0.113,
+  "NMI_nulo": 0.051,
+  "p": 0.01
+ },
+ "color_posicion": {
+  "k": 18,
+  "grupos": 5,
+  "NMI": 0.526,
+  "NMI_nulo": 0.116,
+  "p": 0.005,
+  "columnas": {
+   "1": [
+    "W",
+    1.0
+   ],
+   "2": [
+    "W",
+    1.0
+   ],
+   "3": [
+    "W:KB",
+    1.0
+   ],
+   "4": [
+    "W:KB",
+    1.0
+   ],
+   "5": [
+    "W",
+    1.0
+   ],
+   "6": [
+    "W",
+    1.0
+   ],
+   "7": [
+    "W",
+    1.0
+   ],
+   "8": [
+    "W",
+    0.8
+   ],
+   "9": [
+    "W",
+    1.0
+   ],
+   "10": [
+    "AB",
+    1.0
+   ],
+   "11": [
+    "AB",
+    1.0
+   ],
+   "12": [
+    "W:KB",
+    1.0
+   ],
+   "13": [
+    "W:KB",
+    1.0
+   ],
+   "14": [
+    "AB",
+    1.0
+   ],
+   "15": [
+    "AB",
+    1.0
+   ],
+   "16": [
+    "AB",
+    1.0
+   ],
+   "17": [
+    "AB",
+    1.0
+   ],
+   "18": [
+    "AB",
+    1.0
+   ]
+  }
+ }
+}
+```
+</details>
+
+## Nazca/Berlin format (field header + marker pair)
+
+
+<details><summary>data</summary>
+
+```
+{
+ "barrido": []
+}
+```
+</details>
+
+## Form with a splitting key
+
+- [SUPPORTED] Color form: blocks that repeat the key W-W-W-W-W-AB with split 0.11/0.14/0.15/0.11/0.09/0.40 (perm p=0.0001; BH q=0.0005; Holm=0.037).  
+  _source: analisis/22_formularios/quipus_detector.csv_
+
+<details><summary>data</summary>
+
+```
+{
+ "Q": "cromatico",
+ "fam": "Cf",
+ "clave": "W-W-W-W-W-AB",
+ "cuotas": "0.11/0.14/0.15/0.11/0.09/0.40",
+ "p_q": 9.80392156862745e-05,
+ "q_bh": 0.0004666170265574,
+ "holm": 0.0368627450980392,
+ "calculo": "publicado"
+}
+```
+</details>
+
+## Relations with other khipus in the corpus
+
+- [PROPOSED] copy: KH0049 ~ UR122: 60/80 aligned cords exact (154 bits) (p=7.1e-30; BH q in this query=0.000).  
+  _source: reader (recalculated): analisis/04_concordancias/concordancias.py; analisis/ds/n_cuota_entrega/03_relaciones.py_
+- [SUPPORTED] KH0049 → UR122: UR122 copies the subtotals section (B1, B3–B5) of the hierarchical table of KH0049 (blocks of 18: B0 = B1+B2 in 14/18, B1 = B3+B4+B5 in 7/18; p=5e-5 each). The discrepancy 15652/15649 is in both: it comes from the original or from a common source. Post hoc [documented]  
+  _source: analisis/30_frontera_estructura/07_ur122_kh0049.py; analisis/33_estematica/informe.md_
+- [SUPPORTED] KH0049 → UR122: copy (60/80 exact; q04=1.4e-38) [documented]  
+  _source: analisis/14_copias/pares_resumen.csv; analisis/04_concordancias/resultados/pares_significativos.csv_
+
+<details><summary>data</summary>
+
+```
+{
+ "detectadas": [
+  {
+   "tipo": "copia",
+   "origen": "KH0049",
+   "destino": "UR122",
+   "con": "UR122",
+   "detalle": "KH0049 ~ UR122: 60/80 cuerdas alineadas exactas (154 bits)",
+   "p": 7.081061387640011e-30,
+   "q": 4.496473981151407e-27
+  }
+ ]
+}
+```
+</details>
+
+## Two-color alternation (interleaved two-column table)
+
+
+<details><summary>data</summary>
+
+```
+{
+ "evaluado": true,
+ "desfase": 18,
+ "estadistico": 0.2943,
+ "posiciones_alternas": 3,
+ "colgantes": 108,
+ "colores": 4
+}
+```
+</details>
+
+## Column totals between blocks (hierarchical table)
+
+- [PROPOSED] Column totals: B0 = B1+B2 in 14 of 18 positions (blocks of 18 pendants; p=5.0e-05; BH q over 32 candidates in the khipu=8.0e-04).  
+  _source: analisis/30_frontera_estructura/07_ur122_kh0049.py; analisis/30_frontera_estructura/informe.md (T6)_
+- [PROPOSED] Column totals: B1 = B3+B4+B5 in 7 of 18 positions (blocks of 18 pendants; p=5.0e-05; BH q over 32 candidates in the khipu=8.0e-04).  
+  _source: analisis/30_frontera_estructura/07_ur122_kh0049.py; analisis/30_frontera_estructura/informe.md (T6)_
+- [PROPOSED] The totals chain (a total block is in turn an addend of another): hierarchical table of 3 levels or more.  
+  _source: analisis/30_frontera_estructura/07_ur122_kh0049.py; analisis/30_frontera_estructura/informe.md (T6)_
+
+<details><summary>data</summary>
+
+```
+{
+ "bloque": 18,
+ "bloques": 6,
+ "significativos": [
+  {
+   "total": "B0",
+   "partes": "B1+B2",
+   "exactas": 14,
+   "de": 18,
+   "p": 4.999750012499375e-05,
+   "q": 0.0007999600019999
+  },
+  {
+   "total": "B1",
+   "partes": "B3+B4+B5",
+   "exactas": 7,
+   "de": 18,
+   "p": 4.999750012499375e-05,
+   "q": 0.0007999600019999
+  }
+ ],
+ "candidatos": 32
+}
+```
+</details>
+
+## Atlas type
+
+- [PROPOSED] Type: Form with a splitting key (FOR), medium confidence. color form, Holm=0.037 | also: TAB(medium); SEG(low) | quality: 367 cords, 1% broken, transcriber KH  
+  _source: analisis/28_atlas_generos/atlas.csv; analisis/28_atlas_generos/reglas.py_
+- [PROPOSED] Testable prediction: The blocks repeat the key W-W-W-W-W-AB (transcriber's labels; what is testable is the partition) with split ~0.11/0.14/0.15/0.11/0.09/0.40; another khipu from the same archive (consecutive museum number, same transcriber) will repeat those proportions (+-0.05) even if its scale changes; the largest part comes first or in white.  
+  _source: analisis/28_atlas_generos/atlas.csv; analisis/28_atlas_generos/reglas.py_
+- [PROPOSED] Amendment to the atlas (2026-10-18): Decimal accounting with internal totals (SUM), medium confidence. Before: FOR (medium; color form, Holm 0.037), which becomes secondary. 3-level hierarchical table with column totals in blocks of 18 pendants: B0 = B1+B2 in 14 of 18 positions and B1 = B3+B4+B5 in 7 of 18 (permutation null of one addend: maximum 6 and 4; p 5e-5 each). It is decimal accounting with internal totals (SUM); not TAB, whose definition excludes the total column, nor ARC, because with UR122 there is a copy and not totals between khipus. Medium and not high: post hoc finding, outside the frozen design of 30. Its partial copy is UR122.  
+  _source: analisis/28_atlas_generos/enmiendas.csv; analisis/30_frontera_estructura/07_ur122_kh0049.py; analisis/30_frontera_estructura/informe.md; analisis/33_estematica/pares_copia.csv_
+
+<details><summary>data</summary>
+
+```
+{
+ "genero": "FOR",
+ "nombre": "Formulario con clave de reparto",
+ "confianza": "media",
+ "evidencia": "formulario cromatico, Holm=0.037 | tambien: TAB(media); SEG(baja) | calidad: 367 cuerdas, 1% rotas, transcriptor KH",
+ "prediccion": "Los bloques repiten la clave W-W-W-W-W-AB (etiquetas del transcriptor; lo comprobable es la particion) con reparto ~0.11/0.14/0.15/0.11/0.09/0.40; otro quipu del mismo archivo (museo consecutivo, mismo transcriptor) repetira esas proporciones (+-0,05) aunque su escala cambie; la parte mayor va primero o en blanco.",
+ "estabilidad": 1.0,
+ "reglas_reproducen": true,
+ "calculo": "atlas publicado",
+ "enmienda": {
+  "genero": "SUM",
+  "nombre": "Contabilidad decimal con totales internos",
+  "confianza": "media",
+  "evidencia": "Antes: FOR (media; formulario cromático, Holm 0,037), que pasa a secundario. Tabla jerárquica de 3 niveles con totales por columna en bloques de 18 colgantes: B0 = B1+B2 en 14 de 18 posiciones y B1 = B3+B4+B5 en 7 de 18 (nulo de permutación de un sumando: máximo 6 y 4; p 5e-5 cada una). Es contabilidad decimal con totales internos (SUM); no TAB, cuya ficha excluye la columna-total, ni ARC, porque con UR122 hay copia y no totales entre quipus. Media y no alta: hallazgo post hoc, fuera del diseño congelado de 30. Su copia parcial es UR122.",
+  "fuente": "analisis/30_frontera_estructura/07_ur122_kh0049.py; analisis/30_frontera_estructura/informe.md; analisis/33_estematica/pares_copia.csv",
+  "fecha": "2026-10-18"
+ }
+}
+```
+</details>
+

@@ -220,12 +220,12 @@ No se aplicó corrección múltiple a los conteos descriptivos (no son pruebas d
 
 | Hallazgo | Nivel |
 |---|---|
-| El parser recupera 14 953 filas y ~96 % de los colgantes descritos | **Demostrado** (medición directa) |
-| Valor 94.7 %, color 92.2 %, largo 99.9 % de concordancia | **Demostrado** como fidelidad de transcripción (no como verdad) |
+| El parser recupera 14 953 filas y ~96 % de los colgantes descritos | **Bien apoyado** (medición directa) |
+| Valor 94.7 %, color 92.2 %, largo 99.9 % de concordancia | **Bien apoyado** como fidelidad de transcripción (no como verdad) |
 | 311 discrepancias y su clasificación | **Apoyado con datos** (depende del decoder y de la alineación; se verificaron a mano varios casos, entre ellos AS010, AS011, AS101 y AS170) |
 | 128 cuerdas con nudos perdidos en KFG | **Apoyado con datos** (el KFG tiene `nudos` vacío y valor 0) |
-| 5 quipus con valores reconstruidos por KFG | **Demostrado** (valores KFG presentes; valores Databook ausentes/`?`) |
-| AS081: KFG impone lectura decimal contra la nota de los Ascher | **Demostrado** (cita textual + valores KFG) |
+| 5 quipus con valores reconstruidos por KFG | **Bien apoyado** (valores KFG presentes; valores Databook ausentes/`?`) |
+| AS081: KFG impone lectura decimal contra la nota de los Ascher | **Bien apoyado** (cita textual + valores KFG) |
 | Atribuir cada error a Tesseract vs. a la edición impresa | **Especulativo** (no tenemos el PDF original ni la edición de 1988 a la vista) |
 | Que las 45 `c_error_databook` sean erratas de la edición y no del OCR | **Propuesto** (patrón consistente, pero sin verificación física) |
 

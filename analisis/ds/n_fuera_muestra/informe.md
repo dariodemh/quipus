@@ -12,7 +12,7 @@ Carpeta: `analisis/ds/n_fuera_muestra/`. Script: `04_fuera_muestra.py`; salida c
 - **Alineación.** Registro a registro por posición ordinal, sin comprimir huecos (los grupos PK sin nudos separan y no cuentan). En UR273A/UR273B la posición ordinal coincide con el número de grupo (ambos tienen la misma lista de grupos). En UR274A **no** coincide: sus separadores están en otra posición, y el alineamiento ordinal es el único que reproduce los tres cuadres 1278, 2020 y 2106; por eso se usa ese.
 - **Nulos.** (i) y (iii): barajar B entre los registros de la misma mitad (rompe solo el emparejamiento). (ii): asignar a las 4 posiciones candidatas 4 valores de B distintos, extraídos de las 21 posiciones con B presente. (iv): nulo **condicionado a la magnitud**: para cada acierto se elige al azar una fila del bloque cuya cabecera esté dentro de ±15 % (sensibilidad ±10 % y ±20 %). (v): barajar las cuotas entre las filas de cada bloque.
 - **Réplicas.** 10 000 permutaciones Monte Carlo por prueba; donde el espacio es pequeño se enumera exacto (9! = 362 880 para las mitades de 273; 21P4 = 143 640 para (ii)).
-- **Corrección múltiple.** Holm sobre los cinco p primarios; se reporta también BH-FDR. Se etiqueta cada conclusión como demostrado / apoyado con datos / propuesto / especulativo.
+- **Corrección múltiple.** Holm sobre los cinco p primarios; se reporta también BH-FDR. Se etiqueta cada conclusión como bien apoyado / apoyado con datos / propuesto / especulativo.
 
 ## Resultados
 
@@ -54,7 +54,7 @@ Seis registros de UR273A no tienen cabecera (ningún colgante anudado ≥100). C
 - Resultado: **3/4**, no 3/3. Con el criterio estricto (todas las cuerdas de 273A sin nudos) son **2/3**: cuadran 1278 y 2106, falla 3084. El 3/3 de 18 §4 exige mezclar criterios: incluir el grupo 6 (que solo lleva la cuota 30, no una cabecera) y excluir el grupo 2. El valor 3084 no está en `S` ni en `S_all`.
 - Esperanza exacta = **0,143**; nulo exacto (21P4 = 143 640): p = **0,00013** (18 permutaciones con ≥3). Poisson: p = 0,0004.
 - **Control de familia:** de los 17 quipus del archivo con ≥3 posiciones utilizables en el mismo alineamiento, **ninguno llega a 2/4**; el mejor es UR263 con 1/4. UR255 y UR256 dan 0/4; UR274B, 0/3 (no se alinean). Bonferroni por 17 quipus: 17 × 0,00013 ≈ **0,0022**.
-- La predicción es real y fuerte, pero no es ciega: 274A se eligió después de conocer que es la copia/complemento de 273A. Por eso 1a queda como **apoyado con datos**, no como demostrado.
+- La predicción es real y fuerte, pero no es ciega: 274A se eligió después de conocer que es la copia/complemento de 273A. Por eso 1a queda como **apoyado con datos**, no como bien apoyado.
 
 ### (iii) R1 por mitades (267A+B → cabeceras de UR269)
 
@@ -111,7 +111,7 @@ Como sensibilidad **post hoc** (elegida después de ver el resultado de paridad)
 
 ## Nivel de evidencia
 
-- **1a (UR273A+B → 266/275/269): apoyado con datos, y ahora también fuera de muestra.** (i) estable en ambas mitades (IUT p = 0,004; Holm 0,016); (ii) 3/4 con p exacto = 0,00013 y ningún otro quipu ≥2/4 (Holm 0,0007). No llega a "demostrado" porque (ii) depende de la elección post hoc de 274A y de la definición de "sin cabecera", y porque todo sigue siendo KFG, no una relectura independiente.
+- **1a (UR273A+B → 266/275/269): apoyado con datos, y ahora también fuera de muestra.** (i) estable en ambas mitades (IUT p = 0,004; Holm 0,016); (ii) 3/4 con p exacto = 0,00013 y ningún otro quipu ≥2/4 (Holm 0,0007). No llega a "bien apoyado" porque (ii) depende de la elección post hoc de 274A y de la definición de "sin cabecera", y porque todo sigue siendo KFG, no una relectura independiente.
 - **1b (UR267A+B → UR269): propuesto, debilitado.** Falla la mitad de los datos; Holm 0,503. No debe presentarse como resultado fuera de muestra.
 - **4b, posición en el bloque: cae como evidencia independiente.** El efecto es un artefacto de magnitud (p ≈ 0,25).
 - **4b, cuota por fila: apoyado con datos solo in-sample y en el corte temporal exploratorio; la prueba de paridad es no concluyente.** No citar la paridad como confirmación.
@@ -125,5 +125,5 @@ Como sensibilidad **post hoc** (elegida después de ver el resultado de paridad)
 - **La prueba de posición en UR269 (4b) cae como evidencia independiente.** El 4/4 en la fila 1 es casi forzado por la magnitud: condicionando a ±15 %, p = 0,25 (no 0,0013); con 267, p = 0,75; partiendo el bloque 5, p = 1,0.
 - **La cuota por fila no se confirma por paridad** (4/15 frente a 1,98; p = 0,101), pero la mitad impar tiene solo 3 bloques y las filas 3–5 casi no tienen cuotas. Un corte temporal 5+5 sí replica (11/25 y 13/25; p ≈ 5·10⁻⁴), aunque es post hoc: no cuenta como confirmatorio.
 - **Corrección múltiple:** solo (i) y (ii) pasan Holm; (iii), (iv) y (v) no. El mensaje central para el público debe ser "1a resiste; 1b y la posición en el bloque, no".
-- **Lo que falta para cerrar 1a:** relectura o fotos independientes de UR273A/B y UR274A (sobre todo el grupo 2), y las subsidiarias de UR274B/UR256 que faltan en KFG. Sin eso, 1a es "apoyado con datos", no "demostrado".
+- **Lo que falta para cerrar 1a:** relectura o fotos independientes de UR273A/B y UR274A (sobre todo el grupo 2), y las subsidiarias de UR274B/UR256 que faltan en KFG. Sin eso, 1a es "apoyado con datos", no "bien apoyado".
 - **Siguiente ronda:** pre-registrar la regla "273A sin cabecera → 274A" y aplicarla a los quipus de Inkawasi no publicados; buscar los tres flujos que faltan (cuotas 46, 46, 44) en esos quipus; y repetir (iii) en una mitad ciega antes de volver a citar 1b.

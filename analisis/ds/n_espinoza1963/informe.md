@@ -33,7 +33,7 @@ Este es el resultado más importante de la primera parte, y condiciona todo lo d
 - Los productos de las chacras son coca, algodón, ají y mates (`:3251-3255`), propios de la franja yunga, no del valle del Mantaro.
 - La cédula de encomienda de 1542 dice que el contador no tenía “yndios yungas en este valle de Lima” y le encomienda al cacique Chuquyn parco “en el valle de Guancallo” (Rostworowski, `Rostworowski_CostaPeruana.txt:333-334`).
 
-Rostworowski ya lo había demostrado con archivo y toponimia: “los guancayos… vivían en el Chillón y no tenían nada que ver con la moderna ciudad del mismo nombre situada cerca de Jauja” (`Rostworowski:318`), y “se trata de un grupo yunga cuyo nombre es similar a otra toponimia en la región de Jauja” (`Rostworowski:338`). Espinoza, en cambio, tituló el artículo “La guaranga y la reducción de Huancayo” y situó el documento en la región wanka. **La atribución wanka es un error de Espinoza; la lectura yunga del Chillón es la correcta.** Nivel: **demostrado** por la distancia, el río, los encomenderos y los productos.
+Rostworowski ya lo había mostrado con archivo y toponimia: “los guancayos… vivían en el Chillón y no tenían nada que ver con la moderna ciudad del mismo nombre situada cerca de Jauja” (`Rostworowski:318`), y “se trata de un grupo yunga cuyo nombre es similar a otra toponimia en la región de Jauja” (`Rostworowski:338`). Espinoza, en cambio, tituló el artículo “La guaranga y la reducción de Huancayo” y situó el documento en la región wanka. **La atribución wanka es un error de Espinoza; la lectura yunga del Chillón es la correcta.** Nivel: **bien apoyado** por la distancia, el río, los encomenderos y los productos.
 
 Consecuencia: la “guaranga de Huancayo” de 900 tributarios y 9 pachacas no es una guaranga wanka. Es un señorío yunga del Chillón, organizado por el Estado inca (o por el visitador) en 9 pachacas de 100 tributarios. Sigue siendo un caso válido de organización decimal, pero no es el caso wanka que la literatura cita.
 
@@ -155,7 +155,7 @@ La firma de UR278 (24 filas de 9 cuerdas) es un perfil gradual, no plano:
 
 La conclusión es negativa en las tres comparaciones posibles:
 
-1. **Si las columnas son pachacas**, la tasa predice 9 columnas iguales; UR278 tiene un gradiente de 1,75× (c1 0,135, c8 0,080) y un efecto de columna fuerte (Friedman p = 0,0002, ya demostrado en `n_nueve_unidades`). **No coinciden.**
+1. **Si las columnas son pachacas**, la tasa predice 9 columnas iguales; UR278 tiene un gradiente de 1,75× (c1 0,135, c8 0,080) y un efecto de columna fuerte (Friedman p = 0,0002, ya bien apoyado en `n_nueve_unidades`). **No coinciden.**
 2. **Si las columnas son productos**, el perfil de productos es 26 veces máximo/mínimo, mucho más sesgado que UR278 (1,75×). La correlación en el orden documentado es r = 0,712 (p = 0,015), pero es exploratoria: el orden de la lista no está justificado independientemente, y la mejor asignación post hoc de los 9 productos a las 9 columnas llega a r = 0,867. Con 9! órdenes posibles, encontrar r ≥ 0,712 es fácil; no es evidencia.
 3. **Si el perfil es la supervivencia de 1571**, hay 7 ceros; UR278 no tiene ningún cero. La correlación con las dos pachacas vivas en c1-c2 es r = 0,713 (p = 0,015), pero es el máximo posible sobre las 36 colocaciones de dos valores no nulos: no es un contraste válido. La forma (7 ceros) es incompatible con UR278.
 
@@ -241,7 +241,7 @@ El BIC favorece **una** componente (ΔBIC = 0,46, prácticamente empate); el AIC
 - **Hay filas planas reales:** g0, g1 y g11 son más planas que el nulo paramétrico (Holm < 0,05); g14 queda cerca.
 - **No hay una mezcla de dos poblaciones:** el BIC favorece una sola; la “clase plana” no es estable ni coincide con una fase.
 - **La fase 1 no es un régimen de tasa:** su ventaja desaparece al controlar el tamaño (p = 0,757).
-- **Propuesto, no demostrado:** UR278 podría contener 2-3 registros de tasa o de un solo ítem repetido, mezclados con 21-22 registros de entrega variable. La evidencia es de cola, no de mezcla.
+- **Propuesto, no bien apoyado:** UR278 podría contener 2-3 registros de tasa o de un solo ítem repetido, mezclados con 21-22 registros de entrega variable. La evidencia es de cola, no de mezcla.
 
 Nivel: **apoyado con datos** que hay 2-3 filas excepcionalmente planas; **no apoyado** que UR278 sea una mezcla de tasa y entrega; **propuesto** que esas filas sean registros de tasa.
 
@@ -261,7 +261,7 @@ UR270 tiene 6 grupos de 9 con colgante (P) y primera subsidiaria (S1) completos.
 
 No hay ninguna fila de 9 plana en UR270: el CV mínimo es 0,235 (P+S1) y 0,256 (P). El nulo paramétrico no muestra un exceso de planitud (CV medio P+S1 0,329 observado vs 0,326 nulo, p = 0,57). **UR270 no replica las filas planas de UR278.**
 
-Pero hay un detalle importante: **P tiene 22 igualdades exactas, 16 de ellas en el grupo 6**, cuyos valores son `[200, 200, 100, 100, 100, 200, 200, 100, 100]`. Es un patrón binario de 100/200, no una fila plana. S1, en cambio, es irregular (`[70, 97, 58, 61, 61, 92, 41, 54, 59]`), y P+S1 queda en un término medio. Esto sugiere una hipótesis distinta: **P podría ser la cuota/tasa (redonda, binaria) y S1 la entrega real (irregular); UR278, al sumar P+S1, mezcla las dos.** Es una hipótesis propuesta, no demostrada, y con n = 6 no se puede cerrar. Pero es la pista más interesante de UR270 y explica por qué las filas de UR278 no son ni perfectamente planas ni perfectamente irregulares.
+Pero hay un detalle importante: **P tiene 22 igualdades exactas, 16 de ellas en el grupo 6**, cuyos valores son `[200, 200, 100, 100, 100, 200, 200, 100, 100]`. Es un patrón binario de 100/200, no una fila plana. S1, en cambio, es irregular (`[70, 97, 58, 61, 61, 92, 41, 54, 59]`), y P+S1 queda en un término medio. Esto sugiere una hipótesis distinta: **P podría ser la cuota/tasa (redonda, binaria) y S1 la entrega real (irregular); UR278, al sumar P+S1, mezcla las dos.** Es una hipótesis propuesta, no bien apoyada, y con n = 6 no se puede cerrar. Pero es la pista más interesante de UR270 y explica por qué las filas de UR278 no son ni perfectamente planas ni perfectamente irregulares.
 
 ### 5.2 El corpus: 237 grupos de 9
 
@@ -335,7 +335,7 @@ Busqué las tres formas en los 651 quipus del KFG:
 
 **No hay en el KFG ningún quipu con la forma de la tasa de Guancayo.** No hay 9 grupos de 9 constantes, ni el vector de productos, ni los totales ×9, ni una matriz 9×9 de gemelos. Lo único que existe es la convención local de un grupo de 9 cuerdas iguales (2, 10, 70), que no es la tabla de 9 productos × 9 pachacas.
 
-Nivel: **demostrado** que no hay coincidencia exacta en el corpus actual; **apoyado con datos** que la ventana más cercana no es significativa (p = 0,755); **especulativo** que un quipu de este tipo exista en colecciones no incluidas en el KFG.
+Nivel: **bien apoyado** que no hay coincidencia exacta en el corpus actual; **apoyado con datos** que la ventana más cercana no es significativa (p = 0,755); **especulativo** que un quipu de este tipo exista en colecciones no incluidas en el KFG.
 
 ---
 
@@ -363,7 +363,7 @@ Pero hay que ser escéptico:
 - Las igualdades están concentradas en las filas planas: g0 aporta 5 de las 11 (pares 1-2 y 4-5), g9 aporta otras, etc. Sin las filas planas quedan 7, todavía significativas, pero el efecto es fundamentalmente “las filas planas tienen valores repetidos, y los pares de la Visita capturan esas repeticiones”.
 - La correlación, que sería la prueba de que las columnas covarían como parejas, no da nada. Es un emparejamiento de **igualdades**, no de **covariación**.
 
-**Interpretación propuesta:** las 9 columnas de UR278 podrían ser 9 pachacas agrupadas en 5 curacas (4 pares + 1 suelta), y las pachacas de un mismo curaca llevarían el mismo valor en algunos registros (tasa por curaca, no por pachaca). Eso explicaría por qué los pares contiguos de la Visita tienen más igualdades que otros pares, pero no por qué las columnas no covarían. Nivel: **apoyado con datos, frágil**; no demostrado.
+**Interpretación propuesta:** las 9 columnas de UR278 podrían ser 9 pachacas agrupadas en 5 curacas (4 pares + 1 suelta), y las pachacas de un mismo curaca llevarían el mismo valor en algunos registros (tasa por curaca, no por pachaca). Eso explicaría por qué los pares contiguos de la Visita tienen más igualdades que otros pares, pero no por qué las columnas no covarían. Nivel: **apoyado con datos, frágil**; no bien apoyado.
 
 ---
 
@@ -406,20 +406,20 @@ Pero hay que ser escéptico:
 
 | afirmación | nivel |
 |---|---|
-| La Visita es del valle del Chillón, no de Huancayo | **demostrado** (7 leguas a Lima, río Collique, Talavera, Cáceres; Rostworowski) |
-| Guancayo tenía 900 tributarios en 9 pachacas de 100 en tiempo del Inca | **demostrado** por la Visita y el artículo (con la tensión “cinco” vs 9) |
-| La tasa anual era la misma lista en cada pachaca | **demostrado** por el texto (“eran nueve cada una de las cosas siguientes”; “tanto al uno como al otro”) |
-| Maca tenía 190 tributarios en 1571 (90 + 100), no 170 | **demostrado** por la Visita; el artículo se contradice |
-| Guarauni tenía 5 chacras, una de maíz, no 4 sin maíz | **demostrado** por la Visita; el artículo se contradice |
-| La mita de Lima era de 8 indios, pero el reparto suma 7 | **demostrado** que el texto se contradice; no se sabe cuál es el error |
-| El “9 productos” es una selección editorial; la Visita lista 12 rubros | **demostrado** por comparación de líneas |
+| La Visita es del valle del Chillón, no de Huancayo | **bien apoyado** (7 leguas a Lima, río Collique, Talavera, Cáceres; Rostworowski) |
+| Guancayo tenía 900 tributarios en 9 pachacas de 100 en tiempo del Inca | **bien apoyado** por la Visita y el artículo (con la tensión “cinco” vs 9) |
+| La tasa anual era la misma lista en cada pachaca | **bien apoyado** por el texto (“eran nueve cada una de las cosas siguientes”; “tanto al uno como al otro”) |
+| Maca tenía 190 tributarios en 1571 (90 + 100), no 170 | **bien apoyado** por la Visita; el artículo se contradice |
+| Guarauni tenía 5 chacras, una de maíz, no 4 sin maíz | **bien apoyado** por la Visita; el artículo se contradice |
+| La mita de Lima era de 8 indios, pero el reparto suma 7 | **bien apoyado** que el texto se contradice; no se sabe cuál es el error |
+| El “9 productos” es una selección editorial; la Visita lista 12 rubros | **bien apoyado** por comparación de líneas |
 | UR278 tiene 2-3 filas excepcionalmente planas (Holm) | **apoyado con datos** (g0, g1, g11; g14 borderline) |
 | UR278 es una mezcla de filas de tasa y de entrega | **no apoyado**; a lo sumo **propuesto** para 2-3 filas |
 | La concentración de filas planas en la fase 1 es un régimen de tasa | **no apoyado**: se explica por el tamaño (p = 0,757 tras control) |
 | El emparejamiento 2+1+2+2+2 de la Visita coincide con los pares de UR278 | **apoyado con datos, frágil** (11 igualdades vs 4, p = 0,0003; pero r = 0,090 y máximo sobre 945 p = 0,086) |
 | UR270 no replica las filas planas; P es más “redondo” que S1 | **apoyado con datos** (P 22 igualdades vs S1 3; CV no significativo) |
-| P = cuota y S1 = entrega en UR270 | **propuesto**; n = 6, no demostrado |
-| En el corpus hay 5 grupos de 9 con 9 valores iguales (vs 1,2 esperados) | **demostrado** (p = 0,0001), pero son constantes simples (2, 10, 70) |
+| P = cuota y S1 = entrega en UR270 | **propuesto**; n = 6, no bien apoyado |
+| En el corpus hay 5 grupos de 9 con 9 valores iguales (vs 1,2 esperados) | **bien apoyado** (p = 0,0001), pero son constantes simples (2, 10, 70) |
 | Hay un quipu en el corpus con la forma de la tasa de Guancayo | **no apoyado / negativo**: 0 coincidencias; la ventana más cercana p = 0,755 |
 | Las 9 columnas de UR278 son las 9 pachacas de Guancayo | **especulativo**: el documento es de otro valle y el perfil no coincide; solo la estructura 4+1 es sugerente |
 | UR278 es el quipu de la tasa de Guancayo | **especulativo y poco probable**: distinto valle, distinta escala, sin coincidencia de valores |

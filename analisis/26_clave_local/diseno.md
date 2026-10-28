@@ -85,9 +85,9 @@ Se asigna por prioridad; la primera regla que se cumple gana.
   - R3 bandas y cabecera (s = −|diferencia|).
 - **Control positivo:** UR053A–E como único archivo, frente a los demás quipus de Urton, con el mismo T. Se espera p < 0,05 en R1.
 - **Lectura:**
-  - **clave local demostrada sin UR053** si R1 o R2 pasa Holm < 0,05 y la representación está validada (§2);
+  - **clave local bien apoyada sin UR053** si R1 o R2 pasa Holm < 0,05 y la representación está validada (§2);
   - **apoyada** si solo pasa BH o solo nominalmente;
-  - **no demostrada** si no pasa.
+  - **no bien apoyada** si no pasa.
 
 ## 6. Potencia (declarada antes de correr)
 

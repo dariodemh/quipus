@@ -58,7 +58,7 @@ Ficha manuscrita de 47 páginas: portada, dos páginas de grupos y 36 páginas d
 - La estructura de grupos de las páginas 1–3 (posición en cm, rango, espacio) se usó para la columna `grupo`. Los 41 rangos cubren 1–438 sin solapamientos.
 - La nota de la página 3 dice: *"In each of the 41 groups, one cord has been pulled up to a position resembling a top cord. These may actually be summary cords. These top cords are circled"*. Se marcaron dos círculos visibles (cuerdas 170 y 181), pero **no se hizo un inventario sistemático de los 41 círculos**; queda como pendiente.
 - Orden: la ficha escribe 45 y 45s1 antes de 44 (que va insertada con una flecha); el CSV ordena 44 antes de 45. La cuerda 337 está escrita antes que 336 y con un asterisco; se conserva 336→337 y se anota.
-- **Validación contra totales de la ficha (negativa)**: las páginas de resumen (p040–p043) dan "total on 10 cord group" para los grupos 1–11, 12–22, … 94–104. No reconcilian con la suma de las cuerdas principales: 1–11: 55 vs 28; 12–22: 70 vs 26; 23–33: 905 vs 54; 34–38: 56 vs 50; 39–49: 126 vs 150; 50–60: 182 vs 169; 61–71: 189 vs 258; 72–82: 152 vs 566; 83–93: 119 vs 217; 94–104: 145 vs 380. No se usaron como validación. La explicación más probable es que "total on 10 cord group" cuente otra cosa (nº de nudos, o cuerdas sin las subsidiarias y sin la cuerda resumen) o que los resúmenes se refieran a otra pasada de medición. **Propuesto, no demostrado.**
+- **Validación contra totales de la ficha (negativa)**: las páginas de resumen (p040–p043) dan "total on 10 cord group" para los grupos 1–11, 12–22, … 94–104. No reconcilian con la suma de las cuerdas principales: 1–11: 55 vs 28; 12–22: 70 vs 26; 23–33: 905 vs 54; 34–38: 56 vs 50; 39–49: 126 vs 150; 50–60: 182 vs 169; 61–71: 189 vs 258; 72–82: 152 vs 566; 83–93: 119 vs 217; 94–104: 145 vs 380. No se usaron como validación. La explicación más probable es que "total on 10 cord group" cuente otra cosa (nº de nudos, o cuerdas sin las subsidiarias y sin la cuerda resumen) o que los resúmenes se refieran a otra pasada de medición. **Propuesto, no bien apoyado.**
 
 ### 3.2 KH0675 / UR-298 (Dumbarton Oaks, PC.WBC.2016.071)
 
@@ -85,7 +85,7 @@ El xlsx `JS01_Strauss_Harvard_Senior_Thesis.xlsx` (exportación KDB del 2/1/2019
 - **Regla**: la hoja declara en `Pendant Detail!K3`: *"all single knots = 10, long knots = their value in parentheses, e-knot = 1, keep in order of knot group on cord"*. Es una regla aditiva (simples = decenas, largos = unidades, ochos = unidades), no jerárquica.
 - Con esa regla: suma 4.769, mediana 21,5, máximo 121.
 - Con la regla jerárquica (la de KH0674/675), el 99% de las cuerdas tiene 3+ racimos y los valores se disparan: suma 670.004, mediana 681,5, máximo 314.120. Solo 3 cuerdas superan el percentil 99,9 del corpus KFG (18.727) y ninguna con la regla aditiva.
-- **Decisión**: `valor` = regla de la hoja; `alt` = variante jerárquica. Nivel de evidencia: **apoyado con datos** (la nota de la fuente + la calibración + el conteo de 65 cuerdas), no demostrado, porque no hay columna de valor independiente contra la que contrastar.
+- **Decisión**: `valor` = regla de la hoja; `alt` = variante jerárquica. Nivel de evidencia: **apoyado con datos** (la nota de la fuente + la calibración + el conteo de 65 cuerdas), no bien apoyado, porque no hay columna de valor independiente contra la que contrastar.
 - Seis cuerdas usan el tipo `SP` (13, 23, 41s2s1, 61, 65s3s1, 65s4s1); se trató como `S` y se anotó. Es una decisión que necesita revisión humana.
 
 **El número de inventario.** El PDF (página 1, escrita por Julia Strauss el 12/17/18) dice, con la misma letra y en la misma hoja que el resto de la ficha:
@@ -93,7 +93,7 @@ El xlsx `JS01_Strauss_Harvard_Senior_Thesis.xlsx` (exportación KDB del 2/1/2019
 > Museum Name: Brooklyn Museum
 > Museum Number: 36.718
 
-El xlsx (`Heading!A4`) repite `Museum Number: 36.718`. El OKR, en cambio, asigna a KH0676 `80.1012 aka 2708`, el mismo número que a KH0700 (Stanford, SB001). **Conclusión: el número `80.1012 aka 2708` de KH0676 es un error del OKR**; el JS01 es Brooklyn 36.718. Nivel: **apoyado con datos** (dos fuentes primarias independientes: la nota manuscrita y el xlsx). No se pudo consultar el catálogo del Brooklyn Museum para confirmar que 36.718 sea el número definitivo, así que no se eleva a demostrado. No existe en el OKR ningún KH con el número 36.718.
+El xlsx (`Heading!A4`) repite `Museum Number: 36.718`. El OKR, en cambio, asigna a KH0676 `80.1012 aka 2708`, el mismo número que a KH0700 (Stanford, SB001). **Conclusión: el número `80.1012 aka 2708` de KH0676 es un error del OKR**; el JS01 es Brooklyn 36.718. Nivel: **apoyado con datos** (dos fuentes primarias independientes: la nota manuscrita y el xlsx). No se pudo consultar el catálogo del Brooklyn Museum para confirmar que 36.718 sea el número definitivo, así que no se eleva a bien apoyado. No existe en el OKR ningún KH con el número 36.718.
 
 ### 3.4 Discrepancias valor ≠ suma de nudos
 
@@ -141,7 +141,7 @@ Comparación por multiconjunto de valores por quipu (la DB no tiene nombres de c
 
 ### 3.5 KH0632
 
-Confirmado: **no hay datos**. La carpeta `KH0631_0632/` contiene solo archivos de SH001 (`SH001.xlsx`, `SH001 Description 2023.docx`, dos jpg). No hay SH002 ni xlsx, ni fila en `khipu.db` (`OKR_NUM='KH0632'` → 0 filas; `INVESTIGATOR_NUM LIKE '%SH002%'` → 0), ni registro en KFG. Solo existe el número en la lista OKR. **Demostrado** (ausencia verificada en las tres fuentes).
+Confirmado: **no hay datos**. La carpeta `KH0631_0632/` contiene solo archivos de SH001 (`SH001.xlsx`, `SH001 Description 2023.docx`, dos jpg). No hay SH002 ni xlsx, ni fila en `khipu.db` (`OKR_NUM='KH0632'` → 0 filas; `INVESTIGATOR_NUM LIKE '%SH002%'` → 0), ni registro en KFG. Solo existe el número en la lista OKR. **Bien apoyado** (ausencia verificada en las tres fuentes).
 
 ## 4. Controles y resultados negativos
 
@@ -156,12 +156,12 @@ Confirmado: **no hay datos**. La carpeta `KH0631_0632/` contiene solo archivos d
 
 | afirmación | nivel |
 |---|---|
-| KH0674 tiene 438 colgantes y KH0675 203; KH0676 65 | **demostrado** (conteo y portadas) |
-| KH0632 no tiene datos | **demostrado** (tres fuentes) |
+| KH0674 tiene 438 colgantes y KH0675 203; KH0676 65 | **bien apoyado** (conteo y portadas) |
+| KH0632 no tiene datos | **bien apoyado** (tres fuentes) |
 | El número del OKR para KH0676 (80.1012 aka 2708) es erróneo; el JS01 es 36.718 | **apoyado con datos** (nota manuscrita + xlsx) |
-| 11/21 discrepancias son errores de parseo | **demostrado** (lectura del xlsx original) |
+| 11/21 discrepancias son errores de parseo | **bien apoyado** (lectura del xlsx original) |
 | Las correcciones propuestas de las 10 restantes | **apoyado con datos** / **propuesto** según confianza |
-| La regla de KH0676 es la aditiva de la hoja | **apoyado con datos** (nota + calibración), no demostrado |
+| La regla de KH0676 es la aditiva de la hoja | **apoyado con datos** (nota + calibración), no bien apoyado |
 | AS008 tiene una cuerda de 17.612 omitida en KFG | **apoyado con datos** |
 | Las otras 5 discrepancias AS son indecidibles | **propuesto** (limitación de la DB) |
 | Los totales de grupo de KH0674 miden otra cosa | **especulativo** |
@@ -223,8 +223,8 @@ Confirmado: **no hay datos**. La carpeta `KH0631_0632/` contiene solo archivos d
 
 ## 8. Para el coordinador
 
-- **KH0674 y KH0675 están transcritos**: 438 y 203 colgantes, 624 y 285 cuerdas, sumas 11.688 y 53.235. Los conteos cierran con las portadas (41 grupos = 438; 10 grupos = 203), lo que es la mejor prueba de que no se perdió ninguna cuerda. Nivel: demostrado.
-- **KH0676 está convertido**: 65 colgantes + 73 subsidiarias = 138 cuerdas, suma 4.769. La regla que declara la propia hoja es aditiva (simples = 10, largos = vueltas, ochos = 1); la variante jerárquica daría 670.004 y un máximo de 314.120, fuera de escala. Se guardan ambas (`valor` y `alt`). Nivel: apoyado con datos, no demostrado.
+- **KH0674 y KH0675 están transcritos**: 438 y 203 colgantes, 624 y 285 cuerdas, sumas 11.688 y 53.235. Los conteos cierran con las portadas (41 grupos = 438; 10 grupos = 203), lo que es la mejor prueba de que no se perdió ninguna cuerda. Nivel: bien apoyado.
+- **KH0676 está convertido**: 65 colgantes + 73 subsidiarias = 138 cuerdas, suma 4.769. La regla que declara la propia hoja es aditiva (simples = 10, largos = vueltas, ochos = 1); la variante jerárquica daría 670.004 y un máximo de 314.120, fuera de escala. Se guardan ambas (`valor` y `alt`). Nivel: apoyado con datos, no bien apoyado.
 - **El número del OKR para KH0676 está mal**: el PDF manuscrito y el xlsx dicen Brooklyn Museum **36.718**; el OKR le puso `80.1012 aka 2708`, que es el de KH0700 (Stanford). Hay que corregir la fila de KH0676 en `okr-kh-numbers.csv`. Nivel: apoyado con datos.
 - **De las 21 discrepancias de `cuerdas_extra.csv`, 11 no existen**: son errores del parser del equipo 17 (coma decimal, `8L,15.0,S,8`, etc.). Al releer el xlsx, la suma coincide con el valor. Es el hallazgo más importante de esta ronda y obliga a desconfiar de la columna `VALIDACION` que dejó el equipo 17.
 - Las 10 restantes sí son de la fuente: 5 son errores de aportación (el valor de la hoja es correcto) y 5 son nudos mal registrados (tipo o posición). Ninguna exige declarar la cuerda rota. Nivel: apoyado con datos / propuesto según el caso.

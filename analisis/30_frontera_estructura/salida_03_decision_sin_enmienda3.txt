@@ -18,7 +18,7 @@ I7_suma_bloque_otro_en_F   76   0  1.0000  0.9616      False   NaN   NaN     NaN
 I8_total_grupo_F_en_sitio  79   2  0.9103  0.2560      False   NaN   NaN     NaN       NaN          NaN    False
 I9_total_grupo_sitio_en_F  67   0  1.0000  0.5947      False   NaN   NaN     NaN       NaN          NaN    False
 
-niveles: {'ninguno': 2766, 'especulativo': 67, 'apoyado': 25, 'propuesto': 15, 'demostrado': 7}
+niveles: {'ninguno': 2766, 'especulativo': 67, 'apoyado': 25, 'propuesto': 15, 'bien apoyado': 7}
 filas que sacan de la frontera por familia: {'T5_subsidiaria': 8, 'T3_repeticion': 4, 'T2_periodo_color': 4, 'I1_copia': 4, 'I2_invertida': 4, 'I4_razon': 4, 'I3_diferencia': 3, 'I6_suma_bloque_F_en_otro': 1}
 quipus que dejan la frontera: 22 | solo por relacion nueva (no 04): 21
 propuestos (quipus): 15

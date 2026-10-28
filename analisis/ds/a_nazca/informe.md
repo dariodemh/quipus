@@ -165,7 +165,7 @@ corrida). Estadístico = nº de pares de quipus con ≥1 corrida común.
   corridas largas son de valores 1–3**: regiones de baja entropía.
 - Conclusión: **no hay evidencia de secuencias de valores compartidas entre
   quipus** más allá de lo esperado por la homogeneidad interna de los grupos
-  (los grupos tienden a contener valores parecidos). Nivel: **demostrado
+  (los grupos tienden a contener valores parecidos). Nivel: **bien apoyado
   (negativo)**.
 
 ### B) Totales de un quipu que aparecen en otro → **débil / negativo**
@@ -234,7 +234,7 @@ Vectores de "nº de colgantes por grupo", en orden:
   domina en cualquier quipu AB-cargado (UR113–UR114 comparten 16 bigramas, ambos
   de Gotemburgo, pero es trivial).
 - Conclusión: el **color está organizado en módulos repetidos** (estructura
-  demostrada con control). Compartir *exactamente* el mismo patrón de color entre
+  bien apoyada con control). Compartir *exactamente* el mismo patrón de color entre
   quipus solo ocurre entre objetos del mismo lote/accesión. Nivel: **apoyado**.
 
 ## 5. Resultado 3 — Jerarquía del archivo
@@ -281,7 +281,7 @@ Búsqueda con `grep` en `docs/` (no leí PDFs ni ficheros grandes):
   dos mitades**; "AB = hanan" queda **especulativo/circular**. → Nuestro UR028
   **es exactamente ese objeto**; nuestra verificación independiente reproduce su
   igualdad numérica. La semántica (pachaca, ayllus) es **propuesta**, no
-  demostrada (el propio estado del arte la etiqueta así).
+  bien apoyada (el propio estado del arte la etiqueta así).
 - **Thompson (2025), correcciones a Ascher** (`2025-Thompson-ascher-corrections.md`):
   documenta que **AS128 p170+p170s1 = 75 frente a p177–p198 = 72** (lo
   reproducimos) y errores de identificación de museo (varios AS reasignados entre
@@ -321,11 +321,11 @@ evidencia es aún más débil: hay agregación interna (muchas sumas de Ascher) 
 
 | Afirmación | Control | Nivel |
 |---|---|---|
-| Composición del conjunto (tamaños, colores, unión, torsión) | recuento directo | **demostrado** |
-| Color organizado en módulos periódicos | nulo intra-quipu, p=0,003 (multicolor) | **demostrado** |
-| No hay secuencias de valores compartidas entre quipus | nulo intra-grupo, p=0,13–0,90 | **demostrado (negativo)** |
-| UR028: 102=102=102 | verificación + coincide con Urton 2019 | **demostrado** |
-| AS128: 75 vs 72 | verificación + coincide con Thompson 2025 | **demostrado** |
+| Composición del conjunto (tamaños, colores, unión, torsión) | recuento directo | **bien apoyado** |
+| Color organizado en módulos periódicos | nulo intra-quipu, p=0,003 (multicolor) | **bien apoyado** |
+| No hay secuencias de valores compartidas entre quipus | nulo intra-grupo, p=0,13–0,90 | **bien apoyado (negativo)** |
+| UR028: 102=102=102 | verificación + coincide con Urton 2019 | **bien apoyado** |
+| AS128: 75 vs 72 | verificación + coincide con Thompson 2025 | **bien apoyado** |
 | UR1136 y UR1140 son dos quipus del mismo archivo | estructura idéntica (9×20) + accesiones consecutivas | **apoyado con datos** |
 | Lote de Múnich = conjunto Atarco coherente | OKR "tied together" + grupos de 5 + paleta AB/MB | **apoyado** |
 | No hay jerarquía aritmética entre quipus | nulo (p=0,016 sin corregir, dominado por valores pequeños) | **apoyado (negativo)** |
@@ -377,7 +377,7 @@ quipus (potencia baja para vínculos entre objetos concretos).
   suma cada uno). UR122 es el de números gigantes (total 89 290; 4 grupos de 18
   cuerdas ≈ 28 000 cada uno): revisar si es un registro de magnitudes grandes o
   una convención no decimal. Prioridad para la próxima ronda.
-- **Nivel de evidencia:** demostrado (descripción, modularidad de color, 102=102,
+- **Nivel de evidencia:** bien apoyado (descripción, modularidad de color, 102=102,
   ausencia de secuencias compartidas); apoyado (UR1136/UR1140 mismo archivo, lote
   de Múnich); propuesto/especulativo (qué se registraba: pachaca/ayllus). La
   semántica de Urton para UR28 **no** la podemos elevar de "propuesta".

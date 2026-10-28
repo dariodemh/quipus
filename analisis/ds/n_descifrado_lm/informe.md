@@ -202,8 +202,8 @@ Se repitió el análisis completo de las 84 configuraciones con el modelo aymara
 
 | Afirmación | Nivel |
 |---|---|
-| El inventario de signos por cuerda de la clase no numérica es 1–19 colores (mediana 5) y nunca ≥ 40 | **Demostrado** (conteo directo, independiente del modelo) |
-| Ningún quipu/alfabeto supera el criterio conjunto de desciframiento con el modelo primario | **Demostrado** para este método y este corpus (0/84); 2–3/84 con modelos alternativos, sin estabilidad |
+| El inventario de signos por cuerda de la clase no numérica es 1–19 colores (mediana 5) y nunca ≥ 40 | **Bien apoyado** (conteo directo, independiente del modelo) |
+| Ningún quipu/alfabeto supera el criterio conjunto de desciframiento con el modelo primario | **Bien apoyado** para este método y este corpus (0/84); 2–3/84 con modelos alternativos, sin estabilidad |
 | Las secuencias de cuerdas son más rígidas que la lengua (H condicional menor) | **Apoyado con datos** (z = −2,6 a −53; 200 réplicas) |
 | El estadístico de barajado mide rigidez y no lengua | **Apoyado con datos** (los numéricos son los más extremos) |
 | El método no identifica una clave a n ≤ 300 con V ≈ 20–80 | **Apoyado con datos** (control positivo y curva de potencia) |

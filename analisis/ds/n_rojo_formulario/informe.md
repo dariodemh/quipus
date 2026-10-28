@@ -11,7 +11,7 @@
 
 ¿Sobreviven a controles aburridos las cinco piezas que sostienen el modelo «formulario local»?
 
-1. El color predice el valor dentro del quipu (167/403; «demostrado»).
+1. El color predice el valor dentro del quipu (167/403; «bien apoyado»).
 2. No hay léxico de color compartido.
 3. UR053A–E reparte W/R/AB en 4:1:1.
 4. UR050 tiene 3 zonas a alturas fijas.
@@ -27,7 +27,7 @@ La hipótesis roja de partida es que las cinco se explican, total o parcialmente
 - **Nulos:** permutación dentro de grupo/quipu para el color; para las zonas, comparación contra cuerdas decimales reales (no contra alturas uniformes); para los pares, comparación contra otros recortes contiguos.
 - **Corrección múltiple:** BH-FDR dentro de cada familia (403 quipus × condición en el ataque 1; 2 pruebas en el ataque 4; 5 patrones en el ataque 5). Al final se aplica **Holm global sobre las 5 p-valores principales** (una por afirmación), que es la corrección exigida por el BRIEF.
 - **Copias:** 43 quipus aparecen en familias de copia en `14_copias/filas_alineadas.csv`. Se analizó su efecto por separado.
-- **Niveles:** demostrado / apoyado con datos / propuesto / especulativo.
+- **Niveles:** bien apoyado / apoyado con datos / propuesto / especulativo.
 
 ## 3. Ataque 1 — «El color predice el valor en 167/403»
 
@@ -56,7 +56,7 @@ El «167» es la prueba débil: barajar el color en todo el quipu deja intacto e
 - El color que más pesa es W (mediana de valor 22 en los quipus con efecto, frente a 0–2 de KB/MB/B). Es consistente con «W = cuerda principal/total», no necesariamente con una categoría semántica.
 - **Robustez (regla 6 del BRIEF):** 12 887 de las 41 357 cuerdas nivel 0 (31 %) tienen valor 0 y `nudos` vacío, es decir, son ausentes y no ceros reales. Excluyéndolas: 53/350 tras residual, 30/319 sin copias (p = 0,0008) y **19/268 sin totales ni copias (p = 0,082)**. La conclusión no cambia (el efecto se desvanece con todos los controles), aunque en esta variante queda más cerca del umbral.
 
-**Veredicto:** el «demostrado» **no sobrevive**. Queda: (i) apoyado con datos que en un subconjunto de quipus el color se asocia al valor; (ii) **propuesto** que el color funcione como categoría semántica con clave local; (iii) demostrado que el «167» estaba inflado por el nulo global y que las copias inflan el apoyo aparente.
+**Veredicto:** el «bien apoyado» **no sobrevive**. Queda: (i) apoyado con datos que en un subconjunto de quipus el color se asocia al valor; (ii) **propuesto** que el color funcione como categoría semántica con clave local; (iii) bien apoyado que el «167» estaba inflado por el nulo global y que las copias inflan el apoyo aparente.
 
 ## 4. Ataque 2 — Potencia del negativo «no hay léxico compartido»
 
@@ -159,21 +159,21 @@ Solo el orden W > R de UR053 sobrevive a la corrección global. Esto no signific
 
 | Afirmación | Nivel original | Nivel rojo | Motivo |
 |---|---|---|---|
-| El color predice el valor en 167/403 | demostrado | **retirado** | nulo global + copias + totales |
+| El color predice el valor en 167/403 | bien apoyado | **retirado** | nulo global + copias + totales |
 | El color se asocia al valor en un subconjunto de quipus | — | **apoyado con datos** | 19/317 tras todos los controles (p=0,24; 19/268 y p=0,082 sin ausentes); señal débil pero no nula |
-| El color es una categoría semántica con clave local | demostrado | **propuesto** | confundido con posición/tamaño; sin prueba independiente |
-| No hay léxico de color compartido | demostrado (negativo) | **apoyado solo para léxico fuerte (≥30 %)**; **especulativo** para léxico débil | simulación de potencia |
+| El color es una categoría semántica con clave local | bien apoyado | **propuesto** | confundido con posición/tamaño; sin prueba independiente |
+| No hay léxico de color compartido | bien apoyado (negativo) | **apoyado solo para léxico fuerte (≥30 %)**; **especulativo** para léxico débil | simulación de potencia |
 | UR053: W > R/AB y formulario local | apoyado | **apoyado con datos** | p = 4,3e-16, permutación 0,0002 |
 | UR053: reparto 4:1:1 estable | apoyado | **propuesto** | proporción no extrema (percentil 78); R≈AB; n=3 controles |
 | UR050: 3 zonas a alturas fijas | apoyado (exploratorio) | **retirado como evidencia**; el formato de 3 racimos L sigue **apoyado** | control con cuerdas decimales; Holm 0,064 |
 | UR050: tabla de 163×3 dígitos | apoyado | **apoyado con datos** | 146/146 cuerdas L,L,L, dígitos 1–9 |
 | UR278: pares 2+1+2+2+2 confirman la Visita | apoyado, frágil | **especulativo** | máximo de 5 recortes contiguos, p=0,20 |
 | UR278: exceso de igualdades entre columnas vecinas | ya conocido | **apoyado con datos** | 1,4× en el corpus, 2,3× en UR278 |
-| Modelo «formulario local» en conjunto | apoyado | **propuesto** | pierde dos pilares (color «demostrado» y negativo de léxico) y conserva el formato de archivo |
+| Modelo «formulario local» en conjunto | apoyado | **propuesto** | pierde dos pilares (color «bien apoyado» y negativo de léxico) y conserva el formato de archivo |
 
 ## 11. Para el coordinador
 
-- **El «167/403» no es el número que hay que defender.** Con el nulo correcto (barajar dentro del grupo) son 103–108; al controlar posición, nº de racimos y largo bajan a 44; al quitar totales/máximas y copias quedan **19 de 317 frente a 15,9 esperados (p = 0,24)**; excluyendo además los ausentes (31 % de las cuerdas nivel 0 son valor 0 sin nudos), **19 de 268 (p = 0,082)**. El «demostrado» del color como categoría hay que retirarlo.
+- **El «167/403» no es el número que hay que defender.** Con el nulo correcto (barajar dentro del grupo) son 103–108; al controlar posición, nº de racimos y largo bajan a 44; al quitar totales/máximas y copias quedan **19 de 317 frente a 15,9 esperados (p = 0,24)**; excluyendo además los ausentes (31 % de las cuerdas nivel 0 son valor 0 sin nudos), **19 de 268 (p = 0,082)**. El «bien apoyado» del color como categoría hay que retirarlo.
 - **La explicación aburrida del color es posición + tamaño.** El color W concentra las cuerdas grandes (mediana 22 frente a 0–2 de KB/MB/B), y el modelo con posición, nº de racimos y largo elimina ~60 % de los aciertos (108→44). Color y posición están confundidos; no se puede afirmar «categoría semántica» sin un diseño que los separe.
 - **11 de los 44 quipus que sobreviven a los controles son copias** (25 %, frente a 10,7 % del corpus). Las copias replican el mismo dato: no son evidencia independiente. Contarlas infla el apoyo del modelo.
 - **El negativo «no hay léxico compartido» tiene poca potencia.** P1 detecta un léxico fuerte (30 % de los quipus del sitio, 4 colores en orden fijo) con 92 %, pero baja a 0 % con el 10 % y a 1,7 % si el léxico solo ordena dentro del grupo. P2 tiene **0 % de potencia en todos los escenarios**, incluso el plantado fuerte, porque su nulo preserva la composición de colores. El negativo solo vale para léxicos fuertes y site-wide.

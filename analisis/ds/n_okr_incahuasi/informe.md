@@ -170,7 +170,7 @@ Otras comprobaciones dirigidas, todas negativas:
 
 ## 8. Niveles de evidencia
 
-- **Demostrado (campos directos, sin inferencia):**
+- **Bien apoyado (campos directos, sin inferencia):**
   - La tabla OKR reproduce KFG: colgantes y sumas por grupo idénticos salvo las diferencias inventariadas.
   - KFG pierde 111 cuerdas en Incahuasi (107 analizadas + 4 de UR280) y 7 marcadoras; OKR no pierde ninguna cuerda salvo la reasignación de nivel de UR255.
   - En Incahuasi hay 1 sola cuerda superior T, no 95.

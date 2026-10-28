@@ -466,13 +466,13 @@ en las métricas de valor, porque JC026 no tiene nudos), Mann-Whitney bilateral:
 
 | afirmación | nivel |
 |---|---|
-| Las 11 imágenes de `KH0653_0663` son fichas de campo + tabla de cuerdas de Huacones-Vilcahuasi, y su contenido está transcrito en 11 CSV | **demostrado** (lectura directa; 101 filas) |
-| El valor escrito coincide con la suma de los nudos transcritos en 51/53 cuerdas verificables (96 %), muy por encima del azar (10.9 esperados) | **demostrado** para la coherencia interna; **apoyado con datos** como indicador de calidad de lectura |
-| Hay 19/101 cuerdas sin nudos y ninguna es un cero | **demostrado** |
+| Las 11 imágenes de `KH0653_0663` son fichas de campo + tabla de cuerdas de Huacones-Vilcahuasi, y su contenido está transcrito en 11 CSV | **bien apoyado** (lectura directa; 101 filas) |
+| El valor escrito coincide con la suma de los nudos transcritos en 51/53 cuerdas verificables (96 %), muy por encima del azar (10.9 esperados) | **bien apoyado** para la coherencia interna; **apoyado con datos** como indicador de calidad de lectura |
+| Hay 19/101 cuerdas sin nudos y ninguna es un cero | **bien apoyado** |
 | Los quipus de Huacones son pequeños (mediana 10 cuerdas) pero por lo demás indistinguibles de KFG en valores y cuerdas vacías | **apoyado con datos** (Mann-Whitney, 11 vs 651) |
 | JC032 cord 1 = 78 + 61 = 139 podría ser una suma jerárquica intencional | **especulativo** (1 caso, Holm 0.079, descuadre de 1) |
-| KH0638–KH0652 son un conjunto enlazado (no 15 quipus independientes) | **demostrado** por el croquis y los 15 libros, aunque la consecuencia estadística es una decisión abierta |
-| El registro de color de las fichas es reconstruido en parte (RO por restos de pigmento) | **demostrado** (nota manuscrita en JC034) |
+| KH0638–KH0652 son un conjunto enlazado (no 15 quipus independientes) | **bien apoyado** por el croquis y los 15 libros, aunque la consecuencia estadística es una decisión abierta |
+| El registro de color de las fichas es reconstruido en parte (RO por restos de pigmento) | **bien apoyado** (nota manuscrita en JC034) |
 
 ## 10. Para el coordinador
 

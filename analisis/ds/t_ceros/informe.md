@@ -252,7 +252,7 @@ Por eso el argumento se apoya en tres capas:
 2. **Alineación física de bandas** (§3.3–3.4): usa posiciones en cm de cuerdas distintas; no depende de que el hueco se haya usado para etiquetar. El hecho de que las bandas del mismo exponente estén más juntas que el nulo es una propiedad física.
 3. **Localización del hueco en la columna del grupo** (§3.5): el hueco coincide con la banda que otras cuerdas del mismo grupo tienen a esa altura.
 
-Ninguna de las tres capas demuestra por sí sola que el quipucamayoc “codificara el cero”; en conjunto, la lectura es consistente y queda **apoyada con datos**, no demostrada.
+Ninguna de las tres capas demuestra por sí sola que el quipucamayoc “codificara el cero”; en conjunto, la lectura es consistente y queda **apoyada con datos**, no bien apoyada.
 
 Tampoco podemos estimar la tasa de ceros **no** codificados: si un escriba omitía el hueco, el valor se leería como 35 en lugar de 305 y no quedaría rastro en la base. Los 747 ceros enumerados son, por construcción, solo aquellos que tienen huella espacial (un hueco entre racimos).
 
@@ -316,7 +316,7 @@ Prueba libre de etiquetas: fracción de racimos cuya altura exacta (redondeada a
 | La alineación es una cuadrícula exacta de 0,5 cm | **Refutado / negativo** | Exceso de coincidencias exactas pequeño; 0/562 q < 0,05 |
 | La alineación se explica por el largo de las cuerdas | **Refutado / negativo** | rho ≈ 0 con el CV del largo |
 | La alineación varía por investigador o procedencia | **No apoyado** | chi² por prefijo p = 0,10; procedencia confundida con tamaño |
-| El quipucamayoc “usaba columnas decimales” conscientemente | **Propuesto** | Consistente con Locke 1928 (“columnas de 1000's/100's/10's/1's”) y con los datos, pero no demostrado |
+| El quipucamayoc “usaba columnas decimales” conscientemente | **Propuesto** | Consistente con Locke 1928 (“columnas de 1000's/100's/10's/1's”) y con los datos, pero no bien apoyado |
 
 ---
 
@@ -344,7 +344,7 @@ Prueba libre de etiquetas: fracción de racimos cuya altura exacta (redondeada a
 - **El patrón no es universal:** 29 % de los quipus con ≥3 bandas no superan el nulo conservador; 41 % de los huecos están a >1 cm de la banda de su grupo; 231 quipus no son clasificables por tener pocas cuerdas multirracimo. No hay señal por investigador (p = 0,10) ni por región (confundida con tamaño).
 - **Hay un grupo de ~28 quipus que no son numerales decimales:** cuerdas con series de nudos del mismo orden (UR050: 501 nudos largos, todos de unidades; UR054, UR052, UR112, UR039; AS014 es el caso mixto más claro). En ellos `valor` es una suma, no un número posicional. Cualquier análisis de sumas/aritmética debería excluirlos o tratarlos aparte.
 - **Los nudos de unidades duplicados son comunes:** 151/572 quipus (26,4 %) tienen al menos una cuerda con varias unidades; es del orden del >20 % de “nether knots” de Hyland (2024). La base no permite distinguir si son nudos inferiores, secuencias o errores.
-- **Recomendación prioritaria:** repetir el análisis con coordenadas verticales globales (incluyendo subsidiarias y el punto de anclaje) y validar los ceros contra sumas independientes (cuerdas superiores/Ascher). Sin eso, la lectura “el cero es una banda vacía” queda **apoyada con datos**, no demostrada, por la circularidad de la asignación de valor en `nudos`. Para la siguiente ronda, no usar el quipu como unidad de alineación: usar **grupo × posición decimal** y reportar siempre el tamaño de efecto (ratio obs/nulo) además del p-valor, porque la significación depende fuertemente del número de cuerdas y de bandas.
+- **Recomendación prioritaria:** repetir el análisis con coordenadas verticales globales (incluyendo subsidiarias y el punto de anclaje) y validar los ceros contra sumas independientes (cuerdas superiores/Ascher). Sin eso, la lectura “el cero es una banda vacía” queda **apoyada con datos**, no bien apoyada, por la circularidad de la asignación de valor en `nudos`. Para la siguiente ronda, no usar el quipu como unidad de alineación: usar **grupo × posición decimal** y reportar siempre el tamaño de efecto (ratio obs/nulo) además del p-valor, porque la significación depende fuertemente del número de cuerdas y de bandas.
 
 ---
 

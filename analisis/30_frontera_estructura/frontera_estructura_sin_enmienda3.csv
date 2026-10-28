@@ -283,7 +283,7 @@ HP004,T1_periodo_valor,0.0241159857629216,0.818,999,rangos;lag_rangos/iguales=4/
 HP004,T2_periodo_color,0.0424242424242423,0.465,999,lag=2;colores=2,,0.465,,B,1.0,1.0,1.0,ninguno,False
 HP004,T3_repeticion,5.497623495048392,0.102,999,,,0.102,,B,0.6703435114503816,1.0,0.5159052631578946,ninguno,False
 HP004,T4_tendencia,0.3333333333333333,0.732,999,signo=-1,,0.732,,B,1.0,1.0,1.0,ninguno,False
-HP004,T5_subsidiaria,0.8482967926197098,1e-05,99999,"spearman;obs=[2.0, 3.0, 0.848]",,1e-05,,B,0.00313625,0.02509,0.0016016666666666668,demostrado,False
+HP004,T5_subsidiaria,0.8482967926197098,1e-05,99999,"spearman;obs=[2.0, 3.0, 0.848]",,1e-05,,B,0.00313625,0.02509,0.0016016666666666668,bien apoyado,False
 HP004,T6_suma_salteada,0.0,1.0,999,paso_k;,,1.0,,B,1.0,1.0,1.0,ninguno,False
 HP004,T7_pares_suma,2.0,0.347,999,adyacentes0,,0.347,,B,1.0,1.0,0.8868803191489362,ninguno,False
 HP006,T1_periodo_valor,,,0,,,,,A,,,,ninguno,False
@@ -547,7 +547,7 @@ UR002,T6_suma_salteada,1.0,0.939,999,paso_k;,,0.939,,B,1.0,1.0,1.0,ninguno,False
 UR002,T7_pares_suma,2.0,0.741,999,adyacentes1,,0.741,,B,1.0,1.0,1.0,ninguno,False
 UR005,T1_periodo_valor,0.0555555555555555,0.26,999,iguales;lag_rangos/iguales=8/13,,0.26,,B,0.9854078549848944,1.0,,ninguno,False
 UR005,T2_periodo_color,0.1917013567684243,0.007,999,lag=2;colores=7,,0.007,,B,0.18106185567010308,1.0,0.16016666666666668,especulativo,False
-UR005,T3_repeticion,19.53945512471321,1e-05,99999,,,1e-05,,B,0.00313625,0.02509,0.0016016666666666668,demostrado,False
+UR005,T3_repeticion,19.53945512471321,1e-05,99999,,,1e-05,,B,0.00313625,0.02509,0.0016016666666666668,bien apoyado,False
 UR005,T4_tendencia,0.132258064516129,0.5,999,signo=-1,,0.5,,B,1.0,1.0,1.0,ninguno,False
 UR005,T5_subsidiaria,,,0,,,,,B,,,,ninguno,False
 UR005,T6_suma_salteada,6.0,0.17,999,paso_k;,,0.17,,B,0.79874531835206,1.0,0.6211787072243347,ninguno,False
@@ -612,7 +612,7 @@ UR034,T1_periodo_valor,0.0813232536333802,0.229,999,iguales;lag_rangos/iguales=1
 UR034,T2_periodo_color,0.0924219640009113,0.568,999,lag=11;colores=16,,0.568,,B,1.0,1.0,1.0,ninguno,False
 UR034,T3_repeticion,14.87578885446582,0.03,999,,,0.03,,B,0.38015151515151513,1.0,0.3034736842105263,ninguno,False
 UR034,T4_tendencia,0.2921348314606741,0.315,999,signo=+1,,0.315,,B,1.0,1.0,0.8455726256983239,ninguno,False
-UR034,T5_subsidiaria,0.4589067605857609,1e-05,99999,"spearman;obs=[7.0, 8.0, 0.459]",,1e-05,,B,0.00313625,0.02509,0.0016016666666666668,demostrado,False
+UR034,T5_subsidiaria,0.4589067605857609,1e-05,99999,"spearman;obs=[7.0, 8.0, 0.459]",,1e-05,,B,0.00313625,0.02509,0.0016016666666666668,bien apoyado,False
 UR034,T6_suma_salteada,25.0,0.184,999,paso_k;,,0.184,,B,0.8393580470162749,1.0,0.6441485507246376,ninguno,False
 UR034,T7_pares_suma,3.0,0.499,999,espejo_grupo,,0.499,,B,1.0,1.0,1.0,ninguno,False
 UR038,T1_periodo_valor,0.2667832606519552,0.911,999,rangos;lag_rangos/iguales=7/12,,0.911,,A,1.0,1.0,,ninguno,False
@@ -623,7 +623,7 @@ UR038,T5_subsidiaria,,,0,,,,,A,,,,ninguno,False
 UR038,T6_suma_salteada,1.0,0.385,999,paso_k;,,0.385,,A,1.0,1.0,,ninguno,False
 UR038,T7_pares_suma,2.0,0.58,999,espejo_grupo,,0.58,,A,1.0,1.0,,ninguno,False
 UR040,T1_periodo_valor,0.04,0.753,999,iguales;lag_rangos/iguales=3/8,,0.753,,B,1.0,1.0,,ninguno,False
-UR040,T2_periodo_color,0.7573924731182795,1e-05,99999,lag=2;colores=2,,1e-05,,B,0.00313625,0.02509,0.0016016666666666668,demostrado,False
+UR040,T2_periodo_color,0.7573924731182795,1e-05,99999,lag=2;colores=2,,1e-05,,B,0.00313625,0.02509,0.0016016666666666668,bien apoyado,False
 UR040,T3_repeticion,0.0,1.0,999,,,1.0,,B,1.0,1.0,1.0,ninguno,False
 UR040,T4_tendencia,0.4,0.471,999,signo=-1,,0.471,,B,1.0,1.0,1.0,ninguno,False
 UR040,T5_subsidiaria,,,0,,,,,B,,,,ninguno,False
@@ -703,7 +703,7 @@ UR093,T1_periodo_valor,0.0452205167474253,0.992,999,iguales;lag_rangos/iguales=5
 UR093,T2_periodo_color,0.0296551811278319,0.874,999,lag=38;colores=106,,0.874,,B,1.0,1.0,1.0,ninguno,False
 UR093,T3_repeticion,12.114138198536889,0.201,999,,,0.201,,B,0.8680017211703959,1.0,0.6660724137931034,ninguno,False
 UR093,T4_tendencia,0.1709886547811993,0.077,999,signo=-1,,0.077,,B,0.603728125,1.0,0.45396932515337424,ninguno,False
-UR093,T5_subsidiaria,0.5627042844261946,1e-05,99999,"spearman;obs=[22.0, 16.0, 0.563]",,1e-05,,B,0.00313625,0.02509,0.0016016666666666668,demostrado,False
+UR093,T5_subsidiaria,0.5627042844261946,1e-05,99999,"spearman;obs=[22.0, 16.0, 0.563]",,1e-05,,B,0.00313625,0.02509,0.0016016666666666668,bien apoyado,False
 UR093,T6_suma_salteada,1.0,0.932,999,misma_posicion;,,0.932,,B,1.0,1.0,1.0,ninguno,False
 UR093,T7_pares_suma,34.0,0.142,999,adyacentes0,,0.142,,B,0.771164502164502,1.0,0.5959039301310043,ninguno,False
 UR094,T1_periodo_valor,0.1041939766505068,0.986,999,rangos;lag_rangos/iguales=2/2,,0.986,,B,1.0,1.0,,ninguno,False
@@ -892,7 +892,7 @@ UR122,T1_periodo_valor,0.0161290322580645,0.772,999,iguales;lag_rangos/iguales=1
 UR122,T2_periodo_color,0.0574432966219869,0.825,999,lag=20;colores=5,,0.825,,A,1.0,1.0,,ninguno,False
 UR122,T3_repeticion,0.0,1.0,999,,,1.0,,A,1.0,1.0,,ninguno,False
 UR122,T4_tendencia,0.192090395480226,0.257,999,signo=-1,,0.257,,A,0.9854078549848944,1.0,,ninguno,False
-UR122,T5_subsidiaria,0.4152006745070645,1e-05,99999,"spearman;obs=[3.0, 3.0, 0.415]",,1e-05,,A,0.00313625,0.02509,,demostrado,False
+UR122,T5_subsidiaria,0.4152006745070645,1e-05,99999,"spearman;obs=[3.0, 3.0, 0.415]",,1e-05,,A,0.00313625,0.02509,,bien apoyado,False
 UR122,T6_suma_salteada,3.0,1e-05,99999,misma_posicion;,,1e-05,,A,0.00313625,0.02509,,propuesto,False
 UR122,T7_pares_suma,1.0,1.0,999,adyacentes0,,1.0,,A,1.0,1.0,,ninguno,False
 UR129,T1_periodo_valor,-1.0,1.0,999,rangos;lag_rangos/iguales=2/2,,1.0,,B,1.0,1.0,,ninguno,False
@@ -1015,7 +1015,7 @@ UR165,T5_subsidiaria,0.2041636257554012,0.062,999,"spearman;obs=[1.0, 1.0, 0.204
 UR165,T6_suma_salteada,0.0,1.0,999,paso_k;,,1.0,,A,1.0,1.0,,ninguno,False
 UR165,T7_pares_suma,2.0,0.594,999,adyacentes0,,0.594,,A,1.0,1.0,,ninguno,False
 UR167,T1_periodo_valor,0.0470735581622678,0.978,999,iguales;lag_rangos/iguales=7/5,,0.978,,B,1.0,1.0,,ninguno,False
-UR167,T2_periodo_color,0.799906629318394,1e-05,99999,lag=2;colores=2,,1e-05,,B,0.00313625,0.02509,0.0016016666666666668,demostrado,False
+UR167,T2_periodo_color,0.799906629318394,1e-05,99999,lag=2;colores=2,,1e-05,,B,0.00313625,0.02509,0.0016016666666666668,bien apoyado,False
 UR167,T3_repeticion,0.9804898321319406,0.902,999,,,0.902,,B,1.0,1.0,1.0,ninguno,False
 UR167,T4_tendencia,0.0609756097560975,0.147,999,signo=-1,,0.147,,B,0.781404661016949,1.0,0.6037051282051282,ninguno,False
 UR167,T5_subsidiaria,,,0,,,,,B,,,,ninguno,False

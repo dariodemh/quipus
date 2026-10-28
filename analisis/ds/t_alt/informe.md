@@ -32,13 +32,13 @@ Emparejamiento KFG↔OKR: 651 quipus KFG contra `khipu_main.OKR_NUM` → 593 par
 
 ## 3. Resultados
 
-### 3.1 `alt` está vacía en el 100 % de los registros — DEMOSTRADO
+### 3.1 `alt` está vacía en el 100 % de los registros — BIEN APOYADO
 
 **57 818 / 57 818** cuerdas tienen `alt` vacía. Comprobado con `dtype=str` y `keep_default_na=False` (`e1_panorama.py`), para descartar que fuese un problema de lectura del CSV.
 
 > Consecuencia: la incertidumbre de transcripción **no se puede medir con `alt`**. Cualquier equipo que haya previsto usar `alt` como cota de error no tiene de dónde sacarla. Hay que reconstruirla (§3.2–3.6).
 
-### 3.2 `valor` es una reducción mecánica de `nudos` — DEMOSTRADO
+### 3.2 `valor` es una reducción mecánica de `nudos` — BIEN APOYADO
 
 En las 40 121 cuerdas con nudos, aportes completos y valor numérico, `valor` coincide **exactamente** con la suma de los aportes de sus racimos: **40 121 / 40 121 (100,00 %)**; discrepancia máxima 0 (`e2_consistencia.py`).
 
@@ -185,9 +185,9 @@ Con los datos de §3.7 y §3.8:
 
 | Afirmación | Nivel |
 |---|---|
-| `alt` vacía en el 100 %; `valor` = Σ aportes en el 100 % | **demostrado** |
-| Marcadores internos (U 13,2 %; tipos raros 1,09 %; defectos duros 0,19 %; roturas 0,56 %) | **demostrado** (conteo directo) |
-| U se concentra por fuente (AS 92,5 % vs JC 0 %) y es reproducible entre transcriptores | **demostrado** |
+| `alt` vacía en el 100 %; `valor` = Σ aportes en el 100 % | **bien apoyado** |
+| Marcadores internos (U 13,2 %; tipos raros 1,09 %; defectos duros 0,19 %; roturas 0,56 %) | **bien apoyado** (conteo directo) |
+| U se concentra por fuente (AS 92,5 % vs JC 0 %) y es reproducible entre transcriptores | **bien apoyado** |
 | Desacuerdo de valor entre transcripciones = 0,22 % de las cuerdas; 99,33 % idénticas; 96,8 % de los quipus idénticos | **apoyado con datos** (2 bases, pero probablemente misma fuente de campo: es una **cota inferior** del error real de lectura) |
 | El desacuerdo se concentra en 2–10 quipus | **apoyado con datos** |
 | El error dominante es de lugar decimal (22 % factor 10) | **apoyado con datos** |

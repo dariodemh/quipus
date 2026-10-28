@@ -75,7 +75,7 @@ rows = [
          n_fuentes="muchas", siglos="XVI-XX", paises="Peru, Bolivia, Ecuador, Chile",
          prediccion="Tipo y posicion del nudo codifican potencias de 10.",
          prueba_antigua="Es la gramatica dominante del corpus (n_no_numericos: 90% decimal); no se prueba aqui.",
-         nivel="demostrado"),
+         nivel="bien apoyado"),
 ]
 pd.DataFrame(rows).to_csv("convenciones.csv", index=False, encoding="utf-8-sig")
 print(pd.DataFrame(rows)[["convencion", "n_fuentes", "nivel"]].to_string(index=False))

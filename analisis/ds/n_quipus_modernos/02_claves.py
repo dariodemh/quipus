@@ -21,15 +21,15 @@ add(id="UHLE1897_1", fuente="Uhle 1897; reanalisis de Hyland 2014", año="1894-1
     rasgo="torsión (ply final S/Z)",
     significado_documentado="S = hembra / categoría no marcada y más valorada; Z = macho castrado / categoría marcada. En las vacas: S = ordeñada a diario; Z = seca o no ordeñada todos los días.",
     evidencia="testimonio directo del pastor aimara (notas de campo de Uhle) + análisis del objeto",
-    n_cuerdas_datos="7", cita="Uhle 1897: 51-63; Hyland 2014: 644-647", nivel="demostrado")
+    n_cuerdas_datos="7", cita="Uhle 1897: 51-63; Hyland 2014: 644-647", nivel="bien apoyado")
 add(id="UHLE1897_2", fuente="Uhle 1897; Hyland 2014", año="1894-1895",
     lugar="Cutusuma, Bolivia", siglo="XIX", uso="rebaño", rasgo="posición / unión",
     significado_documentado="El cordón superior se dobla en un asa; a un lado las ovejas (387) y al otro los machos capados (285). Los machos van siempre en medio, entre las hembras y los corderos.",
-    evidencia="testimonio directo", n_cuerdas_datos="2", cita="Hyland 2014: 645-646", nivel="demostrado")
+    evidencia="testimonio directo", n_cuerdas_datos="2", cita="Hyland 2014: 645-646", nivel="bien apoyado")
 add(id="UHLE1897_3", fuente="Uhle 1897; Hyland 2014", año="1894-1895",
     lugar="Cutusuma, Bolivia", siglo="XIX", uso="rebaño", rasgo="subsidiaria",
     significado_documentado="Dos cuerdas atadas con hilo marrón a la cuerda de los machos = corderos destetados, separados por corral (121 y 99).",
-    evidencia="testimonio directo", n_cuerdas_datos="2", cita="Hyland 2014: 646", nivel="demostrado")
+    evidencia="testimonio directo", n_cuerdas_datos="2", cita="Hyland 2014: 646", nivel="bien apoyado")
 add(id="UHLE1897_4", fuente="Uhle 1897; Hyland 2014", año="1894-1895",
     lugar="Cutusuma, Bolivia", siglo="XIX", uso="rebaño", rasgo="objeto atado (hilo)",
     significado_documentado="El color del hilo con que se ata el grupo (marrón vs blanco) separa el grupo de corderos del grupo de vacas lecheras.",
@@ -37,7 +37,7 @@ add(id="UHLE1897_4", fuente="Uhle 1897; Hyland 2014", año="1894-1895",
 add(id="UHLE1897_5", fuente="Uhle 1897; Hyland 2014", año="1894-1895",
     lugar="Cutusuma, Bolivia", siglo="XIX", uso="rebaño", rasgo="nudo (tamaño)",
     significado_documentado="Nudos grandes = centenas, medianos = decenas, pequeños = unidades; el cordón superior registra el total de cada clase.",
-    evidencia="testimonio directo + lectura decimal", n_cuerdas_datos="7", cita="Uhle 1897: 51-63; Hyland 2014: 644", nivel="demostrado")
+    evidencia="testimonio directo + lectura decimal", n_cuerdas_datos="7", cita="Uhle 1897: 51-63; Hyland 2014: 644", nivel="bien apoyado")
 
 # --- Laramarca, Peru ---
 add(id="SOTO1950_1", fuente="Soto Flores 1950-51; descripcion en Hyland 2020", año="1948-1950",
@@ -110,7 +110,7 @@ add(id="HYLAND2016_1", fuente="Hyland 2016", año="1935-1940s",
     lugar="Santiago de Anchucaya, Huarochiri, Peru", siglo="XX", uso="trabajo comunal",
     rasgo="color / posición del grupo",
     significado_documentado="Cada ayllu tiene un color fijo; la secuencia de 6 colores se repite 10 veces (seriacion); cada grupo de 6 colgantes = una de las 10 tareas comunales, en orden memorizado (Runa Wacho, Mula Wacho, ..., Papel).",
-    evidencia="testimonio del ultimo khipukamayuq (Tello 1935) + nieto", n_cuerdas_datos="60 en el khipu descrito; RT21287 = 71", cita="Hyland 2016: 490-509, secciones 'Watancha'", nivel="demostrado")
+    evidencia="testimonio del ultimo khipukamayuq (Tello 1935) + nieto", n_cuerdas_datos="60 en el khipu descrito; RT21287 = 71", cita="Hyland 2016: 490-509, secciones 'Watancha'", nivel="bien apoyado")
 add(id="HYLAND2016_2", fuente="Hyland 2016", año="1935-1940s",
     lugar="Anchucaya, Peru", siglo="XX", uso="trabajo comunal", rasgo="color (bandas)",
     significado_documentado="En los khipus de ayllu, cada banda de color = un miembro individual, en orden de ingreso (de mayor a menor); cada colgante dentro de la banda = una tarea (5 o 6).",
@@ -122,7 +122,7 @@ add(id="HYLAND2016_3", fuente="Hyland 2016; Hyland 2014", año="1935-1940s",
 add(id="HYLAND2016_4", fuente="Hyland 2016", año="1935-1940s",
     lugar="Anchucaya, Peru", siglo="XX", uso="trabajo comunal", rasgo="posición sobre el colgante (mitad superior/inferior)",
     significado_documentado="La mitad superior del colgante, junto al cordon principal, registra lo hecho; la mitad inferior, lo que se debe.",
-    evidencia="testimonio directo", n_cuerdas_datos="71", cita="Hyland 2016", nivel="demostrado")
+    evidencia="testimonio directo", n_cuerdas_datos="71", cita="Hyland 2016", nivel="bien apoyado")
 add(id="HYLAND2016_5", fuente="Hyland 2016", año="1935-1940s",
     lugar="Anchucaya, Peru", siglo="XX", uso="trabajo comunal", rasgo="objeto atado (tela blanca)",
     significado_documentado="Rectangulos de tela blanca atados a los colgantes = la tarea 'Papel' (comprar papel sellado oficial).",

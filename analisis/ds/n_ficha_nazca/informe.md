@@ -84,7 +84,7 @@ En los 71 grupos de 9 con 2 marcadoras del corpus, las posiciones del par son:
 | otras | 6 | — |
 | **2 campos de un extremo** | **55/71 (77 %)** | (3,4) o (6,7) |
 
-Bajo el nulo de 2 posiciones uniformes entre 9 (P = 2/36 = 0,056), 55/71 da p = 1,2·10⁻⁵⁴. Los tres tamaños por separado: p = 4,7·10⁻⁸ (n = 8), 1,2·10⁻⁵⁴ (n = 9) y 6,1·10⁻²¹ (n = 10); Holm ≤ 3,6·10⁻²⁰. **Demostrado: el par no está al azar; está a exactamente 2 campos de un extremo.** Ese es el «encabezado de 2 campos».
+Bajo el nulo de 2 posiciones uniformes entre 9 (P = 2/36 = 0,056), 55/71 da p = 1,2·10⁻⁵⁴. Los tres tamaños por separado: p = 4,7·10⁻⁸ (n = 8), 1,2·10⁻⁵⁴ (n = 9) y 6,1·10⁻²¹ (n = 10); Holm ≤ 3,6·10⁻²⁰. **Bien apoyado: el par no está al azar; está a exactamente 2 campos de un extremo.** Ese es el «encabezado de 2 campos».
 
 El **lado** (izquierda = (3,4), derecha = (6,7)) no es aleatorio a lo largo del quipu:
 
@@ -99,7 +99,7 @@ Asociación del lado con propiedades del registro:
 | Propiedad | Resultado | Nivel |
 |---|---|---|
 | Total del registro | UR1140: (3,4) 158,4 vs (6,7) 207,6; MWU p = 0,056 (no significativo) | negativo |
-| Orden de los campos | Los perfiles crudos de (3,4) y (6,7) están **espejados**: r = −0,926; al canonicalizar, r = +0,926 | **demostrado** |
+| Orden de los campos | Los perfiles crudos de (3,4) y (6,7) están **espejados**: r = −0,926; al canonicalizar, r = +0,926 | **bien apoyado** |
 | Color dominante | UR1136: (3,4) = 10 W, (6,7) = 5 G (confusión perfecta). UR1140: ambos lados B. Corpus: Fisher W/no-W × L/R p = 0,134 | confundido en UR1136, no general |
 
 **Lectura:** el par de marcadoras es un **separador de 2 campos de encabezado**; su lado indica el sentido de lectura y, en algunos quipus, coincide con un cambio de color/sección. En UR1136 el lado y el color están perfectamente confundidos, así que allí no se puede separar «sección» de «color».
@@ -166,7 +166,7 @@ Criterio: ≥3 registros completos con el formato (n−2 campos + 2 marcadoras).
 - UR1176 tiene 6 grupos con el par en (1,9), pero **0 registros completos** (el primer campo DB está vacío en todos): no confirma ni refuta.
 - La tasa base de «campo 1 máximo» en grupos de 9 con 2 marcadoras es **63,6 %** (7/11), no el 1/7 uniforme: la primera cuerda tiende a ser grande aun sin ficha. Aun así, UR1140 (19/19) y UR1131 (11/12) quedan muy por encima; UR1136, UR223 y HP056 no sobreviven la corrección conservadora.
 
-**Nivel:** *apoyado con datos* que el formato 2 campos + par + cuerpo existe en 6, 7 y 8 campos y que el campo 1 es el máximo; *demostrado* que el formato es raro (7 quipus de 651).
+**Nivel:** *apoyado con datos* que el formato 2 campos + par + cuerpo existe en 6, 7 y 8 campos y que el campo 1 es el máximo; *bien apoyado* que el formato es raro (7 quipus de 651).
 
 ### 3.6 ¿Género «ficha de n campos con encabezado mayor»? Santa e Incahuasi
 
@@ -222,10 +222,10 @@ Criterio: ≥3 registros completos con el formato (n−2 campos + 2 marcadoras).
 
 | Afirmación | Nivel |
 |---|---|
-| El par de marcadoras está a exactamente 2 campos de un extremo (77 %; p ≈ 10⁻⁵⁴) | **Demostrado** |
-| Las dos marcadoras son gemelas (torsión, unión, color, dirección); no codifican dos atributos | **Demostrado** |
+| El par de marcadoras está a exactamente 2 campos de un extremo (77 %; p ≈ 10⁻⁵⁴) | **Bien apoyado** |
+| Las dos marcadoras son gemelas (torsión, unión, color, dirección); no codifican dos atributos | **Bien apoyado** |
 | El par separa secciones contiguas del quipu (rachas de lado; p = 0,001 / 0,028) | **Apoyado con datos** |
-| El lado del par determina el orden de los campos (perfiles espejados, r = −0,926) | **Demostrado** (en UR1140) |
+| El lado del par determina el orden de los campos (perfiles espejados, r = −0,926) | **Bien apoyado** (en UR1140) |
 | El campo 1 canónico es el máximo en 44/45 registros de 4 quipus | **Apoyado con datos** (fuerte en UR1140; Holm solo en UR1140) |
 | El formato 2 campos + par + cuerpo existe también con 6 y 8 campos (UR234, UR1131) | **Apoyado con datos** (UR1131 sobrevive Holm 0,0001; UR234 0,013) |
 | La regla de orientación predice UR1131 (0 % → 92 %) sin reajuste | **Apoyado con datos** |

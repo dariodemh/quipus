@@ -252,11 +252,11 @@ redundante con la del quipu.
 
 | Afirmación | Nivel |
 |---|---|
-| El canuto envuelve la fijación de un grupo chico de colgantes (mediana 4) al cordón principal, y cubre todas las fijaciones en los 8 quipus con registro fino | **Demostrado** (descripción estructural de la tabla, 887 cuerdas) |
+| El canuto envuelve la fijación de un grupo chico de colgantes (mediana 4) al cordón principal, y cubre todas las fijaciones en los 8 quipus con registro fino | **Bien apoyado** (descripción estructural de la tabla, 887 cuerdas) |
 | Los límites de canuto coinciden con los límites de grupo de colgantes (23/24 en UR052, p = 5 × 10⁻⁵) | **Apoyado con datos** (un solo quipu con grupos independientes; posible circularidad con el detector del KFG) |
 | El canuto lleva una secuencia de color propia, en runs, independiente del color de las cuerdas | **Apoyado con datos** (173 canutos, 8 quipus, ningún solape significativo) |
 | El canuto no es una unidad contable | **Apoyado con datos** (8 pruebas, ninguna sobrevive BH) |
-| El canutito es un hilo de contraste atado al extremo de colgantes de nivel 1, con paleta propia | **Demostrado** (posición al 96 % del largo; 467/467 nivel 1; 1,3 % de coincidencia de color) |
+| El canutito es un hilo de contraste atado al extremo de colgantes de nivel 1, con paleta propia | **Bien apoyado** (posición al 96 % del largo; 467/467 nivel 1; 1,3 % de coincidencia de color) |
 | La fibra es un atributo del objeto (cordón principal ↔ colgantes) | **Apoyado con datos** (χ² = 212) |
 | La fibra no codifica valor, color ni posición | **Apoyado con datos** (negativos con n = 297 y controles) |
 | El "efecto fibra" sobre el estilo de nudo es en realidad un efecto de colección/tradición local | **Apoyado con datos** (se cae al estratificar por museo: p = 0,089) |
@@ -289,7 +289,7 @@ redundante con la del quipu.
 - **El mejor resultado positivo del informe:** en UR052/KH0282, **23 de 24 fronteras de grupo
   de colgantes coinciden con una frontera de canuto** (Jaccard 0,885; p = 5 × 10⁻⁵ frente a
   límites aleatorios). El canuto delimita grupos. Es un solo quipu y hay riesgo de
-  circularidad, así que va como *apoyado con datos*, no demostrado.
+  circularidad, así que va como *apoyado con datos*, no bien apoyado.
 - **El canuto no es una unidad de cuenta.** Las sumas por segmento no son redondas (14,1 % vs
   10 % esperado) y ningún quipu sobrevive a BH. Descartar la idea "cada canuto = un total".
 - **Los canutos llevan una secuencia de color propia** (1–4 bandas de ~3 cm) que se repite en

@@ -181,7 +181,7 @@ Con las sumas de grupo que incluyen subsidiarias, la reconstrucción desde KFG d
 | Grupos 2–7 (p5–p76 + subsidiarias) | 32 + 8 + 0 + 24 + 0 + 40 = **104** |
 | p5–p74 (sin p75–p76) | 97 |
 
-El primer 102 = 102 se reproduce exactamente y es **demostrado** dentro del artefacto. La suma de los grupos 2–7 (p5–p76 + subsidiarias) da 104 en KFG; Urton reporta 102 para las seis agrupaciones y declara un error de registro de 2 unidades, de modo que 104 = 102 + 2 es consistente con su lectura. La delimitación literal “#5–74” no coincide con los índices KFG (p5–p74 da 97), probablemente porque Urton cuenta cordeles y no pendientes. Lo que importa: las dos mitades posicionales del quipu suman **200 vs 56**, no 102 vs 102. El caso ilustra el patrón real: **totales repetidos en secciones anidadas**, no dos mitades especulares.
+El primer 102 = 102 se reproduce exactamente y es **bien apoyado** dentro del artefacto. La suma de los grupos 2–7 (p5–p76 + subsidiarias) da 104 en KFG; Urton reporta 102 para las seis agrupaciones y declara un error de registro de 2 unidades, de modo que 104 = 102 + 2 es consistente con su lectura. La delimitación literal “#5–74” no coincide con los índices KFG (p5–p74 da 97), probablemente porque Urton cuenta cordeles y no pendientes. Lo que importa: las dos mitades posicionales del quipu suman **200 vs 56**, no 102 vs 102. El caso ilustra el patrón real: **totales repetidos en secciones anidadas**, no dos mitades especulares.
 
 ---
 
@@ -217,7 +217,7 @@ El primer 102 = 102 se reproduce exactamente y es **demostrado** dentro del arte
 
 | Conclusión | Nivel |
 |---|---|
-| UR028: p1 = 102 y p2–p4 + subsidiarias = 102 (aritmética interna verificable) | **Demostrado** |
+| UR028: p1 = 102 y p2–p4 + subsidiarias = 102 (aritmética interna verificable) | **Bien apoyado** |
 | Las mitades posicionales de los quipus **no** son especulares en sumas, valores ni colores; el efecto va en dirección contraria (gradiente decreciente) | **Apoyado con datos** (n = 528–601; nulos N1 y N2; mediana y signos) |
 | R/V y S/Z forman **bloques contiguos** que respetan fronteras de grupo, pero no se alinean con la mitad del quipu | **Apoyado con datos** (n = 153–226; q_BH ≤ 0,002) |
 | Los códigos binarios están **desbalanceados** y ausentes en la mayoría de los quipus (minoría 10–22 %) | **Apoyado con datos** (n = 153–226; binomial) |

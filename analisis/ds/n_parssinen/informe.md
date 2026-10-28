@@ -276,7 +276,7 @@ Solo Bambamarca sobrevive a Holm en ambas versiones. El resultado no depende de 
 | Coco, nulo CV (L2 al perfil) | 0,284 | 20.000 listas lognormales de n=9 y CV=1,079 (mediana 0,196) | 0,812 | más extremo de lo que su CV predice |
 | Tríadas 3×3 | −0,020 | 20.000 particiones (media −0,099) | 0,190 | sin estructura de tríadas |
 
-**Nota sobre el p del perfil:** no es un test de "la lista es igual a la firma"; es un test de si la lista cae dentro de la variabilidad de las filas de UR278. Un p alto (Bambamarca 0,607) significa "no se distingue de la nube"; un p = 1,000 (Coco) significa "está más lejos que todos los pares de filas". Para Bambamarca, el resultado es de **compatibilidad**, no de identidad demostrada.
+**Nota sobre el p del perfil:** no es un test de "la lista es igual a la firma"; es un test de si la lista cae dentro de la variabilidad de las filas de UR278. Un p alto (Bambamarca 0,607) significa "no se distingue de la nube"; un p = 1,000 (Coco) significa "está más lejos que todos los pares de filas". Para Bambamarca, el resultado es de **compatibilidad**, no de identidad bien apoyada.
 
 ### 4.3 Estabilidad de la transcripción (Chayanta)
 
@@ -314,12 +314,12 @@ Las dos transcripciones del mismo quipu (1540 y 1548) dan:
 
 | afirmación | nivel |
 |---|---|
-| Las 9 columnas de UR278 tienen un perfil estable, desigual y ordenado (ρ −0,73; CV 0,193; 24 filas) | **demostrado** (replicado en n_nueve_unidades) |
-| Las listas coloniales de unidades no se ordenan en general de mayor a menor (1/9 con ρ < −0,5; mediana −0,29) | **demostrado** para el corpus extraído |
-| La lista de 9 pachacas de Bambamarca desciende con la posición (ρ −0,87; p exacto 0,0018; Holm 0,005; sin la primera, ρ −0,81, p 0,009) | **demostrado** estadísticamente, con la reserva del orden editorial de la tabla |
+| Las 9 columnas de UR278 tienen un perfil estable, desigual y ordenado (ρ −0,73; CV 0,193; 24 filas) | **bien apoyado** (replicado en n_nueve_unidades) |
+| Las listas coloniales de unidades no se ordenan en general de mayor a menor (1/9 con ρ < −0,5; mediana −0,29) | **bien apoyado** para el corpus extraído |
+| La lista de 9 pachacas de Bambamarca desciende con la posición (ρ −0,87; p exacto 0,0018; Holm 0,005; sin la primera, ρ −0,81, p 0,009) | **bien apoyado** estadísticamente, con la reserva del orden editorial de la tabla |
 | El perfil ordenado de Bambamarca es compatible con la nube de filas de UR278 (percentil 60,5) | **apoyado con datos** (compatibilidad, no identidad) |
-| El parecido de *forma* de Bambamarca no es excepcional para su CV (p = 0,646 frente a listas aleatorias con su mismo CV); la señal está en el **orden** (ρ −0,87), no en una forma imposible | **demostrado** (resultado negativo parcial) |
-| La lista de 9 aldeas de Coco es incompatible con la firma (CV 1,08; perfil fuera de la nube) | **demostrado** (resultado negativo) |
+| El parecido de *forma* de Bambamarca no es excepcional para su CV (p = 0,646 frente a listas aleatorias con su mismo CV); la señal está en el **orden** (ρ −0,87), no en una forma imposible | **bien apoyado** (resultado negativo parcial) |
+| La lista de 9 aldeas de Coco es incompatible con la firma (CV 1,08; perfil fuera de la nube) | **bien apoyado** (resultado negativo) |
 | El censo lupaca de 12 sayas tiene la misma planitud/gradiente que la firma (CV 0,199; pendiente −0,055), pero 12 unidades y orden administrativo | **apoyado con datos** (buen análogo de forma, no de número/orden) |
 | Las 9 columnas son 9 pachacas/unidades administrativas de una guaranga o provincia, ordenadas por rango | **propuesto** |
 | La estructura 1+4×2 (4 pares + 1 suelta) de la firma se corresponde con los 5 señores de Guancayo (4 con dos pachacas, 1 con una) | **propuesto / especulativo**; la forma 1+4×2 está apoyada, la identificación concreta de los pares no |
@@ -336,7 +336,7 @@ Las dos transcripciones del mismo quipu (1540 y 1548) dan:
 - **El mejor análogo de planitud no es una lista de 9, sino el censo lupaca de 12 sayas:** CV 0,199 (percentil 29 de las filas), pendiente −0,055, casi idéntica a la firma (−0,071). Tiene 12 unidades y orden administrativo (ρ −0,35), así que no explica el 9 ni el orden, pero demuestra que un censo decimal leído de un quipu puede tener exactamente esa planitud.
 - **Las listas coloniales no van en general de mayor a menor:** solo 1 de 9 (Bambamarca) tiene ρ < −0,5 y sobrevive a Holm; la mediana es −0,29; Lupaca ordena por cabecera y hanan/hurin; Cajamarca pone Guzmango, Chuquimango y Chondal (Hanansaya) primero, aunque Mitimaes va al final; Chayanta conserva la secuencia pero no desciende. El orden es de prestigio/jerarquía, no de tamaño.
 - **Guancayo (Chillón) da el ancla 1+4×2:** 900 hatun runa, 9 pachacas bajo 5 señores (uno con una, cuatro con dos), 5 cestos de coca por pachaca = 45. Es el único caso documentado de 9 = 1+4×2 con cifras.
-- **La forma 1+4×2 también está en la firma:** el mejor emparejamiento es 4 pares + 1 suelta (p = 0,002), y la suelta es c8, la columna más pequeña, justo como el señor con una sola pachaca. Pero los pares no son contiguos y solo (1-2) y (5-7) sobreviven a BH; la identificación con los cinco señores es **especulativa**, no demostrada.
+- **La forma 1+4×2 también está en la firma:** el mejor emparejamiento es 4 pares + 1 suelta (p = 0,002), y la suelta es c8, la columna más pequeña, justo como el señor con una sola pachaca. Pero los pares no son contiguos y solo (1-2) y (5-7) sobreviven a BH; la identificación con los cinco señores es **especulativa**, no bien apoyada.
 - **Dos alternativas fallan:** la estructura 3×3 (Collaguas, ceque) no aparece (p = 0,190; la partición consecutiva queda 53/280), y el ideal decimal 9×100 es demasiado plano (CV 0; la firma tiene 0,19). Las 9 columnas no son ni tríadas ni pachacas ideales iguales: son unidades reales de tamaño desigual (o un censo de sayas como el lupaca).
 - **Recomendación para la siguiente ronda:** (1) verificar el orden de la tabla de Bambamarca en la visita original de González de Cuenca (1567) o en la copia de Espinoza Soriano 1976-77, para descartar un orden editorial; (2) buscar una provincia con **5 cabeceras y 9 sayas/pachacas** (4×2+1) en las visitas de Chucuito, Pacajes o Collaguas; (3) probar si las 9 columnas se pueden agrupar en 4 pares + 1 con una regla *ex ante* (no el máximo sobre 945), por ejemplo pares de columnas que compartan color o longitud de cuerda; (4) contrastar la hipótesis "pachacas reales" con la escala absoluta: ~250 unidades por columna es compatible con pachacas de una guaranga grande o con sayas pequeñas, pero no con pachacas ideales de 100.
 - **Nivel global:** el parecido con Bambamarca es **apoyado con datos**; la lectura "9 pachacas de una guaranga ordenadas por rango" es **propuesta**; el mapeo concreto a los cinco señores de Guancayo es **especulativo**. No hay ninguna lista colonial que reproduzca a la vez el 9, la planitud y el orden de la firma.

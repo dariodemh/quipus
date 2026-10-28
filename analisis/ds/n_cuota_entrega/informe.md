@@ -30,7 +30,7 @@ Esta ronda la convierte en cuatro predicciones falsables:
    **todos** los quipus del sistema, no solo en UR270.
 2. Si S1 = entrega, **S1/P** (cumplimiento) debe tener un **perfil estable por columna**
    en UR270.
-3. Las relaciones demostradas **UR270→UR278** y **UR278→UR275→UR266** deben pasar mejor
+3. Las relaciones bien apoyadas **UR270→UR278** y **UR278→UR275→UR266** deben pasar mejor
    con P, con S1 o con P+S1.
 4. Si el patrón es propio del **sistema Incahuasi**, no debe aparecer en 20 quipus de
    otros sitios.
@@ -306,7 +306,7 @@ es otra cuerda**. En UR275 g16: `1653 (W), 47 (NB), 1606 (NB)`; en UR266 g25:
 cuerda, es el subtotal del componente B**. Llamar "cuota" a P confunde el subtotal con la
 cuota.
 
-Nivel: **demostrado** que la celda de UR278 = P+S1 y que P = subtotal del componente B;
+Nivel: **bien apoyado** que la celda de UR278 = P+S1 y que P = subtotal del componente B;
 **apoyado con datos** que S1 = componente A (1 exacta, 3 a ±1, p = 0,11; la señal es
 direccional pero no alcanza significación con 9 filas).
 
@@ -333,7 +333,7 @@ Lectura:
 - **JC (Sector B, también Incahuasi según el metadato):** no muestra redondez; sí muestra P
   más plano (CV +0,175; p = 0,017, Holm 0,39). Es un resultado aislado, no concluyente.
 
-Nivel: **demostrado** que el efecto de redondez aparece también fuera de Incahuasi;
+Nivel: **bien apoyado** que el efecto de redondez aparece también fuera de Incahuasi;
 **apoyado con datos** que las igualdades son la parte más específica del sistema, pero
 concentrada en dos quipus.
 
@@ -387,14 +387,14 @@ P = componente B.** El perfil S1/P sobrevive solo en su versión dominada por la
 
 | afirmación | nivel |
 |---|---|
-| Los datos P/S1 de Incahuasi son fieles a OKR (99,8 % nivel 0; 90,5 % nivel 1) | **demostrado** |
-| La celda de UR278 es P+S1 (5 grupos ≥6/9; p = 0,0002; P y S1 solos, 0) | **demostrado** |
-| P es el subtotal del componente B (4/9 exactas; p = 0,0004) y la cuota explícita (47/30/17) es otra cuerda | **demostrado** |
+| Los datos P/S1 de Incahuasi son fieles a OKR (99,8 % nivel 0; 90,5 % nivel 1) | **bien apoyado** |
+| La celda de UR278 es P+S1 (5 grupos ≥6/9; p = 0,0002; P y S1 solos, 0) | **bien apoyado** |
+| P es el subtotal del componente B (4/9 exactas; p = 0,0004) y la cuota explícita (47/30/17) es otra cuerda | **bien apoyado** |
 | UR270 g6 es una estructura binaria 100/200 única en Incahuasi (1/142 grupos) | **apoyado con datos** |
 | S1 es el componente A (1 exacta, 3 a ±1; p = 0,11) | **apoyado con datos / propuesto** |
 | Existe una anomalía estable en la columna 8 de UR270 (S1/P ≈ 1,03) | **apoyado con datos** (pero es 1 columna) |
 | P = cuota y S1 = entrega | **no apoyado**; la lectura de "dos componentes aditivos" la reemplaza |
-| El patrón P/S1 es una propiedad del sistema Incahuasi | **no demostrado**; el control externo muestra el mismo efecto de magnitud |
+| El patrón P/S1 es una propiedad del sistema Incahuasi | **no bien apoyado**; el control externo muestra el mismo efecto de magnitud |
 | El significado de 100/200 en g6 (cuota por unidad, cupo, categoría) | **especulativo** |
 | El significado de las 9 columnas (depósitos, días, grupos) | **especulativo** (heredado de 13) |
 
@@ -425,7 +425,7 @@ P = componente B.** El perfil S1/P sobrevive solo en su versión dominada por la
   cuando se controla la magnitud (21 vs 21 múltiplos de 10, p = 1,000; logit del rol
   p = 0,235), el efecto agregado desaparece al quitar UR270 (+0,031, p = 0,18) y el mismo
   exceso de redondez aparece en 20 quipus de otros sitios (redondez50 p = 0,0005).
-- **Lo que sí queda demostrado es la estructura aditiva:** la celda de UR278 es P+S1
+- **Lo que sí queda bien apoyado es la estructura aditiva:** la celda de UR278 es P+S1
   (5 grupos con ≥6/9 columnas, p = 0,0002; con P solo o S1 solo, 0 grupos) y P suma
   exactamente la cabecera del componente B de UR273B (4/9, p = 0,0004).
 - **La cuota ya estaba localizada y no es P:** en UR275/UR266 el 47 (y 30/17 en los

@@ -34,7 +34,7 @@ Medianas por clase (543 quipus; `t1_resumen.csv`, `t1b_resumen.txt`):
 - La dependencia de desfase 1 es significativa (p_a < 0,05) en el 70 % de los quipus por color, el 44 % por patrón y el 62 % por tupla, frente al 43–59 % del texto y al 4–6 % del azar. **Ambos tienen orden**, así que esto no distingue texto de tabla.
 - El rasgo que separa es la **autorrepetición**. Los quipus repiten la misma cuerda contigua más de lo esperado (bandeado). El texto la evita: casi ninguna sílaba se repite contigua, y en letras la tasa es 0,25 de la esperada. En quipus de 100 o más colgantes solo el 19–28 % tiene autorrepetición menor que 1.
 - El barajado de grupos (b) apenas cambia ΔH1 (mediana de ΔH1_b ≈ 0,01): la estructura de desfase 1 está **dentro de los grupos**. Lo mismo pasa con el texto al barajar palabras, así que no discrimina.
-- **Zipf no sirve para diagnosticar.** A escala de corpus, el exponente de la tupla color|patrón|unión|torsión es 0,86, igual que el β = 0,851 que Sivan presenta como "lingüístico", y el quechua silabeado da 1,27. Zipf depende de cómo se define el token. **Demostrado** (como contraejemplo).
+- **Zipf no sirve para diagnosticar.** A escala de corpus, el exponente de la tupla color|patrón|unión|torsión es 0,86, igual que el β = 0,851 que Sivan presenta como "lingüístico", y el quechua silabeado da 1,27. Zipf depende de cómo se define el token. **Bien apoyado** (como contraejemplo).
 - Clasificador (regresión logística entrenada solo con referencias: texto, tabla, bandeado, azar; exactitud CV-5 = 0,71–0,82). **No es robusto**: la proporción de quipus "texto" pasa del 6 % (color, con rasgo de autorrepetición) al 20 % sin él, y en tupla del 19,5 % al 54 %. Al quitar la autorrepetición, "texto" se vuelve la clase de "estructura débil sin periodicidad", que se solapa con el azar en secuencias cortas. Los quipus que "parecen texto" son casi todos pequeños (n = 10–46). **Resultado negativo**: con estas métricas de secuencia, texto y "estructura débil" no se separan en documentos cortos.
 
 **Conclusión T1** (*apoyado con datos*): los quipus caen entre "bandeado" y "tabla", no junto al texto. La firma del texto (antirrepetición, vocabulario que crece con Heaps β ≈ 0,9) no aparece en el corpus.
@@ -56,7 +56,7 @@ Primero se calibró el método. La versión inicial con nulo de barajado global 
 
 - Fracción tabular estimada, (r − r0)/(1 − r0): **45–49 %** de los quipus con grupos repetidos (color) y 44 % (magnitud). Por periodo implícito, 14–20 %. Con BH, **175 de 299 quipus con grupos repetidos (58,5 %)** tienen columnas significativas (q < 0,05) en color o magnitud. Sobre los 518 quipus de 12 o más colgantes, 215 (41,5 %) muestran alguna estructura de columnas con q < 0,05 en alguna prueba. Es una cota inferior, porque muchos quipus no tienen grupos repetidos o tienen un solo color.
 - Entre los quipus con periodo implícito significativo, las **columnas son más homogéneas que las filas en el 82 %**. El tamaño modal de las filas significativas tiene mediana 6 (rango intercuartil 4–8).
-- **Nivel**: *demostrado* que existe estructura de columnas dentro de los grupos en cerca de la mitad de los quipus con grupos, con controles de dependencia local y texto. Que esas columnas sean "categorías de registro" es *propuesto*: puede ser, por ejemplo, una cuerda inicial de otro color que marca el grupo, que sigue siendo una columna.
+- **Nivel**: *bien apoyado* que existe estructura de columnas dentro de los grupos en cerca de la mitad de los quipus con grupos, con controles de dependencia local y texto. Que esas columnas sean "categorías de registro" es *propuesto*: puede ser, por ejemplo, una cuerda inicial de otro color que marca el grupo, que sigue siendo una columna.
 
 ## 3. "Frases" compartidas (`t3_*`)
 
@@ -76,7 +76,7 @@ Las etiquetas se definen por cuerda y por separado según el tipo de nudo, porqu
 - ¿Sigue al color o a la magnitud de la cuerda? Al condicionar al grupo (permutando solo dentro del grupo), dirLE~color se reduce a p = 0,024 (Holm 0,16) y dirLE~magnitud a p = 0,065 (Holm 0,39). La dirección **sigue al grupo, no a la cuerda**. Para dirS, color|grupo se mantiene (Holm 0,015, pero solo 2 quipus con q < 0,05).
 - **Oposición de mitades**: "mitad|grupos", con un nulo que baraja el orden de los grupos, es significativa en dirLE (Holm 0,015) y dirS (Holm 0,015). Por quipu solo hay 3 y 2 casos con q < 0,05, así que es un efecto débil y difuso de "secciones" más largas que un grupo. En torsión no aparece (p = 0,40).
 - No se puede contrastar torsión × dirección: solo hay 16 quipus con ambas variables mezcladas.
-- **Nivel**: *demostrado* que la dirección se organiza por grupos y bloques; *rechazado* (resultado negativo) que marque el inicio de grupo; *apoyado con datos, débil* que haya secciones mayores que un grupo. La interpretación funcional (sección temática u "oposición de mitades" frente a sesión o mano de anudado) es **especulativa**. La explicación aburrida, que cada grupo lo anudara una persona o en una sesión distinta, predice exactamente este patrón y no se puede descartar con estos datos.
+- **Nivel**: *bien apoyado* que la dirección se organiza por grupos y bloques; *rechazado* (resultado negativo) que marque el inicio de grupo; *apoyado con datos, débil* que haya secciones mayores que un grupo. La interpretación funcional (sección temática u "oposición de mitades" frente a sesión o mano de anudado) es **especulativa**. La explicación aburrida, que cada grupo lo anudara una persona o en una sesión distinta, predice exactamente este patrón y no se puede descartar con estos datos.
 
 ## 5. Candidatos más "textuales" (`t5_*`)
 
@@ -103,11 +103,11 @@ Lectura crítica:
 | afirmación | nivel |
 |---|---|
 | Los quipus tienen bandeado (autorrepetición mayor que el azar) y no la antirrepetición del texto | apoyado con datos |
-| Columnas dentro de grupos en cerca del 50 % de los quipus con grupos (≈ 41 % del corpus de 12 o más colgantes con alguna prueba) | demostrado (estructura) / propuesto (función) |
-| Zipf no diagnostica lengua | demostrado (contraejemplo) |
+| Columnas dentro de grupos en cerca del 50 % de los quipus con grupos (≈ 41 % del corpus de 12 o más colgantes con alguna prueba) | bien apoyado (estructura) / propuesto (función) |
+| Zipf no diagnostica lengua | bien apoyado (contraejemplo) |
 | Formatos de archivo compartidos (Santa, Leymebamba, Incahuasi) en la secuencia de colores | apoyado con datos |
 | Sin vocabulario compartido de patrones de nudos | apoyado con datos (negativo) |
-| Dirección de nudo homogénea por grupo; no marca inicio; secciones débiles | demostrado / negativo / apoyado débil |
+| Dirección de nudo homogénea por grupo; no marca inicio; secciones débiles | bien apoyado / negativo / apoyado débil |
 | Interpretación de la dirección como "mitades" o "signo" | especulativo |
 | Subconjunto STRING menos tabular | apoyado con datos, confundido por baja diversidad de color |
 | STRING = texto silábico | especulativo; las pruebas aquí no lo apoyan |

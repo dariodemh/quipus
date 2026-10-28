@@ -23,12 +23,12 @@ El objetivo no es adivinar: es **acotar** las identificaciones posibles, decir c
 
 | # | Hipótesis | Veredicto | Cifra clave | Nivel |
 |---|---|---|---|---|
-| 1 | Las 9 columnas son una **partición estable en 9 unidades** (no una taxonomía natural) | **compatible y reforzada** | CV entre columnas 0,193; las mismas 9 unidades en UR270 y UR278 (5 registros con 6–9/9 celdas y rho 0,95–1,00) | **demostrado** (estructura) |
+| 1 | Las 9 columnas son una **partición estable en 9 unidades** (no una taxonomía natural) | **compatible y reforzada** | CV entre columnas 0,193; las mismas 9 unidades en UR270 y UR278 (5 registros con 6–9/9 celdas y rho 0,95–1,00) | **bien apoyado** (estructura) |
 | 2 | Las 9 partes son **9 pachacas/subunidades de una sola guaranga o flujo** | **la identificación más compatible** | 9 unidades de tamaño similar; pachacas/guarangas documentadas como similares entre sí; 9 pachacas en una guaranga está documentado | **propuesto** |
 | 3 | Las 9 partes son **9 comunidades mitma/ayllu** de Cañete, o los 8 curacas de Lunahuaná + el principal | **posible pero no apoyada** | Lunahuaná: 4 guarangas × 2 curacas = 8 (+1 principal, si se cuenta aparte = 9); pero no hay lista de 9 mitmas | **especulativo** |
 | 4 | Las 9 partes son **9 cuadrillas/turnos de mitayos o 9 chacras** que entregaban maní | **posible, no decidible** | 9 unidades casi iguales; cuota 47 compatible con ración/días; contexto de maní | **especulativo** |
-| 5 | Las 9 partes son 9 productos, 9 meses, 9 zonas ecológicas o un 3×3 por posición | **descartada / no apoyada** | 3+3+3 por posición: R²=0,50, p=0,13; 4+5: p=0,22; ya descartadas por planitud | **demostrado (negativo)** para productos/meses; **no apoyado** para 3×3 |
-| 6 | Las cuotas 10/15/17/46/47/208 son constantes panandinas | **descartada** | 17 solo en UR274B (2 tríos); 208 solo en UR268 (1 trío); 47 solo en UR275/269/266; fuera de Incahuasi, solo 10 en AS172 | **demostrado (negativo)** |
+| 5 | Las 9 partes son 9 productos, 9 meses, 9 zonas ecológicas o un 3×3 por posición | **descartada / no apoyada** | 3+3+3 por posición: R²=0,50, p=0,13; 4+5: p=0,22; ya descartadas por planitud | **bien apoyado (negativo)** para productos/meses; **no apoyado** para 3×3 |
+| 6 | Las cuotas 10/15/17/46/47/208 son constantes panandinas | **descartada** | 17 solo en UR274B (2 tríos); 208 solo en UR268 (1 trío); 47 solo en UR275/269/266; fuera de Incahuasi, solo 10 en AS172 | **bien apoyado (negativo)** |
 | 7 | Las cuotas son una **jerarquía de agregación** (componente → flujo → periodo) | **compatible** | 30+17=47; 15+10=25; 47+46+46+44+25=208 | **apoyado con datos** (heredado de 13_sistema) |
 
 ---
@@ -353,7 +353,7 @@ El corpus de referencia es **Pärssinen y Kiviharju, *Textos andinos* (2004, 201
 - **9 colores**: no; los registros son monocromos y el color distingue A/B, no las 9 columnas.
 - **9 cuerdas de un mismo grupo**: es un formato que aparece en 238 grupos de 97 quipus, pero solo UR278/UR270 lo usan como **ancho regular de registro**; no es una convención panandina.
 
-**Nivel: demostrado (negativo) para productos/meses/zonas; no apoyado para 3×3.**
+**Nivel: bien apoyado (negativo) para productos/meses/zonas; no apoyado para 3×3.**
 
 ---
 
@@ -384,11 +384,11 @@ El corpus de referencia es **Pärssinen y Kiviharju, *Textos andinos* (2004, 201
 
 ## 9. Para el coordinador
 
-- **La estructura de las 9 partes está demostrada, el nombre no.** UR278 tiene 24 registros completos de 9 columnas; las 9 son casi iguales (CV entre medias 0,193, IC95 [0,152; 0,241]; max/min 1,80) y **las mismas 9 unidades, en el mismo orden, aparecen en UR270 y UR278** (5 registros con 6–9/9 celdas ±1 y rho 0,95–1,00). No son 9 posiciones intercambiables: son 9 unidades contables con identidad fija.
+- **La estructura de las 9 partes está bien apoyada, el nombre no.** UR278 tiene 24 registros completos de 9 columnas; las 9 son casi iguales (CV entre medias 0,193, IC95 [0,152; 0,241]; max/min 1,80) y **las mismas 9 unidades, en el mismo orden, aparecen en UR270 y UR278** (5 registros con 6–9/9 celdas ±1 y rho 0,95–1,00). No son 9 posiciones intercambiables: son 9 unidades contables con identidad fija.
 - **La planitud es excepcional, no un artefacto.** Frente a 238 grupos de 9 cuerdas del corpus, la media de CV de UR278 es 0,275 vs 0,865 del nulo (p < 0,00005); el nulo emparejado por magnitud (total 1 000–5 000) da 0,804 vs 0,275 (p < 0,00005). Solo 8 de 238 grupos de 9 tienen CV < 0,20, y 7 son de UR278.
 - **Las 9 partes no son cuotas fijas.** La proporción de cada columna varía 3,5 veces más de lo que explica el muestreo; el tamaño medio y el orden son estables, pero el aporte de cada unidad cambia en cada registro. Eso es propio de unidades reales (pachacas, chacras, cuadrillas), no de un reparto porcentual rígido.
 - **No hay un 9 local documentado en Cañete.** Lunahuaná = 4 guarangas × 2 curacas = 8 (+1 principal); Guarco = 1 señorío; Huarochirí = 7 guarangas; Chincha = 30 caciques de 1 000; Yauyos = 2 mitades; Chucuito = 7 pueblos × 2; Huánuco = 4 guarangas. El 9 aparece en **Cajamarca (9 pachacas)**, **Acos (3 ayllus × 3)**, **Collaguas (9 pachacas)** y los **ceques (3 × 3)**. La regla útil: las **pachacas/guarangas se parecen entre sí**; los ayllus, no.
-- **La identificación más compatible es “9 pachacas/subunidades de una sola guaranga o flujo”** (propuesto, no demostrado). Encaja con la escala similar, la identidad estable, la jerarquía detalle→resumen y el 9 documentado en guarangas del norte. La debilidad es que no hay una lista de 9 pachacas para Cañete.
+- **La identificación más compatible es “9 pachacas/subunidades de una sola guaranga o flujo”** (propuesto, no bien apoyado). Encaja con la escala similar, la identidad estable, la jerarquía detalle→resumen y el 9 documentado en guarangas del norte. La debilidad es que no hay una lista de 9 pachacas para Cañete.
 - **Las alternativas son especulativas:** 9 comunidades mitma/ayllu, o los 8 curacas de Lunahuaná + el principal; 9 cuadrillas/turnos o 9 chacras de maní. Ninguna tiene documento local que la sostenga, y la segunda choca con que las 9 columnas son casi iguales (una cabeza debería ser mayor).
 - **Las cuotas 47/17/208 no son panandinas.** 17 solo en UR274B (2 tríos); 208 solo en UR268 (1 trío); 47 solo en UR266/269/275. Fuera de Incahuasi, solo c=10 en AS172. Son una **jerarquía de agregación** (30+17=47; 15+10=25; 47+46+46+44+25=208), no constantes coloniales. En los documentos, 17 y 9 aparecen como **poblaciones de aldeas**, no como cuotas.
 - **No hay transcripción colonial con 9 partes iguales.** El único 9 es la lista de 9 servicios de los Chupachos (400, 150, 150, 10, 200, 200, 20, 120, 60), desigual. Lo que sí hay es **jerarquía de totales** (Jauja: quipus "executive summary"; Charka: sumas de distinciones finas; encomienda: 823), que es el mejor paralelo de UR278→UR266/275.

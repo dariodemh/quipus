@@ -229,12 +229,12 @@ de UR019 (que es astronómica); la ficha de "knot labels" (2013) trata otro quip
 
 **Nivel de evidencia global:**
 - Estructura (18 cuerdas, 4 grupos, valores, direcciones, ausencia de superiores):
-  **demostrado** (coinciden KFG y OKR).
+  **bien apoyado** (coinciden KFG y OKR).
 - Ausencia de aritmética interna y fracaso de la lectura π/S-Z tras control:
   **apoyado con datos**.
 - Clasificación categorial del color y convención subsidiaria–blanca:
   **apoyado con datos** (color) / **propuesto** (subsidiarias).
-- Tipo de registro = tally administrativo breve: **propuesto** (no demostrado).
+- Tipo de registro = tally administrativo breve: **propuesto** (no bien apoyado).
 - Lectura astronómica: **especulativo** (refutada en su base S/Z).
 
 ## 7. Qué sigue (para la siguiente ronda)
@@ -272,7 +272,7 @@ de UR019 (que es astronómica); la ficha de "knot labels" (2013) trata otro quip
   (tally/depósito), columnas = grupos/color, filas = los 6 colgantes con nudo,
   subsidiarias = sub-partidas. **No** es censo/tributo grande (percentil 4,5 % del
   archivo) **ni** calendario (sin periodicidad significativa).
-- **Nivel de evidencia:** estructura = **demostrado**; ausencia de aritmética y
+- **Nivel de evidencia:** estructura = **bien apoyado**; ausencia de aritmética y
   refutación de π/S-Z = **apoyado con datos**; color categorial = **apoyado**;
   tipo de registro = **propuesto**; astronomía = **especulativo**.
 - **Recomendación:** usar UR019 como caso de control (contraejemplo) y extender el

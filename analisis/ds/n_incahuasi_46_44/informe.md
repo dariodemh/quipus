@@ -276,10 +276,10 @@ filas; no para certificar una fila aislada. Ese es el límite honesto de este ne
 - **Apoyado con datos (inventario de cuotas).** Las únicas cuotas constantes del corpus
   son las 9 del archivo de Incahuasi; fuera de UR255–UR280 no hay ninguna que supere el
   nulo (mejor q = 0,13).
-- **Demostrado con las definiciones probadas (UR268).** UR268 no es la suma de los
+- **Bien apoyado con las definiciones probadas (UR268).** UR268 no es la suma de los
   bloques de UR269; el negativo tiene potencia para detectar ≥3 bloques exactos.
 - **Propuesto.** Los flujos 46, 46 y 44 no se conservan en el corpus codificado. Es la
-  explicación más simple, pero no está demostrada: 400 quipus no tienen registros
+  explicación más simple, pero no está bien apoyada: 400 quipus no tienen registros
   utilizables y podrían esconder los componentes.
 - **Especulativo.** Que las cuotas de los componentes perdidos sigan el mismo esquema
   (p. ej. 29+17 = 46, 30+16 = 46, 15+29 = 44, 17+27 = 44, 21+25 = 46): no hay ningún
@@ -329,7 +329,7 @@ filas; no para certificar una fila aislada. Ese es el límite honesto de este ne
   densidad (p = 0,39–0,80 sin UR269). El único p < 0,05 (0,022) era la identidad
   interna cabecera = neto + cuota del propio UR269.
 - **Nivel de evidencia:** negativo **apoyado con datos** para las filas 2–4 y el barrido
-  de parejas; **demostrado con las definiciones probadas** para UR268; **propuesto** que
+  de parejas; **bien apoyado con las definiciones probadas** para UR268; **propuesto** que
   los componentes 46/44 no se conservan; **especulativo** cualquier reconstrucción de sus
   cuotas.
 - **Recomendación 1:** no gastar más tiempo en buscar parejas 46/44 en el KFG. Si se

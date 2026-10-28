@@ -48,7 +48,7 @@ UR19 = KH0255 (Centro Mallqui, Leymebamba). En el repo:
 
 **Control de multiplicidad numérica.** Para los 651 quipus calculé `suma total / nº de colgantes` y conté cuántos caen a ±0,01 de varias constantes: π → **1**; 2π → 0; e → 0; φ → 0; 3 → 0; **6 → 1**; 9 → 0; 12 → 0. Es decir, la tasa base de “encontrar π” es la misma que la de encontrar un 6 redondo: **1/651**. El hallazgo de π es indistinguible del azar por este procedimiento.
 
-**Veredicto: demostrado que la lectura de UR19 no se reproduce con los datos del repo.** No se puede descartar que Saez usara otra tabla de Urton (2003), pero entonces el resultado depende de una transcripción no verificable, no del objeto.
+**Veredicto: bien apoyado que la lectura de UR19 no se reproduce con los datos del repo.** No se puede descartar que Saez usara otra tabla de Urton (2003), pero entonces el resultado depende de una transcripción no verificable, no del objeto.
 
 ### C. VA 42527 (= UR1104) y Saez-Rodriguez (2013)
 
@@ -57,7 +57,7 @@ UR19 = KH0255 (Centro Mallqui, Leymebamba). En el repo:
 - Pero **881 / 29,5 = 29,86**, no un entero. La afirmación “881 es múltiplo de 29,5” es **aritméticamente falsa**; la coincidencia lunar se obtiene por redondeo selectivo (315,9→315; 140,7→140; 217,8→217; 208,5→209).
 - Los totales por cuerda del repo (÷10) difieren de los publicados en varios casos (p. ej., el cuarto total publicado, 2.241, frente a 2.541,9 en el repo), de modo que el “ajuste a las Pléyades” descansa sobre valores que no se reproducen.
 
-**Veredicto: estructura (21/0) demostrada; inferencia astronómica no apoyada.**
+**Veredicto: estructura (21/0) bien apoyada; inferencia astronómica no apoyada.**
 
 ### D. Dirección de nudo S/Z y moieties (Hyland, Ware & Clark 2014)
 
@@ -119,12 +119,12 @@ Los tres sobreviven a BH-FDR (p = 0,0003, el mínimo alcanzable; con B = 4 000 d
 | Conclusión | Nivel |
 |---|---|
 | Las cifras descriptivas del KDB (84 cordeles; 60/27 colgantes; ~25 % con subsidiarias) se replican en el corpus | **apoyado con datos** (replicación del mismo corpus, no independiente) |
-| El “π” y la partición S/Z de UR19 no se reproducen | **demostrado** (con los datos del repo) |
-| 881 no es múltiplo de 29,5 | **demostrado** (aritmética) |
+| El “π” y la partición S/Z de UR19 no se reproducen | **bien apoyado** (con los datos del repo) |
+| 881 no es múltiplo de 29,5 | **bien apoyado** (aritmética) |
 | La dirección de nudo S/Z está estructurada en bloques (posición y grupos), no es azar | **apoyado con datos** (p = 0,0003, BH); sin orientación consistente |
 | S = Hanan / Z = Urin | **propuesto** (n = 1, no contrastable aquí) |
 | Los pares atados de Inkawasi tienen registros “muy similares” | **no apoyado** (p = 0,113; resultado negativo) |
-| UR1104 tiene 21 colgantes sin subsidiarias | **demostrado** |
+| UR1104 tiene 21 colgantes sin subsidiarias | **bien apoyado** |
 | Quipus “pareados” como partida doble | **propuesto**; el corpus tiene duplicados de catálogo que inflan cualquier parecido |
 | Puruchuco: sumas internas y quipus-resumen | **no comprobable** con los metadatos del repo |
 
@@ -142,7 +142,7 @@ Los tres sobreviven a BH-FDR (p = 0,0003, el mínimo alcanzable; con B = 4 000 d
 - **Las cifras descriptivas de la literatura se replican casi exactamente** en el corpus: 88,8 cordeles/quipu (vs. 84), 64,1 colgantes (vs. 60; mediana 32 vs. 27), 22,6 % de colgantes con subsidiarias (vs. ~25 %), 61 códigos de color (vs. 52). Es validación de tubería, **no** confirmación independiente: KFG y KDB describen los mismos objetos.
 - **UR19 desmiente el “π”**: 13+5 cuerdas y 26,0 cm coinciden, pero el total es **100**, no 40,9; `100/13 = 7,69`. La tasa base de encontrar π así es 1/651, igual que encontrar un 6 redondo.
 - **VA42527**: la estructura 21/0 coincide, pero **881/29,5 = 29,86**, no un múltiplo. El “calendario lunar” es redondeo selectivo.
-- **Hyland 2014 se sostiene solo a medias**: la dirección S/Z no es azar (p = 0,0003 en tres tests, sobrevive BH), pero se agrupa en bloques **sin orientación consistente** (S después de Z en 97/199), no forma mitades limpias (mediana de diferencia = 0,10; 1/199 perfecto) y está confundida con la presencia de nudo largo (77,6 % vs. 56,4 %). **S = Hanan / Z = Urin sigue siendo propuesto, no demostrado.**
+- **Hyland 2014 se sostiene solo a medias**: la dirección S/Z no es azar (p = 0,0003 en tres tests, sobrevive BH), pero se agrupa en bloques **sin orientación consistente** (S después de Z en 97/199), no forma mitades limpias (mediana de diferencia = 0,10; 1/199 perfecto) y está confundida con la presencia de nudo largo (77,6 % vs. 56,4 %). **S = Hanan / Z = Urin sigue siendo propuesto, no bien apoyado.**
 - **Inkawasi: resultado negativo.** Mejor par JC015–UR257 r = 0,857, pero el máximo nulo es 0,47 y p = 0,113; ningún par Incahuasi llega a r ≥ 0,9 frente a 25 pares en el resto del corpus.
 - **Alerta de datos:** KH0033 y UR044 son **el mismo quipu con dos ids** (54 colgantes, valores idénticos, mismo `pc_largo`); UR070/UR071 es otro duplicado. Cualquier análisis de similitud/“copias” debe deduplicar antes.
 - **Puruchuco (Urton & Brezine 2005) no es identificable** en `quipus.csv`: 0 quipus con esa procedencia. Es la afirmación más importante de la lista que queda fuera de alcance; recomiendo pedir el mapeo KH→procedencia.

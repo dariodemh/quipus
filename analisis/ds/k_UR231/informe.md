@@ -32,7 +32,7 @@ tendría? ¿Qué no encaja y qué parte podría ser información no numérica?
 
 ## 3. Estructura
 
-### 3.1 Cifras globales (todas demostradas sobre los datos)
+### 3.1 Cifras globales (todas bien apoyadas sobre los datos)
 
 | Variable | Valor |
 |---|---|
@@ -154,7 +154,7 @@ La única suma adyacente es `p425 = 13 = 5 + 8` (grupo 39). No hay exceso de ari
 las 227 cuerdas con valor** tienen alguna coincidencia de ventana corta en algún lugar del
 quipu; con ~126 valores distintos y cientos de ventanas, eso es la tasa base, no diseño.
 
-**Conclusión (demostrada, negativa):** UR231 **no contiene aritmética Ascher verificable**.
+**Conclusión (bien apoyada, negativa):** UR231 **no contiene aritmética Ascher verificable**.
 Las 186 relaciones de KFG son un artefacto del método; la afirmación de reconstrucción
 basada en ellas queda debilitada (aunque la reconstrucción puede sostenerse por la
 plantilla de color, §5.2).
@@ -342,13 +342,13 @@ color/fibra, no por las sumas.
 
 | Afirmación | Nivel |
 |---|---|
-| 954 cuerdas = 864 colgantes + 90 subsidiarias; 227 con nudos; 30/80 grupos con datos | **Demostrado** |
+| 954 cuerdas = 864 colgantes + 90 subsidiarias; 227 con nudos; 30/80 grupos con datos | **Bien apoyado** |
 | Plantilla de 6 conjuntos × 14 ranuras, con ranuras 5/6/8 fijas | **Apoyado con datos** (p = 0,001; 4/4 conjuntos alineados C–F) |
 | Periodicidad de color a 14 grupos | **Apoyado con datos** (p = 0,0005; resiste Holm y Bonferroni por 79 lags) |
 | 4 grupos de fibra vegetal a 14 de distancia | **Apoyado con datos** (p ≈ 2,4 × 10⁻⁵; post hoc en d, pero d documentado) |
 | Los seis grupos de 12 comparten 11 columnas (r = 0,915) | **Apoyado con datos** (p = 0,001) |
-| No hay aritmética Ascher verificable | **Demostrado** (negativo; p = 0,38–0,95) |
-| Las 186 sumas de KFG son artefacto | **Demostrado** (composición + nulos) |
+| No hay aritmética Ascher verificable | **Bien apoyado** (negativo; p = 0,38–0,95) |
+| Las 186 sumas de KFG son artefacto | **Bien apoyado** (composición + nulos) |
 | g18/g58 = cuentas paralelas/duplicadas | **Apoyado con datos** (similitud) / **propuesto** (interpretación) |
 | Tipo de registro: tabla administrativa (censo/tributo/depósito) | **Propuesto** |
 | Filas = 6 ayllus/parcialidades; columnas = 14 categorías; 11 subcategorías | **Especulativo** |

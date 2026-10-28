@@ -1,4 +1,4 @@
-"""05. Control positivo: ¿la maquinaria detecta las parejas ya demostradas?
+"""05. Control positivo: ¿la maquinaria detecta las parejas ya bien apoyadas?
 
 Se usan las sumas registro a registro que el equipo 13 calculó en
 `13_sistema_incahuasi/componentes_filas.csv` (parte_A + parte_B, emparejando por

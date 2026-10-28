@@ -47,7 +47,7 @@ def rasgos(M):
     X["rho"] = M.tabla_rho.fillna(0)
     X["red"] = M.red_frac.fillna(M.red_frac.median())
     X["cuo"] = nlog(M.cuotas_rep_q)
-    X["arc"] = M.rel_archivo.map({"demostrada": 1, "propuesta": .5}).fillna(0)
+    X["arc"] = M.rel_archivo.map({"bien apoyada": 1, "propuesta": .5}).fillna(0)
     X["trio"] = M.trio_xcx.astype(float)
     X["nonum"] = M.nonum_subtipo.fillna("").str.contains("NC|NU").astype(float)
     X["tally"] = M.pure_tally.astype(float)

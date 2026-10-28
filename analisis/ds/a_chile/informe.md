@@ -93,7 +93,7 @@ Cifras clave (detalle en `tabla_descriptiva.csv`):
 
 ## 6. Nivel de evidencia
 
-- **Demostrado** (censo directo de los datos): composición, tamaños, rangos de valores, ausencia de top cords, unión R/V, torsión, direcciones de nudo, y la deduplicación de nombres.
+- **Bien apoyado** (censo directo de los datos): composición, tamaños, rangos de valores, ausencia de top cords, unión R/V, torsión, direcciones de nudo, y la deduplicación de nombres.
 - **Apoyado con datos:** (a) el archivo de **Lluta** (magnitud alta, trío AB+verso, totales casi idénticos, lote 21163) frente al de **Playa Miller/Arica** (muy rico en subsidiarias, 5/6 ≥ 2, p ≈ 1,2·10⁻⁶; blanco‑dominante); (b) la riqueza en sumas internas de AS069 (200 pp + 140 ip + 263 color), coherente con la fórmula de Ascher (Medrano & Khosla 2024).
 - **Propuesto:** que el archivo de Playa Miller/Arica registra magnitudes pequeñas (KH0267 1–4, UR058A 1–7) con abundante desagregación en subsidiarias (¿recuentos/atributos fraccionados?), y que el archivo de Lluta registra agregados de mayor escala (rango hasta ~750–1150). El dato radiocarbónico (Cherkinsky 2014) sitúa KH0083 (=AS070=UR035, Playa Miller #6) en **1559–79 d. C.**, es decir, ya en contacto colonial.
 - **Especulativo:** el “significado” concreto (qué se contaba). No hay evidencia en los datos de este archivo que permita fijar un referente; solo se puede afirmar el **estilo local** (subsidiarias masivas y números pequeños vs. agregados grandes).

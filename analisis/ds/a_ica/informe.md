@@ -251,7 +251,7 @@ resultado estadístico y los pares publicados.
 |---|---|
 | El conjunto es un archivo administrativo costeño (blancos/marrones, sumas, sin top cords) | **apoyado con datos** |
 | Existe exceso de secuencias numéricas compartidas entre quipus (p=0.002; Holm/BH OK) | **apoyado con datos** |
-| KH0128~KH0137 (=AS114/AS123) y KH0175~KH0190 (=AS159/AS173) son cuentas paralelas | **demostrado** (se replican tramos verbatim) |
+| KH0128~KH0137 (=AS114/AS123) y KH0175~KH0190 (=AS159/AS173) son cuentas paralelas | **bien apoyado** (se replican tramos verbatim) |
 | KH0212/KH0213 (=AS194/AS195, Callango) son cuentas paralelas | **apoyado con datos** (total 120; KFG decodifica 1 cordón) |
 | Contención de totales medianos entre quipus | **apoyado con reserva** (posible artefacto de "números redondos") |
 | Jerarquía detalle→resumen con un "gran total" | **no apoyado / especulativo** |
@@ -269,7 +269,7 @@ resultado estadístico y los pares publicados.
 - **El hallazgo es una REDISCOBERTURA, y eso valida el método**: nuestro par nº1 (KH0128~KH0137)
   comparte el bloque verbatim `40-9-57-30-56-80-21-8-22-12`, que es exactamente el par
   **AS114/AS123 de Urton (2005)**; y KH0175~KH0190 = AS159/AS173 (7 valores). 2 de 4 pares
-  publicados de Urton quedan replicados. Nivel: demostrado.
+  publicados de Urton quedan replicados. Nivel: bien apoyado.
 - **Dos resultados negativos que ahorran trabajo**: (a) los "patrones de color compartidos" son
   solo runs monocromos (pasa de p=0.002 a p=0.477 al exigir ≥2 colores); (b) las "estructuras de
   grupos idénticas" son azar puro (p=1.0). Nivel: negativo.

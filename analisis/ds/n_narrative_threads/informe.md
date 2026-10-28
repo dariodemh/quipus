@@ -254,7 +254,7 @@ Ejemplos: la torsión Z es 100% en Armatambo y en el valle de Nazca, 61% en Chuq
 
 | Afirmación | Nivel | Base |
 |---|---|---|
-| El sistema decimal de posición es dominante en el corpus | **Demostrado** | 62,5% de cuerdas válidas; mediana por quipu 1,0; literatura Locke/Ascher |
+| El sistema decimal de posición es dominante en el corpus | **Bien apoyado** | 62,5% de cuerdas válidas; mediana por quipu 1,0; literatura Locke/Ascher |
 | La cuerda superior suma el grupo anterior | **Apoyado con datos (fuerte)** | 26/76 exactos vs 15,5% nulo de sumas de grupo; p=0,0002 |
 | Existe una subclase “narrativo-contable” con nudos largos 10–20, orden invertido y menor regularidad decimal | **Apoyado con datos** | 198 cuerdas en 39 quipus; en los 29 con ≥5 cuerdas evaluables, 0,659 vs 0,941; control sin las cuerdas L; p=0,0005 |
 | El color se organiza en bandas y marca la primera cuerda | **Apoyado con datos** | 0,598 vs 0,445; 66,95% vs 64,17% |
@@ -285,7 +285,7 @@ Ejemplos: la torsión Z es 100% en Armatambo y en el valle de Nazca, 61% en Chuq
 **Caen o quedan muy debilitadas:**
 - El código binario combinatorio de 7 bits por cuerda (Urton 2003): la capacidad realizada es de ~2 combinaciones, no 16; los rasgos son casi constantes por quipu.
 - La torsión como signo por cuerda: es marca de archivo/sitio.
-- El emparejamiento deliberado con unión opuesta: el patrón existe pero no supera la tasa base; lo demostrado es que los pares A/B son mitades de la misma obra.
+- El emparejamiento deliberado con unión opuesta: el patrón existe pero no supera la tasa base; lo bien apoyado es que los pares A/B son mitades de la misma obra.
 - Los grupos de 5/6/10 como principio organizador.
 - El color como codificación simple de categorías de objetos (Mackey ya lo negaba para los quipus modernos; aquí tampoco aparece un léxico universal).
 

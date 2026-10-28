@@ -92,7 +92,7 @@ Los 10 colgantes de estos grupos son **PA/TPA (loop pendants)** confirmados en O
 - **Filas:** las **24 unidades** (los 24 grupos grandes; p. ej. ayllus/comunidades o meses).
 - **Columnas:** las **~21–22 posiciones** dentro de cada grupo (una plantilla repetida). Apoyo: la regularidad posicional del color (p=0.001) y el **gradiente de valores** (p=0.001; los colgantes de la izquierda son casi siempre 0 y los de la derecha concentran las cantidades).
 - Las **loop pendants** (24) funcionarían como **encabezado/subtotal/etiqueta** de cada fila; los 10 tríos serían la "etiqueta de identidad" de esos 10 bloques.
-- Evidencia de esta parte: **propuesto** (estructura consistente; el contenido semántico de filas/columnas no está demostrado).
+- Evidencia de esta parte: **propuesto** (estructura consistente; el contenido semántico de filas/columnas no está bien apoyado).
 
 ## 6. Anomalías y lo que no encaja
 
@@ -116,7 +116,7 @@ La evidencia apunta a que buena parte del significado está en rasgos **no decim
 
 ## 9. Para el coordinador (lo más importante)
 
-- **UR006 (KH0242) = el UR6 de Urton**: KFG y OKR coinciden en 874 cuerdas; gran total 3037 ≈ 2962 de Urton, así que es el mismo registro. Nivel: **demostrado**.
+- **UR006 (KH0242) = el UR6 de Urton**: KFG y OKR coinciden en 874 cuerdas; gran total 3037 ≈ 2962 de Urton, así que es el mismo registro. Nivel: **bien apoyado**.
 - **24 grupos grandes (20–22 colgantes) + 24 loop pendants (PA/TPA)**: estructura rígida y perfectamente identificable en ambas fuentes. Explica el "24" calendárico/demográfico de Urton. Nivel: **apoyado con datos**.
 - **Los 10 conjuntos de tres términos** (p. ej. 30-65-20; 20-61-20; 11-35-20) están en las 3 últimas subsidiarias de los loop pendants: **replicado con control nulo (p=0.001)** y coincide con la lista publicada por Urton (2005). Nivel: **apoyado con datos**.
 - **Gradiente numérico por posición** dentro de cada grupo (Spearman +0.49, p=0.001): los colgantes de la izquierda son 0 y los de la derecha acumulan las cantidades → **apoya una plantilla de columnas**. Nivel: **apoyado con datos**.

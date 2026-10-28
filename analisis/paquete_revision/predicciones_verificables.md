@@ -74,7 +74,7 @@ Prioridad, de mayor a menor: 1, 2, 3, 4, 5, 6, 7. Los cuatro primeros son los m�
 **7. Relectura independiente de UR273A, UR273B y UR274A completos.**
 
 - **Predicción:** una lectura nueva, hecha sin conocer nuestras cifras, reproduce las 8 sumas exactas A+B: 2950, 1653, 1737, 1827, 1780, 2247, 1765 y 1506. También reproduce los 3 rellenos de UR274A (1278, 2020 y 2106).
-- **Confirma:** que se mantengan 7 de las 8 o más. **Refuta:** que se rompan 3 o más. En ese caso H1, que hoy está apoyada y no demostrada, cae.
+- **Confirma:** que se mantengan 7 de las 8 o más. **Refuta:** que se rompan 3 o más. En ese caso H1, que hoy está apoyada y no bien apoyada, cae.
 - *Detalle técnico:* conviene registrar también los separadores rosados. Nuestra alineación depende de que caigan en los mismos grupos (10, 14, 16, 23 y 27) en las dos mitades.
 
 **8. Tres discrepancias que NO son errores de un solo nudo.**

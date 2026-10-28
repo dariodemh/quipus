@@ -1,0 +1,338 @@
+# Ficha de lectura: UR278
+
+## Resumen físico
+
+- [DATO] 322 cuerdas (298 colgantes, 24 subsidiarias) en 37 grupos; 64 rotas, 30 sin nudos.  
+  _fuente: analisis/datos/cuerdas.csv_
+- [BIEN APOYADO] Color normalizado sin rangos en cm. Los nombres de color dependen del transcriptor (UR1107 = UR237: 0 de 23 etiquetas iguales); comparar colores solo dentro del mismo transcriptor.  
+  _fuente: analisis/24_color_formato/informe.md_
+
+<details><summary>datos</summary>
+
+```
+{
+ "cuerdas": 322,
+ "colgantes": 298,
+ "subsidiarias": 24,
+ "niveles": {
+  "0": 298,
+  "1": 15,
+  "2": 9
+ },
+ "grupos": 37,
+ "cuerdas_por_grupo": {
+  "min": 1,
+  "mediana": 9.0,
+  "max": 12,
+  "modal": 9
+ },
+ "colores_distintos": 8,
+ "colores": {
+  "W": 138,
+  "AB": 122,
+  "NB": 47,
+  "MB": 7,
+  "W:AB": 3,
+  "W:MB": 2,
+  "W:NB": 2,
+  "PK": 1
+ },
+ "torsion": {
+  "S": 322
+ },
+ "valores": {
+  "min": 2,
+  "mediana": 214.0,
+  "max": 1918,
+  "suma_colgantes": 68403
+ },
+ "rotas": 64,
+ "sin_nudos": 30,
+ "union_superior_T": 0,
+ "okr": "KH0517",
+ "museo": "Proyecto Incahuasi",
+ "procedencia": "Incahuasi",
+ "marcadoras_OKR": 1
+}
+```
+</details>
+
+## Gramática numérica
+
+- [DATO] Decimal NO estándar: 23% de las cuerdas anudadas violan la gramática decimal (lugar repetido o cifra >9 en un lugar).  
+  _fuente: analisis/28_atlas_generos/01_matriz.py (no_decimal)_
+- [DATO] 11 cuerdas con varias unidades en el lugar de las unidades que suman >9 (notación aditiva o tally: clase aparte, 915 cuerdas en 76 quipus del corpus).  
+  _fuente: analisis/ds/n_nudos_imposibles/informe.md_
+
+<details><summary>datos</summary>
+
+```
+{
+ "cuerdas_anudadas": 292,
+ "frac_no_decimal": 0.22602739726027396,
+ "tipos_de_nudo": {
+  "S": 505,
+  "L": 251,
+  "E": 125
+ },
+ "cuerdas_aditivas": 11,
+ "L_10_o_mas_KFG": 0,
+ "L_ambiguos_KFG": 0,
+ "L_10_o_mas_OKR": 0,
+ "frac_torsion_Z": 0.0
+}
+```
+</details>
+
+## Sumas internas
+
+
+<details><summary>datos</summary>
+
+```
+{
+ "pruebas": {
+  "R1 colgante=Σsubsidiarias": {
+   "obs": 0,
+   "esperado": 0.001001001001001001,
+   "p": 1.0
+  },
+  "F colgante=Σ vecinos": {
+   "obs": 0,
+   "esperado": 0.6416416416416416,
+   "p": 1.0
+  },
+  "A total de grupo(s) adyacentes": {
+   "obs": 0,
+   "esperado": 0.06906906906906907,
+   "p": 1.0
+  },
+  "TA cuerda superior=Σ grupos": {
+   "obs": 0,
+   "esperado": 0.0,
+   "p": 1.0
+  }
+ },
+ "ejemplos": [],
+ "n_ejemplos": 0
+}
+```
+</details>
+
+## Encabezados y formato por color
+
+- [APOYADO] El color marca el grupo (NMI 0.44 frente a 0.08 del nulo; p=0.005).  
+  _fuente: analisis/24_color_formato/p3_transcriptor.py_
+
+<details><summary>datos</summary>
+
+```
+{
+ "max_primer": {
+  "grupos": 31,
+  "obs": 9,
+  "esperado": 3.6,
+  "p": 0.006527302069117062
+ },
+ "max_último": {
+  "grupos": 31,
+  "obs": 0,
+  "esperado": 3.6,
+  "p": 0.9999999999999988
+ },
+ "color_grupo": {
+  "NMI": 0.44,
+  "NMI_nulo": 0.082,
+  "p": 0.005
+ },
+ "color_posicion": {
+  "k": 9,
+  "grupos": 26,
+  "NMI": 0.007,
+  "NMI_nulo": 0.033,
+  "p": 1.0,
+  "columnas": {
+   "1": [
+    "AB",
+    0.46
+   ],
+   "2": [
+    "AB",
+    0.46
+   ],
+   "3": [
+    "AB",
+    0.46
+   ],
+   "4": [
+    "AB",
+    0.54
+   ],
+   "5": [
+    "AB",
+    0.46
+   ],
+   "6": [
+    "AB",
+    0.46
+   ],
+   "7": [
+    "AB",
+    0.42
+   ],
+   "8": [
+    "AB",
+    0.42
+   ],
+   "9": [
+    "AB",
+    0.42
+   ]
+  }
+ }
+}
+```
+</details>
+
+## Formato Nazca/Berlín (encabezado de campos + par marcador)
+
+
+<details><summary>datos</summary>
+
+```
+{
+ "barrido": []
+}
+```
+</details>
+
+## Formulario con clave de reparto
+
+- [PROPUESTO] Formulario posicional: bloques que repiten la clave P9 con reparto 0.14/0.14/0.10/0.11/0.11/0.13/0.11/0.08/0.09 (p perm=0.0022; q BH=0.0073; Holm=0.587).  
+  _fuente: analisis/22_formularios/quipus_detector.csv_
+
+<details><summary>datos</summary>
+
+```
+{
+ "Q": "posicional",
+ "fam": "P",
+ "clave": "P9",
+ "cuotas": "0.14/0.14/0.10/0.11/0.11/0.13/0.11/0.08/0.09",
+ "p_q": 0.0022388059701492,
+ "q_bh": 0.0073199221284879,
+ "holm": 0.5865671641791045,
+ "calculo": "publicado"
+}
+```
+</details>
+
+## Relaciones con otros quipus del corpus
+
+- [PROPUESTO] totales en orden: totales de grupo de UR278 reaparecen en orden entre las cuerdas de UR266 (55 bits) (p=4.0e-10; q BH en esta consulta=0.000).  
+  _fuente: lector (recalculado): analisis/04_concordancias/concordancias.py; analisis/ds/n_cuota_entrega/03_relaciones.py_
+- [PROPUESTO] totales en orden: totales de grupo de UR278 reaparecen en orden entre las cuerdas de UR275 (32 bits) (p=1.4e-06; q BH en esta consulta=0.001).  
+  _fuente: lector (recalculado): analisis/04_concordancias/concordancias.py; analisis/ds/n_cuota_entrega/03_relaciones.py_
+- [PROPUESTO] celda = P + S1: 5 grupos de UR270 (colgante + 1.ª subsidiaria) coinciden con filas de UR278 en >=2/3 de las columnas; con solo P: 0 (p=5.0e-05; q BH en esta consulta=0.013).  
+  _fuente: lector (recalculado): analisis/04_concordancias/concordancias.py; analisis/ds/n_cuota_entrega/03_relaciones.py_
+- [BIEN APOYADO] UR270 → UR278: cada celda de UR278 = colgante + 1.ª subsidiaria de UR270 (5 grupos con >=6/9; solo P: 0; p=0,0002) [documentada]  
+  _fuente: analisis/ds/n_cuota_entrega/relaciones.csv; analisis/13_sistema_incahuasi/; analisis/16_verificacion_incahuasi/_
+- [BIEN APOYADO] UR278 → UR266: totales de fila reaparecen en orden (11 exactos; q=1e-8, q de orden=7e-4) [documentada]  
+  _fuente: analisis/04_concordancias/resultados/pares_resumen_todos.csv.gz; analisis/29_lectura_incahuasi/coherencia.py_
+- [APOYADO] UR278 → UR275: totales de fila reaparecen en orden como cabeceras (7) [documentada]  
+  _fuente: analisis/29_lectura_incahuasi/coherencia.py; analisis/13_sistema_incahuasi/grafo_quipus.csv_
+- [APOYADO] UR278 → UR266/UR275: desajustes detalle → libro: de las 26 filas de UR278, 18 tienen destino; 11 son exactas y 7 desajustes (libro − detalle: +6, +100, +1, −1, +1, −1, −1). Sin dirección (4+/3−, p=1,0); 6 de 7 en las unidades (p=0,007). Error de conteo de vueltas en nudos largos, no convención. La fila g29 (1507) apunta a UR266 g2, destino ya de g1: revisar si es duplicado [documentada]  
+  _fuente: analisis/34_comparada/desajustes.py; analisis/SINTESIS.md_
+
+<details><summary>datos</summary>
+
+```
+{
+ "detectadas": [
+  {
+   "tipo": "totales en orden",
+   "origen": "UR278",
+   "destino": "UR266",
+   "con": "UR266",
+   "detalle": "totales de grupo de UR278 reaparecen en orden entre las cuerdas de UR266 (55 bits)",
+   "p": 4.0290051265752004e-10,
+   "q": 4.528601762270525e-07
+  },
+  {
+   "tipo": "totales en orden",
+   "origen": "UR278",
+   "destino": "UR275",
+   "con": "UR275",
+   "detalle": "totales de grupo de UR278 reaparecen en orden entre las cuerdas de UR275 (32 bits)",
+   "p": 1.4462516518535128e-06,
+   "q": 0.0008127934283416742
+  },
+  {
+   "tipo": "celda = P + S1",
+   "origen": "UR270",
+   "destino": "UR278",
+   "con": "UR270",
+   "detalle": "5 grupos de UR270 (colgante + 1.ª subsidiaria) coinciden con filas de UR278 en >=2/3 de las columnas; con solo P: 0",
+   "p": 4.999750012499375e-05,
+   "q": 0.013399330033498325
+  }
+ ]
+}
+```
+</details>
+
+## Alternancia de dos colores (tabla de dos columnas intercalada)
+
+
+<details><summary>datos</summary>
+
+```
+{
+ "evaluado": true,
+ "desfase": 6,
+ "estadistico": 0.0138,
+ "posiciones_alternas": 5,
+ "colgantes": 298,
+ "colores": 5
+}
+```
+</details>
+
+## Totales por columna entre bloques (tabla jerárquica)
+
+
+<details><summary>datos</summary>
+
+```
+{
+ "bloque": 9,
+ "bloques": 33,
+ "significativos": [],
+ "candidatos": 1922
+}
+```
+</details>
+
+## Género del atlas
+
+- [APOYADO] Género: Archivo jerarquico con relaciones entre quipus (Incahuasi, Puruchuco) (ARC), confianza alta. relacion numerica con otros quipus bien apoyada (13/04/n_puruchuco_pacha) | tambien: FOR(baja); SEG(baja) | calidad: 322 cuerdas, 20% rotas, transcriptor UR  
+  _fuente: analisis/28_atlas_generos/atlas.csv; analisis/28_atlas_generos/reglas.py_
+- [PROPUESTO] Predicción comprobable: Sus totales reaparecen, en orden, como cabeceras de UR266/UR275/UR269; cuota fija restada c (47, 25, 15, 10). Prediccion abierta (13): en los 5 quipus de Inkawasi no estudiados por Urton habra parejas con cuotas que sumen 46 o 44.  
+  _fuente: analisis/28_atlas_generos/atlas.csv; analisis/28_atlas_generos/reglas.py_
+
+<details><summary>datos</summary>
+
+```
+{
+ "genero": "ARC",
+ "nombre": "Archivo jerarquico con relaciones entre quipus (Incahuasi, Puruchuco)",
+ "confianza": "alta",
+ "evidencia": "relacion numerica con otros quipus bien apoyada (13/04/n_puruchuco_pacha) | tambien: FOR(baja); SEG(baja) | calidad: 322 cuerdas, 20% rotas, transcriptor UR",
+ "prediccion": "Sus totales reaparecen, en orden, como cabeceras de UR266/UR275/UR269; cuota fija restada c (47, 25, 15, 10). Prediccion abierta (13): en los 5 quipus de Inkawasi no estudiados por Urton habra parejas con cuotas que sumen 46 o 44.",
+ "estabilidad": 1.0,
+ "reglas_reproducen": true,
+ "calculo": "atlas publicado"
+}
+```
+</details>
+

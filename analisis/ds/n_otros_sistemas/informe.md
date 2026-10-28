@@ -141,7 +141,7 @@ El efecto existe, pero **desaparece al quitar Incahuasi**: ninguno de los 11 qui
 
 ### 3.6 Tasas de error: solo el quipu tiene una medición propia
 
-- **Quipu**: entre copias, 86,6 % de valores exactos (13,4 % de divergencia); la relectura del mismo objeto da 93,0 % (7 % de ruido de transcripción). La diferencia 86,6 vs 93,0 **no es significativa** (p = 0,21, `14_copias`): el “6,4 % neto” es una estimación, no un efecto demostrado. KFG vs OKR: 0,63 % de discrepancias de **transcripción**, la mitad por factor 10 (`t_okr_vs_kfg`). Es la única tasa construida con denominador y control, y aun así es pequeña y ruidosa.
+- **Quipu**: entre copias, 86,6 % de valores exactos (13,4 % de divergencia); la relectura del mismo objeto da 93,0 % (7 % de ruido de transcripción). La diferencia 86,6 vs 93,0 **no es significativa** (p = 0,21, `14_copias`): el “6,4 % neto” es una estimación, no un efecto bien apoyado. KFG vs OKR: 0,63 % de discrepancias de **transcripción**, la mitad por factor 10 (`t_okr_vs_kfg`). Es la única tasa construida con denominador y control, y aun así es pequeña y ruidosa.
 - **Exchequer**: no hay tasa publicada. El diseño (tally partido, ajuste de *stock* y *foil*, *pipe roll* duplicado) es un mecanismo **anti-fraude**, no una medida de error. La literatura describe fraudes y auditorías, no “n de muescas erróneas / n de tallys”.
 - **Uruk**: hay errores y correcciones de escriba, y totales al reverso, pero no un denominador de corpus. La consolidación está documentada; la exactitud no está cuantificada.
 - **Warazan**: sin tasa. La afirmación de que era “suficientemente exacto para corregir anuncios oficiales” es cualitativa y secundaria.
@@ -154,7 +154,7 @@ El efecto existe, pero **desaparece al quitar Incahuasi**: ninguno de los 11 qui
 
 | Prueba | Nulo | p | Corrección | Veredicto |
 |---|---|---|---|---|
-| 8/18 sumas A+B | permutar B entre los 18 registros | 5·10⁻⁵ | no (prueba dirigida única); se reportan tres nulos (0,73–1,27 esperados) | **Demostrado** (replicado por 16 y el coordinador) |
+| 8/18 sumas A+B | permutar B entre los 18 registros | 5·10⁻⁵ | no (prueba dirigida única); se reportan tres nulos (0,73–1,27 esperados) | **Bien apoyado** (replicado por 16 y el coordinador) |
 | 8/18 como “tasa” | el mismo, expresado como lift | — | — | **No comparable** con tasas brutas de otros sistemas |
 | Grupos de ancho 9 en tabulares | permutar la etiqueta “tabular” entre quipus | 0,080 | Holm con la ratio 9/vecinos → 0,16 | **Negativo** |
 | Copias × contabilidad (20) | Fisher exacta | 0,00042 | Holm (3 pruebas) → 0,0013 | **Apoyado, pero confundido con el archivo** |
@@ -214,7 +214,7 @@ No hay corrección múltiple en las pruebas dirigidas de Incahuasi (una sola hip
 - **8/18 no es una tasa de error ni una tasa comparable.** Es 44 % frente a 5,3 % de su nulo (lift 8,4×; p=5·10⁻⁵; los nulos publicados dan 6,3–11×). En un ledger sexagesimal redondo el azar solo da **35 %**; en enteros densos, 1 %. Sin denominador y sin nulo, las “tasas” de Uruk y del Exchequer no se pueden comparar.
 - **La cadena de Incahuasi tiene paralelos parciales, no un equivalente.** Uruk consolida documento primario → cuenta secundaria (2 niveles, MSVO 1, 212–214) y el Exchequer tally → pipe roll → duplicado (2–3 niveles, con copia partida). Nadie tiene 4 niveles con doble vía independiente.
 - **El “9” no es universal.** 3,13 % de los grupos del corpus, ratio 0,97 frente a los vecinos; K=9 en 15/177 tabulares (mediana 6; p=0,08, Holm 0,16). UR278 es local; Collata tiene 9 grupos en un khipu **narrativo**. El 9 de Monte Sierpe es una racha de filas (p=0,32), no una partición.
-- **Monte Sierpe no publica censo por bloque.** 5 200 hoyos / ≥60 secciones = 86,7; solo hay tres secciones descritas (72, 50, 104); ninguna coincide con las cuotas, y la probabilidad de que al menos una coincidiera por azar es 0,17; el OSM solo añade la serie diagonal 1,3,5,…,14,…,1. La analogía con Inkawasi es **propuesta**, no demostrada.
+- **Monte Sierpe no publica censo por bloque.** 5 200 hoyos / ≥60 secciones = 86,7; solo hay tres secciones descritas (72, 50, 104); ninguna coincide con las cuotas, y la probabilidad de que al menos una coincidiera por azar es 0,17; el OSM solo añade la serie diagonal 1,3,5,…,14,…,1. La analogía con Inkawasi es **propuesta**, no bien apoyada.
 - **Las copias son un efecto de archivo.** 7/20 quipus contables vs 44/631 (OR 7,2; p=0,0004), pero **0/11** fuera de Incahuasi (p=1). Pachacamac tiene 7 copias y 0 contabilidad verificable; Paracas 0 copias y 2 contables. Con n=1 archivo, no es una ley de la contabilidad.
 - **El warazan es el paralelo más cercano y el más incómodo.** Escala decimal de unidades (*koku–to–sho–go–shaku–sai*), cuotas por hogar, lazo = 50 *koku*, separadores (lazo = cruce), grosor para evitar errores. Pero no es un place-value puro y no tiene árbol de cuerdas ni consolidación. El decimal anudado **no es exclusivamente andino**.
 - **Uruk y Exchequer aportan el contraste clave.** Uruk usa **5 sistemas específicos del objeto** (no un decimal abstracto) y *bullae* como doble registro; el Exchequer usa £sd no decimal y un tally partido anti-fraude. Ambos tienen consolidación; ninguno publica tasa de error.
@@ -223,7 +223,7 @@ No hay corrección múltiple en las pruebas dirigidas de Incahuasi (una sola hip
 
 ## 9. Niveles de evidencia
 
-- **Demostrado:** la aritmética de la cadena de Incahuasi (A+B, cuota suma, UR270→UR278, UR278→UR266/275), replicada por tres vías; el **exceso** de 8/18 sobre su nulo (no la tasa bruta); la distribución del ancho 9 en el corpus; la estructura decimal del warazan y la estructura por denominaciones del tally (documental); la consolidación proto-cuneiforme (Englund 2004).
+- **Bien apoyado:** la aritmética de la cadena de Incahuasi (A+B, cuota suma, UR270→UR278, UR278→UR266/275), replicada por tres vías; el **exceso** de 8/18 sobre su nulo (no la tasa bruta); la distribución del ancho 9 en el corpus; la estructura decimal del warazan y la estructura por denominaciones del tally (documental); la consolidación proto-cuneiforme (Englund 2004).
 - **Apoyado con datos:** la ausencia de un paralelo completo de la cadena (búsqueda exhaustiva de 13/18 y esta comparación); el efecto de copia confundido con Incahuasi; la no-comparabilidad de tasas brutas (simulación); la lectura de Monte Sierpe como contador unario (no como libro).
 - **Propuesto:** la lista de rasgos universales (inferencia sobre 7 casos); la cuota como deducción/tasa; el warazan como tecnología emparentada por convergencia, no por contacto; el 9 de Collata como agrupación narrativa.
 - **Especulativo:** cualquier transmisión histórica entre warazan y quipu; Monte Sierpe como “eslabón perdido” de la contabilidad andina; UR268 como nivel de periodo; el 9 como principio cosmológico compartido.

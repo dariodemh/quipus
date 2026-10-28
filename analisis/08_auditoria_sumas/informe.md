@@ -163,7 +163,7 @@ La asimetría **sobrevive**, pero **la mitad se explica por la posición de las 
 
 ## 8. Dictamen y niveles de evidencia
 
-**Demostrado:**
+**Bien apoyado:**
 - el 74 % (≥1 relación de Ascher de cualquier tipo y a cualquier distancia) **no es evidencia de contabilidad**;
 - con la definición exacta del KFG, el 93–100 % de las relaciones y casi toda la prevalencia (69,0 % frente a 66–68 %) son tasa base;
 - el estadístico carece de potencia (24 % aun con sumas en todos los grupos);
@@ -171,7 +171,7 @@ La asimetría **sobrevive**, pero **la mitad se explica por la posición de las 
 
 En ese sentido, el 74 % **es un artefacto de la métrica**: no es un error de cálculo, sino un uso sin tasa base. Los propios autores admiten que sus pseudoquipus producen recuentos parecidos.
 
-**Demostrado:**
+**Bien apoyado:**
 - existe un exceso real de **sumas locales caras**: adyacentes ≥100, 200 frente a ~85 (2,4×); coste <0,001, 13 frente a 0,3;
 - ese exceso se concentra en 14 quipus robustos a dos nulos, la mitad de Incahuasi.
 
@@ -179,7 +179,7 @@ En ese sentido, el 74 % **es un artefacto de la métrica**: no es un error de c�
 - la contabilidad interna verificable alcanza a **≈3 % del corpus** (20 quipus, unión con las cuerdas superiores y cierres del 01);
 - la prevalencia corregida por potencia está en **≈2–11 %** (central 4–7 %) para sumas locales.
 
-**No demostrado:** sumas indexadas, por color, en cadena y subsidiarias como fenómeno de corpus. Ninguna supera los nulos de magnitud o de columna.
+**No bien apoyado:** sumas indexadas, por color, en cadena y subsidiarias como fenómeno de corpus. Ninguna supera los nulos de magnitud o de columna.
 
 **Veredicto sobre el 01:**
 - **Correcto en la conclusión** y en las cifras de detección y de potencia.

@@ -17,7 +17,7 @@
 3. **Nulo explícito en cada prueba de correspondencia.** T1 (4+5), T3 (gradiente) y T1b (cortes) permutan etiquetas de columna *dentro de cada registro* de UR278, preservando el total de la fila y la estructura de los 28 registros. T2 (3×3) es una F anidada sobre log-proporciones que compara el modelo de 3 bloques con el de 9 columnas libres. Es una prueba interna al libro, no una prueba poblacional entre quipus; UR270 se usa solo como réplica descriptiva (6 filas completas, 5 de 7 registros repetidos, no independiente).
 4. **Corrección múltiple.** Holm para T1–T3 (4+5, 3×3, gradiente). Holm separado para los 8 puntos de corte contiguos. Se declara cuando algo no sobrevive.
 5. **Control de apofenia.** Se contaron 13 conteos arquitectónicos independientes y se preguntó cuántos son múltiplos de 9, 7, 5, 6, etc., comparando con un nulo binomial y Monte Carlo uniforme 1–250. Es un control de escepticismo, no una prueba de intención.
-6. **Etiquetas:** demostrado / apoyado con datos / propuesto / especulativo. La aritmética de capacidad se marca como cálculo con supuestos, no como test.
+6. **Etiquetas:** bien apoyado / apoyado con datos / propuesto / especulativo. La aritmética de capacidad se marca como cálculo con supuestos, no como test.
 
 ## 3. Sectores, cuartos y volumen
 
@@ -65,7 +65,7 @@ Consecuencia: **6.400 m³ es un suelo, no un valor central**. Los escenarios que
 
 El rango de `n_almacenes` (5.000–14.000 m³) no es absurdo, pero su **6.400 central es el piso de A**, y su techo de 14.000 no es el techo real (16.200 si A2 y G cuentan). La consecuencia para la unidad: la cota inferior de masa unitaria de `n_almacenes` (3,4–10,4 kg) baja a **≈2,6–8,0 kg con 8.300 m³**, **≈2,0–6,1 kg con 10.900 m³** y **≈1,3–4,1 kg con 16.200 m³** (en todo el rango, 1,3–8,0 kg). Las raciones de 0,7 kg/día siguen por debajo, pero ya no por un factor 10, sino por **2–11**. La conclusión principal de `n_almacenes` —la unidad es un **volumen** (saco de 30–55 L), no una masa fija— no se ve afectada; es más, el grid de 23 × 23 cm y los paneles de 3 × 39 cuadros apuntan a una unidad volumétrica/área estandarizada.
 
-**Nivel:** la incompatibilidad geométrica de la descomposición de `n_almacenes` es **demostrado** (aritmética con las medidas de Hyslop). Que el total real sea 8.300–13.000 es **propuesto** (depende de si A2 y G son almacén). Que 6.400 sea el piso de A es **apoyado con datos**.
+**Nivel:** la incompatibilidad geométrica de la descomposición de `n_almacenes` es **bien apoyado** (aritmética con las medidas de Hyslop). Que el total real sea 8.300–13.000 es **propuesto** (depende de si A2 y G son almacén). Que 6.400 sea el piso de A es **apoyado con datos**.
 
 ## 4. ¿Hay un Inkawasi de 9 partes?
 
@@ -79,7 +79,7 @@ Hyslop propone un sitio dividido en **dos mitades (hanan/hurin)** y **cuatro suy
 
 **Las alineaciones astronómicas no añaden un 9.** El corredor central de Sector A y su plataforma tienen una orientación de **155°08'** y apuntan al paso más bajo del horizonte, donde Hyslop sitúa el ascenso de la Vía Láctea y de las constelaciones llama/yutu; la misma orientación se prolonga en los muros de los bins y en Sector B (1985:62–63). El edificio principal de E se alinea con el ocaso cenital; la plaza trapezoidal de C con el ascenso de las Pléyades (67°53'); el corredor de F con 154°30'. Son ejes de una línea, no una retícula de 9. El corredor de 155°08' es el eje central de Sector A; la pila de 7 quipus apareció en el corredor norte **U.A. 3**, que corta ese eje en ángulo recto. El archivo está en la zona de recepción norte, no en un sector 9.
 
-**Nivel:** la división en 2 + 4 y la asignación de 14 unidades a Kunti Suyu son **demostrado** (texto explícito). Que el sitio *no* tenga una división en 9 es **apoyado con datos** (Hyslop no la propone y su modelo la excluye).
+**Nivel:** la división en 2 + 4 y la asignación de 14 unidades a Kunti Suyu son **bien apoyado** (texto explícito). Que el sitio *no* tenga una división en 9 es **apoyado con datos** (Hyslop no la propone y su modelo la excluye).
 
 ### 4.2 Los 9 que sí existen en la arquitectura
 
@@ -100,7 +100,7 @@ Hyslop propone un sitio dividido en **dos mitades (hanan/hurin)** y **cuatro suy
 
 **El control de ubicuidad.** Si se toman 13 conteos independientes (4 kallankas, 2 secaderos, 18 cámaras/lado, 209 bins, 96 cubículos, 9 cuartos E2, 63 G, 30 recintos, 14 unidades F, 7 H, 25 C, 120 B, 120 D), **3 son múltiplos de 9** (18, 9, 63), frente a **1,44 esperados**; p binomial = **0,169**, p Monte Carlo = **0,158** (`control_multiplos.csv`). No hay exceso. Más aún: los múltiplos de **6** dan p = 0,051 (18, 96, 30, 120, 120) y los de **12** p = 0,088 (96, 120, 120), mejores que el 9. El 5 da p = 0,253. Es decir: con este método, **el 9 no es el número más “especial” del sitio**; el 6/12 lo es más. Es exactamente lo que se espera de un edificio con muchos conteos redondos.
 
-**Nivel:** que 36, 18 y 63 sean múltiplos de 9 es **demostrado** (aritmética). Que eso indique una intención simbólica de 9 partes es **especulativo** y el control lo debilita (p = 0,17).
+**Nivel:** que 36, 18 y 63 sean múltiplos de 9 es **bien apoyado** (aritmética). Que eso indique una intención simbólica de 9 partes es **especulativo** y el control lo debilita (p = 0,17).
 
 ### 4.3 Las pruebas contra las correspondencias concretas
 
@@ -132,7 +132,7 @@ Esto refuta la versión fuerte de “las 9 partes = 9 sectores/9 depósitos del 
 
 - **Urton & Chu 2015:519, 521:** “14 samples were found in the southwest corner of kallanka **U.A. 4** covered with peanuts”; “Both are from a group of 14 khipus found in kallanka **U.A. 4** covered with peanuts” (UR266 y UR268). Es la fuente que pide la tarea.
 - **Apéndice I de 2015:** lista 15 quipus en U.A. 4: los 14 del maní (UR266, 268, 269, 270, 272, 273A, 273B, 274A, 274B, 275, 276, 277, 278, 279) **más UR271**, con frijol negro, en la misma sala. U.A. 2 tiene 5 (UR262–265, 280); U.A. 7 tiene 2 (UR267A/B); el corredor tiene 7 (UR255–261).
-- **Urton 2017:** la narrativa dice **U.A. 05** dos veces (p. 159 y p. 162: “catorce muestras... en la esquina suroeste de la kallanka U.A. 05”), pero el apéndice y otro pasaje de la misma obra (p. 163) dicen **U.A. 04** (“in the corner of excavation unit U.A. 04”). Es la inconsistencia que ya había marcado `n_almacenes` (N4). El peso de la evidencia —2015 artículo + 2015 apéndice + apéndice de 2017— favorece **U.A. 4**; el “05” parece un desliz sistemático de la narrativa de 2017. **Nivel: apoyado con datos, no demostrado**, porque no hay acceso a las notas de campo de Chu.
+- **Urton 2017:** la narrativa dice **U.A. 05** dos veces (p. 159 y p. 162: “catorce muestras... en la esquina suroeste de la kallanka U.A. 05”), pero el apéndice y otro pasaje de la misma obra (p. 163) dicen **U.A. 04** (“in the corner of excavation unit U.A. 04”). Es la inconsistencia que ya había marcado `n_almacenes` (N4). El peso de la evidencia —2015 artículo + 2015 apéndice + apéndice de 2017— favorece **U.A. 4**; el “05” parece un desliz sistemático de la narrativa de 2017. **Nivel: apoyado con datos, no bien apoyado**, porque no hay acceso a las notas de campo de Chu.
 
 ### 5.2 Cuál es, en el plano de Hyslop
 
@@ -214,12 +214,12 @@ Lo que **no** apoyan los datos: que las 9 columnas sean “9 cuadrillas” de un
 
 | Afirmación | Nivel |
 |---|---|
-| Sector A es un almacén de 110 × 110 m con 202–250 bins de 3,5–4,5 m y 6.400 m³ | **demostrado** |
-| A2 tiene 36 cámaras = 18 por lado = 9 exteriores + 9 interiores | **demostrado** (Urton & Chu 2015) |
+| Sector A es un almacén de 110 × 110 m con 202–250 bins de 3,5–4,5 m y 6.400 m³ | **bien apoyado** |
+| A2 tiene 36 cámaras = 18 por lado = 9 exteriores + 9 interiores | **bien apoyado** (Urton & Chu 2015) |
 | 6.400 m³ es consistente con 209 bins de ~30,6 m³ y es un **piso**, no la suma de 36 cámaras + 209 colcas de 2×2 m | **apoyado con datos** (geometría) |
 | El total del sitio es 8.300–13.000 m³ (central) y hasta 16.200 | **propuesto** |
-| El sitio se divide en 2 mitades + 4 suyus, no en 9 | **demostrado** (Hyslop) |
-| E2 tiene 9 cuartos = 4+5, alineados con el ushnu | **demostrado** (Hyslop); intención simbólica: **propuesto** |
+| El sitio se divide en 2 mitades + 4 suyus, no en 9 | **bien apoyado** (Hyslop) |
+| E2 tiene 9 cuartos = 4+5, alineados con el ushnu | **bien apoyado** (Hyslop); intención simbólica: **propuesto** |
 | Las 9 columnas no corresponden a 4+5 ni a un gradiente; el 3×3 contiguo se rechaza | **apoyado con datos** (4+5 p = 0,27; gradiente Holm 0,061; 3×3 p < 10⁻⁵) |
 | UR270 y UR278, los dos libros de 9 partes, están en U.A. 4 | **apoyado con datos** (2015 + apéndice; 2017 inconsistente) |
 | U.A. 4 es una kallanka del norte de A1, junto al corredor U.A. 3 | **propuesto** (posicional; falta plano) |

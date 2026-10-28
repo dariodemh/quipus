@@ -67,15 +67,15 @@ La tabla completa, con nivel de evidencia por fila, está en `tabla_afirmaciones
 
 Tres bloques resisten bien:
 
-1. **Los nudos largos y la figura de ocho.** 54,1/45,9 y 27,1/72,9 en KFG; 52,4/47,6 y 27,2/72,8 en OKR, frente a 53/47 y 30/70. Son diferencias de 1-3 puntos, con decenas de miles de nudos. **Demostrado.**
-2. **La estructura de los patrones por quipu.** 26,9% todo-Z y 10,3% todo-S (KFG) frente a 26,5% y 9,9% (U&B); en OKR, 28,2% y 9,6%. Los cocientes todo-Z/todo-S son 2,6-2,9. El denominador crece 1,39×, casi exactamente lo que creció el corpus (1,44×). **Demostrado** (la estructura; no los absolutos).
+1. **Los nudos largos y la figura de ocho.** 54,1/45,9 y 27,1/72,9 en KFG; 52,4/47,6 y 27,2/72,8 en OKR, frente a 53/47 y 30/70. Son diferencias de 1-3 puntos, con decenas de miles de nudos. **Bien apoyado.**
+2. **La estructura de los patrones por quipu.** 26,9% todo-Z y 10,3% todo-S (KFG) frente a 26,5% y 9,9% (U&B); en OKR, 28,2% y 9,6%. Los cocientes todo-Z/todo-S son 2,6-2,9. El denominador crece 1,39×, casi exactamente lo que creció el corpus (1,44×). **Bien apoyado** (la estructura; no los absolutos).
 3. **Los khipus mayores y Pachacamac.** El máximo de Laguna (874 vs 870), el de Pachacamac (338 vs 338) y la proporción de Pachacamac en el corpus (15,1% vs 14,0-14,7%) coinciden. **Apoyado con datos.**
 
 ### 3.3 Lo que no se reproduce
 
 1. **Nudos simples 35% S / 65% Z.** Nuestros datos dan 26-27% S, no 35%, tanto en KFG como en OKR, con y sin ponderar, y en todos los subconjuntos razonables que probamos. La cifra 35/65 **sí** coincide con el agregado de todos los tipos: 35.363 S / 66.169 Z = **34,8% S** en `khipu_summary.csv` (33,0% S en nuestro parseo directo; la diferencia es de notación/cobertura, no de dirección). La explicación más parsimoniosa es que la etiqueta "simples" esté mal puesta y que 35/65 sea el agregado de todos los nudos. No podemos descartar que el subcorpus de 2009 tuviera otra composición, pero el hecho de que largos y figura de ocho sí coincidan hace menos probable un simple cambio de corpus.
 2. **54% de camélido entre los cordeles Z.** En OKR, entre los cordeles Z con fibra conocida, solo 16% es camélido (495 CL + 21 W) y 83% algodón. El absoluto de camélido Z (495) es parecido al implícito en 2009 (54% de 1.012 = 546); lo que creció fue el algodón Z (2.497 vs ~334). **Refutado para el corpus actual.**
-3. **Pachacamac como máximo absoluto de Z.** Es uno de los archivos altos, pero Puruchuco (97,5% Z en simples) y Santa (83,4%) lo superan; las diferencias no son significativas. Solo frente a Ica hay una diferencia marginal (p=0,055 en simples). **La refutación en simples depende de la reasignación de Puruchuco:** sin esos 24 quipus, Pachacamac es el máximo en simples (92,4% vs Santa 83,4%), aunque en todos los tipos Santa sigue por delante (81,3% vs 76,0%). En ningún caso las diferencias son significativas. **Parcialmente apoyado, no demostrado.**
+3. **Pachacamac como máximo absoluto de Z.** Es uno de los archivos altos, pero Puruchuco (97,5% Z en simples) y Santa (83,4%) lo superan; las diferencias no son significativas. Solo frente a Ica hay una diferencia marginal (p=0,055 en simples). **La refutación en simples depende de la reasignación de Puruchuco:** sin esos 24 quipus, Pachacamac es el máximo en simples (92,4% vs Santa 83,4%), aunque en todos los tipos Santa sigue por delante (81,3% vs 76,0%). En ningún caso las diferencias son significativas. **Parcialmente apoyado, no bien apoyado.**
 4. **Los absolutos 222/451, 68, 38.381/38.831, 70.660, 51.178, 26.279 y 1.012.** No son reproducibles porque el corpus cambió de tamaño. Lo que se conserva son las **proporciones**, no los conteos.
 
 ### 3.4 Por qué difieren: corpus, U desconocidas y criterios
@@ -203,9 +203,9 @@ La afirmación "Pachacamac tiene el mayor porcentaje de nudos en Z de todos los 
 
 | Conclusión | Nivel |
 |---|---|
-| Los nudos largos son ~53/47 S/Z y la figura de ocho ~28/72 | **Demostrado** (dos fuentes, decenas de miles de nudos) |
-| Los patrones todo-Z (~27%) y todo-S (~10%) por quipu se mantienen | **Demostrado** (proporciones casi idénticas; cociente 2,6-2,9) |
-| La dirección S/Z se asocia al archivo/procedencia | **Demostrado** como asociación estadística (eta²=0,10; p<0,0001; robusto a tamaño, U, torsión, fibra, canutos y fuente) |
+| Los nudos largos son ~53/47 S/Z y la figura de ocho ~28/72 | **Bien apoyado** (dos fuentes, decenas de miles de nudos) |
+| Los patrones todo-Z (~27%) y todo-S (~10%) por quipu se mantienen | **Bien apoyado** (proporciones casi idénticas; cociente 2,6-2,9) |
+| La dirección S/Z se asocia al archivo/procedencia | **Bien apoyado** como asociación estadística (eta²=0,10; p<0,0001; robusto a tamaño, U, torsión, fibra, canutos y fuente) |
 | La asociación refleja estilos locales o tradiciones de archivo | **Propuesto** (compatible con estilo local, región o tradición de archivo; no separable de museo/collector) |
 | Pachacamac es el archivo con más Z | **Parcialmente apoyado**; no es el máximo único |
 | La dirección del nudo es un código binario semántico (Urton 2003) | **Especulativo**; este trabajo solo muestra estructura, no significado |
@@ -236,7 +236,7 @@ La afirmación "Pachacamac tiene el mayor porcentaje de nudos en Z de todos los 
 - **La dirección S/Z se asocia fuertemente al archivo, a nivel de quipu:** eta²=0,100 (IC95% 0,076-0,175), p<0,0001, 10.000 permutaciones; en simples eta²=0,168; en largos 0,132; en figura de ocho 0,121 (p=0,033). Replica en OKR (0,132).
 - **El efecto sobrevive a los controles aburridos:** tamaño, tasa de U, torsión del cordel, fibra (solo algodón), exclusión de canutos, ≥50 nudos y subconjunto de 12 archivos. Sin Arica baja a eta²=0,070 pero sigue significativo (p=0,001).
 - **Región y archivo están confundidos:** con región conocida, la región explica eta²=0,178 (p=0,008), tanto como el archivo (0,186 en los 12 archivos). El patrón es de dos polos: Arica casi todo S (0,3% Z en simples) y Pachacamac/Puruchuco casi todo Z (92-98% Z).
-- **Pachacamac no es el máximo absoluto:** Puruchuco (97,5% Z en simples) y Santa (83,4%) lo superan, sin diferencias significativas. Pachacamac sí es significativamente más Z que el resto en simples (q=0,007). La afirmación "el mayor porcentaje de Z" es parcialmente apoyada, no demostrada.
+- **Pachacamac no es el máximo absoluto:** Puruchuco (97,5% Z en simples) y Santa (83,4%) lo superan, sin diferencias significativas. Pachacamac sí es significativamente más Z que el resto en simples (q=0,007). La afirmación "el mayor porcentaje de Z" es parcialmente apoyada, no bien apoyada.
 - **La torsión del cordel no explica la dirección del nudo** (p=0,055; 0,676 vs 0,683). La fibra sí se asocia (algodón 70% Z, camélido 17% Z), pero el efecto de archivo persiste dentro del algodón. No confundir torsión del cordel con dirección del nudo.
 - **Las cifras de torsión de 2009 (96/4; 54% camélido entre los Z) ya no describen el corpus:** hoy es 93/7 y solo 16% de los cordeles Z con fibra conocida es camélido. El absoluto de camélido Z es similar; lo que creció fue el algodón Z.
 - **Recomendación:** (i) tratar 35/65 como posible errata y no como dato; (ii) usar archivo y región como factores alternativos (no excluyentes), con modelos que controlen por fibra y por documentador; (iii) buscar el significado en los pares de archivos extremos (Arica vs Pachacamac/Puruchuco), donde el contraste S/Z es casi determinista, y no en el promedio del corpus.

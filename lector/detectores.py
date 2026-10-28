@@ -5,7 +5,7 @@ va en el comentario de cada función y en la `fuente` de cada afirmación). No h
 Contrato: detector(d, ctx) -> dict(titulo, datos, afirmaciones=[dict(texto, nivel, fuente)]).
   d   = cuerdas de UN quipu (esquema de analisis/datos/cuerdas.csv, ya pasado por `preparar`).
   ctx = Contexto (corpus KFG, tablas publicadas del repo, OKR en solo lectura).
-Niveles: dato (descripción de la transcripción), demostrado, apoyado, propuesto (los de analisis/SINTESIS.md).
+Niveles: dato (descripción de la transcripción), bien apoyado, apoyado, propuesto (los de analisis/SINTESIS.md).
 """
 import importlib.util
 import math
@@ -198,7 +198,7 @@ def fisico(d, ctx):
     a = [af(f"{len(d)} cuerdas ({len(p)} colgantes, {len(s)} subsidiarias) en {datos['grupos']} grupos; "
             f"{datos['rotas']} rotas, {datos['sin_nudos']} sin nudos.", "dato", "analisis/datos/cuerdas.csv"),
          af("Color normalizado sin rangos en cm. Los nombres de color dependen del transcriptor (UR1107 = UR237: "
-            "0 de 23 etiquetas iguales); comparar colores solo dentro del mismo transcriptor.", "demostrado",
+            "0 de 23 etiquetas iguales); comparar colores solo dentro del mismo transcriptor.", "bien apoyado",
             "analisis/24_color_formato/informe.md")]
     return dict(titulo="Resumen físico", datos=datos, afirmaciones=a)
 
@@ -295,7 +295,7 @@ def gramatica(d, ctx):
     if l10amb and vr is None:
         a.append(af(f"{l10amb} cuerdas con L de valor 10, 100… : en KFG el número antes de L es el VALOR, no las "
                     "vueltas («200L» = 2 vueltas en centenas); sin OKR no se distingue 10 vueltas de valor posicional.",
-                    "demostrado", F))
+                    "bien apoyado", F))
     if frac >= .5 and fz >= .5:
         a.append(af(f"Mayoría no decimal con torsión Z ({fz:.0%}): rasgo del género aditivo/tally (OR 26 en OKR).",
                     "apoyado", "analisis/27_familia_z/ y SINTESIS.md §27_familia_z"))
@@ -372,9 +372,9 @@ def sumas(d, ctx, B=999):
         r = ctx.matriz.loc[k]
         if r.sumas_q < .05:
             a.append(af(f"Contabilidad interna verificable en el corpus: sumas locales robustas a dos nulos "
-                        f"(q={r.sumas_q:.3f}).", "demostrado", "analisis/08_auditoria_sumas/refinado.csv"))
+                        f"(q={r.sumas_q:.3f}).", "bien apoyado", "analisis/08_auditoria_sumas/refinado.csv"))
         if r.filatotal_q < .05:
-            a.append(af(f"Formato «fila + cuerda-total suelta» (q={r.filatotal_q:.4f}).", "demostrado",
+            a.append(af(f"Formato «fila + cuerda-total suelta» (q={r.filatotal_q:.4f}).", "bien apoyado",
                         "analisis/14_copias/fila_total_por_quipu.csv"))
     return dict(titulo="Sumas internas", datos=datos, afirmaciones=a)
 
@@ -513,7 +513,7 @@ def formulario(d, ctx):
                     f"{datos['cuotas']} (p perm={datos['p_q']:.4f}"
                     + (f"; q BH={datos['q_bh']:.4f}; Holm={datos['holm']:.3f}" if datos["q_bh"] is not None else "")
                     + ").", "apoyado" if fuerte else "propuesto", F))
-    if k in ctx.matriz.index and ctx.matriz.loc[k, "form_archivo"] == "demostrado-local":
+    if k in ctx.matriz.index and ctx.matriz.loc[k, "form_archivo"] == "bien apoyado-local":
         a.append(af("Clave de reparto compartida por los quipus de su archivo (formulario local).", "apoyado",
                     "analisis/22_formularios/formularios.csv; analisis/26_clave_local/"))
     return dict(titulo="Formulario con clave de reparto", datos=datos, afirmaciones=a)
@@ -676,7 +676,7 @@ def relaciones(d, ctx, B=199):
     doc = [r for r in RELACIONES_DOC if k in re.split(r"[+/]", r[0]) or k in re.split(r"[+/]", r[1])]
     for _, x in ctx.copias14.iterrows():
         if k in (x.A, x.B):
-            nv = {"mismo_objeto": "demostrado", "copia": "apoyado"}.get(x.tipo, "propuesto")
+            nv = {"mismo_objeto": "bien apoyado", "copia": "apoyado"}.get(x.tipo, "propuesto")
             doc.append((x.A, x.B, f"{x.tipo.replace('_', ' ')} ({x.n_exacta}/{x.n_alineadas} exactas; q04={x.q_04:.1e})",
                         nv, "analisis/14_copias/pares_resumen.csv; analisis/04_concordancias/resultados/pares_significativos.csv"))
     # 33_estematica: se añade si el par no está ya documentado con un nivel igual o mayor
@@ -707,16 +707,16 @@ def relaciones(d, ctx, B=199):
 
 RELACIONES_DOC = [  # (origen, destino, qué, nivel, fuente) — de analisis/SINTESIS.md
     ("UR270", "UR278", "cada celda de UR278 = colgante + 1.ª subsidiaria de UR270 (5 grupos con >=6/9; solo P: 0; p=0,0002)",
-     "demostrado", "analisis/ds/n_cuota_entrega/relaciones.csv; analisis/13_sistema_incahuasi/; analisis/16_verificacion_incahuasi/"),
-    ("UR270", "UR273B", "Σ colgantes de cada grupo = cabecera del componente B (4/9; p=0,0004)", "demostrado",
+     "bien apoyado", "analisis/ds/n_cuota_entrega/relaciones.csv; analisis/13_sistema_incahuasi/; analisis/16_verificacion_incahuasi/"),
+    ("UR270", "UR273B", "Σ colgantes de cada grupo = cabecera del componente B (4/9; p=0,0004)", "bien apoyado",
      "analisis/ds/n_cuota_entrega/informe.md"),
-    ("UR278", "UR266", "totales de fila reaparecen en orden (11 exactos; q=1e-8, q de orden=7e-4)", "demostrado",
+    ("UR278", "UR266", "totales de fila reaparecen en orden (11 exactos; q=1e-8, q de orden=7e-4)", "bien apoyado",
      "analisis/04_concordancias/resultados/pares_resumen_todos.csv.gz; analisis/29_lectura_incahuasi/coherencia.py"),
     ("UR278", "UR275", "totales de fila reaparecen en orden como cabeceras (7)", "apoyado",
      "analisis/29_lectura_incahuasi/coherencia.py; analisis/13_sistema_incahuasi/grafo_quipus.csv"),
-    ("UR266", "UR275", "copia del libro (44 de 46 aristas exactas)", "demostrado",
+    ("UR266", "UR275", "copia del libro (44 de 46 aristas exactas)", "bien apoyado",
      "analisis/13_sistema_incahuasi/grafo_quipus.csv; analisis/09_incahuasi/informe.md"),
-    ("UR273A+UR273B", "UR266/UR275/UR269", "parte A + parte B = cabecera del libro (8/18 exactas, Holm 0,002)", "demostrado",
+    ("UR273A+UR273B", "UR266/UR275/UR269", "parte A + parte B = cabecera del libro (8/18 exactas, Holm 0,002)", "bien apoyado",
      "analisis/13_sistema_incahuasi/informe.md; analisis/16_verificacion_incahuasi/informe.md"),
     ("UR267A+UR267B", "UR269", "A + B = filas de UR269 con cuota 25 (5/26; p=5e-4)", "apoyado",
      "analisis/16_verificacion_incahuasi/informe.md"),
@@ -724,9 +724,9 @@ RELACIONES_DOC = [  # (origen, destino, qué, nivel, fuente) — de analisis/SIN
     ("UR256", "UR267B", "comparten los brutos x; cuota 10 (trío [x, c, x−c])", "apoyado", "analisis/09_incahuasi/informe.md"),
     ("UR273A", "UR274A", "copia", "apoyado", "analisis/13_sistema_incahuasi/informe.md"),
     ("UR273B", "UR274B", "copia", "apoyado", "analisis/13_sistema_incahuasi/informe.md"),
-    ("UR068", "UR067", "secciones suman columna a columna (15/20; Holm<=0,0006), jerarquía de Urton y Brezine", "demostrado",
+    ("UR068", "UR067", "secciones suman columna a columna (15/20; Holm<=0,0006), jerarquía de Urton y Brezine", "bien apoyado",
      "analisis/ds/n_puruchuco_pacha/informe.md"),
-    ("UR063", "UR068", "consolida columna a columna (14/20; Holm<=0,0006)", "demostrado",
+    ("UR063", "UR068", "consolida columna a columna (14/20; Holm<=0,0006)", "bien apoyado",
      "analisis/ds/n_puruchuco_pacha/informe.md"),
     ("UR063", "UR073/UR078", "consolida bloques (5/5 cabeceras, p=1e-4)", "propuesto", "analisis/04_concordancias/informe.md"),
     ("UR021", "UR006", "fuente de los meses 13–16 (0/300 permutaciones)", "apoyado", "analisis/12_urton2017/informe.md"),
@@ -752,10 +752,10 @@ RELACIONES_DOC = [  # (origen, destino, qué, nivel, fuente) — de analisis/SIN
      "totales < 20 y nada con ±1 nudo ni multibloque (q=1): ESPECULATIVA", "especulativo",
      "analisis/33_estematica/06_candidatas_lector.py; salida_06.txt"),
 ]
-NIV33 = {"demostrado": "demostrado", "mismo objeto (demostrado)": "demostrado", "apoyado": "apoyado",
-         "apoyado (post hoc)": "apoyado", "propuesto (post hoc)": "propuesto", "ninguno (negativa)": "negativa",
+NIV33 = {"bien apoyado": "bien apoyado", "mismo objeto (bien apoyado)": "bien apoyado", "apoyado": "apoyado",
+         "apoyado (post hoc)": "apoyado", "apoyado (entre museos)": "apoyado", "propuesto (post hoc)": "propuesto", "ninguno (negativa)": "negativa",
          "especulativo (post hoc)": "especulativo"}
-RANGO = {"demostrado": 3, "apoyado": 2, "propuesto": 1, "especulativo": 0, "negativa": 0}
+RANGO = {"bien apoyado": 3, "apoyado": 2, "propuesto": 1, "especulativo": 0, "negativa": 0}
 
 
 def _mismo_par(a, b, o, d_):

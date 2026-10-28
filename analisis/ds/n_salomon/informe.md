@@ -31,21 +31,21 @@ La pregunta no es "¿qué dicen los quipus de Tupicocha?" —Salomon no los desc
 
 | # | Convención | Base | Nivel |
 |---|---|---|---|
-| C1 | 9 de 10 quipocamayos son **"bandados"**: colgantes agrupados por color, sin espacios de cordón principal entre grupos (L1883–1885). | Observación directa de los 10 especímenes. | Demostrado (para Tupicocha) |
+| C1 | 9 de 10 quipocamayos son **"bandados"**: colgantes agrupados por color, sin espacios de cordón principal entre grupos (L1883–1885). | Observación directa de los 10 especímenes. | Bien apoyado (para Tupicocha) |
 | C2 | Cuerdas de 2 plies, cada ply de 2 hilos; torsión alterna S–Z–S o Z–S–Z; **mayor incidencia de Z que en los especímenes antiguos** (L1786–1787). | Observación; comparación con colecciones. | Apoyado |
 | C3 | El nudo largo Inka ("con argolla") y el nudo Tupicocha (T) **no son alomorfos**: el primero "ata" (guardado), el segundo "libera" (L1839–1857, L2326–2331). | Testimonio de Nery Javier (recuerdo de su bisabuelo Tobías) + morfología. | Propuesto |
-| C4 | Hay un tercer nudo largo, el **Mújica** (múltiple ocho), sólo 2 veces y sólo en m-01 (L1864). | Observación. | Demostrado |
+| C4 | Hay un tercer nudo largo, el **Mújica** (múltiple ocho), sólo 2 veces y sólo en m-01 (L1864). | Observación. | Bien apoyado |
 | C5 | La torsión no es signo para los artesanos: "cuestión de costumbre personal" (L1800–1801, L2333). **Pero** el par 1sf-01/2sf-01, escindido en los años 20, se opone S vs Z (L1802–1806). | Contradicción explícita entre testimonio y un caso. | Propuesto (el caso único) |
 | C6 | El **pachacamanta** (nudo terminal ornamentado) marca el extremo inicial; su nombre se glosa "acerca del ciento" y sugiere que el ayllu era una *pachaka* (L1769). | Testimonio de un anciano + etimología. | Especulativo |
 | C7 | **Hitos/motas** en el cordón principal y **cantitos** (hilo brillante pasado) forman un "metacódigo" de comentario, con paleta distinta a la de las cuerdas de datos (L1772–1785). | Observación + testimonio (fiestas, jurisdicción). | Propuesto |
-| C8 | No hay espacios que separen grupos; las **subsidiarias** ("compañías") se fijan en cm 0 y son el 10,6 % de los colgantes (L1753, L1883–1884). | Observación. | Demostrado |
+| C8 | No hay espacios que separen grupos; las **subsidiarias** ("compañías") se fijan en cm 0 y son el 10,6 % de los colgantes (L1753, L1883–1884). | Observación. | Bien apoyado |
 
 ### 3.2 Colores
 
 | # | Convención | Base | Nivel |
 |---|---|---|---|
 | C9 | El color agrupa **funciones**, no cantidades: "como capítulos de un libro" (faenas, alimentos, reservorio) (L2341–2342). | Testimonio de Nery Javier; coherente con los libros de actas. | Apoyado (émico) |
-| C10 | El orden de las bandas **no se repite** entre quipus, ni siquiera dentro del mismo ayllu: "ninguno se parece obviamente a otro en el array de colores" (L2539). | Observación de los 10 especímenes. | Demostrado (para Tupicocha) |
+| C10 | El orden de las bandas **no se repite** entre quipus, ni siquiera dentro del mismo ayllu: "ninguno se parece obviamente a otro en el array de colores" (L2539). | Observación de los 10 especímenes. | Bien apoyado (para Tupicocha) |
 | C11 | El color se percibe en dos familias (chumpi/marrón y oque/gris) que se tocan en negro y blanco, más colores "vivos" de acento (L1829–1831). | Tres artesanas clasificando cuerdas por separado; acuerdo parcial. | Apoyado |
 
 ### 3.3 Nudos y valores
@@ -55,7 +55,7 @@ La pregunta no es "¿qué dicen los quipus de Tupicocha?" —Salomon no los desc
 | C12 | Los nudos son sobre todo **identificadores** (número de orden, nombre, estatus), no cantidades; la posición del nudo **no está estandarizada** (L2679–2685). | Irregularidad observada + ausencia de sumas. | Propuesto |
 | C13 | La **cuerda sin nudos = cuenta saldada** ("cumplió todo… se va"), no casilla vacía (L2326–2328, L2674–2678). | Testimonio de Nery Javier + lógica de "registro negativo". | Apoyado (émico) |
 | C14 | La ausencia se marca **con un nudo en una cuerda existente**, no creando cuerda nueva; por eso un registro negativo tiene menos nudos, no menos cuerdas (L2197–2199). | Fuente quechua de 1608 + libros de actas. | Apoyado |
-| C15 | Tupicocha **no tiene cuerdas superiores ni cuerdas de suma**: no se computa a través de cuerdas (L2680–2682). | Observación directa. | Demostrado (para Tupicocha) |
+| C15 | Tupicocha **no tiene cuerdas superiores ni cuerdas de suma**: no se computa a través de cuerdas (L2680–2682). | Observación directa. | Bien apoyado (para Tupicocha) |
 | C16 | La primera cuerda junto al pachacamanta es anómala, "portada" o etiqueta del conjunto (L2784–2786). | Observación (m-01, colgante 1 sin nudo). | Propuesto |
 
 ### 3.4 Unidades sociales y calendario
@@ -189,7 +189,7 @@ Datos agregados recuperables (verificables en el texto):
 
 | Afirmación | Nivel |
 |---|---|
-| Tupicocha tiene 10 quipocamayos bandados, ~15 bandas, ~100 colgantes, sin cuerdas de suma | **Demostrado** (observación directa de Salomon) |
+| Tupicocha tiene 10 quipocamayos bandados, ~15 bandas, ~100 colgantes, sin cuerdas de suma | **Bien apoyado** (observación directa de Salomon) |
 | El color agrupa colgantes en bandas en el corpus antiguo | **Apoyado con datos** (Z≈−46; sobrevive al nulo dentro de grupo, aunque el efecto es del 6–13 %) |
 | Las cuerdas sin nudos se agrupan en bandas saldadas | **Apoyado con datos** (0,81×; 0,93× dentro de grupo) |
 | La torsión forma bloques/mitades donde S y Z coexisten | **Apoyado con datos**, pero sólo 4 quipus balanced → **propuesto** como fenómeno general |
@@ -203,7 +203,7 @@ Datos agregados recuperables (verificables en el texto):
 | El par de quipus = oficiales duales | **Propuesto** (testimonio oral + conteo ±2) |
 | 15/30 = herencia de las *huacsa* de 1608 | **Especulativo** |
 | La khipumancia es back-formation moderna | **Apoyado** (cronología del testimonio), pero no testeable en corpus |
-| Los quipus "narrativos" existen | **No demostrado**; Salomon no encuentra imitación del lenguaje |
+| Los quipus "narrativos" existen | **No bien apoyado**; Salomon no encuentra imitación del lenguaje |
 
 ---
 

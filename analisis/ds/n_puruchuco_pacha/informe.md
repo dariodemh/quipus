@@ -220,7 +220,7 @@ alineación.
 parejas de Incahuasi (A+B→C), sino una **cadena** nivel I → II → III: cada quipu
 inferior se despliega en secciones y sus columnas suman las cuerdas del padre.
 La relación es real, direccional y con las dos discrepancias exactas que la
-literatura anticipa. Nivel de evidencia: **demostrado (reproducción)** para las
+literatura anticipa. Nivel de evidencia: **bien apoyado (reproducción)** para las
 sumas; **apoyado con datos** para la partición en seis secciones (inferida de
 los grupos KFG y confirmada por las marcadoras de UR073).
 
@@ -314,14 +314,14 @@ archivos encadenados.**
 
 | Afirmación | Nivel |
 |---|---|
-| Puruchuco: UR068 → UR067, 16/20 columnas exactas, p = 0,0002; las dos discrepancias del libro (2904/2908, 161/162) | **Demostrado (reproducción)** |
+| Puruchuco: UR068 → UR067, 16/20 columnas exactas, p = 0,0002; las dos discrepancias del libro (2904/2908, 161/162) | **Bien apoyado (reproducción)** |
 | Puruchuco: UR063 → sección central de UR068, 14/20 exactas, p = 0,0002; columnas 2, 8 y 57 exactas (la cuarta, 9 vs 8) | **Apoyado con datos** (las secciones vienen de la literatura; el nulo solo rompe la alineación) |
 | Puruchuco: sistema **encadenado** de tres niveles, no de parejas | **Apoyado con datos** |
-| Puruchuco: UR064≈UR068 y UR066≈UR067 (copias del mismo nivel) | **Demostrado** (LCS 66/73 y 30/35, p ≤ 0,001) |
+| Puruchuco: UR064≈UR068 y UR066≈UR067 (copias del mismo nivel) | **Bien apoyado** (LCS 66/73 y 30/35, p ≤ 0,001) |
 | UR073: las 5 marcadoras OKR delimitan las 6 secciones de UR063 (5/5 bloques a ≤27) | **Apoyado con datos** |
 | Pachacamac: no hay cuotas, tabla de celdas, copias nuevas ni cadena | **Apoyado con datos** (T4 y T5 con control positivo potente) |
 | Pachacamac: el enlace UR1099+UR212 es ruido | **Apoyado con datos** (4 destinos distintos; p corregido inestable 0,04–0,06) |
-| El método de Incahuasi no es un detector genérico transferible | **Demostrado** (falla en su propio control positivo tras corrección) |
+| El método de Incahuasi no es un detector genérico transferible | **Bien apoyado** (falla en su propio control positivo tras corrección) |
 | Que Puruchuco sea "el segundo sistema" de la ronda | **Apoyado con datos** (dos niveles reproducidos; el nivel II tiene un quipu perdido, el nº 9, que no se puede probar) |
 
 ---

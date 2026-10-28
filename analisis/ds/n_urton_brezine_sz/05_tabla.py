@@ -112,7 +112,7 @@ R(dict(id="U07b", afirmacion="Pachacamac es el archivo mayor",
        cifra_UB="68", KFG=f"{int((quipus.arch=='Pachacamac').sum())} (14,0%)",
        OKR=f"{int((okr_arch=='Pachacamac').sum())} ({100*(okr_arch=='Pachacamac').mean():.1f}%)",
        comentario="La proporcion se mantiene (~15%); el absoluto crece con el corpus.",
-       nivel="demostrado"))
+       nivel="bien apoyado"))
 R(dict(id="U07c", afirmacion="Khipus sin procedencia",
        cifra_UB="229 de 451 (50,8%)",
        KFG=f"{int((~quipus.arch.isin(ARCHS)).sum())} de {len(quipus)} ({100*(~quipus.arch.isin(ARCHS)).mean():.1f}%)",
@@ -135,7 +135,7 @@ R(dict(id="U10", afirmacion="Khipus con cordeles subsidiarios",
        KFG=f"{int((cuerdas[cuerdas.nivel>=1].groupby('kfg').size().reindex(quipus.kfg).fillna(0)>0).sum())} de {len(quipus)} ({100*(cuerdas[cuerdas.nivel>=1].groupby('kfg').size().reindex(quipus.kfg).fillna(0)>0).mean():.1f}%)",
        OKR="no calculado",
        comentario="Casi identico.",
-       nivel="demostrado"))
+       nivel="bien apoyado"))
 R(dict(id="U12", afirmacion="Cordeles con datos de material: 15.616 (40%); 85% algodon, 9% camelido, 6% otros",
        cifra_UB="15.616; 85/9/6",
        KFG="sin campo de fibra",
@@ -171,23 +171,23 @@ R(dict(id="U16c", afirmacion="Nudos simples: 35% S / 65% Z",
 R(dict(id="U16d", afirmacion="Nudos largos: 53% S / 47% Z",
        cifra_UB="53/47", KFG=f"{tK['L'][0]}/{100-tK['L'][0]:.1f}", OKR=f"{tO['L'][0]}/{100-tO['L'][0]:.1f}",
        comentario="Reproduccion casi exacta.",
-       nivel="demostrado"))
+       nivel="bien apoyado"))
 R(dict(id="U16e", afirmacion="Figura de ocho: 30% S / 70% Z",
        cifra_UB="30/70", KFG=f"{tK['E'][0]}/{100-tK['E'][0]:.1f}", OKR=f"{tO['E'][0]}/{100-tO['E'][0]:.1f}",
        comentario="Reproduccion cercana (27/73).",
-       nivel="demostrado"))
+       nivel="bien apoyado"))
 R(dict(id="U17a", afirmacion="Patron todo-Z",
        cifra_UB="72 de 272 (26,5%)",
        KFG=f"{int((qallo.pZ==1).sum())} de {len(qallo)} ({100*(qallo.pZ==1).mean():.1f}%)",
        OKR=f"{int((qoallo.pZ==1).sum())} de {len(qoallo)} ({100*(qoallo.pZ==1).mean():.1f}%)",
        comentario="Proporcion casi identica; el denominador se duplica con el corpus.",
-       nivel="demostrado"))
+       nivel="bien apoyado"))
 R(dict(id="U17b", afirmacion="Patron todo-S",
        cifra_UB="27 de 272 (9,9%)",
        KFG=f"{int((qallo.pZ==0).sum())} de {len(qallo)} ({100*(qallo.pZ==0).mean():.1f}%)",
        OKR=f"{int((qoallo.pZ==0).sum())} de {len(qoallo)} ({100*(qoallo.pZ==0).mean():.1f}%)",
        comentario="Casi identico.",
-       nivel="demostrado"))
+       nivel="bien apoyado"))
 R(dict(id="U17c", afirmacion="Pachacamac tiene el mayor % de nudos Z",
        cifra_UB="cualitativo",
        KFG="Pachacamac 76,0% (todos) / 92,4% (simples); Puruchuco 80,6/97,5; Santa 81,3/83,4",

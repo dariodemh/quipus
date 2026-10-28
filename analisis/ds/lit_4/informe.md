@@ -74,7 +74,7 @@ Medrano y Khosla (2024) afirman que las fórmulas de Ascher caracterizan al meno
 
 Las sumas internas están enriquecidas respecto al azar (razón observado/nulo ≈ 1,5; para C ≈ 4,9), así que hay estructura aritmética real. Pero con una definición estricta y portable, la cobertura es 16,3 %, no 74 %. La diferencia no es un fallo de la afirmación necesariamente: Medrano usa una familia de fórmulas mucho más amplia (subsidiarias, top cords, grupos, fragmentos) que el resumen no detalla. Lo que sí se puede decir es que **la cifra del 74 % no es reproducible con las convenciones de suma más simples** y que el resumen no reporta tasa base. Sin el nulo, el 16,3 % parecería alto; con el nulo, el exceso es de 5,7 puntos.
 
-**Nivel:** *apoyado con datos* que las sumas internas no son aleatorias; *no demostrado* (y no replicado) el 74 %.
+**Nivel:** *apoyado con datos* que las sumas internas no son aleatorias; *no bien apoyado* (y no replicado) el 74 %.
 
 ### 3.4 V3. Valle del Santa: replicación exacta del patrón recto/verso
 
@@ -94,7 +94,7 @@ Se reproduce exactamente: 49,0/51,0 agregado, 5 quipus puros y UR090 (=KH0326) c
 
 **Advertencia:** la coincidencia es exacta porque el campo `union` del KFG y el `ATTACHMENT_TYPE` del OKR probablemente comparten la misma tradición de registro (Harvard KDB). Es una verificación de aritmética y de propagación de datos, no evidencia física independiente. La ficha de Contreras ya lo advierte; nuestros números lo confirman.
 
-**Nivel:** *demostrado* como replicación descriptiva; *no independiente* como validación del emparejamiento con el tributo de 367 pesos (que la propia autora deja fuera).
+**Nivel:** *bien apoyado* como replicación descriptiva; *no independiente* como validación del emparejamiento con el tributo de 367 pesos (que la propia autora deja fuera).
 
 ### 3.5 V4. Correcciones de Thompson (2025): tres de cuatro se confirman; AS010 no
 
@@ -107,7 +107,7 @@ Se reproduce exactamente: 49,0/51,0 agregado, 5 quipus puros y UR090 (=KH0326) c
 
 AS010 es el caso interesante: el KFG contiene exactamente el total 51 que Thompson señala como erróneo, y no contiene el 58 corregido. O bien la corrección no se propagó al KFG, o bien «primeros 7 colgantes» se refiere a otra agrupación que la ficha no precisa. Sin el documento completo no se puede decidir; se reporta como resultado negativo/parcial, no como refutación.
 
-**Nivel:** *demostrado* para AS128, AS115 y AS044 (aritmética reproducible); *indeterminado* para AS010.
+**Nivel:** *bien apoyado* para AS128, AS115 y AS044 (aritmética reproducible); *indeterminado* para AS010.
 
 ### 3.6 V5. ¿Son las cuerdas blancas marcadores de frontera de grupo?
 
@@ -158,8 +158,8 @@ El efecto existe y va en la dirección propuesta, pero es modesto: ~3 puntos por
 | Los nudos inferiores son una anomalía posicional no explicada por la tasa base | **especulativo** (exceso de solo 3,8 pp sobre el nulo) |
 | Ascher formulae ≥74 % | **no sostenido** con definición estricta; **propuesto** para la familia amplia de Medrano |
 | Las sumas internas no son aleatorias | **apoyado con datos** (16,3 % vs 10,6 % nulo; p=0,0005) |
-| Patrón recto/verso del Santa (49/51; 5 puros; KH0326 40/69) | **demostrado** (replicación exacta) |
-| Correcciones AS128, AS115, AS044 | **demostrado** (aritmética exacta) |
+| Patrón recto/verso del Santa (49/51; 5 puros; KH0326 40/69) | **bien apoyado** (replicación exacta) |
+| Correcciones AS128, AS115, AS044 | **bien apoyado** (aritmética exacta) |
 | Corrección AS010 | **indeterminado / no confirmado** |
 | Blancos como marcadores de frontera | **apoyado con datos** (+2,8 pp por quipu; p=0,0005), magnitud modesta |
 | Cordón principal de KH0631 de cabello; artesano comunero | **no comprobable** en el repo (fuera del corpus) |

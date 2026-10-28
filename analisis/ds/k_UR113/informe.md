@@ -123,7 +123,7 @@ Dentro de cada grupo, los colgantes están **ordenados de mayor a menor** con mu
 - **Escala (especulativo):** 332 entradas en 31 bloques de ~12 es un tamaño plausible para un padrón de unidades domésticas de una parcialidad; los diez lotes de 200–220 del grupo 3 darían ~2 100 unidades, compatible con una *pachaca* grande o con un fondo de depósito. No hay forma de decidirlo con estos datos: el quipu no trae unidades ni etiquetas.
 
 **Nivel de evidencia:**
-- Estructura de 31 grupos, 332 colgantes, 534 subsidiarias, sin cuerdas superiores: **demostrado** (lectura directa).
+- Estructura de 31 grupos, 332 colgantes, 534 subsidiarias, sin cuerdas superiores: **bien apoyado** (lectura directa).
 - Suma exacta colgante = subsidiarias en 17 filas (p = 0,002; 3 grupos con q < 0,05): **apoyado con datos**.
 - Orden decreciente dentro de grupos (p = 0,001; percentil 99 del corpus): **apoyado con datos**.
 - Bloques monocromos y cantidades estándar repetidas (p = 0,001): **apoyado con datos**.
@@ -157,8 +157,8 @@ Dentro de cada grupo, los colgantes están **ordenados de mayor a menor** con mu
 
 | Afirmación | Nivel |
 |---|---|
-| 31 grupos, 332 colgantes, 534 subsidiarias, sin T, torsión S | demostrado |
-| Decimal posicional y dirección determinada por tipo de nudo | demostrado |
+| 31 grupos, 332 colgantes, 534 subsidiarias, sin T, torsión S | bien apoyado |
+| Decimal posicional y dirección determinada por tipo de nudo | bien apoyado |
 | 17 colgantes = suma exacta de sus subsidiarias (p = 0,002; 3 grupos q < 0,05) | apoyado con datos |
 | 10/23 grupos ordenados de mayor a menor (p = 0,001; percentil 99,4 del corpus) | apoyado con datos |
 | 12/31 grupos monocromos y cantidades estándar repetidas (p = 0,001) | apoyado con datos |

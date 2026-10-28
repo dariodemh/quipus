@@ -192,10 +192,10 @@ Conclusión: **no es un error de lectura aleatorio**. Es un patrón ligado a la 
 
 | Afirmación | Nivel |
 |---|---|
-| El catálogo de tipos de error y sus tasas (0,64 % global; 0,10 % resto) | **Demostrado** (conteo directo sobre 35 223 cuerdas) |
-| El factor 10 es el tipo dominante (47 %) y está concentrado en 5 quipus | **Demostrado** |
-| Las vueltas de nudos largos son el segundo tipo (26 %) | **Demostrado** |
-| 31/35 casi-aciertos son reparables con una edición | **Demostrado** (por construcción) |
+| El catálogo de tipos de error y sus tasas (0,64 % global; 0,10 % resto) | **Bien apoyado** (conteo directo sobre 35 223 cuerdas) |
+| El factor 10 es el tipo dominante (47 %) y está concentrado en 5 quipus | **Bien apoyado** |
+| Las vueltas de nudos largos son el segundo tipo (26 %) | **Bien apoyado** |
+| 31/35 casi-aciertos son reparables con una edición | **Bien apoyado** (por construcción) |
 | La reparabilidad **no** es evidencia (80 % de las relaciones aleatorias también lo son) | **Apoyado con datos** (nulo geométrico) |
 | g12 (+100) es una diferencia entre copias (4/5/6 nudos de centenas) | **Apoyado con datos** (tres copias convergentes) |
 | UR278 p180 (7L→6L) es un error de lectura plausible | **Apoyado con datos** (resuelve celda y fila; 1 candidata de vueltas) |

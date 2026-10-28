@@ -200,7 +200,7 @@ El archivo `sum_top_cords_relation.csv` de KFG (Medrano & Khosla 2024) contiene 
 
 | Afirmación | Nivel |
 |---|---|
-| En 23 unidades de 14 quipus, la superior es exactamente la suma de las cuerdas nivel 0 del grupo contiguo anterior | **Demostrado en este corpus** (identidad aritmética verificable) |
+| En 23 unidades de 14 quipus, la superior es exactamente la suma de las cuerdas nivel 0 del grupo contiguo anterior | **Bien apoyado en este corpus** (identidad aritmética verificable) |
 | En la muestra T, la alineación exacta es mucho más frecuente que la esperada por azar (23 vs 2,4; p<0,001; 14/25 quipus) | **Apoyado con datos, condicional a la muestra curada** (nulo explícito, agregación por quipu, Holm; no corrige el sesgo de selección) |
 | Prevalencia de superiores sumatorias en el corpus | **No estimable con este diseño** (muestra seleccionada por KFG) |
 | La regla reproduce las 23 exactas en posiciones T de KFG y 0 FP (no es replicación independiente: es la misma curaduría) | **Apoyado con datos**, con ese límite explícito |
@@ -238,7 +238,7 @@ La imagen que emerge es la de un **sistema de categorías espaciales y jerárqui
 - **Los hijos T de la superior no son los sumandos:** 0/13 superiores con ≥2 hijos T suman sus hijos. La suma está en el grupo hermano, no en los colgantes de la propia superior.
 - **`union = T` es un marcador incompleto:** cubre 16/29 quipus y solo 23/64 exactas de la lista curada de KFG. Nuestra regla reproduce 23/23 exactas en posiciones T y 0 falsos positivos, pero **no descubre nuevas**: replica la curaduría de KFG. Hay que usar la lista curada para el universo completo.
 - **20/93 superiores blancas** y 50 con valor no exactas (44 con grupo anterior ≥2); varias near-miss ±1/±9/±10 sugieren errores de un nudo. La categoría “superior” es heterogénea: total, marcador o registro incompleto.
-- **Nivel de evidencia:** identidad aritmética **demostrada** en 23 casos; enriquecimiento estadístico **apoyado con datos**; función de total/marcador **propuesta**; generalización **especulativa**.
+- **Nivel de evidencia:** identidad aritmética **bien apoyada** en 23 casos; enriquecimiento estadístico **apoyado con datos**; función de total/marcador **propuesta**; generalización **especulativa**.
 - **Recomendación:** repetir el mismo nulo en los 29 quipus curados (no solo los 26 con T), auditar los near-miss contra nudos crudos y probar la convención anterior/siguiente por archivo (Puruchuco, Santa). El hallazgo estructural es sólido; la semántica de las categorías sigue abierta.
 
 ---

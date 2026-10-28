@@ -21,7 +21,7 @@ Resumen de cada informe a medida que llega. Detalle en `analisis/<carpeta>/infor
 
 ### 02 Color (Sonnet)
 - Tres usos del color en subconjuntos distintos (bloque y columna tienden a excluirse):
-  - **Columna** (color fijo por posición en el grupo = encabezado de columna): 12 % estricto – 47 % laxo de 376 quipus (demostrado en quipus concretos: AS170, UR1144, UR1113, UR267A).
+  - **Columna** (color fijo por posición en el grupo = encabezado de columna): 12 % estricto – 47 % laxo de 376 quipus (bien apoyado en quipus concretos: AS170, UR1144, UR1113, UR267A).
   - **Bloque** (grupos monocromos = categoría por grupo): 41 %. Bandas ~48 %, periodicidad ~29 %.
 - Color ↔ valor dentro del quipu: 24–40 % de quipus, efecto pequeño (ε² 0,07), dirección NO común entre quipus → códigos locales, no un vocabulario de color panandino.
 - Único "vocabulario" compartido: blanco/claro ↔ valores algo mayores, primera cuerda del grupo y cuerdas-suma de borde (54 % vs 36–40 % esperado, p=0,001). KB ↔ cuerda sin nudos (dominado por UR, ¿artefacto?).
@@ -30,8 +30,8 @@ Resumen de cada informe a medida que llega. Detalle en `analisis/<carpeta>/infor
 
 ### 01 Aritmética (Sonnet)
 - **El 74 % de Medrano y Khosla no se distingue del azar**: detector laxo 75,3 % observado vs 73,5 % esperado bajo nulo que baraja dentro de nivel. Adyacentes: 55,9 vs 52,5 %. Tras control, solo 13–21 quipus (2–3 %) con contabilidad interna significativa; estimación corregida por potencia 5–10 % con sumas exactas locales. Afirmación fuerte → auditar.
-- **Demostrado**: cuerda superior = suma de grupos adyacentes (22/63 vs 0,6 esperado; AS006, AS007, QU009, QU016, AS001, QU015).
-- **Demostrado (regularidad)**: Incahuasi, grupos de 3 cuerdas `[x, c, x−c]` con c constante por quipu (15 en UR255/UR267A, 10 en UR256/UR267B); 8 de 9 quipus significativos son de Incahuasi. Cuota/tara/deducción (propuesto) — conecta con el "15" de Urton y Chu 2015.
+- **Bien apoyado**: cuerda superior = suma de grupos adyacentes (22/63 vs 0,6 esperado; AS006, AS007, QU009, QU016, AS001, QU015).
+- **Bien apoyado (regularidad)**: Incahuasi, grupos de 3 cuerdas `[x, c, x−c]` con c constante por quipu (15 en UR255/UR267A, 10 en UR256/UR267B); 8 de 9 quipus significativos son de Incahuasi. Cuota/tara/deducción (propuesto) — conecta con el "15" de Urton y Chu 2015.
 - Negativos: relaciones grupo-grupo, proporciones 1/10 (tributo) y demás razones; Benford no diagnostica. Exceso de razón 1/1 (duplicados de cantidades).
 - Dígito de unidades 0 ×2,65 pero 5 no → no hay redondeo; valores-cuota (10, 20, 100). 71/434 quipus repiten valores más de lo esperable (22 esperados): 1, 10, 20, 2, 4, 100.
 - Tipología débil (continuo): «códigos» (200, valores pequeños repetidos, ninguno con aritmética verificada; Huaquerones 10/12), «jerárquicos» (139), «cuerda superior» (16), «conteo/medida» (181).
@@ -45,21 +45,21 @@ Resumen de cada informe a medida que llega. Detalle en `analisis/<carpeta>/infor
 ### 03 Gramática (Opus)
 - **Registros de datos, no texto.** Ningún subconjunto pasa una prueba de "texto" que no se explique por números, bandeado o artefactos.
 - Distintivo: autorrepetición (bandeado) y vocabulario saturado (Heaps β 0,44–0,73 vs ~0,9 en texto quechua/español). Zipf no diagnostica lengua (la tupla física da 0,86, lo mismo que Sivan presenta como "lingüístico").
-- **Columnas demostradas**: posición en grupo predice color en 51 % (texto 5 %, Markov 11 %) y magnitud en 46 % (4 %). 175/299 quipus con grupos repetidos (58,5 %) tabulares con BH; ancho típico ~6. Coincide con 02.
+- **Columnas bien apoyadas**: posición en grupo predice color en 51 % (texto 5 %, Markov 11 %) y magnitud en 46 % (4 %). 175/299 quipus con grupos repetidos (58,5 %) tabulares con BH; ancho típico ~6. Coincide con 02.
 - **Frases compartidas: negativo.** El exceso de n-gramas desaparece al fijar la secuencia de colores: no hay léxico de nudos compartido entre quipus. Sí "formularios" de archivo (Santa, Leymebamba; Incahuasi: cuerda rosada vacía + blanca con valor grande en 4 quipus).
 - S/Z: simples Z, largos tienden a S (replica Clindaniel por quipu, p=2,5e-8); homogénea por grupo y en bloques (26 quipus) → "una mano/sesión por grupo" no descartable; marcador de inicio de grupo: negativo.
 - **Canal silábico de Sivan refutado en sus predicciones**: en 2700 cuerdas con ≥2 largos, efecto de orden 4,5× menor que en quechua, repetición mucho mayor, 69 % vueltas no crecientes hacia abajo (orden numérico, no fonotáctico).
 - 26 quipus con mayoría de cuerdas no decimales casi nunca tienen columnas (2/25 vs 213/493, p=2,6e-4): ¿otro género de registro? (UR050–055, UR039, AS090_N2, UR203, AS014, UR1087, HP051_A, KH0001, UR193).
 
 ### 04 Concordancias (Opus) — hallazgo principal
-- **Jerarquía de totales demostrada en Incahuasi**: los totales de los 33 grupos de UR278 (~9 colgantes, p. ej. 415+415+353+415+415+415+414+413+363 = 3618) aparecen **en orden** como primera cuerda de los grupos de UR266 (3618, 1506, 1384, 2919, 2089, …): 16/33 en orden vs media 2,8 (máx. 7) en 2000 permutaciones; q = 1e-8 / 1e-8 / 7e-4 con FDR sobre 311 150 pares ordenados. UR275 (copia de UR266) repite 11. Es la única relación de resumen entre quipus que sobrevive en todo el corpus. Tras cada cabecera de UR266, cuerda constante 47. *(corregido después: ver «paquete_revision (Opus) listo y correcciones»)*
+- **Jerarquía de totales bien apoyada en Incahuasi**: los totales de los 33 grupos de UR278 (~9 colgantes, p. ej. 415+415+353+415+415+415+414+413+363 = 3618) aparecen **en orden** como primera cuerda de los grupos de UR266 (3618, 1506, 1384, 2919, 2089, …): 16/33 en orden vs media 2,8 (máx. 7) en 2000 permutaciones; q = 1e-8 / 1e-8 / 7e-4 con FDR sobre 311 150 pares ordenados. UR275 (copia de UR266) repite 11. Es la única relación de resumen entre quipus que sobrevive en todo el corpus. Tras cada cabecera de UR266, cuerda constante 47. *(corregido después: ver «paquete_revision (Opus) listo y correcciones»)*
 - Cuasi-duplicados (201 930 pares, ±1 dígito, FDR): 25 pares. Replica los controles de Urton 2005 (AS159/AS173, UR1114/UR1123, UR006/UR009/UR021, Puruchuco UR064/UR068). **Copias entre museos no publicadas en nuestras fichas**: HP055 (Lima) ≈ AS084/UR1084 (París) 121/142 exactas; AS038/KH0049 (Lima) ≈ UR122 (Göteborg); Basilea MM008/015/016 copian tramos de UR212 (Berlín); UR1175 ≈ UR233+UR232; UR1118 ≈ UR218; QU002 ≈ UR137. Largos no correlacionan → objetos distintos.
 - **Duplicado de base no documentado**: UR1107/UR237 = mismo objeto (largos r=0,99), registrado invertido → avisar al OKR.
 - Puruchuco: UR063 consolida bloques de UR073 y UR078 (5/5 cabeceras, p=1e-4, propuesto). No reproduce las sumas de Urton y Brezine. Santa: ningún par copia/resumen. *(corregido después: ver «Ronda 8-9: resultados»)*
 - Negativos: sumas cuerda a cuerda B=A1+A2 entre quipus; totales completos de un quipu como cuerda de otro; relaciones aparentes con valores pequeños caen.
 
 ### 09 Incahuasi (Sonnet)
-- `[x, c, x−c]` **demostrado y exclusivo** de 8 quipus del Sector A (UR255, 256, 266, 267A, 267B, 269, 274B, 275); los 23 JC no lo tienen; fuera de Incahuasi no hay tríos no triviales.
+- `[x, c, x−c]` **bien apoyado y exclusivo** de 8 quipus del Sector A (UR255, 256, 266, 267A, 267B, 269, 274B, 275); los 23 JC no lo tienen; fuera de Incahuasi no hay tríos no triviales.
 - c por pareja: 15 (UR255/UR267A), 10 (UR256/UR267B), 47 (UR266/UR275; = la constante 47 de 04). En UR269 c varía por fila en bloques de 5.
 - Tres parejas de quipus comparten x (24, 21, 25 valores idénticos vs ~5; p≈0,003); orden de c y neto invertido en cada pareja; R/V opuesta (p≈0,13).
 - Bruto x = cuerda blanca (UR267A 15/15, UR269 14/15, UR275 6/7; Holm 0,002–0,016). Jaspeadas al final del registro.
@@ -80,7 +80,7 @@ Resumen de cada informe a medida que llega. Detalle en `analisis/<carpeta>/infor
 - 177 quipus tabulares (mediana 8 filas × 6 columnas). **Filas con "tamaño"** (ρ medio 0,30 entre columnas en 60/135; una fila grande lo es en todas sus columnas) → filas = unidades (personas/hogares/ayllus/depósitos) y columnas = categorías: apoyado con datos.
 - Arquetipo único entre quipus: **1.ª columna mayor (68 vs 38,6) y a menudo blanca** = categoría principal, no total (Holm 0,018–0,048); última columna más vacía.
 - **Columna-total solo en Incahuasi**. Columnas casi constantes (36 quipus): valor 1 (marcadores) o cuotas (15, 10, 47, 100, 20). *(corregido después: ver «30_frontera_estructura (Opus), cerrado»)*
-- **Formato nuevo demostrado: "fila + cuerda-total suelta"** en AS044, UR1096, UR118, UR119 (Paracas), UR166, UR149. *(corregido después: ver «14 Copias y totales sueltos (Sonnet)»)*
+- **Formato nuevo bien apoyado: "fila + cuerda-total suelta"** en AS044, UR1096, UR118, UR119 (Paracas), UR166, UR149. *(corregido después: ver «14 Copias y totales sueltos (Sonnet)»)*
 - Negativos: filas-resumen dentro de la tabla, gran total, número de filas típico (4/6/10/12), seriación de filas.
 - UR011 (Leymebamba): dos columnas gemelas (razón 1,01, p=0,0001). Significado concreto de cada columna: especulativo; nada en los datos lo fija.
 
@@ -97,7 +97,7 @@ Evidencia: extracción documental; nada nuevo sobre significado. Útil como list
 ## 12 Urton 2017 (Sonnet) — lecturas frente a KFG
 
 Entregables: `analisis/12_urton2017/` (informe.md, lecturas.csv con 23 lecturas, scripts a–j). Límite: KFG y Urton comparten la base KDB; coincidir prueba transcripción, no verificación independiente.
-- **CORRIGE a 05: UR006 sí reproduce la estructura.** KFG codifica las cuerdas-lazo como subsidiarias de 25 lazos; contándolas: 24 pares, 729 cuerdas (Urton 730), años 361/368 (362/368), 45/48 sumas de la Tabla 4.3 exactas (nulo 0,56). Estructura única en el corpus: **demostrado**. Lectura calendario bienal: **propuesto** (un total ±1 de 730 sale en 40 % de remuestreos). «3 000 tributarios»: débil.
+- **CORRIGE a 05: UR006 sí reproduce la estructura.** KFG codifica las cuerdas-lazo como subsidiarias de 25 lazos; contándolas: 24 pares, 729 cuerdas (Urton 730), años 361/368 (362/368), 45/48 sumas de la Tabla 4.3 exactas (nulo 0,56). Estructura única en el corpus: **bien apoyado**. Lectura calendario bienal: **propuesto** (un total ±1 de 730 sale en 40 % de remuestreos). «3 000 tributarios»: débil.
 - Confirmadas con nulo: UR028 (cuerda 1 = 102 = Σ 2–4; 5/6 sumas de conjuntos); UR021 fuente de meses 13–16 de UR006 (0/300 perm.); UR011 15/15 pares gemelos (p<1e-4); Puruchuco UR068→UR067/UR066 con las mismas dos divergencias; firma «3 cuerdas de valor 1 en las 12 primeras» solo en esos 4 quipus; UR053B/C 35/51 valores con desfase 10 (p=2e-4) y uniones opuestas; UR268 valor fijo 208.
 - No reproducidas: 6 pares de Pachacamac (correlación posicional ≈0); emblema 1-7-9 (solo UR066); «posición 1 determina las demás» en Santa (|ρ|≤0,16 dentro); «solo UR266/275 tienen 47» (UR269 tiene 8); UR273B «miles similares» (0).
 - Compatibles sin discriminar: UR011 como colapso demográfico (escalón −75 %, no curva); criterio censo-like (35/482 quipus); emparejamiento pachaca/quipu en Santa (25 % por azar).
@@ -119,16 +119,16 @@ Entregables: `analisis/11_rosetta/` (informe.md, scripts r0–r3b, medrano_metad
 - **Firma asignación vs recuento** (apoyado; «asignación» propuesto): cuerdas intactas ≥10 múltiplos de 10 en 28,9 % (recuento esperado 10 %); heterogeneidad χ²=3690/329 gl; 26 quipus «de asignación» (≥80 % redondos), 159 compatibles con recuento. Cuerdas rotas: 58 % redondas (pierden unidades) → excluir. Tablas de 10 con filas co-crecientes = recuento (p=0,01, Holm 0,03).
 - **Cuotas repetidas** (apoyado): 929 adyacentes idénticos vs 552 (p=0,0005; 20 quipus q<0,05), concentrados en los redondeados (p=1,7e-4). Ambas firmas: AS172, UR197, UR219, UR271.
 - Total antes de la lista: no es regla (solo UR118, UR119, UR275). Negativos: cantidad×precio=valor; tamaños quipus del Santa vs pachacas.
-- **Rosetta: negativa con potencia demostrada.** 10 208 pruebas, 0 con q<0,05; control positivo UR278→UR266 recuperado (q=7e-4); listas insertadas con 2 errores se detectan 89–100 %. Esperable: documentos de sierra/Charcas, corpus costero.
+- **Rosetta: negativa con potencia bien apoyada.** 10 208 pruebas, 0 con q<0,05; control positivo UR278→UR266 recuperado (q=7e-4); listas insertadas con 2 errores se detectan 89–100 %. Esperable: documentos de sierra/Charcas, corpus costero.
 - Lectura propuesta: filas = pueblos/ayllus; 1.ª columna = partida principal; columnas constantes = tasa fija; listas redondas repetidas = asignaciones; totales calculados fuera del quipu (explica la escasez de sumas internas de 08).
 Próximo: listas completas de *Textos Andinos* (Pärssinen y Kiviharju) o XML de Medrano; Chucuito 1567.
 
 ## 13 Sistema contable de Incahuasi (Opus) — hallazgo principal (pendiente de verificación independiente: 16)
 
 Entregables: `analisis/13_sistema_incahuasi/` (informe.md con diagrama y traducción, 12 scripts, grafo_cuerdas.csv, libro_consolidado.csv).
-- **Demostrado:** las parejas atadas son dos partes de un registro que se suman. UR273A_i + UR273B_i = cabecera en UR266/UR275/UR269: 8/18 exactas vs 1,3 (Holm 0,002); UR274A rellena huecos de UR273A. UR267A + UR267B = filas de UR269 con cuota 25: 3/6 vs 0,19 (Holm 0,005). Orden conservado (τ=1). *(corregido después: ver «Resultados ronda 7-8» y «Pruebas dirigidas sobre datos completos anonimizados»)*
-- **Demostrado:** cuota consolidada = suma de cuotas: 30 + 17 = 47; 15 + 10 = 25 (nuevo; ni Urton ni 04/09). *(corregido después: ver «16 Verificación independiente de 13»)*
-- **Demostrado:** UR270 = detalle: colgantes blancos = parte B, subsidiarias = parte A (Holm 0,006). Cada celda de UR278 = colgante + subsidiaria de UR270, columna a columna (5 grupos con 6–9/9 vs 0,003; p=0,0002).
+- **Bien apoyado:** las parejas atadas son dos partes de un registro que se suman. UR273A_i + UR273B_i = cabecera en UR266/UR275/UR269: 8/18 exactas vs 1,3 (Holm 0,002); UR274A rellena huecos de UR273A. UR267A + UR267B = filas de UR269 con cuota 25: 3/6 vs 0,19 (Holm 0,005). Orden conservado (τ=1). *(corregido después: ver «Resultados ronda 7-8» y «Pruebas dirigidas sobre datos completos anonimizados»)*
+- **Bien apoyado:** cuota consolidada = suma de cuotas: 30 + 17 = 47; 15 + 10 = 25 (nuevo; ni Urton ni 04/09). *(corregido después: ver «16 Verificación independiente de 13»)*
+- **Bien apoyado:** UR270 = detalle: colgantes blancos = parte B, subsidiarias = parte A (Holm 0,006). Cada celda de UR278 = colgante + subsidiaria de UR270, columna a columna (5 grupos con 6–9/9 vs 0,003; p=0,0002).
 - **Doble vía:** total por 9 columnas (UR270→UR278→UR266) y por 2 partes (UR270→UR273A/B→UR266) coinciden. Cabecera blanca en 73 % de 222 registros (31 % esperado). Copias nuevas UR273A–UR274A, UR273B–UR274B.
 - **Apoyado:** UR269 = libro maestro en bloques de 5 (periodos); fila 1 = flujo 47, fila 5 = flujo 25; cuotas 47, 46, 46, 44, 25 → 3 flujos perdidos. UR278 = 33 registros sucesivos del flujo 47 en 9 columnas de tamaño relativo estable. *(corregido después: ver «Cierre DeepSeek + equipo rojo»)*
 - **Negativos:** ningún nivel por encima de UR266 (13 260 pruebas); UR257 y JC (Sector B) aislados; neto jaspeado solo en UR275.
@@ -147,7 +147,7 @@ Entregables: `analisis/13_sistema_incahuasi/` (informe.md con diagrama y traducc
 | Totales UR278 = cabeceras UR266 en orden | sí, cifra menor | 11 pares exactos τ=1 (14 con ±1); 13 decía 15 |
 | UR267A+B → UR269 | parcial | 5/26 exactas en barrido completo (p=5e-4); 13 probó solo las 6 filas con cuota 25 |
 | Cuotas explícitas | parcial | 30 en 274A 17/26; 47 en 266 23/32 y 275 24/26; 15 y 10 en 21–26 de ~26; **17 explícito débil: 274B 12/33 (p=0,06), 273B 3/27** |
-Consecuencia: las dos relaciones centrales (A+B y UR270→UR278) quedan **demostradas y replicadas**. «47 = 30 + 17» baja a **apoyado**: el 17 se infiere sobre todo por aritmética (x − n = c), no por cuerda explícita. UR267→UR269 apoyado. *(corregido después: ver «Pruebas dirigidas sobre datos completos anonimizados»)*
+Consecuencia: las dos relaciones centrales (A+B y UR270→UR278) quedan **bien apoyadas y replicadas**. «47 = 30 + 17» baja a **apoyado**: el 17 se infiere sobre todo por aritmética (x − n = c), no por cuerda explícita. UR267→UR269 apoyado. *(corregido después: ver «Pruebas dirigidas sobre datos completos anonimizados»)*
 
 ## 17 OKR pendientes y tabla puente (Haiku)
 Entregables: `analisis/17_okr_pendientes/` (puente.csv, cuerdas_extra.csv, inventario_manual.csv, informe.md).
@@ -182,7 +182,7 @@ Después: búsqueda de antecedentes (OpenAlex + DeepSeek + Sonnet para dudosos).
 Veredicto: las dos relaciones centrales quedan confirmadas por tercera vía independiente.
 
 ## Parciales 2026-10-18 00:40 (equipo rojo, predicción, DeepSeek tanda 2)
-- 18 equipo rojo (parcial): A+B UR273 sobrevive corrección por jardín de senderos (p corr 0,015). UR267A+B→cabeceras UR269 NO (p corr 0,32) → "no demostrada". Búsqueda completa de pares-suma en otros archivos (~46k pruebas): nada comparable; el sistema encadenado es exclusivo de Incahuasi. Sumas no son números "fáciles".
+- 18 equipo rojo (parcial): A+B UR273 sobrevive corrección por jardín de senderos (p corr 0,015). UR267A+B→cabeceras UR269 NO (p corr 0,32) → "no bien apoyada". Búsqueda completa de pares-suma en otros archivos (~46k pruebas): nada comparable; el sistema encadenado es exclusivo de Incahuasi. Sumas no son números "fáciles".
 - 19 predicción (parcial): LOO en Incahuasi, cuerda con redundancia: exacta 67 % (sin redundancia 18 %); dos vías concordantes 77 %, discordantes 7 %.
 - n_que_se_contaba: demografía descartada (CV 9 columnas UR278 = 0,18; pirámides exigen 0,5-0,9; p<2,5e-4). Positivo: 9 partes administrativas equilibradas. Sin llenado de unidades decimales. Unidad = bulto (10-50 kg), no ítem. Benford inútil.
 - n_okr_resto: KH0674/0675 transcritos (cierran con portadas), KH0676 convertido (regla aditiva, apoyado). Errata OKR: KH0676 = Brooklyn 36.718, no 80.1012. 11/21 discrepancias del equipo 17 eran errores de su parser → desconfiar de VALIDACION de 17. AS008: cuerda de 17.612 ausente en KFG. KH0632 sin datos.
@@ -195,7 +195,7 @@ Veredicto: las dos relaciones centrales quedan confirmadas por tercera vía inde
 
 ## Parciales 2026-10-18 01:00
 - n_santa_padron: orden del padrón 1670 vs quipus Santa NO se sostiene (p=0,18; p=0,0056 previo era circular → 0,24). Nuevo: en UR087 color de primera cuerda = seriación de período 4; UR092 ciclo de 5 colores. 44 % de grupos: color = posición, no identidad.
-- t_cuerdas_superiores: 23/72 superiores = suma exacta del grupo contiguo anterior (nulo 2,4; Holm 0,0035), grupos de tamaño 6 casi siempre; color no es criterio. Demostrado.
+- t_cuerdas_superiores: 23/72 superiores = suma exacta del grupo contiguo anterior (nulo 2,4; Holm 0,0035), grupos de tamaño 6 casi siempre; color no es criterio. Bien apoyado.
 - t_ceros: 726 cuerdas con cero posicional interno; el hueco mide ~1 banda (ratio 0,96); alineación decimal local por grupos.
 - t_espaciado: espacios entre grupos no delimitan secciones aritméticas; posición de nudos ordinal y redundante.
 - t_valores_frecuentes: 10/15/20/40 no son especiales; solo 100 (2,05×) sobrevive limpio → pachaca o redondeo. "Estándar 15" y "47" de Incahuasi = artefacto de copias en el nulo de vocabulario (no contradice cuotas en flujos, sí su lectura como vocabulario del sitio).
@@ -234,7 +234,7 @@ Veredicto: las dos relaciones centrales quedan confirmadas por tercera vía inde
 - ant_resto: R2 (seriación de color Santa) YA PUBLICADO por FitzPatrick 2024 → citar o retirar. R3: el p=0,0056 era nuestro; el p=0,02985 de FitzPatrick es el mejor de 20 alineaciones (sin corregir ~0,60): crítica nueva. Contreras 2026 no valida numéricamente el match de Santa. R8 (erratas) claramente nuevo (0 en literatura e issues). R4 canutos: aporte real, contradice Milillo 2024 (un solo quipu: 23/24). R6 ceros posicionales: evidencia directa contra Florio & Overmann 2025 (niegan posicional/cero) → alto valor teórico. R5: no es hombre de paja de Urton, formular como "la dualidad no se manifiesta como simetría especular". R1, R9 incrementales (Locke 1927; Medrano 2019).
 - n_fuera_muestra: 1a (UR273A+B) SOBREVIVE fuera de muestra: mitades 5/9 (p 1,3e-4) y 3/9 (p 0,004), Holm 0,016. Predicción UR274A por UR273A en blanco: 3/4 (no 3/3). 1b (267A+B) CAE (Holm 0,50). Posición en UR269 CAE. Cuota por paridad no confirma.
 - n_okr_incahuasi: OKR confirma el núcleo con las mismas cifras (Holm ≤ 0,0021). KFG pierde 111 cuerdas en Incahuasi (UR256 +58, UR274B +32…). Cuota 17 en UR274B se refuerza (p 0,086→0,004); UR273B sigue sin 17. Ninguna relación nueva. Usar OKR como base de Incahuasi (cuerdas_okr.csv).
-- n_simulador: ATENCIÓN, corregido por el coordinador. Afirmaba que los 8 fallos A+B difieren exactamente 10^k (p=2e-16), pero los destinos venían del campo en_resumen de 13 (elegidos con tolerancia) y el nulo usaba destinos al azar: circular. Nulo correcto (¿hay alguna cabecera del pool a ±10^k?): 7/10 fallos vs 2,18 esperados, p ≈ 0,0015 (18 y 19 suman igual: no independientes). Firma "error de un racimo" = apoyado, no demostrado. Válido: el 8/18 no es ruido de transcripción (tasa 0,22 %); UR270→UR278 es mezcla (filas derivadas vs independientes); KFG y OKR de Incahuasi los firmó la MISMA transcriptora → no son lecturas independientes. Cuerdas vacías estructurales por rol.
+- n_simulador: ATENCIÓN, corregido por el coordinador. Afirmaba que los 8 fallos A+B difieren exactamente 10^k (p=2e-16), pero los destinos venían del campo en_resumen de 13 (elegidos con tolerancia) y el nulo usaba destinos al azar: circular. Nulo correcto (¿hay alguna cabecera del pool a ±10^k?): 7/10 fallos vs 2,18 esperados, p ≈ 0,0015 (18 y 19 suman igual: no independientes). Firma "error de un racimo" = apoyado, no bien apoyado. Válido: el 8/18 no es ruido de transcripción (tasa 0,22 %); UR270→UR278 es mezcla (filas derivadas vs independientes); KFG y OKR de Incahuasi los firmó la MISMA transcriptora → no son lecturas independientes. Cuerdas vacías estructurales por rol.
 - n_nueve_partes: mismas 9 unidades en el mismo orden en UR270 y UR278 (identidad fija). Planitud excepcional (7/8 grupos de 9 con CV<0,2 del corpus son de UR278). Proporciones varían por registro (unidades reales, no reparto fijo). No hay 9 documentado en Cañete (Lunahuaná 4 guarangas × 2 = 8 +1). 9 pachacas en Cajamarca y Collaguas. Propuesto: 9 pachacas de una guaranga. *(corregido después: ver «paquete_revision (Opus) listo y correcciones»)*
 - n_almacenes: la unidad no puede pesar < 3,4-10,4 kg (capacidad Qolqawasi). La unidad es un VOLUMEN (saco 30-55 L), no masa. Cada columna ≈ 1,2-2 cámaras grandes. El test de capacidad solo excluye, no confirma. *(corregido después: ver «Corrección de escala»)*
 - n_otros_sistemas: Uruk (2 niveles) y Exchequer (2-3) consolidan; nadie tiene 4 niveles con doble vía. Warazan de Okinawa: decimal anudado con cuotas → el decimal anudado no es exclusivamente andino. Monte Sierpe sin censo por bloque publicado. Copias = efecto de archivo.
@@ -302,13 +302,13 @@ Textos en `analisis/fuentes_txt/Urton2017_InkaHistoryInKnots.txt` (cap. 9 = lín
 ## Prueba ciega con Opus (quipu_ciego3, puntuada por el coordinador, 05:30)
 Mismos datos anonimizados y las mismas 597 cuerdas ocultas que las corridas de DeepSeek Flash. Puntuación guardada aparte (sellado/puntuacion_quipu_ciego3.csv).
 - **Predicciones: 68 cuerdas (11,4 %), 56 exactas (82,4 %).** Confianza alta: 21/23 (91 %; el modelo esperaba 92 %). Media: 35/45 (78 %; esperaba 71 %). Base de la moda: 14,4 %. Flash dio 33/45 (73 %) y 35/46 (76 %). Opus está **bien calibrado** y cubre algo más.
-- **Redescubrió H2 a ciegas.** Q21↔Q29 = **UR270 ↔ UR278**, celda a celda, con **colgante + subsidiaria**, separadores alineados y p ≈ 3e-10. Es la primera confirmación independiente de H2: el agente no conocía nuestro resultado, ni la regla P+S1, ni la identidad de los quipus. Nivel de H2: sube de apoyado a **demostrado** (replicación ciega).
+- **Redescubrió H2 a ciegas.** Q21↔Q29 = **UR270 ↔ UR278**, celda a celda, con **colgante + subsidiaria**, separadores alineados y p ≈ 3e-10. Es la primera confirmación independiente de H2: el agente no conocía nuestro resultado, ni la regla P+S1, ni la identidad de los quipus. Nivel de H2: sube de apoyado a **bien apoyado** (replicación ciega).
 - También encontró: UR275 → UR266 (los totales de grupo de UR275 reaparecen como colgantes de UR266, en orden; p ≈ 1.6e-7), UR256↔UR267B reordenada, UR255↔UR267A con 15, y las cuotas 47/15/10/208/30/17.
 - **No encontró H1** (A+B → libro: "No sums of two quipus appearing in a third") **ni H3** (UR278 → UR266). Ninguna de las tres corridas ciegas halló H1. Su evidencia depende de la regla de alineación (por número de grupo sin saltar vacíos), elegida con conocimiento previo, y en el equipo rojo quedó en p = 0,015. **H1 baja a apoyado, frágil.** Conviene una prueba ciega dirigida: darle la regla de alineación a un agente nuevo y pedirle solo sumas de dos quipus en un tercero.
 - ¿Las fallas se deben al modelo (DeepSeek Flash)? **En parte**: Opus halló H2 y Flash no. Pero H1 no aparece con ningún modelo.
 
 ## Prueba dirigida A+B (Opus ciego, 05:35) y tareas terminadas
-- **Prueba dirigida A+B.** Regla fija: alineación por grupo, P+S1, separadores PK; 132 600 triples ordenadas; 60 nulos por triple. **Ninguna triple sobrevive a Holm** (la menor p corregida es 0,93). Pero las triples **UR273A+UR273B → UR275** y **→ UR266** quedan **8.ª y 9.ª de 132 600** (4 frente a 0,40 esperados, y 5 frente a 0,70; p crudas 8e-4). Son el par físico mejor clasificado. Post hoc: 6 sumas ≥ 1000 caen en totales de grupo de UR275/UR266 (808+2142 = 2950, 453+1200 = 1653, 448+1332 = 1780, 672+1575 = 2247, 509+1256 = 1765, 325+1181 = 1506) frente a 0,49 esperadas (p ≈ 5e-4). **Veredicto sobre H1: apoyado, no demostrado.** El agente ciego llega al mismo par y a los mismos libros, pero solo como pista; con una búsqueda genérica sobre todo el corpus no resiste la corrección. Para demostrarla haría falta un dato nuevo: un quipu con otro par A/B, o la verificación de las cuerdas en museo.
+- **Prueba dirigida A+B.** Regla fija: alineación por grupo, P+S1, separadores PK; 132 600 triples ordenadas; 60 nulos por triple. **Ninguna triple sobrevive a Holm** (la menor p corregida es 0,93). Pero las triples **UR273A+UR273B → UR275** y **→ UR266** quedan **8.ª y 9.ª de 132 600** (4 frente a 0,40 esperados, y 5 frente a 0,70; p crudas 8e-4). Son el par físico mejor clasificado. Post hoc: 6 sumas ≥ 1000 caen en totales de grupo de UR275/UR266 (808+2142 = 2950, 453+1200 = 1653, 448+1332 = 1780, 672+1575 = 2247, 509+1256 = 1765, 325+1181 = 1506) frente a 0,49 esperadas (p ≈ 5e-4). **Veredicto sobre H1: apoyado, no bien apoyado.** El agente ciego llega al mismo par y a los mismos libros, pero solo como pista; con una búsqueda genérica sobre todo el corpus no resiste la corrección. Para demostrarla haría falta un dato nuevo: un quipu con otro par A/B, o la verificación de las cuerdas en museo.
 - **n_tanteo.**
   - Sobreviven en la mitad de confirmación: (1) UR275 como depósito repartido, cabecera = cuota + destinos (15/16); (2) **las 9 partes de UR278 son proporciones estables que predicen filas no vistas** (Holm 0,002); (3) una cuota fija, no un 2 % (la tasa va de 1,1 a 3,7 %).
   - Negativo: no hay dinámica de saldo en UR273/274 (0/63).
@@ -324,15 +324,15 @@ Mismos datos anonimizados y las mismas 597 cuerdas ocultas que las corridas de D
 - **n_agronomia** (Flash, con web): calendario del maní, el ají y el frijol en la costa sur; rendimientos; conversión de 61 790 unidades a hectáreas y tributarios; ¿9 periodos o 9 chacras?
 - **Prueba dirigida de H3** (Opus ciego): ¿las filas de 9 de algún registro suman a valores de otro?
 
-## Pruebas dirigidas sobre datos completos anonimizados (Opus ciego, 05:55): H3 DEMOSTRADA
+## Pruebas dirigidas sobre datos completos anonimizados (Opus ciego, 05:55): H3 BIEN APOYADA
 Las reglas, los nulos y las correcciones Holm se congelaron antes de mirar. El agente no conoce la identidad de los quipus.
 - **H3 sobrevive con fuerza.** Las filas de 9 de Q29 (UR278) suman a valores de Q44 (UR266): 11 aciertos frente a 0,4–0,5 esperados, **Holm p = 1,6e-9**. También a los totales de grupo de Q35 (UR275): 7 frente a 0,5, Holm 2,8e-4. Los aciertos están **en el mismo orden** (rho = 1,0; post hoc 1/11! ≈ 2,5e-8). Ejemplos: 3618, 1506, 1384, 2919, 2089, 1842, 1876, 2229, 4273, 2950, 1278.
 - Es una **consolidación de tres niveles**: UR278 → totales de UR275 → colgantes blancos de UR266. Las cuerdas destino reveladas son ≤ 15 %, es decir, al nivel del azar, así que los aciertos no dependen de los valores antes ocultos.
-- **Nivel de H3: demostrado.** El agente la encontró a ciegas, con una regla preespecificada y corrigiendo por todos los pares T × C. Salvedad: elegí la familia "tablas de 9" sabiendo que existía UR278, aunque solo 2 registros la cumplen, así que la multiplicidad es baja.
+- **Nivel de H3: bien apoyado.** El agente la encontró a ciegas, con una regla preespecificada y corrigiendo por todos los pares T × C. Salvedad: elegí la familia "tablas de 9" sabiendo que existía UR278, aunque solo 2 registros la cumplen, así que la multiplicidad es baja.
 - **H1 (UR273A+B) sigue sin sobrevivir a Holm sobre las 132 600 triples** (la mejor p cruda es 7,4e-5 y el umbral es ~3,8e-7). Pero Q12a/Q12b ocupan **4 de los 5 primeros puestos** de 132 600, con destino UR275 y UR266. Post hoc: 7 sumas ≥ 1000 caen en los mismos totales que las filas de UR278 (p empírica ≈ 5e-4).
   - Con la familia natural "pares atados físicamente → registros" (3 pares × 2 órdenes × 51 = 306 pruebas), 7,4e-5 × 306 ≈ 0,02. Pero esa familia también se define después de los datos.
-  - **Nivel de H1: apoyado (fuerte); no demostrado.** Converge con H3: A+B y las filas de UR278 caen en los MISMOS totales (2950, 1506…), es decir, son dos vías al mismo libro.
-- Resumen del sistema: **UR270 → UR278** (demostrado, ciego) → **UR275/UR266** (demostrado, ciego dirigido); **UR273A+B → UR275/UR266** (apoyado); copias y cuotas (publicadas).
+  - **Nivel de H1: apoyado (fuerte); no bien apoyado.** Converge con H3: A+B y las filas de UR278 caen en los MISMOS totales (2950, 1506…), es decir, son dos vías al mismo libro.
+- Resumen del sistema: **UR270 → UR278** (bien apoyado, ciego) → **UR275/UR266** (bien apoyado, ciego dirigido); **UR273A+B → UR275/UR266** (apoyado); copias y cuotas (publicadas).
 
 ## Pärssinen y Kiviharju 2004 (introducción) y Curatola y de la Puente 2013 (05:58)
 Textos en `analisis/fuentes_txt/Parssinen2004_TextosAndinos_parcial.txt` y `Curatola2013_ContarConcertando.txt`. Pasados al agente de plantillas.
@@ -350,7 +350,7 @@ Textos en `analisis/fuentes_txt/Parssinen2004_TextosAndinos_parcial.txt` y `Cura
 
 Verificado por el coordinador sobre los datos: unión R/V, Friedman, Spearman, texto de los guancayos.
 
-- **La unión R/V es un código, no manufactura (demostrado en Incahuasi).** UR273A: 83 V / 0 R; UR273B: 113 R / 1 V; UR267A: 82 V; UR267B: 103 R. Las dos mitades de cada obra llevan unión opuesta. Por eso la unión no sirve como firma de mano. Resto de n_materiales: la manufactura identifica lotes o depósitos, no artesanos; la firma de 4 ejes no identifica (15,4 % de pares idénticos, igual al azar); las copias reproducen contenido, no gesto técnico. *(corregido después: ver «Quipus modernos, Narrative Threads y lingüística»)*
+- **La unión R/V es un código, no manufactura (bien apoyado en Incahuasi).** UR273A: 83 V / 0 R; UR273B: 113 R / 1 V; UR267A: 82 V; UR267B: 103 R. Las dos mitades de cada obra llevan unión opuesta. Por eso la unión no sirve como firma de mano. Resto de n_materiales: la manufactura identifica lotes o depósitos, no artesanos; la firma de 4 ejes no identifica (15,4 % de pares idénticos, igual al azar); las copias reproducen contenido, no gesto técnico. *(corregido después: ver «Quipus modernos, Narrative Threads y lingüística»)*
 - **9 columnas de UR278 = lista fija de 9 subunidades desiguales, ordenadas de mayor a menor (n_nueve_unidades).** Friedman p < 1e-15; Spearman con la posición −0,73 (p = 0,025). Se descarta el tiempo: no hay estacionalidad ni autocorrelación, y n_agronomia tampoco encuentra calendario de cosecha que encaje (CV 0,17 frente a 1,2–2,0 predicho). Hay emparejamiento: el mejor de 945, (1-2)(3-6)(4-9)(5-7) + c8, tiene p = 0,002, aunque solo el par (1,2) es robusto.
 - **Ancla textual (Rostworowski, líneas 369–371 y 2601).** Los guancayos del Chillón tenían **9 pachacas bajo 5 señores: uno con una pachaca y cuatro con dos (1 + 4×2)**, y tributaban 5 cestos de coca por pachaca (45 en total). Es exactamente la estructura de «4 pares + 1 suelta» que el test de emparejamiento favorece. **Propuesto:** las 9 columnas son pachacas, y los pares, pachacas bajo un mismo señor. En Lunahuaná no hay un 9 documentado (4 guarangas, 8 curacas). *(corregido después: ver «Ronda 14: resultados y DEGRADACIONES»)*
 - **Tributo colonial = cuota fija por cabeza (Rostworowski 1577/1590):** 0,5 piezas de ropa y ~1 ave por tributario, estables aunque la población cae 36 %. Es coherente con la cuota 47 absoluta (1,1–4,2 % del registro, no un 2 %).
@@ -406,7 +406,7 @@ Pruebas hechas por el coordinador; scripts en `analisis/20_categorias/`. Colores
   - Las secuencias de color de grupo repetidas entre quipus no superan el nulo de orden barajado dentro del grupo: 48 frente a 50, p = 0,79.
 
   Esto confirma la línea 47: sin frases compartidas.
-- **Dentro de cada quipu, el color sí marca clase.** El color predice la magnitud del valor en 167 de 403 quipus (q < 0,05, frente a ~20 esperados; η² mediano 0,16). En 103 se sostiene aun barajando el color dentro de cada grupo, lo que descarta un simple efecto de grupo o posición. **Demostrado:** el color funciona como categoría con clave local, propia de cada quipu o archivo. *(corregido después: ver «Ronda 14: resultados y DEGRADACIONES»)*
+- **Dentro de cada quipu, el color sí marca clase.** El color predice la magnitud del valor en 167 de 403 quipus (q < 0,05, frente a ~20 esperados; η² mediano 0,16). En 103 se sostiene aun barajando el color dentro de cada grupo, lo que descarta un simple efecto de grupo o posición. **Bien apoyado:** el color funciona como categoría con clave local, propia de cada quipu o archivo. *(corregido después: ver «Ronda 14: resultados y DEGRADACIONES»)*
 - **Modelo «formulario local» (apoyado).** Números universales, con la gramática decimal. Categorías marcadas por color y posición dentro de un formulario cuya clave es local. Lo apoyan:
   - alfabetos de 5–19 colores;
   - la ausencia de léxico compartido;
@@ -430,7 +430,7 @@ Pruebas hechas por el coordinador; scripts en `analisis/20_categorias/`. Colores
 
 ## Quipus modernos, Narrative Threads y lingüística (06:25)
 
-- **CORRECCIÓN del R/V (n_narrative_threads).** Las tres parejas A/B de Incahuasi tienen unión opuesta, pero en el corpus solo 6 de 14 pares A/B la tienen opuesta, frente a 28 % por azar (p = 0,16; Fisher contra pares del mismo sitio p = 0,58). Bajo de «demostrado» a **«convención de archivo propuesta»**. Sigue apoyado que los pares A/B son mitades de una misma obra (Jaccard de valores 0,53 frente a 0,27). n_linguistica: la unión es el marcador de GRUPO más fuerte del corpus (segregación 0,43; Holm 0,010).
+- **CORRECCIÓN del R/V (n_narrative_threads).** Las tres parejas A/B de Incahuasi tienen unión opuesta, pero en el corpus solo 6 de 14 pares A/B la tienen opuesta, frente a 28 % por azar (p = 0,16; Fisher contra pares del mismo sitio p = 0,58). Bajo de «bien apoyado» a **«convención de archivo propuesta»**. Sigue apoyado que los pares A/B son mitades de una misma obra (Jaccard de valores 0,53 frente a 0,27). n_linguistica: la unión es el marcador de GRUPO más fuerte del corpus (segregación 0,43; Holm 0,010).
 - **n_quipus_modernos:**
   - Solo Cutusuma publica una tabla cuerda por cuerda (7 cuerdas): la Rosetta moderna es mínima.
   - Las convenciones modernas «torsión = mitad», «subsidiaria = cría proporcional» y «Z vale menos» NO están en el corpus antiguo: son innovaciones coloniales o modernas. La torsión marca secciones (bloques, z = −13,5) y no mitades.
@@ -568,9 +568,9 @@ El diseño se congeló en `analisis/22_formularios/diseno.md`, con 5 desviacione
   - valores barajados: 0 detecciones;
   - colores barajados: 3–5 falsos frente a 73 reales.
 - **Tasa:** 150 de 410 quipus con ≥30 cuerdas (36,6 %) tienen un formulario detectable. En 69 (16,8 %) la clave es el color y en 83 (20,2 %) los bloques coescalan. **Apoyado:** el formulario es un rasgo frecuente, no una rareza.
-- **Formularios de archivo confirmados (BH): 20. Locales demostrados: 4** (UR053A–E, UR267A/B, UR131A–C, UR141 + UR149). Dos no son registros independientes: UR267A/B son mitades y UR131A–C es un juego. 138 de 200 tipos no se pudieron confirmar porque los archivos son pequeños.
+- **Formularios de archivo confirmados (BH): 20. Locales bien apoyados: 4** (UR053A–E, UR267A/B, UR131A–C, UR141 + UR149). Dos no son registros independientes: UR267A/B son mitades y UR131A–C es un juego. 138 de 200 tipos no se pudieron confirmar porque los archivos son pequeños.
 - **UR053A–E:** W:R entre 0,66 y 0,80 en 5 quipus cuya escala varía 70 veces (Holm 0,003; específico del archivo p = 0,042). Dentro de cada quipu no coescala fila a fila. Es una **clave de archivo, no de registro**.
-- **Incahuasi:** P3 y W|NB|AB confirmados (Holm 0,006 y 0,038). El grupo de 9 solo post hoc (p = 0,022). Especificidad no demostrada (p = 0,063).
+- **Incahuasi:** P3 y W|NB|AB confirmados (Holm 0,006 y 0,038). El grupo de 9 solo post hoc (p = 0,022). Especificidad no bien apoyada (p = 0,063).
 - **PREDICCIÓN DE REFUTACIÓN: no se cumple.**
   - Ningún par de archivos sin relación comparte la clave según el criterio congelado. Con definición estricta: 1 frente a 0,4 esperados (p = 0,33).
   - Mismo motivo con el mismo reparto: 25 % de los pares dentro de un archivo frente a 5,5 % entre archivos (OR 5,75; p = 0,0007).
@@ -580,7 +580,7 @@ El diseño se congeló en `analisis/22_formularios/diseno.md`, con 5 desviacione
 ## Ronda 14: resultados y DEGRADACIONES (13:10)
 
 - **n_rojo_formulario (equipo rojo): baja varias afirmaciones del coordinador.**
-  - **«Color = categoría» (167 de 403): de DEMOSTRADO a PROPUESTO.**
+  - **«Color = categoría» (167 de 403): de BIEN APOYADO a PROPUESTO.**
     - Con el nulo correcto: 103–108.
     - Controlando posición, número de racimos y largo: 44.
     - Sin totales, máximas ni copias: 19 de 317 frente a 15,9 esperados (p = 0,24).
@@ -596,7 +596,7 @@ El diseño se congeló en `analisis/22_formularios/diseno.md`, con 5 desviacione
   - **UR278, 2+1+2+2+2: retirado como confirmación.** Los recortes contiguos dan 6, 11, 10, 9 y 9 (verificado por el coordinador); el del documento es el máximo por una igualdad (p = 0,20). Unas 7,5 de las 11 igualdades se esperan solo por adyacencia.
 - **n_cuota_entrega:**
   - «P = cuota, S1 = entrega»: **no se sostiene**. P no es más redondo controlando magnitud (p = 1,0), y S1 > P en el 24 % de las celdas.
-  - **Demostrado:** la celda de UR278 es P+S1 (5 grupos con ≥ 6/9 columnas; con solo P o solo S1, 0 grupos; p = 0,0002). P suma la cabecera del componente B de UR273B (4/9, p = 0,0004). Nombres nuevos: componente B / componente A.
+  - **Bien apoyado:** la celda de UR278 es P+S1 (5 grupos con ≥ 6/9 columnas; con solo P o solo S1, 0 grupos; p = 0,0002). P suma la cabecera del componente B de UR273B (4/9, p = 0,0004). Nombres nuevos: componente B / componente A.
   - UR270 g6, con todos los P en {100, 200}, es único (1 de 142) y su sentido es desconocido.
   - KFG y OKR coinciden en el 99,8 % de los valores de Incahuasi.
 - **n_nudos_imposibles (corrige a n_narrative_threads):**
@@ -670,13 +670,13 @@ El diseño se congeló en `analisis/22_formularios/diseno.md`, con 5 desviacione
   | KH0001 | 0,736 | 0,716 | 0,39 |
 
   Con el diccionario independiente de Huarochirí el resultado es el mismo: UR193 p = 0,62, UR039 p = 1, UR112 p = 1.
-- **Veredicto (demostrado con sus propios datos y reglas):** el orden de los nudos no aporta ninguna palabra quechua más allá de lo que da la distribución de vueltas. La «cobertura» del 92–97 % es propiedad del mapeo, que se ajustó a valores frecuentes con sílabas CV frecuentes, y del diccionario con prefijos. No es una lectura. Coincide con n_descifrado_lm (control positivo no recuperado; «mejor que barajado» premia la rigidez) y con n_linguistica, que ya advertía contra el argumento de entropía de Sivan.
+- **Veredicto (bien apoyado con sus propios datos y reglas):** el orden de los nudos no aporta ninguna palabra quechua más allá de lo que da la distribución de vueltas. La «cobertura» del 92–97 % es propiedad del mapeo, que se ajustó a valores frecuentes con sílabas CV frecuentes, y del diccionario con prefijos. No es una lectura. Coincide con n_descifrado_lm (control positivo no recuperado; «mejor que barajado» premia la rigidez) y con n_linguistica, que ya advertía contra el argumento de entropía de Sivan.
 - **Convergencia:** los quipus «de texto» de ALBA (UR039, UR112, UR193, UR144) son exactamente nuestro género aditivo/tally con torsión Z (sección anterior). Lo que ALBA lee como sílabas, nuestros datos lo explican como conteos aditivos de nudos largos de varias vueltas.
 - **Salvedades:** usamos KFG y no OKR, y aproximamos su definición de cuerdas STRING con «≥ 2 nudos L de 2–12». Para replicar del todo habría que correr su extractor sobre OKR; no se ha hecho porque supone ejecutar código externo.
 - **Réplica sobre las cuerdas STRING del PROPIO ALBA** (`reproducibility/cord_by_cord.csv`, MIT; 2 191 cuerdas, 69 quipus). Palabra = racha de nudos L entre nudos S; mapeo v3 fijo; diccionario Kaikki ampliado; barajado de vueltas dentro de cada quipu; 500 permutaciones (`analisis/23_sivan_ur193/control_cord_by_cord.py` y `.csv`).
   - Hay 24 quipus con ≥ 10 palabras. Media real 0,808 frente a 0,818 barajada.
   - En 11 de 24 lo real supera a lo barajado. Ninguno tiene p < 0,05 (q_BH mínimo 1,0).
-  - **El silabario ALBA no lee nada que no lea también una secuencia al azar con las mismas vueltas. Demostrado.**
+  - **El silabario ALBA no lee nada que no lea también una secuencia al azar con las mismas vueltas. Bien apoyado.**
 - **Qué trae el repo ALBA:** no hay datos primarios nuevos; todo deriva de OKR y KFG. Es útil por:
   - los léxicos: Kaikki quechua 2 060, quechua_strict_clean, alba_complete_dictionary e IDS aymara (licencia MIT; citar);
   - su clasificación STRING/INT por cuerda;
@@ -745,7 +745,7 @@ El diseño se congeló en `analisis/22_formularios/diseno.md`, con 5 desviacione
 - **Dentro frente a entre archivos, con el investigador fijo:** 25 de 96 frente a 0 de 35 (p = 0,0002; OR 5,5). **Pero sin UR053A–E deja de ser significativo** (p = 0,135); la dirección se mantiene.
 - **Nivel del modelo «formulario local».** Se mantiene **apoyado**, con dos lecturas según la parte:
   - **«Sin clave compartida entre archivos»** es un negativo con potencia, también con el transcriptor fijo. Es la parte más sólida.
-  - **«Clave local demostrada»** descansa casi solo en UR053A–E, más los formatos de Incahuasi y de Nazca/Berlín. Hacen falta más archivos con varios quipus del mismo investigador.
+  - **«Clave local bien apoyada»** descansa casi solo en UR053A–E, más los formatos de Incahuasi y de Nazca/Berlín. Hacen falta más archivos con varios quipus del mismo investigador.
 
 ## Ronda 16 lanzada (14:05)
 
@@ -772,7 +772,7 @@ El diseño se congeló en `analisis/22_formularios/diseno.md`, con 5 desviacione
   - `lectura.md`: los 14 quipus en orden de flujo, con diagrama; frase de lectura por tipo de cuerda; 13 preguntas abiertas priorizadas; párrafo en lenguaje llano;
   - `tabla_traducida.csv`: 1 461 cifras con papel, lectura, enlace, nivel y fuente;
   - `coherencia.py`: 12 de 12 cifras clave recalculadas; las cabeceras de UR275 suman 56 446, como en Urton y Chu 2018.
-- **Lectura del sistema (propuesta; los componentes están demostrados o apoyados): cuadre cruzado.**
+- **Lectura del sistema (propuesta; los componentes están bien apoyados o apoyados): cuadre cruzado.**
   - UR270 es una matriz de 9 unidades × 2 partes por registro.
   - UR278 suma por unidad.
   - UR273A/B suman por parte.
@@ -876,7 +876,7 @@ El diseño se congeló en `analisis/22_formularios/diseno.md`, con 5 desviacione
 - **El cuadre por dos caminos no está documentado en Uruk.** El de Incahuasi queda como rasgo propio (propuesto, con analogía débil).
 - Errores de escriba: el libro no da tasas, solo casos. 4 de los 8 textos MSVO 3 que analiza tienen errores, sobre todo omisiones. En UR278 los fallos son de un dígito. P6 (omisión de una celda) es negativa: 2 frente a 3,9 esperado.
 - Pruebas nuevas (Holm sobre 11):
-  - P5b: las columnas de UR278 son decrecientes (tau −0,41; Holm 0,002). Demostrado; ya era apoyado.
+  - P5b: las columnas de UR278 son decrecientes (tau −0,41; Holm 0,002). Bien apoyado; ya era apoyado.
   - **P5c: en el corpus sin Incahuasi, el valor mayor va primero en el 25,9 % de los grupos, frente al 15,2 % esperado (Holm 0,002). Apoyado, es nuevo:** la convención «la cuerda mayor abre el grupo» va más allá de Incahuasi y Nazca.
   - P5a: no hay orden monótono general (Holm 0,055).
 - **Lección de método (NDE p. 25):** hasta 1983 los desajustes protocuneiformes se atribuían a «errores de cálculo» de los escribas, cuando eran sistemas no reconocidos. → Los 13/24 fallos de UR278→UR266 podrían ser en parte una convención no reconocida. Candidata a prueba: ¿son sistemáticos (misma columna, mismo dígito, mismo signo)? *(corregido después: ver «Desajustes UR278 → libro: ¿convención o error?»)*
@@ -903,7 +903,7 @@ El diseño se congeló en `analisis/22_formularios/diseno.md`, con 5 desviacione
 - Aviso: la fila g29 (1507) enlaza con UR266 g2 = 1506, que ya es el destino exacto de g1. Revisar si es un registro duplicado.
 
 ### 30_frontera_estructura (Opus), cerrado; el coordinador reprodujo 07_ur122_kh0049.py
-- De los 180 de la frontera solo salen 3 con las reglas congeladas y un nulo más estricto: **UR040, UR167 (demostrado, Holm 0,025) y UR1033F (apoyado)**. La familia común es la **alternancia de dos colores A/B/A/B**, la única que se replicó en la mitad de confirmación (q 0,003). En el corpus hay 19 quipus así: 15 ya eran TAB/FOR y 5 están en el Peabody. Se lee como una tabla de dos columnas escrita intercalada; en UR1033F, AB > W en 14/16.
+- De los 180 de la frontera solo salen 3 con las reglas congeladas y un nulo más estricto: **UR040, UR167 (bien apoyado, Holm 0,025) y UR1033F (apoyado)**. La familia común es la **alternancia de dos colores A/B/A/B**, la única que se replicó en la mitad de confirmación (q 0,003). En el corpus hay 19 quipus así: 15 ya eran TAB/FOR y 5 están en el Peabody. Se lee como una tabla de dos columnas escrita intercalada; en UR1033F, AB > W en 14/16.
 - **Nuevo, fuerte y post hoc: KH0049, copia completa de UR122, es una tabla jerárquica de 3 niveles con totales por columna.** En bloques de 18 cuerdas, B0 = B1+B2 en 14/18 posiciones exactas y B1 = B3+B4+B5 en 7/18; el nulo da como máximo 6 y 4 (p 5e-5; reproducido). UR122 copia la sección de subtotales. La discrepancia 15652/15649 está en las dos copias, así que viene del original. Nivel apoyado, por ser post hoc. **Corrige a 10_tablas:** la columna-total ya no es «solo Incahuasi»; hay un segundo caso, Nazca (Gotemburgo/Lima). PENDIENTE: verificar si Ascher o Urton ya lo publicaron. *(corregido después: ver «Cabos sueltos, paquete de revisión»)*
 - El diseño congelado era laxo: dejaba salir 22. La enmienda 3, un nulo que conserva rachas y que solo puede subir p, quitó 19 sin perder los controles reales (UR1107/UR237 y HP055/UR1084 siguen en p 5e-4). Las fronteras nulas dejan salir 0.
 - Negativos limpios: periodicidad, repeticiones internas, pares de suma igual y relaciones entre quipus del mismo museo o sitio (solo sobrevive el ya conocido UR1118≈UR218). Propuestos: subsidiarias que escalan con su colgante por rango y tendencias monótonas, sin replicación.
@@ -914,7 +914,7 @@ El diseño se congeló en `analisis/22_formularios/diseno.md`, con 5 desviacione
 
 ### 33_estematica (Opus), cerrado; el coordinador verificó UR1104→UR234 en cuerdas.csv
 - Barrido de los 201 930 pares, con un nulo que permuta rachas. Recupera 5 de 7 controles por tramos; los otros 2, que comparten cabeceras y no tramos, con una prueba sin orden post hoc. De los 25 pares de 04 recupera 23.
-- **Copia nueva (no publicada; grep y web): UR1104 (AS104, Berlín, Pachacamac; Ascher) reproduce en orden las cabeceras de 9 registros de UR234 (Berlín; Urton).** Verificado: 2007 2080 3102 2247 2578 2016 3419 3159 1407 frente a 2007 2080 3012 2247 2578 [rota] 3419 3159 1407. Hay 8 números de 4 cifras exactos y en orden, y la única variante es el mismo nudo leído en otra posición decimal. UR1104 conserva la cabecera rota de UR234 (2016), que es una **predicción verificable en el objeto**. Nivel apoyado (post hoc), aunque la fuerza es de demostrado. Tipo nuevo de copia, el **extracto de un campo**: un resumen que sube de nivel, tomando el campo 1 (el mayor) del formato Nazca/Berlín. Une el formato de ficha con un quipu resumen. *(corregido después: ver «Cabos sueltos, paquete de revisión» y «Lector y atlas actualizados con las rondas 17-18»)*
+- **Copia nueva (no publicada; grep y web): UR1104 (AS104, Berlín, Pachacamac; Ascher) reproduce en orden las cabeceras de 9 registros de UR234 (Berlín; Urton).** Verificado: 2007 2080 3102 2247 2578 2016 3419 3159 1407 frente a 2007 2080 3012 2247 2578 [rota] 3419 3159 1407. Hay 8 números de 4 cifras exactos y en orden, y la única variante es el mismo nudo leído en otra posición decimal. UR1104 conserva la cabecera rota de UR234 (2016), que es una **predicción verificable en el objeto**. Nivel apoyado (post hoc), aunque la fuerza es de bien apoyado. Tipo nuevo de copia, el **extracto de un campo**: un resumen que sube de nivel, tomando el campo 1 (el mayor) del formato Nazca/Berlín. Une el formato de ficha con un quipu resumen. *(corregido después: ver «Cabos sueltos, paquete de revisión» y «Lector y atlas actualizados con las rondas 17-18»)*
 - Propuesta: UR108 (Lima, Temple Radicati) → cuerda 9 de las 6 secciones de UR231 (Berlín), con 5/6 exactas. Si se confirma, apoya la unión de los fragmentos VA16135a/b.
 - **La copia es un rasgo de archivo:** dentro de un sitio, 10 de 6 820 pares; entre sitios, 6 de 72 980 (OR 17,9; p 1e-7). En los archivos casi completos tiene copia entre el 14 y el 20 % de los quipus; en el corpus, el 5,5 % (cota inferior). Tipos: duplicado, copia por tramos en varias piezas (UR232+UR233; Basilea→UR212, con dos invertidos), otro desglose y extracto de un campo. Contaminación propuesta: MM016 combina UR212 y UR1131. TAL, ASG y SUM no se copian.
 - Dirección: indecidible en casi todos los pares. Hay dos nudos firmes por errores conjuntivos: un libro perdido α entre UR278 y UR266/UR275 (los ±1 compartidos), y KH0049/UR122 (15652/15649). Leymebamba queda en estrella sin resolver.

@@ -131,15 +131,15 @@ Frente a esto, las copias dan 13,4 % de colgantes discordantes (61/456) y el mis
 
 | atributo | resultado | nulo | nivel |
 |---|---|---|---|
-| valor del colgante | 86,6 % exacto (mismo objeto: 93,0 %) | selección (ver método) | demostrado que se conserva; ¡sesgado por selección! |
+| valor del colgante | 86,6 % exacto (mismo objeto: 93,0 %) | selección (ver método) | bien apoyado que se conserva; ¡sesgado por selección! |
 | presencia de la cuerda colgante | 5,6 % sin pareja (57/1011) | — | apoyado |
 | presencia de subsidiarias | 25 % sin pareja (63/249); sin UR1175~UR233, 10,6 % (21/198), CMH p = 0,076 | CMH entre pares | solo UR1175~UR233 (y tendencia en KH0049~UR122) |
 | número de subsidiarias por colgante | coincide más que el azar en 4 de 10 pares con subsidiarias | permutación | apoyado |
 | color (mismo registrador) | exacto 0,14–0,83 frente a 0,16–0,35 del nulo simple (NMI estratificado por valor: 4 de 6 familias con p ≤ 0,05; Fisher 1e-5) | permutación estratificada por valor | apoyado con datos, pero con muchos cambios |
 | color (distinto registrador) | NMI 0,40–0,69 frente a 0,19–0,46 (3 familias; Fisher 1,7e-6) | idem | apoyado: se conserva la partición, no la etiqueta |
 | largo de cuerda | ρ mediana 0,31 (13 familias; 9 con p<0,05); mismo objeto 0,76–1,00 | permutación | apoyado: relación débil |
-| dirección de nudos largos | coinciden 8/11 (esperado 5,6; p = 0,13) | composición del corpus | no demostrado |
-| dirección de nudos simples | 9/11 (esperado 6,5; p = 0,10) | idem | no demostrado |
+| dirección de nudos largos | coinciden 8/11 (esperado 5,6; p = 0,13) | composición del corpus | no bien apoyado |
+| dirección de nudos simples | 9/11 (esperado 6,5; p = 0,10) | idem | no bien apoyado |
 | unión R/V | 3/7 (esperado 3,5) | idem | no se conserva |
 
 Para el mismo objeto la dirección coincide en las dos comparaciones evaluables (UR1107/UR237 y KH0033/UR044); R/V solo es evaluable en KH0033/UR044 y coincide. Con tan pocos casos, no se puede decir si el cambio de dirección en las copias (HP055/UR1084, UR1175/UR233, UR255/UR267A) es real; coincide con la lectura de "una mano por grupo" de 03.
@@ -250,7 +250,7 @@ Archivos: `verificacion_objetos.csv` (27 quipus: números de inventario de las d
 
 | conclusión | nivel |
 |---|---|
-| Las 25 parejas de 04 son copias o versiones (la mayoría con valores casi idénticos) | demostrado (04) |
+| Las 25 parejas de 04 son copias o versiones (la mayoría con valores casi idénticos) | bien apoyado (04) |
 | Los valores de los colgantes se conservan al nivel del ruido de lectura del mismo objeto (86,6 % frente a 93,0 %) | apoyado con datos (con sesgo de selección y potencia baja) |
 | Errores de valor: un nudo, sin dirección ni posición preferente; parte de ellos es daño (HP055) | apoyado con datos |
 | UR233 no copia la capa de subsidiarias de UR1175; UR233 añade +10 en las cuerdas "100" | apoyado con datos (un solo par) |
@@ -259,12 +259,12 @@ Archivos: `verificacion_objetos.csv` (27 quipus: números de inventario de las d
 | El color se conserva como partición por encima del azar, no como etiqueta | apoyado con datos |
 | Valor = contenido, dirección/R/V = forma; el color está en medio | propuesto |
 | Dirección y R/V cambian con cada objeto (una mano por copia) | especulativo |
-| Formato "fila + cuerda-total suelta" en 7 quipus (AS044, AS066, AS199, UR1096, UR118, UR119, UR166) | demostrado en esos quipus |
+| Formato "fila + cuerda-total suelta" en 7 quipus (AS044, AS066, AS199, UR1096, UR118, UR119, UR166) | bien apoyado en esos quipus |
 | El formato aparece de forma difusa en más quipus | propuesto (exceso residual p = 0,0015; ninguno individual pasa BH) |
 | Concentración por procedencia, museo o investigador | negativo (ninguna pasa BH) |
 | UR118 y UR119 son registros paralelos, no copias | apoyado con datos |
 | UR1107/UR237 son el mismo objeto | apoyado con datos (largos ρ = 0,96); falta confirmar en museo |
-| UR232 y UR233 comparten número de inventario | demostrado (comentario del OKR) |
+| UR232 y UR233 comparten número de inventario | bien apoyado (comentario del OKR) |
 
 ## 7. Siguiente ronda
 

@@ -40,10 +40,10 @@ Prueba de posicion de la cuota (2.a cuerda del grupo):
 
 Diccionario:
                            categoria                                                 marcador                                                  evidencia
- cabecera (total bruto del registro)                                posicion 1 + color blanco           demostrado (estructura) / apoyado (color blanco)
+ cabecera (total bruto del registro)                                posicion 1 + color blanco           bien apoyado (estructura) / apoyado (color blanco)
                              cuota c posicion 2 (tras la cabecera); valor constante por libro               apoyado (posicion); color = estilo del libro
-parte A (subsidiaria del componente)  nivel 1; color NB/KB; cuelga del colgante de la parte B                  demostrado (aritmetica) / apoyado (color)
-   parte B (colgante del componente)                                    nivel 0; color blanco                  demostrado (aritmetica) / apoyado (color)
-                  columna k (k=1..9)                         posicion ordinal 1..9 (no color) demostrado (estructura y orden); color NO marca la columna
-               celda compuesta (P+S)              aritmetica; no es una cuerda unica en UR270                                                 demostrado
+parte A (subsidiaria del componente)  nivel 1; color NB/KB; cuelga del colgante de la parte B                  bien apoyado (aritmetica) / apoyado (color)
+   parte B (colgante del componente)                                    nivel 0; color blanco                  bien apoyado (aritmetica) / apoyado (color)
+                  columna k (k=1..9)                         posicion ordinal 1..9 (no color) bien apoyado (estructura y orden); color NO marca la columna
+               celda compuesta (P+S)              aritmetica; no es una cuerda unica en UR270                                                 bien apoyado
                       neto n = x - c    posicion siguiente a la cuota; con frecuencia ausente                                                  propuesto

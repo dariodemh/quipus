@@ -1,12 +1,12 @@
 # Análisis computacional del corpus de quipus: resumen para revisión especializada
 
-*Borrador para revisión especializada, 18-10-2026. Sin revisión de pares.*
+*Abierto a revisión especializada, 18-10-2026. Todavía sin revisión de pares; las correcciones son bienvenidas como [issues](https://github.com/dariodemh/quipus/issues).*
 
 ## 0. En una página
 
 Pasamos todo el corpus digital de quipus (unos 650 objetos, 57 818 cuerdas) por pruebas estadísticas con nulos por permutación y corrección por comparaciones múltiples. El resultado principal está en el archivo de Inkawasi (Incahuasi, Cañete):
 
-- **Demostrado.** En el montón de catorce quipus cubiertos de maní de la kallanka del sector A hay una **consolidación de tres niveles**:
+- **Bien apoyado.** En el montón de catorce quipus cubiertos de maní de la kallanka del sector A hay una **consolidación de tres niveles**:
   - el colgante más la primera subsidiaria de UR270 dan, columna a columna, las celdas de la tabla de 9 columnas de UR278;
   - los totales de fila de UR278 reaparecen, en el mismo orden, como cabeceras de los libros UR275 y UR266.
 
@@ -58,7 +58,7 @@ Aparecen además algunos formatos de archivo, como el conjunto atado UR053A–E 
    Varios negativos se interpretan como «no detectable con esta potencia» y no como «no existe».
 6. **Predicciones prerregistradas** antes de mirar los datos que las ponen a prueba. Por ejemplo, la hipótesis de ceques para UR050 + UR055 se registró antes y falló sus tres predicciones.
 7. **Escala de evidencia.**
-   - **Demostrado:** sobrevive al nulo y a la corrección, y se replicó por una vía independiente (otro script, otro agente o prueba ciega).
+   - **Bien apoyado:** sobrevive al nulo y a la corrección, y se replicó por una vía independiente (otro script, otro agente o prueba ciega).
    - **Apoyado:** significativo con corrección, pero sin réplica independiente, o frágil ante la elección de la regla.
    - **Propuesto:** compatible con los datos, sin prueba que lo distinga de alternativas.
    - **Especulativo:** sin prueba.
@@ -67,7 +67,7 @@ Aparecen además algunos formatos de archivo, como el conjunto atado UR053A–E 
 
 Los identificadores entre corchetes remiten a `tabla_hallazgos.csv`.
 
-### 3.1 Demostrado
+### 3.1 Bien apoyado
 
 **Inkawasi, sector A, montón del maní (U.A. 4, U.E. 11–22).**
 
@@ -103,7 +103,7 @@ Los identificadores entre corchetes remiten a `tabla_hallazgos.csv`.
 - **[I03] Pareja atada UR273A + UR273B.** Alineadas por número de grupo (los separadores rosados caen en los mismos grupos), sus sumas dan 8 de 18 cabeceras exactas de UR266, UR275 y UR269 (2950, 1653, 1737, 1827, 1780, 2247, 1765 y 1506; 1,27 esperadas).
   - Sobrevive a la corrección por elección de regla (p = 0,015) y a la división en mitades (5/9 y 3/9; Holm 0,016).
   - En la prueba ciega dirigida sobre 132 600 tríos, la pareja queda entre los cinco primeros puestos, pero no supera la corrección de Holm (0,93).
-  - **Nivel: apoyado, no demostrado.** Converge con [I02]: las sumas A+B y las filas de UR278 caen en los mismos totales.
+  - **Nivel: apoyado, no bien apoyado.** Converge con [I02]: las sumas A+B y las filas de UR278 caen en los mismos totales.
   - **[I04]** Cuando UR273A está en blanco, UR274A ocupa su lugar en 3 de 4 registros (p = 0,00013).
 - **[I11–I14] Perfil de las 9 columnas.**
   - Es desigual y ordenado de mayor a menor (Spearman −0,73; p = 0,025).
@@ -151,13 +151,13 @@ Los identificadores entre corchetes remiten a `tabla_hallazgos.csv`.
 - **Publicación.** Parcial: el Khipu Field Guide lista 15 sumas indexadas de KH0049 como salida automática, sin describir la jerarquía ni UR122 (`analisis/30_frontera_estructura/novedad_kh0049.md`). No hemos podido leer Ascher y Ascher 1978 ni Pereyra Sánchez 2011.
 - Es un segundo caso de «total por columna» fuera de Inkawasi.
 
-**Alternancia de dos colores.** *Demostrado en UR040 y UR167 (Holm 0,025); apoyado en UR1033F (q 0,010).*
+**Alternancia de dos colores.** *Bien apoyado en UR040 y UR167 (Holm 0,025); apoyado en UR1033F (q 0,010).*
 
 - Pares de cuerdas de dos colores intercalados (A/B/A/B), la única estructura de la frontera de 180 quipus que se replicó en la mitad de confirmación (q 0,003). Se lee como una tabla de dos columnas escrita intercalada.
 - Hay 19 quipus así en el corpus; 15 ya eran TAB/FOR. En UR040 y UR167 los valores son casi todos 0 o 1: el formato es seguro, el contenido no.
 - De los 180 quipus de la frontera solo 3 dejan de serlo (4 con KH0049). **El resto son listas decimales sin estructura recuperable con estos datos.**
 
-**Copia nueva: UR1104 → UR234, un «extracto de un campo».** *Apoyado (post hoc); la fuerza es la de demostrado.*
+**Copia nueva: UR1104 → UR234, un «extracto de un campo».** *Apoyado (post hoc); la fuerza es la de bien apoyado.*
 
 - UR1104 (AS104, Berlín, Pachacamac) reproduce en orden las cabeceras de nueve registros de UR234: 7 exactas, una variante (3102 frente a 3012) y la cabecera rota de UR234 (2016). Es un resumen que sube de nivel, tomando el campo mayor del formato Nazca/Berlín.
 - UR108 → UR231 es parecido (5 de 6; propuesto).
@@ -168,7 +168,7 @@ Los identificadores entre corchetes remiten a `tabla_hallazgos.csv`.
 
 **Los desajustes de UR278 son error de conteo de vueltas.** *Apoyado (n chico).* De 18 filas con destino, 11 son exactas y 7 no (39 %). Los desajustes (libro − detalle) son +6, +100, +1, −1, +1, −1, −1: sin dirección (4+/3−). 6 de 7 caen en las unidades (p = 0,007; nulo aproximado), la firma de un nudo largo mal contado, no de una convención (que daría signo o magnitud constantes). Las dos copias del libro coinciden en todos: la diferencia nace en el paso detalle → libro.
 
-**«La cuerda mayor abre el grupo» (P5c).** *Apoyado, nuevo.* Fuera de Inkawasi, el valor mayor va primero en el 25,9 % de los grupos frente al 15,2 % esperado (Holm 0,002). En UR278 las columnas son decrecientes (tau −0,41; demostrado).
+**«La cuerda mayor abre el grupo» (P5c).** *Apoyado, nuevo.* Fuera de Inkawasi, el valor mayor va primero en el 25,9 % de los grupos frente al 15,2 % esperado (Holm 0,002). En UR278 las columnas son decrecientes (tau −0,41; bien apoyado).
 
 **Cuadre por dos caminos.** *Propuesto, con analogía débil.* No está documentado en Uruk ni en Pilos (Nissen, Damerow y Englund 1993). Lo tratamos como rasgo propio de Inkawasi. Sí hay paralelo documentado en la jerarquía de documentos, el formato fijo por tipo y las copias.
 
@@ -199,9 +199,9 @@ Las fuentes más próximas a cada hallazgo, y por qué no lo contienen, están e
 1. **«El 74 % no se distingue del azar» pasó a «no es informativo».** Con potencia de ~24 %, la métrica no prueba ni refuta la contabilidad.
 2. **UR006.** Primero dijimos que no reproducía la estructura de Urton. Contando las cuerdas-lazo sí la reproduce: 24 pares, 729 cuerdas y 45 de 48 sumas. La lectura calendárica sigue siendo propuesta.
 3. **UR278 → UR266.** «16 de 33 en orden» bajó a 15 y después a 11, la cifra que replicaron el script independiente y la prueba ciega. Tampoco es cierto que fuera «la única relación entre quipus del corpus»: el método reproduce Puruchuco.
-4. **UR273A+B (H1)** bajó de demostrado a apoyado. **UR267A+B → UR269** bajó a no demostrado. **30 + 17 = 47** bajó a propuesto. La «posición en el bloque de UR269» se retiró: se explicaba por la magnitud.
-5. **UR270 → UR278 (H2)** subió de apoyado a demostrado tras la prueba ciega.
-6. **Unión R/V.** Pasó de «código demostrado» a **convención de archivo propuesta** (6 de 14 en el corpus).
+4. **UR273A+B (H1)** bajó de bien apoyado a apoyado. **UR267A+B → UR269** bajó a no bien apoyado. **30 + 17 = 47** bajó a propuesto. La «posición en el bloque de UR269» se retiró: se explicaba por la magnitud.
+5. **UR270 → UR278 (H2)** subió de apoyado a bien apoyado tras la prueba ciega.
+6. **Unión R/V.** Pasó de «código bien apoyado» a **convención de archivo propuesta** (6 de 14 en el corpus).
 7. **Compensación UR054/UR055, retirada.** Las zonas en centímetros daban p = 0,0002, pero con alturas relativas al largo de la cuerda la p sube a 0,76 y 0,44. De esa familia solo se sostiene UR050.
 8. **UR053B ≈ UR053C** es una copia ya conocida, publicada por Urton (2017, cap. 8) y registrada en nuestra crítica de copias. Una tarea intermedia dijo «no son copias» porque comparó por posición.
 9. **Santa.**

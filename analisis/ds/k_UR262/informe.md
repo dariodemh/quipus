@@ -104,7 +104,7 @@ El color no es un código de columna: es un **gradiente de profundidad**.
 - Ningún nudo con más de 9 vueltas, ningún L con aporte ≥ 10, ninguna violación del orden decimal (posiciones crecientes hacia abajo).
 - **Excepción real (11 cuerdas, 2,2 %):** el dígito de unidades está **partido en dos racimos contiguos**, casi siempre "n−1 + 1E" (`4L+1E`=5 en `p114s3s1`, `5L+1E`=6 en `p129s3`, `3L+1E`=4 en `p83s2s1`, `7L+1E`=8 en `p49s2`, `1E+1E`=2 en `p115s1`, `4L+2L`=6 en `p49`, `7L+2L`=9 en `p84`). En 10 de 11 la suma coincide con el dígito de unidades; **`p15s4s1` es la única anomalía dura**: `9L+1E` en unidades da 10 y KFG registra 110, cuando la lectura decimal estricta sería 109 (o 120 si hubiera acarreo). Es el único caso del quipu en que la suma L/E no reproduce el dígito de unidades.
 
-Esto reproduce el patrón "S…L;E" descrito para Incahuasi en la síntesis del proyecto y es la parte **demostrada** del quipu: es un registro decimal limpio.
+Esto reproduce el patrón "S…L;E" descrito para Incahuasi en la síntesis del proyecto y es la parte **bien apoyada** del quipu: es un registro decimal limpio.
 
 ---
 
@@ -186,7 +186,7 @@ Si se descuentan los dos artefactos (A6 y D5), los hallazgos que sobreviven son 
 - Clindaniel (2019) documenta para Inkawasi 6.209 nudos Z frente a 1.704 S (78 %/22 %) y un uso del color como marcador en casos piloto (UR267A, UR255). UR262 es **mucho más uniforme que la media del archivo** (724 Z / 1 S) y usa AB como marcador de profundidad/cabecera, no como suma/resta: no replica el sistema W/AB/MB de UR267A.
 
 **Nivel de evidencia.**
-- *Demostrado (descriptivo, este quipu)*: 490 cuerdas, 138 colgantes, 352 subsidiarias, profundidad 5, 23,5 % sin nudos, torsión S 100 %, 724 Z/1 S, cero cuerdas superiores, decimalidad con L/E en unidades y E para el 1 (con la excepción de `p15s4s1`).
+- *Bien apoyado (descriptivo, este quipu)*: 490 cuerdas, 138 colgantes, 352 subsidiarias, profundidad 5, 23,5 % sin nudos, torsión S 100 %, 724 Z/1 S, cero cuerdas superiores, decimalidad con L/E en unidades y E para el 1 (con la excepción de `p15s4s1`).
 - *Apoyado con datos*: ausencia de sumas internas (A1–A5, A7); cabecera de grupo = colgante mayor (D6); duplicación madre-hija (D7); color AB asociado a profundidad y a cabeceras (D3/D4).
 - *Propuesto*: que sea un registro de depósito con filas = productos/sectores y columnas = subdivisiones de cada entrada.
 - *Especulativo*: que cada grupo sea un producto concreto (ají/maní/frijol) o que las posiciones 12–13 marquen una división en dos mitades del grupo.
@@ -245,5 +245,5 @@ Si se descuentan los dos artefactos (A6 y D5), los hallazgos que sobreviven son 
 - **El color AB no es un código de columna: es un gradiente de profundidad** (11 % de los colgantes, 30 % del nivel 1, 60 % del nivel 2; χ² p ≈ 10⁻²⁴) y tiende a marcar la **cabecera** de los grupos (3/6; p = 0,007 exacto, aunque no sobrevive Holm: 0,067).
 - **Cabecera de sección (apoyado):** el primer colgante del grupo es el mayor en 3/6 grupos (esperado 0,29; p = 0,003). No es la suma del resto: es una entrada principal, no un total.
 - **Duplicación madre-hija (apoyado, efecto pequeño):** 8 pares con el mismo valor ±1 % frente a 2,3 esperados (p = 0,004), p. ej. `p71`=`p71s1`=54, `p92`=1.146 vs `p92s1`=1.151. Encaja con los "checks-and-balances" de Urton y Chu (2015), pero a escala de cuerda, no de quipu emparejado.
-- **Lectura propuesta:** registro de depósito/almacén. Filas = 7 secciones (productos o sectores; G0 es una cabecera AB de tres cifras grandes); columnas = niveles de subdivisión de cada entrada, que **repiten o refinan** pero no agregan. Nivel: *propuesto* (contexto) / *apoyado* (forma de lista anidada) / *demostrado* (estructura física y decimal).
+- **Lectura propuesta:** registro de depósito/almacén. Filas = 7 secciones (productos o sectores; G0 es una cabecera AB de tres cifras grandes); columnas = niveles de subdivisión de cada entrada, que **repiten o refinan** pero no agregan. Nivel: *propuesto* (contexto) / *apoyado* (forma de lista anidada) / *bien apoyado* (estructura física y decimal).
 - **Siguiente ronda:** (1) replicar estos detectores en UR263, UR264, UR265 y UR280 (misma kallanka) para ver si el "no-sumatorio" es del sitio o del lote; (2) buscar el contexto de excavación (producto asociado, quipus atados) en Chu 2013–2014 o en los cuadernos de Urton; (3) contrastar el árbol KFG vs OKR antes de cualquier análisis de profundidad; (4) probar si los bloques de ~12 colgantes (marcados por AB en 12–13) son unidades de otra partición, con más quipus.

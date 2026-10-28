@@ -156,7 +156,7 @@ def main():
     # ---------------- post hoc sin orden (05): pares q_comb < 0,05 que el barrido no da como copia
     OL = pd.read_csv(os.path.join(OUT, 'orden_libre.csv'))
     OL = OL[OL.q_comb < .05]
-    ya = {frozenset(x) for x in zip(P[P.nivel.isin(['demostrado', 'apoyado'])].A, P[P.nivel.isin(['demostrado', 'apoyado'])].B)}
+    ya = {frozenset(x) for x in zip(P[P.nivel.isin(['bien apoyado', 'apoyado'])].A, P[P.nivel.isin(['bien apoyado', 'apoyado'])].B)}
     ph = []
     for _, x in OL.iterrows():
         if frozenset((x.A, x.B)) in ya:
@@ -197,10 +197,10 @@ def main():
             P.loc[i, 'fuente'] = s + ('; ' + x.fuente if x.fuente else '')
             # §7: el equipo rojo es para pares NUEVOS; en los publicados el nivel lo dan Holm/BH
             if x.nivel == 'propuesto' and x.q < .05:
-                P.loc[i, 'nivel'] = 'demostrado' if x.holm < .05 else 'apoyado'
+                P.loc[i, 'nivel'] = 'bien apoyado' if x.holm < .05 else 'apoyado'
             elif str(x.nivel).startswith('propuesto (post hoc)'):
                 P.loc[i, 'nivel'] = 'apoyado (post hoc)'
-    APOY = ['demostrado', 'apoyado', 'apoyado (post hoc)']
+    APOY = ['bien apoyado', 'apoyado', 'apoyado (post hoc)']
 
     def museo_norm(m):
         m = str(m).lower()
@@ -436,8 +436,10 @@ def main():
 
     # ---------------- pares_copia.csv
     out = P[P.nivel != 'ninguno'].copy()
-    out['nivel_out'] = np.where(out.mismo_objeto.fillna(False).astype(bool) & out.nivel.isin(['demostrado', 'apoyado']),
+    out['nivel_out'] = np.where(out.mismo_objeto.fillna(False).astype(bool) & out.nivel.isin(['bien apoyado', 'apoyado']),
                                 'mismo objeto (' + out.nivel + ')', out.nivel)
+    # entre museos distintos la estadística no basta: falta verificar identidad física y procedencia (04, §niveles)
+    out['nivel_out'] = np.where(out.cruza_museo & (out.nivel_out == 'bien apoyado'), 'apoyado (entre museos)', out.nivel_out)
     pc = out.rename(columns={'A': 'kfg_a', 'B': 'kfg_b', 'score': 'similitud'})[
         ['kfg_a', 'kfg_b', 'transformacion', 'similitud', 'p', 'q', 'holm', 'nivel_out', 'publicado_antes', 'fuente',
          'familia', 'alineadas', 'exactas', 'tolerantes', 'discordantes', 'r_largo', 'p_sin_comunes', 'p_bloques',

@@ -332,16 +332,16 @@ profundo es un desglose".
 
 | Afirmación | Nivel |
 |---|---|
-| 397 cuerdas en nivel ≥ 3, en 46/651 quipus, 153 árboles, 1 409 cuerdas | **Demostrado** (conteo directo) |
-| HP038 tiene una cadena de 15 niveles cuya secuencia de largos copia p2–p8 (7/7 exactos) | **Demostrado** (dato KFG) / **propuesto** (que sea intencional o artefacto) |
-| En los árboles profundos no hay suma padre = Σ hijos (0/26 en nivel ≥ 3; 1/73 global) | **Demostrado** para estos datos; **apoyado** como afirmación sobre el corpus (95 árboles sin nodo comparable) |
+| 397 cuerdas en nivel ≥ 3, en 46/651 quipus, 153 árboles, 1 409 cuerdas | **Bien apoyado** (conteo directo) |
+| HP038 tiene una cadena de 15 niveles cuya secuencia de largos copia p2–p8 (7/7 exactos) | **Bien apoyado** (dato KFG) / **propuesto** (que sea intencional o artefacto) |
+| En los árboles profundos no hay suma padre = Σ hijos (0/26 en nivel ≥ 3; 1/73 global) | **Bien apoyado** para estos datos; **apoyado** como afirmación sobre el corpus (95 árboles sin nodo comparable) |
 | La suma padre = hijos existe en el corpus pero localizada (UR113, UR169) | **Apoyado con datos** (nulo, BH) |
 | Los árboles profundos son mayoritariamente espinas con ramas, no jerarquías equilibradas | **Apoyado con datos** (tipología y grados) |
 | Hay más árboles profundos de los esperados por ramificación aleatoria (153 vs 78; 7 quipus BH) | **Apoyado con datos** (nulo A, Poisson-binomial) |
 | La profundidad típica no es extrema; solo HP038 lo es | **Apoyado con datos** |
 | Los valores se duplican hacia abajo más de lo esperado (12,9 % vs 7,6 %) | **Apoyado con datos** |
 | Incahuasi tiene más estructura profunda tras ajustar por tamaño | **Apoyado con datos**, con la reserva de intensidad de registro |
-| Los árboles profundos son "desgloses parciales" (categorías con conteos independientes), no sumas | **Propuesto** (la parte negativa está demostrada; la positiva es interpretativa) |
+| Los árboles profundos son "desgloses parciales" (categorías con conteos independientes), no sumas | **Propuesto** (la parte negativa está bien apoyada; la positiva es interpretativa) |
 | UR271 son "cadenas de réplica" | **Propuesto** (patrón claro, 5/5, pero sin corroboración externa) |
 | KH0197 es una duplicación/transcripción de KFG | **Propuesto** (discrepancia OKR fuerte, pero OKR está incompleto) |
 | Que los árboles profundos tengan significado genealógico, ritual o calendárico | **Especulativo** (no hay evidencia estructural que lo distinga) |

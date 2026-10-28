@@ -35,7 +35,7 @@ La novedad de método: en vez de preguntar "¿qué fracción de capacidad ocupa 
 - **Nulos explícitos** en cada prueba (detalle en §5): permutación dentro de fila para la estructura de columnas; uniformidad de dígitos para la granularidad; **prior log-uniforme sobre el tamaño de la unidad** para la coincidencia capacidad–ledger; Monte Carlo sobre rendimientos agrícolas para la mano de obra.
 - **Corrección múltiple** BH-FDR en las 5 pruebas de granularidad y Holm en los 6 modelos de unidad.
 - **Valores 0 sin nudos = ausentes** (no se usan como ceros).
-- Cada conclusión va etiquetada: **demostrado / apoyado con datos / propuesto / especulativo**.
+- Cada conclusión va etiquetada: **bien apoyado / apoyado con datos / propuesto / especulativo**.
 
 ---
 
@@ -202,7 +202,7 @@ Registro medio del flujo = 2 207 unidades = 55 t a 25 kg. Una llama carga 25 kg:
 - Si un registro es un **periodo mensual**, son 74 cargas/día: una caravana mediana, perfectamente normal.
 - A 0,7 kg el registro serían 62 cargas: una caravana pequeña, pero entonces el depósito estaría al 2 % (absurdo).
 
-Es decir, la logística de caravana **obliga a que el registro sea un periodo agregado (semanas o un mes), no una entrega única**. Con 28–33 registros, el libro del flujo cubriría **~2–3 años**, que es justo el horizonte en el que la cota de §4.3 exige ≥4–10 kg según el ledger. [propuesto: la coherencia es real, pero depende de que el registro sea mensual, cosa no demostrada]
+Es decir, la logística de caravana **obliga a que el registro sea un periodo agregado (semanas o un mes), no una entrega única**. Con 28–33 registros, el libro del flujo cubriría **~2–3 años**, que es justo el horizonte en el que la cota de §4.3 exige ≥4–10 kg según el ledger. [propuesto: la coherencia es real, pero depende de que el registro sea mensual, cosa no bien apoyada]
 
 ---
 
@@ -246,8 +246,8 @@ Formulación correcta del resultado: *"la capacidad física pone una cota inferi
 - **N4. Inconsistencia de fuente sobre el edificio.** El texto de Urton (2017: 159 y 1822) sitúa los 14 quipus del maní en la **U.A. 05**, pero el apéndice y el pasaje de la p. 1836 dicen **U.A. 04**. La esquina suroeste de una kallanka, sí; el número de unidad de análisis, no está claro. Afecta a cualquier intento de asociar un quipu a un espacio concreto.
 - **N5. Los volúmenes por qolqa publicados son incoherentes.** D'Altroy (1992: 175), vía Wikipedia, da 3,7–5,5 m³ para una qolqa de 3,23 m de diámetro interior; un cilindro de 3,23 m × 2 m son 16 m³. No usé esa cifra para extrapolar (solo comparé números de unidades). Cualquier cálculo de capacidad agregada a partir de "nº de qolqas × 5 m³" es dudoso.
 - **N6. El lapso temporal del archivo no está determinado.** Es el eslabón más débil de todo el argumento: si el archivo cubriera 20 años, la cota inferior de masa unitaria baja a 0,4–1 kg y las raciones volverían a ser (apenas) posibles. La arqueología no fecha los quipus con precisión suficiente (Cherkinsky & Urton 2014 no distingue inca tardío de colonial temprano en esta muestra).
-- **N7. La lectura "registro = mes" no está demostrada.** Es la hipótesis que hace coherentes la logística de caravana (74 cargas/día) y la cota de masa (≥4–10 kg para 2–3 años), pero no hay evidencia independiente de que cada fila de UR278 sea un mes.
-- **N8. Las 9 columnas como "depósitos" siguen siendo especulativas.** La estructura de columna es demostrada; su referente (depósitos, cuadrillas, días, ayllus) no.
+- **N7. La lectura "registro = mes" no está bien apoyada.** Es la hipótesis que hace coherentes la logística de caravana (74 cargas/día) y la cota de masa (≥4–10 kg para 2–3 años), pero no hay evidencia independiente de que cada fila de UR278 sea un mes.
+- **N8. Las 9 columnas como "depósitos" siguen siendo especulativas.** La estructura de columna es bien apoyada; su referente (depósitos, cuadrillas, días, ayllus) no.
 
 ---
 
@@ -257,14 +257,14 @@ Supuestos explícitos: capacidad 6 400 m³; densidad 0,40–0,70 t/m³; ledger d
 
 | # | Hipótesis de unidad | Masa del ledger L3 | % capacidad (vol.) | Cuadrilla (9 grupos, maíz) | Caravana por registro | Veredicto | Nivel |
 |---|---|---|---|---|---|---|---|
-| 1 | **Ítem suelto** (grano, ají, papa, mazorca) | 0,04–31 t | 0,001–1,6 % | < 0,3 trab. | ~0,03–22 cargas | **descartada** | demostrado (cota física) |
+| 1 | **Ítem suelto** (grano, ají, papa, mazorca) | 0,04–31 t | 0,001–1,6 % | < 0,3 trab. | ~0,03–22 cargas | **descartada** | bien apoyado (cota física) |
 | 2 | **Ración-persona-día** (0,7 kg) | 86–98 t | 1,5–2,1 % | 0,3–1,4 trab. | 62 cargas | **descartada** | apoyado con datos |
 | 2b | **Cuadro de 23 × 23 cm** (1,6–5,3 L) | 0,15–0,5 t | 3–10 % | 1–4 trab. | 180–530 cargas | posible pero deja el depósito al 7–25 % | especulativo |
 | 3 | **Arroba** (11,5 kg) | 1 410 t | 29–31 % | 11 trab. | 1 015 cargas | posible; no preferida | propuesto |
 | 4 | **Carga de llama** (23–30 kg) | 2 820–3 678 t | 57–77 % | 20–27 trab. | 2 200 cargas | **compatible** | apoyado con datos |
 | 5 | **Costal de volumen 30–40 L** (7–28 kg según producto) | 860–3 430 t | 55–69 % | 7–27 trab. | ~2 000 cargas | **el más coherente** | propuesto |
 | 6 | **Fanega / costal 50–55 L** (11–44 kg) | 1 350–5 517 t | 106 % | 25–45 trab. | ~3 800 cargas | compatible (2 turnos/año) | propuesto |
-| 7 | Producto individual + 9 depósitos | — | — | — | — | descartada | demostrado |
+| 7 | Producto individual + 9 depósitos | — | — | — | — | descartada | bien apoyado |
 
 **Respuesta a la pregunta del encargo:**
 
@@ -279,13 +279,13 @@ Supuestos explícitos: capacidad 6 400 m³; densidad 0,40–0,70 t/m³; ledger d
 
 | afirmación | nivel |
 |---|---|
-| UR278 = 28 registros × 9 subunidades; 61 790 unidades; estructura de columna real (p = 0,0002) | **demostrado** |
-| La unidad no es un ítem suelto (grano, ají, papa, mazorca) | **demostrado** (cota física: 4–5 órdenes de magnitud) |
+| UR278 = 28 registros × 9 subunidades; 61 790 unidades; estructura de columna real (p = 0,0002) | **bien apoyado** |
+| La unidad no es un ítem suelto (grano, ají, papa, mazorca) | **bien apoyado** (cota física: 4–5 órdenes de magnitud) |
 | La unidad no es una ración-persona-día | **apoyado con datos** (1,5–5 % del depósito aun en el ledger superior; excluida salvo archivo ≥10 años o <10 % del movimiento) |
 | La unidad es un bulto de **~4–45 kg** (zona preferente 10–30 kg) | **apoyado con datos** (cota inferior 3,4–10,4 kg según ledger y plazo; superior por la llama) |
 | La unidad es un **volumen estándar de ~30–55 L**, con masa variable por producto (7–44 kg) | **propuesto** (resuelve el caso del maní, que la masa fija de 25 kg no resuelve) |
 | La unidad exacta (arroba vs costal vs fanega) | **indecidible** con estos datos (Holm q ≥ 0,08) |
-| Las 9 columnas son cuadrillas de mit'a de 20–90 trabajadores | **propuesto** (compatible, no demostrado) |
+| Las 9 columnas son cuadrillas de mit'a de 20–90 trabajadores | **propuesto** (compatible, no bien apoyado) |
 | Las 9 columnas son 9 depósitos/cámaras (1–2 cámaras por columna) | **propuesto** |
 | La cuota 47 son 47 sacos por partida | **propuesto** |
 | Cada fila de UR278 es un mes y el archivo cubre 2–3 años | **especulativo** |

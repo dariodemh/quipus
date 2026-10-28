@@ -39,8 +39,8 @@ check("UR278 -> UR266 y UR278 -> UR275: totales de grupo en orden (BH q<0,05)", 
       [h["detalle"] + f" q={h['q']:.1e}" for h in t1 + t2])
 r275 = D.relaciones(q["UR275"], ctx)
 t3 = det(r275, "totales en orden", "UR278", "UR275")
-doc = [a for a in r275["afirmaciones"] if a["texto"].startswith("UR266 → UR275") and a["nivel"] == "demostrado"]
-# La copia UR275 ~ UR266 está demostrada a nivel de registro (13: 44/46 aristas), no por el alineamiento cuerda a
+doc = [a for a in r275["afirmaciones"] if a["texto"].startswith("UR266 → UR275") and a["nivel"] == "bien apoyado"]
+# La copia UR275 ~ UR266 está bien apoyada a nivel de registro (13: 44/46 aristas), no por el alineamiento cuerda a
 # cuerda: en 04 tampoco pasa (q=0,20, q_bloque=1). El lector reproduce ese negativo y muestra la documentada.
 cp = [h for h in r275["datos"]["detectadas"] if h["tipo"].startswith("copia") and h["con"] == "UR266"]
 check("Cadena UR278 -> UR275 -> UR266: totales de UR278 en UR275 (recalculado) + copia UR266/UR275 (documentada, 13); "

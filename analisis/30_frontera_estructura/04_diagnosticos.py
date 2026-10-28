@@ -8,7 +8,7 @@ def _mod(nombre, archivo):
 E = _mod("e2", "02_entre.py"); I1 = _mod("i1", "01_internas.py")
 
 F = pd.read_csv(AQUI / "frontera_estructura.csv")
-sel = F[F.nivel.isin(["demostrado", "apoyado", "propuesto"])]
+sel = F[F.nivel.isin(["bien apoyado", "apoyado", "propuesto"])]
 out = []
 for r in sel.itertuples():
     q = quipu(r.kfg); v = q.v; d = dict(kfg=r.kfg, estructura=r.estructura, nivel=r.nivel, sitio=ATLAS.loc[r.kfg, "procedencia"], museo=MUSEO[r.kfg])

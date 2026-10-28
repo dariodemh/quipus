@@ -90,7 +90,7 @@ Cero transiciones exactas en las 63 transiciones probadas:
 | H03 cabeceras de UR275 acumuladas | 12 | 0 | 1,0 |
 | H04 cabeceras de UR269 acumuladas | 34 | 0 | 1,0 |
 
-UR273A/B y UR274A/B **no son stock y flujo**: son dos componentes aditivas del mismo depósito (la suma A+B da la cabecera del libro, ya demostrado en `13_sistema_incahuasi`). Nuestro test añade que **tampoco** son un saldo que se actualiza paso a paso, ni en el libro.
+UR273A/B y UR274A/B **no son stock y flujo**: son dos componentes aditivas del mismo depósito (la suma A+B da la cabecera del libro, ya bien apoyado en `13_sistema_incahuasi`). Nuestro test añade que **tampoco** son un saldo que se actualiza paso a paso, ni en el libro.
 
 ### 4.5 La escalera de copias (H09) — **especulativo, y más débil de lo que parecía**
 

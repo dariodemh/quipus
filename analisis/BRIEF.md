@@ -25,7 +25,7 @@ Raíz del repo: `` (en Bash: `/c/Users/D/Documents/GitHub/quipu`).
 2. Todo efecto lleva **modelo nulo explícito** (permutación que preserve lo que podría explicar el efecto por sí solo) y p-valor empírico. Semilla fija.
 3. Corrige por comparaciones múltiples (Holm o BH-FDR) y dilo.
 4. Reporta también los **resultados negativos**.
-5. Etiqueta cada conclusión: **demostrado / apoyado con datos / propuesto / especulativo**.
+5. Etiqueta cada conclusión: **bien apoyado / apoyado con datos / propuesto / especulativo**.
 6. No uses procedencia de museo como lugar de origen. Valores 0 sin nudos = ausentes.
 7. Sé escéptico de tus propios hallazgos: busca la explicación aburrida antes de la interesante.
 

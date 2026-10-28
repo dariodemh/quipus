@@ -1,17 +1,17 @@
 # Computational analysis of the khipu corpus: summary for specialist review
 
-*Draft for specialist review, 18-10-2026. Not peer reviewed. Spanish original: [`../resumen_para_especialista.md`](../resumen_para_especialista.md).*
+*Open to specialist review, 18-10-2026. Not yet peer reviewed; corrections are welcome as [issues](https://github.com/dariodemh/quipus/issues). Spanish original: [`../resumen_para_especialista.md`](../resumen_para_especialista.md).*
 
 ## 0. One-page overview
 
 We ran the entire digital khipu corpus (about 650 objects, 57,818 cords) through statistical tests using permutation nulls and multiple-comparison correction. The main result concerns the archive of Inkawasi (Incahuasi, Cañete):
 
-- **Demonstrated.** In the heap of fourteen peanut-covered (maní) khipus from the kallanka (great hall) of sector A, there is a **three-level consolidation**:
+- **Well supported.** In the heap of fourteen peanut-covered (maní) khipus from the kallanka (great hall) of sector A, there is a **three-level consolidation**:
   - the pendant cord plus the first subsidiary cord of UR270 give, column by column, the cells of the 9-column table of UR278;
   - the row totals of UR278 reappear, in the same order, as the headers of the books UR275 and UR266.
 
   Neither of these two relations is published. Both were recovered in a blind test on anonymized data.
-- **Supported, not demonstrated.** The tied pair UR273A/UR273B, summed record by record, reaches the same headers by a second route.
+- **Supported, not well supported.** The tied pair UR273A/UR273B, summed record by record, reaches the same headers by a second route.
 - **Already published, replicated here only:** the fixed quotas 10, 15, 47 and 208, and the copies UR255≈UR267A, UR256≈UR267B and UR266≈UR275 (Urton and Chu 2015, 2018; Urton 2017).
 
 Outside Inkawasi, the results are mostly negative or methodological:
@@ -58,7 +58,7 @@ Some archival formats also appear, such as the tied set UR053A–E with a stable
    Several negatives are interpreted as "not detectable with this power" and not as "does not exist".
 6. **Preregistered predictions** before looking at the data that test them. For example, the ceque hypothesis (ceques: the radiating lines of Cusco) for UR050 + UR055 was registered beforehand and failed its three predictions.
 7. **Evidence scale.**
-   - **Demonstrated:** survives the null and the correction, and was replicated by an independent route (another script, another agent or a blind test).
+   - **Well supported:** survives the null and the correction, and was replicated by an independent route (another script, another agent or a blind test).
    - **Supported:** significant with correction, but without an independent replication, or fragile to the choice of rule.
    - **Proposed:** compatible with the data, with no test that distinguishes it from alternatives.
    - **Speculative:** no test.
@@ -67,7 +67,7 @@ Some archival formats also appear, such as the tied set UR053A–E with a stable
 
 Bracketed identifiers refer to `findings_table.csv`.
 
-### 3.1 Demonstrated
+### 3.1 Well supported
 
 **Inkawasi, sector A, peanut heap (U.A. 4, U.E. 11–22).**
 
@@ -103,7 +103,7 @@ Bracketed identifiers refer to `findings_table.csv`.
 - **[I03] Tied pair UR273A + UR273B.** Aligned by group number (the pink separators fall in the same groups), their sums give 8 of 18 exact headers of UR266, UR275 and UR269 (2950, 1653, 1737, 1827, 1780, 2247, 1765 and 1506; 1.27 expected).
   - It survives correction for the choice of rule (p = 0.015) and the split into halves (5/9 and 3/9; Holm 0.016).
   - In the targeted blind test over 132,600 triads, the pair ranks among the top five, but does not pass the Holm correction (0.93).
-  - **Level: supported, not demonstrated.** It converges with [I02]: the sums A+B and the rows of UR278 fall on the same totals.
+  - **Level: supported, not well supported.** It converges with [I02]: the sums A+B and the rows of UR278 fall on the same totals.
   - **[I04]** When UR273A is blank, UR274A takes its place in 3 of 4 records (p = 0.00013).
 - **[I11–I14] Profile of the 9 columns.**
   - It is unequal and ordered from largest to smallest (Spearman −0.73; p = 0.025).
@@ -151,13 +151,13 @@ Bracketed identifiers refer to `findings_table.csv`.
 - **Publication.** Partial: the Khipu Field Guide lists 15 indexed sums of KH0049 as automatic output, without describing the hierarchy or UR122 (`analisis/30_frontera_estructura/novedad_kh0049.md`). We have not been able to read Ascher and Ascher 1978 or Pereyra Sánchez 2011.
 - It is a second case of "column total" outside Inkawasi.
 
-**Two-color alternation.** *Demonstrated in UR040 and UR167 (Holm 0.025); supported in UR1033F (q 0.010).*
+**Two-color alternation.** *Well supported in UR040 and UR167 (Holm 0.025); supported in UR1033F (q 0.010).*
 
 - Pairs of two-colored cords interleaved (A/B/A/B), the only structure of the 180-khipu frontier set that was replicated in the confirmation half (q 0.003). It is read as a two-column table written in interleaved form.
 - There are 19 such khipus in the corpus; 15 were already TAB/FOR. In UR040 and UR167 the values are almost all 0 or 1: the format is secure, the content is not.
 - Of the 180 khipus in the frontier set, only 3 cease to belong to it (4 with KH0049). **The rest are decimal lists with no structure recoverable with these data.**
 
-**New copy: UR1104 → UR234, a "one-field extract".** *Supported (post hoc); the strength is that of demonstrated.*
+**New copy: UR1104 → UR234, a "one-field extract".** *Supported (post hoc); the strength is that of well supported.*
 
 - UR1104 (AS104, Berlin, Pachacamac) reproduces in order the headers of nine records of UR234: 7 exact, one variant (3102 versus 3012) and the broken header of UR234 (2016). It is a summary that moves up a level, taking the major field of the Nazca/Berlin format.
 - UR108 → UR231 is similar (5 of 6; proposed).
@@ -168,7 +168,7 @@ Bracketed identifiers refer to `findings_table.csv`.
 
 **The UR278 mismatches are turn-counting errors.** *Supported (small n).* Of 18 rows with a destination, 11 are exact and 7 are not (39%). The mismatches (book − detail) are +6, +100, +1, −1, +1, −1, −1: no consistent direction (4+/3−). 6 of 7 fall on the units (p = 0.007; approximate null), the signature of a miscounted long knot, not of a convention (which would give a constant sign or magnitude). The two copies of the book agree on all of them: the difference arises in the detail → book step.
 
-**"The largest cord opens the group" (P5c).** *Supported, new.* Outside Inkawasi, the largest value comes first in 25.9% of groups against 15.2% expected (Holm 0.002). In UR278 the columns are decreasing (tau −0.41; demonstrated).
+**"The largest cord opens the group" (P5c).** *Supported, new.* Outside Inkawasi, the largest value comes first in 25.9% of groups against 15.2% expected (Holm 0.002). In UR278 the columns are decreasing (tau −0.41; well supported).
 
 **Balancing by two routes.** *Proposed, with a weak analogy.* It is not documented in Uruk or Pilos (Nissen, Damerow and Englund 1993). We treat it as a feature specific to Inkawasi. There is a documented parallel in the document hierarchy, the fixed format by type, and the copies.
 
@@ -199,9 +199,9 @@ The sources closest to each finding, and why they do not contain it, are in `pri
 1. **"74% is not distinguishable from chance" became "is not informative".** With power of ~24%, the metric neither proves nor refutes accounting.
 2. **UR006.** We first said it did not reproduce Urton's structure. Counting the loop cords, it does: 24 pairs, 729 cords and 45 of 48 sums. The calendrical reading remains proposed.
 3. **UR278 → UR266.** "16 of 33 in order" fell to 15 and then to 11, the figure replicated by the independent script and the blind test. Nor was it true that it was "the only relation between khipus in the corpus": the method reproduces Puruchuco.
-4. **UR273A+B (H1)** fell from demonstrated to supported. **UR267A+B → UR269** fell to not demonstrated. **30 + 17 = 47** fell to proposed. The "position in the UR269 block" was withdrawn: it was explained by magnitude.
-5. **UR270 → UR278 (H2)** rose from supported to demonstrated after the blind test.
-6. **R/V attachment.** It went from "demonstrated code" to **proposed archive convention** (6 of 14 in the corpus).
+4. **UR273A+B (H1)** fell from well supported to supported. **UR267A+B → UR269** fell to not well supported. **30 + 17 = 47** fell to proposed. The "position in the UR269 block" was withdrawn: it was explained by magnitude.
+5. **UR270 → UR278 (H2)** rose from supported to well supported after the blind test.
+6. **R/V attachment.** It went from "well supported code" to **proposed archive convention** (6 of 14 in the corpus).
 7. **UR054/UR055 compensation, withdrawn.** Zones in centimeters gave p = 0.0002, but with heights relative to cord length, p rises to 0.76 and 0.44. Of that family, only UR050 is sustained.
 8. **UR053B ≈ UR053C** is a copy already known, published by Urton (2017, ch. 8) and recorded in our critique of copies. An intermediate task said "they are not copies" because it compared by position.
 9. **Santa.**

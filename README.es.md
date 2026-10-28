@@ -2,7 +2,7 @@
 
 *English version: [README.md](README.md).*
 
-**Borrador para revisión especializada.** Nada de lo que hay aquí ha pasado por revisión de pares.
+**Abierto a revisión especializada.** Nada de lo que hay aquí ha pasado todavía por revisión de pares, e invitamos a especialistas en quipus, en historia andina y en estadística a revisarlo. Las objeciones, las correcciones y las relecturas de los objetos son bienvenidas como [issues](https://github.com/dariodemh/quipus/issues).
 
 **Idiomas.** Los informes de cada carpeta y la bitácora están en español. El paquete de revisión tiene versión en inglés en [`analisis/paquete_revision/en/`](analisis/paquete_revision/en/), y la guía del lector, en [`lector/README.md`](lector/README.md).
 
@@ -33,26 +33,30 @@ Por eso el repositorio insiste en lo que se puede verificar sin confiar en nosot
 
 | Id | Hallazgo | Nivel |
 |---|---|---|
-| I01 | UR270 → UR278: colgante + 1.ª subsidiaria = celdas de la tabla de 9 columnas | demostrado |
-| I02 | Totales de fila de UR278 = cabeceras de UR266 y totales de UR275, en orden | demostrado |
+| I01 | UR270 → UR278: colgante + 1.ª subsidiaria = celdas de la tabla de 9 columnas | bien apoyado |
+| I02 | Totales de fila de UR278 = cabeceras de UR266 y totales de UR275, en orden | bien apoyado |
 | I03 | UR273A + UR273B = las mismas cabeceras por una segunda vía | apoyado |
-| I09–I10 | Las 9 columnas son las mismas 9 unidades en UR270 y UR278, con una planitud excepcional | demostrado |
+| I09–I10 | Las 9 columnas son las mismas 9 unidades en UR270 y UR278, con una planitud excepcional | bien apoyado |
 | C01 | El 74 % de quipus con sumas no es informativo frente a un nulo correcto | apoyado |
-| C06, C18 | El color es una clave local, sin léxico compartido; los quipus son registros de datos, no texto | demostrado / apoyado (negativos) |
-| C24, K05 | Copias entre museos; la copia es un rasgo de archivo (OR 17,9) | demostrado / apoyado |
-| C27 | El método reproduce la jerarquía publicada de Puruchuco (control positivo) | demostrado |
+| C06, C18 | El color es una clave local, sin léxico compartido; los quipus son registros de datos, no texto | bien apoyado / apoyado (negativos) |
+| C24, K05 | Copias entre museos; la copia es un rasgo de archivo (OR 17,9) | bien apoyado / apoyado |
+| C27 | El método reproduce la jerarquía publicada de Puruchuco (control positivo) | bien apoyado |
 | K01 | KH0049 es una tabla de tres niveles con totales por columna; UR122 es su copia parcial | apoyado (post hoc) |
-| K02 | Tablas de dos columnas en alternancia de colores (UR040, UR167) | demostrado |
+| K02 | Tablas de dos columnas en alternancia de colores (UR040, UR167) | bien apoyado |
 | K03 | UR1104 extrae las cabeceras de 9 registros de UR234 y conserva una cabecera rota | apoyado |
 | K11 | Unidad de Incahuasi: carga (~23 kg) o fanega; total del orden de 900–1 400 t | propuesto |
 
 La lista completa (I01–I22, C01–C29, K01–K11) está en la tabla de hallazgos.
 
 **Escala de evidencia:**
-- **Demostrado:** sobrevive al nulo y a la corrección, y se replicó por una vía independiente.
+- **Bien apoyado:** sobrevive al nulo y a la corrección, y se replicó por una vía independiente.
 - **Apoyado:** significativo con corrección, pero sin réplica independiente.
 - **Propuesto:** compatible con los datos, sin prueba que lo distinga de las alternativas.
 - **Especulativo:** sin prueba.
+
+## El ensayo
+
+[`articulo/index.es.html`](articulo/index.es.html) es el ensayo *Lo que suman los quipus*, para un lector general, con figuras interactivas. La versión en inglés, que es la que abre por defecto, es [`articulo/index.html`](articulo/index.html); cada una enlaza a la otra.
 
 ## Reproducir
 
@@ -67,6 +71,11 @@ python analisis/paquete_revision/verificar.py   # cifras del paquete de revisió
 python lector/verificar.py                      # resultados conocidos del lector
 python lector/lector.py UR278                   # ficha de lectura de un quipu
 python lector/lector.py --todos                 # todo el corpus (~3 min)
+
+python articulo/fuente/extraer.py . articulo/fuente/datos.json   # datos de las figuras del ensayo
+python articulo/fuente/construir.py             # articulo/index.html (inglés) e index.es.html (español)
+python articulo/fuente/comprobar.py             # lo que dice el texto de cada figura cuadra con sus datos
+python articulo/fuente/comprobar_idioma.py articulo/index.es.html es   # no queda inglés en la página en español (requiere playwright)
 ```
 
 **Primera ejecución.** Compila numba (~1 min); después cada ficha tarda entre 4 y 20 s.
@@ -84,6 +93,8 @@ analisis/            un directorio por pregunta, numerado en el orden en que se 
   ds/                rondas de agentes (cada carpeta con su informe.md)
   NN_tema/           informe.md + scripts de cada análisis
 lector/              lector reproducible (lector.py, detectores.py, verificar.py)
+articulo/            el ensayo: index.html (inglés), index.es.html (español)
+  fuente/            plantillas (plantilla.en.html, plantilla.html), figuras.js, datos.json y los scripts que lo arman
 docs/fichas/         fichas de lectura de la literatura
 scripts/             construcción de la tabla de cuerdas
 data/external/       submódulos: Open Khipu Repository y datos de Medrano y Khosla 2024
@@ -103,6 +114,8 @@ data/external/       submódulos: Open Khipu Repository y datos de Medrano y Kho
 
 `analisis/datos/cuerdas.csv` se deriva de KFG. Las erratas que encontramos en ambas bases se describen en el hallazgo C26.
 
+El mapa del ensayo usa los contornos de **Natural Earth** (1:50m, dominio público), a través del paquete `world-atlas` (v2.0.2). Las imágenes del ensayo son de dominio público (Museo de Arte de Cleveland, CC0; Locke 1912; Guamán Poma, hacia 1615).
+
 **Licencia de este repositorio.** El código y los datos derivados van bajo MIT ([`LICENSE`](LICENSE)), y los textos bajo CC BY 4.0 ([`LICENSE-texts.md`](LICENSE-texts.md)).
 
 ## Limitaciones
@@ -114,6 +127,6 @@ data/external/       submódulos: Open Khipu Repository y datos de Medrano y Kho
 
 ## Cómo citar
 
-> dariodemh (2026). *Quipus: análisis computacional del corpus digital* [repositorio de código y datos, borrador]. https://github.com/dariodemh/quipus
+> dariodemh (2026). *Quipus: análisis computacional del corpus digital* [repositorio de código y datos]. https://github.com/dariodemh/quipus
 
 Si usan los datos, citen también OKR y Medrano y Khosla (2024).

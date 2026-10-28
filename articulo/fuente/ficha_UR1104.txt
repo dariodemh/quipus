@@ -1,0 +1,228 @@
+# Ficha de lectura: UR1104
+
+## Resumen físico
+
+- [DATO] 21 cuerdas (21 colgantes, 0 subsidiarias) en 4 grupos; 2 rotas, 0 sin nudos.  
+  _fuente: analisis/datos/cuerdas.csv_
+- [BIEN APOYADO] Color normalizado sin rangos en cm. Los nombres de color dependen del transcriptor (UR1107 = UR237: 0 de 23 etiquetas iguales); comparar colores solo dentro del mismo transcriptor.  
+  _fuente: analisis/24_color_formato/informe.md_
+
+<details><summary>datos</summary>
+
+```
+{
+ "cuerdas": 21,
+ "colgantes": 21,
+ "subsidiarias": 0,
+ "niveles": {
+  "0": 21
+ },
+ "grupos": 4,
+ "cuerdas_por_grupo": {
+  "min": 4,
+  "mediana": 5.0,
+  "max": 7,
+  "modal": 5
+ },
+ "colores_distintos": 1,
+ "colores": {
+  "W": 21
+ },
+ "torsion": {
+  "S": 21
+ },
+ "valores": {
+  "min": 1385,
+  "mediana": 2578.0,
+  "max": 37076,
+  "suma_colgantes": 205515
+ },
+ "rotas": 2,
+ "sin_nudos": 0,
+ "union_superior_T": 0,
+ "okr": "KH0118",
+ "museo": "Ethnologisches Museum, Berlin, Germany",
+ "procedencia": "Pachacamac",
+ "marcadoras_OKR": 0
+}
+```
+</details>
+
+## Gramática numérica
+
+- [DATO] Decimal estándar: 0% de las cuerdas anudadas violan la gramática decimal (lugar repetido o cifra >9 en un lugar).  
+  _fuente: analisis/28_atlas_generos/01_matriz.py (no_decimal)_
+
+<details><summary>datos</summary>
+
+```
+{
+ "cuerdas_anudadas": 21,
+ "frac_no_decimal": 0.0,
+ "tipos_de_nudo": {
+  "S": 59,
+  "L": 19,
+  "E": 1
+ },
+ "cuerdas_aditivas": 0,
+ "L_10_o_mas_KFG": 0,
+ "L_ambiguos_KFG": 0,
+ "L_10_o_mas_OKR": 0,
+ "frac_torsion_Z": 0.0
+}
+```
+</details>
+
+## Sumas internas
+
+
+<details><summary>datos</summary>
+
+```
+{
+ "pruebas": {
+  "R1 colgante=Σsubsidiarias": {
+   "obs": 0,
+   "esperado": 0.0,
+   "p": 1.0
+  },
+  "F colgante=Σ vecinos": {
+   "obs": 0,
+   "esperado": 0.0,
+   "p": 1.0
+  },
+  "A total de grupo(s) adyacentes": {
+   "obs": 0,
+   "esperado": 0.0,
+   "p": 1.0
+  },
+  "TA cuerda superior=Σ grupos": {
+   "obs": 0,
+   "esperado": 0.0,
+   "p": 1.0
+  }
+ },
+ "ejemplos": [],
+ "n_ejemplos": 0
+}
+```
+</details>
+
+## Encabezados y formato por color
+
+
+<details><summary>datos</summary>
+
+```
+{
+ "max_primer": {
+  "grupos": 4,
+  "obs": 0,
+  "esperado": 0.8,
+  "p": 1.0
+ },
+ "max_último": {
+  "grupos": 4,
+  "obs": 0,
+  "esperado": 0.8,
+  "p": 1.0
+ }
+}
+```
+</details>
+
+## Formato Nazca/Berlín (encabezado de campos + par marcador)
+
+
+<details><summary>datos</summary>
+
+```
+{
+ "barrido": []
+}
+```
+</details>
+
+## Formulario con clave de reparto
+
+
+<details><summary>datos</summary>
+
+```
+{
+ "Q": "no",
+ "fam": null,
+ "clave": null,
+ "cuotas": null,
+ "p_q": null,
+ "q_bh": null,
+ "holm": null,
+ "calculo": "publicado"
+}
+```
+</details>
+
+## Relaciones con otros quipus del corpus
+
+- [APOYADO] UR234 → UR1104: extracto de un campo: UR1104 reproduce en orden las cabeceras (campo 1) de los registros de 8 cuerdas de UR234: 8 de 4 cifras exactas; la única variante (3102/3012) es el mismo nudo en otra posición decimal. UR1104 conserva 2016, la cabecera que en UR234 está rota (predicción verificable en el objeto). Post hoc [documentada]  
+  _fuente: analisis/33_estematica/informe.md; analisis/33_estematica/05_orden_libre.py_
+
+<details><summary>datos</summary>
+
+```
+{
+ "detectadas": []
+}
+```
+</details>
+
+## Alternancia de dos colores (tabla de dos columnas intercalada)
+
+
+<details><summary>datos</summary>
+
+```
+{
+ "evaluado": false
+}
+```
+</details>
+
+## Totales por columna entre bloques (tabla jerárquica)
+
+
+<details><summary>datos</summary>
+
+```
+{
+ "bloque": 5,
+ "bloques": 4,
+ "significativos": [],
+ "candidatos": 8
+}
+```
+</details>
+
+## Género del atlas
+
+- [PROPUESTO] Género: Sin genero (SIN), confianza sin genero. decimal sin estructura detectada | calidad: 21 cuerdas, 10% rotas, transcriptor AS  
+  _fuente: analisis/28_atlas_generos/atlas.csv; analisis/28_atlas_generos/reglas.py_
+- [PROPUESTO] Predicción comprobable: Decimal sin estructura detectada: sumas al nivel del azar, cifras no redondas, color sin particion por grupo. Refuta: un detector congelado que encienda en una retranscripcion independiente.  
+  _fuente: analisis/28_atlas_generos/atlas.csv; analisis/28_atlas_generos/reglas.py_
+
+<details><summary>datos</summary>
+
+```
+{
+ "genero": "SIN",
+ "nombre": "Sin genero",
+ "confianza": "sin genero",
+ "evidencia": "decimal sin estructura detectada | calidad: 21 cuerdas, 10% rotas, transcriptor AS",
+ "prediccion": "Decimal sin estructura detectada: sumas al nivel del azar, cifras no redondas, color sin particion por grupo. Refuta: un detector congelado que encienda en una retranscripcion independiente.",
+ "estabilidad": 1.0,
+ "reglas_reproducen": true,
+ "calculo": "atlas publicado"
+}
+```
+</details>
+

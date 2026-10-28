@@ -166,10 +166,10 @@ Mapeando `kfg → okr (KH)`, hay **237 quipus** con notas de cuerda en ambas fue
 
 | afirmación | nivel |
 |---|---|
-| El catálogo y sus frecuencias (294 cuerdas rotas en 104 quipus; 90 reparaciones en 40; 50 cuerdas superiores en 14; etc.) | **demostrado** (para esta base) |
-| La documentación está concentrada en pocas colecciones y quipus (QU 31,9 % vs JC 0,2 % de cuerdas anotadas; top-10 = 34 % de los rasgos) | **demostrado** |
-| KFG y OKR son la misma transcripción, no fuentes independientes (κ ≈ 1; 1 004/1 572 cadenas idénticas) | **demostrado** |
-| `sin_nudo_final` es una convención de la colección QU (114/114) ligada a `terminacion = U` (112/114) | **demostrado** |
+| El catálogo y sus frecuencias (294 cuerdas rotas en 104 quipus; 90 reparaciones en 40; 50 cuerdas superiores en 14; etc.) | **bien apoyado** (para esta base) |
+| La documentación está concentrada en pocas colecciones y quipus (QU 31,9 % vs JC 0,2 % de cuerdas anotadas; top-10 = 34 % de los rasgos) | **bien apoyado** |
+| KFG y OKR son la misma transcripción, no fuentes independientes (κ ≈ 1; 1 004/1 572 cadenas idénticas) | **bien apoyado** |
+| `sin_nudo_final` es una convención de la colección QU (114/114) ligada a `terminacion = U` (112/114) | **bien apoyado** |
 | Los quipus de Leymebamba registran menos roturas que los de la costa sur (1,3 % vs 15,5 % de cuerdas), consistente con mejor conservación | **apoyado con datos** (control dentro de UR; confundido con historia de museo, no con cultura) |
 | Las reparaciones se asocian a cuerdas desprendidas y no a roturas (8 vs 4,5; p = 0,008) | **apoyado con datos** (n pequeño, test exploratorio) |
 | Cualquier diferencia de rasgos "por procedencia" más allá de `rota`/conservación | **propuesto / no sostenido**: confundido con colección y transcriptor |

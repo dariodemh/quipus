@@ -1,0 +1,775 @@
+<title>What the khipus add up to</title>
+<meta name="description" content="A reading of an Inka accounting archive and a statistical analysis of every digitized khipu.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Ensayo de una columna, como un artículo largo; las figuras se abren más anchas que el texto. Papel de algodón crudo, tinta de nogal, índigo y cochinilla como en los tintes de los quipus. */
+:root{
+  --papel:#f7f6f2; --tarjeta:#fffdf8; --tinta:#1d1b18; --gris:#6b655c; --regla:#dcd8cf; --suave:#efece5;
+  --indigo:#2f3f8f; --cochinilla:#a8322d; --fibra:#8a6a4a;
+  --ev-d:#2f3f8f; --ev-a:#2c7a6b; --ev-p:#a8701a; --ok:#2c7a6b; --casi:#b07a1e; --mal:#a8322d;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,"Cascadia Mono",Consolas,monospace;
+  --texto:680px; --ancho:1000px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --papel:#17150f; --tarjeta:#1f1c16; --tinta:#ece7dd; --gris:#a69e90; --regla:#3a352d; --suave:#25221b;
+  --indigo:#a3b0ff; --cochinilla:#f08177; --fibra:#c9a27e;
+  --ev-d:#a3b0ff; --ev-a:#6cc3b0; --ev-p:#e2b25a; --ok:#6cc3b0; --casi:#e2b25a; --mal:#f08177; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --papel:#17150f; --tarjeta:#1f1c16; --tinta:#ece7dd; --gris:#a69e90; --regla:#3a352d; --suave:#25221b;
+  --indigo:#a3b0ff; --cochinilla:#f08177; --fibra:#c9a27e;
+  --ev-d:#a3b0ff; --ev-a:#6cc3b0; --ev-p:#e2b25a; --ok:#6cc3b0; --casi:#e2b25a; --mal:#f08177; color-scheme:dark}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--papel);color:var(--tinta);font-family:var(--serif);font-size:20px;line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+.col{max-width:var(--texto);margin-inline:auto}
+.ancho{max-width:var(--ancho);margin-inline:auto}
+p{margin:0 0 1.05em}
+a{color:var(--indigo);text-underline-offset:2px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--indigo);outline-offset:2px;border-radius:3px}
+h1,h2,h3{font-family:var(--serif);font-weight:500;text-wrap:balance;line-height:1.15;letter-spacing:-.01em}
+h1{font-size:clamp(40px,7vw,68px);margin:0 0 14px;font-weight:500}
+h2{font-size:clamp(28px,4vw,38px);margin:2.2em 0 .6em}
+h3{font-size:25px;margin:1.9em 0 .5em}
+.kicker,.meta,.etq,figcaption,.boton,.ev,.nota-al-pie,.tarjeta,.leyenda,.pie{font-family:var(--sans)}
+.kicker{font-size:13px;letter-spacing:.09em;text-transform:uppercase;color:var(--gris);margin:56px 0 18px}
+.subtitulo{font-size:24px;line-height:1.35;color:var(--gris);font-style:italic;margin:0 0 22px;max-width:640px}
+.meta{font-size:14px;color:var(--gris);display:flex;flex-wrap:wrap;gap:6px 18px;border-top:1px solid var(--regla);padding-top:12px}
+.meta b{color:var(--tinta);font-weight:500}
+.num{font-family:var(--mono);font-size:.86em;letter-spacing:-.01em}
+.fila-num{font-family:var(--mono);font-size:17px;background:var(--suave);border-radius:6px;padding:10px 14px;margin:0 0 1em;overflow-x:auto;white-space:nowrap}
+.fila-num .dif{color:var(--cochinilla);font-weight:500}
+blockquote{margin:1.4em 0;padding:0 0 0 20px;border-left:2px solid var(--fibra);font-style:italic;color:var(--tinta)}
+blockquote cite{display:block;font-style:normal;font-family:var(--sans);font-size:14px;color:var(--gris);margin-top:6px}
+hr{border:0;border-top:1px solid var(--regla);margin:56px auto;max-width:var(--texto)}
+sup.fn a{font-family:var(--sans);font-size:12px;text-decoration:none;padding:0 2px;font-weight:600}
+/* evidencia */
+.ev{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:99px;border:1px solid currentColor;line-height:1.5;vertical-align:2px;white-space:nowrap}
+.ev-d{color:var(--ev-d)} .ev-a{color:var(--ev-a)} .ev-p{color:var(--ev-p)}
+.leyenda{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;font-size:14.5px;line-height:1.45;color:var(--gris);margin:18px 0 8px;padding:16px 0;border-block:1px solid var(--regla)}
+.leyenda div{min-width:0}.leyenda .ev{margin-bottom:6px}
+/* bloque de hallazgo */
+.partes{display:grid;gap:4px;margin:6px 0 10px}
+.parte{margin:0 0 .9em}
+.parte>.etq{font-family:var(--sans);font-size:13px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--fibra);margin-right:8px}
+.h-num{font-family:var(--sans);font-size:14px;font-weight:600;color:var(--fibra);letter-spacing:.06em;text-transform:uppercase;display:block;margin-bottom:6px}
+/* índice de tarjetas */
+.indice{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin:22px 0 10px}
+.indice .grupo{grid-column:1/-1;font-family:var(--sans);font-size:13px;letter-spacing:.09em;text-transform:uppercase;color:var(--gris);margin-top:10px}
+.tarjeta{display:flex;flex-direction:column;gap:8px;text-decoration:none;color:var(--tinta);background:var(--tarjeta);border:1px solid var(--regla);border-radius:10px;padding:14px;min-width:0;transition:border-color .15s,transform .15s}
+.tarjeta:hover{border-color:var(--fibra);transform:translateY(-1px)}
+.tarjeta .n{font-family:var(--mono);font-size:12px;color:var(--gris)}
+.tarjeta .t{font-family:var(--serif);font-size:18px;line-height:1.25}
+.tarjeta svg{width:100%;height:46px;display:block}
+.tarjeta.grande{grid-column:span 2}
+@media (max-width:560px){.tarjeta.grande{grid-column:span 1}}
+/* figuras */
+figure{margin:34px auto 38px;max-width:var(--ancho)}
+figure.texto{max-width:var(--texto)}
+.lienzo{background:var(--tarjeta);border:1px solid var(--regla);border-radius:12px;padding:16px;overflow-x:auto}
+.lienzo svg{display:block;max-width:100%;height:auto;margin-inline:auto}
+figcaption{font-size:14.5px;line-height:1.5;color:var(--gris);margin:10px auto 0;max-width:var(--texto)}
+figcaption b{color:var(--tinta);font-weight:600}
+.controles{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px;align-items:center}
+.boton{font-size:13.5px;font-weight:500;background:var(--papel);color:var(--tinta);border:1px solid var(--regla);border-radius:99px;padding:6px 14px;cursor:pointer}
+.boton:hover{border-color:var(--fibra)}
+.boton[aria-pressed="true"]{background:var(--tinta);color:var(--papel);border-color:var(--tinta)}
+.salida{font-family:var(--mono);font-size:14px;color:var(--gris)}
+svg text{font-family:var(--sans);fill:var(--tinta)}
+svg .m{font-family:var(--mono)}
+svg .g{fill:var(--gris)}
+.foto img{width:100%;height:auto;border-radius:10px;display:block}
+.foto.angosta{max-width:420px}
+.tabla{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:14px;font-variant-numeric:tabular-nums}
+.tabla th{font-family:var(--sans);font-weight:500;color:var(--gris);font-size:12.5px;text-align:right;padding:4px 6px;border-bottom:1px solid var(--regla)}
+.tabla td{text-align:right;padding:4px 6px;border-bottom:1px solid var(--suave)}
+.tabla tr.hit td{color:var(--ok);font-weight:500}
+.tabla td.l,.tabla th.l{text-align:left}
+.ficha{font-family:var(--sans);font-size:14.5px;line-height:1.5}
+.ficha details{border-top:1px solid var(--regla);padding:8px 0}
+.ficha summary{cursor:pointer;font-weight:500}
+.ficha li{margin:6px 0;list-style:none}
+.ficha ul{padding:0;margin:6px 0 0}
+.ficha .ev{margin-right:8px;font-size:10.5px}
+.notas{font-family:var(--sans);font-size:15px;line-height:1.55;color:var(--gris)}
+.notas li{margin-bottom:10px}
+.refs{font-family:var(--sans);font-size:15px;line-height:1.55}
+.refs li{margin-bottom:8px}
+.pie{font-size:13.5px;color:var(--gris)}
+@media (max-width:600px){body{font-size:18px}.subtitulo{font-size:20px}.lienzo{padding:10px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<header class="col">
+  <div class="kicker">Essay · open to specialist review · October 2026</div>
+  <h1>What the khipus add up to</h1>
+  <p class="subtitulo">A reading of an Inka accounting archive and a statistical analysis of every digitized khipu</p>
+  <div class="meta"><span><b>dario</b>, with AI agents</span><span>About 45 minutes to read</span><a href="https://github.com/dariodemh/quipus">Code and data</a><a href="#referencias">References ↓</a><a href="index.es.html" hreflang="es" lang="es">Leer en español</a></div>
+</header>
+
+<figure class="ancho foto">
+  <img src="__HERO__" alt="An Inka khipu laid out on a light background. Dozens of cotton cords in white and brown tones hang from a curved primary cord, several of them knotted.">
+  <figcaption>An Inka khipu from the 15th or 16th century, of cotton and camelid fiber. Cleveland Museum of Art, 1940.469. Museum photograph, public domain (CC0). This is not one of the khipus in the study.</figcaption>
+</figure>
+
+<main>
+<section class="col" id="version-corta">
+<h2>The short version</h2>
+
+<p>At the Inka storehouse of Inkawasi, in the Cañete valley, archaeologists found fourteen khipus piled together and covered with peanuts. We propose a reconstruction, figure by figure, of the accounts they kept, and we leave it open for others to check.</p>
+
+<p>On our reading, nine units (possibly pachakas, a unit of Inka social organization) delivered a product, probably peanuts, and each one contributed two parts. One khipu recorded the two parts of each unit in each delivery. Another copied those figures out clean into a table of nine columns, one per unit. The row totals of that table appear later, in the same order, in a summary ledger of which two copies survive: eleven exactly and seven with differences, almost all of them off by one; for the rest, the destination has not survived. And a pair of tied khipus reaches several of those same totals by another route, adding up the parts instead of the units.</p>
+
+<p>From the ten khipus that enter the account we have 1461 figures, and for about a thousand of them we know what role they play. If the reading is correct, one can follow a number from the cord where it was recorded to the ledger where it ended up, predict missing cords and point to knots that may have been miscounted. An AI agent that worked blind, without the khipu names or access to the literature, found the main relationship with the same rule we used. It builds on the work of Gary Urton and Alejandro Chu, who had already seen at Inkawasi pairs of khipus with similar figures and fixed quotas that were subtracted from each delivery.</p>
+
+<p>The rest of the work looks at the 650 khipus of the digitized corpus (the database has 651; one is a duplicate), with almost 58,000 cords. Seen as a whole, the khipus we can read look less like a text and more like what we would do today with a spreadsheet. They are tables of rows and columns, forms that always split an amount in the same proportions, lists with their totals and registers of people. Some archives had their own formats, and documents were copied, summarized one another and kept together, as in a system of account books.</p>
+
+<p>These are the findings. Each card leads to its section.</p>
+
+<div class="indice" id="indice"></div>
+
+<div class="leyenda" aria-label="Evidence scale">
+  <div><span class="ev ev-d">Well supported</span><br>Survives chance and correction for multiple tests, and was replicated by an independent route.</div>
+  <div><span class="ev ev-a">Supported</span><br>Significant after correction, but without independent replication.</div>
+  <div><span class="ev ev-p">Proposed</span><br>Compatible with the data, without a test that separates it from other explanations.</div>
+</div>
+
+<p>None of the labels means that something is proven. They say how well each result held up under the tests we ran, and each one is in the repository for others to check.</p>
+
+<p>Our data also do not support some earlier proposals, such as that most khipus have recognizable internal sums, that colors had a shared meaning across the whole empire, or that some khipus hold syllables. We explain this <a href="#propuestas">in a separate section</a>, along with what it would take for the data to support them.</p>
+
+<p>None of us, neither the person in charge of the project nor the agents, has seen the objects. Everything comes from published transcriptions, and so each finding ends with what one would have to look at in a museum or an archive to confirm or reject it. The code, the data and a <a href="#lector">khipu reader</a> that gives the profile of any khipu in the corpus, or of a new one, are in a public repository.</p>
+</section>
+
+<hr>
+
+<section class="col" id="quipu">
+<h2>What a khipu is</h2>
+
+<p>A khipu is a primary cord from which other cords hang, sometimes hundreds. The pendant cords carry knots, and smaller cords, the subsidiaries, can hang from them. The cords have colors, are twisted one way or the other, and are attached to the primary cord at the front or at the back.</p>
+
+<p>In the absence of alphabetic writing, khipus were used to record censuses, tribute, and what went in and out of the state storehouses. The specialists who made and read them were called khipukamayuq. After the conquest they remained in use for decades, in some isolated communities into the 20th century, and some Spanish chroniclers transcribed what the khipukamayuq read to them.</p>
+</section>
+
+<figure class="foto angosta">
+  <img src="__POMA1__" alt="Ink drawing of a standing man holding an outstretched khipu with both hands. At bottom left, a board with squares and seeds.">
+  <figcaption>The chief accountant and treasurer of Tawantinsuyu, with a khipu in his hands and a yupana, the counting board, at his feet. Felipe Guamán Poma de Ayala, <i>Nueva corónica y buen gobierno</i>, around 1615. Public domain.</figcaption>
+</figure>
+
+<section class="col">
+
+<p>How the numbers are read was worked out in 1912 by Leland Locke, an American mathematician. He noticed that on some khipus a top cord was worth exactly the sum of the cords it grouped.</p>
+
+<blockquote>“The top cord sums then the numbers on the pendent cords through which it is looped, thus giving an accurate key to the numerical character of the knots.”<cite>L. Leland Locke, 1912, p. 330</cite></blockquote>
+</section>
+
+<figure class="foto angosta">
+  <img src="__LOCKE__" alt="Old black-and-white photograph of a khipu: a horizontal primary cord from which many knotted cords hang.">
+  <figcaption>One of the khipus Locke studied, in a plate from his 1912 article. Public domain.</figcaption>
+</figure>
+
+<section class="col">
+<p>Thanks to Locke we know that the system is decimal and positional. Thousands go near the primary cord, hundreds further down, then tens, and units at the end. Hundreds and tens are marked with clusters of single knots. Units are marked with a long knot of two to nine turns, and the number of turns is the digit; one, which cannot be made as a long knot, is a figure-eight knot. An empty space at a position is a zero.</p>
+
+<p>Here is a real cord from one of the khipus in this story. Hover over, or tap, each cluster of knots.</p>
+</section>
+
+<figure class="texto" id="fig-cuerda">
+  <div class="lienzo"><svg id="svg-cuerda" viewBox="0 0 600 330" role="img" aria-label="A cord from UR278 with knots at three positions that add up to 415."></svg></div>
+  <figcaption><b>Figure 1.</b> The first cord of UR278, drawn to scale from the transcription. Four single knots in the hundreds, one in the tens and a long knot of five turns in the units. It adds up to 415.</figcaption>
+</figure>
+
+<section class="col">
+<p>That is, broadly, what is known with most confidence about how khipu numbers are read. It is not known what was being counted in each case, whether colors had a fixed meaning, or whether some khipus held anything besides numbers, such as names or stories. There are chronicles that speak of narrative khipus, but no one has proposed a reading of one that has been accepted and replicated.</p>
+</section>
+
+<hr>
+
+<section class="col" id="metodo">
+<h2>The data and how we worked</h2>
+
+<p>We used two public databases. The first is the Khipu Field Guide, by Manuel Medrano and Ashok Khosla, with 651 khipus and 57,818 cords.<sup class="fn"><a href="#n1" id="r1">1</a></sup> The second is the Open Khipu Repository, which brings together transcriptions by several researchers. For each cord we have its knots, its value, its color, its length, which way it is twisted and how it is attached. Without the work of those who built these databases, this project would not have been possible.</p>
+
+<p>The two databases agree on 99.4% of values. The differences are concentrated in five khipus, and half of them are errors by a factor of ten, a digit shifted by one position.</p>
+
+<p>The analysis was done by artificial intelligence agents, coordinated by one person. The agents wrote and ran the programs and reviewed one another, and one acted as a red team and tried to refute each result. The work has not yet gone through peer review. That is why we chose this continual contradiction between agents, and to leave everything, data and programs, in a public repository where anyone can correct or improve it. We invite specialists in khipus, Andean history and statistics to review it. Objections, corrections and, above all, new readings of the objects themselves can be sent as an <a href="https://github.com/dariodemh/quipus/issues">issue in the repository</a>.</p>
+
+<p>No agent has had direct access to a khipu. Everything comes from published transcriptions and from the literature, and that lack of contact with the objects is the first thing that would need to be addressed in a next stage.</p>
+
+<h3>The problem of chance</h3>
+
+<p>With thousands of cords and thousands of numbers, coincidences always turn up. If you look for sums, you find sums, and if you look for syllables, you find those too. The question that matters is how many would turn up by chance.</p>
+
+<p>To answer it we used permutation tests. The idea is simple. We shuffle the cord values many times, within the same khipu or the same group depending on the question, and count how many coincidences turn up in the shuffled data. If the real data have many more, there is something there that chance does not explain. If they have the same number, we cannot claim anything. The figure below does this on a small scale.</p>
+</section>
+
+<figure class="texto" id="fig-azar">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" data-caso="con" aria-pressed="true">Khipu with totals</button><button class="boton" data-caso="sin" aria-pressed="false">Khipu without totals</button><button class="boton" id="azar-jugar">Shuffle 300 times</button><span class="salida" id="azar-salida"></span></div>
+    <svg id="svg-azar" viewBox="0 0 640 380" role="img" aria-label="Animation of a permutation test."></svg>
+  </div>
+  <figcaption><b>Figure 2.</b> A permutation test with example numbers. At the top, twelve cords; we count how many are worth exactly the sum of the three that follow. At the bottom, how many of the 300 shuffles found 0, 1, 2 or more sums; the indigo line marks how many there are in the real, unshuffled data. With real totals, the line falls far from the bars. Without them, it falls on top of them and chance explains it.</figcaption>
+</figure>
+
+<section class="col">
+<p>The probability we give for each result, the <i>p</i>, says how often chance would produce something equal or better. A <i>p</i> of 0.0002 means 2 times in 10,000. Because we ran many tests, we also correct for their number. If you run a hundred tests, five come out “significant” by sheer luck, and the Holm and Benjamini-Hochberg corrections adjust for that.<sup class="fn"><a href="#n2" id="r2">2</a></sup></p>
+
+<p>Before using a method on something new, we tested it on something known. If a sum detector does not find the sums others have already published, it is no use. The main control was Puruchuco, a khipu archive near Lima where Gary Urton and Carrie Brezine showed in 2005 that some khipus summarized others. Our method found the same hierarchy, including two small discrepancies they had already pointed out, 2904 against 2908 and 161 against 162.<sup class="fn"><a href="#n3" id="r3">3</a></sup></p>
+
+<h3>When a test finds nothing</h3>
+
+<p>When a test finds nothing, one has to ask whether it could have found it. So we deliberately hid known patterns in test data and checked whether each method detected them. If a method detects a real pattern only one time in four, its not finding it says little. In those cases we write “not detectable with these data” and not “does not exist”.</p>
+
+<h3>A blind test</h3>
+
+<p>One of the tests was blind. We took the 52 khipus that the database attributes to Inkawasi, removed their names, hid 15% of the knotted cords and asked an AI agent, without access to the literature or to our results, to guess the hidden values and look for relationships between khipus.<sup class="fn"><a href="#n4" id="r4">4</a></sup></p>
+
+<p>The agent ventured to predict 68 hidden cords and got exactly 56 right, 82%. It also found on its own the main relationship in this work, with the same rule we had used. With that replication, the relationship moved from supported to well supported.</p>
+</section>
+
+<figure class="texto" id="fig-ciegas">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" id="ciegas-jugar">Run the test</button><span class="salida" id="ciegas-salida">68 predictions</span></div>
+    <svg id="svg-ciegas" viewBox="0 0 620 170" role="img" aria-label="68 blind predictions, 56 exact."></svg>
+  </div>
+  <figcaption><b>Figure 3.</b> The 68 hidden cords the agent ventured to predict. In green, the ones it got exactly right (56); in red, the ones it did not (12). The position of each dot is illustrative: what matters is the proportion. The best alternative that does not know the relationships between khipus gets about 14% right.</figcaption>
+</figure>
+
+<section class="col">
+<h3>How to read each finding</h3>
+
+<p>Each finding has the same four parts. What we found, how we tested it, how sure we are, and what is missing. This last part says which observation would strengthen it and, when we know, which would overturn it, and it is the most useful for anyone with access to the objects or the archives. When a finding supports, develops or adds evidence to an earlier proposal, we say so under a background heading.</p>
+</section>
+
+<hr>
+
+<section class="col" id="inkawasi">
+<h2>Inkawasi, the storehouse</h2>
+
+<p>Inkawasi is in the Cañete valley, near Lunahuaná. The Inkas built it as a garrison and storage center during their war against the Guarco, who lived in the lower part of the valley. There the archaeologist Alejandro Chu excavated dozens of khipus, several covered with remains of chili peppers, peanuts and beans, which could be the products they recorded.</p>
+
+<blockquote>“Several of the khipus were found associated with, or covered by, aji (Capsicum sp.), peanuts (Arachis hypogaea), and black beans (Phaseolus vulgaris). We suggest that these may be the products that the khipus recorded.”<cite>Urton and Chu, 2015, abstract</cite></blockquote>
+
+<p>Urton and Chu published in 2015 and 2018 that several of these khipus were tied together in pairs with similar figures, and that there were fixed amounts subtracted again and again, 10, 15, 47 and 208. They interpreted them as a quota set aside from each delivery. We replicated that result, which is theirs, and started from it.</p>
+</section>
+
+<figure class="foto angosta">
+  <img src="__POMA2__" alt="Ink drawing titled Depósito del Inga. An Inka stands before an administrator who shows him a khipu; behind them, rows of storehouses with vaulted roofs.">
+  <figcaption>“Depósito del Inga”. The Inka before an administrator who renders him accounts with a khipu, in front of the qollqa, the state storehouses. Guamán Poma de Ayala, around 1615. Public domain.</figcaption>
+</figure>
+
+<figure class="texto" id="fig-mapa">
+  <div class="lienzo"><svg id="svg-mapa" viewBox="0 0 520 560" role="img" aria-label="Schematic map of Peru with the sites mentioned."></svg></div>
+  <figcaption><b>Figure 4.</b> The sites in Peru that appear in this essay; Berlin, Paris, Gothenburg and the other museums with khipus fall outside the map. Outlines from Natural Earth; the positions of the sites are approximate.</figcaption>
+</figure>
+
+<section class="col">
+<p>The fourteen peanut khipus were piled in a corner of one of the storehouse's large halls.<sup class="fn"><a href="#n5" id="r5">5</a></sup> The first five findings come from them.</p>
+</section>
+
+<hr>
+
+<section class="col" id="hallazgos">
+<h2>The findings</h2>
+
+<h3>A reading of the peanut archive</h3>
+
+<p>Before going through it piece by piece, it helps to see the whole. Of the fourteen khipus in the pile, ten enter one and the same account: eight form the chain and two, UR269 and UR268, are side ledgers. Here it is, from the bottom up.</p>
+</section>
+
+<figure id="fig-archivo">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" id="archivo-jugar">Walk through the account</button><span class="salida" id="archivo-salida"></span></div>
+    <svg id="svg-archivo" viewBox="0 0 960 470" role="img" aria-label="Diagram of the peanut archive in three levels."></svg>
+  </div>
+  <figcaption><b>Figure 5.</b> The peanut archive. The color of each arrow shows the level of evidence for that relationship. The khipus in gray are outside the account; UR272 and UR277 have a proposed reading, as lists of small counts, and UR276 and UR279 have no reading.</figcaption>
+</figure>
+
+<section class="col">
+<p>At the lowest level, UR270 records each delivery in its nine-cord records as nine units, and each unit with two parts, one on the pendant cord and the other on its subsidiary. At the next level there are two summaries of the same detail. UR278 adds the two parts of each unit and builds a table of nine columns. The tied pair UR273A and UR273B instead adds all the parts of one kind and all those of the other. At the highest level, the ledger, of which two copies survive, UR275 and UR266, enters the total of each delivery, the fixed quota of 47 and the division of the rest. The two summaries reach the same ledger by different routes, as if the account were balanced by rows and by columns.</p>
+
+<p>From those ten khipus we have 1461 figures. For about a thousand we know what role they play in the account, and each one carries in the repository its reading, its arithmetic link and its level of evidence. The closest work is that on Puruchuco, where Urton and Brezine showed that some khipus summarized others. Here we also try to follow each number along the whole chain, in both directions. We read in full Urton and Chu's work on Inkawasi, with its supplements, and Urton's 2017 chapter. We have not been able to read three works by Alejandro Chu published in 2016 and 2018, and one of them might anticipate part of this.</p>
+
+<p>What we do not yet know is what the nine units were, what the two parts were, or what the peanuts were measured in. Findings 3 and 5 deal with those questions.</p>
+
+<h3 id="h1"><span class="h-num">Finding 1</span>Accounts on three levels</h3>
+
+<p class="parte"><span class="etq">What we found</span>UR278 is a khipu arranged in groups of nine cords, and each group works as a row of a table with nine columns. UR270 is another khipu from the same pile, and in its nine-cord records each pendant cord has a subsidiary. If each cord of UR270 is added to its subsidiary, the result is the cells of UR278, column by column and in the same order.</p>
+
+<p>In the first group of UR270, the first cord is worth 178 and its subsidiary 59, which add up to 237. The second is worth 200 and its subsidiary 95, which add up to 295. And so on for all nine.</p>
+
+<div class="fila-num">UR270, group 0, pendant + subsidiary &nbsp; <span class="dif">237</span> · 295 · 138 · 198 · 201 · 153 · 106 · 138 · 187</div>
+<div class="fila-num">UR278, row 21 &nbsp; <span class="dif">238</span> · 295 · 138 · 198 · 201 · 153 · 106 · 138 · 187</div>
+
+<p>Eight of nine match, and the first is off by one. That difference of one will come back in finding 4. Here are the two khipus, drawn from the transcription. Hover over a column.</p>
+</section>
+
+<figure id="fig-celdas">
+  <div class="lienzo">
+    <div class="controles" id="celdas-tabs"></div>
+    <svg id="svg-celdas" viewBox="0 0 960 520" role="img" aria-label="A group of UR270 and the corresponding row of UR278, cord by cord."></svg>
+  </div>
+  <figcaption><b>Figure 6.</b> At the top, a group of UR270, with each pendant and its subsidiary. At the bottom, the row of UR278 that corresponds to it. The table in the middle does the sum. The buttons switch between the five groups of UR270 that match a row of UR278 in six or more of their nine cells.</figcaption>
+</figure>
+
+<section class="col">
+<p>The second step is to add up each row of UR278. Row 0 gives 415 + 415 + 353 + 415 + 415 + 415 + 414 + 413 + 363 = 3618, and that 3618 is one of the headers of UR266, a khipu that works as a summary ledger. Eleven row totals of UR278 appear as headers of UR266, in the same order. UR275, the other copy of the same ledger, has seven in the same order. The figure below links each row to its destination. That the lines do not cross is what “in the same order” means.</p>
+</section>
+
+<figure id="fig-cadena">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" id="cadena-jugar">Carry the totals to the ledger</button><span class="salida" id="cadena-salida"></span></div>
+    <svg id="svg-cadena" viewBox="0 0 960 420" role="img" aria-label="Row totals of UR278 linked to the headers of UR266."></svg>
+  </div>
+  <figcaption><b>Figure 7.</b> On the left, the totals of the 26 rows of UR278. In the middle, the header of UR266 where each one appears, and on the right the one in UR275. In green, an exact match; in ochre, a difference of one; in red, larger differences; in gray, rows with no surviving destination. The only line that crosses is that of row 29, which points to the same header as row 1 and could be a duplicate record.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Background</span>Develops what Urton and Chu saw; they had noticed that UR278 was organized in nines and that UR266 and UR275 were copies. It is a hierarchy of the same kind as the one Urton and Brezine showed at Puruchuco.</p>
+
+<p class="parte"><span class="etq">How we tested it</span>In five of the twelve comparable groups, between six and nine of the nine cells match. If only the pendant cords are used, without the subsidiary, no group reaches six, and chance produces something like this 2 times in 10,000. In the step to the ledger, by chance one would expect less than one header in the right order, and there are eleven. A second program, written separately, found the same thing. The agent in the blind test found both relationships; the second one in a test where we fixed the rule, the chance baseline and the correction in writing before opening the data.</p>
+
+<p>With the rules of the chain, cords can be predicted. If one cord at a time is hidden and calculated from the others, the prediction is exactly right for 59% of the cords the chain allows us to predict, against 21% for the best alternative without the chain.</p>
+
+<p class="parte"><span class="etq">How sure we are</span><span class="ev ev-d">Well supported</span>, for the arithmetic of the chain. There is a limit worth stating. On the cords we did not use to discover the rules, the predictive advantage almost disappears, 18% against 15%. What holds up best is the arithmetic of the chain, not everything each khipu says.</p>
+
+<p class="parte"><span class="etq">What is missing</span>A rereading of the khipus by someone else. For Inkawasi, the two databases come from the same reading, and a second, independent reading is what this whole work lacks most.<sup class="fn"><a href="#n6" id="r6">6</a></sup> It would also help to find another nine-column table at Inkawasi, for chili peppers or beans. If it has the same profile as UR278 (finding 3), the nine units would not be specific to peanuts.</p>
+
+<h3 id="h2"><span class="h-num">Finding 2</span>A second route to the same ledger</h3>
+
+<p class="parte"><span class="etq">What we found</span>In the same pile there is a pair of tied khipus, UR273A and UR273B. If they are added record by record, eight of eighteen sums match headers in the ledgers. The table in UR278 adds by units and the pair adds by parts, and both arrive at the same totals.</p>
+
+<p>The pair is completed by its copies. When a record of UR273A is blank, its copy UR274A takes its place, and the sum again gives the header in 3 of 4 cases. The copies also carry their own fixed quotas, 30 in one and 17 in the other, which together give the 47 in the ledger. This last point is only a proposal.</p>
+</section>
+
+<figure class="texto" id="fig-ab">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" id="ab-jugar">Add the two halves</button><span class="salida" id="ab-salida"></span></div>
+    <div style="overflow-x:auto"><table class="tabla" id="tabla-ab"></table></div>
+  </div>
+  <figcaption><b>Figure 8.</b> The header of each record of UR273A and of UR273B, aligned by group number. In green, the sums that appear as headers in the ledgers of the archive. In g6, the UR273A cord is the fixed quota of 30 rather than a header, but the record is part of the test, which compares all 18.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Background</span>Adds evidence to an observation by Urton and Chu, who noticed that the figures in UR273B resembled those in the ledgers.</p>
+
+<p class="parte"><span class="etq">How we tested it</span>By chance one would expect a little over one match, and there are eight. The result holds up when the pair is split into two halves and each is tested separately. It weakens when all possible ways of aligning the two halves are counted,<sup class="fn"><a href="#n7" id="r7">7</a></sup> and in the blind test it ranked among the top five of 132,600 possible trios, without passing the correction.</p>
+
+<p class="parte"><span class="etq">How sure we are</span><span class="ev ev-a">Supported</span> The sum of the quotas is <span class="ev ev-p">proposed</span>.</p>
+
+<p class="parte"><span class="etq">What is missing</span>An independent rereading of UR273A, UR273B and UR274A. If seven of the eight sums or more hold, it is strengthened; if three or more break, it falls. There is also one specific cord, number 104 of UR266. Today it is worth 1737, which is exactly one of the sums, but Urton published it as 1732, and counting the turns of its last knot decides it. Finally, of the 34 khipus excavated at Inkawasi only 29 have been described. If there is another tied pair among the other five, we predict that its sums will give headers of another ledger in the archive, UR269.</p>
+
+<h3 id="h3"><span class="h-num">Finding 3</span>Nine fixed columns</h3>
+
+<p class="parte"><span class="etq">What we found</span>The columns of the table are always the same nine, in the same order, in UR270 and in UR278. They are also very even, because each column receives more or less the same in each row. But they are not equal. Overall they go down from largest to smallest, with the first two as the largest and the last two as the smallest, and those proportions hold from row to row.</p>
+</section>
+
+<figure class="texto" id="fig-perfil">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" id="perfil-jugar">Stack the rows</button><button class="boton" id="perfil-bamba" aria-pressed="false">Compare with Bambamarca</button></div>
+    <svg id="svg-perfil" viewBox="0 0 640 330" role="img" aria-label="Value of each column of UR278 in each row, and its average."></svg>
+  </div>
+  <figcaption><b>Figure 9.</b> Each thin line is a complete row of UR278; the bars are the average of each column. The button overlays, in gray and at the same average scale, the tribute payers of the nine pachakas of Bambamarca according to the 1567 visita.</figcaption>
+</figure>
+
+<section class="col">
+<p>What group of nine receives even but ordered amounts? It does not look like a population, because populations vary much more, nor a calendar, because there are no cycles. One possibility is that they are nine pachakas, the units of about a hundred households into which a waranga, of a thousand, was divided. We looked for colonial lists of nine units and compared nine. The only one that goes down overall from largest to smallest like UR278 is that of the nine pachakas of the waranga of Bambamarca, in Cajamarca, according to the 1567 visita published by Martti Pärssinen, although Bambamarca is quite a bit more unequal.<sup class="fn"><a href="#n8" id="r8">8</a></sup></p>
+
+<p class="parte"><span class="etq">Background</span>Develops Urton and Chu's observation that UR278 is organized in groups of nine.</p>
+
+<p class="parte"><span class="etq">How we tested it</span>There are 362,880 ways to order nine columns, and in the five records that can be compared, the one that best fits UR270 to UR278 is the same order. To measure how even they are, we compared them with every group of nine cords in the corpus. Of the eight most even groups among the 650 khipus, seven are in UR278. The order from largest to smallest was tested against chance, and the column proportions predict rows that were not used to calculate them. The resemblance to Bambamarca has a probability by chance of 14 in 1000, already corrected for having tested nine lists.</p>
+
+<p class="parte"><span class="etq">How sure we are</span>The fixed order, <span class="ev ev-d">well supported</span>. The profile and the resemblance to Bambamarca, <span class="ev ev-a">supported</span>. The reading as pachakas, <span class="ev ev-p">proposed</span>.</p>
+
+<p class="parte"><span class="etq">What is missing</span>Three things in the archives. Look at the manuscript of the 1567 Bambamarca visita and confirm that the pachakas appear in that order; if they appear in another, the resemblance is the editor's doing and it falls. Find a list of pachakas for Lunahuaná or the Guarco, which we do not know of today; if some waranga in the valley had nine pachakas of moderately unequal sizes, the idea is greatly strengthened. And check other colonial lists of nine units read from khipus, because if many go down from largest to smallest, the resemblance to Bambamarca is no longer special.</p>
+
+<h3 id="h4"><span class="h-num">Finding 4</span>The accountants' mistakes</h3>
+
+<p class="parte"><span class="etq">What we found</span>In the step from UR278 to the ledger, of the 18 rows that have a destination, 11 match exactly and 7 do not. These are the differences.</p>
+
+<div class="fila-num">+6 · +100 · +1 · −1 · +1 · −1 · −1</div>
+
+<p>They do not all go the same way. If they were a rule, like rounding or deducting something, they would have the same sign or the same size. Six of the seven fall in the units, which are marked with the long knot, and that is what one expects if someone miscounted the turns of a knot.</p>
+
+<p>One case serves as an example. The first cell of row 21 of UR278 is cord 180. It has two knots in the hundreds, three in the tens, a long knot of seven turns and a figure-eight knot, and it adds up to 238. UR270 gives 237 for that cell. Also, row 21 adds up to 1654 and the ledger says 1653. With six turns instead of seven, both accounts would balance. A single knot explains both differences. Try it.</p>
+</section>
+
+<figure class="texto" id="fig-p180">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" data-v="7" aria-pressed="true">7 turns, as transcribed</button><button class="boton" data-v="6" aria-pressed="false">6 turns</button></div>
+    <svg id="svg-p180" viewBox="0 0 640 300" role="img" aria-label="Cord 180 of UR278 with its long knot of 7 or 6 turns."></svg>
+  </div>
+  <figcaption><b>Figure 10.</b> Cord 180 of UR278, to scale. With six turns, the cell matches UR270 and the row total matches the ledger.</figcaption>
+</figure>
+
+<section class="col">
+<p>The two copies of the ledger, UR266 and UR275, have the same mistakes. That suggests that neither was copied directly from the table, but that both come from an intermediate step that has not survived, a lost khipu between the table and the ledger.</p>
+
+<p class="parte"><span class="etq">How we tested it</span>We compared where the differences fall with where they would fall if the errors were spread at random across the knot positions. Six of seven falling in the units happens by chance about 7 times in 1000. There are few cases, so the figure is approximate.</p>
+
+<p class="parte"><span class="etq">How sure we are</span><span class="ev ev-a">Supported</span>, with few cases. The lost khipu is <span class="ev ev-p">proposed</span>.</p>
+
+<p class="parte"><span class="etq">What is missing</span>Counting turns on the object. We predict that the long knot of cord 180 has six turns; if it has seven and is intact, the difference was already in the original record. The same goes for rows 13, 17, 19 and 29. The difference of +6 in row 8 is of another kind, and there we predict that cord 77 is missing a long knot of six turns, because it is the only one in its row with no units knot.</p>
+
+<h3 id="h5"><span class="h-num">Finding 5</span>How much was stored</h3>
+
+<p class="parte"><span class="etq">What we found</span>If the khipus count produce, we still need to know in what unit. There are two candidates that the data do not separate. One is the load, what a person or a llama carried, about 23 kilos. The other is the fanega, the Castilian measure, about 56 liters, which for peanuts in the shell is about 16 kilos. With either of the two, the total for the archive is on the order of 900 to 1400 tonnes.</p>
+</section>
+
+<figure class="texto" id="fig-ton">
+  <div class="lienzo"><svg id="svg-ton" viewBox="0 0 640 150" role="img" aria-label="Scale from 0 to 2000 tonnes with the range from 900 to 1400 shaded."></svg></div>
+  <figcaption><b>Figure 11.</b> The estimated range for everything the archive records. It is an order of magnitude and not a figure.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Background</span>Develops Urton and Chu's proposal that at Inkawasi there were standardized accounting units for agricultural produce.</p>
+
+<p class="parte"><span class="etq">How we tested it</span>We converted the ledger totals to weight with each possible unit and compared them with the capacity of the Inkawasi storehouses. The capacity only rules out very small units.</p>
+
+<p class="parte"><span class="etq">How sure we are</span><span class="ev ev-p">Proposed</span> At first we wrote 1390 tonnes, and that was too much precision for what we know.</p>
+
+<p class="parte"><span class="etq">What is missing</span>An independent piece of data on the unit, such as a colonial document saying what deliveries were measured in in the area, or the measurements of one of the halls where the produce was stored.</p>
+
+<h3>Beyond Inkawasi</h3>
+
+<p>The findings that follow come from looking at the 650 khipus at once, searching for relationships between khipus and for formats that recur.</p>
+
+<h3 id="h6"><span class="h-num">Finding 6</span>Copies from one museum to another</h3>
+
+<p class="parte"><span class="etq">What we found</span>The khipus that survived were scattered across museums in Europe and the Americas. We found 25 pairs of copies, some already known and others that do not appear in the literature we reviewed. HP055, which is in Lima, and UR1084, which is in Paris, share 121 of 142 cords with the same value.</p>
+
+<p>Copying was an archival practice. Within the same site, the probability that two khipus are copies of each other is almost 18 times higher than between sites. In the archives we know to be nearly complete, between 14% and 20% of the khipus have a copy.</p>
+</section>
+
+<figure id="fig-copias">
+  <div class="lienzo">
+    <svg id="svg-copias" viewBox="0 0 960 560" role="img" aria-label="Network of copies between khipus, grouped by the place where they are kept."></svg>
+    <div class="salida" id="copias-salida" style="min-height:2.6em;margin-top:6px">Hover over or tap a line.</div>
+  </div>
+  <figcaption><b>Figure 12.</b> Pairs of copies, with the khipus grouped by the place where they are kept today. Each line is a pair; the thickness shows how many cords match and the color, the level of evidence for the copy. The network uses the most recent revision of the repository, which includes a few more pairs than the 25 of the first analysis.</figcaption>
+</figure>
+
+<section class="col">
+<p>The copies are of several kinds. Some are duplicates; others copy only a stretch or break down the figures differently; and there are extracts. UR1104, which is in Berlin and comes from Pachacamac, copies in order the headers of nine records of another khipu, UR234. Seven are exact, one has two digits swapped, 3102 for 3012, and the sixth repeats a header that is broken in UR234 today. Whoever made the extract also copied the cord that is now damaged and, if the copy is faithful, preserves what it said.</p>
+</section>
+
+<figure class="texto" id="fig-extracto">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" id="extracto-jugar">Make the extract</button></div>
+    <svg id="svg-extracto" viewBox="0 0 640 190" role="img" aria-label="The nine headers of UR234 and their extract in UR1104."></svg>
+  </div>
+  <figcaption><b>Figure 13.</b> At the top, the headers of nine records of UR234; the sixth is broken. At the bottom, UR1104. The third has the same digits in another order, and the sixth preserves the value that was lost in UR234.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Background</span>Extends Urton's work (2005) on duplicate accounts within a single archive, which he related to Garcilaso's account of several khipukamayuq keeping the same records. Here it is measured across the whole corpus and between museums.</p>
+
+<p class="parte"><span class="etq">How we tested it</span>We compared each khipu with all the others, looking for stretches of repeated values in the same order, with a method that comes from DNA sequence alignment. Each pair was tested against chance and corrected for the enormous number of possible pairs. For HP055 and UR1084 the probability by chance is practically zero, and their cord lengths are not alike, which supports their being two different objects and not the same khipu recorded twice, although this still needs checking on the objects.<sup class="fn"><a href="#n9" id="r9">9</a></sup></p>
+
+<p class="parte"><span class="etq">How sure we are</span>Copies within a single archive, <span class="ev ev-d">well supported</span>. Copies between museums, <span class="ev ev-a">supported</span>, because physical identity and provenance still need to be verified. Copying as an archival practice, <span class="ev ev-a">supported</span>. UR1104 as an extract, <span class="ev ev-a">supported</span>, although we found it by looking at the data and it needs confirming.</p>
+
+<p class="parte"><span class="etq">What is missing</span>For the museums to confirm that each pair are physically distinct objects, with different lengths and twists. And in Berlin, to look at the broken header of UR234. We predict it is worth 2016, the number the extract preserves.</p>
+
+<h3 id="h7"><span class="h-num">Finding 7</span>A three-level table on the south coast</h3>
+
+<p class="parte"><span class="etq">What we found</span>KH0049, which is in the Museo Nacional in Lima, is a three-level table in blocks of 18 cords. One block is the sum of two others in 14 of 18 positions, and one of those is in turn the sum of three others in 7 of 18. A khipu in Gothenburg, UR122, is a partial copy of the subtotals section. The same discrepancy appears in both, 15652 where the sum gives 15649, which is why it probably comes from the original.</p>
+</section>
+
+<figure id="fig-kh">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" data-s="0" aria-pressed="false">B1 + B2 = B0</button><button class="boton" data-s="1" aria-pressed="false">B3 + B4 + B5 = B1</button><button class="boton" data-s="2" aria-pressed="false">The Gothenburg copy</button></div>
+    <div style="overflow-x:auto"><svg id="svg-kh" viewBox="0 0 960 330" role="img" aria-label="The six blocks of 18 cords of KH0049."></svg></div>
+  </div>
+  <figcaption><b>Figure 14.</b> The 108 pendant cords of KH0049, in six blocks of 18. The buttons mark the positions where the sum balances exactly, and the cords of UR122 that copy four of the six blocks.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Background</span>The Khipu Field Guide already listed some sums in KH0049, without describing the table or the copy. We have not been able to read two works that might have described it, Ascher and Ascher 1978 and Pereyra Sánchez 2011.</p>
+
+<p class="parte"><span class="etq">How we tested it</span>We shuffled the positions within the blocks. In the shuffled data, the most that turned up was 6 of 18 for the first sum and 4 of 18 for the second. Chance produces something like what we observed 5 times in 100,000.</p>
+
+<p class="parte"><span class="etq">How sure we are</span><span class="ev ev-a">Supported</span> We found it by looking at the data, so it needs confirmation with new data.</p>
+
+<p class="parte"><span class="etq">What is missing</span>In Gothenburg, to see whether the cords of UR122 that are worth zero today are broken or loose, as we predict. In Lima, to reread cord 19 of KH0049, where we predict 15652.</p>
+
+<h3 id="h8"><span class="h-num">Finding 8</span>Tables written with two alternating colors</h3>
+
+<p class="parte"><span class="etq">What we found</span>On some khipus the cords alternate two colors regularly, A, B, A, B. We read this as a two-column table written interleaved, with one column per color. There are 19 khipus like this in the corpus, and in two of them, UR040 and UR167, the pattern is very clear, 26 of 33 positions and 30 of 37.</p>
+</section>
+
+<figure class="texto" id="fig-alt">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" id="alt-jugar" aria-pressed="false">Separate by color</button></div>
+    <svg id="svg-alt" viewBox="0 0 640 260" role="img" aria-label="The 33 pendant cords of UR040 alternating white and light brown."></svg>
+  </div>
+  <figcaption><b>Figure 15.</b> The 33 pendant cords of UR040 with their transcribed colors, white (W) and light brown (AB). When they are separated, each pair becomes a row of a two-column table.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">How we tested it</span>We shuffled the colors of the cords and measured how often a two-color pattern repeated. We first looked for it in half of the khipus and confirmed it in the other half, which we had not looked at. Among 180 khipus that had no known structure, it was the only new structure that passed that confirmation.</p>
+
+<p class="parte"><span class="etq">How sure we are</span>The format in UR040 and UR167, <span class="ev ev-d">well supported</span>. Their values are almost all small, so we see how the table is put together but not what it records.</p>
+
+<p class="parte"><span class="etq">What is missing</span>Another reading of UR040, at the Peabody, and of UR167, at the American Museum of Natural History, confirming the same colors in the same positions.</p>
+
+<h3 id="h9"><span class="h-num">Finding 9</span>Each khipu has its own color key</h3>
+
+<p class="parte"><span class="etq">What we found</span>Within each khipu, color works as formatting: it marks the column, the group or the total cord, like cell formatting in a spreadsheet. In 165 of 222 khipus, color follows cord position much more than chance would give. But what each color means changes from one khipu to another. Each khipu seems to bring its own key, like a table whose legend has not survived.</p>
+
+<p class="parte"><span class="etq">Background</span>Adds evidence to the idea, already suggested in the literature, that colors worked as local keys. Until now it had not been measured against chance across the whole corpus.</p>
+
+<p class="parte"><span class="etq">How we tested it</span>By chance one would expect about 20 khipus out of 403 in which color goes with the size of the number, and there are 167; with a chance model that respects the cord groups, 103 remain. But that signal is one of position: comparing the same position in different groups leaves 10 of 205, the level of chance. To see whether a color means the same thing on different khipus, we compared color orders and sequences between khipus and between sites, and they gave no more matches than chance.</p>
+
+<p class="parte"><span class="etq">How sure we are</span>That color marks column or group within each khipu, <span class="ev ev-a">supported</span>. That it also separates categories on its own, <span class="ev ev-p">proposed</span>. On the lack of a shared code, see <a href="#propuestas">the section on proposals</a>.</p>
+
+<p class="parte"><span class="etq">What is missing</span>Color names depend on who transcribes. UR1107 and UR237 turned out to be the same khipu recorded twice. The values match on 23 of the 26 knotted cords, and the other three are the same knot read at another decimal position, but the color labels do not match on any cord.</p>
+</section>
+
+<figure class="texto" id="fig-1107">
+  <div class="lienzo"><svg id="svg-1107" viewBox="0 0 640 210" role="img" aria-label="The same cords of a khipu in two transcriptions with different color labels."></svg></div>
+  <figcaption><b>Figure 16.</b> A single khipu in Berlin transcribed twice, as UR1107 and as UR237. Each column is a cord; above and below, the color and the value each transcription recorded. The values almost always match and the colors do not.</figcaption>
+</figure>
+
+<section class="col">
+<p>A rereading of colors with a common standard, or with calibrated photographs, would allow the comparison between khipus to be repeated with more confidence.</p>
+
+<h3 id="h10"><span class="h-num">Finding 10</span>Recurring ways of building a table</h3>
+
+<p class="parte"><span class="etq">What we found</span>There are formats that recur on khipus from different places. The top cord adds up the group immediately before it. A row of cords is followed by a separate cord with its total. And the largest cord opens the group.</p>
+</section>
+
+<figure class="texto" id="fig-formatos">
+  <div class="lienzo"><svg id="svg-formatos" viewBox="0 0 640 250" role="img" aria-label="Three diagrams of table formats."></svg></div>
+  <figcaption><b>Figure 17.</b> Diagrams of the three formats, with example numbers. The total is marked in indigo.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Background</span>Develops what Locke observed, that top cords add up others. Here we see that they add up the preceding group and not just any group.</p>
+
+<p class="parte"><span class="etq">How we tested it</span>The top cord adds up the preceding group in 23 of 72 cases, when chance would give 2 or 3. The row with a separate total appears 51 times against 15 expected, on seven different khipus. The largest cord opens the group in 26% of groups, against 15% expected, not counting Inkawasi.</p>
+
+<p class="parte"><span class="etq">How sure we are</span>The first two, <span class="ev ev-d">well supported</span> on the khipus where they were measured, though that says nothing about how common they are in the corpus. The third, <span class="ev ev-a">supported</span>.</p>
+
+<p class="parte"><span class="etq">What is missing</span>A finer search for precedents, and testing the formats on khipus that are not in the databases.</p>
+
+<h3 id="h11"><span class="h-num">Finding 11</span>A form with a fixed split</h3>
+
+<p class="parte"><span class="etq">What we found</span>At the Banco Central de Reserva del Perú there are five tied khipus, UR053A to UR053E. Each one splits its amounts into cords of fixed colors, one white, one red and, in most, one of a third color, which in UR053B hangs from the red one as a subsidiary. The split stays close to 4 to 1 to 1 in all five, although their totals range from 1200 to 36,800.</p>
+</section>
+
+<figure class="texto" id="fig-053">
+  <div class="lienzo"><svg id="svg-053" viewBox="0 0 640 230" role="img" aria-label="White, red and third-color split in the five UR053 khipus."></svg></div>
+  <figcaption><b>Figure 18.</b> What share of each khipu's total goes to the white (W), red (R) and light brown (AB) cords, in each of the five khipus. The totals range from 1200 to 36,800.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Background</span>Develops the description by Urton (2017), who had already noticed the same color vocabulary on the five khipus.</p>
+
+<p class="parte"><span class="etq">How we tested it</span>In UR053D, the white cord is the largest of the trio in 23 of 23 trios, and in UR053A, in 13 of 14. In both cases, chance does not get there.</p>
+
+<p class="parte"><span class="etq">How sure we are</span><span class="ev ev-a">Supported</span> It is a second case, independent of Inkawasi, of a form with a stable splitting key.</p>
+
+<p class="parte"><span class="etq">What is missing</span>A rereading of the colors on all five, because if the red turned out to be two different colors with different splits, the result changes. And a search at the Banco Central for other khipus from the same find.</p>
+
+<h3 id="h12"><span class="h-num">Finding 12</span>Khipus as a system of records</h3>
+
+<p class="parte"><span class="etq">What we found</span>Seen as a whole, the khipus we can read look less like a text and more like what we would do today with a spreadsheet. They are tables of rows and columns, forms that always split an amount in the same proportions, lists with their totals and registers of people. Some archives had their own formats. Documents were copied, summarized one another and kept together, as in a system of account books. The earliest accounting archives of Mesopotamia have these same features, with hierarchies of documents, fixed formats for each type of record, and copies, although there what was copied were lists of words, not accounts.</p>
+</section>
+
+<figure id="fig-atlas">
+  <div class="lienzo">
+    <div class="controles"><button class="boton" id="atlas-orden" aria-pressed="false">Group by provenance</button></div>
+    <svg id="svg-atlas" viewBox="0 0 960 420" role="img" aria-label="Mosaic of 651 khipus colored by type of record."></svg>
+    <div class="leyenda" id="atlas-leyenda" style="border:0;padding:6px 0 0;margin:0"></div>
+  </div>
+  <figcaption><b>Figure 19.</b> The 651 khipus of the corpus, one per square, colored by the type of record the atlas assigns them. Solid colors are high or medium confidence; pale ones, low confidence; gray ones, no recognizable type. When grouped by provenance, one can see that each site has its own types.</figcaption>
+</figure>
+
+<section class="col">
+<p class="parte"><span class="etq">Background</span>That khipus were administrative records has been known since Locke. In 2026 María Contreras grouped khipus by their structural features and found that the groups relate in part to provenance, although the corpus carries the bias of collecting. This finding agrees with hers and adds a classification by the function each khipu serves.</p>
+
+<p class="parte"><span class="etq">How we tested it</span>Khipus behave like data and not like text. In a text, the longer it is, the more new words appear, and they do so at a known rate; on khipus the repertoire runs out much earlier, as in a table where the same values repeat. To classify the corpus we wrote explicit rules for each type of record and tested them first on eight khipus of known type, and they were right on all eight. Then we shuffled the types between khipus to see whether they depended on the site of origin. They depend on it much more than chance would give (<i>p</i> = 0.005).<sup class="fn"><a href="#n10" id="r10">10</a></sup></p>
+
+<p class="parte"><span class="etq">How sure we are</span>That they behave like data and that each archive had its own formats, <span class="ev ev-a">supported</span>. The comparison with a spreadsheet or with a system of account books is an analogy, <span class="ev ev-p">proposed</span>.</p>
+
+<p class="parte"><span class="etq">What is missing</span>Today we can recognize the type of document for a third of the khipus, which hold half of the cords. Another 23% have a probable type, but with low confidence. 28% are short lists of numbers in which these methods detect no structure, and which could be anything. The remaining 17% do not have enough data. Each new khipu that is transcribed, once run through the <a href="#lector">khipu reader</a>, will tell whether it fits one of the types or whether a new one is needed.</p>
+
+<p class="pie">The <a href="https://github.com/dariodemh/quipus/blob/main/analisis/paquete_revision/tabla_hallazgos.csv">full table in the repository</a> has more than 60 findings and corrections, each with its statistic and the file that produces it.</p>
+</section>
+
+<hr>
+
+<section class="col" id="propuestas">
+<h2>Proposals these data do not support</h2>
+
+<p>Khipus have been studied for more than a century, and there are many proposals about what they contain. We put some of them to the test with the same method, comparing with chance, and in several what is observed in the data looks like what chance produces on its own. That does not mean the proposal is false. It means these data do not support it, and in each case we say what it would take for them to do so.</p>
+
+<p>Some of these proposals come from the same researchers whose databases we use. Their work is the starting point for ours.</p>
+
+<h3>How many khipus have sums</h3>
+
+<p>In 2024, Medrano and Khosla published that at least 74% of khipus have some of the relationships the Aschers described, almost always internal sums, cords whose value is the sum of others.</p>
+
+<blockquote>“We find that Ascher formulae characterize at least 74% of khipus, which exhibit meaningful arrangements of internal sums.”<cite>Medrano and Khosla, 2024</cite></blockquote>
+
+<p>The count is done correctly, although not all of that 74% are sums: 447 khipus, 69%, have them between cords, and another 35 come in through relationships of another kind. What we did was ask how many of those sums would turn up by chance. A long khipu, with many numbers, has a huge number of possible combinations, and some add up by sheer chance. When the values are shuffled, between 93% and 100% of the sums that measure detects still turn up.</p>
+</section>
+
+<figure class="texto" id="fig-74">
+  <div class="lienzo"><svg id="svg-74" viewBox="0 0 640 220" role="img" aria-label="Observed sums against those expected by chance with three ways of shuffling."></svg></div>
+  <figcaption><b>Figure 20.</b> The most common type of sum the measure counts. The line is what it finds in the real corpus; the bars, what it finds in the corpus shuffled in three different ways, with their 95% range. With two of the three, the real figure falls within the range, and with the third it lies just above it. Even in that case, chance produces 98% of those sums.</figcaption>
+</figure>
+
+<section class="col">
+<p>That does not rule out that khipus have sums. The measure simply does not separate them from chance. We estimate that it would detect real accounting only one time in four. With a stricter test, about 20 khipus, 3% of the corpus, have internal accounting that can be verified, and nine of them are from Inkawasi.</p>
+
+<p class="parte"><span class="etq">What would rescue it</span>A measure of sums that is compared with chance khipu by khipu.</p>
+
+<h3>A shared color code</h3>
+
+<p>Since the chronicles, it has been assumed that colors had fixed meanings, shared by all khipukamayuq. Our finding 9 says that within each khipu color does mark columns and groups. But when we compare which colors go with which kind of numbers on different khipus, or at different sites, the matches are those of chance.</p>
+
+<p class="parte"><span class="etq">What would rescue it</span>Colors recorded with a common standard. Today the same khipu transcribed twice does not share its color labels, so a shared code could be hidden behind that noise.</p>
+
+<h3>Khipus that hold syllables</h3>
+
+<p>Some recent works propose that certain khipus record words, syllables or names. The most recent is that of Julien Sivan, from 2026, which has not yet gone through peer review. We tested the idea in several ways. As we saw in finding 12, khipus behave like data tables and not like texts. Khipus without numbers use between 1 and 19 colors, five at the median, and a syllabary needs between 60 and 120 signs. And the predictions Sivan's proposal makes about its own examples are not borne out in the data.<sup class="fn"><a href="#n11" id="r11">11</a></sup></p>
+
+<p class="parte"><span class="etq">What would rescue it</span>A khipu with a repertoire of signs much larger than the known ones. The Collata letters that Sabine Hyland studied have 95 distinct signs, combining color, fiber and twist, and no ancient khipu in the corpus reaches that number.</p>
+
+<h3>Calendars</h3>
+
+<p>It has been proposed that some khipus record calendars. We looked for calendrical numbers (365, 360, months of 29 or 30 days and others) in totals, groups and cord counts, in 111 tests. Five came out positive, the same as expected by chance. One specific case, UR006, does have the regular structure Urton described in 2017, and its reading as a calendar remains possible, but the numbers alone do not prove it.</p>
+
+<p class="parte"><span class="etq">What would rescue it</span>A khipu whose groups match a known calendar better than chance, with a rule fixed before looking at it.</p>
+
+<h3>The Santa census</h3>
+
+<p>Medrano and Urton proposed in 2018 that six khipus from the Santa valley correspond to a 1670 colonial census of San Pedro de Corongo. The sum of the first cords of the groups gives almost exactly the tribute in the census, but that target was chosen after seeing the data and the support is weak. FitzPatrick proposed in 2024 an optimal way of aligning the groups of the khipus with the pachakas of the census. When that alignment is compared with random alignments, most random assignments reach the same fit, and the order of the census cannot be distinguished in the khipus.</p>
+
+<p class="parte"><span class="etq">What would rescue it</span>A test of the alignment with a rule fixed in advance, or more khipus from the same lot.</p>
+
+<h3>A system without zero</h3>
+
+<p>That an empty space at a position is a zero has been known since Locke, and the Aschers described it in detail. In 2025, Florio and Overmann proposed the opposite, that the Inka system was neither positional nor had a zero. To test this we measured the gap in 726 cords with a zero in the middle. The gap measures almost exactly what a position with knots does: measured in bands, the median is 0.96, and within a single cord the interval that skips the zero measures 1.89 times the spacing between two adjacent positions. That is what one expects from a positional system, so these data do not support Florio and Overmann's proposal.</p>
+</section>
+
+<figure class="texto" id="fig-cero">
+  <div class="lienzo"><svg id="svg-cero" viewBox="0 0 640 230" role="img" aria-label="A cord with value 1202 with the gap in the tens measured."></svg></div>
+  <figcaption><b>Figure 21.</b> A real cord with value 1202 (MM018, cord 29), with the positions of its knots in centimeters. Between the thousand and the hundred there are 7 cm; between the hundred and the units, where the ten is missing, there are 14. The gap takes up a whole position. It is one example; in the 201 cords that allow this comparison, the median is 1.89.</figcaption>
+</figure>
+
+<section class="col">
+<p>There is a caveat. The transcription assigns values to knots partly according to their position, so the measurement is not entirely independent of what it measures.</p>
+
+<p class="parte"><span class="etq">What would rescue it</span>That, measured on the objects, the gaps do not correspond to a decimal position. We predict that the gap of a zero measures between 0.8 and 1.1 times the width of a position.</p>
+
+<h3>A proposal of our own that failed</h3>
+
+<p>We also tested ideas of our own. We suggested that two khipus, UR050 and UR055, were a pair that recorded ceques, the ritual lines that radiated out from Cusco. We wrote three predictions before looking at the data that tested them, all three failed, and we withdrew it.</p>
+</section>
+
+<hr>
+
+<section class="col" id="correcciones">
+<h2>What we corrected along the way</h2>
+
+<p>We were wrong several times and we wrote it all down, because a hidden error takes value away from everything else. Some examples.</p>
+
+<ul>
+<li>At first we said the 74% “cannot be distinguished from chance”. That was more than we could claim. Now we say the measure is not informative.</li>
+<li>The relationship of UR278 to UR266 started at 16 matches, dropped to 15 and settled at 11, partly because we changed the criterion for what counted as a match; that is the figure a second program and the blind test reproduced.</li>
+<li>The pair UR273A and UR273B dropped from the highest level to supported. Another pair that we thought added up to a third khipu did not pass the test with new data and we withdrew it.</li>
+<li>We treated the fixed quotas and the copies at Inkawasi as our own finding until we read Urton and Chu. They were theirs.</li>
+<li>A match with the Santa census gave us a probability of 0.006, but the calculation was circular. Done properly it gives 0.24.</li>
+<li>The tonnage went down from “1390 tonnes” to “on the order of 900 to 1400”.</li>
+</ul>
+
+<p>The full list is in the repository.</p>
+</section>
+
+<hr>
+
+<section class="col" id="lector">
+<h2>The khipu reader</h2>
+
+<p>Everything above was packaged into a program, the khipu reader (Khipu Reader). You give it the name of a khipu in the corpus, or a table with the cords of a new khipu, and it returns its reading profile.</p>
+
+<p>The profile includes a physical summary, with how many cords, groups and colors the khipu has and how many are broken, and how its numbers are written. It says whether it has internal sums and whether there are more than chance would give, whether color marks groups or columns, and whether it follows any of the formats we found, such as the table with two alternating colors or the table with column totals. It shows which other khipus in the corpus it is related to, whether by copying or because its totals reappear in another, and which type of record it resembles. Each line states its level of evidence and which part of the repository it comes from. Here are four real profiles, exactly as the program gives them.</p>
+</section>
+
+<figure class="texto" id="fig-lector">
+  <div class="lienzo">
+    <div class="controles" id="lector-tabs"></div>
+    <div class="ficha" id="lector-ficha"></div>
+  </div>
+  <figcaption><b>Figure 22.</b> Output of the khipu reader for four khipus that appear in this essay. “Data” is what the transcription says.</figcaption>
+</figure>
+
+<section class="col">
+<p>The reader runs over the 651 khipus of the corpus without errors and has a battery of 19 checks that fails if any known result breaks. It also runs negative controls, khipus with shuffled values, to make sure it does not see things where there are none.</p>
+
+<p>The reader does not interpret or say what was being counted. It describes the structure of a khipu and the confidence each statement deserves. We designed it above all for anyone who transcribes a new khipu and wants to know within minutes whether it resembles anything known.</p>
+</section>
+
+<hr>
+
+<section class="col" id="como">
+<h2>How it was made</h2>
+
+<p>This work was done by artificial intelligence agents (Claude, from Anthropic, and DeepSeek for some extractions), directed by one person. The agents wrote the code, ran the tests and reviewed one another. A person decided what to ask, what to believe and what to publish. No one has yet peer-reviewed this work.</p>
+
+<p>Everything is at <a href="https://github.com/dariodemh/quipus">github.com/dariodemh/quipus</a>. There are two verification programs that fail if any of the main results changes, the full reading of the peanut archive with its 1461 figures, and the khipu reader. The predictions for each finding, in more detail and with a few more, are in the repository with the date on which they were fixed. If any of them fails, we will say so. Reviews and corrections are welcome in <a href="https://github.com/dariodemh/quipus/issues">the repository's issues</a>.</p>
+</section>
+
+<hr>
+
+<section class="col">
+<h2>Notes</h2>
+<ol class="notas">
+<li id="n1">The Khipu Field Guide has 651 khipus. We use 650, because UR044 is a duplicate of AS031/KH0033. In 57,789 of the 57,818 cords, the value is exactly the sum of what its knots contribute. <a href="#r1">↩</a></li>
+<li id="n2">Holm controls the probability of having even one false positive in the whole family of tests. Benjamini-Hochberg controls the proportion of false positives among the results declared significant. When a rule was chosen by looking at the data, we also count all the rules we could have chosen. <a href="#r2">↩</a></li>
+<li id="n3">UR068 → UR067 on 16 of 20 cords and UR063 → UR068 on 14 of 20, with a probability by chance, corrected, of 6 in 10,000 or less. <a href="#r3">↩</a></li>
+<li id="n4">597 cords were hidden. When the agent said it had high confidence it was right 21 of 23 times, and the best alternative is right 14.4% of the time. Two runs with a smaller model got 33 of 45 and 35 of 46 right. No run found the second route, that of finding 2, on its own. <a href="#r4">↩</a></li>
+<li id="n5">Stratigraphic units 11 to 22 of room U.A. 04 in sector A. The text of chapter 9 of Urton (2017) says U.A. 05 and its appendix says U.A. 04. <a href="#r5">↩</a></li>
+<li id="n6">On the Inkawasi khipus, the two databases agree on 99.8% of values, because they come from the same transcription. The only independent readings we have in the corpus are three cases of the same object transcribed twice, and they give a reading noise of between 3% and 12%. These are very few cases. <a href="#r6">↩</a></li>
+<li id="n7">The red team recalculated the relationship counting all possible alignments, 58,782 tests. Corrected this way, the probability by chance rises to 0.015. <a href="#r7">↩</a></li>
+<li id="n8">The correlation between the order of the columns of UR278 and that of the pachakas of Bambamarca is −0.87. The relative variation between columns is 0.19 in UR278 and 0.39 in Bambamarca. <a href="#r8">↩</a></li>
+<li id="n9">For almost all pairs it is impossible to tell which is the original and which the copy. There are two cases where it is possible, KH0049 and UR122 (finding 7) and the lost khipu between UR278 and the ledger (finding 4), because the two documents share an error. <a href="#r9">↩</a></li>
+<li id="n10">Before using the rules, we tested whether automatic clustering, without rules, recovered the same types. It recovers the types that are recognized by their profile, such as the Nazca tallies or the Santa censuses, but not those defined by a test, such as a sum or a split. That is why the atlas is based on explicit rules. <a href="#r10">↩</a></li>
+<li id="n11">The four khipus Sivan uses as main examples belong to a single family, that of khipus with canutos, which have series of cord lengths that do not appear on other khipus. What the proposal reads as a general pattern could be a feature of that family. <a href="#r11">↩</a></li>
+</ol>
+</section>
+
+<section class="col" id="referencias">
+<h2>References</h2>
+<ul class="refs">
+<li>Ascher, M. and Ascher, R. (1981). <i>Code of the Quipu: A Study in Media, Mathematics, and Culture</i>. University of Michigan Press.</li>
+<li>Contreras, M. (2026). Structural Pattern Mining in Inka Khipus: Unsupervised Clustering, Provenance Classification, and a Computational Validation of the Santa Valley Match. Preprint, arXiv:2607.00185.</li>
+<li>FitzPatrick, M. (2024). New Insights on Cord Attachment and Social Hierarchy in Six Khipus from the Santa Valley, Peru. <i>Ethnohistory</i> 71(4): 443-469. <a href="https://doi.org/10.1215/00141801-11266328">DOI</a>.</li>
+<li>Florio, C. and Overmann, K. A. (2025). Inka numbers, khipu, and yupana: a reanalysis. <i>Journal of Cognition and Culture</i>. <a href="https://doi.org/10.1163/15685373-12340204">DOI 10.1163/15685373-12340204</a>.</li>
+<li>Hyland, S. (2017). Writing with Twisted Cords: The Inscriptive Capacity of Andean Khipus. <i>Current Anthropology</i>.</li>
+<li>Locke, L. L. (1912). The ancient quipu, a Peruvian knot record. <i>American Anthropologist</i> 14(2): 325-332.</li>
+<li>Medrano, M. and Khosla, A. (2024). How can data science contribute to understanding the khipu code? <i>Latin American Antiquity</i>. Data: <a href="https://doi.org/10.5281/zenodo.10472429">Zenodo</a>.</li>
+<li>Medrano, M. and Urton, G. (2018). Toward the Decipherment of a Set of Mid-Colonial Khipus from the Santa Valley, Coastal Peru. <i>Ethnohistory</i> 65(1): 1-23. <a href="https://doi.org/10.1215/00141801-4260638">DOI</a>.</li>
+<li>Nissen, H. J., Damerow, P. and Englund, R. K. (1993). <i>Archaic Bookkeeping: Early Writing and Techniques of Economic Administration in the Ancient Near East</i>. University of Chicago Press.</li>
+<li>Open Khipu Repository, v2.1.0. <a href="https://doi.org/10.5281/zenodo.18025748">Zenodo</a>.</li>
+<li>Pärssinen, M. (1992). <i>Tawantinsuyu: The Inca State and Its Political Organization</i>. Societas Historica Finlandiae.</li>
+<li>Sivan, J. (2026). Reading the Inca Spreadsheet: How Khipu Knots Encode a Syllabic Data Language. Preprint.</li>
+<li>Urton, G. (2005). Khipu Archives: Duplicate Accounts and Identity Labels in the Inka Knotted String Records. <i>Latin American Antiquity</i> 16(2): 147-167. <a href="https://doi.org/10.2307/30042809">DOI</a>.</li>
+<li>Urton, G. (2017). <i>Inka History in Knots: Reading Khipus as Primary Sources</i>. University of Texas Press.</li>
+<li>Urton, G. and Brezine, C. J. (2005). Khipu accounting in ancient Peru. <i>Science</i> 309: 1065-1067.</li>
+<li>Urton, G. and Chu, A. (2015). Accounting in the King's Storehouse: The Inkawasi Khipu Archive. <i>Latin American Antiquity</i> 26(4): 512-529. <a href="https://doi.org/10.7183/1045-6635.26.4.512">DOI</a>.</li>
+<li>Urton, G. and Chu, A. (2018). The Invention of Taxation in the Inka Empire. <i>Latin American Antiquity</i>.</li>
+</ul>
+<p class="pie">Images: khipu from the Cleveland Museum of Art (1940.469), CC0, via Wikimedia Commons. Plate from Locke (1912) and drawings by Guamán Poma de Ayala (around 1615), public domain, via Wikimedia Commons. The other figures are drawn on the page from the repository data. Text under CC BY 4.0; code and data under MIT.</p>
+</section>
+</main>
+
+<script>const DATOS = __DATOS__;</script>
+<script>
+__JS__
+</script>

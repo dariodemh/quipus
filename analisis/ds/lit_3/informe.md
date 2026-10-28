@@ -71,7 +71,7 @@ Más de un tercio de las afirmaciones (13/34) **no es contrastable con este repo
 - **Control:** busqué todas las combinaciones de grupos del KFG que suman 102. Salen 8, pero **todas incluyen los grupos vacíos 4 y/o 6**; entre grupos no vacíos solo `{0}` y `{1}` dan 102, y `{2,3,5,7}` da 104. La coincidencia no es trivial.
 - **Negativo/limitación:** el 102 aparece tres veces, pero eso **no demuestra** que sea una *pachaca* ni que AB sea *hanan*. La parte aritmética se sostiene; la semántica es interpretación.
 
-**Nivel:** aritmética interna **demostrada** (reproducible); lectura como pachaca/mitades **propuesta**.
+**Nivel:** aritmética interna **bien apoyada** (reproducible); lectura como pachaca/mitades **propuesta**.
 
 ---
 
@@ -251,7 +251,7 @@ Controles adicionales:
 
 | Hallazgo | Nivel |
 |---|---|
-| UR28: 102 = 102; bloque p5–p76 = 104 (error de 2) | **demostrado** (aritmética interna) |
+| UR28: 102 = 102; bloque p5–p76 = 104 (error de 2) | **bien apoyado** (aritmética interna) |
 | UR267A: `primero − segundo = tercero` en 15/25 tríos (p < 10⁻⁴) | **apoyado con datos** |
 | Santa: 133 bloques de 6 colgantes consecutivos | **apoyado con datos** (ajuste estructural exacto) |
 | Santa: V/R es un rasgo de quipu, no de tributario | **apoyado con datos** (p de conglomerados 5 × 10⁻⁵) |

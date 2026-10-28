@@ -1,24 +1,24 @@
                A        B    score             p             q          holm  alineadas  exactas                               transformacion   r_largo  mismo_objeto  p_sin_comunes  p_bloques  rt_pasa         nivel
-0          HP055   UR1084  315.000  1.314000e-91  2.653000e-86  2.653000e-86        142      121                directo; huecos 27; ±1 nudo 8  0.312851         False          0.005      0.005     True    demostrado
-1         KH0049    UR122  183.600  4.525000e-52  4.569000e-47  9.138000e-47         90       68                directo; huecos 19; ±1 nudo 2  0.509614         False          0.005      0.005     True    demostrado
-2         UR1175    UR233  163.000  5.485000e-46  3.692000e-41  1.108000e-40         93       77               directo; huecos 43; ±1 nudo 11  0.245227         False          0.005      0.005     True    demostrado
+0          HP055   UR1084  315.000  1.314000e-91  2.653000e-86  2.653000e-86        142      121                directo; huecos 27; ±1 nudo 8  0.312851         False          0.005      0.005     True    bien apoyado
+1         KH0049    UR122  183.600  4.525000e-52  4.569000e-47  9.138000e-47         90       68                directo; huecos 19; ±1 nudo 2  0.509614         False          0.005      0.005     True    bien apoyado
+2         UR1175    UR233  163.000  5.485000e-46  3.692000e-41  1.108000e-40         93       77               directo; huecos 43; ±1 nudo 11  0.245227         False          0.005      0.005     True    bien apoyado
 3          UR006    UR009  122.400  4.912000e-31  2.480000e-26  9.919000e-26         74       68  reordenado(2 bloques); huecos 10; ±1 nudo 4 -0.072197         False          0.310      0.005    False     propuesto
-4         UR053B   UR053C  110.100  7.406000e-31  2.991000e-26  1.496000e-25         48       35                           directo; ±1 nudo 3  0.287523         False          0.005      0.005     True    demostrado
-5          UR064    UR068   90.030  4.132000e-25  1.391000e-20  8.344000e-20         47       41                 directo; huecos 5; ±1 nudo 4  0.535792         False          0.005      0.005     True    demostrado
+4         UR053B   UR053C  110.100  7.406000e-31  2.991000e-26  1.496000e-25         48       35                           directo; ±1 nudo 3  0.287523         False          0.005      0.005     True    bien apoyado
+5          UR064    UR068   90.030  4.132000e-25  1.391000e-20  8.344000e-20         47       41                 directo; huecos 5; ±1 nudo 4  0.535792         False          0.005      0.005     True    bien apoyado
 6          UR006    UR021  109.200  1.498000e-24  4.321000e-20  3.025000e-19         44       40                 directo; huecos 3; ±1 nudo 3  0.270374         False          0.035      0.005    False     propuesto
-7         UR1175    UR232   85.930  1.070000e-22  2.701000e-18  2.161000e-17         50       38                directo; huecos 18; ±1 nudo 6  0.040634         False          0.005      0.005     True    demostrado
-8         KH0033    UR044   76.160  7.310000e-21  1.640000e-16  1.476000e-15         23       23                                      directo  1.000000          True          0.005      0.005     True    demostrado
-9         UR1107    UR237   75.650  5.119000e-20  1.034000e-15  1.034000e-14         26       23                                      inverso  0.994028          True          0.005      0.005     True    demostrado
-10         MM015    UR212   60.170  6.223000e-16  1.142000e-11  1.257000e-10         13       13                                      inverso  0.413378         False          0.005      0.015     True    demostrado
+7         UR1175    UR232   85.930  1.070000e-22  2.701000e-18  2.161000e-17         50       38                directo; huecos 18; ±1 nudo 6  0.040634         False          0.005      0.005     True    bien apoyado
+8         KH0033    UR044   76.160  7.310000e-21  1.640000e-16  1.476000e-15         23       23                                      directo  1.000000          True          0.005      0.005     True    bien apoyado
+9         UR1107    UR237   75.650  5.119000e-20  1.034000e-15  1.034000e-14         26       23                                      inverso  0.994028          True          0.005      0.005     True    bien apoyado
+10         MM015    UR212   60.170  6.223000e-16  1.142000e-11  1.257000e-10         13       13                                      inverso  0.413378         False          0.005      0.015     True    bien apoyado
 11         AS128    QU013  119.400  3.066000e-15  5.159000e-11  6.190000e-10         43       43                        reordenado(3 bloques)  0.330244         False          0.005      0.005    False     propuesto
 12        UR1114   UR1123   55.280  8.273000e-14  1.285000e-09  1.670000e-08         10       10                                      directo  0.582638         False          0.005      0.050    False     propuesto
 13         UR009    UR021   52.960  4.104000e-13  5.919000e-09  8.286000e-08         21       18                           inverso; ±1 nudo 1 -0.341953         False          0.685      0.005    False     propuesto
-14         MM016    UR212   49.680  4.415000e-13  5.943000e-09  8.914000e-08         13       11                 inverso; huecos 1; ±1 nudo 1  0.191664         False          0.005      0.005     True    demostrado
-15         UR066    UR067   47.430  8.066000e-13  1.018000e-08  1.629000e-07         21       20                            directo; huecos 2  0.566756         False          0.005      0.005     True    demostrado
-16         AS125    UR247   44.340  2.964000e-12  3.521000e-08  5.985000e-07         15       14                                      directo  0.922361          True          0.005      0.030     True    demostrado
+14         MM016    UR212   49.680  4.415000e-13  5.943000e-09  8.914000e-08         13       11                 inverso; huecos 1; ±1 nudo 1  0.191664         False          0.005      0.005     True    bien apoyado
+15         UR066    UR067   47.430  8.066000e-13  1.018000e-08  1.629000e-07         21       20                            directo; huecos 2  0.566756         False          0.005      0.005     True    bien apoyado
+16         AS125    UR247   44.340  2.964000e-12  3.521000e-08  5.985000e-07         15       14                                      directo  0.922361          True          0.005      0.030     True    bien apoyado
 17         UR004    UR037   46.770  1.292000e-09  1.449000e-05  2.608000e-04         38       37           reordenado(2 bloques); escala x0.5  0.030482         False          0.155      0.005    False     propuesto
-18        UR1118    UR218   29.950  2.274000e-08  2.417000e-04  4.591000e-03          8        7                                      directo  0.192689         False          0.005      0.005     True    demostrado
-19         QU002    UR137   32.020  7.969000e-08  8.046000e-04  1.609000e-02         11       10                 directo; huecos 1; ±1 nudo 1  0.833243         False          0.005      0.005     True    demostrado
+18        UR1118    UR218   29.950  2.274000e-08  2.417000e-04  4.591000e-03          8        7                                      directo  0.192689         False          0.005      0.005     True    bien apoyado
+19         QU002    UR137   32.020  7.969000e-08  8.046000e-04  1.609000e-02         11       10                 directo; huecos 1; ±1 nudo 1  0.833243         False          0.005      0.005     True    bien apoyado
 20         AS159    AS173   27.880  4.060000e-07  3.904000e-03  8.199000e-02          8        8                                      directo  0.673847         False          0.005      0.005     True       apoyado
 21         UR255   UR267A   29.880  5.505000e-07  5.053000e-03  1.112000e-01         28       27                directo; huecos 14; ±1 nudo 1  0.408049         False          0.005      0.005     True       apoyado
 22         MM016   UR1131   29.440  6.706000e-07  5.887000e-03  1.354000e-01          5        5                                      directo  0.128148         False          0.005      0.060    False     propuesto
@@ -81,7 +81,7 @@
 79         QU019   UR1034   21.480  9.025000e-04  7.500000e-01  1.000000e+00          8        7                           inverso; ±1 nudo 1 -0.160751         False          0.290      0.010    False  especulativo
 nivel
 especulativo    218
-demostrado       14
+bien apoyado       14
 propuesto         9
 apoyado           2
 Name: count, dtype: int64

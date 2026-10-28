@@ -25,7 +25,7 @@ no encajan y podrían ser información no numérica?
   UR1032** (respetando la estructura de grupos cuando aplica), 1000–5000 veces, **semilla 0**;
   p-valor empírico de una cola (el lado de la hipótesis).
 - Corrección múltiple **Holm** sobre el banco de 7 pruebas. Niveles:
-  demostrado / apoyado con datos / propuesto / especulativo.
+  bien apoyado / apoyado con datos / propuesto / especulativo.
 
 ---
 
@@ -81,7 +81,7 @@ en 238 cuerdas con nudo, primer tipo **E = 169, L = 66, S = 2**. Dirección de n
 **S = 104, Z = 131, U = 5**. Casi no hay nudos simples de decena (sólo 3 cuerdas con "1S": p48, p303, p345),
 así que **no hay estructura decimal multinivel**.
 
-**Patrón posicional dentro del grupo (demostrado).** Dentro de cada grupo, el valor
+**Patrón posicional dentro del grupo (bien apoyado).** Dentro de cada grupo, el valor
 se concentra en el **centro** y los **bordes** quedan vacíos: en grupos de 5, fracción con
 nudo por posición = [0.20, 0.44, 0.54, 0.50, 0.30]; en grupos de 3 = [0.28, 0.43, 0.26].
 Prueba de permutación dentro de cada grupo: centro-bordes obs 110, **p < 0.0001** (g5);
@@ -102,7 +102,7 @@ obs 14, **p = 0.0014** (g3).
 | T7 tasa de subsidiaria: grupos de 3 > grupos de 5 | 0.255 (0.47 vs 0.22) | 0.000 | **0.000** |
 
 **Confirmado tras Holm:** T1 (color = tamaño) y T7 (los grupos blancos de 3 llevan más
-subsidiarias). **T2** queda en el borde (Holm = 0.06): apoyado, no demostrado.
+subsidiarias). **T2** queda en el borde (Holm = 0.06): apoyado, no bien apoyado.
 
 **Aritmética específica (el patrón de AS215, otro quipu nazca del Peabody con suma
 posición-a-posición "grupo 3 = grupos 7+9+11+13+15"):** en UR1032 se probó
@@ -120,7 +120,7 @@ esos recuentos (T4, T6 no significativos). No es evidencia de estructura repetid
 
 ## 5. Lectura más probable
 
-**Lo que está demostrado:** UR1032 es un quipu **estructurado por color y separadores,
+**Lo que está bien apoyado:** UR1032 es un quipu **estructurado por color y separadores,
 sin aritmética**. Su esqueleto es un patrón de bandas (5 azul + 3 blanco = módulo de 8),
 cortado por **5 marcadores físicos** (M1–M5, cuerdas vacías) en **6 secciones** de 7–9 módulos;
 los valores son diminutos y **64 % de los colgantes están en blanco**. El color no codifica
@@ -140,8 +140,8 @@ mapean de forma natural sobre meses/semanas, y no hay periodicidad de valores (T
 **módulos (8 colgantes)**; columnas = las **3-5 cuerdas de cada grupo**, tipadas por color.
 El "valor" sólo codifica presencia/ausencia o una marca 0-4, no una magnitud.
 
-**Nivel de evidencia:** forma y color **demostrados** (T1, T7); ausencia de aritmética
-**demostrada** (varias pruebas nulas concordantes + KFG); lectura como registro
+**Nivel de evidencia:** forma y color **bien apoyados** (T1, T7); ausencia de aritmética
+**bien apoyada** (varias pruebas nulas concordantes + KFG); lectura como registro
 administrativo de bajo nivel **propuesta**; censo/calendario específicos **especulativos**.
 
 ## 6. Lo que no encaja / información no numérica
@@ -181,20 +181,20 @@ administrativo de bajo nivel **propuesta**; censo/calendario específicos **espe
   aritmética.** Ninguna relación de suma se sostiene frente al nulo: colgante=Σsubs
   p=0.98; grupo=Σgrupos (patrón AS215, posición a posición) 0/40; pares adyacentes p=0.58.
   Coherente con KFG (`num_top_cord_sum_clusters=0`). **Negativo sólido**, no ruido.
-- **Color = tamaño de grupo (demostrado):** 50 grupos de 5 = azules (LB), 51 grupos de 3
+- **Color = tamaño de grupo (bien apoyado):** 50 grupos de 5 = azules (LB), 51 grupos de 3
   = blancos (W), salvo 2/415 cuerdas; KFG lo reconoce (`num_banded_clusters=107`).
   La dicotomía azul/blanco es **plantilla estructural**, no cantidad.
 - **OKR identifica 5 cuerdas "M" (marcador)** —M1–M5 = p58, p131, p204, p277, p342— que
   **dividen el quipu en 6 secciones** de 7–9 módulos, cada módulo = 8 colgantes (5 azul + 3
   blanco). M1 coincide con el "M1 entre p57–p58" de Thompson (2026). Esto es el hallazgo
-  organizativo más fuerte y es **demostrado**.
+  organizativo más fuerte y es **bien apoyado**.
 - **Dentro del grupo, el valor ocupa el centro y los bordes quedan vacíos**
   ([0.20,0.44,0.54,0.50,0.30] en grupos de 5; p<0.0001). Sugiere cuerdas-marco y centro-datos.
 - **64 % de los colgantes están vacíos** (303 sin nudos); sólo 149 llevan nudo, casi todos
   figura-de-ocho (=1) o largos (2-9); no hay jerarquía decimal (3 cuerdas con decena). El
   contenido es sobre todo **presencia/ausencia → posible información no numérica/binaria**.
-- **Nivel de evidencia:** estructura y color **demostrados**; ausencia de aritmética
-  **demostrada**; lectura como registro administrativo de bajo nivel ("de trabajo")
+- **Nivel de evidencia:** estructura y color **bien apoyados**; ausencia de aritmética
+  **bien apoyada**; lectura como registro administrativo de bajo nivel ("de trabajo")
   **propuesta**; censo o calendario **especulativos** (no superan controles).
 - **Anomalías:** grupo de 6 cuerdas (g100) rompiendo el 5/3; inversión 5-3→3-5 tras M3;
   2 cuerdas de color excepcional; varias cuerdas rotas/remendadas (p45s1, p278, p282, p328s2,

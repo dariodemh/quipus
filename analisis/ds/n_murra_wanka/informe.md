@@ -61,7 +61,7 @@ La afirmación que cita LeVine (1992:264–265) —«from 1533 to 1537 the Lurin
 - Murra dice expresamente que la estructura social de **«las tres fratrías wanka»** aún no se conoce y que el papel del 266/133 «todavía no hemos descifrado» (pp. 16, 24). Es decir: el propio autor del análisis declara que la variable independiente (población relativa de cada saya) es desconocida.
 - La regla tampoco aparece formulada en el artículo: es una **glosa de LeVine**, no un resultado de Murra. En el texto de Murra la palabra «saya» no aparece ni una vez.
 
-**Conclusión:** la regla es, en el mejor de los casos, una hipótesis de la literatura secundaria, y con los datos publicados **no es contrastable**. Etiqueta: *demostrado* que la fuente no permite el contraste; *especulativo* el contenido de la regla.
+**Conclusión:** la regla es, en el mejor de los casos, una hipótesis de la literatura secundaria, y con los datos publicados **no es contrastable**. Etiqueta: *bien apoyado* que la fuente no permite el contraste; *especulativo* el contenido de la regla.
 
 ### 4.2 Lo que sí se puede probar: un factor de escala por evento
 
@@ -176,9 +176,9 @@ Bajo (b), el quipu wanka sería:
 
 | Afirmación | Nivel |
 |---|---|
-| 12 categorías, 43 cuerdas, 19 eventos, orden constante, sin totales, sin eje saya | **Demostrado** (fuente primaria) |
-| La regla de proporcionalidad por saya no es verificable con esta fuente | **Demostrado** |
-| 43 cuerdas no pueden contener 361 números; el quipu físico requeriría 361–817 cuerdas o totales acumulados | **Demostrado** (aritmética) / **apoyado con datos** para la inferencia física |
+| 12 categorías, 43 cuerdas, 19 eventos, orden constante, sin totales, sin eje saya | **Bien apoyado** (fuente primaria) |
+| La regla de proporcionalidad por saya no es verificable con esta fuente | **Bien apoyado** |
+| 43 cuerdas no pueden contener 361 números; el quipu físico requeriría 361–817 cuerdas o totales acumulados | **Bien apoyado** (aritmética) / **apoyado con datos** para la inferencia física |
 | Existe un factor de escala por evento (co-movimiento + rango 1) | **Apoyado con datos** (p < 5·10⁻⁵, Holm) |
 | Las cantidades decaen con el tiempo y la amplitud no | **Apoyado con datos** (sign test p = 0,031; ρ riqueza ≈ 0) |
 | Wanka = taxonomía dispersa vs Incahuasi = partición igualitaria | **Apoyado con datos** (CV 1,96 vs 0,19) |

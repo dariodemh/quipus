@@ -97,7 +97,7 @@ Se definieron de antemano unos indicadores por quipu (unidad = quipu) y se compa
     - **UR118 y UR119** (Paracas, pareja de museo): el total va *antes* de la fila. 4–5 de 6–13 exactas o a menos del 2 %; esperado 0,8–1,2.
     - **UR149**: 3 a menos del 2 %.
   - Es la misma idea que la cuerda superior-suma de AS006 (cuatro cuerdas T = total de su fila), pero con colgantes.
-  - Hay cuasi-coincidencias (333 frente a 335, 497 frente a 498, 535 frente a 531): errores, cuerdas rotas o ajustes. Nivel: *demostrado* en esos 6 quipus, raro en el corpus.
+  - Hay cuasi-coincidencias (333 frente a 335, 497 frente a 498, 535 frente a 531): errores, cuerdas rotas o ajustes. Nivel: *bien apoyado* en esos 6 quipus, raro en el corpus.
 - **Cuerdas = total de columna** (Σ de todas las filas): 6 quipus con q<0,05.
   - En HP017, UR202 y UR198 son valores redondos y frecuentes (2, 10, 20, 30, 100). Lo más probable es una coincidencia que el nulo no recoge del todo (aburrido).
   - **UR231** (Ica/Pisco) tiene 6 cuerdas intercaladas con valores distintos de tres cifras (264–411), iguales a 6 totales de columna distintos. Candidato *propuesto*.
@@ -122,12 +122,12 @@ Se definieron de antemano unos indicadores por quipu (unidad = quipu) y se compa
 
 | quipu | lectura propuesta | predicción | resultado | nivel |
 |---|---|---|---|---|
-| **UR267A/B, UR255, UR256, UR275, UR269, UR274B** (Incahuasi) | fila = lote o entrega; columnas = [bruto, cuota fija c, neto] | (a) bruto = c + neto; (b) c es fija, no proporcional; (c) bruto > c; (d) **nueva**: si falta c, bruto = neto; (e) **nueva**: la columna del bruto es blanca | (a) 52–100 % de filas completas (UR255 7/7, UR267B 12/13); (b) CV(c) = 0 en UR255, UR256 y UR275 frente a CV(c/bruto) 0,10–0,48: **cuota fija, no tasa**; (c) se cumple: ninguna fila con bruto ≤ c, salvo 1 en UR269; (d) **falla**: casi no hay filas para probar y, donde las hay, bruto ≠ neto (0/1, 1/11, 1/2), así que la cuota no es opcional; c cambia de posición en algunas filas (UR267A filas 23–24, UR274B); (e) bruto blanco en UR267A (25/25), UR269 (51/59), UR274B (12/12), UR275 (7/9), pero **no** en UR255 ni UR256 (todo AB) | estructura aritmética **demostrada** (01 y aquí); "deducción/tara/tributo" **propuesto** |
+| **UR267A/B, UR255, UR256, UR275, UR269, UR274B** (Incahuasi) | fila = lote o entrega; columnas = [bruto, cuota fija c, neto] | (a) bruto = c + neto; (b) c es fija, no proporcional; (c) bruto > c; (d) **nueva**: si falta c, bruto = neto; (e) **nueva**: la columna del bruto es blanca | (a) 52–100 % de filas completas (UR255 7/7, UR267B 12/13); (b) CV(c) = 0 en UR255, UR256 y UR275 frente a CV(c/bruto) 0,10–0,48: **cuota fija, no tasa**; (c) se cumple: ninguna fila con bruto ≤ c, salvo 1 en UR269; (d) **falla**: casi no hay filas para probar y, donde las hay, bruto ≠ neto (0/1, 1/11, 1/2), así que la cuota no es opcional; c cambia de posición en algunas filas (UR267A filas 23–24, UR274B); (e) bruto blanco en UR267A (25/25), UR269 (51/59), UR274B (12/12), UR275 (7/9), pero **no** en UR255 ni UR256 (todo AB) | estructura aritmética **bien apoyada** (01 y aquí); "deducción/tara/tributo" **propuesto** |
 | **UR011** (Leymebamba) | fila = unidad social (ayllu o pachaca), con un bloque de 9 filas grandes (6 300–15 700) y otro de 5 pequeñas (720–3 100); col3 y col4 = dos recuentos del mismo universo (p. ej. dos fechas o dos mitades); col0–col2 = subcategorías | (a) col3/col4 ≈ 1; (b) col0–2 proporcionales a col3; (c) cuerdas fuera de tabla = totales de bloque | (a) razón mediana 1,014; DE(log) 0,25 frente a 0,69 en el nulo, p = 0,0001; 4 de 14 filas a menos del 2 %, pero nunca idénticas, así que no es una copia; (b) ρ = 0,65 / 0,84 / 0,94, p ≤ 0,006; (c) **falla**: solo cuasi-coincidencias (2 082 frente a 2 068, 2 000 frente a 1 988) | relaciones **apoyadas con datos**; "censo en dos fechas o dos mitades" **especulativo** |
 | **KH0197** (procedencia desconocida) | fila = partida; col0 (blanca) y col1 (AB) = dos registros de la misma cantidad (asignado/recibido) | \|col0 − col1\| ≤ 2 % en exceso; si es asignado/recibido, signo constante | 4 filas casi iguales (533/532, 512/513, 304/305, 22/23) frente a 0,8 esperadas, p = 0,003; ρ = 0,93; signo **no constante** (−1, +1, +1, +1); las demás filas difieren mucho (−425, −98, +68) | casi-igualdad **apoyada** (post hoc, no pasa BH en el corpus); "verificación" **especulativo** |
 | **UR1144** (Pachacamac) | fila = unidad; col0 = bien principal (centenas); col1–3 = bienes menores | (a) el tamaño de la fila arrastra a todas las columnas; (b) col0 ≈ múltiplo fijo del resto; (c) col0 no es el total | (a) ρ(col0, col1+2+3) = 0,65, p = 0,009; (b) razón ≈ 2,3, DE(log) 0,14 frente a 0,22, p = 0,009, pero con mucha dispersión (1,7–3,0); (c) col0 = suma del resto en 0 filas | "columna grande = categoría principal, no total" **apoyado con datos** |
 | **AS178** (cerca de Lima) | fila = unidad; col1 (B) y col2 (LB) = dos mitades de una partida; col0 (blanca) = doble de col3 (KB) | (a) col1 ≈ col2; (b) col0 ≈ 2·col3; (c) col0 no es la suma | (a) 6 de 6 filas frente a 2,0, p = 0,003; (b) 5 frente a 2,1, p = 0,014; (c) 0 filas | **especulativo**: solo 7 filas y valores redondos (10, 20, 30, 60); predicciones post hoc |
-| **AS044, UR1096, UR118/UR119** | fila = unidad con 6 categorías (6 colgantes); la cuerda suelta adyacente = total de la unidad | fila sumada = cuerda suelta adyacente | ver T3: 6/11, 5/6, 4–5/13, frente a ≈1 esperado, q<0,05 | **demostrado** como estructura; las categorías concretas, desconocidas |
+| **AS044, UR1096, UR118/UR119** | fila = unidad con 6 categorías (6 colgantes); la cuerda suelta adyacente = total de la unidad | fila sumada = cuerda suelta adyacente | ver T3: 6/11, 5/6, 4–5/13, frente a ≈1 esperado, q<0,05 | **bien apoyado** como estructura; las categorías concretas, desconocidas |
 
 ## Resultados negativos
 
@@ -151,11 +151,11 @@ Se definieron de antemano unos indicadores por quipu (unidad = quipu) y se compa
 
 | conclusión | nivel |
 |---|---|
-| Las tablas tienen una columna sistemáticamente mayor y otras menores (119/177) | demostrado (estructura; en parte circular) |
+| Las tablas tienen una columna sistemáticamente mayor y otras menores (119/177) | bien apoyado (estructura; en parte circular) |
 | Arquetipo recurrente: la 1.ª columna es la mayor (68 frente a 39) y tiende a ser blanca; la última, vacía o pequeña | apoyado con datos |
 | Filas = unidades de tamaño variable (correlación entre columnas en 60/135) | apoyado con datos |
-| Columna = total de fila solo en Incahuasi, con cuota constante | demostrado (replica 01); cuota fija y no tasa: apoyado con datos |
-| Formato "fila + cuerda-total suelta" (AS044, UR1096, UR118, UR119, UR166, UR149) | demostrado en esos quipus |
+| Columna = total de fila solo en Incahuasi, con cuota constante | bien apoyado (replica 01); cuota fija y no tasa: apoyado con datos |
+| Formato "fila + cuerda-total suelta" (AS044, UR1096, UR118, UR119, UR166, UR149) | bien apoyado en esos quipus |
 | Filas duplicadas o copias (11 quipus) | apoyado con datos |
 | Columnas gemelas (dos registros de la misma cantidad) en UR011, KH0197, AS178 y otros | apoyado (UR011) / exploratorio |
 | Número típico de filas (decimal, 4 suyus, 6 pachacas) | sin evidencia (negativo) |

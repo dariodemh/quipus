@@ -82,7 +82,7 @@ Seis contrastes de par (62 quipus, 1 891 pares), nulo por barajado intra-quipu (
 - **Racha contigua idéntica de 14 posiciones** (índices 16–29: 19,4,3,0,22,3,9,2,156,13,12,…,2904,133,…,40).
 - Comparten el valor **2904**, que **no aparece en ningún otro** de los 63 quipus (y 1212/1236 sólo aparecen en el vecino internamente duplicado `UR064`).
 
-Es el patrón clásico de "cuentas duplicadas" de Urton y Brezine (2005) para Puruchuco. **Pero** el par se eligió *a posteriori* y, corregido por comparaciones múltiples (BH sobre los 1 891 pares), **q = 1,0**. Conclusión honesta: **apoyado con datos como el mejor candidato del conjunto, no demostrado**; requiere una prueba pre-registrada (p. ej. emparejarlo por número de museo o contexto antes de mirar valores).
+Es el patrón clásico de "cuentas duplicadas" de Urton y Brezine (2005) para Puruchuco. **Pero** el par se eligió *a posteriori* y, corregido por comparaciones múltiples (BH sobre los 1 891 pares), **q = 1,0**. Conclusión honesta: **apoyado con datos como el mejor candidato del conjunto, no bien apoyado**; requiere una prueba pre-registrada (p. ej. emparejarlo por número de museo o contexto antes de mirar valores).
 
 ---
 
@@ -129,9 +129,9 @@ Es el patrón clásico de "cuentas duplicadas" de Urton y Brezine (2005) para Pu
 | Armatambo es el único sitio con torsión Z (resto S) | **Apoyado con datos** (n=14, separación casi total) |
 | Armatambo con unión R-dominante y near Lima con V pura | **Apoyado con datos** (descriptivo) |
 | Arqueología aritmética interna (45/63 con sumas; 809 sumas internas) | **Apoyado con datos** (conteo robusto, coincide con KFG) |
-| Cuerdas superiores escasas (6) | **Demostrado** (dato directo) |
-| Sin relaciones entre quipus tras nulo y BH | **Demostrado** (resultado negativo controlado) |
-| Torsión ↔ unión sin asociación | **Demostrado** en este conjunto (χ² p=0,83) |
+| Cuerdas superiores escasas (6) | **Bien apoyado** (dato directo) |
+| Sin relaciones entre quipus tras nulo y BH | **Bien apoyado** (resultado negativo controlado) |
+| Torsión ↔ unión sin asociación | **Bien apoyado** en este conjunto (χ² p=0,83) |
 | UR066/UR067 = cuenta duplicada | **Apoyado con datos / propuesto** (no pasa BH; selección post-hoc) |
 | HP047 = quipu de resumen encabezado por un total | **Propuesto** (firma compatible, no verificable) |
 | Qué se registraba (censo/tributo administrativo) | **Propuesto / especulativo** |
@@ -141,7 +141,7 @@ Es el patrón clásico de "cuentas duplicadas" de Urton y Brezine (2005) para Pu
 ## 7. Para el coordinador
 
 - **Cohorte bien definida:** 63 quipus, 3 284 cuerdas; 63 OKR distintos (sin objetos contados dos veces); `UR1124_Detail_1` excluido por ser el mismo objeto. Sitios: Huaquerones 19, Armatambo 14, Huacho 7, Chancay 7, Marquez 6, near Lima 6, Chuquitanta 4.
-- **Resultado negativo central (demostrado):** con nulo intra-quipu (500×, semilla 0) y BH-FDR **no hay relaciones significativas entre los quipus de Lima** — ni secuencias de valores, ni patrones de color, ni estructuras de grupo, ni enriquecimiento por sitio. El test global del máximo confirma que el mejor par real (17 coincidencias) está **por debajo** de lo que produce el azar entre 1 891 pares (21,5).
+- **Resultado negativo central (bien apoyado):** con nulo intra-quipu (500×, semilla 0) y BH-FDR **no hay relaciones significativas entre los quipus de Lima** — ni secuencias de valores, ni patrones de color, ni estructuras de grupo, ni enriquecimiento por sitio. El test global del máximo confirma que el mejor par real (17 coincidencias) está **por debajo** de lo que produce el azar entre 1 891 pares (21,5).
 - **El único candidato con firma sustantiva es UR066×UR067** (Huaquerones/Puruchuco): 32 cuerdas cada uno, 16 coincidencias posicionales (p=0,0002), racha idéntica de 14 valores y comparten el valor 2904, único en el conjunto. **No sobrevive a múltiples comparaciones (q=1,0)**; recomiendo una prueba **pre-registrada** (emparejar por nº de museo antes de mirar valores), junto con UR064 (dos bloques internos de ~1 200).
 - **Armatambo es el outlier del conjunto (apoyado con datos):** única procedencia con **torsión de cordón Z** (611 Z vs 37 S) y unión R-dominante; replica y precisa a Clindaniel (2019), que ya señalaba a Armatambo como excepción. Los demás sitios son S/verso.
 - **La aritmética de sumas es interna, no un archivo encadenado:** 45/63 quipus con sumas Ascher (968 relaciones) y 809 sumas internas detectadas en 38 quipus; **pero** ningún total de un quipu reaparece como suma de grupo de otro más allá del azar. No hay jerarquía detalle↔resumen entre objetos.

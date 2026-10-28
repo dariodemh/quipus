@@ -11,7 +11,7 @@
 - **Valor 0 con `nudos` vacío = ausente** (no se cuenta como cero). Se documentan aparte los **ceros reales** (valor 0 *con* cadena de nudos).
 - **Nulos explícitos** (semilla 0, 500 permutaciones salvo donde se indique): (a) secuencias de valores → barajar valores dentro de cada quipu; (b) totales que reaparecen → **permutar los valores entre quipus** (dentro de un quipu el total es invariante al barajado, así que ese nulo no sirve para totales); (c) patrones de color → barajar colores dentro de cada quipu; (d) firmas de grupos → permutar etiquetas de grupo dentro de cada quipu.
 - **Corrección de comparaciones múltiples:** Holm sobre la familia de tests declarada en cada bloque.
-- **Etiquetas de evidencia:** demostrado / apoyado con datos / propuesto / especulativo.
+- **Etiquetas de evidencia:** bien apoyado / apoyado con datos / propuesto / especulativo.
 - Scripts reproducibles en esta carpeta: `01_describe.py`, `02_structure.py`, `03_between.py`, `03b_distintivos.py`, `04_sums_hierarchy.py`, `05_trio.py`.
 
 ## 2. Descripción del conjunto
@@ -124,11 +124,11 @@ La evidencia disponible es compatible con **varios registros contables independi
 
 | Afirmación | Nivel |
 |---|---|
-| UR001–UR022 = subconjunto estudiable del archivo de 32 quipus de Laguna de los Cóndores; sin duplicados de catálogo | **demostrado** (metadatos KDB/OKR) |
-| Rasgos constructivos: torsión S dominante, terminación K, unión R/V ~50/50 con quipus "a una mano" (UR016 R, UR003/UR021 V) | **demostrado** (datos de cuerdas) |
-| Ceros reales escasos y localizados (8 cuerdas) frente a 1 565 ausentes | **demostrado** |
+| UR001–UR022 = subconjunto estudiable del archivo de 32 quipus de Laguna de los Cóndores; sin duplicados de catálogo | **bien apoyado** (metadatos KDB/OKR) |
+| Rasgos constructivos: torsión S dominante, terminación K, unión R/V ~50/50 con quipus "a una mano" (UR016 R, UR003/UR021 V) | **bien apoyado** (datos de cuerdas) |
+| Ceros reales escasos y localizados (8 cuerdas) frente a 1 565 ausentes | **bien apoyado** |
 | Colores MB/AB/W dominantes; W de UR022 probablemente post-deposicional (lavado) | **apoyado con datos** |
-| Sumas internas presentes (agregación local) | **demostrado** (verificación propia + KFG) |
+| Sumas internas presentes (agregación local) | **bien apoyado** (verificación propia + KFG) |
 | **No** hay secuencias de valores compartidas entre quipus distintos (patrones distintivos superan el nulo) | **apoyado con datos** (negativo) |
 | **No** hay totales de un quipu que reaparezcan en otro por encima del azar | **apoyado con datos** (negativo) |
 | **No** hay patrones de color ni firmas de grupo idénticos entre quipus (color = artefacto de bloques) | **apoyado con datos** (negativo) |

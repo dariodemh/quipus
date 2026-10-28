@@ -113,7 +113,7 @@ Nulo = barajar los valores >0 dentro del quipu (1000×, semilla 0). Holm sobre 7
 
 | Afirmación | Nivel |
 |---|---|
-| Estructura marcador(coloreado)+bloque(blanco); 78 % sin nudos; 432 grupos | **demostrado** (descriptivo) |
+| Estructura marcador(coloreado)+bloque(blanco); 78 % sin nudos; 432 grupos | **bien apoyado** (descriptivo) |
 | La 1.ª cuerda del grupo es marcador de color | **apoyado con datos** (p=0,001 con nulo) |
 | Sumas indexadas y repetición de totales de grupo superan el azar | **apoyado con datos** (p≈0,003–0,006, Holm) |
 | Registro administrativo tabular tipo censo/tributo; filas=grupos, columnas=índices | **propuesto** |
@@ -128,7 +128,7 @@ Nulo = barajar los valores >0 dentro del quipu (1000×, semilla 0). Holm sobre 7
 - **Estructura probada:** cada grupo empieza con una **cuerda marcadora de color** (219/432; p=0,001 vs nulo de barajado) seguida de un bloque de 6–7 cuerdas blancas con los valores. 94 % de clusters "banded/seriated".
 - **Aritmética probada con control:** las **sumas indexadas** (mismo índice entre bloques) y la **repetición de totales de grupo** superan al azar (p≈0,003–0,006; sobreviven Holm). La relación clásica **madre=Σ subsidiarias NO se cumple** (p=0,51): es un resultado negativo importante.
 - **Advertencia metodológica:** probar "valor = suma de un subconjunto cualquiera" da 82 % de aciertos **también en el nulo** (p=0,038, no sobrevive Holm). En un quipu grande, "abundan sumas por azar"; lo que discrimina es la **estructura posicional**, no la suma suelta.
-- **Interpretación propuesta:** registro **administrativo tabular (censo/tributo)**: filas = grupos (unidades marcadas por color), columnas = índices de posición dentro del bloque (con totales de columna indexados). **Propuesto**, no demostrado.
+- **Interpretación propuesta:** registro **administrativo tabular (censo/tributo)**: filas = grupos (unidades marcadas por color), columnas = índices de posición dentro del bloque (con totales de columna indexados). **Propuesto**, no bien apoyado.
 - **Contexto:** Thompson (2024, *Ñawpa Pacha*) describe una fuerte conexión numérica entre dos quipus excavados juntos cerca de Arica, uno el mayor registrado; **AS069 (1831) y AS071 (404) fueron excavados juntos por Dauelsberg**. Apoya un rol de "registro maestro/relacionado" (propuesto).
 - **Siguiente ronda recomendada:** (1) replicar el test indexado con la estructura de clusters de 570 (KFG) que incluya subsidiarias, para cuantificar formalmente las 140 relaciones "indexed" y las 200 pendant–pendant con un nulo equivalente; (2) comparar AS069 con AS071 (conexión de Thompson) cordón a cordón; (3) auditar valor y color contra el examen físico (advertencias Thompson/Milillo) antes de cualquier lectura semántica; (4) probar si las 1433 cuerdas sin nudos codifican información **por posición/color** (no numérica).
 

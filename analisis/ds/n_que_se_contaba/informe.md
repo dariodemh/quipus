@@ -17,7 +17,7 @@ Esta ronda ataca esa pregunta con cuatro disciplinas que el proyecto no había u
 2. **Nulo explícito en cada prueba**, con p empírico unilateral `(k+1)/(B+1)` y semilla fija.
 3. **Corrección múltiple BH-FDR** cuando se prueban muchos quipus o muchas hipótesis; se indica el número de pruebas.
 4. **Valores 0 sin nudos = ausentes** (NaN), nunca ceros.
-5. Cada conclusión se etiqueta: **demostrado / apoyado con datos / propuesto / especulativo**.
+5. Cada conclusión se etiqueta: **bien apoyado / apoyado con datos / propuesto / especulativo**.
 
 ---
 
@@ -198,16 +198,16 @@ La distribución de valores individuales no es de escala libre: **46,7 % de las 
 
 | # | Hipótesis | Veredicto | Cifra clave | Nivel |
 |---|---|---|---|---|
-| 1 | Las columnas de UR278 son grados de edad/sexo | **descartada** | CV 0,184 [0,152; 0,230] vs 0,50–0,90 exigido; p < 2,5·10⁻⁴ | demostrado (condicionado a un modelo demográfico estándar) |
+| 1 | Las columnas de UR278 son grados de edad/sexo | **descartada** | CV 0,184 [0,152; 0,230] vs 0,50–0,90 exigido; p < 2,5·10⁻⁴ | bien apoyado (condicionado a un modelo demográfico estándar) |
 | 2 | Las columnas del corpus son edades/sexos | **descartada en 136/159 tablas (86 %); indecidible en 23 (14 %)** | las 23 pasan por la flexibilidad de la permutación; ninguna es monótona ni piramidal | apoyado con datos |
 | 3 | Las columnas vienen en pares varón/mujer | **descartada** | correlación residual tras quitar tamaño: 0,36 / 0,18 / −0,02 / −0,04; razón mediana 1,12 | apoyado con datos |
 | 4 | Las columnas son una partición administrativa casi igual (9 partes) | **compatible** | CV 0,18; max/min 1,70; 4/28 filas con max/min ≥ 3,6 | apoyado (planitud) / propuesto (partición) |
-| 5 | Los totales se “llenan” a 10/100/500/1000/10 000 | **descartada** | 0/12 pruebas evaluables; ratios 0,75–1,18; q ≥ 0,95 | demostrado (negativo) |
+| 5 | Los totales se “llenan” a 10/100/500/1000/10 000 | **descartada** | 0/12 pruebas evaluables; ratios 0,75–1,18; q ≥ 0,95 | bien apoyado (negativo) |
 | 6 | Los totales se redondean a decenas | **apoyada** | 15,7 % múltiplos de 10 vs 12,6 % [11,8; 13,4] del nulo | apoyado con datos |
-| 7 | La unidad es un producto individual (grano, ají, papa, mazorca) | **descartada** | UR278 = 0,0005–0,4 % de los 6 400 m³; harían falta ×250–200 000 | demostrado con los supuestos de capacidad/densidad |
+| 7 | La unidad es un producto individual (grano, ají, papa, mazorca) | **descartada** | UR278 = 0,0005–0,4 % de los 6 400 m³; harían falta ×250–200 000 | bien apoyado con los supuestos de capacidad/densidad |
 | 8 | La unidad es un bulto de ~10–50 kg (carga, costal, arroba, fanega) | **compatible; unidad exacta indecidible** | UR278 = 18–80 % de la capacidad; cabecera = 1–6 colcas | propuesto |
-| 9 | Benford separa recuento de asignación | **descartado** | 99/190 quipus rechazan; asignación MAD 0,022 < recuento 0,027; MW p = 0,072 en dirección opuesta | demostrado (negativo) |
-| 10 | El dígito final 0 marca asignación | **demostrado pero circular** | 0,857 (asignación) vs 0,120 (recuento); la etiqueta se define con ese dígito | definicional |
+| 9 | Benford separa recuento de asignación | **descartado** | 99/190 quipus rechazan; asignación MAD 0,022 < recuento 0,027; MW p = 0,072 en dirección opuesta | bien apoyado (negativo) |
+| 10 | El dígito final 0 marca asignación | **bien apoyado pero circular** | 0,857 (asignación) vs 0,120 (recuento); la etiqueta se define con ese dígito | definicional |
 
 ## 6. Resultados negativos (los que también cuentan)
 

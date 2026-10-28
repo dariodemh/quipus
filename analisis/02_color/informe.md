@@ -132,16 +132,16 @@ Hay pocas sumas por quipu (<8 quipus por prueba), así que su relación con el c
 
 | Conclusión | Nivel |
 |---|---|
-| Existe estructura color-posición-en-grupo (columnas con color estable) en algunos quipus y no se explica por la composición del grupo (N2) | **demostrado** (estadístico, con nulo y FDR) para esos quipus individuales; AS170, UR1144, UR1113, UR267A, etc. |
+| Existe estructura color-posición-en-grupo (columnas con color estable) en algunos quipus y no se explica por la composición del grupo (N2) | **bien apoyado** (estadístico, con nulo y FDR) para esos quipus individuales; AS170, UR1144, UR1113, UR267A, etc. |
 | Porcentaje de quipus con columnas: 12 % (estricto) a 47 % (laxo) | **apoyado con datos** (rango; potencia limitada, N3 más severa que N2) |
 | Esas columnas son encabezados con significado (no patrón decorativo/de fabricación) | **propuesto** |
 | Color como etiqueta de bloque (grupos homogéneos, 41 %) y bandas (≈48 %) | **apoyado con datos** |
 | Periodicidad/seriación en ≈29 % de los quipus | **apoyado con datos** (período no dominante) |
-| Color asociado a magnitud del valor dentro del quipu (40 % de quipus; 27 % con control por grupo) | **demostrado** como asociación; su semántica, **propuesta** |
+| Color asociado a magnitud del valor dentro del quipu (40 % de quipus; 27 % con control por grupo) | **bien apoyado** como asociación; su semántica, **propuesta** |
 | Vocabulario compartido: blanco/claro ↔ mayor valor, primera cuerda del grupo y cuerdas "suma" (borde = suma del resto) | **apoyado con datos**, efecto pequeño (AUC≈+0,04–0,06); la suma, solo 49 quipus |
 | KB (marrón oscuro) ↔ cuerda sin nudos | **apoyado con datos** como patrón; causa (artefacto/código) **especulativa**; dominado por UR |
 | Mezclas marcan totales / W siempre pequeño / color raro marca cuerdas especiales | **refutado en estos datos** (resultados negativos) |
-| Cordón principal comparte color con colgantes | **demostrado** como correlación; probable paleta compartida (aburrida) |
+| Cordón principal comparte color con colgantes | **bien apoyado** como correlación; probable paleta compartida (aburrida) |
 | Teñidos portan vocabulario | **sin evidencia** (poca muestra; color posiblemente alterado) |
 | Cuerdas superiores (T) marcadas por color | **sin conclusión** (8–11 quipus) |
 

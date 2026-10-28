@@ -222,7 +222,7 @@ Criterios: (i) anomalía estructural o morfológica confirmada en OKR; (ii) no c
 | Afirmación | Nivel |
 |---|---|
 | Existe una clase estructural de 61 quipus (9,4 %) con exceso de racimos del mismo orden / secuencias puras | **Apoyado con datos** (definición explícita; depende del índice) |
-| 15 quipus son “tally puro” (≥95 % de racimos en unidades) | **Demostrado** (conteo); la lectura como tally unario es **propuesto** |
+| 15 quipus son “tally puro” (≥95 % de racimos en unidades) | **Bien apoyado** (conteo); la lectura como tally unario es **propuesto** |
 | 39 ND conservan un esqueleto decimal y añaden unidades | **Apoyado con datos**; compatible con nether knots/tallies, no con no-decimalidad pura |
 | Los canutos se asocian a la clase (OR 7,3; MH 9,4) | **Apoyado con datos** (robusto a tamaño, prefijo y museo; registro de canutos incompleto) |
 | La fibra de camélido se asocia a la clase | **Propuesto** (OR alto pero celdas pequeñas y confusión con colección) |
@@ -261,4 +261,4 @@ Criterios: (i) anomalía estructural o morfológica confirmada en OKR; (ii) no c
 - **Los 3 quipus de Cajamarquilla son la prioridad:** UR179 y UR180 tienen nudos “no-axis” (KFG) que OKR registra como 54 y 30 nudos sin tipo; UR178 es una secuencia de 57 nudos S=1. Es un conjunto local coherente (AMNH, Cajamarquilla) y el mejor candidato a lectura de signos.
 - **Los 10 candidatos concretos:** UR179, UR180, UR178, UR050, UR054, UR052, AS076, JC012, UR203, UR215. UR179/UR180 son morfología no-axis; UR178 y los cinco siguientes son tally puro (con canutos en UR050/54/52 y AS076); los dos últimos son nudos espirales. Alternativas: UR055, UR003, UR007, HP019/HP020, UR282/UR289, UR223/UR1109.
 - **No sobreinterpretar:** 39 de los 54 ND conservan un esqueleto decimal; sus unidades extra pueden ser nether knots/tallies añadidos, no un lenguaje distinto. Sin imágenes no se puede separar “nudo especial” de “nudo dañado”. La lectura narrativa sigue siendo **especulativa**; la lectura como **tally/etiqueta** es la más parsimoniosa y es la que recomiendo testear primero.
-- **Siguiente paso barato y decisivo:** auditar imágenes de UR179/180/178 y AS076/JC012, y cruzar los canutos con los runs de nudos en UR050/54/52/55. Eso convertiría la clase de “prometedora” en “demostrada” (o la refutaría) sin necesidad de nuevos datos.
+- **Siguiente paso barato y decisivo:** auditar imágenes de UR179/180/178 y AS076/JC012, y cruzar los canutos con los runs de nudos en UR050/54/52/55. Eso convertiría la clase de “prometedora” en “bien apoyada” (o la refutaría) sin necesidad de nuevos datos.

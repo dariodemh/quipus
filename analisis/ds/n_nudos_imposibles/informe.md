@@ -27,7 +27,7 @@ La pregunta se prueba con (a) una auditoría KFG–OKR de las vueltas reales, (b
 - **6 de los 14 quipus** con vueltas reales tienen notas explícitas de no decimalidad o nudos espirales: «No numerical interpretation is possible… do not conform to the base ten positional system» (UR1095, UR1087), «spiral knots» (UR193, UR203), «no observable pattern… assign no numerical values» (AS014). KH0001 documenta una **convención aditiva propia** y AS078 una nota de valores 0–10 en un solo racimo. No son errores de transcripción: el fenómeno está documentado en la fuente.
 - **Ninguna lectura alternativa hace cerrar las sumas internas.** Lectura del transcriptor (H): 6/326 cierres (1,8 %); decimal estricta (D): 2/319; unaria (U): 10/319; mod 10: 1/319; «L≥10 como n unidades» (LU): 15/319; bases 5, 8, 12, 16 y 20: 1–2/319. Todos los p > 0,22 y todos los p Holm = 1,0. Las sumas de grupo cierran **0/72**.
 - **No hay enriquecimiento de cabezas de grupo** (Fisher combinado p = 0,99) ni posiciones fijas (p = 0,77). Las cuerdas anómalas sí están **enriquecidas en el color modal del quipu** (KH0001 p = 0,0007; UR193 p = 0,0013; UR1095 p = 0,0147; Holm < 0,01 para los dos primeros), pero no hay un color exclusivo: es el color mayoritario del quipu, no un código.
-- **Veredicto:** otra notación (aditiva/no decimal) o candidato no numérico, **no** error de transcripción. El contenido semántico sigue siendo especulativo. Nivel global: **apoyado con datos** para la anomalía y para el fracaso de las sumas; **demostrado** para la convención KFG/OKR.
+- **Veredicto:** otra notación (aditiva/no decimal) o candidato no numérico, **no** error de transcripción. El contenido semántico sigue siendo especulativo. Nivel global: **apoyado con datos** para la anomalía y para el fracaso de las sumas; **bien apoyado** para la convención KFG/OKR.
 
 ---
 
@@ -237,7 +237,7 @@ Interpretación: las cuerdas anómalas **no** son cabezas de grupo, **no** ocupa
 | **UR051** | 3 | 25 | — | **Candidato no numérico** | Propuesto |
 | **UR052** | 2 | 75 | canutos | **Multiunidad aditiva** | Propuesto |
 | **UR165, UR171, UR157, AS078, UR191** | 1 cada uno | 0–2 | — | **Caso aislado** (error puntual o variante menor) | Especulativo |
-| **AS090_N2** | 0 | 0 | — | **Decimal de altos valores** | Demostrado |
+| **AS090_N2** | 0 | 0 | — | **Decimal de altos valores** | Bien apoyado |
 | **AS004** | 0 (sin OKR) | — | — | **Ambiguo sin OKR; probable decimal de altos valores** | Apoyado (indirecto) |
 
 **Regla de decisión:** ≥ 3 cuerdas con vueltas reales y nota explícita → otra notación/no numérico; ≥ 5 cuerdas con multiunidad real sin L10 → multiunidad aditiva; 1–2 cuerdas → caso aislado; 0 reales con valores posicionales → decimal normal.
@@ -248,8 +248,8 @@ Interpretación: las cuerdas anómalas **no** son cabezas de grupo, **no** ocupa
 
 | Afirmación | Nivel |
 |---|---|
-| En KFG, `nL` es el valor del racimo, no el número de vueltas; 171/321 L10 son valor posicional; AS090_N2 es decimal | **Demostrado** (OKR `NUM_TURNS` y `knot_value_type`) |
-| Hay 144 cuerdas en 14 quipus con vueltas reales de 10–16 | **Demostrado** (KFG y OKR coinciden) |
+| En KFG, `nL` es el valor del racimo, no el número de vueltas; 171/321 L10 son valor posicional; AS090_N2 es decimal | **Bien apoyado** (OKR `NUM_TURNS` y `knot_value_type`) |
+| Hay 144 cuerdas en 14 quipus con vueltas reales de 10–16 | **Bien apoyado** (KFG y OKR coinciden) |
 | Esos quipus no son decimales posicionales; usan notación aditiva/espiral/no numérica | **Apoyado con datos** (6/14 notas de no decimalidad/espirales + KH0001; estructura; ausencia de sumas) |
 | Ninguna lectura alternativa hace cerrar las sumas internas | **Apoyado con datos** (negativo; 24 pruebas, Holm 1,0) |
 | Los nudos de 10–16 vueltas son una categoría semántica distinta (no solo números) | **Propuesto** |

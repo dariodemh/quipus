@@ -15,7 +15,7 @@ Definición: **serie_L** = cuerda con ≥2 racimos y todos los racimos son un nu
 - **Notas de campo relevantes:** UR050: "*Knots are extremely difficult to read (Urton)*", torsión floja (~70°) y "*knot placement indicates canutos were wrapped after knots were tied?*". UR055: "*Khipu of human hair*" (descripción de museo) y "*last small knot may be unintentional*". UR052: grupos de cuerdas dobladas y envueltas con hilo de color ("canuto"), tipos de fibra A–D. UR051: "*cord wrapped with rest of group*" (42 cuerdas). UR112: "*Camelid khipu with canutos*", grupos 19–20 reconstruidos "best guesses". UR110: "needlework bundle". Hay numerosos nudos de reparación en UR050 y UR055. No encontré ninguna nota que describa las series como error.
 - **Hallazgo estructural clave:** los **únicos 8 quipus del OKR con tabla `canuto`** (cuerdas atadas en fajos envueltos con hilo) son exactamente UR039, UR050, UR052, UR054, UR055, UR110, UR112 y UR144. El noveno, UR051, tiene cuerdas "wrapped with rest of group" sin codificar como canuto. Los fajos son de 4 o 6 cuerdas (UR050: 24×6 + 5×4; UR055: 31×4 + 9×6; UR144: 24×4); UR039 tiene fajos de 2. La literatura del repo (Curatola 2013, que cita a Urton 2011; Milillo 2024) trata los quipus "canuto" como **post-inka y probablemente coloniales**. UR039 figura con procedencia "Huari", sin fecha.
 
-**Nivel:** las series existen en el registro original como racimos L separados: **demostrado** (para el registro). Que la física sea esa, sobre todo el número exacto de vueltas, solo está **apoyado con datos**: hay una sola lectura de campo, la nota de UR050 dice "extremely difficult to read" y UR144 tiene discrepancia sistemática entre fuentes.
+**Nivel:** las series existen en el registro original como racimos L separados: **bien apoyado** (para el registro). Que la física sea esa, sobre todo el número exacto de vueltas, solo está **apoyado con datos**: hay una sola lectura de campo, la nota de UR050 dice "extremely difficult to read" y UR144 tiene discrepancia sistemática entre fuentes.
 
 ## 2. Las "palabras" (`03_pruebas.py`)
 
@@ -100,8 +100,8 @@ Lo que sobrevive es una lectura doble: (a) el número de vueltas parece un rasgo
 
 ## 6. Niveles de evidencia
 
-- Las series están en el registro (OKR = KFG, racimos separados de un único L): **demostrado**. Fiabilidad física de las vueltas: **apoyado**, con la salvedad de la discrepancia sistemática de UR144 entre fuentes.
-- Estilo exclusivo de los quipus de canuto (8/8 + UR051) y distinto de las demás series L del corpus: **demostrado (descriptivo)**, con contraste por quipu p ≤ 0,0004.
+- Las series están en el registro (OKR = KFG, racimos separados de un único L): **bien apoyado**. Fiabilidad física de las vueltas: **apoyado**, con la salvedad de la discrepancia sistemática de UR144 entre fuentes.
+- Estilo exclusivo de los quipus de canuto (8/8 + UR051) y distinto de las demás series L del corpus: **bien apoyado (descriptivo)**, con contraste por quipu p ≤ 0,0004.
 - Vueltas en campana en 4–6, homogeneidad por cuerda, canuto y vecinas, sin bandas: **apoyado con datos**.
 - Aditivo, otra base, radix mixto, calendario y códigos categóricos: **rechazados o sin apoyo** (apoyado con datos, negativo).
 - "Las vueltas son tamaño de nudo por lote, no un valor; la información está en k, fajo y color": **propuesto**.

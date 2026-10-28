@@ -208,8 +208,8 @@ En 275 quipus de 15 procedencias con ≥5 quipus y ≥8 colgantes coloreados:
 
 | Afirmación | Nivel |
 |---|---|
-| Los quipus modernos usan color, torsión, posición, subsidiaria, objeto y borla con significado documentado | **Demostrado** para los casos con informante (Cutusuma, Anchucaya); **apoyado** para el resto |
-| Existe una tabla cuerda-por-cuerda publicada y completa | **Demostrado** que solo Cutusuma (7 cuerdas); Laramarca solo estructura |
+| Los quipus modernos usan color, torsión, posición, subsidiaria, objeto y borla con significado documentado | **Bien apoyado** para los casos con informante (Cutusuma, Anchucaya); **apoyado** para el resto |
+| Existe una tabla cuerda-por-cuerda publicada y completa | **Bien apoyado** que solo Cutusuma (7 cuerdas); Laramarca solo estructura |
 | La torsión forma bloques contiguos y se asocia a grupo/color en el corpus antiguo | **Apoyado con datos** (T1 z=-13,5; T4/T5 z>18; robusto sin tally) |
 | La torsión no es una mitad ni un código de “menos valor” | **Apoyado con datos (negativo)** (T2 p=0,82; T3 p=0,93) |
 | La dirección del nudo es una propiedad de la cuerda | **Apoyado con datos** (KFG 96,5% vs 61,9%; OKR 80,0% vs 75,7%; z=23,6) |
@@ -232,7 +232,7 @@ En 275 quipus de 15 procedencias con ≥5 quipus y ≥8 colgantes coloreados:
 ## 7. Continuidades inca vs innovaciones coloniales
 
 **Continuidades plausibles desde el inca:**
-- **Nudo decimal** como gramática base (demostrado).
+- **Nudo decimal** como gramática base (bien apoyado).
 - **Color como categoría** (documentado en crónicas y etnografía; el corpus antiguo muestra banding, no un léxico compartido).
 - **Jerarquía de cuerdas y subsidiarias** (la madre puede ser suma de hijos, 12,6%; la subsidiaria es una parte, no una cría).
 - **Cuerda superior como total** en una minoría de quipus (23-62%).

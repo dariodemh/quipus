@@ -18,17 +18,17 @@ I7_suma_bloque_otro_en_F   76   0  1.0000  1.0000      False   NaN  NaN     NaN 
 I8_total_grupo_F_en_sitio  79   2  0.9103  0.4727      False   NaN  NaN     NaN       NaN          NaN    False
 I9_total_grupo_sitio_en_F  67   0  1.0000  0.8869      False   NaN  NaN     NaN       NaN          NaN    False
 
-niveles: {'ninguno': 2830, 'especulativo': 41, 'propuesto': 6, 'demostrado': 2, 'apoyado': 1}
+niveles: {'ninguno': 2830, 'especulativo': 41, 'propuesto': 6, 'bien apoyado': 2, 'apoyado': 1}
 filas que sacan de la frontera por familia: {'T2_periodo_color': 3}
 quipus que dejan la frontera: 3 | solo por relacion nueva (no 04): 3
 propuestos (quipus): 6
 suma de q en filas que sacan: 0.027
 
-filas demostrado/apoyado/propuesto:
+filas bien apoyado/apoyado/propuesto:
           kfg        estructura  estadistico        p         q mitad       nivel  conocido_04                                    detalle
-624     UR040  T2_periodo_color     0.757392  0.00001  0.008363     B  demostrado        False                            lag=2;colores=2
+624     UR040  T2_periodo_color     0.757392  0.00001  0.008363     B  bien apoyado        False                            lag=2;colores=2
 894     UR122  T6_suma_salteada     3.000000  0.00001  0.008363     A   propuesto        False                            misma_posicion;
-1016    UR167  T2_periodo_color     0.799907  0.00001  0.008363     B  demostrado        False                            lag=2;colores=2
+1016    UR167  T2_periodo_color     0.799907  0.00001  0.008363     B  bien apoyado        False                            lag=2;colores=2
 564     UR016    T5_subsidiaria     0.382064  0.00002  0.010036     A   propuesto        False           spearman;obs=[12.0, 13.0, 0.382]
 722   UR1033F  T2_periodo_color     0.841959  0.00002  0.010036     A     apoyado        False                            lag=2;colores=3
 794    UR1107      T4_tendencia     0.823529  0.00003  0.012545     A   propuesto        False                                   signo=-1

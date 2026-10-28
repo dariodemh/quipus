@@ -123,7 +123,7 @@ Reconstrucciones (cuerdas sin nudos): 96, 25 de confianza alta. Ejemplos: UR255 
 - **Apoyado con datos:** UR270 ↔ UR278 (celda = P + S; 74 % exacta y 88 % ±1 en LOO frente a ≤3 % de las bases); fila de UR278 ↔ cabeceras de UR266/UR275; cierre y cuota en UR255/UR256/UR267A/UR267B/UR274A/UR275; acuerdo entre vías como indicador de fiabilidad (77 % frente a 7 %).
 - **Propuesto:** que A+B → libro sea predictivo al ciego (41 %; la evidencia de 13 sigue siendo de relaciones halladas, no de predicción).
 - **Especulativo:** cualquier lectura del archivo completo; UR269 como libro maestro (solo 19 % predecible).
-- **Demostrado:** solo el control nulo (la maquinaria de alineación no predice por azar en pares sin relación).
+- **Bien apoyado:** solo el control nulo (la maquinaria de alineación no predice por azar en pares sin relación).
 
 ## 9. Siguiente ronda
 

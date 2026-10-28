@@ -206,7 +206,7 @@ Si algo, los grupos aritméticos están **menos** aislados (gaps algo menores), 
 
 | Afirmación | Nivel | Comentario |
 |---|---|---|
-| El espaciado anotado entre grupos es pequeño (mediana 0,5 cm) y los gaps grandes son raros | **Demostrado (descriptivo)** | 7.466 pares; p90 = 2 cm |
+| El espaciado anotado entre grupos es pequeño (mediana 0,5 cm) y los gaps grandes son raros | **Bien apoyado (descriptivo)** | 7.466 pares; p90 = 2 cm |
 | Los gaps grandes se asocian a diferencias locales de **largo** (robusto) y, más débilmente, de valor/nº de dígitos entre grupos adyacentes | **Apoyado con datos** | largo ρ = 0,076 con gaps anotados; valor ρ = 0,043 y pierde Holm; desaparece con `gap_dpos` |
 | Los gaps grandes **no** delimitan secciones con aritmética distinta ni aíslan las sumas | **Apoyado con datos (negativo)** | 871 grupos, 292+2.768 relaciones; tamaños de efecto ≈ 0 |
 | La posición vertical de los racimos no añade información numérica independiente | **Apoyado con datos** | `valor` = suma de aportes en 100% de 40.092 cuerdas; 92% orden descendente; 8% excepciones en 28 quipus |

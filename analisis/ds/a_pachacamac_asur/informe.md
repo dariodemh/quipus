@@ -106,7 +106,7 @@ El conjunto se comporta como un **ensamble de registros independientes y planos*
 
 | Conclusión | Nivel |
 |---|---|
-| AS125 y UR247 son el mismo objeto (duplicado de museo) | **demostrado** (ficha OKR + 12 valores idénticos) |
+| AS125 y UR247 son el mismo objeto (duplicado de museo) | **bien apoyado** (ficha OKR + 12 valores idénticos) |
 | Archivo plano, sin agregación numérica interna | **apoyado con datos** |
 | Sin vinculación numérica entre quipus (nulo 500, Holm) | **apoyado con datos** |
 | Z domina la dirección de nudo (replica a Clindaniel) | **apoyado con datos** (p = 0,007; borderline tras Holm global) |

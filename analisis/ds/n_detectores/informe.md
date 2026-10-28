@@ -138,7 +138,7 @@ Cruce `cuerdas.csv` ↔ `khipu.db(cord)` por `puente.csv`; `CORD_ORDINAL` de OKR
 
 Desglose de las 92 T perdidas: **57 como `union=U`**, **34 como R/V** y 1 sin mapear. En **UR087**: 13 T, todas perdidas (10 U + 3 R/V), y 5 marcadoras, las 5 perdidas. Coincide exactamente con `k_UR087/informe.md`.
 
-**Corolario:** KFG no solo pierde las superiores: su `union=T` (154 cuerdas, 26 quipus) es en gran parte otra cosa (54 falsos positivos en 9 quipus; solo HP047 coincide con OKR). Cualquier análisis de superiores/marcadoras debe hacerse contra OKR, no contra KFG. D5 es **demostrado** (campos directos, sin inferencia).
+**Corolario:** KFG no solo pierde las superiores: su `union=T` (154 cuerdas, 26 quipus) es en gran parte otra cosa (54 falsos positivos en 9 quipus; solo HP047 coincide con OKR). Cualquier análisis de superiores/marcadoras debe hacerse contra OKR, no contra KFG. D5 es **bien apoyado** (campos directos, sin inferencia).
 
 ## 4. Controles y resultados negativos
 
@@ -156,9 +156,9 @@ Desglose de las 92 T perdidas: **57 como `union=U`**, **34 como R/V** y 1 sin ma
 
 | Afirmación | Nivel |
 |---|---|
-| El sistema de Incahuasi se recupera con D1, D2, D3 y D4, con los controles obligatorios y q_dir≤0,074 | **Demostrado** (controles positivos + nulo) |
+| El sistema de Incahuasi se recupera con D1, D2, D3 y D4, con los controles obligatorios y q_dir≤0,074 | **Bien apoyado** (controles positivos + nulo) |
 | No hay otro sistema tipo Incahuasi en el corpus KFG (651 quipus) según D1–D4 | **Apoyado con datos** (barrido completo; límites: D4 solo 60 quipus, D2/D3 dependen de cabeceras) |
-| KFG pierde 92/95 cuerdas superiores y 502/502 marcadoras; su `union=T` no equivale a OKR T | **Demostrado** (campos directos) |
+| KFG pierde 92/95 cuerdas superiores y 502/502 marcadoras; su `union=T` no equivale a OKR T | **Bien apoyado** (campos directos) |
 | HP055 tiene una columna constante de 100 en la posición 2 (posible unidad de medida) | **Propuesto** |
 | UR1088+UR195→UR232/233/120 (Huacho) es un sistema contable | **Especulativo / probable artefacto de densidad** (exceso 4,4; τ negativo; nulo 18,6) |
 | UR1149 (Ocucaje) tiene cuota 610 | **Especulativo** (4/25 registros) |

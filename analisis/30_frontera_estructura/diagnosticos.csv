@@ -1,6 +1,6 @@
 kfg,estructura,nivel,sitio,museo,texto
-UR040,T2_periodo_color,demostrado,Nazca,"peabody museum, harvard university","colores alternos W/AB en 26 de 33 posiciones; media W=1.0, AB=1.9; pares vecinos con algun valor: 12, AB>W en 3"
-UR167,T2_periodo_color,demostrado,Ica or Cajamarquilla,"american museum of natural history, ny","colores alternos AB/MB en 30 de 37 posiciones; media AB=4.9, MB=0.4; pares vecinos con algun valor: 28, MB>AB en 4"
+UR040,T2_periodo_color,bien apoyado,Nazca,"peabody museum, harvard university","colores alternos W/AB en 26 de 33 posiciones; media W=1.0, AB=1.9; pares vecinos con algun valor: 12, AB>W en 3"
+UR167,T2_periodo_color,bien apoyado,Ica or Cajamarquilla,"american museum of natural history, ny","colores alternos AB/MB en 30 de 37 posiciones; media AB=4.9, MB=0.4; pares vecinos con algun valor: 28, MB>AB en 4"
 UR1033F,T2_periodo_color,apoyado,Unknown,"peabody museum, harvard university","colores alternos W/AB en 17 de 21 posiciones; media W=8.0, AB=9.9; pares vecinos con algun valor: 17, AB>W en 14"
 UR122,T6_suma_salteada,propuesto,Nazca,"museum of worldculture, goteborg, sweden",p2=457+951+875; p9=447+855+972; p72=790+0+210
 UR016,T5_subsidiaria,propuesto,Leymebamba,"centro mallqui, leymebamba, amazonas","140 pares; subsidiaria < colgante en 90%; razon mediana 0.200; spearman;obs=[12.0, 13.0, 0.382]"

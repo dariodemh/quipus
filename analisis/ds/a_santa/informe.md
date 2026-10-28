@@ -34,7 +34,7 @@ Antes de cualquier estadística hay que fijar **qué** es cada objeto, porque el
 | UR092 | KH0328 | UR092 | Museo Temple Radicati, 4 | **Santa** |
 | UR198 | KH0436 | UR198 | Ethnologisches Museum, Berlín, VA63039 | **Santa Clara, Nazca** |
 
-Hallazgos de identificación (**demostrado** con las fuentes citadas):
+Hallazgos de identificación (**bien apoyado** con las fuentes citadas):
 
 1. **UR087–UR092 = KH0323–KH0328 son el célebre corpus de seis quipus del valle del Santa**
    (Museo Temple Radicati, nº de colección 1–6), el llamado caso «piedra de Rosetta» de
@@ -65,7 +65,7 @@ UR198 se analizan como **grupo externo / control**, no como miembros del archivo
 - `valor = 0` con `nudos` vacío se trata como **ausente** (regla 6), no como cero real.
 - p-valor empírico = `(1 + nº de nulos ≥ observado)/(500+1)`; corrección de multiplicidad
   **Holm** y **BH-FDR** sobre los 28 pares.
-- Toda conclusión se etiqueta: demostrado / apoyado con datos / propuesto / especulativo.
+- Toda conclusión se etiqueta: bien apoyado / apoyado con datos / propuesto / especulativo.
 
 ---
 
@@ -247,7 +247,7 @@ en dirección Z**. Ninguno de estos rasgos lo comparten KH0227 ni (en la misma f
 
 | Conclusión | Nivel |
 |---|---|
-| UR087–UR092 = KH0323–KH0328 son el corpus Santa (Temple Radicati 1–6); KH0227 (Huaura, AS207C) y UR198 (Nazca) **no** son del valle del Santa | **demostrado** (fuentes de identidad) |
+| UR087–UR092 = KH0323–KH0328 son el corpus Santa (Temple Radicati 1–6); KH0227 (Huaura, AS207C) y UR198 (Nazca) **no** son del valle del Santa | **bien apoyado** (fuentes de identidad) |
 | R/V casi puro por quipu, UR090 el único mixto; 49,0/51,0 % — reproduce Contreras (2026) | **apoyado con datos** |
 | Nudos en dirección Z dominan en los seis del Santa; KH0227 en dirección S opuesta | **apoyado con datos** (recuento directo) |
 | UR087 tiene cordones superiores y marcadores (OKR), único del conjunto | **apoyado con datos** |
@@ -305,7 +305,7 @@ es un falso positivo de búsqueda de subcadena.
 - **El «archivo de Santa» son seis quipus, no ocho.** UR087–UR092 = KH0323–KH0328 son el
   corpus del valle del Santa (Temple Radicati 1–6). **KH0227** es un fragmento de **AS207A de
   Huaura** (hacienda Santa *Rosalía*) y **UR198** es de **Santa *Clara*, Nazca**: comparten sólo
-  la subcadena «Santa». Analizarlos juntos es un falso positivo de nomenclatura (demostrado).
+  la subcadena «Santa». Analizarlos juntos es un falso positivo de nomenclatura (bien apoyado).
 - **Reproduje de forma exacta el patrón R/V publicado:** cinco quipus puros (UR087/UR092 → R;
   UR088/UR089/UR091 → V) y **UR090 el único mixto (40 R / 69 V)**; global **49,0 % R / 51,0 % V**.
   Coincide al decimal con Contreras (2026) y se obtiene independientemente del campo ORIGINAL del

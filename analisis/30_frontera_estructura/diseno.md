@@ -62,12 +62,12 @@ Peso de un valor v en un quipu: w(v) = −ln(frecuencia de v entre sus colgantes
 2. **Exploración (A):** una familia (prueba) se **promueve** si en A tiene ≥ 1 descubrimiento con BH(A) q < 0,10 (BH sobre todas las pruebas de A), o si el número de quipus con p < 0,05 supera la binomial(n_A no NA, 0,05) con p unilateral < 0,05.
 3. **Confirmación (B):** solo familias promovidas. Una familia **se replica** si en B (a) la binomial de p < 0,05 da p < 0,05 tras Holm sobre las familias promovidas, o (b) hay ≥ 1 quipu de B con q < 0,05 en un BH restringido a {familias promovidas × quipus de B}.
 4. **Nivel por fila (quipu × prueba):**
-   - **demostrado**: Holm global < 0,05 y la familia se replica.
+   - **bien apoyado**: Holm global < 0,05 y la familia se replica.
    - **apoyado**: q global < 0,05 y la familia se replica.
    - **propuesto**: q global < 0,05 pero la familia no se replica (o no se promovió); o, en B, q confirmatorio < 0,05 con q global ≥ 0,05.
    - **especulativo**: p < 0,01 sin lo anterior.
    - **ninguno**: el resto.
-5. **Deja la frontera** un quipu con al menos una fila demostrada o apoyada. Se informa aparte si la relación ya la conocía 04 (`pares_significativos.csv`): eso no es estructura «nueva», es un detector existente que el atlas no convirtió en género.
+5. **Deja la frontera** un quipu con al menos una fila bien apoyada o apoyada. Se informa aparte si la relación ya la conocía 04 (`pares_significativos.csv`): eso no es estructura «nueva», es un detector existente que el atlas no convirtió en género.
 
 ## Tasa de falsos positivos
 
@@ -99,7 +99,7 @@ Sumas internas contiguas (01/08), copias directas exactas ya listadas (04/14, se
 
 - **I1–I4**: la racha diagonal más larga no tolera huecos; el control HP055/UR1084 (copia con omisiones) daba p = 0,015. El estadístico pasa a ser, para cada compañero, la **suma de pesos de las posiciones de F cubiertas por rachas de ≥ 3** con ese compañero (une tramos separados por huecos o sustituciones); máximo sobre compañeros. Nulo sin cambios.
 - Controles tras la enmienda: I2 UR1107~UR237 p = 5e-4 (15 posiciones cubiertas), I1 UR1084~HP055 p = 5e-4 (125), I8 UR278→Incahuasi p = 1e-5 (UR266). Los dos primeros con N = 1 999 por presupuesto de tiempo.
-- Presupuesto de escalada en las pruebas entre quipus: 300 s por prueba (se corren en 10 procesos paralelos). Consecuencia conocida: en compañeros grandes el suelo de p es 5e-4, por debajo del umbral de Holm global (~1,7e-5); esas filas pueden llegar a «apoyado», no a «demostrado».
+- Presupuesto de escalada en las pruebas entre quipus: 300 s por prueba (se corren en 10 procesos paralelos). Consecuencia conocida: en compañeros grandes el suelo de p es 5e-4, por debajo del umbral de Holm global (~1,7e-5); esas filas pueden llegar a «apoyado», no a «bien apoyado».
 
 ## Enmienda 3 (POSTERIOR a ver los resultados; solo puede quitar descubrimientos)
 

@@ -15,7 +15,7 @@ Acompañan a este texto:
 
 | Nivel | Qué significa |
 |---|---|
-| **Demostrado** | Sobrevive al nulo y a la corrección múltiple, y se replicó por otra vía: otro script, otro agente o una prueba ciega. |
+| **Bien apoyado** | Sobrevive al nulo y a la corrección múltiple, y se replicó por otra vía: otro script, otro agente o una prueba ciega. |
 | **Apoyado** | Es significativo con corrección, pero no tiene réplica independiente o depende de la regla elegida. |
 | **Propuesto** | Es compatible con los datos, pero ninguna prueba lo distingue de las alternativas. |
 | **Especulativo** | No tiene prueba. |
@@ -31,7 +31,7 @@ Acompañan a este texto:
 
 ## 1. El archivo en una página
 
-**Dónde.** Catorce quipus amontonados en la esquina suroeste de la kallanka U.A. 04 del depósito (Qolqawasi, sector A), cubiertos de maní. Son las unidades estratigráficas 11 a 22, consecutivas. *Demostrado como dato de campo* (Urton y Chu 2015, suplemento; Urton 2017, apéndice del cap. 9). El texto del capítulo 9 dice «U.A. 05» y el apéndice «U.A. 04»; la errata está anotada en SINTESIS §Urton 2017.
+**Dónde.** Catorce quipus amontonados en la esquina suroeste de la kallanka U.A. 04 del depósito (Qolqawasi, sector A), cubiertos de maní. Son las unidades estratigráficas 11 a 22, consecutivas. *Bien apoyado como dato de campo* (Urton y Chu 2015, suplemento; Urton 2017, apéndice del cap. 9). El texto del capítulo 9 dice «U.A. 05» y el apéndice «U.A. 04»; la errata está anotada en SINTESIS §Urton 2017.
 
 **Qué hay.** UR266, UR268, UR269, UR270, UR272, UR273A, UR273B, UR274A, UR274B, UR275, UR276, UR277, UR278 y UR279.
 
@@ -47,8 +47,8 @@ Los dos resúmenes llegan **a la misma cifra del libro por caminos distintos**. 
 
 **Niveles de cada pieza:**
 
-- UR270 → UR278: **demostrado**.
-- UR278 → UR275/UR266: **demostrado**.
+- UR270 → UR278: **bien apoyado**.
+- UR278 → UR275/UR266: **bien apoyado**.
 - UR273A+B → UR275/UR266: **apoyado**.
 - Leer el conjunto como cuadre cruzado: **propuesto**.
 
@@ -71,11 +71,11 @@ flowchart TD
         L4["UR268 (U.E. 18)<br/>escala 7–15 mil; cuota 208<br/>sin enlace"]
     end
     AUX["UR272, UR277: listas de conteos pequeños<br/>UR276, UR279: sin lectura"]
-    U -- "columna a columna<br/>DEMOSTRADO" --> T
-    U -- "Σ colgantes<br/>DEMOSTRADO (4/9)" --> B
+    U -- "columna a columna<br/>BIEN APOYADO" --> T
+    U -- "Σ colgantes<br/>BIEN APOYADO (4/9)" --> B
     U -- "Σ subsidiarias<br/>APOYADO (1/9 exacta, 3/9 ±1)" --> A
-    T -- "Σ fila = bruto<br/>DEMOSTRADO (11 en orden)" --> L2
-    T -- "Σ fila = bruto<br/>DEMOSTRADO (7 en orden)" --> L1
+    T -- "Σ fila = bruto<br/>BIEN APOYADO (11 en orden)" --> L2
+    T -- "Σ fila = bruto<br/>BIEN APOYADO (7 en orden)" --> L1
     A -- "A + B = bruto<br/>APOYADO (8/18)" --> L1
     B --> L1
     A -.-> L3
@@ -100,20 +100,20 @@ UR268 (cuota 208): sin enlace.   UR272, UR277, UR276, UR279: sin enlace.
 
 | Orden | Quipu (U.E.) | Rol | Qué contiene | Nivel | Fuente |
 |---|---|---|---|---|---|
-| 1 | **UR270** (13) | **Detalle**: 9 unidades × 2 partes por registro | 25 grupos. Seis tienen 9 colgantes blancos (P), cada uno con una subsidiaria NB (S1): g0, g4, g5, g6, g8 y g9 (más g10 con 10). Los grupos g12–g24 tienen otro formato. | Demostrado (P+S1 → UR278; Σ P → UR273B) | `13` §2.3; `16` afirm. 4; `ds/n_cuota_entrega` §3.3 |
-| 2a | **UR278** (16) | **Resumen por unidad**: tabla de 9 columnas | 37 grupos; 26 filas de exactamente 9. Valores de 11 a 537 por celda y totales de fila de 1 278 a 4 273. | Demostrado (celda = P+S1; Σ fila → libros) | `13` §2.3–2.4; `16`; `paquete_revision` I01, I02, I09, I10 |
+| 1 | **UR270** (13) | **Detalle**: 9 unidades × 2 partes por registro | 25 grupos. Seis tienen 9 colgantes blancos (P), cada uno con una subsidiaria NB (S1): g0, g4, g5, g6, g8 y g9 (más g10 con 10). Los grupos g12–g24 tienen otro formato. | Bien apoyado (P+S1 → UR278; Σ P → UR273B) | `13` §2.3; `16` afirm. 4; `ds/n_cuota_entrega` §3.3 |
+| 2a | **UR278** (16) | **Resumen por unidad**: tabla de 9 columnas | 37 grupos; 26 filas de exactamente 9. Valores de 11 a 537 por celda y totales de fila de 1 278 a 4 273. | Bien apoyado (celda = P+S1; Σ fila → libros) | `13` §2.3–2.4; `16`; `paquete_revision` I01, I02, I09, I10 |
 | 2b | **UR273B** (14) | **Resumen por parte**: parte B de cada registro | Cabecera blanca en miles (887–3 991) y cuerdas en blanco. | Apoyado | `13` §2.2; `ds/n_cuota_entrega` §3.3C |
 | 2b | **UR273A** (14), atado a UR273B | **Resumen por parte**: parte A | Cabecera en centenas (100–891). | Apoyado | `13` §2.2; `paquete_revision` I03 |
 | 2c | **UR274B** (15) | Copia de UR273B con **cuota 17** explícita | 12 cuerdas de 17 y 4 de 10, que serían 17 dañadas. 1402 = 1385 + 17. | Apoyado (copia; cuota 17, p = 0,004 con OKR) | `13` §2.5; `ds/n_okr_incahuasi`; I19 |
 | 2c | **UR274A** (15), atado a UR274B | Copia y **complemento** de UR273A con **cuota 30** explícita | 17 cuerdas de 30. Rellena 3 de 4 registros en los que UR273A está en blanco. | Apoyado (I04) | `13` §2.2; `ds/n_fuera_muestra` |
-| 3 | **UR275** (19) | **Libro del flujo con reparto** | 25 registros: bruto, 47, destinos y un último destino grande jaspeado W:MB. Σ cabeceras = **56 446**, como en Urton y Chu 2018. | Demostrado (recibe UR278); apoyado (reparto 15/16) | `ds/n_tanteo` §4.1; `coherencia.py` 8 y 10 |
-| 3 | **UR266** (12) | **Copia resumida del libro** | 36 grupos con bruto y 47. Empieza 4 registros antes que UR275 (3618, 1506, 1384, 2919). Tiene subsidiarias grandes 0G/0B (1070, 473, 1151…) sin regla. | Demostrado (copia publicada; recibe UR278 en orden) | `13` §2.9; Urton 2017 tabla 9.3 |
+| 3 | **UR275** (19) | **Libro del flujo con reparto** | 25 registros: bruto, 47, destinos y un último destino grande jaspeado W:MB. Σ cabeceras = **56 446**, como en Urton y Chu 2018. | Bien apoyado (recibe UR278); apoyado (reparto 15/16) | `ds/n_tanteo` §4.1; `coherencia.py` 8 y 10 |
+| 3 | **UR266** (12) | **Copia resumida del libro** | 36 grupos con bruto y 47. Empieza 4 registros antes que UR275 (3618, 1506, 1384, 2919). Tiene subsidiarias grandes 0G/0B (1070, 473, 1151…) sin regla. | Bien apoyado (copia publicada; recibe UR278 en orden) | `13` §2.9; Urton 2017 tabla 9.3 |
 | — | **UR269** (11) | **Libro de otro formato** | 107 grupos en bloques separados por PK, con cuotas 47, 46, 44, 40 y 25. Contiene cuatro sumas A+B (1653, 1737, 1827, 1780) y la copia 2633. | Apoyado (recibe cifras); su estructura, propuesta | `13` §2.6, corregido por `18` y `ds/n_fuera_muestra` |
-| — | **UR268** (18) | **Libro de escala mayor**, cuota 208 | Brutos de 7 135 a 15 039; 19 cuerdas de 208. No es la suma de los bloques de UR269. | Demostrado (cuota, publicado); sin enlace (demostrado, negativo) | Urton 2017 tabla 9.1; `ds/n_incahuasi_46_44` §2.5 |
+| — | **UR268** (18) | **Libro de escala mayor**, cuota 208 | Brutos de 7 135 a 15 039; 19 cuerdas de 208. No es la suma de los bloques de UR269. | Bien apoyado (cuota, publicado); sin enlace (bien apoyado, negativo) | Urton 2017 tabla 9.1; `ds/n_incahuasi_46_44` §2.5 |
 | — | **UR272** (22), **UR277** (17) | Listas de **conteos pequeños** | UR272: 173 colgantes, mediana 2, máximo 54. UR277: 150 colgantes, mediana 18 y algunos subtotales de hasta 1 167. | Propuesto (¿personas, jornales, cargas?) | `ds/n_tanteo` §4.6 |
 | — | **UR276** (20), **UR279** (21) | Fichas cortas | UR276: 5 colgantes con dos subsidiarias cada uno. UR279: 12 colgantes NB. | Sin lectura | `ds/n_tanteo` §4.6 |
 
-**Fuera del montón, pero del mismo sistema de cuotas.** UR267A y UR267B estaban atados en un cesto bajo ají, en U.A. 07, con cuotas 15 y 10. Sus copias son UR255 y UR256, del corredor. Son copias publicadas (Urton y Chu 2015; Urton 2017). Que UR267A+B consolide en UR269 con cuota 25 está **retirado como no demostrado** (`ds/n_fuera_muestra`, Holm 0,50). UR271 estaba bajo frijol en la misma sala y no se enlaza con nada.
+**Fuera del montón, pero del mismo sistema de cuotas.** UR267A y UR267B estaban atados en un cesto bajo ají, en U.A. 07, con cuotas 15 y 10. Sus copias son UR255 y UR256, del corredor. Son copias publicadas (Urton y Chu 2015; Urton 2017). Que UR267A+B consolide en UR269 con cuota 25 está **retirado como no bien apoyado** (`ds/n_fuera_muestra`, Holm 0,50). UR271 estaba bajo frijol en la misma sala y no se enlaza con nada.
 
 **Orden de las U.E.** U.E. 11 es UR269, 12 UR266, 13 UR270, 14 UR273A/B, 15 UR274A/B, 16 UR278, 17 UR277, 18 UR268, 19 UR275, 20 UR276, 21 UR279 y 22 UR272. El orden de excavación no reproduce el orden del flujo: **sin relación evidente** (SINTESIS §Ronda 11).
 
@@ -126,16 +126,16 @@ UR268 (cuota 208): sin enlace.   UR272, UR277, UR276, UR279: sin enlace.
 | Elemento | Qué es | Nivel | Fuente |
 |---|---|---|---|
 | **Grupo (registro)** | Un acto de registro: una entrega o depósito de maní. Los grupos se suceden en el tiempo o en la serie y se repiten en el mismo orden en 6 quipus. | Apoyado (orden conservado, τ = 1). «Registro = entrega» es propuesto. | `13` §2.2, §2.4; `16` |
-| **Separador rosado (PK)** | Corte de tramo. En UR273A/B cae en los mismos grupos (10, 14, 16, 23 y 27) y es lo que permite alinear las dos mitades. | Demostrado como marca; su sentido (¿periodo?), especulativo | `13` §1 |
-| **Columna j (1–9)** | Una de **9 unidades fijas**: las mismas 9, en el mismo orden, en UR270 y UR278. | Demostrado (I09) | `ds/n_nueve_partes`; `ds/n_rejilla` |
+| **Separador rosado (PK)** | Corte de tramo. En UR273A/B cae en los mismos grupos (10, 14, 16, 23 y 27) y es lo que permite alinear las dos mitades. | Bien apoyado como marca; su sentido (¿periodo?), especulativo | `13` §1 |
+| **Columna j (1–9)** | Una de **9 unidades fijas**: las mismas 9, en el mismo orden, en UR270 y UR278. | Bien apoyado (I09) | `ds/n_nueve_partes`; `ds/n_rejilla` |
 | **Perfil de las 9 columnas** | Cada unidad aporta una parte estable del total, de mayor a menor: c1 13,7 %, c2 14,4 %, c3 9,6 %, c4 10,8 %, c5 11,4 %, c6 12,6 %, c7 10,6 %, c8 8,0 % y c9 9,0 % (ρ con la posición = −0,73). Ninguna fila está ordenada por sí sola (0 de 26). | Apoyado (I11, I13) | `ds/n_nueve_unidades`; `ds/n_tanteo` §4.3; `coherencia.py` 9 |
-| **P** (colgante de UR270) | **Parte B** de la unidad j en el registro: la mayor, unas 2,5 veces S1 (mediana S1/P = 0,41). | Demostrado: Σ P = cabecera de UR273B en 4 de 9 (p = 0,0004) | `ds/n_cuota_entrega` §3.3C |
+| **P** (colgante de UR270) | **Parte B** de la unidad j en el registro: la mayor, unas 2,5 veces S1 (mediana S1/P = 0,41). | Bien apoyado: Σ P = cabecera de UR273B en 4 de 9 (p = 0,0004) | `ds/n_cuota_entrega` §3.3C |
 | **S1** (1.ª subsidiaria de UR270) | **Parte A** de la unidad j: la menor. | Apoyado o propuesto: Σ S1 = UR273A en 1 de 9 exacta y 3 de 9 con ±1 (p = 0,11) | idem |
-| **Celda de UR278** | P + S1: lo que la unidad j aportó en total en el registro. | Demostrado (5 grupos con ≥ 6/9; con P solo o S1 solo, 0; p = 0,0002; réplica ciega) | I01; `ds/n_cuota_entrega` §3.3A |
-| **Total de fila de UR278** | No está anudado. Es el total del registro, y reaparece como **bruto** en el libro. | Demostrado (11 exactos en orden en UR266, 7 en UR275) | I02; `coherencia.py` 3 |
+| **Celda de UR278** | P + S1: lo que la unidad j aportó en total en el registro. | Bien apoyado (5 grupos con ≥ 6/9; con P solo o S1 solo, 0; p = 0,0002; réplica ciega) | I01; `ds/n_cuota_entrega` §3.3A |
+| **Total de fila de UR278** | No está anudado. Es el total del registro, y reaparece como **bruto** en el libro. | Bien apoyado (11 exactos en orden en UR266, 7 en UR275) | I02; `coherencia.py` 3 |
 | **Cabecera de UR273A/B** | Total de una parte (A o B) en el registro, sumado sobre las 9 unidades. | Apoyado (I03) | `13` §2.2 |
-| **Bruto (cabecera de UR275/UR266)** | Total de bultos del registro. Suele ser la primera cuerda y blanca (73 % frente a 31 %). | Demostrado como cifra enlazada; «bultos de maní», propuesto | `13` §2.7 |
-| **Cuota** (47, 208; 30 y 17; 15 y 10) | **Cantidad fija por registro**, absoluta: 47 es el 1,1–3,7 % del bruto en UR275. Va en posición fija, normalmente la 2.ª. | Valores fijos: demostrado (publicado). Absoluta: apoyado (I08). Que se reste del bruto: demostrado en la aritmética. Su sentido (impuesto, mantenimiento del depósito): propuesto (Urton y Chu) | Urton 2017 cap. 9; `ds/n_tanteo` §4.2; `coherencia.py` 6 y 7 |
+| **Bruto (cabecera de UR275/UR266)** | Total de bultos del registro. Suele ser la primera cuerda y blanca (73 % frente a 31 %). | Bien apoyado como cifra enlazada; «bultos de maní», propuesto | `13` §2.7 |
+| **Cuota** (47, 208; 30 y 17; 15 y 10) | **Cantidad fija por registro**, absoluta: 47 es el 1,1–3,7 % del bruto en UR275. Va en posición fija, normalmente la 2.ª. | Valores fijos: bien apoyado (publicado). Absoluta: apoyado (I08). Que se reste del bruto: bien apoyado en la aritmética. Su sentido (impuesto, mantenimiento del depósito): propuesto (Urton y Chu) | Urton 2017 cap. 9; `ds/n_tanteo` §4.2; `coherencia.py` 6 y 7 |
 | **30 + 17 = 47** | La cuota del libro sería la suma de las cuotas de las dos partes. | **Propuesto** (I07; el 17 casi no aparece en UR273B) | `18`; `ds/n_okr_incahuasi` |
 | **Destinos (UR275)** | El resto del bruto, repartido en 1 a 5 partidas que cierran la suma: bruto = 47 + Σ destinos en 15 de 16 registros complejos (±5 %). | Aritmética: apoyado. Sentido (colcas, procedencias o salidas): propuesto | `ds/n_tanteo` §4.1; `coherencia.py` 8 |
 | **Último destino jaspeado (W:MB, UR275)** | La partida mayor y última. En los registros de 3 cuerdas es exactamente bruto − 47. ¿Lo que queda en depósito? | Propuesto. Jaspeado = resto: apoyado solo en UR275 | `13` §2.7 |
@@ -146,20 +146,20 @@ UR268 (cuota 208): sin enlace.   UR272, UR277, UR276, UR279: sin enlace.
 
 En cada frase, *bultos* significa «unidades de volumen de maní en vaina». Que sean maní es **propuesto**; que sean bultos y no granos sueltos, **apoyado** (§5).
 
-- **UR270, colgante P en la posición j del grupo i:** «En el registro *i*, la unidad *j* entregó *P* bultos de la parte B.» *Demostrado (estructura); el sentido de «parte B», especulativo.*
-- **UR270, subsidiaria S1 de ese colgante:** «…y *S1* bultos de la parte A.» *Demostrado (estructura); el sentido de «parte A», especulativo.*
-- **UR278, celda de la fila i y la columna j:** «En el registro *i*, la unidad *j* entregó en total *c* bultos (A+B).» *Demostrado en las filas con detalle conservado; apoyado en las demás.*
-- **UR278, fila i (suma de sus 9 celdas, no anudada):** «En el registro *i* entraron en total *Σ* bultos, aportados por las 9 unidades.» *Demostrado.*
+- **UR270, colgante P en la posición j del grupo i:** «En el registro *i*, la unidad *j* entregó *P* bultos de la parte B.» *Bien apoyado (estructura); el sentido de «parte B», especulativo.*
+- **UR270, subsidiaria S1 de ese colgante:** «…y *S1* bultos de la parte A.» *Bien apoyado (estructura); el sentido de «parte A», especulativo.*
+- **UR278, celda de la fila i y la columna j:** «En el registro *i*, la unidad *j* entregó en total *c* bultos (A+B).» *Bien apoyado en las filas con detalle conservado; apoyado en las demás.*
+- **UR278, fila i (suma de sus 9 celdas, no anudada):** «En el registro *i* entraron en total *Σ* bultos, aportados por las 9 unidades.» *Bien apoyado.*
 - **UR273B, cabecera del grupo i:** «En el registro *i*, la parte B de las 9 unidades sumó *b* bultos.» *Apoyado.*
 - **UR273A, cabecera del grupo i:** «…y la parte A sumó *a* bultos.» *Apoyado.*
 - **UR274B / UR274A, cuerda de 17 / 30:** «De la parte B (o A) de este registro se apartaron 17 (o 30) bultos.» *La cuota fija está apoyada; que sea una deducción es propuesto.*
-- **UR275 / UR266, primera cuerda del grupo (blanca):** «En el registro *i* entraron *x* bultos de maní.» *Demostrado como total; maní, propuesto.*
-- **UR275 / UR266, cuerda de 47:** «De ellos se apartaron 47 bultos, la cuota fija de cada registro.» *Valor demostrado; sentido propuesto.*
+- **UR275 / UR266, primera cuerda del grupo (blanca):** «En el registro *i* entraron *x* bultos de maní.» *Bien apoyado como total; maní, propuesto.*
+- **UR275 / UR266, cuerda de 47:** «De ellos se apartaron 47 bultos, la cuota fija de cada registro.» *Valor bien apoyado; sentido propuesto.*
 - **UR275, cuerdas siguientes:** «El resto se repartió así: *d₁*, *d₂*… El último, el mayor y jaspeado, sería lo que quedó en depósito.» *Aritmética apoyada; sentido propuesto.*
-- **UR275, registro de 3 cuerdas (*x*, 47, *x* − 47):** «Entraron *x*, se apartaron 47 y quedaron *x* − 47.» *Demostrado (aritmética).*
+- **UR275, registro de 3 cuerdas (*x*, 47, *x* − 47):** «Entraron *x*, se apartaron 47 y quedaron *x* − 47.» *Bien apoyado (aritmética).*
 - **UR268, grupo:** «En el registro *i* entraron *x* bultos (7 000–15 000), se apartaron 208 y el resto se repartió en partidas.» *Aritmética apoyada; producto y relación con el resto, especulativos.*
 - **UR269, grupo:** «Registro de un libro organizado en bloques, con cuota variable (47, 46, 44, 40 o 25). Algunas de sus cifras son las mismas del libro UR275/UR266.» *Apoyado como receptor de cifras; la estructura de flujos, especulativa.*
-- **Separador PK:** «Fin de tramo.» *Demostrado como marca; especulativo como periodo.*
+- **Separador PK:** «Fin de tramo.» *Bien apoyado como marca; especulativo como periodo.*
 
 ---
 
@@ -219,7 +219,7 @@ Es el mejor caso del archivo, porque la misma cantidad se alcanza por **cuatro c
 
 **Lo que está establecido:**
 
-- **Demostrado:** las 9 columnas son identidades fijas.
+- **Bien apoyado:** las 9 columnas son identidades fijas.
 - **Apoyado:**
   - tienen tamaños desiguales y estables, de mayor a menor en promedio;
   - no siguen ningún calendario: el R² estacional es 0,19 frente a 0,25 del nulo;
@@ -253,7 +253,7 @@ Que la cuota de A (30) sea mayor que la de B (17) aunque A sea la parte menor co
 | «P = cuota, S1 = entrega» en UR270 | **Retirado** | P no es más redondo controlando magnitud (21 frente a 21; logit p = 0,235); S1 > P en el 24 % de las celdas; el efecto depende de UR270. P es el subtotal de la parte B. | `ds/n_cuota_entrega` |
 | Pares de columnas según Guancayo (2+1+2+2+2) | **Retirado como confirmación** | Los recortes contiguos dan 6, 11, 10, 9 y 9; el documental es el máximo por una igualdad (p = 0,20). Unas 7,5 de las 11 igualdades se deben solo a la adyacencia. | SINTESIS §Ronda 14 |
 | Unión R/V como código | **Retirado** → convención local posible | Solo 6 de 14 pares A/B del corpus tienen unión opuesta (p = 0,16). | I20 |
-| UR267A+B → UR269 (cuota 25) | **No demostrado** | Fuera de muestra, Holm 0,50. | `ds/n_fuera_muestra`; I05 |
+| UR267A+B → UR269 (cuota 25) | **No bien apoyado** | Fuera de muestra, Holm 0,50. | `ds/n_fuera_muestra`; I05 |
 | UR269 en «bloques de 5 flujos» con fila 1 = 47 y fila 5 = 25 | **Retirado** (posición en el bloque) | Se explica por la magnitud. | `18`; `ds/n_fuera_muestra` |
 | UR268 = suma de los bloques de UR269 (208 = 47+46+46+44+25) | **Negativo** | 0 exactas en 12 pruebas con potencia para ≥ 3. | `ds/n_incahuasi_46_44` §2.5 |
 | «Las 4 cuotas de 10 de UR274B son las 4 más cortas» | **Corregido** | Están entre las 5 más cortas; p ≈ 3·10⁻³. | `paquete_revision` §5.11 |
@@ -269,7 +269,7 @@ Que la cuota de A (30) sea mayor que la de B (17) aunque A sea la parte menor co
 | # | Pregunta abierta | Por qué importa | Dato concreto que la resolvería |
 |---|---|---|---|
 | 1 | **¿La lectura digital es fiel?** KFG y OKR son la misma lectura, de la misma transcriptora. | Todo el edificio descansa en ella. | **Relectura física independiente**, a ciegas, de UR270, UR278, UR273A/B y UR274A/B, en el depósito que guarda los materiales de A. Chu. Antes de nada, las cuerdas baratas: UR278 p180 (¿6L?), UR275 p51 (¿7L perdido?), UR274B p9, p13, p19 y p64 (¿7L?), UR278 p77 (¿6L?) y UR266 p104 (1737 o 1732). Ver `paquete_revision/predicciones_verificables.md` 1–7. |
-| 2 | **¿UR273A+B → libro es real?** Hoy está apoyado, no demostrado (Holm 0,93 en la búsqueda ciega). | Es la segunda vía del cuadre cruzado. | La misma relectura de UR273A/B (predicción 7: que se mantengan ≥ 7 de las 8 sumas). Además, **otra pareja A/B** en los 5 quipus de Inkawasi que Urton no estudió (34 hallados, 29 descritos), o en las fotos y notas de campo de Chu. |
+| 2 | **¿UR273A+B → libro es real?** Hoy está apoyado, no bien apoyado (Holm 0,93 en la búsqueda ciega). | Es la segunda vía del cuadre cruzado. | La misma relectura de UR273A/B (predicción 7: que se mantengan ≥ 7 de las 8 sumas). Además, **otra pareja A/B** en los 5 quipus de Inkawasi que Urton no estudió (34 hallados, 29 descritos), o en las fotos y notas de campo de Chu. |
 | 3 | **¿Qué son las 9 unidades?** Lectura propuesta: pachacas. | Es el contenido social del archivo. | **Una lista de pachacas de una guaranga de Lunahuaná o Guarco** (AGI Justicia 432 y 482; Escribanía de Cámara 498-B) con 9 unidades, o con 4 pares más 1, y tamaños con CV entre 0,15 y 0,4. Además, **la visita de Bambamarca de 1567** en el original o en la edición de Espinoza 1976–77, para confirmar el orden (predicción 14). |
 | 4 | **¿Qué son las partes A y B?** | Explicaría la cuota doble (30 y 17) y la unión R/V opuesta. | Un documento colonial de entregas de un producto con dos rubros por unidad (¿mitades?, ¿en vaina y pelado?). En el objeto: el **color y la fibra** de las subsidiarias S1 de UR270 frente a los colgantes, que están registrados como NB frente a W. |
 | 5 | **¿Qué significa la cuota (47, 30, 17, 208)?** ¿Impuesto, sustento del depósito, merma o pago a los quipucamayoc? | Es la regla fiscal del archivo. | Un documento de depósito inca o colonial temprano con una **deducción fija por partida**. Arqueológicamente: un **depósito separado** para lo apartado. |
