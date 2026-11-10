@@ -4,3 +4,6 @@ __pycache__/
 analisis/fuentes_txt/
 encontrado/
 papers/
+
+# Material de referencia con derechos de autor (solo local)
+referencias/

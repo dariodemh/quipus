@@ -1,6 +1,8 @@
 # ¿Está publicado lo de KH0049?
 
-Veredicto: **parcialmente**. Las sumas elementales de KH0049 están publicadas por el Khipu Field Guide como lista algorítmica. No encontramos descripción de la tabla jerárquica de 3 niveles en bloques de 18, de su copia parcial UR122, ni de la discrepancia 15652/15649.
+**Nota (noviembre de 2026):** se revisó el Databook de Ascher y Ascher (1978, AS38, pp. 217–218; `analisis/fuentes_txt/databook/as38.txt`) y ya describe la jerarquía: observación 6, «Groups 1 and 2 are sumgroups of groups 3-6» (grupo 2 = grupos 4+5+6; grupo 1 = grupos 2+3), y observación 7, con las discrepancias (las sumas de la cuerda 1 de los grupos 1 y 2 difieren en 3 sobre 27 000 y 15 000). Chirinos (2010, pp. 233, 339, 341) identificó UR122 como su copia parcial. Lo que sigue se escribió antes de esa revisión; lo que queda como nuestro es la prueba contra el nulo y la discrepancia 15652/15649 compartida con la copia de Gotemburgo.
+
+Veredicto (anterior a la nota): **parcialmente**. Las sumas elementales de KH0049 están publicadas por el Khipu Field Guide como lista algorítmica. No encontramos descripción de la tabla jerárquica de 3 niveles en bloques de 18, de su copia parcial UR122, ni de la discrepancia 15652/15649.
 
 ## (a) Qué es KH0049
 
@@ -33,6 +35,6 @@ Veredicto: **parcialmente**. Las sumas elementales de KH0049 están publicadas p
 ## Qué no podemos reclamar
 
 - Las sumas posición a posición en sí: KFG las lista (15 ips). Nuestro aporte es la lectura como tabla jerárquica y la copia.
-- Que no haya algo en Ascher y Ascher 1978/1981 o Pereyra Sánchez 2011, no revisados.
+- (Resuelto en noviembre de 2026: el Databook de 1978 sí describe la jerarquía. Pereyra Sánchez 2011 sigue sin leerse y no se cita.)
 
 Fuentes: <https://www.khipufieldguide.com/catalog/KH0049.html>, <https://www.khipufieldguide.com/catalog/KH0362.html>, <https://www.khipufieldguide.com/notebook/fieldmarks/indexed_pendant_sum/html/KH0049.html>, OKR `khipu.db`.

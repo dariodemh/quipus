@@ -11,6 +11,7 @@ Para cada hallazgo de `tabla_hallazgos.csv` marcado como nuevo (o parcial, en lo
 - `analisis/ds/ant_incahuasi/` (H1–H7): OpenAlex, 25 trabajos que citan a Urton y Chu, suplementos y textos completos de Urton 2017 (cap. 9), Urton y Chu 2015 y 2018, y Urton y Brezine 2005.
 - `analisis/ds/ant_resto/` (R1–R9): OpenAlex, Zenodo, GitHub y PDF.
 - Cotejo directo del coordinador con los textos de `analisis/fuentes_txt/`.
+- Lectura directa del coordinador: Chirinos Rivera 2010 (libro) y Chirinos 2026 (entrada del blog del Khipu Field Guide).
 
 **Confianza de la búsqueda:**
 
@@ -18,11 +19,11 @@ Para cada hallazgo de `tabla_hallazgos.csv` marcado como nuevo (o parcial, en lo
 - **Media:** se leyeron resúmenes, suplementos o fragmentos.
 - **Baja:** no se hizo una búsqueda específica para ese hallazgo. En ese caso, «nuevo» significa solo que no aparece en nuestras 57 fichas ni en el estado del arte del proyecto. **Un especialista puede conocer antecedentes que se nos escapan.**
 
-**Reserva general para Inkawasi.** No hemos podido leer:
+**Reserva general para Inkawasi.** No sabemos si otros trabajos sobre el sitio que no hemos leído adelantan parte de lo nuestro; «nuevo», aquí, quiere decir que no aparece en lo que leímos. Tampoco hemos leído:
 
-- el artículo de Urton y Chu en Academia.edu, «El archivo khipu de Incawasi…»;
-- Chu 2016 (Actas del I Congreso Nacional de Arqueología) ni los dos artículos de Chu de 2018 en *Boletín Yungas*;
 - el cuerpo de Covey y Dalton 2025.
+
+El capítulo de Urton y Chu «El archivo khipu de Incawasi: un almacén y centro contable del Estado Inka en la costa sur del Perú» (en *Perú Prehispánico: un estado de la cuestión*, 2018, pp. 493–524) sí se leyó completo; una versión anterior de esta lista lo daba por no leído.
 
 ---
 
@@ -144,15 +145,16 @@ Para cada hallazgo de `tabla_hallazgos.csv` marcado como nuevo (o parcial, en lo
 
 - **Más cercana:** Medrano y Khosla 2024 (*Latin American Antiquity*, DOI 10.1017/laq.2024.5).
 - **Por qué no lo contiene:**
-  - dan el 74 % como prevalencia de relaciones sumatorias, sin un nulo que baraje dentro de nivel y sin estimar la potencia;
-  - su argumento principal era la lateralidad, que reproducimos (54/46, p = 0,002, aunque la mitad se explica por la posición de los valores grandes).
+  - dan el 74 % como prevalencia de relaciones sumatorias. Ya lo compararon con pseudoquipus (uniformes, por bins y por bins con jitter) y lo que destacan como distinto del azar es la lateralidad 54/46 (cerca de 50/50 en los simulados, p < 0,01) y que las sumas simuladas tienen menos sumandos (discusión del artículo, pp. 18–19; también `data/external/data-science-khipu-article/source/07_discussion.html`). La versión aceptada (PDF de OSF, solo imagen) se revisó página por página: su discusión (pp. 18–19) contiene la simulación con tres tipos de pseudoquipus, la asimetría 54/46 frente a cerca de 50/50 y el menor número de sumandos en las sumas simuladas; la frase «a veces mayor… a veces menor» que cita `08_auditoria_sumas/informe.md` no se pudo confirmar. No barajan dentro de cada quipu ni estiman la potencia;
+  - su argumento principal era la lateralidad, que reproducimos (54/46, p < 0,002, aunque la mitad se explica por la posición de los valores grandes).
 - **Recomendación:** presentarlo como una precisión metodológica a su trabajo, no como una refutación. Nuestro propio estado del arte lo había etiquetado mal.
 - **Confianza:** alta.
 
 ### C04–C05. Formato «fila + total suelto»; primera columna mayor
 
-- **Más cercana:** Ascher y Ascher 1981 y el *Databook* (relaciones de suma), y Medrano y Khosla 2024.
+- **Más cercana:** el *Databook* de Ascher y Ascher (1978) (relaciones de suma), y Medrano y Khosla 2024.
 - **Por qué no lo contiene (hasta donde sabemos):** los formatos tabulares se describen quipu a quipu. No conocemos una prueba con nulo de un formato «fila + total suelto» repetido en varios quipus, ni del arquetipo «primera columna mayor».
+- **Chirinos 2010** (pp. 237-238 y 297-305) agrupa B8713, AS199, UR118 y UR119 en un tipo «cuerdas superiores», con sumas relacionadas entre sí y predominio de grupos de seis. Toca C03 (cuerda superior que suma el grupo anterior) y los quipus de C04, sin prueba con nulo. Confianza: alta (libro leído).
 - **Confianza:** **baja**, sin búsqueda específica.
 
 ### C06. Color como categoría con clave local (en lo que tiene de nuevo)
@@ -160,23 +162,24 @@ Para cada hallazgo de `tabla_hallazgos.csv` marcado como nuevo (o parcial, en lo
 - **Más cercana:**
   - Urton 2003 y 2017, y Medrano 2019, sobre el color como signo dependiente del contexto;
   - Morgallet 2026 (Zenodo, preprint): periodicidad de color en 336 quipus;
-  - Clindaniel 2019.
+  - Clindaniel 2019;
+  - Chirinos 2010 (p. 233): con las copias AS38≈UR122 y AS84≈copia de Lima argumenta que el color no tiene un significado fijo («Si el significado del color fuera tan determinante tendría que mantenerse las diferencias en las copias») y lo propone como ayuda local de lectura. Confianza: alta (libro leído).
 - **Por qué no lo contiene:** proponen o describen códigos de color. No conocemos un contraste con nulo de «color → magnitud dentro del quipu» que sobreviva a barajar dentro de cada grupo, junto con la ausencia de léxico compartido entre sitios.
 - **Confianza:** media.
 
 ### C07. UR053A–E: reparto estable W/R/AB (en lo que tiene de nuevo)
 
 - **Más cercana:** Urton 2017, cap. 8 (líneas 1266–1524): los cinco quipus del conjunto atado comparten la secuencia W/RL/AB, y UR53B/UR53C forman una pareja con formato distinto y R/V opuesta. Urton propone un paradigma de ceques. Dice de los otros tres: «Aside from color patterning, I did not find that the other three samples in the set represent the same kind of organization».
-- **Por qué no lo contiene:** no mide el reparto de magnitudes entre W, R y AB, ni su estabilidad (cercana a 4:1:1) en los cinco quipus.
-- **Confianza:** alta para Urton 2017; baja para otras fuentes. No hemos visto el artículo de Urton en el que llamó «closely matching» a la pareja B/C (su nota 12).
+- **También cercana:** Chirinos 2026, «The "Waterfall" Khipu Set and Indigenous Political Organization in the 16th Century», blog del Khipu Field Guide, 2 de febrero de 2026. Dice que los cinco quipus «all have groups of three cords that repeat the same color series W, RL, and AB. The W cords have the highest values, with very few exceptions». El orden suele ser W > RL > AB (W > AB > RL en D y en los grupos finales de E y A; RL > W > AB en siete grupos al final de C). Encuentra «approximate proportions» entre partes en las cuerdas W y RL de E, D (5 de 6 subpartes) y B, con AB fuera de proporción; en A, las proporciones incluyen AB si se emparejan partes. Llama a sus divisiones en partes «experimental or, to some extent, arbitrary» y no da razones ni partes del total. Para él, las sumas con sentido son por color a lo largo de los grupos (W+W+…, RL+RL+…), no W+RL+AB dentro de un grupo, porque las tres cuerdas «would represent three different goods or services»; en nota admite que esa suma puede mostrar «approximate proportions of consumption or demand». Lee el conjunto, como hipótesis inicial, en términos de ayllu, pachaca, guaranga y hunu. Señala además que la parte IV de E (10 grupos) tiene «a fairly close correspondence with 4 groups of khipu B or C», y que B y C se parecen en muchas cuerdas.
+- **Por qué no lo contiene:** Urton no mide el reparto de magnitudes entre W, R y AB. Chirinos describe los tríos, el predominio de W y proporciones aproximadas, sin cifras. Lo nuestro se reduce a la parte medida del total de cada quipu que va a cada color (cercana a 4:1:1, W entre 0,57 y 0,70) y a su estabilidad con totales de 1 200 a 36 800. Es una descripción de los números: no prueba una regla única de reparto, y Chirinos considera poco significativa la comparación de los tres colores dentro de un grupo. La suma E → B/C que él señala no la hemos probado.
+- **Confianza:** alta para Urton 2017; alta para Chirinos 2026 (entrada leída completa); baja para otras fuentes. No hemos visto el artículo de Urton en el que llamó «closely matching» a la pareja B/C (su nota 12).
 
 ### C09. El cero posicional mide una banda decimal
 
 - **Más cercana:**
-  - Ascher y Ascher 1981: el cero es la ausencia de nudo en una posición;
-  - Florio y Overmann 2025 (DOI 10.1163/15685373-12340204): sostienen que el sistema inca no era posicional ni tenía cero;
+  - Florio y Overmann 2025 (DOI 10.1163/15685373-12340204): leído; cuestiona que el sistema tuviera un cero y fuera posicional («likely non-positional», p. 128), y ve el espacio en blanco como consecuencia de usar cuerda y nudos (p. 136);
   - Moscovich 2024.
-- **Por qué no lo contiene:** nadie mide el hueco físico del cero frente al ancho de banda. Nuestra medición contradice a Florio y Overmann, con la salvedad de que la asignación de valor es en parte circular.
+- **Por qué no lo contiene:** nadie mide el hueco físico del cero frente al ancho de banda. Nuestra medición es compatible con un sistema posicional con cero; nuestra medida pesa sobre el argumento de que el blanco es un subproducto del material y no sobre el del nudo propio para el cero (p. 137), no decimos que su propuesta esté refutada, y la asignación de valor es en parte circular.
 - **Confianza:** media.
 
 ### C10. Canutos = sistema de fijación
@@ -247,14 +250,15 @@ Para cada hallazgo de `tabla_hallazgos.csv` marcado como nuevo (o parcial, en lo
 ### C24. Copias entre museos
 
 - **Más cercana:**
-  - Urton 2005 (*Khipu Archives*): AS194/AS195, AS159/AS173, AS114/AS123, AS116/AS150, Puruchuco y UR006/UR009/UR021;
-  - Thompson 2024 (*Ñawpa Pacha*): conexión numérica entre dos quipus de Arica.
-- **Por qué no lo contiene:** ninguna de las fuentes que conocemos lista HP055 ≈ UR1084, AS038/KH0049 ≈ UR122 (parcialmente; ver K01), Basilea ≈ UR212, UR1175 ≈ UR233 + UR232, UR1118 ≈ UR218 ni QU002 ≈ UR137.
-- **Confianza:** **baja**, sin búsqueda específica. Es el punto en que más pesa el conocimiento de colecciones del especialista.
+  - Urton 2005 (*Khipu Archives*; leído): AS194/AS195, AS159/AS173, AS114/AS123, AS116/AS150, Puruchuco y UR006/UR009/UR021, todos pares dentro de un mismo museo o sitio, que vinculó con lo que cuenta Garcilaso de que varios quipucamayos llevaban los mismos registros;
+  - Thompson 2024 (*Ñawpa Pacha*): conexión numérica entre dos quipus de Arica;
+  - Chirinos 2010: AS38 (KH0049) ≈ UR122, copia parcial con «los mismos valores, en las mismas posiciones», menos grupos y sin las diferencias de color (pp. 233, 339 y 341); AS84 (UR1084, París) tiene una copia de sus primeros 15 grupos en el Museo de Pueblo Libre (MNAAHP), Lima, que él vio en 2009 y estaba entonces inédita, con valores idénticos, algunos colores distintos y sin la última cuerda de cada grupo (p. 320). HP055 coincide con esa descripción (grupos de 11 donde UR1084 tiene 12–13).
+- **Por qué no lo contiene:** Chirinos 2010 ya publicó AS038/KH0049 ≈ UR122 (ver K01) y describió una copia de AS84 en Lima sin darle código; por museo, número de grupos y cuerdas por grupo, HP055 coincide con ella, pero la identificación es nuestra; lo nuestro en ellos es la medida cuerda por cuerda (121 de 142), la prueba contra el azar y el barrido de todo el corpus. Ninguna de las fuentes que conocemos lista Basilea ≈ UR212, UR1175 ≈ UR233 + UR232, UR1118 ≈ UR218 ni QU002 ≈ UR137.
+- **Confianza:** alta (libro leído) para lo que dice Chirinos 2010; **baja** para los demás pares, sin búsqueda específica. Es el punto en que más pesa el conocimiento de colecciones del especialista.
 
 ### C25. Jerarquía de fidelidad de las copias (en lo que tiene de nuevo)
 
-- **Más cercana:** Medrano 2019 (tesis): «there exist khipus which are numerical copies of each other … which do not share the same colors, or even relative ordering of colors»; Urton 2005; Thompson 2024 (en Arica, el color sí forma parte de la conexión).
+- **Más cercana:** Medrano 2019 (tesis): «there exist khipus which are numerical copies of each other … which do not share the same colors, or even relative ordering of colors»; Urton 2005; Thompson 2024 (en Arica, el color sí forma parte de la conexión); Chirinos 2010 (pp. 233 y 320): las copias AS38≈UR122 y AS84≈copia de Lima conservan los valores pero no las diferencias de color (confianza alta, libro leído).
 - **Por qué no lo contiene:** la idea cualitativa está publicada. Lo nuestro es la cuantificación frente a la relectura del mismo objeto.
 - **Confianza:** media.
 
@@ -284,9 +288,9 @@ Para cada hallazgo de `tabla_hallazgos.csv` marcado como nuevo (o parcial, en lo
 
 ### K01. KH0049 como tabla jerárquica de tres niveles; UR122 como su copia parcial
 
-- **Más cercana:** el Khipu Field Guide (catálogo y página de «Indexed Pendant Sums» de KH0049) lista 15 sumas indexadas (g1p1 = g4p1 + g5p1 + g6p1 + g7p1 = 27 475, etc.) como salida automática del método de Ascher. Ascher y Ascher 1978 (AS038) y Pereyra Sánchez 2011 (MNAAHP) pueden describirlo; no los hemos leído. En quipus nazcas de otros museos las sumas jerárquicas son conocidas (KH0263/UR028, KH0235/AS215).
-- **Por qué no lo contiene:** lo que encontramos no describe la jerarquía en bloques de 18, la contrasta con un nulo, ni menciona UR122 ni la discrepancia 15652/15649. KFG marca KH0049 y KH0362 (UR122) como «similares» sin decir que sean copia.
-- **Confianza:** media-baja. Detalle en `analisis/30_frontera_estructura/novedad_kh0049.md`.
+- **Más cercana:** Chirinos 2010 (pp. 233, 339 y 341): UR122 (Gotemburgo) es copia parcial de AS38 (= KH0049), con «los mismos valores, en las mismas posiciones», menos grupos y sin las diferencias de color. Además, el Khipu Field Guide (catálogo y página de «Indexed Pendant Sums» de KH0049) lista 15 sumas indexadas (g1p1 = g4p1 + g5p1 + g6p1 + g7p1 = 27 475, etc.) como salida automática del método de Ascher. El *Databook* de Ascher y Ascher (1978, AS38, pp. 217–218) sí lo describe: observación 6, «Groups 1 and 2 are sumgroups of groups 3-6», y observación 7, con las discrepancias (las sumas de la cuerda 1 de los grupos 1 y 2 difieren en 3 sobre 27 000 y 15 000). En quipus nazcas de otros museos las sumas jerárquicas son conocidas (KH0263/UR028, KH0235/AS215).
+- **Por qué no lo contiene:** la copia ya está publicada (Chirinos 2010) y la jerarquía y sus discrepancias están en el Databook (1978). Nota (noviembre de 2026): se revisó el Databook y ya describe la jerarquía; este hallazgo es una comprobación de que el método recupera una estructura publicada. Lo que no encontramos es una prueba contra un nulo ni la observación de que la copia de Gotemburgo lleva el mismo 15652 donde la suma da 15649. KFG marca KH0049 y KH0362 (UR122) como «similares» sin decir que sean copia.
+- **Confianza:** alta para lo que dicen Chirinos 2010 y el Databook (leídos). Detalle en `analisis/30_frontera_estructura/novedad_kh0049.md`.
 
 ### K02. Alternancia de dos colores A/B/A/B (UR040, UR167, UR1033F)
 
@@ -296,8 +300,9 @@ Para cada hallazgo de `tabla_hallazgos.csv` marcado como nuevo (o parcial, en lo
 
 ### K03. UR1104 → UR234 («extracto de un campo»), UR108 → UR231 y la copia como rasgo de archivo
 
-- **Más cercana:** Urton 2005 (*Khipu Archives*) y Thompson 2024 (Arica) describen copias y conexiones numéricas entre quipus de museos distintos.
+- **Más cercana:** Urton 2005 (*Khipu Archives*) describe copias dentro de un mismo museo o sitio, y Thompson 2024 (Arica), una conexión numérica entre dos quipus.
 - **Por qué no lo contiene:** ninguna de las dos lista UR1104 ≈ UR234 ni el tipo «un campo que sube de nivel». El 17,9 de odds ratio frente a los pares de otros sitios es cálculo nuestro.
+- **Chirinos 2010** (pp. 249-251) comenta AS104 (= UR1104) con otra lectura, un «acertijo» de yupana (el 73326), y señala la discrepancia 3285/3275 entre Ascher y Urton; no lo relaciona con UR234. En 2026 consideró fallido ese análisis porque no probaba la existencia de un patrón (Chirinos 2026, nota 17). Confianza: alta (libro y entrada leídos).
 - **Confianza:** baja (grep y búsqueda web).
 
 ### K04. Libro perdido α y desajustes de UR278 como error de conteo de vueltas
@@ -308,7 +313,7 @@ Para cada hallazgo de `tabla_hallazgos.csv` marcado como nuevo (o parcial, en lo
 
 ### K05. «La cuerda mayor abre el grupo» (P5c)
 
-- **Más cercana:** la orientación de la cuerda superior y los totales (Locke 1927; Ascher y Ascher 1981).
+- **Más cercana:** la orientación de la cuerda superior y los totales (Locke 1927).
 - **Por qué no lo contiene:** hasta donde sabemos, nadie ha medido la frecuencia con que el valor mayor va primero en el corpus.
 - **Confianza:** baja.
 
@@ -333,6 +338,6 @@ Lo usamos para separar paralelos de diferencias; no es antecedente de ningún ha
 | Seriación de color del Santa | FitzPatrick 2024 |
 | Estructura de UR006 | Urton 2017, cap. 4 |
 | Jerarquía de Puruchuco | Urton y Brezine 2005 |
-| Cuerda superior sumatoria | Locke 1927; Ascher y Ascher 1981 |
+| Cuerda superior sumatoria | Locke 1927 |
 
 **Corrección adicional detectada en este paquete:** `n_fotos` presentaba como nuevo que AS124, AS136 y AS140 estuvieran atados a barras de madera talladas. Urton 2017 (cap. 7, «Khipus on Drilled Wooden Bars with Representational Elements») ya describe entre 12 y 15 quipus en barras perforadas, varias con figuras talladas, del Ethnologisches Museum. No comprobamos si esos tres números están entre los que trata, así que **no debe presentarse como nuevo**.

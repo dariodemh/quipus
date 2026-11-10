@@ -61,7 +61,7 @@ igual('fig 10, valor transcrito', sum(k[3] for k in D['p180']['k']), 238)
 dice('y suma 238')
 
 # figura 12: red de copias
-dice('algunos pares más que los 25 del primer análisis')
+dice('dos pares más que los 25 del primer análisis')
 if len(D['copias']) <= 25:
     fallos.append(f'fig 12: el pie dice que hay más de 25 pares y hay {len(D["copias"])}')
 entre = [c for c in D['copias'] if c['nivel'].startswith('bien apoyado') and c['ma'] != c['mb'] and 'desconocido' not in (c['ma'], c['mb'])]
@@ -73,7 +73,7 @@ B = D['kh0049']
 igual('fig 14, bloques', (len(B), {len(b) for b in B}), (6, {18}))
 igual('hallazgo 7, B0 = B1 + B2', sum(B[0][i] == B[1][i] + B[2][i] for i in range(18)), 14)
 igual('hallazgo 7, B1 = B3 + B4 + B5', sum(B[1][i] == B[3][i] + B[4][i] + B[5][i] for i in range(18)), 7)
-dice('Un bloque es la suma de otros dos en 14 de 18 posiciones')
+dice('un bloque es la suma de otros dos en 14 de 18 posiciones')
 
 # figura 15 y hallazgo 8: UR040
 igual('fig 15, cuerdas de UR040', len(D['ur040']), 33)

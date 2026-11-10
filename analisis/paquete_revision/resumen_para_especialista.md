@@ -27,7 +27,7 @@ Aparecen además algunos formatos de archivo, como el conjunto atado UR053A–E 
 
 ## 1. Datos
 
-- **KFG** (Khipu Field Guide, datos del artículo de Medrano y Khosla 2024; Zenodo v2.1.0): 651 quipus y 57 818 cuerdas. Usamos 650, porque UR044 es un duplicado de AS031/KH0033. Cada cuerda trae su cadena de nudos, valor, color, torsión, unión (R/V), largo y terminación. En 57 789 cuerdas, el valor es exactamente la suma de los aportes de los nudos.
+- **KFG** (Khipu Field Guide, que edita y mantiene Ashok Khosla, en la versión que acompaña al artículo de Medrano y Khosla 2024; Zenodo v2.1.0): 651 quipus y 57 818 cuerdas. Usamos 650, porque UR044 es un duplicado de AS031/KH0033. Cada cuerda trae su cadena de nudos, valor, color, torsión, unión (R/V), largo y terminación. En 57 789 cuerdas, el valor es exactamente la suma de los aportes de los nudos.
 - **OKR** (Open Khipu Repository, Zenodo v2.1.0; `khipu.db` con 619 quipus, 702 números KH). Lo usamos para contrastar KFG y, en Inkawasi, como base preferente: KFG pierde 111 cuerdas de ese archivo, entre ellas 58 de UR256 y 32 subsidiarias de UR274B. Recuperamos además 19 quipus de hojas xlsx/PDF que no están en las bases (776 cuerdas).
 - **Concordancia KFG–OKR:** 99,33 % de valores idénticos. El 86 % de las discrepancias se concentra en cinco quipus (UR090, UR144, UR235, UR193 y UR190), y la mitad son errores de factor 10.
 - **Fuentes textuales cotejadas** (texto completo salvo indicación):
@@ -58,8 +58,8 @@ Aparecen además algunos formatos de archivo, como el conjunto atado UR053A–E 
    Varios negativos se interpretan como «no detectable con esta potencia» y no como «no existe».
 6. **Predicciones prerregistradas** antes de mirar los datos que las ponen a prueba. Por ejemplo, la hipótesis de ceques para UR050 + UR055 se registró antes y falló sus tres predicciones.
 7. **Escala de evidencia.**
-   - **Bien apoyado:** sobrevive al nulo y a la corrección, y se replicó por una vía independiente (otro script, otro agente o prueba ciega).
-   - **Apoyado:** significativo con corrección, pero sin réplica independiente, o frágil ante la elección de la regla.
+   - **Bien apoyado:** sobrevive al nulo y a la corrección, y un segundo análisis hecho por separado sobre los mismos datos llegó a lo mismo (otro script, otro agente o prueba ciega). No es una réplica independiente, que exigiría una relectura de los objetos. En el ensayo se llama «indicio fuerte»; «apoyado» es «indicio» y «propuesto» es «conjetura».
+   - **Apoyado:** significativo con corrección, pero sin ese segundo análisis, o frágil ante la elección de la regla.
    - **Propuesto:** compatible con los datos, sin prueba que lo distinga de alternativas.
    - **Especulativo:** sin prueba.
 
@@ -95,7 +95,7 @@ Los identificadores entre corchetes remiten a `tabla_hallazgos.csv`.
   - Predice la magnitud dentro del quipu en 167 de 403 (unos 20 esperados), y en 103 aun barajando el color dentro de cada grupo.
   - No hay léxico compartido entre quipus ni entre sitios (p = 0,34 y 0,79).
 - **[C24, C26] Datos.**
-  - Copias entre museos no señaladas en la literatura que revisamos; por ejemplo, HP055 (Lima) ≈ UR1084/AS084 (París), con 121 de 142 cuerdas exactas.
+  - Copias entre museos. HP055 (Lima) ≈ UR1084/AS084 (París), con 121 de 142 cuerdas exactas, y AS038 ≈ UR122 ya las había señalado Chirinos (2010); lo nuestro es la medida, la prueba contra el azar y el barrido del corpus. Los demás pares no aparecen en la literatura que revisamos.
   - Erratas concretas de las bases. Cuatro archivos de KFG (KH0197, KH0227, KH0267 y KH0350) contienen en realidad el quipu siguiente. KH0676 es Brooklyn 36.718, no 80.1012. UR1107 y UR237 son el mismo objeto registrado al revés.
 
 ### 3.2 Apoyado
@@ -109,7 +109,7 @@ Los identificadores entre corchetes remiten a `tabla_hallazgos.csv`.
   - Es desigual y ordenado de mayor a menor (Spearman −0,73; p = 0,025).
   - No se comporta como demografía ni como tiempo: el CV es demasiado bajo para una pirámide y no hay estacionalidad.
   - Sus proporciones predicen filas no vistas (Holm 0,002).
-  - De las nueve listas coloniales de 9 unidades que cotejamos, la única que desciende como UR278 es la de las **9 pachacas de la guaranga de Bambamarca** (visita de González de Cuenca, 1567, según la tabla 2 de Pärssinen 1992): ρ = −0,87 (Holm 0,005). Bambamarca es más desigual: CV 0,39 frente a 0,19.
+  - De las listas coloniales de siete o más unidades que cotejamos, la única que desciende con la posición de forma tan constante como UR278 es la de las **9 pachacas de la guaranga de Bambamarca** (visita de González de Cuenca, 1567, según la copia parcial de 1568 que da la tabla 2 de Pärssinen 1992): ρ de Bambamarca con la posición = −0,87 (Holm 0,005); el de UR278, −0,73; entre los dos perfiles, +0,64 (p = 0,07), sugerente pero no significativo. Bambamarca es más desigual: CV 0,39 frente a 0,19. El parecido es una conjetura (propuesto).
 - **[I15] Emparejamiento según los curacas de Guancayo (Chillón, 1571).** El orden de los curacas (2+1+2+2+2 pachacas) predice pares de columnas con 11 igualdades exactas frente a 4 (p = 0,0003). No hay covariación (r = 0,09), y si se cuentan los 945 emparejamientos posibles la p sube a 0,086. **Apoyado, frágil.**
 - **[I08] La cuota es absoluta, no proporcional.** 47 representa entre el 1,1 % y el 4,2 % del registro; el «~2 %» de Urton y Chu 2018 es un promedio.
 - **[I16–I17] Predicción ciega.**
@@ -117,13 +117,13 @@ Los identificadores entre corchetes remiten a `tabla_hallazgos.csv`.
   - En las cuerdas que no intervinieron en el descubrimiento, la ventaja casi desaparece: 17,5 % frente a 15,1 %.
   - En la prueba ciega, un modelo predijo 68 cuerdas ocultas con 82 % de exactas y estaba bien calibrado.
   - Lectura honesta: **leemos la aritmética de la cadena, no el archivo entero ni su contenido.**
-- **[C07] Conjunto atado UR053A–E** (Banco Central de Reserva). Los cinco quipus reparten las tres cuerdas W / R / AB en proporciones parecidas, cercanas a 4:1:1 (W entre 0,57 y 0,70), aunque sus totales van de 1 200 a 36 800. W es la mayor del trío en 13 de 14 tríos (UR053A) y en 23 de 23 (UR053D). No es una suma. Es un segundo caso, independiente de Inkawasi, de «formulario de archivo con clave de reparto estable».
+- **[C07] Conjunto atado UR053A–E** (Banco Central de Reserva). Los cinco quipus reparten las tres cuerdas W / R / AB en proporciones parecidas, cercanas a 4:1:1 (W entre 0,57 y 0,70), aunque sus totales van de 1 200 a 36 800. W es la mayor del trío en 13 de 14 tríos (UR053A) y en 24 de 24 (UR053D). No es una suma. Los tríos W/RL/AB, el predominio de W y proporciones aproximadas entre partes ya los describió Chirinos (2026); lo nuestro es la parte medida de cada color y su estabilidad. Es una descripción de los números: que sea un «formulario de archivo con clave de reparto estable» es propuesto.
 - **[C09] Ceros posicionales.** En 726 cuerdas con un cero interno, el hueco mide una banda decimal (mediana 0,96; 1,89 veces el ancho de banda dentro de la misma cuerda; p = 6·10⁻³³). Es evidencia contra la tesis no posicional de Florio y Overmann (2025), con una salvedad: la asignación de valor a los nudos es en parte circular.
 - **[C10] Los canutos son el sistema de fijación.** El 97,6 % de las cuerdas está dentro de un canuto, con unos 4 colgantes por canuto. En UR052, 23 de 24 fronteras de grupo coinciden con fronteras de canuto (p = 5·10⁻⁵), pero es un solo objeto.
-- **[C01–C02] El 74 % de quipus con sumas (Medrano y Khosla) no es informativo.**
+- **[C01–C02] El 74 % de quipus con sumas (Medrano y Khosla) no es informativo como prevalencia.** Es una precisión metodológica, no una refutación: los autores ya compararon con pseudoquipus y argumentaron contra el azar por la lateralidad 54/46, que reproducimos (53,9 %, p = 0,002; la mitad se explica por la posición de los valores grandes).
   - Entre el 93 % y el 100 % de las relaciones de KFG son esperables por azar.
   - La métrica solo tiene un 24 % de potencia.
-  - Solo unos 20 quipus (3 %) tienen contabilidad interna verificable.
+  - Solo 14 quipus (2 %) tienen sumas que resisten dos barajados distintos; nueve son de Inkawasi.
 - **[C12, C13, C14, C18, C19, C23] Negativos bien sostenidos.**
   - No hay mitades especulares.
   - Solo el 100 está sobrerrepresentado como valor.
@@ -137,7 +137,7 @@ Los identificadores entre corchetes remiten a `tabla_hallazgos.csv`.
 - **[I07] Cuotas que se suman en la consolidación:** 30 + 17 = 47, y 15 + 10 = 25. El 17 es explícito en UR274B (con OKR, p = 0,004) pero casi no aparece en UR273B. La relación UR267A + UR267B → UR269, que sostenía el 25, **no** superó las pruebas fuera de muestra.
 - **[I20] Unión R/V opuesta en las dos mitades de cada pareja atada.** Se cumple en las tres parejas de Inkawasi, pero en el corpus solo en 6 de 14 pares A/B (p = 0,16). Es una convención de archivo propuesta.
 - **Qué son las 9 columnas.** Proponemos 9 pachacas o subunidades de una guaranga, ordenadas por rango o tamaño. No hay ningún 9 documentado en Lunahuaná ni en Guarco. «P = cuota, S1 = entrega» en UR270 está en prueba.
-- **Unidad.** Abierta, con dos hipótesis que los datos no separan: **carga** (~80 L, ~23 kg; unidad andina; preferida levemente, propuesta) y **fanega** (~56 L, ~16 kg; medida castellana). La capacidad de los depósitos solo excluye unidades muy pequeñas. El total sería de **~900–1 400 t**, solo orden de magnitud (10²–10³ t). No damos una cifra firme: depende de la unidad.
+- **Unidad.** Abierta, con dos hipótesis que los datos no separan: **carga** (en las transcripciones de Charcas que estudia Platt 2002, media fanega, ~28 L; LeVine 1992 advierte que su tamaño es incierto) y **fanega** (~56 L; LeVine 1992). Con 0,286 kg/L para el maní en vaina (Shukla, Makwana y Gupta 2019, una variedad moderna), una unidad pesa ~8 kg si es carga y ~16 kg si es fanega. Para UR278 (~59 000 unidades en 26 filas completas) el total sería de **~470 o ~950 t**: orden de magnitud de 500 a 950 t. Reservas: la equivalencia de dos cargas por fanega es de la Charcas del siglo XVI, no de Cañete, y nada en los quipus dice cuál era la unidad. La capacidad de los depósitos solo excluye unidades muy pequeñas.
 - **UR050** sería una tabla de 163 filas × 3 zonas a alturas relativas fijas, compatible con el subtipo B1-b de Mackey.
 - **UR1140** (Berlín, Nazca) sería una ficha de 7 campos.
 
@@ -146,9 +146,9 @@ Los identificadores entre corchetes remiten a `tabla_hallazgos.csv`.
 **Una tabla jerárquica en la costa sur: KH0049.** *Apoyado (post hoc).*
 
 - KH0049 (AS038/HP036, Museo Nacional, Lima, MNAAHP3550, costa sur) es una **tabla de tres niveles en bloques de 18 cuerdas**: B0 = B1 + B2 en 14 de 18 posiciones exactas y B1 = B3 + B4 + B5 en 7 de 18 (el nulo da como máximo 6 y 4; p = 5·10⁻⁵).
-- UR122 (Göteborg, 1938.45.0228) es una copia parcial: la sección de subtotales, con el 58 % de las cuerdas rotas o en 0.
+- UR122 (Göteborg, 1938.45.0228) es una copia parcial, ya identificada por Chirinos (2010, pp. 233, 339, 341): la sección de subtotales, con el 58 % de las cuerdas rotas o en 0.
 - La discrepancia **15652 frente a 15649** está en las dos copias; viene del original.
-- **Publicación.** Parcial: el Khipu Field Guide lista 15 sumas indexadas de KH0049 como salida automática, sin describir la jerarquía ni UR122 (`analisis/30_frontera_estructura/novedad_kh0049.md`). No hemos podido leer Ascher y Ascher 1978 ni Pereyra Sánchez 2011.
+- **Publicación.** Publicada: la jerarquía y sus discrepancias están en el Databook de Ascher y Ascher (1978, AS38, observaciones 6–7, pp. 217–218) y la copia en Chirinos (2010); el Khipu Field Guide lista 15 sumas indexadas de KH0049 como salida automática (`analisis/30_frontera_estructura/novedad_kh0049.md`). Lo nuestro es la prueba contra un nulo y la discrepancia compartida con la copia de Gotemburgo. Nota (noviembre de 2026): se revisó el Databook.
 - Es un segundo caso de «total por columna» fuera de Inkawasi.
 
 **Alternancia de dos colores.** *Bien apoyado en UR040 y UR167 (Holm 0,025); apoyado en UR1033F (q 0,010).*
@@ -162,7 +162,7 @@ Los identificadores entre corchetes remiten a `tabla_hallazgos.csv`.
 - UR1104 (AS104, Berlín, Pachacamac) reproduce en orden las cabeceras de nueve registros de UR234: 7 exactas, una variante (3102 frente a 3012) y la cabecera rota de UR234 (2016). Es un resumen que sube de nivel, tomando el campo mayor del formato Nazca/Berlín.
 - UR108 → UR231 es parecido (5 de 6; propuesto).
 
-**La copia como rasgo de archivo.** *Apoyado.* Dentro de un sitio hay 10 pares en 6 820; entre sitios, 6 en 72 980 (OR 17,9; p = 10⁻⁷). En los archivos casi completos, el 14–20 % de los quipus tiene copia (5,5 % en el corpus; cota inferior). Tipos: duplicado, copia por tramos, otro desglose y extracto de un campo. La dirección es indecidible en casi todos los pares.
+**La copia como rasgo de archivo.** *Apoyado.* Dentro de un sitio hay 10 pares en 6 820; entre sitios, 6 en 72 980 (OR 17,9; p = 10⁻⁷). En tres archivos casi completos (Inkawasi, Puruchuco, Leymebamba) tienen copia 8 de 52, 4 de unos 20 y 3 de 22 quipus (5,5 % en el corpus; cota inferior). Tipos: duplicado, copia por tramos, otro desglose y extracto de un campo. La dirección es indecidible en casi todos los pares.
 
 **Un libro perdido α entre UR278 y UR266/UR275.** *Propuesto.* Los ±1 compartidos por las dos copias del libro indican un paso intermedio, no conservado, entre el detalle y el libro (error conjuntivo). Es, junto con KH0049/UR122, uno de los dos nudos firmes de dirección de copia.
 
@@ -172,7 +172,7 @@ Los identificadores entre corchetes remiten a `tabla_hallazgos.csv`.
 
 **Cuadre por dos caminos.** *Propuesto, con analogía débil.* No está documentado en Uruk ni en Pilos (Nissen, Damerow y Englund 1993). Lo tratamos como rasgo propio de Inkawasi. Sí hay paralelo documentado en la jerarquía de documentos, el formato fijo por tipo y las copias.
 
-**KFG y OKR son la misma lectura** (99,9 % de coincidencia en los UR). Las únicas lecturas independientes son tres duplicados de un mismo objeto, y dan un ruido de lectura del 3–12 %. Es una estimación con pocos datos.
+**KFG y OKR son la misma lectura** (99,9 % de coincidencia en los UR). Las únicas lecturas independientes son tres duplicados de un mismo objeto, y dan un ruido de lectura del 0–12 %. Es una estimación con pocos datos.
 
 ## 4. Qué es nuevo y qué ya estaba publicado
 
@@ -181,10 +181,10 @@ Los identificadores entre corchetes remiten a `tabla_hallazgos.csv`.
 | UR270 → UR278 celda a celda; totales de UR278 → UR275/UR266; UR273A+B → libros; UR274A sustituye a UR273A | Pares atados con valores parecidos; UR255/UR267A y UR256/UR267B; UR266≈UR275 (Urton y Chu 2015; Urton 2017) |
 | Identidad, planitud y perfil ordenado de las 9 columnas; parecido con Bambamarca; pares de Guancayo | UR278 «organized in sets of 9 cords» (suplemento de 2015) |
 | La cuota como valor absoluto; cuota 46; 30 + 17 = 47 como suma | Cuotas fijas 10, 15, 47 y 208; 17 y 30 considerados y rechazados (Urton y Chu 2018) |
-| Formato «fila + total suelto»; orientación de la cuerda superior al grupo anterior | Cuerdas superiores sumatorias (Locke 1927; Ascher y Ascher) |
-| Reparto estable W/R/AB en los cinco quipus de UR053 | Patrón W/RL/AB en los cinco y pareja UR53B/C con formato distinto y R/V opuesta (Urton 2017, cap. 8) |
-| KH0049 como tabla jerárquica y UR122 como su copia; alternancia A/B/A/B; UR1104 → UR234 (extracto de un campo); la copia como rasgo de archivo; «la cuerda mayor abre el grupo» | Cuerdas superiores sumatorias y sumas de Ascher (Locke 1927; Ascher y Ascher 1981); en KFG, la lista automática de 15 sumas de KH0049 |
-| Cero = banda vacía; canuto = fijación; nulo correcto para el Santa; erratas de las bases; copias entre museos | Seriación de color en el Santa (FitzPatrick 2024); estructura de UR006 (Urton 2017, cap. 4); jerarquía de Puruchuco (Urton y Brezine 2005) |
+| Formato «fila + total suelto»; orientación de la cuerda superior al grupo anterior | Cuerdas superiores sumatorias (Locke 1927; Ascher y Ascher); tipo «cuerdas superiores» con grupos de seis (Chirinos 2010) |
+| Parte medida de cada color (W/R/AB) y su estabilidad en los cinco quipus de UR053 | Patrón W/RL/AB en los cinco y pareja UR53B/C con formato distinto y R/V opuesta (Urton 2017, cap. 8); W mayor y proporciones aproximadas entre partes (Chirinos 2026) |
+| KH0049 como tabla jerárquica (la jerarquía está en el Databook, Ascher y Ascher 1978; la copia UR122, en Chirinos 2010; lo nuestro es la prueba con nulo); alternancia A/B/A/B; UR1104 → UR234 (extracto de un campo); la copia como rasgo de archivo; «la cuerda mayor abre el grupo» | Cuerdas superiores sumatorias y sumas de Ascher (Locke 1927; Ascher y Ascher 1978, Databook); en KFG, la lista automática de 15 sumas de KH0049 |
+| Cero = banda vacía; canuto = fijación; nulo correcto para el Santa; erratas de las bases; copias entre museos (salvo HP055≈UR1084 y AS038≈UR122, en Chirinos 2010) | Seriación de color en el Santa (FitzPatrick 2024); estructura de UR006 (Urton 2017, cap. 4); jerarquía de Puruchuco (Urton y Brezine 2005) |
 
 **Lo que no reclamamos:**
 
@@ -213,9 +213,9 @@ Las fuentes más próximas a cada hallazgo, y por qué no lo contienen, están e
     - Que una discrepancia se pueda reparar con un solo cambio de nudo no prueba que sea un error de transcripción: ocurre 31 veces de 35, frente a 28,3 esperadas.
     - La «escalera de copias» 2433 → 2533 → 2633 pierde fuerza, porque 2633 también aparece en UR269.
     - **Corrección de este paquete:** las cuatro cuotas «10» de UR274B no son exactamente las cuatro cuerdas más cortas. Están entre las cinco más cortas: una mide 25,0 cm y la cuota de 17 más corta mide 24,5 cm. La probabilidad por azar pasa de 5,5·10⁻⁴ a unos 3·10⁻³.
-12. **Unidad y tonelaje de Incahuasi.** Habíamos escrito «~1 390 t» y «82 L» con demasiada precisión. La cifra salía de un bulto de 82 L que era solo propuesto (despejado de la capacidad del depósito, que da 5 090 o 8 300–13 000 m³ según el cálculo). La unidad es indecidible entre carga (~23 kg) y fanega (~56 L); el total es ~900–1 400 t, solo orden de magnitud.
+12. **Unidad y tonelaje de Incahuasi.** Habíamos escrito «~1 390 t» y «82 L» con demasiada precisión. La cifra salía de un bulto de 82 L que era solo propuesto (despejado de la capacidad del depósito, que da 5 090 o 8 300–13 000 m³ según el cálculo) y de una carga de 23 kg para la que no encontramos fuente. Con unidades con fuente (LeVine 1992; Platt 2002; Shukla et al. 2019) el total de UR278 es del orden de 500 a 950 t.
 13. **«54 % de fallos» de UR278 → libro.** Eran 13 de 24. Son 26 filas, 8 sin destino; de las 18 con destino, 11 exactas y 7 desajustes (39 %).
-14. **KH0049 y la novedad.** La pregunta «¿está publicado?» da «parcialmente»: KFG lista sus sumas, pero no la jerarquía ni la copia. Mantenemos «apoyado» por ser post hoc.
+14. **KH0049 y la novedad.** La pregunta «¿está publicado?» da «parcialmente»: la copia la publicó Chirinos (2010) y KFG lista sus sumas, pero ninguno describe la jerarquía. Mantenemos «apoyado» por ser post hoc.
 15. **Guancayo.** La visita de 1571 es del valle del Chillón, no de los wanka de Huancayo. Espinoza 1963 tiene errores de cifras, y su lista de «9 productos» es una selección editorial, no una plantilla nativa.
 16. **Barras de madera (corrección de este paquete).** Una tarea presentaba como nuevo que AS124, AS136 y AS140 estuvieran atados a barras de madera talladas. Urton (2017, cap. 7) ya describe entre 12 y 15 quipus en barras así, así que no lo reclamamos.
 

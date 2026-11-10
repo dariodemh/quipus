@@ -6,7 +6,9 @@ const D = DATOS;
 const EN = document.documentElement.lang === 'en';
 const tl = (es, en) => EN ? en : es;
 // niveles de evidencia tal como vienen en los datos
-const NIVEL = s => EN ? s.replace('bien apoyado', 'well supported').replace('apoyado', 'supported').replace('propuesto', 'proposed').replace('entre museos', 'across museums') : s;
+// en los datos los niveles conservan los nombres del repositorio; en el ensayo se muestran como indicio fuerte, indicio y conjetura
+const NIVEL = s => EN ? s.replace('bien apoyado', 'strong indication').replace('apoyado', 'indication').replace('propuesto', 'conjecture').replace('entre museos', 'across museums')
+                      : s.replace('bien apoyado', 'indicio fuerte').replace('apoyado', 'indicio').replace('propuesto', 'conjetura');
 const REDUCIR = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 function el(tag, a, parent){
@@ -68,12 +70,12 @@ function cuerda(g, x, y0, c, sc, op){
 (function indice(){
   const H = [
     [1,tl('Una contabilidad en tres niveles', 'Accounts on three levels'),'d','Inkawasi','niveles'],[2,tl('Un segundo camino al mismo libro', 'A second route to the same ledger'),'a','Inkawasi','dos'],
-    [3,tl('Nueve columnas fijas', 'Nine fixed columns'),'d','Inkawasi','nueve'],[4,tl('Los errores de los contadores', 'The accountants\' mistakes'),'a','Inkawasi','nudo'],
-    [5,tl('Cuánto se guardaba', 'How much was stored'),'p','Inkawasi','escala'],[6,tl('Copias de un museo a otro', 'Copies from one museum to another'),'d','Corpus','red'],
-    [7,tl('Una tabla de tres niveles en la costa sur', 'A three-level table on the south coast'),'a','Corpus','bloques'],[8,tl('Tablas escritas con dos colores alternados', 'Tables written in two alternating colours'),'d','Corpus','alterna'],
-    [9,tl('Cada quipu tiene su propia clave de colores', 'Each khipu has its own colour key'),'a','Corpus','colores'],[10,tl('Maneras recurrentes de armar una tabla', 'Recurring ways to build a table'),'d','Corpus','tabla'],
+    [3,tl('Nueve columnas fijas', 'Nine fixed columns'),'a','Inkawasi','nueve'],[4,tl('Los errores de los contadores', 'The accountants\' mistakes'),'a','Inkawasi','nudo'],
+    [5,tl('Cuánto se guardaba', 'How much was stored'),'p','Inkawasi','escala'],[6,tl('Copias de un museo a otro', 'Copies from one museum to another'),'a','Corpus','red'],
+    [7,tl('Una tabla de tres niveles ya descrita, y su copia', 'A three-level table already described, and its copy'),'a','Corpus','bloques'],[8,tl('Tablas escritas con dos colores alternados', 'Tables written in two alternating colors'),'a','Corpus','alterna'],
+    [9,tl('Cada quipu tiene su propia clave de colores', 'Each khipu has its own color key'),'a','Corpus','colores'],[10,tl('Maneras recurrentes de armar una tabla', 'Recurring ways to build a table'),'a','Corpus','tabla'],
     [11,tl('Un formulario con reparto fijo', 'A form with a fixed split'),'a','Corpus','reparto'],[12,tl('Los quipus como sistema de registros', 'Khipus as a system of records'),'a','Corpus','mosaico']];
-  const NOM = {d:tl('Bien apoyado', 'Well supported'), a:tl('Apoyado', 'Supported'), p:tl('Propuesto', 'Proposed')};
+  const NOM = {d:tl('Indicio fuerte', 'Strong indication'), a:tl('Indicio', 'Indication'), p:tl('Conjetura', 'Conjecture')};
   const cont = $('indice');
   let grupo = '';
   H.forEach(([n, t, ev, gr, ic]) => {
@@ -285,7 +287,7 @@ function cuerda(g, x, y0, c, sc, op){
   grises.forEach((n, i) => { const x = 660 + i * 70, y = 410; el('rect', {x:x - 30, y:y - 14, width:60, height:28, rx:6, style:'fill:var(--suave);stroke:var(--regla)'}, svg); tx(svg, x, y + 5, n, {'text-anchor':'middle', 'font-size':12, class:'g m'}); });
   [[tl('Nivel 2', 'Level 2'), tl('libro', 'ledger'), 85], [tl('Nivel 1', 'Level 1'), tl('resúmenes', 'summaries'), 250], [tl('Nivel 0', 'Level 0'), tl('detalle', 'detail'), 400]].forEach(([t, t2, y]) => { tx(svg, 10, y - 2, t, {'font-size':12, style:'font-weight:600;fill:var(--fibra)'}); tx(svg, 10, y + 14, t2, {'font-size':11.5, class:'g'}); });
   tx(svg, 765, 380, tl('fuera de la cuenta', 'outside the account'), {'text-anchor':'middle', 'font-size':11, class:'g'});
-  const ley = [['d',tl('bien apoyado', 'well supported')],['a',tl('apoyado', 'supported')],['c',tl('copia', 'copy')]];
+  const ley = [['d',tl('indicio fuerte', 'strong indication')],['a',tl('indicio', 'indication')],['c',tl('copia', 'copy')]];
   ley.forEach(([k, t], i) => { const x = 160 + i * 120; el('line', {x1:x, y1:455, x2:x + 26, y2:455, style:'stroke:' + C[k] + ';stroke-width:3' + (k === 'c' ? ';stroke-dasharray:5 4' : '')}, svg); tx(svg, x + 32, 459, t, {'font-size':12}); });
   let corriendo = false;
   $('archivo-jugar').addEventListener('click', async () => {
@@ -466,12 +468,13 @@ function cuerda(g, x, y0, c, sc, op){
 
 /* ---------- figura 11: toneladas ---------- */
 (function figTon(){
-  const svg = $('svg-ton'), X = t => 40 + t / 2000 * 560;
-  el('rect', {x:X(900), y:40, width:X(1400) - X(900), height:40, rx:4, style:'fill:var(--indigo);opacity:.25'}, svg);
-  el('line', {x1:X(0), y1:80, x2:X(2000), y2:80, style:'stroke:var(--tinta)'}, svg);
-  for (let t = 0; t <= 2000; t += 250){ el('line', {x1:X(t), y1:80, x2:X(t), y2:t % 500 ? 85 : 90, style:'stroke:var(--tinta)'}, svg); if (t % 500 === 0) tx(svg, X(t), 108, t + ' t', {'text-anchor':'middle', 'font-size':12, class:'g m'}); }
-  tx(svg, X(1150), 30, tl('900 a 1400 toneladas', '900 to 1,400 tonnes'), {'text-anchor':'middle', 'font-size':14, style:'fill:var(--indigo);font-weight:600'});
-  tx(svg, X(1150), 66, tl('carga o fanega', 'carga or fanega'), {'text-anchor':'middle', 'font-size':12, class:'g'});
+  const svg = $('svg-ton'), X = t => 40 + t / 1000 * 560;
+  el('rect', {x:X(470), y:40, width:X(950) - X(470), height:40, rx:4, style:'fill:var(--indigo);opacity:.25'}, svg);
+  el('line', {x1:X(0), y1:80, x2:X(1000), y2:80, style:'stroke:var(--tinta)'}, svg);
+  for (let t = 0; t <= 1000; t += 250){ el('line', {x1:X(t), y1:80, x2:X(t), y2:t % 500 ? 85 : 90, style:'stroke:var(--tinta)'}, svg); if (t % 500 === 0) tx(svg, X(t), 108, t + ' t', {'text-anchor':'middle', 'font-size':12, class:'g m'}); }
+  tx(svg, X(710), 30, tl('470 a 950 toneladas', '470 to 950 tonnes'), {'text-anchor':'middle', 'font-size':14, style:'fill:var(--indigo);font-weight:600'});
+  tx(svg, X(470) + 6, 66, tl('carga, 8 kg', 'carga, 8 kg'), {'text-anchor':'start', 'font-size':12, class:'g'});
+  tx(svg, X(950) - 6, 66, tl('fanega, 16 kg', 'fanega, 16 kg'), {'text-anchor':'end', 'font-size':12, class:'g'});
   tx(svg, X(0), 138, tl('Solo orden de magnitud. La unidad no se puede decidir con estos datos.', 'Order of magnitude only. These data cannot decide the unit.'), {'font-size':12, class:'g'});
 })();
 
@@ -599,7 +602,7 @@ function cuerda(g, x, y0, c, sc, op){
     items.forEach(it => { let x = it.x0; if (sep){ if (it.c.col === 'W'){ x = 30 + w * 15; w++; } else { x = 345 + a * 15; a++; } } it.g.setAttribute('transform', 'translate(' + x + ',0)'); });
     etq.style.opacity = sep ? 1 : 0;
   }
-  b.addEventListener('click', () => { const on = b.getAttribute('aria-pressed') !== 'true'; b.setAttribute('aria-pressed', on); b.textContent = on ? tl('Volver al orden original', 'Back to the original order') : tl('Separar por color', 'Split by colour'); poner(on); });
+  b.addEventListener('click', () => { const on = b.getAttribute('aria-pressed') !== 'true'; b.setAttribute('aria-pressed', on); b.textContent = on ? tl('Volver al orden original', 'Back to the original order') : tl('Separar por color', 'Separate by color'); poner(on); });
   poner(false);
 })();
 
@@ -620,7 +623,7 @@ function cuerda(g, x, y0, c, sc, op){
     tx(svg, x, 158, etiqueta(r.b), {'text-anchor':'middle', 'font-size':8.5, class:'g'});
   });
   const iguales = R.filter(r => r.va === r.vb && !Number.isNaN(r.va)).length, coloresIg = R.filter(r => r.a === r.b).length;
-  tx(svg, 92, 194, iguales + tl(' de ', ' of ') + R.length + tl(' valores iguales · ', ' values equal · ') + coloresIg + tl(' etiquetas de color iguales (— = sin color anotado)', ' colour labels equal (— = no colour recorded)'), {'font-size':13, style:'font-weight:500'});
+  tx(svg, 92, 194, iguales + tl(' de ', ' of ') + R.length + tl(' valores iguales · ', ' values equal · ') + coloresIg + tl(' etiquetas de color iguales (— = sin color anotado)', ' color labels equal (— = no color recorded)'), {'font-size':13, style:'font-weight:500'});
 })();
 
 /* ---------- figura 17: formatos ---------- */
@@ -661,7 +664,7 @@ function cuerda(g, x, y0, c, sc, op){
   const svg = $('svg-atlas'), b = $('atlas-orden'), ley = $('atlas-leyenda');
   const G = {ARC:[tl('archivo jerárquico', 'hierarchical archive'),'#2f3f8f'], SUM:[tl('lista con totales', 'list with totals'),'#b07a1e'], FOR:[tl('formulario con reparto', 'form with a split'),'#8a6a4a'], TAB:[tl('tabla de recuento', 'tally table'),'#2c7a6b'],
     PAD:[tl('padrón por persona', 'register by person'),'#a8322d'], ASG:[tl('asignación', 'allocation'),'#7b4f9d'], TAL:[tl('conteo por marcas', 'tally marks'),'#6d7f2f'], NAZ:[tl('ficha de Nazca', 'Nazca card'),'#3f7fb5'],
-    CAL:[tl('calendario', 'calendar'),'#c2477d'], NON:[tl('no numérico', 'non-numeric'),'#5f6a7a'], SEG:[tl('lista segmentada', 'segmented list'),'#b9a587'], SIN:[tl('sin tipo reconocible', 'no recognisable type'),'#cfc9bd']};
+    CAL:[tl('calendario', 'calendar'),'#c2477d'], NON:[tl('no numérico', 'non-numeric'),'#5f6a7a'], SEG:[tl('lista segmentada', 'segmented list'),'#b9a587'], SIN:[tl('sin tipo reconocible', 'no recognizable type'),'#cfc9bd']};
   const ORD = Object.keys(G);
   const proc = p => { const s = String(p).toLowerCase();
     if (s.includes('incahuasi')) return 'Inkawasi'; if (s.includes('pachacamac')) return 'Pachacamac'; if (s.includes('leymebamba') || s.includes('laguna')) return 'Leymebamba';

@@ -33,26 +33,28 @@ Por eso el repositorio insiste en lo que se puede verificar sin confiar en nosot
 
 | Id | Hallazgo | Nivel |
 |---|---|---|
-| I01 | UR270 → UR278: colgante + 1.ª subsidiaria = celdas de la tabla de 9 columnas | bien apoyado |
-| I02 | Totales de fila de UR278 = cabeceras de UR266 y totales de UR275, en orden | bien apoyado |
-| I03 | UR273A + UR273B = las mismas cabeceras por una segunda vía | apoyado |
-| I09–I10 | Las 9 columnas son las mismas 9 unidades en UR270 y UR278, con una planitud excepcional | bien apoyado |
-| C01 | El 74 % de quipus con sumas no es informativo frente a un nulo correcto | apoyado |
-| C06, C18 | El color es una clave local, sin léxico compartido; los quipus son registros de datos, no texto | bien apoyado / apoyado (negativos) |
-| C24, K05 | Copias entre museos; la copia es un rasgo de archivo (OR 17,9) | bien apoyado / apoyado |
-| C27 | El método reproduce la jerarquía publicada de Puruchuco (control positivo) | bien apoyado |
-| K01 | KH0049 es una tabla de tres niveles con totales por columna; UR122 es su copia parcial | apoyado (post hoc) |
-| K02 | Tablas de dos columnas en alternancia de colores (UR040, UR167) | bien apoyado |
-| K03 | UR1104 extrae las cabeceras de 9 registros de UR234 y conserva una cabecera rota | apoyado |
-| K11 | Unidad de Incahuasi: carga (~23 kg) o fanega; total del orden de 900–1 400 t | propuesto |
+| I01 | UR270 → UR278: colgante + 1.ª subsidiaria = celdas de la tabla de 9 columnas | indicio fuerte |
+| I02 | Totales de fila de UR278 = cabeceras de UR266 y totales de UR275, en orden | indicio fuerte |
+| I03 | UR273A + UR273B = las mismas cabeceras por una segunda vía | indicio |
+| I09–I10 | Las 9 columnas son las mismas 9 unidades en UR270 y UR278, con una planitud excepcional | indicio |
+| C01 | El 74 % de quipus con sumas no es informativo como prevalencia frente a un nulo quipu por quipu (precisión metodológica, no refutación) | indicio |
+| C06, C18 | El color es una clave local, sin léxico compartido; los quipus son registros de datos, no texto | indicio / indicio (negativos) |
+| C24, K05 | Copias entre museos (en parte ya publicadas por Chirinos 2010; las copias dentro de un archivo, por Urton 2005); la copia es un rasgo de archivo (OR 17,9) | indicio / indicio |
+| C27 | El método reproduce la jerarquía publicada de Puruchuco (control positivo) | indicio fuerte |
+| K01 | KH0049 (AS38) es una tabla de tres niveles ya descrita en el Databook de los Ascher (1978); su copia UR122 está en Chirinos (2010); lo nuestro: la prueba con nulo y la discrepancia compartida | indicio (nuestra parte) |
+| K02 | Tablas de dos columnas en alternancia de colores (UR040, UR167) | indicio |
+| K03 | UR1104 extrae las cabeceras de 9 registros de UR234 y conserva una cabecera rota | indicio |
+| K11 | Unidad de Incahuasi: carga (~8 kg de maní en vaina) o fanega (~16 kg); total de UR278 del orden de 500–950 t | conjetura |
 
 La lista completa (I01–I22, C01–C29, K01–K11) está en la tabla de hallazgos.
 
 **Escala de evidencia:**
-- **Bien apoyado:** sobrevive al nulo y a la corrección, y se replicó por una vía independiente.
-- **Apoyado:** significativo con corrección, pero sin réplica independiente.
-- **Propuesto:** compatible con los datos, sin prueba que lo distinga de las alternativas.
+- **Indicio fuerte:** sobrevive al nulo y a la corrección, y un segundo análisis hecho por separado sobre los mismos datos llegó a lo mismo. No es una réplica independiente, que exigiría una relectura de los objetos.
+- **Indicio:** significativo con corrección, sin ese segundo análisis.
+- **Conjetura:** compatible con los datos, sin prueba que la distinga de las alternativas.
 - **Especulativo:** sin prueba.
+
+En la tabla de hallazgos, los informes y las fichas del lector estos niveles conservan sus nombres anteriores: indicio fuerte = «bien apoyado», indicio = «apoyado», conjetura = «propuesto».
 
 ## El ensayo
 
@@ -105,16 +107,17 @@ data/external/       submódulos: Open Khipu Repository y datos de Medrano y Kho
 - **Textos y PDFs con derechos de autor.** Cotejamos libros y artículos publicados. Aquí solo quedan las citas breves y las referencias, no los textos.
 - **Imágenes y fotografías.** Algunas fuentes prohíben reproducirlas. Ninguna imagen se incluye.
 - **Fuentes locales.** Algunos scripts e informes citan rutas de `analisis/fuentes_txt/` (extractos de texto de las publicaciones citadas, usados para cotejar) o de `encontrado/` (archivos fuente, como PDFs y hojas de cálculo). Esas carpetas no se distribuyen; las publicaciones están citadas en los informes.
+- **Notas de la búsqueda de antecedentes.** Algunas filas de la tabla de hallazgos citan `analisis/ds/ant_*` (por ejemplo, `ant_incahuasi/novedad.csv` y `ant_resto/informe.md`). Esas carpetas no se distribuyen porque contienen textos con derechos; las obras están citadas en `analisis/paquete_revision/antecedentes.md`.
 - **Archivos intermedios regenerables y los scripts de lanzamiento de agentes.** La bitácora de trabajo (`analisis/SINTESIS.md`) sí está, sin notas administrativas. Las entradas que se corrigieron después llevan una nota que remite a la corrección.
 
 ## Datos y licencias
 
 - **Open Khipu Repository (OKR)**, v2.1.0. DOI [10.5281/zenodo.18025748](https://doi.org/10.5281/zenodo.18025748). Licencia MIT.
-- **Khipu Field Guide (KFG)**: datos de Medrano, M. y Khosla, A. (2024), *How can data science contribute to understanding the khipu code?*, *Latin American Antiquity*. Repositorio v2.1.0, DOI [10.5281/zenodo.10472429](https://doi.org/10.5281/zenodo.10472429). Licencia MIT.
+- **Khipu Field Guide (KFG)**, que edita y mantiene Ashok Khosla. Usamos la versión del paquete de datos que acompaña a Medrano, M. y Khosla, A. (2024), *How can data science contribute to understanding the khipu code?*, *Latin American Antiquity*. Repositorio v2.1.0, DOI [10.5281/zenodo.10472429](https://doi.org/10.5281/zenodo.10472429). Licencia MIT.
 
 `analisis/datos/cuerdas.csv` se deriva de KFG. Las erratas que encontramos en ambas bases se describen en el hallazgo C26.
 
-El mapa del ensayo usa los contornos de **Natural Earth** (1:50m, dominio público), a través del paquete `world-atlas` (v2.0.2). Las imágenes del ensayo son de dominio público (Museo de Arte de Cleveland, CC0; Locke 1912; Guamán Poma, hacia 1615).
+El mapa del ensayo usa los contornos de **Natural Earth** (1:50m, dominio público), a través del paquete `world-atlas` (v2.0.2). Las imágenes del ensayo son de dominio público (Museo de Arte de Cleveland; Locke 1912; Guamán Poma, hacia 1615).
 
 **Licencia de este repositorio.** El código y los datos derivados van bajo MIT ([`LICENSE`](LICENSE)), y los textos bajo CC BY 4.0 ([`LICENSE-texts.md`](LICENSE-texts.md)).
 

@@ -20,11 +20,11 @@ We ran the whole digital khipu corpus (Khipu Field Guide and Open Khipu Reposito
 - pendant + first subsidiary of UR270 reproduce, cell by cell, the 9-column table of UR278;
 - the row totals of UR278 reappear, in order, as headers of UR275 and UR266.
 
-A second route (UR273A + UR273B) is supported but not well supported.
+A second route (UR273A + UR273B) is an indication but not a strong indication.
 
 **Outside Inkawasi,** the results are mostly negative or methodological:
 
-- the widely cited figure that 74% of khipus contain sums is not informative against a proper null;
+- the widely cited figure that 74% of khipus contain sums is not informative as a prevalence against a khipu-by-khipu null (a methodological refinement: the authors' own argument against chance, laterality, we reproduce);
 - there is no shared colour lexicon and no detectable syllabic text;
 - copying is an archive-level practice (OR 17.9).
 
@@ -68,27 +68,29 @@ The errors we found and corrected are recorded in the `corrected` column of the 
 
 | Id | Finding | Level |
 |---|---|---|
-| I01 | UR270 → UR278: pendant + first subsidiary = cells of the 9-column table | well supported |
-| I02 | Row totals of UR278 = headers of UR266 and totals of UR275, in order | well supported |
-| I03 | UR273A + UR273B = the same headers by a second route | supported |
-| I09–I10 | The 9 columns are the same 9 units in UR270 and UR278, with exceptional flatness | well supported |
-| C01 | The "74% of khipus with sums" figure is not informative against a proper null | supported |
-| C06, C18 | Colour is a local key with no shared lexicon; khipus are data records, not text | well supported / supported (negative) |
-| C24, K05 | Copies across museums; copying is an archive-level practice (OR 17.9) | well supported / supported |
-| C27 | The method reproduces the published Puruchuco hierarchy (positive control) | well supported |
-| K01 | KH0049 is a three-level table with column totals; UR122 is its partial copy | supported (post hoc) |
-| K02 | Two-column tables with alternating colours (UR040, UR167) | well supported |
-| K03 | UR1104 extracts the headers of 9 records of UR234 and preserves a broken header | supported |
-| K11 | Inkawasi unit: *carga* (load, ~23 kg) or *fanega*; total of the order of 900–1,400 t | proposed |
+| I01 | UR270 → UR278: pendant + first subsidiary = cells of the 9-column table | strong indication |
+| I02 | Row totals of UR278 = headers of UR266 and totals of UR275, in order | strong indication |
+| I03 | UR273A + UR273B = the same headers by a second route | indication |
+| I09–I10 | The 9 columns are the same 9 units in UR270 and UR278, with exceptional flatness | indication |
+| C01 | The "74% of khipus with sums" figure is not informative as a prevalence against a khipu-by-khipu null (a methodological refinement, not a refutation) | indication |
+| C06, C18 | Colour is a local key with no shared lexicon; khipus are data records, not text | indication / indication (negative) |
+| C24, K05 | Copies across museums (some already published by Chirinos 2010; copies within one archive by Urton 2005); copying is an archive-level practice (OR 17.9) | indication / indication |
+| C27 | The method reproduces the published Puruchuco hierarchy (positive control) | strong indication |
+| K01 | KH0049 (AS38) is a three-level table already described in the Aschers' Databook (1978); its copy UR122 is in Chirinos (2010); ours: the test against a null and the shared discrepancy | indication (our part) |
+| K02 | Two-column tables with alternating colours (UR040, UR167) | indication |
+| K03 | UR1104 extracts the headers of 9 records of UR234 and preserves a broken header | indication |
+| K11 | Inkawasi unit: *carga* (~8 kg of peanuts in the shell) or *fanega* (~16 kg); UR278 total of the order of 500–950 t | conjecture |
 
 The full list (I01–I22, C01–C29, K01–K11) is in the findings table.
 
 **Evidence scale:**
 
-- **Well supported:** survives the null and the correction, and was replicated by an independent route.
-- **Supported:** significant after correction, but without independent replication.
-- **Proposed:** consistent with the data, with no test that separates it from the alternatives.
+- **Strong indication:** survives the null and the correction, and a second analysis done separately on the same data reached the same result. This is not an independent replication, which would require a new reading of the objects.
+- **Indication:** significant after correction, without that second analysis.
+- **Conjecture:** consistent with the data, with no test that separates it from the alternatives.
 - **Speculative:** untested.
+
+In the findings table, the reports and the reader's output these levels keep their earlier names: strong indication = "well supported", indication = "supported", conjecture = "proposed".
 
 ## Reproduce
 
@@ -136,6 +138,7 @@ data/external/       submodules: Open Khipu Repository and Medrano & Khosla 2024
 - **Copyrighted texts and PDFs.** We collated published books and articles; only short quotations and references remain here.
 - **Images and photographs.** Some sources forbid their reproduction, so no image is included.
 - **Local sources.** Some scripts and reports cite paths under `analisis/fuentes_txt/` (text extracts of the cited publications, used for collation) or `encontrado/` (source files such as PDFs and spreadsheets). These folders are not distributed; the publications are listed in the reports.
+- **Prior-work search notes.** Some rows of the findings table cite `analisis/ds/ant_*` (for example `ant_incahuasi/novedad.csv` and `ant_resto/informe.md`). These folders are not distributed because they contain copyrighted texts; the works are cited in `analisis/paquete_revision/en/prior_work.md`.
 - **Intermediate files and agent launch scripts.** Intermediate files can be regenerated by rerunning the scripts.
 
 The work log (`analisis/SINTESIS.md`) is included without administrative notes. Entries that were later corrected carry a note that points to the correction.
@@ -143,11 +146,11 @@ The work log (`analisis/SINTESIS.md`) is included without administrative notes. 
 ## Data and licences
 
 - **Open Khipu Repository (OKR)**, v2.1.0. DOI [10.5281/zenodo.18025748](https://doi.org/10.5281/zenodo.18025748). MIT licence.
-- **Khipu Field Guide (KFG)**, from Medrano, M. & Khosla, A. (2024), *How can data science contribute to understanding the khipu code?*, *Latin American Antiquity*. Repository v2.1.0, DOI [10.5281/zenodo.10472429](https://doi.org/10.5281/zenodo.10472429). MIT licence.
+- **Khipu Field Guide (KFG)**, edited and maintained by Ashok Khosla. We use the snapshot in the data package that accompanies Medrano, M. & Khosla, A. (2024), *How can data science contribute to understanding the khipu code?*, *Latin American Antiquity*. Repository v2.1.0, DOI [10.5281/zenodo.10472429](https://doi.org/10.5281/zenodo.10472429). MIT licence.
 
 `analisis/datos/cuerdas.csv` is derived from KFG. Finding C26 lists the errata we found in both databases.
 
-The essay's map uses country outlines from **Natural Earth** (1:50m, public domain), via the `world-atlas` package (v2.0.2). The images in the essay are public domain (Cleveland Museum of Art, CC0; Locke 1912; Guaman Poma, c. 1615).
+The essay's map uses country outlines from **Natural Earth** (1:50m, public domain), via the `world-atlas` package (v2.0.2). The images in the essay are public domain (Cleveland Museum of Art; Locke 1912; Guaman Poma, c. 1615).
 
 **This repository:**
 
