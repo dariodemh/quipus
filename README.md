@@ -44,7 +44,8 @@ Every claim carries an evidence level and points to the script that produces it.
    - the source file;
    - whether it is new or already published;
    - whether it was corrected.
-3. [`analisis/paquete_revision/en/verifiable_predictions.md`](analisis/paquete_revision/en/verifiable_predictions.md): frozen predictions to check in museums and archives.
+3. [`analisis/paquete_revision/en/verifiable_predictions.md`](analisis/paquete_revision/en/verifiable_predictions.md): predictions to check in museums and archives.
+   - [`analisis/paquete_revision/verificacion_2026-11/`](analisis/paquete_revision/verificacion_2026-11/LEEME.md): claim-by-claim verification of the essay (November 2026, in Spanish), with the evidence for each claim and what was corrected.
 4. [`analisis/paquete_revision/en/prior_work.md`](analisis/paquete_revision/en/prior_work.md): what was already published.
 5. [`lector/README.md`](lector/README.md): the reproducible **reader**. It produces a reading sheet for any khipu in the corpus; every statement on the sheet carries its evidence level and the path of the code behind it.
 

@@ -1,6 +1,7 @@
 """Hipotesis calendarica: busca 'numeros magicos' en totales de quipu/grupo/secuencias y contrasta con nulos. Unidad: quipu.
 uso: python calendario.py N_SIM MODO   (MODO = total_all|total_pend|grupo_all|grupo_pend|secuencia -> escribe parcial) ; python calendario.py N_SIM combine (une y corrige). Semilla fija por modo."""
 import numpy as np, pandas as pd, sys, time
+import os; H=os.path.dirname(os.path.abspath(__file__))+os.sep  # las salidas van junto al script; se corre desde la raíz del repo
 from scipy import stats
 NSIM=int(sys.argv[1]) if len(sys.argv)>1 else 1000
 MODO=sys.argv[2] if len(sys.argv)>2 else 'combine'
@@ -62,9 +63,9 @@ for mode in ([MODO] if MODO!='combine' else []):
         rows.append(dict(familia=mode,objetivo=n,quipus_obs=obs[j],nulo_media=null[:,j].mean(),nulo_sd=null[:,j].std(),exceso=obs[j]-null[:,j].mean(),p=p))
     print(mode,'listo',round(time.time()-t0),'s',flush=True)
 if MODO!='combine':
-    pd.DataFrame(rows).to_csv('calendario_parcial_%s.csv'%MODO,index=False); sys.exit()
+    pd.DataFrame(rows).to_csv(H+'calendario_parcial_%s.csv'%MODO,index=False); sys.exit()
 import glob
-R=pd.concat([pd.read_csv(f) for f in sorted(glob.glob('calendario_parcial_*.csv'))],ignore_index=True)
+R=pd.concat([pd.read_csv(f) for f in sorted(glob.glob(H+'calendario_parcial_*.csv'))],ignore_index=True)
 # Holm sobre TODAS las pruebas (familias x objetivos)
 def holm(p):
     p=np.asarray(p); o=np.argsort(p); m=len(p); adj=np.empty(m); run=0
@@ -90,7 +91,7 @@ for T in (27,28,29,30):
     kk,lam,p=vecinos(csz,T); extra.append(dict(familia='cuerdas_por_grupo',objetivo=str(T),quipus_obs=kk,nulo_media=lam,nulo_sd=np.sqrt(lam),exceso=kk-lam,p=p))
 R=pd.concat([R,pd.DataFrame(extra)],ignore_index=True)
 R['p_holm']=holm(R.p); R['q_bh']=bh(R.p); R['n_pruebas']=len(R)
-R.to_csv('calendario_resultados.csv',index=False)
+R.to_csv(H+'calendario_resultados.csv',index=False)
 pd.set_option('display.width',200)
 print('n pruebas =',len(R)); print(R.sort_values('p').head(25).round(4).to_string())
 print('\nn_grupos distribucion cerca de 12 y 24:',{t:int(cnt.get(t,0)) for t in range(8,30)})

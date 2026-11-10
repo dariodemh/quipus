@@ -14,9 +14,10 @@ Este repositorio reúne los análisis, los datos derivados y un **lector** repro
 
 1. [`analisis/paquete_revision/resumen_para_especialista.md`](analisis/paquete_revision/resumen_para_especialista.md): resumen de datos, métodos y hallazgos, por nivel de evidencia.
 2. [`analisis/paquete_revision/tabla_hallazgos.csv`](analisis/paquete_revision/tabla_hallazgos.csv): cada hallazgo con su estadístico, su p o q, su archivo fuente, si es nuevo o ya estaba publicado, y si se corrigió.
-3. [`analisis/paquete_revision/predicciones_verificables.md`](analisis/paquete_revision/predicciones_verificables.md): predicciones congeladas para comprobar en museos y archivos.
+3. [`analisis/paquete_revision/predicciones_verificables.md`](analisis/paquete_revision/predicciones_verificables.md): predicciones para comprobar en museos y archivos.
 4. [`analisis/paquete_revision/antecedentes.md`](analisis/paquete_revision/antecedentes.md): qué estaba publicado antes.
 5. [`lector/LEEME.md`](lector/LEEME.md): uso del lector.
+6. [`analisis/paquete_revision/verificacion_2026-11/`](analisis/paquete_revision/verificacion_2026-11/LEEME.md): verificación del ensayo afirmación por afirmación (noviembre de 2026), con la prueba de cada una y lo que se corrigió.
 
 ## Cómo se hizo: asistencia de IA
 

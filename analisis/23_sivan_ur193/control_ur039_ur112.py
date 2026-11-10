@@ -1,6 +1,8 @@
 # Mismo control en los quipus de calibración (UR039) y réplica ciega (UR112) de Sivan, con datos KFG.
 # Lectura: cada nudo L de valor 2-12 en la cuerda -> sílaba (tabla de la hoja UR193); acierto = alguna raíz de 2-3 sílabas de Huarochirí.
 import pandas as pd, numpy as np, re, importlib.util, sys
+import os
+if not os.path.exists('analisis/ds/n_linguistica/corpus/huarochiri_quechua.txt'): sys.exit('Falta analisis/ds/n_linguistica/corpus/huarochiri_quechua.txt: es un texto que no se distribuye (ver README, «Qué no está y por qué»). El control que sí corre con lo publicado es control_exacto.py.')
 rng=np.random.default_rng(20261018)
 SYL={2:'ki',3:'ma',4:'ka',5:'ta',6:'pa',7:'wa',8:'cha',9:'pi',10:'si',11:'ti',12:'ku'}
 txtq=open('analisis/ds/n_linguistica/corpus/huarochiri_quechua.txt',encoding='utf-8').read().lower()

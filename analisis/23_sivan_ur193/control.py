@@ -1,6 +1,8 @@
 # Control de la "traducción" silábica de UR193 (Sivan/ALBA 2026, encontrado/UR193.xlsx):
 # misma regla de lectura aplicada a secuencias reales frente a secuencias al azar con la misma distribución.
 import pandas as pd, numpy as np, re
+import os, sys
+if not os.path.exists('encontrado/UR193.xlsx'): sys.exit('Falta encontrado/UR193.xlsx: es una fuente que no se distribuye (ver README, «Qué no está y por qué»). El control que sí corre con lo publicado es control_exacto.py.')
 rng=np.random.default_rng(20261018)
 t=pd.read_excel('encontrado/UR193.xlsx',sheet_name='Traduction')
 r=pd.read_excel('encontrado/UR193.xlsx',sheet_name='Resume',header=None)
