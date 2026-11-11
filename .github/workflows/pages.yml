@@ -1,0 +1,33 @@
+name: Publicar artículo
+
+on:
+  push:
+    branches: [main]
+    paths: ['articulo/*.html', '.github/workflows/pages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}articulo/
+    steps:
+      - uses: actions/checkout@v4
+      # Solo el artículo (3 MB), no el repo entero (160 MB): mismas URLs /quipus/articulo/
+      - run: mkdir -p _site/articulo && cp articulo/*.html _site/articulo/ && touch _site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
