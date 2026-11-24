@@ -8,12 +8,16 @@ El lector no aporta métodos nuevos. Empaqueta los que el proyecto ya validó (b
 
 ```bash
 python lector/lector.py UR278            # id KFG
-python lector/lector.py KH0517           # id OKR (se traduce a KFG; los 19 OKR sin KFG salen de 17_okr_pendientes)
+python lector/lector.py KH0517           # id OKR (se traduce a KFG; además 19 OKR extra, 11 Huacones JC024-JC034 y JS01)
+python lector/lector.py JC024            # ficha virgen de Huacones (KH0653)
+python lector/lector.py JS01             # quipu JS01 de Harvard (KH0676)
 python lector/lector.py mi_quipu.csv     # CSV con las columnas de analisis/datos/cuerdas.csv
 python lector/lector.py UR278 --json     # salida JSON
 python lector/lector.py --todos          # todo el corpus: una línea por quipu y, al final, el recuento de errores
 python lector/verificar.py               # resultados conocidos; falla si algo se rompe
 ```
+
+Existe además una edición web en navegador sin servidor con los **682 quipus** (SVG interactivo y carga de CSV por arrastrar y soltar) en [`articulo/lector.es.html`](../articulo/lector.es.html).
 
 **Requisitos.** Python ≥ 3.10 con pandas, numpy, scipy, numba y scikit-learn (los mismos que ya usa `analisis/`). El lector no usa la red.
 
@@ -75,7 +79,7 @@ Las relaciones marcadas como `[documentada]` vienen de la bitácora, con su nive
 
 También corre cinco controles negativos (AS010, UR001 y UR278 con los valores barajados; AS006 sin alternancia; KH0049 con los valores barajados) y una entrada CSV.
 
-**Resultado (18-10-2026):** 19/19 comprobaciones correctas. `lector.py --todos`: 651 quipus, 0 errores.
+**Resultado (23-11-2026):** 21/21 comprobaciones correctas (incluyendo `JC024` y `JS01`). `lector.py --todos`: 651 quipus KFG, 0 errores (más 31 quipus extra/vírgenes vía `Contexto.extra`).
 
 ## Limitaciones
 
@@ -90,7 +94,7 @@ También corre cinco controles negativos (AS010, UR001 y UR278 con los valores b
 
 ## Cómo citar
 
-Cita el repositorio (quipu, carpeta `lector/`, con el commit usado) y las fuentes de datos:
+Cita el repositorio (`quipus`, carpeta `lector/`, con el commit usado) y las fuentes de datos:
 - OKR Team (2025). *The Open Khipu Repository* (v2.1.0). Zenodo. https://doi.org/10.5281/zenodo.18025748
 - Medrano, M. y Khosla, A. (2024). *How Can Data Science Contribute to Understanding the Khipu Code? (Companion Data and Code)* (v2.1.0). Zenodo. https://doi.org/10.5281/zenodo.10472429
 

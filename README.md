@@ -44,10 +44,11 @@ Every claim carries an evidence level and points to the script that produces it.
    - the source file;
    - whether it is new or already published;
    - whether it was corrected.
-3. [`analisis/paquete_revision/en/verifiable_predictions.md`](analisis/paquete_revision/en/verifiable_predictions.md): predictions to check in museums and archives.
+3. [`analisis/paquete_revision/en/verifiable_predictions.md`](analisis/paquete_revision/en/verifiable_predictions.md): predictions to check in museums and archives (15-minute checklist: [`museum_protocol_5_knots.md`](analisis/paquete_revision/en/museum_protocol_5_knots.md); upstream DB errata report: [`errata_report_okr_kfg.md`](analisis/paquete_revision/en/errata_report_okr_kfg.md)).
    - [`analisis/paquete_revision/verificacion_2026-11/`](analisis/paquete_revision/verificacion_2026-11/LEEME.md): claim-by-claim verification of the essay (November 2026, in Spanish), with the evidence for each claim and what was corrected.
 4. [`analisis/paquete_revision/en/prior_work.md`](analisis/paquete_revision/en/prior_work.md): what was already published.
-5. [`lector/README.md`](lector/README.md): the reproducible **reader**. It produces a reading sheet for any khipu in the corpus; every statement on the sheet carries its evidence level and the path of the code behind it.
+5. [`lector/README.md`](lector/README.md): the reproducible **reader** (and its zero-server browser edition: [`articulo/lector.html`](articulo/lector.html) / [`articulo/lector.es.html`](articulo/lector.es.html)).
+6. [`articulo/preprint_en.md`](articulo/preprint_en.md) and [`articulo/preprint_es.md`](articulo/preprint_es.md): preprint manuscript, alongside the out-of-sample Huacones module ([`analisis/35_huacones_virgenes/`](analisis/35_huacones_virgenes/informe.md)), Bayesian stemmatology ([`analisis/36_estematica_bayesiana/`](analisis/36_estematica_bayesiana/informe.md)), and virgin OKR/photogrammetry analyses ([`analisis/37_vision_y_extra/`](analisis/37_vision_y_extra/informe.md)).
 
 ## How this was done: AI assistance
 
@@ -109,6 +110,7 @@ python lector/lector.py --todos                 # the whole corpus (~3 min)
 
 python articulo/fuente/extraer.py . articulo/fuente/datos.json   # data for the essay's figures
 python articulo/fuente/construir.py             # articulo/index.html (English) and index.es.html (Spanish)
+python articulo/fuente/construir_lector.py      # articulo/lector.html and lector.es.html (682-khipu browser app)
 python articulo/fuente/comprobar.py             # what the text says about each figure matches its data
 python articulo/fuente/comprobar_idioma.py articulo/index.html en   # no Spanish left on the English page (needs playwright)
 ```

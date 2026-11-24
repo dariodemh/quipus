@@ -137,7 +137,10 @@ check("UR1104 frente a cabeceras g0-g8 de UR234: 7 exactas, 1 variante (3102/301
 
 # 12. Desajustes UR278 -> libro (usa 29_lectura_incahuasi/tabla_traducida.csv): 18 con destino, 11 exactas, 7 desajustes
 import csv
+import json
 from math import comb
+from scipy.stats import mannwhitneyu
+
 filas = [r for r in csv.DictReader(open("analisis/29_lectura_incahuasi/tabla_traducida.csv", encoding="utf-8"))
          if r["quipu"] == "UR278" and r["cuerda"] == "Σ fila" and "sin destino" not in r["enlace"]]
 dif = {r["grupo"]: int(re.search(r"UR266 g\d+=(\d+)", r["enlace"]).group(1)) - int(r["valor"]) for r in filas}
@@ -147,5 +150,44 @@ p_uni = sum(comb(n, k) * (1 / 3) ** k * (2 / 3) ** (n - k) for k in range(uni, n
 check("Desajustes UR278 -> libro: 18 con destino, 7 desajustes, 6/7 en unidades (p nulo 1/3 ~ 0,007)",
       len(dif) == 18 and n == 7 and uni == 6 and abs(p_uni - 0.007) < 0.001, f"libro - detalle = {des}; p={p_uni:.4f}")
 check("UR278 g29: desajuste de -1 (1507 frente a 1506)", des.get("29") == -1, f"g29 = {des.get('29')}")
+
+# 13. Pillar 1: Huacones vírgenes (11 quipus, 101 cuerdas) y refutación de Predicción #13
+hc = pd.read_csv("analisis/35_huacones_virgenes/cuerdas_huacones.csv")
+jc24 = hc[(hc.kfg == "JC024") & (hc.nivel == 0)].valor.to_numpy(float)
+jc31 = hc[(hc.kfg == "JC031") & (hc.nivel == 0)].valor.to_numpy(float)
+cv24 = float(jc24.std(ddof=1) / jc24.mean())
+cv31 = float(jc31.std(ddof=1) / jc31.mean())
+check("Huacones vírgenes: 11 quipus, 101 cuerdas; Predicción #13 refutada (CV > 1,2 en JC024 y JC031)",
+      hc.kfg.nunique() == 11 and len(hc) == 101 and len(jc24) == 8 and len(jc31) == 9 and cv24 > 1.2 and cv31 > 1.2,
+      f"n_quipus={hc.kfg.nunique()}, n_cuerdas={len(hc)}, CV_JC024={cv24:.3f}, CV_JC031={cv31:.3f}")
+
+# 14. Pillar 2: Estemática bayesiana (bootstrap Inkawasi alpha >= 0.99, KH0049/UR122 == 1.0, 0 q_bh < 0.05)
+eb = pd.read_csv("analisis/36_estematica_bayesiana/estematica_bootstrap.csv")
+cb = pd.read_csv("analisis/36_estematica_bayesiana/candidatos_bayesianos.csv")
+s_ink = float(eb.loc[eb.familia.str.contains("Inkawasi"), "soporte_bootstrap"].iloc[0])
+s_kh = float(eb.loc[eb.familia.str.contains("KH0049"), "soporte_bootstrap"].iloc[0])
+n_sig = int((cb.q_bh < 0.05).sum())
+check("Estemática bayesiana: Inkawasi alpha >= 0,99, KH0049/UR122 == 1,0, 0 pares q_bh < 0,05",
+      s_ink >= 0.99 and s_kh == 1.0 and n_sig == 0,
+      f"Inkawasi={s_ink:.3f}, KH0049/UR122={s_kh:.3f}, sig={n_sig}, min_q={cb.q_bh.min():.4f}")
+
+# 15. Phase 2: JS01 (138 cuerdas, suma 4652, >=135 no decimales) y huecos de cero en UR-298 (razón > 1,8)
+js01 = pd.read_csv("analisis/37_vision_y_extra/cuerdas_js01.csv")
+u298 = pd.read_csv("analisis/37_vision_y_extra/ur298_ceros_oos.csv")
+z_d = u298.loc[u298.tipo == "cero_intermedio", "distancia_cm"].to_numpy(float)
+a_d = u298.loc[u298.tipo == "adyacente", "distancia_cm"].to_numpy(float)
+ratio_298 = float(np.median(z_d) / np.median(a_d))
+_, p_298 = mannwhitneyu(z_d, a_d, alternative="greater")
+check("JS01 (138 cuerdas, sum=4652) y UR-298 fuera de muestra (razón > 1,8, p < 1e-6)",
+      len(js01) == 138 and int(js01.valor.sum()) == 4652
+      and int(js01.notas.astype(str).str.contains("no decimal").sum()) >= 135
+      and ratio_298 > 1.8 and p_298 < 1e-6,
+      f"JS01 n={len(js01)} sum={int(js01.valor.sum())}; UR-298 ratio={ratio_298:.3f}, p={p_298:.2e}")
+
+# 16. Phase 2: Fotogrametría CIELAB en SH001
+sh_de = json.loads(open("analisis/37_vision_y_extra/sh001_delta_e.json", encoding="utf-8").read())["delta_e"]
+check("SH001 CIELAB: separación gruesa (>35) frente a tono fino YB/AB (<5)",
+      sh_de["g0_oscuro_WLK vs g0_claro_YB"] > 40 and sh_de["g0_marron_MB vs g0_claro_YB"] > 35
+      and sh_de["g1_claro_YB vs g3_claro_AB"] < 5, sh_de)
 
 print(f"\n{sum(ok)}/{len(ok)} comprobaciones correctas")

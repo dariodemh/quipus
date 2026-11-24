@@ -1,5 +1,15 @@
 <title>What the khipus add up to</title>
 <meta name="description" content="A reading of an Inka accounting archive and a statistical analysis of every digitized khipu.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f7f6f2'/%3E%3Cpath d='M4 8h24' stroke='%238a6a4a' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M10 9v15M16 9v18M22 9v12' stroke='%238a6a4a' stroke-width='2.2' stroke-linecap='round'/%3E%3Ccircle cx='10' cy='16' r='2.2' fill='%232f3f8f'/%3E%3Ccircle cx='16' cy='14' r='2.2' fill='%232f3f8f'/%3E%3Ccircle cx='16' cy='21' r='2.2' fill='%232f3f8f'/%3E%3Ccircle cx='22' cy='16' r='2.2' fill='%232f3f8f'/%3E%3C/svg%3E">
+<link rel="canonical" href="https://dariodemh.github.io/quipus/articulo/">
+<link rel="alternate" hreflang="es" href="https://dariodemh.github.io/quipus/articulo/index.es.html">
+<link rel="alternate" hreflang="en" href="https://dariodemh.github.io/quipus/articulo/">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="What the khipus add up to">
+<meta property="og:description" content="A reading of an Inka accounting archive and a statistical analysis of every digitized khipu.">
+<meta property="og:url" content="https://dariodemh.github.io/quipus/articulo/">
+<meta name="twitter:card" content="summary">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
@@ -39,6 +49,8 @@ h3{font-size:25px;margin:1.9em 0 .5em}
 .subtitulo{font-size:24px;line-height:1.35;color:var(--gris);font-style:italic;margin:0 0 22px;max-width:640px}
 .meta{font-size:14px;color:var(--gris);display:flex;flex-wrap:wrap;gap:6px 18px;border-top:1px solid var(--regla);padding-top:12px}
 .meta b{color:var(--tinta);font-weight:500}
+.tema-btn{font:inherit;color:var(--indigo);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+.tema-btn:hover{opacity:.8}
 .num{font-family:var(--mono);font-size:.86em;letter-spacing:-.01em}
 .fila-num{font-family:var(--mono);font-size:17px;background:var(--suave);border-radius:6px;padding:10px 14px;margin:0 0 1em;overflow-x:auto;white-space:nowrap}
 .fila-num .dif{color:var(--cochinilla);font-weight:500}
@@ -117,7 +129,7 @@ h3{font-size:clamp(25px,3.4vw,31px)}
   <div class="kicker">Essay · open to specialist review · October 2026, revised in November</div>
   <h1>What the khipus add up to</h1>
   <p class="subtitulo">A reading of an Inka accounting archive and a statistical analysis of every digitized khipu</p>
-  <div class="meta"><span><b>dario</b>, with AI agents</span><span>About 45 minutes to read</span><a href="https://github.com/dariodemh/quipus">Code and data</a><a href="#referencias">References ↓</a><a href="index.es.html" hreflang="es" lang="es">Leer en español</a></div>
+  <div class="meta"><span><b>dario</b>, with AI agents</span><span>About 45 minutes to read</span><a href="lector.html">Browser Khipu Reader</a><a href="https://github.com/dariodemh/quipus">Code and data</a><a href="#referencias">References ↓</a><a href="index.es.html" hreflang="es" lang="es">Leer en español</a><button type="button" class="tema-btn" id="tema-btn" aria-label="Toggle color theme" aria-pressed="false">Dark theme</button></div>
 </header>
 
 <figure class="ancho foto">
@@ -428,7 +440,7 @@ h3{font-size:clamp(25px,3.4vw,31px)}
 
 <p class="parte"><span class="etq">What we found</span>If the khipus count produce, we still need to know in what unit. There are two candidates that the data do not separate. The fanega is the Castilian measure, of about 56 liters (LeVine 1992 gives “about 1.6 bushels per hanega”; an editor's note in Murra (2024) gives about 55.5 liters for Castile). The carga is what a person or a llama carried, and its size is unclear: LeVine (1992) warns that “the precise quantity of a carga is unclear”. In the Charcas transcriptions studied by Platt (2002), the same delivery appears as 250 fanegas in one transcription and as 500 cargas in another, and he glosses cargas as llama loads; there, then, a carga is half a fanega, about 28 liters. LeVine also reports a man carrying “half an hanega of maize (about 21.8 kg)”.</p>
 
-<p>For peanuts in the shell, the measured bulk density is 0.286 kg per liter (Shukla, Makwana and Gupta 2019, pods of one modern variety). One unit of peanuts in the shell would then weigh about 8 kg if it is a carga and about 16 kg if it is a fanega. For the UR278 table, about 59,000 units in its 26 complete rows, that gives about 470 tonnes or about 950: an order of magnitude of roughly 500 to 950 tonnes. There are two reservations. The equivalence of two cargas per fanega comes from sixteenth-century Charcas, not Cañete, and nothing in the khipus says that the unit was either one.</p>
+<p>For peanuts in the shell, the measured bulk density is 0.286 kg per liter (Shukla, Makwana and Gupta 2019, pods of one modern variety). One unit of peanuts in the shell would then weigh about 8 kg if it is a carga and about 16 kg if it is a fanega. For the UR278 table, about 59,000 units in its 26 rows of nine, that gives about 470 tonnes or about 950: an order of magnitude of roughly 500 to 950 tonnes. There are two reservations. The equivalence of two cargas per fanega comes from sixteenth-century Charcas, not Cañete, and nothing in the khipus says that the unit was either one.</p>
 </section>
 
 <figure class="texto" id="fig-ton">
@@ -703,6 +715,7 @@ h3{font-size:clamp(25px,3.4vw,31px)}
 <li>A match with the Santa census gave us a probability of 0.006, but the calculation was circular. Done properly it gives 0.24.</li>
 <li>The first tonnage figure, 1390 tonnes, rested on a load of 23 kg for which we found no source; with units that do have one, the order of magnitude is 500 to 950 tonnes.</li>
 <li>Finding 7 turned out to be already described by the Aschers in their Databook (1978); we now present it as a check of the method and not as a discovery. Four findings went down from strong indication to indication because they had no separate second analysis.</li>
+<li>After transcribing all 11 unintegrated photographic recording sheets from Huacones-Vilcahuasi (<code>JC024</code>–<code>JC034</code>, lower Cañete valley), our preregistered Prediction #13 (that Quipus 8 and 9 would mirror the flat 9-column profile of <code>UR278</code>) was refuted: <code>JC024</code> has 8 pendants with CV = 1.28 and <code>JC031</code> mixes blank cords with non-decimal additive knots.</li>
 </ul>
 
 <p>The full list is in the repository.</p>
@@ -729,7 +742,7 @@ h3{font-size:clamp(25px,3.4vw,31px)}
 <section class="col">
 <p>The reader runs over the 651 khipus of the corpus and has a battery of 19 checks that fails if any known result breaks. It also runs negative controls, khipus with shuffled values, to make sure it does not see things where there are none.</p>
 
-<p>The reader does not interpret or say what was being counted. It describes the structure of a khipu and the confidence each statement deserves. We designed it above all for anyone who transcribes a new khipu and wants to know within minutes whether it resembles anything known.</p>
+<p>The reader does not interpret or say what was being counted. It describes the structure of a khipu and the confidence each statement deserves. We designed it above all for anyone who transcribes a new khipu and wants to know within minutes whether it resembles anything known. <a href="lector.html"><b>Open the standalone Browser Khipu Reader here (682 khipus, zero install, supports your own CSV) →</b></a></p>
 </section>
 
 <hr>
@@ -737,9 +750,9 @@ h3{font-size:clamp(25px,3.4vw,31px)}
 <section class="col" id="como">
 <h2>How it was made</h2>
 
-<p>This work was done by artificial intelligence agents (Claude (Opus and Sonnet) and DeepSeek (Flash), in separate tasks), directed by one person. The agents wrote the code and ran the tests, and some reviewed the work of others. A person decided what to ask, what to believe and what to publish. No one has yet peer-reviewed this work.</p>
+<p>This work was done by artificial intelligence agents (Claude —Opus and Sonnet— and DeepSeek Flash, in separate tasks), directed by one person. The agents wrote the code and ran the tests, and some reviewed the work of others. A person decided what to ask, what to believe and what to publish. No one has yet peer-reviewed this work.</p>
 
-<p>Everything is at <a href="https://github.com/dariodemh/quipus">github.com/dariodemh/quipus</a>. One program checks the main results of the review package (15 checks) and another the reader (19), and they fail if anything changes. The full reading of the peanut archive, with its 1461 figures, is in the repository. The predictions for each finding, in more detail and with a few more, are in the repository. If any of them fails, we will say so. Reviews and corrections are welcome in <a href="https://github.com/dariodemh/quipus/issues">the repository's issues</a>.</p>
+<p>Everything is at <a href="https://github.com/dariodemh/quipus">github.com/dariodemh/quipus</a>. One program checks the main results of the review package (15 checks) and another the reader (19), and they fail if anything changes. The full reading of the peanut archive, with its 1461 figures, is in the repository, together with a <a href="https://github.com/dariodemh/quipus/blob/main/analisis/paquete_revision/en/museum_protocol_5_knots.md">5-knots-in-15-minutes museum protocol</a>, an <a href="https://github.com/dariodemh/quipus/blob/main/analisis/paquete_revision/en/errata_report_okr_kfg.md">upstream database errata report</a>, and the <a href="https://github.com/dariodemh/quipus/blob/main/articulo/preprint_en.md">preprint manuscript</a>. If any prediction fails, we will say so. Reviews and corrections are welcome in <a href="https://github.com/dariodemh/quipus/issues">the repository's issues</a>.</p>
 </section>
 
 <hr>
@@ -767,12 +780,12 @@ h3{font-size:clamp(25px,3.4vw,31px)}
 <li>Ascher, M. and Ascher, R. (1978). <i>Code of the Quipu Databook</i>. Ann Arbor: University Microfilms.</li>
 <li>Chirinos Rivera, A. (2010). <i>Quipus del Tahuantinsuyo: curacas, incas y su saber matemático en el siglo XVI</i>. Lima: Editorial Commentarios.</li>
 <li>Chirinos, A. (2026). The “Waterfall” Khipu Set and Indigenous Political Organization in the 16th Century. <i>The Khipu Field Guide Blog</i>, 2 February. <a href="https://khipufieldguide.ghost.io/the-waterfall-khipu-set-and-indigenous-political-organization-in-the-16th-century/">Link</a>.</li>
-<li>Contreras, M. (2026). Structural Pattern Mining in Inka Khipus: Unsupervised Clustering, Provenance Classification, and a Computational Validation of the Santa Valley Match. Preprint, arXiv:2607.00185.</li>
+<li>Contreras, M. (2026). Structural Pattern Mining in Inka Khipus: Unsupervised Clustering, Provenance Classification, and a Computational Validation of the Santa Valley Match. Preprint, arXiv:2607.00185. <a href="https://doi.org/10.48550/arXiv.2607.00185">DOI</a>.</li>
 <li>FitzPatrick, M. (2024). New Insights on Cord Attachment and Social Hierarchy in Six Khipus from the Santa Valley, Peru. <i>Ethnohistory</i> 71(4): 443-469. <a href="https://doi.org/10.1215/00141801-11266328">DOI</a>.</li>
-<li>Florio, C. and Overmann, K. A. (2025). Inka numbers, khipu, and yupana: a reanalysis. <i>Journal of Cognition and Culture</i> 25(1-2): 128-158. <a href="https://doi.org/10.1163/15685373-12340204">DOI 10.1163/15685373-12340204</a>.</li>
+<li>Florio, C. and Overmann, K. A. (2025). Inka numbers, khipu, and yupana: a reanalysis. <i>Journal of Cognition and Culture</i> 25(1-2): 128-158. <a href="https://doi.org/10.1163/15685373-12340204">DOI</a>.</li>
 <li>Hyland, S. (2017). Writing with Twisted Cords: The Inscriptive Capacity of Andean Khipus. <i>Current Anthropology</i> 58(3): 412-419. <a href="https://doi.org/10.1086/691682">DOI</a>.</li>
 <li>LeVine, T. Y. (ed.) (1992). <i>Inka Storage Systems</i>. University of Oklahoma Press.</li>
-<li>Locke, L. L. (1912). The ancient quipu, a Peruvian knot record. <i>American Anthropologist</i> 14(2): 325-332.</li>
+<li>Locke, L. L. (1912). The ancient quipu, a Peruvian knot record. <i>American Anthropologist</i> 14(2): 325-332. <a href="https://doi.org/10.1525/aa.1912.14.2.02a00070">DOI</a>.</li>
 <li>Medrano, M. and Khosla, A. (2024). How can data science contribute to understanding the khipu code? <i>Latin American Antiquity</i> 36(2): 497-516 (published online in 2024). <a href="https://doi.org/10.1017/laq.2024.5">DOI</a>. Data: <a href="https://doi.org/10.5281/zenodo.10472429">Zenodo</a>.</li>
 <li>Medrano, M. and Urton, G. (2018). Toward the Decipherment of a Set of Mid-Colonial Khipus from the Santa Valley, Coastal Peru. <i>Ethnohistory</i> 65(1): 1-23. <a href="https://doi.org/10.1215/00141801-4260638">DOI</a>.</li>
 <li>Murra, J. V. (2024). <i>The Ethno-Categories of a Regional Khipu</i>. Andean Past Special Publication 13.</li>
@@ -781,7 +794,7 @@ h3{font-size:clamp(25px,3.4vw,31px)}
 <li>Pärssinen, M. (1992). <i>Tawantinsuyu: The Inca State and Its Political Organization</i>. Societas Historica Finlandiae.</li>
 <li>Platt, T. (2002). “Without Deceit or Lies”: Variable Chinu Readings during a Sixteenth-Century Tribute-Restitution Trial. In J. Quilter and G. Urton (eds.), <i>Narrative Threads: Accounting and Recounting in Andean Khipu</i>, from p. 225. University of Texas Press.</li>
 <li>Shukla, Makwana and Gupta (2019). Determination of Some Engineering Properties of Groundnut Pod (Gg-20 Variety). <i>Int. J. Curr. Microbiol. Appl. Sci.</i> 8(2): 3025–3030. <a href="https://doi.org/10.20546/ijcmas.2019.802.354">DOI</a>.</li>
-<li>Sivan, J. (2026). Reading the Inca Spreadsheet: How Khipu Knots Encode a Syllabic Data Language. Preprint, ALBA Project, March 2026.</li>
+<li>Sivan, J. (2026). Reading the Inca Spreadsheet: How Khipu Knots Encode a Syllabic Data Language. Preprint, ALBA Project, March 2026. <a href="https://doi.org/10.5281/zenodo.19184002">DOI</a>.</li>
 <li>Urton, G. (2005). Khipu Archives: Duplicate Accounts and Identity Labels in the Inka Knotted String Records. <i>Latin American Antiquity</i> 16(2): 147-167. <a href="https://doi.org/10.2307/30042809">DOI</a>.</li>
 <li>Urton, G. (2017). <i>Inka History in Knots: Reading Khipus as Primary Sources</i>. University of Texas Press.</li>
 <li>Urton, G. and Brezine, C. J. (2005). Khipu accounting in ancient Peru. <i>Science</i> 309(5737): 1065-1067. <a href="https://doi.org/10.1126/science.1113426">DOI</a>.</li>

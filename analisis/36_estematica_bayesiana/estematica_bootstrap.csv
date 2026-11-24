@@ -1,0 +1,4 @@
+familia,sitios_comparables,sinapomorfias_compartidas,autapomorfias_a,autapomorfias_b,constantes,hipotesis,soporte_bootstrap,nota
+"Inkawasi (UR278, UR266, UR275)",12,5,0,0,7,"Ancestro intermedio alpha (UR278 -> alpha -> {UR266, UR275}) vs derivacion independiente",0.998,Los desajustes compartidos en ambos libros dan soporte >99% al nodo alpha frente a errores independientes (no separa alpha de UR278->UR266->UR275 sin desglose).
+"Leymebamba F02 (UR006, UR009, UR021)",4,1,2,1,0,"Biparticion {UR009, UR021} vs {UR006} (estrella si < 0.70)",0.143,"Bootstrap repartido: (9,21)=14.3%, (6,21)=49.8%, (6,9)=15.0%. Confirma estrella no resuelta."
+"Costa Sur F08 (KH0049, UR122)",44,1,22,22,0,Error conjuntivo compartido 15652/15649 + perdida en UR122,1.0,15652 presente en KH0049 B1[1] y UR122 B0[1] frente a suma 15649; UR122 omite/rompe 12 posiciones que KH0049 conserva.

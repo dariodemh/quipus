@@ -123,6 +123,7 @@ Priority, from highest to lowest: 1, 2, 3, 4, 5, 6, 7. The first four are the ch
 - **Prediction (speculative, low priority):** if khipus 8 and 9, each with 9 pendant cords, record the same 9 units, their values will decline with position (ρ < −0.5) and will have a CV close to 0.2.
 - **Refutes:** values without order or very unequal (CV > 0.5).
 - *Source:* work log (SINTESIS.md, Spanish only), «Búsqueda de Chu y del valle de Cañete».
+- **Status (2026-11-23, out-of-sample — REFUTED):** tested on the 11 virgin Huacones field sheets in OKR (`JC024–JC034`; [`analisis/35_huacones_virgenes/informe.md`](../../35_huacones_virgenes/informe.md)). Quipu 8 (`JC024`, 8 pendants) yields `ρ = −0.952` but `CV = 1.283` (> 0.5), and Quipu 9 (`JC031`, 9 pendants with 4 blanks) yields `ρ = −0.400` and `CV = 1.227` (> 0.5).
 
 ## C. Colonial documents
 

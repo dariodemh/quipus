@@ -92,8 +92,13 @@ class Contexto:
         return preparar(pd.read_csv(AN / "datos/cuerdas.csv", low_memory=False, keep_default_na=False))
 
     @cached_property
-    def extra(self):  # 19 quipus de OKR sin KFG, mismo esquema (17_okr_pendientes)
-        return preparar(pd.read_csv(AN / "17_okr_pendientes/cuerdas_extra.csv", low_memory=False, keep_default_na=False))
+    def extra(self):  # 19 OKR extra + 11 Huacones + JS01 (31 quipus fuera de KFG)
+        partes = [pd.read_csv(AN / p, low_memory=False, keep_default_na=False) for p in (
+            "17_okr_pendientes/cuerdas_extra.csv",
+            "35_huacones_virgenes/cuerdas_huacones.csv",
+            "37_vision_y_extra/cuerdas_js01.csv",
+        ) if (AN / p).exists()]
+        return preparar(pd.concat(partes, ignore_index=True))
 
     @cached_property
     def Q(self):

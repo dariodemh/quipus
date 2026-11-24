@@ -1,0 +1,38 @@
+{
+  "js01": {
+    "cuerdas": 138,
+    "colgantes": 65,
+    "subsidiarias": 73,
+    "anudadas": 137,
+    "no_decimales": 136,
+    "frac_no_dec": 0.9927,
+    "suma_total": 4652,
+    "nudos_sp": 6
+  },
+  "rt16905": {
+    "n_nodos": 14,
+    "n_pares": 91,
+    "n_enlazados": 20,
+    "jacc_enlazados": 0.1524,
+    "jacc_no_enlazados": 0.1091,
+    "p_jacc": 0.1009,
+    "ldiff_enlazados": 6.78,
+    "ldiff_no_enlazados": 10.55,
+    "p_largo": 0.009
+  },
+  "ur298": {
+    "n_ceros": 13,
+    "n_adyacentes": 45,
+    "mediana_cero_cm": 10.5,
+    "mediana_adj_cm": 5.5,
+    "razon_medianas": 1.909,
+    "razones_intracuerda": [
+      1.615,
+      1.294,
+      1.615
+    ],
+    "mediana_intracuerda": 1.615,
+    "mannwhitney_u": 585.0,
+    "p_u": 1.9412792239154654e-08
+  }
+}
