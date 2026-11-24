@@ -123,6 +123,13 @@ h3{font-size:clamp(25px,3.4vw,31px)}
 ::selection{background:color-mix(in srgb,var(--indigo) 22%,transparent)}
 @media (max-width:700px){figure:not(.texto):not(.foto) .lienzo svg{min-width:640px;max-width:none}}
 @media (max-width:600px){.fila-num{font-size:14.5px}}
+.resumen-rapido{background:var(--tarjeta);border:1px solid var(--regla);border-left:4px solid var(--fibra);border-radius:10px;padding:20px 24px;margin:28px auto 34px;font-family:var(--sans);font-size:16px;line-height:1.58}
+.resumen-rapido .etq-res{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--fibra);margin:0 0 10px}
+.resumen-rapido p.gancho{font-family:var(--serif);font-size:20px;line-height:1.45;color:var(--tinta);margin:0 0 14px}
+.resumen-rapido ul{margin:0;padding-left:18px;display:grid;gap:8px;color:var(--tinta)}
+.resumen-rapido li{margin:0}
+.resumen-rapido b{font-weight:600}
+@media (max-width:600px){.resumen-rapido{padding:16px 18px;font-size:15px}.resumen-rapido p.gancho{font-size:18px}}
 </style>
 
 <header class="col">
@@ -138,6 +145,17 @@ h3{font-size:clamp(25px,3.4vw,31px)}
 </figure>
 
 <main>
+<aside class="col resumen-rapido" aria-label="Resumen en lenguaje sencillo">
+  <div class="etq-res">En un minuto · sin jerga estadística</div>
+  <p class="gancho">Los incas no tenían escritura alfabética, pero administraron un imperio entero con cuerdas anudadas: los <b>quipus</b>. Aquí probamos con computadora qué guardaban realmente.</p>
+  <ul>
+    <li><b>¿Qué hicimos?</b> Revisamos los casi 58&nbsp;000 hilos digitalizados de 650 quipus (más 31 inéditos que añadimos aparte) con pruebas de azar estrictas, para no confundir casualidades matemáticas con patrones reales.</li>
+    <li><b>El hallazgo principal:</b> En un almacén inca de Cañete (Inkawasi) logramos reconstruir una contabilidad completa en tres pasos —como pasar de un cuaderno borrador a una tabla limpia y luego a un libro resumen—, siguiendo entregas de maní número por número, incluso detectando posibles errores humanos de un solo nudo.</li>
+    <li><b>Lo que se parece a hoy:</b> Cuando se miran todos los quipus juntos, funcionan mucho más como <b>hojas de cálculo y formularios</b> que como libros de texto. No aparece un «diccionario» único de colores para todo el imperio ni escritura por sílabas, y muchas sumas que parecían intencionales salen por puro azar.</li>
+    <li><b>Qué puedes explorar aquí:</b> Si no quieres leer los 45 minutos, puedes saltar directo a las tarjetas interactivas de abajo, abrir el <a href="lector.es.html">lector web de 682 quipus</a> para inspeccionar cualquier pieza en tu navegador o revisar las <a href="https://github.com/dariodemh/quipus/blob/main/analisis/paquete_revision/protocolo_museo_5_nudos.md">5 pruebas concretas en museo</a> que confirmarían o tumbarían esta lectura.</li>
+  </ul>
+</aside>
+
 <section class="col" id="version-corta">
 <h2>La versión corta</h2>
 
