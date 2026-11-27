@@ -98,7 +98,7 @@
           <div class="card"><div class="big">691</div>quipus unificados (+ KH0652)<br>61 038 cuerdas</div>
           <div class="card"><div class="big">41</div>quipus <i>held-out</i> puros<br>fuera de muestra</div>
           <div class="card"><div class="big">98</div>pruebas en el registro<br>(26 prerregistradas SHA-256)</div>
-          <div class="card"><div class="big">0–1 %</div>FPR empírica del lector v2<br>en nivel «apoyado»</div>
+          <div class="card"><div class="big">0–1 %</div>FPR empírica del lector v2<br>en nivel “apoyado”</div>
         </div>
         <p style="margin-top:22px;font-family:system-ui,sans-serif;font-size:0.88rem;color:#cfc6b9">Repositorio abierto: github.com/dariodemh/quipus · Semilla fija: 20261127 · Todos los negativos publicados con igual visibilidad que los positivos.</p>
   </div>
@@ -111,7 +111,7 @@
   <div>
     <div class="kicker">1 · El problema metodológico</div>
     <h2>Por qué un corpus heterogéneo engaña sin modelos nulos estrictos</h2>
-    <p class="lead">En 650+ quipus con decenas de miles de números y colores, casi cualquier regla buscada a posteriori produce coincidencias aparentemente «significativas».</p>
+    <p class="lead">En 650+ quipus con decenas de miles de números y colores, casi cualquier regla buscada a posteriori produce coincidencias aparentemente “significativas”.</p>
         <div class="grid3">
           <div class="card"><h3>1. Sumas por azar</h3>El 74 % de Medrano y Khosla (2024) cuenta bien las relaciones de Ascher, pero al barajar quipu por quipu el azar reproduce entre <b>93 % y 100 %</b> de ellas (potencia ~24 %).</div>
           <div class="card"><h3>2. Fugas y pseudorreplicación</h3>Mezclar cuerdas como muestras independientes o validar sin agrupar por sitio/fuente infla <i>p</i> hasta 10<sup>−267</sup> y oculta efectos de capturista (<code>CREATED_BY</code>).</div>
@@ -126,16 +126,16 @@
 <section class="slide">
   <div>
     <div class="kicker">2 · Corpus Maestro Unificado (Bloque A)</div>
-    <h2>691 quipus, 61 038 cuerdas y cero duplicados silenciosos</h2>
+    <h2>691 quipus, 61,038 cuerdas y cero duplicados silenciosos</h2>
     <p>Reconciliamos KFG (Ashok Khosla), OKR v2.1.0, el <i>Databook</i> de los Ascher, las 222 correcciones de Thompson (2025a), RT-16905 (Chirinos/Ghezzi/Álvarez 2023) y Huacones-Vilcahuasi.</p>
         <table>
           <thead><tr><th>Componente</th><th>Volumen</th><th>Reconciliación clave</th></tr></thead>
           <tbody>
             <tr><td><b>Base KFG limpia</b></td><td>650 quipus</td><td>Excluye duplicado UR044; corrige 4 desfases KH0197/0227/0267/0350 y alias UR1180/MM1086.</td></tr>
-            <tr><td><b>Held-out puro (nuevo)</b></td><td><b>41 quipus</b> (2 483)</td><td>14 de RT-16905 + 11 de Huacones + 3 transcritos (KH0674–676) + 8 OKR/BM + 5 Databook genuinamente ausentes.</td></tr>
+            <tr><td><b>Held-out puro (nuevo)</b></td><td><b>41 quipus</b> (2,483)</td><td>14 de RT-16905 + 11 de Huacones + 3 transcritos (KH0674–676) + 8 OKR/BM + 5 Databook genuinamente ausentes.</td></tr>
             <tr><td><b>Rescate OKR</b></td><td>248 T · 447 M</td><td>Calcula valores desde SUM(knot_value_type); restaura las 111 cuerdas faltantes de Inkawasi (UR274B = 133 cuerdas).</td></tr>
             <tr><td><b>Thompson (2025a)</b></td><td>222 filas / 108 AS</td><td>19 parches deterministas en columna paralela <code>valor_thompson</code> (nunca sobrescribe el valor crudo).</td></tr>
-            <tr><td><b>Física 2D y CIELAB</b></td><td>96,8 % Lab · 64,9 % 2D</td><td>Coordenadas CIE <i>L*a*b*</i> continuas y geometría física en cm sin etiquetas humanas.</td></tr>
+            <tr><td><b>Física 2D y CIELAB</b></td><td>96.8 % Lab · 64.9 % 2D</td><td>Coordenadas CIE <i>L*a*b*</i> continuas y geometría física en cm sin etiquetas humanas.</td></tr>
           </tbody>
         </table>
   </div>
@@ -152,7 +152,7 @@
           <div class="card">
             <span class="tag t-ok">CONFIRMADO · p_Holm(m=6) = 0,0168</span>
             <h3 style="margin-top:8px">P01.1 · Mayor abre grupo</h3>
-            <div class="big">27,9 %</div>
+            <div class="big">27.9 %</div>
             29 de 104 grupos en los 41 quipus <i>held-out</i> frente a 17,0 % esperado por azar.
             <div class="bar-wrap"><div class="bar" style="width:72%"></div></div>
           </div>
@@ -277,10 +277,10 @@
         <table>
           <thead><tr><th>Prueba</th><th>Hipótesis evaluada (QAP 10 000 perm)</th><th>Estadístico</th><th>p / p_Holm</th><th>Veredicto</th></tr></thead>
           <tbody>
-            <tr><td class="mono">P02.1</td><td>Sumas jerárquicas >=10 en pares físicamente adyacentes</td><td>diff_Z = +0,0881</td><td>0,063 / 0,251</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
-            <tr><td class="mono">P02.2</td><td>Similitud numérica SW (sin sesgo de tamaño) vs cercanía física</td><td>ρ_Mantel = +0,1026</td><td>0,159 / 0,478</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
-            <tr><td class="mono">P02.3</td><td>Coherencia textil (color/torsión sin tamaño) vs cercanía física</td><td>ρ_Mantel = +0,0174</td><td>0,406 / 0,812</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
-            <tr><td class="mono">P02.4</td><td>Alineación cromática de los 19 hilos de K15 sobre su huésped K01</td><td>align = 0,1579</td><td>0,732 / 0,812</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
+            <tr><td class="mono">P02.1</td><td>Sumas jerárquicas >=10 en pares físicamente adyacentes</td><td>diff_Z = +0.0881</td><td>0.063 / 0.251</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
+            <tr><td class="mono">P02.2</td><td>Similitud numérica SW (sin sesgo de tamaño) vs cercanía física</td><td>ρ_Mantel = +0.1026</td><td>0.159 / 0.478</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
+            <tr><td class="mono">P02.3</td><td>Coherencia textil (color/torsión sin tamaño) vs cercanía física</td><td>ρ_Mantel = +0.0174</td><td>0.406 / 0.812</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
+            <tr><td class="mono">P02.4</td><td>Alineación cromática de los 19 hilos de K15 sobre su huésped K01</td><td>align = 0.1579</td><td>0.732 / 0.812</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
           </tbody>
         </table>
         <p style="margin-top:12px" class="muted">D02.5: solo 1 de 14 quipus (K10, 1 de 3 grupos) tiene suma interna. Los pares adyacentes K01–K04 (z=2,39) y K10–K11 (z=1,67) destacan localmente, pero el patrón global del atado es archivístico, no aritmético.</p>
@@ -369,21 +369,21 @@
 <section class="slide">
   <div>
     <div class="kicker">12 · Torneo generativo colonial (Bloque D · P06)</div>
-    <h2>1 190 ítems coloniales revelan el espejismo LODO vs LOSO</h2>
+    <h2>1,190 ítems coloniales revelan el espejismo LODO vs LOSO</h2>
     <p>Extrajimos <b>1 190 ítems en 38 tablas independientes</b> de 5 géneros fiscales (Curatola 2013, Chirinos 2010, Pärssinen 1992 y 11_rosetta) y evaluamos un clasificador gaussiano regularizado sobre 8 firmas numéricas invariantes.</p>
         <div class="grid3">
           <div class="card">
-            <span class="tag t-bad">P06.1 · LOSO = 0,075</span>
+            <span class="tag t-bad">P06.1 · LOSO = 0.075</span>
             <h3 style="margin-top:8px">LODO engaña; LOSO desnuda</h3>
             LODO da bAcc = <b>0,382</b> (p = 0,0025), pero dejar una fuente editorial fuera (LOSO) colapsa a <b>0,075</b> (p = 0,972). El modelo aprende autor/edición, no género universal.
           </div>
           <div class="card">
-            <span class="tag t-bad">P06.2 · 31,2 %</span>
+            <span class="tag t-bad">P06.2 · 31.2 %</span>
             <h3 style="margin-top:8px">Controles no circulares</h3>
             Acierto medio = 31,2 % (p = 0,391): ASG 7/23 (30 %), PAD Santa 1/6 (17 %), TAL OOD 13/28 (46 %). Las marginales solas no identifican el género de un quipu.
           </div>
           <div class="card">
-            <span class="tag t-bad">P06.3 · FPR = 38,5 %</span>
+            <span class="tag t-bad">P06.3 · FPR = 38.5 %</span>
             <h3 style="margin-top:8px">FPR sintética bloquea la frontera</h3>
             El modelo asigna 36/148 (24,3 %) de la frontera, pero asigna <b>38,5 %</b> de 1 000 listas sintéticas sin género (p = 0,9999). La puerta FPR &lt; 5 % impide falsos hallazgos.
           </div>
@@ -409,14 +409,14 @@
             <table>
               <thead><tr><th>Lista colonial (sin Bambamarca)</th><th>n</th><th>ρ</th><th>CV</th></tr></thead>
               <tbody>
-                <tr><td>PAR1992 Table 6</td><td>61</td><td>−0,607</td><td>1,720</td></tr>
-                <tr><td>PAR1992 Table 3</td><td>51</td><td>−0,440</td><td>1,441</td></tr>
-                <tr><td>PAR1992 Table 7</td><td>35</td><td>−0,335</td><td>1,515</td></tr>
-                <tr><td>PAR1992 Table 8</td><td>18</td><td>−0,320</td><td>1,709</td></tr>
-                <tr><td>PAR1992 Table 4</td><td>9</td><td>−0,268</td><td>1,079</td></tr>
-                <tr><td>Chucuito 1567 (Chirinos)</td><td>17</td><td>−0,105</td><td>0,416</td></tr>
-                <tr><td>PAR1992 Table 9 / 10</td><td>16 / 15</td><td>+0,015 / +0,503</td><td>0,58 / 0,60</td></tr>
-                <tr style="background:#fdf1d6;font-weight:700"><td>UR278 (Inkawasi, referencia)</td><td>9</td><td>−0,730</td><td>0,173</td></tr>
+                <tr><td>PAR1992 Table 6</td><td>61</td><td>−0.607</td><td>1.720</td></tr>
+                <tr><td>PAR1992 Table 3</td><td>51</td><td>−0.440</td><td>1.441</td></tr>
+                <tr><td>PAR1992 Table 7</td><td>35</td><td>−0.335</td><td>1.515</td></tr>
+                <tr><td>PAR1992 Table 8</td><td>18</td><td>−0.320</td><td>1.709</td></tr>
+                <tr><td>PAR1992 Table 4</td><td>9</td><td>−0.268</td><td>1.079</td></tr>
+                <tr><td>Chucuito 1567 (Chirinos)</td><td>17</td><td>−0.105</td><td>0.416</td></tr>
+                <tr><td>PAR1992 Table 9 / 10</td><td>16 / 15</td><td>+0.015 / +0.503</td><td>0.58 / 0.60</td></tr>
+                <tr style="background:#fdf1d6;font-weight:700"><td>UR278 (Inkawasi, referencia)</td><td>9</td><td>−0.730</td><td>0.173</td></tr>
               </tbody>
             </table>
           </div>
@@ -430,7 +430,7 @@
 <section class="slide">
   <div>
     <div class="kicker">14 · Lector de Quipus v2 y Calibración Empírica de FPR</div>
-    <h2>19 pruebas de regresión y 0–1 % de falsos positivos en nivel «apoyado»</h2>
+    <h2>19 pruebas de regresión y 0–1 % de falsos positivos en nivel “apoyado”</h2>
     <p>El lector v2 resuelve cualquier quipu del Corpus Maestro (691 objetos, incluidos KH0674, QU005, RT-16905 y Huacones) o cualquier CSV externo. Probamos sus detectores internos en <b>100 quipus sintéticos realistas barajados</b>:</p>
         <table>
           <thead><tr><th>Detector interno</th><th>FPR propuesto+</th><th>FPR apoyado+</th><th>Evaluación</th></tr></thead>
@@ -489,7 +489,7 @@
           </div>
           <div class="card">
             <h3>Errores nuestros corregidos y retirados</h3>
-            <p>• Retiramos <code>UR267A+B → UR269</code> (falló fuera de muestra, Holm 0,50) y nuestra hipótesis prerregistrada de ceques <code>UR050+UR055</code> (0/3 predicciones).<br>• Corregimos nuestro <i>p</i>=0,006 circular del Santa a 0,24.<br>• Rebajamos 1 390 t a 500–950 t al exigir fuente primaria.<br>• Corregimos «no se distingue del azar» por «no es informativo» sobre el 74 %.</p>
+            <p>• Retiramos <code>UR267A+B → UR269</code> (falló fuera de muestra, Holm 0,50) y nuestra hipótesis prerregistrada de ceques <code>UR050+UR055</code> (0/3 predicciones).<br>• Corregimos nuestro <i>p</i>=0,006 circular del Santa a 0,24.<br>• Rebajamos 1 390 t a 500–950 t al exigir fuente primaria.<br>• Corregimos “no se distingue del azar” por “no es informativo” sobre el 74 %.</p>
           </div>
         </div>
   </div>

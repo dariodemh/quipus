@@ -112,7 +112,7 @@ def build_slides(lang, ctx):
           <div class="card"><div class="big">691</div>{"quipus unificados (+ KH0652)<br>61 038 cuerdas" if es else "unified khipus (+ KH0652)<br>61,038 cords"}</div>
           <div class="card"><div class="big">41</div>{"quipus <i>held-out</i> puros<br>fuera de muestra" if es else "pure held-out khipus<br>out-of-sample"}</div>
           <div class="card"><div class="big">{reg['total_pruebas']}</div>{"pruebas en el registro<br>(26 prerregistradas SHA-256)" if es else "tests in register<br>(26 SHA-256 preregistered)"}</div>
-          <div class="card"><div class="big">0–1 %</div>{"FPR empírica del lector v2<br>en nivel «apoyado»" if es else "empirical FPR of reader v2<br>at “indication” tier"}</div>
+          <div class="card"><div class="big">0–1 %</div>{"FPR empírica del lector v2<br>en nivel “apoyado”" if es else "empirical FPR of reader v2<br>at “indication” tier"}</div>
         </div>
         <p style="margin-top:22px;font-family:system-ui,sans-serif;font-size:0.88rem;color:#cfc6b9">{"Repositorio abierto: github.com/dariodemh/quipus · Semilla fija: 20261127 · Todos los negativos publicados con igual visibilidad que los positivos." if es else "Open repository: github.com/dariodemh/quipus · Fixed seed: 20261127 · Every negative result published with equal prominence to positive findings."}</p>"""
     ))
@@ -121,7 +121,7 @@ def build_slides(lang, ctx):
     slides.append((False,
         "1 · El problema metodológico" if es else "1 · The Methodological Problem",
         "Por qué un corpus heterogéneo engaña sin modelos nulos estrictos" if es else "Why a Heterogeneous Corpus Misleads Without Strict Null Models",
-        f"""<p class="lead">{"En 650+ quipus con decenas de miles de números y colores, casi cualquier regla buscada a posteriori produce coincidencias aparentemente «significativas»." if es else "Across 650+ khipus and tens of thousands of numbers and colors, almost any post-hoc rule yields seemingly “significant” coincidences."}</p>
+        f"""<p class="lead">{"En 650+ quipus con decenas de miles de números y colores, casi cualquier regla buscada a posteriori produce coincidencias aparentemente “significativas”." if es else "Across 650+ khipus and tens of thousands of numbers and colors, almost any post-hoc rule yields seemingly “significant” coincidences."}</p>
         <div class="grid3">
           <div class="card"><h3>{"1. Sumas por azar" if es else "1. Chance Sums"}</h3>{"El 74 % de Medrano y Khosla (2024) cuenta bien las relaciones de Ascher, pero al barajar quipu por quipu el azar reproduce entre <b>93 % y 100 %</b> de ellas (potencia ~24 %)." if es else "Medrano & Khosla's (2024) 74% counts Ascher relations accurately, but shuffling khipu-by-khipu reproduces <b>93%–100%</b> of them by chance (~24% power)."}</div>
           <div class="card"><h3>{"2. Fugas y pseudorreplicación" if es else "2. Leakage & Pseudoreplication"}</h3>{"Mezclar cuerdas como muestras independientes o validar sin agrupar por sitio/fuente infla <i>p</i> hasta 10<sup>−267</sup> y oculta efectos de capturista (<code>CREATED_BY</code>)." if es else "Treating cords as independent samples or validating without grouping by site/source inflates <i>p</i> to 10<sup>−267</sup> and hides recorder effects (<code>CREATED_BY</code>)."}</div>
@@ -132,16 +132,16 @@ def build_slides(lang, ctx):
     # 3. Master Corpus v2
     slides.append((False,
         "2 · Corpus Maestro Unificado (Bloque A)" if es else "2 · Unified Master Corpus (Block A)",
-        "691 quipus, 61 038 cuerdas y cero duplicados silenciosos" if es else "691 Khipus, 61,038 Cords, Zero Silent Duplicates",
+        "691 quipus, 61,038 cuerdas y cero duplicados silenciosos" if es else "691 Khipus, 61,038 Cords, Zero Silent Duplicates",
         f"""<p>{"Reconciliamos KFG (Ashok Khosla), OKR v2.1.0, el <i>Databook</i> de los Ascher, las 222 correcciones de Thompson (2025a), RT-16905 (Chirinos/Ghezzi/Álvarez 2023) y Huacones-Vilcahuasi." if es else "We reconciled KFG (Ashok Khosla), OKR v2.1.0, the Ascher <i>Databook</i>, Thompson's (2025a) 222 corrections, RT-16905 (Chirinos/Ghezzi/Álvarez 2023), and Huacones-Vilcahuasi."}</p>
         <table>
           <thead><tr><th>{"Componente" if es else "Component"}</th><th>{"Volumen" if es else "Volume"}</th><th>{"Reconciliación clave" if es else "Key Reconciliation"}</th></tr></thead>
           <tbody>
             <tr><td><b>{"Base KFG limpia" if es else "Clean KFG Base"}</b></td><td>650 {"quipus" if es else "khipus"}</td><td>{"Excluye duplicado UR044; corrige 4 desfases KH0197/0227/0267/0350 y alias UR1180/MM1086." if es else "Excludes duplicate UR044; fixes 4 shifted IDs KH0197/0227/0267/0350 and aliases UR1180/MM1086."}</td></tr>
-            <tr><td><b>{"Held-out puro (nuevo)" if es else "Pure Held-Out (new)"}</b></td><td><b>41 {"quipus" if es else "khipus"}</b> (2 483)</td><td>{"14 de RT-16905 + 11 de Huacones + 3 transcritos (KH0674–676) + 8 OKR/BM + 5 Databook genuinamente ausentes." if es else "14 RT-16905 + 11 Huacones + 3 transcribed (KH0674–676) + 8 OKR/BM + 5 genuinely absent Databook."}</td></tr>
+            <tr><td><b>{"Held-out puro (nuevo)" if es else "Pure Held-Out (new)"}</b></td><td><b>41 {"quipus" if es else "khipus"}</b> (2,483)</td><td>{"14 de RT-16905 + 11 de Huacones + 3 transcritos (KH0674–676) + 8 OKR/BM + 5 Databook genuinamente ausentes." if es else "14 RT-16905 + 11 Huacones + 3 transcribed (KH0674–676) + 8 OKR/BM + 5 genuinely absent Databook."}</td></tr>
             <tr><td><b>{"Rescate OKR" if es else "OKR Rescue"}</b></td><td>248 T · 447 M</td><td>{"Calcula valores desde SUM(knot_value_type); restaura las 111 cuerdas faltantes de Inkawasi (UR274B = 133 cuerdas)." if es else "Computes values from SUM(knot_value_type); restores 111 missing Inkawasi cords (UR274B = 133 cords)."}</td></tr>
             <tr><td><b>Thompson (2025a)</b></td><td>222 {"filas" if es else "rows"} / 108 AS</td><td>{"19 parches deterministas en columna paralela <code>valor_thompson</code> (nunca sobrescribe el valor crudo)." if es else "19 deterministic patches in parallel column <code>valor_thompson</code> (never overwrites raw values)."}</td></tr>
-            <tr><td><b>{"Física 2D y CIELAB" if es else "2D Physics & CIELAB"}</b></td><td>96,8 % Lab · 64,9 % 2D</td><td>{"Coordenadas CIE <i>L*a*b*</i> continuas y geometría física en cm sin etiquetas humanas." if es else "Continuous CIE <i>L*a*b*</i> coordinates and label-free physical geometry in cm."}</td></tr>
+            <tr><td><b>{"Física 2D y CIELAB" if es else "2D Physics & CIELAB"}</b></td><td>96.8 % Lab · 64.9 % 2D</td><td>{"Coordenadas CIE <i>L*a*b*</i> continuas y geometría física en cm sin etiquetas humanas." if es else "Continuous CIE <i>L*a*b*</i> coordinates and label-free physical geometry in cm."}</td></tr>
           </tbody>
         </table>"""
     ))
@@ -154,7 +154,7 @@ def build_slides(lang, ctx):
           <div class="card">
             <span class="tag t-ok">{"CONFIRMADO · p_Holm(m=6) = 0,0168" if es else "CONFIRMED · p_Holm(m=6) = 0.0168"}</span>
             <h3 style="margin-top:8px">{"P01.1 · Mayor abre grupo" if es else "P01.1 · Largest Opens Group"}</h3>
-            <div class="big">27,9 %</div>
+            <div class="big">27.9 %</div>
             {"29 de 104 grupos en los 41 quipus <i>held-out</i> frente a 17,0 % esperado por azar." if es else "29 of 104 groups in the 41 held-out khipus vs. 17.0% expected by chance."}
             <div class="bar-wrap"><div class="bar" style="width:72%"></div></div>
           </div>
@@ -264,10 +264,10 @@ def build_slides(lang, ctx):
         <table>
           <thead><tr><th>{"Prueba" if es else "Test"}</th><th>{"Hipótesis evaluada (QAP 10 000 perm)" if es else "Tested Hypothesis (10,000 QAP perms)"}</th><th>{"Estadístico" if es else "Statistic"}</th><th>p / p_Holm</th><th>{"Veredicto" if es else "Verdict"}</th></tr></thead>
           <tbody>
-            <tr><td class="mono">P02.1</td><td>{"Sumas jerárquicas >=10 en pares físicamente adyacentes" if es else "Hierarchical sums >=10 on physically adjacent pairs"}</td><td>diff_Z = +0,0881</td><td>0,063 / 0,251</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
-            <tr><td class="mono">P02.2</td><td>{"Similitud numérica SW (sin sesgo de tamaño) vs cercanía física" if es else "Size-standardized SW numeric similarity vs physical proximity"}</td><td>ρ_Mantel = +0,1026</td><td>0,159 / 0,478</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
-            <tr><td class="mono">P02.3</td><td>{"Coherencia textil (color/torsión sin tamaño) vs cercanía física" if es else "Textile coherence (color/twist without size) vs proximity"}</td><td>ρ_Mantel = +0,0174</td><td>0,406 / 0,812</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
-            <tr><td class="mono">P02.4</td><td>{"Alineación cromática de los 19 hilos de K15 sobre su huésped K01" if es else "Color alignment of K15's 19 wrapped threads with host K01"}</td><td>align = 0,1579</td><td>0,732 / 0,812</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
+            <tr><td class="mono">P02.1</td><td>{"Sumas jerárquicas >=10 en pares físicamente adyacentes" if es else "Hierarchical sums >=10 on physically adjacent pairs"}</td><td>diff_Z = +0.0881</td><td>0.063 / 0.251</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
+            <tr><td class="mono">P02.2</td><td>{"Similitud numérica SW (sin sesgo de tamaño) vs cercanía física" if es else "Size-standardized SW numeric similarity vs physical proximity"}</td><td>ρ_Mantel = +0.1026</td><td>0.159 / 0.478</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
+            <tr><td class="mono">P02.3</td><td>{"Coherencia textil (color/torsión sin tamaño) vs cercanía física" if es else "Textile coherence (color/twist without size) vs proximity"}</td><td>ρ_Mantel = +0.0174</td><td>0.406 / 0.812</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
+            <tr><td class="mono">P02.4</td><td>{"Alineación cromática de los 19 hilos de K15 sobre su huésped K01" if es else "Color alignment of K15's 19 wrapped threads with host K01"}</td><td>align = 0.1579</td><td>0.732 / 0.812</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
           </tbody>
         </table>
         <p style="margin-top:12px" class="muted">{"D02.5: solo 1 de 14 quipus (K10, 1 de 3 grupos) tiene suma interna. Los pares adyacentes K01–K04 (z=2,39) y K10–K11 (z=1,67) destacan localmente, pero el patrón global del atado es archivístico, no aritmético." if es else "D02.5: only 1 of 14 khipus (K10, 1 of 3 groups) has an internal sum. Adjacent pairs K01–K04 (z=2.39) and K10–K11 (z=1.67) lead locally, but the global tying pattern is archival, not arithmetic."}</p>"""
@@ -340,21 +340,21 @@ def build_slides(lang, ctx):
     # 13. P06 Colonial Generative Tournament
     slides.append((False,
         "12 · Torneo generativo colonial (Bloque D · P06)" if es else "12 · Colonial Generative Tournament (Block D · P06)",
-        "1 190 ítems coloniales revelan el espejismo LODO vs LOSO" if es else "1,190 Colonial Items Expose the LODO vs. LOSO Mirage",
+        "1,190 ítems coloniales revelan el espejismo LODO vs LOSO" if es else "1,190 Colonial Items Expose the LODO vs. LOSO Mirage",
         f"""<p>{"Extrajimos <b>1 190 ítems en 38 tablas independientes</b> de 5 géneros fiscales (Curatola 2013, Chirinos 2010, Pärssinen 1992 y 11_rosetta) y evaluamos un clasificador gaussiano regularizado sobre 8 firmas numéricas invariantes." if es else "We extracted <b>1,190 items across 38 independent tables</b> spanning 5 fiscal genres (Curatola 2013, Chirinos 2010, Pärssinen 1992, and 11_rosetta) and tested a regularized Gaussian classifier on 8 invariant numeric signatures."}</p>
         <div class="grid3">
           <div class="card">
-            <span class="tag t-bad">P06.1 · LOSO = 0,075</span>
+            <span class="tag t-bad">P06.1 · LOSO = 0.075</span>
             <h3 style="margin-top:8px">{"LODO engaña; LOSO desnuda" if es else "LODO Misleads; LOSO Exposes"}</h3>
             {"LODO da bAcc = <b>0,382</b> (p = 0,0025), pero dejar una fuente editorial fuera (LOSO) colapsa a <b>0,075</b> (p = 0,972). El modelo aprende autor/edición, no género universal." if es else "LODO gives bAcc = <b>0.382</b> (p = 0.0025), but Leave-One-Source-Out collapses to <b>0.075</b> (p = 0.972). The classifier learns author/edition, not universal genre."}
           </div>
           <div class="card">
-            <span class="tag t-bad">P06.2 · 31,2 %</span>
+            <span class="tag t-bad">P06.2 · 31.2 %</span>
             <h3 style="margin-top:8px">{"Controles no circulares" if es else "Non-Circular Controls"}</h3>
             {"Acierto medio = 31,2 % (p = 0,391): ASG 7/23 (30 %), PAD Santa 1/6 (17 %), TAL OOD 13/28 (46 %). Las marginales solas no identifican el género de un quipu." if es else "Mean accuracy = 31.2% (p = 0.391): ASG 7/23 (30%), PAD Santa 1/6 (17%), TAL OOD 13/28 (46%). Marginal distributions alone cannot identify a khipu's genre."}
           </div>
           <div class="card">
-            <span class="tag t-bad">P06.3 · FPR = 38,5 %</span>
+            <span class="tag t-bad">P06.3 · FPR = 38.5 %</span>
             <h3 style="margin-top:8px">{"FPR sintética bloquea la frontera" if es else "Synthetic FPR Gates the Frontier"}</h3>
             {"El modelo asigna 36/148 (24,3 %) de la frontera, pero asigna <b>38,5 %</b> de 1 000 listas sintéticas sin género (p = 0,9999). La puerta FPR &lt; 5 % impide falsos hallazgos." if es else "The model assigns 36/148 (24.3%) frontier khipus, but assigns <b>38.5%</b> of 1,000 genre-free synthetic lists (p = 0.9999). Our FPR &lt; 5% gate prevents false claims."}
           </div>
@@ -376,14 +376,14 @@ def build_slides(lang, ctx):
             <table>
               <thead><tr><th>{"Lista colonial (sin Bambamarca)" if es else "Colonial List (excl. Bambamarca)"}</th><th>n</th><th>ρ</th><th>CV</th></tr></thead>
               <tbody>
-                <tr><td>PAR1992 Table 6</td><td>61</td><td>−0,607</td><td>1,720</td></tr>
-                <tr><td>PAR1992 Table 3</td><td>51</td><td>−0,440</td><td>1,441</td></tr>
-                <tr><td>PAR1992 Table 7</td><td>35</td><td>−0,335</td><td>1,515</td></tr>
-                <tr><td>PAR1992 Table 8</td><td>18</td><td>−0,320</td><td>1,709</td></tr>
-                <tr><td>PAR1992 Table 4</td><td>9</td><td>−0,268</td><td>1,079</td></tr>
-                <tr><td>Chucuito 1567 (Chirinos)</td><td>17</td><td>−0,105</td><td>0,416</td></tr>
-                <tr><td>PAR1992 Table 9 / 10</td><td>16 / 15</td><td>+0,015 / +0,503</td><td>0,58 / 0,60</td></tr>
-                <tr style="background:#fdf1d6;font-weight:700"><td>UR278 (Inkawasi, referencia)</td><td>9</td><td>−0,730</td><td>0,173</td></tr>
+                <tr><td>PAR1992 Table 6</td><td>61</td><td>−0.607</td><td>1.720</td></tr>
+                <tr><td>PAR1992 Table 3</td><td>51</td><td>−0.440</td><td>1.441</td></tr>
+                <tr><td>PAR1992 Table 7</td><td>35</td><td>−0.335</td><td>1.515</td></tr>
+                <tr><td>PAR1992 Table 8</td><td>18</td><td>−0.320</td><td>1.709</td></tr>
+                <tr><td>PAR1992 Table 4</td><td>9</td><td>−0.268</td><td>1.079</td></tr>
+                <tr><td>Chucuito 1567 (Chirinos)</td><td>17</td><td>−0.105</td><td>0.416</td></tr>
+                <tr><td>PAR1992 Table 9 / 10</td><td>16 / 15</td><td>+0.015 / +0.503</td><td>0.58 / 0.60</td></tr>
+                <tr style="background:#fdf1d6;font-weight:700"><td>UR278 (Inkawasi, referencia)</td><td>9</td><td>−0.730</td><td>0.173</td></tr>
               </tbody>
             </table>
           </div>
@@ -394,7 +394,7 @@ def build_slides(lang, ctx):
     fdet = fpr["fpr_por_detector"]
     slides.append((False,
         "14 · Lector de Quipus v2 y Calibración Empírica de FPR" if es else "14 · Khipu Reader v2 & Empirical FPR Calibration",
-        "19 pruebas de regresión y 0–1 % de falsos positivos en nivel «apoyado»" if es else "19 Regression Checks and 0–1% False-Positive Rate at “Indication” Tier",
+        "19 pruebas de regresión y 0–1 % de falsos positivos en nivel “apoyado”" if es else "19 Regression Checks and 0–1% False-Positive Rate at “Indication” Tier",
         f"""<p>{"El lector v2 resuelve cualquier quipu del Corpus Maestro (691 objetos, incluidos KH0674, QU005, RT-16905 y Huacones) o cualquier CSV externo. Probamos sus detectores internos en <b>100 quipus sintéticos realistas barajados</b>:" if es else "Reader v2 resolves any Master Corpus khipu (691 objects, including KH0674, QU005, RT-16905, and Huacones) or any external CSV. We calibrated its detectors on <b>100 realistic shuffled synthetic khipus</b>:"}</p>
         <table>
           <thead><tr><th>{"Detector interno" if es else "Internal Detector"}</th><th>{"FPR propuesto+" if es else "FPR Conjecture+"}</th><th>{"FPR apoyado+" if es else "FPR Indication+"}</th><th>{"Evaluación" if es else "Assessment"}</th></tr></thead>
@@ -445,7 +445,7 @@ def build_slides(lang, ctx):
           </div>
           <div class="card">
             <h3>{"Errores nuestros corregidos y retirados" if es else "Our Own Errors Corrected & Withdrawn"}</h3>
-            <p>{"• Retiramos <code>UR267A+B → UR269</code> (falló fuera de muestra, Holm 0,50) y nuestra hipótesis prerregistrada de ceques <code>UR050+UR055</code> (0/3 predicciones).<br>• Corregimos nuestro <i>p</i>=0,006 circular del Santa a 0,24.<br>• Rebajamos 1 390 t a 500–950 t al exigir fuente primaria.<br>• Corregimos «no se distingue del azar» por «no es informativo» sobre el 74 %." if es else "• Withdrew <code>UR267A+B → UR269</code> (failed out-of-sample, Holm 0.50) and our preregistered ceque hypothesis <code>UR050+UR055</code> (0/3 predictions).<br>• Corrected our circular Santa <i>p</i>=0.006 to 0.24.<br>• Revised 1,390 t down to 500–950 t upon requiring primary sources.<br>• Tightened “indistinguishable from chance” to “not informative” for the 74% figure."}</p>
+            <p>{"• Retiramos <code>UR267A+B → UR269</code> (falló fuera de muestra, Holm 0,50) y nuestra hipótesis prerregistrada de ceques <code>UR050+UR055</code> (0/3 predicciones).<br>• Corregimos nuestro <i>p</i>=0,006 circular del Santa a 0,24.<br>• Rebajamos 1 390 t a 500–950 t al exigir fuente primaria.<br>• Corregimos “no se distingue del azar” por “no es informativo” sobre el 74 %." if es else "• Withdrew <code>UR267A+B → UR269</code> (failed out-of-sample, Holm 0.50) and our preregistered ceque hypothesis <code>UR050+UR055</code> (0/3 predictions).<br>• Corrected our circular Santa <i>p</i>=0.006 to 0.24.<br>• Revised 1,390 t down to 500–950 t upon requiring primary sources.<br>• Tightened “indistinguishable from chance” to “not informative” for the 74% figure."}</p>
           </div>
         </div>"""
     ))

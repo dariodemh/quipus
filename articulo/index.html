@@ -1768,7 +1768,7 @@ function cuerda(g, x, y0, c, sc, op){
   tx(svg, rx, 22, tl('B. Grupos por huecos en cm (sin etiquetas)', 'B. Physical cm-gap groups (no labels)'), {'font-size':12.5, style:'font-weight:600'});
   const bsc = 280 / 35;
   el('rect', {x:rx, y:44, width:F.seg_obs * bsc, height:16, rx:3, style:'fill:var(--ok)'}, svg);
-  tx(svg, rx + F.seg_obs * bsc + 8, 56, F.seg_obs + '/35 ' + tl('quipus (25,7 %)', 'khipus (25.7%)'), {'font-size':11.5, class:'m', style:'fill:var(--ok);font-weight:600'});
+  tx(svg, rx + F.seg_obs * bsc + 8, 56, F.seg_obs + '/35 ' + tl('quipus (25.7 %)', 'khipus (25.7%)'), {'font-size':11.5, class:'m', style:'fill:var(--ok);font-weight:600'});
   el('rect', {x:rx, y:66, width:F.seg_exp * bsc, height:12, rx:3, style:'fill:var(--regla)'}, svg);
   tx(svg, rx + F.seg_exp * bsc + 8, 76, F.seg_exp + '/35 ' + tl('esperados por azar', 'expected by chance'), {'font-size':11, class:'g m'});
 
@@ -1791,7 +1791,7 @@ function cuerda(g, x, y0, c, sc, op){
   const svg = $('svg-audit26'); if (!svg || !D.v2_audit26) return;
   const A = D.v2_audit26;
   const items = [
-    {t:tl('Entropía R/V (quipus con q < 0,05)', 'R/V entropy (khipus with q < 0.05)'), a:A.rv[0], b:A.rv[1], max:20,
+    {t:tl('Entropía R/V (quipus con q < 0.05)', 'R/V entropy (khipus with q < 0.05)'), a:A.rv[0], b:A.rv[1], max:20,
      la:A.rv[0] + '/39 ' + tl('barajado simple', 'simple shuffle'), lb:A.rv[1] + '/39 ' + tl('nulo con rachas', 'run-preserving null'), ok:false},
     {t:tl('Torsión imperial, Contreras 2026 (F1)', 'Imperial twist, Contreras 2026 (F1)'), a:A.ml[0], b:A.ml[1], max:0.30,
      la:A.ml[0].toFixed(3) + ' ' + tl('CV estratificada', 'stratified CV'), lb:A.ml[1].toFixed(3) + ' ' + tl('CV por sitio', 'site-grouped CV'), ok:false},
@@ -1800,7 +1800,7 @@ function cuerda(g, x, y0, c, sc, op){
     {t:tl('Zenil y Uthamacumaran 2026 (z padre-hijo)', 'Zenil & Uthamacumaran 2026 (parent-child z)'), a:A.zenil[0], b:A.zenil[1], max:8,
      la:'z = ' + A.zenil[0] + ' ' + tl('(fibra/torsión)', '(fiber/twist)'), lb:'z = ' + A.zenil[1] + ' ' + tl('(grupo/escala)', '(group/scale)'), ok:false},
     {t:tl('K-CAT padre = suma de subsidiarias', 'K-CAT parent = sum of subsidiaries'), a:A.kcat_sum[1], b:A.kcat_sum[0], max:6,
-     la:A.kcat_sum[1] + '% ' + tl('nulo intra-quipu', 'intra-khipu null'), lb:A.kcat_sum[0] + '% ' + tl('observado (p_Holm 0,003)', 'observed (p_Holm 0.003)'), ok:true},
+     la:A.kcat_sum[1] + '% ' + tl('nulo intra-quipu', 'intra-khipu null'), lb:A.kcat_sum[0] + '% ' + tl('observado (p_Holm 0.003)', 'observed (p_Holm 0.003)'), ok:true},
   ];
   const x0 = 285, W = 310;
   items.forEach((it, i) => {
@@ -1825,7 +1825,7 @@ function cuerda(g, x, y0, c, sc, op){
   [
     [tl('Por documento (LODO)', 'Leave-one-doc-out'), C.lodo, 'var(--fibra)'],
     [tl('Por fuente (LOSO)', 'Leave-one-source-out'), C.loso, 'var(--cochinilla)'],
-    [tl('FPR en 1000 sintéticos', 'FPR on 1,000 synthetics'), C.fpr, 'var(--cochinilla)'],
+    [tl('FPR en 1,000 sintéticos', 'FPR on 1,000 synthetics'), C.fpr, 'var(--cochinilla)'],
   ].forEach(([lbl, v, col], i) => {
     const y = 46 + i * 48;
     tx(svg, 20, y, lbl, {'font-size':11.5, class:'g'});

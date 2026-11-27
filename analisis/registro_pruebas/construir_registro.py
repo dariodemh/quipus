@@ -107,7 +107,7 @@ def build_new_entries(manifest):
 
     x = by(p1, "P01.2")
     add("P01.2", "Bloque A (Corpus Maestro)", "Held-out puro (41 quipus)", "Protocolo congelado SHA-256 (Holm m=6)",
-        "¿El hueco del cero posicional mide una banda decimal (~1,0) en los quipus held-out?",
+        "¿El hueco del cero posicional mide una banda decimal (~1.0) en los quipus held-out?",
         f"n={x['n_cuerdas']} cuerdas elegibles con alturas OKR y cero interno en held-out",
         "N/A", "N/A", "SIN POTENCIA",
         "P01_corpus_maestro_y_heldout.md", "analisis/36_corpus_maestro/resultados_P01.json",
@@ -134,7 +134,7 @@ def build_new_entries(manifest):
     cands = ", ".join(c["kh_id"] for c in x.get("candidatos", []))
     add("P01.4", "Bloque A (Corpus Maestro)", "Held-out puro (41 quipus)", "Protocolo congelado SHA-256 (Holm m=6)",
         "¿La alternancia de dos colores A/B/A/B (desfase 2) supera el 1 % en held-out?",
-        f"{x['n_sig_p001']}/{x['n_quipus']} quipus con p<0,01 vs {x['exp_p001']} esperados ({cands})",
+        f"{x['n_sig_p001']}/{x['n_quipus']} quipus con p<0.01 vs {x['exp_p001']} esperados ({cands})",
         f"p={x['p']:.2e}", f"p_Holm(m=6)={p1_holm_m6['P01.4']:.2e}",
         "CONFIRMADO" if p1_holm_m6["P01.4"] < 0.05 else "NEGATIVO",
         "P01_corpus_maestro_y_heldout.md", "analisis/36_corpus_maestro/resultados_P01.json",
@@ -143,10 +143,10 @@ def build_new_entries(manifest):
     x = by(p1, "P01.5")
     add("P01.5", "Bloque A (Corpus Maestro)", "Held-out puro (41 quipus)", "Protocolo congelado SHA-256 (Holm m=6)",
         "¿Las nuevas copias held-out × corpus se concentran en mismo sitio/museo (OR > 1)?",
-        f"{x['n_confirmadas']} copias confirmadas con q_BH<0,05 sobre {x['pares_evaluados']} pares (desviación declarada: B=2000 en lugar de 9999; top bruto KH0139~KH0138 SW=33,82)",
+        f"{x['n_confirmadas']} copias confirmadas con q_BH<0.05 sobre {x['pares_evaluados']} pares (desviación declarada: B=2000 en lugar de 9999; top bruto KH0139~KH0138 SW=33.82)",
         "N/A", "N/A", "SIN POTENCIA (DESVIACIÓN B=2000)",
         "P01_corpus_maestro_y_heldout.md", "analisis/36_corpus_maestro/resultados_P01.json",
-        "búsqueda fuera de muestra de copias (requiere B>=20000 para superar q_BH sobre 17 766 pares)")
+        "búsqueda fuera de muestra de copias (requiere B>=20000 para superar q_BH sobre 17,766 pares)")
 
     d16 = p1["descriptivo"]
     add("D01.6", "Bloque A (Corpus Maestro)", "Integridad Thompson 2025a y OKR", "Descriptiva",
@@ -160,7 +160,7 @@ def build_new_entries(manifest):
     x = by(p2, "P02.1")
     add("P02.1", "Bloque B (RT-16905)", "RT-16905 (15 quipus atados)", "Prerregistrada (Holm)",
         "¿Los quipus unidos en nodos físicos (Hubs A–G / H) contienen sumas jerárquicas >=10 del otro?",
-        f"diff_Z adyacentes vs no-adyacentes = +{x['obs_diff_Z_adj_vs_non']:.4f} (10 000 perm QAP)",
+        f"diff_Z adyacentes vs no-adyacentes = +{x['obs_diff_Z_adj_vs_non']:.4f} (10,000 perm QAP)",
         f"p={x['p']}", f"p_Holm={x['p_holm']}", "NEGATIVO",
         "P02_rt16905_enlazados.md", "analisis/37_bloque_B/resultados_P02.json",
         "primera prueba cuantitativa del conjunto atado RT-16905 (Chirinos/Ghezzi/Álvarez 2023)")
@@ -168,7 +168,7 @@ def build_new_entries(manifest):
     x = by(p2, "P02.2")
     add("P02.2", "Bloque B (RT-16905)", "RT-16905 (15 quipus atados)", "Prerregistrada (Holm)",
         "¿Los pares físicamente cercanos en RT-16905 tienen mayor similitud numérica SW (estandarizada por tamaño)?",
-        f"rho_Mantel = +{x['rho_mantel']:.4f} (top pares adyacentes: K01–K04 z=2,39, K10–K11 z=1,67)",
+        f"rho_Mantel = +{x['rho_mantel']:.4f} (top pares adyacentes: K01–K04 z=2.39, K10–K11 z=1.67)",
         f"p={x['p']}", f"p_Holm={x['p_holm']}", "NEGATIVO",
         "P02_rt16905_enlazados.md", "analisis/37_bloque_B/resultados_P02.json",
         "nuevo negativo: el atado físico no equivale a copias numéricas")
@@ -198,8 +198,8 @@ def build_new_entries(manifest):
     x = by(p3, "P03.1")
     d31 = x["detalle"]
     add("P03.1", "Bloque B (Casos abiertos)", "Huacones-Vilcahuasi (Pred. #13)", "Prerregistrada (Holm)",
-        "¿Los quipus de 8–9 colgantes de Huacones-Vilcahuasi replican la planitud (CV<0,25) y descenso de UR278?",
-        f"JC031 (KH0660): solo 5 positivos (rho=0,0, CV=0,61); JC024 (KH0653): 8 positivos, rho={d31['JC024_Quipu8']['rho']}, p={d31['JC024_Quipu8']['p']}, pero CV={d31['JC024_Quipu8']['cv']} (no plano)",
+        "¿Los quipus de 8–9 colgantes de Huacones-Vilcahuasi replican la planitud (CV<0.25) y descenso de UR278?",
+        f"JC031 (KH0660): solo 5 positivos (rho=0.0, CV=0.61); JC024 (KH0653): 8 positivos, rho={d31['JC024_Quipu8']['rho']}, p={d31['JC024_Quipu8']['p']}, pero CV={d31['JC024_Quipu8']['cv']} (no plano)",
         f"p={x['p']}", f"p_Holm={x['p_holm']}", "SIN POTENCIA / REFUTA PLANITUD",
         "P03_huacones_y_casos_abiertos.md", "analisis/37_bloque_B/resultados_P03.json",
         "primera prueba directa de Predicción #13 sobre Huacones-Vilcahuasi")
@@ -232,7 +232,7 @@ def build_new_entries(manifest):
     x = by(p3, "P03.5")
     add("P03.5", "Bloque B (Casos abiertos)", "Bases mixtas (Damerow–Englund)", "Prerregistrada (Holm)",
         "¿Algún quipu no-decimal/multiunidad mejora sus sumas exactas bajo pares de bases mixtas (r1, r2)?",
-        f"{x['n_quipus_evaluados']} quipus evaluados; mejor ganancia máxima = +1 acierto (p_min = 0,54)",
+        f"{x['n_quipus_evaluados']} quipus evaluados; mejor ganancia máxima = +1 acierto (p_min = 0.54)",
         f"p={x['p']}", f"p_Holm={x['p_holm']}", "NEGATIVO",
         "P03_huacones_y_casos_abiertos.md", "analisis/37_bloque_B/resultados_P03.json",
         "refuta hipótesis de sistemas metrológicos de base mixta tipo proto-cuneiforme")
@@ -242,7 +242,7 @@ def build_new_entries(manifest):
     e36c = fl3["E03_6_QU005_copias"]
     add("E03.6", "Bloque B (Casos abiertos)", "QU005 (Dallas)", "Post hoc (auditada)",
         "Auditoría de bloques de 19 colgantes en QU005 (57 colgantes = 3 bloques) + barrido de copias en 691 quipus",
-        f"{e36['mejor_trio']} en {e36['obs_exactas']}/19 exactas ({e36['obs_tol1']}/19 ±1) vs {e36['nulo_max_medio']} máx nulo sobre 3 tríos; barrido de copias en corpus: 0 copias confirmadas (top SW={e36c['top_5'][0]['sw']}, p_bonf=1,0)",
+        f"{e36['mejor_trio']} en {e36['obs_exactas']}/19 exactas ({e36['obs_tol1']}/19 ±1) vs {e36['nulo_max_medio']} máx nulo sobre 3 tríos; barrido de copias en corpus: 0 copias confirmadas (top SW={e36c['top_5'][0]['sw']}, p_bonf=1.0)",
         f"p_corr={e36['p_corregido_trios']}", f"p_corr={e36['p_corregido_trios']}",
         "APOYADO (POST HOC)",
         "P03_huacones_y_casos_abiertos.md", "analisis/37_bloque_B/resultados_P03.json; resultados_flecos_P03.json",
@@ -252,8 +252,8 @@ def build_new_entries(manifest):
     bm_sum = ", ".join(f"{k}:{v['n_colgantes']}c/{v['g_sum_hits']}s" for k, v in bm.items())
     add("E03.7", "Bloque B (Casos abiertos)", "British Museum (KH0633–635, KH0702)", "Exploratoria",
         "Barrido exploratorio de sumas internas y copias en los 4 quipus held-out del British Museum",
-        f"0/4 con sumas internas significativas ni copias confirmadas en 691 quipus ({bm_sum}; todo p_bonf=1,0)",
-        "p_min=0,549", "p_bonf=1,0", "NEGATIVO",
+        f"0/4 con sumas internas significativas ni copias confirmadas en 691 quipus ({bm_sum}; todo p_bonf=1.0)",
+        "p_min=0.549", "p_bonf=1.0", "NEGATIVO",
         "P03_huacones_y_casos_abiertos.md", "analisis/37_bloque_B/resultados_flecos_P03.json",
         "cierre exploratorio de los 4 quipus held-out del British Museum")
 
@@ -263,7 +263,7 @@ def build_new_entries(manifest):
         f"{d38['n_racimos_okr']} racimos en {d38['n_colgantes_con_altura']} colgantes OKR; centroides={d38['centroides_3_zonas_okr']} ({d38['conteos_por_zona']}); ΔBIC={d38['delta_BIC_1_vs_3']}",
         "—", "—", "CONFIRMADO (RÉPLICA OKR)" if d38["reproduce_zonas_020_041_075"] else "NEGATIVO",
         "P03_huacones_y_casos_abiertos.md", "analisis/37_bloque_B/resultados_flecos_P03.json",
-        "reproduce C11 (0,20/0,41/0,75) directamente sobre coordenadas crudas OKR")
+        "reproduce C11 (0.20/0.41/0.75) directamente sobre coordenadas crudas OKR")
 
     d39 = p3["descriptivo_D03_9_canete"]
     add("D03.9", "Bloque B (Casos abiertos)", "Valle de Cañete (Huacones vs Inkawasi)", "Descriptiva",
@@ -276,7 +276,7 @@ def build_new_entries(manifest):
     x = by(p4, "P04.1")
     add("P04.1", "Bloque C (Física y Auditoría)", "Color perceptual CIELAB", "Prerregistrada (Holm)",
         "¿Las copias entre transcriptores distintos preservan la cercanía perceptual ΔE2000 pese al cambio de etiqueta textual?",
-        f"mediana ratio ΔE2000 = {x['obs_ratio_dE_mediano']:.3f} en {x['n_pares_distinto_investigador']} pares (sí en policromos UR1175~UR232/233: ratio=0,44, p=0,0005; diluido por monocromos)",
+        f"mediana ratio ΔE2000 = {x['obs_ratio_dE_mediano']:.3f} en {x['n_pares_distinto_investigador']} pares (sí en policromos UR1175~UR232/233: ratio=0.44, p=0.0005; diluido por monocromos)",
         f"p={x['p']}", f"p_Holm={x['p_holm']}", "NEGATIVO",
         "P04_cielab_y_geometria_2d.md", "analisis/38_bloque_C/resultados_P04.json",
         "primera prueba perceptual CIELAB ΔE2000 entre transcriptores")
@@ -284,7 +284,7 @@ def build_new_entries(manifest):
     x = by(p4, "P04.2")
     add("P04.2", "Bloque C (Física y Auditoría)", "Color perceptual CIELAB", "Prerregistrada (Holm)",
         "¿La luminancia continua CIE L* correlaciona positivamente con log(1+valor) intra-grupo, incluso EXCLUYENDO el blanco (W)?",
-        f"Con W: med_rho=+{x['con_W']['med_rho_global']:.4f} (n={x['con_W']['n_quipus']}, p={x['con_W']['p']}); SIN W: med_rho=+{x['sin_W']['med_rho_global']:.4f} (n={x['sin_W']['n_quipus']}, UR=+0,0595, AS=+0,0083)",
+        f"Con W: med_rho=+{x['con_W']['med_rho_global']:.4f} (n={x['con_W']['n_quipus']}, p={x['con_W']['p']}); SIN W: med_rho=+{x['sin_W']['med_rho_global']:.4f} (n={x['sin_W']['n_quipus']}, UR=+0.0595, AS=+0.0083)",
         f"p={x['p']}", f"p_Holm={x['p_holm']}",
         "CONFIRMADO" if (x["p_holm"] is not None and x["p_holm"] < 0.05) else "NEGATIVO",
         "P04_cielab_y_geometria_2d.md", "analisis/38_bloque_C/resultados_P04.json",
@@ -292,8 +292,8 @@ def build_new_entries(manifest):
 
     x = by(p4, "P04.3")
     add("P04.3", "Bloque C (Física y Auditoría)", "Geometría 2D (OKR)", "Prerregistrada (Holm)",
-        "¿La segmentación puramente física por huecos en cm (k=2,0, sin etiquetas humanas) replica las tendencias monótonas intra-grupo?",
-        f"{x['n_sig_p005']}/{x['n_quipus_elegibles']} ({x['tasa_obs']:.1%}) quipus con p<0,05 vs {x['exp_p005']} esperados",
+        "¿La segmentación puramente física por huecos en cm (k=2.0, sin etiquetas humanas) replica las tendencias monótonas intra-grupo?",
+        f"{x['n_sig_p005']}/{x['n_quipus_elegibles']} ({x['tasa_obs']:.1%}) quipus con p<0.05 vs {x['exp_p005']} esperados",
         f"p={x['p']:.2e}", f"p_Holm={x['p_holm']:.2e}",
         "CONFIRMADO" if (x["p_holm"] is not None and x["p_holm"] < 0.05) else "NEGATIVO",
         "P04_cielab_y_geometria_2d.md", "analisis/38_bloque_C/resultados_P04.json",
@@ -319,7 +319,7 @@ def build_new_entries(manifest):
     x = by(p5, "P05.1")
     add("P05.1", "Bloque C (Auditoría 2026)", "khipu-rv-reproducibility (2026)", "Protocolo congelado SHA-256 (Holm)",
         "¿Sobrevive la entropía de transiciones R/V a un nulo que preserva longitudes de racha y sin el corte arbitrario Top-100?",
-        f"Fisher-Yates: {x['cohorte_27']['q_fy_lt005']}/27 y {x['cohorte_completa_sin_top100']['q_fy_lt005']}/39 q<0,05; bajo nulo de rachas: 0/27 y 0/39 q<0,05",
+        f"Fisher-Yates: {x['cohorte_27']['q_fy_lt005']}/27 y {x['cohorte_completa_sin_top100']['q_fy_lt005']}/39 q<0.05; bajo nulo de rachas: 0/27 y 0/39 q<0.05",
         f"p={x['p']}", f"p_Holm={x['p_holm']}", "FRÁGIL A RACHAS",
         "P05_auditoria_2026.md", "analisis/38_bloque_C/resultados_P05.json",
         "auditoría: señal colapsa a 0/39 bajo nulo de rachas (etiqueta exacta P05)")
@@ -342,7 +342,7 @@ def build_new_entries(manifest):
 
     x = by(p5, "P05.4")
     add("P05.4", "Bloque C (Auditoría 2026)", "K-CAT color×magnitud (2026)", "Protocolo congelado SHA-256 (Holm)",
-        "¿El Kruskal-Wallis p=3,6e-267 de color×magnitud refleja un léxico global o pseudorreplicación + clave local?",
+        "¿El Kruskal-Wallis p=3.6e-267 de color×magnitud refleja un léxico global o pseudorreplicación + clave local?",
         f"H ingenuo={x['kw_ingenuo_H']} (p={x['kw_ingenuo_p']:.1e}); clave local R²={x['R2_clave_local_intra_quipu']:.1%} vs etiqueta global R²={x['R2_etiqueta_global_obs']:.2%} (<2 %)",
         f"p={x['p']}", f"p_Holm={x['p_holm']}", "PSEUDORREPLICACIÓN Y CLAVE LOCAL",
         "P05_auditoria_2026.md", "analisis/38_bloque_C/resultados_P05.json",
@@ -359,7 +359,7 @@ def build_new_entries(manifest):
     x = by(p5, "P05.6")
     add("P05.6", "Bloque C (Auditoría 2026)", "Zenil & Uthamacumaran (2026)", "Protocolo congelado SHA-256 (Holm)",
         "¿La similitud algorítmica padre-hijo sobrevive a un re-cableado estricto que preserva (quipu, grupo, magnitud)?",
-        f"AUC distal replicado={x['auc_rol_distal_holdout']:.3f}; nulo (fibra/torsión) z={x['rewiring_b1_quipu_fibra_torsion']['z']}, p=0,002 -> nulo (grupo/magnitud) z={x['rewiring_b2_quipu_grupo_magnitud']['z']}",
+        f"AUC distal replicado={x['auc_rol_distal_holdout']:.3f}; nulo (fibra/torsión) z={x['rewiring_b1_quipu_fibra_torsion']['z']}, p=0.002 -> nulo (grupo/magnitud) z={x['rewiring_b2_quipu_grupo_magnitud']['z']}",
         f"p={x['p']}", f"p_Holm={x['p_holm']}", "EXPLICADO POR ESCALA LOCAL",
         "P05_auditoria_2026.md", "analisis/38_bloque_C/resultados_P05.json",
         "auditoría: aísla el escalado decimal local como mecanismo")
@@ -387,21 +387,21 @@ def build_new_entries(manifest):
 
     x = by(p6, "P06.3")
     add("P06.3", "Bloque D (Torneo Colonial)", "Frontera 180 quipus + FPR", "Prerregistrada (Holm)",
-        "¿Asigna el modelo generativo la frontera de 180 quipus con FPR empírica < 5 % en 1 000 sintéticos?",
+        "¿Asigna el modelo generativo la frontera de 180 quipus con FPR empírica < 5 % en 1,000 sintéticos?",
         f"{x['n_asignados_post070_chi005']}/{x['n_frontera_ge10']} ({x['tasa_asignada_frontera']:.1%}) asignados vs FPR sintética={x['FPR_sinteticos_1000']:.1%}",
         f"p={x['p']}", f"p_Holm={x['p_holm']}",
         "APOYADO" if x["veredicto"] == "APOYADO" else "NEGATIVO / FPR ALTA",
         "P06_torneo_colonial_generativo.md", "analisis/39_bloque_D/resultados_P06.json",
-        "calibración abierta con rechazo OOD y FPR en 1 000 sintéticos")
+        "calibración abierta con rechazo OOD y FPR en 1,000 sintéticos")
 
     x = by(p6, "P06.4")
     add("P06.4", "Bloque D (Torneo Colonial)", "Predicción #17 (sin Bambamarca)", "Protocolo congelado SHA-256 (Holm)",
         "¿Descienden sistemáticamente de mayor a menor las listas coloniales de >=7 unidades (excluyendo Bambamarca)?",
-        f"{x['n_listas_ge7_sin_Bambamarca']} listas independientes; mediana rho={x['mediana_rho']:+.4f} (no cruza umbral binario congelado < −0,30; nota: 6/8 negativas, p_Holm={x['p_holm']}), mediana CV={x['mediana_cv']:.3f}; 0/8 igualan a UR278 en pendiente (−0,73) ni planitud (CV=0,173)",
+        f"{x['n_listas_ge7_sin_Bambamarca']} listas independientes; mediana rho={x['mediana_rho']:+.4f} (no cruza umbral binario congelado < −0.30; nota: 6/8 negativas, p_Holm={x['p_holm']}), mediana CV={x['mediana_cv']:.3f}; 0/8 igualan a UR278 en pendiente (−0.73) ni planitud (CV=0.173)",
         f"p={x['p']}", f"p_Holm={x['p_holm']}",
         "CONFIRMA PREDICCIÓN #17 (REGLA BINARIA P06.4)" if x["veredicto"] == "ORDEN_DE_PRESTIGIO_CONFIRMA_P17" else "DESCENSO SISTEMÁTICO",
         "P06_torneo_colonial_generativo.md", "analisis/39_bloque_D/resultados_P06.json",
-        "regla binaria exacta P06.4 cumplida sin mover umbrales (med_rho=-0,2939 >= -0,30)")
+        "regla binaria exacta P06.4 cumplida sin mover umbrales (med_rho=-0.2939 >= -0.30)")
 
     return entries
 
@@ -605,7 +605,7 @@ function render() {
       <td>
         <div>${esc(d.pregunta)}</div>
         <div class="meta">${esc(d.novedad)} · <code>${esc(d.fuente)}</code></div>
-        ${d.sha256 ? `<div class="sha">SHA-256: ${d.sha256.slice(0,16)}… (${esc(d.preregistro)})</div>` : ""}
+        ${d.sha256 ? `<div class="sha">SHA-256: ${d.sha256.slice(0.16)}… (${esc(d.preregistro)})</div>` : ""}
       </td>
       <td>${esc(d.estadistico)}</td>
       <td>
