@@ -133,9 +133,9 @@ h3{font-size:clamp(25px,3.4vw,31px)}
 </style>
 
 <header class="col">
-  <div class="kicker">Essay · open to specialist review · October 2026, revised in November</div>
+  <div class="kicker">Essay v2 · open to specialist review · November 2026</div>
   <h1>What the khipus add up to</h1>
-  <p class="subtitulo">A reading of an Inka accounting archive and a statistical analysis of every digitized khipu</p>
+  <p class="subtitulo">A reading of an Inka accounting archive and a statistical audit of 691 digitized khipus</p>
   <div class="meta"><span><b>dario</b>, with AI agents</span><span>About 45 minutes to read</span><a href="overview.html">Visual overview</a><a href="lector.html">Browser Khipu Reader</a><a href="https://github.com/dariodemh/quipus">Code and data</a><a href="#referencias">References ↓</a><a href="index.es.html" hreflang="es" lang="es">Leer en español</a><button type="button" class="tema-btn" id="tema-btn" aria-label="Toggle color theme" aria-pressed="false">Dark theme</button></div>
 </header>
 
@@ -145,11 +145,11 @@ h3{font-size:clamp(25px,3.4vw,31px)}
 </figure>
 
 <main>
-<aside class="col resumen-rapido" aria-label="Plain-language summary">
-  <div class="etq-res">In one minute · no statistical jargon</div>
-  <p class="gancho">The Inka ran an entire empire with knotted cords called <b>khipus</b>. In this project we examined 691 digitized khipus and 61,038 cords against strict chance controls to separate genuine accounting from mathematical coincidence.</p>
-  <p>In an Inka storehouse in the Cañete valley (Inkawasi), we traced a three-step accounting chain from raw peanut deliveries to a clean nine-column table and finally to a summary ledger, following figures cord by cord and spotting likely off-by-one knot errors. Across the full collection, readable khipus resemble spreadsheets and office forms. Several popular proposals (such as an empire-wide color dictionary, syllabic writing, or verifiable sums in most khipus) fade when tested against matched null models, while two additional cases of internal arithmetic emerge in KH0674 and QU005.</p>
-  <p>If you want a quicker tour before reading the full essay, you can open the <a href="overview.html">18-slide visual overview</a>, inspect any piece in the <a href="lector.html">browser khipu reader</a>, filter all 98 tests in the <a href="registro_pruebas.html">unified test register</a>, or read the <a href="https://github.com/dariodemh/quipus/blob/main/analisis/paquete_revision/en/museum_protocol_5_knots.md">five concrete museum checks</a> that can confirm or overturn our reading.</p>
+<aside class="col resumen-rapido" aria-label="Summary">
+  <div class="etq-res">Summary</div>
+  <p class="gancho">Tawantinsuyu kept its accounts in knotted cords. We gathered 691 digitized khipus and 61,038 cords to see which numerical structures survive strict chance controls.</p>
+  <p>In the storehouse at Inkawasi, in the Cañete valley, we trace peanut deliveries across three levels of khipus, from field cords to a clean nine-column table and a summary ledger. Extending the same tests to the full collection, including 41 newly added out-of-sample khipus, uncovers two further cases of internal arithmetic in KH0674 and QU005, physical signals in continuous color luminance and cord spacing in centimeters, and an audit of four computational khipu studies released in 2026.</p>
+  <p>For a panoramic tour before reading the full essay, open the <a href="overview.html">18-slide visual overview</a>, inspect any piece in the <a href="lector.html">browser khipu reader</a>, browse all 98 tests in the <a href="registro_pruebas.html">unified test register</a>, or check the <a href="https://github.com/dariodemh/quipus/blob/main/analisis/paquete_revision/en/museum_protocol_5_knots.md">five physical museum checks</a>.</p>
 </aside>
 
 <section class="col" id="version-corta">
@@ -645,39 +645,75 @@ h3{font-size:clamp(25px,3.4vw,31px)}
 <hr>
 
 <section class="col" id="v2">
-<h2>What the expanded corpus showed</h2>
+<h2>Part two: the expanded 691-khipu corpus</h2>
 
-<p>After the first version of this essay we merged the transcriptions from the Khipu Field Guide, the Open Khipu Repository (v2.1.0), the Ascher <i>Databook</i>, Sarah Thompson's (2025a) 222 structured corrections to the <i>Databook</i>, the Huacones-Vilcahuasi khipus, and the RT-16905 assemblage at the National Museum in Lima recorded by Chirinos, Ghezzi and Álvarez (2023). The unified corpus holds 691 pendant khipus and 61,038 cords, plus KH0652, which consists of 19 threads wrapped around another primary cord. Of those 691 khipus, 650 come from the original base and 41 are held-out objects that were never used to design our hypotheses.</p>
+<p>After closing the first round on the 650 khipus of the Khipu Field Guide, we merged that collection with the Open Khipu Repository (v2.1.0), the Ascher <i>Databook</i>, Sarah Thompson's (2025a) 222 structured corrections, the Huacones-Vilcahuasi khipus, and the physically tied RT-16905 assemblage at the National Museum in Lima (Chirinos, Ghezzi and Álvarez, 2023). The unified corpus holds 691 pendant khipus and 61,038 cords, plus KH0652 with 19 wrapped threads. Before running the new analyses we froze six local protocols (P01 through P06) with SHA-256 hashes and had Claude Opus 5.5 Medium review them before and after running code, declaring every deviation explicitly in the review package.</p>
 
-<p>Before running the analysis we froze six test protocols (P01 through P06) locally with SHA-256 hashes and had a second AI model (Claude Opus 5.5 Medium) review them for methodological flaws. That step catches design mistakes before looking at outcomes, though it is no substitute for human peer review or an externally timestamped registry. Every deviation from those six protocols is listed explicitly in the repository's review package.</p>
+<h3 id="h13"><span class="h-num">Finding 13</span>Replications in 41 new khipus, KH0674 and QU005</h3>
 
-<h3>Out-of-sample checks and two additional cases</h3>
+<p class="parte"><span class="etq">What we found</span>Of the 691 unified khipus, 41 had never entered the design of our tests. Across that held-out subset, both the rule that the largest cord opens its group (29 of 104 groups, 27.9% vs. 17.0% expected) and two-color alternation (5 of 16 khipus vs. 0.16 expected) held up cleanly. At the same time, top cords rescued from the Open Khipu Repository match the exact sum of the adjacent preceding group in 53 of 174 cases, and on the held-out khipu KH0674 (Dumbarton Oaks) eight of its 41 groups carry a cord that equals the exact sum of the others.</p>
+</section>
 
-<p>Across the 41 held-out khipus, two patterns from the first study held up even after strict Holm correction across all six tests in the family. The largest cord opens its group in 29 of 104 groups (27.9% vs. 17.0% by chance, <i>p</i><sub>Holm</sub> = 0.0168), and two-color alternation appears in 5 of 16 eligible khipus against 0.16 expected (<i>p</i><sub>Holm</sub> &lt; 10<sup>−4</sup>). When we rescued the top cords missing from the Khipu Field Guide using the Open Khipu Repository, 53 of 174 matched the exact sum of the preceding group, compared with 12.2 expected by chance (<i>p</i><sub>Holm</sub> = 0.0010).</p>
+<figure class="texto" id="fig-oos">
+  <div class="lienzo"><svg id="svg-oos" viewBox="0 0 640 260" role="img" aria-label="Observed rates vs. chance across four out-of-sample and OKR rescue tests."></svg></div>
+  <figcaption><b>Figure 23.</b> Four tests on out-of-sample khipus and top cords rescued from the Open Khipu Repository. Teal shows the observed rate and gray shows chance expectation under the matched null, with Holm-adjusted probabilities across the full family.</figcaption>
+</figure>
 
-<p>Two new cases of internal arithmetic also emerged. On KH0674, a held-out khipu from Dumbarton Oaks, 8 of 41 groups contain a summary cord equal to the exact sum of the remaining cords, whereas chance yields 0.31 (<i>p</i><sub>Holm</sub> = 0.002). In a post-hoc audit, QU005 (Dallas, 57 pendants arranged in three blocks of 19) forms a column-sum table in which the third block equals the sum of the first two in 12 of 19 exact positions, and 13 within one unit, against a mean null maximum of 0.10 across all three possible triples (<i>p</i><sub>corr</sub> = 0.0001). A search across all 691 khipus found no surviving copy of QU005. The four newly added British Museum khipus showed neither internal sums nor copies, while raw Open Khipu Repository measurements reproduced the three relative knot-height zones previously seen on UR050 (centered at 0.21, 0.43 and 0.76 of cord length).</p>
+<section class="col">
+<p>A subsequent audit also turned up a third hierarchical column-sum table in the corpus. QU005 (Dallas) has 57 pendants arranged in three blocks of 19, and the third block equals the sum of the first two in 12 of 19 exact positions, and 13 within one unit, including the final total 524 + 583 = 1107. Searching all 691 khipus for a copy of QU005 returned none. The four newly added British Museum khipus showed neither internal sums nor copies, while raw Open Khipu Repository coordinates reproduced the three relative knot-height bands already seen on UR050 (centered at 0.21, 0.43 and 0.76 of cord length).</p>
+</section>
 
-<h3>Continuous color and physical spacing in centimeters</h3>
+<figure id="fig-qu005">
+  <div class="lienzo">
+    <svg id="svg-qu005" viewBox="0 0 940 175" role="img" aria-label="Three blocks of 19 pendants in QU005 showing where the third block sums the first two."></svg>
+    <div class="salida" id="qu005-salida" style="margin-top:8px"></div>
+  </div>
+  <figcaption><b>Figure 24.</b> The three consecutive blocks of 19 pendants on QU005. Block 2 equals the exact sum of blocks 0 and 1 in 12 of 19 positions (teal) and differs by one in another (amber), against a mean null maximum of 0.10 across all three possible triples (<i>p</i><sub>corr</sub> = 0.0001).</figcaption>
+</figure>
 
-<p>Because color names shift from one transcriber to another, we mapped Open Khipu Repository color codes into perceptual CIE <i>L*a*b*</i> coordinates for 96.8% of all cords. Within groups, lighter yarns tend to carry somewhat larger values, and a small positive correlation remains even after removing every white cord (225 khipus, median correlation +0.053, <i>p</i><sub>Holm</sub> = 0.012; clearer in khipus recorded by Urton than in those recorded by the Aschers).</p>
+<section class="col">
+<p class="parte"><span class="etq">How we tested it</span>The three confirmations in P01 carry strict Holm correction across all six tests in the family (<i>p</i><sub>Holm</sub> = 0.0168, 0.0010 and below 10<sup>−4</sup>), and KH0674 was tested inside the P03 family (<i>p</i><sub>Holm</sub> = 0.002). QU005 is a post-hoc audit corrected across all three block triples (<i>p</i><sub>corr</sub> = 0.0001).</p>
 
-<p>We also checked whether the groups marked by human transcribers match physical gaps on the primary cord. Splitting each khipu purely wherever the spacing in centimeters between pendants exceeds twice the median gap, with no human group labels at all, reproduces monotonic intra-group trends in 9 of 35 eligible khipus compared with 1.75 expected by chance (<i>p</i><sub>Holm</sub> = 0.00017). At the same time, a variance decomposition of 2D geometry showed that the person who recorded the khipu (<i>R</i>² = 0.087) accounts for about as much variance as the archaeological site (<i>R</i>² = 0.085), while the museum accounts for more than both (<i>R</i>² = 0.272). Any automated model built on physical coordinates needs to control for recorder effects.</p>
+<p class="parte"><span class="etq">How sure we are</span>The out-of-sample replications and KH0674 are <span class="ev ev-d">strong indication</span> because they run on unseen khipus under frozen rules. QU005 is an <span class="ev ev-a">indication</span> because it was audited post hoc.</p>
 
-<h3>Tests that came out negative</h3>
+<h3 id="h14"><span class="h-num">Finding 14</span>Color luminance and physical spacing in centimeters</h3>
 
-<p>The RT-16905 assemblage brings together fifteen khipus physically tied to one another at the National Museum in Lima. We tested whether khipus joined at the same physical knot sum to each other, share more numerical sequences, or match more closely in color and twist than untied pairs within the same bundle. All four tests came out negative (<i>p</i><sub>Holm</sub> between 0.25 and 0.81). Being tied together marks an archival grouping, yet by itself it does not imply an arithmetic hierarchy.</p>
+<p class="parte"><span class="etq">What we found</span>To bypass shifting color names across transcribers, we mapped Open Khipu Repository color codes into perceptual CIE <i>L*a*b*</i> coordinates for 96.8% of all cords. Within each group, lighter yarns tend to carry slightly larger values, and that small positive correlation survives even when every white cord is excluded (225 khipus, median correlation +0.053, <i>p</i><sub>Holm</sub> = 0.012). In parallel, splitting khipus purely by physical spacing gaps in centimeters along the primary cord, without any human group labels, replicates monotonic intra-group trends in 9 of 35 eligible khipus vs. 1.75 expected (<i>p</i><sub>Holm</sub> = 0.00017).</p>
+</section>
 
-<p>Several other open questions also closed negative: contiguous spans of UR053E summing into UR053B or UR053C, arithmetic links from the four unread Inkawasi khipus (UR272, UR276, UR277 and UR279) into the rest of the storehouse, and mixed-radix number systems on non-decimal khipus. At Huacones-Vilcahuasi, an eight-pendant khipu (JC024) descends almost monotonically from first to last cord, yet its values are highly unequal (CV = 1.28), very different from the near-flat distribution of UR278.</p>
+<figure id="fig-fisica">
+  <div class="lienzo"><svg id="svg-fisica" viewBox="0 0 860 255" role="img" aria-label="CIE L luminance without white by transcriber, physical cm-gap segmentation and PERMANOVA decomposition."></svg></div>
+  <figcaption><b>Figure 25.</b> Left, intra-group correlation between CIE <i>L*</i> luminance and magnitude after removing white, broken down by transcriber series. Top right, khipus significant when groups are cut purely by physical gaps in centimeters. Bottom right, 2D geometric variance explained by museum, recorder and archaeological site.</figcaption>
+</figure>
 
-<p>We also compiled 1,190 figures across 38 colonial documentary tables (Curatola 2013, Chirinos 2010 and Pärssinen 1992) to test whether a generative classifier trained on colonial accounts could infer a khipu's genre from its numerical profile alone. Under leave-one-document-out validation the classifier looked better than chance (balanced accuracy 0.382, <i>p</i> = 0.0025), yet leaving one editorial source out at a time dropped accuracy to 0.075 (<i>p</i> = 0.972). The model was picking up the style of each historical publication rather than universal administrative genres. Tested on one thousand synthetic number lists, it falsely assigned a genre to 38.5% of them, far above our 5% threshold, so we rejected its predictions on unclassified khipus. In that same colonial corpus we checked eight independent demographic lists of seven or more units excluding Bambamarca. The median rank correlation with position was −0.294, which falls just inside the conservative branch of our −0.30 cutoff. Six of the eight lists slope gently downward (<i>p</i><sub>Holm</sub> = 0.0024), yet none of the eight approaches either the slope or the flatness of UR278.</p>
+<section class="col">
+<p class="parte"><span class="etq">What is missing</span>The 2D variance decomposition warns that the person who recorded the khipu (<i>R</i>² = 0.087) explains about as much variance as the archaeological site (<i>R</i>² = 0.085), both below museum (<i>R</i>² = 0.272). Any study of physical geometry needs to control for recorder identity, and the non-white luminance signal is weak in the Ascher series (+0.008).</p>
 
-<h3>Auditing four computational studies from 2026</h3>
+<h3 id="h15"><span class="h-num">Finding 15</span>What holds up in four computational studies from 2026</h3>
 
-<p>Four computational khipu studies appeared in 2026 using the same underlying repositories. We evaluated six of their core claims with matched null models. On rectilinear and verso attachment entropy, replacing simple shuffling with a null that preserves run lengths drops the 17 significant khipus out of 39 down to zero (<i>p</i><sub>Holm</sub> = 0.587). On Contreras (2026) regarding cord twist at imperial sites, removing khipus with more than half unknown-twist cords reverses the direction (77.8% S-twist at imperial sites against 93.4% elsewhere), site-grouped validation drops classifier F1 from 0.241 to 0.048, and in the Santa Valley the attachment directions in the Open Khipu Repository agree 100% with <code>collca.db</code> because both draw from the same underlying record.</p>
+<p class="parte"><span class="etq">What we found</span>Four computational studies appeared in 2026 using these same databases. We applied matched null models to six of their core claims. Once shuffling preserves consecutive run lengths of recto and verso attachments, the 17 significant khipus out of 39 drop to zero (<i>p</i><sub>Holm</sub> = 0.587). In Contreras (2026), removing khipus with mostly unknown twist makes S-twist lower at imperial sites (77.8% vs. 93.4%), site-grouped validation drops classifier F1 from 0.241 to 0.048, and in the Santa Valley the Open Khipu Repository agrees 100% with <code>collca.db</code> because both share the same source. In K-CAT, the raw color-by-magnitude test is driven mainly by local intra-khipu keys (16.0% of variance) against 1.06% for global labels, though pendant equality with the sum of subsidiaries does show real aggregate signal (4.30% vs. 2.75%, <i>p</i><sub>Holm</sub> = 0.003). In Zenil and Uthamacumaran (2026), we replicated distal-role AUC (0.861) and <i>z</i> = 6.76 under fiber-and-twist rewiring, yet preserving group and magnitude as well brings it down to <i>z</i> = 1.82 (<i>p</i><sub>Holm</sub> = 0.126).</p>
+</section>
 
-<p>For K-CAT, we reproduced the pooled color-by-magnitude test, yet separating khipu-level effects showed that local intra-khipu keys explain 16.0% of variance whereas the global color label explains just 1.06%. By contrast, K-CAT's finding that some pendant cords equal the sum of their subsidiaries does hold in aggregate against an intra-khipu null (4.30% vs. 2.75%, <i>p</i><sub>Holm</sub> = 0.003), though no single khipu survives multiple-testing correction on its own. Finally, for Zenil and Uthamacumaran (2026), we reproduced both distal-role classification (AUC = 0.861) and parent-child similarity under fiber-and-twist rewiring (<i>z</i> = 6.76), yet requiring the null to preserve group and magnitude lowers the score to <i>z</i> = 1.82 (<i>p</i><sub>Holm</sub> = 0.126), pointing to shared local decimal scale within each group as the main driver.</p>
+<figure id="fig-audit26">
+  <div class="lienzo"><svg id="svg-audit26" viewBox="0 0 820 300" role="img" aria-label="Before and after applying strict null models to four 2026 studies."></svg></div>
+  <figcaption><b>Figure 26.</b> Five tests on 2026 computational studies. Gray shows the original or naive statistic; red shows what remains under the matched null (or global variance against local key); teal shows the one relation that clears the aggregate null (pendant equals sum of subsidiaries in K-CAT).</figcaption>
+</figure>
 
-<p>We also calibrated the five fast internal detectors of the <a href="#lector">khipu reader</a> on one hundred shuffled synthetic khipus. At the indication tier they triggered between zero and one time in a hundred (95% upper bound between 3.6% and 5.4%), and between zero and five times at the conjecture tier. All 98 tests in the project, both positive and negative, can be browsed offline in the <a href="registro_pruebas.html">unified test register</a>.</p>
+<section class="col">
+<p class="parte"><span class="etq">How sure we are</span>Methodological <span class="ev ev-a">indication</span>. None of these checks rules out subtle structure along those axes, yet they show that the published contrasts depended on overly permissive nulls.</p>
+
+<h3 id="h16"><span class="h-num">Finding 16</span>Measured limits in RT-16905 and colonial lists</h3>
+
+<p class="parte"><span class="etq">What we found</span>We also measured where quantitative signals stop. Across RT-16905, fifteen khipus physically tied to one another in Lima, all four tests of arithmetic hierarchy, numerical similarity and textile coherence came out negative (<i>p</i><sub>Holm</sub> between 0.25 and 0.81). Physical tying marks an archival bundle, yet on its own it does not imply summation across pieces. In parallel, we compiled 1,190 figures across 38 colonial tables (Curatola 2013, Chirinos 2010 and Pärssinen 1992) to evaluate a generative fiscal classifier. Leave-one-document-out balanced accuracy reached 38.2% (<i>p</i> = 0.0025), yet leaving out one editorial source at a time dropped accuracy to 7.5% (<i>p</i> = 0.972), and on one thousand synthetic lists it falsely assigned a genre to 38.5%, far above our 5% cutoff.</p>
+</section>
+
+<figure id="fig-colonial">
+  <div class="lienzo"><svg id="svg-colonial" viewBox="0 0 820 265" role="img" aria-label="LODO vs LOSO colonial classifier performance and UR278 compared with eight colonial lists excluding Bambamarca."></svg></div>
+  <figcaption><b>Figure 27.</b> Left, the drop of the colonial classifier from leave-one-document-out (LODO) to leave-one-source-out (LOSO), alongside its false-positive rate on one thousand synthetic lists. Right, the eight independent colonial demographic lists of seven or more units excluding Bambamarca compared with UR278, which stands alone in slope and low variation.</figcaption>
+</figure>
+
+<section class="col">
+<p>Across those eight colonial demographic lists excluding Bambamarca, the median rank correlation was −0.294, sitting just inside the conservative branch of our frozen −0.30 cutoff (formally confirming the original prediction, even though six of the eight slope gently downward with <i>p</i><sub>Holm</sub> = 0.0024). None of the eight matches the slope or flatness of UR278. Contiguous sums from UR053E into UR053B or UR053C, arithmetic links for the four unread Inkawasi khipus (UR272, UR276, UR277 and UR279), and mixed radices on non-decimal khipus also tested negative. At Huacones-Vilcahuasi, JC024 descends almost monotonically yet with highly unequal values (CV = 1.28). Finally, we calibrated the five fast internal detectors of the <a href="#lector">khipu reader</a> on one hundred shuffled synthetic khipus, where they triggered between zero and one time in a hundred at the indication tier (95% upper bound between 3.6% and 5.4%). All 98 tests, positive and negative, are open in the <a href="registro_pruebas.html">unified register</a>.</p>
 </section>
 
 <hr>
@@ -804,9 +840,9 @@ h3{font-size:clamp(25px,3.4vw,31px)}
 <section class="col" id="como">
 <h2>How it was made</h2>
 
-<p>This work was done by artificial intelligence agents (Claude —Opus and Sonnet— and DeepSeek Flash, in separate tasks), directed by one person. The agents wrote the code and ran the tests, and some reviewed the work of others. A person decided what to ask, what to believe and what to publish. No one has yet peer-reviewed this work.</p>
+<p>This work was done by artificial intelligence agents (Gemini from Google, Claude Opus and Sonnet from Anthropic, and DeepSeek Flash, in separate tasks), directed by one person. In the first round Claude and DeepSeek reconstructed Inkawasi and the base corpus; in the second round Gemini built the 691-khipu Master Corpus, ran the six frozen protocols, programmed the new figures and reader calibration, and Claude Opus carried out the adversarial reviews before and after running the code. A person decided what to ask, what to believe and what to publish. No one has yet peer-reviewed this work.</p>
 
-<p>Everything is at <a href="https://github.com/dariodemh/quipus">github.com/dariodemh/quipus</a>. One program checks the main results of the review package (15 checks) and another the reader (19), and they fail if anything changes. The full reading of the peanut archive, with its 1461 figures, is in the repository, together with a <a href="https://github.com/dariodemh/quipus/blob/main/analisis/paquete_revision/en/museum_protocol_5_knots.md">5-knots-in-15-minutes museum protocol</a>, an <a href="https://github.com/dariodemh/quipus/blob/main/analisis/paquete_revision/en/errata_report_okr_kfg.md">upstream database errata report</a>, and the <a href="https://github.com/dariodemh/quipus/blob/main/articulo/preprint_en.md">preprint manuscript</a>. If any prediction fails, we will say so. Reviews and corrections are welcome in <a href="https://github.com/dariodemh/quipus/issues">the repository's issues</a>.</p>
+<p>Everything is at <a href="https://github.com/dariodemh/quipus">github.com/dariodemh/quipus</a>. One program checks the main results of the review package (19 checks) and another the reader (19), and they fail if anything changes. The full reading of the peanut archive, with its 1461 figures, is in the repository, together with the <a href="registro_pruebas.html">unified 98-test register</a>, the <a href="overview.html">18-slide visual overview</a>, a <a href="https://github.com/dariodemh/quipus/blob/main/analisis/paquete_revision/en/museum_protocol_5_knots.md">5-knots-in-15-minutes museum protocol</a>, an <a href="https://github.com/dariodemh/quipus/blob/main/analisis/paquete_revision/en/errata_report_okr_kfg.md">upstream database errata report</a>, and the <a href="https://github.com/dariodemh/quipus/blob/main/articulo/preprint_en.md">preprint manuscript</a>. If any prediction fails, we will say so. Reviews and corrections are welcome in <a href="https://github.com/dariodemh/quipus/issues">the repository's issues</a>.</p>
 </section>
 
 <hr>

@@ -52,7 +52,7 @@ Every claim carries an evidence level and points to the script that produces it.
 
 ## How this was done: AI assistance
 
-The analysis was carried out by AI agents: Claude (Anthropic), running in Claude Code, plus DeepSeek for some extraction tasks. One person coordinated and directed them. The agents:
+The analysis was carried out by AI agents: **Gemini (Google)**, **Claude (Anthropic, Opus and Sonnet)**, and **DeepSeek (Flash)**, coordinated and directed by one person. In v1 Claude and DeepSeek analyzed Inkawasi and the 650-khipu corpus; in v2 Gemini built the 691-khipu Master Corpus (`analisis/36_corpus_maestro/`), executed the six SHA-256 frozen protocols (`P01`–`P06`), built the 98-test register (`articulo/registro_pruebas.html`), calibrated reader v2 FPR, and added the new figures and visual overview (`articulo/overview.html`), while Claude Opus performed independent pre- and post-execution red-team reviews. The agents:
 
 - wrote and ran the scripts;
 - reviewed each other's work, including a "red team" that tried to break every result.

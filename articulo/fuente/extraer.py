@@ -149,6 +149,61 @@ for geo in topo['objects']['countries']['geometries']:
 D['peru'] = paises.pop('Peru')
 D['vecinos'] = [a for v in paises.values() for a in v]
 
+# --- v2: datos verificados de Bloques A-D (P01-P06) para las figuras interactivas 23-27
+p1 = json.load(open(f'{R}/analisis/36_corpus_maestro/resultados_P01.json', encoding='utf-8'))
+p2 = json.load(open(f'{R}/analisis/37_bloque_B/resultados_P02.json', encoding='utf-8'))
+p3 = json.load(open(f'{R}/analisis/37_bloque_B/resultados_P03.json', encoding='utf-8'))
+p4 = json.load(open(f'{R}/analisis/38_bloque_C/resultados_P04.json', encoding='utf-8'))
+p5 = json.load(open(f'{R}/analisis/38_bloque_C/resultados_P05.json', encoding='utf-8'))
+p6 = json.load(open(f'{R}/analisis/39_bloque_D/resultados_P06.json', encoding='utf-8'))
+by_id = lambda doc, tid: next(x for x in doc['familia_holm'] if x['test_id'] == tid)
+
+p11, p13b, p14 = by_id(p1, 'P01.1'), by_id(p1, 'P01.3b'), by_id(p1, 'P01.4')
+p34 = by_id(p3, 'P03.4')
+D['v2_oos'] = [
+    dict(id='P01.1', obs=round(p11['obs_tasa'] * 100, 1), exp=round(p11['exp_tasa'] * 100, 1),
+         frac=f"{p11['obs_aciertos']}/{p11['n_grupos']}", ph='0.017'),
+    dict(id='P01.3b', obs=round(100 * p13b['obs_aciertos'] / p13b['n_superiores'], 1),
+         exp=round(100 * p13b['exp_aciertos'] / p13b['n_superiores'], 1),
+         frac=f"{p13b['obs_aciertos']}/{p13b['n_superiores']}", ph='0.001'),
+    dict(id='P01.4', obs=round(100 * p14['n_sig_p001'] / p14['n_quipus'], 1),
+         exp=round(100 * p14['exp_p001'] / p14['n_quipus'], 1),
+         frac=f"{p14['n_sig_p001']}/{p14['n_quipus']}", ph='<1e-4'),
+    dict(id='P03.4', obs=round(100 * p34['solo_colgantes']['obs'] / p34['n_grupos'], 1),
+         exp=round(100 * p34['solo_colgantes']['nulo_medio'] / p34['n_grupos'], 1),
+         frac=f"{p34['solo_colgantes']['obs']}/{p34['n_grupos']}", ph='0.002'),
+]
+D['qu005'] = p3['post_hoc_E03_6_QU005']['bloques']
+
+p42, p43 = by_id(p4, 'P04.2'), by_id(p4, 'P04.3')
+D['v2_fisica'] = dict(
+    lum_con_w=p42['con_W']['med_rho_global'],
+    lum_sin_w=p42['sin_W']['med_rho_global'],
+    lum_sin_w_tr=[dict(tr=k, n=v['n'], rho=v['med_rho']) for k, v in p42['sin_W']['por_transcriptor'].items() if v['n'] >= 10],
+    seg_obs=p43['n_sig_p005'], seg_n=p43['n_quipus_elegibles'], seg_exp=p43['exp_p005'],
+    perm=dict(museo=p4['descriptivo_D04_5']['R2_museo'],
+              capturista=p4['descriptivo_D04_5']['R2_created_by'],
+              sitio=p4['descriptivo_D04_5']['R2_sitio']),
+)
+
+p51, p52, p54, p55, p56 = by_id(p5, 'P05.1'), by_id(p5, 'P05.2'), by_id(p5, 'P05.4'), by_id(p5, 'P05.5'), by_id(p5, 'P05.6')
+D['v2_audit26'] = dict(
+    rv=[p51['cohorte_completa_sin_top100']['q_fy_lt005'], p51['cohorte_completa_sin_top100']['q_runs_lt005'], p51['cohorte_completa_sin_top100']['n']],
+    ml=[p52['f1_estratificado_sin_U'], p52['f1_agrupado_por_sitio_sin_U']],
+    kcat_r2=[round(p54['R2_clave_local_intra_quipu'] * 100, 1), round(p54['R2_etiqueta_global_obs'] * 100, 2)],
+    zenil=[p56['rewiring_b1_quipu_fibra_torsion']['z'], p56['rewiring_b2_quipu_grupo_magnitud']['z']],
+    kcat_sum=[round(p55['tasa_obs'] * 100, 2), round(p55['tasa_nula'] * 100, 2)],
+)
+
+p61, p63, p64 = by_id(p6, 'P06.1'), by_id(p6, 'P06.3'), by_id(p6, 'P06.4')
+D['v2_col'] = dict(
+    lodo=round(p61['balanced_acc_LODO'] * 100, 1),
+    loso=round(p61['balanced_acc_LOSO'] * 100, 1),
+    fpr=round(p63['FPR_sinteticos_1000'] * 100, 1),
+    listas=[dict(id=x['doc_id'].replace('PAR1992_', 'Pärssinen ').replace('CHI_3_1a_Chucuito_1567_Poblacion', 'Chucuito 1567'),
+                 n=x['n'], rho=x['rho'], cv=x['cv']) for x in p64['listas']],
+)
+
 json.dump(D, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False)
 print({k: (len(v) if hasattr(v, '__len__') else v) for k, v in D.items()})
 print('cero', D.get('cero')); print('ur270 destinos', [(x['g'], x['destino'], x['exactas']) for x in grupos])

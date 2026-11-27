@@ -22,7 +22,7 @@ Este repositorio reúne los análisis, los datos derivados y un **lector** repro
 
 ## Cómo se hizo: asistencia de IA
 
-El análisis lo hicieron agentes de IA (Claude, de Anthropic, en Claude Code; además, algunas tareas de extracción con DeepSeek). Los coordinó y dirigió una persona. Los agentes:
+El análisis lo hicieron agentes de IA (**Gemini de Google**, **Claude Opus y Sonnet de Anthropic**, y **DeepSeek Flash**), coordinados y dirigidos por una persona. En la primera ronda Claude y DeepSeek analizaron Inkawasi y el corpus base de 650 quipus; en la versión 2.0 Gemini construyó el Corpus Maestro de 691 quipus (`analisis/36_corpus_maestro/`), ejecutó los seis protocolos congelados con SHA-256 (`P01`–`P06`), armó el registro unificado de 98 pruebas (`articulo/registro_pruebas.html`), calibró la tasa de falsos positivos del lector y generó las nuevas figuras y el resumen visual (`articulo/overview.es.html`), mientras Claude Opus realizó las revisiones críticas antes y después de correr el código. Los agentes:
 
 - escribieron y corrieron los scripts;
 - se revisaron entre sí, con un «equipo rojo» que intentaba romper cada resultado.

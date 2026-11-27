@@ -74,12 +74,16 @@ function cuerda(g, x, y0, c, sc, op){
     [5,tl('Cuánto se guardaba', 'How much was stored'),'p','Inkawasi','escala'],[6,tl('Copias de un museo a otro', 'Copies from one museum to another'),'a','Corpus','red'],
     [7,tl('Una tabla de tres niveles ya descrita, y su copia', 'A three-level table already described, and its copy'),'a','Corpus','bloques'],[8,tl('Tablas escritas con dos colores alternados', 'Tables written in two alternating colors'),'a','Corpus','alterna'],
     [9,tl('Cada quipu tiene su propia clave de colores', 'Each khipu has its own color key'),'a','Corpus','colores'],[10,tl('Maneras recurrentes de armar una tabla', 'Recurring ways to build a table'),'a','Corpus','tabla'],
-    [11,tl('Un formulario con reparto fijo', 'A form with a fixed split'),'a','Corpus','reparto'],[12,tl('Los quipus como sistema de registros', 'Khipus as a system of records'),'a','Corpus','mosaico']];
+    [11,tl('Un formulario con reparto fijo', 'A form with a fixed split'),'a','Corpus','reparto'],[12,tl('Los quipus como sistema de registros', 'Khipus as a system of records'),'a','Corpus','mosaico'],
+    [13,tl('Réplicas en 41 quipus nuevos, KH0674 y QU005', 'Replications in 41 new khipus, KH0674 and QU005'),'d','Ampliado','qu005'],
+    [14,tl('Luminancia del color y grupos físicos en centímetros', 'Color luminance and physical spacing in centimeters'),'a','Ampliado','fisica'],
+    [15,tl('Qué resiste en cuatro estudios de 2026', 'What holds up in four 2026 studies'),'a','Ampliado','audit26'],
+    [16,tl('Límites medidos: RT-16905 y listas coloniales', 'Measured limits: RT-16905 and colonial lists'),'a','Ampliado','colonial']];
   const NOM = {d:tl('Indicio fuerte', 'Strong indication'), a:tl('Indicio', 'Indication'), p:tl('Conjetura', 'Conjecture')};
   const cont = $('indice');
   let grupo = '';
   H.forEach(([n, t, ev, gr, ic]) => {
-    if (gr !== grupo){ grupo = gr; const d = document.createElement('div'); d.className = 'grupo'; d.textContent = gr === 'Inkawasi' ? tl('En Inkawasi', 'At Inkawasi') : tl('En todo el corpus', 'Across the corpus'); cont.appendChild(d); }
+    if (gr !== grupo){ grupo = gr; const d = document.createElement('div'); d.className = 'grupo'; d.textContent = gr === 'Inkawasi' ? tl('En Inkawasi', 'At Inkawasi') : gr === 'Corpus' ? tl('En todo el corpus', 'Across the corpus') : tl('En el corpus ampliado (691 quipus)', 'In the expanded corpus (691 khipus)'); cont.appendChild(d); }
     const a = document.createElement('a'); a.className = 'tarjeta' + (n === 1 ? ' grande' : ''); a.href = '#h' + n;
     const svg = el('svg', {viewBox:'0 0 200 46', 'aria-hidden':'true'}); a.appendChild(svg); glifo(svg, ic);
     const s1 = document.createElement('span'); s1.className = 'n'; s1.textContent = tl('Hallazgo ', 'Finding ') + n; a.appendChild(s1);
@@ -102,6 +106,10 @@ function cuerda(g, x, y0, c, sc, op){
     else if (ic === 'tabla'){ [20,26,14,22].forEach((h,i)=>el('rect',{x:20+i*18,y:42-h,width:10,height:h,rx:2,style:F},s)); el('rect',{x:100,y:4,width:10,height:38,rx:2,style:I},s); [30,18,22].forEach((h,i)=>el('rect',{x:135+i*18,y:42-h,width:10,height:h,rx:2,style:i===0?I:F},s)); }
     else if (ic === 'reparto'){ for (let r=0;r<3;r++){ let x=10; [[.64,'var(--regla)'],[.19,CC.RL],[.17,CC.AB]].forEach(([f,c])=>{ el('rect',{x,y:4+r*14,width:f*180,height:10,style:'fill:'+c},s); x+=f*180; }); } }
     else if (ic === 'mosaico'){ const cs=['var(--indigo)','var(--fibra)','#2c7a6b','#b07a1e','var(--regla)']; for (let r=0;r<4;r++) for (let c=0;c<18;c++) el('rect',{x:10+c*10.2,y:3+r*10.5,width:8.5,height:8.5,rx:1.5,style:'fill:'+cs[(c*7+r*3)%5]},s); }
+    else if (ic === 'qu005'){ for (let r=0;r<3;r++) for (let c=0;c<12;c++) el('rect',{x:10+c*15,y:5+r*13,width:11,height:9,rx:2,style:(r===2&&c>=3)?'fill:var(--ok)':F+';opacity:'+(r===2?.35:.55)},s); }
+    else if (ic === 'fisica'){ ['#3b2a1e','#7d5636','#b58d5c','#d9c49c','#f4f0e6'].forEach((col,i)=>el('rect',{x:16+i*34,y:36-i*6,width:24,height:8+i*6,rx:2,style:'fill:'+col+';stroke:var(--regla)'},s)); }
+    else if (ic === 'audit26'){ [[14,130,8],[26,110,22],[38,125,34]].forEach(([y,a,b])=>{ el('rect',{x:20,y:y-6,width:a,height:5,rx:2,style:'fill:var(--regla)'},s); el('rect',{x:20,y:y,width:b,height:5,rx:2,style:'fill:var(--cochinilla)'},s); }); }
+    else if (ic === 'colonial'){ linea(20,40,185,40); linea(20,6,20,40); [[52,18],[68,14],[86,22],[92,16],[115,28],[140,30]].forEach(([x,y])=>el('circle',{cx:x,cy:y,r:3.5,style:F},s)); el('circle',{cx:34,cy:35,r:5.5,style:I},s); }
   }
 })();
 
@@ -760,6 +768,186 @@ function cuerda(g, x, y0, c, sc, op){
     tabs.appendChild(b);
   });
   mostrar(Object.keys(D.fichas)[0]);
+})();
+
+/* ---------- figura 23: confirmaciones fuera de muestra (P01 y P03.4) ---------- */
+(function figOos(){
+  const svg = $('svg-oos'); if (!svg || !D.v2_oos) return;
+  const LAB = {
+    'P01.1': tl('Mayor abre grupo (41 nuevos)', 'Largest opens group (41 new)'),
+    'P01.3b': tl('Cuerdas superiores T (rescate OKR)', 'Rescued top cords T (OKR)'),
+    'P01.4': tl('Alternancia A/B/A/B (41 nuevos)', 'A/B/A/B alternation (41 new)'),
+    'P03.4': tl('KH0674 sumas exactas (held-out)', 'KH0674 exact sums (held-out)'),
+  };
+  const x0 = 250, W = 310, sc = W / 36;
+  tx(svg, x0, 22, tl('Observado (%) frente a lo esperado por azar', 'Observed (%) vs. expected by chance'), {'font-size':12, class:'g'});
+  D.v2_oos.forEach((r, i) => {
+    const y = 44 + i * 52;
+    tx(svg, x0 - 12, y + 14, LAB[r.id], {'text-anchor':'end', 'font-size':13});
+    tx(svg, x0 - 12, y + 30, r.frac + ' · p_Holm ' + r.ph, {'text-anchor':'end', 'font-size':11, class:'g m'});
+    el('rect', {x:x0, y:y + 18, width:Math.max(3, r.exp * sc), height:11, rx:3, style:'fill:var(--regla)'}, svg);
+    tx(svg, x0 + Math.max(3, r.exp * sc) + 6, y + 27, r.exp.toFixed(1) + '% ' + tl('azar', 'chance'), {'font-size':10.5, class:'g m'});
+    el('rect', {x:x0, y:y + 2, width:Math.max(4, r.obs * sc), height:14, rx:3, style:'fill:var(--ok)'}, svg);
+    tx(svg, x0 + Math.max(4, r.obs * sc) + 6, y + 13, r.obs.toFixed(1) + '%', {'font-size':12, class:'m', style:'fill:var(--ok);font-weight:600'});
+  });
+})();
+
+/* ---------- figura 24: QU005 (3 bloques de 19, B2 = B0 + B1) ---------- */
+(function figQu005(){
+  const svg = $('svg-qu005'), out = $('qu005-salida'); if (!svg || !D.qu005) return;
+  const [B0, B1, B2] = D.qu005;
+  const x0 = 76, cw = 45, y0 = 42, rh = 38;
+  const filas = [
+    [tl('Bloque 0', 'Block 0'), B0],
+    [tl('Bloque 1', 'Block 1'), B1],
+    [tl('Bloque 2', 'Block 2'), B2],
+  ];
+  filas.forEach(([nom, arr], r) => {
+    tx(svg, x0 - 10, y0 + r * rh + 23, nom, {'text-anchor':'end', 'font-size':12, style:r === 2 ? 'fill:var(--indigo);font-weight:600' : 'fill:var(--gris)'});
+  });
+  el('line', {x1:x0, y1:y0 + 2 * rh - 2, x2:x0 + 19 * cw - 4, y2:y0 + 2 * rh - 2, style:'stroke:var(--tinta);stroke-width:1.2'}, svg);
+  const cols = [];
+  for (let i = 0; i < 19; i++){
+    const exact = (B0[i] + B1[i] === B2[i]);
+    const tol1 = (!exact && Math.abs(B0[i] + B1[i] - B2[i]) <= 1);
+    const x = x0 + i * cw;
+    const g = el('g', {style:'cursor:pointer', tabindex:0}, svg);
+    tx(g, x + cw / 2 - 2, y0 - 10, String(i + 1), {'text-anchor':'middle', 'font-size':10.5, class:'g m'});
+    [B0[i], B1[i], B2[i]].forEach((val, r) => {
+      const fill = r === 2 ? (exact ? 'var(--ok)' : tol1 ? 'var(--casi)' : 'var(--suave)') : 'var(--suave)';
+      const op = r === 2 ? (exact ? '.2' : tol1 ? '.22' : '1') : '1';
+      el('rect', {x, y:y0 + r * rh + (r === 2 ? 4 : 0), width:cw - 4, height:rh - 6, rx:4, style:'fill:' + fill + ';opacity:' + op + ';stroke:' + (r === 2 && exact ? 'var(--ok)' : 'var(--regla)')}, g);
+      tx(g, x + cw / 2 - 2, y0 + r * rh + 22 + (r === 2 ? 4 : 0), String(val), {'text-anchor':'middle', 'font-size':12, class:'m', style:r === 2 && exact ? 'fill:var(--ok);font-weight:600' : ''});
+    });
+    const st = exact ? tl('suma exacta', 'exact sum') : tol1 ? tl('diferencia de 1', 'off by 1') : tl('sin suma exacta', 'no exact sum');
+    const show = () => {
+      cols.forEach((cg, j) => cg.style.opacity = j === i ? 1 : .35);
+      if (out) out.textContent = tl('Posición ', 'Position ') + (i + 1) + ': ' + B0[i] + ' + ' + B1[i] + ' = ' + (B0[i] + B1[i]) + tl(' · Bloque 2 = ', ' · Block 2 = ') + B2[i] + ' (' + st + ')';
+    };
+    const reset = () => { cols.forEach(cg => cg.style.opacity = 1); };
+    g.addEventListener('mouseenter', show); g.addEventListener('focus', show); g.addEventListener('click', show);
+    g.addEventListener('mouseleave', reset); g.addEventListener('blur', reset);
+    cols.push(g);
+  }
+  if (out) out.textContent = tl('12 de 19 posiciones suman exactas (verde), 1 difiere en una unidad (ámbar). Pasa el cursor por cualquier columna.', '12 of 19 positions sum exactly (teal), 1 is off by one (amber). Hover or click any column.');
+})();
+
+/* ---------- figura 25: física perceptual (CIE L*) y geometría 2D ---------- */
+(function figFisica(){
+  const svg = $('svg-fisica'); if (!svg || !D.v2_fisica) return;
+  const F = D.v2_fisica;
+  // Panel izquierdo: correlación L* sin blanco por transcriptor
+  tx(svg, 20, 22, tl('A. Luminancia CIE L* sin blanco (correlación mediana)', 'A. CIE L* luminance without white (median correlation)'), {'font-size':12.5, style:'font-weight:600'});
+  const rows = [
+    {tr:tl('Global (n=225)', 'Global (n=225)'), rho:F.lum_sin_w, hi:true},
+    ...F.lum_sin_w_tr.sort((a,b) => b.rho - a.rho).map(x => ({tr:x.tr + ' (n=' + x.n + ')', rho:x.rho}))
+  ];
+  const zx = 250, sc = 360;
+  el('line', {x1:zx, y1:36, x2:zx, y2:36 + rows.length * 28, style:'stroke:var(--regla);stroke-dasharray:3 3'}, svg);
+  rows.forEach((r, i) => {
+    const y = 44 + i * 28;
+    tx(svg, 160, y + 12, r.tr, {'text-anchor':'end', 'font-size':11.5, class:r.hi ? '' : 'g', style:r.hi ? 'font-weight:600' : ''});
+    const w = Math.abs(r.rho) * sc;
+    const x = r.rho >= 0 ? zx : zx - w;
+    const col = r.hi ? 'var(--indigo)' : r.rho >= 0 ? 'var(--ok)' : 'var(--cochinilla)';
+    el('rect', {x, y, width:Math.max(2, w), height:14, rx:3, style:'fill:' + col}, svg);
+    tx(svg, r.rho >= 0 ? x + w + 6 : x - 6, y + 11, (r.rho >= 0 ? '+' : '') + r.rho.toFixed(3),
+       {'text-anchor':r.rho >= 0 ? 'start' : 'end', 'font-size':11, class:'m', style:'fill:' + col});
+  });
+
+  // Panel derecho: segmentación física + PERMANOVA
+  const rx = 470;
+  tx(svg, rx, 22, tl('B. Grupos por huecos en cm (sin etiquetas)', 'B. Physical cm-gap groups (no labels)'), {'font-size':12.5, style:'font-weight:600'});
+  const bsc = 280 / 35;
+  el('rect', {x:rx, y:44, width:F.seg_obs * bsc, height:16, rx:3, style:'fill:var(--ok)'}, svg);
+  tx(svg, rx + F.seg_obs * bsc + 8, 56, F.seg_obs + '/35 ' + tl('quipus (25,7 %)', 'khipus (25.7%)'), {'font-size':11.5, class:'m', style:'fill:var(--ok);font-weight:600'});
+  el('rect', {x:rx, y:66, width:F.seg_exp * bsc, height:12, rx:3, style:'fill:var(--regla)'}, svg);
+  tx(svg, rx + F.seg_exp * bsc + 8, 76, F.seg_exp + '/35 ' + tl('esperados por azar', 'expected by chance'), {'font-size':11, class:'g m'});
+
+  tx(svg, rx, 122, tl('C. Varianza geométrica 2D (PERMANOVA, n=148)', 'C. 2D geometric variance (PERMANOVA, n=148)'), {'font-size':12.5, style:'font-weight:600'});
+  const psc = 280 / 0.32;
+  [
+    [tl('Museo', 'Museum'), F.perm.museo, 'var(--fibra)'],
+    [tl('Capturista (OKR)', 'Recorder (OKR)'), F.perm.capturista, 'var(--cochinilla)'],
+    [tl('Sitio arqueológico', 'Archaeological site'), F.perm.sitio, 'var(--indigo)'],
+  ].forEach(([lbl, v, col], i) => {
+    const y = 140 + i * 32;
+    tx(svg, rx, y + 10, lbl, {'font-size':11.5, class:'g'});
+    el('rect', {x:rx + 125, y:y - 2, width:v * psc, height:14, rx:3, style:'fill:' + col}, svg);
+    tx(svg, rx + 131 + v * psc, y + 9, (v * 100).toFixed(1) + '%', {'font-size':11.5, class:'m', style:'fill:' + col + ';font-weight:600'});
+  });
+})();
+
+/* ---------- figura 26: auditoría unificada de 4 estudios de 2026 ---------- */
+(function figAudit26(){
+  const svg = $('svg-audit26'); if (!svg || !D.v2_audit26) return;
+  const A = D.v2_audit26;
+  const items = [
+    {t:tl('Entropía R/V (quipus con q < 0,05)', 'R/V entropy (khipus with q < 0.05)'), a:A.rv[0], b:A.rv[1], max:20,
+     la:A.rv[0] + '/39 ' + tl('barajado simple', 'simple shuffle'), lb:A.rv[1] + '/39 ' + tl('nulo con rachas', 'run-preserving null'), ok:false},
+    {t:tl('Torsión imperial, Contreras 2026 (F1)', 'Imperial twist, Contreras 2026 (F1)'), a:A.ml[0], b:A.ml[1], max:0.30,
+     la:A.ml[0].toFixed(3) + ' ' + tl('CV estratificada', 'stratified CV'), lb:A.ml[1].toFixed(3) + ' ' + tl('CV por sitio', 'site-grouped CV'), ok:false},
+    {t:tl('K-CAT color y magnitud (varianza R²)', 'K-CAT color and magnitude (variance R²)'), a:A.kcat_r2[0], b:A.kcat_r2[1], max:20,
+     la:A.kcat_r2[0] + '% ' + tl('clave local', 'local key'), lb:A.kcat_r2[1] + '% ' + tl('código global', 'global code'), ok:false},
+    {t:tl('Zenil y Uthamacumaran 2026 (z padre-hijo)', 'Zenil & Uthamacumaran 2026 (parent-child z)'), a:A.zenil[0], b:A.zenil[1], max:8,
+     la:'z = ' + A.zenil[0] + ' ' + tl('(fibra/torsión)', '(fiber/twist)'), lb:'z = ' + A.zenil[1] + ' ' + tl('(grupo/escala)', '(group/scale)'), ok:false},
+    {t:tl('K-CAT padre = suma de subsidiarias', 'K-CAT parent = sum of subsidiaries'), a:A.kcat_sum[1], b:A.kcat_sum[0], max:6,
+     la:A.kcat_sum[1] + '% ' + tl('nulo intra-quipu', 'intra-khipu null'), lb:A.kcat_sum[0] + '% ' + tl('observado (p_Holm 0,003)', 'observed (p_Holm 0.003)'), ok:true},
+  ];
+  const x0 = 285, W = 310;
+  items.forEach((it, i) => {
+    const y = 26 + i * 54;
+    tx(svg, x0 - 12, y + 18, it.t, {'text-anchor':'end', 'font-size':12.5});
+    const wa = Math.max(4, (it.a / it.max) * W), wb = Math.max(4, (it.b / it.max) * W);
+    el('rect', {x:x0, y:y, width:wa, height:12, rx:3, style:'fill:var(--regla)'}, svg);
+    tx(svg, x0 + wa + 6, y + 10, it.la, {'font-size':11, class:'g m'});
+    const col = it.ok ? 'var(--ok)' : 'var(--cochinilla)';
+    el('rect', {x:x0, y:y + 16, width:wb, height:13, rx:3, style:'fill:' + col}, svg);
+    tx(svg, x0 + wb + 6, y + 26, it.lb, {'font-size':11.5, class:'m', style:'fill:' + col + ';font-weight:600'});
+  });
+})();
+
+/* ---------- figura 27: torneo colonial (LODO/LOSO y UR278 vs 8 listas) ---------- */
+(function figColonial(){
+  const svg = $('svg-colonial'); if (!svg || !D.v2_col) return;
+  const C = D.v2_col;
+  // Panel izquierdo: LODO vs LOSO y FPR sintética
+  tx(svg, 20, 22, tl('A. Clasificador colonial (38 tablas)', 'A. Colonial classifier (38 tables)'), {'font-size':12.5, style:'font-weight:600'});
+  const sc = 240 / 45;
+  [
+    [tl('Por documento (LODO)', 'Leave-one-doc-out'), C.lodo, 'var(--fibra)'],
+    [tl('Por fuente (LOSO)', 'Leave-one-source-out'), C.loso, 'var(--cochinilla)'],
+    [tl('FPR en 1000 sintéticos', 'FPR on 1,000 synthetics'), C.fpr, 'var(--cochinilla)'],
+  ].forEach(([lbl, v, col], i) => {
+    const y = 46 + i * 48;
+    tx(svg, 20, y, lbl, {'font-size':11.5, class:'g'});
+    el('rect', {x:20, y:y + 6, width:Math.max(4, v * sc), height:14, rx:3, style:'fill:' + col}, svg);
+    tx(svg, 26 + v * sc, y + 17, v.toFixed(1) + '%', {'font-size':12, class:'m', style:'fill:' + col + ';font-weight:600'});
+  });
+  const limX = 20 + 5 * sc;
+  el('line', {x1:limX, y1:138, x2:limX, y2:174, style:'stroke:var(--ok);stroke-dasharray:3 2;stroke-width:1.4'}, svg);
+  tx(svg, limX + 4, 186, tl('límite FPR 5 %', '5% FPR limit'), {'font-size':10, style:'fill:var(--ok)'});
+
+  // Panel derecho: UR278 frente a 8 listas demográficas coloniales (sin Bambamarca)
+  const px0 = 420, py0 = 40, pw = 370, ph = 185;
+  tx(svg, px0, 22, tl('B. UR278 frente a 8 listas coloniales (sin Bambamarca)', 'B. UR278 vs. 8 colonial lists (excluding Bambamarca)'), {'font-size':12.5, style:'font-weight:600'});
+  const X = rho => px0 + ((rho + 1.0) / 1.7) * pw;
+  const Y = cv => py0 + ph - (cv / 1.95) * ph;
+  el('line', {x1:px0, y1:py0 + ph, x2:px0 + pw, y2:py0 + ph, style:'stroke:var(--regla)'}, svg);
+  el('line', {x1:px0, y1:py0, x2:px0, y2:py0 + ph, style:'stroke:var(--regla)'}, svg);
+  el('line', {x1:X(-0.3), y1:py0, x2:X(-0.3), y2:py0 + ph, style:'stroke:var(--regla);stroke-dasharray:3 3'}, svg);
+  tx(svg, X(-0.3), py0 + ph + 15, 'ρ = −0.30', {'text-anchor':'middle', 'font-size':10, class:'g m'});
+  tx(svg, px0 + pw / 2, py0 + ph + 32, tl('correlación de orden ρ (izquierda = desciende)', 'rank correlation ρ (left = descending)'), {'text-anchor':'middle', 'font-size':11, class:'g'});
+  tx(svg, px0 - 8, py0 + 8, 'CV 1.9', {'text-anchor':'end', 'font-size':10, class:'g m'});
+  tx(svg, px0 - 8, py0 + ph, '0.0', {'text-anchor':'end', 'font-size':10, class:'g m'});
+  C.listas.forEach(l => {
+    const cx = X(l.rho), cy = Y(l.cv);
+    el('circle', {cx, cy, r:5, style:'fill:var(--fibra);opacity:.8'}, svg);
+    tx(svg, cx + 7, cy + 3, l.id.replace('Pärssinen ', 'T'), {'font-size':9.5, class:'g'});
+  });
+  const ux = X(-0.73), uy = Y(0.173);
+  el('circle', {cx:ux, cy:uy, r:7, style:'fill:var(--indigo)'}, svg);
+  tx(svg, ux + 10, uy + 4, 'UR278 (−0.73, CV 0.17)', {'font-size':11, class:'m', style:'fill:var(--indigo);font-weight:600'});
 })();
 
 /* ---------- tema claro / oscuro ---------- */
