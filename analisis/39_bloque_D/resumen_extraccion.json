@@ -1,0 +1,511 @@
+{
+  "n_items": 1405,
+  "n_tablas": 37,
+  "n_generos": 5,
+  "fuentes_por_genero": {
+    "GANADO_INVENTARIO": [
+      "Chirinos2010",
+      "Curatola2013_Castro"
+    ],
+    "TRIBUTO_TASA": [
+      "Chirinos2010",
+      "Curatola2013_Medelius"
+    ],
+    "APORTE_INVENTARIO": [
+      "Chirinos2010"
+    ],
+    "PADRON_DEMOGRAFICO": [
+      "Chirinos2010",
+      "Parssinen1992",
+      "Rosetta_11"
+    ],
+    "SERVICIO_ASIGNACION": [
+      "Chirinos2010"
+    ]
+  },
+  "items_por_genero": {
+    "GANADO_INVENTARIO": 256,
+    "TRIBUTO_TASA": 227,
+    "APORTE_INVENTARIO": 581,
+    "PADRON_DEMOGRAFICO": 319,
+    "SERVICIO_ASIGNACION": 22
+  },
+  "tablas": {
+    "Castro2013_C2_Tulpo1611": {
+      "n": 45,
+      "genero": "GANADO_INVENTARIO",
+      "fuente": "Curatola2013_Castro",
+      "muestra": [
+        918,
+        697,
+        221,
+        1137,
+        609,
+        20
+      ]
+    },
+    "Castro2013_C3_Tulpo1625": {
+      "n": 57,
+      "genero": "GANADO_INVENTARIO",
+      "fuente": "Curatola2013_Castro",
+      "muestra": [
+        611,
+        59,
+        84,
+        285,
+        3,
+        547
+      ]
+    },
+    "Castro2013_C4_Tulpo1626": {
+      "n": 41,
+      "genero": "GANADO_INVENTARIO",
+      "fuente": "Curatola2013_Castro",
+      "muestra": [
+        611,
+        59,
+        84,
+        285,
+        3,
+        610
+      ]
+    },
+    "Castro2013_C5_Yamobamba1626": {
+      "n": 21,
+      "genero": "GANADO_INVENTARIO",
+      "fuente": "Curatola2013_Castro",
+      "muestra": [
+        580,
+        50,
+        671,
+        48,
+        631,
+        43
+      ]
+    },
+    "Castro2013_C6_Tulpo1631a": {
+      "n": 26,
+      "genero": "GANADO_INVENTARIO",
+      "fuente": "Curatola2013_Castro",
+      "muestra": [
+        240,
+        65,
+        64,
+        122,
+        118,
+        795
+      ]
+    },
+    "Castro2013_C7_Tulpo1631b": {
+      "n": 33,
+      "genero": "GANADO_INVENTARIO",
+      "fuente": "Curatola2013_Castro",
+      "muestra": [
+        104,
+        504,
+        55,
+        3,
+        86,
+        56
+      ]
+    },
+    "Chirinos2010_C1_3_Huancas1533": {
+      "n": 24,
+      "genero": "APORTE_INVENTARIO",
+      "fuente": "Chirinos2010",
+      "muestra": [
+        596,
+        271,
+        454,
+        119,
+        60,
+        92
+      ]
+    },
+    "Chirinos2010_C1_4_Huancas1533_36": {
+      "n": 90,
+      "genero": "APORTE_INVENTARIO",
+      "fuente": "Chirinos2010",
+      "muestra": [
+        927,
+        589,
+        722,
+        48284,
+        24812,
+        36280
+      ]
+    },
+    "Chirinos2010_C1_5_Huancas1537_42": {
+      "n": 187,
+      "genero": "APORTE_INVENTARIO",
+      "fuente": "Chirinos2010",
+      "muestra": [
+        2991,
+        1330,
+        664,
+        997,
+        108,
+        48
+      ]
+    },
+    "Chirinos2010_C1_6_Huancas1542_48": {
+      "n": 41,
+      "genero": "APORTE_INVENTARIO",
+      "fuente": "Chirinos2010",
+      "muestra": [
+        1010,
+        449,
+        224,
+        337,
+        29794,
+        12640
+      ]
+    },
+    "Chirinos2010_C2_1_HuancasGiron": {
+      "n": 107,
+      "genero": "APORTE_INVENTARIO",
+      "fuente": "Chirinos2010",
+      "muestra": [
+        3262,
+        1986,
+        2697,
+        2766,
+        2742,
+        759
+      ]
+    },
+    "Chirinos2010_C2_2_3_4_Huancas1558_61": {
+      "n": 57,
+      "genero": "APORTE_INVENTARIO",
+      "fuente": "Chirinos2010",
+      "muestra": [
+        235,
+        6,
+        241,
+        27,
+        8,
+        35
+      ]
+    },
+    "Chirinos2010_C2_5_6_7_Huancas1558_61": {
+      "n": 75,
+      "genero": "APORTE_INVENTARIO",
+      "fuente": "Chirinos2010",
+      "muestra": [
+        158,
+        158,
+        2621,
+        2621,
+        3357,
+        654
+      ]
+    },
+    "Chirinos2010_C3_1_Chucuito1567": {
+      "n": 100,
+      "genero": "PADRON_DEMOGRAFICO",
+      "fuente": "Chirinos2010",
+      "muestra": [
+        500,
+        1233,
+        83,
+        1418,
+        41,
+        347
+      ]
+    },
+    "Chirinos2010_C3_2_Paria1565": {
+      "n": 29,
+      "genero": "TRIBUTO_TASA",
+      "fuente": "Chirinos2010",
+      "muestra": [
+        420,
+        418,
+        2926,
+        823,
+        821,
+        5747
+      ]
+    },
+    "Chirinos2010_C3_4_GanadoMajestad": {
+      "n": 33,
+      "genero": "GANADO_INVENTARIO",
+      "fuente": "Chirinos2010",
+      "muestra": [
+        475,
+        1111,
+        1183,
+        4416,
+        89,
+        755
+      ]
+    },
+    "Chirinos2010_C6_1_ChupaychuTributo": {
+      "n": 42,
+      "genero": "TRIBUTO_TASA",
+      "fuente": "Chirinos2010",
+      "muestra": [
+        21,
+        35,
+        168,
+        17,
+        10,
+        3
+      ]
+    },
+    "Chirinos2010_C6_3_Mazco1562": {
+      "n": 4,
+      "genero": "PADRON_DEMOGRAFICO",
+      "fuente": "Chirinos2010",
+      "muestra": [
+        74,
+        92,
+        683,
+        1202
+      ]
+    },
+    "Chirinos2010_C7_2_AullagasBienes": {
+      "n": 96,
+      "genero": "TRIBUTO_TASA",
+      "fuente": "Chirinos2010",
+      "muestra": [
+        23385,
+        23385,
+        170,
+        170,
+        7,
+        7
+      ]
+    },
+    "Chirinos2010_C7_4_AullagasServicios": {
+      "n": 22,
+      "genero": "SERVICIO_ASIGNACION",
+      "fuente": "Chirinos2010",
+      "muestra": [
+        33,
+        30,
+        10,
+        10,
+        390,
+        390
+      ]
+    },
+    "Medelius2013_C1_Angaraes1550": {
+      "n": 18,
+      "genero": "TRIBUTO_TASA",
+      "fuente": "Curatola2013_Medelius",
+      "muestra": [
+        200,
+        50,
+        50,
+        50,
+        60,
+        300
+      ]
+    },
+    "Medelius2013_C2_Angaraes1571": {
+      "n": 24,
+      "genero": "TRIBUTO_TASA",
+      "fuente": "Curatola2013_Medelius",
+      "muestra": [
+        52,
+        13,
+        8,
+        4,
+        12,
+        3
+      ]
+    },
+    "Medelius2013_C3_AngaraesTercera": {
+      "n": 18,
+      "genero": "TRIBUTO_TASA",
+      "fuente": "Curatola2013_Medelius",
+      "muestra": [
+        53,
+        100,
+        10,
+        100,
+        4,
+        2
+      ]
+    },
+    "Parssinen1992_T10_Ocona": {
+      "n": 14,
+      "genero": "PADRON_DEMOGRAFICO",
+      "fuente": "Parssinen1992",
+      "muestra": [
+        30,
+        10,
+        12,
+        20,
+        18,
+        30
+      ]
+    },
+    "Parssinen1992_T2_Bambamarca1567": {
+      "n": 9,
+      "genero": "PADRON_DEMOGRAFICO",
+      "fuente": "Parssinen1992",
+      "muestra": [
+        104,
+        75,
+        78,
+        68,
+        49,
+        75
+      ]
+    },
+    "Parssinen1992_T2_Chondal1567": {
+      "n": 4,
+      "genero": "PADRON_DEMOGRAFICO",
+      "fuente": "Parssinen1992",
+      "muestra": [
+        336,
+        142,
+        144,
+        331
+      ]
+    },
+    "Parssinen1992_T2_Pomamarca1567": {
+      "n": 6,
+      "genero": "PADRON_DEMOGRAFICO",
+      "fuente": "Parssinen1992",
+      "muestra": [
+        61,
+        31,
+        102,
+        80,
+        49,
+        387
+      ]
+    },
+    "Parssinen1992_T3_AstoCacas": {
+      "n": 15,
+      "genero": "PADRON_DEMOGRAFICO",
+      "fuente": "Parssinen1992",
+      "muestra": [
+        77,
+        77,
+        32,
+        16,
+        8,
+        22
+      ]
+    },
+    "Parssinen1992_T4_Coco": {
+      "n": 5,
+      "genero": "PADRON_DEMOGRAFICO",
+      "fuente": "Parssinen1992",
+      "muestra": [
+        250,
+        100,
+        20,
+        10,
+        70
+      ]
+    },
+    "Parssinen1992_T6_CaquiaviriHuayba": {
+      "n": 62,
+      "genero": "PADRON_DEMOGRAFICO",
+      "fuente": "Parssinen1992",
+      "muestra": [
+        230,
+        40,
+        3,
+        68,
+        10,
+        26
+      ]
+    },
+    "Parssinen1992_T7_AchoGuarache": {
+      "n": 31,
+      "genero": "PADRON_DEMOGRAFICO",
+      "fuente": "Parssinen1992",
+      "muestra": [
+        53,
+        37,
+        21,
+        14,
+        260,
+        174
+      ]
+    },
+    "Parssinen1992_T8_CavanaConde": {
+      "n": 18,
+      "genero": "PADRON_DEMOGRAFICO",
+      "fuente": "Parssinen1992",
+      "muestra": [
+        610,
+        100,
+        23,
+        30,
+        20,
+        30
+      ]
+    },
+    "Parssinen1992_T9_YanqueCollagua": {
+      "n": 17,
+      "genero": "PADRON_DEMOGRAFICO",
+      "fuente": "Parssinen1992",
+      "muestra": [
+        10,
+        172,
+        80,
+        60,
+        170,
+        150
+      ]
+    },
+    "Rosetta_Medrano 2019:23 = PK I:141 l.55-58, 63-83": {
+      "n": 9,
+      "genero": "PADRON_DEMOGRAFICO",
+      "fuente": "Rosetta_11",
+      "muestra": [
+        400,
+        150,
+        150,
+        10,
+        200,
+        200
+      ]
+    },
+    "Rosetta_Medrano 2019:31-32 = PK II:151-152 l.36-52": {
+      "n": 11,
+      "genero": "PADRON_DEMOGRAFICO",
+      "fuente": "Rosetta_11",
+      "muestra": [
+        38,
+        18,
+        53,
+        9,
+        29,
+        17
+      ]
+    },
+    "Rosetta_Medrano y Urton 2018, tabla 2": {
+      "n": 6,
+      "genero": "PADRON_DEMOGRAFICO",
+      "fuente": "Rosetta_11",
+      "muestra": [
+        18,
+        23,
+        9,
+        7,
+        41,
+        32
+      ]
+    },
+    "Rosetta_Urton 2017, tabla 11.3 (Schjellerup 1997)": {
+      "n": 8,
+      "genero": "PADRON_DEMOGRAFICO",
+      "fuente": "Rosetta_11",
+      "muestra": [
+        17550,
+        16309,
+        10699,
+        8062,
+        7042,
+        5626
+      ]
+    }
+  }
+}

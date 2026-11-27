@@ -1,0 +1,293 @@
+{
+  "preregistro": "P04_cielab_y_geometria_2d.md",
+  "semilla": 20261127,
+  "familia_holm": [
+    {
+      "test_id": "P04.1",
+      "n_pares_distinto_investigador": 8,
+      "n_pares_mismo_investigador": 8,
+      "obs_ratio_dE_mediano": 0.9404,
+      "mediana_exact_label_cross": 0.273,
+      "mediana_spearman_L_cross": 0.247,
+      "p": 0.227886,
+      "pares_cross": [
+        {
+          "par": "AS128~QU013",
+          "series": "AS-QU",
+          "n": 28,
+          "exact_label_rate": 0.0,
+          "obs_dE2000": 32.05,
+          "null_dE2000": 32.05,
+          "ratio_dE": 1.0,
+          "spearman_L": -0.882,
+          "p_pair": 1.0
+        },
+        {
+          "par": "HP055~UR1084",
+          "series": "HP-AS",
+          "n": 141,
+          "exact_label_rate": 0.752,
+          "obs_dE2000": 0.0,
+          "null_dE2000": 0.0,
+          "ratio_dE": 1.0,
+          "spearman_L": -0.028,
+          "p_pair": 1.0
+        },
+        {
+          "par": "KH0049~UR122",
+          "series": "KH-UR",
+          "n": 80,
+          "exact_label_rate": 0.325,
+          "obs_dE2000": 18.24,
+          "null_dE2000": 20.71,
+          "ratio_dE": 0.8807,
+          "spearman_L": 0.37,
+          "p_pair": 0.2009
+        },
+        {
+          "par": "MM016~UR212",
+          "series": "MM-UR",
+          "n": 13,
+          "exact_label_rate": 0.385,
+          "obs_dE2000": 11.41,
+          "null_dE2000": 5.57,
+          "ratio_dE": 2.0488,
+          "spearman_L": -0.255,
+          "p_pair": 0.95402
+        },
+        {
+          "par": "QU002~UR137",
+          "series": "QU-UR",
+          "n": 11,
+          "exact_label_rate": 1.0,
+          "obs_dE2000": 0.0,
+          "null_dE2000": 0.0,
+          "ratio_dE": 1.0,
+          "spearman_L": 1.0,
+          "p_pair": 0.66267
+        },
+        {
+          "par": "UR1107~UR237",
+          "series": "AS-UR",
+          "n": 23,
+          "exact_label_rate": 0.0,
+          "obs_dE2000": 14.37,
+          "null_dE2000": 17.28,
+          "ratio_dE": 0.8319,
+          "spearman_L": 0.124,
+          "p_pair": 0.12644
+        },
+        {
+          "par": "UR1175~UR232",
+          "series": "AS-UR",
+          "n": 50,
+          "exact_label_rate": 0.22,
+          "obs_dE2000": 14.01,
+          "null_dE2000": 32.15,
+          "ratio_dE": 0.4357,
+          "spearman_L": 0.593,
+          "p_pair": 0.0005
+        },
+        {
+          "par": "UR1175~UR233",
+          "series": "AS-UR",
+          "n": 93,
+          "exact_label_rate": 0.161,
+          "obs_dE2000": 14.37,
+          "null_dE2000": 32.15,
+          "ratio_dE": 0.4471,
+          "spearman_L": 0.517,
+          "p_pair": 0.0005
+        }
+      ],
+      "status": "EVALUADO",
+      "p_holm": 0.455772
+    },
+    {
+      "test_id": "P04.2",
+      "con_W": {
+        "n_quipus": 351,
+        "med_rho_global": 0.0869,
+        "por_transcriptor": {
+          "AS": {
+            "n": 101,
+            "med_rho": 0.1369
+          },
+          "HP": {
+            "n": 27,
+            "med_rho": 0.1266
+          },
+          "JC": {
+            "n": 7,
+            "med_rho": -0.0192
+          },
+          "KH": {
+            "n": 16,
+            "med_rho": 0.1876
+          },
+          "MM": {
+            "n": 10,
+            "med_rho": 0.1696
+          },
+          "QU": {
+            "n": 16,
+            "med_rho": 0.0283
+          },
+          "UR": {
+            "n": 174,
+            "med_rho": 0.0567
+          }
+        },
+        "p": 0.0005
+      },
+      "sin_W": {
+        "n_quipus": 225,
+        "med_rho_global": 0.0529,
+        "por_transcriptor": {
+          "AS": {
+            "n": 52,
+            "med_rho": 0.0083
+          },
+          "HP": {
+            "n": 12,
+            "med_rho": -0.2008
+          },
+          "JC": {
+            "n": 7,
+            "med_rho": -0.0192
+          },
+          "KH": {
+            "n": 10,
+            "med_rho": 0.3089
+          },
+          "MM": {
+            "n": 6,
+            "med_rho": 0.2295
+          },
+          "QU": {
+            "n": 16,
+            "med_rho": 0.0283
+          },
+          "UR": {
+            "n": 122,
+            "med_rho": 0.0595
+          }
+        },
+        "p": 0.003998
+      },
+      "mismo_signo_UR_AS": true,
+      "p": 0.003998,
+      "status": "EVALUADO",
+      "p_holm": 0.011994
+    },
+    {
+      "test_id": "P04.3",
+      "n_quipus_elegibles": 35,
+      "n_sig_p005": 9,
+      "exp_p005": 1.75,
+      "tasa_obs": 0.2571,
+      "p": 4.2e-05,
+      "top_sig": [
+        {
+          "kh_id": "KH0123",
+          "kfg": "UR1109",
+          "n_phys_grps": 3,
+          "mean_abs_tau": 0.221,
+          "p": 0.002
+        },
+        {
+          "kh_id": "KH0296",
+          "kfg": "UR059",
+          "n_phys_grps": 3,
+          "mean_abs_tau": 0.315,
+          "p": 0.002
+        },
+        {
+          "kh_id": "KH0301",
+          "kfg": "UR064",
+          "n_phys_grps": 3,
+          "mean_abs_tau": 0.467,
+          "p": 0.002
+        },
+        {
+          "kh_id": "KH0279",
+          "kfg": "UR049",
+          "n_phys_grps": 4,
+          "mean_abs_tau": 0.22,
+          "p": 0.008
+        },
+        {
+          "kh_id": "KH0165",
+          "kfg": "UR1149",
+          "n_phys_grps": 3,
+          "mean_abs_tau": 0.224,
+          "p": 0.01
+        },
+        {
+          "kh_id": "KH0446",
+          "kfg": "UR208",
+          "n_phys_grps": 4,
+          "mean_abs_tau": 0.353,
+          "p": 0.01
+        },
+        {
+          "kh_id": "KH0325",
+          "kfg": "UR089",
+          "n_phys_grps": 3,
+          "mean_abs_tau": 0.146,
+          "p": 0.0299
+        },
+        {
+          "kh_id": "KH0143",
+          "kfg": "AS128",
+          "n_phys_grps": 3,
+          "mean_abs_tau": 0.222,
+          "p": 0.0379
+        }
+      ],
+      "status": "EVALUADO",
+      "p_holm": 0.000168
+    },
+    {
+      "test_id": "P04.4",
+      "n_estratos_sitio_capturista": 3,
+      "estratos": [
+        {
+          "estrato": "Inkawasi|julia",
+          "n_quipus": 23,
+          "n_enlazados": 5
+        },
+        {
+          "estrato": "Leymebamba|katie",
+          "n_quipus": 9,
+          "n_enlazados": 3
+        },
+        {
+          "estrato": "Puruchuco|cbrezine",
+          "n_quipus": 21,
+          "n_enlazados": 3
+        }
+      ],
+      "n_pares_enlazados": 11,
+      "n_pares_no_enlazados": 488,
+      "dist_media_enlazados": 2.3294,
+      "dist_media_no_enlazados": 2.9128,
+      "diff_no_menos_enlazados": 0.5834,
+      "p": 0.258148,
+      "status": "EVALUADO",
+      "p_holm": 0.455772
+    }
+  ],
+  "descriptivo_D04_5": {
+    "test_id": "D04.5",
+    "n_quipus": 148,
+    "R2_sitio": 0.085,
+    "R2_created_by": 0.0871,
+    "R2_museo": 0.2719,
+    "inkawasi_capturistas": {
+      "julia": 23,
+      "jclindaniel": 15
+    },
+    "alerta_confusion": true
+  }
+}

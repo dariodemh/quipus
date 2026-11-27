@@ -1,0 +1,157 @@
+{
+  "preregistro": "P01_corpus_maestro_y_heldout.md",
+  "semilla": 20261127,
+  "familia_holm": [
+    {
+      "test_id": "P01.1",
+      "n_grupos": 104,
+      "obs_aciertos": 29,
+      "obs_tasa": 0.2788,
+      "exp_tasa": 0.1701,
+      "p": 0.004199,
+      "status": "EVALUADO",
+      "p_holm": 0.004199
+    },
+    {
+      "test_id": "P01.2",
+      "status": "SIN_POTENCIA",
+      "n_cuerdas": 0,
+      "p": null,
+      "mediana_razon": null,
+      "p_holm": null
+    },
+    {
+      "test_id": "P01.3a",
+      "status": "SIN_POTENCIA",
+      "n_superiores": 0,
+      "p": null,
+      "obs_aciertos": 0,
+      "p_holm": null
+    },
+    {
+      "test_id": "P01.3b",
+      "n_superiores": 174,
+      "obs_aciertos": 53,
+      "exp_aciertos": 12.2,
+      "p": 0.0002,
+      "status": "EVALUADO",
+      "p_holm": 0.0004
+    },
+    {
+      "test_id": "P01.4",
+      "n_quipus": 16,
+      "n_sig_p001": 5,
+      "exp_p001": 0.16,
+      "p": 0.0,
+      "candidatos": [
+        {
+          "kh_id": "AS033",
+          "n": 98,
+          "score": 0.5,
+          "p": 0.0005
+        },
+        {
+          "kh_id": "KH0208",
+          "n": 101,
+          "score": 0.141,
+          "p": 0.0005
+        },
+        {
+          "kh_id": "KH0648",
+          "n": 55,
+          "score": 0.132,
+          "p": 0.007
+        },
+        {
+          "kh_id": "KH0651",
+          "n": 86,
+          "score": 0.238,
+          "p": 0.0005
+        },
+        {
+          "kh_id": "KH0676",
+          "n": 65,
+          "score": 0.095,
+          "p": 0.004
+        }
+      ],
+      "status": "EVALUADO",
+      "p_holm": 0.0
+    },
+    {
+      "test_id": "P01.5",
+      "n_heldout_con_5vals": 30,
+      "pares_evaluados": 17766,
+      "candidatos_sw_ge14": 4,
+      "copias_confirmadas_q005": [],
+      "n_confirmadas": 0,
+      "OR_mismo_museo_o_sitio": "None",
+      "p": null,
+      "status": "SIN_POTENCIA",
+      "top_10_candidatos": [
+        {
+          "kh1": "KH0139",
+          "kh2": "KH0138",
+          "score": 33.82,
+          "orient": "dir",
+          "shared_ge10": 13,
+          "p": 0.0005,
+          "museo1": "Ethnologisches Museum",
+          "museo2": "Museum für Völkerkunde, Berlin",
+          "prov1": "",
+          "prov2": "Marquez",
+          "q_bh": 1.0
+        },
+        {
+          "kh1": "KH0139",
+          "kh2": "UR1124 Detail 1",
+          "score": 28.35,
+          "orient": "dir",
+          "shared_ge10": 8,
+          "p": 0.0005,
+          "museo1": "Ethnologisches Museum",
+          "museo2": "Museum für Völkerkunde, Berlin",
+          "prov1": "",
+          "prov2": "Marquez",
+          "q_bh": 1.0
+        },
+        {
+          "kh1": "AS033",
+          "kh2": "KH0040",
+          "score": 16.22,
+          "orient": "dir",
+          "shared_ge10": 5,
+          "p": 0.0005,
+          "museo1": "",
+          "museo2": "Peabody Museum, Harvard University",
+          "prov1": "",
+          "prov2": "Unknown",
+          "q_bh": 1.0
+        },
+        {
+          "kh1": "AS033",
+          "kh2": "KH0038",
+          "score": 15.87,
+          "orient": "dir",
+          "shared_ge10": 4,
+          "p": 0.0005,
+          "museo1": "",
+          "museo2": "Peabody Museum, Harvard University",
+          "prov1": "",
+          "prov2": "Unknown",
+          "q_bh": 1.0
+        }
+      ],
+      "p_holm": null
+    }
+  ],
+  "descriptivo": {
+    "test_id": "D01.6",
+    "parches_thompson_en_quipus_clave": [],
+    "n_parches_en_clave": 0,
+    "ur274b_cuerdas_okr": 133,
+    "ur274b_cuotas_17_okr": 12,
+    "ur274b_cuotas_10_okr": 7,
+    "veredicto": "ROBUSTO"
+  }
+}

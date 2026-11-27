@@ -1,0 +1,166 @@
+{
+  "preregistro": "P06_torneo_colonial_generativo.md",
+  "semilla": 20261127,
+  "familia_holm": [
+    {
+      "test_id": "P06.1",
+      "n_items": 1190,
+      "n_tablas": 38,
+      "generos_lodo": {
+        "APORTE_INVENTARIO": 10,
+        "GANADO_INVENTARIO": 7,
+        "SERVICIO_ASIGNACION": 3,
+        "PADRON_DEMOGRAFICO": 10,
+        "TRIBUTO_TASA": 8
+      },
+      "generos_multi_fuente_loso": [
+        "GANADO_INVENTARIO",
+        "PADRON_DEMOGRAFICO",
+        "SERVICIO_ASIGNACION",
+        "TRIBUTO_TASA"
+      ],
+      "balanced_acc_LODO": 0.3821,
+      "p_LODO": 0.0085,
+      "balanced_acc_LOSO": 0.05,
+      "p_LOSO": 0.9925,
+      "p": 0.9925,
+      "veredicto": "NO_SEPARABLES_BAJO_LOSO",
+      "p_holm": 1.0
+    },
+    {
+      "test_id": "P06.2",
+      "acierto_medio_3_controles": 0.3697,
+      "detalle_controles": {
+        "ASG": {
+          "n": 23,
+          "hits": 11,
+          "acc": 0.4783,
+          "dist_asignada": {
+            "TRIBUTO_TASA": 2,
+            "SERVICIO_ASIGNACION": 9,
+            "FUERA_DE_DISTRIBUCION": 8,
+            "PADRON_DEMOGRAFICO": 1,
+            "APORTE_INVENTARIO": 3
+          },
+          "dist_best_cls": {
+            "TRIBUTO_TASA": 2,
+            "SERVICIO_ASIGNACION": 11,
+            "APORTE_INVENTARIO": 7,
+            "PADRON_DEMOGRAFICO": 3
+          }
+        },
+        "PAD_Santa": {
+          "n": 6,
+          "hits": 1,
+          "acc": 0.1667,
+          "dist_asignada": {
+            "FUERA_DE_DISTRIBUCION": 5,
+            "PADRON_DEMOGRAFICO": 1
+          },
+          "dist_best_cls": {
+            "PADRON_DEMOGRAFICO": 4,
+            "APORTE_INVENTARIO": 1,
+            "TRIBUTO_TASA": 1
+          }
+        },
+        "TAL": {
+          "n": 28,
+          "hits": 13,
+          "acc": 0.4643,
+          "dist_asignada": {
+            "PADRON_DEMOGRAFICO": 13,
+            "FUERA_DE_DISTRIBUCION": 13,
+            "APORTE_INVENTARIO": 1,
+            "TRIBUTO_TASA": 1
+          },
+          "dist_best_cls": {
+            "PADRON_DEMOGRAFICO": 25,
+            "APORTE_INVENTARIO": 2,
+            "TRIBUTO_TASA": 1
+          }
+        }
+      },
+      "p": 0.26087,
+      "veredicto": "CONTROLES_INSUFICIENTES",
+      "p_holm": 0.78261
+    },
+    {
+      "test_id": "P06.3",
+      "n_frontera_ge10": 148,
+      "n_asignados_post070_chi005": 45,
+      "tasa_asignada_frontera": 0.3041,
+      "FPR_sinteticos_1000": 0.537,
+      "distribucion_frontera": {
+        "FUERA_DE_DISTRIBUCION": 103,
+        "PADRON_DEMOGRAFICO": 29,
+        "APORTE_INVENTARIO": 13,
+        "TRIBUTO_TASA": 1,
+        "SERVICIO_ASIGNACION": 2
+      },
+      "p": 1.0,
+      "veredicto": "FPR_ALTA_O_NEGATIVO",
+      "p_holm": 1.0
+    },
+    {
+      "test_id": "P06.4",
+      "n_listas_ge7_sin_Bambamarca": 8,
+      "mediana_rho": -0.2939,
+      "mediana_cv": 1.2599,
+      "frac_listas_rho_le_UR278": 0.0,
+      "frac_listas_cv_le_UR278": 0.0,
+      "p": 0.001,
+      "listas": [
+        {
+          "doc_id": "CHI_3_1a_Chucuito_1567_Poblacion",
+          "n": 17,
+          "rho": -0.1054,
+          "cv": 0.416
+        },
+        {
+          "doc_id": "PAR1992_Table10",
+          "n": 15,
+          "rho": 0.5031,
+          "cv": 0.5982
+        },
+        {
+          "doc_id": "PAR1992_Table3",
+          "n": 51,
+          "rho": -0.4403,
+          "cv": 1.4408
+        },
+        {
+          "doc_id": "PAR1992_Table4",
+          "n": 9,
+          "rho": -0.2678,
+          "cv": 1.0791
+        },
+        {
+          "doc_id": "PAR1992_Table6",
+          "n": 61,
+          "rho": -0.6073,
+          "cv": 1.7203
+        },
+        {
+          "doc_id": "PAR1992_Table7",
+          "n": 35,
+          "rho": -0.3351,
+          "cv": 1.5151
+        },
+        {
+          "doc_id": "PAR1992_Table8",
+          "n": 18,
+          "rho": -0.3199,
+          "cv": 1.7093
+        },
+        {
+          "doc_id": "PAR1992_Table9",
+          "n": 16,
+          "rho": 0.0147,
+          "cv": 0.5808
+        }
+      ],
+      "veredicto": "ORDEN_DE_PRESTIGIO_CONFIRMA_P17",
+      "p_holm": 0.004
+    }
+  ]
+}

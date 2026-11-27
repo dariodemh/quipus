@@ -1,0 +1,199 @@
+{
+  "preregistro": "P05_auditoria_2026.md",
+  "semilla": 20261127,
+  "familia_holm": [
+    {
+      "test_id": "P05.1",
+      "rv_cohort_cols": [
+        "okrNum",
+        "cordOrdinal",
+        "attachmentDirection",
+        "colorCd1",
+        "twist",
+        "knotTypes",
+        "cordLevel"
+      ],
+      "cohorte_27": {
+        "n": 27,
+        "p_fy_lt005": 10,
+        "q_fy_lt005": 8,
+        "q_runs_lt005": 0
+      },
+      "cohorte_completa_sin_top100": {
+        "n": 39,
+        "p_fy_lt005": 18,
+        "q_fy_lt005": 17,
+        "p_runs_lt005": 2,
+        "q_runs_lt005": 0,
+        "p_binom_fy": 0.0,
+        "p_binom_runs": 0.587052
+      },
+      "p": 0.587052,
+      "veredicto": "FRAGIL_A_RACHAS",
+      "top_full_runs": [
+        {
+          "id": "KH0097",
+          "n": 319,
+          "h_obs": 1.7971,
+          "p_fy": 0.001,
+          "p_runs": 0.02098,
+          "q_fy": 0.00325,
+          "q_runs": 0.46753
+        },
+        {
+          "id": "KH0569",
+          "n": 100,
+          "h_obs": 1.6682,
+          "p_fy": 0.001,
+          "p_runs": 0.02398,
+          "q_fy": 0.00325,
+          "q_runs": 0.46753
+        },
+        {
+          "id": "QU001",
+          "n": 33,
+          "h_obs": 1.2232,
+          "p_fy": 0.00799,
+          "p_runs": 0.06893,
+          "q_fy": 0.01948,
+          "q_runs": 0.8961
+        },
+        {
+          "id": "KH0242",
+          "n": 571,
+          "h_obs": 2.2924,
+          "p_fy": 0.001,
+          "p_runs": 0.26274,
+          "q_fy": 0.00325,
+          "q_runs": 1.0
+        },
+        {
+          "id": "KH0343",
+          "n": 25,
+          "h_obs": 1.3118,
+          "p_fy": 0.04595,
+          "p_runs": 0.26673,
+          "q_fy": 0.09957,
+          "q_runs": 1.0
+        },
+        {
+          "id": "KH0467",
+          "n": 36,
+          "h_obs": 1.1008,
+          "p_fy": 0.33367,
+          "p_runs": 0.41059,
+          "q_fy": 0.5035,
+          "q_runs": 1.0
+        }
+      ],
+      "p_holm": 0.587052
+    },
+    {
+      "test_id": "P05.2",
+      "n_quipus_sin_U": 315,
+      "n_imperiales": 63,
+      "n_otros": 252,
+      "f1_estratificado_sin_U": 0.241,
+      "f1_agrupado_por_sitio_sin_U": 0.0476,
+      "caida_F1": 0.1933,
+      "frac_S_imperiales": 0.7779,
+      "frac_S_otros": 0.9337,
+      "p": 0.01329,
+      "veredicto": "INFLADO_POR_SESGO_U_O_FUGA",
+      "p_holm": 0.05316
+    },
+    {
+      "test_id": "P05.3",
+      "concordancia_OKR_vs_collca_Santa": 1.0,
+      "detalle_santa": [
+        {
+          "ur": "UR087",
+          "n_okr": 371,
+          "n_collca": 371,
+          "exact_match": 371
+        },
+        {
+          "ur": "UR088",
+          "n_okr": 102,
+          "n_collca": 102,
+          "exact_match": 102
+        },
+        {
+          "ur": "UR089",
+          "n_okr": 288,
+          "n_collca": 288,
+          "exact_match": 288
+        },
+        {
+          "ur": "UR090",
+          "n_okr": 131,
+          "n_collca": 131,
+          "exact_match": 131
+        },
+        {
+          "ur": "UR091",
+          "n_okr": 125,
+          "n_collca": 125,
+          "exact_match": 125
+        },
+        {
+          "ur": "UR092",
+          "n_okr": 61,
+          "n_collca": 61,
+          "exact_match": 61
+        }
+      ],
+      "n_sitios_control_ge6": 8,
+      "tasa_base_5puros_1mixto": 0.0724,
+      "p": 0.07259,
+      "veredicto": "NO_INDEPENDIENTE_MISMA_FUENTE",
+      "p_holm": 0.14518
+    },
+    {
+      "test_id": "P05.4",
+      "n_cuerdas": 28411,
+      "n_colores_ge10q": 31,
+      "kw_ingenuo_H": 1076.08,
+      "kw_ingenuo_p": 4.3146890702182835e-207,
+      "R2_clave_local_intra_quipu": 0.1599,
+      "R2_etiqueta_global_obs": 0.01057,
+      "R2_etiqueta_global_nulo_medio": 0.00305,
+      "p": 0.001,
+      "veredicto": "PSEUDORREPLICACION_Y_CLAVE_LOCAL",
+      "p_holm": 0.005
+    },
+    {
+      "test_id": "P05.5",
+      "n_colgantes_ge2subs": 1557,
+      "obs_exactos": 67,
+      "tasa_obs": 0.043,
+      "nulo_medio": 42.78,
+      "tasa_nula": 0.0275,
+      "n_quipus_qBH_lt005": 0,
+      "quipus_sig": [],
+      "p": 0.0005,
+      "veredicto": "SENAL_REAL",
+      "p_holm": 0.003
+    },
+    {
+      "test_id": "P05.6",
+      "n_clusters_test": 4977,
+      "auc_rol_distal_holdout": 0.861,
+      "n_enlaces_padre_hijo": 7259,
+      "coseno_obs": 0.43914,
+      "rewiring_b1_quipu_fibra_torsion": {
+        "nulo": 0.42286,
+        "z": 6.76,
+        "p": 0.002
+      },
+      "rewiring_b2_quipu_grupo_magnitud": {
+        "nulo": 0.43643,
+        "z": 1.82,
+        "p": 0.04192
+      },
+      "p": 0.04192,
+      "veredicto": "EXPLICADO_POR_ESCALA_LOCAL",
+      "p_holm": 0.12576
+    }
+  ]
+}

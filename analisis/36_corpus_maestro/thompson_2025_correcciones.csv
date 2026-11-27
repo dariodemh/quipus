@@ -1,0 +1,223 @@
+pagina,as_id,cuerdas_citadas,n_cuerdas,tipo,valor_orig,valor_propuesto_raw,valor_propuesto,info,revision
+2,AS001,,0,nota_o_suma,,,,Note 2. Sum of MB and LB subsidiaries in each equals 31.,Sum of MB subsidiaries equals 30. The 31 is reached when subsidiary p9s1 - white for ﬁrst 4cm and changes to medium brown (MB) - is added.
+2,AS003,,0,orientacion_orden,,,,recorded khipu from knoTed to twisted end,"Turn around, based on current conven&on."
+2,AS005,,0,orientacion_orden,,,,recorded khipu from knoTed to twisted end,"Turn around, based on current conven&on."
+2,AS005,p1,1,valor_o_nudo,11,1+1,2,p1 : 1E(7.0);1E(13.0) value=11,"Aschers tend to assign a compound value where knots are not in canonical ‘numeric’ order. Examina&on of the image provided by the Museum conﬁrm knots are 1E, 1E. Therefore, propose value = 1+1."
+2,AS005,p17s1,1,valor_o_nudo,3,5,5,p17s1 : 5L(3.0) value=3,"Value is inconsistent with knot nota&on. Examina&on of museum image conﬁrms 5L. Therefore, propose value = 5."
+2,AS005,p40s1,1,valor_o_nudo,2,20,20,p40s1 : 2s(4.5) value=2,"Value is inconsistent with knot nota&on. Examina&on of museum image conﬁrms 2S. Therefore, propose value = 20."
+2,AS006,p21s5;p25s1;p26s2;p32s1;t2s5;t5s1;t6s3,7,valor_o_nudo,1,,,"all subsidiaries with S-knots: T2s5 : 1s(3.5) , value=1 p21s5 : 1s(1.5);6L(6.0) , value=16 p25s1 : 1s(0.5) , value=1 p26s2 : 1s(3.5) , value=1 T5s1 : 1s(2.0) , value=1 p32s1 : 2s(5.0) , value=2 T6s3 : 3L(0.5);1s(1.5) , value=3+1","S-knots are assigned as 10s on pendant cords, but value=1 on many subsidiary cords. However, this is done inconsistently – speciﬁcally for p21s5."
+2,AS006,,0,agrupacion_o_posicion,,,,Note 2: The top cord is the sum of the pendant cords in all but group 3,This is only the case for cluster 6 if the last ‘nether knot’ on p34 – the last 3L in 4S(5.0);3L(12.5);3L(13.5) – is ignored.
+2,AS007,,0,orientacion_orden,,,,recorded khipu from knoTed to twisted end,"Turn around, based on current conven&on"
+2,AS007,,0,agrupacion_o_posicion,,,,31.5cm: group of 4 pendant cords (18-21),"There is no gap noted between p18-21 and p22. The gap is guessed as 0.5cm, and"
+3,AS007,,0,identificador_museo,,,,32.5cm: single pendant cord (22) 34.0cm: group of 4 pendant cords …,therefore p22 is moved to 33.0cm. This is inﬂuenced by the indica&on from other clusters that 4 pendants take up 1.0cm. Gap conﬁrmed by museum image.
+3,AS007,p31;p49;p50;p51;p52,5,valor_o_nudo,1,,,"p31 : 1s(22.0) , value=1 p49 : 5s(19.0) , value=5 p50 : 1s(19.0) , value=1 p51 : 5s(18.0) , value=5 p52 : 1s(18.0) , value=1 p52 : 1s(19.0) , value=1","S-knots are assigned 10s for pendants – except for these pendants. S-knots are assigned value=1 on subsidiaries, but only when not with an L-knot."
+3,AS008,,0,orientacion_orden,,,,recorded khipu from knoTed to twisted end,"Turn around, based on current conven&on."
+3,AS008,,0,identificador_museo,,,,157.0cm: group of 6 pendant cords (86-92). …,"Pendants numbered 86 to 92 count to 7, not 6."
+3,AS008,p10s1,1,estructura_cuerda,,,,p10s1,No posi&on for the subsidiary aTachment.
+3,AS008,p12s2,1,valor_o_nudo,12,,,p12s2 : 1s(7.0);2s(13.0) value=12,Value is inconsistent with knot nota&on. Museum image conﬁrms 2L [retain value].
+3,AS008,p85,1,valor_o_nudo,4,14,14,p85 : 1s(14.0);4L(20.0) value=4,Value is inconsistent with knot nota&on. Propose value = 14.
+3,AS008,p89,1,valor_o_nudo,571,,,p89 : 5s(10.0);7s(15.0);1s(19.0) value=571,Value is inconsistent with knot nota&on. The museum images are not clear. The register for this cluster is unusual. Retain value for now.
+3,AS008,p95,1,valor_o_nudo,180,,,p95 : 3s(9.0);8s(15.0) value=180,Value is inconsistent with knot nota&on. Museum image conﬁrms 1s [retain value].
+3,AS008,p135,1,valor_o_nudo,160,1060,1060,p135 : 1s(7.0);6s(17.0) value=160,Assigning the 1S at 7.0cm as 100 is inconsistent with other registers in the adjacent clusters. Propose value = 1060.
+3,AS008,p142s1,1,valor_o_nudo,282,,,p142s1 : 2s(10.0);8s(16.0);2s(21.0) value=282,Value is inconsistent with knot nota&on. Propose last 2S should be 2L [retain value].
+3,AS008,p145,1,valor_o_nudo,951,,,p145 : 9s(13.0);5L(18.0);1E(23.0) value=951,Value is inconsistent with knot nota&on. Propose should be 5S not 5L [retain value].
+4,AS010,,0,identificador_museo,,,,Note 4. … The total value of the ﬁrst 7 pendants is 51 ....,The total value of the ﬁrst 7 pendants is 58.
+4,AS012,,0,orientacion_orden,,,,recorded khipu from knoTed to twisted end,"Turn around, based on current conven&on."
+4,AS012,,0,orientacion_orden,,,,"Based on images obtained from the museum, the ordering of the cords in the Aschers recording appears incorrect – this is not a simple maTer of it being back-to-front.","One way to read it: brown blank group (a), bi- coloured blank group (b), pale blank group (c), join (d), knoTed brown group (e), knoTed bi- coloured group (f), pale knoTed group (g). Alternate: in the reverse order (g) to (a). Aschers record it: (e) (f) (g) (d) (a) (b) (c)."
+4,AS012,p26s1,1,valor_o_nudo,1,,,p26s1 : 1s(1.5) value=1,Value is inconsistent with knot nota&on. Aschers’ assign solo S-knots on subsidiaries as value=1 in previous khipus – and this is the only subsidiary with a solo S-knot.
+4,AS013,p41,1,valor_o_nudo,12,,,p41 : 1s(7.0);2s(20.0) value=12(?),Value is inconsistent with knot nota&on. Museum image is unclear if 2S or 2L.
+4,AS013,p55,1,valor_o_nudo,13,,,p55 : 1E(9.0);3L(23.0) value = 13,"Value is inconsistent with knot nota&on. Propose 1E is 1S, and this interpreta&on is supported by (i) the register posi&on, (ii) that this would otherwise be the only nether knot on the khipu, and (iii) Aschers’ usually note two unit-knots on a cord as a + b and this is not done in this case. [retain value]"
+4,AS014,,0,identificador_museo,,,,Museum iden&ﬁca&on: Unnumbered (Bri&sh Museum),"Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: Am1907,0319.286"
+4,AS014,p22s1s1,1,identificador_museo,,,,p22s1s1 8L(2.0);1s(5.0);20s(7.0);1s(11.0) … cluster of 20s was on the loop …,The museum images shows the 20S noted by Aschers is actually 20L.
+4,AS014,p34,1,identificador_museo,,,,p34 : 1s(7.5);1s(25.5);8L(24.5),The loca&on of the last two knots is not consistent. The museum images indicates that the last knot is likely 34.5cm.
+4,AS017,p8,1,identificador_museo,,,,p8 : length=11.0,Museum image conﬁrms likely ~21cm.
+5,AS017,p13,1,valor_o_nudo,1,,,p13 : value=1,Museum image conﬁrms there is no knot.
+5,AS018,,0,identificador_museo,,,,"Museum iden&ﬁca&on: No. SA4034 (University Museum, University of Pennsylvania)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: CG852611-6382
+5,AS021,p31,1,valor_o_nudo,4,,,p31 : 3L(10.5) value=4,Value is inconsistent with knot nota&on. Museum images indicate this is a 4L.
+5,AS026B,,0,valor_o_nudo,,,,"2. Most of the subsidiaries (103 of 150) have one knot. While some are single knots and some are ﬁgure eight knots, their posi&ons on the cords are the same. Both types have been interpreted as value 1.","However, this is inconsistently applied. Example: p14s1 is assigned value=10. As are: p40s1, p40s1s1, Relatedly: there are some S-knots on pendants that are assigned value=1 but should be 10. Example: p94."
+5,AS026B,p18;p18s1;p18s2,3,estructura_cuerda,,,,p18 / subsidiary posi&on= 1:0.5 p18s1 / subsidiary posi&on=1:0.5 but next cord is p18s2,Propose p18s2 should be renamed p18s1s1.
+5,AS026B,p19;p19s1;p19s2,3,estructura_cuerda,,,,p19 / subsidiary posi&on= 1:0.5 p19s1 / subsidiary posi&on=1:0.5 but next cord is p19s2,Propose p19s2 should be renamed p19s1s1.
+5,AS026B,p90,1,estructura_cuerda,,,,p90 : subsidiary: 3:0.0-5.0,"Propose this means: ""2:0.0-0.5, 1:5.0"""
+5,AS028,p35,1,valor_o_nudo,1081,,,p35 :1s(7.0);8L(18.0);1s(21.0) value=1081,Value is inconsistent with knot nota&on. Unclear if knot nota&on or value is correct.
+5,AS029,,0,identificador_museo,,,,"Museum iden&ﬁca&on: No. 40145 (Museum Voor Land-en Volkenkunde, RoTerdam, Holland)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: WM-40148
+5,AS030,,0,nota_o_suma,,,,"Note 3: The quipu appears as an illustra&on in Willey, Gordon R., Archaeology of the Americas, Vol. II, South America, 1967, Pren&ce-Hall, p. 183.",This is incorrect. This note should appear on AS031.
+5,AS031,p13;p15,2,identificador_museo,,,,Cord arer p13 is numbered p15,Should be numbered p14.
+5,AS031,p15,1,valor_o_nudo,28,,,p15 : 2L(14.0); 8L(21.0) value=28,"Value is inconsistent with knot nota&on. Aschers usually add nether knot as a separate value, eg. 2+8. The 2L is in a 10s register. Therefore, propose 2S [retain value]."
+6,AS031,p28,1,valor_o_nudo,32,,,p28 : 3s(10.0);2s(23.0) value=32,"Value is inconsistent with knot nota&on. 2S knot is in the units-register for this khipu. Propose, knot is not 2S but 2L [retain value]."
+6,AS031,p37,1,color_o_hilo,,,,p37 : colouring=LB/W,No posi&on given for colour change.
+6,AS032,p53s1,1,color_o_hilo,,,,p53s1 : colour= B1/LBB,"Propose this means BL / LB-BL, as this is elsewhere in this khipu."
+6,AS032,p272;p292;p60s1;p81;p88s1;p99,6,valor_o_nudo,?,,,"cords with value=? and blank termina&on: p60s1 , p81 , p88s1 , p99 , p272 , p292","Aschers usually used value=? for a broken string, therefore these cords should have termina&on of ‘B’ (broken)."
+6,AS032,p71s2,1,color_o_hilo,,,,p71s2 : colour=”DBW”,"This is not a known colour acronym. Propose colour= DB:W (dark brown and white moTled), as this is consistent with other subsidiaries."
+6,AS032,p171,1,estructura_cuerda,,,,p171 : posi&on of subsidiary=1:5.0,"However, there is no p171s1 in the lis&ng. This looks to be a missing entry in Aschers, as Urton’s assessment (UR1032) has this cord."
+6,AS032,p190s1,1,color_o_hilo,,,,p190s1 : colour=LB-BG,"This is the only cord of this colour. Perhaps this is LB-GB, as GB is a cord colour seen elsewhere in this khipu."
+6,AS032,p229s1,1,valor_o_nudo,,1,1,"p229s1 : 1E(6.0) , value is missing",Propose value=1.
+6,AS032,p294s1,1,color_o_hilo,,,,p294s1 : colour=BL,"This is the only cord of this colour. Perhaps this is LB, a colour seen elsewhere on the khipu."
+6,AS033A,,0,identificador_museo,,,,Note 6: 47 = Sum of W cords on AS33F and sum value on AS33F,"Appears to be a typo, it’s likely the second AS33F is meant to refer to AS33A."
+6,AS033E,p4;p4s3,2,otra,,,,"p4 : 3 subsidiaries iden&ﬁed, but p4s3 is missing from lis&ng",Cord p4s3 is included in Urton’s assessment of the khipu (UR1033E).
+6,AS033F,p10;p17,2,valor_o_nudo,?,,,p10 : length=0.5 : value=? p17 : length=4.5 : value=?,Presume these cords have termina&on = ‘B’ (for broken) given the value nota&on.
+7,AS034,p38s2;p39s3,2,color_o_hilo,,,,p38s2 : colour=&B p39s3 : colour=&B,Propose these are meant to be colour=YB.
+7,AS034,p55,1,valor_o_nudo,23,,,p55 : 2s(6.0);3s(12.0) value=23,Value is inconsistent with knot nota&on. Propose 3s should be 3L [retain value].
+7,AS035D,,0,identificador_museo,,,,star&ng point of cluster 3 does not make sense given the previous clusters star&ng point and gaps,"Checking against the museum image, the gaps seem appropriate. Therefore, propose the star&ng points of all clusters from cluster 3 onward are increased by 1.5cm."
+7,AS035D,p24,1,identificador_museo,,,,p24 : colour=”MB/YB”,No posi&on given for colour change. Museum image shows that the colour change on the cord is just below the E-knot.
+7,AS037,p32,1,color_o_hilo,,,,p32 : colour=”B:W”,Adjacent cords are coloured “BB:W” and there is no “B” anywhere else on this khipu or the associated AS036. Proposed this may have meant to be “BB:W”.
+7,AS038,p19s7,1,valor_o_nudo,?,,,"p19s7 : length=0.5 , value=?","Aschers usually use value=? when a cord is broken. Therefore, presume the ‘b’ is missing."
+7,AS038,p105;p106;p53,3,estructura_cuerda,,,,"no posi&on for subsidiary given: p53 , p105 , p106",Corrected in by assessment made by Chirinos and Medrano in October 2025.
+7,AS040,,0,agrupacion_o_posicion,,,,5.9 cm: group of 9 pendant cords (1- 9) …,Aschers only measure in increments of 0.5cm. Propose this is 5.0cm based on the gap to the next cluster and the space and other clusters.
+7,AS040,,0,agrupacion_o_posicion,,,,29.9 cm: end,"As above, based on other measurements. Propose length=29.0cm."
+7,AS040,p17s1,1,estructura_cuerda,,,,p17s1 : termina&on ‘%’,This is not a known code. Propose ¢ (knoTed).
+7,AS041,,0,color_o_hilo,,,,No colour provided for primary cord,-
+7,AS041,p73,1,color_o_hilo,,,,"Aschers comment 2 notes that p73 , which is cord 25, has colour LD-W, however this is in the lis&ng as LD:W.","Perhaps the list is incorrect, as the comment would not speciﬁcally include this informa&on otherwise."
+8,AS044,,0,identificador_museo,,,,"Note 5(v): … the sum of all pendant values in these 4 groups [groups 2, 3, 5, 6] equals the sum of all pendant values in the last group of Part I.","The sum of all pendant values in the last group of Part 1 = cl.6 = 248. The sum of groups 2,3,5,6, in the last part = cl.12,13,15,16 = 228."
+8,AS046,p11,1,valor_o_nudo,,2+1,3,"p11 : 2L(11.5);1E(18.5) , no value",Propose value=2+1.
+8,AS047,p1,1,estructura_cuerda,,,,p1 : 1s(7.0);1s(8.5);3L(18.0),"The second 1S knot is too close to the ﬁrst. Consul&ng the khipu image (in Pereyra 2011), propose that the posi&on of second and third knot, and the subsidiary aTachment, should have the 1st knot posi&on added to them."
+8,AS047,p1s4,1,valor_o_nudo,6,16,16,p1s4 : 1s(4.0);6L(8.5) value=6,"Value is inconsistent with knot nota&on. Propose value=16. Also, 6L is too close to the 1S knot. Propose the loca&on of 1S knot is 4 + 6.5 = 12.5cm. Pereyra’s assessment (HP035) of 13.0cm."
+8,AS047,p16s1;p2s1,2,identificador_museo,,,,"p2s1 , p16s1",No posi&on for the subsidiary aTachment. Available in Pereyra 2011 assessment (HP035).
+8,AS047,p9s1,1,valor_o_nudo,5,,,p9s1 : 5(6.5) value=5,No knot-type is given. Propose 5L based on value. And conﬁrmed by HP035 assessment.
+8,AS047,p18s2,1,valor_o_nudo,8,18,18,p18s2 : 1s(4.0);8L(6.5) value=8,Value is inconsistent with knot nota&on. Propose value=18.
+8,AS049,p22;p31s1,2,valor_o_nudo,1,,,"p22 : 1E , value=1 p31s1 : 1E , value=1",No posi&on given for the 1E knot.
+8,AS050,p14s2,1,agrupacion_o_posicion,,,,p14s2 : colour=DB,"This is the only cord with this colour in this khipu, though there are many BD colouring and in this cluster posi&on."
+8,AS050,p147s1,1,estructura_cuerda,,,,p147s1,No posi&on for the subsidiary aTachment.
+8,AS050,p224;p225;p230;p240;p266,5,valor_o_nudo,1,,,"p224 : 1s(11.5) , value=1? p225 : 2s(10.0) , value=2? p230 : 1s(11.0) , value=1? p240 : 1s(11.0) , value=1? p266 : 1s(11.0) , value=1?","If the knot registers were consistent across the khipu, these S-knots may be hundreds."
+9,AS051,,0,identificador_museo,,,,"Museum iden&ﬁca&on: No. 5 (Museo Nacional, Lima, Peru)","There is then a comment that the khipu is the same provenance as AS52-AS56, and they are from “Museo de Ica, Ica, Peru”. The accession numbering is also more consistent with Ica than MNAAHP. Propose Museo de Ica, Ica, Peru."
+9,AS051,p20,1,identificador_museo,,,,p20 : subsidiary aTachment=1:6.0,"However, p20s1 is missing from lis&ng. It is available in UR1051."
+9,AS051,p26s2,1,estructura_cuerda,,,,"p26s2 : length=0.5 , unﬁnished",A cord 0.5cm is likely to be broken.
+9,AS051,p27,1,valor_o_nudo,26,,,p27 : 21(5.5); 6L(11.0) value=26,The 21 knot nota&on is likely meant to be 2S.
+9,AS051,p28,1,identificador_museo,,,,p28 : subsidiary aTachment:1.4:0,"However, p28s1 is missing from lis&ng. It is available in UR1051."
+9,AS054,p1,1,valor_o_nudo,,,,"p1 : no knots , value=’?’ , length=7.0",Termina&on likely to be B (broken).
+9,AS057,p1,1,valor_o_nudo,12,,,p1 : 1s(5.0);3L*(7.0) value=12,Value is inconsistent with knot nota&on. UR1057 has 2L knot [retain value].
+9,AS057,,0,color_o_hilo,,,,"M2 ,M23, M24, M33, M37 colour=YB/0G",No posi&on given for colour change.
+9,AS057,p98,1,valor_o_nudo,2,,,p98 : 5L(8.0) value=2,"Value is inconsistent with knot nota&on. UR1057 has 2L(8.0,S) [retain value]."
+9,AS057,p99,1,valor_o_nudo,5,,,p99 : 1s(8.0) value=5,"Value is inconsistent with knot nota&on. UR1057 has 5L(8.0,S) [retain value]."
+9,AS057,p135,1,otra,,,,p135 : no length,Length provided in UR1057
+9,AS057,p399;p399s1;p399s1s1,3,estructura_cuerda,,,,p399 : subsidiary posi&on: 2:0.5 p399s1 and then p399s1s1,The second subsidiary may be p399s2 instead.
+9,AS057,p402,1,otra,,,,p402 and M31: in wrong order in lis&ng compared to the grouping list,-
+9,AS057,p501,1,valor_o_nudo,0,,,p501 : 2L(8.5) value=0,Value is inconsistent with knot nota&on. UR1057 has value 2.
+10,AS057,p1;p5,2,color_o_hilo,,,,"Thread in unit-knots on: YB:0G on: p1, 2, 4, 65, 67, 85-88, 108, 128, 130 W on: p5-9, 69, 72, 73, 91, 93, 114, 133, 135","However, there are inconsistencies: - p70 is asterisked in the cord lis&ng, therefore presume (by order) this is W cord - p73 does not have any knots, so it’s unclear why it is in this list - this list excludes p131 1E knot, which paTern might suggest had a W cord - this list excludes p47, which paTern might suggest had a YB:0G cord"
+10,AS058,p35,1,valor_o_nudo,?,,,"p35 : no knots , length=1.5 , value=?",Termina&on likely to be B (broken).
+10,AS062,p16s1,1,estructura_cuerda,,,,p16s1,No posi&on for the subsidiary aTachment.
+10,AS063,p2,1,valor_o_nudo,344,3+4,7,"p2 : 3L(19.0);4L(26.0) , value=344","Value is inconsistent with knot nota&on. Propose value=3+4. Supported by: Note 5. Pendants 1 and 2, …, have the values 18 and 7."
+10,AS066,p147,1,valor_o_nudo,5,,,p147 : 4L(17.0) value=5,Value is inconsistent with knot nota&on. Unclear whether knot or value is correct.
+10,AS066,,0,color_o_hilo,,,,"Note 7: The color of the top cords for groups 8-11 (BB , W , DB , W) ...","But: T8=KB, T9=W, T1=KB, T11=W"
+10,AS068,p3,1,valor_o_nudo,2002,2020,2020,p3 : 2s(7.5);2L(25.5) value=2002(?),"The knot posi&on of the 2L is not in the units register for this cluster, but the 10s register. Propose this could be 2s and the value=2020"
+10,AS068,p47,1,valor_o_nudo,1017,117,117,p47 : 1s(6.0);1s(16.0);7L(23.5) value=1017,"The not posi&on for ﬁrst 1s is not consistent with 1000s but 100s. Propose value=117, supported by UR1068 assessment."
+10,AS068,p48,1,valor_o_nudo,300,30,30,p48 : 3s(10.5) value=300,"Knot posi&on is not consistent with 100s but 10s. Propose value=30, supported by UR1068 assessment."
+10,AS068,p64,1,valor_o_nudo,12,,,p64 : 1s(11.5);2L(11.0) value=12,Knot posi&on of 2L is incorrect. Propose is at 21.0cm (sum of ﬁrst + gap).
+10,AS068,p102,1,valor_o_nudo,20,,,p102 : 2s(18.0) value=20,"The knot posi&on is consistent with units register. Propose this is 2L and value=2, supported by UR1068 assessment (3L)."
+11,AS068,p116,1,valor_o_nudo,95,905,905,p116 : 9s(14.0);5L(32.5) value=95,The 9s is in the 100s register not 10s. Propose value=905.
+11,AS068,p200,1,valor_o_nudo,?,,,"p200 : length=0.5 , value=?",Termina&on likely to be B (broken).
+11,AS068,p210,1,valor_o_nudo,,,,"p210 : 1s(9.0) , value is missing , length=9.0",Propose value is 10 and cord is broken.
+11,AS068,p213,1,valor_o_nudo,53,,,p213 : 5s(9.0);3s(17.0) value=53,Value is inconsistent with knot nota&on. Propose 3s should be 3L [retain value].
+11,AS069,,0,otra,,,,Markers,"This is the only khipu that Aschers assign cords with knots, or regular length, as ‘markers’. This is a special khipu."
+11,AS069,p356,1,otra,,,,p356 : 6L(15.6),Aschers only measured in 0.5cm increments. Propose: 15.5cm.
+11,AS069,,0,color_o_hilo,,,,M71 : colour=KB:FN/W (2.0/48.5),FN is not a colour code. Propose FB.
+11,AS069,p467,1,otra,,,,p467,Duplicate cord name. Propose second =p467s1.
+11,AS069,p469,1,otra,,,,p469,Duplicate cord name. Propose second =p469s1.
+11,AS069,p370s2;p470,2,otra,,,,p370s2 arer p470,Incorrect cord name. Propose = p470s2.
+11,AS069,p478s1,1,estructura_cuerda,,,,p478s1,No posi&on for the subsidiary aTachment.
+11,AS069,p528s1,1,color_o_hilo,,,,p528s1 : colour=W:WR,Propose colour=W:SR.
+11,AS069,p620,1,otra,,,,p620,Duplicate cord name. Propose second =p620s1.
+11,AS069,p627;p628,2,estructura_cuerda,,,,p627 subsidiary loca&on with no subsidiary + p628 no subsidiary loca&on with a subsidiary,Propose p627s1 is actually p628s1.
+11,AS069,p692,1,otra,,,,p692,Duplicate cord name. Propose second =p692s1.
+11,AS069,p789,1,valor_o_nudo,87,,,p789 : 8L(11.5);7L(16.5) value=87,Value is inconsistent with knot nota&on. Knot register suggests 8S [retain value].
+11,AS069,p951s1;p959,2,otra,,,,p951s1 arer p959,Incorrect cord name. Propose = p959s1.
+12,AS069,p1245,1,valor_o_nudo,24+1,,,p1245 : 2s(10.0);2L(15.5);1E(19.5) value=24+1,Value is inconsistent with knot nota&on. Unclear if knot nota&on or value is correct.
+12,AS069,,0,otra,,,,"M226 , missing M225",Duplicate cord name. Propose ﬁrst is M226.
+12,AS070,,0,agrupacion_o_posicion,,,,"15.0cm , 6 cords, space 7.0cm 16.5cm , 8 cords , …",There cannot be 7.0cm between these clusters.
+12,AS070,p21s1s2s1,1,valor_o_nudo,201+2,,,p21s1s2s1 : 2s(2.5);1E(14.0);3L(17.0) value=201+2(?),Value is inconsistent with knot nota&on. Unclear if knot nota&on or value is correct.
+12,AS070,p26,1,identificador_museo,,,,"p26 , subs. posi&on 3:1.0,2.0,3.0","However, there is no p26s3 in the lis&ng. Available in UR035 assessment."
+12,AS070,p34;p40s4;p41s1s2;p45,4,color_o_hilo,,,,p34 : colour=SR/W p40s4 : colour=DB:W/W p41s1s2 : colour=DB:W/W p45 : colour=SR/W,No posi&on of colour change.
+12,AS070,p35s1s3,1,valor_o_nudo,0,71,71,p35s1s3 : 7s(10.0);1E(15.5) value=0,Value is inconsistent with knot nota&on. Propose value=71
+12,AS070,p35s2s1s1,1,otra,,,,"p35s2s1s1 , subs. posi&on 1:0.5","However, there is no p35s2s1s1s1."
+12,AS070,p55s2,1,color_o_hilo,,,,p55s2 : colour=DB:W/W (3.5/17.0) length=30.0,Cord length is inconsistent with colour code. Unclear which is correct.
+12,AS070,p58s1s1s2,1,color_o_hilo,,,,p58s1s1s2 : colour=DW:W,DW is not a colour code. Propose DB.
+12,AS071,p145s1,1,color_o_hilo,,,,p145s1 : colour=BW:W,There is no colour code BW. Propose this is BS.
+12,AS075,,0,agrupacion_o_posicion,,,,Some cords omiTed from cluster / cord group lis&ng,"By colouring, p120 appears to belong in 21 (ie. p115-120 instead p115-119). Two cords appear to have been missed around this point too."
+12,AS076,p15,1,valor_o_nudo,8,,,p15 : 5s(13.5);3L(21.5) value=8,"Value is inconsistent with knot nota&on. Propose 5s is 5L and value=5+3. Unusually for Aschers, for this khipu they do not assign value as A + B for two-unit cords."
+12,AS080,,0,identificador_museo,,,,"Note 5. The quipu contains only the values 0-7 and 16, 17","However, values for p1 to p6s1 are in hundreds or tens. There appears to be error in the lis&ng for these values, and they should be treated as single numbers or two numbers added (where there is a nether knot)."
+13,AS080,p5,1,estructura_cuerda,,,,p5 : subsidiary posi&on 2:2.0,"The subsidiary lis&ng has two subsidiaries, but only one is in the list. Proposed meant to be 1:2.0 like all other pendants."
+13,AS084,p87,1,valor_o_nudo,4,,,p87 : 4s(8.5) value=4?,"However, later stated in an Aschers table as 4??. The knot register points to this needing to be a 100s knot. And the paTern of numbers in this cluster posi&on also supports 4??."
+13,AS084,,0,identificador_museo,,,,Inconsistencies between cord lis&ng and table in observa&ons.,"Cord LisCng Table p68 2S(9.0);2S(18.0) , 22? 222 p94 3S(15.0);2L(23.5) , 32 33 p180 2S(17.0);2L(22.5) , 22 32 p182 7S(16.5);6L(21.5) , 76 66 p245 1S(16.5) , 1? (10+) ?"
+13,AS088,,0,nota_o_suma,,,,Note 5. Part II consists of 10 groups,Refers to Part III.
+13,AS091,p23,1,valor_o_nudo,4+4,,,p23 : 3L(10.5);4L(17.5) value=4+4,Value is inconsistent with knot nota&on. Unclear if knot nota&on or value is correct.
+13,AS099,p5,1,valor_o_nudo,2,,,"p5 : 2s(11.5) , length=14.5 , termina&on=knoTed , value=2??",Termina&on likely to be B (broken).
+13,AS099,p27,1,valor_o_nudo,101,,,p27 : 1s(11.0);2L(26.0) value=101,Value is inconsistent with knot nota&on. Unclear if knot nota&on or value is correct.
+13,AS099,,0,color_o_hilo,,,,"Note 2. Each group has the same color paTern: W, DB:W, W.","However, Aschers’ data has W, DB:W, W for the p1-p15; but W, BD:W, W for p16+."
+13,AS106,p19,1,valor_o_nudo,25,,,p19 : 2s(17.5);3L(34.0) value=25,Value is inconsistent with knot nota&on. Museum image shows 5L [retain value].
+13,AS107,p20,1,identificador_museo,,,,"Note 3: Assuming that P20 has value 108, the knots on the main cord represent a value that is the sum of the values on the 9 pendants in the last group.","Knots on primary cord could be 589. Therefore, p20 would be 108 to match."
+14,AS109,,0,agrupacion_o_posicion,,,,"Note 3. In part 1 [cl.1-10], with the excep&on of 2 pendants in the 10th group, each group has the 5 color paTern: YB , DB, DB-CB, DB-YG, YG.","However, the below cords are listed with colours that break this observed paTern: p16 / [2nd cluster posi&on] colour= DB-CB p18 / [4th cluster posi&on] colour= DB:YG p33 / [4th cluster posi&on] colour= DB-CB"
+14,AS109,,0,agrupacion_o_posicion,,,,"Note 3: The color paTern for part 2 [cl.11-21] is the same as for part 1 except that in the 4th posi&on, the color is DB:YB instead of DB-YG.","However, the below cords are listed with colours that break this observed paTern: p50 / [2nd cluster posi&on] colour= DB:CB p97 / [4th cluster posi&on] colour= DB-YG"
+14,AS109,p66,1,valor_o_nudo,130,,,p66 : 1s(.0.0);3s(18.5) value=130,The posi&on for ﬁrst 1S knot is unclear. Propose this is 10.0cm.
+14,AS109,p119,1,valor_o_nudo,70,,,p119 : 7L(24.0) value=70,Value is inconsistent with knot nota&on. Propose 7S based on register [retain value].
+14,AS109,,0,identificador_museo,,,,Table 1: sum of knot-values in Part I in posi&on 5 = 1007,But the sum of data in the table suggests this is 1017. Unclear if table or lis&ng error.
+14,AS114,p303,1,valor_o_nudo,0,10,10,p303 : 1s(14.0) value=0,Value is inconsistent with knot nota&on. Propose value=10.
+14,AS115,,0,otra,,,,,The ﬁrst term is 188+205+213=606. The second term is 266+225+245=736.
+14,AS118,p10,1,valor_o_nudo,6,,,p10 : 6s(9.0) value=6(5+)?,Value is inconsistent with knot nota&on. Museum image shows 5 S-knots.
+14,AS120,p30,1,identificador_museo,,,,p30 : colour=B:GG,Others in this cluster posi&on are coloured B- GG. Museum image also suggests barberpole.
+14,AS122,p6s1,1,estructura_cuerda,,,,p6s1,No posi&on for the subsidiary aTachment.
+14,AS123,p70,1,valor_o_nudo,0,20,20,p70 : 2s(17.0) value=0,Value is inconsistent with knot nota&on. Propose value=20.
+14,AS124,p11,1,valor_o_nudo,6,,,p11 : 4L(35.0) value=6,Value is inconsistent with knot nota&on. Museum image in not clear enough to check.
+14,AS125,,0,identificador_museo,,,,"Museum iden&ﬁca&on: VA42670 (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA42610
+15,AS125,p42;p43,2,identificador_museo,,,,"Note 2: In 2 cases, adjacent values have common divisors: … P42=119(28) and P43=79(28).","The ﬁrst is true, cl4.p2 = 3332 = 119 * 28. But the second is not true, cl4.p3 = 2122, divided by 28 is 75.78; 28 * 79 = 2212."
+15,AS126,p65s1,1,color_o_hilo,,,,p65s1 : colour=GG/BS (?/18.5),No posi&on of colour change.
+15,AS126,p66s2,1,color_o_hilo,,,,p66s2 : colour=BS/W,No posi&on of colour change.
+15,AS126,p76,1,estructura_cuerda,,,,p76 subsidiaries,"Pendant given a subsidiary at 1:0.5, then p76s1 given a subsidiary at 1:0.5, but next cord in the lis&ng is named ‘p76s2’."
+15,AS128,,0,identificador_museo,,,,Note 6(e)(ii): The value of pendant 170 and its subsidiary equals 5 more than the sum of pendants 177-198.,p170+p170s1 = 70+5=75 sum p177 to p198 = 72
+15,AS129,,0,identificador_museo,,,,"Museum iden&ﬁca&on: VA77098 (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA47098
+15,AS130B,,0,identificador_museo,,,,This is a khipu described in the text in the sec&on for this khipu.,Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA37857
+15,AS131,p61s1,1,valor_o_nudo,18+1,,,p61s1 : 1s(12.0);8L(19.0) value=18+1,Value is inconsistent with knot nota&on. Unclear if knot nota&on or value is correct.
+15,AS132,,0,identificador_museo,,,,"Museum iden&ﬁca&on: VA24369A (Museum Für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA24369B
+15,AS133,,0,identificador_museo,,,,"Museum iden&ﬁca&on: VA24369B (Museum Für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA24369A
+15,AS136,p113;p113s1;p171s1,3,otra,,,,"p113 , p113s1 , p171s1",No length for cords.
+15,AS136,p180s1s1,1,estructura_cuerda,,,,p180s1s1,No posi&on for the subsidiary aTachment.
+15,AS140,,0,agrupacion_o_posicion,,,,Two marker cords,Included in drawing but not in the cord lis&ng. Sum of cords in cluster-posi&on 5 in cl.1-6 = 96 Sum of cords in cluster-posi&on 6 in cl.1-6 = 94
+15,AS141,,0,identificador_museo,,,,"Museum iden&ﬁca&on: VA47124A (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA47124B
+16,AS142,,0,identificador_museo,,,,"Museum iden&ﬁca&on: VA47124B (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA47124A
+16,AS145,p77,1,valor_o_nudo,1+2,6+2,8,p77 : 6L(24.0);2L(29.5) value=1+2,Value is inconsistent with knot nota&on. Propose value=6+2
+16,AS145,p80,1,color_o_hilo,,,,p80 : colour=BB-W,Perhaps means DB-W; see comment #5.
+16,AS145,p84s1,1,estructura_cuerda,,,,p84s1,No posi&on for the subsidiary aTachment.
+16,AS147,,0,identificador_museo,,,,"Museum iden&ﬁca&on: VA44866A (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA44866C
+16,AS147,p3,1,valor_o_nudo,57,,,p3 : 5s(12.5);1E(25.5) value=57,Value is inconsistent with knot nota&on. Aschers’ commentary conﬁrms value=51.
+16,AS149,,0,identificador_museo,,,,"Museum iden&ﬁca&on: VA44866C (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA44866A
+16,AS149,p51,1,valor_o_nudo,3440,,,p51 : 3s(7.5);4s(6.0);4s(12.0) value=3440,Knot posi&ons are inconsistent: second knot is above ﬁrst knot. Propose posi&ons for second and third knots have ﬁrst knot posi&on added.
+16,AS149,p86,1,valor_o_nudo,113,,,p86 : 1s(6.5);1s(8.0);3L(14.0) value=113,Knot posi&ons are inconsistent with registers. Propose posi&ons for second and third knots have ﬁrst knot posi&on added.
+16,AS151,p8s1,1,valor_o_nudo,3,,,p8s1 : 1E(16.0) value=3,Value is inconsistent with knot nota&on. Value of 3 is consistent with Aschers’ numeric notes and appears to be supported by image.
+16,AS152,p23,1,valor_o_nudo,1,,,p23 : 1s(30.0) value=1,Value is inconsistent with knot nota&on. Propose E knot based on register [retain value].
+16,AS153,,0,identificador_museo,,,,"Museum iden&ﬁca&on: unnumbered (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA66831
+16,AS157,,0,identificador_museo,,,,"Museum iden&ﬁca&on: unnumbered (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA42550
+16,AS158,p1,1,valor_o_nudo,71,,,p1 : 7s(15.5);7L(20.0) value=71,Value is inconsistent with knot nota&on. Museum image shows 7L; therefore value=77.
+17,AS159,,0,identificador_museo,,,,"Museum iden&ﬁca&on: VA16138A (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA16138B
+17,AS160,,0,identificador_museo,,,,"Museum iden&ﬁca&on: VA16138B (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA16138C
+17,AS161,,0,identificador_museo,,,,"Museum iden&ﬁca&on: VA47106A (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA47106C
+17,AS162A,p2,1,valor_o_nudo,4,,,p2 : 3L(12.0) value=4,Value is inconsistent with knot nota&on. Museum image conﬁrms knots are correct.
+17,AS162A,p3,1,valor_o_nudo,3,,,p3 : 4L(11.5) value=3,Value is inconsistent with knot nota&on. Museum image conﬁrms knots are correct.
+17,AS162B,,0,identificador_museo,,,,"Museum iden&ﬁca&on: VA47106B (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA47106A
+17,AS166,p28s3;p29;p29s1;p29s2;p30;p30s1;p30s2;p31;p31s1;p32;p33;p34;p35,13,valor_o_nudo,,,,"p28s3 : 1s(9.5) , 10 p29 : 1s(9.5) , 1 p29s1 : 1E(15.0) , 7 p29s2 : 7L(15.5) , 7 p30 : 7L(14.5) , 7 p30s1 : 7L(15.0) , 3 p30s2 : 3L(15.0) , 12 p31 : 1s(8.0);2L(14.0) , 3 p31s1 : 3L(15.0) , 1 p32 : 1E(13.0) , 12 p33 : 1s(9.5);2L(15.5) , 9 p34 : 9L(15.5) , 0 p35 : no knots , 0 …","Values are inconsistent with knot nota&ons. At p29, the knot nota&on from the preceding cord were repeated, and the value lines up with the subsequent cord knot nota&on. Examina&on of museum image conﬁrmed that last cord in this cluster (p35) is empty and that p29 appears to have no knot. Therefore, transfer knot nota&on up to previous cord, to align with the value, for p29s1 to p35."
+17,AS166,p143,1,valor_o_nudo,10,,,p143 : 3L(15.5) value = 10,Value is inconsistent with knot nota&on. Presume value=3.
+17,AS166,p144s1,1,valor_o_nudo,6,,,p144s1 : 2L(12.0) value = 6,Value is inconsistent with knot nota&on. Examina&on of museum image conﬁrms 2L.
+17,AS166,p159s1,1,valor_o_nudo,7,,,p159s1 : 1s(6.0); 7(13.0) value = 7,Value is inconsistent with knot nota&on. Museum image conﬁrms 1S; value=17.
+17,AS168,,0,identificador_museo,,,,"Museum iden&ﬁca&on: unnumbered (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA66813
+18,AS168,p15,1,color_o_hilo,,,,p15 : colour: LB:LC/LB,No posi&on given for colour change.
+18,AS169,,0,identificador_museo,,,,"Museum iden&ﬁca&on: unnumbered (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA66814B
+18,AS173,,0,identificador_museo,,,,"Museum iden&ﬁca&on: VA16145 (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA16145B
+18,AS174,,0,identificador_museo,,,,"Museum iden&ﬁca&on: VA16145B (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA16145C
+18,AS175,p56,1,valor_o_nudo,5,,,p56 : 1s(30.0) value=5,Value is inconsistent with knot nota&on. The knot register implies this knot should be a unit. Propose knot is 5L [retain value].
+18,AS181,p5s1,1,estructura_cuerda,,,,p5s1,No posi&on for the subsidiary aTachment.
+18,AS181,p27;p6s1,2,otra,,,,"p6s1 , p27",No length for cords.
+18,AS181,p9s1s1s4,1,valor_o_nudo,0,1,1,p9s1s1s4 : 1EE(8.0) value=0,Value is inconsistent with knot nota&on. Propose value=1.
+18,AS181,p11s2,1,color_o_hilo,,,,p11s2,"Only the cord colour recorded, no knots etc."
+18,AS182,,0,identificador_museo,,,,"Museum iden&ﬁca&on: unnumbered (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA66840A
+18,AS183,,0,identificador_museo,,,,"Museum iden&ﬁca&on: unnumbered (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA66840A
+18,AS184,,0,identificador_museo,,,,"Museum iden&ﬁca&on: unnumbered (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA66840A
+18,AS185,,0,identificador_museo,,,,"Museum iden&ﬁca&on: unnumbered (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA66840A
+18,AS186,,0,identificador_museo,,,,"Museum iden&ﬁca&on: unnumbered (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA66840A
+18,AS188,,0,identificador_museo,,,,"Museum iden&ﬁca&on: VA43333B (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA43333C
+19,AS189,,0,identificador_museo,,,,"Museum iden&ﬁca&on: VA4334 (Museum für Völkerkunde, Berlin)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: VA43334
+19,AS199,p52,1,valor_o_nudo,67,,,p52 : 6s(10.5);8L(16.5) value=67,Value is inconsistent with knot nota&on. A value of 67 aligns with the value of the top cord associated with this cluster.
+19,AS201,,0,identificador_museo,,,,"Museum iden&ﬁca&on: TK 4/5419 (Lowie Museum, University of California, Berkeley)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: TK 4/5419B
+19,AS202,,0,identificador_museo,,,,"Museum iden&ﬁca&on: TK 4/5419 (Lowie Museum, University of California, Berkeley)",Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: TK 4/5419A
+19,AS203,,0,identificador_museo,,,,Museum iden&ﬁca&on: TK 4/5419 (Lowie Museum),Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: TK 4/5419C
+19,AS205,,0,identificador_museo,,,,Museum iden&ﬁca&on: TK 4/5446 (Lowie Museum),Examina&on of museum images conﬁrms the museum iden&ﬁca&on number is: TK 4/5446B
+19,AS208,p6,1,valor_o_nudo,7,17,17,p6 : 1s(14.0);7L(22.0) value=7,Value is inconsistent with knot nota&on. Propose value=17.
+19,AS209,,0,agrupacion_o_posicion,,,,Note 5: Part I: Group 2 - a 9 pendant group of color W.,"In the cord lis&ng, the 8th pendant in this cluster (p16) is DB."
+19,AS211,p8,1,valor_o_nudo,1,6+1,7,p8 : 6L(20.0);1E(20.5) value=1&1,Value is inconsistent with knot nota&on. Propose value=6+1
+19,AS211,,0,otra,,,,work by the AUTHOR Karen M. 2024. A Numerical ConnecCon Between,Two Khipus. Ñawpa Pacha 45(1):83-104.

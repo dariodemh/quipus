@@ -42,7 +42,11 @@ def resolver(ident, ctx):
     x = ctx.extra[ctx.extra.kfg == ident]
     if len(x):
         return [x]
-    raise SystemExit(f"No encuentro el quipu {ident!r} (ni en KFG, ni como OKR, ni en 17_okr_pendientes).")
+    if len(ctx.maestro_c):
+        xm = ctx.maestro_c[ctx.maestro_c.kfg == ident]
+        if len(xm):
+            return [xm]
+    raise SystemExit(f"No encuentro el quipu {ident!r} (ni en KFG, ni como OKR, ni en 17_okr_pendientes, ni en Corpus Maestro v2).")
 
 
 def leer(d, ctx):

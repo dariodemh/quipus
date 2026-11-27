@@ -1,0 +1,481 @@
+{
+  "preregistro": "P02_rt16905_enlazados.md",
+  "semilla": 20261127,
+  "resumen_14_quipus": [
+    {
+      "k_num": 1,
+      "kh_id": "KH0638",
+      "n_cuerdas": 16,
+      "n_colgantes": 16,
+      "n_grupos": 2,
+      "total": 354,
+      "n_vals_ge10": 14,
+      "max_val": 50
+    },
+    {
+      "k_num": 2,
+      "kh_id": "KH0639",
+      "n_cuerdas": 12,
+      "n_colgantes": 12,
+      "n_grupos": 2,
+      "total": 26,
+      "n_vals_ge10": 0,
+      "max_val": 5
+    },
+    {
+      "k_num": 3,
+      "kh_id": "KH0640",
+      "n_cuerdas": 8,
+      "n_colgantes": 8,
+      "n_grupos": 1,
+      "total": 2487,
+      "n_vals_ge10": 5,
+      "max_val": 812
+    },
+    {
+      "k_num": 4,
+      "kh_id": "KH0641",
+      "n_cuerdas": 8,
+      "n_colgantes": 8,
+      "n_grupos": 1,
+      "total": 133,
+      "n_vals_ge10": 5,
+      "max_val": 40
+    },
+    {
+      "k_num": 5,
+      "kh_id": "KH0642",
+      "n_cuerdas": 15,
+      "n_colgantes": 15,
+      "n_grupos": 1,
+      "total": 1438,
+      "n_vals_ge10": 10,
+      "max_val": 263
+    },
+    {
+      "k_num": 6,
+      "kh_id": "KH0643",
+      "n_cuerdas": 5,
+      "n_colgantes": 5,
+      "n_grupos": 1,
+      "total": 63,
+      "n_vals_ge10": 4,
+      "max_val": 22
+    },
+    {
+      "k_num": 7,
+      "kh_id": "KH0644",
+      "n_cuerdas": 9,
+      "n_colgantes": 8,
+      "n_grupos": 1,
+      "total": 55,
+      "n_vals_ge10": 2,
+      "max_val": 30
+    },
+    {
+      "k_num": 8,
+      "kh_id": "KH0645",
+      "n_cuerdas": 7,
+      "n_colgantes": 2,
+      "n_grupos": 1,
+      "total": 9,
+      "n_vals_ge10": 0,
+      "max_val": 2
+    },
+    {
+      "k_num": 9,
+      "kh_id": "KH0646",
+      "n_cuerdas": 10,
+      "n_colgantes": 5,
+      "n_grupos": 1,
+      "total": 15,
+      "n_vals_ge10": 0,
+      "max_val": 3
+    },
+    {
+      "k_num": 10,
+      "kh_id": "KH0647",
+      "n_cuerdas": 42,
+      "n_colgantes": 26,
+      "n_grupos": 4,
+      "total": 540,
+      "n_vals_ge10": 13,
+      "max_val": 106
+    },
+    {
+      "k_num": 11,
+      "kh_id": "KH0648",
+      "n_cuerdas": 58,
+      "n_colgantes": 56,
+      "n_grupos": 10,
+      "total": 632,
+      "n_vals_ge10": 16,
+      "max_val": 80
+    },
+    {
+      "k_num": 12,
+      "kh_id": "KH0649",
+      "n_cuerdas": 30,
+      "n_colgantes": 30,
+      "n_grupos": 6,
+      "total": 220,
+      "n_vals_ge10": 8,
+      "max_val": 52
+    },
+    {
+      "k_num": 13,
+      "kh_id": "KH0650",
+      "n_cuerdas": 26,
+      "n_colgantes": 25,
+      "n_grupos": 3,
+      "total": 80,
+      "n_vals_ge10": 0,
+      "max_val": 8
+    },
+    {
+      "k_num": 14,
+      "kh_id": "KH0651",
+      "n_cuerdas": 86,
+      "n_colgantes": 86,
+      "n_grupos": 12,
+      "total": 697,
+      "n_vals_ge10": 20,
+      "max_val": 158
+    }
+  ],
+  "familia_holm": [
+    {
+      "test_id": "P02.1",
+      "obs_diff_Z_adj_vs_non": 0.0881,
+      "p": 0.062794,
+      "p_holm": 0.251175,
+      "hits_adyacentes": [
+        {
+          "src": "K11",
+          "tgt": "K10",
+          "coincidencias_ge10": [
+            18
+          ]
+        },
+        {
+          "src": "K11",
+          "tgt": "K12",
+          "coincidencias_ge10": [
+            18
+          ]
+        },
+        {
+          "src": "K11",
+          "tgt": "K14",
+          "coincidencias_ge10": [
+            35
+          ]
+        },
+        {
+          "src": "K12",
+          "tgt": "K14",
+          "coincidencias_ge10": [
+            19
+          ]
+        },
+        {
+          "src": "K13",
+          "tgt": "K11",
+          "coincidencias_ge10": [
+            10,
+            23,
+            80
+          ]
+        },
+        {
+          "src": "K13",
+          "tgt": "K12",
+          "coincidencias_ge10": [
+            10
+          ]
+        },
+        {
+          "src": "K13",
+          "tgt": "K14",
+          "coincidencias_ge10": [
+            10,
+            23
+          ]
+        },
+        {
+          "src": "K14",
+          "tgt": "K01",
+          "coincidencias_ge10": [
+            21,
+            33,
+            50
+          ]
+        },
+        {
+          "src": "K14",
+          "tgt": "K11",
+          "coincidencias_ge10": [
+            10,
+            23,
+            35
+          ]
+        },
+        {
+          "src": "K14",
+          "tgt": "K12",
+          "coincidencias_ge10": [
+            10
+          ]
+        },
+        {
+          "src": "K14",
+          "tgt": "K13",
+          "coincidencias_ge10": [
+            10,
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "P02.2",
+      "rho_mantel": 0.1026,
+      "p": 0.159184,
+      "p_holm": 0.477552,
+      "top_pares": [
+        {
+          "par": "K01-K04",
+          "adyacente": 1,
+          "dist_fis": 1,
+          "sw": 7.04,
+          "z_sw": 2.39
+        },
+        {
+          "par": "K10-K11",
+          "adyacente": 1,
+          "dist_fis": 1,
+          "sw": 5.53,
+          "z_sw": 1.67
+        },
+        {
+          "par": "K01-K12",
+          "adyacente": 0,
+          "dist_fis": 2,
+          "sw": 3.81,
+          "z_sw": 1.35
+        },
+        {
+          "par": "K05-K10",
+          "adyacente": 0,
+          "dist_fis": 5,
+          "sw": 3.31,
+          "z_sw": 1.31
+        },
+        {
+          "par": "K04-K14",
+          "adyacente": 0,
+          "dist_fis": 2,
+          "sw": 4.43,
+          "z_sw": 1.24
+        },
+        {
+          "par": "K11-K13",
+          "adyacente": 1,
+          "dist_fis": 1,
+          "sw": 2.0,
+          "z_sw": 1.15
+        },
+        {
+          "par": "K11-K14",
+          "adyacente": 1,
+          "dist_fis": 1,
+          "sw": 5.01,
+          "z_sw": 1.03
+        },
+        {
+          "par": "K02-K09",
+          "adyacente": 0,
+          "dist_fis": 3,
+          "sw": 1.6,
+          "z_sw": 0.61
+        },
+        {
+          "par": "K01-K14",
+          "adyacente": 1,
+          "dist_fis": 1,
+          "sw": 6.52,
+          "z_sw": 0.56
+        },
+        {
+          "par": "K09-K13",
+          "adyacente": 0,
+          "dist_fis": 3,
+          "sw": 1.2,
+          "z_sw": 0.53
+        }
+      ]
+    },
+    {
+      "test_id": "P02.3",
+      "rho_mantel_textil": 0.0174,
+      "p": 0.405859,
+      "p_holm": 0.811719
+    },
+    {
+      "test_id": "P02.4",
+      "align_k15_k01": 0.1579,
+      "k15_colores": [
+        "MB",
+        "MB",
+        "MB",
+        "W",
+        "BS",
+        "W",
+        "MB",
+        "W",
+        "BS",
+        "MB",
+        "W",
+        "W",
+        "MB",
+        "W",
+        "MB",
+        "W",
+        "MB",
+        "MB",
+        "BS"
+      ],
+      "k01_colores_muestra": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "W",
+        "W",
+        "W",
+        "W",
+        "YB",
+        "YB",
+        "YB",
+        "YB",
+        "YB",
+        "YB",
+        "YB",
+        "YB"
+      ],
+      "p": 0.732054,
+      "p_holm": 0.811719
+    }
+  ],
+  "descriptivo_D02_5": [
+    {
+      "k_num": 1,
+      "kh_id": "KH0638",
+      "r1_hits": 0,
+      "g_elig": 2,
+      "g_sum_hits": 0
+    },
+    {
+      "k_num": 2,
+      "kh_id": "KH0639",
+      "r1_hits": 0,
+      "g_elig": 2,
+      "g_sum_hits": 0
+    },
+    {
+      "k_num": 3,
+      "kh_id": "KH0640",
+      "r1_hits": 0,
+      "g_elig": 1,
+      "g_sum_hits": 0
+    },
+    {
+      "k_num": 4,
+      "kh_id": "KH0641",
+      "r1_hits": 0,
+      "g_elig": 1,
+      "g_sum_hits": 0
+    },
+    {
+      "k_num": 5,
+      "kh_id": "KH0642",
+      "r1_hits": 0,
+      "g_elig": 1,
+      "g_sum_hits": 0
+    },
+    {
+      "k_num": 6,
+      "kh_id": "KH0643",
+      "r1_hits": 0,
+      "g_elig": 1,
+      "g_sum_hits": 0
+    },
+    {
+      "k_num": 7,
+      "kh_id": "KH0644",
+      "r1_hits": 0,
+      "g_elig": 1,
+      "g_sum_hits": 0
+    },
+    {
+      "k_num": 8,
+      "kh_id": "KH0645",
+      "r1_hits": 0,
+      "g_elig": 0,
+      "g_sum_hits": 0
+    },
+    {
+      "k_num": 9,
+      "kh_id": "KH0646",
+      "r1_hits": 0,
+      "g_elig": 1,
+      "g_sum_hits": 0
+    },
+    {
+      "k_num": 10,
+      "kh_id": "KH0647",
+      "r1_hits": 0,
+      "g_elig": 3,
+      "g_sum_hits": 1
+    },
+    {
+      "k_num": 11,
+      "kh_id": "KH0648",
+      "r1_hits": 0,
+      "g_elig": 8,
+      "g_sum_hits": 0
+    },
+    {
+      "k_num": 12,
+      "kh_id": "KH0649",
+      "r1_hits": 0,
+      "g_elig": 4,
+      "g_sum_hits": 0
+    },
+    {
+      "k_num": 13,
+      "kh_id": "KH0650",
+      "r1_hits": 0,
+      "g_elig": 3,
+      "g_sum_hits": 0
+    },
+    {
+      "k_num": 14,
+      "kh_id": "KH0651",
+      "r1_hits": 0,
+      "g_elig": 11,
+      "g_sum_hits": 0
+    }
+  ],
+  "descriptivo_D02_6": {
+    "k15_n_hilos": 19,
+    "k15_secciones": {
+      "X1": 3,
+      "X2": 5,
+      "X3": 8,
+      "X4": 3
+    },
+    "k01_n_colgantes": 16,
+    "k01_n_grupos": 2
+  }
+}

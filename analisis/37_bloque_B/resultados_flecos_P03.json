@@ -1,0 +1,319 @@
+{
+  "semilla": 20261127,
+  "E03_6_QU005_copias": {
+    "kh_id": "QU005",
+    "n_ge10": 57,
+    "n_candidatos_sw_ge8": 44,
+    "top_5": [
+      {
+        "other": "KH0549",
+        "kfg": "HP017",
+        "museo": "Museo de Sitio de Pachacamac",
+        "prov": "Pachacamac",
+        "sw": 13.59,
+        "shared_ge10": 12,
+        "orient": "dir",
+        "p": 0.31469,
+        "p_bonf_corpus": 1.0
+      },
+      {
+        "other": "KH0147",
+        "kfg": "UR1131",
+        "museo": "Museum für Völkerkunde, Berlin",
+        "prov": "Pachacamac",
+        "sw": 13.11,
+        "shared_ge10": 13,
+        "orient": "rev",
+        "p": 0.02398,
+        "p_bonf_corpus": 1.0
+      },
+      {
+        "other": "KH0258",
+        "kfg": "UR022",
+        "museo": "Centro Mallqui, Leymebamba, Amazonas",
+        "prov": "Leymebamba",
+        "sw": 13.1,
+        "shared_ge10": 11,
+        "orient": "rev",
+        "p": 0.10689,
+        "p_bonf_corpus": 1.0
+      },
+      {
+        "other": "KH0139",
+        "kfg": "",
+        "museo": "Ethnologisches Museum",
+        "prov": "",
+        "sw": 12.79,
+        "shared_ge10": 4,
+        "orient": "dir",
+        "p": 0.05694,
+        "p_bonf_corpus": 1.0
+      },
+      {
+        "other": "KH0001",
+        "kfg": "KH0001",
+        "museo": "American Museum of Natural History, NY",
+        "prov": "Chuquitanta",
+        "sw": 12.22,
+        "shared_ge10": 19,
+        "orient": "rev",
+        "p": 0.15684,
+        "p_bonf_corpus": 1.0
+      }
+    ],
+    "copia_confirmada": false
+  },
+  "E03_7_British_Museum": {
+    "KH0633": {
+      "n_cuerdas": 67,
+      "n_colgantes": 35,
+      "n_grupos": 4,
+      "n_vals_pos": 25,
+      "max_val": 65,
+      "g_elig": 3,
+      "g_sum_hits": 0,
+      "p_gsum": null,
+      "barrido_copias": {
+        "n_ge10": 6,
+        "n_candidatos_sw_ge8": 10,
+        "top_5": [
+          {
+            "other": "KH0470",
+            "kfg": "UR233",
+            "museo": "Ethnologisches Museum, Berlin, Germany",
+            "prov": "Huacho",
+            "sw": 10.3,
+            "shared_ge10": 5,
+            "orient": "rev",
+            "p": 0.10789,
+            "p_bonf_corpus": 1.0
+          },
+          {
+            "other": "KH0453",
+            "kfg": "UR215",
+            "museo": "Ethnologisches Museum, Berlin, Germany",
+            "prov": "Unknown",
+            "sw": 9.93,
+            "shared_ge10": 4,
+            "orient": "dir",
+            "p": 0.02697,
+            "p_bonf_corpus": 1.0
+          },
+          {
+            "other": "KH0442",
+            "kfg": "UR204",
+            "museo": "Ethnologisches Museum, Berlin, Germany",
+            "prov": "Unknown",
+            "sw": 9.02,
+            "shared_ge10": 5,
+            "orient": "dir",
+            "p": 0.22877,
+            "p_bonf_corpus": 1.0
+          },
+          {
+            "other": "KH0494",
+            "kfg": "UR258",
+            "museo": "Proyecto Incahuasi",
+            "prov": "Incahuasi",
+            "sw": 8.45,
+            "shared_ge10": 3,
+            "orient": "rev",
+            "p": 0.27273,
+            "p_bonf_corpus": 1.0
+          },
+          {
+            "other": "KH0230",
+            "kfg": "AS210",
+            "museo": "Field Museum of Natural History, Chicago, IL",
+            "prov": "Unknown",
+            "sw": 8.45,
+            "shared_ge10": 3,
+            "orient": "dir",
+            "p": 0.71129,
+            "p_bonf_corpus": 1.0
+          }
+        ],
+        "copia_confirmada": false
+      }
+    },
+    "KH0634": {
+      "n_cuerdas": 42,
+      "n_colgantes": 23,
+      "n_grupos": 3,
+      "n_vals_pos": 20,
+      "max_val": 58,
+      "g_elig": 3,
+      "g_sum_hits": 0,
+      "p_gsum": null,
+      "barrido_copias": {
+        "n_ge10": 10,
+        "n_candidatos_sw_ge8": 33,
+        "top_5": [
+          {
+            "other": "KH0451",
+            "kfg": "UR213",
+            "museo": "Ethnologisches Museum, Berlin, Germany",
+            "prov": "Pachacamac",
+            "sw": 11.73,
+            "shared_ge10": 7,
+            "orient": "dir",
+            "p": 0.01598,
+            "p_bonf_corpus": 1.0
+          },
+          {
+            "other": "KH0478",
+            "kfg": "UR242",
+            "museo": "Ethnologisches Museum, Berlin, Germany",
+            "prov": "Ica",
+            "sw": 11.26,
+            "shared_ge10": 6,
+            "orient": "rev",
+            "p": 0.00799,
+            "p_bonf_corpus": 1.0
+          },
+          {
+            "other": "KH0242",
+            "kfg": "UR006",
+            "museo": "Centro Mallqui, Leymebamba, Amazonas",
+            "prov": "Leymebamba",
+            "sw": 10.87,
+            "shared_ge10": 6,
+            "orient": "rev",
+            "p": 0.02098,
+            "p_bonf_corpus": 1.0
+          },
+          {
+            "other": "KH0280",
+            "kfg": "UR050",
+            "museo": "Private Collection: Anna Maria Soldi",
+            "prov": "Unknown",
+            "sw": 10.57,
+            "shared_ge10": 6,
+            "orient": "rev",
+            "p": 0.08591,
+            "p_bonf_corpus": 1.0
+          },
+          {
+            "other": "KH0466",
+            "kfg": "UR229",
+            "museo": "Ethnologisches Museum, Berlin, Germany",
+            "prov": "Ica",
+            "sw": 10.1,
+            "shared_ge10": 9,
+            "orient": "dir",
+            "p": 0.07992,
+            "p_bonf_corpus": 1.0
+          }
+        ],
+        "copia_confirmada": false
+      }
+    },
+    "KH0635": {
+      "n_cuerdas": 166,
+      "n_colgantes": 80,
+      "n_grupos": 9,
+      "n_vals_pos": 34,
+      "max_val": 80,
+      "g_elig": 7,
+      "g_sum_hits": 0,
+      "p_gsum": null,
+      "barrido_copias": {
+        "n_ge10": 20,
+        "n_candidatos_sw_ge8": 53,
+        "top_5": [
+          {
+            "other": "KH0630",
+            "kfg": "JC023",
+            "museo": "Proyecto Incahuasi",
+            "prov": "Incahuasi",
+            "sw": 14.93,
+            "shared_ge10": 3,
+            "orient": "dir",
+            "p": 0.03596,
+            "p_bonf_corpus": 1.0
+          },
+          {
+            "other": "KH0478",
+            "kfg": "UR242",
+            "museo": "Ethnologisches Museum, Berlin, Germany",
+            "prov": "Ica",
+            "sw": 14.63,
+            "shared_ge10": 8,
+            "orient": "rev",
+            "p": 0.003,
+            "p_bonf_corpus": 1.0
+          },
+          {
+            "other": "KH0430",
+            "kfg": "UR192",
+            "museo": "Musee Quai Branly, Paris, France",
+            "prov": "Huaca Perez, Lima (a.k.a Hda. Infantas and Tambo Inca)",
+            "sw": 13.79,
+            "shared_ge10": 5,
+            "orient": "dir",
+            "p": 0.05794,
+            "p_bonf_corpus": 1.0
+          },
+          {
+            "other": "KH0535",
+            "kfg": "HP003",
+            "museo": "Museo de Sitio de Pachacamac",
+            "prov": "Pachacamac",
+            "sw": 13.68,
+            "shared_ge10": 5,
+            "orient": "rev",
+            "p": 0.004,
+            "p_bonf_corpus": 1.0
+          },
+          {
+            "other": "QU019",
+            "kfg": "QU019",
+            "museo": "Dallas Museum of Art",
+            "prov": "Unknown",
+            "sw": 13.29,
+            "shared_ge10": 7,
+            "orient": "dir",
+            "p": 0.01299,
+            "p_bonf_corpus": 1.0
+          }
+        ],
+        "copia_confirmada": false
+      }
+    },
+    "KH0702": {
+      "n_cuerdas": 147,
+      "n_colgantes": 121,
+      "n_grupos": 17,
+      "n_vals_pos": 80,
+      "max_val": 30,
+      "g_elig": 14,
+      "g_sum_hits": 1,
+      "p_gsum": 0.54923,
+      "barrido_copias": {
+        "n_ge10": 3,
+        "top_5": [],
+        "copia_confirmada": false
+      }
+    }
+  },
+  "D03_8_UR050_OKR": {
+    "okr_match": [
+      1000363,
+      "KH0280"
+    ],
+    "n_racimos_okr": 504,
+    "n_colgantes_con_altura": 164,
+    "centroides_3_zonas_okr": [
+      0.211,
+      0.428,
+      0.761
+    ],
+    "conteos_por_zona": [
+      159,
+      169,
+      176
+    ],
+    "delta_BIC_1_vs_3": 243.1,
+    "reproduce_zonas_020_041_075": true
+  }
+}

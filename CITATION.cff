@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, Master Corpus, Khipu Reader v2, or Test Register, please cite it as below (and also cite OKR v2.1.0 and Medrano & Khosla 2024)."
+title: "What the Khipus Add Up To (v2.0): Null-Model Auditing, 691-Khipu Master Corpus, Frozen Protocols, and 2026 Literature Audit"
+version: "2.0.0"
+date-released: "2026-11-27"
+license: "MIT"
+repository-code: "https://github.com/dariodemh/quipus"
+authors:
+  - alias: "dariodemh"
+keywords:
+  - khipu
+  - quipu
+  - Andean archaeology
+  - Inka accounting
+  - null models
+  - reproducible research
+  - computational archaeology

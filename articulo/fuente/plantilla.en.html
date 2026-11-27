@@ -117,7 +117,7 @@ h3{font-size:clamp(25px,3.4vw,31px)}
   <div class="kicker">Essay · open to specialist review · October 2026, revised in November</div>
   <h1>What the khipus add up to</h1>
   <p class="subtitulo">A reading of an Inka accounting archive and a statistical analysis of every digitized khipu</p>
-  <div class="meta"><span><b>dario</b>, with AI agents</span><span>About 45 minutes to read</span><a href="https://github.com/dariodemh/quipus">Code and data</a><a href="#referencias">References ↓</a><a href="index.es.html" hreflang="es" lang="es">Leer en español</a></div>
+  <div class="meta"><span><b>dario</b>, with AI agents</span><span>About 45 minutes to read</span><a href="overview.html">Visual overview (18 slides)</a><a href="https://github.com/dariodemh/quipus">Code and data</a><a href="#referencias">References ↓</a><a href="index.es.html" hreflang="es" lang="es">Leer en español</a></div>
 </header>
 
 <figure class="ancho foto">
@@ -136,6 +136,8 @@ h3{font-size:clamp(25px,3.4vw,31px)}
 <p>From the ten khipus that enter the account we have 1461 figures, and for about 1100 of them we know what role they play. If the reading is correct, one can follow a number from the cord where it was recorded to the ledger where it ended up, predict missing cords and point to knots that may have been miscounted. An AI agent that worked blind, without the khipu names, found on its own the first stage of the chain (UR270 to UR278) and did not find the link from UR278 to the ledger. It builds on the work of Gary Urton and Alejandro Chu, who had already seen at Inkawasi pairs of khipus with similar figures and fixed quotas that were subtracted from each delivery.</p>
 
 <p>The rest of the work looks at the 650 khipus of the digitized corpus (the database has 651; one is a duplicate), with almost 58,000 cords. Seen as a whole, the khipus we can read look less like a text and more like what we would do today with a spreadsheet. They are tables of rows and columns, forms that always split an amount in the same proportions, lists with their totals and registers of people. Some archives had their own formats, and documents were copied, summarized one another and kept together, as in a system of account books.</p>
+
+<p>In the second revision we expanded that collection to 691 pendant khipus and 61,038 cords, adding 41 khipus that had never entered our earlier tests (plus KH0652, a wrapped khipu with no pendants). Several patterns from the first round held up in those new khipus, and two additional cases of internal arithmetic turned up in KH0674 and QU005. We also tested cord color and physical spacing without relying on human labels, examined 15 khipus physically tied together (RT-16905) where tying turned out not to track sums, and audited four computational khipu studies released in 2026 under the same null models. That work is summarized <a href="#v2">at the end of the findings</a> and in the <a href="overview.html">visual overview</a>.</p>
 
 <p>These are the findings. Each card leads to its section.</p>
 
@@ -611,7 +613,45 @@ h3{font-size:clamp(25px,3.4vw,31px)}
 
 <p class="parte"><span class="etq">What is missing</span>Today we can recognize the type of document for a third of the khipus, which hold half of the cords. Another 23% have a probable type, but with low confidence. 28% are short lists of numbers in which these methods detect no structure, and which could be anything. The remaining 17% do not have enough data. Each new khipu that is transcribed, once run through the <a href="#lector">khipu reader</a>, will tell whether it fits one of the types or whether a new one is needed.</p>
 
-<p class="pie">The <a href="https://github.com/dariodemh/quipus/blob/main/analisis/paquete_revision/tabla_hallazgos.csv">full table in the repository</a> has more than 60 findings and corrections, each with its statistic and the file that produces it.</p>
+<p class="pie">The <a href="https://github.com/dariodemh/quipus/blob/main/analisis/paquete_revision/tabla_hallazgos.csv">full table in the repository</a> has more than 60 findings and corrections, each with its statistic and the file that produces it. In version 2.0, all 98 entries (including 26 tests under locally SHA-256 frozen protocols, positives, negatives, and pending items) can be searched in the offline <a href="registro_pruebas.html">unified test register</a> and explored in the <a href="overview.html">18-slide visual overview</a>.</p>
+</section>
+
+<hr>
+
+<section class="col" id="v2">
+<h2>What the expanded corpus showed</h2>
+
+<p>After the first version of this essay we merged the transcriptions from the Khipu Field Guide, the Open Khipu Repository (v2.1.0), the Ascher <i>Databook</i>, Sarah Thompson's (2025a) 222 structured corrections to the <i>Databook</i>, the Huacones-Vilcahuasi khipus, and the RT-16905 assemblage at the National Museum in Lima recorded by Chirinos, Ghezzi and Álvarez (2023). The unified corpus holds 691 pendant khipus and 61,038 cords, plus KH0652, which consists of 19 threads wrapped around another primary cord. Of those 691 khipus, 650 come from the original base and 41 are held-out objects that were never used to design our hypotheses.</p>
+
+<p>Before running the analysis we froze six test protocols (P01 through P06) locally with SHA-256 hashes and had a second AI model (Claude Opus 5.5 Medium) review them for methodological flaws. That step catches design mistakes before looking at outcomes, though it is no substitute for human peer review or an externally timestamped registry. Every deviation from those six protocols is listed explicitly in the repository's review package.</p>
+
+<h3>Out-of-sample checks and two additional cases</h3>
+
+<p>Across the 41 held-out khipus, two patterns from the first study held up even after strict Holm correction across all six tests in the family. The largest cord opens its group in 29 of 104 groups (27.9% vs. 17.0% by chance, <i>p</i><sub>Holm</sub> = 0.0168), and two-color alternation appears in 5 of 16 eligible khipus against 0.16 expected (<i>p</i><sub>Holm</sub> &lt; 10<sup>−4</sup>). When we rescued the top cords missing from the Khipu Field Guide using the Open Khipu Repository, 53 of 174 matched the exact sum of the preceding group, compared with 12.2 expected by chance (<i>p</i><sub>Holm</sub> = 0.0010).</p>
+
+<p>Two new cases of internal arithmetic also emerged. On KH0674, a held-out khipu from Dumbarton Oaks, 8 of 41 groups contain a summary cord equal to the exact sum of the remaining cords, whereas chance yields 0.31 (<i>p</i><sub>Holm</sub> = 0.002). In a post-hoc audit, QU005 (Dallas, 57 pendants arranged in three blocks of 19) forms a column-sum table in which the third block equals the sum of the first two in 12 of 19 exact positions, and 13 within one unit, against a mean null maximum of 0.10 across all three possible triples (<i>p</i><sub>corr</sub> = 0.0001). A search across all 691 khipus found no surviving copy of QU005. The four newly added British Museum khipus showed neither internal sums nor copies, while raw Open Khipu Repository measurements reproduced the three relative knot-height zones previously seen on UR050 (centered at 0.21, 0.43 and 0.76 of cord length).</p>
+
+<h3>Continuous color and physical spacing in centimeters</h3>
+
+<p>Because color names shift from one transcriber to another, we mapped Open Khipu Repository color codes into perceptual CIE <i>L*a*b*</i> coordinates for 96.8% of all cords. Within groups, lighter yarns tend to carry somewhat larger values, and a small positive correlation remains even after removing every white cord (225 khipus, median correlation +0.053, <i>p</i><sub>Holm</sub> = 0.012; clearer in khipus recorded by Urton than in those recorded by the Aschers).</p>
+
+<p>We also checked whether the groups marked by human transcribers match physical gaps on the primary cord. Splitting each khipu purely wherever the spacing in centimeters between pendants exceeds twice the median gap, with no human group labels at all, reproduces monotonic intra-group trends in 9 of 35 eligible khipus compared with 1.75 expected by chance (<i>p</i><sub>Holm</sub> = 0.00017). At the same time, a variance decomposition of 2D geometry showed that the person who recorded the khipu (<i>R</i>² = 0.087) accounts for about as much variance as the archaeological site (<i>R</i>² = 0.085), while the museum accounts for more than both (<i>R</i>² = 0.272). Any automated model built on physical coordinates needs to control for recorder effects.</p>
+
+<h3>Tests that came out negative</h3>
+
+<p>The RT-16905 assemblage brings together fifteen khipus physically tied to one another at the National Museum in Lima. We tested whether khipus joined at the same physical knot sum to each other, share more numerical sequences, or match more closely in color and twist than untied pairs within the same bundle. All four tests came out negative (<i>p</i><sub>Holm</sub> between 0.25 and 0.81). Being tied together marks an archival grouping, yet by itself it does not imply an arithmetic hierarchy.</p>
+
+<p>Several other open questions also closed negative: contiguous spans of UR053E summing into UR053B or UR053C, arithmetic links from the four unread Inkawasi khipus (UR272, UR276, UR277 and UR279) into the rest of the storehouse, and mixed-radix number systems on non-decimal khipus. At Huacones-Vilcahuasi, an eight-pendant khipu (JC024) descends almost monotonically from first to last cord, yet its values are highly unequal (CV = 1.28), very different from the near-flat distribution of UR278.</p>
+
+<p>We also compiled 1,190 figures across 38 colonial documentary tables (Curatola 2013, Chirinos 2010 and Pärssinen 1992) to test whether a generative classifier trained on colonial accounts could infer a khipu's genre from its numerical profile alone. Under leave-one-document-out validation the classifier looked better than chance (balanced accuracy 0.382, <i>p</i> = 0.0025), yet leaving one editorial source out at a time dropped accuracy to 0.075 (<i>p</i> = 0.972). The model was picking up the style of each historical publication rather than universal administrative genres. Tested on one thousand synthetic number lists, it falsely assigned a genre to 38.5% of them, far above our 5% threshold, so we rejected its predictions on unclassified khipus. In that same colonial corpus we checked eight independent demographic lists of seven or more units excluding Bambamarca. The median rank correlation with position was −0.294, which falls just inside the conservative branch of our −0.30 cutoff. Six of the eight lists slope gently downward (<i>p</i><sub>Holm</sub> = 0.0024), yet none of the eight approaches either the slope or the flatness of UR278.</p>
+
+<h3>Auditing four computational studies from 2026</h3>
+
+<p>Four computational khipu studies appeared in 2026 using the same underlying repositories. We evaluated six of their core claims with matched null models. On rectilinear and verso attachment entropy, replacing simple shuffling with a null that preserves run lengths drops the 17 significant khipus out of 39 down to zero (<i>p</i><sub>Holm</sub> = 0.587). On Contreras (2026) regarding cord twist at imperial sites, removing khipus with more than half unknown-twist cords reverses the direction (77.8% S-twist at imperial sites against 93.4% elsewhere), site-grouped validation drops classifier F1 from 0.241 to 0.048, and in the Santa Valley the attachment directions in the Open Khipu Repository agree 100% with <code>collca.db</code> because both draw from the same underlying record.</p>
+
+<p>For K-CAT, we reproduced the pooled color-by-magnitude test, yet separating khipu-level effects showed that local intra-khipu keys explain 16.0% of variance whereas the global color label explains just 1.06%. By contrast, K-CAT's finding that some pendant cords equal the sum of their subsidiaries does hold in aggregate against an intra-khipu null (4.30% vs. 2.75%, <i>p</i><sub>Holm</sub> = 0.003), though no single khipu survives multiple-testing correction on its own. Finally, for Zenil and Uthamacumaran (2026), we reproduced both distal-role classification (AUC = 0.861) and parent-child similarity under fiber-and-twist rewiring (<i>z</i> = 6.76), yet requiring the null to preserve group and magnitude lowers the score to <i>z</i> = 1.82 (<i>p</i><sub>Holm</sub> = 0.126), pointing to shared local decimal scale within each group as the main driver.</p>
+
+<p>We also calibrated the five fast internal detectors of the <a href="#lector">khipu reader</a> on one hundred shuffled synthetic khipus. At the indication tier they triggered between zero and one time in a hundred (95% upper bound between 3.6% and 5.4%), and between zero and five times at the conjecture tier. All 98 tests in the project, both positive and negative, can be browsed offline in the <a href="registro_pruebas.html">unified test register</a>.</p>
 </section>
 
 <hr>
@@ -767,7 +807,9 @@ h3{font-size:clamp(25px,3.4vw,31px)}
 <li>Ascher, M. and Ascher, R. (1978). <i>Code of the Quipu Databook</i>. Ann Arbor: University Microfilms.</li>
 <li>Chirinos Rivera, A. (2010). <i>Quipus del Tahuantinsuyo: curacas, incas y su saber matemático en el siglo XVI</i>. Lima: Editorial Commentarios.</li>
 <li>Chirinos, A. (2026). The “Waterfall” Khipu Set and Indigenous Political Organization in the 16th Century. <i>The Khipu Field Guide Blog</i>, 2 February. <a href="https://khipufieldguide.ghost.io/the-waterfall-khipu-set-and-indigenous-political-organization-in-the-16th-century/">Link</a>.</li>
+<li>Chirinos, A., Ghezzi, I. and Álvarez, F. (2023). <i>Description of RT 16905 MNAAHP (KH0638–KH0652)</i>. Open Khipu Repository / MNAAHP.</li>
 <li>Contreras, M. (2026). Structural Pattern Mining in Inka Khipus: Unsupervised Clustering, Provenance Classification, and a Computational Validation of the Santa Valley Match. Preprint, arXiv:2607.00185.</li>
+<li>Curatola Petrocchi, M. and de la Puente Luna, J. C. (eds.) (2013). <i>El quipu colonial: estudios y materiales</i>. Lima: Fondo Editorial PUCP.</li>
 <li>FitzPatrick, M. (2024). New Insights on Cord Attachment and Social Hierarchy in Six Khipus from the Santa Valley, Peru. <i>Ethnohistory</i> 71(4): 443-469. <a href="https://doi.org/10.1215/00141801-11266328">DOI</a>.</li>
 <li>Florio, C. and Overmann, K. A. (2025). Inka numbers, khipu, and yupana: a reanalysis. <i>Journal of Cognition and Culture</i> 25(1-2): 128-158. <a href="https://doi.org/10.1163/15685373-12340204">DOI 10.1163/15685373-12340204</a>.</li>
 <li>Hyland, S. (2017). Writing with Twisted Cords: The Inscriptive Capacity of Andean Khipus. <i>Current Anthropology</i> 58(3): 412-419. <a href="https://doi.org/10.1086/691682">DOI</a>.</li>
@@ -782,11 +824,13 @@ h3{font-size:clamp(25px,3.4vw,31px)}
 <li>Platt, T. (2002). “Without Deceit or Lies”: Variable Chinu Readings during a Sixteenth-Century Tribute-Restitution Trial. In J. Quilter and G. Urton (eds.), <i>Narrative Threads: Accounting and Recounting in Andean Khipu</i>, from p. 225. University of Texas Press.</li>
 <li>Shukla, Makwana and Gupta (2019). Determination of Some Engineering Properties of Groundnut Pod (Gg-20 Variety). <i>Int. J. Curr. Microbiol. Appl. Sci.</i> 8(2): 3025–3030. <a href="https://doi.org/10.20546/ijcmas.2019.802.354">DOI</a>.</li>
 <li>Sivan, J. (2026). Reading the Inca Spreadsheet: How Khipu Knots Encode a Syllabic Data Language. Preprint, ALBA Project, March 2026.</li>
+<li>Thompson, S. (2025a). <i>Corrections to the Ascher Code of the Quipu Databook</i>. Open Khipu Repository.</li>
 <li>Urton, G. (2005). Khipu Archives: Duplicate Accounts and Identity Labels in the Inka Knotted String Records. <i>Latin American Antiquity</i> 16(2): 147-167. <a href="https://doi.org/10.2307/30042809">DOI</a>.</li>
 <li>Urton, G. (2017). <i>Inka History in Knots: Reading Khipus as Primary Sources</i>. University of Texas Press.</li>
 <li>Urton, G. and Brezine, C. J. (2005). Khipu accounting in ancient Peru. <i>Science</i> 309(5737): 1065-1067. <a href="https://doi.org/10.1126/science.1113426">DOI</a>.</li>
 <li>Urton, G. and Chu, A. (2015). Accounting in the King's Storehouse: The Inkawasi Khipu Archive. <i>Latin American Antiquity</i> 26(4): 512-529. <a href="https://doi.org/10.7183/1045-6635.26.4.512">DOI</a>.</li>
 <li>Urton, G. and Chu, A. (2018). The Invention of Taxation in the Inka Empire. <i>Latin American Antiquity</i> 30(1): 1-16 (published online in 2018). <a href="https://doi.org/10.1017/laq.2018.64">DOI</a>.</li>
+<li>Zenil, H. and Uthamacumaran, A. (2026). Algorithmic Complexity and Structural Roles in Andean Khipu Graphs. Preprint.</li>
 </ul>
 <p class="pie">Images: khipu from the Cleveland Museum of Art (1940.469), public domain, via Wikimedia Commons. Plate from Locke (1912) and drawings by Guamán Poma de Ayala (around 1615), public domain, via Wikimedia Commons. The other figures are drawn on the page from the repository data. Text under CC BY 4.0; code and data under MIT.</p>
 </section>

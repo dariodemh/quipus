@@ -96,6 +96,20 @@ class Contexto:
         return preparar(pd.read_csv(AN / "17_okr_pendientes/cuerdas_extra.csv", low_memory=False, keep_default_na=False))
 
     @cached_property
+    def maestro_q(self):  # Corpus Maestro v2 (691 quipus: KFG + OKR + held-out + Huacones + RT-16905 + Thompson)
+        p = AN / "36_corpus_maestro/maestro_quipus.csv"
+        return pd.read_csv(p, low_memory=False, keep_default_na=False).set_index("kh_id") if p.exists() else pd.DataFrame()
+
+    @cached_property
+    def maestro_c(self):
+        p = AN / "36_corpus_maestro/maestro_cuerdas.csv"
+        if not p.exists():
+            return pd.DataFrame()
+        df = pd.read_csv(p, low_memory=False, keep_default_na=False)
+        df["kfg"] = df["kh_id"]
+        return preparar(df)
+
+    @cached_property
     def Q(self):
         return pd.read_csv(AN / "datos/quipus.csv").set_index("kfg")
 
@@ -751,6 +765,14 @@ RELACIONES_DOC = [  # (origen, destino, qué, nivel, fuente) — de analisis/SIN
     ("UR1034", "UR1145", "totales de grupo en orden (candidata del lector): 5 exactos en orden (p(L)=4e-4), pero 4 de 5 "
      "totales < 20 y nada con ±1 nudo ni multibloque (q=1): ESPECULATIVA", "especulativo",
      "analisis/33_estematica/06_candidatas_lector.py; salida_06.txt"),
+    # Bloques A–D v2 (Preregistros P01–P06 sellados SHA-256)
+    ("KH0674", "KH0674", "sumas internas en quipu held-out (Dumbarton Oaks, 41 grupos): 8/41 grupos tienen una cuerda-"
+     "resumen exacta vs 0,31 esperadas (p=0,0002; p_Holm=0,002, prerregistrado P03.4)", "bien apoyado",
+     "analisis/37_bloque_B/resultados_P03.json; analisis/35_preregistros/P03_huacones_y_casos_abiertos.md"),
+    ("QU005", "QU005", "tabla jerárquica de totales por columna (3 bloques de 19 colgantes): B2 = B0 + B1 en 12/19 "
+     "posiciones exactas (13/19 ±1) vs 0,10 máx nulo sobre los 3 tríos (p_corr=0,0001). 3.ª tabla jerárquica del corpus "
+     "junto a KH0049 y Puruchuco. Post hoc auditada (E03.6)", "apoyado",
+     "analisis/37_bloque_B/resultados_P03.json"),
 ]
 NIV33 = {"bien apoyado": "bien apoyado", "mismo objeto (bien apoyado)": "bien apoyado", "apoyado": "apoyado",
          "apoyado (post hoc)": "apoyado", "apoyado (entre museos)": "apoyado", "propuesto (post hoc)": "propuesto", "ninguno (negativa)": "negativa",
@@ -786,6 +808,11 @@ def _fila_matriz(d, fichas):
     gr, fi = g["Gramática numérica"], g["Resumen físico"]
     nz = [f["p_bonf"] for f in g["Formato Nazca/Berlín (encabezado de campos + par marcador)"]["barrido"]]
     sp = [r["p"] * 4 for r in g["Sumas internas"]["pruebas"].values()]
+    tc = g.get("Totales por columna entre bloques (tabla jerárquica)", {}).get("significativos", [])
+    if tc:
+        sp.append(min(s["q"] for s in tc))
+    alt = g.get("Alternancia de dos colores (tabla de dos columnas intercalada)", {})
+    alt_p = alt.get("p", np.nan) if (alt.get("desfase") == 2 and alt.get("p") is not None) else np.nan
     fo = g["Formulario con clave de reparto"]
     intact = d[(d.terminacion == "K") & (d.valor >= 10)]
     rr = int((intact.valor % 10 == 0).sum())
@@ -802,7 +829,7 @@ def _fila_matriz(d, fichas):
         red_n=len(intact), red_frac=rr / len(intact) if len(intact) else np.nan,
         red_q=binomtest(rr, len(intact), .1, alternative="greater").pvalue if len(intact) else np.nan,
         cuotas_rep_q=np.nan, tabla_R=np.nan, tabla_K=np.nan, tabla_q_orden=np.nan, tabla_rho=np.nan,
-        color_grupo_p=g["Encabezados y formato por color"].get("color_grupo", {}).get("p", np.nan), segm_q=np.nan))
+        color_grupo_p=g["Encabezados y formato por color"].get("color_grupo", {}).get("p", np.nan), segm_q=alt_p))
 
 
 def genero(d, ctx, fichas):

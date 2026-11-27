@@ -1,0 +1,54 @@
+{
+  "semilla": 20261127,
+  "n_sinteticos_nulos": 100,
+  "segundos": 279.6,
+  "fpr_por_detector": {
+    "sumas": {
+      "hits_propuesto_o_mas": 5,
+      "fpr_propuesto_o_mas": 0.05,
+      "hits_apoyado_o_mas": 1,
+      "fpr_apoyado_o_mas": 0.01
+    },
+    "ficha_nazca": {
+      "hits_propuesto_o_mas": 0,
+      "fpr_propuesto_o_mas": 0.0,
+      "hits_apoyado_o_mas": 0,
+      "fpr_apoyado_o_mas": 0.0
+    },
+    "formulario": {
+      "hits_propuesto_o_mas": 2,
+      "fpr_propuesto_o_mas": 0.02,
+      "hits_apoyado_o_mas": 0,
+      "fpr_apoyado_o_mas": 0.0
+    },
+    "alternancia": {
+      "hits_propuesto_o_mas": 0,
+      "fpr_propuesto_o_mas": 0.0,
+      "hits_apoyado_o_mas": 0,
+      "fpr_apoyado_o_mas": 0.0
+    },
+    "totales_columna": {
+      "hits_propuesto_o_mas": 0,
+      "fpr_propuesto_o_mas": 0.0,
+      "hits_apoyado_o_mas": 0,
+      "fpr_apoyado_o_mas": 0.0
+    }
+  },
+  "genero_en_sinteticos": {
+    "distribucion_generos": {
+      "SIN": 79,
+      "NON": 5,
+      "SEG": 3,
+      "FOR": 2,
+      "TAL": 2,
+      "ASG": 8,
+      "SUM": 1
+    },
+    "distribucion_confianza": {
+      "sin genero": 79,
+      "baja": 13,
+      "media": 8
+    },
+    "tasa_SIN_o_baja": 0.92
+  }
+}

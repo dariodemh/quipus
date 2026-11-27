@@ -1,0 +1,20 @@
+kh_id,hilo,spec_raw,pos_cm,ancho_mm,vueltas,largo_colgantes_cm,color,seccion,notas
+KH0652,W1,"(39.0, 2.0 mm wide, turns not visible)",39.0,2.0,,1.4K,MB,X1,
+KH0652,W2,"(41.0, 2.0 mm wide, turns not visible)",41.0,2.0,,1.5K,MB,X1,
+KH0652,W3,"(43.0, 4.0 mm wide, 5 turns)",43.0,4.0,5,0.8K,MB,X1,"The turns are visible only with a ""folding linen tester"", but only the top side since the hole set of khipus are sewn to a board."
+KH0652,W4,"(12.5, 3.5 mm wide, 5 turns)",12.5,3.5,5,1.4K,W,X2,
+KH0652,W5,"(17.5, 4.5 mm wide, 5 turns)",17.5,4.5,5,1.3K,BS,X2,
+KH0652,W6,"(28.5, 8.0 mm wide, 8 turns)",28.5,8.0,8,1.2K,W,X2,
+KH0652,W7,"(37.0, 4.0 mm wide, 5 or 6 turns)",37.0,4.0,6,1.4K,MB,X2,
+KH0652,W8,"(49.0, 4.7 mm wide, 5 turns)",49.0,4.7,5,2.4K,W,X2,
+KH0652,W9,"(4.5, 4.0 mm wide, turns not visible)",4.5,4.0,,1.1K,BS,X3,
+KH0652,W10,"(13.0, 4.0 mm wide, 5 turns)",13.0,4.0,5,1.8K,MB,X3,
+KH0652,W11,"(17.5, 4.4 mm wide, 5 turns)",17.5,4.4,5,1.5K,W,X3,
+KH0652,W12,"(20.0, 5.0 mm wide, 5 turns)",20.0,5.0,5,0.9K,W,X3,"On top of the wrapped thread is visible an ""X"" formed with the same thread. The other wrapped threads could have the same ""X"" but is not visible from the top."
+KH0652,W13,"(24.0, 4.3 mm wide, 6 turns)",24.0,4.3,6,1.8K,MB,X3,
+KH0652,W14,"(38.0, 3.4 mm wide, 6 turns)",38.0,3.4,6,2.6K,W,X3,
+KH0652,W15,"(44.0, 3.5 mm wide, turns not visible)",44.0,3.5,,2.0U,MB,X3,The end of the pendant thread is hiding below the wrapped thread
+KH0652,W16,"(46.5, 5.0 mm wide turns not visible)",46.5,5.0,,1.0B,W,X3,
+KH0652,W17,"(13.0, 2.0 mm wide, turns not visible)",13.0,2.0,,0.2U,MB,X4,
+KH0652,W18,"(14.5, 5.0 mm wide, 5 turns)",14.5,5.0,5,2.5K,MB,X4,
+KH0652,W19,"(31.0, 5.0 mm wide, 7 turns)",31.0,5.0,7,NOT VISIBLE,BS,X4,"The little pendant cord is not visible but could be in the opposite side which is not visible since the khipu is sewn to a board. On top the wrapped thread is visible an ""X"" formed with the same thread."
