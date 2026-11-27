@@ -4,7 +4,7 @@ Objetivo general: averiguar qué significan los quipus, con evidencia que sobrev
 
 ## Datos (ya preparados, úsalos; no los regeneres)
 
-Raíz del repo: `` (en Bash: `/c/Users/D/Documents/GitHub/quipu`).
+Raíz del repositorio (las rutas son relativas a ella).
 
 - `analisis/datos/cuerdas.csv` — una fila por cuerda (57 818), de los 651 xlsx del Khipu Field Guide (KFG).
   - `kfg`: id del quipu (AS###, UR###, HP###, JC###, QU###, CM###...). `orden`: orden de la cuerda en el quipu (izquierda→derecha, subsidiarias justo después de su madre).

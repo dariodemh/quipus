@@ -1,0 +1,12 @@
+kfg,okr,quipu_huacones,inventario,lote,largo_pc,bucle_pc,lectura_dir,pc_color,n_cuerdas,n_colgantes,n_anudadas,suma_total,tiene_aditivas,tiene_ro
+JC024,KH0653,Quipu 8,789,97,47.0,1,L-R,W(0-24)/RO(24-30)/NB(30-47),16,8,10,273,0,1
+JC025,KH0654,Quipu 7,788,97,31.0,1,L-R,NB/W,10,4,10,192,0,0
+JC026,KH0655,Quipu 11,792,97,27.5,1,L-R,W(0-14)/RO(14-17)/W(17-27.5),2,2,0,0,0,1
+JC027,KH0656,Quipu 4,785,97,32.5,0,R-L,W(0-5)/RO(5-7)/W(7-32.5),12,12,12,593,0,1
+JC028,KH0657,Quipu 6,787,97,54.0,1,R-L,YB(0-30)/RO(30-32)/YB(32-54),12,8,12,359,1,1
+JC029,KH0658,Quipu 10,791,97,35.5,0,L-R,YB,10,6,8,291,0,0
+JC030,KH0659,Quipu 2,783,97,60.0,1,L-R,YB(0-38)/RO(38-41.5)/YB(41.5-60),5,5,5,27,0,1
+JC031,KH0660,Quipu 9,790,97,35.0,0,R-L,YB,11,9,7,37,1,1
+JC032,KH0661,Quipu 5,786,97,29.5,0,R-L,YB,8,6,8,558,1,1
+JC033,KH0662,Quipu 3,784,97,13.0,0,L-R,YB,8,8,4,23,0,1
+JC034,KH0663,Quipu 1,782,97,26.0,1,L-R,YB:MB,7,4,6,51,1,1

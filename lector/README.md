@@ -9,13 +9,17 @@ The reader adds no new methods. It packages the methods the project has already 
 ## Usage
 
 ```bash
-python lector/lector.py UR278            # id KFG
-python lector/lector.py KH0517           # id OKR (se traduce a KFG; los 19 OKR sin KFG salen de 17_okr_pendientes)
-python lector/lector.py mi_quipu.csv     # CSV con las columnas de analisis/datos/cuerdas.csv
-python lector/lector.py UR278 --json     # salida JSON
-python lector/lector.py --todos          # todo el corpus: una línea por quipu y, al final, el recuento de errores
-python lector/verificar.py               # resultados conocidos; falla si algo se rompe
+python lector/lector.py UR278            # KFG id
+python lector/lector.py KH0517           # OKR id (mapped to KFG; plus 19 OKR-extra, 11 Huacones JC024-JC034, and JS01)
+python lector/lector.py JC024            # virgin Huacones recording sheet (KH0653)
+python lector/lector.py JS01             # Harvard thesis khipu (KH0676)
+python lector/lector.py mi_quipu.csv     # CSV with the columns of analisis/datos/cuerdas.csv
+python lector/lector.py UR278 --json     # JSON output
+python lector/lector.py --todos          # whole corpus: one line per khipu and final error count
+python lector/verificar.py               # known results; fails if anything breaks
 ```
+
+A zero-server browser edition covering all **682 khipus** (with interactive SVG and CSV drag-and-drop) is also available in [`articulo/lector.html`](../articulo/lector.html).
 
 **Requirements.** Python ≥ 3.10 with pandas, numpy, scipy, numba and scikit-learn (the same ones `analisis/` already uses). The reader does not use the network.
 
@@ -94,7 +98,7 @@ Relations marked `[documentada]` (documented) come from the work log, with their
 
 It also runs five negative controls (AS010, UR001 and UR278 with shuffled values; AS006 without alternation; KH0049 with shuffled values) and one CSV input.
 
-**Result (18-10-2026):** 19/19 checks passed. `lector.py --todos`: 651 khipus, 0 errors.
+**Result (23-11-2026):** 21/21 checks passed (including virgin `JC024` and `JS01`). `lector.py --todos`: 651 KFG khipus, 0 errors (and 31 extra/virgin objects supported via `Contexto.extra`).
 
 ## Limitations
 
@@ -109,7 +113,7 @@ It also runs five negative controls (AS010, UR001 and UR278 with shuffled values
 
 ## How to cite
 
-Cite the repository (quipu, folder `lector/`, with the commit used) and the data sources:
+Cite the repository (`quipus`, folder `lector/`, with the commit used) and the data sources:
 - OKR Team (2025). *The Open Khipu Repository* (v2.1.0). Zenodo. https://doi.org/10.5281/zenodo.18025748
 - Medrano, M. and Khosla, A. (2024). *How Can Data Science Contribute to Understanding the Khipu Code? (Companion Data and Code)* (v2.1.0). Zenodo. https://doi.org/10.5281/zenodo.10472429
 

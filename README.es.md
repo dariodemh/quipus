@@ -14,10 +14,11 @@ Este repositorio reúne los análisis, los datos derivados y un **lector** repro
 
 1. [`analisis/paquete_revision/resumen_para_especialista.md`](analisis/paquete_revision/resumen_para_especialista.md): resumen de datos, métodos y hallazgos, por nivel de evidencia.
 2. [`analisis/paquete_revision/tabla_hallazgos.csv`](analisis/paquete_revision/tabla_hallazgos.csv): cada hallazgo con su estadístico, su p o q, su archivo fuente, si es nuevo o ya estaba publicado, y si se corrigió.
-3. [`analisis/paquete_revision/predicciones_verificables.md`](analisis/paquete_revision/predicciones_verificables.md): predicciones para comprobar en museos y archivos.
+3. [`analisis/paquete_revision/predicciones_verificables.md`](analisis/paquete_revision/predicciones_verificables.md): predicciones para comprobar en museos y archivos (versión corta de campo: [`protocolo_museo_5_nudos.md`](analisis/paquete_revision/protocolo_museo_5_nudos.md), y erratas para OKR/KFG en [`reporte_erratas_okr_kfg.md`](analisis/paquete_revision/reporte_erratas_okr_kfg.md)).
 4. [`analisis/paquete_revision/antecedentes.md`](analisis/paquete_revision/antecedentes.md): qué estaba publicado antes.
-5. [`lector/LEEME.md`](lector/LEEME.md): uso del lector.
+5. [`lector/LEEME.md`](lector/LEEME.md): uso del lector (y su edición interactiva en navegador: [`articulo/lector.es.html`](articulo/lector.es.html)).
 6. [`analisis/paquete_revision/verificacion_2026-11/`](analisis/paquete_revision/verificacion_2026-11/LEEME.md): verificación del ensayo afirmación por afirmación (noviembre de 2026), con la prueba de cada una y lo que se corrigió.
+7. [`articulo/preprint_es.md`](articulo/preprint_es.md) y [`articulo/preprint_en.md`](articulo/preprint_en.md): manuscrito preprint citable, junto con los módulos fuera de muestra ([`analisis/35_huacones_virgenes/`](analisis/35_huacones_virgenes/informe.md)), estemática bayesiana ([`analisis/36_estematica_bayesiana/`](analisis/36_estematica_bayesiana/informe.md)) y fuentes adicionales/fotogrametría CIELAB ([`analisis/37_vision_y_extra/`](analisis/37_vision_y_extra/informe.md)).
 
 ## Cómo se hizo: asistencia de IA
 
@@ -77,6 +78,7 @@ python lector/lector.py --todos                 # todo el corpus (~3 min)
 
 python articulo/fuente/extraer.py . articulo/fuente/datos.json   # datos de las figuras del ensayo
 python articulo/fuente/construir.py             # articulo/index.html (inglés) e index.es.html (español)
+python articulo/fuente/construir_lector.py      # articulo/lector.html y lector.es.html (682 quipus en navegador)
 python articulo/fuente/comprobar.py             # lo que dice el texto de cada figura cuadra con sus datos
 python articulo/fuente/comprobar_idioma.py articulo/index.es.html es   # no queda inglés en la página en español (requiere playwright)
 ```

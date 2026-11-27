@@ -143,5 +143,19 @@ for nombre, cf in (("antes", conf), ("después", conf.where(~conf.index.isin(E.i
     m = cf.isin(["alta", "media"])
     print(f"       cobertura {nombre}: {m.sum()} quipus ({m.mean():.1%}), {w[m].sum() / w.sum():.1%} de las cuerdas")
 
+# 11. Soporte nativo del lector para quipus vírgenes/adicionales (JC024 y JS01)
+(d_jc,) = LT.resolver("JC024", ctx)
+l_jc = LT.leer(d_jc, ctx)
+check("Huacones JC024: resuelto y leído sin error (8 colgantes)",
+      int((d_jc.nivel == 0).sum()) == 8 and not any(s.get("error") for s in l_jc["secciones"]),
+      f"colgantes={(d_jc.nivel == 0).sum()}")
+
+(d_js,) = LT.resolver("JS01", ctx)
+l_js = LT.leer(d_js, ctx)
+g_js = D.gramatica(d_js, ctx)["datos"]
+check("Harvard JS01: resuelto (138 cuerdas, fracción no decimal > 0,95, sin error)",
+      len(d_js) == 138 and g_js["frac_no_decimal"] > 0.95 and not any(s.get("error") for s in l_js["secciones"]),
+      f"cuerdas={len(d_js)}, frac_no_decimal={g_js['frac_no_decimal']:.3f}")
+
 print(f"\n{sum(ok)}/{len(ok)} comprobaciones correctas en {time.time() - t0:.0f} s")
 assert all(ok), "verificación FALLIDA"

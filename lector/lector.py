@@ -39,14 +39,15 @@ def resolver(ident, ctx):
     okr = ctx.Q.index[ctx.Q.okr == ident]
     if len(okr):
         return [ctx.por_quipu[okr[0]]]
-    x = ctx.extra[ctx.extra.kfg == ident]
+    alias_extra = {**{f"KH{653 + i:04d}": f"JC{24 + i:03d}" for i in range(11)}, "KH0676": "JS01"}
+    x = ctx.extra[ctx.extra.kfg == alias_extra.get(ident, ident)]
     if len(x):
         return [x]
     if len(ctx.maestro_c):
         xm = ctx.maestro_c[ctx.maestro_c.kfg == ident]
         if len(xm):
             return [xm]
-    raise SystemExit(f"No encuentro el quipu {ident!r} (ni en KFG, ni como OKR, ni en 17_okr_pendientes, ni en Corpus Maestro v2).")
+    raise SystemExit(f"No encuentro el quipu {ident!r} (ni en KFG, ni como OKR, ni en los lotes extra, ni en Corpus Maestro v2).")
 
 
 def leer(d, ctx):

@@ -120,7 +120,7 @@ function cuerda(g, x, y0, c, sc, op){
     el('rect', {x:x - 26, y:k.y - 18, width:52, height:36, rx:6, style:'fill:var(--indigo);opacity:0'}, gg);
     el('line', {x1:x + 18, y1:k.y, x2:330, y2:k.y, style:'stroke:var(--regla);stroke-dasharray:3 3'}, gg);
     const t1 = tx(gg, 340, k.y - 3, desc, {'font-size':15});
-    const t2 = tx(gg, 340, k.y + 16, nombres[lugar] + ' · vale ' + k.v, {class:'g m', 'font-size':13});
+    const t2 = tx(gg, 340, k.y + 16, nombres[lugar] + tl(' · vale ', ' · value ') + k.v, {class:'g m', 'font-size':13});
     const t3 = tx(gg, 590, k.y + 6, String(k.v), {'text-anchor':'end', class:'m', 'font-size':24, style:'fill:var(--indigo)'});
     filas.push({gg, t3, k});
     const on = () => { filas.forEach(f => { f.gg.style.opacity = f.gg === gg ? 1 : .35; }); };
@@ -535,13 +535,13 @@ function cuerda(g, x, y0, c, sc, op){
   tx(svg, 10, 46, 'UR234', {'font-size':13, class:'m', style:'font-weight:500'}); tx(svg, 10, 146, 'UR1104', {'font-size':13, class:'m', style:'font-weight:500'});
   const caja = (x, y, v, est) => { const g = el('g', null, svg);
     el('rect', {x:x - 28, y:y - 18, width:56, height:30, rx:6, style:'fill:var(--tarjeta);stroke:' + (est === 'rota' ? 'var(--mal)' : est === 'var' ? 'var(--casi)' : 'var(--regla)') + ';stroke-width:1.5' + (est === 'rota' ? ';stroke-dasharray:4 3' : '')}, g);
-    tx(g, x, y + 2, v === null ? 'rota' : String(v), {'text-anchor':'middle', class:'m', 'font-size':13, style:v === null ? 'fill:var(--mal)' : ''}); return g; };
+    tx(g, x, y + 2, v === null ? tl('rota', 'broken') : String(v), {'text-anchor':'middle', class:'m', 'font-size':13, style:v === null ? 'fill:var(--mal)' : ''}); return g; };
   A.forEach((v, i) => caja(X(i), 46, v, v === null ? 'rota' : i === 2 ? 'var' : ''));
   const abajo = B.map((v, i) => { const g = el('g', null, svg);
     el('line', {x1:X(i), y1:62, x2:X(i), y2:124, style:'stroke:' + (i === 5 ? 'var(--mal)' : i === 2 ? 'var(--casi)' : 'var(--ok)') + ';stroke-width:1.5'}, g);
     g.appendChild(caja(X(i), 146, v, i === 5 ? '' : i === 2 ? 'var' : '')); return g; });
-  tx(svg, X(5), 180, 'conserva lo perdido', {'text-anchor':'middle', 'font-size':11, style:'fill:var(--mal)'});
-  tx(svg, X(2), 180, 'cifras invertidas', {'text-anchor':'middle', 'font-size':11, style:'fill:var(--casi)'});
+  tx(svg, X(5), 180, tl('conserva lo perdido', 'preserves what was lost'), {'text-anchor':'middle', 'font-size':11, style:'fill:var(--mal)'});
+  tx(svg, X(2), 180, tl('cifras invertidas', 'swapped digits'), {'text-anchor':'middle', 'font-size':11, style:'fill:var(--casi)'});
   let corriendo = false;
   $('extracto-jugar').addEventListener('click', async () => {
     if (corriendo) return; corriendo = true;
@@ -560,7 +560,7 @@ function cuerda(g, x, y0, c, sc, op){
     tx(svg, X(j), Y(i) + 4, fmt(v), {'text-anchor':'middle', class:'m', 'font-size':10.5}); return r; }); });
   const nombresU = ['B1', 'B3', 'B4', 'B5'], filaK = [1, 3, 4, 5];
   const gU = el('g', {style:'opacity:0;transition:opacity .4s'}, svg);
-  tx(gU, 10, Y(6) + 8, 'UR122, Gotemburgo', {'font-size':12, class:'g'});
+  tx(gU, 10, Y(6) + 8, tl('UR122, Gotemburgo', 'UR122, Gothenburg'), {'font-size':12, class:'g'});
   U.forEach((b, i) => { tx(gU, 10, Y(7 + i) + 4, nombresU[i], {'font-size':13, class:'m'}); b.forEach((v, j) => {
     const kv = K[filaK[i]][j], igual = v === kv, perdida = v === 0 && kv;
     el('rect', {x:X(j) - 22, y:Y(7 + i) - 13, width:44, height:24, rx:4, style:'fill:' + (igual ? 'var(--ok)' : 'var(--suave)') + ';opacity:' + (igual ? .25 : 1) + (perdida ? ';stroke:var(--mal);stroke-dasharray:3 2' : '')}, gU);
@@ -596,7 +596,7 @@ function cuerda(g, x, y0, c, sc, op){
     return {g, c, x0:35 + i * 17.5};
   });
   const etq = el('g', {style:'opacity:0;transition:opacity .5s'}, svg);
-  tx(etq, 160, 240, 'columna W', {'text-anchor':'middle', 'font-size':13, style:'font-weight:600'}); tx(etq, 480, 240, 'columna AB', {'text-anchor':'middle', 'font-size':13, style:'font-weight:600'});
+  tx(etq, 160, 240, tl('columna W', 'column W'), {'text-anchor':'middle', 'font-size':13, style:'font-weight:600'}); tx(etq, 480, 240, tl('columna AB', 'column AB'), {'text-anchor':'middle', 'font-size':13, style:'font-weight:600'});
   function poner(sep){
     let w = 0, a = 0;
     items.forEach(it => { let x = it.x0; if (sep){ if (it.c.col === 'W'){ x = 30 + w * 15; w++; } else { x = 345 + a * 15; a++; } } it.g.setAttribute('transform', 'translate(' + x + ',0)'); });
@@ -684,11 +684,12 @@ function cuerda(g, x, y0, c, sc, op){
       y += Math.ceil(L.length / cols) * paso + 10;
     } else {
       const grupos = {}; A.forEach(a => (grupos[a.P] = grupos[a.P] || []).push(a));
-      const nombres = Object.keys(grupos).sort((p, q) => (p.startsWith('Proc') || p.startsWith('Otras')) - (q.startsWith('Proc') || q.startsWith('Otras')) || grupos[q].length - grupos[p].length);
+      const fin = s => s.startsWith('Proc') || s.startsWith('Otras') || s.startsWith('Unknown') || s.startsWith('Other');
+      const nombres = Object.keys(grupos).sort((p, q) => (fin(p) - fin(q)) || grupos[q].length - grupos[p].length);
       const cols = 52;
       nombres.forEach(n => {
         const L = grupos[n].sort(orden);
-        tx(svg, 10, y + 11, n, {'font-size':12, style:'font-weight:500'}); tx(svg, 10, y + 25, L.length + ' quipus', {'font-size':10.5, class:'g'});
+        tx(svg, 10, y + 11, n, {'font-size':12, style:'font-weight:500'}); tx(svg, 10, y + 25, L.length + tl(' quipus', ' khipus'), {'font-size':10.5, class:'g'});
         L.forEach((a, i) => el('rect', {x:200 + (i % cols) * paso, y:y + Math.floor(i / cols) * paso, width:lado, height:lado, rx:2, style:'fill:' + G[a.g][1] + ';opacity:' + (a.baja ? .38 : 1)}, svg));
         y += Math.max(32, Math.ceil(L.length / cols) * paso + 12);
       });
@@ -748,8 +749,9 @@ function cuerda(g, x, y0, c, sc, op){
   function mostrar(k){
     const F = (EN ? D.fichas_en : D.fichas)[k], secs = [];
     F.forEach(([s, n, t]) => { let x = secs.find(z => z[0] === s); if (!x){ x = [s, []]; secs.push(x); } x[1].push([n, t]); });
+    const abrir = s => ['Relaciones', 'Alternancia', 'Totales', 'Relations', 'Two-color', 'Column totals'].some(p => s.startsWith(p));
     caja.innerHTML = '<div class="num" style="font-size:15px;margin-bottom:6px">' + tl('Ficha de lectura: ', 'Reading card: ') + k + '</div>' + secs.map((s, i) =>
-      '<details' + (i < 2 || s[0].startsWith('Relaciones') || s[0].startsWith('Alternancia') || s[0].startsWith('Totales') ? ' open' : '') + '><summary>' + esc(s[0]) + '</summary><ul>' +
+      '<details' + (i < 2 || abrir(s[0]) ? ' open' : '') + '><summary>' + esc(s[0]) + '</summary><ul>' +
       s[1].map(([n, t]) => '<li><span class="ev ' + (CL[n] || '') + '" style="' + (CL[n] ? '' : 'color:var(--gris)') + '">' + n.toLowerCase() + '</span>' + esc(t) + '</li>').join('') + '</ul></details>').join('');
   }
   Object.keys(D.fichas).forEach((k, i) => {
@@ -758,5 +760,28 @@ function cuerda(g, x, y0, c, sc, op){
     tabs.appendChild(b);
   });
   mostrar(Object.keys(D.fichas)[0]);
+})();
+
+/* ---------- tema claro / oscuro ---------- */
+(function tema(){
+  const btn = $('tema-btn'); if (!btn) return;
+  const root = document.documentElement;
+  const mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+  let guardado = null;
+  try { guardado = localStorage.getItem('quipus-tema'); } catch (_) {}
+  if (guardado === 'dark' || guardado === 'light') root.setAttribute('data-theme', guardado);
+  const actual = () => root.getAttribute('data-theme') || (mq && mq.matches ? 'dark' : 'light');
+  function pintar(){
+    const oscuro = actual() === 'dark';
+    btn.textContent = oscuro ? tl('Tema claro', 'Light theme') : tl('Tema oscuro', 'Dark theme');
+    btn.setAttribute('aria-pressed', oscuro ? 'true' : 'false');
+  }
+  btn.addEventListener('click', () => {
+    const nuevo = actual() === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', nuevo);
+    try { localStorage.setItem('quipus-tema', nuevo); } catch (_) {}
+    pintar();
+  });
+  pintar();
 })();
 })();

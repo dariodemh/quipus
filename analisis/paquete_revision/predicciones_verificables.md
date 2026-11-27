@@ -123,6 +123,7 @@ Prioridad, de mayor a menor: 1, 2, 3, 4, 5, 6, 7. Los cuatro primeros son los m�
 - **Predicción (especulativa, de prioridad baja):** si los quipus 8 y 9, con 9 colgantes cada uno, registran las mismas 9 unidades, sus valores descenderán con la posición (ρ < −0,5) y tendrán un CV cercano a 0,2.
 - **Refuta:** valores sin orden o muy desiguales (CV > 0,5).
 - *Fuente:* SINTESIS, «Búsqueda de Chu y del valle de Cañete».
+- **Estado (23-11-2026, fuera de muestra — REFUTADA):** transcritas las 11 fichas vírgenes de Huacones en OKR (`JC024–JC034`; [`analisis/35_huacones_virgenes/informe.md`](../35_huacones_virgenes/informe.md)). El quipu 8 (`JC024`, 8 colgantes) da `ρ = −0,952` pero `CV = 1,283` (> 0,5), y el quipu 9 (`JC031`, 9 colgantes con 4 vacías) da `ρ = −0,400` y `CV = 1,227` (> 0,5).
 
 ## C. Documentos coloniales
 
