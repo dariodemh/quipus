@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Visual Overview (18 slides) — What the Khipus Add Up To v2.0</title>
+<title>Visual Overview (18 slides): What the Khipus Add Up To v2.0.2</title>
 <style>
   :root {
     --bg: #181614; --paper: #faf7f2; --ink: #1e1b18; --muted: #625b53;
@@ -79,7 +79,7 @@
 </head>
 <body>
 <div class="toolbar">
-  <div><b>Visual Overview (18 slides)</b> · What the Khipus Add Up To v2.0</div>
+  <div><b>Visual Overview (18 slides)</b> · What the Khipus Add Up To v2.0.2</div>
   <div>
     <a href="index.html">Full Essay</a>
     <a href="registro_pruebas.html">Register (98 tests)</a>
@@ -91,19 +91,19 @@
 
 <section class="slide dark">
   <div>
-    <div class="kicker">Visual Overview · v2.0 · November 2026</div>
+    <div class="kicker">Visual Overview · v2.0.2 · November 2026</div>
     <h1>What the Khipus Add Up To</h1>
-    <p class="lead">Null-model auditing, a unified 691-khipu Master Corpus, SHA-256 preregistered tests, and a unified evaluation of 2026 computational khipu studies.</p>
+    <p class="lead">Null-model auditing, a unified 689-khipu Master Corpus, locally SHA-256 sealed protocols, and a unified evaluation of 2026 computational khipu studies.</p>
         <div class="grid4" style="margin-top:26px">
-          <div class="card"><div class="big">691</div>unified khipus (+ KH0652)<br>61,038 cords</div>
-          <div class="card"><div class="big">41</div>pure held-out khipus<br>out-of-sample</div>
-          <div class="card"><div class="big">98</div>tests in register<br>(26 SHA-256 preregistered)</div>
+          <div class="card"><div class="big">689</div>unified khipus (+ KH0652)<br>60,969 cords</div>
+          <div class="card"><div class="big">39</div>pure held-out khipus<br>out-of-sample</div>
+          <div class="card"><div class="big">98</div>tests in register<br>(26 under SHA-256 protocols)</div>
           <div class="card"><div class="big">0–1 %</div>empirical FPR of reader v2<br>at “indication” tier</div>
         </div>
         <p style="margin-top:22px;font-family:system-ui,sans-serif;font-size:0.88rem;color:#cfc6b9">Open repository: github.com/dariodemh/quipus · Fixed seed: 20261127 · Every negative result published with equal prominence to positive findings.</p>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>1 / 18</span>
   </div>
 </section>
@@ -113,34 +113,34 @@
     <h2>Why a Heterogeneous Corpus Misleads Without Strict Null Models</h2>
     <p class="lead">Across 650+ khipus and tens of thousands of numbers and colors, almost any post-hoc rule yields seemingly “significant” coincidences.</p>
         <div class="grid3">
-          <div class="card"><h3>1. Chance Sums</h3>Medrano & Khosla's (2024) 74% counts Ascher relations accurately, but shuffling khipu-by-khipu reproduces <b>93%–100%</b> of them by chance (~24% power).</div>
-          <div class="card"><h3>2. Leakage & Pseudoreplication</h3>Treating cords as independent samples or validating without grouping by site/source inflates <i>p</i> to 10<sup>−267</sup> and hides recorder effects (<code>CREATED_BY</code>).</div>
-          <div class="card"><h3>3. Our v2 Protocol</h3><b>SHA-256</b> sealed preregistrations before running code, adversarial pre-audit (Opus), pure held-out split (41 khipus), and empirical FPR calibration.</div>
+          <div class="card"><h3>1. Chance Sums</h3>The published 74% figure counts Ascher relations accurately, yet shuffling khipu-by-khipu reproduces <b>93%–100%</b> of them by chance (~24% power).</div>
+          <div class="card"><h3>2. Leakage & Pseudoreplication</h3>Treating cords as independent samples or validating without grouping by site or source inflates <i>p</i> to 10<sup>−207</sup> and hides recorder effects (<code>CREATED_BY</code>).</div>
+          <div class="card"><h3>3. Our v2 Protocol</h3>Locally <b>SHA-256</b> sealed protocols before running code, adversarial pre-audit (Opus), pure held-out split (39 khipus), and empirical FPR calibration.</div>
         </div>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>2 / 18</span>
   </div>
 </section>
 <section class="slide">
   <div>
     <div class="kicker">2 · Unified Master Corpus (Block A)</div>
-    <h2>691 Khipus, 61,038 Cords, Zero Silent Duplicates</h2>
-    <p>We reconciled KFG (Ashok Khosla), OKR v2.1.0, the Ascher <i>Databook</i>, Thompson's (2025a) 222 corrections, RT-16905 (Chirinos/Ghezzi/Álvarez 2023), and Huacones-Vilcahuasi.</p>
+    <h2>689 Khipus, 60,969 Cords, Zero Silent Duplicates</h2>
+    <p>We reconciled KFG (Ashok Khosla), OKR v2.1.0, the Ascher <i>Databook</i>, Karen Thompson's (2025) 222 corrections, RT-16905 (Chirinos, Ghezzi & Álvarez 2023), and Huacones-Vilcahuasi.</p>
         <table>
           <thead><tr><th>Component</th><th>Volume</th><th>Key Reconciliation</th></tr></thead>
           <tbody>
             <tr><td><b>Clean KFG Base</b></td><td>650 khipus</td><td>Excludes duplicate UR044; fixes 4 shifted IDs KH0197/0227/0267/0350 and aliases UR1180/MM1086.</td></tr>
-            <tr><td><b>Pure Held-Out (new)</b></td><td><b>41 khipus</b> (2,483)</td><td>14 RT-16905 + 11 Huacones + 3 transcribed (KH0674–676) + 8 OKR/BM + 5 genuinely absent Databook.</td></tr>
+            <tr><td><b>Pure Held-Out (new)</b></td><td><b>39 khipus</b> (2,414)</td><td>14 RT-16905 + 11 Huacones + 3 transcribed (KH0674–676) + 8 OKR/BM + 3 genuinely absent Databook.</td></tr>
             <tr><td><b>OKR Rescue</b></td><td>248 T · 447 M</td><td>Computes values from SUM(knot_value_type); restores 111 missing Inkawasi cords (UR274B = 133 cords).</td></tr>
-            <tr><td><b>Thompson (2025a)</b></td><td>222 rows / 108 AS</td><td>19 deterministic patches in parallel column <code>valor_thompson</code> (never overwrites raw values).</td></tr>
-            <tr><td><b>2D Physics & CIELAB</b></td><td>96.8 % Lab · 64.9 % 2D</td><td>Continuous CIE <i>L*a*b*</i> coordinates and label-free physical geometry in cm.</td></tr>
+            <tr><td><b>Karen Thompson (2025)</b></td><td>222 rows / 108 AS</td><td>19 deterministic patches in parallel column <code>valor_thompson</code> (never overwrites raw values).</td></tr>
+            <tr><td><b>2D Physics & CIELAB</b></td><td>96.8 % Lab · 65.1 % 2D</td><td>Continuous CIE <i>L*a*b*</i> coordinates and label-free physical geometry in cm.</td></tr>
           </tbody>
         </table>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>3 / 18</span>
   </div>
 </section>
@@ -153,14 +153,14 @@
             <span class="tag t-ok">CONFIRMED · p_Holm(m=6) = 0.0168</span>
             <h3 style="margin-top:8px">P01.1 · Largest Opens Group</h3>
             <div class="big">27.9 %</div>
-            29 of 104 groups in the 41 held-out khipus vs. 17.0% expected by chance.
+            29 of 104 groups in the 39 held-out khipus vs. 17.0% expected by chance.
             <div class="bar-wrap"><div class="bar" style="width:72%"></div></div>
           </div>
           <div class="card">
             <span class="tag t-ok">CONFIRMED · p_Holm(m=6) = 0.0010</span>
             <h3 style="margin-top:8px">P01.3b · Rescued Top Cords T</h3>
             <div class="big">53 / 174</div>
-            30.5% of OKR-rescued top cords equal the exact sum of the preceding group (vs. 12.2 expected).
+            30.5% of OKR-rescued top cords equal the exact sum of the preceding group (vs. 7.0% expected; 12.2 hits).
             <div class="bar-wrap"><div class="bar" style="width:85%"></div></div>
           </div>
           <div class="card">
@@ -173,11 +173,11 @@
         </div>
         <div class="card" style="margin-top:16px">
           <b>Transparency on underpowered tests (P01.2, P01.3a, P01.5):</b>
-           0 eligible cords for OKR zeros (P01.2) and 0 top cords (P01.3a) in held-out; 0 copies clear q_BH &lt; 0.05 over 17,766 pairs at B=2000 (top hit: KH0139~KH0138, SW=33.82, Berlin/Marquez). Thompson sensitivity (D01.6): 0 patches alter key khipus.
+           0 eligible cords for OKR zeros (P01.2) and 0 top cords (P01.3a) in held-out; 0 copies clear q_BH &lt; 0.05 over 17,766 pairs at B=2,000 (top hit: KH0139~KH0138, SW=33.82, Berlin/Marquez). Karen Thompson sensitivity (D01.6): 0 patches alter key khipus.
         </div>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>4 / 18</span>
   </div>
 </section>
@@ -199,30 +199,30 @@
         </div>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>5 / 18</span>
   </div>
 </section>
 <section class="slide">
   <div>
-    <div class="kicker">5 · New v2 Discovery (Preregistered P03.4)</div>
+    <div class="kicker">5 · New v2 Discovery (Protocol P03.4)</div>
     <h2>KH0674 (Dumbarton Oaks): Exact Group Sums Confirmed Out-of-Sample</h2>
     <div class="grid2">
           <div class="card">
-            <span class="tag t-ok">CONFIRMED PREREGISTERED · p_Holm = 0.002</span>
+            <span class="tag t-ok">CONFIRMED · p_Holm = 0.002</span>
             <div class="big" style="margin-top:12px">8 / 41 groups</div>
             <p>In <b>KH0674</b> (Dumbarton Oaks, untouched in v1), 8 of 41 groups contain a summary cord equal to the exact sum of the remaining cords, vs. <b>0.31</b> expected under intra-khipu permutation.</p>
             <p class="mono">Pendants only: 8/41 vs 0.31 (p = 0.0002)<br>Pendants + subs: 8/41 vs 0.32 (p = 0.0002)<br>Combined: p = 0.0004 · p_Holm = 0.002</p>
           </div>
           <div class="card">
             <h3>Why It Matters</h3>
-            <p>Shows that our internal-accounting detectors uncover <b>genuine out-of-sample arithmetic structure</b> on newly integrated Master Corpus khipus, not merely on previously known Inkawasi and Puruchuco cases.</p>
-            <p>Unlike the raw 74% Ascher-formula count, KH0674 clears a strict khipu-by-khipu null inside a preregistered Holm family.</p>
+            <p>Shows that our internal-accounting detectors uncover <b>genuine out-of-sample arithmetic structure</b> on newly integrated Master Corpus khipus beyond known Inkawasi and Puruchuco cases.</p>
+            <p>Unlike the raw 74% Ascher-formula count, KH0674 clears a strict khipu-by-khipu null inside a frozen Holm family.</p>
           </div>
         </div>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>6 / 18</span>
   </div>
 </section>
@@ -241,7 +241,7 @@
         </div>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>7 / 18</span>
   </div>
 </section>
@@ -259,19 +259,19 @@
           <div class="card">
             <span class="tag t-ok">P04.3 CONFIRMED · p_Holm = 0.00017</span>
             <h3 style="margin-top:8px">Pure Physical Gap Segmentation in cm (k = 2.0)</h3>
-            <p>Without any human group labels—cutting the primary cord purely at gaps ≥ 2× median spacing—<b>9 of 35 khipus (25.7%)</b> replicate intra-group monotonic trends vs. 1.75 expected.</p>
+            <p>Without any human group labels, cutting the primary cord purely at gaps ≥ 2× median spacing, <b>9 of 35 khipus (25.7%)</b> replicate intra-group monotonic trends vs. 1.75 expected.</p>
             <p><span class="tag t-warn">D04.5 PERMANOVA WARNING</span> In OKR 2D geometry, recorder identity (R² = 0.087) explains more variance than site (R² = 0.085; museum R² = 0.272).</p>
           </div>
         </div>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>8 / 18</span>
   </div>
 </section>
 <section class="slide">
   <div>
-    <div class="kicker">8 · Preregistration P02: RT-16905 (15 Tied Khipus)</div>
+    <div class="kicker">8 · Protocol P02: RT-16905 (15 Tied Khipus)</div>
     <h2>High-Value Negative: Physical Tying ≠ Automatic Arithmetic Hierarchy</h2>
     <p>The MNAAHP RT-16905 assemblage (14 pendant khipus + K15 wrapped in 19 threads on K01, recorded by Chirinos, Ghezzi & Álvarez 2023) provides a direct test of whether physical tying topology (Hubs A–G, H) encodes inter-khipu sums.</p>
         <table>
@@ -283,10 +283,10 @@
             <tr><td class="mono">P02.4</td><td>Color alignment of K15's 19 wrapped threads with host K01</td><td>align = 0.1579</td><td>0.732 / 0.812</td><td><span class="tag t-bad">NEGATIVO</span></td></tr>
           </tbody>
         </table>
-        <p style="margin-top:12px" class="muted">D02.5: only 1 of 14 khipus (K10, 1 of 3 groups) has an internal sum. Adjacent pairs K01–K04 (z=2.39) and K10–K11 (z=1.67) lead locally, but the global tying pattern is archival, not arithmetic.</p>
+        <p style="margin-top:12px" class="muted">D02.5: only 1 of 14 khipus (K10, 1 of 3 groups) has an internal sum. Adjacent pairs K01–K04 (z=2.39) and K10–K11 (z=1.67) lead locally, yet the global tying pattern is archival rather than arithmetic.</p>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>9 / 18</span>
   </div>
 </section>
@@ -298,7 +298,7 @@
           <div class="card">
             <span class="tag t-warn">P03.1 · UNDERPOWERED / NOT FLAT</span>
             <h3 style="margin-top:8px">Huacones-Vilcahuasi</h3>
-            <b>JC031</b> has only 5 positive pendants (ρ=0.0, CV=0.61). <b>JC024</b> drops sharply (ρ=−0.952, p=0.0006) but with high spread (CV=1.28, not flat like UR278). Structurally (D03.9), Huacones (med=10 cords) mirrors Inkawasi Sector B (med=13), not Sector A (med=125).
+            <b>JC031</b> has only 5 positive pendants (ρ=0.0, CV=0.61). <b>JC024</b> drops sharply (ρ=−0.952, p=0.0006) yet with high spread (CV=1.28, unlike flat UR278). Structurally (D03.9), Huacones (med=10 cords) mirrors Inkawasi Sector B (med=13), away from Sector A (med=125).
           </div>
           <div class="card">
             <span class="tag t-bad">P03.2 NEGATIVE · p_Holm = 0.70</span>
@@ -313,28 +313,28 @@
         </div>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>10 / 18</span>
   </div>
 </section>
 <section class="slide">
   <div>
     <div class="kicker">10 · Unified Audit of 2026 Computational Literature (P05)</div>
-    <h2>Six Preregistered Tests Across Four Recent Studies</h2>
+    <h2>Six Frozen Tests Across Four Recent Computational Studies</h2>
     <table>
-          <thead><tr><th>ID</th><th>2026 Study</th><th>Claim</th><th>Our Strict-Null Result</th><th>Verdict</th></tr></thead>
+          <thead><tr><th>ID</th><th>Hypothesis / Tool</th><th>Evaluated Claim</th><th>Our Strict-Null Result</th><th>Verdict</th></tr></thead>
           <tbody>
             <tr><td class="mono">P05.1</td><td>khipu-rv-reprod.</td><td>Low R/V entropy in 17/39 (FY)</td><td>Drops to <b>0/27 & 0/39</b> under run-preserving null (p_Holm=0.587)</td><td><span class="tag t-bad">RUN-ARTIFACT</span></td></tr>
-            <tr><td class="mono">P05.2</td><td>Khipu-ML (Contreras)</td><td>S-twist marks imperial sites</td><td>Excl. >50% U reverses (77.8% vs 93.4%); F1 drops 0.241→0.048</td><td><span class="tag t-bad">U-BIAS / LEAK</span></td></tr>
+            <tr><td class="mono">P05.2</td><td>Khipu-ML (torsión S)</td><td>S-twist marks imperial sites</td><td>Excl. >50% U reverses (77.8% vs 93.4%); F1 drops 0.241→0.048</td><td><span class="tag t-bad">U-BIAS / LEAK</span></td></tr>
             <tr><td class="mono">P05.3</td><td>Khipu-ML (Santa)</td><td>OKR validates collca.db in Santa</td><td><b>100.0% identical</b> (same KDB source); 5+1 base rate = 7.2%</td><td><span class="tag t-bad">SAME SOURCE</span></td></tr>
-            <tr><td class="mono">P05.4</td><td>K-CAT (color)</td><td>Color × magnitude p = 3.6×10⁻²⁶⁷</td><td>Local key R² = <b>16.0%</b> vs global label R² = <b>1.06%</b></td><td><span class="tag t-bad">LOCAL KEY</span></td></tr>
-            <tr><td class="mono">P05.5</td><td>K-CAT (hijos)</td><td>Parent = Σ subsidiaries</td><td><b>67/1557 (4.30%)</b> vs 2.75% null (p_Holm = 0.003; 0 ind. BH)</td><td><span class="tag t-ok">REAL SIGNAL</span></td></tr>
-            <tr><td class="mono">P05.6</td><td>Zenil &amp; Uth. (2026)</td><td>Algorithmic parent-child similarity</td><td>Replicates AUC=0.861 & z=6.76; with (group, scale) z=1.82 (p_H=0.126)</td><td><span class="tag t-warn">LOCAL SCALE</span></td></tr>
+            <tr><td class="mono">P05.4</td><td>K-CAT (color)</td><td>Color × magnitude p = 4.3×10⁻²⁰⁷</td><td>Local key R² = <b>16.0%</b> vs global label R² = <b>1.06%</b></td><td><span class="tag t-bad">LOCAL KEY</span></td></tr>
+            <tr><td class="mono">P05.5</td><td>K-CAT (hijos)</td><td>Parent = Σ subsidiaries</td><td><b>67/1,557 (4.30%)</b> vs 2.75% null (p_Holm = 0.003; 0 ind. BH)</td><td><span class="tag t-ok">REAL SIGNAL</span></td></tr>
+            <tr><td class="mono">P05.6</td><td>Graphs (2026)</td><td>Algorithmic parent-child similarity</td><td>Replicates AUC=0.861 & z=6.76; with (group, scale) z=1.82 (p_H=0.126)</td><td><span class="tag t-warn">LOCAL SCALE</span></td></tr>
           </tbody>
         </table>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>11 / 18</span>
   </div>
 </section>
@@ -349,10 +349,10 @@
             <div class="bar-wrap"><div class="bar" style="width:80%"></div></div>
             <p style="margin:12px 0 6px">Global color label (R² = 1.06%)</p>
             <div class="bar-wrap"><div class="bar bad" style="width:5.3%"></div></div>
-            <p style="margin-top:12px" class="muted">H = 1076 (p = 4×10⁻²⁰⁷) replicates verbatim, but arises from pooling 28,411 cords without khipu-level nesting.</p>
+            <p style="margin-top:12px" class="muted">H = 1,076 (p = 4.3×10⁻²⁰⁷) replicates verbatim, arising from pooling 28,411 cords without khipu-level nesting.</p>
           </div>
           <div class="card">
-            <h3>Zenil & Uthamacumaran: What Drives z = 6.76</h3>
+            <h3>Graph Complexity (2026): What Drives z = 6.76</h3>
             <p style="margin-bottom:6px">Rewiring (khipu, fiber, twist): z = 6.76 (p = 0.002)</p>
             <div class="bar-wrap"><div class="bar gold" style="width:84%"></div></div>
             <p style="margin:12px 0 6px">Rewiring (khipu, group, magnitude): z = 1.82 (p_Holm = 0.126)</p>
@@ -362,7 +362,7 @@
         </div>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>12 / 18</span>
   </div>
 </section>
@@ -373,24 +373,24 @@
     <p>We extracted <b>1,190 items across 38 independent tables</b> spanning 5 fiscal genres (Curatola 2013, Chirinos 2010, Pärssinen 1992, and 11_rosetta) and tested a regularized Gaussian classifier on 8 invariant numeric signatures.</p>
         <div class="grid3">
           <div class="card">
-            <span class="tag t-bad">P06.1 · LOSO = 0.075</span>
+            <span class="tag t-bad">P06.1 · LOSO = 0.050</span>
             <h3 style="margin-top:8px">LODO Misleads; LOSO Exposes</h3>
-            LODO gives bAcc = <b>0.382</b> (p = 0.0025), but Leave-One-Source-Out collapses to <b>0.075</b> (p = 0.972). The classifier learns author/edition, not universal genre.
+            LODO gives bAcc = <b>0.382</b> (p = 0.0085), yet Leave-One-Source-Out collapses to <b>0.050</b> (p = 0.9925). The classifier learns editorial source rather than universal genre.
           </div>
           <div class="card">
-            <span class="tag t-bad">P06.2 · 31.2 %</span>
+            <span class="tag t-bad">P06.2 · 37.0 %</span>
             <h3 style="margin-top:8px">Non-Circular Controls</h3>
-            Mean accuracy = 31.2% (p = 0.391): ASG 7/23 (30%), PAD Santa 1/6 (17%), TAL OOD 13/28 (46%). Marginal distributions alone cannot identify a khipu's genre.
+            Mean accuracy = 37.0% (p = 0.261): ASG 11/23 (47.8%), PAD Santa 1/6 (16.7%), TAL OOD 13/28 (46.4%). Marginal distributions alone cannot identify a khipu's genre.
           </div>
           <div class="card">
-            <span class="tag t-bad">P06.3 · FPR = 38.5 %</span>
+            <span class="tag t-bad">P06.3 · FPR = 53.7 %</span>
             <h3 style="margin-top:8px">Synthetic FPR Gates the Frontier</h3>
-            The model assigns 36/148 (24.3%) frontier khipus, but assigns <b>38.5%</b> of 1,000 genre-free synthetic lists (p = 0.9999). Our FPR &lt; 5% gate prevents false claims.
+            The model assigns 45/148 (30.4%) frontier khipus, yet assigns <b>53.7%</b> of 1,000 genre-free synthetic lists (p = 1.0). Our FPR &lt; 5% gate prevents false claims.
           </div>
         </div>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>13 / 18</span>
   </div>
 </section>
@@ -402,7 +402,7 @@
           <div class="card">
             <span class="tag t-ok">CONFIRMS PRED. #17 (BINARY RULE)</span>
             <h3 style="margin-top:8px">Median ρ = −0.294 (does not cross −0.30)</h3>
-            <p>Under P06.4's frozen binary rule (&lt; −0.30), the 8 independent lists formally confirm Prediction #17; meanwhile 6/8 are negative (p_Holm = 0.0024), showing a mild downward drift.</p>
+            <p>Under P06.4's frozen binary rule (&lt; −0.30), the 8 independent lists formally confirm Prediction #17; meanwhile 6/8 are negative (p_Holm = 0.004), showing a mild downward drift.</p>
             <p><b>Yet 0 of 8 (0%) match UR278's slope (−0.73) or flatness (CV = 0.173 vs. colonial median CV = 1.260, min = 0.416).</b></p>
           </div>
           <div class="card">
@@ -423,15 +423,15 @@
         </div>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>14 / 18</span>
   </div>
 </section>
 <section class="slide">
   <div>
     <div class="kicker">14 · Khipu Reader v2 & Empirical FPR Calibration</div>
-    <h2>19 Regression Checks and 0–1% False-Positive Rate at “Indication” Tier</h2>
-    <p>Reader v2 resolves any Master Corpus khipu (691 objects, including KH0674, QU005, RT-16905, and Huacones) or any external CSV. We calibrated its detectors on <b>100 realistic shuffled synthetic khipus</b>:</p>
+    <h2>21 Regression Checks and 0–1% False-Positive Rate at “Indication” Tier</h2>
+    <p>Command-line Reader v2 resolves any Master Corpus khipu (689 objects, including KH0674, QU005, RT-16905, and Huacones) or any external CSV. We calibrated its detectors on <b>100 realistic shuffled synthetic khipus</b>:</p>
         <table>
           <thead><tr><th>Internal Detector</th><th>FPR Conjecture+</th><th>FPR Indication+</th><th>Assessment</th></tr></thead>
           <tbody>
@@ -445,7 +445,7 @@
         <p style="margin-top:12px" class="muted">Calibrated across the 5 fast internal detectors (95% CI upper bound: 3.6% for 0/100, 5.4% for 1/100). Automatic genre: 92% remain SIN (79%) or low (13%) and 0% high.</p>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>15 / 18</span>
   </div>
 </section>
@@ -469,12 +469,12 @@
               P05: 21152013979545e4…<br>
               P06: b44a3293e4182065…
             </div>
-            <p style="margin-top:8px" class="muted">Reviewed by a second AI model (Claude Opus 5.5 Medium) before and after execution (not equivalent to human peer review).</p>
+            <p style="margin-top:8px" class="muted">Reviewed by a second AI model (Claude Opus) before and after execution (not equivalent to human peer review).</p>
           </div>
         </div>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>16 / 18</span>
   </div>
 </section>
@@ -485,37 +485,37 @@
     <div class="grid2">
           <div class="card">
             <h3>Explicit Prior-Art Attribution</h3>
-            <p>• <b>Ashok Khosla</b>: editor & maintainer of KFG (Manuel Medrano accurately credited as affiliate & 2024 co-author).<br>• <b>Andrés Chirinos (2010, 2023, 2026)</b>: Lima–Paris & Lima–Gothenburg copies, proportionality, RT-16905 recording, UR053 note.<br>• <b>Ascher &amp; Ascher (1978)</b>: 3-level hierarchy in AS038/KH0049.<br>• <b>Urton &amp; Chu (2015, 2018)</b>: Inkawasi quotas & copies.<br>• <b>Sarah Thompson (2025a)</b>: 222 Databook corrections.</p>
+            <p>• <b>Ashok Khosla</b>: editor & maintainer of KFG (Manuel Medrano accurately credited as affiliate & 2024 co-author).<br>• <b>Andrés Chirinos (2010, 2023, 2026)</b>: Lima–Paris & Lima–Gothenburg copies, proportionality, RT-16905 recording, UR053 note.<br>• <b>Ascher &amp; Ascher (1978)</b>: 3-level hierarchy in AS038/KH0049.<br>• <b>Urton &amp; Chu (2015, 2018)</b>: Inkawasi quotas & copies.<br>• <b>Karen Thompson (2025)</b>: 222 Databook corrections.</p>
           </div>
           <div class="card">
             <h3>Our Own Errors Corrected & Withdrawn</h3>
-            <p>• Withdrew <code>UR267A+B → UR269</code> (failed out-of-sample, Holm 0.50) and our preregistered ceque hypothesis <code>UR050+UR055</code> (0/3 predictions).<br>• Corrected our circular Santa <i>p</i>=0.006 to 0.24.<br>• Revised 1,390 t down to 500–950 t upon requiring primary sources.<br>• Tightened “indistinguishable from chance” to “not informative” for the 74% figure.</p>
+            <p>• Withdrew <code>UR267A+B → UR269</code> (failed out-of-sample, Holm 0.50) and our ceque hypothesis <code>UR050+UR055</code> (0/3 predictions).<br>• Corrected our circular Santa <i>p</i>=0.006 to 0.24.<br>• Revised 1,390 t down to ~470 t via pre-Columbian carga (up to 950 t colonial fanega).<br>• Tightened “indistinguishable from chance” to “not informative” for the 74% figure.</p>
           </div>
         </div>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>17 / 18</span>
   </div>
 </section>
 <section class="slide dark">
   <div>
-    <div class="kicker">17 · Next Step: Zenodo v2.0 & Peer-Reviewed Journal</div>
+    <div class="kicker">17 · Next Step: Zenodo v2.0.2 & Peer-Reviewed Journal</div>
     <h2>From Open Essay to a Replicable Standard for Quantitative Khipu Auditing</h2>
     <div class="grid2">
           <div class="card">
-            <h3>1. Zenodo v2.0 Deposit (Citable DOI)</h3>
-            Freezes the 691-khipu Master Corpus, 6 SHA-256 preregistrations, the 96-test Unified Register (HTML/JSON/CSV), Reader v2 with calibrated FPR, and the bilingual essay under CC BY 4.0 / MIT.
+            <h3>1. Zenodo v2.0.2 Deposit (Citable DOI)</h3>
+            Freezes the 689-khipu Master Corpus, 6 SHA-256 protocols, the 98-test Unified Register (HTML/JSON/CSV), Reader v2 with calibrated FPR, and the bilingual essay under CC BY 4.0 / MIT.
           </div>
           <div class="card">
             <h3>2. Peer-Reviewed Journal Submission</h3>
             Following Manuel Medrano's recommendation, manuscript structured for <i>Latin American Antiquity</i> or <i>Journal of Archaeological Science</i>: khipu-by-khipu null modeling, out-of-sample replication, and unified audit of 2026 computational claims.
           </div>
         </div>
-        <p style="margin-top:22px;font-family:system-ui,sans-serif;font-size:0.9rem;color:#d6cdc1">Full verification: <code>python lector/verificar.py</code> (19/19 OK) · <code>python articulo/fuente/comprobar.py</code> (all checks pass) · <code>analisis/registro_pruebas/test_register.html</code></p>
+        <p style="margin-top:22px;font-family:system-ui,sans-serif;font-size:0.9rem;color:#d6cdc1">Full verification: <code>python lector/verificar.py</code> (21/21 OK) · <code>python analisis/paquete_revision/verificar.py</code> (19/19 OK) · <code>python articulo/fuente/comprobar.py</code> (all checks pass)</p>
   </div>
   <div class="foot">
-    <span>What the Khipus Add Up To · v2.0</span>
+    <span>What the Khipus Add Up To · v2.0.2</span>
     <span>18 / 18</span>
   </div>
 </section>

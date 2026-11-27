@@ -97,8 +97,8 @@ def build_new_entries(manifest):
         p1_holm_m6[item["test_id"]] = round(rmax_p1, 6)
 
     x = by(p1, "P01.1")
-    add("P01.1", "Bloque A (Corpus Maestro)", "Held-out puro (41 quipus)", "Protocolo congelado SHA-256 (Holm m=6)",
-        "¿La cuerda de mayor valor abre el grupo en los 41 quipus held-out puros?",
+    add("P01.1", "Bloque A (Corpus Maestro)", "Held-out puro (39 quipus)", "Protocolo congelado SHA-256 (Holm m=6)",
+        "¿La cuerda de mayor valor abre el grupo en los 39 quipus held-out puros?",
         f"{x['obs_aciertos']}/{x['n_grupos']} grupos ({x['obs_tasa']:.1%}) vs {x['exp_tasa']:.1%} esperado",
         f"p={x['p']}", f"p_Holm(m=6)={p1_holm_m6['P01.1']}",
         "CONFIRMADO" if p1_holm_m6["P01.1"] < 0.05 else "NEGATIVO",
@@ -106,7 +106,7 @@ def build_new_entries(manifest):
         "confirmación fuera de muestra de K08 (Holm m=6 exacto según protocolo)")
 
     x = by(p1, "P01.2")
-    add("P01.2", "Bloque A (Corpus Maestro)", "Held-out puro (41 quipus)", "Protocolo congelado SHA-256 (Holm m=6)",
+    add("P01.2", "Bloque A (Corpus Maestro)", "Held-out puro (39 quipus)", "Protocolo congelado SHA-256 (Holm m=6)",
         "¿El hueco del cero posicional mide una banda decimal (~1.0) en los quipus held-out?",
         f"n={x['n_cuerdas']} cuerdas elegibles con alturas OKR y cero interno en held-out",
         "N/A", "N/A", "SIN POTENCIA",
@@ -114,9 +114,9 @@ def build_new_entries(manifest):
         "prueba fuera de muestra de C09 (sin cobertura OKR en held-out)")
 
     x = by(p1, "P01.3a")
-    add("P01.3a", "Bloque A (Corpus Maestro)", "Held-out puro (41 quipus)", "Protocolo congelado SHA-256 (Holm m=6)",
+    add("P01.3a", "Bloque A (Corpus Maestro)", "Held-out puro (39 quipus)", "Protocolo congelado SHA-256 (Holm m=6)",
         "¿Las cuerdas superiores (T) suman exactamente el grupo contiguo anterior en held-out?",
-        f"n={x['n_superiores']} cuerdas superiores (T) en los 41 quipus held-out",
+        f"n={x['n_superiores']} cuerdas superiores (T) en los 39 quipus held-out",
         "N/A", "N/A", "SIN POTENCIA",
         "P01_corpus_maestro_y_heldout.md", "analisis/36_corpus_maestro/resultados_P01.json",
         "prueba fuera de muestra de C03")
@@ -132,7 +132,7 @@ def build_new_entries(manifest):
 
     x = by(p1, "P01.4")
     cands = ", ".join(c["kh_id"] for c in x.get("candidatos", []))
-    add("P01.4", "Bloque A (Corpus Maestro)", "Held-out puro (41 quipus)", "Protocolo congelado SHA-256 (Holm m=6)",
+    add("P01.4", "Bloque A (Corpus Maestro)", "Held-out puro (39 quipus)", "Protocolo congelado SHA-256 (Holm m=6)",
         "¿La alternancia de dos colores A/B/A/B (desfase 2) supera el 1 % en held-out?",
         f"{x['n_sig_p001']}/{x['n_quipus']} quipus con p<0.01 vs {x['exp_p001']} esperados ({cands})",
         f"p={x['p']:.2e}", f"p_Holm(m=6)={p1_holm_m6['P01.4']:.2e}",
@@ -141,7 +141,7 @@ def build_new_entries(manifest):
         "confirmación fuera de muestra de K02 (Holm m=6)")
 
     x = by(p1, "P01.5")
-    add("P01.5", "Bloque A (Corpus Maestro)", "Held-out puro (41 quipus)", "Protocolo congelado SHA-256 (Holm m=6)",
+    add("P01.5", "Bloque A (Corpus Maestro)", "Held-out puro (39 quipus)", "Protocolo congelado SHA-256 (Holm m=6)",
         "¿Las nuevas copias held-out × corpus se concentran en mismo sitio/museo (OR > 1)?",
         f"{x['n_confirmadas']} copias confirmadas con q_BH<0.05 sobre {x['pares_evaluados']} pares (desviación declarada: B=2000 en lugar de 9999; top bruto KH0139~KH0138 SW=33.82)",
         "N/A", "N/A", "SIN POTENCIA (DESVIACIÓN B=2000)",
@@ -149,12 +149,12 @@ def build_new_entries(manifest):
         "búsqueda fuera de muestra de copias (requiere B>=20000 para superar q_BH sobre 17,766 pares)")
 
     d16 = p1["descriptivo"]
-    add("D01.6", "Bloque A (Corpus Maestro)", "Integridad Thompson 2025a y OKR", "Descriptiva",
-        "Sensibilidad a los 222 parches de Thompson (2025a) y restauración OKR de Inkawasi (15/15 verificar.py OK)",
-        f"0 parches deterministas tocan quipus clave; 15/15 verificar.py intactos; 111 cuerdas Inkawasi restauradas en OKR (UR274B pasa a {d16['ur274b_cuerdas_okr']} cuerdas totales, {d16['ur274b_cuotas_17_okr']} cuotas de 17)",
+    add("D01.6", "Bloque A (Corpus Maestro)", "Integridad Karen Thompson (2025) y OKR", "Descriptiva",
+        "Sensibilidad a los 222 parches de Karen Thompson (2025) y restauración OKR de Inkawasi (19/19 verificar.py OK)",
+        f"0 parches deterministas tocan quipus clave; 19/19 verificar.py intactos; 111 cuerdas Inkawasi restauradas en OKR (UR274B pasa a {d16['ur274b_cuerdas_okr']} cuerdas totales, {d16['ur274b_cuotas_17_okr']} cuotas de 17)",
         "—", "—", "ROBUSTO",
         "P01_corpus_maestro_y_heldout.md", "analisis/36_corpus_maestro/thompson_2025_correcciones.csv",
-        "primera integración sistemática de Thompson 2025a")
+        "primera integración sistemática de Karen Thompson (2025)")
 
     # --- P02 ---
     x = by(p2, "P02.1")
@@ -241,7 +241,7 @@ def build_new_entries(manifest):
     e36 = p3["post_hoc_E03_6_QU005"]
     e36c = fl3["E03_6_QU005_copias"]
     add("E03.6", "Bloque B (Casos abiertos)", "QU005 (Dallas)", "Post hoc (auditada)",
-        "Auditoría de bloques de 19 colgantes en QU005 (57 colgantes = 3 bloques) + barrido de copias en 691 quipus",
+        "Auditoría de bloques de 19 colgantes en QU005 (57 colgantes = 3 bloques) + barrido de copias en 689 quipus",
         f"{e36['mejor_trio']} en {e36['obs_exactas']}/19 exactas ({e36['obs_tol1']}/19 ±1) vs {e36['nulo_max_medio']} máx nulo sobre 3 tríos; barrido de copias en corpus: 0 copias confirmadas (top SW={e36c['top_5'][0]['sw']}, p_bonf=1.0)",
         f"p_corr={e36['p_corregido_trios']}", f"p_corr={e36['p_corregido_trios']}",
         "APOYADO (POST HOC)",
@@ -252,7 +252,7 @@ def build_new_entries(manifest):
     bm_sum = ", ".join(f"{k}:{v['n_colgantes']}c/{v['g_sum_hits']}s" for k, v in bm.items())
     add("E03.7", "Bloque B (Casos abiertos)", "British Museum (KH0633–635, KH0702)", "Exploratoria",
         "Barrido exploratorio de sumas internas y copias en los 4 quipus held-out del British Museum",
-        f"0/4 con sumas internas significativas ni copias confirmadas en 691 quipus ({bm_sum}; todo p_bonf=1.0)",
+        f"0/4 con sumas internas significativas ni copias confirmadas en 689 quipus ({bm_sum}; todo p_bonf=1.0)",
         "p_min=0.549", "p_bonf=1.0", "NEGATIVO",
         "P03_huacones_y_casos_abiertos.md", "analisis/37_bloque_B/resultados_flecos_P03.json",
         "cierre exploratorio de los 4 quipus held-out del British Museum")

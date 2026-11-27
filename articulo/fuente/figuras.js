@@ -75,7 +75,7 @@ function cuerda(g, x, y0, c, sc, op){
     [7,tl('Una tabla de tres niveles ya descrita, y su copia', 'A three-level table already described, and its copy'),'a','Corpus','bloques'],[8,tl('Tablas escritas con dos colores alternados', 'Tables written in two alternating colors'),'a','Corpus','alterna'],
     [9,tl('Cada quipu tiene su propia clave de colores', 'Each khipu has its own color key'),'a','Corpus','colores'],[10,tl('Maneras recurrentes de armar una tabla', 'Recurring ways to build a table'),'a','Corpus','tabla'],
     [11,tl('Un formulario con reparto fijo', 'A form with a fixed split'),'a','Corpus','reparto'],[12,tl('Los quipus como sistema de registros', 'Khipus as a system of records'),'a','Corpus','mosaico'],
-    [13,tl('Réplicas en 41 quipus nuevos, KH0674 y QU005', 'Replications in 41 new khipus, KH0674 and QU005'),'d','Ampliado','qu005'],
+    [13,tl('Réplicas en 39 quipus nuevos, KH0674 y QU005', 'Replications in 39 new khipus, KH0674 and QU005'),'d','Ampliado','qu005'],
     [14,tl('Luminancia del color y grupos físicos en centímetros', 'Color luminance and physical spacing in centimeters'),'a','Ampliado','fisica'],
     [15,tl('Qué resiste en cuatro estudios de 2026', 'What holds up in four 2026 studies'),'a','Ampliado','audit26'],
     [16,tl('Límites medidos: RT-16905 y listas coloniales', 'Measured limits: RT-16905 and colonial lists'),'a','Ampliado','colonial']];
@@ -83,7 +83,7 @@ function cuerda(g, x, y0, c, sc, op){
   const cont = $('indice');
   let grupo = '';
   H.forEach(([n, t, ev, gr, ic]) => {
-    if (gr !== grupo){ grupo = gr; const d = document.createElement('div'); d.className = 'grupo'; d.textContent = gr === 'Inkawasi' ? tl('En Inkawasi', 'At Inkawasi') : gr === 'Corpus' ? tl('En todo el corpus', 'Across the corpus') : tl('En el corpus ampliado (691 quipus)', 'In the expanded corpus (691 khipus)'); cont.appendChild(d); }
+    if (gr !== grupo){ grupo = gr; const d = document.createElement('div'); d.className = 'grupo'; d.textContent = gr === 'Inkawasi' ? tl('En Inkawasi', 'At Inkawasi') : gr === 'Corpus' ? tl('En todo el corpus', 'Across the corpus') : tl('En el corpus ampliado (689 quipus)', 'In the expanded corpus (689 khipus)'); cont.appendChild(d); }
     const a = document.createElement('a'); a.className = 'tarjeta' + (n === 1 ? ' grande' : ''); a.href = '#h' + n;
     const svg = el('svg', {viewBox:'0 0 200 46', 'aria-hidden':'true'}); a.appendChild(svg); glifo(svg, ic);
     const s1 = document.createElement('span'); s1.className = 'n'; s1.textContent = tl('Hallazgo ', 'Finding ') + n; a.appendChild(s1);
@@ -477,13 +477,14 @@ function cuerda(g, x, y0, c, sc, op){
 /* ---------- figura 11: toneladas ---------- */
 (function figTon(){
   const svg = $('svg-ton'), X = t => 40 + t / 1000 * 560;
-  el('rect', {x:X(470), y:40, width:X(950) - X(470), height:40, rx:4, style:'fill:var(--indigo);opacity:.25'}, svg);
+  el('rect', {x:X(470), y:40, width:X(950) - X(470), height:40, rx:4, style:'fill:var(--indigo);opacity:.18'}, svg);
+  el('line', {x1:X(470), y1:34, x2:X(470), y2:84, style:'stroke:var(--indigo);stroke-width:3'}, svg);
   el('line', {x1:X(0), y1:80, x2:X(1000), y2:80, style:'stroke:var(--tinta)'}, svg);
   for (let t = 0; t <= 1000; t += 250){ el('line', {x1:X(t), y1:80, x2:X(t), y2:t % 500 ? 85 : 90, style:'stroke:var(--tinta)'}, svg); if (t % 500 === 0) tx(svg, X(t), 108, t + ' t', {'text-anchor':'middle', 'font-size':12, class:'g m'}); }
-  tx(svg, X(710), 30, tl('470 a 950 toneladas', '470 to 950 tonnes'), {'text-anchor':'middle', 'font-size':14, style:'fill:var(--indigo);font-weight:600'});
-  tx(svg, X(470) + 6, 66, tl('carga, 8 kg', 'carga, 8 kg'), {'text-anchor':'start', 'font-size':12, class:'g'});
-  tx(svg, X(950) - 6, 66, tl('fanega, 16 kg', 'fanega, 16 kg'), {'text-anchor':'end', 'font-size':12, class:'g'});
-  tx(svg, X(0), 138, tl('Solo orden de magnitud. La unidad no se puede decidir con estos datos.', 'Order of magnitude only. These data cannot decide the unit.'), {'font-size':12, class:'g'});
+  tx(svg, X(470), 26, tl('~470 t (carga precolombina)', '~470 t (pre-Columbian carga)'), {'text-anchor':'middle', 'font-size':13.5, style:'fill:var(--indigo);font-weight:600'});
+  tx(svg, X(470) + 6, 66, tl('carga, 8 kg', 'carga, 8 kg'), {'text-anchor':'start', 'font-size':12, style:'fill:var(--indigo);font-weight:500'});
+  tx(svg, X(950) - 6, 66, tl('cota colonial: fanega, 16 kg (950 t)', 'colonial upper bound: fanega, 16 kg (950 t)'), {'text-anchor':'end', 'font-size':11.5, class:'g'});
+  tx(svg, X(0), 138, tl('Orden de magnitud. La carga es la unidad más plausible en época incaica.', 'Order of magnitude. The carga is the most plausible unit in Inka times.'), {'font-size':12, class:'g'});
 })();
 
 /* ---------- figura 12: red de copias ---------- */
@@ -774,9 +775,9 @@ function cuerda(g, x, y0, c, sc, op){
 (function figOos(){
   const svg = $('svg-oos'); if (!svg || !D.v2_oos) return;
   const LAB = {
-    'P01.1': tl('Mayor abre grupo (41 nuevos)', 'Largest opens group (41 new)'),
+    'P01.1': tl('Mayor abre grupo (39 nuevos)', 'Largest opens group (39 new)'),
     'P01.3b': tl('Cuerdas superiores T (rescate OKR)', 'Rescued top cords T (OKR)'),
-    'P01.4': tl('Alternancia A/B/A/B (41 nuevos)', 'A/B/A/B alternation (41 new)'),
+    'P01.4': tl('Alternancia A/B/A/B (39 nuevos)', 'A/B/A/B alternation (39 new)'),
     'P03.4': tl('KH0674 sumas exactas (held-out)', 'KH0674 exact sums (held-out)'),
   };
   const x0 = 250, W = 310, sc = W / 36;
@@ -885,11 +886,11 @@ function cuerda(g, x, y0, c, sc, op){
   const items = [
     {t:tl('Entropía R/V (quipus con q < 0.05)', 'R/V entropy (khipus with q < 0.05)'), a:A.rv[0], b:A.rv[1], max:20,
      la:A.rv[0] + '/39 ' + tl('barajado simple', 'simple shuffle'), lb:A.rv[1] + '/39 ' + tl('nulo con rachas', 'run-preserving null'), ok:false},
-    {t:tl('Torsión imperial, Contreras 2026 (F1)', 'Imperial twist, Contreras 2026 (F1)'), a:A.ml[0], b:A.ml[1], max:0.30,
+    {t:tl('Torsión imperial (F1)', 'Imperial twist (F1)'), a:A.ml[0], b:A.ml[1], max:0.30,
      la:A.ml[0].toFixed(3) + ' ' + tl('CV estratificada', 'stratified CV'), lb:A.ml[1].toFixed(3) + ' ' + tl('CV por sitio', 'site-grouped CV'), ok:false},
     {t:tl('K-CAT color y magnitud (varianza R²)', 'K-CAT color and magnitude (variance R²)'), a:A.kcat_r2[0], b:A.kcat_r2[1], max:20,
      la:A.kcat_r2[0] + '% ' + tl('clave local', 'local key'), lb:A.kcat_r2[1] + '% ' + tl('código global', 'global code'), ok:false},
-    {t:tl('Zenil y Uthamacumaran 2026 (z padre-hijo)', 'Zenil & Uthamacumaran 2026 (parent-child z)'), a:A.zenil[0], b:A.zenil[1], max:8,
+    {t:tl('Similitud padre-hijo en grafos (z)', 'Parent-child graph similarity (z)'), a:A.zenil[0], b:A.zenil[1], max:8,
      la:'z = ' + A.zenil[0] + ' ' + tl('(fibra/torsión)', '(fiber/twist)'), lb:'z = ' + A.zenil[1] + ' ' + tl('(grupo/escala)', '(group/scale)'), ok:false},
     {t:tl('K-CAT padre = suma de subsidiarias', 'K-CAT parent = sum of subsidiaries'), a:A.kcat_sum[1], b:A.kcat_sum[0], max:6,
      la:A.kcat_sum[1] + '% ' + tl('nulo intra-quipu', 'intra-khipu null'), lb:A.kcat_sum[0] + '% ' + tl('observado (p_Holm 0.003)', 'observed (p_Holm 0.003)'), ok:true},

@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this repository, Master Corpus, Khipu Reader v2, or Test Register, please cite it as below (and also cite OKR v2.1.0 and Medrano & Khosla 2024)."
-title: "What the Khipus Add Up To (v2.0): Null-Model Auditing, 691-Khipu Master Corpus, Frozen Protocols, and 2026 Literature Audit"
-version: "2.0.0"
+title: "What the Khipus Add Up To (v2.0): Null-Model Auditing, 689-Khipu Master Corpus, Frozen Protocols, and 2026 Literature Audit"
+version: "2.0.2"
 date-released: "2026-11-27"
 license: "MIT"
 repository-code: "https://github.com/dariodemh/quipus"
@@ -15,3 +15,24 @@ keywords:
   - null models
   - reproducible research
   - computational archaeology
+references:
+  - type: dataset
+    title: "The Open Khipu Repository (v2.1.0)"
+    doi: "10.5281/zenodo.18025748"
+  - type: article
+    title: "How can data science contribute to understanding the khipu code?"
+    authors:
+      - family-names: "Medrano"
+        given-names: "Manuel"
+      - family-names: "Khosla"
+        given-names: "Ashok"
+    journal: "Latin American Antiquity"
+    year: 2024
+    doi: "10.1017/laq.2024.5"
+  - type: dataset
+    title: "Notes and Corrections to Aschers' Published Khipu Data"
+    authors:
+      - family-names: "Thompson"
+        given-names: "Karen M."
+    year: 2025
+    doi: "10.26188/30526775"

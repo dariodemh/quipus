@@ -8,7 +8,7 @@
 
 ## Summary
 
-We ran the whole digital khipu corpus (Khipu Field Guide and Open Khipu Repository: ~650 khipus, 57,818 cords) through a series of tests:
+We ran the digitized khipu corpus (Khipu Field Guide base: 650 unique khipus, 57,818 cords; expanded in v2 to the 689-khipu, 60,969-cord Master Corpus plus KH0652, including 39 pure held-out khipus) through a series of tests:
 
 - permutation tests with multiple-comparison correction;
 - positive controls;
@@ -52,7 +52,7 @@ Every claim carries an evidence level and points to the script that produces it.
 
 ## How this was done: AI assistance
 
-The analysis was carried out by AI agents: **Gemini (Google)**, **Claude (Anthropic, Opus and Sonnet)**, and **DeepSeek (Flash)**, coordinated and directed by one person. In v1 Claude and DeepSeek analyzed Inkawasi and the 650-khipu corpus; in v2 Gemini built the 691-khipu Master Corpus (`analisis/36_corpus_maestro/`), executed the six SHA-256 frozen protocols (`P01`–`P06`), built the 98-test register (`articulo/registro_pruebas.html`), calibrated reader v2 FPR, and added the new figures and visual overview (`articulo/overview.html`), while Claude Opus performed independent pre- and post-execution red-team reviews. The agents:
+The analysis was carried out by AI agents: **Gemini (Google)**, **Claude (Anthropic, Opus and Sonnet)**, and **DeepSeek (Flash)**, coordinated and directed by one person. In v1 Claude and DeepSeek analyzed Inkawasi and the 650-khipu corpus; in v2 Gemini built the 689-khipu Master Corpus (`analisis/36_corpus_maestro/`), executed the six SHA-256 frozen protocols (`P01`–`P06`), built the 98-test register (`articulo/registro_pruebas.html`), calibrated reader v2 FPR, and added the new figures and visual overview (`articulo/overview.html`), while Claude Opus performed independent pre- and post-execution red-team reviews. The agents:
 
 - wrote and ran the scripts;
 - reviewed each other's work, including a "red team" that tried to break every result.
@@ -81,7 +81,7 @@ The errors we found and corrected are recorded in the `corrected` column of the 
 | K01 | KH0049 (AS38) is a three-level table already described in the Aschers' Databook (1978); its copy UR122 is in Chirinos (2010); ours: the test against a null and the shared discrepancy | indication (our part) |
 | K02 | Two-column tables with alternating colours (UR040, UR167) | indication |
 | K03 | UR1104 extracts the headers of 9 records of UR234 and preserves a broken header | indication |
-| K11 | Inkawasi unit: *carga* (~8 kg of peanuts in the shell) or *fanega* (~16 kg); UR278 total of the order of 500–950 t | conjecture |
+| K11 | Inkawasi unit: pre-Columbian *carga* (~8 kg of peanuts in the shell, ~470 t for UR278; up to ~950 t under the colonial *fanega* of ~16 kg) | conjecture |
 
 The full list (I01–I22, C01–C29, K01–K11) is in the findings table.
 

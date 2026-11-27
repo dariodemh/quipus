@@ -22,10 +22,10 @@ Este repositorio reúne los análisis, los datos derivados y un **lector** repro
 
 ## Cómo se hizo: asistencia de IA
 
-El análisis lo hicieron agentes de IA (**Gemini de Google**, **Claude Opus y Sonnet de Anthropic**, y **DeepSeek Flash**), coordinados y dirigidos por una persona. En la primera ronda Claude y DeepSeek analizaron Inkawasi y el corpus base de 650 quipus; en la versión 2.0 Gemini construyó el Corpus Maestro de 691 quipus (`analisis/36_corpus_maestro/`), ejecutó los seis protocolos congelados con SHA-256 (`P01`–`P06`), armó el registro unificado de 98 pruebas (`articulo/registro_pruebas.html`), calibró la tasa de falsos positivos del lector y generó las nuevas figuras y el resumen visual (`articulo/overview.es.html`), mientras Claude Opus realizó las revisiones críticas antes y después de correr el código. Los agentes:
+El análisis lo hicieron agentes de IA (**Gemini de Google**, **Claude Opus y Sonnet de Anthropic**, y **DeepSeek Flash**), coordinados y dirigidos por una persona. En la primera ronda Claude y DeepSeek analizaron Inkawasi y el corpus base de 650 quipus; en la versión 2.0 Gemini construyó el Corpus Maestro de 689 quipus (`analisis/36_corpus_maestro/`), ejecutó los seis protocolos congelados con SHA-256 (`P01`–`P06`), armó el registro unificado de 98 pruebas (`articulo/registro_pruebas.html`), calibró la tasa de falsos positivos del lector y generó las nuevas figuras y el resumen visual (`articulo/overview.es.html`), mientras Claude Opus realizó las revisiones críticas antes y después de correr el código. Los agentes:
 
 - escribieron y corrieron los scripts;
-- se revisaron entre sí, con un «equipo rojo» que intentaba romper cada resultado.
+- se revisaron entre sí, con un “equipo rojo” que intentaba romper cada resultado.
 
 Por eso el repositorio insiste en lo que se puede verificar sin confiar en nosotros: cada número sale de un script que se puede volver a correr, y los dos verificadores de abajo fallan si un resultado clave cambia. Los errores que encontramos y corregimos quedan anotados en la columna `corregido_si_no` de la tabla de hallazgos y en los informes de cada carpeta.
 
@@ -41,12 +41,12 @@ Por eso el repositorio insiste en lo que se puede verificar sin confiar en nosot
 | I09–I10 | Las 9 columnas son las mismas 9 unidades en UR270 y UR278, con una planitud excepcional | indicio |
 | C01 | El 74 % de quipus con sumas no es informativo como prevalencia frente a un nulo quipu por quipu (precisión metodológica, no refutación) | indicio |
 | C06, C18 | El color es una clave local, sin léxico compartido; los quipus son registros de datos, no texto | indicio / indicio (negativos) |
-| C24, K05 | Copias entre museos (en parte ya publicadas por Chirinos 2010; las copias dentro de un archivo, por Urton 2005); la copia es un rasgo de archivo (OR 17,9) | indicio / indicio |
+| C24, K05 | Copias entre museos (en parte ya publicadas por Chirinos 2010; las copias dentro de un archivo, por Urton 2005); la copia es un rasgo de archivo (OR 17.9) | indicio / indicio |
 | C27 | El método reproduce la jerarquía publicada de Puruchuco (control positivo) | indicio fuerte |
 | K01 | KH0049 (AS38) es una tabla de tres niveles ya descrita en el Databook de los Ascher (1978); su copia UR122 está en Chirinos (2010); lo nuestro: la prueba con nulo y la discrepancia compartida | indicio (nuestra parte) |
 | K02 | Tablas de dos columnas en alternancia de colores (UR040, UR167) | indicio |
 | K03 | UR1104 extrae las cabeceras de 9 registros de UR234 y conserva una cabecera rota | indicio |
-| K11 | Unidad de Incahuasi: carga (~8 kg de maní en vaina) o fanega (~16 kg); total de UR278 del orden de 500–950 t | conjetura |
+| K11 | Unidad de Incahuasi: carga precolombina (~8 kg de maní en vaina, ~470 t en UR278; hasta ~950 t como cota superior en fanega colonial de ~16 kg) | conjetura |
 
 La lista completa (I01–I22, C01–C29, K01–K11) está en la tabla de hallazgos.
 
@@ -56,7 +56,7 @@ La lista completa (I01–I22, C01–C29, K01–K11) está en la tabla de hallazg
 - **Conjetura:** compatible con los datos, sin prueba que la distinga de las alternativas.
 - **Especulativo:** sin prueba.
 
-En la tabla de hallazgos, los informes y las fichas del lector estos niveles conservan sus nombres anteriores: indicio fuerte = «bien apoyado», indicio = «apoyado», conjetura = «propuesto».
+En la tabla de hallazgos, los informes y las fichas del lector estos niveles conservan sus nombres anteriores: indicio fuerte = “bien apoyado”, indicio = “apoyado”, conjetura = “propuesto”.
 
 ## El ensayo
 
@@ -128,8 +128,8 @@ El mapa del ensayo usa los contornos de **Natural Earth** (1:50m, dominio públi
 
 - **No hemos visto ningún objeto.** En Inkawasi, KFG y OKR son dos codificaciones de la misma lectura (hallazgo K10), así que no contamos con una relectura independiente.
 - **Varios hallazgos son post hoc:** K01, K03 y K04. Están marcados como tales y necesitan confirmación con datos nuevos.
-- **Los negativos tienen potencia limitada.** Se leen como «no detectable con esta potencia», no como «no existe».
-- **La búsqueda de antecedentes es incompleta** en varios hallazgos marcados como «nuevo»; la columna `nuevo_o_publicado` lo indica.
+- **Los negativos tienen potencia limitada.** Se leen como “no detectable con esta potencia”, no como “no existe”.
+- **La búsqueda de antecedentes es incompleta** en varios hallazgos marcados como “nuevo”; la columna `nuevo_o_publicado` lo indica.
 
 ## Cómo citar
 

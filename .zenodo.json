@@ -1,6 +1,6 @@
 {
-  "title": "What the Khipus Add Up To (v2.0): Null-Model Auditing, 691-Khipu Master Corpus, Frozen Protocols, and 2026 Literature Audit",
-  "description": "Reproducible computational analysis of 691 Andean khipus (61,038 cords; plus KH0652 with 19 wrapped threads = 692 objects), reconciling KFG (Ashok Khosla), OKR v2.1.0, the Ascher Databook, Sarah Thompson's (2025a) 222 structured corrections, RT-16905 (Chirinos, Ghezzi & Álvarez 2023), and Huacones-Vilcahuasi. Includes 6 SHA-256-sealed protocols (P01-P06), a 98-entry offline searchable test register (publishing positives, negatives, refutations, and declared deviations with equal prominence), Khipu Reader v2 with empirical false-positive rate calibration, a bilingual interactive essay, and an 18-slide visual overview.",
+  "title": "What the Khipus Add Up To (v2.0): Null-Model Auditing, 689-Khipu Master Corpus, Frozen Protocols, and 2026 Literature Audit",
+  "description": "Reproducible computational analysis of 689 Andean khipus (60,969 cords; plus KH0652 with 19 wrapped threads = 690 objects), reconciling KFG (Ashok Khosla), OKR v2.1.0, the Ascher Databook, Karen Thompson's (2025) 222 structured corrections, RT-16905 (Chirinos, Ghezzi & Álvarez 2023), and Huacones-Vilcahuasi. Includes 6 SHA-256-sealed local protocols (P01-P06), a 98-entry offline searchable test register (publishing positives, negatives, refutations, and declared deviations with equal prominence), Khipu Reader v2 with empirical false-positive rate calibration, a bilingual interactive essay, and an 18-slide visual overview.",
   "upload_type": "software",
   "license": "MIT",
   "creators": [
@@ -30,7 +30,17 @@
       "identifier": "10.5281/zenodo.10472429",
       "relation": "isDerivedFrom",
       "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.1017/laq.2024.5",
+      "relation": "cites",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.26188/30526775",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
     }
   ],
-  "version": "2.0.0"
+  "version": "2.0.2"
 }
