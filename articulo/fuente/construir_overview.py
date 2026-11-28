@@ -419,7 +419,7 @@ def build_slides(lang, ctx):
             <p>{"Búsqueda instantánea sin conexión por ID, quipu, bloque o veredicto." if es else "Instant offline search by ID, khipu, block, or verdict."}</p>
           </div>
           <div class="card">
-            <h3>{"Sellos locales SHA-256 (pendiente OSF/Zenodo)" if es else "Local SHA-256 Seals (OSF/Zenodo Timestamp Pending)"}</h3>
+            <h3>{"Sellos SHA-256 archivados en Zenodo (v2.0.2)" if es else "SHA-256 Seals Archived on Zenodo (v2.0.2)"}</h3>
             <div class="mono" style="font-size:0.75rem;line-height:1.65">
               P01: 9c8346f026f710e9…<br>
               P02: fe169457c81eed41…<br>
@@ -455,7 +455,7 @@ def build_slides(lang, ctx):
         "De ensayo abierto a estándar replicable de evaluación cuantitativa" if es else "From Open Essay to a Replicable Standard for Quantitative Khipu Auditing",
         f"""<div class="grid2">
           <div class="card">
-            <h3>{"1. Depósito Zenodo v2.0.2 (DOI citable)" if es else "1. Zenodo v2.0.2 Deposit (Citable DOI)"}</h3>
+            <h3>{"1. Depósito Zenodo v2.0.2 (DOI 10.5281/zenodo.24600101)" if es else "1. Zenodo v2.0.2 Deposit (DOI 10.5281/zenodo.24600101)"}</h3>
             {f"Congela el Corpus Maestro (689 quipus), los 6 protocolos SHA-256, el Registro Unificado de {reg['total_pruebas']} pruebas (HTML/JSON/CSV), el Lector v2 con FPR calibrada y el ensayo bilingüe bajo CC BY 4.0 / MIT." if es else f"Freezes the 689-khipu Master Corpus, 6 SHA-256 protocols, the {reg['total_pruebas']}-test Unified Register (HTML/JSON/CSV), Reader v2 with calibrated FPR, and the bilingual essay under CC BY 4.0 / MIT."}
           </div>
           <div class="card">

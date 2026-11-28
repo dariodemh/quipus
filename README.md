@@ -1,5 +1,7 @@
 # Khipus: a computational analysis of the digital corpus
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24600101.svg)](https://doi.org/10.5281/zenodo.24600101)
+
 *Versión en español: [README.es.md](README.es.md).*
 
 **Open to specialist review.** Nothing here has been through peer review yet, and we invite specialists in khipus, Andean history and statistics to check it. Objections, corrections and new readings of the objects are welcome as [issues](https://github.com/dariodemh/quipus/issues).
@@ -169,6 +171,6 @@ The essay's map uses country outlines from **Natural Earth** (1:50m, public doma
 
 ## How to cite
 
-> dariodemh (2026). *Khipus: a computational analysis of the digital corpus* [code and data repository]. https://github.com/dariodemh/quipus
+> dariodemh (2026). *Khipus: a computational analysis of the digital corpus (v2.0.2)* [code and data repository]. Zenodo. https://doi.org/10.5281/zenodo.24600101 · https://github.com/dariodemh/quipus
 
 If you use the data, please also cite OKR and Medrano & Khosla (2024).

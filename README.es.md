@@ -1,5 +1,7 @@
 # Quipus: análisis computacional del corpus digital
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24600101.svg)](https://doi.org/10.5281/zenodo.24600101)
+
 *English version: [README.md](README.md).*
 
 **Abierto a revisión especializada.** Nada de lo que hay aquí ha pasado todavía por revisión de pares, e invitamos a especialistas en quipus, en historia andina y en estadística a revisarlo. Las objeciones, las correcciones y las relecturas de los objetos son bienvenidas como [issues](https://github.com/dariodemh/quipus/issues).
@@ -133,6 +135,6 @@ El mapa del ensayo usa los contornos de **Natural Earth** (1:50m, dominio públi
 
 ## Cómo citar
 
-> dariodemh (2026). *Quipus: análisis computacional del corpus digital* [repositorio de código y datos]. https://github.com/dariodemh/quipus
+> dariodemh (2026). *Quipus: análisis computacional del corpus digital (v2.0.2)* [repositorio de código y datos]. Zenodo. https://doi.org/10.5281/zenodo.24600101 · https://github.com/dariodemh/quipus
 
 Si usan los datos, citen también OKR y Medrano y Khosla (2024).

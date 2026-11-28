@@ -1,7 +1,7 @@
 # Estructura computacional, contabilidad en tres niveles y pruebas fuera de muestra en el corpus digital de quipus andinos (v2.0)
 
 **Autor:** Dario (`dariodemh`), con agentes de IA (Gemini de Google, Claude Opus/Sonnet de Anthropic y DeepSeek Flash)  
-**Repositorio y herramientas:** https://github.com/dariodemh/quipus · Ensayo, Resumen Visual y Lector en navegador: https://dariodemh.github.io/quipus/articulo/index.es.html  
+**Repositorio y herramientas:** https://github.com/dariodemh/quipus · DOI Zenodo (v2.0.2): https://doi.org/10.5281/zenodo.24600101 · Ensayo, Resumen Visual y Lector en navegador: https://dariodemh.github.io/quipus/articulo/index.es.html  
 **Estado:** Preprint v2 abierto a revisión especializada (sin revisión de pares todavía). Todos los estadísticos, controles y fichas son reproducibles de forma determinista desde el repositorio público.
 
 ---

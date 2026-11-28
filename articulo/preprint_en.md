@@ -1,7 +1,7 @@
 # Computational Structure, Three-Level Accounting, and Out-of-Sample Testing Across the Digital Andean Khipu Corpus (v2.0)
 
 **Author:** Dario (`dariodemh`), with AI research agents (Gemini from Google, Claude Opus/Sonnet from Anthropic, and DeepSeek Flash)  
-**Repository & Live Tools:** https://github.com/dariodemh/quipus · Interactive Essay, Visual Overview & Browser Reader: https://dariodemh.github.io/quipus/articulo/  
+**Repository & Live Tools:** https://github.com/dariodemh/quipus · Zenodo DOI (v2.0.2): https://doi.org/10.5281/zenodo.24600101 · Interactive Essay, Visual Overview & Browser Reader: https://dariodemh.github.io/quipus/articulo/  
 **Status:** Open preprint v2 for specialist review (not yet peer-reviewed). All statistics, controls, and reading sheets are deterministically reproducible from the public repository.
 
 ---

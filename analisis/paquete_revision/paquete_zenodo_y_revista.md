@@ -86,4 +86,4 @@ Siguiendo un estándar de reproducibilidad transparente (protocolos locales sell
 - [x] Atribución exacta a Ashok Khosla (editor KFG), Manuel Medrano (afiliado KFG / coautor 2024), Andrés Chirinos (2010, 2023, 2026), Marcia y Robert Ascher (1978) y Karen M. Thompson (2025).
 - [x] Todos los negativos, retiros y pruebas sin potencia publicados con idéntica visibilidad en `test_register.html`.
 - [x] Declaración transparente de autoría asistida por IA (Gemini, Claude Opus/Sonnet y DeepSeek Flash, auditoría adversarial independiente y responsabilidad humana sobre preguntas, diseño y decisiones editoriales).
-- [ ] Subir el release etiquetado `v2.0.2` a Zenodo para acuñar el DOI definitivo antes de enviar a *Latin American Antiquity*.
+- [x] Release etiquetado `v2.0.2` archivado en Zenodo con DOI definitivo: `10.5281/zenodo.24600101` (https://doi.org/10.5281/zenodo.24600101).
